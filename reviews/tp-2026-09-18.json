@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 26848,
+  "reviewed_tp_entries": 27218,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 7167,
+  "changed_pairs": 7271,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 7167,
+      "confirmed_swedish_changes": 7271,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "b2a5e6ee6d83b19f0f9433b9901ee030dd245a710ef51573c554b5111113ea01"
+      "sha256": "59f0aa372ef4113f174e87f0248e19c04e2e9dce4c94d9e6071bbc10f4afac2d"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 7167,
+      "confirmed_swedish_changes": 7271,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "0e8bb035ee909b0f14534783922dc28b0b60f3751efed16cdb66a04fb1a121a7"
+      "sha256": "feb2e03a19844602e12678e1b4fcd8d16bd6912081df25d850da1991b9fc2b5a"
     }
   },
   "unmapped_plural_fixes": [
@@ -64,7 +64,8 @@
     "e2fsprogs:7644",
     "fetchmail:69",
     "fetchmail:75",
-    "fetchmail:890"
+    "fetchmail:890",
+    "findutils:927"
   ],
   "changes": [
     {
@@ -57402,6 +57403,838 @@
       "before": "Skriver fetchids-fil.\n",
       "after": "Skriver fetchids-filen.\n",
       "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "findutils:123",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "(standard input)",
+      "before": "(standard ut)",
+      "after": "(standardindata)",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:162",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "The -delete action automatically turns on -depth, but -prune does nothing when -depth is in effect.  If you want to carry on anyway, just explicitly use the -depth option.",
+      "before": "Åtgärden -delete slår automatiskt på -depth, men -prune gör ingenting när -depth är aktiverat.  Om du vill fortsätta ändå kan du uttryckligen använda flaggan -depth.",
+      "after": "Åtgärden -delete aktiverar automatiskt -depth, men -prune gör ingenting när -depth är aktivt. Om du ändå vill fortsätta använder du uttryckligen alternativet -depth.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:167",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "warning: you have specified the global option %s after the argument %s, but global options are not positional, i.e., %s affects tests specified before it as well as those specified after it.  Please specify global options before other arguments.",
+      "before": "varning: du har angivit den globala flaggan %s efter argumentet %s, men globala flaggor beror inte på positionen, d.v.s., %s påverkar test som är angivna före den liksom de som är angivna efter den. Ange globala flaggor före andra argument.",
+      "after": "varning: du har angett det globala alternativet %s efter argumentet %s, men globala alternativ är inte positionsberoende, det vill säga %s påverkar både tester före och efter alternativet. Ange globala alternativ före andra argument.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:177",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "warning: the -d option is deprecated; please use -depth instead, because the latter is a POSIX-compliant feature.",
+      "before": "varning: flaggan -d är föråldrad; använd -depth istället, eftersom den senare stöds enligt POSIX.",
+      "after": "varning: alternativet -d är föråldrat; använd -depth i stället eftersom det senare är POSIX-kompatibelt.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:192",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "warning: %s matches against basenames only, but the given pattern contains a directory separator (%s), thus the expression will evaluate to false all the time.  Did you mean %s?",
+      "before": "varning: %s matchar endast mot basnamn, men det givna mönstret innehåller en katalogseparator (%s), alltså kommer uttrycket alltid beräknas till falskt. Menade du %s?",
+      "after": "varning: %s matchar bara mot basnamn, men det angivna mönstret innehåller en katalogavgränsare (%s), så uttrycket blir alltid falskt. Menade du %s?",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:197",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Expected a positive decimal integer argument to %s, but got %s",
+      "before": "Förväntade ett positivt decimalt heltalsargument till %s, men fick %s",
+      "after": "Förväntade ett positivt decimalt heltal som argument till %s, men fick %s",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:212",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "I cannot figure out how to interpret %s as a date or time",
+      "before": "Jag kan inte lista ut om jag ska tolka %s som ett datum eller klockslag",
+      "after": "Kan inte avgöra hur %s ska tolkas som datum eller tid",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:222",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "warning: -%s %s will not match anything because it ends with /.",
+      "before": "varning: -%s %s kommer inte matcha något eftersom det slutar med /.",
+      "after": "varning: -%s %s matchar inte något eftersom argumentet slutar med /.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:252",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "invalid null argument to -size",
+      "before": "tomt argument till -size ogiltigt",
+      "after": "ogiltigt tomt argument till -size",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:287",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Arguments to %s should contain at least one letter",
+      "before": "Argument till %s skall innehålla minst en bokstav",
+      "after": "Argument till %s ska innehålla minst en bokstav",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:302",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "%s %c is not supported because named sockets are not supported on the platform find was compiled on.",
+      "before": "%s %c stödjs inte eftersom namngivna uttag inte stödjs på plattformen där find kompilerades.",
+      "after": "%s %c stöds inte eftersom socketar inte stöds på plattformen där find kompilerades.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:317",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Duplicate file type '%c' in the argument list to %s.",
+      "before": "Dubblerad filtyp ”%c” i argumentlistan till %s.",
+      "after": "dubblett av filtypen ”%c” i argumentlistan till %s.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:322",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Must separate multiple arguments to %s using: ','",
+      "before": "Man måste separera multipla argument till %s med: ”,”",
+      "after": "Flera argument till %s måste avgränsas med ”,”",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:327",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Last file type in list argument to %s is missing, i.e., list is ending on: ','",
+      "before": "Sista filtypen i listargumentet till %s saknas, d.v.s., listan slutar med: ”,”",
+      "after": "Den sista filtypen saknas i listargumentet till %s; listan slutar på ”,”",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:332",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "The current directory is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove the current directory from your $PATH (that is, remove \".\", doubled colons, or leading or trailing colons)",
+      "before": "Den aktuella katalogen är inkluderad i miljövariabeln PATH, vilket är osäkert i kombination med åtgärden %s för find. Ta bort aktuell katalog från din $PATH (alltså, ta bort ”.”, dubbla kolon, inledande eller avslutande kolon)",
+      "after": "Den aktuella katalogen ingår i miljövariabeln PATH, vilket är osäkert tillsammans med åtgärden %s i find. Ta bort den aktuella katalogen från $PATH (ta bort ”.”, dubbla kolon eller inledande och avslutande kolon)",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:337",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "The relative path %s is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove that entry from $PATH",
+      "before": "Relativa sökvägen %s är inkluderad i miljövariabeln PATH, vilket är osäkert i kombination med åtgärden %s för find.  Ta bort den posten från $PATH",
+      "after": "Den relativa sökvägen %s ingår i miljövariabeln PATH, vilket är osäkert tillsammans med åtgärden %s i find. Ta bort den posten från $PATH",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:352",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "In %s the %s must appear by itself, but you specified %s",
+      "before": "I %s måste %s förekomma ensamt, men du angav %s",
+      "after": "I %s måste %s stå för sig självt, men du angav %s",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:367",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "arithmetic overflow while converting %s days to a number of seconds",
+      "before": "aritmetiskt spill vid vid konvertering av %s dagar till ett antal sekunder",
+      "after": "aritmetiskt spill vid konvertering av %s dagar till sekunder",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:405",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Failed to write prompt for -ok",
+      "before": "Misslyckades med att skriva en prompt för -ok",
+      "after": "Det gick inte att skriva frågan för -ok",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:435",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "warning: format directive `%%%c' should be followed by another character",
+      "before": "varning: formatdirektivet ”%%%c” skall följas av ett ytterligare tecken",
+      "after": "varning: formatdirektivet ”%%%c” ska följas av ytterligare ett tecken",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:450",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "invalid expression; you have used a binary operator '%s' with nothing before it.",
+      "before": "ogiltigt uttryck; du har använt en binäroperator ”%s” utan någonting före den.",
+      "after": "ogiltigt uttryck; du har använt den binära operatorn ”%s” utan något före den.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:475",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "invalid expression; expected to find a ')' but didn't see one. Perhaps you need an extra predicate after '%s'",
+      "before": "ogiltigt uttryck; förväntade att hitta ett ”)”-tecken men kunde inte se något. Kanske behöver du ett extra predikat efter ”%s”",
+      "after": "ogiltigt uttryck; förväntade en ”)”, men hittade ingen. Kanske behövs ett extra predikat efter ”%s”",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:485",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "invalid expression; I was expecting to find a ')' somewhere but did not see one.",
+      "before": "ogiltigt uttryck; Jag förväntade mig att hitta ett ”)”-tecken någonstans men kunde inte se något.",
+      "after": "ogiltigt uttryck; förväntade en ”)” någonstans, men hittade ingen.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:510",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "warning: there is no entry in the predicate evaluation cost table for predicate %s; please report this as a bug",
+      "before": "varning: det finns ingen post i tabellen över kostnad för predikatberäkning för predikatet %s; rapportera gärna detta som ett fel",
+      "after": "varning: det saknas en post i tabellen över kostnader för predikatutvärdering för predikatet %s; rapportera detta som ett fel",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:520",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "possible unquoted pattern after predicate `%s'?",
+      "before": "möjligen oskyddade mönster efter predikatet ”%s”?",
+      "after": "möjligen oskyddat mönster efter predikatet ”%s”?",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:565",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Valid arguments for -D:\n",
+      "before": "Giltiga argument till -D:\n",
+      "after": "Giltiga argument för -D:\n",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:574",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Usage: %s [-H] [-L] [-P] [-Olevel] [-D debugopts] [path...] [expression]\n",
+      "before": "Användning: %s [-H] [-L] [-P] [-Onivå] [-D felsökningsflaggor] [sökväg …] [uttryck]\n",
+      "after": "Användning: %s [-H] [-L] [-P] [-Onivå] [-D felsökningsalternativ] [sökväg …] [uttryck]\n",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:579",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "\nDefault path is the current directory; default expression is -print.\nExpression may consist of: operators, options, tests, and actions.\n",
+      "before": "\nStandardsökväg är aktuell katalog; standarduttryck är -print.\nUttryck kan bestå av: operatorer, flaggor, tester och åtgärder.\n",
+      "after": "\nStandardsökvägen är den aktuella katalogen; standarduttrycket är -print.\nEtt uttryck kan bestå av operatorer, alternativ, tester och åtgärder.\n",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:602",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "\nPositional options (always true):\n      -daystart -follow -nowarn -regextype -warn\n",
+      "before": "\nPositionsflaggor (alltid sanna):\n      -daystart -follow -nowarn -regextype -warn\n",
+      "after": "\nPositionsalternativ (alltid sanna):\n      -daystart -follow -nowarn -regextype -warn\n",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:664",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "\nOther common options:\n",
+      "before": "\nAndra vanliga flaggor:\n",
+      "after": "\nAndra vanliga alternativ:\n",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:739",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Please specify a decimal number immediately after -O",
+      "before": "Ange ett decimaltal omedelbart efter -O",
+      "after": "Ange ett decimaltal direkt efter -O",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:749",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Optimisation level %lu is too high.  If you want to find files very quickly, consider using GNU locate.",
+      "before": "Optimeringsnivån %lu är för hög.  Om du mycket snabbt vill hitta filer bör du överväga att använda GNU locate.",
+      "after": "Optimeringsnivån %lu är för hög. Om du vill hitta filer mycket snabbt kan du överväga att använda GNU locate.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:764",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Please see also the documentation at %s.\nYou can report (and track progress on fixing) bugs in the \"%s\"\nprogram via the %s bug-reporting page at\n%s or, if\nyou have no web access, by sending email to <%s>.\n",
+      "before": "Se även dokumentationen på %s.\nMan kan rapportera (och följa rättningen av) fel i programmet ”%s”\ngenom felrapporteringssidan %s på\n%s eller, om\nman inte har tillgång till webben, genom att skicka e-post till <%s>.\nSkicka synpunkter på översättningen med e-post till <tp-sv@listor.tp-sv.se>.\n",
+      "after": "Se även dokumentationen på %s.\nFel i programmet ”%s” kan rapporteras och följas via felrapporteringssidan %s på\n%s eller, om\ndu saknar tillgång till webben, genom e-post till <%s>.\nSkicka synpunkter på översättningen till <tp-sv@listor.tp-sv.se>.\n",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:800",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Environment variable %s is not set to a valid decimal number",
+      "before": "Miljövariabeln %s är inte satt till ett giltigt decimalt tal",
+      "after": "Miljövariabeln %s är inte satt till ett giltigt decimaltal",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:805",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "File descriptor %d will leak; please report this as a bug, remembering to include a detailed description of the simplest way to reproduce this problem.",
+      "before": "Filbeskrivaren %d kommer läcka; rapportera detta som ett fel, och kom ihåg att ta med en detaljerad beskrivning av det enklaste sättet att återskapa detta problem.",
+      "after": "Filbeskrivaren %d kommer att läcka; rapportera detta som ett fel och inkludera en detaljerad beskrivning av det enklaste sättet att återskapa problemet.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:835",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Unknown regular expression type %s; valid types are %s.",
+      "before": "Okänd reguljärt uttryckstyp %s; giltiga typer är %s.",
+      "after": "Okänd typ av reguljärt uttryck %s; giltiga typer är %s.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:868",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Security level %s has unexpected suffix %s.",
+      "before": "Säkerhetsnivån %s har oväntade suffixet %s.",
+      "after": "Säkerhetsnivån %s har det oväntade suffixet %s.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:888",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Failed to write to standard output",
+      "before": "Misslyckades med att skriva till standard ut",
+      "after": "Misslyckades med att skriva till standardutdata",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:893",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "The input file should end with the delimiter",
+      "before": "Indatafilen skall sluta med avgränsaren",
+      "after": "Indatafilen ska sluta med avgränsaren",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:902",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "The argument for option --max-database-age must not be empty",
+      "before": "Argumentet för flaggan --max-database-age får inte vara tom",
+      "after": "Argumentet till alternativet --max-database-age får inte vara tomt",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:944",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "File names have a cumulative length of %s bytes.\nOf those file names,\n\n\t%s contain whitespace, \n\t%s contain newline characters, \n\tand %s contain characters with the high bit set.\n",
+      "before": "Filnamnen har en kumulativ längd på %s byte.\nAv dessa filnamn innehåller\n\n\t%s tomrum, \n\t%s nyradstecken och \n\t%s tecken med den höga biten satt.\n",
+      "after": "Filnamnen har en sammanlagd längd på %s byte.\nAv filnamnen innehåller\n\n\t%s blanktecken, \n\t%s nyradstecken och \n\t%s tecken med hög bit satt.\n",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:966",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Compression ratio %4.2f%% (higher is better)\n",
+      "before": "Komprimeringsförhållande %4.2f% % (högre är bättre)\n",
+      "after": "Komprimeringsförhållande %4.2f%% (högre är bättre)\n",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:976",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "locate database %s looks like an slocate database but it seems to have security level %c, which GNU findutils does not currently support",
+      "before": "locate-databasen %s ser ut som en slocate-databas men den verkar ha säkerhetsnivån %c, som GNU findutils för närvarande inte har stöd för",
+      "after": "locate-databasen %s ser ut som en slocate-databas, men den verkar ha säkerhetsnivån %c, som GNU findutils inte stöder.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:986",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "You specified the -E option, but that option cannot be used with slocate-format databases with a non-zero security level.  No results will be generated for this database.\n",
+      "before": "Du angav flaggan -E men den flaggan kan inte användas med databaser med slocate-format med en säkerhetsnivå högre än 0.  Inga resultat kommer att genereras för den här databasen.\n",
+      "after": "Du angav alternativet -E, men det kan inte användas med slocate-databaser med säkerhetsnivå skild från noll. Inga resultat genereras för databasen.\n",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:1006",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "The database has little-endian machine-word encoding.\n",
+      "before": "Databasen har ordkodning för little-endian-maskiner.\n",
+      "after": "Databasen har maskinordskodning med little-endian.\n",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:1010",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "The database has big-endian machine-word encoding.\n",
+      "before": "Databasen har ordkodning för big-endian-maskiner.\n",
+      "after": "Databasen har maskinordskodning med big-endian.\n",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:1014",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "The database machine-word encoding order is not obvious.\n",
+      "before": "Ordningen för databasens maskinordskodning är inte självklar.\n",
+      "after": "Databasens maskinordskodningsordning är inte uppenbar.\n",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:1064",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "time system call failed",
+      "before": "tidsystemsanrop misslyckades",
+      "after": "systemanropet time misslyckades",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:1089",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Invalid escape sequence %s in input delimiter specification.",
+      "before": "Ogiltig specialsekvens %s i inmatningsavskiljarspecifikationen.",
+      "after": "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:1094",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Invalid escape sequence %s in input delimiter specification; character values must not exceed %lx.",
+      "before": "Ogiltig specialsekvens %s i inmatningsavskiljarspecifikationen; teckenvärden får inte överstiga %lx.",
+      "after": "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare; teckenvärden får inte överstiga %lx.",
+      "reason": "Språk- och terminologigranskning av Findutils"
+    },
+    {
+      "tp_id": "findutils:1099",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Invalid escape sequence %s in input delimiter specification; character values must not exceed %lo.",
+      "before": "Ogiltig specialsekvens %s i inmatningsavskiljarspecifikationen; teckenvärden får inte överstiga %lo.",
+      "after": "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare; teckenvärden får inte överstiga %lo.",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1104",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Invalid escape sequence %s in input delimiter specification; trailing characters %s not recognised.",
+      "before": "Ogiltig specialsekvens %s i inmatningsavskiljarspecifikationen; efterföljande tecknen %s är okända.",
+      "after": "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare; efterföljande tecken %s känns inte igen.",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1109",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Invalid input delimiter specification %s: the delimiter must be either a single character or an escape sequence starting with \\.",
+      "before": "Ogiltig inmatningsavskiljarspecifikation %s: avskiljaren måste vara antingen ett enstaka tecken eller en specialsekvens som börjar med \\.",
+      "after": "Ogiltig specifikation av indataavgränsare %s: avgränsaren måste vara ett enstaka tecken eller en kontrollsekvens som börjar med \\.",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1119",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "warning: options %s and %s are mutually exclusive, ignoring previous %s value",
+      "before": "varning: flaggorna %s och %s är ömsesidigt uteslutande, ignorerar det föregående värdet %s",
+      "after": "varning: alternativen %s och %s kan inte användas tillsammans; ignorerar tidigare värde för %s",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1124",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "warning: value %ld for -s option is too large, using %ld instead",
+      "before": "varning: värdet %ld för flaggan -s är för stort, använder %ld istället",
+      "after": "varning: värdet %ld för alternativet -s är för stort; använder %ld i stället",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1139",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "failed to unset environment variable %s",
+      "before": "misslyckades att ta bort miljövariabeln %s",
+      "after": "misslyckades med att avaktivera miljövariabeln %s",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1149",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Cannot set SIGUSR1 signal handler",
+      "before": "Kan inte sätta en signalhanterare för SIGUSR1",
+      "after": "Kan inte ange signalhanterare för SIGUSR1",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1154",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Cannot set SIGUSR2 signal handler",
+      "before": "Kan inte sätta en signalhanterare för SIGUSR2",
+      "after": "Kan inte ange signalhanterare för SIGUSR2",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1159",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Cannot open input file %s",
+      "before": "Kan inte öppna inmatningsfilen %s",
+      "after": "Kan inte öppna indatafilen %s",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1179",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Maximum length of command we could actually use: %<PRIuMAX>\n",
+      "before": "Maximal längd på kommando som vi faktiskt kan använda: %<PRIuMAX>\n",
+      "after": "Största kommando längd som faktiskt kan användas: %<PRIuMAX>\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1184",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Size of command buffer we are actually using: %<PRIuMAX>\n",
+      "before": "Storlek på kommandobufferten som vi faktiskt använder: %<PRIuMAX>\n",
+      "after": "Storlek på kommandobufferten som faktiskt används: %<PRIuMAX>\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1189",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Maximum parallelism (--max-procs must be no greater): %<PRIuMAX>\n",
+      "before": "Maximal parallellism (--max-procs får inte vara större): %<PRIuMAX>\n",
+      "after": "Största parallellism (--max-procs får inte vara större): %<PRIuMAX>\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1194",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "\nExecution of xargs will continue now, and it will try to read its input and run commands; if this is not what you wanted to happen, please type the end-of-file keystroke.\n",
+      "before": "\nKörningen av xargs kommer att fortsätta nu och den kommer att försöka läsa dess inmatning och köra kommandon; om det här inte är vad du ville skulle hända kan du trycka på tangentkombinationen för filslut.\n",
+      "after": "\nXargs fortsätter nu att försöka läsa indata och köra kommandon. Om detta inte är avsikten trycker du på tangentkombinationen för filslut.\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1208",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "unmatched %s quote; by default quotes are special to xargs unless you use the -0 option",
+      "before": "citattecknet %s är oavslutat; som standard är citattecken speciella för xargs såvida du inte använder flaggan -0",
+      "after": "oavslutat %s-citattecken; citattecken är normalt specialtecken för xargs om inte alternativet -0 används",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1221",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "WARNING: a NUL character occurred in the input.  It cannot be passed through in the argument list.  Did you mean to use the --null option?",
+      "before": "VARNING: ett NOLL-tecken förekommer i inmatningen.  Det kan inte skickas vidare i argumentlistan.  Tänkte du använda flaggan --null?",
+      "after": "VARNING: ett NUL-tecken förekom i indata. Det kan inte skickas vidare i argumentlistan. Menade du att använda alternativet --null?",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1251",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "failed to redirect standard input of the child process",
+      "before": "misslyckades att omdirigera barnprocessens standard in",
+      "after": "misslyckades med att omdirigera barnprocessens standardindata",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1256",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "could not create pipe before fork",
+      "before": "kunde inte skapa ett rör före grenandet",
+      "after": "kunde inte skapa en kanal före fork",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1275",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "errno-buffer safe_read failed in xargs_do_exec (this is probably a bug, please report it)",
+      "before": "safe_read av errno-buffert misslyckades i xargs_do_exec (detta är förmodligen ett fel, rapportera det gärna)",
+      "after": "safe_read av errno-bufferten misslyckades i xargs_do_exec (detta är förmodligen ett fel; rapportera det)",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1280",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "error waiting for child process",
+      "before": "fel vid väntande på barnprocess",
+      "after": "fel vid väntan på barnprocess",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1285",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "WARNING: Lost track of %lu child processes",
+      "before": "VARNING: Förlorade kontrollen över %lu barnprocesser",
+      "after": "VARNING: tappade kontrollen över %lu barnprocesser",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1310",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "%s: value %s for -%c option should be >= %ld\n",
+      "before": "%s: värdet %s till flaggan -%c skall vara ≥ %ld\n",
+      "after": "%s: värdet %s för alternativet -%c ska vara ≥ %ld\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1315",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "%s: value %s for -%c option should be <= %ld\n",
+      "before": "%s: värdet %s till flaggan -%c skall vara ≤ %ld\n",
+      "after": "%s: värdet %s för alternativet -%c ska vara ≤ %ld\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1333",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "Mandatory and optional arguments to long options are also\nmandatory or optional for the corresponding short option.\n",
+      "before": "Obligatoriska och valfria argument till långa flaggor är obligatoriska\neller valfria även för motsvarande korta flagga.\n",
+      "after": "Obligatoriska och valfria argument till långa alternativ är också\nobligatoriska respektive valfria för motsvarande korta alternativ.\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1352",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "  -a, --arg-file=FILE          read arguments from FILE, not standard input\n",
+      "before": "  -a, --arg-file=FIL           läs argument från FIL, inte standard in\n",
+      "after": "  -a, --arg-file=FIL           läs argument från FIL, inte standardindata\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1389",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "  -i, --replace[=R]            replace R in INITIAL-ARGS with names read\n                                 from standard input, split at newlines;\n                                 if R is unspecified, assume {}\n",
+      "before": "  -i, --replace[=E]            ersätt E i STARTARGUMENT med namn lästa från\n                                 standard in; dela vid nyrader;\n                                 om E utelämnas, anta {}\n",
+      "after": "  -i, --replace[=E]            ersätt E i STARTARGUMENT med namn lästa från\n                                 standardindata, uppdelade vid nyrader;\n                                 om E inte anges används {}\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1407",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "  -l[MAX-LINES]                similar to -L but defaults to at most one non-\n                                 blank input line if MAX-LINES is not specified\n",
+      "before": "  -l[MAX-RADER]                snarlikt -L men har som standardvärde högst en\n                                 icke tom indatarad om MAX-RADER inte anges\n",
+      "after": "  -l[MAX-RADER]                liknar -L, men använder högst en icke-tom\n                                 indatarad om MAX-RADER inte anges\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1433",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "  -p, --interactive            prompt before running commands\n",
+      "before": "  -p, --interactive            fråga före varje kommando körs\n",
+      "after": "  -p, --interactive            fråga före körning av varje kommando\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1441",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "  -r, --no-run-if-empty        if there are no arguments, then do not run COMMAND;\n                                 if this option is not given, COMMAND will be\n                                 run at least once\n",
+      "before": "  -r, --no-run-if-empty        om det inte finns några argument, kör då inte\n                                 KOMMANDO; om denna flagga inte anges kommer\n                                 KOMMANDO köras åtminstone en gång\n",
+      "after": "  -r, --no-run-if-empty        om det inte finns några argument, kör inte\n                                 KOMMANDO; om alternativet inte anges körs\n                                 KOMMANDO minst en gång\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1455",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "      --show-limits            show limits on command-line length\n",
+      "before": "      --show-limits            visa gränser på kommandoradslängden\n",
+      "after": "      --show-limits            visa gränser för kommandoradens längd\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "findutils:1459",
+      "project": "tp:findutils-4.9.0",
+      "msgid": "  -t, --verbose                print commands before executing them\n",
+      "before": "  -t, --verbose                skriv kommandon före de körs\n",
+      "after": "  -t, --verbose                skriv ut kommandon före körning\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:40",
+      "project": "tp:flex-2.6.4",
+      "msgid": "State #%d is non-accepting -\n",
+      "before": "Tillstånd %d är icke-accepterande -\n",
+      "after": "Tillstånd #%d är icke-accepterande –\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:49",
+      "project": "tp:flex-2.6.4",
+      "msgid": " associated rule line numbers:",
+      "before": " radnummer för associerad regel:",
+      "after": " radnummer för tillhörande regel:",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:88",
+      "project": "tp:flex-2.6.4",
+      "msgid": "state # %d:\n",
+      "before": "tillstånd %d:\n",
+      "after": "tillstånd #%d:\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:187",
+      "project": "tp:flex-2.6.4",
+      "msgid": "-s option given but default rule can be matched",
+      "before": "flaggan -s angiven men standardregeln kan följas",
+      "after": "alternativet -s har angetts, men standardregeln kan matcha",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:232",
+      "project": "tp:flex-2.6.4",
+      "msgid": "bison bridge not supported for the C++ scanner.",
+      "before": "bisonbrygga stöds inte för C++-inläsaren.",
+      "after": "Bison-brygga stöds inte för C++-inläsaren.",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:254",
+      "project": "tp:flex-2.6.4",
+      "msgid": "allocation of macro definition failed",
+      "before": "allokering av makrodefinitioner misslyckades",
+      "after": "allokering av makrodefinition misslyckades",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:258",
+      "project": "tp:flex-2.6.4",
+      "msgid": "input error reading skeleton file %s",
+      "before": "indatafel vid läsande av mallfilen %s",
+      "after": "indatafel vid läsning av mallfilen %s",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:263",
+      "project": "tp:flex-2.6.4",
+      "msgid": "error closing skeleton file %s",
+      "before": "fel vid stängande av mallfilen %s",
+      "after": "fel vid stängning av mallfilen %s",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:273",
+      "project": "tp:flex-2.6.4",
+      "msgid": "error writing output file %s",
+      "before": "fel vid skrivande av utfilen %s",
+      "after": "fel vid skrivning av utdatafilen %s",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:278",
+      "project": "tp:flex-2.6.4",
+      "msgid": "error closing output file %s",
+      "before": "fel vid stängande av utfilen %s",
+      "after": "fel vid stängning av utdatafilen %s",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:283",
+      "project": "tp:flex-2.6.4",
+      "msgid": "error deleting output file %s",
+      "before": "fel vid borttagning av utfilen %s",
+      "after": "fel vid borttagning av utdatafilen %s",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:314",
+      "project": "tp:flex-2.6.4",
+      "msgid": "%s version %s usage statistics:\n",
+      "before": "Statistik över användning av %s version %s:\n",
+      "after": "Användningsstatistik för %s version %s:\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:354",
+      "project": "tp:flex-2.6.4",
+      "msgid": "  Beginning-of-line patterns used\n",
+      "before": "  Början-av-rad-mönster använda\n",
+      "after": "  Början-av-rad-mönster används\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:379",
+      "project": "tp:flex-2.6.4",
+      "msgid": "  %d state/nextstate pairs created\n",
+      "before": "  %d par med tillstånd/nästa-tillstånd skapade\n",
+      "after": "  %d par med tillstånd och nästa tillstånd skapades\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:384",
+      "project": "tp:flex-2.6.4",
+      "msgid": "  %d/%d unique/duplicate transitions\n",
+      "before": "  %d/%d unika/duplicerade övergångar\n",
+      "after": "  %d/%d unika/dubbla övergångar\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:394",
+      "project": "tp:flex-2.6.4",
+      "msgid": "  %d/%d base-def entries created\n",
+      "before": "  %d/%d basstandardposter skapade\n",
+      "after": "  %d/%d bas-/standardposter skapades\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:404",
+      "project": "tp:flex-2.6.4",
+      "msgid": "  %d/%d (peak %d) template nxt-chk entries created\n",
+      "before": "  %d/%d (max %d) mallposter för nästa kontroll skapade\n",
+      "after": "  %d/%d (max %d) mallposter för nxt-chk skapades\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:459",
+      "project": "tp:flex-2.6.4",
+      "msgid": "unknown -C option '%c'",
+      "before": "okänd flagga till -C \"%c\"",
+      "after": "okänt -C-alternativ ”%c”",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:469",
+      "project": "tp:flex-2.6.4",
+      "msgid": "fatal parse error",
+      "before": "allvarligt fel vid tolkningen",
+      "after": "allvarligt tolkningsfel",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:478",
+      "project": "tp:flex-2.6.4",
+      "msgid": "-l AT&T lex compatibility option entails a large performance penalty\n",
+      "before": "flaggan -l för beteende som AT&T:s lex medför en väsentlig prestandaförlust\n",
+      "after": "alternativet -l för kompatibilitet med AT&T lex medför en stor prestandaförlust\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:483",
+      "project": "tp:flex-2.6.4",
+      "msgid": " and may be the actual source of other reported performance penalties\n",
+      "before": " och kan vara den egentliga orsaken till andra rapporter om detta\n",
+      "after": " och kan vara den verkliga orsaken till andra rapporterade prestandaförluster\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:508",
+      "project": "tp:flex-2.6.4",
+      "msgid": "Variable trailing context rules entail a large performance penalty\n",
+      "before": "Regler för varierbar efterföljande kontext medför en väsentlig prestandaförlust\n",
+      "after": "Regler med variabel efterföljande kontext medför en stor prestandaförlust\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:522",
+      "project": "tp:flex-2.6.4",
+      "msgid": "variable trailing context rules cannot be used with -f or -F",
+      "before": "regler för varierbar efterföljande kontext kan inte användas\ntillsammans med -f eller -F",
+      "after": "regler med variabel efterföljande kontext kan inte användas\ntillsammans med -f eller -F",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "flex:533",
+      "project": "tp:flex-2.6.4",
+      "msgid": "Usage: %s [OPTIONS] [FILE]...\n",
+      "before": "Användning: %s [FLAGGOR] [FIL]...\n",
+      "after": "Användning: %s [ALTERNATIV] [FIL]…\n",
+      "reason": "Språk- och terminologigranskning"
     }
   ]
 }

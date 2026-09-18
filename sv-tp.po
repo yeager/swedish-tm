@@ -348564,7 +348564,7 @@ msgstr "flaggan -files0-from när man läser från standard in kan inte kombiner
 
 #. from tp:findutils-4.9.0
 msgid "(standard input)"
-msgstr "(standard ut)"
+msgstr "(standardindata)"
 
 #. from tp:findutils-4.9.0
 msgid "option -files0-from: standard input must not refer to the same file when combined with -ok, -okdir"
@@ -348580,15 +348580,15 @@ msgstr "Biblioteksfunktionen atexit misslyckades"
 
 #. from tp:findutils-4.9.0
 msgid "The -delete action automatically turns on -depth, but -prune does nothing when -depth is in effect.  If you want to carry on anyway, just explicitly use the -depth option."
-msgstr "Åtgärden -delete slår automatiskt på -depth, men -prune gör ingenting när -depth är aktiverat.  Om du vill fortsätta ändå kan du uttryckligen använda flaggan -depth."
+msgstr "Åtgärden -delete aktiverar automatiskt -depth, men -prune gör ingenting när -depth är aktivt. Om du ändå vill fortsätta använder du uttryckligen alternativet -depth."
 
 #. from tp:findutils-4.9.0
 msgid "warning: you have specified the global option %s after the argument %s, but global options are not positional, i.e., %s affects tests specified before it as well as those specified after it.  Please specify global options before other arguments."
-msgstr "varning: du har angivit den globala flaggan %s efter argumentet %s, men globala flaggor beror inte på positionen, d.v.s., %s påverkar test som är angivna före den liksom de som är angivna efter den. Ange globala flaggor före andra argument."
+msgstr "varning: du har angett det globala alternativet %s efter argumentet %s, men globala alternativ är inte positionsberoende, det vill säga %s påverkar både tester före och efter alternativet. Ange globala alternativ före andra argument."
 
 #. from tp:findutils-4.9.0
 msgid "warning: the -d option is deprecated; please use -depth instead, because the latter is a POSIX-compliant feature."
-msgstr "varning: flaggan -d är föråldrad; använd -depth istället, eftersom den senare stöds enligt POSIX."
+msgstr "varning: alternativet -d är föråldrat; använd -depth i stället eftersom det senare är POSIX-kompatibelt."
 
 #. from tp:findutils-4.9.0
 msgid "%s is not the name of an existing group and it does not look like a numeric group ID because it has the unexpected suffix %s"
@@ -348608,11 +348608,11 @@ msgstr "rimlighetskontroll av biblioteksfunktionen fnmatch() misslyckades."
 
 #. from tp:findutils-4.9.0
 msgid "warning: %s matches against basenames only, but the given pattern contains a directory separator (%s), thus the expression will evaluate to false all the time.  Did you mean %s?"
-msgstr "varning: %s matchar endast mot basnamn, men det givna mönstret innehåller en katalogseparator (%s), alltså kommer uttrycket alltid beräknas till falskt. Menade du %s?"
+msgstr "varning: %s matchar bara mot basnamn, men det angivna mönstret innehåller en katalogavgränsare (%s), så uttrycket blir alltid falskt. Menade du %s?"
 
 #. from tp:findutils-4.9.0
 msgid "Expected a positive decimal integer argument to %s, but got %s"
-msgstr "Förväntade ett positivt decimalt heltalsargument till %s, men fick %s"
+msgstr "Förväntade ett positivt decimalt heltal som argument till %s, men fick %s"
 
 #. from tp:findutils-4.9.0
 msgid "This system does not provide a way to find the birth time of a file."
@@ -348624,7 +348624,7 @@ msgstr "%s-testet behöver ett argument"
 
 #. from tp:findutils-4.9.0
 msgid "I cannot figure out how to interpret %s as a date or time"
-msgstr "Jag kan inte lista ut om jag ska tolka %s som ett datum eller klockslag"
+msgstr "Kan inte avgöra hur %s ska tolkas som datum eller tid"
 
 #. from tp:findutils-4.9.0
 msgid "Cannot obtain birth time of file %s"
@@ -348632,7 +348632,7 @@ msgstr "Kan inte läsa av födelsetid för filen %s"
 
 #. from tp:findutils-4.9.0
 msgid "warning: -%s %s will not match anything because it ends with /."
-msgstr "varning: -%s %s kommer inte matcha något eftersom det slutar med /."
+msgstr "varning: -%s %s matchar inte något eftersom argumentet slutar med /."
 
 #. from tp:findutils-4.9.0
 msgid "warning: you have specified a mode pattern %s (which is equivalent to /000). The meaning of -perm /000 has now been changed to be consistent with -perm -000; that is, while it used to match no files, it now matches all files."
@@ -348644,7 +348644,7 @@ msgstr "misslyckades att kompilera det reguljära uttrycket ”%s”: %s"
 
 #. from tp:findutils-4.9.0
 msgid "invalid null argument to -size"
-msgstr "tomt argument till -size ogiltigt"
+msgstr "ogiltigt tomt argument till -size"
 
 #. from tp:findutils-4.9.0
 msgid "invalid -size type `%c'"
@@ -348680,7 +348680,7 @@ msgstr "felaktigt predikat -context: SELinux är inte aktiverat."
 
 #. from tp:findutils-4.9.0
 msgid "Arguments to %s should contain at least one letter"
-msgstr "Argument till %s skall innehålla minst en bokstav"
+msgstr "Argument till %s ska innehålla minst en bokstav"
 
 #. from tp:findutils-4.9.0
 msgid "%s %c is not supported because symbolic links are not supported on the platform find was compiled on."
@@ -348692,7 +348692,7 @@ msgstr "%s %c stödjs inte eftersom FIFO:er inte stödjs på plattformen där fi
 
 #. from tp:findutils-4.9.0
 msgid "%s %c is not supported because named sockets are not supported on the platform find was compiled on."
-msgstr "%s %c stödjs inte eftersom namngivna uttag inte stödjs på plattformen där find kompilerades."
+msgstr "%s %c stöds inte eftersom socketar inte stöds på plattformen där find kompilerades."
 
 #. from tp:findutils-4.9.0
 msgid "%s %c is not supported because Solaris doors are not supported on the platform find was compiled on."
@@ -348704,23 +348704,23 @@ msgstr "Okänt argument till %s: %c"
 
 #. from tp:findutils-4.9.0
 msgid "Duplicate file type '%c' in the argument list to %s."
-msgstr "Dubblerad filtyp ”%c” i argumentlistan till %s."
+msgstr "dubblett av filtypen ”%c” i argumentlistan till %s."
 
 #. from tp:findutils-4.9.0
 msgid "Must separate multiple arguments to %s using: ','"
-msgstr "Man måste separera multipla argument till %s med: ”,”"
+msgstr "Flera argument till %s måste avgränsas med ”,”"
 
 #. from tp:findutils-4.9.0
 msgid "Last file type in list argument to %s is missing, i.e., list is ending on: ','"
-msgstr "Sista filtypen i listargumentet till %s saknas, d.v.s., listan slutar med: ”,”"
+msgstr "Den sista filtypen saknas i listargumentet till %s; listan slutar på ”,”"
 
 #. from tp:findutils-4.9.0
 msgid "The current directory is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove the current directory from your $PATH (that is, remove \".\", doubled colons, or leading or trailing colons)"
-msgstr "Den aktuella katalogen är inkluderad i miljövariabeln PATH, vilket är osäkert i kombination med åtgärden %s för find. Ta bort aktuell katalog från din $PATH (alltså, ta bort ”.”, dubbla kolon, inledande eller avslutande kolon)"
+msgstr "Den aktuella katalogen ingår i miljövariabeln PATH, vilket är osäkert tillsammans med åtgärden %s i find. Ta bort den aktuella katalogen från $PATH (ta bort ”.”, dubbla kolon eller inledande och avslutande kolon)"
 
 #. from tp:findutils-4.9.0
 msgid "The relative path %s is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove that entry from $PATH"
-msgstr "Relativa sökvägen %s är inkluderad i miljövariabeln PATH, vilket är osäkert i kombination med åtgärden %s för find.  Ta bort den posten från $PATH"
+msgstr "Den relativa sökvägen %s ingår i miljövariabeln PATH, vilket är osäkert tillsammans med åtgärden %s i find. Ta bort den posten från $PATH"
 
 #. from tp:findutils-4.9.0
 msgid "You may not use {} within the utility name for -execdir and -okdir, because this is a potential security problem."
@@ -348732,7 +348732,7 @@ msgstr "Endast en instans av {} stöds med -exec%s ... +"
 
 #. from tp:findutils-4.9.0
 msgid "In %s the %s must appear by itself, but you specified %s"
-msgstr "I %s måste %s förekomma ensamt, men du angav %s"
+msgstr "I %s måste %s stå för sig självt, men du angav %s"
 
 #. from tp:findutils-4.9.0
 msgid "The environment is too large for exec()."
@@ -348740,7 +348740,7 @@ msgstr "Miljön är för stor för exec()."
 
 #. from tp:findutils-4.9.0
 msgid "arithmetic overflow while converting %s days to a number of seconds"
-msgstr "aritmetiskt spill vid vid konvertering av %s dagar till ett antal sekunder"
+msgstr "aritmetiskt spill vid konvertering av %s dagar till sekunder"
 
 #. from tp:findutils-4.9.0
 msgid "arithmetic overflow when trying to calculate the end of today"
@@ -348760,7 +348760,7 @@ msgstr "< %s ... %s > ? "
 
 #. from tp:findutils-4.9.0
 msgid "Failed to write prompt for -ok"
-msgstr "Misslyckades med att skriva en prompt för -ok"
+msgstr "Det gick inte att skriva frågan för -ok"
 
 #. from tp:findutils-4.9.0
 msgid "getfilecon failed: %s"
@@ -348784,7 +348784,7 @@ msgstr "fel: formatdirektivet ”%%%c” är reserverat för framtida användnin
 
 #. from tp:findutils-4.9.0
 msgid "warning: format directive `%%%c' should be followed by another character"
-msgstr "varning: formatdirektivet ”%%%c” skall följas av ett ytterligare tecken"
+msgstr "varning: formatdirektivet ”%%%c” ska följas av ytterligare ett tecken"
 
 #. from tp:findutils-4.9.0
 msgid "warning: unrecognized format directive `%%%c'"
@@ -348796,7 +348796,7 @@ msgstr "ogiltigt uttryck"
 
 #. from tp:findutils-4.9.0
 msgid "invalid expression; you have used a binary operator '%s' with nothing before it."
-msgstr "ogiltigt uttryck; du har använt en binäroperator ”%s” utan någonting före den."
+msgstr "ogiltigt uttryck; du har använt den binära operatorn ”%s” utan något före den."
 
 #. from tp:findutils-4.9.0
 msgid "invalid expression: expected expression before closing parentheses '%s'."
@@ -348816,7 +348816,7 @@ msgstr "ogiltigt uttryck; du har för många ”)”"
 
 #. from tp:findutils-4.9.0
 msgid "invalid expression; expected to find a ')' but didn't see one. Perhaps you need an extra predicate after '%s'"
-msgstr "ogiltigt uttryck; förväntade att hitta ett ”)”-tecken men kunde inte se något. Kanske behöver du ett extra predikat efter ”%s”"
+msgstr "ogiltigt uttryck; förväntade en ”)”, men hittade ingen. Kanske behövs ett extra predikat efter ”%s”"
 
 #. from tp:findutils-4.9.0
 msgid "invalid expression; empty parentheses are not allowed."
@@ -348824,7 +348824,7 @@ msgstr "ogiltigt uttryck; tomma parenteser tillåts inte."
 
 #. from tp:findutils-4.9.0
 msgid "invalid expression; I was expecting to find a ')' somewhere but did not see one."
-msgstr "ogiltigt uttryck; Jag förväntade mig att hitta ett ”)”-tecken någonstans men kunde inte se något."
+msgstr "ogiltigt uttryck; förväntade en ”)” någonstans, men hittade ingen."
 
 #. from tp:findutils-4.9.0
 msgid "oops -- invalid expression type!"
@@ -348836,7 +348836,7 @@ msgstr "hoppsan -- ogiltig uttryckstyp (%d)!"
 
 #. from tp:findutils-4.9.0
 msgid "warning: there is no entry in the predicate evaluation cost table for predicate %s; please report this as a bug"
-msgstr "varning: det finns ingen post i tabellen över kostnad för predikatberäkning för predikatet %s; rapportera gärna detta som ett fel"
+msgstr "varning: det saknas en post i tabellen över kostnader för predikatutvärdering för predikatet %s; rapportera detta som ett fel"
 
 #. from tp:findutils-4.9.0
 msgid "paths must precede expression: `%s'"
@@ -348844,7 +348844,7 @@ msgstr "sökvägar måste komma före uttryck: ”%s”"
 
 #. from tp:findutils-4.9.0
 msgid "possible unquoted pattern after predicate `%s'?"
-msgstr "möjligen oskyddade mönster efter predikatet ”%s”?"
+msgstr "möjligen oskyddat mönster efter predikatet ”%s”?"
 
 #. from tp:findutils-4.9.0
 msgid "unknown predicate `%s'"
@@ -348880,15 +348880,15 @@ msgstr "hoppsan -- ogiltig standardinsättning av and!"
 
 #. from tp:findutils-4.9.0
 msgid "Valid arguments for -D:\n"
-msgstr "Giltiga argument till -D:\n"
+msgstr "Giltiga argument för -D:\n"
 
 #. from tp:findutils-4.9.0
 msgid "Usage: %s [-H] [-L] [-P] [-Olevel] [-D debugopts] [path...] [expression]\n"
-msgstr "Användning: %s [-H] [-L] [-P] [-Onivå] [-D felsökningsflaggor] [sökväg …] [uttryck]\n"
+msgstr "Användning: %s [-H] [-L] [-P] [-Onivå] [-D felsökningsalternativ] [sökväg …] [uttryck]\n"
 
 #. from tp:findutils-4.9.0
 msgid "\nDefault path is the current directory; default expression is -print.\nExpression may consist of: operators, options, tests, and actions.\n"
-msgstr "\nStandardsökväg är aktuell katalog; standarduttryck är -print.\nUttryck kan bestå av: operatorer, flaggor, tester och åtgärder.\n"
+msgstr "\nStandardsökvägen är den aktuella katalogen; standarduttrycket är -print.\nEtt uttryck kan bestå av operatorer, alternativ, tester och åtgärder.\n"
 
 #. from tp:findutils-4.9.0
 msgid "\nOperators (decreasing precedence; -and is implicit where no others are given):\n      ( EXPR )   ! EXPR   -not EXPR   EXPR1 -a EXPR2   EXPR1 -and EXPR2\n      EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1 , EXPR2\n"
@@ -348896,7 +348896,7 @@ msgstr "\nOperatorer (avtagande prioritetsordning; -and underförstås när inga
 
 #. from tp:findutils-4.9.0
 msgid "\nPositional options (always true):\n      -daystart -follow -nowarn -regextype -warn\n"
-msgstr "\nPositionsflaggor (alltid sanna):\n      -daystart -follow -nowarn -regextype -warn\n"
+msgstr "\nPositionsalternativ (alltid sanna):\n      -daystart -follow -nowarn -regextype -warn\n"
 
 #. from tp:findutils-4.9.0
 msgid "\nNormal options (always true, specified before other expressions):\n      -depth -files0-from FILE -maxdepth LEVELS -mindepth LEVELS\n       -mount -noleaf -xdev -ignore_readdir_race -noignore_readdir_race\n"
@@ -348912,7 +348912,7 @@ msgstr "\nÅtgärder:\n      -delete -print0 -printf FORMAT -fprintf FIL FORMAT 
 
 #. from tp:findutils-4.9.0
 msgid "\nOther common options:\n"
-msgstr "\nAndra vanliga flaggor:\n"
+msgstr "\nAndra vanliga alternativ:\n"
 
 #. from tp:findutils-4.9.0
 msgid "      --help                   display this help and exit\n"
@@ -348948,7 +348948,7 @@ msgstr "Flaggan -O måste omedelbart efterföljas av ett decimalt heltal"
 
 #. from tp:findutils-4.9.0
 msgid "Please specify a decimal number immediately after -O"
-msgstr "Ange ett decimaltal omedelbart efter -O"
+msgstr "Ange ett decimaltal direkt efter -O"
 
 #. from tp:findutils-4.9.0
 msgid "Invalid optimisation level %s"
@@ -348956,7 +348956,7 @@ msgstr "Ogiltig optimeringsnivå %s"
 
 #. from tp:findutils-4.9.0
 msgid "Optimisation level %lu is too high.  If you want to find files very quickly, consider using GNU locate."
-msgstr "Optimeringsnivån %lu är för hög.  Om du mycket snabbt vill hitta filer bör du överväga att använda GNU locate."
+msgstr "Optimeringsnivån %lu är för hög. Om du vill hitta filer mycket snabbt kan du överväga att använda GNU locate."
 
 #. from tp:findutils-4.9.0
 msgid "Missing argument after the -D option."
@@ -348968,7 +348968,7 @@ msgstr "Miljövariabeln FIND_BLOCK_SIZE stöds inte, det enda som påverkar bloc
 
 #. from tp:findutils-4.9.0
 msgid "Please see also the documentation at %s.\nYou can report (and track progress on fixing) bugs in the \"%s\"\nprogram via the %s bug-reporting page at\n%s or, if\nyou have no web access, by sending email to <%s>.\n"
-msgstr "Se även dokumentationen på %s.\nMan kan rapportera (och följa rättningen av) fel i programmet ”%s”\ngenom felrapporteringssidan %s på\n%s eller, om\nman inte har tillgång till webben, genom att skicka e-post till <%s>.\nSkicka synpunkter på översättningen med e-post till <tp-sv@listor.tp-sv.se>.\n"
+msgstr "Se även dokumentationen på %s.\nFel i programmet ”%s” kan rapporteras och följas via felrapporteringssidan %s på\n%s eller, om\ndu saknar tillgång till webben, genom e-post till <%s>.\nSkicka synpunkter på översättningen till <tp-sv@listor.tp-sv.se>.\n"
 
 #. from tp:findutils-4.9.0
 msgid "can't call exec() due to argument size restrictions"
@@ -348984,11 +348984,11 @@ msgstr "argumentlistan är för lång"
 
 #. from tp:findutils-4.9.0
 msgid "Environment variable %s is not set to a valid decimal number"
-msgstr "Miljövariabeln %s är inte satt till ett giltigt decimalt tal"
+msgstr "Miljövariabeln %s är inte satt till ett giltigt decimaltal"
 
 #. from tp:findutils-4.9.0
 msgid "File descriptor %d will leak; please report this as a bug, remembering to include a detailed description of the simplest way to reproduce this problem."
-msgstr "Filbeskrivaren %d kommer läcka; rapportera detta som ett fel, och kom ihåg att ta med en detaljerad beskrivning av det enklaste sättet att återskapa detta problem."
+msgstr "Filbeskrivaren %d kommer att läcka; rapportera detta som ett fel och inkludera en detaljerad beskrivning av det enklaste sättet att återskapa problemet."
 
 #. from tp:findutils-4.9.0
 msgid "Eric B. Decker"
@@ -349004,7 +349004,7 @@ msgstr "Misslyckades med att skriva utdata (i steg %d)"
 
 #. from tp:findutils-4.9.0
 msgid "Unknown regular expression type %s; valid types are %s."
-msgstr "Okänd reguljärt uttryckstyp %s; giltiga typer är %s."
+msgstr "Okänd typ av reguljärt uttryck %s; giltiga typer är %s."
 
 #. from tp:findutils-4.9.0
 msgid "Unexpected suffix %s on %s"
@@ -349028,7 +349028,7 @@ msgstr "Säkerhetsnivån %s är utanför konverteringsintervallet."
 
 #. from tp:findutils-4.9.0
 msgid "Security level %s has unexpected suffix %s."
-msgstr "Säkerhetsnivån %s har oväntade suffixet %s."
+msgstr "Säkerhetsnivån %s har det oväntade suffixet %s."
 
 #. from tp:findutils-4.9.0
 msgid "slocate security level %ld is unsupported."
@@ -349040,15 +349040,15 @@ msgstr "inget argument förväntades."
 
 #. from tp:findutils-4.9.0
 msgid "Failed to write to standard output"
-msgstr "Misslyckades med att skriva till standard ut"
+msgstr "Misslyckades med att skriva till standardutdata"
 
 #. from tp:findutils-4.9.0
 msgid "The input file should end with the delimiter"
-msgstr "Indatafilen skall sluta med avgränsaren"
+msgstr "Indatafilen ska sluta med avgränsaren"
 
 #. from tp:findutils-4.9.0
 msgid "The argument for option --max-database-age must not be empty"
-msgstr "Argumentet för flaggan --max-database-age får inte vara tom"
+msgstr "Argumentet till alternativet --max-database-age får inte vara tomt"
 
 #. from tp:findutils-4.9.0
 msgid "Invalid argument %s for option --max-database-age"
@@ -349076,7 +349076,7 @@ msgstr "Alla filnamn: %s\n"
 
 #. from tp:findutils-4.9.0
 msgid "File names have a cumulative length of %s bytes.\nOf those file names,\n\n	%s contain whitespace, \n	%s contain newline characters, \n	and %s contain characters with the high bit set.\n"
-msgstr "Filnamnen har en kumulativ längd på %s byte.\nAv dessa filnamn innehåller\n\n	%s tomrum, \n	%s nyradstecken och \n	%s tecken med den höga biten satt.\n"
+msgstr "Filnamnen har en sammanlagd längd på %s byte.\nAv filnamnen innehåller\n\n\t%s blanktecken, \n\t%s nyradstecken och \n\t%s tecken med hög bit satt.\n"
 
 #. from tp:findutils-4.9.0
 msgid "Some filenames may have been filtered out, so we cannot compute the compression ratio.\n"
@@ -349084,7 +349084,7 @@ msgstr "Några filnamn kan ha filtrerats bort, så vi kan inte beräkna komprime
 
 #. from tp:findutils-4.9.0
 msgid "Compression ratio %4.2f%% (higher is better)\n"
-msgstr "Komprimeringsförhållande %4.2f% % (högre är bättre)\n"
+msgstr "Komprimeringsförhållande %4.2f%% (högre är bättre)\n"
 
 #. from tp:findutils-4.9.0
 msgid "Compression ratio is undefined\n"
@@ -349092,7 +349092,7 @@ msgstr "Komprimeringsförhållandet är odefinierat\n"
 
 #. from tp:findutils-4.9.0
 msgid "locate database %s looks like an slocate database but it seems to have security level %c, which GNU findutils does not currently support"
-msgstr "locate-databasen %s ser ut som en slocate-databas men den verkar ha säkerhetsnivån %c, som GNU findutils för närvarande inte har stöd för"
+msgstr "locate-databasen %s ser ut som en slocate-databas, men den verkar ha säkerhetsnivån %c, som GNU findutils inte stöder."
 
 #. from tp:findutils-4.9.0
 msgid "%s is an slocate database of unsupported security level %d; skipping it."
@@ -349100,7 +349100,7 @@ msgstr "%s är en slocate-databas med säkerhetsnivån %d som inte stöds; hoppa
 
 #. from tp:findutils-4.9.0
 msgid "You specified the -E option, but that option cannot be used with slocate-format databases with a non-zero security level.  No results will be generated for this database.\n"
-msgstr "Du angav flaggan -E men den flaggan kan inte användas med databaser med slocate-format med en säkerhetsnivå högre än 0.  Inga resultat kommer att genereras för den här databasen.\n"
+msgstr "Du angav alternativet -E, men det kan inte användas med slocate-databaser med säkerhetsnivå skild från noll. Inga resultat genereras för databasen.\n"
 
 #. from tp:findutils-4.9.0
 msgid "%s is an slocate database.  Turning on the '-e' option."
@@ -349116,15 +349116,15 @@ msgstr "Databasen %s är i formatet %s.\n"
 
 #. from tp:findutils-4.9.0
 msgid "The database has little-endian machine-word encoding.\n"
-msgstr "Databasen har ordkodning för little-endian-maskiner.\n"
+msgstr "Databasen har maskinordskodning med little-endian.\n"
 
 #. from tp:findutils-4.9.0
 msgid "The database has big-endian machine-word encoding.\n"
-msgstr "Databasen har ordkodning för big-endian-maskiner.\n"
+msgstr "Databasen har maskinordskodning med big-endian.\n"
 
 #. from tp:findutils-4.9.0
 msgid "The database machine-word encoding order is not obvious.\n"
-msgstr "Ordningen för databasens maskinordskodning är inte självklar.\n"
+msgstr "Databasens maskinordskodningsordning är inte uppenbar.\n"
 
 #. from tp:findutils-4.9.0
 msgid "Usage: %s [-d path | --database=path] [-e | -E | --[non-]existing]\n      [-i | --ignore-case] [-w | --wholename] [-b | --basename] \n      [--limit=N | -l N] [-S | --statistics] [-0 | --null] [-c | --count]\n      [-P | -H | --nofollow] [-L | --follow] [-m | --mmap] [-s | --stdio]\n      [-A | --all] [-p | --print] [-r | --regex] [--regextype=TYPE]\n      [--max-database-age D] [--version] [--help]\n      pattern...\n"
@@ -349156,7 +349156,7 @@ msgstr "varning: locate-databasen kan endast läsas en gång från standard in."
 
 #. from tp:findutils-4.9.0
 msgid "time system call failed"
-msgstr "tidsystemsanrop misslyckades"
+msgstr "systemanropet time misslyckades"
 
 #. from tp:findutils-4.9.0
 msgid "warning: database %s is more than %u %s old (actual age is %.1f %s)"
@@ -349176,23 +349176,23 @@ msgstr "fel vid läsning av ett ord från %s"
 
 #. from tp:findutils-4.9.0
 msgid "Invalid escape sequence %s in input delimiter specification."
-msgstr "Ogiltig specialsekvens %s i inmatningsavskiljarspecifikationen."
+msgstr "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare."
 
 #. from tp:findutils-4.9.0
 msgid "Invalid escape sequence %s in input delimiter specification; character values must not exceed %lx."
-msgstr "Ogiltig specialsekvens %s i inmatningsavskiljarspecifikationen; teckenvärden får inte överstiga %lx."
+msgstr "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare; teckenvärden får inte överstiga %lx."
 
 #. from tp:findutils-4.9.0
 msgid "Invalid escape sequence %s in input delimiter specification; character values must not exceed %lo."
-msgstr "Ogiltig specialsekvens %s i inmatningsavskiljarspecifikationen; teckenvärden får inte överstiga %lo."
+msgstr "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare; teckenvärden får inte överstiga %lo."
 
 #. from tp:findutils-4.9.0
 msgid "Invalid escape sequence %s in input delimiter specification; trailing characters %s not recognised."
-msgstr "Ogiltig specialsekvens %s i inmatningsavskiljarspecifikationen; efterföljande tecknen %s är okända."
+msgstr "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare; efterföljande tecken %s känns inte igen."
 
 #. from tp:findutils-4.9.0
 msgid "Invalid input delimiter specification %s: the delimiter must be either a single character or an escape sequence starting with \\."
-msgstr "Ogiltig inmatningsavskiljarspecifikation %s: avskiljaren måste vara antingen ett enstaka tecken eller en specialsekvens som börjar med \\."
+msgstr "Ogiltig specifikation av indataavgränsare %s: avgränsaren måste vara ett enstaka tecken eller en kontrollsekvens som börjar med \\."
 
 #. from tp:findutils-4.9.0
 msgid "environment is too large for exec"
@@ -349200,11 +349200,11 @@ msgstr "miljön är för stor för exec"
 
 #. from tp:findutils-4.9.0
 msgid "warning: options %s and %s are mutually exclusive, ignoring previous %s value"
-msgstr "varning: flaggorna %s och %s är ömsesidigt uteslutande, ignorerar det föregående värdet %s"
+msgstr "varning: alternativen %s och %s kan inte användas tillsammans; ignorerar tidigare värde för %s"
 
 #. from tp:findutils-4.9.0
 msgid "warning: value %ld for -s option is too large, using %ld instead"
-msgstr "varning: värdet %ld för flaggan -s är för stort, använder %ld istället"
+msgstr "varning: värdet %ld för alternativet -s är för stort; använder %ld i stället"
 
 #. from tp:findutils-4.9.0
 msgid "option --%s may not be set to a value which includes `='"
@@ -349212,7 +349212,7 @@ msgstr "flaggan --%s får inte sättas till ett värde som innehåller ”=”"
 
 #. from tp:findutils-4.9.0
 msgid "failed to unset environment variable %s"
-msgstr "misslyckades att ta bort miljövariabeln %s"
+msgstr "misslyckades med att avaktivera miljövariabeln %s"
 
 #. from tp:findutils-4.9.0
 msgid "warning: the -E option has no effect if -0 or -d is used.\n"
@@ -349220,15 +349220,15 @@ msgstr "varning: flaggan -E har ingen effekt om -0 eller -d används.\n"
 
 #. from tp:findutils-4.9.0
 msgid "Cannot set SIGUSR1 signal handler"
-msgstr "Kan inte sätta en signalhanterare för SIGUSR1"
+msgstr "Kan inte ange signalhanterare för SIGUSR1"
 
 #. from tp:findutils-4.9.0
 msgid "Cannot set SIGUSR2 signal handler"
-msgstr "Kan inte sätta en signalhanterare för SIGUSR2"
+msgstr "Kan inte ange signalhanterare för SIGUSR2"
 
 #. from tp:findutils-4.9.0
 msgid "Cannot open input file %s"
-msgstr "Kan inte öppna inmatningsfilen %s"
+msgstr "Kan inte öppna indatafilen %s"
 
 #. from tp:findutils-4.9.0
 msgid "Your environment variables take up %<PRIuMAX> bytes\n"
@@ -349244,19 +349244,19 @@ msgstr "Minsta tillåtna övre POSIX-gräns för argumentlängd (alla system): %
 
 #. from tp:findutils-4.9.0
 msgid "Maximum length of command we could actually use: %<PRIuMAX>\n"
-msgstr "Maximal längd på kommando som vi faktiskt kan använda: %<PRIuMAX>\n"
+msgstr "Största kommando längd som faktiskt kan användas: %<PRIuMAX>\n"
 
 #. from tp:findutils-4.9.0
 msgid "Size of command buffer we are actually using: %<PRIuMAX>\n"
-msgstr "Storlek på kommandobufferten som vi faktiskt använder: %<PRIuMAX>\n"
+msgstr "Storlek på kommandobufferten som faktiskt används: %<PRIuMAX>\n"
 
 #. from tp:findutils-4.9.0
 msgid "Maximum parallelism (--max-procs must be no greater): %<PRIuMAX>\n"
-msgstr "Maximal parallellism (--max-procs får inte vara större): %<PRIuMAX>\n"
+msgstr "Största parallellism (--max-procs får inte vara större): %<PRIuMAX>\n"
 
 #. from tp:findutils-4.9.0
 msgid "\nExecution of xargs will continue now, and it will try to read its input and run commands; if this is not what you wanted to happen, please type the end-of-file keystroke.\n"
-msgstr "\nKörningen av xargs kommer att fortsätta nu och den kommer att försöka läsa dess inmatning och köra kommandon; om det här inte är vad du ville skulle hända kan du trycka på tangentkombinationen för filslut.\n"
+msgstr "\nXargs fortsätter nu att försöka läsa indata och köra kommandon. Om detta inte är avsikten trycker du på tangentkombinationen för filslut.\n"
 
 #. from tp:findutils-4.9.0
 msgid "Warning: %s will be run at least once.  If you do not want that to happen, then press the interrupt keystroke.\n"
@@ -349264,11 +349264,11 @@ msgstr "Varning: %s kommer att köras minst en gång.  Om du inte vill att det h
 
 #. from tp:findutils-4.9.0
 msgid "unmatched %s quote; by default quotes are special to xargs unless you use the -0 option"
-msgstr "citattecknet %s är oavslutat; som standard är citattecken speciella för xargs såvida du inte använder flaggan -0"
+msgstr "oavslutat %s-citattecken; citattecken är normalt specialtecken för xargs om inte alternativet -0 används"
 
 #. from tp:findutils-4.9.0
 msgid "WARNING: a NUL character occurred in the input.  It cannot be passed through in the argument list.  Did you mean to use the --null option?"
-msgstr "VARNING: ett NOLL-tecken förekommer i inmatningen.  Det kan inte skickas vidare i argumentlistan.  Tänkte du använda flaggan --null?"
+msgstr "VARNING: ett NUL-tecken förekom i indata. Det kan inte skickas vidare i argumentlistan. Menade du att använda alternativet --null?"
 
 #. from tp:findutils-4.9.0
 msgid "argument line too long"
@@ -349292,15 +349292,15 @@ msgstr "misslyckades att sätta miljövariabeln %s"
 
 #. from tp:findutils-4.9.0
 msgid "failed to redirect standard input of the child process"
-msgstr "misslyckades att omdirigera barnprocessens standard in"
+msgstr "misslyckades med att omdirigera barnprocessens standardindata"
 
 #. from tp:findutils-4.9.0
 msgid "could not create pipe before fork"
-msgstr "kunde inte skapa ett rör före grenandet"
+msgstr "kunde inte skapa en kanal före fork"
 
 #. from tp:findutils-4.9.0
 msgid "errno-buffer safe_read failed in xargs_do_exec (this is probably a bug, please report it)"
-msgstr "safe_read av errno-buffert misslyckades i xargs_do_exec (detta är förmodligen ett fel, rapportera det gärna)"
+msgstr "safe_read av errno-bufferten misslyckades i xargs_do_exec (detta är förmodligen ett fel; rapportera det)"
 
 #. from tp:findutils-4.9.0
 msgid "read returned unexpected value %<PRIuMAX>; this is probably a bug, please report it"
@@ -349308,11 +349308,11 @@ msgstr "läsning returnerade ett oväntat värde %<PRIuMAX>; detta är förmodli
 
 #. from tp:findutils-4.9.0
 msgid "error waiting for child process"
-msgstr "fel vid väntande på barnprocess"
+msgstr "fel vid väntan på barnprocess"
 
 #. from tp:findutils-4.9.0
 msgid "WARNING: Lost track of %lu child processes"
-msgstr "VARNING: Förlorade kontrollen över %lu barnprocesser"
+msgstr "VARNING: tappade kontrollen över %lu barnprocesser"
 
 #. from tp:findutils-4.9.0
 msgid "%s: exited with status 255; aborting"
@@ -349332,11 +349332,11 @@ msgstr "%s: felaktigt tal ”%s” till flaggan -%c\n"
 
 #. from tp:findutils-4.9.0
 msgid "%s: value %s for -%c option should be >= %ld\n"
-msgstr "%s: värdet %s till flaggan -%c skall vara ≥ %ld\n"
+msgstr "%s: värdet %s för alternativet -%c ska vara ≥ %ld\n"
 
 #. from tp:findutils-4.9.0
 msgid "%s: value %s for -%c option should be <= %ld\n"
-msgstr "%s: värdet %s till flaggan -%c skall vara ≤ %ld\n"
+msgstr "%s: värdet %s för alternativet -%c ska vara ≤ %ld\n"
 
 #. from tp:findutils-4.9.0
 msgid "Usage: %s [OPTION]... COMMAND [INITIAL-ARGS]...\n"
@@ -349348,7 +349348,7 @@ msgstr "Kör KOMMANDO med argumenten STARTARGUMENT och ytterligare argument läs
 
 #. from tp:findutils-4.9.0
 msgid "Mandatory and optional arguments to long options are also\nmandatory or optional for the corresponding short option.\n"
-msgstr "Obligatoriska och valfria argument till långa flaggor är obligatoriska\neller valfria även för motsvarande korta flagga.\n"
+msgstr "Obligatoriska och valfria argument till långa alternativ är också\nobligatoriska respektive valfria för motsvarande korta alternativ.\n"
 
 #. from tp:findutils-4.9.0
 msgid "  -0, --null                   items are separated by a null, not whitespace;\n                                 disables quote and backslash processing and\n                                 logical EOF processing\n"
@@ -349356,7 +349356,7 @@ msgstr "  -0, --null                   saker avgränsas av noll, inte blanktecke
 
 #. from tp:findutils-4.9.0
 msgid "  -a, --arg-file=FILE          read arguments from FILE, not standard input\n"
-msgstr "  -a, --arg-file=FIL           läs argument från FIL, inte standard in\n"
+msgstr "  -a, --arg-file=FIL           läs argument från FIL, inte standardindata\n"
 
 #. from tp:findutils-4.9.0
 msgid "  -d, --delimiter=CHARACTER    items in input stream are separated by CHARACTER,\n                                 not by whitespace; disables quote and backslash\n                                 processing and logical EOF processing\n"
@@ -349376,7 +349376,7 @@ msgstr "  -I E                         samma som --replace=E\n"
 
 #. from tp:findutils-4.9.0
 msgid "  -i, --replace[=R]            replace R in INITIAL-ARGS with names read\n                                 from standard input, split at newlines;\n                                 if R is unspecified, assume {}\n"
-msgstr "  -i, --replace[=E]            ersätt E i STARTARGUMENT med namn lästa från\n                                 standard in; dela vid nyrader;\n                                 om E utelämnas, anta {}\n"
+msgstr "  -i, --replace[=E]            ersätt E i STARTARGUMENT med namn lästa från\n                                 standardindata, uppdelade vid nyrader;\n                                 om E inte anges används {}\n"
 
 #. from tp:findutils-4.9.0
 msgid "  -L, --max-lines=MAX-LINES    use at most MAX-LINES non-blank input lines per\n                                 command line\n"
@@ -349384,7 +349384,7 @@ msgstr "  -L, --max-lines=MAX-RADER    använd högst MAX-RADER ej tomma indatar
 
 #. from tp:findutils-4.9.0
 msgid "  -l[MAX-LINES]                similar to -L but defaults to at most one non-\n                                 blank input line if MAX-LINES is not specified\n"
-msgstr "  -l[MAX-RADER]                snarlikt -L men har som standardvärde högst en\n                                 icke tom indatarad om MAX-RADER inte anges\n"
+msgstr "  -l[MAX-RADER]                liknar -L, men använder högst en icke-tom\n                                 indatarad om MAX-RADER inte anges\n"
 
 #. from tp:findutils-4.9.0
 msgid "  -n, --max-args=MAX-ARGS      use at most MAX-ARGS arguments per command line\n"
@@ -349400,7 +349400,7 @@ msgstr "  -P, --max-procs=MAX-PROCS    kör högst MAX-PROCS processer åt gång
 
 #. from tp:findutils-4.9.0
 msgid "  -p, --interactive            prompt before running commands\n"
-msgstr "  -p, --interactive            fråga före varje kommando körs\n"
+msgstr "  -p, --interactive            fråga före körning av varje kommando\n"
 
 #. from tp:findutils-4.9.0
 msgid "      --process-slot-var=VAR   set environment variable VAR in child processes\n"
@@ -349408,7 +349408,7 @@ msgstr "      --process-slot-var=VAR   sätt miljövariabeln VAR i barnprocesser
 
 #. from tp:findutils-4.9.0
 msgid "  -r, --no-run-if-empty        if there are no arguments, then do not run COMMAND;\n                                 if this option is not given, COMMAND will be\n                                 run at least once\n"
-msgstr "  -r, --no-run-if-empty        om det inte finns några argument, kör då inte\n                                 KOMMANDO; om denna flagga inte anges kommer\n                                 KOMMANDO köras åtminstone en gång\n"
+msgstr "  -r, --no-run-if-empty        om det inte finns några argument, kör inte\n                                 KOMMANDO; om alternativet inte anges körs\n                                 KOMMANDO minst en gång\n"
 
 #. from tp:findutils-4.9.0
 msgid "  -s, --max-chars=MAX-CHARS    limit length of command line to MAX-CHARS\n"
@@ -349416,11 +349416,11 @@ msgstr "  -s, --max-chars=MAX-TECKEN   begränsa längden på kommandoraden till
 
 #. from tp:findutils-4.9.0
 msgid "      --show-limits            show limits on command-line length\n"
-msgstr "      --show-limits            visa gränser på kommandoradslängden\n"
+msgstr "      --show-limits            visa gränser för kommandoradens längd\n"
 
 #. from tp:findutils-4.9.0
 msgid "  -t, --verbose                print commands before executing them\n"
-msgstr "  -t, --verbose                skriv kommandon före de körs\n"
+msgstr "  -t, --verbose                skriv ut kommandon före körning\n"
 
 #. from tp:findutils-4.9.0
 msgid "  -x, --exit                   exit if the size (see -s) is exceeded\n"
@@ -349444,7 +349444,7 @@ msgstr "Allokering av buffert för m4-undef misslyckades"
 
 #. from tp:flex-2.6.4
 msgid "State #%d is non-accepting -\n"
-msgstr "Tillstånd %d är icke-accepterande -\n"
+msgstr "Tillstånd #%d är icke-accepterande –\n"
 
 #. from tp:flex-2.6.4
 msgid "dangerous trailing context"
@@ -349452,7 +349452,7 @@ msgstr "farlig efterföljande kontext"
 
 #. from tp:flex-2.6.4
 msgid " associated rule line numbers:"
-msgstr " radnummer för associerad regel:"
+msgstr " radnummer för tillhörande regel:"
 
 #. from tp:flex-2.6.4
 msgid " out-transitions: "
@@ -349476,7 +349476,7 @@ msgstr "kunde inte skapa ett unikt buffertsluttillstånd"
 
 #. from tp:flex-2.6.4
 msgid "state # %d:\n"
-msgstr "tillstånd %d:\n"
+msgstr "tillstånd #%d:\n"
 
 #. from tp:flex-2.6.4
 msgid "Could not write yynxt_tbl[][]"
@@ -349556,7 +349556,7 @@ msgstr "regeln kan inte matchas"
 
 #. from tp:flex-2.6.4
 msgid "-s option given but default rule can be matched"
-msgstr "flaggan -s angiven men standardregeln kan följas"
+msgstr "alternativet -s har angetts, men standardregeln kan matcha"
 
 #. from tp:flex-2.6.4
 msgid "Can't use -+ with -l option"
@@ -349600,7 +349600,7 @@ msgstr "Flaggorna -+ och --reentrant är ömsesidigt uteslutande."
 
 #. from tp:flex-2.6.4
 msgid "bison bridge not supported for the C++ scanner."
-msgstr "bisonbrygga stöds inte för C++-inläsaren."
+msgstr "Bison-brygga stöds inte för C++-inläsaren."
 
 #. from tp:flex-2.6.4
 msgid "could not create %s"
@@ -349620,15 +349620,15 @@ msgstr "Prefix kan inte innehålla ”[” eller ”]”"
 
 #. from tp:flex-2.6.4
 msgid "allocation of macro definition failed"
-msgstr "allokering av makrodefinitioner misslyckades"
+msgstr "allokering av makrodefinition misslyckades"
 
 #. from tp:flex-2.6.4
 msgid "input error reading skeleton file %s"
-msgstr "indatafel vid läsande av mallfilen %s"
+msgstr "indatafel vid läsning av mallfilen %s"
 
 #. from tp:flex-2.6.4
 msgid "error closing skeleton file %s"
-msgstr "fel vid stängande av mallfilen %s"
+msgstr "fel vid stängning av mallfilen %s"
 
 #. from tp:flex-2.6.4
 msgid "error creating header file %s"
@@ -349636,15 +349636,15 @@ msgstr "fel vid skapande av huvudfilen %s"
 
 #. from tp:flex-2.6.4
 msgid "error writing output file %s"
-msgstr "fel vid skrivande av utfilen %s"
+msgstr "fel vid skrivning av utdatafilen %s"
 
 #. from tp:flex-2.6.4
 msgid "error closing output file %s"
-msgstr "fel vid stängande av utfilen %s"
+msgstr "fel vid stängning av utdatafilen %s"
 
 #. from tp:flex-2.6.4
 msgid "error deleting output file %s"
-msgstr "fel vid borttagning av utfilen %s"
+msgstr "fel vid borttagning av utdatafilen %s"
 
 #. from tp:flex-2.6.4
 msgid "No backing up.\n"
@@ -349668,7 +349668,7 @@ msgstr "fel när backningsfilen %s stängdes"
 
 #. from tp:flex-2.6.4
 msgid "%s version %s usage statistics:\n"
-msgstr "Statistik över användning av %s version %s:\n"
+msgstr "Användningsstatistik för %s version %s:\n"
 
 #. from tp:flex-2.6.4
 msgid "  scanner options: -"
@@ -349700,7 +349700,7 @@ msgstr "  Komprimerade tabeller backar alltid\n"
 
 #. from tp:flex-2.6.4
 msgid "  Beginning-of-line patterns used\n"
-msgstr "  Början-av-rad-mönster använda\n"
+msgstr "  Början-av-rad-mönster används\n"
 
 #. from tp:flex-2.6.4
 msgid "  %d/%d start conditions\n"
@@ -349720,11 +349720,11 @@ msgstr "  %d/%d teckenklasser behövde %d/%d ord för lagring, %d återanvända\
 
 #. from tp:flex-2.6.4
 msgid "  %d state/nextstate pairs created\n"
-msgstr "  %d par med tillstånd/nästa-tillstånd skapade\n"
+msgstr "  %d par med tillstånd och nästa tillstånd skapades\n"
 
 #. from tp:flex-2.6.4
 msgid "  %d/%d unique/duplicate transitions\n"
-msgstr "  %d/%d unika/duplicerade övergångar\n"
+msgstr "  %d/%d unika/dubbla övergångar\n"
 
 #. from tp:flex-2.6.4
 msgid "  %d table entries\n"
@@ -349732,7 +349732,7 @@ msgstr "  %d tabellposter\n"
 
 #. from tp:flex-2.6.4
 msgid "  %d/%d base-def entries created\n"
-msgstr "  %d/%d basstandardposter skapade\n"
+msgstr "  %d/%d bas-/standardposter skapades\n"
 
 #. from tp:flex-2.6.4
 msgid "  %d/%d (peak %d) nxt-chk entries created\n"
@@ -349740,7 +349740,7 @@ msgstr "  %d/%d (max %d) poster för nästa kontroll skapade\n"
 
 #. from tp:flex-2.6.4
 msgid "  %d/%d (peak %d) template nxt-chk entries created\n"
-msgstr "  %d/%d (max %d) mallposter för nästa kontroll skapade\n"
+msgstr "  %d/%d (max %d) mallposter för nxt-chk skapades\n"
 
 #. from tp:flex-2.6.4
 msgid "  %d empty table entries\n"
@@ -349780,7 +349780,7 @@ msgstr "Internt fel. flexopts är felaktiga.\n"
 
 #. from tp:flex-2.6.4
 msgid "unknown -C option '%c'"
-msgstr "okänd flagga till -C \"%c\""
+msgstr "okänt -C-alternativ ”%c”"
 
 #. from tp:flex-2.6.4
 msgid "%s %s\n"
@@ -349788,7 +349788,7 @@ msgstr "%s %s\n"
 
 #. from tp:flex-2.6.4
 msgid "fatal parse error"
-msgstr "allvarligt fel vid tolkningen"
+msgstr "allvarligt tolkningsfel"
 
 #. from tp:flex-2.6.4
 msgid "could not create backing-up info file %s"
@@ -349796,11 +349796,11 @@ msgstr "kunde inte skapa filen %s med backningsinformation"
 
 #. from tp:flex-2.6.4
 msgid "-l AT&T lex compatibility option entails a large performance penalty\n"
-msgstr "flaggan -l för beteende som AT&T:s lex medför en väsentlig prestandaförlust\n"
+msgstr "alternativet -l för kompatibilitet med AT&T lex medför en stor prestandaförlust\n"
 
 #. from tp:flex-2.6.4
 msgid " and may be the actual source of other reported performance penalties\n"
-msgstr " och kan vara den egentliga orsaken till andra rapporter om detta\n"
+msgstr " och kan vara den verkliga orsaken till andra rapporterade prestandaförluster\n"
 
 #. from tp:flex-2.6.4
 msgid "%%option yylineno entails a performance penalty ONLY on rules that can match newline characters\n"
@@ -349820,7 +349820,7 @@ msgstr "REJECT medför en väsentlig prestandaförlust\n"
 
 #. from tp:flex-2.6.4
 msgid "Variable trailing context rules entail a large performance penalty\n"
-msgstr "Regler för varierbar efterföljande kontext medför en väsentlig prestandaförlust\n"
+msgstr "Regler med variabel efterföljande kontext medför en stor prestandaförlust\n"
 
 #. from tp:flex-2.6.4
 msgid "REJECT cannot be used with -f or -F"
@@ -349832,7 +349832,7 @@ msgstr "%option yylineno kan inte användas tillsammans med REJECT"
 
 #. from tp:flex-2.6.4
 msgid "variable trailing context rules cannot be used with -f or -F"
-msgstr "regler för varierbar efterföljande kontext kan inte användas\ntillsammans med -f eller -F"
+msgstr "regler med variabel efterföljande kontext kan inte användas\ntillsammans med -f eller -F"
 
 #. from tp:flex-2.6.4
 msgid "%option yyclass only meaningful for C++ scanners"
@@ -349840,7 +349840,7 @@ msgstr "%option yyclass är bara meningsfull för C++-inläsare"
 
 #. from tp:flex-2.6.4
 msgid "Usage: %s [OPTIONS] [FILE]...\n"
-msgstr "Användning: %s [FLAGGOR] [FIL]...\n"
+msgstr "Användning: %s [ALTERNATIV] [FIL]…\n"
 
 #. from tp:flex-2.6.4
 msgid "Generates programs that perform pattern-matching on text.\n\nTable Compression:\n  -Ca, --align      trade off larger tables for better memory alignment\n  -Ce, --ecs        construct equivalence classes\n  -Cf               do not compress tables; use -f representation\n  -CF               do not compress tables; use -F representation\n  -Cm, --meta-ecs   construct meta-equivalence classes\n  -Cr, --read       use read() instead of stdio for scanner input\n  -f, --full        generate fast, large scanner. Same as -Cfr\n  -F, --fast        use alternate table representation. Same as -CFr\n  -Cem              default compression (same as --ecs --meta-ecs)\n\nDebugging:\n  -d, --debug             enable debug mode in scanner\n  -b, --backup            write backing-up information to %s\n  -p, --perf-report       write performance report to stderr\n  -s, --nodefault         suppress default rule to ECHO unmatched text\n  -T, --trace             %s should run in trace mode\n  -w, --nowarn            do not generate warnings\n  -v, --verbose           write summary of scanner statistics to stdout\n      --hex               use hexadecimal numbers instead of octal in debug outputs\n\nFiles:\n  -o, --outfile=FILE      specify output filename\n  -S, --skel=FILE         specify skeleton file\n  -t, --stdout            write scanner on stdout instead of %s\n      --yyclass=NAME      name of C++ class\n      --header-file=FILE   create a C header file in addition to the scanner\n      --tables-file[=FILE] write tables to FILE\n\nScanner behavior:\n  -7, --7bit              generate 7-bit scanner\n  -8, --8bit              generate 8-bit scanner\n  -B, --batch             generate batch scanner (opposite of -I)\n  -i, --case-insensitive  ignore case in patterns\n  -l, --lex-compat        maximal compatibility with original lex\n  -X, --posix-compat      maximal compatibility with POSIX lex\n  -I, --interactive       generate interactive scanner (opposite of -B)\n      --yylineno          track line count in yylineno\n\nGenerated code:\n  -+,  --c++               generate C++ scanner class\n  -Dmacro[=defn]           #define macro defn  (default defn is '1')\n  -L,  --noline            suppress #line directives in scanner\n  -P,  --prefix=STRING     use STRING as prefix instead of \"yy\"\n  -R,  --reentrant         generate a reentrant C scanner\n       --bison-bridge      scanner for bison pure parser.\n       --bison-locations   include yylloc support.\n       --stdinit           initialize yyin/yyout to stdin/stdout\n       --nounistd          do not include <unistd.h>\n       --noFUNCTION        do not generate a particular FUNCTION\n\nMiscellaneous:\n  -c                      do-nothing POSIX option\n  -n                      do-nothing POSIX option\n  -?\n  -h, --help              produce this help message\n  -V, --version           report %s version\n"
