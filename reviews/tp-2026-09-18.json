@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 33100,
+  "reviewed_tp_entries": 34548,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 9445,
+  "changed_pairs": 9754,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 9445,
+      "confirmed_swedish_changes": 9754,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "9a24af367f02d4973e25bb32e6efa509f71b656b25b3c1985ca235eb6281c32c"
+      "sha256": "2131a3f985becbe9dadbf9db120b044d2ae1c03cc615961deeb566d2bb354bbc"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 9445,
+      "confirmed_swedish_changes": 9754,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "516a7124c36635d796a3a1b43280248c7bb895012cc246de71b702b033b7d44e"
+      "sha256": "e1cfd23115fdb4137cd1c471dff8081f31efe6a44eb9e4da25a9096c11807ca2"
     }
   },
   "unmapped_plural_fixes": [
@@ -75633,6 +75633,2478 @@
       "before": "kan inte poppa huvudsammanhang",
       "after": "kan inte ta bort huvudsammanhanget från stacken",
       "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gcal:136",
+      "project": "tp:gcal-4.1",
+      "msgid": "Try to write %s `%s'... %s%s%s",
+      "before": "Försök att skriva %s \"%s\"... %s%s%s",
+      "after": "Försöker skriva %s ”%s” … %s%s%s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:149",
+      "project": "tp:gcal-4.1",
+      "msgid": "Try to open%sresource file `%s'... %s%s%s",
+      "before": "Försök att öppna%sresursfilen \"%s\"... %s%s%s",
+      "after": "Försöker öppna%sresursfilen ”%s” … %s%s%s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:154",
+      "project": "tp:gcal-4.1",
+      "msgid": " `HERE' ",
+      "before": " \"HÄR\" ",
+      "after": " ”HÄR” ",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:158",
+      "project": "tp:gcal-4.1",
+      "msgid": "Try to open (level: %02d) include file `%s'... %s%s%s",
+      "before": "Försök att öppna (nivå: %02d) inkluderingsfilen \"%s\"... %s%s%s",
+      "after": "Försöker öppna inkluderingsfilen ”%2$s” (nivå: %1$02d) … %3$s%4$s%5$s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:211",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s: command in environment variable `%s' found -- %s\n%s\n%s\n",
+      "before": "%s: kommando hittat i miljövariabeln \"%s\" -- %s\n%s\n%s\n",
+      "after": "%s: kommando hittades i miljövariabeln ”%s” -- %s\n%s\n%s\n",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:236",
+      "project": "tp:gcal-4.1",
+      "msgid": "shell script",
+      "before": "skalskript",
+      "after": "skal-skript",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:240",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mail from \\`%s' (%02d-%s-%04d %02d%s%02d%s%02d",
+      "before": "E-post från \\\"%s\" (%02d-%s-%04d %02d%s%02d%s%02d",
+      "after": "E-post från \\”%s” (%02d-%s-%04d %02d%s%02d%s%02d",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:245",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s: warning, eMail with empty message body not sent to <%s>.\n",
+      "before": "%s: varning, e-brev med tom meddelandetext inte skickad till <%s>.\n",
+      "after": "%s: varning: e-post med tom meddelandetext skickades inte till <%s>.\n",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:254",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s: option `%s' is ambiguous",
+      "before": "%s: flaggan \"%s\" är tvetydig",
+      "after": "%s: flaggan ”%s” är tvetydig",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:259",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s: unrecognized option `%s'",
+      "before": "%s: okänd flagga \"%s\"",
+      "after": "%s: okänd flagga ”%s”",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:269",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s: option `--%s' doesn't allow an argument",
+      "before": "%s: flaggan \"--%s\" tar inget argument",
+      "after": "%s: flaggan ”--%s” tar inget argument",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:274",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s: option `%s' doesn't allow an argument",
+      "before": "%s: flaggan \"%s\" tar inget argument",
+      "after": "%s: flaggan ”%s” tar inget argument",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:279",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s: option `%s' requires an argument",
+      "before": "%s: flaggan \"%s\" kräver ett argument",
+      "after": "%s: flaggan ”%s” kräver ett argument",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:289",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s: option with invalid argument -- %s",
+      "before": "%s: flagga med ogiltigt argument -- %s",
+      "after": "%s: flaggan har ett ogiltigt argument -- %s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:294",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s: option with ambiguous argument -- %s",
+      "before": "%s: flagga med tvetydigt argument -- %s",
+      "after": "%s: flaggan har ett tvetydigt argument -- %s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:299",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s: invalid date given -- %c%s\n%s\n%s\n",
+      "before": "%s: ogiltigt datum angivet -- %c%s\n%s\n%s\n",
+      "after": "%s: ett ogiltigt datum angavs -- %c%s\n%s\n%s\n",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:434",
+      "project": "tp:gcal-4.1",
+      "msgid": "American Samoa",
+      "before": "Samoa",
+      "after": "Amerikanska Samoa",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:454",
+      "project": "tp:gcal-4.1",
+      "msgid": "Australia/Southern Australia",
+      "before": "Australien/Sydaustralien",
+      "after": "Australien/Södra Australien",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:470",
+      "project": "tp:gcal-4.1",
+      "msgid": "Australia/Western Australia",
+      "before": "Australien/Västaustralien",
+      "after": "Australien/Västra Australien",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1510",
+      "project": "tp:gcal-4.1",
+      "msgid": "United States/Louisiana",
+      "before": "USA/Lousiana",
+      "after": "USA/Louisiana",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1742",
+      "project": "tp:gcal-4.1",
+      "msgid": "Aborigines Day",
+      "before": "Aboriginerdagen",
+      "after": "Aboriginernas dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1766",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Canterbury North",
+      "before": "Canterbury Norths jubileum",
+      "after": "Aucklands årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1770",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Canterbury South",
+      "before": "Canterbury Souths jubileum",
+      "after": "Norra Canterburys årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1774",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Chatham Islands",
+      "before": "Chathamöarnas jubileum",
+      "after": "Södra Canterburys årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1778",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Hawkes' Bay",
+      "before": "Hawkesbuktens jubileum",
+      "after": "Chathamöarnas årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1782",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Marlborough",
+      "before": "Marlboroughs jubileum",
+      "after": "Marlboroughs årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1786",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Nelson",
+      "before": "Nelsons jubileum",
+      "after": "Nelsons årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1790",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Otago",
+      "before": "Otagos jubileum",
+      "after": "Otagos årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1794",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Southland",
+      "before": "Southlands jubileum",
+      "after": "Southlands årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1798",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Taranaki",
+      "before": "Taranakis jubileum",
+      "after": "Taranakis årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1802",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Wellington",
+      "before": "Wellingtons jubileum",
+      "after": "Wellingtons årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1806",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Westland",
+      "before": "Westlands jubileum",
+      "after": "Westlands årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1834",
+      "project": "tp:gcal-4.1",
+      "msgid": "Ascension of Abdu'l-Baha",
+      "before": "Abdu'l-Bahas uppstigning",
+      "after": "Abdu’l-Bahás himmelsfärd",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1838",
+      "project": "tp:gcal-4.1",
+      "msgid": "Ascension of Baha'u'llah",
+      "before": "Baha'u'llahs uppstigning",
+      "after": "Bahá’u’lláhs himmelsfärd",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1842",
+      "project": "tp:gcal-4.1",
+      "msgid": "Birth of Baha'u'llah",
+      "before": "Baha'u'llahs födelse",
+      "after": "Bahá’u’lláhs födelse",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1854",
+      "project": "tp:gcal-4.1",
+      "msgid": "Declaration of the Bab",
+      "before": "Deklarationen av Baben",
+      "after": "Babens deklaration",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1858",
+      "project": "tp:gcal-4.1",
+      "msgid": "First Day of Ridvan",
+      "before": "Första dagen i Ridvan",
+      "after": "Ridvans första dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1862",
+      "project": "tp:gcal-4.1",
+      "msgid": "Martyrdom of the Bab",
+      "before": "Babs martyrskap",
+      "after": "Babens martyrskap",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1866",
+      "project": "tp:gcal-4.1",
+      "msgid": "Bahá'i New Year's Day",
+      "before": "Bahá'is nyårsdag",
+      "after": "Bahá’í-nyåret",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1870",
+      "project": "tp:gcal-4.1",
+      "msgid": "Ninth Day of Ridvan",
+      "before": "Nionde dagen i Ridvan",
+      "after": "Ridvans nionde dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1874",
+      "project": "tp:gcal-4.1",
+      "msgid": "Twelfth Day of Ridvan",
+      "before": "Tolfte dagen i Ridvan",
+      "after": "Ridvans tolfte dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1878",
+      "project": "tp:gcal-4.1",
+      "msgid": "Bank Holiday",
+      "before": "Bankhelg",
+      "after": "Bankhelgdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1898",
+      "project": "tp:gcal-4.1",
+      "msgid": "Benito Juárez Day",
+      "before": "Benito Juárez dag",
+      "after": "Benito Juárez-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1926",
+      "project": "tp:gcal-4.1",
+      "msgid": "Burns Night",
+      "before": "Burns natt",
+      "after": "Burns Night",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1930",
+      "project": "tp:gcal-4.1",
+      "msgid": "Camoes Day",
+      "before": "Camoes dag",
+      "after": "Camões-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1978",
+      "project": "tp:gcal-4.1",
+      "msgid": "Christ's Ascension Day",
+      "before": "Kristi himmelsfärds dag",
+      "after": "Kristi himmelsfärdsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:1994",
+      "project": "tp:gcal-4.1",
+      "msgid": "Columbus Day",
+      "before": "Columbus dag",
+      "after": "Columbusdagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2002",
+      "project": "tp:gcal-4.1",
+      "msgid": "Confucius' Birthday",
+      "before": "Confucius födelsedag",
+      "after": "Konfucius födelsedag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2034",
+      "project": "tp:gcal-4.1",
+      "msgid": "Day of Andalucia",
+      "before": "Andalusiendagen",
+      "after": "Andalusiens dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2042",
+      "project": "tp:gcal-4.1",
+      "msgid": "Day of Galicia",
+      "before": "Galiciendagen",
+      "after": "Galiciens dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2054",
+      "project": "tp:gcal-4.1",
+      "msgid": "Defenders of Motherland Day",
+      "before": "Fädernerlandets försvarares dag",
+      "after": "Fosterlandets försvarares dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2062",
+      "project": "tp:gcal-4.1",
+      "msgid": "Dragon Boat Festival",
+      "before": "Drakbåtsfestival",
+      "after": "Drakbåtsfestivalen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2078",
+      "project": "tp:gcal-4.1",
+      "msgid": "Lunar Eclipse",
+      "before": "Månförmörkelse",
+      "after": "månförmörkelse",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2082",
+      "project": "tp:gcal-4.1",
+      "msgid": "Solar Eclipse",
+      "before": "Solförmörkelse",
+      "after": "solförmörkelse",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2114",
+      "project": "tp:gcal-4.1",
+      "msgid": "Equinox Day",
+      "before": "Dagjämning",
+      "after": "Dagjämningsdagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2126",
+      "project": "tp:gcal-4.1",
+      "msgid": "Feast of Corpus Christi",
+      "before": "Kristi kropps och blods högtid",
+      "after": "Kristi kropps och blods dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2134",
+      "project": "tp:gcal-4.1",
+      "msgid": "Feast of Heart Jesus",
+      "before": "Kristi hjärtas högtid",
+      "after": "Jesu heliga hjärtas högtid",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2162",
+      "project": "tp:gcal-4.1",
+      "msgid": "French Revolutionary",
+      "before": "Franska revolutionen",
+      "after": "Franska revolutionens dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2170",
+      "project": "tp:gcal-4.1",
+      "msgid": "German Unity Day",
+      "before": "Dagen för Tysklands enande",
+      "after": "Tyska enhetsdagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2182",
+      "project": "tp:gcal-4.1",
+      "msgid": "Grandparents' Day",
+      "before": "Far- och morföräldrars dag",
+      "after": "Morfars och farmors dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2198",
+      "project": "tp:gcal-4.1",
+      "msgid": "Guadalupe Virgin's Day",
+      "before": "Guadalupejungfruns dag",
+      "after": "Jungfrun av Guadalupes dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2202",
+      "project": "tp:gcal-4.1",
+      "msgid": "Guy Fawkes Day",
+      "before": "Guy Fawkes dag",
+      "after": "Guy Fawkes-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2214",
+      "project": "tp:gcal-4.1",
+      "msgid": "Hannukah/Festival of Lights",
+      "before": "Channukka/ljusets fest",
+      "after": "Hanukka/Ljusfesten",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2230",
+      "project": "tp:gcal-4.1",
+      "msgid": "Rosh Hashana/New Year's Day",
+      "before": "Rosh Hashana/Nyårsdagen",
+      "after": "Rosh Hashana/Nyår",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2234",
+      "project": "tp:gcal-4.1",
+      "msgid": "Shavuot/Giving of the Torah",
+      "before": "Shavuot/Överräckningen av Torah",
+      "after": "Shavuot/Toragivandet",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2250",
+      "project": "tp:gcal-4.1",
+      "msgid": "Tisha B'Av/Fasting Day",
+      "before": "Tisha B'Av/Fastedagen",
+      "after": "Tisha be-av/Fastedagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2254",
+      "project": "tp:gcal-4.1",
+      "msgid": "Tu B'Shevat/New Year of Trees",
+      "before": "Tu B'Shevat/Trädens nyår",
+      "after": "Tu bishevat/Trädens nyår",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2258",
+      "project": "tp:gcal-4.1",
+      "msgid": "Yom Hashoah/Holocaust Memorial",
+      "before": "Yom Hashoah/Förintelseminnet",
+      "after": "Yom Hashoah/Förintelsens minnesdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2262",
+      "project": "tp:gcal-4.1",
+      "msgid": "Yom Hazikaron/Soldiers Memorial",
+      "before": "Yom Hazikaron/Soldatminnet",
+      "after": "Yom Hazikaron/Soldaternas minnesdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2266",
+      "project": "tp:gcal-4.1",
+      "msgid": "Yom Ha Azmaut/Independence Day",
+      "before": "Yom Ha Azmaut/Självständighetsdagen",
+      "after": "Yom Ha’atzmaut/Självständighetsdagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2278",
+      "project": "tp:gcal-4.1",
+      "msgid": "Holy Innocent's Day",
+      "before": "Värnlösa barns dag",
+      "after": "De värnlösa barnens dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2282",
+      "project": "tp:gcal-4.1",
+      "msgid": "Holy Trinity",
+      "before": "Heliga trefaldigheten",
+      "after": "Heliga trefaldighets dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2294",
+      "project": "tp:gcal-4.1",
+      "msgid": "Independence Movement Day",
+      "before": "Självständighetsrörelsens dag",
+      "after": "Självständighetsrörelsedagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2342",
+      "project": "tp:gcal-4.1",
+      "msgid": "Quds Day",
+      "before": "Quds dag",
+      "after": "Quds-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2406",
+      "project": "tp:gcal-4.1",
+      "msgid": "Martin L. King's Day",
+      "before": "Martin L. Kings dag",
+      "after": "Martin Luther King-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2414",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mary's Annunciation Day",
+      "before": "Marie bebådelsedag",
+      "after": "Jungfru Marie bebådelsedag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2418",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mary's Ascension Day",
+      "before": "Marie himmelsfärds dag",
+      "after": "Jungfru Marie himmelsfärdsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2426",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mary's Expectation",
+      "before": "Marie förväntning",
+      "after": "Jungfru Marie väntans dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2430",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mary's Immaculate Conception",
+      "before": "Marie obefläckade avlelse",
+      "after": "Jungfru Marie obefläckade avlelse",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2434",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mary's Maternity",
+      "before": "Marie moderskap",
+      "after": "Jungfru Marie moderskap",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2438",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mary's Name",
+      "before": "Marie namn",
+      "after": "Jungfru Marie namnsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2442",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mary's Nativity",
+      "before": "Marie födelse",
+      "after": "Jungfru Marie födelsedag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2446",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mary's Sacrifice",
+      "before": "Marie offer",
+      "after": "Jungfru Marie offerdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2450",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mary's Visitation",
+      "before": "Marie hemvist",
+      "after": "Jungfru Marie besökelsedag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2454",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mary - Blessed Virgin",
+      "before": "Maria — Välsignad jungfru",
+      "after": "Jungfru Maria – den välsignade jungfrun",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2478",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mid-Year Festival",
+      "before": "Midårsfestivalen",
+      "after": "Midsommarfestivalen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2510",
+      "project": "tp:gcal-4.1",
+      "msgid": "National Foundation Day",
+      "before": "Nationens grundelsedag",
+      "after": "Nationella grundelsedagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2526",
+      "project": "tp:gcal-4.1",
+      "msgid": "Nurses' Day",
+      "before": "Sjuksysterdagen",
+      "after": "Sjuksköterskedagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2542",
+      "project": "tp:gcal-4.1",
+      "msgid": "Our Lady Aparecida Day",
+      "before": "Vår fru Aparecidas dag",
+      "after": "Vår Fru Aparecidas dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2570",
+      "project": "tp:gcal-4.1",
+      "msgid": "Noruz/Persian New Year's Day",
+      "before": "Newroz/Persiska nyårsdagen",
+      "after": "Nowruz/Persiska nyårsdagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2578",
+      "project": "tp:gcal-4.1",
+      "msgid": "Presidential Inauguration",
+      "before": "Presidentinstallation",
+      "after": "Presidentens installation",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2586",
+      "project": "tp:gcal-4.1",
+      "msgid": "Presidents' Inform",
+      "before": "Presidentens information",
+      "after": "Presidentens informationsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2622",
+      "project": "tp:gcal-4.1",
+      "msgid": "Rio de Janeiro Anniversary",
+      "before": "Rio de Janeiros jubileum",
+      "after": "Rio de Janeiros årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2630",
+      "project": "tp:gcal-4.1",
+      "msgid": "Sao Paulo Anniversary",
+      "before": "São Paulos jubileum",
+      "after": "São Paulos årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2638",
+      "project": "tp:gcal-4.1",
+      "msgid": "Season Change/Bean-Festival",
+      "before": "Årstidsändring/bönfestivalen",
+      "after": "Årstidsskiftes-/bönfestivalen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2670",
+      "project": "tp:gcal-4.1",
+      "msgid": "Start of common month",
+      "before": "Start av vanlig månad",
+      "after": "Början på vanlig månad",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2674",
+      "project": "tp:gcal-4.1",
+      "msgid": "Start of leap month",
+      "before": "Start av skottmånad",
+      "after": "Början på skottmånad",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2714",
+      "project": "tp:gcal-4.1",
+      "msgid": "St Laurentius Day",
+      "before": "S:t Lars dag",
+      "after": "S:t Laurentius dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2722",
+      "project": "tp:gcal-4.1",
+      "msgid": "St Nicholas' Eve",
+      "before": "S:t Nikolaus afton",
+      "after": "S:t Nikolausafton",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2750",
+      "project": "tp:gcal-4.1",
+      "msgid": "Sweetest Day",
+      "before": "Sötaste dag",
+      "after": "Sötaste dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2770",
+      "project": "tp:gcal-4.1",
+      "msgid": "The King's Birthday",
+      "before": "Konungens födelsedag",
+      "after": "Kungens födelsedag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2826",
+      "project": "tp:gcal-4.1",
+      "msgid": "Women's Shrove Day",
+      "before": "Kvinnans biktedag",
+      "after": "Kvinnofettisdagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2850",
+      "project": "tp:gcal-4.1",
+      "msgid": "Aleksis Kivi Day",
+      "before": "Aleksis Kividag",
+      "after": "Aleksis Kivi-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2854",
+      "project": "tp:gcal-4.1",
+      "msgid": "Alice-Springs Show Day",
+      "before": "Alice-Springs visningsdag",
+      "after": "Alice Springs-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2862",
+      "project": "tp:gcal-4.1",
+      "msgid": "Americas Day",
+      "before": "Amerikas dag",
+      "after": "Amerikadagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2870",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Amir's Succession",
+      "before": "Amirs tronföljdsjubileum",
+      "after": "Årsdagen av amirens tronbestigning",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2874",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Armed Struggle",
+      "before": "Militära kampens jubileum",
+      "after": "Årsdagen av den väpnade kampen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2878",
+      "project": "tp:gcal-4.1",
+      "msgid": "Anniversary of Green March",
+      "before": "Gröna marsch-jubileet",
+      "after": "Årsdagen av den gröna marschen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2882",
+      "project": "tp:gcal-4.1",
+      "msgid": "Antillian Day",
+      "before": "Antilliska dagen",
+      "after": "Antillernas dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2886",
+      "project": "tp:gcal-4.1",
+      "msgid": "Arab League Day",
+      "before": "Arabförbundets dag",
+      "after": "Arabiska förbundets dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2898",
+      "project": "tp:gcal-4.1",
+      "msgid": "Arengo Anniversary",
+      "before": "Arengojubileet",
+      "after": "Arengos årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2906",
+      "project": "tp:gcal-4.1",
+      "msgid": "Arrival of the Swiss",
+      "before": "Schweizarnas ankomst",
+      "after": "Schweizarnas ankomstdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2914",
+      "project": "tp:gcal-4.1",
+      "msgid": "Asuncion Day",
+      "before": "Asunciondagen",
+      "after": "Asunción-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2922",
+      "project": "tp:gcal-4.1",
+      "msgid": "Authority's Power Day",
+      "before": "Myndigheternas dag",
+      "after": "Myndighetens maktdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2930",
+      "project": "tp:gcal-4.1",
+      "msgid": "Baron Bliss Day",
+      "before": "Baron Bliss dag",
+      "after": "Baron Bliss-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2970",
+      "project": "tp:gcal-4.1",
+      "msgid": "Bennington Battle Day",
+      "before": "Slaget vid Benningtons dag",
+      "after": "Benningtons slagdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:2990",
+      "project": "tp:gcal-4.1",
+      "msgid": "Boqueron Battle Day",
+      "before": "Boqueronslagets dag",
+      "after": "Boquerónslagets dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3006",
+      "project": "tp:gcal-4.1",
+      "msgid": "Burning of Jan Hus",
+      "before": "Jan Hus eldbegängelse",
+      "after": "Jan Hus bränning",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3030",
+      "project": "tp:gcal-4.1",
+      "msgid": "Cesar Chavez Day",
+      "before": "Cesar Chavez dag",
+      "after": "Cesar Chavez-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3094",
+      "project": "tp:gcal-4.1",
+      "msgid": "Day of the Free Laos",
+      "before": "Fria Laos dag",
+      "after": "Fria Laos-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3150",
+      "project": "tp:gcal-4.1",
+      "msgid": "Dr. Sun Yat-sen's Birthday",
+      "before": "Dr. Sun Yat-sens födelsedag",
+      "after": "Dr Sun Yat-sens födelsedag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3186",
+      "project": "tp:gcal-4.1",
+      "msgid": "Expedition of the 33",
+      "before": "De trettiotres expedition",
+      "after": "De trettiotre expeditionen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3202",
+      "project": "tp:gcal-4.1",
+      "msgid": "Farmers' Day",
+      "before": "Bondens dag",
+      "after": "Böndernas dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3218",
+      "project": "tp:gcal-4.1",
+      "msgid": "Foundation of NPLA Day",
+      "before": "NPLA:s grundningsdag",
+      "after": "NPLA:s grundandedag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3230",
+      "project": "tp:gcal-4.1",
+      "msgid": "General San Martin's Anniversary",
+      "before": "General San Martins jubileum",
+      "after": "General San Martins årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3246",
+      "project": "tp:gcal-4.1",
+      "msgid": "Heritage Day",
+      "before": "Arvsdagen",
+      "after": "Kulturarvsdagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3254",
+      "project": "tp:gcal-4.1",
+      "msgid": "Hobart Show Day",
+      "before": "Hobart-visningsdagen",
+      "after": "Hobartvisningsdagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3270",
+      "project": "tp:gcal-4.1",
+      "msgid": "Hurricane Supplication Day",
+      "before": "Orkanbönedagen",
+      "after": "Bönedag för orkaner",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3274",
+      "project": "tp:gcal-4.1",
+      "msgid": "Hurricane Thanksgiving Day",
+      "before": "Orkantacksägelsedagen",
+      "after": "Tacksägelsedag för orkaner",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3298",
+      "project": "tp:gcal-4.1",
+      "msgid": "Internal Autonomy Day",
+      "before": "Interna självständighetsdagen",
+      "after": "Dagen för inre självstyre",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3334",
+      "project": "tp:gcal-4.1",
+      "msgid": "Catherine Show Day",
+      "before": "Catherines visningsdag",
+      "after": "Catherinevisningsdagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3342",
+      "project": "tp:gcal-4.1",
+      "msgid": "Kim Il-Sung's Birthday",
+      "before": "Kim Il-Sungs födelsedag",
+      "after": "Kim Il Sungs födelsedag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3346",
+      "project": "tp:gcal-4.1",
+      "msgid": "Kim Jong-Il's Birthday",
+      "before": "Kim Jong-Ils födelsedag",
+      "after": "Kim Jong Ils födelsedag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3354",
+      "project": "tp:gcal-4.1",
+      "msgid": "King Rama I Memorial Day/Chakri",
+      "before": "Kung Rama I minnesdag/Chakri",
+      "after": "Kung Rama I:s minnesdag/Chakri",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3358",
+      "project": "tp:gcal-4.1",
+      "msgid": "King Rama V Memorial Day",
+      "before": "Kung Rama V minnesdag",
+      "after": "Kung Rama V:s minnesdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3386",
+      "project": "tp:gcal-4.1",
+      "msgid": "Luxembourg City Kermis",
+      "before": "Staden Luxemburgs karneval (Kirmess)",
+      "after": "Luxemburgs stads kirmess",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3390",
+      "project": "tp:gcal-4.1",
+      "msgid": "Lyndon B. Johnson Day",
+      "before": "Lyndon B. Johnsons dag",
+      "after": "Lyndon B. Johnson-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3414",
+      "project": "tp:gcal-4.1",
+      "msgid": "Maputo City Day",
+      "before": "Maputo Citys dag",
+      "after": "Maputos stadsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3450",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mosheshoe's Day",
+      "before": "Mosheshoes dag",
+      "after": "Moshoeshoes dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3466",
+      "project": "tp:gcal-4.1",
+      "msgid": "National Heroes Day",
+      "before": "Nationella hjältars dag",
+      "after": "Nationella hjältedagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3470",
+      "project": "tp:gcal-4.1",
+      "msgid": "National Redemption Day",
+      "before": "Nationella försoningsdagen",
+      "after": "Nationella återlösningsdagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3478",
+      "project": "tp:gcal-4.1",
+      "msgid": "National Revival Day",
+      "before": "Nationella uppväckelsedagen",
+      "after": "Nationella väckelsedagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3498",
+      "project": "tp:gcal-4.1",
+      "msgid": "New Regime Anniversary",
+      "before": "Nya regimens jubileum",
+      "after": "Nya regimens årsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3518",
+      "project": "tp:gcal-4.1",
+      "msgid": "Oil Industry Day",
+      "before": "Oljeindustrins dag",
+      "after": "Oljeindustridagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3522",
+      "project": "tp:gcal-4.1",
+      "msgid": "Our Lady of Altagracia Day",
+      "before": "Vår fru Altagracias dag",
+      "after": "Vår Fru av Altagracia-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3526",
+      "project": "tp:gcal-4.1",
+      "msgid": "Our Lady of Camarin Day",
+      "before": "Vår fru Camarins dag",
+      "after": "Vår Fru av Camarin-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3530",
+      "project": "tp:gcal-4.1",
+      "msgid": "Our Lady of Las Mercedes Day",
+      "before": "Vår fru Las Mercedes dag",
+      "after": "Vår Fru av Las Mercedes-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3534",
+      "project": "tp:gcal-4.1",
+      "msgid": "Our Lady of Los Angeles Day",
+      "before": "Vår fru Los Angeles dag",
+      "after": "Vår Fru av Los Angeles-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3538",
+      "project": "tp:gcal-4.1",
+      "msgid": "Our Lady of Seven Sorrows",
+      "before": "Vår fru av sju smärtor",
+      "after": "Vår Fru av de sju smärtorna",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3542",
+      "project": "tp:gcal-4.1",
+      "msgid": "Our Lady of Victories Day",
+      "before": "Vår fru av segrars dag",
+      "after": "Vår Fru av segrarnas dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3546",
+      "project": "tp:gcal-4.1",
+      "msgid": "Panama City Day",
+      "before": "Panama Citys dag",
+      "after": "Panama City-dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3554",
+      "project": "tp:gcal-4.1",
+      "msgid": "Paris Peace Agreement Day",
+      "before": "Parisfredens dag",
+      "after": "Parisavtalets dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3570",
+      "project": "tp:gcal-4.1",
+      "msgid": "Philippine-American Friendship",
+      "before": "Filippinsk-amerikanska vänskapen",
+      "after": "Filippinsk-amerikanska vänskapsdagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3622",
+      "project": "tp:gcal-4.1",
+      "msgid": "Regency Exchange",
+      "before": "Regentutbytet",
+      "after": "Regentbytet",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3662",
+      "project": "tp:gcal-4.1",
+      "msgid": "School Holiday",
+      "before": "Skolhelg",
+      "after": "Skollov",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3670",
+      "project": "tp:gcal-4.1",
+      "msgid": "Separation Day",
+      "before": "Separationsdagen",
+      "after": "Separationens dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3678",
+      "project": "tp:gcal-4.1",
+      "msgid": "Settlers Day",
+      "before": "Bosättardagen",
+      "after": "Bosättarnas dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3694",
+      "project": "tp:gcal-4.1",
+      "msgid": "Sheikh Zayed's Ascension Day",
+      "before": "Sheikh Zayeds uppstigningsdag",
+      "after": "Sheikh Zayeds himmelsfärdsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3710",
+      "project": "tp:gcal-4.1",
+      "msgid": "Sniff the Breeze Day",
+      "before": "Sniffa brisen-dagen",
+      "after": "Bris-sniffardagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3738",
+      "project": "tp:gcal-4.1",
+      "msgid": "St Cedilia's Day",
+      "before": "S:t Cedilias dag",
+      "after": "S:t Cecilias dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3754",
+      "project": "tp:gcal-4.1",
+      "msgid": "St Eliah's Day",
+      "before": "S:t Eliahs dag",
+      "after": "S:t Elias dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3774",
+      "project": "tp:gcal-4.1",
+      "msgid": "St Michael's Day",
+      "before": "Mickelsmäss",
+      "after": "Mickelsmässodagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3790",
+      "project": "tp:gcal-4.1",
+      "msgid": "St Rose of Lima",
+      "before": "S:t Rose av Lima",
+      "after": "S:t Rosa av Lima",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3822",
+      "project": "tp:gcal-4.1",
+      "msgid": "Tennant-Creek Show Day",
+      "before": "Tennant-Creek-visningsdagen",
+      "after": "Tennant Creek-visningsdagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3842",
+      "project": "tp:gcal-4.1",
+      "msgid": "The King's Name-Day",
+      "before": "Konungens namnsdag",
+      "after": "Kungens namnsdag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3858",
+      "project": "tp:gcal-4.1",
+      "msgid": "Traditional Day",
+      "before": "Traditionell dag",
+      "after": "Traditionella dagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3862",
+      "project": "tp:gcal-4.1",
+      "msgid": "Transfer Day",
+      "before": "Överföringsdagen",
+      "after": "Överlåtelsedagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3882",
+      "project": "tp:gcal-4.1",
+      "msgid": "Unity Factory Day",
+      "before": "Enhetsfabriksdagen",
+      "after": "Enhetsfabrikens dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3910",
+      "project": "tp:gcal-4.1",
+      "msgid": "Day of Czech Statehood",
+      "before": "Tjeckiens självständighetsdag",
+      "after": "Tjeckiska statens dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:3978",
+      "project": "tp:gcal-4.1",
+      "msgid": "Cannot calculate lunisolar calendar for %d correctly",
+      "before": "Kan inte beräkna månsolskalendern för %d korrekt",
+      "after": "kan inte beräkna månsolskalendern för %d korrekt",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4031",
+      "project": "tp:gcal-4.1",
+      "msgid": "Eternal holiday list",
+      "before": "Evighetskalender för helgdagar",
+      "after": "Evig helgdagskalender",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4066",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s%s contains %d maximum entries now!%s",
+      "before": "%s%s innehåller nu det maximala antalet %d poster!%s",
+      "after": "%s%s innehåller nu högst %d poster!%s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4104",
+      "project": "tp:gcal-4.1",
+      "msgid": "Start of highlighting sequence/marking character",
+      "before": "Start på markeringssekvens/markeringstecken",
+      "after": "Början på markeringssekvens/markeringstecken",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4108",
+      "project": "tp:gcal-4.1",
+      "msgid": "End of highlighting sequence/marking character",
+      "before": "Slut på markeringssekvens/markeringstecken",
+      "after": "Slutet på markeringssekvens/markeringstecken",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4116",
+      "project": "tp:gcal-4.1",
+      "msgid": "Space/blank ('%c') character",
+      "before": "Blanksteg/tomt (\"%c\") tecken",
+      "after": "Blankstegstecken (”%c”)",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4121",
+      "project": "tp:gcal-4.1",
+      "msgid": "Underscore ('%c') character",
+      "before": "Understreck (\"%c\")",
+      "after": "Understreckstecken (”%c”)",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4126",
+      "project": "tp:gcal-4.1",
+      "msgid": "Percent ('%c') character",
+      "before": "Procent (\"%c\")",
+      "after": "Procenttecken (”%c”)",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4131",
+      "project": "tp:gcal-4.1",
+      "msgid": "Backslash ('%c') character",
+      "before": "Omvänt snedstreck (\"%c\")",
+      "after": "Omvänt snedstreck (”%c”)",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4140",
+      "project": "tp:gcal-4.1",
+      "msgid": "contain a format instruction, which template is like:",
+      "before": "innehålla en formatinstruktion, vars mall är som:",
+      "after": "innehålla en formatinstruktion med följande mall:",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4156",
+      "project": "tp:gcal-4.1",
+      "msgid": "Field contents placed in centered manner using width WIDTH",
+      "before": "Fältinnehåll som placeras centrerat med bredden BREDD",
+      "after": "Fältinnehållet placeras centrerat med bredden BREDD",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4168",
+      "project": "tp:gcal-4.1",
+      "msgid": "Numerical value is provided with leading sign",
+      "before": "Numeriskt värde tillhandahålls med inledande tecken",
+      "after": "Numeriskt värde förses med inledande tecken",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4172",
+      "project": "tp:gcal-4.1",
+      "msgid": "ZERO (may be defined):",
+      "before": "NOLL (måste definieras):",
+      "after": "NOLL (kan definieras):",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4176",
+      "project": "tp:gcal-4.1",
+      "msgid": "Numerical value is filled with leading zero(es)",
+      "before": "Numeriskt värde fylls med inledande nolla/nollor",
+      "after": "Numeriskt värde fylls ut med inledande nollor",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4189",
+      "project": "tp:gcal-4.1",
+      "msgid": "STYLE group (exactly one member may be defined):",
+      "before": "STILgrupp (exakt en medlem måste definieras):",
+      "after": "STILgrupp (högst en medlem får definieras):",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4209",
+      "project": "tp:gcal-4.1",
+      "msgid": "Numerical value is provided with an ordinal number suffix",
+      "before": "Numeriskt värde tillhandahålls med ett ordinalt nummersuffix",
+      "after": "Numeriskt värde förses med ordningstalssuffix",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4217",
+      "project": "tp:gcal-4.1",
+      "msgid": "Field contents is not cut after position WIDTH",
+      "before": "Fältinnehåll klipps inte efter position BREDD",
+      "after": "Fältinnehållet klipps inte efter position BREDD",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4221",
+      "project": "tp:gcal-4.1",
+      "msgid": "Field contents is cut after position WIDTH",
+      "before": "Fältinnehåll klipps efter position BREDD",
+      "after": "Fältinnehållet klipps efter position BREDD",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4261",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mondays...Thursdays",
+      "before": "måndagar - torsdagar",
+      "after": "måndagar–torsdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4265",
+      "project": "tp:gcal-4.1",
+      "msgid": "Mondays...Fridays",
+      "before": "måndagar - fredagar",
+      "after": "måndagar–fredagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4290",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Display version information and quit program",
+      "before": "          Visa versionsnummer och avsluta programmet",
+      "after": "          Visa versionsinformation och avsluta programmet",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4294",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Set EXIT status of program to %d on `%s' etc.",
+      "before": "          Ställ in programmets SLUTstatus till %d vid \"%s\" osv.",
+      "after": "          Ställ in programmets slutstatus till %d vid ”%s” osv.",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4309",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Create shell script which contains the arguments of command line",
+      "before": "          Skapa ett skalprogram som innehåller argumenten från kommandoraden",
+      "after": "          Skapa ett skalskript som innehåller kommandoradsargumenten",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4314",
+      "project": "tp:gcal-4.1",
+      "msgid": "   %-3s    = File name of the shell script",
+      "before": "   %-3s    = Skalprogrammets filnamn",
+      "after": "   %-3s    = Skalskriptets filnamn",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4323",
+      "project": "tp:gcal-4.1",
+      "msgid": "   %-3s    = \"DVAR%s%s%s\" definitions separated by `%s' characters",
+      "before": "   %-3s    = Definitioner av \"DVAR%s%s%s'\" åtskilda med \"%s\"-tecken",
+      "after": "   %-3s    = Definitioner av ”DVAR%s%s%s” åtskilda med ”%s”-tecken",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4328",
+      "project": "tp:gcal-4.1",
+      "msgid": "            E.g.  %sv a%s1127%sb%s054   Set `a' to Nov 27 and `b' to May 4",
+      "before": "            T.ex. %sv a%s1127%sb%s054   Ställ in \"a\" till 27 nov och \"b\" till 4 maj",
+      "after": "            T.ex. %sv a%s1127%sb%s054   Ställ in ”a” till 27 nov. och ”b” till 4 maj",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4347",
+      "project": "tp:gcal-4.1",
+      "msgid": "            E.g.  %sr %ca%sfoo%s%cb%sbar   Set `%ca' to `foo' and `%cb' to `bar'",
+      "before": "            T.ex. %sr %ca%sapa%s%cb%sbil   Ställ in \"%ca\" till \"apa\" och \"%cb\" till \"bil\"",
+      "after": "            T.ex. %sr %ca%sapa%s%cb%sbil   Ställ in ”%ca” till ”apa” och ”%cb” till ”bil”",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4357",
+      "project": "tp:gcal-4.1",
+      "msgid": "            E.g.  %sr %ca%sfoo   Assign output of command `foo' to `%ca'",
+      "before": "            T.ex. %sr %ca%sapa   Tilldela utdata från kommandot \"apa\" till \"%ca\"",
+      "after": "            T.ex. %sr %ca%sapa   Tilldela utdata från kommandot ”apa” till ”%ca”",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4366",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Display only those fixed dates, whose date is not excluded by %s",
+      "before": "          Visa bara de fasta datum, som inte utesluts av %s",
+      "after": "          Visa endast fasta datum som inte utesluts av %s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4376",
+      "project": "tp:gcal-4.1",
+      "msgid": "            is a LOWER-CASE-LETTER, it means a non-exclusion!",
+      "before": "            är en GEMEN betyder det en icke-uteslutning!",
+      "after": "            är en GEMEN; det betyder en icke-uteslutning!",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4395",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Display only those fixed dates, whose text is matched by %s",
+      "before": "          Visa bara de fasta datum, vars text överensstämmer med %s",
+      "after": "          Visa endast fasta datum vars text matchas av %s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4400",
+      "project": "tp:gcal-4.1",
+      "msgid": "   %-3s    = Any text respectively \"regular expression\" you like",
+      "before": "   %-3s    = Vilken text eller \"reguljärt uttryck\" som helst",
+      "after": "   %-3s    = Valfri text respektive valfritt ”reguljärt uttryck”",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4410",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Revert the sense of matching of the `%s' option",
+      "before": "          Omvänd typen av matchning hos flaggan \"%s\"",
+      "after": "          Invertera matchningen för flaggan ”%s”",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4419",
+      "project": "tp:gcal-4.1",
+      "msgid": "  [%-3s]   = internal    Information if program internal maximums are reached",
+      "before": "  [%-3s]   = internal    Information huruvida programmets interna maxima uppnås",
+      "after": "  [%-3s]   = internal    Information om programmets interna gränser nås",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4448",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Use leap year rule of Eastern Orthodox churches",
+      "before": "          Använd regeln för skottår i östortodoxa kyrkan",
+      "after": "          Använd östortodoxa kyrkors regel för skottår",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4452",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide calendar sheet with week numbers",
+      "before": "          Tillhandahåll kalenderblad med veckonummer",
+      "after": "          Förse kalenderbladet med veckonummer",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4474",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Suppress output of calendar sheet explicitly",
+      "before": "          Undertryck uttryckligen visning av kalenderblad",
+      "after": "          Undertryck visning av kalenderbladet uttryckligen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4487",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Disable highlighting of text, holiday resp., actual day",
+      "before": "          Stäng av markering av text, helgdagar resp. aktuell dag",
+      "after": "          Stäng av markering av text, helgdag respektive aktuell dag",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4491",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Forces highlighting sequences if output is redirected/piped",
+      "before": "          Framtvinga markeringssekvenser om utdata omdirigeras",
+      "after": "          Tvinga fram markeringssekvenser om utdata omdirigeras eller leds till rör",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4495",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Set highlighting sequence pairs 1 (=actual day) and 2 (=holiday)",
+      "before": "          Välj markeringssekvenspar 1 (=aktuell dag) och 2 (=helgdag)",
+      "after": "          Ställ in markeringssekvenspar 1 (=aktuell dag) och 2 (=helgdag)",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4514",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Modify format of year calendar",
+      "before": "          Ändra format på årskalender",
+      "after": "          Ändra årskalenderns format",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4523",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Use consecutive day of year in calendar sheet",
+      "before": "          Använd fortlöpande dagar på året på kalenderbladet",
+      "after": "          Använd årets löpnummer i kalenderbladet",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4531",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Use consecutive day of year in eternal holiday list",
+      "before": "          Använd fortlöpande dagar på året i evighetskalendern",
+      "after": "          Använd årets löpnummer i den eviga helgdagskalendern",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4539",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Use consecutive day of year in fixed date list",
+      "before": "          Använd fortlöpande dagar på året på listan med fasta datum",
+      "after": "          Använd årets löpnummer i listan med fasta datum",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4543",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Set starting day of week (actual:  %s)",
+      "before": "          Ställ in dag som veckan börjar med (faktiskt: %s)",
+      "after": "          Ställ in veckans första dag (faktiskt: %s)",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4548",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Send output via `%s' program to user",
+      "before": "          Skicka utdata via programmet \"%s\" till användare",
+      "after": "          Skicka utdata till användaren via programmet ”%s”",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4557",
+      "project": "tp:gcal-4.1",
+      "msgid": "  [%-3s]   = Email address, otherwise eMail is send to user `%s'",
+      "before": "  [%-3s]   = E-postadress, annars skickas e-post till användaren \"%s\"",
+      "after": "  [%-3s]   = E-postadress, annars skickas e-post till användaren ”%s”",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4562",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Display eternal holiday list (Year in range: %d...%d)",
+      "before": "          Visa evighetskalender för helgdagar (år i intervallet: %d - %d)",
+      "after": "          Visa den eviga helgdagskalendern (år i intervallet: %d–%d)",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4580",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Suppress leading blank line of eternal holiday list",
+      "before": "          Undertryck inledande tomrad i evighetskalender",
+      "after": "          Undertryck inledande tomrad i den eviga helgdagskalendern",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4584",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Exclude title of eternal holiday list",
+      "before": "          Evighetskalender för helgdagar utan titel",
+      "after": "          Visa den eviga helgdagskalendern utan titel",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4588",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with astronomical data",
+      "before": "          Tillhandahåll evighetskalender med astronomisk data",
+      "after": "          Förse den eviga helgdagskalendern med astronomiska data",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4592",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Bahá'i calendar holidays",
+      "before": "          Tillhandahåll evighetskalender med Bahá'i-kalenderhelger",
+      "after": "          Förse den eviga helgdagskalendern med Bahá’í-kalenderns helgdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4596",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Bahá'i calendar months",
+      "before": "          Tillhandahåll evighetskalender med Bahá'i-kalendermånader",
+      "after": "          Förse den eviga helgdagskalendern med Bahá’í-kalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4600",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Celtic calendar holidays",
+      "before": "          Tillhandahåll evighetskalender med keltiska kalenderhelger",
+      "after": "          Förse den eviga helgdagskalendern med den keltiska kalenderns helgdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4604",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Chinese flexible calendar holidays",
+      "before": "          Tillhandahåll evighetskalender med kinesiska flexibla kalenderhelger",
+      "after": "          Förse den eviga helgdagskalendern med den kinesiska flexibla kalenderns helgdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4608",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Chinese flexible calendar months",
+      "before": "          Tillhandahåll evighetskalender med kinesiska flexibla kalendermånader",
+      "after": "          Förse den eviga helgdagskalendern med den kinesiska flexibla kalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4612",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Chinese calendar holidays",
+      "before": "          Tillhandahåll evighetskalender med kinesiska kalenderhelger",
+      "after": "          Förse den eviga helgdagskalendern med den kinesiska kalenderns helgdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4616",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Chinese calendar months",
+      "before": "          Tillhandahåll evighetskalender med kinesiska kalendermånader",
+      "after": "          Förse den eviga helgdagskalendern med den kinesiska kalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4620",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Christian Western calendar holidays",
+      "before": "          Tillhandahåll evighetskalender med västliga kristna kalenderhelger",
+      "after": "          Förse den eviga helgdagskalendern med den västkristna kalenderns helgdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4624",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Coptic calendar months",
+      "before": "          Tillhandahåll evighetskalender med koptiska kalendermånader",
+      "after": "          Förse den eviga helgdagskalendern med den koptiska kalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4628",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Ethiopic calendar months",
+      "before": "          Tillhandahåll evighetskalender med etiopiska kalendermånader",
+      "after": "          Förse den eviga helgdagskalendern med den etiopiska kalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4632",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with French Revolutionary calendar months",
+      "before": "          Tillhandahåll evighetskalender med kalendermånader från franska revolutionen",
+      "after": "          Förse den eviga helgdagskalendern med den franska revolutionskalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4636",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Hebrew calendar holidays",
+      "before": "          Tillhandahåll evighetskalender med hebreiska kalenderhelger",
+      "after": "          Förse den eviga helgdagskalendern med den hebreiska kalenderns helgdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4640",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Hebrew calendar months",
+      "before": "          Tillhandahåll evighetskalender med hebreiska kalendermånader",
+      "after": "          Förse den eviga helgdagskalendern med den hebreiska kalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4644",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Indian civil-calendar months",
+      "before": "          Tillhandahåll evighetskalender med indiska civila kalendermånader",
+      "after": "          Förse den eviga helgdagskalendern med den indiska civila kalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4648",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Islamic civil-calendar holidays",
+      "before": "          Tillhandahåll evighetskalender med islamiska civilkalenderhelger",
+      "after": "          Förse den eviga helgdagskalendern med den islamiska civila kalenderns helgdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4652",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Islamic civil-calendar months",
+      "before": "          Tillhandahåll evighetskalender med islamiska civilkalendermånader",
+      "after": "          Förse den eviga helgdagskalendern med den islamiska civila kalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4656",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Japanese flexible calendar holidays",
+      "before": "          Tillhandahåll evighetskalender med japanska flexibla kalenderhelger",
+      "after": "          Förse den eviga helgdagskalendern med den japanska flexibla kalenderns helgdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4660",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Japanese flexible calendar months",
+      "before": "          Tillhandahåll evighetskalender med japanska flexibla kalendermånader",
+      "after": "          Förse den eviga helgdagskalendern med den japanska flexibla kalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4664",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Japanese calendar holidays",
+      "before": "          Tillhandahåll evighetskalender med japanska kalenderhelger",
+      "after": "          Förse den eviga helgdagskalendern med den japanska kalenderns helgdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4668",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Japanese calendar months",
+      "before": "          Tillhandahåll evighetskalender med japanska kalendermånader",
+      "after": "          Förse den eviga helgdagskalendern med den japanska kalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4672",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with multicultural New Year holidays",
+      "before": "          Tillhandahåll evighetskalender med multikulturella nyårshelger",
+      "after": "          Förse den eviga helgdagskalendern med mångkulturella nyårshögtider",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4676",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Old-Armenic calendar months",
+      "before": "          Tillhandahåll evighetskalender med gammalarmeniska kalendermånader",
+      "after": "          Förse den eviga helgdagskalendern med den gammalarmeniska kalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4680",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Old-Egyptic calendar months",
+      "before": "          Tillhandahåll evighetskalender med gammalegyptiska kalendermånader",
+      "after": "          Förse den eviga helgdagskalendern med den gammalegyptiska kalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4684",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Orthodox new-calendar holidays",
+      "before": "          Tillhandahåll evighetskalender med ortodoxa nykalenderhelger",
+      "after": "          Förse den eviga helgdagskalendern med den ortodoxa nykalenderns helgdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4688",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Orthodox old-calendar holidays",
+      "before": "          Tillhandahåll evighetskalender med ortodoxa gammalkalenderhelger",
+      "after": "          Förse den eviga helgdagskalendern med den ortodoxa gammalkalenderns helgdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4692",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Persian Jalaali-calendar holidays",
+      "before": "          Tillhandahåll evighetskalender med persiska Jalaali-kalenderhelger",
+      "after": "          Förse den eviga helgdagskalendern med den persiska Jalali-kalenderns helgdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4696",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with Persian Jalaali-calendar months",
+      "before": "          Tillhandahåll evighetskalender med persiska Jalaali-kalendermånader",
+      "after": "          Förse den eviga helgdagskalendern med den persiska Jalali-kalenderns månader",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4700",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with zodiacal marker data",
+      "before": "          Tillhandahåll evighetskalender med data om stjärntecken",
+      "after": "          Förse den eviga helgdagskalendern med data om stjärntecken",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4704",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Provide eternal holiday list with country specific holidays",
+      "before": "          Tillhandahåll evighetskalender med landsspecifika helgdagar",
+      "after": "          Förse den eviga helgdagskalendern med landsspecifika helgdagar",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4718",
+      "project": "tp:gcal-4.1",
+      "msgid": "            marked by # have an incomplete recording of holidays",
+      "before": "            markerade med # har en ofullständig registrering av helger",
+      "after": "            markerade med # har en ofullständig helgdagsförteckning",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4736",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Set base data of Earth's atmosphere",
+      "before": "          Ställ in grundläggande data för jordens atmosfär",
+      "after": "          Ställ in grunddata för jordens atmosfär",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4745",
+      "project": "tp:gcal-4.1",
+      "msgid": "            Air pressure in Millibar (actual:  %.3f)",
+      "before": "            Lufttryck i millibar (faktiskt: %3.f)",
+      "after": "            Lufttryck i millibar (faktiskt: %.3f)",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4759",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Represent astronomical times and data with utmost precision",
+      "before": "          Representera astronomiska tider och data med yttersta precision",
+      "after": "          Representera astronomiska tider och data med största precision",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4818",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Set period of Gregorian Reformation",
+      "before": "          Ställ in perioden för gregorianska reformationen",
+      "after": "          Ställ in perioden för den gregorianska reformen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4822",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Actual respected period:  %02d-%02d %s %0*d",
+      "before": "          Aktuell tidsperiod: %02d-%02d %s %0*d",
+      "after": "          Aktuell berörd period: %02d-%02d %s %0*d",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4842",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Actual:  (%s) `%s' (%s)",
+      "before": "          Faktiskt: (%s) \"%s\" (%s)",
+      "after": "          Aktuellt: (%s) ”%s” (%s)",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4856",
+      "project": "tp:gcal-4.1",
+      "msgid": "   %-3s    = Define individual format. Respected format elements are:",
+      "before": "   %-3s    = Definiera eget format. Formatelement som känns igen är:",
+      "after": "   %-3s    = Definiera ett eget format. Formatelement som används är:",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4910",
+      "project": "tp:gcal-4.1",
+      "msgid": "   C      = Display those dates, for which fixed dates doesn't exist, too",
+      "before": "   C      = Visa också de dagar som inte har fasta datum",
+      "after": "   C      = Visa även dagar som saknar fasta datum",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4923",
+      "project": "tp:gcal-4.1",
+      "msgid": "                          Actual:  `%s'",
+      "before": "                          Faktisk:  \"%s\"",
+      "after": "                          Aktuellt: ”%s”",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4932",
+      "project": "tp:gcal-4.1",
+      "msgid": "          1. Representation of text",
+      "before": "          1. Representation av text",
+      "after": "          1. Textrepresentation",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4954",
+      "project": "tp:gcal-4.1",
+      "msgid": "          # a            = Display origin of fixed date",
+      "before": "          # a            = Visa ursprunget till fast datum",
+      "after": "          # a            = Visa det fasta datumets ursprung",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4974",
+      "project": "tp:gcal-4.1",
+      "msgid": "          # o            = Omit repeating date part of fixed dates",
+      "before": "          # o            = Utelämna del av datumet som upprepas",
+      "after": "          # o            = Utelämna den upprepade delen av fasta datum",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4986",
+      "project": "tp:gcal-4.1",
+      "msgid": "          # J            = Suppress text part of fixed dates",
+      "before": "          # J            = Utelämna textdel i fasta datum",
+      "after": "          # J            = Utelämna textdelen av fasta datum",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:4994",
+      "project": "tp:gcal-4.1",
+      "msgid": "          # z            = Display consecutive number of fixed date",
+      "before": "          # z            = Visa fortlöpande fasta datum",
+      "after": "          # z            = Visa fasta datums löpnummer",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5002",
+      "project": "tp:gcal-4.1",
+      "msgid": "          2. Respected period",
+      "before": "          2. Aktuell tidsperiod",
+      "after": "          2. Berörd period",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5006",
+      "project": "tp:gcal-4.1",
+      "msgid": "                         = Manage `29-FEBRUARY' in non-leap years",
+      "before": "                         = Hantera 29 FEBRUARI under icke-skottår",
+      "after": "                         = Hantera 29 FEBRUARI under vanliga år",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5171",
+      "project": "tp:gcal-4.1",
+      "msgid": "          # t|T          = List tomorrow",
+      "before": "          # t|T          = Lista imorgon",
+      "after": "          # t|T          = Lista morgondagen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5175",
+      "project": "tp:gcal-4.1",
+      "msgid": "          # w|W[MOD]     = List complete week",
+      "before": "          # w|W[MOD]     = Lista hela veckan",
+      "after": "          # w|W[MOD]     = Lista en hel vecka",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5189",
+      "project": "tp:gcal-4.1",
+      "msgid": "          # m|M[MOD]     = List complete month",
+      "before": "          # m|M[MOD]     = Lista hela månaden",
+      "after": "          # m|M[MOD]     = Lista en hel månad",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5203",
+      "project": "tp:gcal-4.1",
+      "msgid": "          # y|Y[MOD]     = List complete year",
+      "before": "          # y|Y[MOD]     = Lista hela året",
+      "after": "          # y|Y[MOD]     = Lista ett helt år",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5212",
+      "project": "tp:gcal-4.1",
+      "msgid": "                           = %s   List yesterday until starting day of year",
+      "before": "                           = %s   Lista från igår till början på året",
+      "after": "                           = %s   Lista från i går till början av året",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5217",
+      "project": "tp:gcal-4.1",
+      "msgid": "          Use alternative file(s) instead of standard resource file",
+      "before": "          Använd alternativ(a) fil(er) i stället för standardresursfil",
+      "after": "          Använd alternativa filer i stället för standardresursfilen",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5229",
+      "project": "tp:gcal-4.1",
+      "msgid": "     %-3s  = Single file or list of files connected by `%s' characters",
+      "before": "     %-3s  = Enstaka fil eller lista med filer sammanbundna med \"%s\"-tecken",
+      "after": "     %-3s  = Enstaka fil eller lista med filer sammanbundna med ”%s”-tecken",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5238",
+      "project": "tp:gcal-4.1",
+      "msgid": "   %-3s    = Any possible resource file line",
+      "before": "   %-3s    = Vilken resursfilrad som helst",
+      "after": "   %-3s    = Valfri resursfilrad",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5248",
+      "project": "tp:gcal-4.1",
+      "msgid": "Use given `DATE' instead of today's date",
+      "before": "Använd angivet \"DATUM\" i stället för dagens datum",
+      "after": "Använd angivet ”DATUM” i stället för dagens datum",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5257",
+      "project": "tp:gcal-4.1",
+      "msgid": "              %s%cwN[%s], month name[%s], weekday name[N] or %s",
+      "before": "              %s%cwN[%s], namn på månad[%s], namn på veckodag[N] eller %s",
+      "after": "              %s%cwN[%s], månadsnamn[%s], veckodagsnamn[N] eller %s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5267",
+      "project": "tp:gcal-4.1",
+      "msgid": "Preload options and commands from `FILE'",
+      "before": "Läs flaggor och kommandon från \"FIL\"",
+      "after": "Läs in flaggor och kommandon från ”FIL”",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5275",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s        = Month in range:  %d...%d",
+      "before": "%s        = Månad i intervallet: %d - %d",
+      "after": "%s        = Månad i intervallet: %d–%d",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5280",
+      "project": "tp:gcal-4.1",
+      "msgid": "                        or:  month name | %s | %s%s | %s%s | %s%s",
+      "before": "                        eller: namn på månad | %s | %s%s | %s%s | %s%s",
+      "after": "                        eller: månadsnamn | %s | %s%s | %s%s | %s%s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5295",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s%*s    = Year  in range:  %d...%d",
+      "before": "%s%*s    = År i intervallet: %d - %d",
+      "after": "%s%*s    = År i intervallet: %d–%d",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5330",
+      "project": "tp:gcal-4.1",
+      "msgid": "  %sp,  %s         Direct output through external `%s' pager",
+      "before": "  %sp,  %s         Skicka utdata genom en extern \"%s\"-sidvisare",
+      "after": "  %sp,  %s         Skicka utdata genom en extern ”%s”-sidvisare",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5344",
+      "project": "tp:gcal-4.1",
+      "msgid": "On principle I will not be liable for ANY damages or losses (implicit",
+      "before": "användbarhet. Jag tar av princip inte ansvar för NÅGON skada eller",
+      "after": "användbarhet. Jag tar principiellt inte ansvar för NÅGON skada eller",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5348",
+      "project": "tp:gcal-4.1",
+      "msgid": "or explicit), which result from using or handling my software.",
+      "before": "förlust (direkt eller indirekt), som användandet eller handhavandet",
+      "after": "förlust (direkt eller indirekt) som användning eller hantering",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5352",
+      "project": "tp:gcal-4.1",
+      "msgid": "If you use this software, you agree without any exception to this",
+      "before": "av mitt program gett upphov till. Om du använder detta program,",
+      "after": "av mitt program orsakar. Om du använder detta program",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5356",
+      "project": "tp:gcal-4.1",
+      "msgid": "agreement, which binds you LEGALLY !!",
+      "before": "accepterar du utan undantag detta avtal!",
+      "after": "godtar du detta avtal utan undantag!",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5360",
+      "project": "tp:gcal-4.1",
+      "msgid": "This program is free software; you can redistribute it and/or modify",
+      "before": "Detta program är fri programvara; du får distribuera det och/eller modifiera",
+      "after": "Detta program är fri programvara; du får distribuera det och/eller ändra",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5364",
+      "project": "tp:gcal-4.1",
+      "msgid": "it under the terms of the `GNU General Public License' as published by",
+      "before": "det under villkoren i \"GNU General Public License\" utfärdat av",
+      "after": "det enligt villkoren i ”GNU General Public License”, utgiven av",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5368",
+      "project": "tp:gcal-4.1",
+      "msgid": "the `Free Software Foundation'; either version 3, or (at your option)",
+      "before": "\"Free Software Foundation\"; antingen version 3, eller (om du så önskar)",
+      "after": "”Free Software Foundation”, antingen version 3 eller (om du vill)",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5376",
+      "project": "tp:gcal-4.1",
+      "msgid": "You should have received a copy of the `GNU General Public License'",
+      "before": "Du skall ha fått en kopia av \"GNU General Public License\"",
+      "after": "Du bör ha fått en kopia av ”GNU General Public License”",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5380",
+      "project": "tp:gcal-4.1",
+      "msgid": "along with this program; if not, write to the:",
+      "before": "tillsammans med detta program; om inte, skriv till:",
+      "after": "tillsammans med detta program. Om inte, skriv till:",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5389",
+      "project": "tp:gcal-4.1",
+      "msgid": "Use `%s %s|[%s?]",
+      "before": "Använd \"%s %s|[%s?]",
+      "after": "Använd ”%s %s|[%s?]",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5403",
+      "project": "tp:gcal-4.1",
+      "msgid": "GNU gcal home page: <%s>",
+      "before": "Hemsida för GNU gcal: <%s>",
+      "after": "GNU gcals hemsida: <%s>",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5413",
+      "project": "tp:gcal-4.1",
+      "msgid": "This is free software; see the source for copying conditions.",
+      "before": "Detta är fri programvara; se källkoden för kopieringsvillkor",
+      "after": "Detta är fri programvara; se källkoden för kopieringsvillkor.",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5428",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s: The Gregorian calendar program (GNU cal) %s",
+      "before": "%s: Det gregorianska kalenderprogrammet (GNU cal) %s",
+      "after": "%s: Det gregorianska kalenderprogrammet GNU cal %s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5558",
+      "project": "tp:gcal-4.1",
+      "msgid": "Cannot execute command in file `%s'\nLine: %ld %s",
+      "before": "Kan inte utföra kommando i filen \"%s\"\nRad: %ld %s",
+      "after": "Kan inte utföra kommando i filen ”%s”\nRad: %ld %s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5567",
+      "project": "tp:gcal-4.1",
+      "msgid": "Command executed (exit code=%d) in file `%s'\nLine %ld: %s",
+      "before": "Kommando utfört (exit-kod=%d) i filen \"%s\"\nRad %ld: %s",
+      "after": "Kommandot utfördes (slutkod=%d) i filen ”%s”\nRad %ld: %s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5588",
+      "project": "tp:gcal-4.1",
+      "msgid": "`Eternal holiday list'",
+      "before": "\"Evighetskalender för helgdagar\"",
+      "after": "”Evig helgdagskalender”",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5617",
+      "project": "tp:gcal-4.1",
+      "msgid": "Leap-day set to `%02d-%s' in file `%s'.",
+      "before": "Skottdagen satt till \"%02d-%s\" i filen \"%s\".",
+      "after": "Skottdagen sattes till ”%02d-%s” i filen ”%s”.",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5627",
+      "project": "tp:gcal-4.1",
+      "msgid": "%s: abort, ",
+      "before": "%s: avbryt, ",
+      "after": "%s: avbryter, ",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5662",
+      "project": "tp:gcal-4.1",
+      "msgid": "Invalid argument in command line given -- %s",
+      "before": "Ogiltigt argument i den angivna kommandoraden -- %s",
+      "after": "Ogiltigt argument angavs på kommandoraden -- %s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5667",
+      "project": "tp:gcal-4.1",
+      "msgid": "Argument `%s' of command line ignored.",
+      "before": "Argumentet \"%s\" på kommandoraden ignorerat.",
+      "after": "Argumentet ”%s” på kommandoraden ignoreras.",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5672",
+      "project": "tp:gcal-4.1",
+      "msgid": "Line %ld ignored: %s",
+      "before": "Rad %ld ignorerad: %s",
+      "after": "Rad %ld ignoreras: %s",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5687",
+      "project": "tp:gcal-4.1",
+      "msgid": "environment variable `%s' not set",
+      "before": "miljövariabeln \"%s\" är inte satt",
+      "after": "miljövariabeln ”%s” är inte inställd",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5712",
+      "project": "tp:gcal-4.1",
+      "msgid": "invalid year for computing Easter Sundays date\nYear must be in range (%d...%d)",
+      "before": "ogiltigt år för att kunna beräkna datum för påskdagen\nÅret måste vara i intervallet (%d - %d)",
+      "after": "ogiltigt år för beräkning av påskdagens datum\nÅret måste vara i intervallet (%d–%d)",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5721",
+      "project": "tp:gcal-4.1",
+      "msgid": "`%s' line %ld: virtual memory exhausted (%s=%d)",
+      "before": "\"%s\" rad %ld: virtuellt minne slut (%s=%d)",
+      "after": "”%s” rad %ld: virtuellt minne slut (%s=%d)",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5794",
+      "project": "tp:gcal-4.1",
+      "msgid": "file `%s' can't be written\nStorage media full!",
+      "before": "filen \"%s\" kan inte skrivas\nLagringsmediet fullt!",
+      "after": "filen ”%s” kan inte skrivas\nLagringsmediet är fullt!",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5803",
+      "project": "tp:gcal-4.1",
+      "msgid": "sending eMail to <%s> failed",
+      "before": "skickande av e-post till <%s> misslyckades",
+      "after": "e-post kunde inte skickas till <%s>",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:5866",
+      "project": "tp:gcal-4.1",
+      "msgid": "\n%s: program aborted by signal %d\n",
+      "before": "\n%s: programmet avbrutet av signalen %d\n",
+      "after": "\n%s: programmet avbröts av signal %d\n",
+      "reason": "Språk- och terminologigranskning av Gcal"
+    },
+    {
+      "tp_id": "gcal:6093",
+      "project": "tp:gcal-4.1",
+      "msgid": "shift value `%s' is invalid",
+      "before": "skiftvärdet \"%s\" är ogiltigt",
+      "after": "skiftvärdet ”%s” är ogiltigt",
+      "reason": "Språk- och terminologigranskning av Gcal"
     }
   ]
 }
