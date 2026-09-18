@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 23696,
+  "reviewed_tp_entries": 23865,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 6318,
+  "changed_pairs": 6345,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 6318,
+      "confirmed_swedish_changes": 6345,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "cb5f55b3d2a809e287d8718d06bf00f4a1319c8471074d36a83628bf08ee8be5"
+      "sha256": "b134a6058dc46dba94e79f39aa0c38139040df64eec247ca7b9b404ac77d7c8d"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 6318,
+      "confirmed_swedish_changes": 6345,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "58f133f3599ad99c2996036db9cfd3f6bda1ec935ae41c734851ffd9d72136d1"
+      "sha256": "e8b6905e0231ec800f21ccbb5a32d95b27af3d3f5b6da629894676c3dd1614e6"
     }
   },
   "unmapped_plural_fixes": [
@@ -50593,12 +50593,228 @@
       "reason": "Rättar term."
     },
     {
+      "tp_id": "dos2unix:697",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "Binary symbol 0x00%02X found at line %u\n",
+      "before": "Binärsymbol 0x00%02X hittades på rad %u\n",
+      "after": "Binärsymbolen 0x00%02X hittades på rad %u\n",
+      "reason": "Rättar bestämd form."
+    },
+    {
       "tp_id": "dos2unix:39",
       "project": "tp:dos2unix-7.5.3-beta8",
       "msgid": "Added line break to last line.\n",
       "before": "Lägg till en radbrytning på sista raden.\n",
       "after": "Lade till en radbrytning på sista raden.\n",
       "reason": "En utförd åtgärd hade översatts till en uppmaning."
+    },
+    {
+      "tp_id": "dos2unix:702",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "Binary symbol 0x%02X found at line %u\n",
+      "before": "Binärsymbol 0x%02X hittades på rad %u\n",
+      "after": "Binärsymbolen 0x%02X hittades på rad %u\n",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "dos2unix:216",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": " -h, --help            display this help text\n",
+      "before": " -h, --help            visar denna hjälptext\n",
+      "after": " -h, --help            visa denna hjälptext\n",
+      "reason": "Rättar hjälptextstil."
+    },
+    {
+      "tp_id": "dos2unix:236",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": " -l, --newline         add additional newline\n",
+      "before": " -l, --newline         lägg till ytterligare nyrad\n",
+      "after": " -l, --newline         lägg till ytterligare radbrytning\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "dos2unix:266",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": " -O, --to-stdout       write to standard output\n",
+      "before": " -O, --to-stdout       skriv till standard ut\n",
+      "after": " -O, --to-stdout       skriv till standardutdata\n",
+      "reason": "Rättar etablerad term."
+    },
+    {
+      "tp_id": "dos2unix:298",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": " -ul, --assume-utf16le assume that the input format is UTF-16LE\n",
+      "before": " -ul, --assume-utf16le förmoda att inmatningsformatet är UTF-16LE\n",
+      "after": " -ul, --assume-utf16le anta att inmatningsformatet är UTF-16LE\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "dos2unix:302",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": " -ub, --assume-utf16be assume that the input format is UTF-16BE\n",
+      "before": " -ub, --assume-utf16be förmoda att inmatningsformatet är UTF-16BE\n",
+      "after": " -ub, --assume-utf16be anta att inmatningsformatet är UTF-16BE\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "dos2unix:306",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": " -v,  --verbose        verbose operation\n",
+      "before": " -v,  --verbose        utförlig drift\n",
+      "after": " -v,  --verbose        utförligt läge\n",
+      "reason": "Rättar hjälptextstil."
+    },
+    {
+      "tp_id": "dos2unix:388",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "%s version.\n",
+      "before": "%s version.\n",
+      "after": "%s-version.\n",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "dos2unix:447",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "Input file %s has %s BOM.\n",
+      "before": "Infil %s har %s BOM.\n",
+      "after": "Inmatningsfilen %s har %s BOM.\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "dos2unix:452",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "Assuming UTF-16LE encoding.\n",
+      "before": "Förmodar att UTF-16LE teckenkodning används.\n",
+      "after": "Antar UTF-16LE-kodning.\n",
+      "reason": "Rättar hjälptextstil och sammansättning."
+    },
+    {
+      "tp_id": "dos2unix:456",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "Assuming UTF-16BE encoding.\n",
+      "before": "Förmodar att UTF-16BE teckenkodning används.\n",
+      "after": "Antar UTF-16BE-kodning.\n",
+      "reason": "Rättar hjälptextstil och sammansättning."
+    },
+    {
+      "tp_id": "dos2unix:470",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "using %s as temporary file\n",
+      "before": "använder %s som temporär fil\n",
+      "after": "använder %s som temporärfil\n",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "dos2unix:490",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "problems renaming '%s' to '%s':",
+      "before": "fel när '%s' bytte namn till '%s':",
+      "after": "fel vid namnbyte från ”%s” till ”%s”:",
+      "reason": "Rättar betydelse och citattecken."
+    },
+    {
+      "tp_id": "dos2unix:500",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "          output file remains in '%s'\n",
+      "before": "          utfil förblir i ”%s”\n",
+      "after": "          utfilen finns kvar i ”%s”\n",
+      "reason": "Rättar bestämd form och citattecken."
+    },
+    {
+      "tp_id": "dos2unix:510",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "code page %d is not supported.\n",
+      "before": "saknar stöd för teckentabell %d.\n",
+      "after": "teckentabell %d stöds inte.\n",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "dos2unix:525",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "Skipping UTF-16 file %s, UTF-16 conversion is not supported in this version of %s.\n",
+      "before": "Hoppar över UTF-16-fil %s, UTF-16-konvertering saknar stöd i denna version av %s.\n",
+      "after": "Hoppar över UTF-16-filen %s; UTF-16-konvertering stöds inte i den här versionen av %s.\n",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "dos2unix:530",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "Skipping %s, not a regular file.\n",
+      "before": "Hoppar över %s, är ingen vanlig fil.\n",
+      "after": "Hoppar över %s; det är inte en vanlig fil.\n",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "dos2unix:555",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "converting file %s to file %s in Unix format...\n",
+      "before": "konverterar fil %s till fil %s i Unix-format…\n",
+      "after": "konverterar filen %s till filen %s i Unix-format …\n",
+      "reason": "Rättar bestämd form och typografi."
+    },
+    {
+      "tp_id": "dos2unix:560",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "converting file %s to Unix format...\n",
+      "before": "konverterar fil %s till Unix-format…\n",
+      "after": "konverterar filen %s till Unix-format …\n",
+      "reason": "Rättar bestämd form och typografi."
+    },
+    {
+      "tp_id": "dos2unix:626",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "problems converting file %s to file %s\n",
+      "before": "fel vid konvertering från fil %s till fil %s\n",
+      "after": "fel vid konvertering av filen %s till filen %s\n",
+      "reason": "Rättar preposition och bestämd form."
+    },
+    {
+      "tp_id": "dos2unix-man:57",
+      "project": "tp:dos2unix-man-7.5.3-beta8",
+      "msgid": "In DOS/Windows text files a line break, also known as newline, is a combination of two characters: a Carriage Return (CR) followed by a Line Feed (LF). In Unix text files a line break is a single character: the Line Feed (LF). In Mac text files, prior to Mac OS X, a line break was single Carriage Return (CR)  character. Nowadays Mac OS uses Unix style (LF) line breaks.",
+      "before": "Textfiler i DOS/Windows har en radbrytning, också känd som nyrad, som är en kombination av två tecken: vagnretur (Carriage Return, CR) åtföljt av radmatning (Line Feed, LF). Textfiler i Unix har en radbrytning som är ett enda tecken: radmatning (Line Feed, LF). Textfiler för Mac, innan Mac OS X, hade en radbrytning som var en enda vagnretur (Carriage Return, CR). Numera använder Mac OS radbrytning i Unix-stil (LF).",
+      "after": "I textfiler i DOS/Windows är en radbrytning, även kallad nyrad, en kombination av två tecken: en vagnretur (Carriage Return, CR) följd av en radmatning (Line Feed, LF). I textfiler i Unix är en radbrytning ett enda tecken: radmatning (Line Feed, LF). I textfiler för Mac, före Mac OS X, var en radbrytning en enda vagnretur (Carriage Return, CR). Numera använder Mac OS radbrytningar i Unix-stil (LF).",
+      "reason": "Rättar grammatik och konsekvent plural."
+    },
+    {
+      "tp_id": "dos2unix-man:82",
+      "project": "tp:dos2unix-man-7.5.3-beta8",
+      "msgid": "dos2unix was modelled after dos2unix under SunOS/Solaris.  There is one important difference with the original SunOS/Solaris version. This version does by default in-place conversion (old file mode), while the original SunOS/Solaris version only supports paired conversion (new file mode). See also options C<-o> and C<-n>. Another difference is that the SunOS/Solaris version uses by default I<iso> mode conversion while this version uses by default I<ascii> mode conversion.",
+      "before": "dos2unix modellerades efter dos2unix från SunOS/Solaris. Det finns en viktig skillnad gentemot originalversionen för SunOS/Solaris. Denna versionen gör som standard konverteringen på plats (gammalfilsläge), medan originalversionen från SunOS/Solaris bara hade stöd för parad konvertering (nyfilsläge). Se vidare flaggorna C<-o> och C<-n>. En annan skillnad är att SunOS/Solaris-versionen som standard använder I<iso>-lägeskonvertering medan denna version som standard använder I<ascii>-lägeskonvertering.",
+      "after": "dos2unix modellerades efter dos2unix i SunOS/Solaris. Det finns en viktig skillnad jämfört med originalversionen för SunOS/Solaris. Den här versionen konverterar som standard på plats (gammalfilsläge), medan originalversionen för SunOS/Solaris bara stöder parad konvertering (nyfilsläge). Se även flaggorna C<-o> och C<-n>. En annan skillnad är att SunOS/Solaris-versionen som standard använder I<iso>-lägeskonvertering, medan den här versionen som standard använder I<ascii>-lägeskonvertering.",
+      "reason": "Rättar grammatik, stil och konsekvent tilltal."
+    },
+    {
+      "tp_id": "dos2unix-man:97",
+      "project": "tp:dos2unix-man-7.5.3-beta8",
+      "msgid": "Treat all following options as file names. Use this option if you want to convert files whose names start with a dash. For instance to convert a file named \"-foo\", you can use this command:",
+      "before": "Behandla alla efterföljande flaggor som filnamn. Använd denna flagga om du vill konvertera filer vars namn börjar med bindestreck. För att till exempel konvertera en fil med namnet “-foo“ kan du använda detta kommando:",
+      "after": "Behandla alla efterföljande argument som filnamn. Använd flaggan om du vill konvertera filer vars namn börjar med ett bindestreck. För att till exempel konvertera en fil med namnet ”-foo” kan du använda det här kommandot:",
+      "reason": "Rättar teknisk betydelse och citattecken."
+    },
+    {
+      "tp_id": "dos2unix-man:132",
+      "project": "tp:dos2unix-man-7.5.3-beta8",
+      "msgid": "Allow file ownership change in old file mode.",
+      "before": "Tillåt ändring av ägarskap för fil i gammalt filläge.",
+      "after": "Tillåt ändring av filägarskap i gammalfilsläge.",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "dos2unix-man:137",
+      "project": "tp:dos2unix-man-7.5.3-beta8",
+      "msgid": "When this option is used, the conversion will not be aborted when the user and/or group ownership of the original file can't be preserved in old file mode. Conversion will continue and the converted file will get the same new ownership as if it was converted in new file mode. See also options C<-o> and C<-n>. This option is only available if dos2unix has support for preserving the user and group ownership of files.",
+      "before": "När denna flagga används, kommer konverteringen inte att avbrytas när användar- och/eller gruppägarskap för originalfilen inte kan bevaras i gammalt filläget. Konverteringen kommer att fortsätta och den konverterade filen kommer att få samma nya ägarskap som om den konverterades i nyfilsläge. Se också flaggorna C<-o> och C<-n>. Denna flagga är endast tillgänglig om dos2unix har stöd för att bevara användar- och gruppägarskap för filer.",
+      "after": "När den här flaggan används avbryts inte konverteringen om användar- och/eller gruppägarskapet för originalfilen inte kan bevaras i gammalfilsläge. Konverteringen fortsätter och den konverterade filen får samma nya ägarskap som om den konverterades i nyfilsläge. Se även flaggorna C<-o> och C<-n>. Flaggan är bara tillgänglig om dos2unix stöder bevarande av användar- och gruppägarskap för filer.",
+      "reason": "Rättar grammatik och stil."
+    },
+    {
+      "tp_id": "dos2unix-man:337",
+      "project": "tp:dos2unix-man-7.5.3-beta8",
+      "msgid": "The default encoding can be changed with environment variable DOS2UNIX_DISPLAY_ENC by setting it to C<unicode>, C<unicodebom>, C<utf8>, or C<utf8bom>.",
+      "before": "Standardkodningen kan ändras via miljövariabeln DOS2UNIX_DISPLAY_ENC genom att sätta den till C<unicode>, C<unicodebom>, C<utf8> or C<utf8bom>.",
+      "after": "Standardkodningen kan ändras med miljövariabeln DOS2UNIX_DISPLAY_ENC genom att sätta den till C<unicode>, C<unicodebom>, C<utf8> eller C<utf8bom>.",
+      "reason": "Rättar kvarlämnat engelskt ord."
     }
   ]
 }

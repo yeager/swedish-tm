@@ -336500,7 +336500,7 @@ msgstr "Copyright (C) 2009-%d Erwin Waterlander\nCopyright (C) 1998      Christi
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "Binary symbol 0x00%02X found at line %u\n"
-msgstr "Binärsymbol 0x00%02X hittades på rad %u\n"
+msgstr "Binärsymbolen 0x00%02X hittades på rad %u\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "Added line break to last line.\n"
@@ -336520,7 +336520,7 @@ msgstr "använder teckentabell %d.\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "Binary symbol 0x%02X found at line %u\n"
-msgstr "Binärsymbol 0x%02X hittades på rad %u\n"
+msgstr "Binärsymbolen 0x%02X hittades på rad %u\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "error: Value of environment variable DOS2UNIX_LOCALEDIR is too long.\n"
@@ -336620,7 +336620,7 @@ msgstr " -gb, --gb18030        konvertera UTF-16 till GB18030\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid " -h, --help            display this help text\n"
-msgstr " -h, --help            visar denna hjälptext\n"
+msgstr " -h, --help            visa denna hjälptext\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid " -i, --info[=FLAGS]    display file information\n   file ...            files to analyze\n"
@@ -336636,7 +336636,7 @@ msgstr " -L, --license         visa programvarulicensen\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid " -l, --newline         add additional newline\n"
-msgstr " -l, --newline         lägg till ytterligare nyrad\n"
+msgstr " -l, --newline         lägg till ytterligare radbrytning\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid " -m, --add-bom         add Byte Order Mark (default UTF-8)\n"
@@ -336656,7 +336656,7 @@ msgstr " --no-add-eol          lägg inte till en radbrytning på sista raden om
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid " -O, --to-stdout       write to standard output\n"
-msgstr " -O, --to-stdout       skriv till standard ut\n"
+msgstr " -O, --to-stdout       skriv till standardutdata\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid " -o, --oldfile         write to old file (default)\n   file ...            files to convert in old-file mode\n"
@@ -336684,15 +336684,15 @@ msgstr " -u,  --keep-utf16     behåll UTF-16 teckenkodning\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid " -ul, --assume-utf16le assume that the input format is UTF-16LE\n"
-msgstr " -ul, --assume-utf16le förmoda att inmatningsformatet är UTF-16LE\n"
+msgstr " -ul, --assume-utf16le anta att inmatningsformatet är UTF-16LE\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid " -ub, --assume-utf16be assume that the input format is UTF-16BE\n"
-msgstr " -ub, --assume-utf16be förmoda att inmatningsformatet är UTF-16BE\n"
+msgstr " -ub, --assume-utf16be anta att inmatningsformatet är UTF-16BE\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid " -v,  --verbose        verbose operation\n"
-msgstr " -v,  --verbose        utförlig drift\n"
+msgstr " -v,  --verbose        utförligt läge\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid " -F, --follow-symlink  follow symbolic links and convert the targets\n"
@@ -336760,7 +336760,7 @@ msgstr "OS/2-version (EMX).\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "%s version.\n"
-msgstr "%s version.\n"
+msgstr "%s-version.\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "With Unicode UTF-16 support.\n"
@@ -336816,15 +336816,15 @@ msgstr "UTF-8"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "Input file %s has %s BOM.\n"
-msgstr "Infil %s har %s BOM.\n"
+msgstr "Inmatningsfilen %s har %s BOM.\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "Assuming UTF-16LE encoding.\n"
-msgstr "Förmodar att UTF-16LE teckenkodning används.\n"
+msgstr "Antar UTF-16LE-kodning.\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "Assuming UTF-16BE encoding.\n"
-msgstr "Förmodar att UTF-16BE teckenkodning används.\n"
+msgstr "Antar UTF-16BE-kodning.\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "problems resolving symbolic link '%s'\n"
@@ -336836,7 +336836,7 @@ msgstr "Misslyckades att öppna temporär utmatningsfil: %s\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "using %s as temporary file\n"
-msgstr "använder %s som temporär fil\n"
+msgstr "använder %s som temporärfil\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "Failed to change the permissions of temporary output file %s:"
@@ -336852,7 +336852,7 @@ msgstr "Misslyckades att ändra ägare och grupp för temporär utmatningsfil %s
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "problems renaming '%s' to '%s':"
-msgstr "fel när '%s' bytte namn till '%s':"
+msgstr "fel vid namnbyte från ”%s” till ”%s”:"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "          which is the target of symbolic link '%s'\n"
@@ -336860,7 +336860,7 @@ msgstr "          vilken är målet för den symboliska länken ”%s”\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "          output file remains in '%s'\n"
-msgstr "          utfil förblir i ”%s”\n"
+msgstr "          utfilen finns kvar i ”%s”\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "Skipping binary file %s\n"
@@ -336868,7 +336868,7 @@ msgstr "Hoppar över binärfil %s\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "code page %d is not supported.\n"
-msgstr "saknar stöd för teckentabell %d.\n"
+msgstr "teckentabell %d stöds inte.\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "Skipping UTF-16 file %s, the size of wchar_t is %d bytes.\n"
@@ -336880,11 +336880,11 @@ msgstr "Hoppar över UTF-16-fil %s, ett UTF-16-konverteringsfel inträffade på 
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "Skipping UTF-16 file %s, UTF-16 conversion is not supported in this version of %s.\n"
-msgstr "Hoppar över UTF-16-fil %s, UTF-16-konvertering saknar stöd i denna version av %s.\n"
+msgstr "Hoppar över UTF-16-filen %s; UTF-16-konvertering stöds inte i den här versionen av %s.\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "Skipping %s, not a regular file.\n"
-msgstr "Hoppar över %s, är ingen vanlig fil.\n"
+msgstr "Hoppar över %s; det är inte en vanlig fil.\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "Skipping %s, output file %s is a symbolic link.\n"
@@ -336904,11 +336904,11 @@ msgstr "Hoppar över %s, målet för den symboliska länken %s är inte en vanli
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "converting file %s to file %s in Unix format...\n"
-msgstr "konverterar fil %s till fil %s i Unix-format…\n"
+msgstr "konverterar filen %s till filen %s i Unix-format …\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "converting file %s to Unix format...\n"
-msgstr "konverterar fil %s till Unix-format…\n"
+msgstr "konverterar filen %s till Unix-format …\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "converting file %s to file %s in Mac format...\n"
@@ -336952,7 +336952,7 @@ msgstr "konverterar %s-fil %s till %s DOS-format…\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "problems converting file %s to file %s\n"
-msgstr "fel vid konvertering från fil %s till fil %s\n"
+msgstr "fel vid konvertering av filen %s till filen %s\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "problems converting file %s\n"
@@ -337016,7 +337016,7 @@ msgstr "Paketet dos2unix inkluderar verktygen C<dos2unix> och C<unix2dos> som ko
 
 #. from tp:dos2unix-man-7.5.3-beta8
 msgid "In DOS/Windows text files a line break, also known as newline, is a combination of two characters: a Carriage Return (CR) followed by a Line Feed (LF). In Unix text files a line break is a single character: the Line Feed (LF). In Mac text files, prior to Mac OS X, a line break was single Carriage Return (CR)  character. Nowadays Mac OS uses Unix style (LF) line breaks."
-msgstr "Textfiler i DOS/Windows har en radbrytning, också känd som nyrad, som är en kombination av två tecken: vagnretur (Carriage Return, CR) åtföljt av radmatning (Line Feed, LF). Textfiler i Unix har en radbrytning som är ett enda tecken: radmatning (Line Feed, LF). Textfiler för Mac, innan Mac OS X, hade en radbrytning som var en enda vagnretur (Carriage Return, CR). Numera använder Mac OS radbrytning i Unix-stil (LF)."
+msgstr "I textfiler i DOS/Windows är en radbrytning, även kallad nyrad, en kombination av två tecken: en vagnretur (Carriage Return, CR) följd av en radmatning (Line Feed, LF). I textfiler i Unix är en radbrytning ett enda tecken: radmatning (Line Feed, LF). I textfiler för Mac, före Mac OS X, var en radbrytning en enda vagnretur (Carriage Return, CR). Numera använder Mac OS radbrytningar i Unix-stil (LF)."
 
 #. from tp:dos2unix-man-7.5.3-beta8
 msgid "Besides line breaks dos2unix can also convert the encoding of files. A few DOS code pages can be converted to Unix Latin-1. And Windows Unicode (UTF-16)  files can be converted to Unix Unicode (UTF-8) files."
@@ -337036,7 +337036,7 @@ msgstr "Symboliska länkar och deras mål förblir oförändrade som standard. S
 
 #. from tp:dos2unix-man-7.5.3-beta8
 msgid "dos2unix was modelled after dos2unix under SunOS/Solaris.  There is one important difference with the original SunOS/Solaris version. This version does by default in-place conversion (old file mode), while the original SunOS/Solaris version only supports paired conversion (new file mode). See also options C<-o> and C<-n>. Another difference is that the SunOS/Solaris version uses by default I<iso> mode conversion while this version uses by default I<ascii> mode conversion."
-msgstr "dos2unix modellerades efter dos2unix från SunOS/Solaris. Det finns en viktig skillnad gentemot originalversionen för SunOS/Solaris. Denna versionen gör som standard konverteringen på plats (gammalfilsläge), medan originalversionen från SunOS/Solaris bara hade stöd för parad konvertering (nyfilsläge). Se vidare flaggorna C<-o> och C<-n>. En annan skillnad är att SunOS/Solaris-versionen som standard använder I<iso>-lägeskonvertering medan denna version som standard använder I<ascii>-lägeskonvertering."
+msgstr "dos2unix modellerades efter dos2unix i SunOS/Solaris. Det finns en viktig skillnad jämfört med originalversionen för SunOS/Solaris. Den här versionen konverterar som standard på plats (gammalfilsläge), medan originalversionen för SunOS/Solaris bara stöder parad konvertering (nyfilsläge). Se även flaggorna C<-o> och C<-n>. En annan skillnad är att SunOS/Solaris-versionen som standard använder I<iso>-lägeskonvertering, medan den här versionen som standard använder I<ascii>-lägeskonvertering."
 
 #. from tp:dos2unix-man-7.5.3-beta8
 msgid "B<-->"
@@ -337044,7 +337044,7 @@ msgstr "B<-->"
 
 #. from tp:dos2unix-man-7.5.3-beta8
 msgid "Treat all following options as file names. Use this option if you want to convert files whose names start with a dash. For instance to convert a file named \"-foo\", you can use this command:"
-msgstr "Behandla alla efterföljande flaggor som filnamn. Använd denna flagga om du vill konvertera filer vars namn börjar med bindestreck. För att till exempel konvertera en fil med namnet “-foo“ kan du använda detta kommando:"
+msgstr "Behandla alla efterföljande argument som filnamn. Använd flaggan om du vill konvertera filer vars namn börjar med ett bindestreck. För att till exempel konvertera en fil med namnet ”-foo” kan du använda det här kommandot:"
 
 #. from tp:dos2unix-man-7.5.3-beta8
 msgid "    dos2unix -- -foo\n\n"
@@ -337064,11 +337064,11 @@ msgstr "B<--allow-chown>"
 
 #. from tp:dos2unix-man-7.5.3-beta8
 msgid "Allow file ownership change in old file mode."
-msgstr "Tillåt ändring av ägarskap för fil i gammalt filläge."
+msgstr "Tillåt ändring av filägarskap i gammalfilsläge."
 
 #. from tp:dos2unix-man-7.5.3-beta8
 msgid "When this option is used, the conversion will not be aborted when the user and/or group ownership of the original file can't be preserved in old file mode. Conversion will continue and the converted file will get the same new ownership as if it was converted in new file mode. See also options C<-o> and C<-n>. This option is only available if dos2unix has support for preserving the user and group ownership of files."
-msgstr "När denna flagga används, kommer konverteringen inte att avbrytas när användar- och/eller gruppägarskap för originalfilen inte kan bevaras i gammalt filläget. Konverteringen kommer att fortsätta och den konverterade filen kommer att få samma nya ägarskap som om den konverterades i nyfilsläge. Se också flaggorna C<-o> och C<-n>. Denna flagga är endast tillgänglig om dos2unix har stöd för att bevara användar- och gruppägarskap för filer."
+msgstr "När den här flaggan används avbryts inte konverteringen om användar- och/eller gruppägarskapet för originalfilen inte kan bevaras i gammalfilsläge. Konverteringen fortsätter och den konverterade filen får samma nya ägarskap som om den konverterades i nyfilsläge. Se även flaggorna C<-o> och C<-n>. Flaggan är bara tillgänglig om dos2unix stöder bevarande av användar- och gruppägarskap för filer."
 
 #. from tp:dos2unix-man-7.5.3-beta8
 msgid "B<-ascii>"
@@ -337228,7 +337228,7 @@ msgstr "När metod C<utf8bom> används kommer UTF-8-texten att föregås av en B
 
 #. from tp:dos2unix-man-7.5.3-beta8
 msgid "The default encoding can be changed with environment variable DOS2UNIX_DISPLAY_ENC by setting it to C<unicode>, C<unicodebom>, C<utf8>, or C<utf8bom>."
-msgstr "Standardkodningen kan ändras via miljövariabeln DOS2UNIX_DISPLAY_ENC genom att sätta den till C<unicode>, C<unicodebom>, C<utf8> or C<utf8bom>."
+msgstr "Standardkodningen kan ändras med miljövariabeln DOS2UNIX_DISPLAY_ENC genom att sätta den till C<unicode>, C<unicodebom>, C<utf8> eller C<utf8bom>."
 
 #. from tp:dos2unix-man-7.5.3-beta8
 msgid "B<-e, --add-eol>"
