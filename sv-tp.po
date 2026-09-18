@@ -336028,7 +336028,7 @@ msgstr "det går inte att starta loggaren för %s: pipe misslyckades: %s"
 
 #. from tp:direvent-5.3
 msgid "cannot run logger `%s': fork failed: %s"
-msgstr "det går inte att köra loggare ”%s”: ”fork” misslyckades: %s"
+msgstr "det går inte att köra loggaren ”%s”: fork misslyckades: %s"
 
 #. from tp:direvent-5.3
 msgid "logger for %s started, pid=%lu"
@@ -336036,7 +336036,7 @@ msgstr "loggare för %s startades, pid=%lu"
 
 #. from tp:direvent-5.3
 msgid "starting %s, dir=%s, file=%s"
-msgstr "startar %s, kat=%s, fil=%s"
+msgstr "startar %s, katalog=%s, fil=%s"
 
 #. from tp:direvent-5.3
 msgid "%s running; dir=%s, file=%s, pid=%lu"
@@ -336048,7 +336048,7 @@ msgstr "väntar på att %s (%lu) ska avslutas"
 
 #. from tp:direvent-5.3
 msgid "%s: recent status expired"
-msgstr "%s: senaste status har upphört"
+msgstr "%s: den senaste statusen har upphört"
 
 #. from tp:direvent-5.3
 msgid "removing watcher %s"
@@ -336120,7 +336120,7 @@ msgstr "bygg databas (standard är att söka)"
 
 #. from tp:doodle-0.7.2
 msgid "use location FILENAME to store doodle database"
-msgstr "använd FILNAMN för att lagra doodles databas"
+msgstr "använd platsen FILNAMN för att lagra doodle-databasen"
 
 #. from tp:doodle-0.7.2
 msgid "for each matching file, print the extracted keywords"
@@ -336128,7 +336128,7 @@ msgstr "för varje matchande fil, skriv ut extraherade nyckelord"
 
 #. from tp:doodle-0.7.2
 msgid "add the filename to the list of keywords (use when building database)"
-msgstr "lägg till filnamnet till listan av nyckelord (använd vid bygge av databas)"
+msgstr "lägg till filnamnet i listan med nyckelord (använd vid databasbygge)"
 
 #. from tp:doodle-0.7.2
 msgid "print this help page"
@@ -336136,7 +336136,7 @@ msgstr "skriv ut denna hjälpsida"
 
 #. from tp:doodle-0.7.2
 msgid "be case-insensitive (use when searching)"
-msgstr "var inte skiftlägeskänslig (använd vid sökning)"
+msgstr "ignorera skiftläge (använd vid sökning)"
 
 #. from tp:doodle-0.7.2
 msgid "LIBRARY"
@@ -336168,7 +336168,7 @@ msgstr "doodle [FLAGGOR] ([FILNAMN]*|[NYCKELORD]*)"
 
 #. from tp:doodle-0.7.2
 msgid "Index and search meta-data of files."
-msgstr "Indexera och sök metadata i filer."
+msgstr "Indexera och sök i metadata för filer."
 
 #. from tp:doodle-0.7.2
 msgid "Pruned: %s\n"
@@ -336216,11 +336216,11 @@ msgstr "Söker efter \"%s\":\n"
 
 #. from tp:doodle-0.7.2
 msgid "Warning: search string is longer than %d characters, search will not work.\n"
-msgstr "Varning: söksträng är längre än %d tecken, sökning kommer inte fungera.\n"
+msgstr "Varning: söksträngen är längre än %d tecken, sökningen kommer inte att fungera.\n"
 
 #. from tp:doodle-0.7.2
 msgid "Warning: search string is longer than %d characters, search may not work properly.\n"
-msgstr "Varning: söksträng är längre än %d tecken, sökning kanske inte fungerar korrekt.\n"
+msgstr "Varning: söksträngen är längre än %d tecken, sökningen kanske inte fungerar korrekt.\n"
 
 #. from tp:doodle-0.7.2
 msgid "	Not found!\n"
@@ -336228,7 +336228,7 @@ msgstr "	Hittades inte!\n"
 
 #. from tp:doodle-0.7.2
 msgid "You must pass a number to the '%s' option.\n"
-msgstr "Du måste skicka med ett nummer till flaggan \"%s\".\n"
+msgstr "Du måste ange ett tal till flaggan ”%s”.\n"
 
 #. from tp:doodle-0.7.2
 msgid "The options '%s' and '%s' cannot be used together!\n"
@@ -336248,11 +336248,11 @@ msgstr "Använd \"--help\" för att få en lista över flaggor.\n"
 
 #. from tp:doodle-0.7.2
 msgid "Invoke with filenames or directories to index!\n"
-msgstr "Anropa med filnamn eller kataloger att indexera!\n"
+msgstr "Ange filnamn eller kataloger att indexera!\n"
 
 #. from tp:doodle-0.7.2
 msgid "Invoke with query terms to search for!\n"
-msgstr "Anropa med söktermer att söka efter!\n"
+msgstr "Ange söktermer att söka efter!\n"
 
 #. from tp:doodle-0.7.2
 msgid "run in debug mode, do not daemonize"
@@ -336272,7 +336272,7 @@ msgstr "doodled [FLAGGOR] [FILNAMN]"
 
 #. from tp:doodle-0.7.2
 msgid "Continuously index files in the background."
-msgstr "Fortsätt indexera filer i bakgrunden."
+msgstr "Indexera filer kontinuerligt i bakgrunden."
 
 #. from tp:doodle-0.7.2
 msgid "Event processing thread created.\n"
@@ -336348,7 +336348,7 @@ msgstr "Anropa med filnamn eller kataloger för övervakning!\n"
 
 #. from tp:doodle-0.7.2
 msgid "Assertion failed at %s:%d.\n"
-msgstr "Påstående misslyckades vid %s.%d.\n"
+msgstr "Påstående misslyckades vid %s:%d.\n"
 
 #. from tp:doodle-0.7.2
 msgid "Scanning '%s'\n"
@@ -336392,7 +336392,7 @@ msgstr "Behandlar filen %s\n"
 
 #. from tp:doodle-0.7.2
 msgid "Short read at offset %llu (attempted to read %llu bytes).\n"
-msgstr "Kort läsning vid offset %llu (försökte läsa %llu byte).\n"
+msgstr "Kort läsning vid position %llu (försökte läsa %llu byte).\n"
 
 #. from tp:doodle-0.7.2
 msgid "'%s' failed: %s\n"
@@ -336400,7 +336400,7 @@ msgstr "\"%s\" misslyckades: %s\n"
 
 #. from tp:doodle-0.7.2
 msgid "Short write at offset %llu (wanted to write %llu bytes).\n"
-msgstr "Kort skrivning vid offset %llu (försökte skriva %llu byte).\n"
+msgstr "Kort skrivning vid position %llu (försökte skriva %llu byte).\n"
 
 #. from tp:doodle-0.7.2
 msgid "Assertion failed at %s:%d.\nDatabase format error!\n"
@@ -336504,7 +336504,7 @@ msgstr "Binärsymbol 0x00%02X hittades på rad %u\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "Added line break to last line.\n"
-msgstr "Lägg till en radbrytning på sista raden.\n"
+msgstr "Lade till en radbrytning på sista raden.\n"
 
 #. from tp:dos2unix-7.5.3-beta8
 msgid "program error, invalid conversion mode %d\n"

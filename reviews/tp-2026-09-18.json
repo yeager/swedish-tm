@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 23410,
+  "reviewed_tp_entries": 23696,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 6301,
+  "changed_pairs": 6318,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 6301,
+      "confirmed_swedish_changes": 6318,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "a22b32fa61f10b0a5d26377fc28be8565908fb1d684821909bf1fe7b7ec66e88"
+      "sha256": "cb5f55b3d2a809e287d8718d06bf00f4a1319c8471074d36a83628bf08ee8be5"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 6301,
+      "confirmed_swedish_changes": 6318,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "310bf09a59301a71ce4d99435079cf7277139e35f7aaa9635d59d9c4ec13f210"
+      "sha256": "58f133f3599ad99c2996036db9cfd3f6bda1ec935ae41c734851ffd9d72136d1"
     }
   },
   "unmapped_plural_fixes": [
@@ -50463,6 +50463,142 @@
       "before": "det går inte att starta loggare för %s, ”pipe” misslyckades: %s",
       "after": "det går inte att starta loggaren för %s: pipe misslyckades: %s",
       "reason": "Rättar teknisk term."
+    },
+    {
+      "tp_id": "direvent:545",
+      "project": "tp:direvent-5.3",
+      "msgid": "cannot run logger `%s': fork failed: %s",
+      "before": "det går inte att köra loggare ”%s”: ”fork” misslyckades: %s",
+      "after": "det går inte att köra loggaren ”%s”: fork misslyckades: %s",
+      "reason": "Rättar teknisk term."
+    },
+    {
+      "tp_id": "direvent:555",
+      "project": "tp:direvent-5.3",
+      "msgid": "starting %s, dir=%s, file=%s",
+      "before": "startar %s, kat=%s, fil=%s",
+      "after": "startar %s, katalog=%s, fil=%s",
+      "reason": "Rättar förkortning till klar svensk term."
+    },
+    {
+      "tp_id": "direvent:575",
+      "project": "tp:direvent-5.3",
+      "msgid": "%s: recent status expired",
+      "before": "%s: senaste status har upphört",
+      "after": "%s: den senaste statusen har upphört",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "doodle:38",
+      "project": "tp:doodle-0.7.2",
+      "msgid": "use location FILENAME to store doodle database",
+      "before": "använd FILNAMN för att lagra doodles databas",
+      "after": "använd platsen FILNAMN för att lagra doodle-databasen",
+      "reason": "Rättar possessiv form."
+    },
+    {
+      "tp_id": "doodle:46",
+      "project": "tp:doodle-0.7.2",
+      "msgid": "add the filename to the list of keywords (use when building database)",
+      "before": "lägg till filnamnet till listan av nyckelord (använd vid bygge av databas)",
+      "after": "lägg till filnamnet i listan med nyckelord (använd vid databasbygge)",
+      "reason": "Rättar preposition och stil."
+    },
+    {
+      "tp_id": "doodle:54",
+      "project": "tp:doodle-0.7.2",
+      "msgid": "be case-insensitive (use when searching)",
+      "before": "var inte skiftlägeskänslig (använd vid sökning)",
+      "after": "ignorera skiftläge (använd vid sökning)",
+      "reason": "Rättar idiomatiskt språkbruk."
+    },
+    {
+      "tp_id": "doodle:98",
+      "project": "tp:doodle-0.7.2",
+      "msgid": "Index and search meta-data of files.",
+      "before": "Indexera och sök metadata i filer.",
+      "after": "Indexera och sök i metadata för filer.",
+      "reason": "Rättar preposition."
+    },
+    {
+      "tp_id": "doodle:159",
+      "project": "tp:doodle-0.7.2",
+      "msgid": "Warning: search string is longer than %d characters, search will not work.\n",
+      "before": "Varning: söksträng är längre än %d tecken, sökning kommer inte fungera.\n",
+      "after": "Varning: söksträngen är längre än %d tecken, sökningen kommer inte att fungera.\n",
+      "reason": "Rättar bestämd form och hjälptextstil."
+    },
+    {
+      "tp_id": "doodle:164",
+      "project": "tp:doodle-0.7.2",
+      "msgid": "Warning: search string is longer than %d characters, search may not work properly.\n",
+      "before": "Varning: söksträng är längre än %d tecken, sökning kanske inte fungerar korrekt.\n",
+      "after": "Varning: söksträngen är längre än %d tecken, sökningen kanske inte fungerar korrekt.\n",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "doodle:174",
+      "project": "tp:doodle-0.7.2",
+      "msgid": "You must pass a number to the '%s' option.\n",
+      "before": "Du måste skicka med ett nummer till flaggan \"%s\".\n",
+      "after": "Du måste ange ett tal till flaggan ”%s”.\n",
+      "reason": "Rättar språkbruk och citattecken."
+    },
+    {
+      "tp_id": "doodle:200",
+      "project": "tp:doodle-0.7.2",
+      "msgid": "Invoke with filenames or directories to index!\n",
+      "before": "Anropa med filnamn eller kataloger att indexera!\n",
+      "after": "Ange filnamn eller kataloger att indexera!\n",
+      "reason": "Rättar hjälptextstil."
+    },
+    {
+      "tp_id": "doodle:205",
+      "project": "tp:doodle-0.7.2",
+      "msgid": "Invoke with query terms to search for!\n",
+      "before": "Anropa med söktermer att söka efter!\n",
+      "after": "Ange söktermer att söka efter!\n",
+      "reason": "Rättar hjälptextstil."
+    },
+    {
+      "tp_id": "doodle:226",
+      "project": "tp:doodle-0.7.2",
+      "msgid": "Continuously index files in the background.",
+      "before": "Fortsätt indexera filer i bakgrunden.",
+      "after": "Indexera filer kontinuerligt i bakgrunden.",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "doodle:311",
+      "project": "tp:doodle-0.7.2",
+      "msgid": "Assertion failed at %s:%d.\n",
+      "before": "Påstående misslyckades vid %s.%d.\n",
+      "after": "Påstående misslyckades vid %s:%d.\n",
+      "reason": "Rättar platshållarseparator."
+    },
+    {
+      "tp_id": "doodle:439",
+      "project": "tp:doodle-0.7.2",
+      "msgid": "Short read at offset %llu (attempted to read %llu bytes).\n",
+      "before": "Kort läsning vid offset %llu (försökte läsa %llu byte).\n",
+      "after": "Kort läsning vid position %llu (försökte läsa %llu byte).\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "doodle:449",
+      "project": "tp:doodle-0.7.2",
+      "msgid": "Short write at offset %llu (wanted to write %llu bytes).\n",
+      "before": "Kort skrivning vid offset %llu (försökte skriva %llu byte).\n",
+      "after": "Kort skrivning vid position %llu (försökte skriva %llu byte).\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "dos2unix:39",
+      "project": "tp:dos2unix-7.5.3-beta8",
+      "msgid": "Added line break to last line.\n",
+      "before": "Lägg till en radbrytning på sista raden.\n",
+      "after": "Lade till en radbrytning på sista raden.\n",
+      "reason": "En utförd åtgärd hade översatts till en uppmaning."
     }
   ]
 }
