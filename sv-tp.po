@@ -345704,15 +345704,15 @@ msgstr "Försöket att få auktorisation misslyckades.\nEftersom vi redan tidiga
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "\nHowever, if you HAVE changed your account details since starting the\nfetchmail daemon, you need to stop the daemon, change your configuration\nof fetchmail, and then restart the daemon.\n\nThe fetchmail daemon will continue running and attempt to connect\nat each cycle.  No future notifications will be sent until service\nis restored."
-msgstr "\nDock, om du HAR ändrat dina kontouppgifter sedan du startade fetchmail-\ndemonen, behöver du stoppa demonen, ändra din konfiguration av fetchmail\noch sedan återstarta demonen.\n\nFetchmail-demonen kommer fortsätta köra och försöka ansluta varje cykel.\nInga fler meddelanden kommer att skickas förrän tjänsten är återställd."
+msgstr "\nOm du HAR ändrat dina kontouppgifter sedan du startade fetchmail-\ndemonen måste du stoppa demonen, ändra din fetchmail-konfiguration och\nsedan starta om demonen.\n\nFetchmail-demonen fortsätter att köra och försöker ansluta vid varje\ncykel. Inga fler meddelanden skickas förrän tjänsten har återställts."
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "The attempt to get authorization failed.\nThis probably means your password is invalid, but some servers have\nother failure modes that fetchmail cannot distinguish from this\nbecause they don't send useful error messages on login failure.\n\nThe fetchmail daemon will continue running and attempt to connect\nat each cycle.  No future notifications will be sent until service\nis restored."
-msgstr "Försöket att få auktorisation misslyckades.\nDetta betyder förmodligen att ditt lösenord är ogiltigt, men några servrar\nhar andra fellägen som fetchmail inte kan särskilja från detta eftersom de\ninte skickar användbara felmeddelanden vid inloggningsfel.\n\nFetchmail-demonen kommer fortsätta köra och försöka ansluta varje cykel.\nInga fler meddelanden kommer att skickas förrän tjänsten är återställd."
+msgstr "Försöket att auktorisera misslyckades.\nDetta betyder förmodligen att ditt lösenord är ogiltigt, men vissa servrar\nhar andra fel som fetchmail inte kan skilja från detta eftersom de inte\nskickar användbara felmeddelanden när inloggningen misslyckas.\n\nFetchmail-demonen fortsätter att köra och försöker ansluta vid varje\ncykel. Inga fler meddelanden skickas förrän tjänsten har återställts."
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Repoll immediately on %s@%s\n"
-msgstr "Omkontrollera omedelbart på %s@%s\n"
+msgstr "Kontrollerar %s@%s omedelbart igen\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Socket or TLS error on %s@%s\n"
@@ -345724,11 +345724,11 @@ msgstr "Okänt inloggnings- eller autentiseringsfel på %s@%s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Authorization OK on %s@%s\n"
-msgstr "Auktorisationen OK på %s@%s\n"
+msgstr "Auktorisering lyckades för %s@%s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail authentication OK on %s@%s"
-msgstr "fetchmail-auktorisation OK på %s@%s"
+msgstr "fetchmail-autentisering lyckades för %s@%s"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Fetchmail was able to log into %s@%s.\n"
@@ -345740,11 +345740,11 @@ msgstr "Tjänsten har återställts.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "selecting or re-polling folder %s\n"
-msgstr "väljer eller kontrollerar om mappen %s\n"
+msgstr "väljer eller kontrollerar mappen %s igen\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "selecting or re-polling default folder\n"
-msgstr "väljer eller kontrollerar om standardmappen\n"
+msgstr "väljer eller kontrollerar standardmappen igen\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s at %s (folder %s)"
@@ -345768,19 +345768,19 @@ msgstr "felaktigt antal meddelanden!"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Too many mails skipped (%d > %d) due to transient errors for %s\n"
-msgstr "Alltför många brev överhoppade (%d > %d) på grund av transienta fel med %s\n"
+msgstr "Alltför många meddelanden hoppades över (%d > %d) på grund av tillfälliga fel för %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "missing or bad RFC822 header"
-msgstr "saknat eller felaktigt RFC822-huvud"
+msgstr "saknat eller felaktigt RFC 822-huvud"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "client/server synchronization"
-msgstr "klient-/serversynkroniseringsfel"
+msgstr "klient-/serversynkronisering"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "client/server protocol"
-msgstr "klient-/serverprotokollfel"
+msgstr "klient-/serverprotokoll"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "lock busy on server"
@@ -345788,35 +345788,35 @@ msgstr "upptaget lås på servern"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "SMTP transaction"
-msgstr "SMTP-transaktionsfel"
+msgstr "SMTP-transaktion"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "DNS lookup"
-msgstr "DNS-uppslagningsfel"
+msgstr "DNS-uppslagning"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s error while fetching from %s@%s and delivering to %s host %s\n"
-msgstr "%s fel under hämtande från %s@%s och leverans till %s-värden %s\n"
+msgstr "%s-fel vid hämtning från %s@%s och leverans till %s på värden %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s error while fetching from %s@%s\n"
-msgstr "%s under hämtande från %s@%s\n"
+msgstr "%s-fel vid hämtning från %s@%s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "post-connection command terminated with signal %d\n"
-msgstr "kommando efter anslutning avslutat med signal %d\n"
+msgstr "kommandot efter anslutning avslutades med signal %d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "post-connection command failed with status %d\n"
-msgstr "kommando efter anslutning avslutades med status %d\n"
+msgstr "kommandot efter anslutning misslyckades med status %d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Kerberos V4 support not linked.\n"
-msgstr "Kerberos V4-stöd inte inlänkat.\n"
+msgstr "Kerberos V4-stöd har inte länkats in.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Kerberos V5 support not linked.\n"
-msgstr "Kerberos V5-stöd inte inlänkat.\n"
+msgstr "Kerberos V5-stöd har inte länkats in.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Option --flush is not supported with %s\n"
@@ -345868,15 +345868,15 @@ msgstr "Försöker fortsätta med opreciserat värdnamn.\nRapportera INTE trasig
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s's SMTP listener does not support ESMTP\n"
-msgstr "%s:s SMTP-lyssnare stödjer inte ESMTP\n"
+msgstr "SMTP-lyssnaren på %s stöder inte ESMTP\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s's SMTP listener does not support ETRN\n"
-msgstr "%s:s SMTP-lyssnare stödjer inte ETRN\n"
+msgstr "SMTP-lyssnaren på %s stöder inte ETRN\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Queuing for %s started\n"
-msgstr "Kökörning för %s startad\n"
+msgstr "Köande för %s startade\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "No messages waiting for %s\n"
@@ -345884,7 +345884,7 @@ msgstr "Inga meddelanden väntar för %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Pending messages for %s started\n"
-msgstr "Väntande meddelanden för %s startade\n"
+msgstr "Hantering av väntande meddelanden för %s startade\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Unable to queue messages for node %s\n"
@@ -345928,7 +345928,7 @@ msgstr "Copyright © 2002, 2003 Eric S. Raymond\nCopyright © 2004 Matthias Andr
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Fetchmail comes with ABSOLUTELY NO WARRANTY. This is free software, and you\nare welcome to redistribute it under certain conditions. For details,\nplease see the file COPYING in the source or documentation directory.\n"
-msgstr "Fetchmail kommer UTAN NÅGON GARANTI.  Detta är fri programvara, och du\nfår gärna vidaredistribuera den under vissa villkor.  För detaljer, se\nfilen COPYING i källkoden eller dokumentationskatalogen.\n"
+msgstr "Fetchmail kommer UTAN NÅGON GARANTI. Detta är fri programvara och du\nfår vidaredistribuera den under vissa villkor. Mer information finns i\nfilen COPYING i källkods- eller dokumentationskatalogen.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Query status=%d (%s)\n"
@@ -345940,19 +345940,19 @@ msgstr "Frågestatus=%d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s: WARNING: time() overflowed. Proper function is not guaranteed. Obtain an operating system which supports operation beyond the year 2038.\n"
-msgstr "%s: VARNING: time() spillde över. Korrekt funktion kan inte garanteras. Skaffa ett operativsystem som stödjer funktionen bortom året 2038.\n"
+msgstr "%s: VARNING: time() spillde över. Korrekt funktion kan inte garanteras. Skaffa ett operativsystem som stöder drift efter år 2038.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s: WARNING: the operation system this program was built for does not function beyond the year 2038. Plan your update accordingly.\n"
-msgstr "%s: VARNING:  operativsystemet detta program byggdes för fungerar inte bortom året 2038. Planera din uppdatering därefter.\n"
+msgstr "%s: VARNING: operativsystemet som programmet byggdes för fungerar inte efter år 2038. Planera uppdateringen därefter.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "WARNING: Running as root is discouraged.\n"
-msgstr "VARNING: Det avrådes från att köra som root.\n"
+msgstr "VARNING: Att köra som root avråds.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: invoked with"
-msgstr "fetchmail: startad med"
+msgstr "fetchmail: anropad med"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "could not get current working directory\n"
@@ -345960,11 +345960,11 @@ msgstr "kunde inte få tag i aktuell arbetskatalog\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "This is fetchmail release %s"
-msgstr "Detta är fetchmail utgåva %s"
+msgstr "Det här är fetchmail version %s"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Compiled with SSL library %#lx \"%s\"\nRun-time uses SSL library %#lx \"%s\"\n"
-msgstr "Kompilerad med SSL-bibliotek %#lx ”%s”\nKörtidsanvänt SSL-bibliotek %#lx ”%s”\n"
+msgstr "Kompilerad med SSL-biblioteket %#lx ”%s”\nSSL-bibliotek vid körning: %#lx ”%s”\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "OpenSSL: %s\nEngines: %s\n"
@@ -345972,7 +345972,7 @@ msgstr "OpenSSL: %s\nMotorer: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "ERROR: Compiled against LibreSSL, which is a copyright violation for lack of GPL clause 2b exception. See COPYING. Aborting.\n"
-msgstr "FEL: Kompilerad mot LibreSSL, vilket är ett upphovsrättsintrång i brist på något GPL paragraf 2b-undantag. Se COPYING. Avbryter.\n"
+msgstr "FEL: Programmet har kompilerats mot LibreSSL, vilket innebär upphovsrättsintrång eftersom undantaget i GPL paragraf 2b saknas. Se COPYING. Avbryter.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "WARNING: Compiled without SSL/TLS.\n"
@@ -345980,35 +345980,35 @@ msgstr "VARNING: kompilerad utan SSL/TLS.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "The nodetach option is in effect, ignoring logfile option.\n"
-msgstr "Flaggan nodetach är aktiv, ignorerar loggfilsflaggan.\n"
+msgstr "Flaggan nodetach är aktiv; loggfilsalternativet ignoreras.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Not running in daemon mode, ignoring logfile option.\n"
-msgstr "Kör inte i demonläge, ignorerar loggfilsflaggan.\n"
+msgstr "Kör inte i demonläge; loggfilsalternativet ignoreras.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Logfile \"%s\" does not exist, ignoring logfile option.\n"
-msgstr "Loggfilen ”%s” finns inte, ignorerar loggfilsflaggan.\n"
+msgstr "Loggfilen ”%s” finns inte; loggfilsalternativet ignoreras.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Logfile \"%s\" is not writable, aborting.\n"
-msgstr "Loggfilen ”%s” är inte skrivbar, avbryter.\n"
+msgstr "Loggfilen ”%s” är inte skrivbar; avbryter.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "syslog and logfile options are both set, ignoring syslog, and logging to %s"
-msgstr "Alternativen syslog och logfile är båda inställda, ignorerar syslog och loggar till %s"
+msgstr "Både syslog- och logfile-alternativen är satta; syslog ignoreras och loggning sker till %s"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: configuration invalid, --moveto is only valid for IMAP servers\n"
-msgstr "fetchmail: %s-konfigurationen är ogiltig, --moveto är endast giltigt för IMAP-servrar\n"
+msgstr "fetchmail: konfigurationen är ogiltig; --moveto gäller bara IMAP-servrar\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Taking options from command line%s%s\n"
-msgstr "Hämtar flaggor från kommandoraden%s%s\n"
+msgstr "Hämtar alternativ från kommandoraden%s%s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "No mailservers set up -- perhaps %s is missing?\n"
-msgstr "Inga postservrar uppsatta — kanske %s saknas?\n"
+msgstr "Inga postservrar är konfigurerade – kanske saknas %s?\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: no mailservers have been specified.\n"
@@ -346016,11 +346016,11 @@ msgstr "fetchmail: inga postservrar har angivits.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: no other fetchmail is running\n"
-msgstr "fetchmail: ingen annan fetchmail kör\n"
+msgstr "fetchmail: ingen annan fetchmail körs\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: error killing %s fetchmail at %ld; bailing out.\n"
-msgstr "fetchmail: fel när %s-fetchmail %ld dödades; ger upp.\n"
+msgstr "fetchmail: fel när %s-fetchmail med PID %ld avslutades; ger upp.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "background"
@@ -346032,31 +346032,31 @@ msgstr "förgrunds"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: %s fetchmail at %ld killed.\n"
-msgstr "fetchmail: %s-fetchmail %ld dödad.\n"
+msgstr "fetchmail: %s-fetchmail med PID %ld avslutades.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: can't check mail while another fetchmail to same host is running.\n"
-msgstr "fetchmail: kan inte kontrollera post medan en annan fetchmail på samma värd kör.\n"
+msgstr "fetchmail: kan inte kontrollera post medan en annan fetchmail på samma värd körs.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: can't poll specified hosts with another fetchmail running at %ld.\n"
-msgstr "fetchmail: kan inte kontrollera angivna värdar med en annan fetchmail som kör som %ld.\n"
+msgstr "fetchmail: kan inte kontrollera angivna värdar medan en annan fetchmail körs med PID %ld.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: another foreground fetchmail is running at %ld.\n"
-msgstr "fetchmail: en annan förgrunds-fetchmail kör som %ld.\n"
+msgstr "fetchmail: en annan fetchmail i förgrunden körs med PID %ld.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: can't accept options while a background fetchmail is running.\n"
-msgstr "fetchmail: kan inte ta flaggor medan en bakgrunds-fetchmail kör.\n"
+msgstr "fetchmail: kan inte ta emot alternativ medan en fetchmail i bakgrunden körs.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: background fetchmail at %ld awakened.\n"
-msgstr "fetchmail: bakgrunds-fetchmail %ld uppväckt.\n"
+msgstr "fetchmail: fetchmail i bakgrunden med PID %ld väcktes.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: elder sibling at %ld died mysteriously.\n"
-msgstr "fetchmail: äldre syskon %ld dog mystiskt.\n"
+msgstr "fetchmail: den äldre syskonprocessen med PID %ld dog mystiskt.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: can't find a password for %s@%s.\n"
@@ -346068,7 +346068,7 @@ msgstr "Ange lösenord för %s@%s: "
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: Cannot detach into background. Aborting.\n"
-msgstr "fetchmail: Kan inte koppla ifrån till bakgrunden.  Avbryter.\n"
+msgstr "fetchmail: Kan inte koppla från terminalen och gå till bakgrunden. Avbryter.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "starting fetchmail %s daemon\n"
@@ -346076,7 +346076,7 @@ msgstr "startar fetchmail %s-demon\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "could not open %s to append logs to\n"
-msgstr "kunde inte öppna %s för att lägga till loggar till\n"
+msgstr "kunde inte öppna %s för att lägga till i loggen\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "--check mode enabled, not fetching mail\n"
@@ -346092,19 +346092,19 @@ msgstr "startar om fetchmail (%s ändrades)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "attempt to re-exec may fail as directory has not been restored\n"
-msgstr "försök att starta om kan misslyckas eftersom aktuell katalog inte har återställts\n"
+msgstr "försök att köra om misslyckas kanske eftersom katalogen inte har återställts\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "attempt to re-exec fetchmail failed\n"
-msgstr "försök att göra om exec fetchmail misslyckades\n"
+msgstr "försök att köra om fetchmail misslyckades\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "poll of %s skipped (failed authentication or too many timeouts)\n"
-msgstr "kontroll av %s hoppas över (autentiseringen misslyckades eller så gick tiden ut för många gånger)\n"
+msgstr "kontroll av %s hoppas över (autentisering misslyckades eller för många tidsgränser)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "interval not reached, not querying %s\n"
-msgstr "intervallet inte uppnått, frågar inte %s\n"
+msgstr "intervallet har inte nåtts; frågar inte %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "All connections are wedged.  Exiting.\n"
@@ -346128,11 +346128,11 @@ msgstr "väckt vid %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "normal termination, status %d\n"
-msgstr "normal avslutning, status %d\n"
+msgstr "normalt avslut, status %d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "couldn't time-check the run-control file\n"
-msgstr "kunde göra tidskontroll av körstyrningsfilen\n"
+msgstr "kunde inte tidskontrollera körstyrningsfilen\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Warning: multiple mentions of host %s in config file\n"
@@ -346144,31 +346144,31 @@ msgstr "fetchmail: Fel: flera ”defaults”-poster i konfigurationsfilen, eller
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "SSL support is not compiled in.\n"
-msgstr "SSL-stöd är inte inkompilerat.\n"
+msgstr "SSL-stöd har inte kompilerats in.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "KERBEROS v4 support is configured, but not compiled in.\n"
-msgstr "KERBEROS v4-stöd är konfigurerat, men inte inkompilerat.\n"
+msgstr "KERBEROS v4-stöd är konfigurerat, men har inte kompilerats in.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "KERBEROS v5 support is configured, but not compiled in.\n"
-msgstr "KERBEROS v5-stöd är konfigurerat, men inte inkompilerat.\n"
+msgstr "KERBEROS v5-stöd är konfigurerat, men har inte kompilerats in.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "GSSAPI support is configured, but not compiled in.\n"
-msgstr "GSSAPI-stöd är konfigurerat, men inte inkompilerat.\n"
+msgstr "GSSAPI-stöd är konfigurerat, men har inte kompilerats in.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: warning: no DNS available to check multidrop fetches from %s\n"
-msgstr "fetchmail: varning: ingen DNS tillgänglig för att kontrollera flermålshämtningar från %s\n"
+msgstr "fetchmail: varning: DNS saknas för att kontrollera flermåls-hämtningar från %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "warning: multidrop for %s requires envelope option!\n"
-msgstr "varning: flera mål för %s kräver kuvertalternativ!\n"
+msgstr "varning: flermåls-hämtning för %s kräver kuvertalternativet!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "warning: Do not ask for support if all mail goes to postmaster!\n"
-msgstr "varning: Fråga inte om hjälp om all post går till postmaster!\n"
+msgstr "varning: Begär inte support om all post går till postmaster!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: %s configuration invalid, specify positive port number for service or port\n"
@@ -346204,7 +346204,7 @@ msgstr "Både fetchall och keep på i demon- eller vilande läge är ett misstag
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: Error: idle mode does not work for multiple folders or accounts!\n"
-msgstr "fetchmail: Fel: idle-läget fungerar inte för flera mappar eller konton!\n"
+msgstr "fetchmail: Fel: viloläget fungerar inte för flera mappar eller konton!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "cannot parse rcfile, debug mode: dumping obtained configuration as Python:\n"
@@ -346216,7 +346216,7 @@ msgstr "avslutad med signal %d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s querying %s (protocol %s) at %s: poll started\n"
-msgstr "%s frågar %s (protokoll %s) %s: kontroll startad\n"
+msgstr "%s frågar %s (protokoll %s) på %s: kontroll startad\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "POP2 support is not configured.\n"
@@ -346240,55 +346240,55 @@ msgstr "ODMR-stöd är inte konfigurerat.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "unsupported protocol selected.\n"
-msgstr "ej stött protokoll valt.\n"
+msgstr "ett protokoll som inte stöds valdes.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s querying %s (protocol %s) at %s: poll completed\n"
-msgstr "%s frågar %s (protokoll %s) %s: kontroll avslutad\n"
+msgstr "%s frågar %s (protokoll %s) på %s: kontroll avslutad\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Poll interval is %d seconds\n"
-msgstr "Kontrollintervall är %d sekunder\n"
+msgstr "Kontrollintervallet är %d sekunder\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Logfile is %s\n"
-msgstr "Loggfil är %s\n"
+msgstr "Loggfilen är %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Idfile is %s\n"
-msgstr "Id-fil är %s\n"
+msgstr "ID-filen är %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Progress messages will be logged via syslog\n"
-msgstr "Förloppsmeddelanden kommer loggas via syslog\n"
+msgstr "Förloppsmeddelanden loggas via syslog\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Fetchmail will masquerade and will not generate Received\n"
-msgstr "Fetchmail kommer maskeras och kommer inte generera Received\n"
+msgstr "Fetchmail maskerar sig och genererar inte Received\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Fetchmail will show progress dots even in logfiles.\n"
-msgstr "Fetchmail kommer visa förloppspunkter även i loggfiler.\n"
+msgstr "Fetchmail visar förloppspunkter även i loggfiler.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Fetchmail will forward misaddressed multidrop messages to %s.\n"
-msgstr "Fetchmail kommer vidarebefordra feladresserade multiadresserade meddelanden till %s.\n"
+msgstr "Fetchmail vidarebefordrar feladresserade meddelanden från flera mottagare till %s.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Fetchmail will direct error mail to the postmaster.\n"
-msgstr "Fetchmail kommer skicka felmeddelanden till postmaster.\n"
+msgstr "Fetchmail skickar felmeddelanden till postmaster.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Fetchmail will direct error mail to the sender.\n"
-msgstr "Fetchmail kommer skicka felmeddelanden till avsändaren.\n"
+msgstr "Fetchmail skickar felmeddelanden till avsändaren.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Fetchmail will treat permanent errors as permanent (drop messages).\n"
-msgstr "Fetchmail kommer hantera permanenta fel som permanenta (kasta meddelanden).\n"
+msgstr "Fetchmail behandlar permanenta fel som permanenta (meddelanden tas bort).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Fetchmail will treat permanent errors as temporary (keep messages).\n"
-msgstr "Fetchmail kommer hantera permanenta fel som tillfälliga (behålla meddelanden).\n"
+msgstr "Fetchmail behandlar permanenta fel som tillfälliga (meddelanden behålls).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Options for retrieving from %s@%s:\n"
@@ -346296,23 +346296,23 @@ msgstr "Alternativ för att hämta från %s@%s:\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Mail will be retrieved via %s\n"
-msgstr "  Post kommer hämtas via %s\n"
+msgstr "  Post hämtas via %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  True name of server is %s.\n"
-msgstr "  Verkligt namn på servern är %s.\n"
+msgstr "  Serverns verkliga namn är %s.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  This host will not be queried when no host is specified.\n"
-msgstr "  Denna värd kommer inte att frågas när ingen värd anges.\n"
+msgstr "  Den här värden frågas inte när ingen värd anges.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  This host will be queried when no host is specified.\n"
-msgstr "  Denna värd kommer att frågas när ingen värd anges.\n"
+msgstr "  Den här värden frågas när ingen värd anges.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Password will be prompted for.\n"
-msgstr "  Lösenord kommer att efterfrågas.\n"
+msgstr "  Lösenord efterfrågas.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  APOP secret = \"%s\".\n"
@@ -346328,11 +346328,11 @@ msgstr "  Lösenord = ”%s”.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Protocol is KPOP with Kerberos %s authentication"
-msgstr "  Protokoll är KPOP med Kerberos %s-autentisering"
+msgstr "  Protokollet är KPOP med Kerberos %s-autentisering"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Protocol is %s"
-msgstr "  Protokoll är %s"
+msgstr "  Protokollet är %s"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid " (using service %s)"
@@ -346352,47 +346352,47 @@ msgstr "  Alla tillgängliga autentiseringsmetoder kommer att provas.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Password authentication will be forced.\n"
-msgstr "  Lösenordsautentisering kommer framtvingas.\n"
+msgstr "  Lösenordsautentisering framtvingas.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  MSN authentication will be forced.\n"
-msgstr "  MSN-autentisering kommer framtvingas.\n"
+msgstr "  MSN-autentisering framtvingas.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  NTLM authentication will be forced.\n"
-msgstr "  NTLM-autentisering kommer framtvingas.\n"
+msgstr "  NTLM-autentisering framtvingas.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  OTP authentication will be forced.\n"
-msgstr "  OTP-autentisering kommer framtvingas.\n"
+msgstr "  OTP-autentisering framtvingas.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  CRAM-MD5 authentication will be forced.\n"
-msgstr "  CRAM-MD5-autentisering kommer framtvingas.\n"
+msgstr "  CRAM-MD5-autentisering framtvingas.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  GSSAPI authentication will be forced.\n"
-msgstr "  GSSAPI-autentisering kommer framtvingas.\n"
+msgstr "  GSSAPI-autentisering framtvingas.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Kerberos V4 authentication will be forced.\n"
-msgstr "  Kerberos V4-autentisering kommer framtvingas.\n"
+msgstr "  Kerberos V4-autentisering framtvingas.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Kerberos V5 authentication will be forced.\n"
-msgstr "  Kerberos V5-autentisering kommer framtvingas.\n"
+msgstr "  Kerberos V5-autentisering framtvingas.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  End-to-end encryption assumed.\n"
-msgstr "  Ände-till-ände-kryptering antas.\n"
+msgstr "  Ändpunktskryptering antas.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Mail service principal is: %s\n"
-msgstr "  Posttjänsthuvudman är %s\n"
+msgstr "  Huvudnamn för posttjänsten: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  SSL encrypted sessions enabled.\n"
-msgstr "  SSL-krypterade sessioner aktiverade.\n"
+msgstr "  SSL-krypterade sessioner är aktiverade.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  SSL protocol: %s.\n"
@@ -346400,11 +346400,11 @@ msgstr "  SSL-protokoll: %s.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  SSL server certificate checking enabled.\n"
-msgstr "  Kontroll av SSL-servercertifikat aktiverat.\n"
+msgstr "  Kontroll av SSL-servercertifikat är aktiverad.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  SSL server certificate checking disabled.\n"
-msgstr "  Kontroll av SSL-servercertifikat avaktiverat.\n"
+msgstr "  Kontroll av SSL-servercertifikat är avaktiverad.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  SSL default trusted certificate file: %s\n"
@@ -346444,11 +346444,11 @@ msgstr "  Serverns IDLE-tidsgräns är %d sekunder"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Default mailbox selected.\n"
-msgstr "  Standardbrevlåda vald.\n"
+msgstr "  Standardbrevlådan är vald.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Selected mailboxes are:"
-msgstr "  Valda brevlådor är:"
+msgstr "  Valda brevlådor:"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  All messages will be retrieved (--all on).\n"
@@ -346468,111 +346468,111 @@ msgstr "  Hämtade meddelanden kommer inte att sparas på servern (--keep av).\n
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Message will be moved to %s folder and won't be deleted.\n"
-msgstr "  Meddelandet kommer flyttas till mappen %s och kommer inte raderas.\n"
+msgstr "  Meddelandet flyttas till mappen %s och tas inte bort.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Message will be deleted (no --moveto).\n"
-msgstr "  Meddelandet kommer raderas (inget --moveto).\n"
+msgstr "  Meddelandet tas bort (inget --moveto).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Old messages will be flushed before message retrieval (--flush on).\n"
-msgstr "  Gamla meddelanden kommer kastas före meddelanden hämtas (--flush på).\n"
+msgstr "  Gamla meddelanden tas bort innan meddelanden hämtas (--flush på).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Old messages will not be flushed before message retrieval (--flush off).\n"
-msgstr "  Gamla meddelanden kommer inte slängas före meddelanden hämtas (--flush av).\n"
+msgstr "  Gamla meddelanden tas inte bort innan meddelanden hämtas (--flush av).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Oversized messages will be flushed before message retrieval (--limitflush on).\n"
-msgstr "  För stora meddelanden kommer slängas före meddelanden hämtas (--limitflush på).\n"
+msgstr "  För stora meddelanden tas bort innan meddelanden hämtas (--limitflush på).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Oversized messages will not be flushed before message retrieval (--limitflush off).\n"
-msgstr "  För stora meddelanden kommer inte slängas före meddelanden hämtas (--limitflush av).\n"
+msgstr "  För stora meddelanden tas inte bort innan meddelanden hämtas (--limitflush av).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Rewrite of server-local addresses is enabled (--norewrite off).\n"
-msgstr "  Omskrivning av serverlokala adresser är aktiverat (--norewrite av).\n"
+msgstr "  Omskrivning av serverlokala adresser är aktiverad (--norewrite av).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Rewrite of server-local addresses is disabled (--norewrite on).\n"
-msgstr "  Omskrivning av serverlokala adresser är avaktiverat (--norewrite på).\n"
+msgstr "  Omskrivning av serverlokala adresser är avaktiverad (--norewrite på).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Carriage-return stripping is enabled (stripcr on).\n"
-msgstr "  Rensning av vagnretur är aktiverat (stripcr på).\n"
+msgstr "  Rensning av vagnreturer är aktiverad (stripcr på).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Carriage-return stripping is disabled (stripcr off).\n"
-msgstr "  Rensning av vagnretur är avaktiverat (stripcr av).\n"
+msgstr "  Rensning av vagnreturer är avaktiverad (stripcr av).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Carriage-return forcing is enabled (forcecr on).\n"
-msgstr "  Framtvingade vagnreturer är aktiverat (forcecr på).\n"
+msgstr "  Framtvingning av vagnreturer är aktiverad (forcecr på).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Carriage-return forcing is disabled (forcecr off).\n"
-msgstr "  Framtvingade vagnreturer är avaktiverat (forcecr av).\n"
+msgstr "  Framtvingning av vagnreturer är avaktiverad (forcecr av).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Interpretation of Content-Transfer-Encoding is disabled (pass8bits on).\n"
-msgstr "  Tolkning av Content-Transfer-Encoding är avaktiverat (pass8bits på).\n"
+msgstr "  Tolkning av Content-Transfer-Encoding är avaktiverad (pass8bits på).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Interpretation of Content-Transfer-Encoding is enabled (pass8bits off).\n"
-msgstr "  Tolkning av Content-Transfer-Encoding är aktiverat (pass8bits av).\n"
+msgstr "  Tolkning av Content-Transfer-Encoding är aktiverad (pass8bits av).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  MIME decoding is enabled (mimedecode on).\n"
-msgstr "  MIME-avkodning är aktiverat (mimedecode på).\n"
+msgstr "  MIME-avkodning är aktiverad (mimedecode på).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  MIME decoding is disabled (mimedecode off).\n"
-msgstr "  MIME-avkodning är avaktiverat (mimedecode av).\n"
+msgstr "  MIME-avkodning är avaktiverad (mimedecode av).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Idle after poll is enabled (idle on).\n"
-msgstr "  Vila efter kontroll är aktiverat (idle på).\n"
+msgstr "  Vila efter kontroll är aktiverad (idle på).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Idle after poll is disabled (idle off).\n"
-msgstr "  Vila efter kontroll är avaktiverat (idle av).\n"
+msgstr "  Vila efter kontroll är avaktiverad (idle av).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Idle after poll is forced (forceidle on).\n"
-msgstr "  Vila efter kontroll är framtvingat (forceidle på).\n"
+msgstr "  Vila efter kontroll framtvingas (forceidle på).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Idle after poll is not forced (forceidle off).\n"
-msgstr "  Vila efter kontroll är inte framtvingat (forceidle av).\n"
+msgstr "  Vila efter kontroll framtvingas inte (forceidle av).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Nonempty Status lines will be discarded (dropstatus on)\n"
-msgstr "  Icke tomma Status-rader kommer att slängas (dropstatus på)\n"
+msgstr "  Icke-tomma Status-rader tas bort (dropstatus på)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Nonempty Status lines will be kept (dropstatus off)\n"
-msgstr "  Icke tomma Status-rader kommer att behållas (dropstatus av)\n"
+msgstr "  Icke-tomma Status-rader behålls (dropstatus av)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Delivered-To lines will be discarded (dropdelivered on)\n"
-msgstr "  Delivered-To-rader kommer att slängas (dropdelivered på)\n"
+msgstr "  Delivered-To-rader tas bort (dropdelivered på)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Delivered-To lines will be kept (dropdelivered off)\n"
-msgstr "  Delivered-To-rader kommer att behållas (dropdelivered av)\n"
+msgstr "  Delivered-To-rader behålls (dropdelivered av)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Message size limit is %d octets (--limit %d).\n"
-msgstr "  Storleksgräns på meddelanden är %d oktetter (--limit %d).\n"
+msgstr "  Meddelandestorleksgränsen är %d oktetter (--limit %d).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No message size limit (--limit 0).\n"
-msgstr "  Ingen storleksgräns på meddelanden (--limit 0).\n"
+msgstr "  Ingen storleksgräns för meddelanden (--limit 0).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Message size warning interval is %d seconds (--warnings %d).\n"
-msgstr "  Intervall för varning för meddelandestorlek är %d sekunder (--warnings %d).\n"
+msgstr "  Varningsintervallet för meddelandestorlek är %d sekunder (--warnings %d).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Size warnings on every poll (--warnings 0).\n"
@@ -346580,19 +346580,19 @@ msgstr "  Storleksvarningar vid varje kontroll (--warnings 0).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Received-message limit is %d (--fetchlimit %d).\n"
-msgstr "  Gräns för mottagna meddelanden är %d (--fetchlimit %d).\n"
+msgstr "  Gränsen för mottagna meddelanden är %d (--fetchlimit %d).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No received-message limit (--fetchlimit 0).\n"
-msgstr "  Ingen gräns på mottagna meddelanden (--fetchlimit 0).\n"
+msgstr "  Ingen gräns för mottagna meddelanden (--fetchlimit 0).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Fetch message size limit is %d (--fetchsizelimit %d).\n"
-msgstr "  Gräns på hämtad meddelandestorlek är %d (--fetchsizelimit %d).\n"
+msgstr "  Gränsen för hämtad meddelandestorlek är %d (--fetchsizelimit %d).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No fetch message size limit (--fetchsizelimit 0).\n"
-msgstr "  Ingen gräns på hämtad meddelandestorlek (--fetchsizelimit 0).\n"
+msgstr "  Ingen gräns för hämtad meddelandestorlek (--fetchsizelimit 0).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Do binary search of UIDs during each poll (--fastuidl 1).\n"
@@ -346604,59 +346604,59 @@ msgstr "  Gör en binär sökning av UID:er under %d av %d kontroller (--fastuid
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "   Do linear search of UIDs during each poll (--fastuidl 0).\n"
-msgstr "  Gör en linjär sökning av UID:er under varje kontroll (--fastuidl 0).\n"
+msgstr "   Gör en linjär sökning av UID:er under varje kontroll (--fastuidl 0).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  SMTP message batch limit is %d.\n"
-msgstr "  Satsgräns på SMTP-meddelanden är %d.\n"
+msgstr "  Gränsen för SMTP-meddelandebatch är %d.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No SMTP message batch limit (--batchlimit 0).\n"
-msgstr "  Ingen satsgräns på SMTP-meddelanden (--batchlimit 0).\n"
+msgstr "  Ingen gräns för SMTP-meddelandebatch (--batchlimit 0).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Deletion interval between expunges forced to %d (--expunge %d).\n"
-msgstr "  Raderingsintervall mellan kastande tvingat till %d (--expunge %d).\n"
+msgstr "  Raderingsintervallet mellan tömningar tvingas till %d (--expunge %d).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No forced expunges (--expunge 0).\n"
-msgstr "  Inget framtvingat kastande (--expunge 0).\n"
+msgstr "  Inga framtvingade tömningar (--expunge 0).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Domains for which mail will be fetched are:"
-msgstr "  Domäner för vilka post kommer hämtas är:"
+msgstr "  Domäner som post ska hämtas för:"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Messages will be appended to %s as BSMTP\n"
-msgstr "  Meddelanden kommer läggas till till %s som BSMTP\n"
+msgstr "  Meddelanden läggs till i %s som BSMTP\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Messages will be delivered with \"%s\".\n"
-msgstr "  Meddelanden kommer levereras med ”%s”.\n"
+msgstr "  Meddelanden levereras med ”%s”.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Messages will be %cMTP-forwarded to:"
-msgstr "  Meddelanden kommer %cMTP-vidarebefordras till:"
+msgstr "  Meddelanden vidarebefordras med %cMTP till:"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Host part of MAIL FROM line will be %s\n"
-msgstr "  Värddelen av MAIL FROM-raden kommer bli %s\n"
+msgstr "  Värddelen i MAIL FROM-raden blir %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Address to be put in RCPT TO lines shipped to SMTP will be %s\n"
-msgstr "  Adress som kommer att anges i RCPT TO-rader lämnade till SMTP kommer vara %s\n"
+msgstr "  Adressen som anges i RCPT TO-rader som skickas till SMTP blir %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Recognized listener spam block responses are:"
-msgstr "  Igenkända lyssnares spam-blockeringssvar är:"
+msgstr "  Igenkända svar på spärrning av skräppost från lyssnaren:"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Spam-blocking disabled\n"
-msgstr "  Spam-blockering avaktiverat\n"
+msgstr "  Skräppostspärrning är avaktiverad\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Server connection will be brought up with \"%s\".\n"
-msgstr "  Serveranslutning kommer att öppnas med ”%s”.\n"
+msgstr "  Serveranslutningen öppnas med ”%s”.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No pre-connection command.\n"
@@ -346664,7 +346664,7 @@ msgstr "  Inget föranslutningskommando.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Server connection will be taken down with \"%s\".\n"
-msgstr "  Serveranslutning kommer att tas ner med ”%s”.\n"
+msgstr "  Serveranslutningen avslutas med ”%s”.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No post-connection command.\n"
@@ -346672,47 +346672,47 @@ msgstr "  Inget efteranslutningskommando.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No localnames declared for this host.\n"
-msgstr "  Inga lokala namn angivna för denna värd.\n"
+msgstr "  Inga lokala namn har angetts för den här värden.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Multi-drop mode: "
-msgstr "  Flermålsläge: "
+msgstr "  Flermåls-läge: "
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Single-drop mode: "
-msgstr "  Enmålsläge: "
+msgstr "  Enmåls-läge: "
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  DNS lookup for multidrop addresses is enabled.\n"
-msgstr "  DNS-uppslagning för flermålsadresser är aktiverat.\n"
+msgstr "  DNS-uppslagning för flermålsadresser är aktiverad.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  DNS lookup for multidrop addresses is disabled.\n"
-msgstr "  DNS-uppslagning för flermålsadresser är avaktiverat.\n"
+msgstr "  DNS-uppslagning för flermålsadresser är avaktiverad.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Server aliases will be compared with multidrop addresses by IP address.\n"
-msgstr "  Serveralias kommer att jämföras med flermålsadresser via IP-adress.\n"
+msgstr "  Serveralias jämförs med flermålsadresser via IP-adress.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Server aliases will be compared with multidrop addresses by name.\n"
-msgstr "  Serveralias kommer att jämföras med flermålsadresser via namn.\n"
+msgstr "  Serveralias jämförs med flermålsadresser efter namn.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Envelope-address routing is disabled\n"
-msgstr "  Ruttläggning av kuvertadresser är avaktiverat\n"
+msgstr "  Routning av kuvertadresser är avaktiverad\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Envelope header is assumed to be: %s\n"
-msgstr "  Kuverthuvud förmodas vara: %s\n"
+msgstr "  Kuverthuvudet antas vara: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Number of envelope headers to be skipped over: %d\n"
-msgstr "  Antal kuverthuvuden att hoppa över: %d\n"
+msgstr "  Antal kuverthuvuden som hoppas över: %d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Prefix %s will be removed from user id\n"
-msgstr "  Prefixet %s kommer tas bort från användar-id\n"
+msgstr "  Prefixet %s tas bort från användar-ID\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No prefix stripping\n"
@@ -346720,7 +346720,7 @@ msgstr "  Ingen borttagning av prefix\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Predeclared mailserver aliases:"
-msgstr "  Fördeklarerade postserveralias:"
+msgstr "  Fördefinierade postserveralias:"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Local domains:"
@@ -346732,47 +346732,47 @@ msgstr "  Anslutningen måste gå via gränssnittet %s.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No interface requirement specified.\n"
-msgstr "  Inget gränssnittskrav angett.\n"
+msgstr "  Inget gränssnittskrav har angetts.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Polling loop will monitor %s.\n"
-msgstr "  Kontrollslingan kommer övervaka %s.\n"
+msgstr "  Kontrollslingan övervakar %s.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No monitor interface specified.\n"
-msgstr "  Ingen kontrollslinga angiven.\n"
+msgstr "  Inget övervakningsgränssnitt har angetts.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Server connections will be made via plugin %s (--plugin %s).\n"
-msgstr "  Serveranslutningar kommer att göras via instickskommandot %s (--plugin %s).\n"
+msgstr "  Serveranslutningar görs via insticksprogrammet %s (--plugin %s).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No plugin command specified.\n"
-msgstr "  Inget instickskommando angivet.\n"
+msgstr "  Inget instickskommando har angetts.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Listener connections will be made via plugout %s (--plugout %s).\n"
-msgstr "  Lyssnaranslutningar kommer att göras via utstickskommando %s (--plugout %s).\n"
+msgstr "  Lyssnaranslutningar görs via utstickskommandot %s (--plugout %s).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No plugout command specified.\n"
-msgstr "  Inget utstickskommando angivet.\n"
+msgstr "  Inget utstickskommando har angetts.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No UIDs saved from this host.\n"
-msgstr "  Inga UID:er sparade från denna värd.\n"
+msgstr "  Inga UID:er har sparats från den här värden.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  %d UIDs saved.\n"
-msgstr "  %d UID:er sparade.\n"
+msgstr "  %d UID:er har sparats.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Poll trace information will be added to the Received header.\n"
-msgstr "  Kontrollspårningsinformation kommer läggas till till Received-huvudet.\n"
+msgstr "  Kontrollspårningsinformation läggs till i Received-huvudet.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  No poll trace information will be added to the Received header.\n"
-msgstr "  Ingen kontrollspårningsinformation kommer att läggas till till Received-huvudet.\n"
+msgstr "  Ingen kontrollspårningsinformation läggs till i Received-huvudet.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Messages with bad headers will be rejected.\n"
@@ -346780,11 +346780,11 @@ msgstr "  Meddelanden med felaktiga huvuden kommer att avvisas.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Messages with bad headers will be passed on.\n"
-msgstr "  Meddelanden med felaktiga huvuden kommer skickas vidare.\n"
+msgstr "  Meddelanden med felaktiga huvuden skickas vidare.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Pass-through properties \"%s\".\n"
-msgstr "  Egenskaper för vidarebefordran ”%s”.\n"
+msgstr "  Egenskaper för vidarebefordring: ”%s”.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Cannot modify signal mask: %s"
@@ -346792,7 +346792,7 @@ msgstr "Kan inte ändra signalmasken: %s"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Your operating system neither defines PATH_MAX nor will it accept realpath(f, NULL). Aborting.\n"
-msgstr "Ditt operativsystem definierar inte PATH_MAX och inte heller accepterar det realpath(f, NULL).  Avbryter.\n"
+msgstr "Ditt operativsystem definierar varken PATH_MAX eller accepterar realpath(f, NULL). Avbryter.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "\nCaught SIGINT... bailing out.\n"
@@ -346800,7 +346800,7 @@ msgstr "\nFångade SIGINT… ger upp.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "GSSAPI error in gss_display_status called from <%s>\n"
-msgstr "GSSAPI-fel i gss_display_status anropat från <%s>\n"
+msgstr "GSSAPI-fel i gss_display_status, anropad från <%s>\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "GSSAPI error %s: %.*s\n"
@@ -346808,7 +346808,7 @@ msgstr "GSSAPI-fel %s: %.*s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Couldn't get service name for [%s]\n"
-msgstr "Kunde inte få tjänstenamnet för [%s]\n"
+msgstr "Kunde inte hämta tjänstnamnet för [%s]\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Using service name [%s]\n"
@@ -346816,43 +346816,43 @@ msgstr "Använder tjänstenamn [%s]\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "No suitable GSSAPI credentials found. Skipping GSSAPI authentication.\n"
-msgstr "Inga lämpliga GSSAPI-kreditiv hittade.  Hoppar över GSSAPI-autentisering.\n"
+msgstr "Inga lämpliga GSSAPI-behörighetsuppgifter hittades. Hoppar över GSSAPI-autentisering.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "If you want to use GSSAPI, you need credentials first, possibly from kinit.\n"
-msgstr "Om du vill använda GSSAPI behöver du kreditiv först, möjligen från kinit.\n"
+msgstr "Om du vill använda GSSAPI behöver du först behörighetsuppgifter, eventuellt från kinit.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Received malformed challenge to \"%s GSSAPI\"!\n"
-msgstr "Mottog felaktigt utmaning till ”%s GSSAPI”!\n"
+msgstr "Tog emot en felformaterad utmaning för ”%s GSSAPI”!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Sending credentials\n"
-msgstr "Skickar kreditiv\n"
+msgstr "Skickar behörighetsuppgifter\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Error exchanging credentials\n"
-msgstr "Fel vid utbyte av kreditiv\n"
+msgstr "Fel vid utbyte av behörighetsuppgifter\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Couldn't unwrap security level data\n"
-msgstr "Kunde inte packa upp säkerhetsnivådata\n"
+msgstr "Kunde inte packa upp data om säkerhetsnivå\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Credential exchange complete\n"
-msgstr "Kreditivutbyte klart\n"
+msgstr "Utbytet av behörighetsuppgifter är klart\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Server requires integrity and/or privacy\n"
-msgstr "Servern kräver integritet\n"
+msgstr "Servern kräver integritet och/eller sekretess\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Unwrapped security level flags: %s%s%s\n"
-msgstr "Uppackade säkerhetsnivåflaggor: %s%s%s\n"
+msgstr "Uppackade flaggor för säkerhetsnivå: %s%s%s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Maximum GSS token size is %ld\n"
-msgstr "Maximal GSS-token-storlek är %ld\n"
+msgstr "Största GSS-tokenstorleken är %ld\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "GSSAPI username too long for static buffer.\n"
@@ -346860,7 +346860,7 @@ msgstr "GSSAPI-användarnamnet är för långt för den statiska bufferten.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Error creating security level request\n"
-msgstr "Fel när säkerhetsnivåbegäran skapades\n"
+msgstr "Fel när begäran om säkerhetsnivå skapades\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "GSSAPI send_token too large (%lu) while sending username.\n"
@@ -346868,27 +346868,27 @@ msgstr "GSSAPI send_token var för stor (%lu) när användarnamnet skickades.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Releasing GSS credentials\n"
-msgstr "Släpper GSS-kreditiv\n"
+msgstr "Frisläpper GSS-behörighetsuppgifter\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Error releasing credentials\n"
-msgstr "Fel när kreditiv släpptes\n"
+msgstr "Fel när behörighetsuppgifterna frisläpptes\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Protocol identified as IMAP4 rev 1\n"
-msgstr "Protokoll identifierat som IMAP4 rev 1\n"
+msgstr "Protokollet identifierades som IMAP4 rev 1\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Protocol identified as IMAP4 rev 0\n"
-msgstr "Protokoll identifierat som IMAP4 rev 0\n"
+msgstr "Protokollet identifierades som IMAP4 rev 0\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Protocol identified as IMAP2 or IMAP2BIS\n"
-msgstr "Protokoll identifierat som IMAP2 eller IMAP2BIS\n"
+msgstr "Protokollet identifierades som IMAP2 eller IMAP2BIS\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Received BYE response from IMAP server: %s\n"
-msgstr "Mottog BYE-svar från IMAP-servern: %s\n"
+msgstr "Tog emot BYE-svar från IMAP-servern: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "bogus message count in \"%s\"!"
@@ -346896,15 +346896,15 @@ msgstr "felaktigt meddelandeantal i ”%s”!"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "bogus EXPUNGE message number in untagged response \"%s\"!"
-msgstr "felaktigt EXPUNGE-meddelandeantal i otaggat svar ”%s”!"
+msgstr "felaktigt EXPUNGE-meddelandenummer i det otaggade svaret ”%s”!"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "found updated capabilities list\n"
-msgstr "hittade uppdaterad funktionslista\n"
+msgstr "hittade en uppdaterad funktionslista\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "server did not advertise SASL-IR extension but fetchmail's implementation requires it for AUTHENTICATE EXTERNAL\n"
-msgstr "servern annonserade inte SASL-IR-tillägget men fetchmails implementering kräver det för AUTHENTICATE EXTERNAL\n"
+msgstr "servern annonserade inte SASL-IR-tillägget, men fetchmails implementering kräver det för AUTHENTICATE EXTERNAL\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "will idle after poll\n"
@@ -346912,11 +346912,11 @@ msgstr "kommer vila efter kontroll\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s: configuration requires TLS, but STARTTLS is not permitted because of authenticated state (PREAUTH). Aborting connection.  If your plugin is secure, you can defeat STARTTLS with --sslproto '' (see manual).\n"
-msgstr "%s: konfiguration kräver TLS, men STARTTLS är inte tillåtet på grund av autentiserat tillstånd (PREAUTH). Avbryter anslutningen. Om din insticksmodul är säker kan du motverka STARTTLS med --sslproto '' (se manualen).\n"
+msgstr "%s: konfigurationen kräver TLS, men STARTTLS är inte tillåtet på grund av autentiserat tillstånd (PREAUTH). Avbryter anslutningen. Om insticksprogrammet är säkert kan STARTTLS kringgås med --sslproto ”” (se manualen).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s: configuration requires TLS, but STARTTLS is not permitted because of authenticated state (PREAUTH). Aborting connection.  Server permitting, try --ssl instead (see manual).\n"
-msgstr "%s: konfiguration kräver TLS, men STARTTLS är inte tillåtet på grund av autentiserat tillstånd (PREAUTH). Avbryter anslutningen. Om servern tillåter det, prova --ssl istället (se manualen).\n"
+msgstr "%s: konfigurationen kräver TLS, men STARTTLS är inte tillåtet på grund av autentiserat tillstånd (PREAUTH). Avbryter anslutningen. Om servern tillåter det kan du försöka med --ssl i stället (se manualen).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s: upgrade to TLS succeeded.\n"
@@ -346936,19 +346936,19 @@ msgstr "%s: VARNING: servern erbjöd STARTTLS men sslproto ”” gavs.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s: --auth external requested but server does not advertise it.\n"
-msgstr "%s: --auth extern begäran men servern annonserar inte om det.\n"
+msgstr "%s: --auth external har begärts, men servern annonserar inte det.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Required OTP capability not compiled into fetchmail\n"
-msgstr "Nödvändig OTP-förmåga inte inkompilerad i fetchmail\n"
+msgstr "Nödvändig OTP-funktion har inte kompilerats in i fetchmail\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Required NTLM capability not compiled into fetchmail\n"
-msgstr "Nödvändig NTLM-förmåga inte inkompilerad i fetchmail\n"
+msgstr "Nödvändig NTLM-funktion har inte kompilerats in i fetchmail\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s: --auth password requested but server forbids it (LOGINDISABLED).\n"
-msgstr "%s: --auth lösenord begärt men servern förbjuder det (LOGINDISABLED).\n"
+msgstr "%s: --auth password har begärts, men servern förbjuder det (LOGINDISABLED).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s: we've run out of authentication methods and cannot log in.\n"
@@ -346956,15 +346956,15 @@ msgstr "%s: vi har fått slut på tillåtna autentiseringsmetoder och kan inte l
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "mail expunge mismatch (%d actual != %d expected)\n"
-msgstr "kastande av post stämmer inte (%d faktiskt ≠ %d förväntat)\n"
+msgstr "tömning av post stämmer inte (%d faktiskt ≠ %d förväntat)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%lu is unseen\n"
-msgstr "%lu är osedda\n"
+msgstr "%lu är osedd\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%u is unseen\n"
-msgstr "%u är osedda\n"
+msgstr "%u är osedd\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "re-poll failed\n"
@@ -346972,11 +346972,11 @@ msgstr "omkontroll misslyckades\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "mailbox selection failed\n"
-msgstr "brevlådeval misslyckades\n"
+msgstr "val av brevlåda misslyckades\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "expunge failed\n"
-msgstr "kastande misslyckades\n"
+msgstr "tömning misslyckades\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "search for unseen messages failed\n"
@@ -346988,7 +346988,7 @@ msgstr "%u är det första osedda\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Warning: ignoring bogus data for message sizes returned by the server.\n"
-msgstr "Varning: ignorerar felaktiga data för meddelandestorlek som returneras av servern.\n"
+msgstr "Varning: ignorerar felaktiga data om meddelandestorlekar från servern.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Incorrect FETCH response: %s.\n"
@@ -346996,7 +346996,7 @@ msgstr "Felaktigt FETCH-svar: %s.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Unable to open kvm interface. Make sure fetchmail is SGID kmem."
-msgstr "Kan inte öppna kvm-gränssnittet.  Se till att fetchmail är SGID kmem."
+msgstr "Kan inte öppna kvm-gränssnittet. Kontrollera att fetchmail är SGID kmem."
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Unable to parse interface name from %s"
@@ -347004,7 +347004,7 @@ msgstr "Kan inte tolka gränssnittsnamn från %s"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "get_ifinfo: sysctl (iflist estimate) failed"
-msgstr "get_ifinfo: sysctl (if-listuppskattning) misslyckades"
+msgstr "get_ifinfo: sysctl (uppskattning av iflist) misslyckades"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "get_ifinfo: malloc failed"
@@ -347012,27 +347012,27 @@ msgstr "get_ifinfo: malloc misslyckades"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "get_ifinfo: sysctl (iflist) failed"
-msgstr "get_ifinfo: sysctl (if-lista) misslyckades"
+msgstr "get_ifinfo: sysctl (iflist) misslyckades"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Routing message version %d not understood."
-msgstr "Ruttläggningsmeddelande version %d förstås inte."
+msgstr "Routningsmeddelande version %d förstås inte."
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "No interface found with name %s"
-msgstr "Inget gränssnitt funnet med namnet %s"
+msgstr "Inget gränssnitt hittades med namnet %s"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "No IP address found for %s"
-msgstr "Ingen IP-adress funnen för %s"
+msgstr "Ingen IP-adress hittades för %s"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "missing IP interface address\n"
-msgstr "saknad adress för IP-gränssnitt\n"
+msgstr "IP-gränssnittsadress saknas\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "invalid IP interface address\n"
-msgstr "ogiltig adress för IP-gränssnitt\n"
+msgstr "ogiltig IP-gränssnittsadress\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "invalid IP interface mask\n"
@@ -347044,11 +347044,11 @@ msgstr "aktivitet på %s -noterad- som %d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "skipping poll of %s, %s down\n"
-msgstr "hoppar över kontroll av %s, %s nere\n"
+msgstr "hoppar över kontroll av %s; %s är nere\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "skipping poll of %s, %s IP address excluded\n"
-msgstr "hoppar över kontroll av %s, %s:s IP-adress utesluten\n"
+msgstr "hoppar över kontroll av %s; %s:s IP-adress är undantagen\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "activity on %s checked as %d\n"
@@ -347056,7 +347056,7 @@ msgstr "aktivitet på %s kontrollerad som %d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "skipping poll of %s, %s inactive\n"
-msgstr "hoppar över kontroll av %s, %s inaktivt\n"
+msgstr "hoppar över kontroll av %s; %s är inaktivt\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "activity on %s was %d, is %d\n"
@@ -347068,11 +347068,11 @@ msgstr "kunde inte avkoda inledande BASE64-utmaning\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "principal %s in ticket does not match -u %s\n"
-msgstr "huvudnamn %s i biljetten stämmer inte med -u %s\n"
+msgstr "huvudnamnet %s i biljetten stämmer inte med -u %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "non-null instance (%s) might cause strange behavior\n"
-msgstr "ej tom instans (%s) kan orsaka konstigt beteende\n"
+msgstr "icke-tom instans (%s) kan orsaka oväntat beteende\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "could not decode BASE64 ready response\n"
@@ -347104,11 +347104,11 @@ msgstr "fetchmail: fel när låsfilen ”%s” öppnades: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: lock creation failed, pidfile \"%s\": %s\n"
-msgstr "fetchmail: misslyckades att skapa lås, pid-fil ”%s”: %s\n"
+msgstr "fetchmail: det gick inte att skapa låset, PID-filen ”%s”: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: cannot remove or truncate pidfile \"%s\": %s\n"
-msgstr "fetchmail: kan inte ta bort eller hugga av pid-filen ”%s”: %s\n"
+msgstr "fetchmail: kan inte ta bort eller trunkera PID-filen ”%s”: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s: cannot open file for reading: %s\n"
@@ -347124,7 +347124,7 @@ msgstr "%s: avvisar filen, kan inte fstat(%d): %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s: rejecting file because it is group or other accessible (mode %#o) and contains passwords.\n"
-msgstr "%s: avvisar filen för att den är åtkomlig för gruppen eller övriga (läge %#o) och innehåller lösenord.\n"
+msgstr "%s: avvisar filen eftersom den är åtkomlig för grupp eller andra (läge %#o) och innehåller lösenord.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s:%d: warning: found \"%s\" before any host names\n"
@@ -347132,7 +347132,7 @@ msgstr "%s:%d: varning: hittade ”%s” före några värdnamn\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s:%d: machine entry not permitted after default, rejecting file.\n"
-msgstr "%s:%d: maskinposter är inte tillåtna efter default, avvisar filen.\n"
+msgstr "%s:%d: maskinposter är inte tillåtna efter default; avvisar filen.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s:%d: warning: unknown token \"%s\"\n"
@@ -347152,7 +347152,7 @@ msgstr "NTLM-utmaningen innehåller ogiltiga data.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s's SMTP listener does not support ATRN\n"
-msgstr "%ss SMTP-lyssnare stödjer inte ATRN\n"
+msgstr "SMTP-lyssnaren på %s stöder inte ATRN\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Turnaround now...\n"
@@ -347160,11 +347160,11 @@ msgstr "Vänder nu…\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "ATRN request refused.\n"
-msgstr "ATRN-begäran nekad.\n"
+msgstr "ATRN-begäran nekades.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Unable to process ATRN request now\n"
-msgstr "Kan inte bearbeta ATRN-begäran nu\n"
+msgstr "Kan inte behandla ATRN-begäran nu\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "You have no mail.\n"
@@ -347204,7 +347204,7 @@ msgstr "Flaggan --check stödjs inte med ODMR\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "server recv fatal\n"
-msgstr "server mottog ödesdigert\n"
+msgstr "allvarligt fel vid mottagning från servern\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Could not decode OTP challenge\n"
@@ -347232,27 +347232,27 @@ msgstr "större"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Invalid bad-header policy `%s' specified.\n"
-msgstr "Ogiltig policy ”%s” för felaktiga huvuden angiven.\n"
+msgstr "Ogiltig policy ”%s” för felaktiga huvuden angavs.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Invalid protocol `%s' specified.\n"
-msgstr "Ogiltigt protokoll ”%s” angivet.\n"
+msgstr "Ogiltigt protokoll ”%s” angavs.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Invalid authentication `%s' specified.\n"
-msgstr "Ogiltig autentisering ”%s” angiven.\n"
+msgstr "Ogiltig autentisering ”%s” angavs.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "usage:  fetchmail [options] [server ...]\n"
-msgstr "användning:  fetchmail [flaggor] [server …]\n"
+msgstr "användning: fetchmail [flaggor] [server …]\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  Options are as follows:\n"
-msgstr "  Flaggorna är enligt följande:\n"
+msgstr "  Alternativen är följande:\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -?, --help        display this option help\n"
-msgstr "  -?, --help        visa denna flagghjälp\n"
+msgstr "  -?, --help        visa hjälp för dessa alternativ\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -V, --version     display version info\n"
@@ -347260,7 +347260,7 @@ msgstr "  -V, --version     visa versionsinformation\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -c, --check       check for messages without fetching\n"
-msgstr "  -c, --check       kontrollera om det finns meddelanden utan att hämta\n"
+msgstr "  -c, --check       kontrollera om det finns meddelanden utan att hämta dem\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -s, --silent      work silently\n"
@@ -347268,7 +347268,7 @@ msgstr "  -s, --silent      arbeta tyst\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -v, --verbose     work noisily (diagnostic output)\n"
-msgstr "  -v, --verbose     arbeta högljutt (diagnostiska utskrifter)\n"
+msgstr "  -v, --verbose     arbeta utförligt (diagnostiska utskrifter)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -d, --daemon      run as a daemon once per n seconds\n"
@@ -347276,7 +347276,7 @@ msgstr "  -d, --daemon      kör som en demon en gång per n sekunder\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -N, --nodetach    don't detach daemon process\n"
-msgstr "  -N, --nodetach    koppla inte loss demonprocessen\n"
+msgstr "  -N, --nodetach    koppla inte från demonprocessen\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -q, --quit        kill daemon process\n"
@@ -347284,7 +347284,7 @@ msgstr "  -q, --quit        döda demonprocessen\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -L, --logfile     specify logfile name\n"
-msgstr "  -L, --logfile     ange loggfilsnamn\n"
+msgstr "  -L, --logfile     ange loggfilens namn\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --syslog      use syslog(3) for most messages when running as a daemon\n"
@@ -347292,11 +347292,11 @@ msgstr "      --syslog      använd syslog(3) för de flesta meddelanden vid kö
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --nosyslog    turns off use of syslog(3)\n"
-msgstr "      --nosyslog    slå av användningen av syslog(3)\n"
+msgstr "      --nosyslog    stäng av användningen av syslog(3)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --invisible   don't write Received & enable host spoofing\n"
-msgstr "      --invisible   skriv inte Received och aktivera värdimitation\n"
+msgstr "      --invisible   skriv inte Received och aktivera värdförfalskning\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -f, --fetchmailrc specify alternate run control file\n"
@@ -347312,7 +347312,7 @@ msgstr "      --pidfile     ange en alternativ PID-fil (för lås)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --postmaster  specify recipient of last resort\n"
-msgstr "      --postmaster  ange en mottagare som sista utväg\n"
+msgstr "      --postmaster  ange mottagare som sista utväg\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --nobounce    redirect bounces from user to postmaster.\n"
@@ -347320,7 +347320,7 @@ msgstr "      --nobounce    omdirigera studsar från användaren till postmaster
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --nosoftbounce fetchmail deletes permanently undeliverable messages.\n"
-msgstr "      --nosoftbounce fetchmail raderar permanent olevererbara meddelanden.\n"
+msgstr "      --nosoftbounce fetchmail tar bort permanent olevererbara meddelanden.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --softbounce  keep permanently undeliverable messages on server (default).\n"
@@ -347344,11 +347344,11 @@ msgstr "      --nossl       avaktivera en SSL/TLS-inkapslad krypterad session\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --sslkey      ssl private key file\n"
-msgstr "      --sslkey      fil med privat ssl-nyckel\n"
+msgstr "      --sslkey      fil med privat SSL-nyckel\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --sslcert     ssl client certificate\n"
-msgstr "      --sslcert     ssl-klientcertifikat\n"
+msgstr "      --sslcert     SSL-klientcertifikat\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --sslcertck   do strict server certificate check (recommended)\n"
@@ -347360,11 +347360,11 @@ msgstr "      --nosslcertck hoppa över strikt kontroll av servercertifikat (os�
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --sslcertfile path to trusted-CA ssl certificate file\n"
-msgstr "      --sslcertfile sökväg till fil med ssl-certifikat för betrodda CA\n"
+msgstr "      --sslcertfile sökväg till fil med SSL-certifikat från betrodd CA\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --sslcertpath path to trusted-CA ssl certificate directory\n"
-msgstr "      --sslcertpath sökväg till katalog med ssl-certifikat för betrodda CA\n"
+msgstr "      --sslcertpath sökväg till katalog med SSL-certifikat från betrodd CA\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --sslcommonname  expect this CommonName from server (discouraged)\n"
@@ -347372,11 +347372,11 @@ msgstr "      --sslcommonname  förvänta detta CommonName från servern (avråd
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --sslfingerprint fingerprint that must match that of the server's cert.\n"
-msgstr "      --sslfingerprint fingeravtryck som måste matcha det för serverns certifikat.\n"
+msgstr "      --sslfingerprint fingeravtryck som måste matcha serverns certifikat.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --sslproto    force ssl protocol (see manual) and/or STLS/STARTTLS\n"
-msgstr "      --sslproto    framtvinga ssl-protokoll (se manualen) och/eller STLS/STARTTLS\n"
+msgstr "      --sslproto    framtvinga SSL-protokoll (se manualen) och/eller STLS/STARTTLS\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --plugin      specify external command to open connection\n"
@@ -347384,15 +347384,15 @@ msgstr "      --plugin      ange externt kommando för att öppna en anslutning\
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --plugout     specify external command to open smtp connection\n"
-msgstr "      --plugout     ange externt kommando för att öppna en smtp-anslutning\n"
+msgstr "      --plugout     ange externt kommando för att öppna SMTP-anslutning\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --bad-header {reject|accept}\n                    specify policy for handling messages with bad headers\n"
-msgstr "      --bad-header {reject|accept}\n                    ange policy för att hantera meddelanden med felaktiga huvuden\n"
+msgstr "      --bad-header {reject|accept}\n                    ange policy för hantering av meddelanden med felaktiga huvuden\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -p, --proto[col]  specify retrieval protocol (see man page)\n"
-msgstr "  -p, --proto[col]  ange protokoll för att hämta (se manualsidan)\n"
+msgstr "  -p, --proto[col]  ange protokoll för hämtning (se manualsidan)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -U, --uidl        force the use of UIDLs (pop3 only)\n"
@@ -347400,11 +347400,11 @@ msgstr "  -U, --uidl        framtvinga användning av UIDL:er (endast pop3)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --idle        tells the IMAP server to send notice of new messages\n"
-msgstr "      --idle        säger till IMAP-servern att skicka aviseringar om nya meddelanden\n"
+msgstr "      --idle        begär att IMAP-servern skickar aviseringar om nya meddelanden\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --forceidle   Force idle mode, even if server does not advertise the capability\n"
-msgstr "      --forceidle   Framtvinga vilande läge, även om servern inte annonserar förmågan\n"
+msgstr "      --forceidle   framtvinga viloläge även om servern inte annonserar funktionen\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --idletimeout specify timeout before refreshing --idle (%d s)\n"
@@ -347432,7 +347432,7 @@ msgstr "  -E, --envelope    kuvertadresshuvud\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -Q, --qvirtual    prefix to remove from local user id\n"
-msgstr "  -Q, --qvirtual    prefix att ta bort från lokala användar-id\n"
+msgstr "  -Q, --qvirtual    prefix att ta bort från lokalt användar-ID\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --principal   mail service principal\n"
@@ -347440,7 +347440,7 @@ msgstr "      --principal   posttjänsthuvudnamn\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --tracepolls  add poll-tracing information to Received header\n"
-msgstr "      --tracepolls  lägg till kontrollspårningsinformation till Received-huvuden\n"
+msgstr "      --tracepolls  lägg till kontrollspårningsinformation i Received-huvudet\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -u, --user[name]  specify users's login on server\n"
@@ -347452,15 +347452,15 @@ msgstr "  -a, --[fetch]all  hämta gamla och nya meddelanden\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -K, --nokeep      delete new messages after retrieval\n"
-msgstr "  -K, --nokeep      radera nya meddelanden efter de hämtats\n"
+msgstr "  -K, --nokeep      ta bort nya meddelanden efter hämtning\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -k, --keep        save new messages after retrieval\n"
-msgstr "  -k, --keep        spara nya meddelanden efter de hämtats\n"
+msgstr "  -k, --keep        spara nya meddelanden efter hämtning\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --moveto      move message to the given IMAP folder instead of deleting it\n"
-msgstr "      --moveto      flytta meddelandet till den givna IMAP-mappen istälet för att radera det\n"
+msgstr "      --moveto      flytta meddelandet till den angivna IMAP-mappen i stället för att ta bort det\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -F, --flush       delete old messages from server\n"
@@ -347480,11 +347480,11 @@ msgstr "  -l, --limit       hämta inte meddelanden över en viss storlek\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -w, --warnings    interval between warning mail notification\n"
-msgstr "  -w, --warnings    intervall mellan varningsbrevsaviseringar\n"
+msgstr "  -w, --warnings    intervall mellan aviseringar om varningsmeddelanden\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -S, --smtphost    set SMTP forwarding host\n"
-msgstr "  -S, --smtphost    sätt värd för SMTP-vidarebefordran\n"
+msgstr "  -S, --smtphost    ange värd för SMTP-vidarebefordran\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "			   NOTE: all using same name and password!\n"
@@ -347496,15 +347496,15 @@ msgstr "      --fetchdomains hämta post för angivna domäner\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -D, --smtpaddress set SMTP delivery domain to use\n"
-msgstr "  -D, --smtpaddress sätt SMTP-leveransdomän att använda\n"
+msgstr "  -D, --smtpaddress ange SMTP-leveransdomän som ska användas\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --smtpname    set SMTP full name username@domain\n"
-msgstr "      --smtpname    sätt fullständigt SMTP-namn användarnamn@domän\n"
+msgstr "      --smtpname    ange fullständigt SMTP-namn användarnamn@domän\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --esmtpname   override identity used for SMTP AUTH (default: user's name)"
-msgstr "      --esmtpname   ersätt identiteten som används till SMTP AUTH (standard: användarens namn)"
+msgstr "      --esmtpname   åsidosätt identiteten för SMTP AUTH (standard: användarens namn)"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --esmtppassword\n"
@@ -347512,23 +347512,23 @@ msgstr "      --esmtppassword\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "			   set secret (password) for SMTP AUTH"
-msgstr "			   sätt hemlighet (lösenord) till SMTP AUTH"
+msgstr "\t\t\t   ange hemlighet (lösenord) för SMTP AUTH"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -Z, --antispam    set antispam response values\n"
-msgstr "  -Z, --antispam    sätt anti-spam-svarsvärden\n"
+msgstr "  -Z, --antispam    ange svarsvärden för skräppostskydd\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -b, --batchlimit  set batch limit for SMTP connections\n"
-msgstr "  -b, --batchlimit  sätt satsgräns för SMTP-anslutningar\n"
+msgstr "  -b, --batchlimit  ange batchgräns för SMTP-anslutningar\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -B, --fetchlimit  set fetch limit for server connections\n"
-msgstr "  -B, --fetchlimit  sätt gräns på hämtande för serveranslutningar\n"
+msgstr "  -B, --fetchlimit  ange hämtningsgräns för serveranslutningar\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --fetchsizelimit set fetch message size limit\n"
-msgstr "      --fetchsizelimit sätt gräns på meddelandestorlek att hämta\n"
+msgstr "      --fetchsizelimit ange gräns för hämtade meddelandens storlek\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --fastuidl    do a binary search for UIDLs\n"
@@ -347536,15 +347536,15 @@ msgstr "      --fastuidl    gör en binärsökning efter UIDL:er\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -e, --expunge     set max deletions between expunges\n"
-msgstr "  -e, --expunge     sätt max raderingar mellan tömningar\n"
+msgstr "  -e, --expunge     ange högsta antal raderingar mellan tömningar\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -m, --mda         set MDA to use for forwarding\n"
-msgstr "  -m, --mda         sätt MDA att använda för vidarebefordran\n"
+msgstr "  -m, --mda         ange MDA för vidarebefordran\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --bsmtp       set output BSMTP file\n"
-msgstr "      --bsmtp       sätt utmatnings-BSMTP-fil\n"
+msgstr "      --bsmtp       ange BSMTP-utdatafil\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --lmtp        use LMTP (RFC2033) for delivery\n"
@@ -347552,7 +347552,7 @@ msgstr "      --lmtp        använd LMTP (RFC2033) för leverans\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "  -r, --folder      specify remote folder name\n"
-msgstr "  -r, --folder      ange fjärrmappsnamn\n"
+msgstr "  -r, --folder      ange namn på fjärrmapp\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "      --showdots    show progress dots even in logfiles\n"
@@ -347568,7 +347568,7 @@ msgstr "POP2 stödjer endast lösenordsautentisering.  Ger upp.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Warning: \"Maillennium POP3\" found, using RETR command instead of TOP.\n"
-msgstr "Varning: ”Maillennium POP3” funnen, använder RETR-kommando istället för TOP.\n"
+msgstr "Varning: ”Maillennium POP3” hittades; använder RETR-kommandot i stället för TOP.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "STLS is mandatory for this session, but server refused CAPA command.\n"
@@ -347584,7 +347584,7 @@ msgstr "%s: VARNING: servern erbjöd STLS, men sslproto ”” gavs.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "We've run out of allowed authenticators and cannot continue.\n"
-msgstr "Vi har fått slut på tillåtna autentiserare och kan inte fortsätta.\n"
+msgstr "Vi har inga tillåtna autentiseringsmetoder kvar och kan inte fortsätta.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Required APOP timestamp not found in greeting\n"
@@ -347608,7 +347608,7 @@ msgstr "lås upptaget!  Är en annan session aktiv?\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Cannot handle UIDL response from upstream server.\n"
-msgstr "Kan inte hantera UIDL-svar från uppströmsserver.\n"
+msgstr "Kan inte hantera UIDL-svaret från uppströmsservern.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Server responded with UID for wrong message.\n"
@@ -347620,11 +347620,11 @@ msgstr "id=%s (nr=%u) raderades, men är fortfarande kvar!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Messages inserted into list on server. Cannot handle this.\n"
-msgstr "Meddelanden infogade i listan på servern.  Kan inte hantera detta.\n"
+msgstr "Meddelanden har infogats i listan på servern. Kan inte hantera detta.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "LAST is an obsolete command that many servers will not support. We will try modern means to find what messages are new.\n"
-msgstr "LAST är ett föråldrat kommando som många servrar inte stödjer. Vi kommer prova moderna sätt att hitta vilka meddelanden som är nya.\n"
+msgstr "LAST är ett föråldrat kommando som många servrar inte stöder. Vi försöker med moderna sätt att hitta nya meddelanden.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "protocol error\n"
@@ -347644,7 +347644,7 @@ msgstr "Flaggan --folder stödjs inte med POP3\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "server option after user options"
-msgstr "serverflagga efter användarflaggor"
+msgstr "serveralternativ efter användaralternativ"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "SDPS not enabled."
@@ -347656,7 +347656,7 @@ msgstr "fetchmail: gränssnittsflaggan stödjs endast under Linux (utan IPv6) oc
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: monitor option is only supported under Linux (without IPv6) and FreeBSD\n"
-msgstr "fetchmail: flaggan monitor stödjs endast under Linux (utan IPv6) och FreeBSD\n"
+msgstr "fetchmail: övervakningsalternativet stöds endast under Linux (utan IPv6) och FreeBSD\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "SSL is not enabled"
@@ -347664,7 +347664,7 @@ msgstr "SSL är inte aktiverat"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "File %s must be a regular file.\n"
-msgstr "Filen %s måste vara en normal fil.\n"
+msgstr "Filen %s måste vara en vanlig fil.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "File %s must have no more than -rwx------ (0700) permissions.\n"
@@ -347676,7 +347676,7 @@ msgstr "Filen %s måste ägas av dig.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s: parsing rcfile %s: memory exhausted\n"
-msgstr "%s: tolkar rc-filen %s: minnet slut\n"
+msgstr "%s: tolkar rc-filen %s: slut på minne\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Internal error: regex_ere_search could not compile pattern %s: %s\n"
@@ -347688,15 +347688,15 @@ msgstr "(okänt regcomp-fel)"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s (log message incomplete)\n"
-msgstr "%s (loggmeddelandet ofullständigt)\n"
+msgstr "%s (loggmeddelandet är ofullständigt)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "About to rewrite %s...\n"
-msgstr "I begrepp att skriva om %s …\n"
+msgstr "Ska skriva om %s …\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "...rewritten version is %s.\n"
-msgstr "… omskriven version är %s.\n"
+msgstr "… den omskrivna versionen är %s.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Restricted user (something wrong with account)"
@@ -347708,11 +347708,11 @@ msgstr "Ogiltigt användar-id eller lösenfras"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Deity error"
-msgstr "Gudafel"
+msgstr "Allvarligt fel"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "RPA token 2: Base64 decode error\n"
-msgstr "RPA symbol 2: Base64-avkodningsfel\n"
+msgstr "RPA-token 2: Base64-avkodningsfel\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Service chose RPA version %d.%d\n"
@@ -347728,19 +347728,19 @@ msgstr "Tjänstetidsstämpel %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "RPA token 2 length error\n"
-msgstr "RPA symbol 2 längdfel\n"
+msgstr "RPA-token 2: längdfel\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Realm list: %s\n"
-msgstr "Lista över riken: %s\n"
+msgstr "Lista över realmer: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "RPA error in service@realm string\n"
-msgstr "RPA-fel i tjänst@rike-sträng\n"
+msgstr "RPA-fel i strängen tjänst@realm\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "RPA token 4: Base64 decode error\n"
-msgstr "RPA symbol 4: Base64-avkodningsfel\n"
+msgstr "RPA-token 4: Base64-avkodningsfel\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "User authentication (l=%d):\n"
@@ -347752,7 +347752,7 @@ msgstr "RPA-status: %02X\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "RPA token 4 length error\n"
-msgstr "RPA symbol 4 längdfel\n"
+msgstr "RPA-token 4: längdfel\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "RPA rejects you: %s\n"
@@ -347760,51 +347760,51 @@ msgstr "RPA avvisar dig: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "RPA rejects you, reason unknown\n"
-msgstr "RPA avvisar dig, okänd anledning\n"
+msgstr "RPA avvisar dig av okänd anledning\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "RPA User Authentication length error: %d\n"
-msgstr "RPA-användarautentisering gav längdfel: %d\n"
+msgstr "RPA-användarautentiseringens längdfel: %d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "RPA Session key length error: %d\n"
-msgstr "RPA-sessionsnyckel gav längdfel: %d\n"
+msgstr "RPA-sessionsnyckelns längdfel: %d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "RPA _service_ auth fail. Spoof server?\n"
-msgstr "RPA _tjänste_autentisering misslyckades.  Imiterad server?\n"
+msgstr "RPA-autentisering av _service_ misslyckades. Förfalskad server?\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Session key established:\n"
-msgstr "Sessionsnyckel etablerad:\n"
+msgstr "Sessionsnyckeln har etablerats:\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "RPA authorisation complete\n"
-msgstr "RPA-autentiseringen avslutad\n"
+msgstr "RPA-auktorisering klar\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Get response\n"
-msgstr "Få svar\n"
+msgstr "Hämta svar\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Get response return %d [%s]\n"
-msgstr "Få svar returnerade %d [%s]\n"
+msgstr "Hämta svar returnerade %d [%s]\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Hdr not 60\n"
-msgstr "Huvud inte 60\n"
+msgstr "Huvudet är inte 60\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Token length error\n"
-msgstr "Symbollängdsfel\n"
+msgstr "Tokenlängdsfel\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Token Length %d disagrees with rxlen %d\n"
-msgstr "Symbollängd %d stämmer inte med rxlen %d\n"
+msgstr "Tokenlängden %d stämmer inte med rxlen %d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Mechanism field incorrect\n"
-msgstr "Mekanismfältet felaktigt\n"
+msgstr "Mekanismfältet är felaktigt\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "dec64 error at char %d: %x\n"
@@ -347828,7 +347828,7 @@ msgstr "Unicode:\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "RPA Failed open of /dev/urandom. This shouldn't\n"
-msgstr "RPA misslyckades öppna /dev/urandom.  Detta borde inte\n"
+msgstr "RPA kunde inte öppna /dev/urandom. Detta borde inte\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "    prevent you logging in, but means you\n"
@@ -347836,7 +347836,7 @@ msgstr "    hindra dig från att logga in, men betyder att du\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "    cannot be sure you are talking to the\n"
-msgstr "    inte kan vara säker på att du talar med\n"
+msgstr "    vara säker på att du talar med\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "    service that you think you are (replay\n"
@@ -347844,7 +347844,7 @@ msgstr "    den tjänst du tror du talar med (attacker med\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "    attacks by a dishonest service are possible.)\n"
-msgstr "    återuppspelning av någon oärlig tjänst är möjliga).\n"
+msgstr "    återuppspelningsattacker från en oärlig tjänst är möjliga).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "User challenge:\n"
@@ -347860,11 +347860,11 @@ msgstr "MD5-resultatet är:\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "getaddrinfo(NULL, \"%s\") error: %s\n"
-msgstr "getaddrinfo(NULL, \"%s\") fel: %s\n"
+msgstr "getaddrinfo(NULL, ”%s”): fel %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Cannot resolve service %s to port number.\n"
-msgstr "Kan inte slå upp tjänsten %s till portnummer.\n"
+msgstr "Kan inte slå upp tjänsten %s till ett portnummer.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Please specify the service as decimal port number.\n"
@@ -347884,7 +347884,7 @@ msgstr "SMTP-servern hälsade med ett fel och vill inte ha vår post.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s: opportunistic upgrade to TLS failed, cannot continue.\nYou can add /notls to the SMTP server name to avoid STARTTLS.\n"
-msgstr "%s: opportunistisk uppgradering till TLS misslyckades, kan inte fortsätta\nMan kan lägga till /notls till SMTP-serverns namn för att undvika STARTTLS.\n"
+msgstr "%s: opportunistisk uppgradering till TLS misslyckades; kan inte fortsätta.\nDu kan lägga till /notls till SMTP-serverns namn för att undvika STARTTLS.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "forwarding to %s\n"
@@ -347892,11 +347892,11 @@ msgstr "vidarebefordrar till %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "SMTP: (bounce-message body)\n"
-msgstr "SMTP: (returmeddelandes kropp)\n"
+msgstr "SMTP: (returmeddelandets brödtext)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "mail from %s bounced to %s\n"
-msgstr "post från %s studsade till %s\n"
+msgstr "post från %s studsade tillbaka till %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%cMTP error: %s\n"
@@ -347908,11 +347908,11 @@ msgstr "SMTP-servern kräver STARTTLS, behåller meddelandet.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "BSMTP file open failed: %s\n"
-msgstr "BSMTP-öppning av fil misslyckades: %s\n"
+msgstr "Det gick inte att öppna BSMTP-filen: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "BSMTP preamble write failed: %s.\n"
-msgstr "BSMTP-skrivning av ingressen misslyckades: %s.\n"
+msgstr "Det gick inte att skriva BSMTP-ingressen: %s.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%cMTP listener doesn't like recipient address `%s'\n"
@@ -347924,7 +347924,7 @@ msgstr "%cMTP-lyssnaren tycker inte riktigt om mottagaradressen ”%s”\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "no address matches; no postmaster set.\n"
-msgstr "inga adressmatchningar, ingen postmästare satt.\n"
+msgstr "inga adressmatchningar; ingen postmaster har angetts.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "can't even send to %s!\n"
@@ -347932,7 +347932,7 @@ msgstr "kan inte ens skicka till %s!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "no address matches; forwarding to %s.\n"
-msgstr "inga adressmatchningar, vidarebefordrar till %s.\n"
+msgstr "inga adressmatchningar; vidarebefordrar till %s.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "MDA option contains single-quoted %%%c expansion.\n"
@@ -347940,23 +347940,23 @@ msgstr "Flaggan MDA innehåller en enkelciterad %%%c-expansion.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Refusing to deliver. Check the manual and fix your mda option.\n"
-msgstr "Vägrar att leverera.  Se manualen och fixa din mda-flagga.\n"
+msgstr "Vägrar att leverera. Se manualen och rätta MDA-alternativet.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "about to deliver with: %s\n"
-msgstr "färdig att leverera med: %s\n"
+msgstr "ska leverera med: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Cannot switch effective user id to %ld: %s\n"
-msgstr "Kan inte byta effektiv användar-id till %ld: %s\n"
+msgstr "Kan inte byta effektivt användar-ID till %ld: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Cannot switch effective user id back to original %ld: %s\n"
-msgstr "Kan inte byta tillbaka effektiv användar-id till originalet %ld: %s\n"
+msgstr "Kan inte återställa effektivt användar-ID till ursprungligt %ld: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "MDA open failed\n"
-msgstr "misslyckades öppna MDA:n\n"
+msgstr "Det gick inte att öppna MDA:n\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "BSMTP"
@@ -347976,7 +347976,7 @@ msgstr "SMTP"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "sink"
-msgstr "sänka"
+msgstr "mottagare"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%cMTP connect to %s failed\n"
@@ -347984,7 +347984,7 @@ msgstr "%cMTP-anslutning till %s misslyckades\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Message termination or close of BSMTP file failed: %s\n"
-msgstr "Meddelandeavslutning eller stängning av BSMTP-fil misslyckades: %s\n"
+msgstr "Det gick inte att avsluta meddelandet eller stänga BSMTP-filen: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Error writing to MDA: %s\n"
@@ -347996,15 +347996,15 @@ msgstr "MDA:n dog av signal %d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "MDA returned nonzero status %d\n"
-msgstr "MDA:n returnerade status skild från noll %d\n"
+msgstr "MDA:n returnerade status %d, skild från noll\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Strange: MDA pclose returned %d and errno %d/%s, cannot handle at %s:%d\n"
-msgstr "Konstigt: pclose av MDA:n returnerade %d och errno %d/%s, kan inte hanteras vid %s:%d\n"
+msgstr "Oväntat: pclose för MDA:n returnerade %d och errno %d/%s; kan inte hantera detta vid %s:%d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "SMTP listener refused delivery\n"
-msgstr "SMTP-lyssnaren vägrade leverera\n"
+msgstr "SMTP-lyssnaren vägrade leverans\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "LMTP delivery error on EOM\n"
@@ -348012,7 +348012,7 @@ msgstr "LMTP-leveransfel vid EOM\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Unexpected non-503 response to LMTP EOM: %s\n"
-msgstr "Oväntat icke-503-svar på LMTP EOM: %s\n"
+msgstr "Oväntat svar, annat än 503, på LMTP EOM: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "The Fetchmail Daemon"
@@ -348028,15 +348028,15 @@ msgstr "ESMTP CRAM-MD5-autentisering …\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Malformed server reply"
-msgstr "Felformaterat serversvar"
+msgstr "Felformaterat svar från servern"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Bad base64 reply from server.\n"
-msgstr "Felaktigt base64-svar från servern.\n"
+msgstr "Felaktigt Base64-svar från servern.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Challenge decoded: %s\n"
-msgstr "Utmaningen avkodad: %s\n"
+msgstr "Utmaningen avkodades: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Digest text buffer too small!\n"
@@ -348052,11 +348052,11 @@ msgstr "ESMTP LOGIN-autentisering …\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "authentication requested, but not offered by server."
-msgstr "autentisering begärd, men erbjuds inte av servern."
+msgstr "autentisering har begärts, men erbjuds inte av servern."
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "smtp listener protocol error\n"
-msgstr "protokollfel hos smtp-lyssnaren\n"
+msgstr "protokollfel hos SMTP-lyssnaren\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: malloc failed\n"
@@ -348064,7 +348064,7 @@ msgstr "fetchmail: malloc misslyckades\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: plugin for host %s service %s is empty, cannot run!\n"
-msgstr "fetchmail: plugin för värd %s tjänst %s är tom, kan inte köras!\n"
+msgstr "fetchmail: insticksprogrammet för värden %s och tjänsten %s är tomt; kan inte köras!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: socketpair failed\n"
@@ -348080,7 +348080,7 @@ msgstr "dup2 misslyckades\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "running %s (host %s service %s)\n"
-msgstr "kör %s (värd %s tjänst %s)\n"
+msgstr "kör %s (värd %s, tjänst %s)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "execvp(%s) failed\n"
@@ -348088,11 +348088,11 @@ msgstr "execvp(%s) misslyckades\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "getaddrinfo(\"%s\",\"%s\") error: %s\n"
-msgstr "getaddrinfo(\"%s\",\"%s\") fel: %s\n"
+msgstr "getaddrinfo(”%s”, ”%s”): fel %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Try adding the --service option (see also FAQ item R12).\n"
-msgstr "Försök att lägga till flaggan --service (se även FAQ-post R12).\n"
+msgstr "Prova att lägga till alternativet --service (se även FAQ-punkt R12).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "unknown (%s)"
@@ -348104,11 +348104,11 @@ msgstr "Försöker ansluta till %s/%s …"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "cannot create socket: %s\n"
-msgstr "kan inte skapa uttag: %s\n"
+msgstr "kan inte skapa socket: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "name %d: cannot create socket family %d type %d: %s\n"
-msgstr "namn %d: kan inte skapa uttag med familj %d typ %d: %s\n"
+msgstr "namn %d: kan inte skapa socket med familj %d och typ %d: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "connection failed.\n"
@@ -348124,7 +348124,7 @@ msgstr "namn %d: anslutning till %s:%s [%s/%s] misslyckades: %s.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Connection errors for this poll:\n%s"
-msgstr "Anslutningsfel för denna kontroll:\n%s"
+msgstr "Anslutningsfel vid denna kontroll:\n%s"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s reported: %s\n"
@@ -348132,7 +348132,7 @@ msgstr "%s rapporterade: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "SSL verify callback error: current certificate NULL!\n"
-msgstr "fel i återanrop vid SSL-verifiering: nuvarande certifikat är NULL!\n"
+msgstr "fel i återanrop för SSL-verifiering: aktuellt certifikat är NULL!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "SSL verify callback depth %d: verify_ok == %d, err = %d, %s\n"
@@ -348152,11 +348152,11 @@ msgstr "Certifikat på djup %d:\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Issuer Organization: %s\n"
-msgstr "Utgivarorganisation: %s\n"
+msgstr "Utfärdarorganisation: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Warning: Issuer Organization Name too long (possibly truncated).\n"
-msgstr "Varning: Utgivarorganisationens namn är för långt (möjligen avhugget).\n"
+msgstr "Varning: utfärdarorganisationens namn är för långt (kan ha trunkerats).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Unknown Organization\n"
@@ -348164,23 +348164,23 @@ msgstr "Okänd organisation\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Issuer CommonName: %s\n"
-msgstr "Utgivarens vanliga namn: %s\n"
+msgstr "Utfärdarens CommonName: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Warning: Issuer CommonName too long (possibly truncated).\n"
-msgstr "Varning: Utgivarens vanliga namn är för långt (möjligen avhugget).\n"
+msgstr "Varning: utfärdarens CommonName är för långt (kan ha trunkerats).\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Unknown Issuer CommonName\n"
-msgstr "Okänt vanligt namn på utgivaren\n"
+msgstr "Okänt CommonName för utfärdaren\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Subject CommonName: %s\n"
-msgstr "Subjektets vanliga namn: %s\n"
+msgstr "Subject CommonName: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Bad certificate: Subject CommonName too long!\n"
-msgstr "Felaktigt certifikat: Subjektets vanliga namn är för långt!\n"
+msgstr "Felaktigt certifikat: Subject CommonName är för långt!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Bad certificate: Subject CommonName contains NUL, aborting!\n"
@@ -348188,27 +348188,27 @@ msgstr "Felaktigt certifikat: Subjektets vanliga namn innehåller nolltecken, av
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Subject Alternative Name: %s\n"
-msgstr "Subjektets alternativa namn: %s\n"
+msgstr "Subject Alternative Name: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Bad certificate: Subject Alternative Name contains NUL, aborting!\n"
-msgstr "Felaktigt certifikat: Subjektets alternativa namn innehåller nolltecken, avbryter!\n"
+msgstr "Felaktigt certifikat: Subject Alternative Name innehåller NUL; avbryter!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Server CommonName mismatch: %s != %s\n"
-msgstr "Serverns vanliga namn stämmer inte: %s ≠ %s\n"
+msgstr "Serverns CommonName stämmer inte: %s ≠ %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Server name not set, could not verify certificate!\n"
-msgstr "Serverns namn inte satt, kunde inte verifiera certifikatet!\n"
+msgstr "Serverns namn har inte angetts; kunde inte verifiera certifikatet!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Unknown Server CommonName\n"
-msgstr "Serverns vanliga namn okänt\n"
+msgstr "Okänt CommonName för servern\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Server name not specified in certificate!\n"
-msgstr "Serverns namn är inte angivet i certifikatet!\n"
+msgstr "Serverns namn har inte angetts i certifikatet!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Server certificate verification error: %s\n"
@@ -348220,19 +348220,19 @@ msgstr "Trasig certifikatskedja vid: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "This could mean that the server did not provide the intermediate CA's certificate(s), which is nothing fetchmail could do anything about.  For details, please see the README.SSL-SERVER document that ships with fetchmail.\n"
-msgstr "Detta kan betyda att servern inte tillhandahöll de mellanliggande CA:nas certifikat, vilket inte är något fetchmail kunde göra något åt.  För detaljer, se dokumentet README.SSL-SERVER som kommer med fetchmail.\n"
+msgstr "Det kan betyda att servern inte tillhandahöll den mellanliggande CA:ns certifikat, vilket fetchmail inte kan göra något åt. Mer information finns i dokumentet README.SSL-SERVER som följer med fetchmail.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Missing trust anchor certificate: %s\n"
-msgstr "Förtroendeankarcertifikat saknas: %s\n"
+msgstr "Förtroendeankarets certifikat saknas: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "This could mean that the root CA's signing certificate is not in the trusted CA certificate location, or that c_rehash needs to be run on the certificate directory. For details, please see the documentation of --sslcertpath and --sslcertfile in the manual page. See README.SSL for details.\n"
-msgstr "Detta kan betyda att root-CA:ns signeringscertifikat inte finns på platserna för betrodda CA-certifikat, eller att c_rehash behöver köras på certifikatkatalogen.  För detaljer, se dokumentationen av --sslcertpath och --sslcertfile i manualsidan.  Se README.SSL för detaljer.\n"
+msgstr "Det kan betyda att rot-CA:ns signeringscertifikat saknas bland de betrodda CA-certifikaten eller att c_rehash behöver köras på certifikatkatalogen. Information om --sslcertpath och --sslcertfile finns i manualsidan. Se README.SSL för mer information.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Cannot fetch digest implementation %s for sslfingerprint!\n"
-msgstr "Kan inte hämta kontrollsummeimplementationen %s till sslfingerprint!\n"
+msgstr "Kan inte hämta kontrollsummeimplementeringen %s för sslfingerprint!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "X509_digest(): Out of memory!\n"
@@ -348240,39 +348240,39 @@ msgstr "X509_digest(): slut på minne!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s fingerprint is: {%s}%s\n"
-msgstr "%s fingeravtryck är: {%s}%s\n"
+msgstr "%s-fingeravtrycket är: {%s}%s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s fingerprint (%s) matches: %s\n"
-msgstr "%s fingeravtryck (%s) stämmer: %s\n"
+msgstr "%s-fingeravtrycket (%s) stämmer: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "%s fingerprint ({%s}%s) does not match expected %s!\n"
-msgstr "%s fingeravtryck ({%s}%s) stämmer inte med det förväntade %s!\n"
+msgstr "%s-fingeravtrycket ({%s}%s) stämmer inte med förväntat %s!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Invalid SSL protocol '%s' specified, using default autoselect (auto).\n"
-msgstr "Ogiltigt SSL-protokoll ”%s” angivet, använder standard autoval (auto).\n"
+msgstr "Ogiltigt SSL-protokoll ”%s” angavs; använder standardvalet auto.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Loaded wolfSSL library %#lx older than headers %#lx, refusing to work.\n"
-msgstr "Det inlästa wolfSSL-biblioteket %#lx är äldre än huvudena %#lx, vägrar att arbeta.\n"
+msgstr "Det inlästa wolfSSL-biblioteket %#lx är äldre än huvudfilerna %#lx; vägrar att arbeta.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Loaded OpenSSL library %#lx older than headers %#lx, refusing to work.\n"
-msgstr "Det inlästa OpenSSL-biblioteket %#lx är äldre än huvudena %#lx, vägrar att arbeta.\n"
+msgstr "Det inlästa OpenSSL-biblioteket %#lx är äldre än huvudfilerna %#lx; vägrar att arbeta.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Loaded OpenSSL library %#lx newer than headers %#lx, trying to continue.\n"
-msgstr "Det inlästa OpenSSL-biblioteket %#lx är nyare än huvudena %#lx, försöker att fortsätta.\n"
+msgstr "Det inlästa OpenSSL-biblioteket %#lx är nyare än huvudfilerna %#lx; försöker fortsätta.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "File descriptor out of range for SSL"
-msgstr "Filbeskrivare utanför intervallet för SSL"
+msgstr "Filbeskrivaren ligger utanför intervallet för SSL"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Note that some distributions disable older protocol versions in weird non-standard ways. Try a newer protocol version.\n"
-msgstr "Observera att några distributioner avaktiverar äldre protokollversioner på konstiga icke-standardsätt.  Försök med en nyare protokollversion.\n"
+msgstr "Observera att vissa distributioner avaktiverar äldre protokollversioner på ovanliga sätt som inte följer standarden. Prova en nyare protokollversion.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "SSL/TLS <= 1.2: environment variable %s unset, using fetchmail built-in ciphers.\n"
@@ -348284,19 +348284,19 @@ msgstr "inbyggda standardvärden"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "SSL/TLS <= 1.2: ciphers set from %s to \"%s\"\n"
-msgstr "SSL/TLS ≤ 1.2: chiffer satt från %s till ”%s”\n"
+msgstr "SSL/TLS ≤ 1.2: chiffer angavs från %s till ”%s”\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "SSL/TLS: <= 1.2 failed to set ciphers from %s to \"%s\"\n"
-msgstr "SSL/TLS: ≤ 1.2 misslyckades att sätta chiffer från %s till “%s“\n"
+msgstr "SSL/TLS ≤ 1.2: det gick inte att ange chiffer från %s till ”%s”\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "TLS >= 1.3: ciphersuite set from %s to \"%s\"\n"
-msgstr "TLS ≥ 1.3: chiffersviten satt från %s till ”%s”\n"
+msgstr "TLS ≥ 1.3: chiffersviten angavs från %s till ”%s”\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "TLS >= 1.3: failed to set ciphersuite from %s to \"%s\"\n"
-msgstr "TLS ≥ 1.3: misslyckades att sätta chiffersviten från %s till ”%s”\n"
+msgstr "TLS ≥ 1.3: det gick inte att ange chiffersviten från %s till ”%s”\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "TLS >= 1.3: environment variable %s unset, using OpenSSL built-in ciphersuites.\n"
@@ -348304,35 +348304,35 @@ msgstr "TLS ≥ 1.3: miljövariabeln %s är inte satt, använder OpenSSL:s inbyg
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "The %s environment variable must contain a non-negative integer - parsing failed, using default level %d.\n"
-msgstr "Miljövariabeln %s måste innehålla ett ickenegativt heltal — tolkningen misslyckades, använder standardnivån %d.\n"
+msgstr "Miljövariabeln %s måste innehålla ett icke-negativt heltal; tolkningen misslyckades och standardnivån %d används.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Parsed %s to set new security level %d\n"
-msgstr "Tolkade %s för att sätta en ny säkerhetsnivå %d\n"
+msgstr "Tolkade %s för att ange den nya säkerhetsnivån %d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "DEBUG: SSL security level is %d\n"
-msgstr "FELSÖKNING: SSL:s säkerhetsnivå är %d\n"
+msgstr "FELSÖKNING: SSL-säkerhetsnivån är %d\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Cannot load verify locations (file=\"%s\", dir=\"%s\"), error %d:\n"
-msgstr "Kan inte läsa in verifikationsplatser (fil=”%s”, kat=”%s”), fel %d:\n"
+msgstr "Kan inte läsa in verifieringsplatser (fil=”%s”, katalog=”%s”); fel %d:\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Warning: SSL_set_tlsext_host_name(%p, \"%s\") failed (code %#lx), trying to continue.\n"
-msgstr "Varning: SSL_set_tlsext_host_name(%p, \"%s\") misslyckades (kod %#lx), försöker att fortsätta.\n"
+msgstr "Varning: SSL_set_tlsext_host_name(%p, ”%s”) misslyckades (kod %#lx); försöker fortsätta.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "fetchmail: sock %d: wolfSSL_check_domain_name(%p, \"%s\") returned %d, trying to continue\n"
-msgstr "fetchmail: uttg %d: wolfSSL_check_domain_name(%p, \"%s\") returnerade %d, försöker att fortsätta\n"
+msgstr "fetchmail: socket %d: wolfSSL_check_domain_name(%p, ”%s”) returnerade %d; försöker fortsätta\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Warning: X509_VERIFY_PARAM_set1_host(%p, \"%s\") failed (code %#x), trying to continue.\n"
-msgstr "Varning: X509_VERIFY_PARAM_set1_host(%p, \"%s\") misslyckades (kod %#x), försöker att fortsätta.\n"
+msgstr "Varning: X509_VERIFY_PARAM_set1_host(%p, ”%s”) misslyckades (kod %#x); försöker fortsätta.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Server shut down connection prematurely during SSL_connect().\n"
-msgstr "Servern stängde ner förbindelsen för tidigt under SSL_connect().\n"
+msgstr "Servern stängde anslutningen i förtid under SSL_connect().\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "System error during SSL_connect(): %s\n"
@@ -348340,15 +348340,15 @@ msgstr "Systemfel under SSL_connect(): %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Cannot obtain current SSL/TLS cipher - no session established?\n"
-msgstr "Kan inte hämta aktuellt SSL/TLS-chiffer — ingen förbindelse etablerad?\n"
+msgstr "Kan inte hämta aktuellt SSL/TLS-chiffer – ingen session har etablerats?\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Certificate/fingerprint verification was somehow skipped!\n"
-msgstr "Certifikat-/fingeravtrycksverifikation hoppades på något sätt över!\n"
+msgstr "Verifieringen av certifikat/fingeravtryck hoppades av någon anledning över!\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Warning: the connection is insecure, continuing anyways. (Better use --sslcertck!)\n"
-msgstr "Varning: anslutningen är osäker, fortsätter ändå.  (Bättre att använda --sslcertck!)\n"
+msgstr "Varning: anslutningen är osäker; fortsätter ändå. (Använd helst --sslcertck.)\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "mapped address %s to local %s\n"
@@ -348364,19 +348364,19 @@ msgstr "skickade vidare %s som matchar %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "analyzing Received line:\n%s"
-msgstr "analyserar Received-rad:\n%s"
+msgstr "analyserar Received-raden:\n%s"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "line accepted, %s is an alias of the mailserver\n"
-msgstr "raden accepterad, %s är ett alias för postservern\n"
+msgstr "raden accepterades; %s är ett alias för postservern\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "line rejected, %s is not an alias of the mailserver\n"
-msgstr "raden avvisad, %s är inte ett alias för postservern\n"
+msgstr "raden avvisades; %s är inte ett alias för postservern\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "no Received address found\n"
-msgstr "ingen Received-adress hittad\n"
+msgstr "ingen Received-adress hittades\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "found Received address `%s'\n"
@@ -348384,7 +348384,7 @@ msgstr "hittade Received-adressen ”%s”\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "incorrect header line found - see manpage for bad-header option\n"
-msgstr "felaktig huvudrad hittad - se flaggan bad-header i manualsidan\n"
+msgstr "felaktig huvudrad hittades – se alternativet bad-header i manualsidan\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "line: %s"
@@ -348392,19 +348392,19 @@ msgstr "rad: %s"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Parsing envelope \"%s\" names \"%-.*s\"\n"
-msgstr "Tolkar kuvertet ”%s” namn ”%-.*s”\n"
+msgstr "Tolkar kuvertet ”%s”, namnen ”%-.*s”\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Parsing Received names \"%-.*s\"\n"
-msgstr "Tolkar Received-namn ”%-.*s”\n"
+msgstr "Tolkar Received-namnen ”%-.*s”\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "No envelope recipient found, resorting to header guessing.\n"
-msgstr "Ingen kuvertmottagare hittad, tar till gissning från huvuden.\n"
+msgstr "Ingen kuvertmottagare hittades; gissar utifrån huvuden.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Guessing from header \"%-.*s\".\n"
-msgstr "Gissar utgående från huvudet ”%-.*s”.\n"
+msgstr "Gissar utifrån huvudet ”%-.*s”.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "no local matches, forwarding to %s\n"
@@ -348412,7 +348412,7 @@ msgstr "inga lokala matchningar, vidarebefordrar till %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "forwarding and deletion suppressed due to DNS errors\n"
-msgstr "vidarebefordran och radering avstängd på grund av DNS-fel\n"
+msgstr "vidarebefordran och radering har stoppats på grund av DNS-fel\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "writing RFC822 msgblk.headers\n"
@@ -348420,11 +348420,11 @@ msgstr "skriver RFC822 msgblk.headers\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "no recipient addresses matched declared local names"
-msgstr "inga mottagaradresser matchade deklarerade lokala namn"
+msgstr "inga mottagaradresser matchade angivna lokala namn"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "recipient address %s didn't match any local name"
-msgstr "mottagaradressen %s matchade inte något lokalt namn"
+msgstr "mottagaradressen %s matchade inget lokalt namn"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "message has embedded NULs"
@@ -348444,7 +348444,7 @@ msgstr "Bufferten är för liten.  Detta är ett fel i anroparen av %s:%lu.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Open or read error while reading idfile %s: %s\n"
-msgstr "Öppnings- eller läsningsfel när idfilen %s lästes: %s\n"
+msgstr "Fel vid öppning eller läsning av ID-filen %s: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Old UID list from %s:\n"
@@ -348456,7 +348456,7 @@ msgstr " <tom>"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Scratch list of UIDs:\n"
-msgstr "Utkastlista av UID:er:\n"
+msgstr "Arbetslista över UID:er:\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Merged UID list from %s:\n"
@@ -348468,11 +348468,11 @@ msgstr "Ny UID-lista från %s:\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "not swapping UID lists, no UIDs seen this query\n"
-msgstr "växlar inte UID-listor, inga UID:er har setts i denna fråga\n"
+msgstr "byter inte UID-listor; inga UID:er syntes vid denna fråga\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "discarding new UID list\n"
-msgstr "kastar ny UID-lista\n"
+msgstr "kastar den nya UID-listan\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Deleting fetchids file.\n"
@@ -348484,7 +348484,7 @@ msgstr "Fel när %s raderades: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Writing fetchids file.\n"
-msgstr "Skriver fetchids-fil.\n"
+msgstr "Skriver fetchids-filen.\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Write error on fetchids file %s: %s\n"

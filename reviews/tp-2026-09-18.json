@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 26119,
+  "reviewed_tp_entries": 26848,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 6771,
+  "changed_pairs": 7167,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 6771,
+      "confirmed_swedish_changes": 7167,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "5cf9e626b2617a541de13fb1b0d9b456dcf3e38cc0d476511a408aafbb01cee7"
+      "sha256": "b2a5e6ee6d83b19f0f9433b9901ee030dd245a710ef51573c554b5111113ea01"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 6771,
+      "confirmed_swedish_changes": 7167,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "03719af95c12eaf1610b14dee2c2af453384413a41bc5fbde40f24ef511b44ac"
+      "sha256": "0e8bb035ee909b0f14534783922dc28b0b60f3751efed16cdb66a04fb1a121a7"
     }
   },
   "unmapped_plural_fixes": [
@@ -63,7 +63,8 @@
     "e2fsprogs:3471",
     "e2fsprogs:7644",
     "fetchmail:69",
-    "fetchmail:75"
+    "fetchmail:75",
+    "fetchmail:890"
   ],
   "changes": [
     {
@@ -54233,6 +54234,3174 @@
       "before": "namnservern misslyckades när den letade efter ”%s” under pollning av %s: %s\n",
       "after": "namnserverfel vid uppslagning av ”%s” under hämtning från %s: %s\n",
       "reason": "Rättar term och språkbruk."
+    },
+    {
+      "tp_id": "fetchmail:243",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "\nHowever, if you HAVE changed your account details since starting the\nfetchmail daemon, you need to stop the daemon, change your configuration\nof fetchmail, and then restart the daemon.\n\nThe fetchmail daemon will continue running and attempt to connect\nat each cycle.  No future notifications will be sent until service\nis restored.",
+      "before": "\nDock, om du HAR ändrat dina kontouppgifter sedan du startade fetchmail-\ndemonen, behöver du stoppa demonen, ändra din konfiguration av fetchmail\noch sedan återstarta demonen.\n\nFetchmail-demonen kommer fortsätta köra och försöka ansluta varje cykel.\nInga fler meddelanden kommer att skickas förrän tjänsten är återställd.",
+      "after": "\nOm du HAR ändrat dina kontouppgifter sedan du startade fetchmail-\ndemonen måste du stoppa demonen, ändra din fetchmail-konfiguration och\nsedan starta om demonen.\n\nFetchmail-demonen fortsätter att köra och försöker ansluta vid varje\ncykel. Inga fler meddelanden skickas förrän tjänsten har återställts.",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:261",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "The attempt to get authorization failed.\nThis probably means your password is invalid, but some servers have\nother failure modes that fetchmail cannot distinguish from this\nbecause they don't send useful error messages on login failure.\n\nThe fetchmail daemon will continue running and attempt to connect\nat each cycle.  No future notifications will be sent until service\nis restored.",
+      "before": "Försöket att få auktorisation misslyckades.\nDetta betyder förmodligen att ditt lösenord är ogiltigt, men några servrar\nhar andra fellägen som fetchmail inte kan särskilja från detta eftersom de\ninte skickar användbara felmeddelanden vid inloggningsfel.\n\nFetchmail-demonen kommer fortsätta köra och försöka ansluta varje cykel.\nInga fler meddelanden kommer att skickas förrän tjänsten är återställd.",
+      "after": "Försöket att auktorisera misslyckades.\nDetta betyder förmodligen att ditt lösenord är ogiltigt, men vissa servrar\nhar andra fel som fetchmail inte kan skilja från detta eftersom de inte\nskickar användbara felmeddelanden när inloggningen misslyckas.\n\nFetchmail-demonen fortsätter att köra och försöker ansluta vid varje\ncykel. Inga fler meddelanden skickas förrän tjänsten har återställts.",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:279",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Repoll immediately on %s@%s\n",
+      "before": "Omkontrollera omedelbart på %s@%s\n",
+      "after": "Kontrollerar %s@%s omedelbart igen\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:291",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Authorization OK on %s@%s\n",
+      "before": "Auktorisationen OK på %s@%s\n",
+      "after": "Auktorisering lyckades för %s@%s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:295",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail authentication OK on %s@%s",
+      "before": "fetchmail-auktorisation OK på %s@%s",
+      "after": "fetchmail-autentisering lyckades för %s@%s",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:306",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "selecting or re-polling folder %s\n",
+      "before": "väljer eller kontrollerar om mappen %s\n",
+      "after": "väljer eller kontrollerar mappen %s igen\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:310",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "selecting or re-polling default folder\n",
+      "before": "väljer eller kontrollerar om standardmappen\n",
+      "after": "väljer eller kontrollerar standardmappen igen\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:353",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Too many mails skipped (%d > %d) due to transient errors for %s\n",
+      "before": "Alltför många brev överhoppade (%d > %d) på grund av transienta fel med %s\n",
+      "after": "Alltför många meddelanden hoppades över (%d > %d) på grund av tillfälliga fel för %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:363",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "missing or bad RFC822 header",
+      "before": "saknat eller felaktigt RFC822-huvud",
+      "after": "saknat eller felaktigt RFC 822-huvud",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:366",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "client/server synchronization",
+      "before": "klient-/serversynkroniseringsfel",
+      "after": "klient-/serversynkronisering",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:369",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "client/server protocol",
+      "before": "klient-/serverprotokollfel",
+      "after": "klient-/serverprotokoll",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:375",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "SMTP transaction",
+      "before": "SMTP-transaktionsfel",
+      "after": "SMTP-transaktion",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:378",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "DNS lookup",
+      "before": "DNS-uppslagningsfel",
+      "after": "DNS-uppslagning",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:384",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s error while fetching from %s@%s and delivering to %s host %s\n",
+      "before": "%s fel under hämtande från %s@%s och leverans till %s-värden %s\n",
+      "after": "%s-fel vid hämtning från %s@%s och leverans till %s på värden %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:391",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s error while fetching from %s@%s\n",
+      "before": "%s under hämtande från %s@%s\n",
+      "after": "%s-fel vid hämtning från %s@%s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:395",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "post-connection command terminated with signal %d\n",
+      "before": "kommando efter anslutning avslutat med signal %d\n",
+      "after": "kommandot efter anslutning avslutades med signal %d\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:399",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "post-connection command failed with status %d\n",
+      "before": "kommando efter anslutning avslutades med status %d\n",
+      "after": "kommandot efter anslutning misslyckades med status %d\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:403",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Kerberos V4 support not linked.\n",
+      "before": "Kerberos V4-stöd inte inlänkat.\n",
+      "after": "Kerberos V4-stöd har inte länkats in.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:406",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Kerberos V5 support not linked.\n",
+      "before": "Kerberos V5-stöd inte inlänkat.\n",
+      "after": "Kerberos V5-stöd har inte länkats in.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:480",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s's SMTP listener does not support ESMTP\n",
+      "before": "%s:s SMTP-lyssnare stödjer inte ESMTP\n",
+      "after": "SMTP-lyssnaren på %s stöder inte ESMTP\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:484",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s's SMTP listener does not support ETRN\n",
+      "before": "%s:s SMTP-lyssnare stödjer inte ETRN\n",
+      "after": "SMTP-lyssnaren på %s stöder inte ETRN\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:488",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Queuing for %s started\n",
+      "before": "Kökörning för %s startad\n",
+      "after": "Köande för %s startade\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:496",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Pending messages for %s started\n",
+      "before": "Väntande meddelanden för %s startade\n",
+      "after": "Hantering av väntande meddelanden för %s startade\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:544",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Fetchmail comes with ABSOLUTELY NO WARRANTY. This is free software, and you\nare welcome to redistribute it under certain conditions. For details,\nplease see the file COPYING in the source or documentation directory.\n",
+      "before": "Fetchmail kommer UTAN NÅGON GARANTI.  Detta är fri programvara, och du\nfår gärna vidaredistribuera den under vissa villkor.  För detaljer, se\nfilen COPYING i källkoden eller dokumentationskatalogen.\n",
+      "after": "Fetchmail kommer UTAN NÅGON GARANTI. Detta är fri programvara och du\nfår vidaredistribuera den under vissa villkor. Mer information finns i\nfilen COPYING i källkods- eller dokumentationskatalogen.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:561",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s: WARNING: time() overflowed. Proper function is not guaranteed. Obtain an operating system which supports operation beyond the year 2038.\n",
+      "before": "%s: VARNING: time() spillde över. Korrekt funktion kan inte garanteras. Skaffa ett operativsystem som stödjer funktionen bortom året 2038.\n",
+      "after": "%s: VARNING: time() spillde över. Korrekt funktion kan inte garanteras. Skaffa ett operativsystem som stöder drift efter år 2038.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:565",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s: WARNING: the operation system this program was built for does not function beyond the year 2038. Plan your update accordingly.\n",
+      "before": "%s: VARNING:  operativsystemet detta program byggdes för fungerar inte bortom året 2038. Planera din uppdatering därefter.\n",
+      "after": "%s: VARNING: operativsystemet som programmet byggdes för fungerar inte efter år 2038. Planera uppdateringen därefter.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:569",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "WARNING: Running as root is discouraged.\n",
+      "before": "VARNING: Det avrådes från att köra som root.\n",
+      "after": "VARNING: Att köra som root avråds.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:572",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: invoked with",
+      "before": "fetchmail: startad med",
+      "after": "fetchmail: anropad med",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:578",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "This is fetchmail release %s",
+      "before": "Detta är fetchmail utgåva %s",
+      "after": "Det här är fetchmail version %s",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:582",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Compiled with SSL library %#lx \"%s\"\nRun-time uses SSL library %#lx \"%s\"\n",
+      "before": "Kompilerad med SSL-bibliotek %#lx ”%s”\nKörtidsanvänt SSL-bibliotek %#lx ”%s”\n",
+      "after": "Kompilerad med SSL-biblioteket %#lx ”%s”\nSSL-bibliotek vid körning: %#lx ”%s”\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:598",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "ERROR: Compiled against LibreSSL, which is a copyright violation for lack of GPL clause 2b exception. See COPYING. Aborting.\n",
+      "before": "FEL: Kompilerad mot LibreSSL, vilket är ett upphovsrättsintrång i brist på något GPL paragraf 2b-undantag. Se COPYING. Avbryter.\n",
+      "after": "FEL: Programmet har kompilerats mot LibreSSL, vilket innebär upphovsrättsintrång eftersom undantaget i GPL paragraf 2b saknas. Se COPYING. Avbryter.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:604",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "The nodetach option is in effect, ignoring logfile option.\n",
+      "before": "Flaggan nodetach är aktiv, ignorerar loggfilsflaggan.\n",
+      "after": "Flaggan nodetach är aktiv; loggfilsalternativet ignoreras.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:607",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Not running in daemon mode, ignoring logfile option.\n",
+      "before": "Kör inte i demonläge, ignorerar loggfilsflaggan.\n",
+      "after": "Kör inte i demonläge; loggfilsalternativet ignoreras.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:610",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Logfile \"%s\" does not exist, ignoring logfile option.\n",
+      "before": "Loggfilen ”%s” finns inte, ignorerar loggfilsflaggan.\n",
+      "after": "Loggfilen ”%s” finns inte; loggfilsalternativet ignoreras.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:614",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Logfile \"%s\" is not writable, aborting.\n",
+      "before": "Loggfilen ”%s” är inte skrivbar, avbryter.\n",
+      "after": "Loggfilen ”%s” är inte skrivbar; avbryter.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:618",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "syslog and logfile options are both set, ignoring syslog, and logging to %s",
+      "before": "Alternativen syslog och logfile är båda inställda, ignorerar syslog och loggar till %s",
+      "after": "Både syslog- och logfile-alternativen är satta; syslog ignoreras och loggning sker till %s",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:622",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: configuration invalid, --moveto is only valid for IMAP servers\n",
+      "before": "fetchmail: %s-konfigurationen är ogiltig, --moveto är endast giltigt för IMAP-servrar\n",
+      "after": "fetchmail: konfigurationen är ogiltig; --moveto gäller bara IMAP-servrar\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:625",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Taking options from command line%s%s\n",
+      "before": "Hämtar flaggor från kommandoraden%s%s\n",
+      "after": "Hämtar alternativ från kommandoraden%s%s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:632",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "No mailservers set up -- perhaps %s is missing?\n",
+      "before": "Inga postservrar uppsatta — kanske %s saknas?\n",
+      "after": "Inga postservrar är konfigurerade – kanske saknas %s?\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:639",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: no other fetchmail is running\n",
+      "before": "fetchmail: ingen annan fetchmail kör\n",
+      "after": "fetchmail: ingen annan fetchmail körs\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:642",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: error killing %s fetchmail at %ld; bailing out.\n",
+      "before": "fetchmail: fel när %s-fetchmail %ld dödades; ger upp.\n",
+      "after": "fetchmail: fel när %s-fetchmail med PID %ld avslutades; ger upp.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:652",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: %s fetchmail at %ld killed.\n",
+      "before": "fetchmail: %s-fetchmail %ld dödad.\n",
+      "after": "fetchmail: %s-fetchmail med PID %ld avslutades.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:656",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: can't check mail while another fetchmail to same host is running.\n",
+      "before": "fetchmail: kan inte kontrollera post medan en annan fetchmail på samma värd kör.\n",
+      "after": "fetchmail: kan inte kontrollera post medan en annan fetchmail på samma värd körs.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:659",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: can't poll specified hosts with another fetchmail running at %ld.\n",
+      "before": "fetchmail: kan inte kontrollera angivna värdar med en annan fetchmail som kör som %ld.\n",
+      "after": "fetchmail: kan inte kontrollera angivna värdar medan en annan fetchmail körs med PID %ld.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:663",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: another foreground fetchmail is running at %ld.\n",
+      "before": "fetchmail: en annan förgrunds-fetchmail kör som %ld.\n",
+      "after": "fetchmail: en annan fetchmail i förgrunden körs med PID %ld.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:667",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: can't accept options while a background fetchmail is running.\n",
+      "before": "fetchmail: kan inte ta flaggor medan en bakgrunds-fetchmail kör.\n",
+      "after": "fetchmail: kan inte ta emot alternativ medan en fetchmail i bakgrunden körs.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:670",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: background fetchmail at %ld awakened.\n",
+      "before": "fetchmail: bakgrunds-fetchmail %ld uppväckt.\n",
+      "after": "fetchmail: fetchmail i bakgrunden med PID %ld väcktes.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:674",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: elder sibling at %ld died mysteriously.\n",
+      "before": "fetchmail: äldre syskon %ld dog mystiskt.\n",
+      "after": "fetchmail: den äldre syskonprocessen med PID %ld dog mystiskt.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:686",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: Cannot detach into background. Aborting.\n",
+      "before": "fetchmail: Kan inte koppla ifrån till bakgrunden.  Avbryter.\n",
+      "after": "fetchmail: Kan inte koppla från terminalen och gå till bakgrunden. Avbryter.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:693",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "could not open %s to append logs to\n",
+      "before": "kunde inte öppna %s för att lägga till loggar till\n",
+      "after": "kunde inte öppna %s för att lägga till i loggen\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:708",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "attempt to re-exec may fail as directory has not been restored\n",
+      "before": "försök att starta om kan misslyckas eftersom aktuell katalog inte har återställts\n",
+      "after": "försök att köra om misslyckas kanske eftersom katalogen inte har återställts\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:711",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "attempt to re-exec fetchmail failed\n",
+      "before": "försök att göra om exec fetchmail misslyckades\n",
+      "after": "försök att köra om fetchmail misslyckades\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:714",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "poll of %s skipped (failed authentication or too many timeouts)\n",
+      "before": "kontroll av %s hoppas över (autentiseringen misslyckades eller så gick tiden ut för många gånger)\n",
+      "after": "kontroll av %s hoppas över (autentisering misslyckades eller för många tidsgränser)\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:718",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "interval not reached, not querying %s\n",
+      "before": "intervallet inte uppnått, frågar inte %s\n",
+      "after": "intervallet har inte nåtts; frågar inte %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:741",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "normal termination, status %d\n",
+      "before": "normal avslutning, status %d\n",
+      "after": "normalt avslut, status %d\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:745",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "couldn't time-check the run-control file\n",
+      "before": "kunde göra tidskontroll av körstyrningsfilen\n",
+      "after": "kunde inte tidskontrollera körstyrningsfilen\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:755",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "SSL support is not compiled in.\n",
+      "before": "SSL-stöd är inte inkompilerat.\n",
+      "after": "SSL-stöd har inte kompilerats in.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:758",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "KERBEROS v4 support is configured, but not compiled in.\n",
+      "before": "KERBEROS v4-stöd är konfigurerat, men inte inkompilerat.\n",
+      "after": "KERBEROS v4-stöd är konfigurerat, men har inte kompilerats in.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:761",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "KERBEROS v5 support is configured, but not compiled in.\n",
+      "before": "KERBEROS v5-stöd är konfigurerat, men inte inkompilerat.\n",
+      "after": "KERBEROS v5-stöd är konfigurerat, men har inte kompilerats in.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:764",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "GSSAPI support is configured, but not compiled in.\n",
+      "before": "GSSAPI-stöd är konfigurerat, men inte inkompilerat.\n",
+      "after": "GSSAPI-stöd är konfigurerat, men har inte kompilerats in.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:767",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: warning: no DNS available to check multidrop fetches from %s\n",
+      "before": "fetchmail: varning: ingen DNS tillgänglig för att kontrollera flermålshämtningar från %s\n",
+      "after": "fetchmail: varning: DNS saknas för att kontrollera flermåls-hämtningar från %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:771",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "warning: multidrop for %s requires envelope option!\n",
+      "before": "varning: flera mål för %s kräver kuvertalternativ!\n",
+      "after": "varning: flermåls-hämtning för %s kräver kuvertalternativet!\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:775",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "warning: Do not ask for support if all mail goes to postmaster!\n",
+      "before": "varning: Fråga inte om hjälp om all post går till postmaster!\n",
+      "after": "varning: Begär inte support om all post går till postmaster!\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:809",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: Error: idle mode does not work for multiple folders or accounts!\n",
+      "before": "fetchmail: Fel: idle-läget fungerar inte för flera mappar eller konton!\n",
+      "after": "fetchmail: Fel: viloläget fungerar inte för flera mappar eller konton!\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:819",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s querying %s (protocol %s) at %s: poll started\n",
+      "before": "%s frågar %s (protokoll %s) %s: kontroll startad\n",
+      "after": "%s frågar %s (protokoll %s) på %s: kontroll startad\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:838",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "unsupported protocol selected.\n",
+      "before": "ej stött protokoll valt.\n",
+      "after": "ett protokoll som inte stöds valdes.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:841",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s querying %s (protocol %s) at %s: poll completed\n",
+      "before": "%s frågar %s (protokoll %s) %s: kontroll avslutad\n",
+      "after": "%s frågar %s (protokoll %s) på %s: kontroll avslutad\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:845",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Poll interval is %d seconds\n",
+      "before": "Kontrollintervall är %d sekunder\n",
+      "after": "Kontrollintervallet är %d sekunder\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:849",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Logfile is %s\n",
+      "before": "Loggfil är %s\n",
+      "after": "Loggfilen är %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:853",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Idfile is %s\n",
+      "before": "Id-fil är %s\n",
+      "after": "ID-filen är %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:857",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Progress messages will be logged via syslog\n",
+      "before": "Förloppsmeddelanden kommer loggas via syslog\n",
+      "after": "Förloppsmeddelanden loggas via syslog\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:860",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Fetchmail will masquerade and will not generate Received\n",
+      "before": "Fetchmail kommer maskeras och kommer inte generera Received\n",
+      "after": "Fetchmail maskerar sig och genererar inte Received\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:863",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Fetchmail will show progress dots even in logfiles.\n",
+      "before": "Fetchmail kommer visa förloppspunkter även i loggfiler.\n",
+      "after": "Fetchmail visar förloppspunkter även i loggfiler.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:866",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Fetchmail will forward misaddressed multidrop messages to %s.\n",
+      "before": "Fetchmail kommer vidarebefordra feladresserade multiadresserade meddelanden till %s.\n",
+      "after": "Fetchmail vidarebefordrar feladresserade meddelanden från flera mottagare till %s.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:870",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Fetchmail will direct error mail to the postmaster.\n",
+      "before": "Fetchmail kommer skicka felmeddelanden till postmaster.\n",
+      "after": "Fetchmail skickar felmeddelanden till postmaster.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:873",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Fetchmail will direct error mail to the sender.\n",
+      "before": "Fetchmail kommer skicka felmeddelanden till avsändaren.\n",
+      "after": "Fetchmail skickar felmeddelanden till avsändaren.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:876",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Fetchmail will treat permanent errors as permanent (drop messages).\n",
+      "before": "Fetchmail kommer hantera permanenta fel som permanenta (kasta meddelanden).\n",
+      "after": "Fetchmail behandlar permanenta fel som permanenta (meddelanden tas bort).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:879",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Fetchmail will treat permanent errors as temporary (keep messages).\n",
+      "before": "Fetchmail kommer hantera permanenta fel som tillfälliga (behålla meddelanden).\n",
+      "after": "Fetchmail behandlar permanenta fel som tillfälliga (meddelanden behålls).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:886",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Mail will be retrieved via %s\n",
+      "before": "  Post kommer hämtas via %s\n",
+      "after": "  Post hämtas via %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:896",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  True name of server is %s.\n",
+      "before": "  Verkligt namn på servern är %s.\n",
+      "after": "  Serverns verkliga namn är %s.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:900",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  This host will not be queried when no host is specified.\n",
+      "before": "  Denna värd kommer inte att frågas när ingen värd anges.\n",
+      "after": "  Den här värden frågas inte när ingen värd anges.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:903",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  This host will be queried when no host is specified.\n",
+      "before": "  Denna värd kommer att frågas när ingen värd anges.\n",
+      "after": "  Den här värden frågas när ingen värd anges.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:906",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Password will be prompted for.\n",
+      "before": "  Lösenord kommer att efterfrågas.\n",
+      "after": "  Lösenord efterfrågas.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:921",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Protocol is KPOP with Kerberos %s authentication",
+      "before": "  Protokoll är KPOP med Kerberos %s-autentisering",
+      "after": "  Protokollet är KPOP med Kerberos %s-autentisering",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:925",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Protocol is %s",
+      "before": "  Protokoll är %s",
+      "after": "  Protokollet är %s",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:942",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Password authentication will be forced.\n",
+      "before": "  Lösenordsautentisering kommer framtvingas.\n",
+      "after": "  Lösenordsautentisering framtvingas.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:945",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  MSN authentication will be forced.\n",
+      "before": "  MSN-autentisering kommer framtvingas.\n",
+      "after": "  MSN-autentisering framtvingas.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:948",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  NTLM authentication will be forced.\n",
+      "before": "  NTLM-autentisering kommer framtvingas.\n",
+      "after": "  NTLM-autentisering framtvingas.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:951",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  OTP authentication will be forced.\n",
+      "before": "  OTP-autentisering kommer framtvingas.\n",
+      "after": "  OTP-autentisering framtvingas.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:954",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  CRAM-MD5 authentication will be forced.\n",
+      "before": "  CRAM-MD5-autentisering kommer framtvingas.\n",
+      "after": "  CRAM-MD5-autentisering framtvingas.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:957",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  GSSAPI authentication will be forced.\n",
+      "before": "  GSSAPI-autentisering kommer framtvingas.\n",
+      "after": "  GSSAPI-autentisering framtvingas.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:960",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Kerberos V4 authentication will be forced.\n",
+      "before": "  Kerberos V4-autentisering kommer framtvingas.\n",
+      "after": "  Kerberos V4-autentisering framtvingas.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:963",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Kerberos V5 authentication will be forced.\n",
+      "before": "  Kerberos V5-autentisering kommer framtvingas.\n",
+      "after": "  Kerberos V5-autentisering framtvingas.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:966",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  End-to-end encryption assumed.\n",
+      "before": "  Ände-till-ände-kryptering antas.\n",
+      "after": "  Ändpunktskryptering antas.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:969",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Mail service principal is: %s\n",
+      "before": "  Posttjänsthuvudman är %s\n",
+      "after": "  Huvudnamn för posttjänsten: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:973",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  SSL encrypted sessions enabled.\n",
+      "before": "  SSL-krypterade sessioner aktiverade.\n",
+      "after": "  SSL-krypterade sessioner är aktiverade.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:980",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  SSL server certificate checking enabled.\n",
+      "before": "  Kontroll av SSL-servercertifikat aktiverat.\n",
+      "after": "  Kontroll av SSL-servercertifikat är aktiverad.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:983",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  SSL server certificate checking disabled.\n",
+      "before": "  Kontroll av SSL-servercertifikat avaktiverat.\n",
+      "after": "  Kontroll av SSL-servercertifikat är avaktiverad.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1021",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Default mailbox selected.\n",
+      "before": "  Standardbrevlåda vald.\n",
+      "after": "  Standardbrevlådan är vald.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1024",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Selected mailboxes are:",
+      "before": "  Valda brevlådor är:",
+      "after": "  Valda brevlådor:",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1039",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Message will be moved to %s folder and won't be deleted.\n",
+      "before": "  Meddelandet kommer flyttas till mappen %s och kommer inte raderas.\n",
+      "after": "  Meddelandet flyttas till mappen %s och tas inte bort.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1043",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Message will be deleted (no --moveto).\n",
+      "before": "  Meddelandet kommer raderas (inget --moveto).\n",
+      "after": "  Meddelandet tas bort (inget --moveto).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1046",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Old messages will be flushed before message retrieval (--flush on).\n",
+      "before": "  Gamla meddelanden kommer kastas före meddelanden hämtas (--flush på).\n",
+      "after": "  Gamla meddelanden tas bort innan meddelanden hämtas (--flush på).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1049",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Old messages will not be flushed before message retrieval (--flush off).\n",
+      "before": "  Gamla meddelanden kommer inte slängas före meddelanden hämtas (--flush av).\n",
+      "after": "  Gamla meddelanden tas inte bort innan meddelanden hämtas (--flush av).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1052",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Oversized messages will be flushed before message retrieval (--limitflush on).\n",
+      "before": "  För stora meddelanden kommer slängas före meddelanden hämtas (--limitflush på).\n",
+      "after": "  För stora meddelanden tas bort innan meddelanden hämtas (--limitflush på).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1055",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Oversized messages will not be flushed before message retrieval (--limitflush off).\n",
+      "before": "  För stora meddelanden kommer inte slängas före meddelanden hämtas (--limitflush av).\n",
+      "after": "  För stora meddelanden tas inte bort innan meddelanden hämtas (--limitflush av).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1058",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Rewrite of server-local addresses is enabled (--norewrite off).\n",
+      "before": "  Omskrivning av serverlokala adresser är aktiverat (--norewrite av).\n",
+      "after": "  Omskrivning av serverlokala adresser är aktiverad (--norewrite av).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1061",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Rewrite of server-local addresses is disabled (--norewrite on).\n",
+      "before": "  Omskrivning av serverlokala adresser är avaktiverat (--norewrite på).\n",
+      "after": "  Omskrivning av serverlokala adresser är avaktiverad (--norewrite på).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1064",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Carriage-return stripping is enabled (stripcr on).\n",
+      "before": "  Rensning av vagnretur är aktiverat (stripcr på).\n",
+      "after": "  Rensning av vagnreturer är aktiverad (stripcr på).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1067",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Carriage-return stripping is disabled (stripcr off).\n",
+      "before": "  Rensning av vagnretur är avaktiverat (stripcr av).\n",
+      "after": "  Rensning av vagnreturer är avaktiverad (stripcr av).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1070",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Carriage-return forcing is enabled (forcecr on).\n",
+      "before": "  Framtvingade vagnreturer är aktiverat (forcecr på).\n",
+      "after": "  Framtvingning av vagnreturer är aktiverad (forcecr på).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1073",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Carriage-return forcing is disabled (forcecr off).\n",
+      "before": "  Framtvingade vagnreturer är avaktiverat (forcecr av).\n",
+      "after": "  Framtvingning av vagnreturer är avaktiverad (forcecr av).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1076",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Interpretation of Content-Transfer-Encoding is disabled (pass8bits on).\n",
+      "before": "  Tolkning av Content-Transfer-Encoding är avaktiverat (pass8bits på).\n",
+      "after": "  Tolkning av Content-Transfer-Encoding är avaktiverad (pass8bits på).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1079",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Interpretation of Content-Transfer-Encoding is enabled (pass8bits off).\n",
+      "before": "  Tolkning av Content-Transfer-Encoding är aktiverat (pass8bits av).\n",
+      "after": "  Tolkning av Content-Transfer-Encoding är aktiverad (pass8bits av).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1082",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  MIME decoding is enabled (mimedecode on).\n",
+      "before": "  MIME-avkodning är aktiverat (mimedecode på).\n",
+      "after": "  MIME-avkodning är aktiverad (mimedecode på).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1085",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  MIME decoding is disabled (mimedecode off).\n",
+      "before": "  MIME-avkodning är avaktiverat (mimedecode av).\n",
+      "after": "  MIME-avkodning är avaktiverad (mimedecode av).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1088",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Idle after poll is enabled (idle on).\n",
+      "before": "  Vila efter kontroll är aktiverat (idle på).\n",
+      "after": "  Vila efter kontroll är aktiverad (idle på).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1091",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Idle after poll is disabled (idle off).\n",
+      "before": "  Vila efter kontroll är avaktiverat (idle av).\n",
+      "after": "  Vila efter kontroll är avaktiverad (idle av).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1094",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Idle after poll is forced (forceidle on).\n",
+      "before": "  Vila efter kontroll är framtvingat (forceidle på).\n",
+      "after": "  Vila efter kontroll framtvingas (forceidle på).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1097",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Idle after poll is not forced (forceidle off).\n",
+      "before": "  Vila efter kontroll är inte framtvingat (forceidle av).\n",
+      "after": "  Vila efter kontroll framtvingas inte (forceidle av).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1100",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Nonempty Status lines will be discarded (dropstatus on)\n",
+      "before": "  Icke tomma Status-rader kommer att slängas (dropstatus på)\n",
+      "after": "  Icke-tomma Status-rader tas bort (dropstatus på)\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1103",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Nonempty Status lines will be kept (dropstatus off)\n",
+      "before": "  Icke tomma Status-rader kommer att behållas (dropstatus av)\n",
+      "after": "  Icke-tomma Status-rader behålls (dropstatus av)\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1106",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Delivered-To lines will be discarded (dropdelivered on)\n",
+      "before": "  Delivered-To-rader kommer att slängas (dropdelivered på)\n",
+      "after": "  Delivered-To-rader tas bort (dropdelivered på)\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1109",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Delivered-To lines will be kept (dropdelivered off)\n",
+      "before": "  Delivered-To-rader kommer att behållas (dropdelivered av)\n",
+      "after": "  Delivered-To-rader behålls (dropdelivered av)\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1112",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Message size limit is %d octets (--limit %d).\n",
+      "before": "  Storleksgräns på meddelanden är %d oktetter (--limit %d).\n",
+      "after": "  Meddelandestorleksgränsen är %d oktetter (--limit %d).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1116",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  No message size limit (--limit 0).\n",
+      "before": "  Ingen storleksgräns på meddelanden (--limit 0).\n",
+      "after": "  Ingen storleksgräns för meddelanden (--limit 0).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1119",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Message size warning interval is %d seconds (--warnings %d).\n",
+      "before": "  Intervall för varning för meddelandestorlek är %d sekunder (--warnings %d).\n",
+      "after": "  Varningsintervallet för meddelandestorlek är %d sekunder (--warnings %d).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1126",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Received-message limit is %d (--fetchlimit %d).\n",
+      "before": "  Gräns för mottagna meddelanden är %d (--fetchlimit %d).\n",
+      "after": "  Gränsen för mottagna meddelanden är %d (--fetchlimit %d).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1130",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  No received-message limit (--fetchlimit 0).\n",
+      "before": "  Ingen gräns på mottagna meddelanden (--fetchlimit 0).\n",
+      "after": "  Ingen gräns för mottagna meddelanden (--fetchlimit 0).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1133",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Fetch message size limit is %d (--fetchsizelimit %d).\n",
+      "before": "  Gräns på hämtad meddelandestorlek är %d (--fetchsizelimit %d).\n",
+      "after": "  Gränsen för hämtad meddelandestorlek är %d (--fetchsizelimit %d).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1137",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  No fetch message size limit (--fetchsizelimit 0).\n",
+      "before": "  Ingen gräns på hämtad meddelandestorlek (--fetchsizelimit 0).\n",
+      "after": "  Ingen gräns för hämtad meddelandestorlek (--fetchsizelimit 0).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1147",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "   Do linear search of UIDs during each poll (--fastuidl 0).\n",
+      "before": "  Gör en linjär sökning av UID:er under varje kontroll (--fastuidl 0).\n",
+      "after": "   Gör en linjär sökning av UID:er under varje kontroll (--fastuidl 0).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1150",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  SMTP message batch limit is %d.\n",
+      "before": "  Satsgräns på SMTP-meddelanden är %d.\n",
+      "after": "  Gränsen för SMTP-meddelandebatch är %d.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1154",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  No SMTP message batch limit (--batchlimit 0).\n",
+      "before": "  Ingen satsgräns på SMTP-meddelanden (--batchlimit 0).\n",
+      "after": "  Ingen gräns för SMTP-meddelandebatch (--batchlimit 0).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1157",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Deletion interval between expunges forced to %d (--expunge %d).\n",
+      "before": "  Raderingsintervall mellan kastande tvingat till %d (--expunge %d).\n",
+      "after": "  Raderingsintervallet mellan tömningar tvingas till %d (--expunge %d).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1161",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  No forced expunges (--expunge 0).\n",
+      "before": "  Inget framtvingat kastande (--expunge 0).\n",
+      "after": "  Inga framtvingade tömningar (--expunge 0).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1164",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Domains for which mail will be fetched are:",
+      "before": "  Domäner för vilka post kommer hämtas är:",
+      "after": "  Domäner som post ska hämtas för:",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1167",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Messages will be appended to %s as BSMTP\n",
+      "before": "  Meddelanden kommer läggas till till %s som BSMTP\n",
+      "after": "  Meddelanden läggs till i %s som BSMTP\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1171",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Messages will be delivered with \"%s\".\n",
+      "before": "  Meddelanden kommer levereras med ”%s”.\n",
+      "after": "  Meddelanden levereras med ”%s”.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1175",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Messages will be %cMTP-forwarded to:",
+      "before": "  Meddelanden kommer %cMTP-vidarebefordras till:",
+      "after": "  Meddelanden vidarebefordras med %cMTP till:",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1179",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Host part of MAIL FROM line will be %s\n",
+      "before": "  Värddelen av MAIL FROM-raden kommer bli %s\n",
+      "after": "  Värddelen i MAIL FROM-raden blir %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1183",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Address to be put in RCPT TO lines shipped to SMTP will be %s\n",
+      "before": "  Adress som kommer att anges i RCPT TO-rader lämnade till SMTP kommer vara %s\n",
+      "after": "  Adressen som anges i RCPT TO-rader som skickas till SMTP blir %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1187",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Recognized listener spam block responses are:",
+      "before": "  Igenkända lyssnares spam-blockeringssvar är:",
+      "after": "  Igenkända svar på spärrning av skräppost från lyssnaren:",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1190",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Spam-blocking disabled\n",
+      "before": "  Spam-blockering avaktiverat\n",
+      "after": "  Skräppostspärrning är avaktiverad\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1193",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Server connection will be brought up with \"%s\".\n",
+      "before": "  Serveranslutning kommer att öppnas med ”%s”.\n",
+      "after": "  Serveranslutningen öppnas med ”%s”.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1200",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Server connection will be taken down with \"%s\".\n",
+      "before": "  Serveranslutning kommer att tas ner med ”%s”.\n",
+      "after": "  Serveranslutningen avslutas med ”%s”.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1207",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  No localnames declared for this host.\n",
+      "before": "  Inga lokala namn angivna för denna värd.\n",
+      "after": "  Inga lokala namn har angetts för den här värden.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1210",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Multi-drop mode: ",
+      "before": "  Flermålsläge: ",
+      "after": "  Flermåls-läge: ",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1213",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Single-drop mode: ",
+      "before": "  Enmålsläge: ",
+      "after": "  Enmåls-läge: ",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1222",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  DNS lookup for multidrop addresses is enabled.\n",
+      "before": "  DNS-uppslagning för flermålsadresser är aktiverat.\n",
+      "after": "  DNS-uppslagning för flermålsadresser är aktiverad.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1225",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  DNS lookup for multidrop addresses is disabled.\n",
+      "before": "  DNS-uppslagning för flermålsadresser är avaktiverat.\n",
+      "after": "  DNS-uppslagning för flermålsadresser är avaktiverad.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1228",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Server aliases will be compared with multidrop addresses by IP address.\n",
+      "before": "  Serveralias kommer att jämföras med flermålsadresser via IP-adress.\n",
+      "after": "  Serveralias jämförs med flermålsadresser via IP-adress.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1231",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Server aliases will be compared with multidrop addresses by name.\n",
+      "before": "  Serveralias kommer att jämföras med flermålsadresser via namn.\n",
+      "after": "  Serveralias jämförs med flermålsadresser efter namn.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1234",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Envelope-address routing is disabled\n",
+      "before": "  Ruttläggning av kuvertadresser är avaktiverat\n",
+      "after": "  Routning av kuvertadresser är avaktiverad\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1237",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Envelope header is assumed to be: %s\n",
+      "before": "  Kuverthuvud förmodas vara: %s\n",
+      "after": "  Kuverthuvudet antas vara: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1241",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Number of envelope headers to be skipped over: %d\n",
+      "before": "  Antal kuverthuvuden att hoppa över: %d\n",
+      "after": "  Antal kuverthuvuden som hoppas över: %d\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1245",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Prefix %s will be removed from user id\n",
+      "before": "  Prefixet %s kommer tas bort från användar-id\n",
+      "after": "  Prefixet %s tas bort från användar-ID\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1252",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Predeclared mailserver aliases:",
+      "before": "  Fördeklarerade postserveralias:",
+      "after": "  Fördefinierade postserveralias:",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1262",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  No interface requirement specified.\n",
+      "before": "  Inget gränssnittskrav angett.\n",
+      "after": "  Inget gränssnittskrav har angetts.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1265",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Polling loop will monitor %s.\n",
+      "before": "  Kontrollslingan kommer övervaka %s.\n",
+      "after": "  Kontrollslingan övervakar %s.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1269",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  No monitor interface specified.\n",
+      "before": "  Ingen kontrollslinga angiven.\n",
+      "after": "  Inget övervakningsgränssnitt har angetts.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1272",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Server connections will be made via plugin %s (--plugin %s).\n",
+      "before": "  Serveranslutningar kommer att göras via instickskommandot %s (--plugin %s).\n",
+      "after": "  Serveranslutningar görs via insticksprogrammet %s (--plugin %s).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1276",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  No plugin command specified.\n",
+      "before": "  Inget instickskommando angivet.\n",
+      "after": "  Inget instickskommando har angetts.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1279",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Listener connections will be made via plugout %s (--plugout %s).\n",
+      "before": "  Lyssnaranslutningar kommer att göras via utstickskommando %s (--plugout %s).\n",
+      "after": "  Lyssnaranslutningar görs via utstickskommandot %s (--plugout %s).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1283",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  No plugout command specified.\n",
+      "before": "  Inget utstickskommando angivet.\n",
+      "after": "  Inget utstickskommando har angetts.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1286",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  No UIDs saved from this host.\n",
+      "before": "  Inga UID:er sparade från denna värd.\n",
+      "after": "  Inga UID:er har sparats från den här värden.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1289",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  %d UIDs saved.\n",
+      "before": "  %d UID:er sparade.\n",
+      "after": "  %d UID:er har sparats.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1293",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Poll trace information will be added to the Received header.\n",
+      "before": "  Kontrollspårningsinformation kommer läggas till till Received-huvudet.\n",
+      "after": "  Kontrollspårningsinformation läggs till i Received-huvudet.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1296",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  No poll trace information will be added to the Received header.\n",
+      "before": "  Ingen kontrollspårningsinformation kommer att läggas till till Received-huvudet.\n",
+      "after": "  Ingen kontrollspårningsinformation läggs till i Received-huvudet.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1302",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Messages with bad headers will be passed on.\n",
+      "before": "  Meddelanden med felaktiga huvuden kommer skickas vidare.\n",
+      "after": "  Meddelanden med felaktiga huvuden skickas vidare.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1305",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Pass-through properties \"%s\".\n",
+      "before": "  Egenskaper för vidarebefordran ”%s”.\n",
+      "after": "  Egenskaper för vidarebefordring: ”%s”.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1313",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Your operating system neither defines PATH_MAX nor will it accept realpath(f, NULL). Aborting.\n",
+      "before": "Ditt operativsystem definierar inte PATH_MAX och inte heller accepterar det realpath(f, NULL).  Avbryter.\n",
+      "after": "Ditt operativsystem definierar varken PATH_MAX eller accepterar realpath(f, NULL). Avbryter.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1323",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "GSSAPI error in gss_display_status called from <%s>\n",
+      "before": "GSSAPI-fel i gss_display_status anropat från <%s>\n",
+      "after": "GSSAPI-fel i gss_display_status, anropad från <%s>\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1331",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Couldn't get service name for [%s]\n",
+      "before": "Kunde inte få tjänstenamnet för [%s]\n",
+      "after": "Kunde inte hämta tjänstnamnet för [%s]\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1339",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "No suitable GSSAPI credentials found. Skipping GSSAPI authentication.\n",
+      "before": "Inga lämpliga GSSAPI-kreditiv hittade.  Hoppar över GSSAPI-autentisering.\n",
+      "after": "Inga lämpliga GSSAPI-behörighetsuppgifter hittades. Hoppar över GSSAPI-autentisering.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1342",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "If you want to use GSSAPI, you need credentials first, possibly from kinit.\n",
+      "before": "Om du vill använda GSSAPI behöver du kreditiv först, möjligen från kinit.\n",
+      "after": "Om du vill använda GSSAPI behöver du först behörighetsuppgifter, eventuellt från kinit.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1345",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Received malformed challenge to \"%s GSSAPI\"!\n",
+      "before": "Mottog felaktigt utmaning till ”%s GSSAPI”!\n",
+      "after": "Tog emot en felformaterad utmaning för ”%s GSSAPI”!\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1349",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Sending credentials\n",
+      "before": "Skickar kreditiv\n",
+      "after": "Skickar behörighetsuppgifter\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1352",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Error exchanging credentials\n",
+      "before": "Fel vid utbyte av kreditiv\n",
+      "after": "Fel vid utbyte av behörighetsuppgifter\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1355",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Couldn't unwrap security level data\n",
+      "before": "Kunde inte packa upp säkerhetsnivådata\n",
+      "after": "Kunde inte packa upp data om säkerhetsnivå\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1358",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Credential exchange complete\n",
+      "before": "Kreditivutbyte klart\n",
+      "after": "Utbytet av behörighetsuppgifter är klart\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1361",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Server requires integrity and/or privacy\n",
+      "before": "Servern kräver integritet\n",
+      "after": "Servern kräver integritet och/eller sekretess\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1364",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Unwrapped security level flags: %s%s%s\n",
+      "before": "Uppackade säkerhetsnivåflaggor: %s%s%s\n",
+      "after": "Uppackade flaggor för säkerhetsnivå: %s%s%s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1368",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Maximum GSS token size is %ld\n",
+      "before": "Maximal GSS-token-storlek är %ld\n",
+      "after": "Största GSS-tokenstorleken är %ld\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1375",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Error creating security level request\n",
+      "before": "Fel när säkerhetsnivåbegäran skapades\n",
+      "after": "Fel när begäran om säkerhetsnivå skapades\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1382",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Releasing GSS credentials\n",
+      "before": "Släpper GSS-kreditiv\n",
+      "after": "Frisläpper GSS-behörighetsuppgifter\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1385",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Error releasing credentials\n",
+      "before": "Fel när kreditiv släpptes\n",
+      "after": "Fel när behörighetsuppgifterna frisläpptes\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1388",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Protocol identified as IMAP4 rev 1\n",
+      "before": "Protokoll identifierat som IMAP4 rev 1\n",
+      "after": "Protokollet identifierades som IMAP4 rev 1\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1391",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Protocol identified as IMAP4 rev 0\n",
+      "before": "Protokoll identifierat som IMAP4 rev 0\n",
+      "after": "Protokollet identifierades som IMAP4 rev 0\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1394",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Protocol identified as IMAP2 or IMAP2BIS\n",
+      "before": "Protokoll identifierat som IMAP2 eller IMAP2BIS\n",
+      "after": "Protokollet identifierades som IMAP2 eller IMAP2BIS\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1397",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Received BYE response from IMAP server: %s\n",
+      "before": "Mottog BYE-svar från IMAP-servern: %s\n",
+      "after": "Tog emot BYE-svar från IMAP-servern: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1409",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "bogus EXPUNGE message number in untagged response \"%s\"!",
+      "before": "felaktigt EXPUNGE-meddelandeantal i otaggat svar ”%s”!",
+      "after": "felaktigt EXPUNGE-meddelandenummer i det otaggade svaret ”%s”!",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1413",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "found updated capabilities list\n",
+      "before": "hittade uppdaterad funktionslista\n",
+      "after": "hittade en uppdaterad funktionslista\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1416",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "server did not advertise SASL-IR extension but fetchmail's implementation requires it for AUTHENTICATE EXTERNAL\n",
+      "before": "servern annonserade inte SASL-IR-tillägget men fetchmails implementering kräver det för AUTHENTICATE EXTERNAL\n",
+      "after": "servern annonserade inte SASL-IR-tillägget, men fetchmails implementering kräver det för AUTHENTICATE EXTERNAL\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1422",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s: configuration requires TLS, but STARTTLS is not permitted because of authenticated state (PREAUTH). Aborting connection.  If your plugin is secure, you can defeat STARTTLS with --sslproto '' (see manual).\n",
+      "before": "%s: konfiguration kräver TLS, men STARTTLS är inte tillåtet på grund av autentiserat tillstånd (PREAUTH). Avbryter anslutningen. Om din insticksmodul är säker kan du motverka STARTTLS med --sslproto '' (se manualen).\n",
+      "after": "%s: konfigurationen kräver TLS, men STARTTLS är inte tillåtet på grund av autentiserat tillstånd (PREAUTH). Avbryter anslutningen. Om insticksprogrammet är säkert kan STARTTLS kringgås med --sslproto ”” (se manualen).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1426",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s: configuration requires TLS, but STARTTLS is not permitted because of authenticated state (PREAUTH). Aborting connection.  Server permitting, try --ssl instead (see manual).\n",
+      "before": "%s: konfiguration kräver TLS, men STARTTLS är inte tillåtet på grund av autentiserat tillstånd (PREAUTH). Avbryter anslutningen. Om servern tillåter det, prova --ssl istället (se manualen).\n",
+      "after": "%s: konfigurationen kräver TLS, men STARTTLS är inte tillåtet på grund av autentiserat tillstånd (PREAUTH). Avbryter anslutningen. Om servern tillåter det kan du försöka med --ssl i stället (se manualen).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1446",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s: --auth external requested but server does not advertise it.\n",
+      "before": "%s: --auth extern begäran men servern annonserar inte om det.\n",
+      "after": "%s: --auth external har begärts, men servern annonserar inte det.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1450",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Required OTP capability not compiled into fetchmail\n",
+      "before": "Nödvändig OTP-förmåga inte inkompilerad i fetchmail\n",
+      "after": "Nödvändig OTP-funktion har inte kompilerats in i fetchmail\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1453",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Required NTLM capability not compiled into fetchmail\n",
+      "before": "Nödvändig NTLM-förmåga inte inkompilerad i fetchmail\n",
+      "after": "Nödvändig NTLM-funktion har inte kompilerats in i fetchmail\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1456",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s: --auth password requested but server forbids it (LOGINDISABLED).\n",
+      "before": "%s: --auth lösenord begärt men servern förbjuder det (LOGINDISABLED).\n",
+      "after": "%s: --auth password har begärts, men servern förbjuder det (LOGINDISABLED).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1464",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "mail expunge mismatch (%d actual != %d expected)\n",
+      "before": "kastande av post stämmer inte (%d faktiskt ≠ %d förväntat)\n",
+      "after": "tömning av post stämmer inte (%d faktiskt ≠ %d förväntat)\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1468",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%lu is unseen\n",
+      "before": "%lu är osedda\n",
+      "after": "%lu är osedd\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1472",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%u is unseen\n",
+      "before": "%u är osedda\n",
+      "after": "%u är osedd\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1485",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "mailbox selection failed\n",
+      "before": "brevlådeval misslyckades\n",
+      "after": "val av brevlåda misslyckades\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1494",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "expunge failed\n",
+      "before": "kastande misslyckades\n",
+      "after": "tömning misslyckades\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1510",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Warning: ignoring bogus data for message sizes returned by the server.\n",
+      "before": "Varning: ignorerar felaktiga data för meddelandestorlek som returneras av servern.\n",
+      "after": "Varning: ignorerar felaktiga data om meddelandestorlekar från servern.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1517",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Unable to open kvm interface. Make sure fetchmail is SGID kmem.",
+      "before": "Kan inte öppna kvm-gränssnittet.  Se till att fetchmail är SGID kmem.",
+      "after": "Kan inte öppna kvm-gränssnittet. Kontrollera att fetchmail är SGID kmem.",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1524",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "get_ifinfo: sysctl (iflist estimate) failed",
+      "before": "get_ifinfo: sysctl (if-listuppskattning) misslyckades",
+      "after": "get_ifinfo: sysctl (uppskattning av iflist) misslyckades",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1530",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "get_ifinfo: sysctl (iflist) failed",
+      "before": "get_ifinfo: sysctl (if-lista) misslyckades",
+      "after": "get_ifinfo: sysctl (iflist) misslyckades",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1533",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Routing message version %d not understood.",
+      "before": "Ruttläggningsmeddelande version %d förstås inte.",
+      "after": "Routningsmeddelande version %d förstås inte.",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1537",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "No interface found with name %s",
+      "before": "Inget gränssnitt funnet med namnet %s",
+      "after": "Inget gränssnitt hittades med namnet %s",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1541",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "No IP address found for %s",
+      "before": "Ingen IP-adress funnen för %s",
+      "after": "Ingen IP-adress hittades för %s",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1545",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "missing IP interface address\n",
+      "before": "saknad adress för IP-gränssnitt\n",
+      "after": "IP-gränssnittsadress saknas\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1548",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "invalid IP interface address\n",
+      "before": "ogiltig adress för IP-gränssnitt\n",
+      "after": "ogiltig IP-gränssnittsadress\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1558",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "skipping poll of %s, %s down\n",
+      "before": "hoppar över kontroll av %s, %s nere\n",
+      "after": "hoppar över kontroll av %s; %s är nere\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1562",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "skipping poll of %s, %s IP address excluded\n",
+      "before": "hoppar över kontroll av %s, %s:s IP-adress utesluten\n",
+      "after": "hoppar över kontroll av %s; %s:s IP-adress är undantagen\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1570",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "skipping poll of %s, %s inactive\n",
+      "before": "hoppar över kontroll av %s, %s inaktivt\n",
+      "after": "hoppar över kontroll av %s; %s är inaktivt\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1581",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "principal %s in ticket does not match -u %s\n",
+      "before": "huvudnamn %s i biljetten stämmer inte med -u %s\n",
+      "after": "huvudnamnet %s i biljetten stämmer inte med -u %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1585",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "non-null instance (%s) might cause strange behavior\n",
+      "before": "ej tom instans (%s) kan orsaka konstigt beteende\n",
+      "after": "icke-tom instans (%s) kan orsaka oväntat beteende\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1615",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: lock creation failed, pidfile \"%s\": %s\n",
+      "before": "fetchmail: misslyckades att skapa lås, pid-fil ”%s”: %s\n",
+      "after": "fetchmail: det gick inte att skapa låset, PID-filen ”%s”: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1619",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: cannot remove or truncate pidfile \"%s\": %s\n",
+      "before": "fetchmail: kan inte ta bort eller hugga av pid-filen ”%s”: %s\n",
+      "after": "fetchmail: kan inte ta bort eller trunkera PID-filen ”%s”: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1635",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s: rejecting file because it is group or other accessible (mode %#o) and contains passwords.\n",
+      "before": "%s: avvisar filen för att den är åtkomlig för gruppen eller övriga (läge %#o) och innehåller lösenord.\n",
+      "after": "%s: avvisar filen eftersom den är åtkomlig för grupp eller andra (läge %#o) och innehåller lösenord.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1643",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s:%d: machine entry not permitted after default, rejecting file.\n",
+      "before": "%s:%d: maskinposter är inte tillåtna efter default, avvisar filen.\n",
+      "after": "%s:%d: maskinposter är inte tillåtna efter default; avvisar filen.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1667",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s's SMTP listener does not support ATRN\n",
+      "before": "%ss SMTP-lyssnare stödjer inte ATRN\n",
+      "after": "SMTP-lyssnaren på %s stöder inte ATRN\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1674",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "ATRN request refused.\n",
+      "before": "ATRN-begäran nekad.\n",
+      "after": "ATRN-begäran nekades.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1677",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Unable to process ATRN request now\n",
+      "before": "Kan inte bearbeta ATRN-begäran nu\n",
+      "after": "Kan inte behandla ATRN-begäran nu\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1708",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "server recv fatal\n",
+      "before": "server mottog ödesdigert\n",
+      "after": "allvarligt fel vid mottagning från servern\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1731",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Invalid bad-header policy `%s' specified.\n",
+      "before": "Ogiltig policy ”%s” för felaktiga huvuden angiven.\n",
+      "after": "Ogiltig policy ”%s” för felaktiga huvuden angavs.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1735",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Invalid protocol `%s' specified.\n",
+      "before": "Ogiltigt protokoll ”%s” angivet.\n",
+      "after": "Ogiltigt protokoll ”%s” angavs.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1739",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Invalid authentication `%s' specified.\n",
+      "before": "Ogiltig autentisering ”%s” angiven.\n",
+      "after": "Ogiltig autentisering ”%s” angavs.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1743",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "usage:  fetchmail [options] [server ...]\n",
+      "before": "användning:  fetchmail [flaggor] [server …]\n",
+      "after": "användning: fetchmail [flaggor] [server …]\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1746",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  Options are as follows:\n",
+      "before": "  Flaggorna är enligt följande:\n",
+      "after": "  Alternativen är följande:\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1749",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -?, --help        display this option help\n",
+      "before": "  -?, --help        visa denna flagghjälp\n",
+      "after": "  -?, --help        visa hjälp för dessa alternativ\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1755",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -c, --check       check for messages without fetching\n",
+      "before": "  -c, --check       kontrollera om det finns meddelanden utan att hämta\n",
+      "after": "  -c, --check       kontrollera om det finns meddelanden utan att hämta dem\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1761",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -v, --verbose     work noisily (diagnostic output)\n",
+      "before": "  -v, --verbose     arbeta högljutt (diagnostiska utskrifter)\n",
+      "after": "  -v, --verbose     arbeta utförligt (diagnostiska utskrifter)\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1767",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -N, --nodetach    don't detach daemon process\n",
+      "before": "  -N, --nodetach    koppla inte loss demonprocessen\n",
+      "after": "  -N, --nodetach    koppla inte från demonprocessen\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1773",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -L, --logfile     specify logfile name\n",
+      "before": "  -L, --logfile     ange loggfilsnamn\n",
+      "after": "  -L, --logfile     ange loggfilens namn\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1779",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --nosyslog    turns off use of syslog(3)\n",
+      "before": "      --nosyslog    slå av användningen av syslog(3)\n",
+      "after": "      --nosyslog    stäng av användningen av syslog(3)\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1782",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --invisible   don't write Received & enable host spoofing\n",
+      "before": "      --invisible   skriv inte Received och aktivera värdimitation\n",
+      "after": "      --invisible   skriv inte Received och aktivera värdförfalskning\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1794",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --postmaster  specify recipient of last resort\n",
+      "before": "      --postmaster  ange en mottagare som sista utväg\n",
+      "after": "      --postmaster  ange mottagare som sista utväg\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1800",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --nosoftbounce fetchmail deletes permanently undeliverable messages.\n",
+      "before": "      --nosoftbounce fetchmail raderar permanent olevererbara meddelanden.\n",
+      "after": "      --nosoftbounce fetchmail tar bort permanent olevererbara meddelanden.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1818",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --sslkey      ssl private key file\n",
+      "before": "      --sslkey      fil med privat ssl-nyckel\n",
+      "after": "      --sslkey      fil med privat SSL-nyckel\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1821",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --sslcert     ssl client certificate\n",
+      "before": "      --sslcert     ssl-klientcertifikat\n",
+      "after": "      --sslcert     SSL-klientcertifikat\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1830",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --sslcertfile path to trusted-CA ssl certificate file\n",
+      "before": "      --sslcertfile sökväg till fil med ssl-certifikat för betrodda CA\n",
+      "after": "      --sslcertfile sökväg till fil med SSL-certifikat från betrodd CA\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1833",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --sslcertpath path to trusted-CA ssl certificate directory\n",
+      "before": "      --sslcertpath sökväg till katalog med ssl-certifikat för betrodda CA\n",
+      "after": "      --sslcertpath sökväg till katalog med SSL-certifikat från betrodd CA\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1839",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --sslfingerprint fingerprint that must match that of the server's cert.\n",
+      "before": "      --sslfingerprint fingeravtryck som måste matcha det för serverns certifikat.\n",
+      "after": "      --sslfingerprint fingeravtryck som måste matcha serverns certifikat.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1842",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --sslproto    force ssl protocol (see manual) and/or STLS/STARTTLS\n",
+      "before": "      --sslproto    framtvinga ssl-protokoll (se manualen) och/eller STLS/STARTTLS\n",
+      "after": "      --sslproto    framtvinga SSL-protokoll (se manualen) och/eller STLS/STARTTLS\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1848",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --plugout     specify external command to open smtp connection\n",
+      "before": "      --plugout     ange externt kommando för att öppna en smtp-anslutning\n",
+      "after": "      --plugout     ange externt kommando för att öppna SMTP-anslutning\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1851",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --bad-header {reject|accept}\n                    specify policy for handling messages with bad headers\n",
+      "before": "      --bad-header {reject|accept}\n                    ange policy för att hantera meddelanden med felaktiga huvuden\n",
+      "after": "      --bad-header {reject|accept}\n                    ange policy för hantering av meddelanden med felaktiga huvuden\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1858",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -p, --proto[col]  specify retrieval protocol (see man page)\n",
+      "before": "  -p, --proto[col]  ange protokoll för att hämta (se manualsidan)\n",
+      "after": "  -p, --proto[col]  ange protokoll för hämtning (se manualsidan)\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1864",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --idle        tells the IMAP server to send notice of new messages\n",
+      "before": "      --idle        säger till IMAP-servern att skicka aviseringar om nya meddelanden\n",
+      "after": "      --idle        begär att IMAP-servern skickar aviseringar om nya meddelanden\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1867",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --forceidle   Force idle mode, even if server does not advertise the capability\n",
+      "before": "      --forceidle   Framtvinga vilande läge, även om servern inte annonserar förmågan\n",
+      "after": "      --forceidle   framtvinga viloläge även om servern inte annonserar funktionen\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1889",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -Q, --qvirtual    prefix to remove from local user id\n",
+      "before": "  -Q, --qvirtual    prefix att ta bort från lokala användar-id\n",
+      "after": "  -Q, --qvirtual    prefix att ta bort från lokalt användar-ID\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1895",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --tracepolls  add poll-tracing information to Received header\n",
+      "before": "      --tracepolls  lägg till kontrollspårningsinformation till Received-huvuden\n",
+      "after": "      --tracepolls  lägg till kontrollspårningsinformation i Received-huvudet\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1904",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -K, --nokeep      delete new messages after retrieval\n",
+      "before": "  -K, --nokeep      radera nya meddelanden efter de hämtats\n",
+      "after": "  -K, --nokeep      ta bort nya meddelanden efter hämtning\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1907",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -k, --keep        save new messages after retrieval\n",
+      "before": "  -k, --keep        spara nya meddelanden efter de hämtats\n",
+      "after": "  -k, --keep        spara nya meddelanden efter hämtning\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1910",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --moveto      move message to the given IMAP folder instead of deleting it\n",
+      "before": "      --moveto      flytta meddelandet till den givna IMAP-mappen istälet för att radera det\n",
+      "after": "      --moveto      flytta meddelandet till den angivna IMAP-mappen i stället för att ta bort det\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1925",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -w, --warnings    interval between warning mail notification\n",
+      "before": "  -w, --warnings    intervall mellan varningsbrevsaviseringar\n",
+      "after": "  -w, --warnings    intervall mellan aviseringar om varningsmeddelanden\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1928",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -S, --smtphost    set SMTP forwarding host\n",
+      "before": "  -S, --smtphost    sätt värd för SMTP-vidarebefordran\n",
+      "after": "  -S, --smtphost    ange värd för SMTP-vidarebefordran\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1937",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -D, --smtpaddress set SMTP delivery domain to use\n",
+      "before": "  -D, --smtpaddress sätt SMTP-leveransdomän att använda\n",
+      "after": "  -D, --smtpaddress ange SMTP-leveransdomän som ska användas\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1940",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --smtpname    set SMTP full name username@domain\n",
+      "before": "      --smtpname    sätt fullständigt SMTP-namn användarnamn@domän\n",
+      "after": "      --smtpname    ange fullständigt SMTP-namn användarnamn@domän\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1943",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --esmtpname   override identity used for SMTP AUTH (default: user's name)",
+      "before": "      --esmtpname   ersätt identiteten som används till SMTP AUTH (standard: användarens namn)",
+      "after": "      --esmtpname   åsidosätt identiteten för SMTP AUTH (standard: användarens namn)",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1949",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "\t\t\t   set secret (password) for SMTP AUTH",
+      "before": "\t\t\t   sätt hemlighet (lösenord) till SMTP AUTH",
+      "after": "\t\t\t   ange hemlighet (lösenord) för SMTP AUTH",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1952",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -Z, --antispam    set antispam response values\n",
+      "before": "  -Z, --antispam    sätt anti-spam-svarsvärden\n",
+      "after": "  -Z, --antispam    ange svarsvärden för skräppostskydd\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1955",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -b, --batchlimit  set batch limit for SMTP connections\n",
+      "before": "  -b, --batchlimit  sätt satsgräns för SMTP-anslutningar\n",
+      "after": "  -b, --batchlimit  ange batchgräns för SMTP-anslutningar\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1958",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -B, --fetchlimit  set fetch limit for server connections\n",
+      "before": "  -B, --fetchlimit  sätt gräns på hämtande för serveranslutningar\n",
+      "after": "  -B, --fetchlimit  ange hämtningsgräns för serveranslutningar\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1961",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --fetchsizelimit set fetch message size limit\n",
+      "before": "      --fetchsizelimit sätt gräns på meddelandestorlek att hämta\n",
+      "after": "      --fetchsizelimit ange gräns för hämtade meddelandens storlek\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1967",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -e, --expunge     set max deletions between expunges\n",
+      "before": "  -e, --expunge     sätt max raderingar mellan tömningar\n",
+      "after": "  -e, --expunge     ange högsta antal raderingar mellan tömningar\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1970",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -m, --mda         set MDA to use for forwarding\n",
+      "before": "  -m, --mda         sätt MDA att använda för vidarebefordran\n",
+      "after": "  -m, --mda         ange MDA för vidarebefordran\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1973",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "      --bsmtp       set output BSMTP file\n",
+      "before": "      --bsmtp       sätt utmatnings-BSMTP-fil\n",
+      "after": "      --bsmtp       ange BSMTP-utdatafil\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1979",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "  -r, --folder      specify remote folder name\n",
+      "before": "  -r, --folder      ange fjärrmappsnamn\n",
+      "after": "  -r, --folder      ange namn på fjärrmapp\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:1991",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Warning: \"Maillennium POP3\" found, using RETR command instead of TOP.\n",
+      "before": "Varning: ”Maillennium POP3” funnen, använder RETR-kommando istället för TOP.\n",
+      "after": "Varning: ”Maillennium POP3” hittades; använder RETR-kommandot i stället för TOP.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2004",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "We've run out of allowed authenticators and cannot continue.\n",
+      "before": "Vi har fått slut på tillåtna autentiserare och kan inte fortsätta.\n",
+      "after": "Vi har inga tillåtna autentiseringsmetoder kvar och kan inte fortsätta.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2022",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Cannot handle UIDL response from upstream server.\n",
+      "before": "Kan inte hantera UIDL-svar från uppströmsserver.\n",
+      "after": "Kan inte hantera UIDL-svaret från uppströmsservern.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2032",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Messages inserted into list on server. Cannot handle this.\n",
+      "before": "Meddelanden infogade i listan på servern.  Kan inte hantera detta.\n",
+      "after": "Meddelanden har infogats i listan på servern. Kan inte hantera detta.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2035",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "LAST is an obsolete command that many servers will not support. We will try modern means to find what messages are new.\n",
+      "before": "LAST är ett föråldrat kommando som många servrar inte stödjer. Vi kommer prova moderna sätt att hitta vilka meddelanden som är nya.\n",
+      "after": "LAST är ett föråldrat kommando som många servrar inte stöder. Vi försöker med moderna sätt att hitta nya meddelanden.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2054",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "server option after user options",
+      "before": "serverflagga efter användarflaggor",
+      "after": "serveralternativ efter användaralternativ",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2063",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: monitor option is only supported under Linux (without IPv6) and FreeBSD\n",
+      "before": "fetchmail: flaggan monitor stödjs endast under Linux (utan IPv6) och FreeBSD\n",
+      "after": "fetchmail: övervakningsalternativet stöds endast under Linux (utan IPv6) och FreeBSD\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2069",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "File %s must be a regular file.\n",
+      "before": "Filen %s måste vara en normal fil.\n",
+      "after": "Filen %s måste vara en vanlig fil.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2081",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s: parsing rcfile %s: memory exhausted\n",
+      "before": "%s: tolkar rc-filen %s: minnet slut\n",
+      "after": "%s: tolkar rc-filen %s: slut på minne\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2092",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s (log message incomplete)\n",
+      "before": "%s (loggmeddelandet ofullständigt)\n",
+      "after": "%s (loggmeddelandet är ofullständigt)\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2096",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "About to rewrite %s...\n",
+      "before": "I begrepp att skriva om %s …\n",
+      "after": "Ska skriva om %s …\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2100",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "...rewritten version is %s.\n",
+      "before": "… omskriven version är %s.\n",
+      "after": "… den omskrivna versionen är %s.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2113",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Deity error",
+      "before": "Gudafel",
+      "after": "Allvarligt fel",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2116",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "RPA token 2: Base64 decode error\n",
+      "before": "RPA symbol 2: Base64-avkodningsfel\n",
+      "after": "RPA-token 2: Base64-avkodningsfel\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2131",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "RPA token 2 length error\n",
+      "before": "RPA symbol 2 längdfel\n",
+      "after": "RPA-token 2: längdfel\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2134",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Realm list: %s\n",
+      "before": "Lista över riken: %s\n",
+      "after": "Lista över realmer: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2138",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "RPA error in service@realm string\n",
+      "before": "RPA-fel i tjänst@rike-sträng\n",
+      "after": "RPA-fel i strängen tjänst@realm\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2141",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "RPA token 4: Base64 decode error\n",
+      "before": "RPA symbol 4: Base64-avkodningsfel\n",
+      "after": "RPA-token 4: Base64-avkodningsfel\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2152",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "RPA token 4 length error\n",
+      "before": "RPA symbol 4 längdfel\n",
+      "after": "RPA-token 4: längdfel\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2159",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "RPA rejects you, reason unknown\n",
+      "before": "RPA avvisar dig, okänd anledning\n",
+      "after": "RPA avvisar dig av okänd anledning\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2162",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "RPA User Authentication length error: %d\n",
+      "before": "RPA-användarautentisering gav längdfel: %d\n",
+      "after": "RPA-användarautentiseringens längdfel: %d\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2166",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "RPA Session key length error: %d\n",
+      "before": "RPA-sessionsnyckel gav längdfel: %d\n",
+      "after": "RPA-sessionsnyckelns längdfel: %d\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2170",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "RPA _service_ auth fail. Spoof server?\n",
+      "before": "RPA _tjänste_autentisering misslyckades.  Imiterad server?\n",
+      "after": "RPA-autentisering av _service_ misslyckades. Förfalskad server?\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2173",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Session key established:\n",
+      "before": "Sessionsnyckel etablerad:\n",
+      "after": "Sessionsnyckeln har etablerats:\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2176",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "RPA authorisation complete\n",
+      "before": "RPA-autentiseringen avslutad\n",
+      "after": "RPA-auktorisering klar\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2179",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Get response\n",
+      "before": "Få svar\n",
+      "after": "Hämta svar\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2182",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Get response return %d [%s]\n",
+      "before": "Få svar returnerade %d [%s]\n",
+      "after": "Hämta svar returnerade %d [%s]\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2186",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Hdr not 60\n",
+      "before": "Huvud inte 60\n",
+      "after": "Huvudet är inte 60\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2189",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Token length error\n",
+      "before": "Symbollängdsfel\n",
+      "after": "Tokenlängdsfel\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2192",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Token Length %d disagrees with rxlen %d\n",
+      "before": "Symbollängd %d stämmer inte med rxlen %d\n",
+      "after": "Tokenlängden %d stämmer inte med rxlen %d\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2196",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Mechanism field incorrect\n",
+      "before": "Mekanismfältet felaktigt\n",
+      "after": "Mekanismfältet är felaktigt\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2215",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "RPA Failed open of /dev/urandom. This shouldn't\n",
+      "before": "RPA misslyckades öppna /dev/urandom.  Detta borde inte\n",
+      "after": "RPA kunde inte öppna /dev/urandom. Detta borde inte\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2221",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "    cannot be sure you are talking to the\n",
+      "before": "    inte kan vara säker på att du talar med\n",
+      "after": "    vara säker på att du talar med\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2227",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "    attacks by a dishonest service are possible.)\n",
+      "before": "    återuppspelning av någon oärlig tjänst är möjliga).\n",
+      "after": "    återuppspelningsattacker från en oärlig tjänst är möjliga).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2239",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "getaddrinfo(NULL, \"%s\") error: %s\n",
+      "before": "getaddrinfo(NULL, \"%s\") fel: %s\n",
+      "after": "getaddrinfo(NULL, ”%s”): fel %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2243",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Cannot resolve service %s to port number.\n",
+      "before": "Kan inte slå upp tjänsten %s till portnummer.\n",
+      "after": "Kan inte slå upp tjänsten %s till ett portnummer.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2260",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s: opportunistic upgrade to TLS failed, cannot continue.\nYou can add /notls to the SMTP server name to avoid STARTTLS.\n",
+      "before": "%s: opportunistisk uppgradering till TLS misslyckades, kan inte fortsätta\nMan kan lägga till /notls till SMTP-serverns namn för att undvika STARTTLS.\n",
+      "after": "%s: opportunistisk uppgradering till TLS misslyckades; kan inte fortsätta.\nDu kan lägga till /notls till SMTP-serverns namn för att undvika STARTTLS.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2272",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "SMTP: (bounce-message body)\n",
+      "before": "SMTP: (returmeddelandes kropp)\n",
+      "after": "SMTP: (returmeddelandets brödtext)\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2275",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "mail from %s bounced to %s\n",
+      "before": "post från %s studsade till %s\n",
+      "after": "post från %s studsade tillbaka till %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2286",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "BSMTP file open failed: %s\n",
+      "before": "BSMTP-öppning av fil misslyckades: %s\n",
+      "after": "Det gick inte att öppna BSMTP-filen: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2290",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "BSMTP preamble write failed: %s.\n",
+      "before": "BSMTP-skrivning av ingressen misslyckades: %s.\n",
+      "after": "Det gick inte att skriva BSMTP-ingressen: %s.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2302",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "no address matches; no postmaster set.\n",
+      "before": "inga adressmatchningar, ingen postmästare satt.\n",
+      "after": "inga adressmatchningar; ingen postmaster har angetts.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2309",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "no address matches; forwarding to %s.\n",
+      "before": "inga adressmatchningar, vidarebefordrar till %s.\n",
+      "after": "inga adressmatchningar; vidarebefordrar till %s.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2317",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Refusing to deliver. Check the manual and fix your mda option.\n",
+      "before": "Vägrar att leverera.  Se manualen och fixa din mda-flagga.\n",
+      "after": "Vägrar att leverera. Se manualen och rätta MDA-alternativet.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2320",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "about to deliver with: %s\n",
+      "before": "färdig att leverera med: %s\n",
+      "after": "ska leverera med: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2324",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Cannot switch effective user id to %ld: %s\n",
+      "before": "Kan inte byta effektiv användar-id till %ld: %s\n",
+      "after": "Kan inte byta effektivt användar-ID till %ld: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2328",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Cannot switch effective user id back to original %ld: %s\n",
+      "before": "Kan inte byta tillbaka effektiv användar-id till originalet %ld: %s\n",
+      "after": "Kan inte återställa effektivt användar-ID till ursprungligt %ld: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2332",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "MDA open failed\n",
+      "before": "misslyckades öppna MDA:n\n",
+      "after": "Det gick inte att öppna MDA:n\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2347",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "sink",
+      "before": "sänka",
+      "after": "mottagare",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2354",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Message termination or close of BSMTP file failed: %s\n",
+      "before": "Meddelandeavslutning eller stängning av BSMTP-fil misslyckades: %s\n",
+      "after": "Det gick inte att avsluta meddelandet eller stänga BSMTP-filen: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2366",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "MDA returned nonzero status %d\n",
+      "before": "MDA:n returnerade status skild från noll %d\n",
+      "after": "MDA:n returnerade status %d, skild från noll\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2370",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Strange: MDA pclose returned %d and errno %d/%s, cannot handle at %s:%d\n",
+      "before": "Konstigt: pclose av MDA:n returnerade %d och errno %d/%s, kan inte hanteras vid %s:%d\n",
+      "after": "Oväntat: pclose för MDA:n returnerade %d och errno %d/%s; kan inte hantera detta vid %s:%d\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2374",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "SMTP listener refused delivery\n",
+      "before": "SMTP-lyssnaren vägrade leverera\n",
+      "after": "SMTP-lyssnaren vägrade leverans\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2380",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Unexpected non-503 response to LMTP EOM: %s\n",
+      "before": "Oväntat icke-503-svar på LMTP EOM: %s\n",
+      "after": "Oväntat svar, annat än 503, på LMTP EOM: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2393",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Malformed server reply",
+      "before": "Felformaterat serversvar",
+      "after": "Felformaterat svar från servern",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2396",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Bad base64 reply from server.\n",
+      "before": "Felaktigt base64-svar från servern.\n",
+      "after": "Felaktigt Base64-svar från servern.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2399",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Challenge decoded: %s\n",
+      "before": "Utmaningen avkodad: %s\n",
+      "after": "Utmaningen avkodades: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2412",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "authentication requested, but not offered by server.",
+      "before": "autentisering begärd, men erbjuds inte av servern.",
+      "after": "autentisering har begärts, men erbjuds inte av servern.",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2415",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "smtp listener protocol error\n",
+      "before": "protokollfel hos smtp-lyssnaren\n",
+      "after": "protokollfel hos SMTP-lyssnaren\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2421",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: plugin for host %s service %s is empty, cannot run!\n",
+      "before": "fetchmail: plugin för värd %s tjänst %s är tom, kan inte köras!\n",
+      "after": "fetchmail: insticksprogrammet för värden %s och tjänsten %s är tomt; kan inte köras!\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2434",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "running %s (host %s service %s)\n",
+      "before": "kör %s (värd %s tjänst %s)\n",
+      "after": "kör %s (värd %s, tjänst %s)\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2442",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "getaddrinfo(\"%s\",\"%s\") error: %s\n",
+      "before": "getaddrinfo(\"%s\",\"%s\") fel: %s\n",
+      "after": "getaddrinfo(”%s”, ”%s”): fel %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2446",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Try adding the --service option (see also FAQ item R12).\n",
+      "before": "Försök att lägga till flaggan --service (se även FAQ-post R12).\n",
+      "after": "Prova att lägga till alternativet --service (se även FAQ-punkt R12).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2457",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "cannot create socket: %s\n",
+      "before": "kan inte skapa uttag: %s\n",
+      "after": "kan inte skapa socket: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2461",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "name %d: cannot create socket family %d type %d: %s\n",
+      "before": "namn %d: kan inte skapa uttag med familj %d typ %d: %s\n",
+      "after": "namn %d: kan inte skapa socket med familj %d och typ %d: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2479",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Connection errors for this poll:\n%s",
+      "before": "Anslutningsfel för denna kontroll:\n%s",
+      "after": "Anslutningsfel vid denna kontroll:\n%s",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2491",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "SSL verify callback error: current certificate NULL!\n",
+      "before": "fel i återanrop vid SSL-verifiering: nuvarande certifikat är NULL!\n",
+      "after": "fel i återanrop för SSL-verifiering: aktuellt certifikat är NULL!\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2509",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Issuer Organization: %s\n",
+      "before": "Utgivarorganisation: %s\n",
+      "after": "Utfärdarorganisation: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2513",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Warning: Issuer Organization Name too long (possibly truncated).\n",
+      "before": "Varning: Utgivarorganisationens namn är för långt (möjligen avhugget).\n",
+      "after": "Varning: utfärdarorganisationens namn är för långt (kan ha trunkerats).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2519",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Issuer CommonName: %s\n",
+      "before": "Utgivarens vanliga namn: %s\n",
+      "after": "Utfärdarens CommonName: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2523",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Warning: Issuer CommonName too long (possibly truncated).\n",
+      "before": "Varning: Utgivarens vanliga namn är för långt (möjligen avhugget).\n",
+      "after": "Varning: utfärdarens CommonName är för långt (kan ha trunkerats).\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2526",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Unknown Issuer CommonName\n",
+      "before": "Okänt vanligt namn på utgivaren\n",
+      "after": "Okänt CommonName för utfärdaren\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2529",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Subject CommonName: %s\n",
+      "before": "Subjektets vanliga namn: %s\n",
+      "after": "Subject CommonName: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2533",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Bad certificate: Subject CommonName too long!\n",
+      "before": "Felaktigt certifikat: Subjektets vanliga namn är för långt!\n",
+      "after": "Felaktigt certifikat: Subject CommonName är för långt!\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2539",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Subject Alternative Name: %s\n",
+      "before": "Subjektets alternativa namn: %s\n",
+      "after": "Subject Alternative Name: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2543",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Bad certificate: Subject Alternative Name contains NUL, aborting!\n",
+      "before": "Felaktigt certifikat: Subjektets alternativa namn innehåller nolltecken, avbryter!\n",
+      "after": "Felaktigt certifikat: Subject Alternative Name innehåller NUL; avbryter!\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2546",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Server CommonName mismatch: %s != %s\n",
+      "before": "Serverns vanliga namn stämmer inte: %s ≠ %s\n",
+      "after": "Serverns CommonName stämmer inte: %s ≠ %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2550",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Server name not set, could not verify certificate!\n",
+      "before": "Serverns namn inte satt, kunde inte verifiera certifikatet!\n",
+      "after": "Serverns namn har inte angetts; kunde inte verifiera certifikatet!\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2553",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Unknown Server CommonName\n",
+      "before": "Serverns vanliga namn okänt\n",
+      "after": "Okänt CommonName för servern\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2556",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Server name not specified in certificate!\n",
+      "before": "Serverns namn är inte angivet i certifikatet!\n",
+      "after": "Serverns namn har inte angetts i certifikatet!\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2567",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "This could mean that the server did not provide the intermediate CA's certificate(s), which is nothing fetchmail could do anything about.  For details, please see the README.SSL-SERVER document that ships with fetchmail.\n",
+      "before": "Detta kan betyda att servern inte tillhandahöll de mellanliggande CA:nas certifikat, vilket inte är något fetchmail kunde göra något åt.  För detaljer, se dokumentet README.SSL-SERVER som kommer med fetchmail.\n",
+      "after": "Det kan betyda att servern inte tillhandahöll den mellanliggande CA:ns certifikat, vilket fetchmail inte kan göra något åt. Mer information finns i dokumentet README.SSL-SERVER som följer med fetchmail.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2570",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Missing trust anchor certificate: %s\n",
+      "before": "Förtroendeankarcertifikat saknas: %s\n",
+      "after": "Förtroendeankarets certifikat saknas: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2574",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "This could mean that the root CA's signing certificate is not in the trusted CA certificate location, or that c_rehash needs to be run on the certificate directory. For details, please see the documentation of --sslcertpath and --sslcertfile in the manual page. See README.SSL for details.\n",
+      "before": "Detta kan betyda att root-CA:ns signeringscertifikat inte finns på platserna för betrodda CA-certifikat, eller att c_rehash behöver köras på certifikatkatalogen.  För detaljer, se dokumentationen av --sslcertpath och --sslcertfile i manualsidan.  Se README.SSL för detaljer.\n",
+      "after": "Det kan betyda att rot-CA:ns signeringscertifikat saknas bland de betrodda CA-certifikaten eller att c_rehash behöver köras på certifikatkatalogen. Information om --sslcertpath och --sslcertfile finns i manualsidan. Se README.SSL för mer information.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2577",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Cannot fetch digest implementation %s for sslfingerprint!\n",
+      "before": "Kan inte hämta kontrollsummeimplementationen %s till sslfingerprint!\n",
+      "after": "Kan inte hämta kontrollsummeimplementeringen %s för sslfingerprint!\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2584",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s fingerprint is: {%s}%s\n",
+      "before": "%s fingeravtryck är: {%s}%s\n",
+      "after": "%s-fingeravtrycket är: {%s}%s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2588",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s fingerprint (%s) matches: %s\n",
+      "before": "%s fingeravtryck (%s) stämmer: %s\n",
+      "after": "%s-fingeravtrycket (%s) stämmer: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2592",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "%s fingerprint ({%s}%s) does not match expected %s!\n",
+      "before": "%s fingeravtryck ({%s}%s) stämmer inte med det förväntade %s!\n",
+      "after": "%s-fingeravtrycket ({%s}%s) stämmer inte med förväntat %s!\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2596",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Invalid SSL protocol '%s' specified, using default autoselect (auto).\n",
+      "before": "Ogiltigt SSL-protokoll ”%s” angivet, använder standard autoval (auto).\n",
+      "after": "Ogiltigt SSL-protokoll ”%s” angavs; använder standardvalet auto.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2600",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Loaded wolfSSL library %#lx older than headers %#lx, refusing to work.\n",
+      "before": "Det inlästa wolfSSL-biblioteket %#lx är äldre än huvudena %#lx, vägrar att arbeta.\n",
+      "after": "Det inlästa wolfSSL-biblioteket %#lx är äldre än huvudfilerna %#lx; vägrar att arbeta.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2604",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Loaded OpenSSL library %#lx older than headers %#lx, refusing to work.\n",
+      "before": "Det inlästa OpenSSL-biblioteket %#lx är äldre än huvudena %#lx, vägrar att arbeta.\n",
+      "after": "Det inlästa OpenSSL-biblioteket %#lx är äldre än huvudfilerna %#lx; vägrar att arbeta.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2608",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Loaded OpenSSL library %#lx newer than headers %#lx, trying to continue.\n",
+      "before": "Det inlästa OpenSSL-biblioteket %#lx är nyare än huvudena %#lx, försöker att fortsätta.\n",
+      "after": "Det inlästa OpenSSL-biblioteket %#lx är nyare än huvudfilerna %#lx; försöker fortsätta.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2616",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "File descriptor out of range for SSL",
+      "before": "Filbeskrivare utanför intervallet för SSL",
+      "after": "Filbeskrivaren ligger utanför intervallet för SSL",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2619",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Note that some distributions disable older protocol versions in weird non-standard ways. Try a newer protocol version.\n",
+      "before": "Observera att några distributioner avaktiverar äldre protokollversioner på konstiga icke-standardsätt.  Försök med en nyare protokollversion.\n",
+      "after": "Observera att vissa distributioner avaktiverar äldre protokollversioner på ovanliga sätt som inte följer standarden. Prova en nyare protokollversion.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2629",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "SSL/TLS <= 1.2: ciphers set from %s to \"%s\"\n",
+      "before": "SSL/TLS ≤ 1.2: chiffer satt från %s till ”%s”\n",
+      "after": "SSL/TLS ≤ 1.2: chiffer angavs från %s till ”%s”\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2633",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "SSL/TLS: <= 1.2 failed to set ciphers from %s to \"%s\"\n",
+      "before": "SSL/TLS: ≤ 1.2 misslyckades att sätta chiffer från %s till “%s“\n",
+      "after": "SSL/TLS ≤ 1.2: det gick inte att ange chiffer från %s till ”%s”\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2637",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "TLS >= 1.3: ciphersuite set from %s to \"%s\"\n",
+      "before": "TLS ≥ 1.3: chiffersviten satt från %s till ”%s”\n",
+      "after": "TLS ≥ 1.3: chiffersviten angavs från %s till ”%s”\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2641",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "TLS >= 1.3: failed to set ciphersuite from %s to \"%s\"\n",
+      "before": "TLS ≥ 1.3: misslyckades att sätta chiffersviten från %s till ”%s”\n",
+      "after": "TLS ≥ 1.3: det gick inte att ange chiffersviten från %s till ”%s”\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2649",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "The %s environment variable must contain a non-negative integer - parsing failed, using default level %d.\n",
+      "before": "Miljövariabeln %s måste innehålla ett ickenegativt heltal — tolkningen misslyckades, använder standardnivån %d.\n",
+      "after": "Miljövariabeln %s måste innehålla ett icke-negativt heltal; tolkningen misslyckades och standardnivån %d används.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2653",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Parsed %s to set new security level %d\n",
+      "before": "Tolkade %s för att sätta en ny säkerhetsnivå %d\n",
+      "after": "Tolkade %s för att ange den nya säkerhetsnivån %d\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2661",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "DEBUG: SSL security level is %d\n",
+      "before": "FELSÖKNING: SSL:s säkerhetsnivå är %d\n",
+      "after": "FELSÖKNING: SSL-säkerhetsnivån är %d\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2665",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Cannot load verify locations (file=\"%s\", dir=\"%s\"), error %d:\n",
+      "before": "Kan inte läsa in verifikationsplatser (fil=”%s”, kat=”%s”), fel %d:\n",
+      "after": "Kan inte läsa in verifieringsplatser (fil=”%s”, katalog=”%s”); fel %d:\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2669",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Warning: SSL_set_tlsext_host_name(%p, \"%s\") failed (code %#lx), trying to continue.\n",
+      "before": "Varning: SSL_set_tlsext_host_name(%p, \"%s\") misslyckades (kod %#lx), försöker att fortsätta.\n",
+      "after": "Varning: SSL_set_tlsext_host_name(%p, ”%s”) misslyckades (kod %#lx); försöker fortsätta.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2673",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "fetchmail: sock %d: wolfSSL_check_domain_name(%p, \"%s\") returned %d, trying to continue\n",
+      "before": "fetchmail: uttg %d: wolfSSL_check_domain_name(%p, \"%s\") returnerade %d, försöker att fortsätta\n",
+      "after": "fetchmail: socket %d: wolfSSL_check_domain_name(%p, ”%s”) returnerade %d; försöker fortsätta\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2677",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Warning: X509_VERIFY_PARAM_set1_host(%p, \"%s\") failed (code %#x), trying to continue.\n",
+      "before": "Varning: X509_VERIFY_PARAM_set1_host(%p, \"%s\") misslyckades (kod %#x), försöker att fortsätta.\n",
+      "after": "Varning: X509_VERIFY_PARAM_set1_host(%p, ”%s”) misslyckades (kod %#x); försöker fortsätta.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2681",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Server shut down connection prematurely during SSL_connect().\n",
+      "before": "Servern stängde ner förbindelsen för tidigt under SSL_connect().\n",
+      "after": "Servern stängde anslutningen i förtid under SSL_connect().\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2688",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Cannot obtain current SSL/TLS cipher - no session established?\n",
+      "before": "Kan inte hämta aktuellt SSL/TLS-chiffer — ingen förbindelse etablerad?\n",
+      "after": "Kan inte hämta aktuellt SSL/TLS-chiffer – ingen session har etablerats?\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2691",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Certificate/fingerprint verification was somehow skipped!\n",
+      "before": "Certifikat-/fingeravtrycksverifikation hoppades på något sätt över!\n",
+      "after": "Verifieringen av certifikat/fingeravtryck hoppades av någon anledning över!\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2694",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Warning: the connection is insecure, continuing anyways. (Better use --sslcertck!)\n",
+      "before": "Varning: anslutningen är osäker, fortsätter ändå.  (Bättre att använda --sslcertck!)\n",
+      "after": "Varning: anslutningen är osäker; fortsätter ändå. (Använd helst --sslcertck.)\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2709",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "analyzing Received line:\n%s",
+      "before": "analyserar Received-rad:\n%s",
+      "after": "analyserar Received-raden:\n%s",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2717",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "line accepted, %s is an alias of the mailserver\n",
+      "before": "raden accepterad, %s är ett alias för postservern\n",
+      "after": "raden accepterades; %s är ett alias för postservern\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2721",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "line rejected, %s is not an alias of the mailserver\n",
+      "before": "raden avvisad, %s är inte ett alias för postservern\n",
+      "after": "raden avvisades; %s är inte ett alias för postservern\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2725",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "no Received address found\n",
+      "before": "ingen Received-adress hittad\n",
+      "after": "ingen Received-adress hittades\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2732",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "incorrect header line found - see manpage for bad-header option\n",
+      "before": "felaktig huvudrad hittad - se flaggan bad-header i manualsidan\n",
+      "after": "felaktig huvudrad hittades – se alternativet bad-header i manualsidan\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2739",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Parsing envelope \"%s\" names \"%-.*s\"\n",
+      "before": "Tolkar kuvertet ”%s” namn ”%-.*s”\n",
+      "after": "Tolkar kuvertet ”%s”, namnen ”%-.*s”\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2743",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Parsing Received names \"%-.*s\"\n",
+      "before": "Tolkar Received-namn ”%-.*s”\n",
+      "after": "Tolkar Received-namnen ”%-.*s”\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2747",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "No envelope recipient found, resorting to header guessing.\n",
+      "before": "Ingen kuvertmottagare hittad, tar till gissning från huvuden.\n",
+      "after": "Ingen kuvertmottagare hittades; gissar utifrån huvuden.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2750",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Guessing from header \"%-.*s\".\n",
+      "before": "Gissar utgående från huvudet ”%-.*s”.\n",
+      "after": "Gissar utifrån huvudet ”%-.*s”.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2758",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "forwarding and deletion suppressed due to DNS errors\n",
+      "before": "vidarebefordran och radering avstängd på grund av DNS-fel\n",
+      "after": "vidarebefordran och radering har stoppats på grund av DNS-fel\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2764",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "no recipient addresses matched declared local names",
+      "before": "inga mottagaradresser matchade deklarerade lokala namn",
+      "after": "inga mottagaradresser matchade angivna lokala namn",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2767",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "recipient address %s didn't match any local name",
+      "before": "mottagaradressen %s matchade inte något lokalt namn",
+      "after": "mottagaradressen %s matchade inget lokalt namn",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2784",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Open or read error while reading idfile %s: %s\n",
+      "before": "Öppnings- eller läsningsfel när idfilen %s lästes: %s\n",
+      "after": "Fel vid öppning eller läsning av ID-filen %s: %s\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2795",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Scratch list of UIDs:\n",
+      "before": "Utkastlista av UID:er:\n",
+      "after": "Arbetslista över UID:er:\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2806",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "not swapping UID lists, no UIDs seen this query\n",
+      "before": "växlar inte UID-listor, inga UID:er har setts i denna fråga\n",
+      "after": "byter inte UID-listor; inga UID:er syntes vid denna fråga\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2809",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "discarding new UID list\n",
+      "before": "kastar ny UID-lista\n",
+      "after": "kastar den nya UID-listan\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
+    },
+    {
+      "tp_id": "fetchmail:2819",
+      "project": "tp:fetchmail-6.6.0.rc3",
+      "msgid": "Writing fetchids file.\n",
+      "before": "Skriver fetchids-fil.\n",
+      "after": "Skriver fetchids-filen.\n",
+      "reason": "Språk- och terminologigranskning av Fetchmail"
     }
   ]
 }
