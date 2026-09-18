@@ -1,79 +1,97 @@
-# 🇸🇪 Swedish Translation Memory
+# Swedish Translation Memory
 
-The largest open collection of Swedish software translations — **777 206 unique en→sv translation pairs** from **3 299 open source projects**.
+**686 179 unique English–Swedish translation pairs** in 15 ecosystem exports
+(790 331 entries before deduplicating across ecosystems). These counts describe
+the files shipped in this repository, exported on 2026-03-28.
 
-## 📊 Contents
+## Contents
 
-### Per-ecosystem TM files
+| Ecosystem | Pairs in export | TMX | PO compendium |
+|-----------|----------------:|-----|---------------|
+| GNOME | 70 026 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
+| KDE | 35 507 | [sv-kde.tmx](sv-kde.tmx) | [sv-kde.po](sv-kde.po) |
+| Mozilla | 19 293 | [sv-mozilla.tmx](sv-mozilla.tmx) | [sv-mozilla.po](sv-mozilla.po) |
+| Ubuntu | 50 525 | [sv-ubuntu.tmx](sv-ubuntu.tmx) | [sv-ubuntu.po](sv-ubuntu.po) |
+| Fedora | 14 237 | [sv-fedora.tmx](sv-fedora.tmx) | [sv-fedora.po](sv-fedora.po) |
+| LibreOffice | 44 495 | [sv-libreoffice.tmx](sv-libreoffice.tmx) | [sv-libreoffice.po](sv-libreoffice.po) |
+| XFCE | 3 182 | [sv-xfce.tmx](sv-xfce.tmx) | [sv-xfce.po](sv-xfce.po) |
+| Translation Project | 117 723 | [sv-tp.tmx](sv-tp.tmx) | [sv-tp.po](sv-tp.po) |
+| Transifex | 227 083 | — | [sv-transifex.po](sv-transifex.po) |
+| Weblate | 22 854 | [sv-weblate.tmx](sv-weblate.tmx) | [sv-weblate.po](sv-weblate.po) |
+| Blender | 70 264 | [sv-blender.tmx](sv-blender.tmx) | [sv-blender.po](sv-blender.po) |
+| Inkscape | 15 892 | [sv-inkscape.tmx](sv-inkscape.tmx) | [sv-inkscape.po](sv-inkscape.po) |
+| Stellarium | 44 409 | [sv-stellarium.tmx](sv-stellarium.tmx) | [sv-stellarium.po](sv-stellarium.po) |
+| QGIS | 39 685 | [sv-qgis.tmx](sv-qgis.tmx) | [sv-qgis.po](sv-qgis.po) |
+| ScummVM | 15 156 | [sv-scummvm.tmx](sv-scummvm.tmx) | [sv-scummvm.po](sv-scummvm.po) |
 
-| Ecosystem | Unique pairs | TMX | PO (compendium) |
-|-----------|-------------|-----|-----------------|
-| **GNOME** | 86 737 | sv-gnome.tmx | sv-gnome.po |
-| **KDE** | 57 839 | sv-kde.tmx | sv-kde.po |
-| **Mozilla** | 19 832 | sv-mozilla.tmx | sv-mozilla.po |
-| **Ubuntu** | 42 613 | sv-ubuntu.tmx | sv-ubuntu.po |
-| **Fedora** | 11 856 | sv-fedora.tmx | sv-fedora.po |
-| **LibreOffice** | 41 723 | sv-libreoffice.tmx | sv-libreoffice.po |
-| **XFCE** | 3 125 | sv-xfce.tmx | sv-xfce.po |
-| **Translation Project** | 99 340 | sv-tp.tmx | sv-tp.po |
-| **Transifex** | 249 990 | — | sv-transifex.po |
-| **Weblate** | 23 760 | sv-weblate.tmx | sv-weblate.po |
-| **Blender** | 128 053 | sv-blender.tmx | sv-blender.po |
-| **Inkscape** | 18 127 | sv-inkscape.tmx | sv-inkscape.po |
-| **Stellarium** | 45 597 | sv-stellarium.tmx | sv-stellarium.po |
-| **QGIS** | 35 903 | sv-qgis.tmx | sv-qgis.po |
-| **ScummVM** | 15 156 | sv-scummvm.tmx | sv-scummvm.po |
+The former README described different collection-wide counts and a
+`sv-complete.po` that is not present in this repository. Use the ecosystem
+files above. [stats.json](stats.json) contains counts verified from the exports.
 
-### Complete TM
+## Usage
 
-| File | Unique pairs | Size |
-|------|-------------|------|
-| **sv-complete.po** | 777 206 | 128 MB |
-
-## 📖 Formats
-
-**TMX** — Standard for all CAT tools (OmegaT, Trados, memoQ, Memsource, Lokalize, Virtaal, Poedit).
-
-**PO** — Use as compendium with msgmerge:
-```bash
-msgmerge --compendium sv-gnome.po untranslated.po template.pot -o filled.po
-```
-
-## 🔧 Usage
+Use a PO compendium with GNU gettext:
 
 ```bash
-# Fill translations from GNOME + KDE TM
 msgmerge --compendium sv-gnome.po --compendium sv-kde.po my-file.po my-file.pot -o filled.po
-
-# Python lookup
-python3 -c "
-import polib
-tm = {e.msgid: e.msgstr for e in polib.pofile('sv-gnome.po').translated_entries()}
-print(tm.get('Save'))  # → Spara
-"
 ```
 
-## 📋 Sources
+Look up a translation with Python:
 
-- **GNOME** l10n (gitlab.gnome.org), **KDE** l10n (invent.kde.org), **Mozilla** (Pontoon)
-- **Ubuntu** (Launchpad), **Fedora** (Weblate), **LibreOffice** l10n
-- **Translation Project** (translationproject.org) — GNU/FSF projects
-- **Transifex**, **Weblate** (hosted.weblate.org)
-- **Blender**, **Inkscape**, **QGIS**, **Stellarium**, **ScummVM**, and 3 280+ more
+```python
+import polib
 
-## 🏷️ Quality
+tm = {e.msgid: e.msgstr for e in polib.pofile('sv-gnome.po').translated_entries()}
+print(tm.get('Save'))
+```
 
-- **Gold**: GNOME, KDE, Mozilla official teams (human-reviewed)
-- **Silver**: Ubuntu, Fedora, LibreOffice, Translation Project
-- **Mixed**: Transifex, Weblate (varies by project)
+TMX files can be imported into CAT tools. All 14 TMX exports contain the same
+source/target pairs as their corresponding PO exports. Transifex is PO-only.
 
-See also [swedish-foss-terminology](https://github.com/yeager/swedish-foss-terminology) (326K curated terms).
+The exports preserve project references, but not the original message contexts
+or plural identities. Treat matches as translation suggestions and review them
+in their destination context. Agreement between export formats is not a
+linguistic quality guarantee.
 
-## 📄 License
+## Export repairs and control characters
 
-CC BY 4.0
+Carriage returns are escaped as `\r` in PO and `&#13;` in TMX. This prevents
+Python PO readers from splitting strings and XML readers from changing CR to LF.
+Six Transifex translations were given the final newline required by their source
+strings so the compendium passes `msgfmt --check`.
 
-## 🔗 Related
+The TP and Ubuntu memories include five pairs containing control characters
+(U+0007, U+000B or U+001B) forbidden in XML 1.0. Their TMX segments now use
+[TMX native-code placeholders](https://www.ttt.org/oscarStandards/tmx/tmx14b.html):
+`<ph x="1" type="x-control">U+001B</ph>` represents one ESC character.
+The `x` values pair corresponding occurrences within each translation unit.
+All original control characters remain in the PO files. Use PO for consumers
+that need those bytes directly; CAT tools must preserve the placeholders.
+The validator decodes this documented representation before comparing pairs.
 
-- [swedish-foss-terminology](https://github.com/yeager/swedish-foss-terminology) — Curated terminology bank
-- [TR Quality Dashboard](https://danielnylander.se/sv-quality/) — Live quality metrics
+## Validation
+
+Requires Python 3.10+ and GNU gettext (`msgfmt`).
+
+```bash
+python3 -m pip install -r requirements-dev.txt
+python3 -m pytest -q
+python3 scripts/validate.py
+```
+
+Validation runs gettext checks, parses every PO/TMX file, rejects duplicate
+sources and invalid language pairs, compares the complete contents between
+formats, and checks `stats.json`. After an intentional data update, regenerate
+counts with `python3 scripts/validate.py --write-stats`.
+GitHub Actions runs these checks on pushes and pull requests.
+
+## Sources and reuse
+
+The collection draws on GNOME, KDE, Mozilla, Ubuntu, Fedora, LibreOffice,
+Translation Project, Transifex, Weblate, Blender, Inkscape, Stellarium, QGIS
+and ScummVM translations. Project references are included in the exports.
+
+License: CC BY 4.0.
+
+Related: [Swedish FOSS Terminology](https://github.com/yeager/swedish-foss-terminology)
+and [svlang](https://github.com/yeager/svlang).

@@ -131409,9 +131409,9 @@ Momsregistreringsnummer:   CHE-489.853.176
     </tu>
     <tu>
       <prop type="project">yeager:qgis</prop>
-      <tuv xml:lang="en"><seg>This map was done for the 2024 #30DayMapChallenge
+      <tuv xml:lang="en"><seg>This map was done for the 2024 #30DayMapChallenge&#13;
 It shows the Willamette River between Corvallis and Salem Oregon. A Relative Elevation Model (REM) is also known as a height above river raster. The DEM is detrended to the baseline elevation of the river. I used the IDW method detailed by Dan Coe Carto: https://dancoecarto.com/creating-rems-in-qgis-the-idw-method</seg></tuv>
-      <tuv xml:lang="sv"><seg>Den här kartan gjordes för 2024 #30DayMapChallenge
+      <tuv xml:lang="sv"><seg>Den här kartan gjordes för 2024 #30DayMapChallenge&#13;
 Den visar Willamettefloden mellan Corvallis och Salem Oregon. En Relative Elevation Model (REM) är också känd som en höjd över flodraster. DEM är detrended till flodens baslinjehöjd. Jag använde IDW-metoden detaljerad av Dan Coe Carto: https://dancoecarto.com/creating-rems-in-qgis-the-idw-method</seg></tuv>
     </tu>
     <tu>
@@ -131526,9 +131526,9 @@ Den visar Willamettefloden mellan Corvallis och Salem Oregon. En Relative Elevat
     </tu>
     <tu>
       <prop type="project">yeager:qgis</prop>
-      <tuv xml:lang="en"><seg>To create the map, I've used the TopoTijdReis plugin in QGIS to explore some beautiful historic maps. I then sampled fill and line colours and patterns from a topographic map of 1948. Using the OpenStreetMap vector tile from MapTiler via the MapTiler plugin, I adjusted the colours of features with the samples using Symbol layer types Raster Image Fill, Raster Line and Raster Image Marker. Because a vector tile layer was used, I can create this map style for any place on earth with enough OpenStreetMap data!
+      <tuv xml:lang="en"><seg>To create the map, I've used the TopoTijdReis plugin in QGIS to explore some beautiful historic maps. I then sampled fill and line colours and patterns from a topographic map of 1948. Using the OpenStreetMap vector tile from MapTiler via the MapTiler plugin, I adjusted the colours of features with the samples using Symbol layer types Raster Image Fill, Raster Line and Raster Image Marker. Because a vector tile layer was used, I can create this map style for any place on earth with enough OpenStreetMap data!&#13;
 The TopoTijdReis plugin is an amazing tool that lets you travel through time with historic topographic maps of the Netherlands in QGIS!</seg></tuv>
-      <tuv xml:lang="sv"><seg>För att skapa kartan har jag använt insticksprogrammet TopoTijdReis i QGIS för att utforska några vackra historiska kartor. Jag samplade sedan fyllnings- och linjefärger och mönster från en topografisk karta från 1948. Med hjälp av OpenStreetMap-vektorplattan från MapTiler via MapTiler-pluginet justerade jag färgerna på funktioner med proverna med hjälp av symbollagertyperna Raster Image Fill, Raster Line och Raster Image Marker. Eftersom ett vektorskikt användes kan jag skapa den här kartstilen för vilken plats som helst på jorden med tillräckligt med OpenStreetMap-data!
+      <tuv xml:lang="sv"><seg>För att skapa kartan har jag använt insticksprogrammet TopoTijdReis i QGIS för att utforska några vackra historiska kartor. Jag samplade sedan fyllnings- och linjefärger och mönster från en topografisk karta från 1948. Med hjälp av OpenStreetMap-vektorplattan från MapTiler via MapTiler-pluginet justerade jag färgerna på funktioner med proverna med hjälp av symbollagertyperna Raster Image Fill, Raster Line och Raster Image Marker. Eftersom ett vektorskikt användes kan jag skapa den här kartstilen för vilken plats som helst på jorden med tillräckligt med OpenStreetMap-data!&#13;
 Pluginet TopoTijdReis är ett fantastiskt verktyg som låter dig resa genom tiden med historiska topografiska kartor över Nederländerna i QGIS!</seg></tuv>
     </tu>
     <tu>
@@ -131578,55 +131578,55 @@ Pluginet TopoTijdReis är ett fantastiskt verktyg som låter dig resa genom tide
     </tu>
     <tu>
       <prop type="project">yeager:qgis</prop>
-      <tuv xml:lang="en"><seg>Map of the Great Meteor, a Sea Mountain with ~4000m high, nearby the Azores Island.
-The Layout template is from the Layout Loader Plugin
-
-The major exercise of this map was the ability to put bathymetic contours labels following a line from an helper layer called labels, instead of randomly place along the contours.
-
-This was the expression used on the labels placement geometry generator.
-
-    coalesce(
-	aggregate(
-		'labels', -- layer
-		'collect', -- aggregate type
-		intersection(
-			buffer($geometry,3000),
-			geometry(@parent)
-		), -- Expression
-		intersects(
-			$geometry,
-			geometry(@parent)
-		) -- Filter
-	),
-	$geometry
-    )
-
-
+      <tuv xml:lang="en"><seg>Map of the Great Meteor, a Sea Mountain with ~4000m high, nearby the Azores Island.&#13;
+The Layout template is from the Layout Loader Plugin&#13;
+&#13;
+The major exercise of this map was the ability to put bathymetic contours labels following a line from an helper layer called labels, instead of randomly place along the contours.&#13;
+&#13;
+This was the expression used on the labels placement geometry generator.&#13;
+&#13;
+    coalesce(&#13;
+	aggregate(&#13;
+		'labels', -- layer&#13;
+		'collect', -- aggregate type&#13;
+		intersection(&#13;
+			buffer($geometry,3000),&#13;
+			geometry(@parent)&#13;
+		), -- Expression&#13;
+		intersects(&#13;
+			$geometry,&#13;
+			geometry(@parent)&#13;
+		) -- Filter&#13;
+	),&#13;
+	$geometry&#13;
+    )&#13;
+&#13;
+&#13;
 Data: GEBCO (https://www.gebco.net/data_and_products/gridded_bathymetry_data/)</seg></tuv>
-      <tuv xml:lang="sv"><seg>Karta över Great Meteor, ett havsberg med en höjd på ~4000m, i närheten av ön Azorerna.
-Layoutmallen är från Layout Loader Plugin
-
-Den stora övningen på denna karta var möjligheten att sätta bathymetiska konturetiketter efter en linje från ett hjälpskikt som heter etiketter, istället för att slumpmässigt placera längs konturerna.
-
-Detta var det uttryck som användes på geometrigeneratorn för etikettplacering.
-
-    sammanfoga(
-	aggregat(
-		'etiketter', -- lager
-		'collect', -- aggregattyp
-		intersektion(
-			buffert($geometri,3000),
-			geometri(@parent)
-		), -- Uttryck
-		korsar(
-			$geometri,
-			geometri(@förälder)
-		) -- Filter
-	),
-	$geometri
-    )
-
-
+      <tuv xml:lang="sv"><seg>Karta över Great Meteor, ett havsberg med en höjd på ~4000m, i närheten av ön Azorerna.&#13;
+Layoutmallen är från Layout Loader Plugin&#13;
+&#13;
+Den stora övningen på denna karta var möjligheten att sätta bathymetiska konturetiketter efter en linje från ett hjälpskikt som heter etiketter, istället för att slumpmässigt placera längs konturerna.&#13;
+&#13;
+Detta var det uttryck som användes på geometrigeneratorn för etikettplacering.&#13;
+&#13;
+    sammanfoga(&#13;
+	aggregat(&#13;
+		'etiketter', -- lager&#13;
+		'collect', -- aggregattyp&#13;
+		intersektion(&#13;
+			buffert($geometri,3000),&#13;
+			geometri(@parent)&#13;
+		), -- Uttryck&#13;
+		korsar(&#13;
+			$geometri,&#13;
+			geometri(@förälder)&#13;
+		) -- Filter&#13;
+	),&#13;
+	$geometri&#13;
+    )&#13;
+&#13;
+&#13;
 Uppgifter: GEBCO (https://www.gebco.net/data_and_products/gridded_bathymetry_data/)</seg></tuv>
     </tu>
     <tu>
