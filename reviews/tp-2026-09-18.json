@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 20010,
+  "reviewed_tp_entries": 20984,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 4921,
+  "changed_pairs": 5185,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 4921,
+      "confirmed_swedish_changes": 5185,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "d61e93ec07b4428cb80831e3435d50d468363bb1b036c07a51c92018ec8df819"
+      "sha256": "685125c4bacb359f7f706d64cd8587b698c5f1df7ae36cc273f8eec19f1f05bc"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 4921,
+      "confirmed_swedish_changes": 5185,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "b903140814e640b69164388da1d70f50f7930f1229bdccdd647b70204537ac13"
+      "sha256": "08849c1b6a3fb4959d731051f372407a0891e33fb07ed6a1b42ee8c9c56489e6"
     }
   },
   "unmapped_plural_fixes": [
@@ -39423,6 +39423,2118 @@
       "before": "Välkommen till DFArc, framänden för Dink Smallwood!\n\nDu kan välja att spela originalspelet (Dink Smallwood) eller Dink-moduler (D-Mod:ar) som innehåller nya äventyr.\n\nEfter att du avslutat huvudspelet, prova några D-Mod:ar.\nDet finns hundratals av dem, bara klicka på Arkiv-Hämta ner D-Mod:ar.",
       "after": "Välkommen till DFArc, Dink Smallwoods gränssnitt!\n\nDu kan spela originalspelet Dink Smallwood eller Dink-moduler, D-Mods, med nya äventyr.\n\nNär du avslutat huvudspelet kan du prova några D-Mods.\nDet finns hundratals; välj Arkiv → Hämta D-Mods.",
       "reason": "Rättar etablerad musikterminologi och svensk formulering."
+    },
+    {
+      "tp_id": "dfarc:195",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Cannot use the overridden Dink Smallwood directory - ignoring it. (permission problem?)",
+      "before": "Kan inte använda den åsidosatta Dink Smallwood-katalogen - ignorerar den. (rättighetsproblem?)",
+      "after": "Kan inte använda den åsidosatta Dink Smallwood-katalogen; den ignoreras. (Rättighetsproblem?)",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:204",
+      "project": "tp:dfarc-3.14",
+      "msgid": "The Dink Smallwood directory you entered does not exist - ignoring it.",
+      "before": "Dink Smallwood-katalogen du matade in existerar inte - ignorerar den.",
+      "after": "Dink Smallwood-katalogen du angav finns inte; den ignoreras.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:209",
+      "project": "tp:dfarc-3.14",
+      "msgid": "You must select the uninstall option from the start menu to uninstall the main game.",
+      "before": "Du måste markera avinstallationsalternativet från startmenyn för att avinstallera huvudspelet.",
+      "after": "Du måste välja avinstallationsalternativet i startmenyn för att avinstallera huvudspelet.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:221",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Uninstall - Save Game Files",
+      "before": "Avinstallation - Filer med sparade spel",
+      "after": "Avinstallation – sparade spelfiler",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:229",
+      "project": "tp:dfarc-3.14",
+      "msgid": "D-Mod successfully uninstalled",
+      "before": "D-Mod avinstallerades framgångsrikt",
+      "after": "D-Mod avinstallerades",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:233",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Uninstall - Success",
+      "before": "Avinstallation - Framgångsrik",
+      "after": "Avinstallationen lyckades",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:241",
+      "project": "tp:dfarc-3.14",
+      "msgid": "The D-Mod archive is being decompressed in a temporary file.",
+      "before": "D-Mod-arkivet håller på att dekomprimeras i en temporär fil.",
+      "after": "D-Mod-arkivet packas upp i en tillfällig fil.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:245",
+      "project": "tp:dfarc-3.14",
+      "msgid": "No Description Available.\n\nThe D-Mod will be installed in subdirectory '%s'.",
+      "before": "Ingen beskrivning tillgänglig.\n\nD-Mod:en kommer att installeras i underkatalogen ”%s”.",
+      "after": "Ingen beskrivning finns.\n\nD-Mod installeras i underkatalogen ”%s”.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:260",
+      "project": "tp:dfarc-3.14",
+      "msgid": "DFArc - Installing",
+      "before": "DFArc - Installerar",
+      "after": "DFArc – installerar",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:269",
+      "project": "tp:dfarc-3.14",
+      "msgid": "The D-Mod you selected",
+      "before": "D-Mod:en du valde",
+      "after": "D-Mod du valde",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:273",
+      "project": "tp:dfarc-3.14",
+      "msgid": " was successfully installed.",
+      "before": " installerades framgångsrikt.",
+      "after": " installerades.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:281",
+      "project": "tp:dfarc-3.14",
+      "msgid": "An error occurred while extracting the .dmod file.",
+      "before": "Ett fel inträffade medan .dmod-filen extraherades.",
+      "after": "Ett fel inträffade när .dmod-filen packades upp.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:293",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Choose the Dink Smallwood install directory",
+      "before": "Välj Dink Smallwood-installationskatalogen",
+      "after": "Välj installationskatalog för Dink Smallwood",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:301",
+      "project": "tp:dfarc-3.14",
+      "msgid": "You must provide an identifier filename.",
+      "before": "Du måste tillhandahålla ett identifierarfilnamn.",
+      "after": "Du måste ange ett identifierande filnamn.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:313",
+      "project": "tp:dfarc-3.14",
+      "msgid": "%s was successfully packaged (compression ratio %2.1f : 1).",
+      "before": "%s paketerades framgångsrikt (komprimeringsförhållande %2.1f : 1).",
+      "after": "%s paketerades. (Komprimeringsförhållande %2.1f : 1.)",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:319",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Packaging aborted - removing partial .dmod file.",
+      "before": "Paketering avbruten - tar bort partiell .dmod-fil.",
+      "after": "Paketeringen avbröts; tar bort ofullständig .dmod-fil.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:340",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Error: Could not open tar file '%s' for bzip compression.",
+      "before": "Fel: Kunde inte öppna tar-fil ”%s” för bzip-komprimering.",
+      "after": "Fel: Kunde inte öppna tar-filen ”%s” för bzip-komprimering.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:345",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Error: Could not initialize compression method!  Will not generate a correct .dmod file.  Quitting.",
+      "before": "Fel: Kunde inte initiera komprimeringsmetod!  Kommer inte att generera en korrekt .dmod-fil.  Avslutar.",
+      "after": "Fel: Kunde inte initiera komprimeringsmetoden. En korrekt .dmod-fil kan inte skapas. Avslutar.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:369",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Error: invalid D-Mod directory.  Stopping.",
+      "before": "Fel: ogiltigt D-Mod-katalog.  Avbryter.",
+      "after": "Fel: Ogiltig D-Mod-katalog. Avbryter.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:388",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Got bad file %d/%d.  Skipping.",
+      "before": "Fick en dålig fil %d/%d.  Hoppar över.",
+      "after": "Felaktig fil %d/%d; hoppar över.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:393",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Error: Improperly archived file '%s'.  Skipping.",
+      "before": "Fel: Felaktigt arkiverad fil ”%s”.  Hoppar över.",
+      "after": "Fel: Felaktigt arkiverad fil ”%s”; hoppar över.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:410",
+      "project": "tp:dfarc-3.14",
+      "msgid": "&Download D-Mods",
+      "before": "&Hämta ner D-Mod:ar",
+      "after": "&Hämta D-Mods",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:414",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Go to The Dink Network to download some D-Mods!",
+      "before": "Gå till Dink Network för att hämta ner några D-Mod:ar!",
+      "after": "Gå till The Dink Network och hämta D-Mods!",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:430",
+      "project": "tp:dfarc-3.14",
+      "msgid": "&Refresh D-Mod List",
+      "before": "&Uppdatera D-Mod-listan",
+      "after": "&Uppdatera listan över D-Mods",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:434",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Refreshes the D-Mod list for any new additions",
+      "before": "Uppdaterar D-Mod-listan så nya tillägg visas",
+      "after": "Uppdaterar listan över D-Mods med nya tillägg",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:438",
+      "project": "tp:dfarc-3.14",
+      "msgid": "&Browse Selected D-Mod Directory",
+      "before": "&Bläddra vald D-Mod-katalog",
+      "after": "&Bläddra i vald D-Mod-katalog",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:442",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Browse to the directory containing the current D-Mod",
+      "before": "Bläddra till katalogen som innehåller aktuell D-Mod",
+      "after": "Bläddra till katalogen som innehåller den aktuella D-Mod",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:458",
+      "project": "tp:dfarc-3.14",
+      "msgid": "View or modify DFArc options",
+      "before": "Visa eller modifiera DFArc-inställningar",
+      "after": "Visa eller ändra DFArc-inställningar",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:470",
+      "project": "tp:dfarc-3.14",
+      "msgid": "A quick introduction to Dinking and D-Mods",
+      "before": "En snabb introduktion till Dinkande och D-Mod:ar",
+      "after": "En kort introduktion till Dink och D-Mods",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:478",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Stuck in a D-Mod? Check out The Dink Smallwood Solutions.",
+      "before": "Fastnat i en D-Mod? Kolla in Dink Smallwood-lösningar.",
+      "after": "Fastnat i en D-Mod? Se The Dink Smallwood Solutions.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:510",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Windowed",
+      "before": "I fönster",
+      "after": "I fönsterläge",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:534",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Package",
+      "before": "Paket",
+      "after": "Paketera",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:552",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Main Dink directory",
+      "before": "Huvudkatalog för Dink",
+      "after": "Dinks huvudkatalog",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:560",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Where do you want to install this D-Mod?",
+      "before": "Var vill du installera denna D-Mod?",
+      "after": "Var vill du installera D-Mod?",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:606",
+      "project": "tp:dfarc-3.14",
+      "msgid": "DFArc language\n(restart DFArc to apply)",
+      "before": "DFArc-språk\n(starta om DFArc för att applicera)",
+      "after": "DFArc-språk\n(starta om DFArc för att verkställa)",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:619",
+      "project": "tp:dfarc-3.14",
+      "msgid": "Note: Unless you're making a D-Mod, you shouldn't be around here.\nThis is for creating a .dmod file for a D-Mod you made.\n\nWill package '%s' located at\n%s",
+      "before": "Not: Om du inte skapar en D-Mod, bör du inte vara här.\nDetta används för att skapa en .dmod-fil för en D-Mod du gjort.\n\nKommer att paketera ”%s” som finns i\n%s",
+      "after": "Obs! Om du inte skapar en D-Mod ska du inte vara här.\nDet här används för att skapa en .dmod-fil för en D-Mod som du har gjort.\n\nPaketerar ”%s”, som finns i\n%s",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dfarc:648",
+      "project": "tp:dfarc-3.14",
+      "msgid": "DFArc - Dink frontend",
+      "before": "DFArc - Dink-framände",
+      "after": "DFArc – Dinks gränssnitt",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:79",
+      "project": "tp:dico-2.10.90",
+      "msgid": "not enough memory while formatting reply message",
+      "before": "inte nog med minne under formatering av svarsmeddelande",
+      "after": "inte tillräckligt med minne vid formatering av svarsmeddelande",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:195",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Define NUMBERth match.",
+      "before": "Definiera träff-NUMMER.",
+      "after": "Definiera träff nummer NUMBER.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:199",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Edit NUMBERth previous command.",
+      "before": "Redigera tidigare träff-NUMMER.",
+      "after": "Redigera det NUMBER:e tidigare kommandot.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:219",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Set or display current database name.",
+      "before": "Tilldela eller visa aktuellt databasnamn.",
+      "after": "Ange eller visa namnet på aktuell databas.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:223",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Set or display current strategy.",
+      "before": "Tilldela eller visa aktuell strategi.",
+      "after": "Ange eller visa aktuell strategi.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:231",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Set or query Levenshtein distance (server-dependent).",
+      "before": "Tilldela eller fråga efter Levenshteinavstånd (server-beroende).",
+      "after": "Ange eller fråga efter Levenshteinavståndet (serverberoende).",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:279",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Change command line prompt.",
+      "before": "Ãndra kommandoradsprompt.",
+      "after": "Ändra kommandoradsprompten.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:299",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Display command history.",
+      "before": "Visa kommanodohistoriken.",
+      "after": "Visa kommandohistoriken.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:324",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Expected a single punctuation character",
+      "before": "Förväntade sig ett punkttecken",
+      "after": "Ett skiljetecken förväntades",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:354",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Attempting APOP authentication\n",
+      "before": "Tillåter APOP-autentisering\n",
+      "after": "Försöker med APOP-autentisering\n",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:358",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Not enough credentials for authentication",
+      "before": "Inte nog med användaruppgifter för autentisering",
+      "after": "Inte tillräckligt med autentiseringsuppgifter",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:474",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Sending query to match word \"%s\" in database \"%s\", using \"%s\"\n",
+      "before": "Skickar fråga för att match ord ”%s” i databasen ”%s”, använder ”%s”\n",
+      "after": "Skickar fråga för att matcha ordet ”%s” i databasen ”%s” med ”%s”\n",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:502",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Database name not specified",
+      "before": "Databasnamnet specificeras inte",
+      "after": "Databasnamn har inte angetts",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:515",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Please specify server name or IP address",
+      "before": "Specificera servernamn eller IP-adress",
+      "after": "Ange servernamn eller IP-adress",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:519",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Cannot connect to the server",
+      "before": "Det går inte ansluta till servern",
+      "after": "Det går inte att ansluta till servern",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:531",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Finished getting server information\n",
+      "before": "Färdig med hämtning av serverinformation\n",
+      "after": "Hämtningen av serverinformation är klar\n",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:564",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Invalid match number.  Type / to see the matches.",
+      "before": "Ogiltigt antal träffar.  Skriv / för att se träffar.",
+      "after": "Ogiltigt träffnummer. Skriv / för att se träffarna.",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:578",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Cannot query Levenshtein distance.  Server responded:",
+      "before": "Det går inte att fråga Levenshteinavstånd.  Server svarade:",
+      "after": "Det går inte att fråga efter Levenshteinavstånd. Servern svarade:",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:582",
+      "project": "tp:dico-2.10.90",
+      "msgid": "No distance configured\n",
+      "before": "Ingen avståndskonfiguration\n",
+      "after": "Inget avstånd har konfigurerats\n",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:587",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Configured Levenshtein distance: %u\n",
+      "before": "Konfigurerade Levenshteinavstånd: %u\n",
+      "after": "Konfigurerat Levenshteinavstånd: %u\n",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:592",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Search all of the databases until a match is found,\nand display all matches in that database.\n",
+      "before": "Söker igenom alla databaser tills ett resultat inträffat,\noch visar alla träffar i databasen.\n",
+      "after": "Söker igenom alla databaser tills en träff hittas\noch visar alla träffar i den databasen.\n",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:606",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Found matching line %d\n",
+      "before": "Hittar matchande rad %d\n",
+      "after": "Hittade matchande rad %d\n",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:645",
+      "project": "tp:dico-2.10.90",
+      "msgid": "%s:%d: %s without argument",
+      "before": "%s:%d %s utan argument",
+      "after": "%s:%d: %s utan argument",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:671",
+      "project": "tp:dico-2.10.90",
+      "msgid": "specify port to connect to",
+      "before": "specificera port att ansluta till",
+      "after": "ange port att ansluta till",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:695",
+      "project": "tp:dico-2.10.90",
+      "msgid": "match instead of define",
+      "before": "matcha istället för att definiera",
+      "after": "matcha i stället för att definiera",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:699",
+      "project": "tp:dico-2.10.90",
+      "msgid": "select a strategy for matching; implies --match",
+      "before": "välj en strategi för matchning; implicerar --match",
+      "after": "välj en matchningsstrategi; innebär --match",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:735",
+      "project": "tp:dico-2.10.90",
+      "msgid": "do not print the normal dico welcome",
+      "before": "skriv ej ut den vanliga dico-hälsningen",
+      "after": "skriv inte ut den vanliga dico-hälsningen",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:779",
+      "project": "tp:dico-2.10.90",
+      "msgid": "increase debugging verbosity level",
+      "before": "öka nivå för utförligt läge vid felsökning",
+      "after": "öka utförlighetsnivån för felsökning",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:811",
+      "project": "tp:dico-2.10.90",
+      "msgid": "[URL-or-WORD]",
+      "before": "[URL-eller-WORD]",
+      "after": "[URL-eller-ORD]",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:837",
+      "project": "tp:dico-2.10.90",
+      "msgid": "%s:%d: INTERNAL ERROR: unexpected request type",
+      "before": "%s:%d: INTERNT FEL: oväntad begärd typ",
+      "after": "%s:%d: INTERNT FEL: oväntad begärandetyp",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:842",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Server name or IP not specified",
+      "before": "Servernamn eller IP-adress inte angiven",
+      "after": "Servernamn eller IP-adress har inte angetts",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:904",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Dico compiled without SASL support",
+      "before": "Dico kompilerad utan SASL-stöd",
+      "after": "Dico kompilerades utan SASL-stöd",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:908",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Regex error: %s",
+      "before": "Regex-fel: %s",
+      "after": "Reguljärt uttryck-fel: %s",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:932",
+      "project": "tp:dico-2.10.90",
+      "msgid": "session finished:",
+      "before": "session avslutad:",
+      "after": "sessionen avslutades:",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:944",
+      "project": "tp:dico-2.10.90",
+      "msgid": "socket name too long: `%s'",
+      "before": "uttagsnamn för lång: ”%s”",
+      "after": "uttagsnamnet är för långt: ”%s”",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:949",
+      "project": "tp:dico-2.10.90",
+      "msgid": "expected `from', but found list",
+      "before": "förväntade sig ”from” men fann list",
+      "after": "förväntade ”from”, men fann en lista",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:958",
+      "project": "tp:dico-2.10.90",
+      "msgid": "unexpected end of statement after `from'",
+      "before": "oväntat slut på uttrycket efter ”from”",
+      "after": "oväntat slut på satsen efter ”from”",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:962",
+      "project": "tp:dico-2.10.90",
+      "msgid": "junk after `from' list",
+      "before": "skräp efter ”from” list",
+      "after": "skräp efter listan ”from”",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:970",
+      "project": "tp:dico-2.10.90",
+      "msgid": "expected string, but found list",
+      "before": "förväntade sig sträng, men fann list",
+      "after": "förväntade en sträng men fann en lista",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:979",
+      "project": "tp:dico-2.10.90",
+      "msgid": "expected group list, but found end of statement",
+      "before": "förväntade sig grop list, men fann slut på mening",
+      "after": "förväntade en grupplista men fann slut på satsen",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:983",
+      "project": "tp:dico-2.10.90",
+      "msgid": "expected group list, but found array",
+      "before": "förväntade sig group list, men fann en vektor",
+      "after": "förväntade en grupplista men fann en vektor",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:996",
+      "project": "tp:dico-2.10.90",
+      "msgid": "unexpected list",
+      "before": "oväntad list",
+      "after": "oväntad lista",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:1000",
+      "project": "tp:dico-2.10.90",
+      "msgid": "MATCHES",
+      "before": "TRÃFFAR",
+      "after": "TRÄFFAR",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:1015",
+      "project": "tp:dico-2.10.90",
+      "msgid": "cannot stat directory `%s'",
+      "before": "det går inte att ta stat på katalog ”%s”",
+      "after": "det går inte att hämta status för katalogen ”%s”",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:1034",
+      "project": "tp:dico-2.10.90",
+      "msgid": "failed to get password for `%s' from the database",
+      "before": "misslyckades med att använda lösenord ”%s” från databasen",
+      "after": "misslyckades med att hämta lösenordet för ”%s” från databasen",
+      "reason": "Rättar svensk formulering, teknisk term eller kodningsfel."
+    },
+    {
+      "tp_id": "dico:1068",
+      "project": "tp:dico-2.10.90",
+      "msgid": "missing ACL name",
+      "before": "saknar ACL-namn",
+      "after": "ACL-namn saknas",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1077",
+      "project": "tp:dico-2.10.90",
+      "msgid": "location of the previous definition",
+      "before": "plats för tidigare definition",
+      "after": "platsen för den tidigare definitionen",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1089",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Deny access",
+      "before": "Vägra åtkomst",
+      "after": "Neka åtkomst",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1102",
+      "project": "tp:dico-2.10.90",
+      "msgid": "expected scalar value but found list",
+      "before": "förväntad sig skalärt värde men fann list",
+      "after": "förväntade ett skalärt värde men fann en lista",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1116",
+      "project": "tp:dico-2.10.90",
+      "msgid": "not a valid GID number: %s",
+      "before": "inte en giltigt GID-tal: %s",
+      "after": "inte ett giltigt GID-tal: %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1130",
+      "project": "tp:dico-2.10.90",
+      "msgid": "unknown syslog facility",
+      "before": "okänd syslog-funktion",
+      "after": "okänd syslog-facilitet",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1138",
+      "project": "tp:dico-2.10.90",
+      "msgid": "missing tag",
+      "before": "saknad tagg",
+      "after": "tagg saknas",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1142",
+      "project": "tp:dico-2.10.90",
+      "msgid": "database name not supplied",
+      "before": "databasnamn måste inte tillhandahållas",
+      "after": "databasnamn har inte angetts",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1150",
+      "project": "tp:dico-2.10.90",
+      "msgid": "invalid use of block statement",
+      "before": "ogiltig användning för blocksats",
+      "after": "ogiltig användning av blocksats",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1164",
+      "project": "tp:dico-2.10.90",
+      "msgid": "unknown capability: %s",
+      "before": "okänd förmåga: %s",
+      "after": "okänd funktion: %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1169",
+      "project": "tp:dico-2.10.90",
+      "msgid": "cannot parse headers: %s",
+      "before": "det går inte att tolka huvuden: %s",
+      "after": "det går inte att tolka huvudena: %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1174",
+      "project": "tp:dico-2.10.90",
+      "msgid": "unknown encoding type: %s",
+      "before": "okänd kodtyp: %s",
+      "after": "okänd teckenkodning: %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1211",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Short description, to be shown in reply to SHOW DB command.",
+      "before": "Kort beskrivning, att visa i svaret för kommandot SHOW DB.",
+      "after": "Kort beskrivning som visas i svaret på kommandot SHOW DB.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1215",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Full description of the database, to be shown in reply to SHOW INFO command.",
+      "before": "Helbeskrivning av databasen, att visa i svaret för kommandot SHOW INFO.",
+      "after": "Fullständig beskrivning av databasen som visas i svaret på kommandot SHOW INFO.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1219",
+      "project": "tp:dico-2.10.90",
+      "msgid": "List of languages this database translates from.",
+      "before": "Språklista denna databas översätter från.",
+      "after": "Lista över språk som databasen översätter från.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1223",
+      "project": "tp:dico-2.10.90",
+      "msgid": "List of languages this database translates to.",
+      "before": "Språklista denna databas översätter till.",
+      "after": "Lista över språk som databasen översätter till.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1241",
+      "project": "tp:dico-2.10.90",
+      "msgid": "ACL controlling visibility of this database",
+      "before": "ACL kontrollerar databasens synlighet",
+      "after": "ACL som styr databasens synlighet",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1253",
+      "project": "tp:dico-2.10.90",
+      "msgid": "bool",
+      "before": "boolesk",
+      "after": "booleskt",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1265",
+      "project": "tp:dico-2.10.90",
+      "msgid": "For virtual database only: name of the member database. Optional mime|nomime specifies the condition under which the database is to be used.",
+      "before": "Endast för virtuell databas: namn på medlemsdatabas. Valfri mime|nomime specificerar villkoren för under vilka databasen ska användas.",
+      "after": "Endast för virtuell databas: namn på medlemsdatabasen. Det valfria mime|nomime anger villkoret då databasen används.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1273",
+      "project": "tp:dico-2.10.90",
+      "msgid": "File containing user group information or a query to retrieve it.",
+      "before": "Filen innehåller användargruppsinformation eller en fråga för att hämta den.",
+      "after": "Fil med användargruppsinformation eller en fråga som hämtar den.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1277",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Implementation-dependent options",
+      "before": "Implementationsberoende flaggor",
+      "after": "Implementationsberoende alternativ",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1302",
+      "project": "tp:dico-2.10.90",
+      "msgid": "expected boolean value but found list",
+      "before": "förväntad sig booleskt värde men fann list",
+      "after": "förväntade ett booleskt värde men fann en lista",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1310",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Disable SASL mechanisms listed in <mech>.",
+      "before": "Inaktivera SASL-mekanism listade i <mech>.",
+      "after": "Inaktivera SASL-mekanismerna i <mech>.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1314",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Enable SASL mechanisms listed in <mech>.",
+      "before": "Inaktivera SASL-mekanismer listade i <mech>.",
+      "after": "Aktivera SASL-mekanismerna i <mech>.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1322",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Set realm name for GSSAPI and Kerberos.",
+      "before": "Ange sfärsnamn för GSSAPI och Kerberos.",
+      "after": "Ange namn på sfär för GSSAPI och Kerberos.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1334",
+      "project": "tp:dico-2.10.90",
+      "msgid": "missing section name",
+      "before": "saknar avsnittsnamn",
+      "after": "avsnittsnamn saknas",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1338",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Unexpected statement",
+      "before": "Oväntad mening",
+      "after": "Oväntad sats",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1342",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Expected string value",
+      "before": "Förväntade sig strängvärde",
+      "after": "Strängvärde förväntades",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1350",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Expected number",
+      "before": "Förväntat sig tal",
+      "after": "Tal förväntades",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1358",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Deny all * and ! look ups",
+      "before": "Neka alla uppslag med * och ",
+      "after": "Neka alla uppslag med * och !",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1391",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Deny * and ! look-ups on words with length == <len>.",
+      "before": "Neka uppslag * och ! för ord med längder == <len>.",
+      "after": "Neka uppslag med * och ! för ord med längd == <len>.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1395",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Deny * and ! look-ups on words with length != <len>.",
+      "before": "Neka uppslag * och ! för ord med längder != <len>.",
+      "after": "Neka uppslag med * och ! för ord med längd != <len>.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1403",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Supplementary group to retain with the user privileges.",
+      "before": "Kompletterande grupp för att behålla användarprivilegier.",
+      "after": "Kompletterande grupp som behålls med användarprivilegierna.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1415",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Server description to be shown in reply to SHOW SERVER command.",
+      "before": "Serverbeskrivning att visa i svaret till kommandot SHOW SERVER.",
+      "after": "Serverbeskrivning som visas i svaret på kommandot SHOW SERVER.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1419",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Show system information if arg matches.",
+      "before": "Visa systeminformationen om arg matchar.",
+      "after": "Visa systeminformation om arg matchar.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1435",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Name of the file containing the keys for decrypting AUTH replies.",
+      "before": "Namn på filen innehållandes nycklarna för att dekryptera AUTH-svar.",
+      "after": "Namn på filen som innehåller nycklarna för att dekryptera AUTH-svar.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1439",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Maximum number of children running simultaneously.",
+      "before": "Högsta antal underordnade som kör samtidigt.",
+      "after": "Högsta antal underordnade processer som kör samtidigt.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1443",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Tag syslog diagnostics with this tag.",
+      "before": "Tagga syslog-diagnostik med denna tagg.",
+      "after": "Märk syslog-diagnostiken med denna tagg.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1447",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Set syslog facility. Arg is one of the following: user, daemon, auth, authpriv, mail, cron, local0 through local7 (case-insensitive), or a facility number.",
+      "before": "Ange syslog-funktionalitet. Arg är en av följande: user, daemon, auth, authpriv, mail, cron, local0 till local7 (icke skiftlägeskänsligt) eller ett funktionalitetstal.",
+      "after": "Ange syslog-facilitet. Arg är en av följande: user, daemon, auth, authpriv, mail, cron, local0 till local7, oberoende av skiftläge, eller ett facilitetsnummer.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1451",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Prefix diagnostics messages with their severity.",
+      "before": "Diagnostikmeddelanden med dess allvarsgrad som prefix.",
+      "after": "Förse diagnostikmeddelanden med allvarsgrad som prefix.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1459",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Set format string for access log file.",
+      "before": "Ange format-sträng för loggfilen för åtkomst.",
+      "after": "Ange formatsträng för åtkomstloggfilen.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1467",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Log session transcript.",
+      "before": "Logga sessionsåtergivningar.",
+      "after": "Logga sessionsutskrift.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1479",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Wait this number of seconds for all children to terminate.",
+      "before": "Vänta detta antal sekunder på att alla underordnade ska avslutas.",
+      "after": "Vänta så här många sekunder på att alla underordnade processer avslutas.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1495",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Display this text in the initial 220 banner",
+      "before": "Visa denna text i första 220-rubriken",
+      "after": "Visa denna text i den inledande 220-hälsningen",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1499",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Display this text in reply to the HELP command. If text begins with a +, usual command summary is displayed before it.",
+      "before": "Visa denna i svar för kommandot HELP. Om texten börjar med + visas vanlig kommandosammanfattning före det.",
+      "after": "Visa denna text i svaret på kommandot HELP. Om texten börjar med + visas den vanliga kommandosammanfattningen före den.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1503",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Override the host name.",
+      "before": "Åsidosätta värdnamnet.",
+      "after": "Åsidosätt värdnamnet.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1515",
+      "project": "tp:dico-2.10.90",
+      "msgid": "List of directories searched for database modules.",
+      "before": "Lista över kataloger som söks igenom efter databasmoduler.",
+      "after": "Lista över kataloger som genomsöks efter databasmoduler.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1519",
+      "project": "tp:dico-2.10.90",
+      "msgid": "List of directories searched for database modules prior to the default module directory",
+      "before": "Lista över kataloger som söks genom efter databasmoduler innan standardkatalogen för modulerna",
+      "after": "Lista över kataloger som genomsöks efter databasmoduler före standardkatalogen för moduler.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1523",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Set the name of the default matching strategy.",
+      "before": "Anger namnet på standardstrategin för matchning.",
+      "after": "Ange namnet på standardstrategin för matchning.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1527",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Provide timing information after successful completion of an operation.",
+      "before": "Tillhandahåll tidsinformation efter lyckat avslut av en åtgärd.",
+      "after": "Tillhandahåll tidsinformation efter att en åtgärd har slutförts.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1587",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Configuration file structure for dicod.\nFor more information, use `info dico configuration'.",
+      "before": "Konfigurationsfilstrukturen för dicod.\nFör ytterligare information, använd ”info dico configuration”.",
+      "after": "Konfigurationsfilens struktur för dicod.\nFör mer information, använd ”info dico configuration”.",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1615",
+      "project": "tp:dico-2.10.90",
+      "msgid": "run unit tests for module; subsequent arguments are treated as module name and unit test arguments; the -- marker introduces module initialization arguments",
+      "before": "kör enhetstester för modul; följande argument behandlas som modulnamn och enhetstestargument; markören -- introducerar argument för modulinitiering",
+      "after": "kör modultester; efterföljande argument behandlas som modulnamn och testargument; markören -- inleder argument för modulinitiering",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1627",
+      "project": "tp:dico-2.10.90",
+      "msgid": "read this configuration file",
+      "before": "läs av denna konfigurationsfil",
+      "after": "läs den här konfigurationsfilen",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1631",
+      "project": "tp:dico-2.10.90",
+      "msgid": "operate in foreground",
+      "before": "jobba i förgrunden",
+      "after": "kör i förgrunden",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1635",
+      "project": "tp:dico-2.10.90",
+      "msgid": "output diagnostic to stderr",
+      "before": "mata ut diagnostik till stderr",
+      "after": "skriv diagnostik till standardfel",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1639",
+      "project": "tp:dico-2.10.90",
+      "msgid": "output diagnostic to syslog (default)",
+      "before": "mata ut diagnostik till syslog (standard)",
+      "after": "skriv diagnostik till syslog (standard)",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1643",
+      "project": "tp:dico-2.10.90",
+      "msgid": "single-process mode",
+      "before": "enskild process-läge",
+      "after": "enprocessläge",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1651",
+      "project": "tp:dico-2.10.90",
+      "msgid": "prepend DIR to the module load path",
+      "before": "lägg till KAT till modulens inläsningssökväg",
+      "after": "lägg till KAT före modulens inläsningssökväg",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1667",
+      "project": "tp:dico-2.10.90",
+      "msgid": "trace config file lexer",
+      "before": "spåra konfigurationsfil-lexer",
+      "after": "spåra lexern för konfigurationsfilen",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1675",
+      "project": "tp:dico-2.10.90",
+      "msgid": "show configuration file summary",
+      "before": "visa sammanfattning för konfigurationsfilen",
+      "after": "visa sammanfattning av konfigurationsfilen",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1679",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Preprocessor control",
+      "before": "Förprocessorkontroll",
+      "after": "Styrning av förprocessor",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1687",
+      "project": "tp:dico-2.10.90",
+      "msgid": "use PROG as a preprocessor for config file",
+      "before": "använd PROG som en förprocessor för konfigurationsfilen",
+      "after": "använd PROG som förprocessor för konfigurationsfilen",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1695",
+      "project": "tp:dico-2.10.90",
+      "msgid": "add the directory DIR to the list of directories to be searched for preprocessor include files",
+      "before": "lägg till katalogen DIR till listan över kataloger att sökas igenom efter include-filer till förprocessorn",
+      "after": "lägg till katalogen DIR i listan över kataloger som genomsöks efter include-filer för preprocessorn",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1703",
+      "project": "tp:dico-2.10.90",
+      "msgid": "define a preprocessor symbol",
+      "before": "definiera en symbol för förprocessor",
+      "after": "definiera en preprocessorsymbol",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1707",
+      "project": "tp:dico-2.10.90",
+      "msgid": "GNU dictionary server",
+      "before": "GNU ordboksserver",
+      "after": "GNU-ordboksserver",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1748",
+      "project": "tp:dico-2.10.90",
+      "msgid": "file %s exists but cannot be stat'd",
+      "before": "filen %s existerar men det går inte att ta stat",
+      "after": "filen %s finns men det går inte att hämta dess status",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1758",
+      "project": "tp:dico-2.10.90",
+      "msgid": "cannot unlink file %s",
+      "before": "det går inte att köra unlink på filen %s",
+      "after": "det går inte att länka bort filen %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1763",
+      "project": "tp:dico-2.10.90",
+      "msgid": "unsupported address family: %d",
+      "before": "adressfamiljen stöds ej: %d",
+      "after": "adressfamiljen stöds inte: %d",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1772",
+      "project": "tp:dico-2.10.90",
+      "msgid": "%lu exited successfully",
+      "before": "%lu avslutades lyckat",
+      "after": "%lu avslutades utan fel",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1797",
+      "project": "tp:dico-2.10.90",
+      "msgid": "%lu dumped core",
+      "before": "%lu dumpade kärnan",
+      "after": "%lu skapade en minnesdump",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1822",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Cannot unlink pidfile `%s'",
+      "before": "Det går inte att länka av pidfilen ”%s”",
+      "after": "Det går inte att länka bort pidfilen ”%s”",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1837",
+      "project": "tp:dico-2.10.90",
+      "msgid": "fork failed",
+      "before": "misslyckades med gren(fork)",
+      "after": "fork misslyckades",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1845",
+      "project": "tp:dico-2.10.90",
+      "msgid": "refusing to restart due to unexpected return status of configuration checker",
+      "before": "vägrar att starta om på grund av oväntad returstatus på konfiguratiionskontrollen",
+      "after": "vägrar att starta om på grund av oväntad slutstatus från konfigurationskontrollen",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1866",
+      "project": "tp:dico-2.10.90",
+      "msgid": "select error",
+      "before": "valfel",
+      "after": "fel i select",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1870",
+      "project": "tp:dico-2.10.90",
+      "msgid": "%s started",
+      "before": "%s startad",
+      "after": "%s startade",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1879",
+      "project": "tp:dico-2.10.90",
+      "msgid": "dicod started without full file name",
+      "before": "dicod startade utan fullt filnamn",
+      "after": "dicod startades utan fullständigt filnamn",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1887",
+      "project": "tp:dico-2.10.90",
+      "msgid": "configuration file is not given with a full file name",
+      "before": "konfigurationsfilen är inte angiven med ett helt filnamn",
+      "after": "konfigurationsfilen har inte angetts med fullständigt filnamn",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1891",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Cannot become a daemon",
+      "before": "Det går inte att bli en demon",
+      "after": "Det går inte att bli en daemon",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1914",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Incorrect length of IDENT DES packet",
+      "before": "Inkorrekt längd på IDENT DES-paket",
+      "after": "Felaktig längd på IDENT DES-paket",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1923",
+      "project": "tp:dico-2.10.90",
+      "msgid": "cannot create socket for AUTH identification",
+      "before": "det går inte att öppna uttag för AUTH-identifiering",
+      "after": "det går inte att skapa uttag för AUTH-identifiering",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1936",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Malformed IDENT response: `%s', from %s",
+      "before": "Ogilitigt IDENT-svar: ”%s” från %s",
+      "after": "Felaktigt IDENT-svar: ”%s”, från %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1941",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Keyfile for AUTH responses not specified in config; use `ident-keyfile FILE'",
+      "before": "Nyckelfilen för AUTH-svar är inte specificerad i konfigurationen; använd ”ident-keyfile FIL”",
+      "after": "Nyckelfil för AUTH-svar har inte angetts i konfigurationen; använd ”ident-keyfile FIL”",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1945",
+      "project": "tp:dico-2.10.90",
+      "msgid": "failure while communicating with AUTH server %s",
+      "before": "misslyckades för kommunikation med AUTH-servern %s",
+      "after": "fel vid kommunikation med AUTH-servern %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1965",
+      "project": "tp:dico-2.10.90",
+      "msgid": "log format error (near char %td): unknown format char `%c'",
+      "before": "loggformatfel (nära tecken %td): saknar avslutande ”%c”",
+      "after": "loggformatfel (nära tecken %td): okänt formateringstecken ”%c”",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:1995",
+      "project": "tp:dico-2.10.90",
+      "msgid": "user name not supplied",
+      "before": "användarnamn inte angivet",
+      "after": "användarnamn har inte angetts",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2004",
+      "project": "tp:dico-2.10.90",
+      "msgid": "mod_init: cannot stat `%s'",
+      "before": "mod_init: det går inte att ta stat: ”%s”",
+      "after": "mod_init: det går inte att hämta status för ”%s”",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2029",
+      "project": "tp:dico-2.10.90",
+      "msgid": "open_index: cannot stat `%s'",
+      "before": "open_index: det går inte ta stat ”%s”",
+      "after": "open_index: det går inte att hämta status för ”%s”",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2045",
+      "project": "tp:dico-2.10.90",
+      "msgid": "cannot open stream `%s': %s",
+      "before": "det går inte att skapa strömmen ”%s”:%s",
+      "after": "det går inte att öppna strömmen ”%s”: %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2051",
+      "project": "tp:dico-2.10.90",
+      "msgid": "cannot open stream for dictionary `%s'",
+      "before": "det går inte att skapa strömmen för uppslaget ”%s”",
+      "after": "det går inte att öppna strömmen för ordboken ”%s”",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2056",
+      "project": "tp:dico-2.10.90",
+      "msgid": "mod_init_db(%s): database name not given",
+      "before": "mod_init_db(%s): databasnamn inte angivet",
+      "after": "mod_init_db(%s): databasnamn har inte angetts",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2066",
+      "project": "tp:dico-2.10.90",
+      "msgid": "mod_init_db(%s): index files in old 8-bit format are not supported",
+      "before": "mod_init_db(%s): indexfiler i gamla 8-bitars format stöds ej",
+      "after": "mod_init_db(%s): indexfiler i gammalt 8-bitarsformat stöds inte",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2086",
+      "project": "tp:dico-2.10.90",
+      "msgid": "cannot initialize inflation engine: %s",
+      "before": "det går inte att initiera inflationsmotor: %s",
+      "after": "det går inte att initiera dekomprimeringsmotorn: %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2096",
+      "project": "tp:dico-2.10.90",
+      "msgid": "%s:%d: INTERNAL ERROR: cannot shut down inflation engine: %s",
+      "before": "%s:%d: INTERNT FEL: det går inte att stänga ner inflationsmotor: %s",
+      "after": "%s:%d: INTERNT FEL: det går inte att stänga dekomprimeringsmotorn: %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2106",
+      "project": "tp:dico-2.10.90",
+      "msgid": "unknown dictionary format",
+      "before": "okänd ordboksformat",
+      "after": "okänt ordboksformat",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2114",
+      "project": "tp:dico-2.10.90",
+      "msgid": "unsupported dictionary version",
+      "before": "version av ordbok som ej stöds",
+      "after": "ordboksversionen stöds inte",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2126",
+      "project": "tp:dico-2.10.90",
+      "msgid": "error decompressing stream",
+      "before": "fel vid upppackning av ström",
+      "after": "fel vid uppackning av ström",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2130",
+      "project": "tp:dico-2.10.90",
+      "msgid": "%s: not enough memory",
+      "before": "%s: inte nog med minne",
+      "after": "%s: inte tillräckligt med minne",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2140",
+      "project": "tp:dico-2.10.90",
+      "msgid": "procedure `%s' failed: see error output for details",
+      "before": "proceduren ”%s” misslyckades: se felutdata för detaljer",
+      "after": "proceduren ”%s” misslyckades; se felutdata för detaljer",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2154",
+      "project": "tp:dico-2.10.90",
+      "msgid": "mod_init: cannot load init script %s",
+      "before": "mod_init: det går inte att läsa init-skript %s",
+      "after": "mod_init: det går inte att läsa in init-skriptet %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2177",
+      "project": "tp:dico-2.10.90",
+      "msgid": "outline_lang: not enough memory",
+      "before": "outline_lang: inte nog med minne",
+      "after": "outline_lang: inte tillräckligt med minne",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2214",
+      "project": "tp:dico-2.10.90",
+      "msgid": "cannot allocate handle",
+      "before": "det går inte allokera handtag",
+      "after": "det går inte att allokera handtag",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2218",
+      "project": "tp:dico-2.10.90",
+      "msgid": "cannot expand query `%s': %s",
+      "before": "det går inte att utöka fråga ”%s”: %s",
+      "after": "det går inte att expandera frågan ”%s”: %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2223",
+      "project": "tp:dico-2.10.90",
+      "msgid": "gcide: cannot stat `%s'",
+      "before": "gcide: det går inte ta stat ”%s”",
+      "after": "gcide: det går inte att hämta status för ”%s”",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2233",
+      "project": "tp:dico-2.10.90",
+      "msgid": "gcide: `%s' is not readable",
+      "before": "gcid: ”%s” är inte läsbart",
+      "after": "gcide: ”%s” är inte läsbar",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2248",
+      "project": "tp:dico-2.10.90",
+      "msgid": "gcide_open_idx: fork failed",
+      "before": "gcide_open_idx: gren misslyckades",
+      "after": "gcide_open_idx: fork misslyckades",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2257",
+      "project": "tp:dico-2.10.90",
+      "msgid": "gcide_open_idx: %s exited with status %d",
+      "before": "gcide_open_idx: %s misslyckades med status %d",
+      "after": "gcide_open_idx: %s avslutades med status %d",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2262",
+      "project": "tp:dico-2.10.90",
+      "msgid": "gcide: can't stat `%s'",
+      "before": "gcide: det går inte att använda stat ”%s”",
+      "after": "gcide: det går inte att hämta status för ”%s”",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2276",
+      "project": "tp:dico-2.10.90",
+      "msgid": "gcide_init_db: database directory not given",
+      "before": "gcide_init_db: databaskatalogen inte angiven",
+      "after": "gcide_init_db: databaskatalogen har inte angetts",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2285",
+      "project": "tp:dico-2.10.90",
+      "msgid": "cannot get size of stream `%s': %s",
+      "before": "det går inte att erhålla storlek på strömmen ”%s”: %s",
+      "after": "det går inte att hämta storleken på strömmen ”%s”: %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2290",
+      "project": "tp:dico-2.10.90",
+      "msgid": "cannot allocate dictionary information buffer",
+      "before": "det går inte att allokera information för ordboksbuffert",
+      "after": "det går inte att allokera informationsbuffert för ordboken",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2309",
+      "project": "tp:dico-2.10.90",
+      "msgid": "short read while reading from `%s'",
+      "before": "kort läsning medan läsning pågår från ”%s”",
+      "after": "kort läsning från ”%s”",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2329",
+      "project": "tp:dico-2.10.90",
+      "msgid": "seek error on `%s' while positioning to %lu",
+      "before": "sökfel på ”%s” vid positionering mot %lu",
+      "after": "sökfel i ”%s” vid positionering till %lu",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2351",
+      "project": "tp:dico-2.10.90",
+      "msgid": "%s:%u: unknown or illegible character in a headword",
+      "before": "%s: %u: okänt eller dåligt tecken i huvudord",
+      "after": "%s:%u: okänt eller oläsligt tecken i ett huvudord",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2384",
+      "project": "tp:dico-2.10.90",
+      "msgid": "headwords=%lu, definitions=%lu, refs per page=%lu, pages=%lu",
+      "before": "huvudord=%lu, definitioner=%lu, refs per sida=%lu, sidor=%lu",
+      "after": "huvudord=%lu, definitioner=%lu, referenser per sida=%lu, sidor=%lu",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2404",
+      "project": "tp:dico-2.10.90",
+      "msgid": "cannot open wordnet database",
+      "before": "det går inte att öppna wordnet-databas",
+      "after": "det går inte att öppna WordNet-databasen",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2462",
+      "project": "tp:dico-2.10.90",
+      "msgid": "time",
+      "before": "time",
+      "after": "tid",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2466",
+      "project": "tp:dico-2.10.90",
+      "msgid": "of times",
+      "before": "av time",
+      "after": "av tider",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2490",
+      "project": "tp:dico-2.10.90",
+      "msgid": "of CIDR",
+      "before": "av CIDR-namn",
+      "after": "av CIDR-nät",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2530",
+      "project": "tp:dico-2.10.90",
+      "msgid": "stray character %c",
+      "before": "löst tecken: %c",
+      "after": "ensamt tecken: %c",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2535",
+      "project": "tp:dico-2.10.90",
+      "msgid": "stray character \\%03o",
+      "before": "löst tecken \\%03o",
+      "after": "ensamt tecken \\%03o",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2545",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Unable to start external preprocessor `%s'",
+      "before": "Det går inte att starta extern förprocessor ”%s”",
+      "after": "Det går inte att starta den externa preprocessorn ”%s”",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2550",
+      "project": "tp:dico-2.10.90",
+      "msgid": "cannot parse #line line: %s",
+      "before": "det går inte att tolka #rad-rad: %s",
+      "after": "det går inte att tolka #line-raden: %s",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2555",
+      "project": "tp:dico-2.10.90",
+      "msgid": "invalid #line statement",
+      "before": "ogiltigt #raduttryck",
+      "after": "ogiltig #line-sats",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2559",
+      "project": "tp:dico-2.10.90",
+      "msgid": "malformed #line statement",
+      "before": "felaktigt #raduttryck",
+      "after": "felaktig #line-sats",
+      "reason": "Rättar svensk formulering och tekniska termer."
+    },
+    {
+      "tp_id": "dico:2622",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Written by ",
+      "before": "Skapad av ",
+      "after": "Skriven av ",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "dico:2653",
+      "project": "tp:dico-2.10.90",
+      "msgid": "parse error",
+      "before": "tolka fel",
+      "after": "tolkningsfel",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "dico:2657",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Cannot stat `%s'",
+      "before": "Det går inte att ta stat ”%s”",
+      "after": "Det går inte att hämta status för ”%s”",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "dico:2662",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Recursive inclusion",
+      "before": "Rekursiv inklusion",
+      "after": "Rekursiv inkludering",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "dico:2676",
+      "project": "tp:dico-2.10.90",
+      "msgid": "Cannot parse include line",
+      "before": "Det går inte att tolka inkluderad rad",
+      "after": "Det går inte att tolka include-raden",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "dico:2680",
+      "project": "tp:dico-2.10.90",
+      "msgid": "invalid include statement",
+      "before": "ogiltigt include-intryck",
+      "after": "ogiltig include-sats",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "dico:2698",
+      "project": "tp:dico-2.10.90",
+      "msgid": "socket path name too long: %s",
+      "before": "sökväg för uttagsnamn för långt: %s",
+      "after": "sökvägen till uttaget är för lång: %s",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "dico:2708",
+      "project": "tp:dico-2.10.90",
+      "msgid": "service not specified: %s",
+      "before": "tjänst ej specificerad: %s",
+      "after": "tjänst har inte angetts: %s",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "dico:2718",
+      "project": "tp:dico-2.10.90",
+      "msgid": "unknown or unsupported scheme: %s",
+      "before": "schemat är okänt eller stöds ej: %s",
+      "after": "okänt eller ej stött schema: %s",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "dico:2744",
+      "project": "tp:dico-2.10.90",
+      "msgid": "unrecognized type; please report",
+      "before": "okänd typ; vänligen rapportera",
+      "after": "okänd typ; rapportera felet",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "dico:2748",
+      "project": "tp:dico-2.10.90",
+      "msgid": "section keyword used as a scalar",
+      "before": "sektionsnyckelord använd som skalär",
+      "after": "sektionsnyckelord används som skalärt värde",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "dico:2752",
+      "project": "tp:dico-2.10.90",
+      "msgid": "scalar keyword used as a section",
+      "before": "skalärnyckelord använd som sektion",
+      "after": "skalärt nyckelord används som sektion",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "dico:2775",
+      "project": "tp:dico-2.10.90",
+      "msgid": "missing port number",
+      "before": "saknar portnummer",
+      "after": "portnummer saknas",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "dico:2783",
+      "project": "tp:dico-2.10.90",
+      "msgid": "value out of allowed range",
+      "before": "värde utanför tillåtet intervall",
+      "after": "värdet ligger utanför tillåtet intervall",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:476",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "failed to reopen %s with mode %s",
+      "before": "kunde inte öppna om %s i läge %s",
+      "after": "det gick inte att öppna %s igen i läge %s",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:481",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "failed to open all three standard file descriptors; maybe %s or %s are not working right?",
+      "before": "misslyckades att öppna alla tra standardfilbeskrivare; kanske %s eller %s inte fungerar som de skall?",
+      "after": "det gick inte att öppna alla tre standardfilbeskrivarna; kanske fungerar %s eller %s inte korrekt?",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:486",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "Files %s and %s differ\n",
+      "before": "Filerna %s och %s skiljer\n",
+      "after": "Filerna %s och %s skiljer sig\n",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:491",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "Binary files %s and %s differ\n",
+      "before": "De binära filerna %s och %s skiljer\n",
+      "after": "Binärfilerna %s och %s skiljer sig\n",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:509",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "invalid --ignore-initial value %s",
+      "before": "ogiltigt värde till --ignore-initial %s",
+      "after": "ogiltigt värde för --ignore-initial: %s",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:528",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-b, --print-bytes          print differing bytes",
+      "before": "-b  --print-bytes          skriv ut byte som skiljer",
+      "after": "-b, --print-bytes          skriv ut byte som skiljer sig",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:532",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-i, --ignore-initial=SKIP         skip first SKIP bytes of both inputs",
+      "before": "-i,  --ignore-initial=HOPP        hoppa över de första HOPP byte indata",
+      "after": "-i, --ignore-initial=HOPP         hoppa över de första HOPP bytena i båda indata",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:544",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-l, --verbose              output byte numbers and differing byte values",
+      "before": "-l, --verbose              skriv ut bytenummer och värde för alla skiljande byte",
+      "after": "-l, --verbose              skriv ut bytenummer och värden för byte som skiljer sig",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:552",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-s, --quiet, --silent      suppress all normal output",
+      "before": "-s, --quiet, --silent      undertryck all normal utskrift",
+      "after": "-s, --quiet, --silent      undertryck all normal utdata",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:560",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-v, --version              output version information and exit",
+      "before": "-v  --version              visa versionsinformation och avsluta",
+      "after": "-v, --version              visa versionsinformation och avsluta",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:573",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "The optional SKIP1 and SKIP2 specify the number of bytes to skip\nat the beginning of each file (zero by default).",
+      "before": "De valfria HOPP1 och HOPP2 anger antalet byte att hoppa över\ni början varje fil (noll som standard).",
+      "after": "De valfria HOPP1 och HOPP2 anger antalet byte att hoppa över\ni början av varje fil, noll som standard.",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:595",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "If a FILE is '-' or missing, read standard input.",
+      "before": "Om FIL är ”-” eller utelämnats, läs standard in.",
+      "after": "Om FIL är ”-” eller saknas, läs standardindata.",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:599",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "Exit status is 0 if inputs are the same, 1 if different, 2 if trouble.",
+      "before": "Slutsstatus är 0 om indata är lika, 1 om olika, 2 vid problem.",
+      "after": "Slutstatus är 0 om indata är lika, 1 om de skiljer sig och 2 vid problem.",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:603",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "invalid --bytes value %s",
+      "before": "ogiltigt värde till --bytes %s",
+      "after": "ogiltigt värde för --bytes: %s",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:618",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "%s %s differ: byte %<PRIdMAX>, line %<PRIdMAX>\n",
+      "before": "%s %s skiljer: byte %<PRIdMAX>, rad %<PRIdMAX>\n",
+      "after": "%s och %s skiljer sig: byte %<PRIdMAX>, rad %<PRIdMAX>\n",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:623",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "%s %s differ: byte %<PRIdMAX>, line %<PRIdMAX> is %3o %s %3o %s\n",
+      "before": "%s %s skiljer: byte %<PRIdMAX>, rad %<PRIdMAX> är %3o %s %3o %s\n",
+      "after": "%s och %s skiljer sig: byte %<PRIdMAX>, rad %<PRIdMAX> är %3o %s %3o %s\n",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:628",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "cmp: EOF on %s which is empty\n",
+      "before": "cmp: EOF i %s som är tom\n",
+      "after": "cmp: EOF i %s, som är tom\n",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:668",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "invalid context length %s",
+      "before": "ogiltig omgivningslängd %s",
+      "after": "ogiltig omgivningslängd: %s",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:673",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "pagination not supported on this host",
+      "before": "sidvisning stödjs ej på denna värd",
+      "after": "sidvisning stöds inte på denna värd",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:678",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "too many file label options",
+      "before": "för många etikettflaggor",
+      "after": "för många flaggor för etiketter",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:688",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "conflicting width options",
+      "before": "konflikt mellan breddflaggor",
+      "after": "motstridiga breddflaggor",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:692",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "invalid horizon length %s",
+      "before": "ogiltig horisontlängd %s",
+      "after": "ogiltig horisontlängd: %s",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:697",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "invalid tabsize %s",
+      "before": "ogiltigt tabulatorsteg %s",
+      "after": "ogiltigt tabulatorsteg: %s",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:702",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "conflicting tabsize options",
+      "before": "konflikt mellan tabulatorflaggor",
+      "after": "motstridiga tabulatorflaggor",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:710",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "    --normal                  output a normal diff (the default)",
+      "before": "    --normal                  skriv ut en normal diff (standard)",
+      "after": "    --normal                  skriv ut en normal diff, standard",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:718",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-s, --report-identical-files  report when two files are the same",
+      "before": "-s  --report-identical-files  rapportera om två filer är lika",
+      "after": "-s, --report-identical-files  rapportera när två filer är lika",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:722",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-c, -C NUM, --context[=NUM]   output NUM (default 3) lines of copied context",
+      "before": "-c, -C ANT, --context[=ANT]   skriv ANT (3 som standard) rader kopia av sammanhang",
+      "after": "-c, -C ANT, --context[=ANT]   skriv ut ANT rader med kopierat sammanhang, 3 som standard",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:726",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-u, -U NUM, --unified[=NUM]   output NUM (default 3) lines of unified context",
+      "before": "-u, -U ANT, --unified[=ANT]   skriv ut ANT (3 som standard) rader med\n                                 sammanslagen omgivning",
+      "after": "-u, -U ANT, --unified[=ANT]   skriv ut ANT rader med enhetligt sammanhang, 3 som standard",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:744",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-W, --width=NUM               output at most NUM (default 130) print columns",
+      "before": "-W, --width=ANT               skriv ut högst ANT (130 som standard) kolumner",
+      "after": "-W, --width=ANT               skriv ut högst ANT kolumner, 130 som standard",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:776",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-T, --initial-tab             make tabs line up by prepending a tab",
+      "before": "-T, --initial-tab             justera tabulatorer genom att skjuta in en",
+      "after": "-T, --initial-tab             justera tabulatorer genom att lägga till en inledande tabulator",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:784",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "    --suppress-blank-empty    suppress space or tab before empty output lines",
+      "before": "    --suppress-blank-empty    undertryck blanka eller tabulatorer före tomma\n                                utrader",
+      "after": "    --suppress-blank-empty    undertryck blanksteg eller tabulatorer före tomma utdatarader",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:790",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-l, --paginate                pass output through 'pr' to paginate it",
+      "before": "-l, --paginate                skicka utdata till ”pr” för paginering",
+      "after": "-l, --paginate                skicka utdata till ”pr” för sidindelning",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:806",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "    --unidirectional-new-file   treat absent first files as empty",
+      "before": "    --unidirectional-new-file   behandla saknade förstafiler som tomma",
+      "after": "    --unidirectional-new-file   behandla saknade första filer som tomma",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:810",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "    --ignore-file-name-case     ignore case when comparing file names",
+      "before": "    --ignore-file-name-case     bortse från skiftläge när filnamn jämförs",
+      "after": "    --ignore-file-name-case     bortse från skiftläge vid jämförelse av filnamn",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:814",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "    --no-ignore-file-name-case  consider case when comparing file names",
+      "before": "    --no-ignore-file-name-case  ta hänsyn till skiftläge när filnamn jämförs",
+      "after": "    --no-ignore-file-name-case  ta hänsyn till skiftläge vid jämförelse av filnamn",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:822",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-X, --exclude-from=FILE         exclude files that match any pattern in FILE",
+      "before": "-X, --exclude-from=FIL         uteslut filer som matchar något mönster i FIL",
+      "after": "-X, --exclude-from=FIL         uteslut filer som matchar ett mönster i FIL",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:850",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-E, --ignore-tab-expansion      ignore changes due to tab expansion",
+      "before": "-E, --ignore-tab-expansion      bortse från ändringar på grund av tab-expansion",
+      "after": "-E, --ignore-tab-expansion      bortse från ändringar på grund av tabulatorexpansion",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:854",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-Z, --ignore-trailing-space     ignore white space at line end",
+      "before": "-Z, --ignore-trailing-space     ignorera alla blanktecken i slutet av raden",
+      "after": "-Z, --ignore-trailing-space     bortse från blanktecken i slutet av raden",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:858",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-b, --ignore-space-change       ignore changes in the amount of white space",
+      "before": "-b, --ignore-space-change       bortse från ändringar i antalet blanka",
+      "after": "-b, --ignore-space-change       bortse från ändringar i mängden blanktecken",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:866",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "-B, --ignore-blank-lines        ignore changes where lines are all blank",
+      "before": "-B, --ignore-blank-lines        bortse från ändringar där raderna är helt blanka",
+      "after": "-B, --ignore-blank-lines        bortse från ändringar där rader är helt blanka",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:878",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "    --strip-trailing-cr         strip trailing carriage return on input",
+      "before": "    --strip-trailing-cr         tag bort avslutande vagnreturer i indata",
+      "after": "    --strip-trailing-cr         ta bort avslutande vagnretur i indata",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:882",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "    --binary                    read and write data in binary mode",
+      "before": "    --binary                    läs och skriv data binärt",
+      "after": "    --binary                    läs och skriv data i binärt läge",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:904",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "  These format options provide fine-grained control over the output\n    of diff, generalizing -D/--ifdef.",
+      "before": "  Dessa formatflaggor gör det möjligt att finjustera utskriften från\n    diff, generaliserande -D/--ifdef.",
+      "after": "  Dessa formatflaggor ger detaljerad kontroll över diff:s utdata\noch generaliserar -D/--ifdef.",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
+    },
+    {
+      "tp_id": "diffutils:912",
+      "project": "tp:diffutils-3.10.242",
+      "msgid": "  LTYPE is 'old', 'new', or 'unchanged'.  GTYPE is LTYPE or 'changed'.",
+      "before": "  RTYP är ”old”, ”new” eller ”unchanged”.  GTYP är RTYP eller ”changed”.",
+      "after": "  LTYPE är ”old”, ”new” eller ”unchanged”. GTYPE är LTYPE eller ”changed”.",
+      "reason": "Rättar svensk formulering, terminologi och programhjälp."
     }
   ]
 }
