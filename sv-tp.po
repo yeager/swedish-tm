@@ -369792,11 +369792,11 @@ msgstr "regexp-konstanten ”/%s/” ser ut som en C-kommentar men är inte det"
 
 #. from tp:gawk-5.3.66
 msgid "duplicate case values in switch body: %s"
-msgstr "upprepade case-värden i switch-sats: %s"
+msgstr "dubbla case-värden i switch-satsen: %s"
 
 #. from tp:gawk-5.3.66
 msgid "duplicate `default' detected in switch body"
-msgstr "flera ”default” upptäcktes i switch-sats"
+msgstr "flera ”default” påträffades i switch-satsen"
 
 #. from tp:gawk-5.3.66
 msgid "`break' is not allowed outside a loop or switch"
@@ -369808,19 +369808,19 @@ msgstr "”continue” är inte tillåtet utanför en slinga"
 
 #. from tp:gawk-5.3.66
 msgid "`next' used in %s action"
-msgstr "”next” använt i %s-åtgärd"
+msgstr "”next” används i %s-åtgärden"
 
 #. from tp:gawk-5.3.66
 msgid "`nextfile' used in %s action"
-msgstr "”nextfile” använt i %s-åtgärd"
+msgstr "”nextfile” används i %s-åtgärden"
 
 #. from tp:gawk-5.3.66
 msgid "`return' used outside function context"
-msgstr "”return” använd utanför funktion"
+msgstr "”return” används utanför en funktionskontext"
 
 #. from tp:gawk-5.3.66
 msgid "plain `print' in BEGIN or END rule should probably be `print \"\"'"
-msgstr "ensamt ”print” i BEGIN eller END-regel bör troligen vara 'print \"\"'"
+msgstr "ensamt ”print” i en BEGIN- eller END-regel bör troligen vara ”print \\\"\\\"”"
 
 #. from tp:gawk-5.3.66
 msgid "`delete' is not allowed with SYMTAB"
@@ -369836,7 +369836,7 @@ msgstr "flerstegs dubbelriktade rör fungerar inte"
 
 #. from tp:gawk-5.3.66
 msgid "concatenation as I/O `>' redirection target is ambiguous"
-msgstr "konkatenering som omdirigeringsmålet för I/O ”>” är tvetydig"
+msgstr "konkatenering som omdirigeringsmål för I/O ”>” är tvetydig"
 
 #. from tp:gawk-5.3.66
 msgid "regular expression on right of assignment"
@@ -369844,7 +369844,7 @@ msgstr "reguljärt uttryck i högerledet av en tilldelning"
 
 #. from tp:gawk-5.3.66
 msgid "regular expression on left of `~' or `!~' operator"
-msgstr "reguljärt uttryck på vänster sida om en ”~”- eller ”!~”-operator"
+msgstr "reguljärt uttryck till vänster om operatorn ”~” eller ”!~”"
 
 #. from tp:gawk-5.3.66
 msgid "old awk does not support the keyword `in' except after `for'"
@@ -369856,11 +369856,11 @@ msgstr "reguljärt uttryck i högerledet av en jämförelse"
 
 #. from tp:gawk-5.3.66
 msgid "non-redirected `getline' invalid inside `%s' rule"
-msgstr "icke omdirigerad ”getline” är ogiltigt inuti ”%s”-regel"
+msgstr "icke-omdirigerad ”getline” är ogiltig inuti regeln ”%s”"
 
 #. from tp:gawk-5.3.66
 msgid "non-redirected `getline' undefined inside END action"
-msgstr "icke omdirigerad ”getline” odefinierad inuti END-åtgärd"
+msgstr "icke-omdirigerad ”getline” är odefinierad inuti END-åtgärden"
 
 #. from tp:gawk-5.3.66
 msgid "old awk does not support multidimensional arrays"
@@ -369880,7 +369880,7 @@ msgstr "det går inte att använda specialvariabeln ”%s” för indirekta funk
 
 #. from tp:gawk-5.3.66
 msgid "attempt to use non-function `%s' in function call"
-msgstr "försök att använda en icke-funktion ”%s” i ett funktionsanrop"
+msgstr "försök att använda icke-funktionen ”%s” i ett funktionsanrop"
 
 #. from tp:gawk-5.3.66
 msgid "invalid subscript expression"
@@ -369892,7 +369892,7 @@ msgstr "ödesdigert: "
 
 #. from tp:gawk-5.3.66
 msgid "unexpected newline or end of string"
-msgstr "oväntat nyradstecken eller slut på strängen"
+msgstr "oväntad radbrytning eller slut på strängen"
 
 #. from tp:gawk-5.3.66
 msgid "source files / command-line arguments must contain complete functions or rules"
@@ -369908,15 +369908,15 @@ msgstr "kan inte öppna det delade biblioteket ”%s” för läsning: %s"
 
 #. from tp:gawk-5.3.66
 msgid "cannot include `%s' and use it as a program file"
-msgstr "kan inte inkludera ”%s” och använda den som en programfil"
+msgstr "kan inte inkludera ”%s” och använda den som programfil"
 
 #. from tp:gawk-5.3.66
 msgid "already included source file `%s'"
-msgstr "inkluderade redan källfilen ”%s”"
+msgstr "källfilen ”%s” har redan inkluderats"
 
 #. from tp:gawk-5.3.66
 msgid "already loaded shared library `%s'"
-msgstr "inkluderade redan det delade biblioteket ”%s”"
+msgstr "det delade biblioteket ”%s” har redan lästs in"
 
 #. from tp:gawk-5.3.66
 msgid "@include is a gawk extension"
@@ -369964,11 +369964,11 @@ msgstr "oavslutat reguljärt uttryck i slutet av filen"
 
 #. from tp:gawk-5.3.66
 msgid "use of `\\ #...' line continuation is not portable"
-msgstr "Användning av ”\\ #...” för radfortsättning är inte portabelt"
+msgstr "användning av ”\\ #...” för radfortsättning är inte portabel"
 
 #. from tp:gawk-5.3.66
 msgid "backslash not last character on line"
-msgstr "sista tecknet på raden är inte ett omvänt snedstreck"
+msgstr "ett omvänt snedstreck är inte sista tecknet på raden"
 
 #. from tp:gawk-5.3.66
 msgid "multidimensional arrays are a gawk extension"
@@ -370024,7 +370024,7 @@ msgstr "%s: tredje argumentet är inte ett ändringsbart objekt"
 
 #. from tp:gawk-5.3.66
 msgid "match: regexp constant as first argument is probably not what you want"
-msgstr "match: reguljäruttryckskonstant som första argumente är förmodligen inte vad du vill"
+msgstr "match: reguljärt uttryck som första argument är förmodligen inte vad du vill"
 
 #. from tp:gawk-5.3.66
 msgid "match: third argument is a gawk extension"
@@ -370036,11 +370036,11 @@ msgstr "close: andra argumentet är en gawk-utökning"
 
 #. from tp:gawk-5.3.66
 msgid "use of dcgettext(_\"...\") is incorrect: remove leading underscore"
-msgstr "användandet av dcgettext(_\"...\") är felaktigt: ta bort det inledande understrykningstecknet"
+msgstr "användningen av dcgettext(_\"...\") är felaktig: ta bort inledande understreck"
 
 #. from tp:gawk-5.3.66
 msgid "use of dcngettext(_\"...\") is incorrect: remove leading underscore"
-msgstr "användandet av dcngettext(_\"...\") är felaktigt: ta bort det inledande understrykningstecknet"
+msgstr "användningen av dcngettext(_\"...\") är felaktig: ta bort inledande understreck"
 
 #. from tp:gawk-5.3.66
 msgid "index: regexp constant as second argument is not allowed"
@@ -370056,15 +370056,15 @@ msgstr "kunde inte öppna ”%s” för skrivning: %s"
 
 #. from tp:gawk-5.3.66
 msgid "sending variable list to standard error"
-msgstr "skickar variabellista till standard fel"
+msgstr "skickar variabellistan till standardfel"
 
 #. from tp:gawk-5.3.66
 msgid "%s: close failed: %s"
-msgstr "%s: misslyckades att stänga: %s"
+msgstr "%s: stängning misslyckades: %s"
 
 #. from tp:gawk-5.3.66
 msgid "shadow_funcs() called twice!"
-msgstr "shadow_funcs() anropad två gånger!"
+msgstr "shadow_funcs() anropades två gånger!"
 
 #. from tp:gawk-5.3.66
 msgid "there were shadowed variables"
@@ -370088,15 +370088,15 @@ msgstr "funktionen ”%s”: parametern ”%s” får inte innehålla en namnrym
 
 #. from tp:gawk-5.3.66
 msgid "function `%s': parameter #%d, `%s', duplicates parameter #%d"
-msgstr "funktionen ”%s”: parameter %d, ”%s”, är samma som parameter %d"
+msgstr "funktionen ”%s”: parameter %d, ”%s”, duplicerar parameter %d"
 
 #. from tp:gawk-5.3.66
 msgid "function `%s' called but never defined"
-msgstr "funktionen ”%s” anropad men aldrig definierad"
+msgstr "funktionen ”%s” anropas men definieras aldrig"
 
 #. from tp:gawk-5.3.66
 msgid "function `%s' defined but never called directly"
-msgstr "funktionen ”%s” definierad men aldrig anropad direkt"
+msgstr "funktionen ”%s” definieras men anropas aldrig direkt"
 
 #. from tp:gawk-5.3.66
 msgid "regexp constant for parameter #%d yields boolean value"
@@ -370104,15 +370104,15 @@ msgstr "konstant reguljärt uttryck för parameter %d ger ett booleskt värde"
 
 #. from tp:gawk-5.3.66
 msgid "function `%s' called with space between name and `(',\nor used as a variable or an array"
-msgstr "funktionen ”%s” anropad med blanktecken mellan namnet och ”(”,\neller använd som variabel eller vektor"
+msgstr "funktionen ”%s” anropas med blanksteg mellan namnet och ”(”,\neller används som variabel eller vektor"
 
 #. from tp:gawk-5.3.66
 msgid "division by zero attempted"
-msgstr "försökte dividera med noll"
+msgstr "försök att dividera med noll"
 
 #. from tp:gawk-5.3.66
 msgid "division by zero attempted in `%%'"
-msgstr "försökte dividera med noll i ”%%”"
+msgstr "försök att dividera med noll i ”%%”"
 
 #. from tp:gawk-5.3.66
 msgid "cannot assign a value to the result of a field post-increment expression"
@@ -370180,11 +370180,11 @@ msgstr "%s: fick ett argument som inte är en sträng"
 
 #. from tp:gawk-5.3.66
 msgid "fflush: cannot flush: pipe `%.*s' opened for reading, not writing"
-msgstr "fflush: kan inte spola: röret ”%.*s” är öppnat för läsning, inte skrivning"
+msgstr "fflush: kan inte spola: röret ”%.*s” är öppnat för läsning, inte för skrivning"
 
 #. from tp:gawk-5.3.66
 msgid "fflush: cannot flush: file `%.*s' opened for reading, not writing"
-msgstr "fflush: kan inte spola: filen ”%.*s” är öppnad för läsning, inte skrivning"
+msgstr "fflush: kan inte spola: filen ”%.*s” är öppnad för läsning, inte för skrivning"
 
 #. from tp:gawk-5.3.66
 msgid "fflush: cannot flush file `%.*s': %s"
@@ -370228,11 +370228,11 @@ msgstr "substr: längden %g är inte >= 0"
 
 #. from tp:gawk-5.3.66
 msgid "substr: non-integer length %g will be truncated"
-msgstr "substr: längden %g som inte är ett heltal kommer huggas av"
+msgstr "substr: längden %g är inte ett heltal och avkortas"
 
 #. from tp:gawk-5.3.66
 msgid "substr: length %g too big for string indexing, truncating to %g"
-msgstr "substr: längden %g är för stor för strängindexering, hugger av till %g"
+msgstr "substr: längden %g är för stor för strängindexering och avkortas till %g"
 
 #. from tp:gawk-5.3.66
 msgid "substr: start index %g is invalid, using 1"
@@ -370240,7 +370240,7 @@ msgstr "substr: startindex %g är ogiltigt, använder 1"
 
 #. from tp:gawk-5.3.66
 msgid "substr: non-integer start index %g will be truncated"
-msgstr "substr: startindex %g som inte är ett heltal kommer huggas av"
+msgstr "substr: startindexet %g är inte ett heltal och avkortas"
 
 #. from tp:gawk-5.3.66
 msgid "substr: source string is zero length"
@@ -370280,7 +370280,7 @@ msgstr "funktionen ”system” är inte tillåten i sandlådeläge"
 
 #. from tp:gawk-5.3.66
 msgid "print: attempt to write to closed write end of two-way pipe"
-msgstr "print: försök att skriva till stängd skrivände av ett tvåvägsrör"
+msgstr "print: försök att skriva till den stängda skrivänden av ett tvåvägsrör"
 
 #. from tp:gawk-5.3.66
 msgid "reference to uninitialized field `$%d'"
@@ -370300,7 +370300,7 @@ msgstr "%s: det går inte att använda %s som tredje argument"
 
 #. from tp:gawk-5.3.66
 msgid "gensub: third argument `%.*s' treated as 1"
-msgstr "gensub: tredje argumentet ”%.*s” behandlat som 1"
+msgstr "gensub: tredje argumentet ”%.*s” behandlas som 1"
 
 #. from tp:gawk-5.3.66
 msgid "%s: can be called indirectly only with two arguments"
@@ -370324,11 +370324,11 @@ msgstr "lshift(%f, %f): negativa värden är inte tillåtna"
 
 #. from tp:gawk-5.3.66
 msgid "lshift(%f, %f): fractional values will be truncated"
-msgstr "lshift(%f, %f): flyttalsvärden kommer huggas av"
+msgstr "lshift(%f, %f): flyttalsvärden avkortas"
 
 #. from tp:gawk-5.3.66
 msgid "lshift(%f, %f): too large shift value returns zero"
-msgstr "lshift(%f, %f): för stort skiftvärde returnerar noll"
+msgstr "lshift(%f, %f): för stort skiftvärde ger noll"
 
 #. from tp:gawk-5.3.66
 msgid "rshift(%f, %f): negative values are not allowed"
@@ -370336,11 +370336,11 @@ msgstr "rshift(%f, %f): negativa värden är inte tillåtna"
 
 #. from tp:gawk-5.3.66
 msgid "rshift(%f, %f): fractional values will be truncated"
-msgstr "rshift(%f, %f): flyttalsvärden kommer huggas av"
+msgstr "rshift(%f, %f): flyttalsvärden avkortas"
 
 #. from tp:gawk-5.3.66
 msgid "rshift(%f, %f): too large shift value returns zero"
-msgstr "rshift(%f, %f): för stort skiftvärde returnerar noll"
+msgstr "rshift(%f, %f): för stort skiftvärde ger noll"
 
 #. from tp:gawk-5.3.66
 msgid "%s: called with less than two arguments"
@@ -370360,7 +370360,7 @@ msgstr "compl(%f): negativt värde är inte tillåtet"
 
 #. from tp:gawk-5.3.66
 msgid "compl(%f): fractional value will be truncated"
-msgstr "compl(%f): flyttalsvärde kommer huggas av"
+msgstr "compl(%f): flyttalsvärdet avkortas"
 
 #. from tp:gawk-5.3.66
 msgid "hexadecimal floating point constants require an exponent"
@@ -370396,7 +370396,7 @@ msgstr "typeof: andra argumentet är inte en vektor"
 
 #. from tp:gawk-5.3.66
 msgid "typeof detected invalid flags combination `%s'; please file a bug report"
-msgstr "typeof upptäckte en ogiltig flaggkombination ”%s”, skicka gärna en felrapport"
+msgstr "typeof upptäckte en ogiltig flaggkombination ”%s”; skicka en felrapport"
 
 #. from tp:gawk-5.3.66
 msgid "typeof: unknown argument type `%s'"
@@ -370408,7 +370408,7 @@ msgstr "kan inte lägga till en ny fil (%.*s) till ARGV i sandlådeläge"
 
 #. from tp:gawk-5.3.66
 msgid "Type (g)awk statement(s). End with the command `end'\n"
-msgstr "Skriv (g)awk-satser.  Avsluta med kommandot ”end”\n"
+msgstr "Skriv (g)awk-satser. Avsluta med kommandot ”end”.\n"
 
 #. from tp:gawk-5.3.66
 msgid "invalid frame number: %d"
@@ -370424,7 +370424,7 @@ msgstr "source: ”%s”: redan inläst"
 
 #. from tp:gawk-5.3.66
 msgid "save: `%s': command not permitted"
-msgstr "save: ”%s”: kommandot inte tillåtet"
+msgstr "save: ”%s”: kommandot är inte tillåtet"
 
 #. from tp:gawk-5.3.66
 msgid "cannot use command `commands' for breakpoint/watchpoint commands"
@@ -370440,7 +370440,7 @@ msgstr "ogiltigt brytpunkts-/observationspunktsnummer"
 
 #. from tp:gawk-5.3.66
 msgid "Type commands for when %s %d is hit, one per line.\n"
-msgstr "Skriv kommandon att användas när %s %d träffas, ett per rad.\n"
+msgstr "Skriv kommandon som ska användas när %s %d träffas, ett per rad.\n"
 
 #. from tp:gawk-5.3.66
 msgid "End with the command `end'\n"
@@ -370480,7 +370480,7 @@ msgstr "enable: ogiltig flagga — ”%s”"
 
 #. from tp:gawk-5.3.66
 msgid "invalid range specification: %d - %d"
-msgstr "ogiltigt intervallspecifikation: %d - %d"
+msgstr "ogiltig intervallspecifikation: %d - %d"
 
 #. from tp:gawk-5.3.66
 msgid "non-numeric value for field number"
@@ -370488,7 +370488,7 @@ msgstr "icke numeriskt värde som fältnummer"
 
 #. from tp:gawk-5.3.66
 msgid "non-numeric value found, numeric expected"
-msgstr "ickenumeriskt värde fanns, numeriskt förväntades"
+msgstr "ett ickenumeriskt värde påträffades; ett numeriskt förväntades"
 
 #. from tp:gawk-5.3.66
 msgid "non-zero integer value"
@@ -370508,11 +370508,11 @@ msgstr "clear [[filnamn:]N|funktion] — radera tidigare satta brytpunkter"
 
 #. from tp:gawk-5.3.66
 msgid "commands [num] - starts a list of commands to be executed at a breakpoint(watchpoint) hit"
-msgstr "commands [num] — startar en lista av kommandon att köra när en brytpunkt(observationspunkt) träffas"
+msgstr "commands [num] — startar en lista med kommandon som körs när en brytpunkt eller observationspunkt träffas"
 
 #. from tp:gawk-5.3.66
 msgid "condition num [expr] - set or clear breakpoint or watchpoint condition"
-msgstr "condition num [uttr] — sätt eller töm en brytpunkts eller observationspunkts villkor"
+msgstr "condition num [uttr] — sätt eller töm villkoret för en brytpunkt eller observationspunkt"
 
 #. from tp:gawk-5.3.66
 msgid "continue [COUNT] - continue program being debugged"
@@ -370528,7 +370528,7 @@ msgstr "disable [brytpunkter] [intervall] — avaktivera angivna brytpunkter"
 
 #. from tp:gawk-5.3.66
 msgid "display [var] - print value of variable each time the program stops"
-msgstr "display [var] — skriv ut värdet på variabeln varje gång programmet stoppar"
+msgstr "display [var] — skriv ut värdet på en variabel varje gång programmet stannar"
 
 #. from tp:gawk-5.3.66
 msgid "down [N] - move N frames down the stack"
@@ -370536,7 +370536,7 @@ msgstr "down [N] — flytta N ramar ner i stacken"
 
 #. from tp:gawk-5.3.66
 msgid "dump [filename] - dump instructions to file or stdout"
-msgstr "dump [filnamn] — skriv instruktioner till filen eller standard ut"
+msgstr "dump [filnamn] — skriv instruktioner till filen eller standardutdata"
 
 #. from tp:gawk-5.3.66
 msgid "enable [once|del] [breakpoints] [range] - enable specified breakpoints"
@@ -370560,15 +370560,15 @@ msgstr "finish — kör tills den valda stackramen returnerar"
 
 #. from tp:gawk-5.3.66
 msgid "frame [N] - select and print stack frame number N"
-msgstr "frame [N] — välj och skriv ut stackram nummer N"
+msgstr "frame [N] — välj och skriv ut stackramsnummer N"
 
 #. from tp:gawk-5.3.66
 msgid "help [command] - print list of commands or explanation of command"
-msgstr "help [kommando] — skriv listan av kommandon eller en förklaring av kommando"
+msgstr "help [kommando] — skriv ut en lista med kommandon eller en förklaring av ett kommando"
 
 #. from tp:gawk-5.3.66
 msgid "ignore N COUNT - set ignore-count of breakpoint number N to COUNT"
-msgstr "ignore N ANTAL — sätt ignoreringsantal på brytpunkt nummer N till ANTAL"
+msgstr "ignore N ANTAL — ställ in ignoreringsantalet för brytpunkt N till ANTAL"
 
 #. from tp:gawk-5.3.66
 msgid "info topic - source|sources|variables|functions|break|frame|args|locals|display|watch"
@@ -370576,7 +370576,7 @@ msgstr "info topic — source|sources|variables|functions|break|frame|args|local
 
 #. from tp:gawk-5.3.66
 msgid "list [-|+|[filename:]lineno|function|range] - list specified line(s)"
-msgstr "list [-|+|[filnamn:]radnr|funktion|intervall] — lista angivna rad(er)"
+msgstr "list [-|+|[filnamn:]radnummer|funktion|intervall] — lista angivna rader"
 
 #. from tp:gawk-5.3.66
 msgid "next [COUNT] - step program, proceeding through subroutine calls"
@@ -370608,7 +370608,7 @@ msgstr "return [värde] — låt den valda stackramen returnera till sin anropar
 
 #. from tp:gawk-5.3.66
 msgid "run - start or restart executing program"
-msgstr "run — starta eller starta om körningen av programmet"
+msgstr "run — starta eller starta om programmet"
 
 #. from tp:gawk-5.3.66
 msgid "save filename - save commands from the session to file"
@@ -370624,7 +370624,7 @@ msgstr "silent — undertrycker normala meddelanden vid stopp på en brytpunkt/o
 
 #. from tp:gawk-5.3.66
 msgid "source file - execute commands from file"
-msgstr "source fil — kör kommandon från fil"
+msgstr "source file — kör kommandon från filen"
 
 #. from tp:gawk-5.3.66
 msgid "step [COUNT] - step program until it reaches a different source line"
@@ -370640,7 +370640,7 @@ msgstr "tbreak [[filnamn:]N|funktion] — sätt en tillfällig brytpunkt"
 
 #. from tp:gawk-5.3.66
 msgid "trace on|off - print instruction before executing"
-msgstr "trace on|off — skriv ut instruktioner före de körs"
+msgstr "trace on|off — skriv ut instruktioner före körning"
 
 #. from tp:gawk-5.3.66
 msgid "undisplay [N] - remove variable(s) from automatic display list"
@@ -370668,7 +370668,7 @@ msgstr "where [N] — (samma som backtrace) skriv ett spår över alla eller N i
 
 #. from tp:gawk-5.3.66
 msgid "cannot read command: %s\n"
-msgstr "kan inte läsa kommando: %s\n"
+msgstr "kan inte läsa kommandot: %s\n"
 
 #. from tp:gawk-5.3.66
 msgid "cannot read command: %s"
@@ -370680,7 +370680,7 @@ msgstr "ogiltigt tecken i kommandot"
 
 #. from tp:gawk-5.3.66
 msgid "unknown command - `%.*s', try help"
-msgstr "okänt kommando — ”%.*s”, försök med help"
+msgstr "okänt kommando — ”%.*s”; försök med help"
 
 #. from tp:gawk-5.3.66
 msgid "invalid character"
@@ -370700,23 +370700,23 @@ msgstr "sätt eller visa fönsterstorleken för listkommandot"
 
 #. from tp:gawk-5.3.66
 msgid "set or show gawk output file"
-msgstr "sätt eller visa gawks utmatningsfil"
+msgstr "sätt eller visa Gawks utdatafil"
 
 #. from tp:gawk-5.3.66
 msgid "set or show debugger prompt"
-msgstr "sätt eller visa felsökningsprompten"
+msgstr "sätt eller visa felsökarens prompt"
 
 #. from tp:gawk-5.3.66
 msgid "(un)set or show saving of command history (value=on|off)"
-msgstr "slå av/på eller visa sparandet av kommandohistorik (värde=on|off)"
+msgstr "aktivera/inaktivera eller visa sparandet av kommandohistoriken (värde=on|off)"
 
 #. from tp:gawk-5.3.66
 msgid "(un)set or show saving of options (value=on|off)"
-msgstr "slå av/på eller visa sparandet av flaggor (värde=on|off)"
+msgstr "aktivera/inaktivera eller visa sparandet av flaggor (värde=on|off)"
 
 #. from tp:gawk-5.3.66
 msgid "(un)set or show instruction tracing (value=on|off)"
-msgstr "slå av/på eller visa instruktionsspårande (värde=on|off)"
+msgstr "aktivera/inaktivera eller visa instruktionsspårning (värde=on|off)"
 
 #. from tp:gawk-5.3.66
 msgid "%s:%d:%s: program not running"
@@ -370736,7 +370736,7 @@ msgstr "kan inte hitta någon källfil med namnet ”%s”: %s"
 
 #. from tp:gawk-5.3.66
 msgid "warning: source file `%s' modified since program compilation.\n"
-msgstr "varning: källfilen ”%s” ändrad sedan programmet kompilerades.\n"
+msgstr "varning: källfilen ”%s” har ändrats sedan programmet kompilerades.\n"
 
 #. from tp:gawk-5.3.66
 msgid "line number %d out of range; `%s' has %d lines"
@@ -370748,7 +370748,7 @@ msgstr "oväntat filslut när filen ”%s” lästes, rad %d"
 
 #. from tp:gawk-5.3.66
 msgid "source file `%s' modified since start of program execution"
-msgstr "källfilen ”%s” ändrad sedan början av programkörningen"
+msgstr "källfilen ”%s” har ändrats sedan programkörningen startade"
 
 #. from tp:gawk-5.3.66
 msgid "Current source file: %s\n"
@@ -370788,11 +370788,11 @@ msgstr "Aktuell ram: "
 
 #. from tp:gawk-5.3.66
 msgid "Called by frame: "
-msgstr "Anropad av ramen: "
+msgstr "anropades av ramen: "
 
 #. from tp:gawk-5.3.66
 msgid "Caller of frame: "
-msgstr "Anropare av ramen: "
+msgstr "anroparen till ramen: "
 
 #. from tp:gawk-5.3.66
 msgid "None in main().\n"
@@ -370864,7 +370864,7 @@ msgstr "”%s” är en funktion"
 
 #. from tp:gawk-5.3.66
 msgid "watchpoint %d is unconditional\n"
-msgstr "observationspunkt %d är ovillkorlig\n"
+msgstr "observationspunkten %d är ovillkorlig\n"
 
 #. from tp:gawk-5.3.66
 msgid "no display item numbered %ld"
@@ -370884,11 +370884,11 @@ msgstr "försök att använda ett skalärt värde som vektor"
 
 #. from tp:gawk-5.3.66
 msgid "Watchpoint %d deleted because parameter is out of scope.\n"
-msgstr "Observationspunkt %d raderad för att parametern är utanför sin räckvidd.\n"
+msgstr "observationspunkt %d raderades eftersom parametern är utanför sin räckvidd.\n"
 
 #. from tp:gawk-5.3.66
 msgid "Display %d deleted because parameter is out of scope.\n"
-msgstr "Visning %d raderad för att parametern är utanför sin räckvidd.\n"
+msgstr "visning %d raderades eftersom parametern är utanför sin räckvidd.\n"
 
 #. from tp:gawk-5.3.66
 msgid " in file `%s', line %d\n"
@@ -370908,27 +370908,27 @@ msgstr "Fler stackramar följer …\n"
 
 #. from tp:gawk-5.3.66
 msgid "invalid frame number"
-msgstr "Ogiltigt ramnummer"
+msgstr "ogiltigt ramnummer"
 
 #. from tp:gawk-5.3.66
 msgid "Note: breakpoint %d (enabled, ignore next %ld hits), also set at %s:%d"
-msgstr "Observera: brytpunkt %d (aktiverad, ignorera följande %ld träffar), är också satt vid %s:%d"
+msgstr "Observera: brytpunkt %d (aktiverad, ignorera nästa %ld träffar) är också satt vid %s:%d"
 
 #. from tp:gawk-5.3.66
 msgid "Note: breakpoint %d (enabled), also set at %s:%d"
-msgstr "Observera: brytpunkt %d (aktiverad), är också satt vid %s:%d"
+msgstr "Observera: brytpunkt %d (aktiverad) är också satt vid %s:%d"
 
 #. from tp:gawk-5.3.66
 msgid "Note: breakpoint %d (disabled, ignore next %ld hits), also set at %s:%d"
-msgstr "Observera: brytpunkt %d (avaktiverad, ignorera följande %ld träffar), är också satt vid %s:%d"
+msgstr "Observera: brytpunkt %d (avaktiverad, ignorera nästa %ld träffar) är också satt vid %s:%d"
 
 #. from tp:gawk-5.3.66
 msgid "Note: breakpoint %d (disabled), also set at %s:%d"
-msgstr "Observera: brytpunkt %d (avaktiverad), är också satt vid %s:%d"
+msgstr "Observera: brytpunkt %d (avaktiverad) är också satt vid %s:%d"
 
 #. from tp:gawk-5.3.66
 msgid "Breakpoint %d set at file `%s', line %d\n"
-msgstr "Brytpunkt %d satt vid filen ”%s”, rad %d\n"
+msgstr "brytpunkten %d sattes vid filen ”%s”, rad %d\n"
 
 #. from tp:gawk-5.3.66
 msgid "cannot set breakpoint in file `%s'\n"
@@ -370952,7 +370952,7 @@ msgstr "kan inte sätta en brytpunkt i funktionen ”%s”\n"
 
 #. from tp:gawk-5.3.66
 msgid "breakpoint %d set at file `%s', line %d is unconditional\n"
-msgstr "brytpunkt %d satt i filen ”%s”, rad %d är ovillkorlig\n"
+msgstr "brytpunkten %d sattes i filen ”%s”, rad %d, och är ovillkorlig\n"
 
 #. from tp:gawk-5.3.66
 msgid "line number %d in file `%s' out of range"
@@ -370960,7 +370960,7 @@ msgstr "radnummer %d i filen ”%s” är utanför tillåtet intervall"
 
 #. from tp:gawk-5.3.66
 msgid "Deleted breakpoint %d"
-msgstr "Raderade brytpunkt %d"
+msgstr "brytpunkten %d raderades"
 
 #. from tp:gawk-5.3.66
 msgid "No breakpoint(s) at entry to function `%s'\n"
@@ -370980,15 +370980,15 @@ msgstr "Radera alla brytpunkter? (j eller n) "
 
 #. from tp:gawk-5.3.66
 msgid "Will ignore next %ld crossing(s) of breakpoint %d.\n"
-msgstr "Kommer ignorera följande %ld passager av brytpunkt %d.\n"
+msgstr "nästa %ld passage(r) av brytpunkten %d ignoreras.\n"
 
 #. from tp:gawk-5.3.66
 msgid "Will stop next time breakpoint %d is reached.\n"
-msgstr "Kommer stanna nästa gång brytpunkt %d nås.\n"
+msgstr "programmet stoppas nästa gång brytpunkten %d nås.\n"
 
 #. from tp:gawk-5.3.66
 msgid "Can only debug programs provided with the `-f' option.\n"
-msgstr "Kan bara felsöka program som getts flaggan ”-f”.\n"
+msgstr "det går endast att felsöka program som angetts med flaggan ”-f”.\n"
 
 #. from tp:gawk-5.3.66
 msgid "Restarting ...\n"
@@ -371000,11 +371000,11 @@ msgstr "Misslyckades att starta om felsökaren"
 
 #. from tp:gawk-5.3.66
 msgid "Program already running. Restart from beginning (y/n)? "
-msgstr "Programmet kör redan.  Starta om från början (j/n)? "
+msgstr "programmet kör redan. Starta om från början (j/n)? "
 
 #. from tp:gawk-5.3.66
 msgid "Program not restarted\n"
-msgstr "Programmet inte omstartat\n"
+msgstr "programmet startades inte om\n"
 
 #. from tp:gawk-5.3.66
 msgid "error: cannot restart, operation not allowed\n"
@@ -371020,19 +371020,19 @@ msgstr "Startar programmet:\n"
 
 #. from tp:gawk-5.3.66
 msgid "Program exited abnormally with exit value: %d\n"
-msgstr "Programmet avslutade onormalt med slutvärdet: %d\n"
+msgstr "programmet avslutades onormalt med slutvärdet: %d\n"
 
 #. from tp:gawk-5.3.66
 msgid "Program exited normally with exit value: %d\n"
-msgstr "Programmet avslutade normalt med slutvärdet: %d\n"
+msgstr "programmet avslutades normalt med slutvärdet: %d\n"
 
 #. from tp:gawk-5.3.66
 msgid "The program is running. Exit anyway (y/n)? "
-msgstr "Programmet kör.  Avsluta ändå (j/n)? "
+msgstr "programmet körs. Avsluta ändå (j/n)? "
 
 #. from tp:gawk-5.3.66
 msgid "Not stopped at any breakpoint; argument ignored.\n"
-msgstr "Inte stoppad vid någon brytpunkt, argumentet ignoreras.\n"
+msgstr "programmet har inte stoppats vid någon brytpunkt; argumentet ignoreras.\n"
 
 #. from tp:gawk-5.3.66
 msgid "invalid breakpoint number %d"
@@ -371040,7 +371040,7 @@ msgstr "ogiltigt brytpunktsnummer %d"
 
 #. from tp:gawk-5.3.66
 msgid "Will ignore next %ld crossings of breakpoint %d.\n"
-msgstr "Kommer ignorera de nästa %ld passagerna av brytpunkt %d.\n"
+msgstr "ignorerar nästa %ld passager av brytpunkt %d.\n"
 
 #. from tp:gawk-5.3.66
 msgid "'finish' not meaningful in the outermost frame main()\n"
@@ -371048,7 +371048,7 @@ msgstr "”finish” är inte meningsfullt i den yttersta ramen main()\n"
 
 #. from tp:gawk-5.3.66
 msgid "Run until return from "
-msgstr "Kör till retur från "
+msgstr "kör tills retur från "
 
 #. from tp:gawk-5.3.66
 msgid "'return' not meaningful in the outermost frame main()\n"
@@ -371076,15 +371076,15 @@ msgstr "otypad variabel\n"
 
 #. from tp:gawk-5.3.66
 msgid "Stopping in %s ...\n"
-msgstr "Stannar i %s …\n"
+msgstr "stoppar i %s …\n"
 
 #. from tp:gawk-5.3.66
 msgid "'finish' not meaningful with non-local jump '%s'\n"
-msgstr "”finish” är inte meningsfullt med icke lokalt hopp ”%s”\n"
+msgstr "”finish” är inte meningsfullt med ett icke-lokalt hopp ”%s”\n"
 
 #. from tp:gawk-5.3.66
 msgid "'until' not meaningful with non-local jump '%s'\n"
-msgstr "”until” är inte meningsfullt med icke lokalt hopp ”%s”\n"
+msgstr "”until” är inte meningsfullt med ett icke-lokalt hopp ”%s”\n"
 
 #. from tp:gawk-5.3.66
 msgid "	------[Enter] to continue or [q] + [Enter] to quit------"
@@ -371096,7 +371096,7 @@ msgstr "[\"%.*s\"] finns inte i vektorn ”%s”"
 
 #. from tp:gawk-5.3.66
 msgid "sending output to stdout\n"
-msgstr "skickar utdata till standard ut\n"
+msgstr "skickar utdata till standardutdata\n"
 
 #. from tp:gawk-5.3.66
 msgid "`%s' not allowed in current context; statement ignored"
@@ -371108,7 +371108,7 @@ msgstr "”return” är inte tillåtet i det aktuella sammanhanget; satsen igno
 
 #. from tp:gawk-5.3.66
 msgid "fatal error during eval, need to restart.\n"
-msgstr "ödesdigert fel under eval, behöver omstart.\n"
+msgstr "allvarligt fel under eval; omstart krävs.\n"
 
 #. from tp:gawk-5.3.66
 msgid "no symbol `%s' in current context"
@@ -371120,11 +371120,11 @@ msgstr "okänd nodtyp %d"
 
 #. from tp:gawk-5.3.66
 msgid "unknown opcode %d"
-msgstr "okänd op-kod %d"
+msgstr "okänd opkod %d"
 
 #. from tp:gawk-5.3.66
 msgid "opcode %s not an operator or keyword"
-msgstr "op-kod %s är inte en operator eller ett nyckelord"
+msgstr "opkoden %s är inte en operator eller ett nyckelord"
 
 #. from tp:gawk-5.3.66
 msgid "buffer overflow in genflags2str"
@@ -371144,7 +371144,7 @@ msgstr "”BINMODE” är en gawk-utökning"
 
 #. from tp:gawk-5.3.66
 msgid "BINMODE value `%s' is invalid, treated as 3"
-msgstr "BINMODE-värde ”%s” är ogiltigt, behandlas som 3"
+msgstr "BINMODE-värdet ”%s” är ogiltigt och behandlas som 3"
 
 #. from tp:gawk-5.3.66
 msgid "bad `%sFMT' specification `%s'"
@@ -371156,11 +371156,11 @@ msgstr "slår av ”--lint” på grund av en tilldelning till ”LINT”"
 
 #. from tp:gawk-5.3.66
 msgid "reference to uninitialized argument `%s'"
-msgstr "referens till icke initierat argument ”%s”"
+msgstr "referens till oinitierat argument ”%s”"
 
 #. from tp:gawk-5.3.66
 msgid "reference to uninitialized variable `%s'"
-msgstr "referens till icke initierad variabel ”%s”"
+msgstr "referens till oinitierad variabel ”%s”"
 
 #. from tp:gawk-5.3.66
 msgid "attempt to field reference from non-numeric value"
@@ -371176,11 +371176,11 @@ msgstr "försök att komma åt fält nummer %ld"
 
 #. from tp:gawk-5.3.66
 msgid "reference to uninitialized field `$%ld'"
-msgstr "referens till icke initierat fält ”$%ld”"
+msgstr "referens till oinitierat fält ”$%ld”"
 
 #. from tp:gawk-5.3.66
 msgid "function `%s' called with more arguments than declared"
-msgstr "funktionen ”%s” anropad med fler argument än vad som deklarerats"
+msgstr "funktionen ”%s” anropas med fler argument än deklarerat"
 
 #. from tp:gawk-5.3.66
 msgid "unwind_stack: unexpected type `%s'"
@@ -371188,15 +371188,15 @@ msgstr "unwind_stack: oväntad typ ”%s”"
 
 #. from tp:gawk-5.3.66
 msgid "division by zero attempted in `/='"
-msgstr "försökte dividera med noll i ”/=”"
+msgstr "försök att dividera med noll i ”/=”"
 
 #. from tp:gawk-5.3.66
 msgid "division by zero attempted in `%%='"
-msgstr "försökte dividera med noll i ”%%=”"
+msgstr "försök att dividera med noll i ”%%=”"
 
 #. from tp:gawk-5.3.66
 msgid "extension `%s': trying to load %s, was previously loaded from %s"
-msgstr "utvidgningen ”%s”: försöker ladda %s, men tidigare laddad från %s"
+msgstr "utökningen ”%s”: försöker läsa in %s, som tidigare lästes in från %s"
 
 #. from tp:gawk-5.3.66
 msgid "extensions are not allowed in sandbox mode"
@@ -371208,7 +371208,7 @@ msgstr "-l / @load är gawk-utökningar"
 
 #. from tp:gawk-5.3.66
 msgid "load_ext: received NULL lib_name"
-msgstr "load_ext: mottog NULL-lib_name"
+msgstr "load_ext: tog emot NULL-lib_name"
 
 #. from tp:gawk-5.3.66
 msgid "load_ext: cannot open library `%s': %s"
@@ -371232,11 +371232,11 @@ msgstr "make_builtin: funktionsnamn saknas"
 
 #. from tp:gawk-5.3.66
 msgid "make_builtin: cannot use gawk built-in `%s' as function name"
-msgstr "make_builtin: kan inte använda gawks inbyggda ”%s” som ett funktionsnamn"
+msgstr "make_builtin: kan inte använda Gawks inbyggda ”%s” som funktionsnamn"
 
 #. from tp:gawk-5.3.66
 msgid "make_builtin: cannot use gawk built-in `%s' as namespace name"
-msgstr "make_builtin: kan inte använda gawks inbyggda ”%s” som ett namnrymdsnamn"
+msgstr "make_builtin: kan inte använda Gawks inbyggda ”%s” som namnrymdsnamn"
 
 #. from tp:gawk-5.3.66
 msgid "make_builtin: cannot redefine function `%s'"
@@ -371248,7 +371248,7 @@ msgstr "make_builtin: funktionen ”%s” är redan definierad"
 
 #. from tp:gawk-5.3.66
 msgid "make_builtin: function name `%s' previously defined"
-msgstr "make_builtin: funktionsnamnet ”%s” är definierat sedan tidigare"
+msgstr "make_builtin: funktionsnamnet ”%s” har redan definierats"
 
 #. from tp:gawk-5.3.66
 msgid "make_builtin: negative argument count for function `%s'"
@@ -371316,7 +371316,7 @@ msgstr "fts-process: kunde inte sätta ett element"
 
 #. from tp:gawk-5.3.66
 msgid "fts: called with incorrect number of arguments, expecting 3"
-msgstr "fts: anropad med felaktigt antal argument, förväntade 3"
+msgstr "fts: anropades med fel antal argument; 3 förväntades"
 
 #. from tp:gawk-5.3.66
 msgid "fts: first argument is not an array"
@@ -371336,7 +371336,7 @@ msgstr "fts: kunde inte platta till en vektor\n"
 
 #. from tp:gawk-5.3.66
 msgid "fts: ignoring sneaky FTS_NOSTAT flag. nyah, nyah, nyah."
-msgstr "fts: ignorerar lömsk FTS_NOSTAT-flagga, nä, nä, nä."
+msgstr "fts: ignorerar den lömska FTS_NOSTAT-flaggan. nä, nä, nä."
 
 #. from tp:gawk-5.3.66
 msgid "fnmatch: could not get first argument"
@@ -371376,11 +371376,11 @@ msgstr "inplace::begin: redigering på plats är redan aktivt"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::begin: expects 2 arguments but called with %d"
-msgstr "inplace::begin: förväntar sig 2 argument men anropad med %d"
+msgstr "inplace::begin: förväntar sig 2 argument men anropades med %d"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::begin: cannot retrieve 1st argument as a string filename"
-msgstr "inplace::begin: kan inte hämta 1:a argumentet som en filnamnssträng"
+msgstr "inplace::begin: kan inte hämta första argumentet som en filnamnssträng"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::begin: disabling in-place editing for invalid FILENAME `%s'"
@@ -371388,7 +371388,7 @@ msgstr "inplace::begin: avaktiverar redigering på plats för ogiltigt FILNAMN �
 
 #. from tp:gawk-5.3.66
 msgid "inplace::begin: Cannot stat `%s' (%s)"
-msgstr "inplace::begin: kan inte ta status på ”%s” (%s)"
+msgstr "inplace::begin: kan inte hämta status för ”%s” (%s)"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::begin: `%s' is not a regular file"
@@ -371404,11 +371404,11 @@ msgstr "inplace::begin: chmod misslyckades (%s)"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::begin: dup(stdout) failed (%s)"
-msgstr "inplace::begin: dup(standard ut) misslyckades (%s)"
+msgstr "inplace::begin: dup(standardutdata) misslyckades (%s)"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::begin: dup2(%d, stdout) failed (%s)"
-msgstr "inplace::begin: dup2(%d, standard ut) misslyckades (%s)"
+msgstr "inplace::begin: dup2(%d, standardutdata) misslyckades (%s)"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::begin: close(%d) failed (%s)"
@@ -371416,11 +371416,11 @@ msgstr "inplace::begin: close(%d) misslyckades (%s)"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::end: expects 2 arguments but called with %d"
-msgstr "inplace::end: förväntar sig 2 argument men anropad med %d"
+msgstr "inplace::end: förväntar sig 2 argument men anropades med %d"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::end: cannot retrieve 1st argument as a string filename"
-msgstr "inplace::end: kan inte hämta 1:a argumentet som en filnamnssträng"
+msgstr "inplace::end: kan inte hämta första argumentet som en filnamnssträng"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::end: in-place editing not active"
@@ -371428,7 +371428,7 @@ msgstr "inplace::end: redigering på plats är inte aktivt"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::end: dup2(%d, stdout) failed (%s)"
-msgstr "inplace::end: dup2(%d, standard ut) misslyckades (%s)"
+msgstr "inplace::end: dup2(%d, standardutdata) misslyckades (%s)"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::end: close(%d) failed (%s)"
@@ -371436,7 +371436,7 @@ msgstr "inplace::end: close(%d) misslyckades (%s)"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::end: fsetpos(stdout) failed (%s)"
-msgstr "inplace::end: fsetpos(standard ut) misslyckades (%s)"
+msgstr "inplace::end: fsetpos(standardutdata) misslyckades (%s)"
 
 #. from tp:gawk-5.3.66
 msgid "inplace::end: link(`%s', `%s') failed (%s)"
@@ -371492,7 +371492,7 @@ msgstr "vektorvärde har en okänd typ %d"
 
 #. from tp:gawk-5.3.66
 msgid "rwarray extension: received GMP/MPFR value but compiled without GMP/MPFR support."
-msgstr "rwarray-utvidgning: mottog GMP-/MPFR-värde me kompilerades utan stöd för GMP/MPFR."
+msgstr "rwarray-utvidgningen: tog emot ett GMP-/MPFR-värde men kompilerades utan stöd för GMP/MPFR."
 
 #. from tp:gawk-5.3.66
 msgid "cannot free number with unknown type %d"
@@ -371528,7 +371528,7 @@ msgstr "hanterar återvunnet värde med okänd typkod %d som en sträng"
 
 #. from tp:gawk-5.3.66
 msgid "rwarray extension: GMP/MPFR value in file but compiled without GMP/MPFR support."
-msgstr "rwarray-utvidgning: GMP-/MPFR-värde i filen men kompilerad utan stöd för GMP/MPFR."
+msgstr "rwarray-utvidgningen: GMP-/MPFR-värde i filen men kompilerades utan stöd för GMP/MPFR."
 
 #. from tp:gawk-5.3.66
 msgid "gettimeofday: not supported on this platform"
@@ -371564,15 +371564,15 @@ msgstr "indataposten är för stor"
 
 #. from tp:gawk-5.3.66
 msgid "NF set to negative value"
-msgstr "NF satt till ett negativt värde"
+msgstr "NF sattes till ett negativt värde"
 
 #. from tp:gawk-5.3.66
 msgid "decrementing NF is not portable to many awk versions"
-msgstr "dekrementering av NF är inte portabelt till många awk-versioner"
+msgstr "att minska NF är inte portabelt till många awk-versioner"
 
 #. from tp:gawk-5.3.66
 msgid "accessing fields from an END rule may not be portable"
-msgstr "att komma åt fält från en END-regel är inte med säkerhet portabelt"
+msgstr "åtkomst till fält från en END-regel är kanske inte portabel"
 
 #. from tp:gawk-5.3.66
 msgid "split: fourth argument is a gawk extension"
@@ -371680,7 +371680,7 @@ msgstr "add_ext_func: mottog NULL-name_space-parameter"
 
 #. from tp:gawk-5.3.66
 msgid "node_to_awk_value: detected invalid numeric flags combination `%s'; please file a bug report"
-msgstr "node_to_awk_value: upptäckte felaktig kombination av numeriska flaggor ”%s”, vänligen skicka en felrapport"
+msgstr "node_to_awk_value: upptäckte en ogiltig kombination av numeriska flaggor ”%s”; skicka en felrapport"
 
 #. from tp:gawk-5.3.66
 msgid "node_to_awk_value: received null node"
@@ -371692,7 +371692,7 @@ msgstr "node_to_awk_value: mottog null-värde"
 
 #. from tp:gawk-5.3.66
 msgid "node_to_awk_value detected invalid flags combination `%s'; please file a bug report"
-msgstr "node_to_awk_value upptäckte felaktig kombination av numeriska flaggor ”%s”, vänligen skicka en felrapport"
+msgstr "node_to_awk_value upptäckte en ogiltig flaggkombination ”%s”; skicka en felrapport"
 
 #. from tp:gawk-5.3.66
 msgid "remove_element: received null array"
@@ -371724,7 +371724,7 @@ msgstr "kan inte öppna okänd filtyp ”%s” för ”%s”"
 
 #. from tp:gawk-5.3.66
 msgid "command line argument `%s' is a directory: skipped"
-msgstr "kommandoradsargumentet ”%s” är en katalog: hoppas över"
+msgstr "kommandoradsargumentet ”%s” är en katalog och hoppas över"
 
 #. from tp:gawk-5.3.66
 msgid "cannot open file `%s' for reading: %s"
@@ -371732,23 +371732,23 @@ msgstr "kan inte öppna filen ”%s” för läsning: %s"
 
 #. from tp:gawk-5.3.66
 msgid "close of fd %d (`%s') failed: %s"
-msgstr "stängning av fb %d (”%s”) misslyckades: %s"
+msgstr "stängning av filbeskrivare %d (”%s”) misslyckades: %s"
 
 #. from tp:gawk-5.3.66
 msgid "`%.*s' used for input file and for output file"
-msgstr "”%.*s” använd som indatafil och som utdatafil"
+msgstr "”%.*s” används som indatafil och utdatafil"
 
 #. from tp:gawk-5.3.66
 msgid "`%.*s' used for input file and input pipe"
-msgstr "”%.*s” använd som indatafil och indatarör"
+msgstr "”%.*s” används som indatafil och indatarör"
 
 #. from tp:gawk-5.3.66
 msgid "`%.*s' used for input file and two-way pipe"
-msgstr "”%.*s” använd som indatafil och tvåvägsrör"
+msgstr "”%.*s” används som indatafil och tvåvägsrör"
 
 #. from tp:gawk-5.3.66
 msgid "`%.*s' used for input file and output pipe"
-msgstr "”%.*s” använd som indatafil och utdatarör"
+msgstr "”%.*s” används som indatafil och utdatarör"
 
 #. from tp:gawk-5.3.66
 msgid "unnecessary mixing of `>' and `>>' for file `%.*s'"
@@ -371756,27 +371756,27 @@ msgstr "onödig blandning av ”>” och ”>>” för filen ”%.*s”"
 
 #. from tp:gawk-5.3.66
 msgid "`%.*s' used for input pipe and output file"
-msgstr "”%.*s” använd som indatarör och utdatafil"
+msgstr "”%.*s” används som indatarör och utdatafil"
 
 #. from tp:gawk-5.3.66
 msgid "`%.*s' used for output file and output pipe"
-msgstr "”%.*s” använd som utdatafil och utdatarör"
+msgstr "”%.*s” används som utdatafil och utdatarör"
 
 #. from tp:gawk-5.3.66
 msgid "`%.*s' used for output file and two-way pipe"
-msgstr "”%.*s” använd som utdatafil och tvåvägsrör"
+msgstr "”%.*s” används som utdatafil och tvåvägsrör"
 
 #. from tp:gawk-5.3.66
 msgid "`%.*s' used for input pipe and output pipe"
-msgstr "”%.*s” använd som indatarör och utdatarör"
+msgstr "”%.*s” används som indatarör och utdatarör"
 
 #. from tp:gawk-5.3.66
 msgid "`%.*s' used for input pipe and two-way pipe"
-msgstr "”%.*s” använd som indatarör och tvåvägsrör"
+msgstr "”%.*s” används som indatarör och tvåvägsrör"
 
 #. from tp:gawk-5.3.66
 msgid "`%.*s' used for output pipe and two-way pipe"
-msgstr "”%.*s” använd som utdatarör och tvåvägsrör"
+msgstr "”%.*s” används som utdatarör och tvåvägsrör"
 
 #. from tp:gawk-5.3.66
 msgid "redirection not allowed in sandbox mode"
@@ -371796,7 +371796,7 @@ msgstr "filnamnet ”%.*s” för ”%s”-omdirigering kan vara resultatet av e
 
 #. from tp:gawk-5.3.66
 msgid "get_file cannot create pipe `%s' with fd %d"
-msgstr "get_file kan inte skapa röret ”%s” med fb %d"
+msgstr "get_file kan inte skapa röret ”%s” med filbeskrivare %d"
 
 #. from tp:gawk-5.3.66
 msgid "cannot open pipe `%s' for output: %s"
@@ -371816,7 +371816,7 @@ msgstr "kan inte öppna tvåvägsröret ”%s” för in-/utmatning: %s"
 
 #. from tp:gawk-5.3.66
 msgid "cannot redirect from `%s': %s"
-msgstr "kan inte dirigera om från ”%s”: %s"
+msgstr "kan inte omdirigera från ”%s”: %s"
 
 #. from tp:gawk-5.3.66
 msgid "cannot redirect to `%s': %s"
@@ -371824,11 +371824,11 @@ msgstr "kan inte dirigera om till ”%s”: %s"
 
 #. from tp:gawk-5.3.66
 msgid "reached system limit for open files: starting to multiplex file descriptors"
-msgstr "nådde systembegränsningen för öppna filer: börjar multiplexa filbeskrivare"
+msgstr "systemgränsen för öppna filer har nåtts: börjar multiplexa filbeskrivare"
 
 #. from tp:gawk-5.3.66
 msgid "close of `%s' failed: %s"
-msgstr "att stänga ”%s” misslyckades: %s"
+msgstr "stängningen av ”%s” misslyckades: %s"
 
 #. from tp:gawk-5.3.66
 msgid "too many pipes or input files open"
@@ -371848,7 +371848,7 @@ msgstr "stängning av omdirigering som aldrig öppnades"
 
 #. from tp:gawk-5.3.66
 msgid "close: redirection `%s' not opened with `|&', second argument ignored"
-msgstr "close: omdirigeringen ”%s” öppnades inte med ”|&”, andra argumentet ignorerat"
+msgstr "close: omdirigeringen ”%s” öppnades inte med ”|&”; andra argumentet ignoreras"
 
 #. from tp:gawk-5.3.66
 msgid "failure status (%d) on pipe close of `%s': %s"
@@ -371856,7 +371856,7 @@ msgstr "felstatus (%d) från rörstängning av ”%s”: %s"
 
 #. from tp:gawk-5.3.66
 msgid "failure status (%d) on two-way pipe close of `%s': %s"
-msgstr "felstatus (%d) när tvåvägsrör stängdes av ”%s”: %s"
+msgstr "felstatus (%d) när tvåvägsröret ”%s” stängdes: %s"
 
 #. from tp:gawk-5.3.66
 msgid "failure status (%d) on file close of `%s': %s"
@@ -371864,35 +371864,35 @@ msgstr "felstatus (%d) från filstängning av ”%s”: %s"
 
 #. from tp:gawk-5.3.66
 msgid "no explicit close of socket `%s' provided"
-msgstr "ingen explicit stängning av uttaget ”%s” tillhandahållen"
+msgstr "uttaget ”%s” stängdes inte uttryckligen"
 
 #. from tp:gawk-5.3.66
 msgid "no explicit close of co-process `%s' provided"
-msgstr "ingen explicit stängning av koprocessen ”%s” tillhandahållen"
+msgstr "koprocessen ”%s” stängdes inte uttryckligen"
 
 #. from tp:gawk-5.3.66
 msgid "no explicit close of pipe `%s' provided"
-msgstr "ingen explicit stängning av röret ”%s” tillhandahållen"
+msgstr "röret ”%s” stängdes inte uttryckligen"
 
 #. from tp:gawk-5.3.66
 msgid "no explicit close of file `%s' provided"
-msgstr "ingen explicit stängning av filen ”%s” tillhandahållen"
+msgstr "filen ”%s” stängdes inte uttryckligen"
 
 #. from tp:gawk-5.3.66
 msgid "fflush: cannot flush standard output: %s"
-msgstr "fflush: kan inte spola standard ut: %s"
+msgstr "fflush: kan inte spola standardutdata: %s"
 
 #. from tp:gawk-5.3.66
 msgid "fflush: cannot flush standard error: %s"
-msgstr "fflush: kan inte spola standard fel: %s"
+msgstr "fflush: kan inte spola standardfel: %s"
 
 #. from tp:gawk-5.3.66
 msgid "error writing standard output: %s"
-msgstr "fel vid skrivning till standard ut: %s"
+msgstr "fel vid skrivning till standardutdata: %s"
 
 #. from tp:gawk-5.3.66
 msgid "error writing standard error: %s"
-msgstr "fel vid skrivning till standard fel: %s"
+msgstr "fel vid skrivning till standardfel: %s"
 
 #. from tp:gawk-5.3.66
 msgid "pipe flush of `%s' failed: %s"
@@ -371908,11 +371908,11 @@ msgstr "filspolning av ”%s” misslyckades: %s"
 
 #. from tp:gawk-5.3.66
 msgid "local port %s invalid in `/inet': %s"
-msgstr "lokal port %s ogiltig i ”/inet“: %s"
+msgstr "lokal port %s är ogiltig i ”/inet”: %s"
 
 #. from tp:gawk-5.3.66
 msgid "local port %s invalid in `/inet'"
-msgstr "lokal port %s ogiltig i ”/inet”"
+msgstr "lokal port %s är ogiltig i ”/inet”"
 
 #. from tp:gawk-5.3.66
 msgid "remote host and port information (%s, %s) invalid: %s"
@@ -371932,27 +371932,27 @@ msgstr "kunde inte öppna ”%s”, läge ”%s”"
 
 #. from tp:gawk-5.3.66
 msgid "close of master pty failed: %s"
-msgstr "stängning av huvudpty misslyckades: %s"
+msgstr "stängning av huvud-pty misslyckades: %s"
 
 #. from tp:gawk-5.3.66
 msgid "close of stdout in child failed: %s"
-msgstr "stängning av standard ut i barnet misslyckades: %s"
+msgstr "stängning av standardutdata i barnprocessen misslyckades: %s"
 
 #. from tp:gawk-5.3.66
 msgid "moving slave pty to stdout in child failed (dup: %s)"
-msgstr "flyttandet av slavpty till standard ut i barnet misslyckades (dup: %s)"
+msgstr "flyttning av slav-pty till standardutdata i barnprocessen misslyckades (dup: %s)"
 
 #. from tp:gawk-5.3.66
 msgid "close of stdin in child failed: %s"
-msgstr "stängning av standard in i barnet misslyckades: %s"
+msgstr "stängning av standardindata i barnprocessen misslyckades: %s"
 
 #. from tp:gawk-5.3.66
 msgid "moving slave pty to stdin in child failed (dup: %s)"
-msgstr "flyttandet av slavpty till standard in i barnet misslyckades (dup: %s)"
+msgstr "flyttning av slav-pty till standardindata i barnprocessen misslyckades (dup: %s)"
 
 #. from tp:gawk-5.3.66
 msgid "close of slave pty failed: %s"
-msgstr "stängning av slavpty misslyckades: %s"
+msgstr "stängning av slav-pty misslyckades: %s"
 
 #. from tp:gawk-5.3.66
 msgid "could not create child process or open pty"
@@ -371960,19 +371960,19 @@ msgstr "kan inte skapa barnprocess eller öppna en pty"
 
 #. from tp:gawk-5.3.66
 msgid "moving pipe to stdout in child failed (dup: %s)"
-msgstr "flyttande av rör till standard ut i barnet misslyckades (dup: %s)"
+msgstr "flyttning av rör till standardutdata i barnprocessen misslyckades (dup: %s)"
 
 #. from tp:gawk-5.3.66
 msgid "moving pipe to stdin in child failed (dup: %s)"
-msgstr "flyttande av rör till standard in i barnet misslyckades (dup: %s)"
+msgstr "flyttning av rör till standardindata i barnprocessen misslyckades (dup: %s)"
 
 #. from tp:gawk-5.3.66
 msgid "restoring stdout in parent process failed"
-msgstr "återställande av standard ut i föräldraprocessen misslyckades"
+msgstr "återställning av standardutdata i föräldraprocessen misslyckades"
 
 #. from tp:gawk-5.3.66
 msgid "restoring stdin in parent process failed"
-msgstr "återställande av standard in i föräldraprocessen misslyckades"
+msgstr "återställning av standardindata i föräldraprocessen misslyckades"
 
 #. from tp:gawk-5.3.66
 msgid "close of pipe failed: %s"
@@ -371992,7 +371992,7 @@ msgstr "kan inte skapa barnprocess för ”%s” (fork: %s)"
 
 #. from tp:gawk-5.3.66
 msgid "getline: attempt to read from closed read end of two-way pipe"
-msgstr "getline: försök att läsa från stängd läsände av ett tvåvägsrör"
+msgstr "getline: försök att läsa från den stängda läsänden av ett tvåvägsrör"
 
 #. from tp:gawk-5.3.66
 msgid "register_input_parser: received NULL pointer"
@@ -372056,11 +372056,11 @@ msgstr "IPv6-kommunikation stöds inte"
 
 #. from tp:gawk-5.3.66
 msgid "gawk_popen_write: failed to move pipe fd to standard input"
-msgstr "gawk_popen_write: misslyckades att pipe-fd:n till standard in"
+msgstr "gawk_popen_write: misslyckades att flytta rörfilbeskrivaren till standardindata"
 
 #. from tp:gawk-5.3.66
 msgid "environment variable `POSIXLY_CORRECT' set: turning on `--posix'"
-msgstr "miljövariabeln ”POSIXLY_CORRECT” satt: slår på ”--posix”"
+msgstr "miljövariabeln ”POSIXLY_CORRECT” är satt: slår på ”--posix”"
 
 #. from tp:gawk-5.3.66
 msgid "`--posix' overrides `--traditional'"
@@ -372084,19 +372084,19 @@ msgstr "att köra %s setuid root kan vara ett säkerhetsproblem"
 
 #. from tp:gawk-5.3.66
 msgid "The -r/--re-interval options no longer have any effect"
-msgstr "Flaggorna -r/--re-interval har inte någon effekt längre"
+msgstr "Flaggorna -r/--re-interval har inte längre någon effekt"
 
 #. from tp:gawk-5.3.66
 msgid "cannot set binary mode on stdin: %s"
-msgstr "kan inte sätta binärläge på standard in: %s"
+msgstr "kan inte sätta binärläge för standardindata: %s"
 
 #. from tp:gawk-5.3.66
 msgid "cannot set binary mode on stdout: %s"
-msgstr "kan inte sätta binärläge på standard ut: %s"
+msgstr "kan inte sätta binärläge för standardutdata: %s"
 
 #. from tp:gawk-5.3.66
 msgid "cannot set binary mode on stderr: %s"
-msgstr "kan inte sätta binärläge på standard fel: %s"
+msgstr "kan inte sätta binärläge för standardfel: %s"
 
 #. from tp:gawk-5.3.66
 msgid "no program text at all!"
@@ -372244,7 +372244,7 @@ msgstr "	-Z lokalnamn		--locale=lokalnamn\n"
 
 #. from tp:gawk-5.3.66
 msgid "\nTo report bugs, use the `gawkbug' program.\nFor full instructions, see the node `Bugs' in `gawk.info'\nwhich is section `Reporting Problems and Bugs' in the\nprinted version.  This same information may be found at\nhttps://www.gnu.org/software/gawk/manual/html_node/Bugs.html.\nPLEASE do NOT try to report bugs by posting in comp.lang.awk,\nor by using a web forum such as Stack Overflow.\n\n"
-msgstr "\nFör att rapportera fel, använd programmet ”gawkbug”.\nFör fullständiga instruktioner, se noden ”Bugs” i ”gawk.info”, vilket\när avsnittet ”Reporting Problems and Bugs” i den utskrivna versionen.\nSamma information finns på\nhttps://www.gnu.org/software/gawk/manual/html_node/Bugs.html.\nVÄNLIGEN försök INTE rapportera fel genom att skriva i comp.lang.awk. \neller genom att använda ett webbforum såsom Stack Overflow.\n\nRapportera synpunkter på översättningen till <tp-sv@listor.tp-sv.se>.\n\n"
+msgstr "\nFör att rapportera fel, använd programmet ”gawkbug”.\nFör fullständiga instruktioner, se noden ”Bugs” i ”gawk.info”, som\när avsnittet ”Reporting Problems and Bugs” i den utskrivna versionen.\nSamma information finns på\nhttps://www.gnu.org/software/gawk/manual/html_node/Bugs.html.\nFörsök inte rapportera fel genom att skriva i comp.lang.awk\neller genom att använda ett webbforum som Stack Overflow.\n\nRapportera synpunkter på översättningen till <tp-sv@listor.tp-sv.se>.\n"
 
 #. from tp:gawk-5.3.66
 msgid "Source code for gawk may be obtained from\n%s/gawk-%s.tar.gz\n\n"
@@ -372252,7 +372252,7 @@ msgstr "Källkod till gawk kan fås från\n%s/gawk-%s.tar.gz\n\n"
 
 #. from tp:gawk-5.3.66
 msgid "gawk is a pattern scanning and processing language.\nBy default it reads standard input and writes standard output.\n\n"
-msgstr "gawk är ett mönsterskannande och -bearbetande språk.\nNormalt läser det från standard in och skriver till standard ut.\n\n"
+msgstr "gawk är ett språk för mönstersökning och bearbetning.\nSom standard läser det från standardindata och skriver till standardutdata.\n"
 
 #. from tp:gawk-5.3.66
 msgid "Examples:\n	%s '{ sum += $1 }; END { print sum }' file\n	%s -F: '{ print $1 }' /etc/passwd\n"
@@ -372268,11 +372268,11 @@ msgstr "Du bör ha fått en kopia av GNU General Public License tillsammans\nmed
 
 #. from tp:gawk-5.3.66
 msgid "-Ft does not set FS to tab in POSIX awk"
-msgstr "-Ft sätter inte FS till tab i POSIX-awk"
+msgstr "-Ft sätter inte FS till tabb i POSIX-awk"
 
 #. from tp:gawk-5.3.66
 msgid "%s: `%s' argument to `-v' not in `var=value' form\n\n"
-msgstr "%s: Argumentet ”%s” till ”-v” är inte på formatet ”var=värde”\n\n"
+msgstr "%s: argumentet ”%s” till ”-v” har inte formen ”var=värde”\n"
 
 #. from tp:gawk-5.3.66
 msgid "`%s' is not a legal variable name"
@@ -372284,7 +372284,7 @@ msgstr "”%s” är inte ett variabelnamn, letar efter filen ”%s=%s”"
 
 #. from tp:gawk-5.3.66
 msgid "cannot use gawk builtin `%s' as variable name"
-msgstr "kan inte använda gawks inbyggda ”%s” som ett variabelnamn"
+msgstr "kan inte använda Gawks inbyggda ”%s” som variabelnamn"
 
 #. from tp:gawk-5.3.66
 msgid "cannot use function `%s' as variable name"
@@ -372300,11 +372300,11 @@ msgstr "ödesdigert fel: internt fel"
 
 #. from tp:gawk-5.3.66
 msgid "no pre-opened fd %d"
-msgstr "ingen föröppnad fb %d"
+msgstr "ingen föröppnad filbeskrivare %d"
 
 #. from tp:gawk-5.3.66
 msgid "could not pre-open /dev/null for fd %d"
-msgstr "kunde inte föröppna /dev/null för fb %d"
+msgstr "kunde inte föröppna /dev/null för filbeskrivare %d"
 
 #. from tp:gawk-5.3.66
 msgid "empty argument to `-e/--source' ignored"
@@ -372320,15 +372320,15 @@ msgstr "-M ignoreras: MPFR/GMP-stöd är inte inkompilerat"
 
 #. from tp:gawk-5.3.66
 msgid "Use `GAWK_PERSIST_FILE=%s gawk ...' instead of --persist."
-msgstr "Använd ”GAWK_PERSIST_FILE=%s gawk …” istället för --persist."
+msgstr "Använd ”GAWK_PERSIST_FILE=%s gawk …” i stället för --persist."
 
 #. from tp:gawk-5.3.66
 msgid "Persistent memory is not supported."
-msgstr "Bestående minne stödjs inte."
+msgstr "beständigt minne stöds inte."
 
 #. from tp:gawk-5.3.66
 msgid "%s: option `-W %s' unrecognized, ignored\n"
-msgstr "%s: flaggan ”-W %s” okänd, ignorerad\n"
+msgstr "%s: flaggan ”-W %s” är okänd och ignoreras\n"
 
 #. from tp:gawk-5.3.66
 msgid "%s: fatal: cannot stat %s: %s\n"
@@ -372336,19 +372336,19 @@ msgstr "%s: ödesdigert: kan inte ta status på %s: %s\n"
 
 #. from tp:gawk-5.3.66
 msgid "%s: fatal: using persistent memory is not allowed when running as root.\n"
-msgstr "%s: ödesdigert: användning av varaktigt minne är inte tillåtet när man kör som root.\n"
+msgstr "%s: allvarligt: beständigt minne får inte användas vid körning som root.\n"
 
 #. from tp:gawk-5.3.66
 msgid "%s: warning: %s is not owned by euid %d.\n"
-msgstr "%s: varning: %s ägs inte av eaid %d.\n"
+msgstr "%s: varning: %s ägs inte av euid %d.\n"
 
 #. from tp:gawk-5.3.66
 msgid "persistent memory is not supported"
-msgstr "varaktigt minne MPFR stödjs inte"
+msgstr "beständigt minne stöds inte"
 
 #. from tp:gawk-5.3.66
 msgid "%s: fatal: persistent memory allocator failed to initialize: return value %d, pma.c line: %d.\n"
-msgstr "%s: ödesdigert: allokerare av varaktigt minne misslyckades att initiera: returvärde %d, pma.c rad: %d.\n"
+msgstr "%s: allokeraren för beständigt minne kunde inte initieras: returvärde %d, rad %d i pma.c.\n"
 
 #. from tp:gawk-5.3.66
 msgid "PREC value `%.*s' is invalid"
@@ -372384,7 +372384,7 @@ msgstr "compl(%Rg): negativt värde är inte tillåtet"
 
 #. from tp:gawk-5.3.66
 msgid "comp(%Rg): fractional value will be truncated"
-msgstr "compl(%Rg): flyttalsvärden kommer huggas av"
+msgstr "compl(%Rg): flyttalsvärdet avkortas"
 
 #. from tp:gawk-5.3.66
 msgid "compl(%Zd): negative values are not allowed"
@@ -372404,7 +372404,7 @@ msgstr "%s: argument nr. %d:s negativa värde %Rg är inte tillåtet"
 
 #. from tp:gawk-5.3.66
 msgid "%s: argument #%d fractional value %Rg will be truncated"
-msgstr "%s: argument nr. %d flyttalsvärde %Rg kommer huggas av"
+msgstr "%s: flyttalsvärdet %Rg för argument nr. %d avkortas"
 
 #. from tp:gawk-5.3.66
 msgid "%s: argument #%d negative value %Zd is not allowed"
@@ -372412,7 +372412,7 @@ msgstr "%s: argument nr. %d:s negativa värde %Zd är inte tillåtet"
 
 #. from tp:gawk-5.3.66
 msgid "and: called with less than two arguments"
-msgstr "and: anropad med mindre än två argument"
+msgstr "and: anropas med färre än två argument"
 
 #. from tp:gawk-5.3.66
 msgid "or: called with less than two arguments"
@@ -372460,7 +372460,7 @@ msgstr "inga hexadecimala siffror i ”\\x”-kontrollsekvenser"
 
 #. from tp:gawk-5.3.66
 msgid "hex escape \\x%.*s of %d characters probably not interpreted the way you expect"
-msgstr "hexkod \\x%.*s med %d tecken tolkas förmodligen inte på det sätt du förväntar dig"
+msgstr "hexadecimalkoden \\x%.*s med %d tecken tolkas förmodligen inte som du förväntar dig"
 
 #. from tp:gawk-5.3.66
 msgid "POSIX does not allow `\\u' escapes"
@@ -372472,19 +372472,19 @@ msgstr "inga hexadecimala siffror i ”\\u”-kontrollsekvenser"
 
 #. from tp:gawk-5.3.66
 msgid "invalid `\\u' escape sequence"
-msgstr "felaktig ”\\u”-kontrollsekvenser"
+msgstr "felaktig ”\\u”-kontrollsekvens"
 
 #. from tp:gawk-5.3.66
 msgid "escape sequence `\\%c' treated as plain `%c'"
-msgstr "kontrollsekvensen ”\\%c” behandlad som bara ”%c”"
+msgstr "kontrollsekvensen ”\\%c” behandlas som bara ”%c”"
 
 #. from tp:gawk-5.3.66
 msgid "Invalid multibyte data detected. There may be a mismatch between your data and your locale"
-msgstr "Ogiltig multibytedata upptäckt.  Dina data och din lokal stämmer kanske inte överens"
+msgstr "ogiltiga flerteckendata påträffades. Dina data och din lokal kanske inte stämmer överens"
 
 #. from tp:gawk-5.3.66
 msgid "fatal: must use `count$' on all formats or none"
-msgstr "ödesdigert: man måste använda ”nummer$” på alla eller inga format"
+msgstr "allvarligt: ”nummer$” måste användas i alla format eller inget"
 
 #. from tp:gawk-5.3.66
 msgid "field width is ignored for `%%' specifier"
@@ -372500,7 +372500,7 @@ msgstr "fältbredden och precisionen ignoreras för specificeraren ”%%”"
 
 #. from tp:gawk-5.3.66
 msgid "fatal: `$' is not permitted in awk formats"
-msgstr "ödesdigert: ”%s” är inte tillåtet i awk-format"
+msgstr "allvarligt: ”$” är inte tillåtet i awk-format"
 
 #. from tp:gawk-5.3.66
 msgid "fatal: argument index with `$' must be > 0"
@@ -372512,11 +372512,11 @@ msgstr "ödesdigert: argumentindex %ld är större än det totala antalet givna 
 
 #. from tp:gawk-5.3.66
 msgid "must use `count$' on all formats or none"
-msgstr "man måste använda ”nummer$” på alla eller inga format"
+msgstr "”nummer$” måste användas i alla format eller inget"
 
 #. from tp:gawk-5.3.66
 msgid "fatal: no `$' supplied for positional field width or precision"
-msgstr "ödesdigert: inget ”$” givet för positionsfältsbredd eller -precision"
+msgstr "allvarligt: inget ”$” angavs för positionsfältsbredd eller -precision"
 
 #. from tp:gawk-5.3.66
 msgid "`%c' is meaningless in awk formats; ignored"
@@ -372532,15 +372532,15 @@ msgstr "[s]printf: värdet %g är inte ett giltigt brett tecken"
 
 #. from tp:gawk-5.3.66
 msgid "%%%c format is POSIX standard but not portable to other awks"
-msgstr "formatet %%%c är standard POSIX men inte portabelt till andra awk:ar"
+msgstr "formatet %%%c är POSIX-standard men inte portabelt till andra awk-implementationer"
 
 #. from tp:gawk-5.3.66
 msgid "ignoring unknown format specifier character `%c': no argument converted"
-msgstr "ignorerar okänt formatspecifikationstecken ”%c”: inget argument konverterat"
+msgstr "okänt formatspecifikationstecken ”%c” ignoreras: inget argument konverteras"
 
 #. from tp:gawk-5.3.66
 msgid "fatal: not enough arguments to satisfy format string"
-msgstr "ödesdigert: inte tillräckligt med argumentet för att tillgodose formatsträngen"
+msgstr "allvarligt: inte tillräckligt många argument för formatsträngen"
 
 #. from tp:gawk-5.3.66
 msgid "^ ran out for this one"
@@ -372552,7 +372552,7 @@ msgstr "[s]printf: formatspecificeraren har inte en styrbokstav"
 
 #. from tp:gawk-5.3.66
 msgid "too many arguments supplied for format string"
-msgstr "för många argument gavs för formatsträngen"
+msgstr "för många argument angavs för formatsträngen"
 
 #. from tp:gawk-5.3.66
 msgid "%s: received non-string format string argument"
@@ -372568,7 +372568,7 @@ msgstr "printf: inga argument"
 
 #. from tp:gawk-5.3.66
 msgid "printf: attempt to write to closed write end of two-way pipe"
-msgstr "printf: försök att skriva till stängd skrivände av ett tvåvägsrör"
+msgstr "printf: försök att skriva till den stängda skrivänden av ett tvåvägsrör"
 
 #. from tp:gawk-5.3.66
 msgid "[s]printf: value %g is out of range for `%%%c' format"
@@ -372580,7 +372580,7 @@ msgstr "[s]printf: värdet %s är utanför intervallet för formatet ”%%%c”"
 
 #. from tp:gawk-5.3.66
 msgid "%s %s `%s': could not get fd flags: (fcntl F_GETFD: %s)"
-msgstr "%s %s ”%s”: kunde inte hämta fb-flaggor: (fcntl F_GETFD: %s)"
+msgstr "%s %s ”%s”: kunde inte hämta filbeskrivningsflaggor (fcntl F_GETFD: %s)"
 
 #. from tp:gawk-5.3.66
 msgid "%s %s `%s': could not set close-on-exec: (fcntl F_SETFD: %s)"
@@ -372600,11 +372600,11 @@ msgstr "ödesdigert: posix_spawnp: %s\n"
 
 #. from tp:gawk-5.3.66
 msgid "Program indentation level too deep. Consider refactoring your code"
-msgstr "Programindenteringsnivån är för djup.  Överväg att refaktorera din kod"
+msgstr "programindenteringsnivån är för djup. Överväg att omstrukturera koden"
 
 #. from tp:gawk-5.3.66
 msgid "sending profile to standard error"
-msgstr "skickar profilen till standard fel"
+msgstr "skickar profilen till standardfel"
 
 #. from tp:gawk-5.3.66
 msgid "	# %s rule(s)\n\n"
@@ -372632,11 +372632,11 @@ msgstr "\n# Inkluderade filer (-i och/eller @include och/eller @nsinclude)\n\n"
 
 #. from tp:gawk-5.3.66
 msgid "	# gawk profile, created %s\n"
-msgstr "	# gawkprofil, skapad %s\n"
+msgstr "\t# Gawk-profil, skapad %s\n"
 
 #. from tp:gawk-5.3.66
 msgid "\n	# Functions, listed alphabetically\n"
-msgstr "\n	# Funktioner, listade alfabetiskt\n"
+msgstr "\n\t# Funktioner i alfabetisk ordning\n"
 
 #. from tp:gawk-5.3.66
 msgid "redir2str: unknown redirection type %d"
@@ -372644,7 +372644,7 @@ msgstr "redir2str: okänd omdirigeringstyp %d"
 
 #. from tp:gawk-5.3.66
 msgid "behavior of matching a regexp containing NUL characters is not defined by POSIX"
-msgstr "beteendet vid matchning av ett reguljäruttryck som innehåller NULL-tecken är inte definierat av POSIX"
+msgstr "beteendet vid matchning av ett reguljärt uttryck som innehåller NUL-tecken definieras inte av POSIX"
 
 #. from tp:gawk-5.3.66
 msgid "invalid NUL byte in dynamic regexp"
@@ -372652,19 +372652,19 @@ msgstr "felaktig NULL-byte i dynamiskt reguljäruttryck"
 
 #. from tp:gawk-5.3.66
 msgid "regexp escape sequence `\\%c' treated as plain `%c'"
-msgstr "kontrollsekvensen ”\\%c” i reguljäruttryck behandlad som bara ”%c”"
+msgstr "kontrollsekvensen ”\\%c” i reguljärt uttryck behandlas som bara ”%c”"
 
 #. from tp:gawk-5.3.66
 msgid "regexp escape sequence `\\%c' is not a known regexp operator"
-msgstr "kontrollsekvensen ”\\%c” i reguljäruttryck är inte en känd operator i reguljäruttryck"
+msgstr "kontrollsekvensen ”\\%c” i reguljäruttryck är inte en känd operator"
 
 #. from tp:gawk-5.3.66
 msgid "regexp component `%.*s' should probably be `[%.*s]'"
-msgstr "komponenten ”%.*s” i reguljäruttryck skall förmodligen vara ”[%.*s]”"
+msgstr "komponenten ”%.*s” i reguljäruttryck bör troligen vara ”[%.*s]”"
 
 #. from tp:gawk-5.3.66
 msgid "stray \\ before %s"
-msgstr "vilsekommet \\ före %s"
+msgstr "felplacerat \\ före %s"
 
 #. from tp:gawk-5.3.66
 msgid "bad pattern"
@@ -372676,7 +372676,7 @@ msgstr "ogiltigt innehåll i {}"
 
 #. from tp:gawk-5.3.66
 msgid "? * + or {interval} not preceded by valid subpattern"
-msgstr "? * + eller {interval} som inte föregås av ett giltigt delmönster"
+msgstr "? * + eller {intervall} föregås inte av ett giltigt delmönster"
 
 #. from tp:gawk-5.3.66
 msgid "unbalanced {"
@@ -372684,7 +372684,7 @@ msgstr "obalanserad {"
 
 #. from tp:gawk-5.3.66
 msgid "invalid collating element"
-msgstr "ogiltigt sorteringselement"
+msgstr "ogiltigt kollationselement"
 
 #. from tp:gawk-5.3.66
 msgid "invalid character class name"
@@ -372696,7 +372696,7 @@ msgstr "ogiltigt eftersläpande omvänt snedstreck"
 
 #. from tp:gawk-5.3.66
 msgid "invalid range endpoint"
-msgstr "ogiltig omfångsslutpunkt"
+msgstr "ogiltig slutpunkt för intervall"
 
 #. from tp:gawk-5.3.66
 msgid "invalid \\digit"
@@ -372704,7 +372704,7 @@ msgstr "ogiltig \\siffra"
 
 #. from tp:gawk-5.3.66
 msgid "match not found"
-msgstr "det fanns ingen match"
+msgstr "ingen träff hittades"
 
 #. from tp:gawk-5.3.66
 msgid "unknown error code"
@@ -372712,11 +372712,11 @@ msgstr "okänd felkod"
 
 #. from tp:gawk-5.3.66
 msgid "%s was created by version `%s', but the current version is `%s'"
-msgstr "%s skapades av version ”%s”, men den nuvarande versionen är ”%s”"
+msgstr "%s skapades av version ”%s”, men den aktuella versionen är ”%s”"
 
 #. from tp:gawk-5.3.66
 msgid "current setting of -M/--bignum does not match saved setting in PMA backing file"
-msgstr "aktuell inställning av -M/--bignum stämmer inte överens med sparad inställning i PMA-stödsfilen"
+msgstr "den aktuella inställningen för -M/--bignum stämmer inte med den sparade inställningen i PMA-stödfilen"
 
 #. from tp:gawk-5.3.66
 msgid "function `%s': cannot use function `%s' as a parameter name"
@@ -372724,7 +372724,7 @@ msgstr "funktionen ”%s”: kan inte använda funktionen ”%s” som ett param
 
 #. from tp:gawk-5.3.66
 msgid "cannot pop main context"
-msgstr "kan inte poppa huvudsammanhang"
+msgstr "kan inte ta bort huvudsammanhanget från stacken"
 
 #. from tp:gcal-4.1
 msgid "Try to write %s `%s'... %s%s%s"

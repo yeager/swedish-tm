@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 32301,
+  "reviewed_tp_entries": 33100,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 9225,
+  "changed_pairs": 9445,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 9225,
+      "confirmed_swedish_changes": 9445,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "db0c6cdea9df9dbf551e3103c0b678283adc1d2f21d5fd39d363b5b690e3349b"
+      "sha256": "9a24af367f02d4973e25bb32e6efa509f71b656b25b3c1985ca235eb6281c32c"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 9225,
+      "confirmed_swedish_changes": 9445,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "7033af9eac7cdf46f46409de018563c503e483b583595fed2310f01f3c3cbcdd"
+      "sha256": "516a7124c36635d796a3a1b43280248c7bb895012cc246de71b702b033b7d44e"
     }
   },
   "unmapped_plural_fixes": [
@@ -73873,6 +73873,1766 @@
       "before": "Oändlig loop påträffad vid försök att beräkna adresserna för symbolerna i sektion %s",
       "after": "oändlig slinga påträffades vid beräkning av symbolernas adresser i sektion %s",
       "reason": "Språk- och terminologigranskning av GNU assembler"
+    },
+    {
+      "tp_id": "gawk:135",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "duplicate case values in switch body: %s",
+      "before": "upprepade case-värden i switch-sats: %s",
+      "after": "dubbla case-värden i switch-satsen: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:140",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "duplicate `default' detected in switch body",
+      "before": "flera ”default” upptäcktes i switch-sats",
+      "after": "flera ”default” påträffades i switch-satsen",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:152",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "`next' used in %s action",
+      "before": "”next” använt i %s-åtgärd",
+      "after": "”next” används i %s-åtgärden",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:157",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "`nextfile' used in %s action",
+      "before": "”nextfile” använt i %s-åtgärd",
+      "after": "”nextfile” används i %s-åtgärden",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:162",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "`return' used outside function context",
+      "before": "”return” använd utanför funktion",
+      "after": "”return” används utanför en funktionskontext",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:166",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "plain `print' in BEGIN or END rule should probably be `print \"\"'",
+      "before": "ensamt ”print” i BEGIN eller END-regel bör troligen vara 'print \"\"'",
+      "after": "ensamt ”print” i en BEGIN- eller END-regel bör troligen vara ”print \\\"\\\"”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:182",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "concatenation as I/O `>' redirection target is ambiguous",
+      "before": "konkatenering som omdirigeringsmålet för I/O ”>” är tvetydig",
+      "after": "konkatenering som omdirigeringsmål för I/O ”>” är tvetydig",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:190",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "regular expression on left of `~' or `!~' operator",
+      "before": "reguljärt uttryck på vänster sida om en ”~”- eller ”!~”-operator",
+      "after": "reguljärt uttryck till vänster om operatorn ”~” eller ”!~”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:202",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "non-redirected `getline' invalid inside `%s' rule",
+      "before": "icke omdirigerad ”getline” är ogiltigt inuti ”%s”-regel",
+      "after": "icke-omdirigerad ”getline” är ogiltig inuti regeln ”%s”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:207",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "non-redirected `getline' undefined inside END action",
+      "before": "icke omdirigerad ”getline” odefinierad inuti END-åtgärd",
+      "after": "icke-omdirigerad ”getline” är odefinierad inuti END-åtgärden",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:228",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "attempt to use non-function `%s' in function call",
+      "before": "försök att använda en icke-funktion ”%s” i ett funktionsanrop",
+      "after": "försök att använda icke-funktionen ”%s” i ett funktionsanrop",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:245",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "unexpected newline or end of string",
+      "before": "oväntat nyradstecken eller slut på strängen",
+      "after": "oväntad radbrytning eller slut på strängen",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:268",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "cannot include `%s' and use it as a program file",
+      "before": "kan inte inkludera ”%s” och använda den som en programfil",
+      "after": "kan inte inkludera ”%s” och använda den som programfil",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:273",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "already included source file `%s'",
+      "before": "inkluderade redan källfilen ”%s”",
+      "after": "källfilen ”%s” har redan inkluderats",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:278",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "already loaded shared library `%s'",
+      "before": "inkluderade redan det delade biblioteket ”%s”",
+      "after": "det delade biblioteket ”%s” har redan lästs in",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:334",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "use of `\\ #...' line continuation is not portable",
+      "before": "Användning av ”\\ #...” för radfortsättning är inte portabelt",
+      "after": "användning av ”\\ #...” för radfortsättning är inte portabel",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:338",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "backslash not last character on line",
+      "before": "sista tecknet på raden är inte ett omvänt snedstreck",
+      "after": "ett omvänt snedstreck är inte sista tecknet på raden",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:407",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "match: regexp constant as first argument is probably not what you want",
+      "before": "match: reguljäruttryckskonstant som första argumente är förmodligen inte vad du vill",
+      "after": "match: reguljärt uttryck som första argument är förmodligen inte vad du vill",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:419",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "use of dcgettext(_\"...\") is incorrect: remove leading underscore",
+      "before": "användandet av dcgettext(_\"...\") är felaktigt: ta bort det inledande understrykningstecknet",
+      "after": "användningen av dcgettext(_\"...\") är felaktig: ta bort inledande understreck",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:423",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "use of dcngettext(_\"...\") is incorrect: remove leading underscore",
+      "before": "användandet av dcngettext(_\"...\") är felaktigt: ta bort det inledande understrykningstecknet",
+      "after": "användningen av dcngettext(_\"...\") är felaktig: ta bort inledande understreck",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:441",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "sending variable list to standard error",
+      "before": "skickar variabellista till standard fel",
+      "after": "skickar variabellistan till standardfel",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:445",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "%s: close failed: %s",
+      "before": "%s: misslyckades att stänga: %s",
+      "after": "%s: stängning misslyckades: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:450",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "shadow_funcs() called twice!",
+      "before": "shadow_funcs() anropad två gånger!",
+      "after": "shadow_funcs() anropades två gånger!",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:478",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "function `%s': parameter #%d, `%s', duplicates parameter #%d",
+      "before": "funktionen ”%s”: parameter %d, ”%s”, är samma som parameter %d",
+      "after": "funktionen ”%s”: parameter %d, ”%s”, duplicerar parameter %d",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:483",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "function `%s' called but never defined",
+      "before": "funktionen ”%s” anropad men aldrig definierad",
+      "after": "funktionen ”%s” anropas men definieras aldrig",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:488",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "function `%s' defined but never called directly",
+      "before": "funktionen ”%s” definierad men aldrig anropad direkt",
+      "after": "funktionen ”%s” definieras men anropas aldrig direkt",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:498",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "function `%s' called with space between name and `(',\nor used as a variable or an array",
+      "before": "funktionen ”%s” anropad med blanktecken mellan namnet och ”(”,\neller använd som variabel eller vektor",
+      "after": "funktionen ”%s” anropas med blanksteg mellan namnet och ”(”,\neller används som variabel eller vektor",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3303",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "division by zero attempted",
+      "before": "försökte dividera med noll",
+      "after": "försök att dividera med noll",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3307",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "division by zero attempted in `%%'",
+      "before": "försökte dividera med noll i ”%%”",
+      "after": "försök att dividera med noll i ”%%”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:603",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "fflush: cannot flush: pipe `%.*s' opened for reading, not writing",
+      "before": "fflush: kan inte spola: röret ”%.*s” är öppnat för läsning, inte skrivning",
+      "after": "fflush: kan inte spola: röret ”%.*s” är öppnat för läsning, inte för skrivning",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:608",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "fflush: cannot flush: file `%.*s' opened for reading, not writing",
+      "before": "fflush: kan inte spola: filen ”%.*s” är öppnad för läsning, inte skrivning",
+      "after": "fflush: kan inte spola: filen ”%.*s” är öppnad för läsning, inte för skrivning",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:665",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "substr: non-integer length %g will be truncated",
+      "before": "substr: längden %g som inte är ett heltal kommer huggas av",
+      "after": "substr: längden %g är inte ett heltal och avkortas",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:670",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "substr: length %g too big for string indexing, truncating to %g",
+      "before": "substr: längden %g är för stor för strängindexering, hugger av till %g",
+      "after": "substr: längden %g är för stor för strängindexering och avkortas till %g",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:680",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "substr: non-integer start index %g will be truncated",
+      "before": "substr: startindex %g som inte är ett heltal kommer huggas av",
+      "after": "substr: startindexet %g är inte ett heltal och avkortas",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:723",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "print: attempt to write to closed write end of two-way pipe",
+      "before": "print: försök att skriva till stängd skrivände av ett tvåvägsrör",
+      "after": "print: försök att skriva till den stängda skrivänden av ett tvåvägsrör",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:746",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "gensub: third argument `%.*s' treated as 1",
+      "before": "gensub: tredje argumentet ”%.*s” behandlat som 1",
+      "after": "gensub: tredje argumentet ”%.*s” behandlas som 1",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:779",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "lshift(%f, %f): fractional values will be truncated",
+      "before": "lshift(%f, %f): flyttalsvärden kommer huggas av",
+      "after": "lshift(%f, %f): flyttalsvärden avkortas",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:784",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "lshift(%f, %f): too large shift value returns zero",
+      "before": "lshift(%f, %f): för stort skiftvärde returnerar noll",
+      "after": "lshift(%f, %f): för stort skiftvärde ger noll",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:794",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "rshift(%f, %f): fractional values will be truncated",
+      "before": "rshift(%f, %f): flyttalsvärden kommer huggas av",
+      "after": "rshift(%f, %f): flyttalsvärden avkortas",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:799",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "rshift(%f, %f): too large shift value returns zero",
+      "before": "rshift(%f, %f): för stort skiftvärde returnerar noll",
+      "after": "rshift(%f, %f): för stort skiftvärde ger noll",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:824",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "compl(%f): fractional value will be truncated",
+      "before": "compl(%f): flyttalsvärde kommer huggas av",
+      "after": "compl(%f): flyttalsvärdet avkortas",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:865",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "typeof detected invalid flags combination `%s'; please file a bug report",
+      "before": "typeof upptäckte en ogiltig flaggkombination ”%s”, skicka gärna en felrapport",
+      "after": "typeof upptäckte en ogiltig flaggkombination ”%s”; skicka en felrapport",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:880",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Type (g)awk statement(s). End with the command `end'\n",
+      "before": "Skriv (g)awk-satser.  Avsluta med kommandot ”end”\n",
+      "after": "Skriv (g)awk-satser. Avsluta med kommandot ”end”.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:900",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "save: `%s': command not permitted",
+      "before": "save: ”%s”: kommandot inte tillåtet",
+      "after": "save: ”%s”: kommandot är inte tillåtet",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:917",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Type commands for when %s %d is hit, one per line.\n",
+      "before": "Skriv kommandon att användas när %s %d träffas, ett per rad.\n",
+      "after": "Skriv kommandon som ska användas när %s %d träffas, ett per rad.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:963",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "invalid range specification: %d - %d",
+      "before": "ogiltigt intervallspecifikation: %d - %d",
+      "after": "ogiltig intervallspecifikation: %d - %d",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:972",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "non-numeric value found, numeric expected",
+      "before": "ickenumeriskt värde fanns, numeriskt förväntades",
+      "after": "ett ickenumeriskt värde påträffades; ett numeriskt förväntades",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:992",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "commands [num] - starts a list of commands to be executed at a breakpoint(watchpoint) hit",
+      "before": "commands [num] — startar en lista av kommandon att köra när en brytpunkt(observationspunkt) träffas",
+      "after": "commands [num] — startar en lista med kommandon som körs när en brytpunkt eller observationspunkt träffas",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:996",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "condition num [expr] - set or clear breakpoint or watchpoint condition",
+      "before": "condition num [uttr] — sätt eller töm en brytpunkts eller observationspunkts villkor",
+      "after": "condition num [uttr] — sätt eller töm villkoret för en brytpunkt eller observationspunkt",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1012",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "display [var] - print value of variable each time the program stops",
+      "before": "display [var] — skriv ut värdet på variabeln varje gång programmet stoppar",
+      "after": "display [var] — skriv ut värdet på en variabel varje gång programmet stannar",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1020",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "dump [filename] - dump instructions to file or stdout",
+      "before": "dump [filnamn] — skriv instruktioner till filen eller standard ut",
+      "after": "dump [filnamn] — skriv instruktioner till filen eller standardutdata",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1044",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "frame [N] - select and print stack frame number N",
+      "before": "frame [N] — välj och skriv ut stackram nummer N",
+      "after": "frame [N] — välj och skriv ut stackramsnummer N",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1048",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "help [command] - print list of commands or explanation of command",
+      "before": "help [kommando] — skriv listan av kommandon eller en förklaring av kommando",
+      "after": "help [kommando] — skriv ut en lista med kommandon eller en förklaring av ett kommando",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1052",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "ignore N COUNT - set ignore-count of breakpoint number N to COUNT",
+      "before": "ignore N ANTAL — sätt ignoreringsantal på brytpunkt nummer N till ANTAL",
+      "after": "ignore N ANTAL — ställ in ignoreringsantalet för brytpunkt N till ANTAL",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1060",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "list [-|+|[filename:]lineno|function|range] - list specified line(s)",
+      "before": "list [-|+|[filnamn:]radnr|funktion|intervall] — lista angivna rad(er)",
+      "after": "list [-|+|[filnamn:]radnummer|funktion|intervall] — lista angivna rader",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1092",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "run - start or restart executing program",
+      "before": "run — starta eller starta om körningen av programmet",
+      "after": "run — starta eller starta om programmet",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1108",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "source file - execute commands from file",
+      "before": "source fil — kör kommandon från fil",
+      "after": "source file — kör kommandon från filen",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1124",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "trace on|off - print instruction before executing",
+      "before": "trace on|off — skriv ut instruktioner före de körs",
+      "after": "trace on|off — skriv ut instruktioner före körning",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1157",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "cannot read command: %s\n",
+      "before": "kan inte läsa kommando: %s\n",
+      "after": "kan inte läsa kommandot: %s\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1171",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "unknown command - `%.*s', try help",
+      "before": "okänt kommando — ”%.*s”, försök med help",
+      "after": "okänt kommando — ”%.*s”; försök med help",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1193",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "set or show gawk output file",
+      "before": "sätt eller visa gawks utmatningsfil",
+      "after": "sätt eller visa Gawks utdatafil",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1197",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "set or show debugger prompt",
+      "before": "sätt eller visa felsökningsprompten",
+      "after": "sätt eller visa felsökarens prompt",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1201",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "(un)set or show saving of command history (value=on|off)",
+      "before": "slå av/på eller visa sparandet av kommandohistorik (värde=on|off)",
+      "after": "aktivera/inaktivera eller visa sparandet av kommandohistoriken (värde=on|off)",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1205",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "(un)set or show saving of options (value=on|off)",
+      "before": "slå av/på eller visa sparandet av flaggor (värde=on|off)",
+      "after": "aktivera/inaktivera eller visa sparandet av flaggor (värde=on|off)",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1209",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "(un)set or show instruction tracing (value=on|off)",
+      "before": "slå av/på eller visa instruktionsspårande (värde=on|off)",
+      "after": "aktivera/inaktivera eller visa instruktionsspårning (värde=on|off)",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1232",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "warning: source file `%s' modified since program compilation.\n",
+      "before": "varning: källfilen ”%s” ändrad sedan programmet kompilerades.\n",
+      "after": "varning: källfilen ”%s” har ändrats sedan programmet kompilerades.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1247",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "source file `%s' modified since start of program execution",
+      "before": "källfilen ”%s” ändrad sedan början av programkörningen",
+      "after": "källfilen ”%s” har ändrats sedan programkörningen startade",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1299",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Called by frame: ",
+      "before": "Anropad av ramen: ",
+      "after": "anropades av ramen: ",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1304",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Caller of frame: ",
+      "before": "Anropare av ramen: ",
+      "after": "anroparen till ramen: ",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1404",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "watchpoint %d is unconditional\n",
+      "before": "observationspunkt %d är ovillkorlig\n",
+      "after": "observationspunkten %d är ovillkorlig\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1428",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Watchpoint %d deleted because parameter is out of scope.\n",
+      "before": "Observationspunkt %d raderad för att parametern är utanför sin räckvidd.\n",
+      "after": "observationspunkt %d raderades eftersom parametern är utanför sin räckvidd.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1433",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Display %d deleted because parameter is out of scope.\n",
+      "before": "Visning %d raderad för att parametern är utanför sin räckvidd.\n",
+      "after": "visning %d raderades eftersom parametern är utanför sin räckvidd.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1458",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "invalid frame number",
+      "before": "Ogiltigt ramnummer",
+      "after": "ogiltigt ramnummer",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1462",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Note: breakpoint %d (enabled, ignore next %ld hits), also set at %s:%d",
+      "before": "Observera: brytpunkt %d (aktiverad, ignorera följande %ld träffar), är också satt vid %s:%d",
+      "after": "Observera: brytpunkt %d (aktiverad, ignorera nästa %ld träffar) är också satt vid %s:%d",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1467",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Note: breakpoint %d (enabled), also set at %s:%d",
+      "before": "Observera: brytpunkt %d (aktiverad), är också satt vid %s:%d",
+      "after": "Observera: brytpunkt %d (aktiverad) är också satt vid %s:%d",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1472",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Note: breakpoint %d (disabled, ignore next %ld hits), also set at %s:%d",
+      "before": "Observera: brytpunkt %d (avaktiverad, ignorera följande %ld träffar), är också satt vid %s:%d",
+      "after": "Observera: brytpunkt %d (avaktiverad, ignorera nästa %ld träffar) är också satt vid %s:%d",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1477",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Note: breakpoint %d (disabled), also set at %s:%d",
+      "before": "Observera: brytpunkt %d (avaktiverad), är också satt vid %s:%d",
+      "after": "Observera: brytpunkt %d (avaktiverad) är också satt vid %s:%d",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1482",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Breakpoint %d set at file `%s', line %d\n",
+      "before": "Brytpunkt %d satt vid filen ”%s”, rad %d\n",
+      "after": "brytpunkten %d sattes vid filen ”%s”, rad %d\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1512",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "breakpoint %d set at file `%s', line %d is unconditional\n",
+      "before": "brytpunkt %d satt i filen ”%s”, rad %d är ovillkorlig\n",
+      "after": "brytpunkten %d sattes i filen ”%s”, rad %d, och är ovillkorlig\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1522",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Deleted breakpoint %d",
+      "before": "Raderade brytpunkt %d",
+      "after": "brytpunkten %d raderades",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1549",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Will ignore next %ld crossing(s) of breakpoint %d.\n",
+      "before": "Kommer ignorera följande %ld passager av brytpunkt %d.\n",
+      "after": "nästa %ld passage(r) av brytpunkten %d ignoreras.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1554",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Will stop next time breakpoint %d is reached.\n",
+      "before": "Kommer stanna nästa gång brytpunkt %d nås.\n",
+      "after": "programmet stoppas nästa gång brytpunkten %d nås.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1559",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Can only debug programs provided with the `-f' option.\n",
+      "before": "Kan bara felsöka program som getts flaggan ”-f”.\n",
+      "after": "det går endast att felsöka program som angetts med flaggan ”-f”.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1574",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Program already running. Restart from beginning (y/n)? ",
+      "before": "Programmet kör redan.  Starta om från början (j/n)? ",
+      "after": "programmet kör redan. Starta om från början (j/n)? ",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1578",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Program not restarted\n",
+      "before": "Programmet inte omstartat\n",
+      "after": "programmet startades inte om\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1598",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Program exited abnormally with exit value: %d\n",
+      "before": "Programmet avslutade onormalt med slutvärdet: %d\n",
+      "after": "programmet avslutades onormalt med slutvärdet: %d\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1603",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Program exited normally with exit value: %d\n",
+      "before": "Programmet avslutade normalt med slutvärdet: %d\n",
+      "after": "programmet avslutades normalt med slutvärdet: %d\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1608",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "The program is running. Exit anyway (y/n)? ",
+      "before": "Programmet kör.  Avsluta ändå (j/n)? ",
+      "after": "programmet körs. Avsluta ändå (j/n)? ",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1612",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Not stopped at any breakpoint; argument ignored.\n",
+      "before": "Inte stoppad vid någon brytpunkt, argumentet ignoreras.\n",
+      "after": "programmet har inte stoppats vid någon brytpunkt; argumentet ignoreras.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1622",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Will ignore next %ld crossings of breakpoint %d.\n",
+      "before": "Kommer ignorera de nästa %ld passagerna av brytpunkt %d.\n",
+      "after": "ignorerar nästa %ld passager av brytpunkt %d.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1632",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Run until return from ",
+      "before": "Kör till retur från ",
+      "after": "kör tills retur från ",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1667",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Stopping in %s ...\n",
+      "before": "Stannar i %s …\n",
+      "after": "stoppar i %s …\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1672",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "'finish' not meaningful with non-local jump '%s'\n",
+      "before": "”finish” är inte meningsfullt med icke lokalt hopp ”%s”\n",
+      "after": "”finish” är inte meningsfullt med ett icke-lokalt hopp ”%s”\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1677",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "'until' not meaningful with non-local jump '%s'\n",
+      "before": "”until” är inte meningsfullt med icke lokalt hopp ”%s”\n",
+      "after": "”until” är inte meningsfullt med ett icke-lokalt hopp ”%s”\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1692",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "sending output to stdout\n",
+      "before": "skickar utdata till standard ut\n",
+      "after": "skickar utdata till standardutdata\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1710",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "fatal error during eval, need to restart.\n",
+      "before": "ödesdigert fel under eval, behöver omstart.\n",
+      "after": "allvarligt fel under eval; omstart krävs.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1725",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "unknown opcode %d",
+      "before": "okänd op-kod %d",
+      "after": "okänd opkod %d",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1730",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "opcode %s not an operator or keyword",
+      "before": "op-kod %s är inte en operator eller ett nyckelord",
+      "after": "opkoden %s är inte en operator eller ett nyckelord",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1758",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "BINMODE value `%s' is invalid, treated as 3",
+      "before": "BINMODE-värde ”%s” är ogiltigt, behandlas som 3",
+      "after": "BINMODE-värdet ”%s” är ogiltigt och behandlas som 3",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1772",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "reference to uninitialized argument `%s'",
+      "before": "referens till icke initierat argument ”%s”",
+      "after": "referens till oinitierat argument ”%s”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1777",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "reference to uninitialized variable `%s'",
+      "before": "referens till icke initierad variabel ”%s”",
+      "after": "referens till oinitierad variabel ”%s”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1795",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "reference to uninitialized field `$%ld'",
+      "before": "referens till icke initierat fält ”$%ld”",
+      "after": "referens till oinitierat fält ”$%ld”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1800",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "function `%s' called with more arguments than declared",
+      "before": "funktionen ”%s” anropad med fler argument än vad som deklarerats",
+      "after": "funktionen ”%s” anropas med fler argument än deklarerat",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1810",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "division by zero attempted in `/='",
+      "before": "försökte dividera med noll i ”/=”",
+      "after": "försök att dividera med noll i ”/=”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1814",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "division by zero attempted in `%%='",
+      "before": "försökte dividera med noll i ”%%=”",
+      "after": "försök att dividera med noll i ”%%=”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1819",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "extension `%s': trying to load %s, was previously loaded from %s",
+      "before": "utvidgningen ”%s”: försöker ladda %s, men tidigare laddad från %s",
+      "after": "utökningen ”%s”: försöker läsa in %s, som tidigare lästes in från %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1832",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "load_ext: received NULL lib_name",
+      "before": "load_ext: mottog NULL-lib_name",
+      "after": "load_ext: tog emot NULL-lib_name",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1860",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "make_builtin: cannot use gawk built-in `%s' as function name",
+      "before": "make_builtin: kan inte använda gawks inbyggda ”%s” som ett funktionsnamn",
+      "after": "make_builtin: kan inte använda Gawks inbyggda ”%s” som funktionsnamn",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1865",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "make_builtin: cannot use gawk built-in `%s' as namespace name",
+      "before": "make_builtin: kan inte använda gawks inbyggda ”%s” som ett namnrymdsnamn",
+      "after": "make_builtin: kan inte använda Gawks inbyggda ”%s” som namnrymdsnamn",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1880",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "make_builtin: function name `%s' previously defined",
+      "before": "make_builtin: funktionsnamnet ”%s” är definierat sedan tidigare",
+      "after": "make_builtin: funktionsnamnet ”%s” har redan definierats",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1955",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "fts: called with incorrect number of arguments, expecting 3",
+      "before": "fts: anropad med felaktigt antal argument, förväntade 3",
+      "after": "fts: anropades med fel antal argument; 3 förväntades",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:1975",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "fts: ignoring sneaky FTS_NOSTAT flag. nyah, nyah, nyah.",
+      "before": "fts: ignorerar lömsk FTS_NOSTAT-flagga, nä, nä, nä.",
+      "after": "fts: ignorerar den lömska FTS_NOSTAT-flaggan. nä, nä, nä.",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2016",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "inplace::begin: expects 2 arguments but called with %d",
+      "before": "inplace::begin: förväntar sig 2 argument men anropad med %d",
+      "after": "inplace::begin: förväntar sig 2 argument men anropades med %d",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2021",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "inplace::begin: cannot retrieve 1st argument as a string filename",
+      "before": "inplace::begin: kan inte hämta 1:a argumentet som en filnamnssträng",
+      "after": "inplace::begin: kan inte hämta första argumentet som en filnamnssträng",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2030",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "inplace::begin: Cannot stat `%s' (%s)",
+      "before": "inplace::begin: kan inte ta status på ”%s” (%s)",
+      "after": "inplace::begin: kan inte hämta status för ”%s” (%s)",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2050",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "inplace::begin: dup(stdout) failed (%s)",
+      "before": "inplace::begin: dup(standard ut) misslyckades (%s)",
+      "after": "inplace::begin: dup(standardutdata) misslyckades (%s)",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2055",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "inplace::begin: dup2(%d, stdout) failed (%s)",
+      "before": "inplace::begin: dup2(%d, standard ut) misslyckades (%s)",
+      "after": "inplace::begin: dup2(%d, standardutdata) misslyckades (%s)",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2065",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "inplace::end: expects 2 arguments but called with %d",
+      "before": "inplace::end: förväntar sig 2 argument men anropad med %d",
+      "after": "inplace::end: förväntar sig 2 argument men anropades med %d",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2070",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "inplace::end: cannot retrieve 1st argument as a string filename",
+      "before": "inplace::end: kan inte hämta 1:a argumentet som en filnamnssträng",
+      "after": "inplace::end: kan inte hämta första argumentet som en filnamnssträng",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2078",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "inplace::end: dup2(%d, stdout) failed (%s)",
+      "before": "inplace::end: dup2(%d, standard ut) misslyckades (%s)",
+      "after": "inplace::end: dup2(%d, standardutdata) misslyckades (%s)",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2088",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "inplace::end: fsetpos(stdout) failed (%s)",
+      "before": "inplace::end: fsetpos(standard ut) misslyckades (%s)",
+      "after": "inplace::end: fsetpos(standardutdata) misslyckades (%s)",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2150",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "rwarray extension: received GMP/MPFR value but compiled without GMP/MPFR support.",
+      "before": "rwarray-utvidgning: mottog GMP-/MPFR-värde me kompilerades utan stöd för GMP/MPFR.",
+      "after": "rwarray-utvidgningen: tog emot ett GMP-/MPFR-värde men kompilerades utan stöd för GMP/MPFR.",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2191",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "rwarray extension: GMP/MPFR value in file but compiled without GMP/MPFR support.",
+      "before": "rwarray-utvidgning: GMP-/MPFR-värde i filen men kompilerad utan stöd för GMP/MPFR.",
+      "after": "rwarray-utvidgningen: GMP-/MPFR-värde i filen men kompilerades utan stöd för GMP/MPFR.",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2229",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "NF set to negative value",
+      "before": "NF satt till ett negativt värde",
+      "after": "NF sattes till ett negativt värde",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2233",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "decrementing NF is not portable to many awk versions",
+      "before": "dekrementering av NF är inte portabelt till många awk-versioner",
+      "after": "att minska NF är inte portabelt till många awk-versioner",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2237",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "accessing fields from an END rule may not be portable",
+      "before": "att komma åt fält från en END-regel är inte med säkerhet portabelt",
+      "after": "åtkomst till fält från en END-regel är kanske inte portabel",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2348",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "node_to_awk_value: detected invalid numeric flags combination `%s'; please file a bug report",
+      "before": "node_to_awk_value: upptäckte felaktig kombination av numeriska flaggor ”%s”, vänligen skicka en felrapport",
+      "after": "node_to_awk_value: upptäckte en ogiltig kombination av numeriska flaggor ”%s”; skicka en felrapport",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2361",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "node_to_awk_value detected invalid flags combination `%s'; please file a bug report",
+      "before": "node_to_awk_value upptäckte felaktig kombination av numeriska flaggor ”%s”, vänligen skicka en felrapport",
+      "after": "node_to_awk_value upptäckte en ogiltig flaggkombination ”%s”; skicka en felrapport",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2397",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "command line argument `%s' is a directory: skipped",
+      "before": "kommandoradsargumentet ”%s” är en katalog: hoppas över",
+      "after": "kommandoradsargumentet ”%s” är en katalog och hoppas över",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2407",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "close of fd %d (`%s') failed: %s",
+      "before": "stängning av fb %d (”%s”) misslyckades: %s",
+      "after": "stängning av filbeskrivare %d (”%s”) misslyckades: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2412",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "`%.*s' used for input file and for output file",
+      "before": "”%.*s” använd som indatafil och som utdatafil",
+      "after": "”%.*s” används som indatafil och utdatafil",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2417",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "`%.*s' used for input file and input pipe",
+      "before": "”%.*s” använd som indatafil och indatarör",
+      "after": "”%.*s” används som indatafil och indatarör",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2422",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "`%.*s' used for input file and two-way pipe",
+      "before": "”%.*s” använd som indatafil och tvåvägsrör",
+      "after": "”%.*s” används som indatafil och tvåvägsrör",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2427",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "`%.*s' used for input file and output pipe",
+      "before": "”%.*s” använd som indatafil och utdatarör",
+      "after": "”%.*s” används som indatafil och utdatarör",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2437",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "`%.*s' used for input pipe and output file",
+      "before": "”%.*s” använd som indatarör och utdatafil",
+      "after": "”%.*s” används som indatarör och utdatafil",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2442",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "`%.*s' used for output file and output pipe",
+      "before": "”%.*s” använd som utdatafil och utdatarör",
+      "after": "”%.*s” används som utdatafil och utdatarör",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2447",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "`%.*s' used for output file and two-way pipe",
+      "before": "”%.*s” använd som utdatafil och tvåvägsrör",
+      "after": "”%.*s” används som utdatafil och tvåvägsrör",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2452",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "`%.*s' used for input pipe and output pipe",
+      "before": "”%.*s” använd som indatarör och utdatarör",
+      "after": "”%.*s” används som indatarör och utdatarör",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2457",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "`%.*s' used for input pipe and two-way pipe",
+      "before": "”%.*s” använd som indatarör och tvåvägsrör",
+      "after": "”%.*s” används som indatarör och tvåvägsrör",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2462",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "`%.*s' used for output pipe and two-way pipe",
+      "before": "”%.*s” använd som utdatarör och tvåvägsrör",
+      "after": "”%.*s” används som utdatarör och tvåvägsrör",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2486",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "get_file cannot create pipe `%s' with fd %d",
+      "before": "get_file kan inte skapa röret ”%s” med fb %d",
+      "after": "get_file kan inte skapa röret ”%s” med filbeskrivare %d",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2511",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "cannot redirect from `%s': %s",
+      "before": "kan inte dirigera om från ”%s”: %s",
+      "after": "kan inte omdirigera från ”%s”: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2521",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "reached system limit for open files: starting to multiplex file descriptors",
+      "before": "nådde systembegränsningen för öppna filer: börjar multiplexa filbeskrivare",
+      "after": "systemgränsen för öppna filer har nåtts: börjar multiplexa filbeskrivare",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2525",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "close of `%s' failed: %s",
+      "before": "att stänga ”%s” misslyckades: %s",
+      "after": "stängningen av ”%s” misslyckades: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2547",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "close: redirection `%s' not opened with `|&', second argument ignored",
+      "before": "close: omdirigeringen ”%s” öppnades inte med ”|&”, andra argumentet ignorerat",
+      "after": "close: omdirigeringen ”%s” öppnades inte med ”|&”; andra argumentet ignoreras",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2557",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "failure status (%d) on two-way pipe close of `%s': %s",
+      "before": "felstatus (%d) när tvåvägsrör stängdes av ”%s”: %s",
+      "after": "felstatus (%d) när tvåvägsröret ”%s” stängdes: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2567",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "no explicit close of socket `%s' provided",
+      "before": "ingen explicit stängning av uttaget ”%s” tillhandahållen",
+      "after": "uttaget ”%s” stängdes inte uttryckligen",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2572",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "no explicit close of co-process `%s' provided",
+      "before": "ingen explicit stängning av koprocessen ”%s” tillhandahållen",
+      "after": "koprocessen ”%s” stängdes inte uttryckligen",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2577",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "no explicit close of pipe `%s' provided",
+      "before": "ingen explicit stängning av röret ”%s” tillhandahållen",
+      "after": "röret ”%s” stängdes inte uttryckligen",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2582",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "no explicit close of file `%s' provided",
+      "before": "ingen explicit stängning av filen ”%s” tillhandahållen",
+      "after": "filen ”%s” stängdes inte uttryckligen",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2587",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "fflush: cannot flush standard output: %s",
+      "before": "fflush: kan inte spola standard ut: %s",
+      "after": "fflush: kan inte spola standardutdata: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2592",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "fflush: cannot flush standard error: %s",
+      "before": "fflush: kan inte spola standard fel: %s",
+      "after": "fflush: kan inte spola standardfel: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2597",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "error writing standard output: %s",
+      "before": "fel vid skrivning till standard ut: %s",
+      "after": "fel vid skrivning till standardutdata: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2602",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "error writing standard error: %s",
+      "before": "fel vid skrivning till standard fel: %s",
+      "after": "fel vid skrivning till standardfel: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2622",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "local port %s invalid in `/inet': %s",
+      "before": "lokal port %s ogiltig i ”/inet“: %s",
+      "after": "lokal port %s är ogiltig i ”/inet”: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2627",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "local port %s invalid in `/inet'",
+      "before": "lokal port %s ogiltig i ”/inet”",
+      "after": "lokal port %s är ogiltig i ”/inet”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2651",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "close of master pty failed: %s",
+      "before": "stängning av huvudpty misslyckades: %s",
+      "after": "stängning av huvud-pty misslyckades: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2656",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "close of stdout in child failed: %s",
+      "before": "stängning av standard ut i barnet misslyckades: %s",
+      "after": "stängning av standardutdata i barnprocessen misslyckades: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2661",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "moving slave pty to stdout in child failed (dup: %s)",
+      "before": "flyttandet av slavpty till standard ut i barnet misslyckades (dup: %s)",
+      "after": "flyttning av slav-pty till standardutdata i barnprocessen misslyckades (dup: %s)",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2666",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "close of stdin in child failed: %s",
+      "before": "stängning av standard in i barnet misslyckades: %s",
+      "after": "stängning av standardindata i barnprocessen misslyckades: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2671",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "moving slave pty to stdin in child failed (dup: %s)",
+      "before": "flyttandet av slavpty till standard in i barnet misslyckades (dup: %s)",
+      "after": "flyttning av slav-pty till standardindata i barnprocessen misslyckades (dup: %s)",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2676",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "close of slave pty failed: %s",
+      "before": "stängning av slavpty misslyckades: %s",
+      "after": "stängning av slav-pty misslyckades: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2685",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "moving pipe to stdout in child failed (dup: %s)",
+      "before": "flyttande av rör till standard ut i barnet misslyckades (dup: %s)",
+      "after": "flyttning av rör till standardutdata i barnprocessen misslyckades (dup: %s)",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2690",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "moving pipe to stdin in child failed (dup: %s)",
+      "before": "flyttande av rör till standard in i barnet misslyckades (dup: %s)",
+      "after": "flyttning av rör till standardindata i barnprocessen misslyckades (dup: %s)",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2695",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "restoring stdout in parent process failed",
+      "before": "återställande av standard ut i föräldraprocessen misslyckades",
+      "after": "återställning av standardutdata i föräldraprocessen misslyckades",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2699",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "restoring stdin in parent process failed",
+      "before": "återställande av standard in i föräldraprocessen misslyckades",
+      "after": "återställning av standardindata i föräldraprocessen misslyckades",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2722",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "getline: attempt to read from closed read end of two-way pipe",
+      "before": "getline: försök att läsa från stängd läsände av ett tvåvägsrör",
+      "after": "getline: försök att läsa från den stängda läsänden av ett tvåvägsrör",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2793",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "gawk_popen_write: failed to move pipe fd to standard input",
+      "before": "gawk_popen_write: misslyckades att pipe-fd:n till standard in",
+      "after": "gawk_popen_write: misslyckades att flytta rörfilbeskrivaren till standardindata",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2797",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "environment variable `POSIXLY_CORRECT' set: turning on `--posix'",
+      "before": "miljövariabeln ”POSIXLY_CORRECT” satt: slår på ”--posix”",
+      "after": "miljövariabeln ”POSIXLY_CORRECT” är satt: slår på ”--posix”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2822",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "The -r/--re-interval options no longer have any effect",
+      "before": "Flaggorna -r/--re-interval har inte någon effekt längre",
+      "after": "Flaggorna -r/--re-interval har inte längre någon effekt",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2826",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "cannot set binary mode on stdin: %s",
+      "before": "kan inte sätta binärläge på standard in: %s",
+      "after": "kan inte sätta binärläge för standardindata: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2831",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "cannot set binary mode on stdout: %s",
+      "before": "kan inte sätta binärläge på standard ut: %s",
+      "after": "kan inte sätta binärläge för standardutdata: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2836",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "cannot set binary mode on stderr: %s",
+      "before": "kan inte sätta binärläge på standard fel: %s",
+      "after": "kan inte sätta binärläge för standardfel: %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:2990",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "\nTo report bugs, use the `gawkbug' program.\nFor full instructions, see the node `Bugs' in `gawk.info'\nwhich is section `Reporting Problems and Bugs' in the\nprinted version.  This same information may be found at\nhttps://www.gnu.org/software/gawk/manual/html_node/Bugs.html.\nPLEASE do NOT try to report bugs by posting in comp.lang.awk,\nor by using a web forum such as Stack Overflow.\n\n",
+      "before": "\nFör att rapportera fel, använd programmet ”gawkbug”.\nFör fullständiga instruktioner, se noden ”Bugs” i ”gawk.info”, vilket\när avsnittet ”Reporting Problems and Bugs” i den utskrivna versionen.\nSamma information finns på\nhttps://www.gnu.org/software/gawk/manual/html_node/Bugs.html.\nVÄNLIGEN försök INTE rapportera fel genom att skriva i comp.lang.awk. \neller genom att använda ett webbforum såsom Stack Overflow.\n\nRapportera synpunkter på översättningen till <tp-sv@listor.tp-sv.se>.\n\n",
+      "after": "\nFör att rapportera fel, använd programmet ”gawkbug”.\nFör fullständiga instruktioner, se noden ”Bugs” i ”gawk.info”, som\när avsnittet ”Reporting Problems and Bugs” i den utskrivna versionen.\nSamma information finns på\nhttps://www.gnu.org/software/gawk/manual/html_node/Bugs.html.\nFörsök inte rapportera fel genom att skriva i comp.lang.awk\neller genom att använda ett webbforum som Stack Overflow.\n\nRapportera synpunkter på översättningen till <tp-sv@listor.tp-sv.se>.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3045",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "gawk is a pattern scanning and processing language.\nBy default it reads standard input and writes standard output.\n\n",
+      "before": "gawk är ett mönsterskannande och -bearbetande språk.\nNormalt läser det från standard in och skriver till standard ut.\n\n",
+      "after": "gawk är ett språk för mönstersökning och bearbetning.\nSom standard läser det från standardindata och skriver till standardutdata.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3107",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "-Ft does not set FS to tab in POSIX awk",
+      "before": "-Ft sätter inte FS till tab i POSIX-awk",
+      "after": "-Ft sätter inte FS till tabb i POSIX-awk",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3111",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "%s: `%s' argument to `-v' not in `var=value' form\n\n",
+      "before": "%s: Argumentet ”%s” till ”-v” är inte på formatet ”var=värde”\n\n",
+      "after": "%s: argumentet ”%s” till ”-v” har inte formen ”var=värde”\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3130",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "cannot use gawk builtin `%s' as variable name",
+      "before": "kan inte använda gawks inbyggda ”%s” som ett variabelnamn",
+      "after": "kan inte använda Gawks inbyggda ”%s” som variabelnamn",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3148",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "no pre-opened fd %d",
+      "before": "ingen föröppnad fb %d",
+      "after": "ingen föröppnad filbeskrivare %d",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3153",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "could not pre-open /dev/null for fd %d",
+      "before": "kunde inte föröppna /dev/null för fb %d",
+      "after": "kunde inte föröppna /dev/null för filbeskrivare %d",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3170",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Use `GAWK_PERSIST_FILE=%s gawk ...' instead of --persist.",
+      "before": "Använd ”GAWK_PERSIST_FILE=%s gawk …” istället för --persist.",
+      "after": "Använd ”GAWK_PERSIST_FILE=%s gawk …” i stället för --persist.",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3175",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Persistent memory is not supported.",
+      "before": "Bestående minne stödjs inte.",
+      "after": "beständigt minne stöds inte.",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3179",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "%s: option `-W %s' unrecognized, ignored\n",
+      "before": "%s: flaggan ”-W %s” okänd, ignorerad\n",
+      "after": "%s: flaggan ”-W %s” är okänd och ignoreras\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3194",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "%s: fatal: using persistent memory is not allowed when running as root.\n",
+      "before": "%s: ödesdigert: användning av varaktigt minne är inte tillåtet när man kör som root.\n",
+      "after": "%s: allvarligt: beständigt minne får inte användas vid körning som root.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3199",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "%s: warning: %s is not owned by euid %d.\n",
+      "before": "%s: varning: %s ägs inte av eaid %d.\n",
+      "after": "%s: varning: %s ägs inte av euid %d.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3204",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "persistent memory is not supported",
+      "before": "varaktigt minne MPFR stödjs inte",
+      "after": "beständigt minne stöds inte",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3208",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "%s: fatal: persistent memory allocator failed to initialize: return value %d, pma.c line: %d.\n",
+      "before": "%s: ödesdigert: allokerare av varaktigt minne misslyckades att initiera: returvärde %d, pma.c rad: %d.\n",
+      "after": "%s: allokeraren för beständigt minne kunde inte initieras: returvärde %d, rad %d i pma.c.\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3248",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "comp(%Rg): fractional value will be truncated",
+      "before": "compl(%Rg): flyttalsvärden kommer huggas av",
+      "after": "compl(%Rg): flyttalsvärdet avkortas",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3270",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "%s: argument #%d fractional value %Rg will be truncated",
+      "before": "%s: argument nr. %d flyttalsvärde %Rg kommer huggas av",
+      "after": "%s: flyttalsvärdet %Rg för argument nr. %d avkortas",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3279",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "and: called with less than two arguments",
+      "before": "and: anropad med mindre än två argument",
+      "after": "and: anropas med färre än två argument",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3338",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "hex escape \\x%.*s of %d characters probably not interpreted the way you expect",
+      "before": "hexkod \\x%.*s med %d tecken tolkas förmodligen inte på det sätt du förväntar dig",
+      "after": "hexadecimalkoden \\x%.*s med %d tecken tolkas förmodligen inte som du förväntar dig",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3351",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "invalid `\\u' escape sequence",
+      "before": "felaktig ”\\u”-kontrollsekvenser",
+      "after": "felaktig ”\\u”-kontrollsekvens",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3355",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "escape sequence `\\%c' treated as plain `%c'",
+      "before": "kontrollsekvensen ”\\%c” behandlad som bara ”%c”",
+      "after": "kontrollsekvensen ”\\%c” behandlas som bara ”%c”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3360",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Invalid multibyte data detected. There may be a mismatch between your data and your locale",
+      "before": "Ogiltig multibytedata upptäckt.  Dina data och din lokal stämmer kanske inte överens",
+      "after": "ogiltiga flerteckendata påträffades. Dina data och din lokal kanske inte stämmer överens",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3364",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "fatal: must use `count$' on all formats or none",
+      "before": "ödesdigert: man måste använda ”nummer$” på alla eller inga format",
+      "after": "allvarligt: ”nummer$” måste användas i alla format eller inget",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3383",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "fatal: `$' is not permitted in awk formats",
+      "before": "ödesdigert: ”%s” är inte tillåtet i awk-format",
+      "after": "allvarligt: ”$” är inte tillåtet i awk-format",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3396",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "must use `count$' on all formats or none",
+      "before": "man måste använda ”nummer$” på alla eller inga format",
+      "after": "”nummer$” måste användas i alla format eller inget",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3400",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "fatal: no `$' supplied for positional field width or precision",
+      "before": "ödesdigert: inget ”$” givet för positionsfältsbredd eller -precision",
+      "after": "allvarligt: inget ”$” angavs för positionsfältsbredd eller -precision",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3419",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "%%%c format is POSIX standard but not portable to other awks",
+      "before": "formatet %%%c är standard POSIX men inte portabelt till andra awk:ar",
+      "after": "formatet %%%c är POSIX-standard men inte portabelt till andra awk-implementationer",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3424",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "ignoring unknown format specifier character `%c': no argument converted",
+      "before": "ignorerar okänt formatspecifikationstecken ”%c”: inget argument konverterat",
+      "after": "okänt formatspecifikationstecken ”%c” ignoreras: inget argument konverteras",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3429",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "fatal: not enough arguments to satisfy format string",
+      "before": "ödesdigert: inte tillräckligt med argumentet för att tillgodose formatsträngen",
+      "after": "allvarligt: inte tillräckligt många argument för formatsträngen",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3441",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "too many arguments supplied for format string",
+      "before": "för många argument gavs för formatsträngen",
+      "after": "för många argument angavs för formatsträngen",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3458",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "printf: attempt to write to closed write end of two-way pipe",
+      "before": "printf: försök att skriva till stängd skrivände av ett tvåvägsrör",
+      "after": "printf: försök att skriva till den stängda skrivänden av ett tvåvägsrör",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3472",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "%s %s `%s': could not get fd flags: (fcntl F_GETFD: %s)",
+      "before": "%s %s ”%s”: kunde inte hämta fb-flaggor: (fcntl F_GETFD: %s)",
+      "after": "%s %s ”%s”: kunde inte hämta filbeskrivningsflaggor (fcntl F_GETFD: %s)",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3507",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "Program indentation level too deep. Consider refactoring your code",
+      "before": "Programindenteringsnivån är för djup.  Överväg att refaktorera din kod",
+      "after": "programindenteringsnivån är för djup. Överväg att omstrukturera koden",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3511",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "sending profile to standard error",
+      "before": "skickar profilen till standard fel",
+      "after": "skickar profilen till standardfel",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3562",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "\t# gawk profile, created %s\n",
+      "before": "\t# gawkprofil, skapad %s\n",
+      "after": "\t# Gawk-profil, skapad %s\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3567",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "\n\t# Functions, listed alphabetically\n",
+      "before": "\n\t# Funktioner, listade alfabetiskt\n",
+      "after": "\n\t# Funktioner i alfabetisk ordning\n",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3581",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "behavior of matching a regexp containing NUL characters is not defined by POSIX",
+      "before": "beteendet vid matchning av ett reguljäruttryck som innehåller NULL-tecken är inte definierat av POSIX",
+      "after": "beteendet vid matchning av ett reguljärt uttryck som innehåller NUL-tecken definieras inte av POSIX",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3589",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "regexp escape sequence `\\%c' treated as plain `%c'",
+      "before": "kontrollsekvensen ”\\%c” i reguljäruttryck behandlad som bara ”%c”",
+      "after": "kontrollsekvensen ”\\%c” i reguljärt uttryck behandlas som bara ”%c”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3594",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "regexp escape sequence `\\%c' is not a known regexp operator",
+      "before": "kontrollsekvensen ”\\%c” i reguljäruttryck är inte en känd operator i reguljäruttryck",
+      "after": "kontrollsekvensen ”\\%c” i reguljäruttryck är inte en känd operator",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3599",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "regexp component `%.*s' should probably be `[%.*s]'",
+      "before": "komponenten ”%.*s” i reguljäruttryck skall förmodligen vara ”[%.*s]”",
+      "after": "komponenten ”%.*s” i reguljäruttryck bör troligen vara ”[%.*s]”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3652",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "stray \\ before %s",
+      "before": "vilsekommet \\ före %s",
+      "after": "felplacerat \\ före %s",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3741",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "? * + or {interval} not preceded by valid subpattern",
+      "before": "? * + eller {interval} som inte föregås av ett giltigt delmönster",
+      "after": "? * + eller {intervall} föregås inte av ett giltigt delmönster",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3749",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "invalid collating element",
+      "before": "ogiltigt sorteringselement",
+      "after": "ogiltigt kollationselement",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3761",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "invalid range endpoint",
+      "before": "ogiltig omfångsslutpunkt",
+      "after": "ogiltig slutpunkt för intervall",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3773",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "match not found",
+      "before": "det fanns ingen match",
+      "after": "ingen träff hittades",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3853",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "%s was created by version `%s', but the current version is `%s'",
+      "before": "%s skapades av version ”%s”, men den nuvarande versionen är ”%s”",
+      "after": "%s skapades av version ”%s”, men den aktuella versionen är ”%s”",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3858",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "current setting of -M/--bignum does not match saved setting in PMA backing file",
+      "before": "aktuell inställning av -M/--bignum stämmer inte överens med sparad inställning i PMA-stödsfilen",
+      "after": "den aktuella inställningen för -M/--bignum stämmer inte med den sparade inställningen i PMA-stödfilen",
+      "reason": "Språk- och terminologigranskning av Gawk"
+    },
+    {
+      "tp_id": "gawk:3867",
+      "project": "tp:gawk-5.3.66",
+      "msgid": "cannot pop main context",
+      "before": "kan inte poppa huvudsammanhang",
+      "after": "kan inte ta bort huvudsammanhanget från stacken",
+      "reason": "Språk- och terminologigranskning av Gawk"
     }
   ]
 }
