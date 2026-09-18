@@ -1,6 +1,6 @@
 # Swedish TP review, 2026-09-18
 
-This is an ongoing complete language review of Translation Project's 146 Swedish domains. 15,910 of 127,367 active entries have been individually read. The review is not complete. This update corrects 3,733 confirmed English–Swedish pairs in both `sv-tp.po` and `sv-tp.tmx`.
+This is an ongoing complete language review of Translation Project's 146 Swedish domains. 20,010 of 127,367 active entries have been individually read. The review is not complete. This update corrects 4,921 confirmed English–Swedish pairs in both `sv-tp.po` and `sv-tp.tmx`.
 
 The update is based on current main at `359390fce7a17db50de4722db14331cb9e9735b2`. Its export repairs, control-code conventions, project attribution and CC BY 4.0 licensing are retained. Other ecosystem exports are untouched. Two raw vertical-tab representations in the TP PO are escaped without changing their decoded text.
 
