@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 24130,
+  "reviewed_tp_entries": 25888,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 6393,
+  "changed_pairs": 6753,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 6393,
+      "confirmed_swedish_changes": 6753,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "83b4e91bbe2a68e00a14d4f9b117d2dbd839122539f3ff28eb819783e4c1b711"
+      "sha256": "7ccce4eb7ab52fb0df271c69c1eb0218c8220245999aea657be1c38c27ea2920"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 6393,
+      "confirmed_swedish_changes": 6753,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "8fb085f3cdf4ef5156efe10d33555b5b3f94afe48607394c52611ba559ac0edf"
+      "sha256": "68190e47a166957ff638539fb709ab72b96c4f11148e958896c015c08bbc36c8"
     }
   },
   "unmapped_plural_fixes": [
@@ -53,7 +53,15 @@
     "bison:289",
     "bison:337",
     "bison:1146",
-    "cpio:1260"
+    "cpio:1260",
+    "e2fsprogs:3348",
+    "e2fsprogs:3363",
+    "e2fsprogs:3370",
+    "e2fsprogs:3386",
+    "e2fsprogs:3443",
+    "e2fsprogs:3464",
+    "e2fsprogs:3471",
+    "e2fsprogs:7644"
   ],
   "changes": [
     {
@@ -51199,6 +51207,2886 @@
       "before": "Framtvinga omskrivning",
       "after": "Tvinga omskrivning",
       "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:199",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "extent rebuild inode map",
+      "before": "inodskarta över utsträckningsombyggnad",
+      "after": "inodskarta för ombyggnad av utsträckningar",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:227",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%s: incorrect fast commit blocks\n",
+      "before": "%s: felaktiga block för snabbfastställande\n",
+      "after": "%s: felaktiga block för snabba fastställanden\n",
+      "reason": "Rättar term och plural."
+    },
+    {
+      "tp_id": "e2fsprogs:237",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%s: won't do journal recovery while read-only\n",
+      "before": "%s: återhämtar inte journalen i skrivskyddat läge\n",
+      "after": "%s: återställer inte journalen i skrivskyddat läge\n",
+      "reason": "Rättar teknisk term."
+    },
+    {
+      "tp_id": "e2fsprogs:283",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Cconflicts with some other fs @b",
+      "before": "Ckonflikt med något annat fs @b",
+      "after": "Ckonflikt med något annat filsystem @b",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:339",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "mmultiply-claimed",
+      "before": "mflerfaldigt ianspråkstagna",
+      "after": "mflerfaldigt ianspråkstagen",
+      "reason": "Rättar kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:363",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "sshould be",
+      "before": "sskulle varit",
+      "after": "sskulle ha varit",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:455",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "unknown file type with mode 0%o",
+      "before": "okänd filtyp med typ 0%o",
+      "after": "okänd filtyp med läge 0%o",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:496",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "multiply claimed inode map",
+      "before": "karta över flerfaldigt i anspråkstagna inoder",
+      "after": "karta över flerfaldigt ianspråkstagna inoder",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:519",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while hashing entry with e_value_inum = %u",
+      "before": "vid hashning av post med e_value_inum = %u",
+      "after": "vid hashning av posten med e_value_inum = %u",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:532",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "in-use inode map",
+      "before": "karta över använda inoder",
+      "after": "inodskarta för använda inoder",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:540",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "regular file inode map",
+      "before": "inodskarta över reguljära filer",
+      "after": "inodskarta för vanliga filer",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:552",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "inode casefold map",
+      "before": "inod-skiftlägesavbildning",
+      "after": "inodskarta för skiftlägesavbildning",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:564",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "reading indirect blocks of inode %u",
+      "before": "läser indirektblock för inod %u",
+      "after": "läser indirekta block för inod %u",
+      "reason": "Rättar kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:573",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "inode in bad block map",
+      "before": "inod i karta över dåliga block",
+      "after": "inod i kartan över dåliga block",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:577",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "imagic inode map",
+      "before": "imagic inodskarta",
+      "after": "imagic-inodskarta",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:589",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%6lu(%c): expecting %6lu got phys %6lu (blkcnt %lld)\n",
+      "before": "%6lu(%c): förväntade %6lu fick fys %6lu (blkant %lld)\n",
+      "after": "%6lu(%c): förväntade %6lu, fick fysisk %6lu (blockantal %lld)\n",
+      "reason": "Rättar kommatering och term."
+    },
+    {
+      "tp_id": "e2fsprogs:618",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "inode done bitmap",
+      "before": "inod klar bitkarta",
+      "after": "bitkarta över klara inoder",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:622",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Peak memory",
+      "before": "Max minne",
+      "after": "Högsta minnesanvändning",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:662",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Relocate",
+      "before": "Relokera",
+      "after": "Omlokalisera",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:710",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Delete file",
+      "before": "Ta bort fil",
+      "after": "Ta bort filen",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:742",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "FIXED",
+      "before": "FIXAT",
+      "after": "RÄTTAT",
+      "reason": "Rättar tempus."
+    },
+    {
+      "tp_id": "e2fsprogs:750",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "RELOCATED",
+      "before": "RELOKERAT",
+      "after": "OMLOKALISERAT",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:758",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "EXPANDED",
+      "before": "EXPANDERAD",
+      "after": "UTÖKAT",
+      "reason": "Rättar tempus."
+    },
+    {
+      "tp_id": "e2fsprogs:766",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "CREATED",
+      "before": "SKAPAD",
+      "after": "SKAPAT",
+      "reason": "Rättar tempus."
+    },
+    {
+      "tp_id": "e2fsprogs:786",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "SPLIT",
+      "before": "DELAD",
+      "after": "DELAT",
+      "reason": "Rättar tempus."
+    },
+    {
+      "tp_id": "e2fsprogs:794",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "MULTIPLY-CLAIMED BLOCKS CLONED",
+      "before": "FLERFALDIG IANSPRÅKSTAGNA BLOCK KLONADE",
+      "after": "FLERFALDIGT IANSPRÅKSTAGNA BLOCK KLONADE",
+      "reason": "Rättar kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:849",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "\nThe @S could not be read or does not describe a valid ext2/ext3/ext4\n@f.  If the @v is valid and it really contains an ext2/ext3/ext4\n@f (and not swap or ufs or something else), then the @S\nis corrupt, and you might try running e2fsck with an alternate @S:\n    e2fsck -b 8193 <@v>\n or\n    e2fsck -b 32768 <@v>\n\n",
+      "before": "\nSuperblocket kunde inte läsas eller beskriver inte ett giltigt\next2/ext3/ext4-filsystem.  Om enheten är giltig och den verkligen innehåller ett\next2/ext3/ext4-filsystem (och inte växlingsutrymme eller ufs eller något annat)\när superblocket trasigt, och du kan försöka köra med ett alternativt\nsuperblock:\n    e2fsck -b 8193 <enhet>\n eller\n    e2fsck -b 32768 <enhet>\n\n",
+      "after": "\nSuperblocket kunde inte läsas eller beskriver inte ett giltigt\next2/ext3/ext4-filsystem. Om enheten är giltig och verkligen innehåller ett\next2/ext3/ext4-filsystem (och inte växlingsutrymme, ufs eller något annat),\när superblocket skadat och du kan försöka köra e2fsck med ett alternativt\nsuperblock:\n    e2fsck -b 8193 <enhet>\n eller\n    e2fsck -b 32768 <enhet>\n\n",
+      "reason": "Rättar grammatik och språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:895",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@S @b_size = %b, fragsize = %c.\nThis version of e2fsck does not support fragment sizes different\nfrom the @b size.\n",
+      "before": "Superblockets blockstorlek = %b, fragmentstorlek = %c.\nDenna version av e2fsck stödjer inte andra fragmentstorlekar än\nblockstorleken.\n",
+      "after": "Superblockets blockstorlek = %b, fragmentstorlek = %c.\nDen här versionen av e2fsck stöder inte andra fragmentstorlekar än\nblockstorleken.\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:931",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Note: if several inode or block bitmap blocks or part\nof the inode table require relocation, you may wish to try\nrunning e2fsck with the '-b %S' option first.  The problem\nmay lie only with the primary block group descriptors, and\nthe backup block group descriptors may be OK.\n\n",
+      "before": "Observera: om det är flera inod- eller blockbitkarteblock eller en del\nav inodstabellen som måste flyttas, kanske du vill köra e2fsck med\nflaggan ”-b %S” först.  Problemet kan ligga bara i den primära\nblockgruppbeskrivaren, och reservblockgruppbeskrivaren kan vara OK.\n\n",
+      "after": "Observera: om flera inod- eller blockbitkarteblock eller en del\nav inodstabellen måste flyttas, kanske du vill köra e2fsck med\nflaggan ”-b %S” först. Problemet kan ligga endast i den primära\nblockgruppbeskrivaren och reservblockgruppbeskrivaren kan vara okej.\n\n",
+      "reason": "Rättar grammatik och term."
+    },
+    {
+      "tp_id": "e2fsprogs:947",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Corruption found in @S.  (%s = %N).\n",
+      "before": "Skada hittad i superblock.  (%s = %N).\n",
+      "after": "Skada hittades i superblocket. (%s = %N).\n",
+      "reason": "Rättar passiv form."
+    },
+    {
+      "tp_id": "e2fsprogs:958",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i count in @S is %i, @s %j.\n",
+      "before": "inodsantal i superblock är %i, skall vara %j.\n",
+      "after": "Antalet inoder i superblocket är %i, ska vara %j.\n",
+      "reason": "Rättar term och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:973",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "External @j has multiple @f users (unsupported).\n",
+      "before": "Extern journal har flera filsystemsanvändare (stödjs ej).\n",
+      "after": "Extern journal har flera filsystemsanvändare (stöds inte).\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:993",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@f @j @S is unknown type %N (unsupported).\nIt is likely that your copy of e2fsck is old and/or doesn't support this @j format.\nIt is also possible the @j @S is corrupt.\n",
+      "before": "Filsystemsjournalsuperblock är av okänd typ %N (ej stött).\nDet är troligt att ditt exemplar av e2fsck är gammalt och/eller inte\nstödjer detta journalformat.\nDet är också möjligt att journalsuperblocket är trasigt.\n",
+      "after": "Filsystemets journalsuperblock har okänd typ %N (stöds inte).\nDet är troligt att din kopia av e2fsck är gammal och/eller inte\nstöder det här journalformatet.\nDet är också möjligt att journalsuperblocket är skadat.\n",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:1018",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@S needs_recovery flag is set, but no @j is present.\n",
+      "before": "Superblockflagga behöver_rättas är satt, men ingen journal finns.\n",
+      "after": "Superblockflaggan needs_recovery är satt, men ingen journal finns.\n",
+      "reason": "Rättar fackterm."
+    },
+    {
+      "tp_id": "e2fsprogs:1023",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@S needs_recovery flag is clear, but @j has data.\n",
+      "before": "Superblocksflagga behöver_rättas är nollställd, men journal har data.\n",
+      "after": "Superblockflaggan needs_recovery är nollställd, men journalen har data.\n",
+      "reason": "Rättar fackterm och bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:1033",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@f has feature flag(s) set, but is a revision 0 @f.  ",
+      "before": "filsystemet har funktionsflaggor satta, men är ett revision 0-filsystem.  ",
+      "after": "filsystemet har funktionsflaggor satta, men är ett filsystem med revision 0.  ",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:1075",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@j version not supported by this e2fsck.\n",
+      "before": "Journalversion stöds inte av denna e2fsck.\n",
+      "after": "Journalversionen stöds inte av den här e2fsck-versionen.\n",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:1120",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Recovery flag not set in backup @S, so running @j anyway.\n",
+      "before": "Rättningsflagga inte satt i reservsuperblock, så kör journal ändå.\n",
+      "after": "Återställningsflaggan är inte satt i reservsuperblocket, så journalen körs ändå.\n",
+      "reason": "Rättar grammatiken."
+    },
+    {
+      "tp_id": "e2fsprogs:1135",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@f does not have resize_@i enabled, but s_reserved_gdt_@bs\nis %N; @s zero.  ",
+      "before": "Filsystemet har inte resize_inode aktiverat, men r_reserved_gdt_blocks\när %N; skulle varit noll.  ",
+      "after": "Filsystemet har inte resize_inode aktiverat, men s_reserved_gdt_blocks\när %N; ska vara noll.  ",
+      "reason": "Rättar fältnamn och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:1175",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@S hint for external superblock @s %X.  ",
+      "before": "Superblocktips för externt superblock borde vara %X.",
+      "after": "Superblockets referens för externt superblock ska vara %X.  ",
+      "reason": "Rättar betydelse."
+    },
+    {
+      "tp_id": "e2fsprogs:1196",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@g descriptor %g marked uninitialized without feature set.\n",
+      "before": "gruppbeskrivare %g är markerad oinitierad utan att egenskapen är satt.\n",
+      "after": "gruppbeskrivare %g är markerad som oinitierad utan att funktionen är satt.\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:1208",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Last @g @b @B uninitialized.  ",
+      "before": "Sista gruppblockbitkarta oinitierad.  ",
+      "after": "Sista gruppens blockbitkarta är oinitierad.  ",
+      "reason": "Rättar betydelse."
+    },
+    {
+      "tp_id": "e2fsprogs:1233",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@S last write time is in the future.\n\t(by less than a day, probably due to the hardware clock being incorrectly set)\n",
+      "before": "Superblockets skrevs senast i framtiden.\n\t(med mindre än en dag, förmodligen för att hårdvaruklockan går fel)\n",
+      "after": "Superblockets senaste skrivtid ligger i framtiden.\n\t(med mindre än en dag, förmodligen för att hårdvaruklockan går fel)\n",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:1244",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "One or more @b @g descriptor checksums are invalid.  ",
+      "before": "Kontrollsumma för en eller flera blockgruppbeskrivare är ogiltig.  ",
+      "after": "Kontrollsumman för en eller flera blockgruppbeskrivare är ogiltig.  ",
+      "reason": "Rättar kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:1265",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@S has invalid MMP block.  ",
+      "before": "superblocket har ett felaktigt MMP-block.  ",
+      "after": "Superblocket har ett felaktigt MMP-block.  ",
+      "reason": "Rättar versalisering."
+    },
+    {
+      "tp_id": "e2fsprogs:1270",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@S has invalid MMP magic.  ",
+      "before": "superblocket har ogiltigt MMP-magiskt tal.  ",
+      "after": "Superblocket har ett ogiltigt MMP-magiskt tal.  ",
+      "reason": "Rättar versalisering."
+    },
+    {
+      "tp_id": "e2fsprogs:1291",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@S MMP @b checksum does not match.  ",
+      "before": "Kontrollsumman för super-MMP-blocket stämmer inte.  ",
+      "after": "Kontrollsumman för superblockets MMP-block stämmer inte.  ",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:1301",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "First_meta_bg is too big.  (%N, max value %g).  ",
+      "before": "First_meta_bg är för stort.  (%N, maxvärde %g).  ",
+      "after": "first_meta_bg är för stort. (%N, högsta värde %g).  ",
+      "reason": "Rättar versalisering och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:1340",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Resize_@i and meta_bg features are enabled. Those features are\nnot compatible. Resize @i should be disabled.  ",
+      "before": "Funktionerna resize_inode och meta_bg är aktiverade.  Dessa funktioner\när inte kompatibla.  Storleksändingsinod skall avaktiveras.  ",
+      "after": "Funktionerna resize_inode och meta_bg är aktiverade. Dessa funktioner\när inte kompatibla. Storleksändringsinoden ska avaktiveras.  ",
+      "reason": "Rättar stavning och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:1388",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@r has dtime set (probably due to old mke2fs).  ",
+      "before": "rotinod har dtid satt (förmodligen på grund av gammal mke2fs).  ",
+      "after": "rotinoden har dtime satt (förmodligen på grund av gammal mke2fs).  ",
+      "reason": "Rättar fältnamn."
+    },
+    {
+      "tp_id": "e2fsprogs:1398",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@D @i %i has zero dtime.  ",
+      "before": "Raderad inod %i har dtid noll.  ",
+      "after": "Raderad inod %i har dtime noll.  ",
+      "reason": "Rättar fältnamn."
+    },
+    {
+      "tp_id": "e2fsprogs:1404",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i is in use, but has dtime set.  ",
+      "before": "Inod %i används, men har dtid satt.  ",
+      "after": "Inod %i används, men har dtime satt.  ",
+      "reason": "Rättar fältnamn."
+    },
+    {
+      "tp_id": "e2fsprogs:1434",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@g %g's @b @B (%b) is bad.  ",
+      "before": "Grupp %g:s blockbitkarta (%b) år felaktig.  ",
+      "after": "Grupp %g:s blockbitkarta (%b) är felaktig.  ",
+      "reason": "Rättar stavning."
+    },
+    {
+      "tp_id": "e2fsprogs:1446",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i, i_size is %Is, @s %N.  ",
+      "before": "Inod %i, i_storlek är %Is, skulle varit %N.  ",
+      "after": "Inod %i: i_size är %Is, ska vara %N.  ",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:1451",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i, i_@bs is %Ib, @s %N.  ",
+      "before": "Inod %i, i_block är %Ib, skulle varit %N.  ",
+      "after": "Inod %i: i_blocks är %Ib, ska vara %N.  ",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:1493",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Bad @b %b used as bad @b @i indirect @b.  ",
+      "before": "Felaktigt block %b använt som indirektblock för inod för dåliga block.  ",
+      "after": "Felaktigt block %b används som indirekt block för inoden för dåliga block.  ",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:1525",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "You can remove this @b from the bad @b list and hope\nthat the @b is really OK.  But there are no guarantees.\n\n",
+      "before": "Du kan ta bort detta block från listan över dåliga block och hoppas\natt blocket verkligen är OK. men det finns inga garantier.\n\n",
+      "after": "Du kan ta bort blocket från listan över dåliga block och hoppas\natt blocket verkligen är okej. Men det finns inga garantier.\n",
+      "reason": "Rättar versalisering och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:1579",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Relocating @g %g's %s from %b to %c...\n",
+      "before": "Relokerar grupp %g:s %s från %b till %c ...\n",
+      "after": "Omlokaliserar grupp %g:s %s från %b till %c …\n",
+      "reason": "Rättar term och typografi."
+    },
+    {
+      "tp_id": "e2fsprogs:1585",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Relocating @g %g's %s to %c...\n",
+      "before": "Relokerar grupp %g:s %s till %c ...\n",
+      "after": "Omlokaliserar grupp %g:s %s till %c …\n",
+      "reason": "Rättar term och typografi."
+    },
+    {
+      "tp_id": "e2fsprogs:1597",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Warning: could not write @b %b for %s: %m\n",
+      "before": "Varning: kunde inte skriva block %b av %s: %m\n",
+      "after": "Varning: kunde inte skriva block %b för %s: %m\n",
+      "reason": "Rättar preposition."
+    },
+    {
+      "tp_id": "e2fsprogs:1659",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Special (@v/socket/fifo/symlink) file (@i %i) has immutable\nor append-only flag set.  ",
+      "before": "Specialfil (enhet/uttag (socket)/fifo/symlänk) (inod %i) har flaggan\noföränderlig eller endast tillägg satt.",
+      "after": "Specialfil (enhet/socket/fifo/symlänk) (inod %i) har flaggan\noföränderlig eller endast-tillägg satt.  ",
+      "reason": "Rättar fackterm."
+    },
+    {
+      "tp_id": "e2fsprogs:1676",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@j @i is not in use, but contains data.  ",
+      "before": "Journalinod används, men innehåller data.  ",
+      "after": "Journalinoden används inte, men innehåller data.  ",
+      "reason": "Rättar betydelse."
+    },
+    {
+      "tp_id": "e2fsprogs:1681",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@j is not regular file.  ",
+      "before": "Journal är inte en vanlig fil.  ",
+      "after": "Journalen är inte en vanlig fil.  ",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:1692",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@is that were part of a corrupted orphan linked list found.  ",
+      "before": "Inoder som var med i trasig lista över föräldralösa inoder hittad.  ",
+      "after": "Inoder som ingick i en skadad länkad lista över föräldralösa inoder hittades.  ",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:1708",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i has a bad @a @b %b.  ",
+      "before": "Inod %i har ett felaktigt utökade attribut-block %b.  ",
+      "after": "Inod %i har ett felaktigt block för utökade attribut %b.  ",
+      "reason": "Rättar kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:1720",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@a @b %b has reference count %r, @s %N.  ",
+      "before": "Utökade attribut-block %b har referensräknare %r, skall vara %N.  ",
+      "after": "Blocket för utökade attribut %b har referensantalet %r, ska vara %N.  ",
+      "reason": "Rättar term och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:1737",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@A @a region allocation structure.  ",
+      "before": "Fel vid allokering av utökade attributs regionallokeringsstruktur.  ",
+      "after": "Fel vid allokering av regionallokeringsstruktur för utökade attribut.  ",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:1766",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%B (%b) causes @d to be too big.  ",
+      "before": "%B (%b) får katalog att bli för stor.  ",
+      "after": "%B (%b) gör katalogen för stor.  ",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:1771",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%B (%b) causes file to be too big.  ",
+      "before": "%B (%b) får fil att bli för stor.  ",
+      "after": "%B (%b) gör filen för stor.  ",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:1775",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%B (%b) causes symlink to be too big.  ",
+      "before": "%B (%b) får symlänk att bli för stor.  ",
+      "after": "%B (%b) gör symlänken för stor.  ",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:1802",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@h %i uses an incompatible htree root node flag.\n",
+      "before": "HTREE katalog-inod %i använder en inkompatibel htree rotnodsflagga.\n",
+      "after": "HTREE-kataloginod %i använder en inkompatibel flagga för htree-rotnod.\n",
+      "reason": "Rättar sammansättningar."
+    },
+    {
+      "tp_id": "e2fsprogs:1835",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@a in @i %i has a namelen (%N) which is @n\n",
+      "before": "Utökat attribut i inod %i har ett namelen (%N) som är ogiltig\n",
+      "after": "Ett utökat attribut i inod %i har en namnlängd (%N) som är ogiltig\n",
+      "reason": "Rättar term och kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:1850",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@a in @i %i has a value size (%N) which is @n\n",
+      "before": "Utökat attribut i inod %i har ett värdestorlek (%N) som är ogiltig\n",
+      "after": "Ett utökat attribut i inod %i har en värdestorlek (%N) som är ogiltig\n",
+      "reason": "Rättar artikel."
+    },
+    {
+      "tp_id": "e2fsprogs:1860",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i is a %It but it looks like it is really a directory.\n",
+      "before": "inod %i är en %It men det ser ut som det egentligen är en katalog.\n",
+      "after": "Inod %i är en %It men ser ut att egentligen vara en katalog.\n",
+      "reason": "Rättar versalisering och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:1908",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i is in extent format, but @S is missing EXTENTS feature\n",
+      "before": "inod %i är i utsträckningsformat, men superblocket saknar egenskapen EXTENTS\n",
+      "after": "Inod %i har utsträckningsformat, men superblocket saknar EXTENTS-funktionen\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:1914",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i missing EXTENT_FL, but is in extents format\n",
+      "before": "inod %i saknar EXTENT_FL, men är i utsträckningsformat\n",
+      "after": "Inod %i saknar EXTENT_FL, men har utsträckningsformat\n",
+      "reason": "Rättar versalisering."
+    },
+    {
+      "tp_id": "e2fsprogs:2044",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i block %b conflicts with critical metadata, skipping block checks.\n",
+      "before": "inod %i block %b står i konflikt med kritisk metadata, hoppar över blockkontroller.\n",
+      "after": "Inod %i:s block %b står i konflikt med kritiska metadata; hoppar över blockkontroller.\n",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:2056",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@d @i %i has @x marked uninitialized at @b %c.  ",
+      "before": "Kataloginod %i en utsträckning markerad oinitierad vid block %c.  ",
+      "after": "Kataloginod %i har en utsträckning markerad som oinitierad vid block %c.  ",
+      "reason": "Rättar saknat verb."
+    },
+    {
+      "tp_id": "e2fsprogs:2062",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i logical @b %b (physical @b %c) violates cluster allocation rules.\nWill fix in pass 1B.\n",
+      "before": "inod %i logiskt block %b (fysiskt block %c) bryter mot klusterallokeringsregler.\nKommer fixa i pass 1B.\n",
+      "after": "Inod %i:s logiska block %b (fysiskt block %c) bryter mot reglerna för klusterallokering.\nRättas i pass 1B.\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:2090",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i has @x header but inline data flag is set.\n",
+      "before": "inod %i has utsträckningshuvud men inline-dataflaggan satt.\n",
+      "after": "Inod %i har utsträckningshuvud men inline-dataflaggan är satt.\n",
+      "reason": "Översätter kvarlämnat engelskt ord."
+    },
+    {
+      "tp_id": "e2fsprogs:2114",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Bad block list says the bad block list @i is bad.  ",
+      "before": "Trasig-block-lista säger att inoden för listan över trasiga block är trasig.  ",
+      "after": "Listan över dåliga block anger att dess inod är felaktig.  ",
+      "reason": "Rättar betydelse."
+    },
+    {
+      "tp_id": "e2fsprogs:2124",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i has a duplicate @x mapping\n\t(logical @b %c, @n physical @b %b, len %N)\n",
+      "before": "Inod %i har dubblerad utsträckningmappning\n\t(logiskt block %c, ogiltigt fysiskt block %b, längd %N)\n",
+      "after": "Inod %i har en dubblerad utsträckningsmappning\n\t(logiskt block %c, ogiltigt fysiskt block %b, längd %N)\n",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:2134",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@A %N bytes of memory for encrypted @i list\n",
+      "before": "fel vid allokering av %N byte minne för krypterad inodslista\n",
+      "after": "Fel vid allokering av %N byte minne för krypterad inodslista\n",
+      "reason": "Rättar versalisering."
+    },
+    {
+      "tp_id": "e2fsprogs:2151",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i has corrupt @x header.  ",
+      "before": "Inod %i har trasigt utsträckningshuvud.  ",
+      "after": "Inod %i har ett skadat utsträckningshuvud.  ",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:2218",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@h %i uses hash version (%N), but should use SipHash (6) \n",
+      "before": "HTREE katalog-inod %i använder hashversion (%N), men skulle använda SipHash (6) \n",
+      "after": "HTREE-kataloginod %i använder hashversion (%N), men ska använda SipHash (6) \n",
+      "reason": "Rättar sammansättning och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:2223",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@h %i uses SipHash, but should not.  ",
+      "before": "HTREE katalog-inod %i använder SipHash, men skulle inte.  ",
+      "after": "HTREE-kataloginod %i använder SipHash, men ska inte göra det.  ",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:2229",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Orphan file @i %i is not regular file.  ",
+      "before": "Föräldralös fil inod %i är inte en vanlig fil.  ",
+      "after": "Den föräldralösa filens inod %i är inte en vanlig fil.  ",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:2235",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Orphan file @i %i is not in use, but contains data.  ",
+      "before": "Föräldralös fil inod %i används inte, men innehåller data.  ",
+      "after": "Den föräldralösa filens inod %i används inte, men innehåller data.  ",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:2247",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i references EA inode but @S is missing EA_INODE feature\n",
+      "before": "Inod %i refererar EA-inod men men superblocket saknar egenskapen EA_INODE\n",
+      "after": "Inod %i refererar till EA-inod men superblocket saknar EA_INODE-funktionen\n",
+      "reason": "Rättar dubblerat ord och term."
+    },
+    {
+      "tp_id": "e2fsprogs:2335",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@m @bs already reassigned or cloned.\n\n",
+      "before": "Flerfaldig ianspråkstagna block redan överlåtna eller klonade.\n\n",
+      "after": "Flerfaldigt ianspråkstagna block har redan tilldelats på nytt eller klonats.\n",
+      "reason": "Rättar kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:2366",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Internal error: max extent tree depth too large (%b; expected=%c).\n",
+      "before": "Internt fel: max djup på utsträckningsträd är för stort (%b; förväntat=%c).\n",
+      "after": "Internt fel: största djupet för utsträckningsträd är för stort (%b; förväntat=%c).\n",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:2371",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i @x tree (at level %b) could be shorter.  ",
+      "before": "inod %i:s utsträckningsträd (på nivå %b) kunde vara kortare.  ",
+      "after": "Inod %i:s utsträckningsträd (på nivå %b) kunde vara kortare.  ",
+      "reason": "Rättar versalisering."
+    },
+    {
+      "tp_id": "e2fsprogs:2377",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i @x tree (at level %b) could be narrower.  ",
+      "before": "inod %i:s utsträckningsträd (på nivå %b) kunde vara smalare.  ",
+      "after": "Inod %i:s utsträckningsträd (på nivå %b) kunde vara smalare.  ",
+      "reason": "Rättar versalisering."
+    },
+    {
+      "tp_id": "e2fsprogs:2441",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "First @e '%Dn' (@i=%Di) in @d @i %i (%p) @s '.'\n",
+      "before": "Första post ”%Dn” (inod=%Di) i kataloginod %i (%p) skulle varit ”.”\n",
+      "after": "Första posten ”%Dn” (inod=%Di) i kataloginod %i (%p) ska vara ”.”\n",
+      "reason": "Rättar bestämd form och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:2446",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Second @e '%Dn' (@i=%Di) in @d @i %i @s '..'\n",
+      "before": "Andra post ”%Dn” (inod=%Di) i kataloginod %i skulle varit ”..”\n",
+      "after": "Andra posten ”%Dn” (inod=%Di) i kataloginod %i ska vara ”..”\n",
+      "reason": "Rättar bestämd form och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:2451",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "i_faddr @F %IF, @s zero.\n",
+      "before": "i_faddr för inod %i (%Q) är %IF, skulle varit noll.\n",
+      "after": "i_faddr för inod %i (%Q) är %IF, ska vara noll.\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:2456",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "i_file_acl @F %If, @s zero.\n",
+      "before": "i_file_acl för inod %i (%Q) är %If, skulle varit noll.\n",
+      "after": "i_file_acl för inod %i (%Q) är %If, ska vara noll.\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:2461",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "i_size_high @F %Id, @s zero.\n",
+      "before": "i_size_high för inod %i (%Q) är %Id, skulle varit noll.\n",
+      "after": "i_size_high för inod %i (%Q) är %Id, ska vara noll.\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:2513",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i (%Q) is an @I @b @v.\n",
+      "before": "Inod %i (TQ är en ogiltig blockenhet.\n",
+      "after": "Inod %i (%Q) är en ogiltig blockenhet.\n",
+      "reason": "Rättar trasig platshållarsträng."
+    },
+    {
+      "tp_id": "e2fsprogs:2533",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@E has rec_len of %Dr, @s %N.\n",
+      "before": "Post ”%Dn” i %p (%i) har rec_len %Dr, skulle varit %N.\n",
+      "after": "Post ”%Dn” i %p (%i) har rec_len %Dr, ska vara %N.\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:2615",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@a @b @F @n (%If).\n",
+      "before": "Utökat attribut-block för inod %i (%Q) är ogiltigt (%If).\n",
+      "after": "Blocket för utökade attribut för inod %i (%Q) är ogiltigt (%If).\n",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:2620",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@f contains large files, but lacks LARGE_FILE flag in @S.\n",
+      "before": "Filsystem innehåller stora filer, men saknar flaggan LARGE_FILE i superblock.\n",
+      "after": "Filsystemet innehåller stora filer men saknar LARGE_FILE-flaggan i superblocket.\n",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:2678",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@p @h %d: %B has an unordered hash table\n",
+      "before": "Problem i HTREE-kataloginod %d: %B har en oordnad hash-tabell\n",
+      "after": "Problem i HTREE-kataloginod %d: %B har en oordnad hashtabell\n",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:2693",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@E has a non-unique filename.\nRename to %s",
+      "before": "Post ”%Dn” i %p (%i) har ett icke unikt filnamn.\nByt namn till %s",
+      "after": "Post ”%Dn” i %p (%i) har ett icke-unikt filnamn.\nByt namn till %s",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:2722",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Unexpected @b in @h %d (%q).\n",
+      "before": "Oväntat block i HTREE-katalog %d (%q).\n",
+      "after": "Oväntat block i HTREE-kataloginod %d (%q).\n",
+      "reason": "Rättar fullständig term."
+    },
+    {
+      "tp_id": "e2fsprogs:2732",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@E references @i %Di found in @g %g's unused inodes area.\n",
+      "before": "Post ”%Dn” i %p (%i) refererar inod %Di funnen i oanvänt inodsområde i grupp %g.\n",
+      "after": "Post ”%Dn” i %p (%i) refererar till inod %Di som hittades i grupp %g:s område för oanvända inoder.\n",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:2759",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@d @i %i, %B: @d passes checks but fails checksum.\n",
+      "before": "kataloginod %i, %B: katalogen passerar kontrollerna men kontrollsumman stämmer inte.\n",
+      "after": "Kataloginod %i, %B: katalogen klarar kontrollerna men kontrollsumman stämmer inte.\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:2769",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Fixing size of inline @d @i %i failed.\n",
+      "before": "Att rätta storleken på inline-kataloginod %i misslyckades.\n",
+      "after": "Det gick inte att rätta storleken på inline-kataloginod %i.\n",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:2785",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Encrypted @E references @i %Di, which has a different encryption policy.\n",
+      "before": "Krypterad post ”%Dn” i %p (%i) refererar inod %Di, vilken har en annan krypteringspolicy.\n",
+      "after": "Krypterad post ”%Dn” i %p (%i) refererar till inod %Di, som har en annan krypteringspolicy.\n",
+      "reason": "Rättar relativpronomen."
+    },
+    {
+      "tp_id": "e2fsprogs:2795",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Duplicate filename @E found.  ",
+      "before": "Duplicerad filnamnspost ”%Dn” i %p (%i) hittad.  ",
+      "after": "Duplicerad filnamnspost ”%Dn” i %p (%i) hittades.  ",
+      "reason": "Rättar passiv form."
+    },
+    {
+      "tp_id": "e2fsprogs:2810",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@r not allocated.  ",
+      "before": "Rotinod inte allokerad.  ",
+      "after": "Rotinoden är inte allokerad.  ",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:2826",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "/@l not found.  ",
+      "before": "/lost+found inte funnen.  ",
+      "after": "/lost+found hittades inte.  ",
+      "reason": "Rättar passiv form."
+    },
+    {
+      "tp_id": "e2fsprogs:2836",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Bad or non-existent /@l.  Cannot reconnect.\n",
+      "before": "Felaktig eller ej existerande /lost+found.  Kan inte återansluta.\n",
+      "after": "Felaktig eller obefintlig /lost+found. Kan inte återansluta.\n",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:2842",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Could not expand /@l: %m\n",
+      "before": "Kunde inte expandera /lost+found: %m\n",
+      "after": "Kunde inte utöka /lost+found: %m\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:2859",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "ext2fs_new_@b: %m while trying to create /@l @d\n",
+      "before": "ext2fs_new_block: %m ved försök att skapa /lost+found-katalog\n",
+      "after": "ext2fs_new_block: %m vid försök att skapa /lost+found-katalog\n",
+      "reason": "Rättar kvarlämnad främmande text."
+    },
+    {
+      "tp_id": "e2fsprogs:2883",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Error while adjusting @i count on @i %i\n",
+      "before": "Fel vid justering av inodräknare på inod %i\n",
+      "after": "Fel vid justering av inodens referensantal för inod %i\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:2889",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Couldn't fix parent of @i %i: %m\n\n",
+      "before": "Kunde inte rätta förälder till inod %i: %m\n\n",
+      "after": "Kunde inte rätta föräldern till inod %i: %m\n",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:2900",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Couldn't fix parent of @i %i: Couldn't find parent @d @e\n\n",
+      "before": "Kunde inte rätta förälder till inod %i: Kunde inte hitta föräldrakatalogpost\n\n",
+      "after": "Kunde inte rätta föräldern till inod %i: kunde inte hitta föräldrakatalogposten\n",
+      "reason": "Rättar bestämd form och versalisering."
+    },
+    {
+      "tp_id": "e2fsprogs:3011",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@i %i ref count is %Il, @s %N.  ",
+      "before": "Inod %i referensräknare är %Il, skulle varit %N.  ",
+      "after": "Inod %i:s referensantal är %Il, ska vara %N.  ",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:3016",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "WARNING: PROGRAMMING BUG IN E2FSCK!\n\tOR SOME BONEHEAD (YOU) IS CHECKING A MOUNTED (LIVE) FILESYSTEM.\n@i_link_info[%i] is %N, @i.i_links_count is %Il.  They @s the same!\n",
+      "before": "VARNING: PROGRAMMERINGSFEL I E2FSCK!\n\tELLER NÅGON KLANTSKALLE (DU) KONTROLLERAR ETT MONTERAT (AKTIVT) FILSYSTEM.\ninod_link_info[%i] är %N, inod.i_links_count är %Il.  De skulle vara samma!\n",
+      "after": "VARNING: PROGRAMMERINGSFEL I E2FSCK!\n\tELLER NÅGON KLANTSKALLE (DU) KONTROLLERAR ETT MONTERAT (AKTIVT) FILSYSTEM.\ninode_link_info[%i] är %N, inode.i_links_count är %Il. De ska vara samma!\n",
+      "reason": "Rättar fältnamn och grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:3029",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@a @i %i ref count is %N, @s %n. ",
+      "before": "Inod %i för utökade attribut har referensräknare som är %N, skulle varit %n. ",
+      "after": "Referensantalet för inod %i med utökade attribut är %N, ska vara %n. ",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:3039",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@d @i %i ref count set to overflow but could be exact value %N.  ",
+      "before": "referensräknaren för kataloginod %i satt att spilla över men kan vara exakt värdet %N.  ",
+      "after": "Referensantalet för kataloginod %i är satt till överflöde men kan vara det exakta värdet %N.  ",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:3044",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Regular @f @i %i has EA_INODE flag set. ",
+      "before": "Normal filsystemsinod %i har flaggan EA_INODE satt. ",
+      "after": "En vanlig filsystemsinod %i har EA_INODE-flaggan satt. ",
+      "reason": "Rättar artikel och sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:3055",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Padding at end of @i @B is not set. ",
+      "before": "Utfyllnad vid slutet av inodsbitkarta är inte satt. ",
+      "after": "Utfyllnaden i slutet av inodsbitkartan är inte satt. ",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:3060",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Padding at end of @b @B is not set. ",
+      "before": "Utfyllnad vid slutet av blockbitkarta är inte satt. ",
+      "after": "Utfyllnaden i slutet av blockbitkartan är inte satt. ",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:3080",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Directories count wrong for @g #%g (%i, counted=%j).\n",
+      "before": "Katalogantal fel för grupp nr. %g (%i, räknade=%j).\n",
+      "after": "Antalet kataloger är fel för grupp nr. %g (%i, räknade=%j).\n",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:3102",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "PROGRAMMING ERROR: @f (#%N) @B endpoints (%b, %c) don't match calculated @B endpoints (%i, %j)\n",
+      "before": "PROGRAMMERINGSFEL: filsystem (nr. %N) bitkartas ändpunkter (%b, %c) stämmer\ninte med beräknade bitkarteändpunkter (%i, %j)\n",
+      "after": "PROGRAMMERINGSFEL: filsystemets bitkarteändpunkter (nr. %N; %b, %c) stämmer\ninte med de beräknade bitkarteändpunkterna (%i, %j)\n",
+      "reason": "Rättar sammansättningar och ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:3110",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Internal error: fudging end of bitmap (%N)\n",
+      "before": "Internt fel: fuskar till slut på bitkarta (%N)\n",
+      "after": "Internt fel: justerar slutet av bitkartan (%N)\n",
+      "reason": "Rättar informellt ordval."
+    },
+    {
+      "tp_id": "e2fsprogs:3114",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Error copying in replacement @i @B: %m\n",
+      "before": "Fel vid kopiering av ersättningsinodskarta: %m\n",
+      "after": "Fel vid kopiering av ersättande inodbitkarta: %m\n",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:3120",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Error copying in replacement @b @B: %m\n",
+      "before": "Fel vid inkopiering av ersättningsbitkarta: %m\n",
+      "after": "Fel vid kopiering av ersättande blockbitkarta: %m\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:3159",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Error setting @b @g checksum info: %m\n",
+      "before": "Fel när kontrollsummeinformation för blockgrupp sattes: %m\n",
+      "after": "Fel vid inställning av kontrollsummeinformation för blockgrupp: %m\n",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:3170",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Error flushing writes to storage device: %m\n",
+      "before": "Fel när skrivningar tömdes till lagringsenheten: %m\n",
+      "after": "Fel vid tömning av skrivningar till lagringsenheten: %m\n",
+      "reason": "Rättar teknisk term."
+    },
+    {
+      "tp_id": "e2fsprogs:3179",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "@S has orphan file without @j.\n",
+      "before": "superblocket har en föräldralös fil utan journal.\n",
+      "after": "Superblocket har en föräldralös fil utan journal.\n",
+      "reason": "Rättar versalisering."
+    },
+    {
+      "tp_id": "e2fsprogs:3184",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Failed to truncate orphan file.\n",
+      "before": "Misslyckades att hugga av föräldralös fil.\n",
+      "after": "Det gick inte att avkorta den föräldralösa filen.\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:3192",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Cannot fix corrupted orphan file with invalid bitmaps.\n",
+      "before": "Kan inte fixa trasig föräldralös fil med ogiltiga bitkartor.\n",
+      "after": "Det går inte att rätta en skadad föräldralös fil med ogiltiga bitkartor.\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:3208",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Feature orphan_present is set but orphan file is clean.\n",
+      "before": "Funktionen orphan_present är satt men föräldralös fil är ren.\n",
+      "after": "Funktionen orphan_present är satt men den föräldralösa filen är ren.\n",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:3212",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Feature orphan_present is set but feature orphan_file is not.\n",
+      "before": "Funktionen orphan_present är satt men funktionen orphan_file är inte det.\n",
+      "after": "Funktionen orphan_present är satt men funktionen orphan_file är inte satt.\n",
+      "reason": "Rättar betydelse."
+    },
+    {
+      "tp_id": "e2fsprogs:3228",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Unhandled error code (0x%x)!\n",
+      "before": "Ej hanterad felkod (0x%x)!\n",
+      "after": "Ohanterad felkod (0x%x)!\n",
+      "reason": "Rättar etablerad term."
+    },
+    {
+      "tp_id": "e2fsprogs:3241",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Memory used: %lu, elapsed time: %6.3f/%6.3f/%6.3f\n",
+      "before": "Använt minne: %lu, förlupen tid: %6.3f/%6.3f/%6.3f\n",
+      "after": "Använt minne: %lu, förfluten tid: %6.3f/%6.3f/%6.3f\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:3273",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Truncating",
+      "before": "Kapar",
+      "after": "Avkortar",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:3281",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while reading inode %d",
+      "before": "när inod %d lästes",
+      "after": "vid läsning av inod %d",
+      "reason": "Rättar tempus."
+    },
+    {
+      "tp_id": "e2fsprogs:3291",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while reading blocks of inode %d",
+      "before": "när block från inod %d lästes",
+      "after": "vid läsning av block i inod %d",
+      "reason": "Rättar preposition."
+    },
+    {
+      "tp_id": "e2fsprogs:3325",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": " -v                   Be verbose\n -b superblock        Use alternative superblock\n -B blocksize         Force blocksize when looking for superblock\n -j external_journal  Set location of the external journal\n -l bad_blocks_file   Add to badblocks list\n -L bad_blocks_file   Set badblocks list\n -z undo_file         Create an undo file\n",
+      "before": " -v                   Var utförlig\n -b superblock        Använd alternativt superblock\n -B blockstorlek      Framtvinga blockstorlek vid sökande efter superblock\n -j extern_journal    Bestäm plats för den externa journalen\n -l dåliga_block_fil  Lägg till till listan över dåliga block\n -L dåliga_block_fil  Ange lista över dåliga block\n -z gör_ogjort_fil    Skapa en gör-ogjort-fil\n",
+      "after": " -v                   Var utförlig\n -b superblock        Använd alternativt superblock\n -B blockstorlek      Tvinga blockstorlek vid sökning efter superblock\n -j extern_journal    Ange platsen för den externa journalen\n -l dåliga_block_fil  Lägg till i listan över dåliga block\n -L dåliga_block_fil  Ange listan över dåliga block\n -z gör_ogjort_fil    Skapa en ångra-fil\n",
+      "reason": "Rättar hjälptextstil och term."
+    },
+    {
+      "tp_id": "e2fsprogs:3545",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": " was not cleanly unmounted",
+      "before": " var inte fläckfritt avmonterat",
+      "after": " var inte korrekt avmonterat",
+      "reason": "Rättar idiom."
+    },
+    {
+      "tp_id": "e2fsprogs:3549",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": " primary superblock features different from backup",
+      "before": " det primära superblockets egenskaper skiljer från reservens",
+      "after": " det primära superblockets funktioner skiljer sig från reservens",
+      "reason": "Rättar verb."
+    },
+    {
+      "tp_id": "e2fsprogs:3719",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "MMP interval is %u seconds and total wait time is %u seconds. Please wait...\n",
+      "before": "MMP-intervall är %u sekunder och den totala väntetiden är %u sekunder.  Var god dröj ...\n",
+      "after": "MMP-intervallet är %u sekunder och den totala väntetiden är %u sekunder. Vänta …\n",
+      "reason": "Tar bort onödigt artighetsuttryck och rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:3724",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while checking MMP block",
+      "before": "vid uppsättning av MMP-block",
+      "after": "vid kontroll av MMP-block",
+      "reason": "Rättar betydelse."
+    },
+    {
+      "tp_id": "e2fsprogs:3741",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Overwriting existing filesystem; this can be undone using the command:\n    e2undo %s %s\n\n",
+      "before": "Skriver över existerande filsystem, detta kan göras ogjort med kommandot:\n    e2undo %s %s\n\n",
+      "after": "Skriver över befintligt filsystem; detta kan ångras med kommandot:\n    e2undo %s %s\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:3760",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while trying to setup undo file\n",
+      "before": "vid försök att skapa en gör-ogjort-fil\n",
+      "after": "vid försök att skapa en ångra-fil\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:3804",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "The filesystem revision is apparently too high for this version of e2fsck.\n(Or the filesystem superblock is corrupt)\n\n",
+      "before": "Filsystemsrevisionen är uppenbarligen för hög för denna version av e2fsck.\n(Eller så är filsystemets superblock trasigt)\n\n",
+      "after": "Filsystemets revision är uppenbarligen för hög för den här versionen av e2fsck.\n(Eller så är filsystemets superblock skadat)\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:3823",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Possibly non-existent or swap device?\n",
+      "before": "Kanske inte existerar eller växlingsenhet?\n",
+      "after": "Kanske en obefintlig enhet eller växlingsenhet?\n",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:3827",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Filesystem mounted or opened exclusively by another program?\n",
+      "before": "Filsystemet monterat eller öppnat exklusivt av ett annat program?\n",
+      "after": "Filsystemet är monterat eller exklusivt öppnat av ett annat program?\n",
+      "reason": "Rättar saknat verb."
+    },
+    {
+      "tp_id": "e2fsprogs:3835",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Disk write-protected; use the -n option to do a read-only\ncheck of the device.\n",
+      "before": "Skrivskyddad disk; använd flaggan -n för att göra en läsningskontroll\nav enheten.\n",
+      "after": "Skrivskyddad disk; använd flaggan -n för att göra en skrivskyddad\nkontroll av enheten.\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:3861",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Warning: skipping journal recovery because doing a read-only filesystem check.\n",
+      "before": "Varning: hoppar över journalåterhämtning eftersom en läsningskontroll av filsystem görs.\n",
+      "after": "Varning: hoppar över journalåterställning eftersom en skrivskyddad filsystemskontroll körs.\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:3865",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "unable to set superblock flags on %s\n",
+      "before": "kan inte sätta superblocksflaggor på %s\n",
+      "after": "det går inte att sätta superblocksflaggor på %s\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:3870",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Journal checksum error found in %s\n",
+      "before": "Fel i journalkontrollsumman funnet i %s\n",
+      "after": "Fel i journalkontrollsumman hittades i %s\n",
+      "reason": "Rättar passiv form."
+    },
+    {
+      "tp_id": "e2fsprogs:3875",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Journal corrupted in %s\n",
+      "before": "Journalen trasig i %s\n",
+      "after": "Journalen i %s är skadad\n",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:3900",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "This doesn't bode well, but we'll try to go on...\n",
+      "before": "Detta bådar inte gott, men vi skall försöka att fortsätta ...\n",
+      "after": "Det bådar inte gott, men vi försöker fortsätta …\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:3925",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%s: e2fsck canceled.\n",
+      "before": "%s: e2fsck inställd.\n",
+      "after": "%s: e2fsck avbröts.\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:3939",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while resetting context",
+      "before": "vid återställning av omgivning",
+      "after": "vid återställning av kontext",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:4066",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "writing block and inode bitmaps",
+      "before": "skriver block- och inodsbitkartor",
+      "after": "skriver block- och inodbitkartor",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:4113",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while writing inode %lu in %s",
+      "before": "när inod %lu i %s skrevs",
+      "after": "vid skrivning av inod %lu i %s",
+      "reason": "Rättar tempus."
+    },
+    {
+      "tp_id": "e2fsprogs:4149",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%6.2f%% done, %s elapsed. (%d/%d/%d errors)",
+      "before": "%6.2f %% klar, %s har gått. (%d/%d/%d fel)",
+      "after": "%6.2f %% klart, %s har förflutit. (%d/%d/%d fel)",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:4192",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Checking for bad blocks (read-only test): ",
+      "before": "Letar efter dåliga block (skrivskyddad test): ",
+      "after": "Letar efter dåliga block (skrivskyddat test): ",
+      "reason": "Rättar kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:4214",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Checking for bad blocks in non-destructive read-write mode\n",
+      "before": "Letar efter dåliga block i ickeförstörande läs-skriv-läge\n",
+      "after": "Letar efter dåliga block i icke-förstörande läs-skrivläge\n",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:4218",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Checking for bad blocks (non-destructive read-write test)\n",
+      "before": "Letar efter dåliga block (ickeförstörande läs-skriv-test)\n",
+      "after": "Letar efter dåliga block (icke-förstörande läs-skrivtest)\n",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:4267",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Too big max bad blocks count %u - maximum is %u",
+      "before": "För stort maximalt antal dåliga block %u — maximum är %u",
+      "after": "För stort högsta antal dåliga block %u – högst är %u",
+      "reason": "Översätter kvarlämnat engelskt ord."
+    },
+    {
+      "tp_id": "e2fsprogs:4272",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "can't allocate memory for test_pattern - %s",
+      "before": "kunde inte allokera minne för testmönster - %s",
+      "after": "kunde inte allokera minne för testmönster – %s",
+      "reason": "Rättar typografi."
+    },
+    {
+      "tp_id": "e2fsprogs:4325",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "invalid end block (%llu): must be 32-bit value",
+      "before": "felaktigt startblock (%llu): måste vara ett 32-bitars värde",
+      "after": "felaktigt slutblock (%llu): måste vara ett 32-bitarsvärde",
+      "reason": "Rättar betydelse och sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:4338",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while adding to in-memory bad block list",
+      "before": "när tillägg gjordes till lista i minnet över dåliga block gjordes",
+      "after": "vid tillägg till listan över dåliga block i minnet",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:4342",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Pass completed, %u bad blocks found. (%d/%d/%d errors)\n",
+      "before": "Pass avslutat, %u dåliga block hittade. (%d/%d/%d fel)\n",
+      "after": "Pass avslutat, %u dåliga block hittades. (%d/%d/%d fel)\n",
+      "reason": "Rättar passiv form."
+    },
+    {
+      "tp_id": "e2fsprogs:4372",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Flags of %s set as ",
+      "before": "Flaggor på %s satta som ",
+      "after": "Flaggorna för %s sattes till ",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:4382",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Version of %s set as %lu\n",
+      "before": "Version av %s satt som %lu\n",
+      "after": "Versionen för %s sattes till %lu\n",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:4392",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Project of %s set as %lu\n",
+      "before": "Projektet för %s satt som %lu\n",
+      "after": "Projektet för %s sattes till %lu\n",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:4397",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while setting project on %s",
+      "before": "när projektet sattes på %s",
+      "after": "när projektet för %s sattes",
+      "reason": "Rättar preposition."
+    },
+    {
+      "tp_id": "e2fsprogs:4439",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while reading xattrs for inode %u",
+      "before": "när xattr för inod %u lästes",
+      "after": "när utökade attribut för inod %u lästes",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:4528",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "symlink increased in size between lstat() and readlink()",
+      "before": "symlänk ökade i storlek mellan lstat() och readlink()",
+      "after": "symlänken ökade i storlek mellan lstat() och readlink()",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:4561",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while setting xattrs for \"%s\"",
+      "before": "när xattrs för ”%s” sattes",
+      "after": "när utökade attribut för ”%s” sattes",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:4574",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while copying xattrs on root directory",
+      "before": "vid kopiering av xattr på rotkatalogen",
+      "after": "vid kopiering av utökade attribut på rotkatalogen",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:4606",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "  %s superblock at ",
+      "before": "  %ssuperblock vid ",
+      "after": "  %s superblock vid ",
+      "reason": "Rättar saknat blanksteg."
+    },
+    {
+      "tp_id": "e2fsprogs:4611",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Primary",
+      "before": "Primärt ",
+      "after": "Primärt",
+      "reason": "Rättar oavsiktligt slutblanksteg."
+    },
+    {
+      "tp_id": "e2fsprogs:4668",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "\n  %u free %s, %u free inodes, %u directories%s",
+      "before": "\n  %u fritt %s, %u fria inoder, %u kataloger%s",
+      "after": "\n  %u fria %s, %u fria inoder, %u kataloger%s",
+      "reason": "Rättar kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:4707",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while reading journal super block",
+      "before": "när journalsuperblocket lästes",
+      "after": "vid läsning av journalsuperblock",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:4711",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Journal superblock magic number invalid!\n",
+      "before": "Journalsuperblockets magiska tal felaktigt!\n",
+      "after": "Journalsuperblockets magiska tal är felaktigt!\n",
+      "reason": "Rättar saknat verb."
+    },
+    {
+      "tp_id": "e2fsprogs:4774",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Couldn't find valid filesystem superblock.\n",
+      "before": "Kunde inte hitta giltigt filsystemssuperblock.\n",
+      "after": "Kunde inte hitta ett giltigt filsystemssuperblock.\n",
+      "reason": "Rättar artikel."
+    },
+    {
+      "tp_id": "e2fsprogs:4816",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Writing block %llu\n",
+      "before": "När block %llu skrevs\n",
+      "after": "Skriver block %llu\n",
+      "reason": "Rättar tempus."
+    },
+    {
+      "tp_id": "e2fsprogs:4873",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Stopping now will destroy the filesystem, interrupt again if you are sure\n",
+      "before": "Att sluta nu kommer förstöra filsystemet, avbryt igen om du är säker\n",
+      "after": "Att avbryta nu förstör filsystemet; avbryt igen om du är säker\n",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:4905",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Warning: There are still tables in the cache while putting the cache, data will be lost so the image may not be valid.\n",
+      "before": "Varning: det finns fortfarande tabeller i cachen medan cachen skrivs, data kommer gå förlorade så avbilden kommer kanske inte vara korrekt.\n",
+      "after": "Varning: det finns fortfarande tabeller i cachen när cachen skrivs; data går förlorade och avbilden kanske inte är giltig.\n",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:4917",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Programming error: multiple sequential refcount blocks created!\n",
+      "before": "Programmeringsfel: multipla sekventiella referensräknarblock skapade!\n",
+      "after": "Programmeringsfel: flera sekventiella referensräknarblock skapades!\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:4946",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Raw and qcow2 images cannot be installed",
+      "before": "Raw- och qcow2-avbilder kan inte installeras",
+      "after": "Råa och qcow2-avbilder kan inte installeras",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:4978",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Move mode requires all data mode.",
+      "before": "Flyttningsläge behöver läget all data.",
+      "after": "Flyttningsläge kräver läget ”all data”.",
+      "reason": "Rättar saknad engelsk term."
+    },
+    {
+      "tp_id": "e2fsprogs:4982",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "checking if mounted",
+      "before": "kontrollerar om monterad",
+      "after": "kontrollerar om filsystemet är monterat",
+      "reason": "Rättar saknat subjekt."
+    },
+    {
+      "tp_id": "e2fsprogs:4986",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "\nRunning e2image on a R/W mounted filesystem can result in an\ninconsistent image which will not be useful for debugging purposes.\nUse -f option if you really want to do that.\n",
+      "before": "\nAtt köra e2image på ett filsystem monterat både för skrivning och läsning\nkan resultera i en inkonsistent avbild som inte kommer vara användbar för\nfelsökningsändamål.  Använd flaggan -f om du verkligen vill göra det.\n",
+      "after": "\nKörning av e2image på ett filsystem som är monterat för läsning och skrivning\nkan ge en inkonsekvent avbild som inte är användbar för felsökning.\nAnvänd flaggan -f om du verkligen vill göra det.\n",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:4998",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "QCOW2 image can not be written to the stdout!\n",
+      "before": "En QCOW2-avbild kan inte skrivas till standard ut!\n",
+      "after": "En QCOW2-avbild kan inte skrivas till standardutdata!\n",
+      "reason": "Rättar etablerad term."
+    },
+    {
+      "tp_id": "e2fsprogs:5021",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while trying to convert qcow2 image (%s) into raw image (%s)",
+      "before": "vid försök att konvertera en qcow2-bild (%s) till en rå bild (%s)",
+      "after": "vid försök att konvertera qcow2-avbild (%s) till rå avbild (%s)",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:5030",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "The -c option not supported when writing to stdout\n",
+      "before": "Flaggan -c stödjs inte vid skrivning till standard ut\n",
+      "after": "Flaggan -c stöds inte vid skrivning till standardutdata\n",
+      "reason": "Rättar etablerad term."
+    },
+    {
+      "tp_id": "e2fsprogs:5105",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Last mount time does not match.\n",
+      "before": "Senaste monteringstid stämmer inte.\n",
+      "after": "Senaste monteringstiden stämmer inte.\n",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:5117",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while reading filesystem superblock.",
+      "before": "när filsystemets superblock lästes.",
+      "after": "vid läsning av filsystemets superblock.",
+      "reason": "Rättar tempus."
+    },
+    {
+      "tp_id": "e2fsprogs:5121",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while fetching superblock",
+      "before": "när superblocket skrevs",
+      "after": "vid hämtning av superblock",
+      "reason": "Rättar betydelse."
+    },
+    {
+      "tp_id": "e2fsprogs:5159",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%s: Corrupt undo file header.\n",
+      "before": "%s: Trasig huvud i gör-ogjort-filen.\n",
+      "after": "%s: Skadat huvud i ångra-filen.\n",
+      "reason": "Rättar kongruens och term."
+    },
+    {
+      "tp_id": "e2fsprogs:5174",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%s: Unknown undo file feature set.\n",
+      "before": "%s: Okänd funktionsuppsättning i gör-ogjort-fil.\n",
+      "after": "%s: Okänd funktionsuppsättning i ångra-filen.\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:5184",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "e2undo should only be run on unmounted filesystems",
+      "before": "e2undo skall endast köras på omonterade filsystem",
+      "after": "e2undo ska bara köras på omonterade filsystem",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:5201",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%s: wrong key magic at %llu\n",
+      "before": "%s: fel nyckelmagi vid %llu\n",
+      "after": "%s: felaktigt magiskt tal för nyckel vid %llu\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:5226",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while writing block %llu.",
+      "before": "fel när block %llu skrevs.",
+      "after": "vid skrivning av block %llu.",
+      "reason": "Rättar betydelse."
+    },
+    {
+      "tp_id": "e2fsprogs:5246",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Usage:  findsuper device [skipbytes [startkb]]\n",
+      "before": "Användning:  findsuper enhet [skippabyte [startkb]]\n",
+      "after": "Användning: findsuper enhet [hoppa_över_byte [start_kB]]\n",
+      "reason": "Rättar hjälptextstil."
+    },
+    {
+      "tp_id": "e2fsprogs:5261",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "startkb should be a number, not %s\n",
+      "before": "startkb skall vara ett tal, inte %s\n",
+      "after": "start_kB ska vara ett tal, inte %s\n",
+      "reason": "Rättar term och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:5266",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "startkb should be positive, not %llu\n",
+      "before": "startkb skall vara positivt, inte %llu\n",
+      "after": "start_kB ska vara positivt, inte %llu\n",
+      "reason": "Rättar term och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:5285",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "byte_offset  byte_start     byte_end  fs_blocks blksz  grp  mkfs/mount_time           sb_uuid label\n",
+      "before": "byteavstånd  bytestart      byteslut  fs_block  blkst  grp  mkfs/monteringstid        sb_uuid etikett\n",
+      "after": "byteavstånd  bytestart     byteslut  fs_block  blkst  grp  mkfs/monteringstid        sb_uuid etikett\n",
+      "reason": "Rättar kolumnrubriker."
+    },
+    {
+      "tp_id": "e2fsprogs:5309",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "WARNING: Your /etc/fstab does not contain the fsck passno\n\tfield.  I will kludge around things for you, but you\n\tshould fix your /etc/fstab file as soon as you can.\n\n",
+      "before": "VARNING: Din /etc/fstab innehåller inte fsck-passnr-fältet.\n\tJag fixar mig förbi detta åt dig, men du\n\tbör rätta din /etc/fstab-fil så snart du kan.\n\n",
+      "after": "VARNING: Din /etc/fstab innehåller inte fältet fsck-passnr.\n\tJag gör en nödlösning åt dig, men du\n\tbör rätta din /etc/fstab-fil så snart du kan.\n",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:5321",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "fsck: %s: not found\n",
+      "before": "fsck: %s: inte funnen\n",
+      "after": "fsck: %s: hittades inte\n",
+      "reason": "Rättar passiv form."
+    },
+    {
+      "tp_id": "e2fsprogs:5396",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "unmounting filesystem",
+      "before": "avmonterar filsystemetet",
+      "after": "avmonterar filsystemet",
+      "reason": "Rättar stavning."
+    },
+    {
+      "tp_id": "e2fsprogs:5432",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "casefolding not supported.",
+      "before": "sammanslagning av skiftläge stödjs inte.",
+      "after": "skiftlägesavbildning stöds inte.",
+      "reason": "Rättar etablerad term."
+    },
+    {
+      "tp_id": "e2fsprogs:5440",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Recovering journal.",
+      "before": "Återhämtar journalen.",
+      "after": "Återställer journalen.",
+      "reason": "Rättar teknisk term."
+    },
+    {
+      "tp_id": "e2fsprogs:5444",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Warning: fuse2fs does not support using the journal.\nThere may be file system corruption or data loss if\nthe file system is not gracefully unmounted.\n",
+      "before": "Varning: fuse2fs stödjer inte att använda journalen.\nFilsystemet kan vara trasigt eller ha förlorat data\nom filsystemet inte avmonterades snyggt.\n",
+      "after": "Varning: fuse2fs stöder inte användning av journalen.\nFilsystemet kan vara skadat eller ha förlorat data\nom det inte avmonterades korrekt.\n",
+      "reason": "Rättar term och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:5454",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Warning: Mounting unchecked fs, running e2fsck is recommended.",
+      "before": "Varning: monterar okontrollerat fs, att köra e2fsck rekommenderas.",
+      "after": "Varning: monterar ett okontrollerat filsystem; körning av e2fsck rekommenderas.",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:5466",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Orphans detected; running e2fsck is recommended.",
+      "before": "Föräldralösa hittade; att köra e2fsck rekommenderas.",
+      "after": "Föräldralösa poster hittades; körning av e2fsck rekommenderas.",
+      "reason": "Rättar betydelse."
+    },
+    {
+      "tp_id": "e2fsprogs:5470",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Errors detected; running e2fsck is required.",
+      "before": "Fel upptäckta; att köra e2fsck rekommenderas.",
+      "after": "Fel upptäcktes; körning av e2fsck krävs.",
+      "reason": "Rättar kravstyrka."
+    },
+    {
+      "tp_id": "e2fsprogs:5474",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Mount failed due to unrecognized options.  Check dmesg(1) for details.",
+      "before": "Monteringen misslyckades på grund av en okänd flagga. Granska dmesg(1) för detaljer.",
+      "after": "Monteringen misslyckades på grund av okända flaggor. Kontrollera dmesg(1) för detaljer.",
+      "reason": "Rättar plural och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:5478",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Mount failed while opening filesystem.  Check dmesg(1) for details.",
+      "before": "Monteringen misslyckades när filsystemet öppnades. Granska dmesg(1) för detaljer.",
+      "after": "Monteringen misslyckades när filsystemet öppnades. Kontrollera dmesg(1) för detaljer.",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:5506",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Usage: %s [-c|-l filename] [-b block-size] [-C cluster-size]\n\t[-i bytes-per-inode] [-I inode-size] [-J journal-options]\n\t[-G flex-group-size] [-N number-of-inodes] [-d root-directory|tarball]\n\t[-m reserved-blocks-percentage] [-o creator-os]\n\t[-g blocks-per-group] [-L volume-label] [-M last-mounted-directory]\n\t[-O feature[,...]] [-E extended-option[,...]] [-t fs-type]\n\t[-T usage-type ] [-U UUID] [-e errors_behavior][-z undo_file]\n\t[-jnqvDFSV] device [blocks-count]\n",
+      "before": "Användning: %s [-c|-l filnamn] [-b blockstorlek] [-C klusterstorlek]\n\t[-i byte-per-inod] [-I inodstorlek] [-J journalflaggor]\n\t[-G flexgruppstorlek] [-N antal-inoder] [-d rotkatalog|tar-boll]\n\t[-m reserverade-block-procent] [-o skapar-os]\n\t[-g block-per-grupp] [-L volymetikett] [-M senast-monterad-katalog]\n\t[-O funktion[,…]] [-E utökad-flagga[,…]] [-t fs-typ]\n\t[-T användningstyp] [-U UUID] [-e felbeteende] [-z gör-ogjort-fil]\n\t[-jnqvDFSV] enhet [blockantal]\n",
+      "after": "Användning: %s [-c|-l filnamn] [-b blockstorlek] [-C klusterstorlek]\n\t[-i byte-per-inod] [-I inodstorlek] [-J journalflaggor]\n\t[-G flexgruppstorlek] [-N antal-inoder] [-d rotkatalog|tararkiv]\n\t[-m reserverade-block-procent] [-o skapar-os]\n\t[-g block-per-grupp] [-L volymetikett] [-M senast-monterad-katalog]\n\t[-O funktion[,…]] [-E utökad-flagga[,…]] [-t fs-typ]\n\t[-T användningstyp] [-U UUID] [-e felbeteende] [-z ångra-fil]\n\t[-jnqvDFSV] enhet [blockantal]\n",
+      "reason": "Rättar hjälptecken och term."
+    },
+    {
+      "tp_id": "e2fsprogs:5551",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Aborting....\n",
+      "before": "Avbryter...\n",
+      "after": "Avbryter …\n",
+      "reason": "Rättar typografi."
+    },
+    {
+      "tp_id": "e2fsprogs:5634",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while splitting the journal size",
+      "before": "när journalstorleken delades",
+      "after": "vid uppdelning av journalstorleken",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:5655",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Creating filesystem with %llu %dk blocks and %u inodes\n",
+      "before": "Skapar ett filsystem med %llu %d k-block och %u inoder\n",
+      "after": "Skapar ett filsystem med %llu %dk-block och %u inoder\n",
+      "reason": "Rättar enhetsformat."
+    },
+    {
+      "tp_id": "e2fsprogs:5660",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "warning: %llu blocks unused.\n\n",
+      "before": "varning: %llu block oanvända.\n\n",
+      "after": "varning: %llu block är oanvända.\n",
+      "reason": "Rättar saknat verb."
+    },
+    {
+      "tp_id": "e2fsprogs:5754",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Superblock backups stored on blocks: ",
+      "before": "Superblockkopior lagrade på block: ",
+      "after": "Superblockskopior lagrade på block: ",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:5808",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "The resize maximum must be greater than the filesystem size.\n",
+      "before": "Storleksändringens maximum måste vara större än filsystemets storlek.\n",
+      "after": "Den maximala storleksändringen måste vara större än filsystemets storlek.\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:5836",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Invalid size of orphan file %s\n",
+      "before": "Ogiltig storlek på föräldrals fil %s\n",
+      "after": "Ogiltig storlek på föräldralös fil %s\n",
+      "reason": "Rättar stavning."
+    },
+    {
+      "tp_id": "e2fsprogs:5921",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Syntax error in mke2fs config file (%s, line #%d)\n\t%s\n",
+      "before": "Syntaxfel i mke2fs konfigurationsfil (%s, rad nr %d)\n\t%s\n",
+      "after": "Syntaxfel i konfigurationsfilen mke2fs (%s, rad nr. %d)\n\t%s\n",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:5996",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "'-R' is deprecated, use '-E' instead",
+      "before": "”-R” undanbedes, använd ”-E” istället",
+      "after": "”-R” är föråldrad; använd ”-E” i stället",
+      "reason": "Rättar etablerad term."
+    },
+    {
+      "tp_id": "e2fsprogs:6017",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "flex_bg size must be a power of 2",
+      "before": "storlek på flex_bg måste vara en multipel av 2",
+      "after": "flex_bg-storleken måste vara en tvåpotens",
+      "reason": "Rättar betydelse."
+    },
+    {
+      "tp_id": "e2fsprogs:6026",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "invalid inode ratio %s (min %d/max %d)",
+      "before": "ogiltig inodsförhållande %s (min %d/max %d)",
+      "after": "ogiltigt inodsförhållande %s (min %d/max %d)",
+      "reason": "Rättar kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:6036",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Warning: -K option is deprecated and should not be used anymore. Use '-E nodiscard' extended option instead!\n",
+      "before": "Varning: flaggan -K undanbedes och skall inte användas mera.  Använd den utökade flaggan ”-E nodiscard” istället!\n",
+      "after": "Varning: flaggan -K är föråldrad och ska inte längre användas. Använd den utökade flaggan ”-E nodiscard” i stället!\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:6044",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Warning: label too long; will be truncated to '%s'\n\n",
+      "before": "Varning: etiketten för lång, kommer avkortas till ”%s”.\n\n",
+      "after": "Varning: etiketten är för lång och avkortas till ”%s”\n",
+      "reason": "Rättar saknat verb."
+    },
+    {
+      "tp_id": "e2fsprogs:6102",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Journal dev blocksize (%d) smaller than minimum blocksize %d\n",
+      "before": "Journalenhetens blockstorlek (%d) mindre än minsta blockstorlek %d\n",
+      "after": "Journalenhetens blockstorlek (%d) är mindre än minsta blockstorlek %d\n",
+      "reason": "Rättar saknat verb."
+    },
+    {
+      "tp_id": "e2fsprogs:6145",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Device size reported to be zero.  Invalid partition specified, or\n\tpartition table wasn't reread after running fdisk, due to\n\ta modified partition being busy and in use.  You may need to reboot\n\tto re-read your partition table.\n",
+      "before": "Enhetsstorlek rapporterades som noll.  Ogiltig partition angiven, eller\n\tpartitionstabellen var inte omläst efter att ha kört fsck, på grund\n\tav en modifierad partition används och är i bruk.  Du kan behöva\n\tstarta om för att läsa om din partitionstabell.\n",
+      "after": "Enhetsstorleken rapporterades som noll. Antingen har en ogiltig partition angetts, eller så har partitionstabellen inte lästs om efter fdisk eftersom en ändrad partition är upptagen och används. Du kan behöva starta om för att läsa om partitionstabellen.\n",
+      "reason": "Rättar betydelse och grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:6157",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Filesystem larger than apparent device size.",
+      "before": "Filsystem större än synbar enhetsstorlek.",
+      "after": "Filsystemet är större än den synliga enhetsstorleken.",
+      "reason": "Rättar saknat verb."
+    },
+    {
+      "tp_id": "e2fsprogs:6161",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Failed to parse fs types list\n",
+      "before": "Misslyckades tolka fs-typlista\n",
+      "after": "Det gick inte att tolka listan över filsystemstyper\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:6165",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "The HURD does not support the filetype feature.\n",
+      "before": "HURD stödjer inte funktionen filtype.\n",
+      "after": "HURD stöder inte funktionen filetype.\n",
+      "reason": "Rättar fältnamn."
+    },
+    {
+      "tp_id": "e2fsprogs:6198",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%s: Size of device (0x%llx blocks) %s too big to be expressed\n\tin 32 bits using a blocksize of %d.\n",
+      "before": "%s: Storleken på enhet (0x%llx block) %s är för stor för att uttryckas\n\tmed 32 bitar med användning av en blockstorlek på %d.\n",
+      "after": "%s: Enhetens storlek (0x%llx block) %s är för stor för att uttryckas\nmed 32 bitar med en blockstorlek på %d.\n",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:6207",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%s: Size of device (0x%llx blocks) %s too big to create\n\ta filesystem using a blocksize of %d.\n",
+      "before": "%s: Storleken på enhet (0x%llx block) %s är för stor för att skapa\n\tett filsystem som använder en blockstorlek på %d.\n",
+      "after": "%s: Enhetens storlek (0x%llx block) %s är för stor för att skapa\nett filsystem med en blockstorlek på %d.\n",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:6228",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Extents MUST be enabled for fs-verity support.  Pass -O extents to rectify.\n",
+      "before": "Utsträckningar MÅSTE vara aktiverade stöd för fs-verity.  Skicka -O extents för att rätta.\n",
+      "after": "Utsträckningar MÅSTE vara aktiverade för stöd för fs-verity. Skicka -O extents för att rätta.\n",
+      "reason": "Rättar saknad preposition."
+    },
+    {
+      "tp_id": "e2fsprogs:6240",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "warning: Unable to get device geometry for %s\n",
+      "before": "varning: Kan inte ta reda på enhetens geometri för %s\n",
+      "after": "varning: det går inte att läsa enhetens geometri för %s\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:6250",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "This may result in very poor performance, (re)-partitioning suggested.\n",
+      "before": "Detta kan medföra väldigt dåliga prestanda, (om)partitionering föreslås.\n",
+      "after": "Detta kan ge mycket dåliga prestanda; ompartitionering rekommenderas.\n",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:6255",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%s is capable of DAX but current block size %u is different from system page size %u so filesystem will not support DAX.\n",
+      "before": "%s har förmågan DAX men aktuell blockstorlek %u är skild från systemsidstorleken %u så filsystemet kommer inte stödja DAX.\n",
+      "after": "%s stöder DAX, men den aktuella blockstorleken %u skiljer sig från systemets sidstorlek %u, så filsystemet stöder inte DAX.\n",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:6270",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Suggestion: Use Linux kernel >= 3.18 for improved stability of the metadata and journal checksum features.\n",
+      "before": "Förslag: använd en Linuxkärna ≥ 3.18 för förbättrad stabilitet av metadatan och funktionerna för journalkontrollsumma.\n",
+      "after": "Förslag: använd Linux-kärna >= 3.18 för bättre stabilitet hos metadata- och journalkontrollsummefunktionerna.\n",
+      "reason": "Rättar sammansättningar."
+    },
+    {
+      "tp_id": "e2fsprogs:6293",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Inode size incompatible with revision 0 filesystems\n",
+      "before": "Inodsstorleken är inkompatibel revision 0-filsystem\n",
+      "after": "Inodsstorleken är inkompatibel med filsystem med revision 0\n",
+      "reason": "Rättar saknad preposition."
+    },
+    {
+      "tp_id": "e2fsprogs:6347",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Flex_bg feature not enabled, so flex_bg size may not be specified",
+      "before": "Funktionen flex_bg är inte aktiverad, så fleg_bg-storlek kan inte anges",
+      "after": "Funktionen flex_bg är inte aktiverad, så flex_bg-storlek kan inte anges",
+      "reason": "Rättar stavfel."
+    },
+    {
+      "tp_id": "e2fsprogs:6361",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "128-byte inodes cannot handle dates beyond 2038 and are deprecated\n",
+      "before": "128-bytes inoder kan inte hantera data bortom 2038 och bör undvikas\n",
+      "after": "128-byteinoder kan inte hantera datum efter 2038 och är föråldrade\n",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:6416",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Extents are not enabled.  The file extent tree can be checksummed, whereas block maps cannot.  Not enabling extents reduces the coverage of metadata checksumming.  Pass -O extents to rectify.\n",
+      "before": "Utsträckningar är inte aktiverade.  I trädet med filutsträckningar kan blocksummor beräknas, medan blockkartor inte kan det.  Att inte aktivera utsträckningar reducerar täckningen av kontrollsummor för metadata.  Skicka -O extents för att rätta.\n",
+      "after": "Utsträckningar är inte aktiverade. Filutsträckningsträdet kan kontrollsummekontrolleras, medan blockkartor inte kan det. Att inte aktivera utsträckningar minskar täckningen av metadatakontrollsummor. Skicka -O extents för att rätta.\n",
+      "reason": "Rättar teknisk term."
+    },
+    {
+      "tp_id": "e2fsprogs:6428",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Assuming the storage device is prezeroed - skipping inode table and journal wipe\n",
+      "before": "Antar att lagringsenheten är nollställd i förväg — hoppar över att tömma inodstabellen och journalen\n",
+      "after": "Antar att lagringsenheten är nollställd i förväg – hoppar över nollställning av inodstabellen och journalen\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:6432",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Discard succeeded and will return 0s - skipping inode table wipe\n",
+      "before": "Utrangering lyckades och kommer returnera 0s — hoppar över rensning av inodstabell\n",
+      "after": "Utrangering lyckades och returnerar nollor – hoppar över nollställning av inodstabellen\n",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:6465",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%s may be further corrupted by superblock rewrite\n",
+      "before": "%s kan göras ännu trasigare av omskrivning av superblock\n",
+      "after": "%s kan skadas ytterligare vid omskrivning av superblock\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:6485",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Adding journal to device %s: ",
+      "before": "Lägger till journal till enhet %s: ",
+      "after": "Lägger till journal på enheten %s: ",
+      "reason": "Rättar preposition."
+    },
+    {
+      "tp_id": "e2fsprogs:6504",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Skipping journal creation in super-only mode\n",
+      "before": "Hoppar över att skapa journal i läget endast super\n",
+      "after": "Hoppar över journalskapande i läget endast superblock\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:6534",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "cannot set orphan_file feature without a journal.",
+      "before": "kan inte sätta funktionen orphan_file utan en journal.",
+      "after": "funktionen orphan_file kan inte sättas utan en journal.",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:6546",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while populating file system",
+      "before": "när filsystemet populerades",
+      "after": "när filsystemet fylldes",
+      "reason": "Rättar stavning och term."
+    },
+    {
+      "tp_id": "e2fsprogs:6571",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Partition offset of %llu (%uk) blocks not compatible with cluster size %u.\n",
+      "before": "Ett partitionsavstånd på %llu (%u k) block är inte kompatibelt med klusterstorleken %u.\n",
+      "after": "Partitionsavståndet %llu (%uk) block är inte kompatibelt med klusterstorleken %u.\n",
+      "reason": "Rättar artikel och enhetsformat."
+    },
+    {
+      "tp_id": "e2fsprogs:6634",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "\nThis operation requires a freshly checked filesystem.\n",
+      "before": "\nDenna åtgärd kräver en nykontrollerat filsystem.\n",
+      "after": "\nDen här åtgärden kräver ett nykontrollerat filsystem.\n",
+      "reason": "Rättar kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:6684",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Journal superblock is corrupted, nr_users\nis too high (%d).\n",
+      "before": "Journalsuperblocket är trasigt, nr_users\när för hög (%d).\n",
+      "after": "Journalsuperblocket är skadat; nr_users\när för högt (%d).\n",
+      "reason": "Rättar kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:6693",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Filesystem's UUID not found on journal device.\n",
+      "before": "Filsystems UUID inte funnet på journalenhet.\n",
+      "after": "Filsystemets UUID hittades inte på journalenheten.\n",
+      "reason": "Rättar passiv form."
+    },
+    {
+      "tp_id": "e2fsprogs:6758",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Clearing filesystem feature '%s' not supported.\n",
+      "before": "Nollställning av filsystemsfunktion ”%s” stöds inte.\n",
+      "after": "Nollställning av filsystemsfunktionen ”%s” stöds inte.\n",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:6763",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Setting filesystem feature '%s' not supported.\n",
+      "before": "Att sätta filsystemsfunktion ”%s” stöds inte.\n",
+      "after": "Det går inte att sätta filsystemsfunktionen ”%s”.\n",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:6776",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "The needs_recovery flag is set.  Please run e2fsck before clearing\nthe has_journal flag.\n",
+      "before": "Flaggan needs_recovery är satt.  Kör e2fsck före flaggan has_journal\nnollställs.\n",
+      "after": "Flaggan needs_recovery är satt. Kör e2fsck innan flaggan has_journal nollställs.\n",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:6804",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "orphan_file feature can be set only for filesystems with journal.\n",
+      "before": "funktionen orphan_file kan endast sättas för filsystem med en journal.\n",
+      "after": "Funktionen orphan_file kan endast sättas för filsystem med journal.\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:6843",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Magic number in MMP block does not match. expected: %x, actual: %x\n",
+      "before": "Magiskt tal i MMP-block stämmer inte.  förväntat: %x, faktiskt: %x\n",
+      "after": "Det magiska talet i MMP-blocket stämmer inte: förväntat %x, faktiskt %x\n",
+      "reason": "Rättar versalisering och skiljetecken."
+    },
+    {
+      "tp_id": "e2fsprogs:6860",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Clearing the flex_bg flag would cause the the filesystem to be\ninconsistent.\n",
+      "before": "Att nollställa flaggan flex_bg skulle få filsystemet att bli\ninkonsistent.\n",
+      "after": "Nollställning av flaggan flex_bg skulle göra filsystemet inkonsistent.\n",
+      "reason": "Rättar dubblerat ord."
+    },
+    {
+      "tp_id": "e2fsprogs:6884",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Extents are not enabled.  The file extent tree can be checksummed, whereas block maps cannot.  Not enabling extents reduces the coverage of metadata checksumming.  Re-run with -O extent to rectify.\n",
+      "before": "Utsträckningar är inte aktiverade.  I trädet med filutsträckningar kan blocksummor beräknas, medan blockkartor inte kan det.  Att inte aktivera utsträckningar reducerar täckningen av kontrollsummor för metadata.  Kör om med -O extents för att rätta.\n",
+      "after": "Utsträckningar är inte aktiverade. Filutsträckningsträdet kan kontrollsummekontrolleras, medan blockkartor inte kan det. Att inte aktivera utsträckningar minskar täckningen av metadatakontrollsummor. Kör om med -O extents för att rätta.\n",
+      "reason": "Rättar teknisk term."
+    },
+    {
+      "tp_id": "e2fsprogs:6951",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "UUID has changed since enabling metadata_csum.  Filesystem must be unmounted \nto safely rewrite all metadata to match the new UUID.\n",
+      "before": "UUID har ändrats sedan metadata_csum aktiverades.  Filsystem måste vara omonterade för att säkert skriva om alla metadata till att matcha det nya UUID:t.\n",
+      "after": "UUID har ändrats sedan metadata_csum aktiverades. Filsystemet måste vara omonterat för att alla metadata ska kunna skrivas om säkert så att de matchar det nya UUID:t.\n",
+      "reason": "Rättar kongruens och ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:6988",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "\n\twhile trying to create journal file",
+      "before": "\n\tvid försök att skapa journalfil",
+      "after": "\n\tvid försök att skapa journalfilen",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:7020",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "\nBad quota options specified.\n\nFollowing valid quota options are available (pass by separating with comma):\n\t[^]usr[quota]\n\t[^]grp[quota]\n\t[^]prj[quota]\n\n\n",
+      "before": "\nFelaktigt kvotalternativ angivet.\n\nFöljande giltiga kvotalternativ finns (skicka dem separerade med kommatecken):\n\t[^]usr[quota]\n\t[^]grp[quota]\n\t[^]prj[quota]\n\n\n",
+      "after": "\nFelaktigt kvotalternativ angivet.\n\nFöljande giltiga kvotalternativ finns (separera dem med kommatecken):\n\t[^]usr[quota]\n\t[^]grp[quota]\n\t[^]prj[quota]\n",
+      "reason": "Rättar hjälptextstil."
+    },
+    {
+      "tp_id": "e2fsprogs:7090",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Inode size must be a power of two- %s",
+      "before": "Inodsstorlek måste vara en multipel av två- %s",
+      "after": "Inodsstorleken måste vara en tvåpotens – %s",
+      "reason": "Rättar betydelse och typografi."
+    },
+    {
+      "tp_id": "e2fsprogs:7112",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Invalid RAID stride: %s\n",
+      "before": "Ogiltig RAID-kliv: %s\n",
+      "after": "Ogiltigt RAID-kliv: %s\n",
+      "reason": "Rättar kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:7122",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Invalid hash algorithm: %s\n",
+      "before": "Ogiltig hash-algoritm: %s\n",
+      "after": "Ogiltig hashalgoritm: %s\n",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:7200",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "blocks to be moved",
+      "before": "block att flytta",
+      "after": "block som ska flyttas",
+      "reason": "Rättar relativ sats."
+    },
+    {
+      "tp_id": "e2fsprogs:7212",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Failed to relocate blocks during inode resize \n",
+      "before": "Misslyckades omlokalisera block under storleksändring av inoder \n",
+      "after": "Det gick inte att omlokalisera block under ändring av inodsstorleken \n",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:7216",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Error in resizing the inode size.\nRun e2undo to undo the file system changes. \n",
+      "before": "Fel när storleken på inoder ändrades.\nKör e2undo för att göra filsystemsändringarna ogjorda. \n",
+      "after": "Fel vid ändring av inodsstorleken.\nKör e2undo för att ångra filsystemsändringarna. \n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7224",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while trying to get fs label",
+      "before": "vid försök att hitta fs-etiketten",
+      "after": "vid försök att hämta filsystemsetiketten",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7228",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while trying to set fs label",
+      "before": "vid försök att sätta fs-etiketten",
+      "after": "vid försök att ange filsystemsetiketten",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7240",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "MMP block magic is bad. Try to fix it by running:\n'e2fsck -f %s'\n",
+      "before": "MMP-blockets magiska tal är felaktigt.  Försök att rätta det genom att köra:\n”e2fsck-f %s”\n",
+      "after": "MMP-blockets magiska tal är felaktigt. Försök att rätta det genom att köra:\n”e2fsck -f %s”\n",
+      "reason": "Rättar kommandoform."
+    },
+    {
+      "tp_id": "e2fsprogs:7271",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Warning: The journal is dirty. You may wish to replay the journal like:\n\n\te2fsck -E journal_only %s\n\nthen rerun this command.  Otherwise, any changes made may be overwritten\nby journal recovery.\n",
+      "before": "Varning: journalen är smutsig.  Du kanske vill köra om journalen så här:\n\n\te2fsck -E journal_only %s\n\nkör sedan om detta kommando.  Annars kan eventuella ändringar skrivas över\nnär journalen återhämtas.\n",
+      "after": "Varning: journalen är smutsig. Du kanske vill återuppspela journalen så här:\n\n\te2fsck -E journal_only %s\n\nkör sedan om det här kommandot. Annars kan gjorda ändringar skrivas över\nnär journalen återställs.\n",
+      "reason": "Rättar teknisk term och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:7288",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Recovering journal.\n",
+      "before": "Återhämtar journalen.\n",
+      "after": "Återställer journalen.\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7298",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Setting maximal mount count to %d\n",
+      "before": "Sätter max antal monteringar till %d\n",
+      "after": "Sätter högsta antal monteringar till %d\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7323",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "interval between checks is too big (%lu)",
+      "before": "intervall mellan kontroller är för stort (%lu)",
+      "after": "intervallet mellan kontroller är för stort (%lu)",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:7333",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Setting reserved blocks percentage to %g%% (%llu blocks)\n",
+      "before": "Sätter procent reserverade block till %g %% (%llu block)\n",
+      "after": "Sätter andelen reserverade block till %g %% (%llu block)\n",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:7356",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "\nSetting the sparse superblock flag not supported\nfor filesystems with the meta_bg feature enabled.\n",
+      "before": "\nAtt sätta superblockflaggan gles stödjs inte\nför filsystem med funktionen meta_bg aktiverad.\n",
+      "after": "\nDet går inte att sätta flaggan för glesa superblock\nför filsystem med funktionen meta_bg aktiverad.\n",
+      "reason": "Rättar saknat verb."
+    },
+    {
+      "tp_id": "e2fsprogs:7366",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "\nSparse superblock flag set.  %s",
+      "before": "\nFlaggan för glesa superblock satt.  %s",
+      "after": "\nFlaggan för glesa superblock är satt. %s",
+      "reason": "Rättar saknat verb."
+    },
+    {
+      "tp_id": "e2fsprogs:7375",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "\nClearing the sparse superblock flag not supported.\n",
+      "before": "\nNollställning av superblocksflaggan gles stödjs inte.\n",
+      "after": "\nNollställning av flaggan för glesa superblock stöds inte.\n",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:7383",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Setting time filesystem last checked to %s\n",
+      "before": "Sätter tidpunkt för senaste filsystemskontroll till %s\n",
+      "after": "Sätter tidpunkten för senaste filsystemskontroll till %s\n",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:7393",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Error in using clear_mmp. It must be used with -f\n",
+      "before": "Fel vid användning av clear_mmp.  Det måste användas med -f\n",
+      "after": "Fel vid användning av clear_mmp. Det måste användas med -f\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:7405",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Setting the UUID on this filesystem could take some time.",
+      "before": "Att sätta UUID:n på detta filsystem kan ta ett tag.",
+      "after": "Att sätta UUID:t på filsystemet kan ta ett tag.",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:7409",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "The UUID may only be changed when the filesystem is unmounted.\n",
+      "before": "UUID:n får endast ändras när filsystemet är omonterat.\n",
+      "after": "UUID:t får endast ändras när filsystemet är omonterat.\n",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:7421",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Need to update journal superblock.\n",
+      "before": "Behöver uppdatera journalsuperblock.\n",
+      "after": "Journalsuperblocket måste uppdateras.\n",
+      "reason": "Rättar bestämd form."
+    },
+    {
+      "tp_id": "e2fsprogs:7465",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Proceed anyway (or wait %d seconds to proceed) ? (y,N) ",
+      "before": "Fortsätt ändå (eller vänta %d sekunder för att fortsätta)? (j,N) ",
+      "after": "Fortsätt ändå (eller vänta %d sekunder)? (j,N) ",
+      "reason": "Tar bort upprepad fras."
+    },
+    {
+      "tp_id": "e2fsprogs:7474",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "mke2fs forced anyway.  Hope /etc/mtab is incorrect.\n",
+      "before": "mke2fs framtvingat ändå.  Hoppas /etc/mtab är felaktig.\n",
+      "after": "mke2fs tvingas ändå. Hoppas att /etc/mtab är felaktig.\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:7486",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "mke2fs forced anyway.\n",
+      "before": "mke2fs framtvingad ändå.\n",
+      "after": "mke2fs tvingas ändå.\n",
+      "reason": "Rättar kongruens."
+    },
+    {
+      "tp_id": "e2fsprogs:7533",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "\nFilesystem too small for a journal\n",
+      "before": "\nFilsystem för litet för en journal\n",
+      "after": "\nFilsystemet är för litet för en journal\n",
+      "reason": "Rättar saknat verb."
+    },
+    {
+      "tp_id": "e2fsprogs:7560",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "This filesystem will be automatically checked every %d mounts or\n%g days, whichever comes first.  Use tune2fs -c or -i to override.\n",
+      "before": "Detta filsystem kommer automatiskt kontrolleras var %d montering eller\n%g dag, vilket som kommer först.  Använd tune2fs -c eller -i för att ändra.\n",
+      "after": "Filsystemet kontrolleras automatiskt efter %d montering(ar) eller\n%g dagar, beroende på vilket som inträffar först. Använd tune2fs -c eller -i för att ändra detta.\n",
+      "reason": "Rättar plural och stil."
+    },
+    {
+      "tp_id": "e2fsprogs:7604",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "uuidd daemon already running at pid %s\n",
+      "before": "uuidd-demonen som körs redan med pid %s\n",
+      "after": "uuidd-demonen körs redan med pid %s\n",
+      "reason": "Rättar saknat verb."
+    },
+    {
+      "tp_id": "e2fsprogs:7609",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Couldn't create unix stream socket: %s",
+      "before": "Kunde inte skapa unix-strömuttag: %s",
+      "after": "Kunde inte skapa Unix-strömuttag: %s",
+      "reason": "Rättar versalisering."
+    },
+    {
+      "tp_id": "e2fsprogs:7614",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Couldn't bind unix socket %s: %s\n",
+      "before": "Kunde inte binda unix-uttag %s: %s\n",
+      "after": "Kunde inte binda Unix-uttaget %s: %s\n",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:7687",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Couldn't kill uuidd running at pid %d: %s\n",
+      "before": "Kunde inte döda uuidd som kör med pid %d: %s\n",
+      "after": "Kunde inte avsluta uuidd som körs med pid %d: %s\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7692",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Killed uuidd running at pid %d\n",
+      "before": "Dödade uuidd som körde med pid %d\n",
+      "after": "Avslutade uuidd som körde med pid %d\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7702",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "# Extent dump:\n",
+      "before": "# Områdesdump:\n",
+      "after": "# Dump av utsträckningar:\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7711",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Usage: %s [-d debug_flags] [-f] [-F] [-M] [-P] [-p] device [-b|-s|new_size] [-S RAID-stride] [-z undo_file]\n\n",
+      "before": "Användning: %s [-d felsökningflaggor] [-f] [-F] [-M] [-P] [-p] enhet [-b|-s|ny_storlek] [-S RAID-kliv] [-z gör-ogjort-fil]\n\n",
+      "after": "Användning: %s [-d felsökningsflaggor] [-f] [-F] [-M] [-P] [-p] enhet [-b|-s|ny_storlek] [-S RAID-kliv] [-z ångra-fil]\n",
+      "reason": "Rättar stavning och term."
+    },
+    {
+      "tp_id": "e2fsprogs:7744",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Begin pass %d (max = %lu)\n",
+      "before": "Börja pass %d (max = %lu)\n",
+      "after": "Påbörjar pass %d (max = %lu)\n",
+      "reason": "Rättar hjälptextstil."
+    },
+    {
+      "tp_id": "e2fsprogs:7791",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "New size too large to be expressed in 32 bits\n",
+      "before": "Ny storlek för stor för att uttryckas i 32 bitar\n",
+      "after": "Den nya storleken är för stor för att uttryckas i 32 bitar\n",
+      "reason": "Rättar saknat verb."
+    },
+    {
+      "tp_id": "e2fsprogs:7799",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "New size smaller than minimum (%llu)\n",
+      "before": "Ny storlek mindre än minimum (%llu)\n",
+      "after": "Den nya storleken är mindre än minsta tillåtna (%llu)\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7901",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "while trying to truncate %s",
+      "before": "vid försök att korta av %s",
+      "after": "vid försök att avkorta %s",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7906",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "kernel does not support online resize with sparse_super2",
+      "before": "kärnan stödjer inte storleksändring uppkopplat med sparse_super2",
+      "after": "Kärnan stöder inte storleksändring under drift med sparse_super2",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7910",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Filesystem at %s is mounted on %s; on-line resizing required\n",
+      "before": "Filsystem på %s är monterat på %s, on-line-storleksändring krävs\n",
+      "after": "Filsystemet på %s är monterat på %s; storleksändring under drift krävs\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7915",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "On-line shrinking not supported",
+      "before": "Att krympa uppkopplat stödjs inte",
+      "after": "Krympning under drift stöds inte",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7919",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Filesystem does not support online resizing",
+      "before": "Filsystemet stödjer inte storleksändring uppkopplat",
+      "after": "Filsystemet stöder inte storleksändring under drift",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7936",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Old resize interface requested.\n",
+      "before": "Gammalt gränssnitt för storleksändring begärt.\n",
+      "after": "Gammalt gränssnitt för storleksändring begärdes.\n",
+      "reason": "Rättar passiv form."
+    },
+    {
+      "tp_id": "e2fsprogs:7941",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Permission denied to resize filesystem",
+      "before": "Rättighet att ändra storlek på filsystem nekas",
+      "after": "Behörighet att ändra storlek på filsystemet nekas",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7953",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Performing an on-line resize of %s to %llu (%dk) blocks.\n",
+      "before": "Utför en storleksändring on-line av %s till %llu (%d k) block.\n",
+      "after": "Utför en storleksändring under drift av %s till %llu (%dk) block.\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:7962",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "While trying to add group #%d",
+      "before": "Vid försök att öppna grupp nr. %d",
+      "after": "Vid försök att lägga till grupp nr. %d",
+      "reason": "Rättar betydelse."
+    },
+    {
+      "tp_id": "e2fsprogs:8049",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Wrong magic number for directory block list structure",
+      "before": "Fel magiskt tal för katalogenblocklistepost",
+      "after": "Fel magiskt tal för katalogblocklistpost",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:8081",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Filesystem revision too high",
+      "before": "Filesystemversionen är för hög",
+      "after": "Filsystemets revision är för hög",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:8145",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Attempt to read block from filesystem resulted in short read",
+      "before": "Försök att läsa block från filsystemet resulterade i en kort läsning",
+      "after": "Försök att läsa block från filsystemet resulterade i kort läsning",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:8149",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Attempt to write block to filesystem resulted in short write",
+      "before": "Försök att skriva block till filsystemet resulterade i en kort skrivning",
+      "after": "Försök att skriva block till filsystemet resulterade i kort skrivning",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:8285",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Invalid argument passed to ext2 library",
+      "before": "Ogiltigt argumentet skickat till ext2-biblioteket",
+      "after": "Ogiltigt argument skickat till ext2-biblioteket",
+      "reason": "Rättar artikel."
+    },
+    {
+      "tp_id": "e2fsprogs:8293",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Could not allocate inode in ext2 filesystem",
+      "before": "Kunde inte allokera inoder i ext2-filsystem",
+      "after": "Kunde inte allokera en inod i ext2-filsystemet",
+      "reason": "Rättar singular."
+    },
+    {
+      "tp_id": "e2fsprogs:8309",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "File open read-only",
+      "before": "Filen öppnas skrivskyddad",
+      "after": "Filen är öppnad skrivskyddad",
+      "reason": "Rättar tempus."
+    },
+    {
+      "tp_id": "e2fsprogs:8325",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "User cancel requested",
+      "before": "Användarannullering begärd",
+      "after": "Användaren begärde avbrott",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:8345",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Unsupported journal version",
+      "before": "Ej stödd journalversion",
+      "after": "Journalversionen stöds inte",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:8353",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Journal not found",
+      "before": "Journalen inte funnen",
+      "after": "Journalen hittades inte",
+      "reason": "Rättar passiv form."
+    },
+    {
+      "tp_id": "e2fsprogs:8357",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Directory hash unsupported",
+      "before": "Katalog-hash stödjs inte",
+      "after": "Kataloghashning stöds inte",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:8373",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Too many reserved group descriptor blocks",
+      "before": "För många reserverade gruppidentifierarblock",
+      "after": "För många reserverade gruppbeskrivningsblock",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:8385",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "TDB: Success",
+      "before": "TDB: Gick bra",
+      "after": "TDB: Lyckades",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:8413",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "TDB: Invalid parameter",
+      "before": "TBD: Ogiltig parameter",
+      "after": "TDB: Ogiltig parameter",
+      "reason": "Rättar felstavat projektnamn."
+    },
+    {
+      "tp_id": "e2fsprogs:8429",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Attempt to modify a block mapping via a read-only block iterator",
+      "before": "Försök att ändra en blockmappning via en endast läsbar blockiterator",
+      "after": "Försök att ändra en blockmappning via en skrivskyddad blockiterator",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:8433",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Wrong magic number for ext4 extent saved path",
+      "before": "Fel magiskt nummer för sparad sökväg till ext4-utsträckning",
+      "after": "Fel magiskt tal för sparad sökväg till ext4-utsträckning",
+      "reason": "Rättar teknisk term."
+    },
+    {
+      "tp_id": "e2fsprogs:8493",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Inode does not use extents",
+      "before": "Inoder använder inte utsträckningar",
+      "after": "Inoden använder inte utsträckningar",
+      "reason": "Rättar singular."
+    },
+    {
+      "tp_id": "e2fsprogs:8509",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "No 'down' extent",
+      "before": "Ingen ”ner“-utsträckning",
+      "after": "Ingen ”ned”-utsträckning",
+      "reason": "Rättar citattecken."
+    },
+    {
+      "tp_id": "e2fsprogs:8529",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Extent not found",
+      "before": "Utsträckningen inte funnen",
+      "after": "Utsträckningen hittades inte",
+      "reason": "Rättar passiv form."
+    },
+    {
+      "tp_id": "e2fsprogs:8541",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "I/O Channel does not support 64-bit block numbers",
+      "before": "I/O-kanaler stödjer inte 64-bitars blocknummer",
+      "after": "I/O-kanalen stöder inte 64-bitars blocknummer",
+      "reason": "Rättar singular."
+    },
+    {
+      "tp_id": "e2fsprogs:8545",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Can't check if filesystem is mounted due to missing mtab file",
+      "before": "Kan inte kontrollera om filsystem är monterade för att mtab-filen saknas",
+      "after": "Det går inte att kontrollera om filsystemet är monterat eftersom mtab-filen saknas",
+      "reason": "Rättar grammatik."
+    },
+    {
+      "tp_id": "e2fsprogs:8549",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Filesystem too large to use legacy bitmaps",
+      "before": "Filsystemen är för stora för att använda gammaldags bitkartor",
+      "after": "Filsystemet är för stort för att använda äldre bitkartor",
+      "reason": "Rättar singular."
+    },
+    {
+      "tp_id": "e2fsprogs:8553",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "MMP: invalid magic number",
+      "before": "MMP: ogiltigt magiskt nummer",
+      "after": "MMP: ogiltigt magiskt tal",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:8569",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "MMP: undergoing an unknown operation",
+      "before": "MMP: utför en okänd operation",
+      "after": "MMP: en okänd åtgärd pågår",
+      "reason": "Rättar ordval."
+    },
+    {
+      "tp_id": "e2fsprogs:8593",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Extent block checksum does not match extent block",
+      "before": "Utökningens blockkontrollsumma stämmer inte utökningsblocket",
+      "after": "Utsträckningsblockets kontrollsumma stämmer inte med utsträckningsblocket",
+      "reason": "Rättar saknad preposition."
+    },
+    {
+      "tp_id": "e2fsprogs:8601",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Directory block checksum does not match directory block",
+      "before": "Katalogblocksumman stämmer inte med katalogblocket",
+      "after": "Katalogblockets kontrollsumma stämmer inte med katalogblocket",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:8625",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Block bitmap checksum does not match bitmap",
+      "before": "Blockbitkartan stämmer inte med bitkartan",
+      "after": "Blockbitkartans kontrollsumma stämmer inte med bitkartan",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:8641",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Extended attribute has an incorrect hash",
+      "before": "Kontrollsumman för utökade attribut har en felaktig hash",
+      "after": "Ett utökat attribut har en felaktig hash",
+      "reason": "Rättar betydelse."
+    },
+    {
+      "tp_id": "e2fsprogs:8653",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Insufficient space to store extended attribute data",
+      "before": "Ofullständigt utrymme för att lagra utökade attributdata",
+      "after": "Otillräckligt utrymme för att lagra data för utökade attribut",
+      "reason": "Rättar betydelse."
+    },
+    {
+      "tp_id": "e2fsprogs:8661",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Inode doesn't have inline data",
+      "before": "Inoder har inte inline-data",
+      "after": "Inoden har inte inline-data",
+      "reason": "Rättar singular."
+    },
+    {
+      "tp_id": "e2fsprogs:8681",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Extended attribute has an invalid value offset",
+      "before": "Utökade attribut har ett ogiltigt värdeavstånd",
+      "after": "Ett utökat attribut har ett ogiltigt värdeavstånd",
+      "reason": "Rättar artikel."
+    },
+    {
+      "tp_id": "e2fsprogs:8701",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Bad CRC detected in file system",
+      "before": "Felaktig CRC upptäckt i filsystemet",
+      "after": "Felaktig CRC upptäcktes i filsystemet",
+      "reason": "Rättar passiv form."
+    },
+    {
+      "tp_id": "e2fsprogs:8725",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Found cyclic loop in extent tree",
+      "before": "Hittade en cyklisk slinga i utökningsträdet",
+      "after": "Hittade en cyklisk slinga i utsträckningsträdet",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:8733",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Profile version 0.0",
+      "before": "Profil version 0.0",
+      "after": "Profilversion 0.0",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:8753",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "A profile section header has a non-zero value",
+      "before": "Ett huvud till en profilsektion har ett värde skilt från noll",
+      "after": "Ett sektionshuvud i profilen har ett värde skilt från noll",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:8773",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Can't set value on section node",
+      "before": "Kan inte sätta värde på sektionsnod",
+      "after": "Det går inte att ange ett värde på en sektionsnod",
+      "reason": "Rättar språkbruk."
+    },
+    {
+      "tp_id": "e2fsprogs:8785",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Profile section header not at top level",
+      "before": "Huvudet till profilsektionen är inte på toppnivån",
+      "after": "Profilens sektionshuvud är inte på toppnivån",
+      "reason": "Rättar sammansättning."
+    },
+    {
+      "tp_id": "e2fsprogs:8797",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Extra closing brace in profile",
+      "before": "Extra avslutande klammer i profilen",
+      "after": "Extra avslutande klammerparentes i profilen",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:8801",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Missing open brace in profile",
+      "before": "Inledande klammer saknas i profilen",
+      "after": "Inledande klammerparentes saknas i profilen",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:8813",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "Iteration through all top level section not supported",
+      "before": "Iteration över alla toppnivåsektioner stödjs inte",
+      "after": "Iteration över alla sektioner på toppnivå stöds inte",
+      "reason": "Rättar ordföljd."
+    },
+    {
+      "tp_id": "e2fsprogs:8867",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "\tcreated on %s",
+      "before": "\tskapad %s",
+      "after": "\tskapades %s",
+      "reason": "Rättar tempus."
+    },
+    {
+      "tp_id": "e2fsprogs:8872",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "\tlast modified on %s",
+      "before": "\tsenast modifierad på %s",
+      "after": "\tsenast ändrad %s",
+      "reason": "Rättar stil."
+    },
+    {
+      "tp_id": "e2fsprogs:8895",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%s is not a block special device.\n",
+      "before": "%s är inte en blockspecialenhet.\n",
+      "after": "%s är inte en särskild blockenhet.\n",
+      "reason": "Rättar term."
+    },
+    {
+      "tp_id": "e2fsprogs:8910",
+      "project": "tp:e2fsprogs-1.47.3-rc1",
+      "msgid": "%s contains `%s' data\n",
+      "before": "%s innehåller ”%s”-data\n",
+      "after": "%s innehåller data av typen ”%s”\n",
+      "reason": "Rättar språkbruk."
     }
   ]
 }

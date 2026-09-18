@@ -338200,7 +338200,7 @@ msgstr "Kunde inte allokera blockbuffert (storlek=%d)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "extent rebuild inode map"
-msgstr "inodskarta över utsträckningsombyggnad"
+msgstr "inodskarta för ombyggnad av utsträckningar"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Usage: %s disk\n"
@@ -338224,7 +338224,7 @@ msgstr "%s: journalen för kort\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: incorrect fast commit blocks\n"
-msgstr "%s: felaktiga block för snabbfastställande\n"
+msgstr "%s: felaktiga block för snabba fastställanden\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: recovering journal\n"
@@ -338232,7 +338232,7 @@ msgstr "%s: återhämtar journalen\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: won't do journal recovery while read-only\n"
-msgstr "%s: återhämtar inte journalen i skrivskyddat läge\n"
+msgstr "%s: återställer inte journalen i skrivskyddat läge\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while trying to re-open %s"
@@ -338260,7 +338260,7 @@ msgstr "ckomprimera"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Cconflicts with some other fs @b"
-msgstr "Ckonflikt med något annat fs @b"
+msgstr "Ckonflikt med något annat filsystem @b"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "ddirectory"
@@ -338316,7 +338316,7 @@ msgstr "Lär en länk"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "mmultiply-claimed"
-msgstr "mflerfaldigt ianspråkstagna"
+msgstr "mflerfaldigt ianspråkstagen"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "ninvalid"
@@ -338340,7 +338340,7 @@ msgstr "rrotinod"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "sshould be"
-msgstr "sskulle varit"
+msgstr "sskulle ha varit"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Ssuper@b"
@@ -338416,7 +338416,7 @@ msgstr "namngivet rör"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "unknown file type with mode 0%o"
-msgstr "okänd filtyp med typ 0%o"
+msgstr "okänd filtyp med läge 0%o"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "indirect block"
@@ -338448,7 +338448,7 @@ msgstr "okänd kvottyp"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "multiply claimed inode map"
-msgstr "karta över flerfaldigt i anspråkstagna inoder"
+msgstr "karta över flerfaldigt ianspråkstagna inoder"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "internal error: can't find dup_blk for %llu\n"
@@ -338468,7 +338468,7 @@ msgstr "internt fel: det gick inte att slå upp EA-inodpost för %u"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while hashing entry with e_value_inum = %u"
-msgstr "vid hashning av post med e_value_inum = %u"
+msgstr "vid hashning av posten med e_value_inum = %u"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "reading directory block"
@@ -338480,7 +338480,7 @@ msgstr "hämtar nästa inod från sökning"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "in-use inode map"
-msgstr "karta över använda inoder"
+msgstr "inodskarta för använda inoder"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "directory inode map"
@@ -338488,7 +338488,7 @@ msgstr "kataloginodskarta"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "regular file inode map"
-msgstr "inodskarta över reguljära filer"
+msgstr "inodskarta för vanliga filer"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "in-use block map"
@@ -338500,7 +338500,7 @@ msgstr "blockkarta över metadata"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "inode casefold map"
-msgstr "inod-skiftlägesavbildning"
+msgstr "inodskarta för skiftlägesavbildning"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "opening inode scan"
@@ -338512,7 +338512,7 @@ msgstr "Pass 1"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "reading indirect blocks of inode %u"
-msgstr "läser indirektblock för inod %u"
+msgstr "läser indirekta block för inod %u"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "bad inode map"
@@ -338520,11 +338520,11 @@ msgstr "karta över dåliga inoder"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "inode in bad block map"
-msgstr "inod i karta över dåliga block"
+msgstr "inod i kartan över dåliga block"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "imagic inode map"
-msgstr "imagic inodskarta"
+msgstr "imagic-inodskarta"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "multiply claimed block map"
@@ -338536,7 +338536,7 @@ msgstr "karta över block för utökade attribut"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%6lu(%c): expecting %6lu got phys %6lu (blkcnt %lld)\n"
-msgstr "%6lu(%c): förväntade %6lu fick fys %6lu (blkant %lld)\n"
+msgstr "%6lu(%c): förväntade %6lu, fick fysisk %6lu (blockantal %lld)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "block bitmap"
@@ -338564,11 +338564,11 @@ msgstr "Kan inte fortsätta."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "inode done bitmap"
-msgstr "inod klar bitkarta"
+msgstr "bitkarta över klara inoder"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Peak memory"
-msgstr "Max minne"
+msgstr "Högsta minnesanvändning"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Pass 3"
@@ -338600,7 +338600,7 @@ msgstr "(ingen prompt)"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Relocate"
-msgstr "Relokera"
+msgstr "Omlokalisera"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Allocate"
@@ -338636,7 +338636,7 @@ msgstr "Klona flerfaldigt ianspråkstagna block"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Delete file"
-msgstr "Ta bort fil"
+msgstr "Ta bort filen"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Suppress messages"
@@ -338668,7 +338668,7 @@ msgstr "(INGET)"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "FIXED"
-msgstr "FIXAT"
+msgstr "RÄTTAT"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "CLEARED"
@@ -338676,7 +338676,7 @@ msgstr "TÖMD"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "RELOCATED"
-msgstr "RELOKERAT"
+msgstr "OMLOKALISERAT"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "ALLOCATED"
@@ -338684,7 +338684,7 @@ msgstr "ALLOKERAT"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "EXPANDED"
-msgstr "EXPANDERAD"
+msgstr "UTÖKAT"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "RECONNECTED"
@@ -338692,7 +338692,7 @@ msgstr "ÅTERKOPPLAD"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "CREATED"
-msgstr "SKAPAD"
+msgstr "SKAPAT"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "SALVAGED"
@@ -338712,7 +338712,7 @@ msgstr "AVBRUTET"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "SPLIT"
-msgstr "DELAD"
+msgstr "DELAT"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "CONTINUING"
@@ -338720,7 +338720,7 @@ msgstr "FORTSÄTTER"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "MULTIPLY-CLAIMED BLOCKS CLONED"
-msgstr "FLERFALDIG IANSPRÅKSTAGNA BLOCK KLONADE"
+msgstr "FLERFALDIGT IANSPRÅKSTAGNA BLOCK KLONADE"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "FILE DELETED"
@@ -338764,7 +338764,7 @@ msgstr "inodtabell för grupp %g är inte i gruppen.  (block %b)\nVARNING: ALLVA
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nThe @S could not be read or does not describe a valid ext2/ext3/ext4\n@f.  If the @v is valid and it really contains an ext2/ext3/ext4\n@f (and not swap or ufs or something else), then the @S\nis corrupt, and you might try running e2fsck with an alternate @S:\n    e2fsck -b 8193 <@v>\n or\n    e2fsck -b 32768 <@v>\n\n"
-msgstr "\nSuperblocket kunde inte läsas eller beskriver inte ett giltigt\next2/ext3/ext4-filsystem.  Om enheten är giltig och den verkligen innehåller ett\next2/ext3/ext4-filsystem (och inte växlingsutrymme eller ufs eller något annat)\när superblocket trasigt, och du kan försöka köra med ett alternativt\nsuperblock:\n    e2fsck -b 8193 <enhet>\n eller\n    e2fsck -b 32768 <enhet>\n\n"
+msgstr "\nSuperblocket kunde inte läsas eller beskriver inte ett giltigt\next2/ext3/ext4-filsystem. Om enheten är giltig och verkligen innehåller ett\next2/ext3/ext4-filsystem (och inte växlingsutrymme, ufs eller något annat),\när superblocket skadat och du kan försöka köra e2fsck med ett alternativt\nsuperblock:\n    e2fsck -b 8193 <enhet>\n eller\n    e2fsck -b 32768 <enhet>\n\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The @f size (according to the @S) is %b @bs\nThe physical size of the @v is %c @bs\nEither the @S or the partition table is likely to be corrupt!\n"
@@ -338772,7 +338772,7 @@ msgstr "Filsystemsstorleken (enligt superblocket) är %b block\nDen fysiska stor
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@S @b_size = %b, fragsize = %c.\nThis version of e2fsck does not support fragment sizes different\nfrom the @b size.\n"
-msgstr "Superblockets blockstorlek = %b, fragmentstorlek = %c.\nDenna version av e2fsck stödjer inte andra fragmentstorlekar än\nblockstorleken.\n"
+msgstr "Superblockets blockstorlek = %b, fragmentstorlek = %c.\nDen här versionen av e2fsck stöder inte andra fragmentstorlekar än\nblockstorleken.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@S @bs_per_group = %b, should have been %c\n"
@@ -338788,11 +338788,11 @@ msgstr "filsystemet hade ingen UUID; genererar en.\n\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Note: if several inode or block bitmap blocks or part\nof the inode table require relocation, you may wish to try\nrunning e2fsck with the '-b %S' option first.  The problem\nmay lie only with the primary block group descriptors, and\nthe backup block group descriptors may be OK.\n\n"
-msgstr "Observera: om det är flera inod- eller blockbitkarteblock eller en del\nav inodstabellen som måste flyttas, kanske du vill köra e2fsck med\nflaggan ”-b %S” först.  Problemet kan ligga bara i den primära\nblockgruppbeskrivaren, och reservblockgruppbeskrivaren kan vara OK.\n\n"
+msgstr "Observera: om flera inod- eller blockbitkarteblock eller en del\nav inodstabellen måste flyttas, kanske du vill köra e2fsck med\nflaggan ”-b %S” först. Problemet kan ligga endast i den primära\nblockgruppbeskrivaren och reservblockgruppbeskrivaren kan vara okej.\n\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Corruption found in @S.  (%s = %N).\n"
-msgstr "Skada hittad i superblock.  (%s = %N).\n"
+msgstr "Skada hittades i superblocket. (%s = %N).\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error determining size of the physical @v: %m\n"
@@ -338800,7 +338800,7 @@ msgstr "Fel vid bestämning av den fysiska enheten: %m\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i count in @S is %i, @s %j.\n"
-msgstr "inodsantal i superblock är %i, skall vara %j.\n"
+msgstr "Antalet inoder i superblocket är %i, ska vara %j.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The Hurd does not support the filetype feature.\n"
@@ -338812,7 +338812,7 @@ msgstr "Superblock har en ogiltig journal (inod %i).\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "External @j has multiple @f users (unsupported).\n"
-msgstr "Extern journal har flera filsystemsanvändare (stödjs ej).\n"
+msgstr "Extern journal har flera filsystemsanvändare (stöds inte).\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Can't find external @j\n"
@@ -338828,7 +338828,7 @@ msgstr "Extern journal stödjer inte detta filsystem\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@f @j @S is unknown type %N (unsupported).\nIt is likely that your copy of e2fsck is old and/or doesn't support this @j format.\nIt is also possible the @j @S is corrupt.\n"
-msgstr "Filsystemsjournalsuperblock är av okänd typ %N (ej stött).\nDet är troligt att ditt exemplar av e2fsck är gammalt och/eller inte\nstödjer detta journalformat.\nDet är också möjligt att journalsuperblocket är trasigt.\n"
+msgstr "Filsystemets journalsuperblock har okänd typ %N (stöds inte).\nDet är troligt att din kopia av e2fsck är gammal och/eller inte\nstöder det här journalformatet.\nDet är också möjligt att journalsuperblocket är skadat.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@j @S is corrupt.\n"
@@ -338840,11 +338840,11 @@ msgstr "Superblocksflaggan has_journal är nollställd, men en journal finns.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@S needs_recovery flag is set, but no @j is present.\n"
-msgstr "Superblockflagga behöver_rättas är satt, men ingen journal finns.\n"
+msgstr "Superblockflaggan needs_recovery är satt, men ingen journal finns.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@S needs_recovery flag is clear, but @j has data.\n"
-msgstr "Superblocksflagga behöver_rättas är nollställd, men journal har data.\n"
+msgstr "Superblockflaggan needs_recovery är nollställd, men journalen har data.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Clear @j"
@@ -338852,7 +338852,7 @@ msgstr "Töm journal"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@f has feature flag(s) set, but is a revision 0 @f.  "
-msgstr "filsystemet har funktionsflaggor satta, men är ett revision 0-filsystem.  "
+msgstr "filsystemet har funktionsflaggor satta, men är ett filsystem med revision 0.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s @o @i %i (uid=%Iu, gid=%Ig, mode=%Im, size=%Is)\n"
@@ -338884,7 +338884,7 @@ msgstr "Journalsuperblock har okänd inkompatibel funktionsflagga satt.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@j version not supported by this e2fsck.\n"
-msgstr "Journalversion stöds inte av denna e2fsck.\n"
+msgstr "Journalversionen stöds inte av den här e2fsck-versionen.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Moving @j from /%s to hidden @i.\n\n"
@@ -338904,7 +338904,7 @@ msgstr "Kör journal ändå"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Recovery flag not set in backup @S, so running @j anyway.\n"
-msgstr "Rättningsflagga inte satt i reservsuperblock, så kör journal ändå.\n"
+msgstr "Återställningsflaggan är inte satt i reservsuperblocket, så journalen körs ändå.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Backing up @j @i @b information.\n\n"
@@ -338912,7 +338912,7 @@ msgstr "Säkerhetskopierar blockinformation för journalinod.\n\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@f does not have resize_@i enabled, but s_reserved_gdt_@bs\nis %N; @s zero.  "
-msgstr "Filsystemet har inte resize_inode aktiverat, men r_reserved_gdt_blocks\när %N; skulle varit noll.  "
+msgstr "Filsystemet har inte resize_inode aktiverat, men s_reserved_gdt_blocks\när %N; ska vara noll.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Resize_@i not enabled, but the resize @i is non-zero.  "
@@ -338932,7 +338932,7 @@ msgstr "Superblockets senaste skrivningstid (%t,\n	nu = %T) är i framtiden.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@S hint for external superblock @s %X.  "
-msgstr "Superblocktips för externt superblock borde vara %X."
+msgstr "Superblockets referens för externt superblock ska vara %X.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Adding dirhash hint to @f.\n\n"
@@ -338944,7 +338944,7 @@ msgstr "kontrollsumma för gruppbeskrivare %g är %04x, skall vara %04y.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@g descriptor %g marked uninitialized without feature set.\n"
-msgstr "gruppbeskrivare %g är markerad oinitierad utan att egenskapen är satt.\n"
+msgstr "gruppbeskrivare %g är markerad som oinitierad utan att funktionen är satt.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@g descriptor %g has invalid unused inodes count %b.  "
@@ -338952,7 +338952,7 @@ msgstr "gruppbeskrivare %g har ogiltigt antal oanvända inoder %b.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Last @g @b @B uninitialized.  "
-msgstr "Sista gruppblockbitkarta oinitierad.  "
+msgstr "Sista gruppens blockbitkarta är oinitierad.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Journal transaction %i was corrupt, replay was aborted.\n"
@@ -338968,11 +338968,11 @@ msgstr "Superblockets senaste monteringstid ligger i framtiden.\n	(med mindre ä
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@S last write time is in the future.\n	(by less than a day, probably due to the hardware clock being incorrectly set)\n"
-msgstr "Superblockets skrevs senast i framtiden.\n	(med mindre än en dag, förmodligen för att hårdvaruklockan går fel)\n"
+msgstr "Superblockets senaste skrivtid ligger i framtiden.\n\t(med mindre än en dag, förmodligen för att hårdvaruklockan går fel)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "One or more @b @g descriptor checksums are invalid.  "
-msgstr "Kontrollsumma för en eller flera blockgruppbeskrivare är ogiltig.  "
+msgstr "Kontrollsumman för en eller flera blockgruppbeskrivare är ogiltig.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Setting free @is count to %j (was %i)\n"
@@ -338988,11 +338988,11 @@ msgstr "Döljer kvotinod %i för %U (%Q).\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@S has invalid MMP block.  "
-msgstr "superblocket har ett felaktigt MMP-block.  "
+msgstr "Superblocket har ett felaktigt MMP-block.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@S has invalid MMP magic.  "
-msgstr "superblocket har ogiltigt MMP-magiskt tal.  "
+msgstr "Superblocket har ett ogiltigt MMP-magiskt tal.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "ext2fs_open2: %m\n"
@@ -339008,7 +339008,7 @@ msgstr "superblockets metadata_csum ersätter uninit_bg; båda funktionsbitarna 
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@S MMP @b checksum does not match.  "
-msgstr "Kontrollsumman för super-MMP-blocket stämmer inte.  "
+msgstr "Kontrollsumman för superblockets MMP-block stämmer inte.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@S 64bit @f needs extents to access the whole disk.  "
@@ -339016,7 +339016,7 @@ msgstr "superblock på 64-bitars filsystem behöver utsträckningar för att kom
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "First_meta_bg is too big.  (%N, max value %g).  "
-msgstr "First_meta_bg är för stort.  (%N, maxvärde %g).  "
+msgstr "first_meta_bg är för stort. (%N, högsta värde %g).  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "External @j @S checksum does not match @S.  "
@@ -339048,7 +339048,7 @@ msgstr "Superblocket skulle ha för många inoder (%N).\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Resize_@i and meta_bg features are enabled. Those features are\nnot compatible. Resize @i should be disabled.  "
-msgstr "Funktionerna resize_inode och meta_bg är aktiverade.  Dessa funktioner\när inte kompatibla.  Storleksändingsinod skall avaktiveras.  "
+msgstr "Funktionerna resize_inode och meta_bg är aktiverade. Dessa funktioner\när inte kompatibla. Storleksändringsinoden ska avaktiveras.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Orphan file (@i %i) contains hole at @b %b. Terminating orphan file recovery.\n"
@@ -339076,7 +339076,7 @@ msgstr "Rotinod är inte en katalog.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@r has dtime set (probably due to old mke2fs).  "
-msgstr "rotinod har dtid satt (förmodligen på grund av gammal mke2fs).  "
+msgstr "rotinoden har dtime satt (förmodligen på grund av gammal mke2fs).  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Reserved @i %i (%Q) has @n mode.  "
@@ -339084,11 +339084,11 @@ msgstr "Reserverad inod %i (%Q) har ogiltiga rättigheter.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@D @i %i has zero dtime.  "
-msgstr "Raderad inod %i har dtid noll.  "
+msgstr "Raderad inod %i har dtime noll.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i is in use, but has dtime set.  "
-msgstr "Inod %i används, men har dtid satt.  "
+msgstr "Inod %i används, men har dtime satt.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i is a @z @d.  "
@@ -339108,7 +339108,7 @@ msgstr "Grupp %g:s inodtabell vid %b står i konflikt med annat filsystemblock.\
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@g %g's @b @B (%b) is bad.  "
-msgstr "Grupp %g:s blockbitkarta (%b) år felaktig.  "
+msgstr "Grupp %g:s blockbitkarta (%b) är felaktig.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@g %g's @i @B (%b) is bad.  "
@@ -339116,11 +339116,11 @@ msgstr "Grupp %g:s inodbitkarta (%b) är felaktig.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i, i_size is %Is, @s %N.  "
-msgstr "Inod %i, i_storlek är %Is, skulle varit %N.  "
+msgstr "Inod %i: i_size är %Is, ska vara %N.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i, i_@bs is %Ib, @s %N.  "
-msgstr "Inod %i, i_block är %Ib, skulle varit %N.  "
+msgstr "Inod %i: i_blocks är %Ib, ska vara %N.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@I %B (%b) in @i %i.  "
@@ -339152,7 +339152,7 @@ msgstr "Duplicerat eller felaktigt block används!\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Bad @b %b used as bad @b @i indirect @b.  "
-msgstr "Felaktigt block %b använt som indirektblock för inod för dåliga block.  "
+msgstr "Felaktigt block %b används som indirekt block för inoden för dåliga block.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nThe bad @b @i has probably been corrupted.  You probably\nshould stop now and run e2fsck -c to scan for bad blocks\nin the @f.\n"
@@ -339164,7 +339164,7 @@ msgstr "\nOm blocket verkligen är dåligt kan inte filsystemet lagas.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "You can remove this @b from the bad @b list and hope\nthat the @b is really OK.  But there are no guarantees.\n\n"
-msgstr "Du kan ta bort detta block från listan över dåliga block och hoppas\natt blocket verkligen är OK. men det finns inga garantier.\n\n"
+msgstr "Du kan ta bort blocket från listan över dåliga block och hoppas\natt blocket verkligen är okej. Men det finns inga garantier.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The primary @S (%b) is on the bad @b list.\n"
@@ -339196,11 +339196,11 @@ msgstr "Fel vid allokering av blockbuffert för relokering av %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Relocating @g %g's %s from %b to %c...\n"
-msgstr "Relokerar grupp %g:s %s från %b till %c ...\n"
+msgstr "Omlokaliserar grupp %g:s %s från %b till %c …\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Relocating @g %g's %s to %c...\n"
-msgstr "Relokerar grupp %g:s %s till %c ...\n"
+msgstr "Omlokaliserar grupp %g:s %s till %c …\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Warning: could not read @b %b of %s: %m\n"
@@ -339208,7 +339208,7 @@ msgstr "Varning: kunde inte läsa block %b av %s: %m\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Warning: could not write @b %b for %s: %m\n"
-msgstr "Varning: kunde inte skriva block %b av %s: %m\n"
+msgstr "Varning: kunde inte skriva block %b för %s: %m\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@A @i @B (%N): %m\n"
@@ -339252,7 +339252,7 @@ msgstr "Inod %i har flaggan imagic satt.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Special (@v/socket/fifo/symlink) file (@i %i) has immutable\nor append-only flag set.  "
-msgstr "Specialfil (enhet/uttag (socket)/fifo/symlänk) (inod %i) har flaggan\noföränderlig eller endast tillägg satt."
+msgstr "Specialfil (enhet/socket/fifo/symlänk) (inod %i) har flaggan\noföränderlig eller endast-tillägg satt.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Special (@v/socket/fifo) @i %i has non-zero size.  "
@@ -339260,11 +339260,11 @@ msgstr "Specialinod (enhet/uttag (socket)/fifo) %i har nollskild storlek.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@j @i is not in use, but contains data.  "
-msgstr "Journalinod används, men innehåller data.  "
+msgstr "Journalinoden används inte, men innehåller data.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@j is not regular file.  "
-msgstr "Journal är inte en vanlig fil.  "
+msgstr "Journalen är inte en vanlig fil.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i was part of the @o @i list.  "
@@ -339272,7 +339272,7 @@ msgstr "Inod %i var med i listan över föräldralösa inoder.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@is that were part of a corrupted orphan linked list found.  "
-msgstr "Inoder som var med i trasig lista över föräldralösa inoder hittad.  "
+msgstr "Inoder som ingick i en skadad länkad lista över föräldralösa inoder hittades.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@A refcount structure (%N): %m\n"
@@ -339284,7 +339284,7 @@ msgstr "Fel vid läsning av utökade attribut-block %b för inod %i.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i has a bad @a @b %b.  "
-msgstr "Inod %i har ett felaktigt utökade attribut-block %b.  "
+msgstr "Inod %i har ett felaktigt block för utökade attribut %b.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error reading @a @b %b (%m).  "
@@ -339292,7 +339292,7 @@ msgstr "Fel vid läsning av utökade attribut-block %b (%m).  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@a @b %b has reference count %r, @s %N.  "
-msgstr "Utökade attribut-block %b har referensräknare %r, skall vara %N.  "
+msgstr "Blocket för utökade attribut %b har referensantalet %r, ska vara %N.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error writing @a @b %b (%m).  "
@@ -339304,7 +339304,7 @@ msgstr "Utökade attribut-block %b har h_blocks > 1.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@A @a region allocation structure.  "
-msgstr "Fel vid allokering av utökade attributs regionallokeringsstruktur.  "
+msgstr "Fel vid allokering av regionallokeringsstruktur för utökade attribut.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@a @b %b is corrupt (allocation collision).  "
@@ -339324,15 +339324,15 @@ msgstr "Inod %i är för stor.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%B (%b) causes @d to be too big.  "
-msgstr "%B (%b) får katalog att bli för stor.  "
+msgstr "%B (%b) gör katalogen för stor.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%B (%b) causes file to be too big.  "
-msgstr "%B (%b) får fil att bli för stor.  "
+msgstr "%B (%b) gör filen för stor.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%B (%b) causes symlink to be too big.  "
-msgstr "%B (%b) får symlänk att bli för stor.  "
+msgstr "%B (%b) gör symlänken för stor.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i has INDEX_FL flag set on @f without htree support.\n"
@@ -339352,7 +339352,7 @@ msgstr "HTREE katalog-inod %i har en hashversion som inte stöds (%N)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@h %i uses an incompatible htree root node flag.\n"
-msgstr "HTREE katalog-inod %i använder en inkompatibel htree rotnodsflagga.\n"
+msgstr "HTREE-kataloginod %i använder en inkompatibel flagga för htree-rotnod.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@h %i has a tree depth (%N) which is too big\n"
@@ -339372,7 +339372,7 @@ msgstr "Inod %i har en extra storlek (%IS) som är ogiltig\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@a in @i %i has a namelen (%N) which is @n\n"
-msgstr "Utökat attribut i inod %i har ett namelen (%N) som är ogiltig\n"
+msgstr "Ett utökat attribut i inod %i har en namnlängd (%N) som är ogiltig\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@a in @i %i has a value offset (%N) which is @n\n"
@@ -339384,7 +339384,7 @@ msgstr "Utökat attribut i inod %i har ett värdeblock (%N) som är ogiltigt (m�
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@a in @i %i has a value size (%N) which is @n\n"
-msgstr "Utökat attribut i inod %i har ett värdestorlek (%N) som är ogiltig\n"
+msgstr "Ett utökat attribut i inod %i har en värdestorlek (%N) som är ogiltig\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@a in @i %i has a hash (%N) which is @n\n"
@@ -339392,7 +339392,7 @@ msgstr "Utökat attribut i inod %i har hash (%N) som är ogiltig\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i is a %It but it looks like it is really a directory.\n"
-msgstr "inod %i är en %It men det ser ut som det egentligen är en katalog.\n"
+msgstr "Inod %i är en %It men ser ut att egentligen vara en katalog.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error while reading over @x tree in @i %i: %m\n"
@@ -339416,11 +339416,11 @@ msgstr "Inod %i har flaggan EXTENTS_FL satt på filsystemet utan stöd för utst
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i is in extent format, but @S is missing EXTENTS feature\n"
-msgstr "inod %i är i utsträckningsformat, men superblocket saknar egenskapen EXTENTS\n"
+msgstr "Inod %i har utsträckningsformat, men superblocket saknar EXTENTS-funktionen\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i missing EXTENT_FL, but is in extents format\n"
-msgstr "inod %i saknar EXTENT_FL, men är i utsträckningsformat\n"
+msgstr "Inod %i saknar EXTENT_FL, men har utsträckningsformat\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Fast symlink %i has EXTENT_FL set.  "
@@ -339496,7 +339496,7 @@ msgstr "Inod %i har flaggan INLINE_DATA_FL satt på filsystem utan stöd för in
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i block %b conflicts with critical metadata, skipping block checks.\n"
-msgstr "inod %i block %b står i konflikt med kritisk metadata, hoppar över blockkontroller.\n"
+msgstr "Inod %i:s block %b står i konflikt med kritiska metadata; hoppar över blockkontroller.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@d @i %i @b %b should be at @b %c.  "
@@ -339504,11 +339504,11 @@ msgstr "Kataloginod %i block %b skulle varit vid %c.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@d @i %i has @x marked uninitialized at @b %c.  "
-msgstr "Kataloginod %i en utsträckning markerad oinitierad vid block %c.  "
+msgstr "Kataloginod %i har en utsträckning markerad som oinitierad vid block %c.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i logical @b %b (physical @b %c) violates cluster allocation rules.\nWill fix in pass 1B.\n"
-msgstr "inod %i logiskt block %b (fysiskt block %c) bryter mot klusterallokeringsregler.\nKommer fixa i pass 1B.\n"
+msgstr "Inod %i:s logiska block %b (fysiskt block %c) bryter mot reglerna för klusterallokering.\nRättas i pass 1B.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i has INLINE_DATA_FL flag but @a not found.  "
@@ -339520,7 +339520,7 @@ msgstr "Specialfil (enhet/uttag (socket)/fifo) (inod %i) har utsträcknings-\nel
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i has @x header but inline data flag is set.\n"
-msgstr "inod %i has utsträckningshuvud men inline-dataflaggan satt.\n"
+msgstr "Inod %i har utsträckningshuvud men inline-dataflaggan är satt.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i seems to have inline data but @x flag is set.\n"
@@ -339536,7 +339536,7 @@ msgstr "inod %i har inline-data och utsträckningsflaggor satta men i_block inne
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Bad block list says the bad block list @i is bad.  "
-msgstr "Trasig-block-lista säger att inoden för listan över trasiga block är trasig.  "
+msgstr "Listan över dåliga block anger att dess inod är felaktig.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@A @x region allocation structure.  "
@@ -339544,11 +339544,11 @@ msgstr "Fel vid allokering av utsträckningars regionallokeringsstruktur.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i has a duplicate @x mapping\n	(logical @b %c, @n physical @b %b, len %N)\n"
-msgstr "Inod %i har dubblerad utsträckningmappning\n	(logiskt block %c, ogiltigt fysiskt block %b, längd %N)\n"
+msgstr "Inod %i har en dubblerad utsträckningsmappning\n\t(logiskt block %c, ogiltigt fysiskt block %b, längd %N)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@A %N bytes of memory for encrypted @i list\n"
-msgstr "fel vid allokering av %N byte minne för krypterad inodslista\n"
+msgstr "Fel vid allokering av %N byte minne för krypterad inodslista\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i @x tree could be more shallow (%b; could be <= %c)\n"
@@ -339560,7 +339560,7 @@ msgstr "inod %i på ett bigalloc-filsystem kan inte vara blockkartestyrd.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i has corrupt @x header.  "
-msgstr "Inod %i har trasigt utsträckningshuvud.  "
+msgstr "Inod %i har ett skadat utsträckningshuvud.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Timestamp(s) on @i %i beyond 2310-04-04 are likely pre-1970.\n"
@@ -339600,19 +339600,19 @@ msgstr "Krypterad inod %i har trasigt utökat attribut för kryptering.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@h %i uses hash version (%N), but should use SipHash (6) \n"
-msgstr "HTREE katalog-inod %i använder hashversion (%N), men skulle använda SipHash (6) \n"
+msgstr "HTREE-kataloginod %i använder hashversion (%N), men ska använda SipHash (6) \n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@h %i uses SipHash, but should not.  "
-msgstr "HTREE katalog-inod %i använder SipHash, men skulle inte.  "
+msgstr "HTREE-kataloginod %i använder SipHash, men ska inte göra det.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Orphan file @i %i is not regular file.  "
-msgstr "Föräldralös fil inod %i är inte en vanlig fil.  "
+msgstr "Den föräldralösa filens inod %i är inte en vanlig fil.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Orphan file @i %i is not in use, but contains data.  "
-msgstr "Föräldralös fil inod %i används inte, men innehåller data.  "
+msgstr "Den föräldralösa filens inod %i används inte, men innehåller data.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i has the ea_inode flag set but is not a regular file.  "
@@ -339620,7 +339620,7 @@ msgstr "Inod %i har flaggan ea_inode satt men är inte en vanlig fil.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i references EA inode but @S is missing EA_INODE feature\n"
-msgstr "Inod %i refererar EA-inod men men superblocket saknar egenskapen EA_INODE\n"
+msgstr "Inod %i refererar till EA-inod men superblocket saknar EA_INODE-funktionen\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nRunning additional passes to resolve @bs claimed by more than one @i...\nPass 1B: Rescanning for @m @bs\n"
@@ -339672,7 +339672,7 @@ msgstr "(Det finns %N inoder som innehåller flerfaldigt ianspråkstagna block.)
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@m @bs already reassigned or cloned.\n\n"
-msgstr "Flerfaldig ianspråkstagna block redan överlåtna eller klonade.\n\n"
+msgstr "Flerfaldigt ianspråkstagna block har redan tilldelats på nytt eller klonats.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Couldn't clone file: %m\n"
@@ -339692,15 +339692,15 @@ msgstr "Optimerar utsträckningsträd: "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Internal error: max extent tree depth too large (%b; expected=%c).\n"
-msgstr "Internt fel: max djup på utsträckningsträd är för stort (%b; förväntat=%c).\n"
+msgstr "Internt fel: största djupet för utsträckningsträd är för stort (%b; förväntat=%c).\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i @x tree (at level %b) could be shorter.  "
-msgstr "inod %i:s utsträckningsträd (på nivå %b) kunde vara kortare.  "
+msgstr "Inod %i:s utsträckningsträd (på nivå %b) kunde vara kortare.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i @x tree (at level %b) could be narrower.  "
-msgstr "inod %i:s utsträckningsträd (på nivå %b) kunde vara smalare.  "
+msgstr "Inod %i:s utsträckningsträd (på nivå %b) kunde vara smalare.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Pass 2: Checking @d structure\n"
@@ -339748,23 +339748,23 @@ msgstr "”..” saknas i kataloginod %i.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "First @e '%Dn' (@i=%Di) in @d @i %i (%p) @s '.'\n"
-msgstr "Första post ”%Dn” (inod=%Di) i kataloginod %i (%p) skulle varit ”.”\n"
+msgstr "Första posten ”%Dn” (inod=%Di) i kataloginod %i (%p) ska vara ”.”\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Second @e '%Dn' (@i=%Di) in @d @i %i @s '..'\n"
-msgstr "Andra post ”%Dn” (inod=%Di) i kataloginod %i skulle varit ”..”\n"
+msgstr "Andra posten ”%Dn” (inod=%Di) i kataloginod %i ska vara ”..”\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "i_faddr @F %IF, @s zero.\n"
-msgstr "i_faddr för inod %i (%Q) är %IF, skulle varit noll.\n"
+msgstr "i_faddr för inod %i (%Q) är %IF, ska vara noll.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "i_file_acl @F %If, @s zero.\n"
-msgstr "i_file_acl för inod %i (%Q) är %If, skulle varit noll.\n"
+msgstr "i_file_acl för inod %i (%Q) är %If, ska vara noll.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "i_size_high @F %Id, @s zero.\n"
-msgstr "i_size_high för inod %i (%Q) är %Id, skulle varit noll.\n"
+msgstr "i_size_high för inod %i (%Q) är %Id, ska vara noll.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "i_frag @F %N, @s zero.\n"
@@ -339804,7 +339804,7 @@ msgstr "Inod %i (%Q) är en ogiltig teckenenhet.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i (%Q) is an @I @b @v.\n"
-msgstr "Inod %i (TQ är en ogiltig blockenhet.\n"
+msgstr "Inod %i (%Q) är en ogiltig blockenhet.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@E is duplicate '.' @e.\n"
@@ -339820,7 +339820,7 @@ msgstr "Internt fel: kunde inte hitta dir_info för %i.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@E has rec_len of %Dr, @s %N.\n"
-msgstr "Post ”%Dn” i %p (%i) har rec_len %Dr, skulle varit %N.\n"
+msgstr "Post ”%Dn” i %p (%i) har rec_len %Dr, ska vara %N.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@A icount structure: %m\n"
@@ -339880,11 +339880,11 @@ msgstr "Symlänk %Q (inod nr. %i) är ogiltig.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@a @b @F @n (%If).\n"
-msgstr "Utökat attribut-block för inod %i (%Q) är ogiltigt (%If).\n"
+msgstr "Blocket för utökade attribut för inod %i (%Q) är ogiltigt (%If).\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@f contains large files, but lacks LARGE_FILE flag in @S.\n"
-msgstr "Filsystem innehåller stora filer, men saknar flaggan LARGE_FILE i superblock.\n"
+msgstr "Filsystemet innehåller stora filer men saknar LARGE_FILE-flaggan i superblocket.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@p @h %d: %B not referenced\n"
@@ -339928,7 +339928,7 @@ msgstr "Problem i HTREE-kataloginod %d: %B har ogiltigt antal (%N)\n\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@p @h %d: %B has an unordered hash table\n"
-msgstr "Problem i HTREE-kataloginod %d: %B har en oordnad hash-tabell\n"
+msgstr "Problem i HTREE-kataloginod %d: %B har en oordnad hashtabell\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@p @h %d: %B has @n depth (%N)\n"
@@ -339940,7 +339940,7 @@ msgstr "Duplicerad post ”%Dn” i %p (%i) hittad.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@E has a non-unique filename.\nRename to %s"
-msgstr "Post ”%Dn” i %p (%i) har ett icke unikt filnamn.\nByt namn till %s"
+msgstr "Post ”%Dn” i %p (%i) har ett icke-unikt filnamn.\nByt namn till %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Duplicate @e '%Dn' found.\n	Marking %p (%i) to be rebuilt.\n\n"
@@ -339952,7 +339952,7 @@ msgstr "i_blocks_hi för inod %i (%Q) är %N, skulle varit noll.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Unexpected @b in @h %d (%q).\n"
-msgstr "Oväntat block i HTREE-katalog %d (%q).\n"
+msgstr "Oväntat block i HTREE-kataloginod %d (%q).\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@E references @i %Di in @g %g where _INODE_UNINIT is set.\n"
@@ -339960,7 +339960,7 @@ msgstr "Post ”%Dn” i %p (%i) refererar inod %Di i grupp %g där _INODE_UNINI
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@E references @i %Di found in @g %g's unused inodes area.\n"
-msgstr "Post ”%Dn” i %p (%i) refererar inod %Di funnen i oanvänt inodsområde i grupp %g.\n"
+msgstr "Post ”%Dn” i %p (%i) refererar till inod %Di som hittades i grupp %g:s område för oanvända inoder.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "i_file_acl_hi @F %N, @s zero.\n"
@@ -339980,7 +339980,7 @@ msgstr "Kataloginod %i, %B, position %N: katalogen har ingen kontrollsumma.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@d @i %i, %B: @d passes checks but fails checksum.\n"
-msgstr "kataloginod %i, %B: katalogen passerar kontrollerna men kontrollsumman stämmer inte.\n"
+msgstr "Kataloginod %i, %B: katalogen klarar kontrollerna men kontrollsumman stämmer inte.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Inline @d @i %i size (%N) must be a multiple of 4.\n"
@@ -339988,7 +339988,7 @@ msgstr "Inline-kataloginod %i:s storlek (%N) måste vara en multipel av 4.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Fixing size of inline @d @i %i failed.\n"
-msgstr "Att rätta storleken på inline-kataloginod %i misslyckades.\n"
+msgstr "Det gick inte att rätta storleken på inline-kataloginod %i.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Encrypted @E is too short.\n"
@@ -340000,7 +340000,7 @@ msgstr "Krypterad post ”%Dn” i %p (%i) refererar okrypterad inod %Di.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Encrypted @E references @i %Di, which has a different encryption policy.\n"
-msgstr "Krypterad post ”%Dn” i %p (%i) refererar inod %Di, vilken har en annan krypteringspolicy.\n"
+msgstr "Krypterad post ”%Dn” i %p (%i) refererar till inod %Di, som har en annan krypteringspolicy.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@E has illegal UTF-8 characters in its name.\n"
@@ -340008,7 +340008,7 @@ msgstr "Post ”%Dn” i %p (%i) har ogiltiga UTF-8-tecken i namnet.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Duplicate filename @E found.  "
-msgstr "Duplicerad filnamnspost ”%Dn” i %p (%i) hittad.  "
+msgstr "Duplicerad filnamnspost ”%Dn” i %p (%i) hittades.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@E references EA @i %Di.\n"
@@ -340020,7 +340020,7 @@ msgstr "Pass 3: Kontrollerar katalogförbindelser\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@r not allocated.  "
-msgstr "Rotinod inte allokerad.  "
+msgstr "Rotinoden är inte allokerad.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "No room in @l @d.  "
@@ -340032,7 +340032,7 @@ msgstr "Oförbunden kataloginod %i (fanns i %q)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "/@l not found.  "
-msgstr "/lost+found inte funnen.  "
+msgstr "/lost+found hittades inte.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "'..' in %Q (%i) is %P (%j), @s %q (%d).\n"
@@ -340040,11 +340040,11 @@ msgstr "”..” i %Q (%i) är %P (%j), skulle varit %q (%d).\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Bad or non-existent /@l.  Cannot reconnect.\n"
-msgstr "Felaktig eller ej existerande /lost+found.  Kan inte återansluta.\n"
+msgstr "Felaktig eller obefintlig /lost+found. Kan inte återansluta.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Could not expand /@l: %m\n"
-msgstr "Kunde inte expandera /lost+found: %m\n"
+msgstr "Kunde inte utöka /lost+found: %m\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Could not reconnect %i: %m\n"
@@ -340056,7 +340056,7 @@ msgstr "Fel vid försök att hitta /lost+found: %m\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "ext2fs_new_@b: %m while trying to create /@l @d\n"
-msgstr "ext2fs_new_block: %m ved försök att skapa /lost+found-katalog\n"
+msgstr "ext2fs_new_block: %m vid försök att skapa /lost+found-katalog\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "ext2fs_new_@i: %m while trying to create /@l @d\n"
@@ -340072,15 +340072,15 @@ msgstr "ext2fs_write_dir_block: %m vid skrivning av katalogblocket för /lost+fo
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error while adjusting @i count on @i %i\n"
-msgstr "Fel vid justering av inodräknare på inod %i\n"
+msgstr "Fel vid justering av inodens referensantal för inod %i\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Couldn't fix parent of @i %i: %m\n\n"
-msgstr "Kunde inte rätta förälder till inod %i: %m\n\n"
+msgstr "Kunde inte rätta föräldern till inod %i: %m\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Couldn't fix parent of @i %i: Couldn't find parent @d @e\n\n"
-msgstr "Kunde inte rätta förälder till inod %i: Kunde inte hitta föräldrakatalogpost\n\n"
+msgstr "Kunde inte rätta föräldern till inod %i: kunde inte hitta föräldrakatalogposten\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error creating root @d (%s): %m\n"
@@ -340152,15 +340152,15 @@ msgstr "lös inod %i\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@i %i ref count is %Il, @s %N.  "
-msgstr "Inod %i referensräknare är %Il, skulle varit %N.  "
+msgstr "Inod %i:s referensantal är %Il, ska vara %N.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "WARNING: PROGRAMMING BUG IN E2FSCK!\n	OR SOME BONEHEAD (YOU) IS CHECKING A MOUNTED (LIVE) FILESYSTEM.\n@i_link_info[%i] is %N, @i.i_links_count is %Il.  They @s the same!\n"
-msgstr "VARNING: PROGRAMMERINGSFEL I E2FSCK!\n	ELLER NÅGON KLANTSKALLE (DU) KONTROLLERAR ETT MONTERAT (AKTIVT) FILSYSTEM.\ninod_link_info[%i] är %N, inod.i_links_count är %Il.  De skulle vara samma!\n"
+msgstr "VARNING: PROGRAMMERINGSFEL I E2FSCK!\n\tELLER NÅGON KLANTSKALLE (DU) KONTROLLERAR ETT MONTERAT (AKTIVT) FILSYSTEM.\ninode_link_info[%i] är %N, inode.i_links_count är %Il. De ska vara samma!\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@a @i %i ref count is %N, @s %n. "
-msgstr "Inod %i för utökade attribut har referensräknare som är %N, skulle varit %n. "
+msgstr "Referensantalet för inod %i med utökade attribut är %N, ska vara %n. "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@d exceeds max links, but no DIR_NLINK feature in @S.\n"
@@ -340168,11 +340168,11 @@ msgstr "Katalogen överskrider maximala antalet länkar, men DIR_NLINK-funktione
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@d @i %i ref count set to overflow but could be exact value %N.  "
-msgstr "referensräknaren för kataloginod %i satt att spilla över men kan vara exakt värdet %N.  "
+msgstr "Referensantalet för kataloginod %i är satt till överflöde men kan vara det exakta värdet %N.  "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Regular @f @i %i has EA_INODE flag set. "
-msgstr "Normal filsystemsinod %i har flaggan EA_INODE satt. "
+msgstr "En vanlig filsystemsinod %i har EA_INODE-flaggan satt. "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Pass 5: Checking @g summary information\n"
@@ -340180,11 +340180,11 @@ msgstr "Pass 5: Kontrollerar gruppsammanfattningsinformation\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Padding at end of @i @B is not set. "
-msgstr "Utfyllnad vid slutet av inodsbitkarta är inte satt. "
+msgstr "Utfyllnaden i slutet av inodsbitkartan är inte satt. "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Padding at end of @b @B is not set. "
-msgstr "Utfyllnad vid slutet av blockbitkarta är inte satt. "
+msgstr "Utfyllnaden i slutet av blockbitkartan är inte satt. "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@b @B differences: "
@@ -340200,7 +340200,7 @@ msgstr "Antal fria inoder är fel för grupp nr. %g (%i, räknade=%j).\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Directories count wrong for @g #%g (%i, counted=%j).\n"
-msgstr "Katalogantal fel för grupp nr. %g (%i, räknade=%j).\n"
+msgstr "Antalet kataloger är fel för grupp nr. %g (%i, räknade=%j).\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Free @is count wrong (%i, counted=%j).\n"
@@ -340216,19 +340216,19 @@ msgstr "Antal fria block är fel (%b, räknade=%c).\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "PROGRAMMING ERROR: @f (#%N) @B endpoints (%b, %c) don't match calculated @B endpoints (%i, %j)\n"
-msgstr "PROGRAMMERINGSFEL: filsystem (nr. %N) bitkartas ändpunkter (%b, %c) stämmer\ninte med beräknade bitkarteändpunkter (%i, %j)\n"
+msgstr "PROGRAMMERINGSFEL: filsystemets bitkarteändpunkter (nr. %N; %b, %c) stämmer\ninte med de beräknade bitkarteändpunkterna (%i, %j)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Internal error: fudging end of bitmap (%N)\n"
-msgstr "Internt fel: fuskar till slut på bitkarta (%N)\n"
+msgstr "Internt fel: justerar slutet av bitkartan (%N)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error copying in replacement @i @B: %m\n"
-msgstr "Fel vid kopiering av ersättningsinodskarta: %m\n"
+msgstr "Fel vid kopiering av ersättande inodbitkarta: %m\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error copying in replacement @b @B: %m\n"
-msgstr "Fel vid inkopiering av ersättningsbitkarta: %m\n"
+msgstr "Fel vid kopiering av ersättande blockbitkarta: %m\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@g %g @b(s) in use but @g is marked BLOCK_UNINIT\n"
@@ -340256,7 +340256,7 @@ msgstr "Uppdatera kvotinformation för kvottyp %N"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error setting @b @g checksum info: %m\n"
-msgstr "Fel när kontrollsummeinformation för blockgrupp sattes: %m\n"
+msgstr "Fel vid inställning av kontrollsummeinformation för blockgrupp: %m\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error writing file system info: %m\n"
@@ -340264,7 +340264,7 @@ msgstr "Fel vid skrivning av filsystemsinformation: %m\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error flushing writes to storage device: %m\n"
-msgstr "Fel när skrivningar tömdes till lagringsenheten: %m\n"
+msgstr "Fel vid tömning av skrivningar till lagringsenheten: %m\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error writing quota info for quota type %N: %m\n"
@@ -340272,11 +340272,11 @@ msgstr "Fel när kvotinformation skrevs för kvottyp %N: %m\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "@S has orphan file without @j.\n"
-msgstr "superblocket har en föräldralös fil utan journal.\n"
+msgstr "Superblocket har en föräldralös fil utan journal.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Failed to truncate orphan file.\n"
-msgstr "Misslyckades att hugga av föräldralös fil.\n"
+msgstr "Det gick inte att avkorta den föräldralösa filen.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Failed to initialize orphan file.\n"
@@ -340284,7 +340284,7 @@ msgstr "Misslyckades att initiera föräldralös fil.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Cannot fix corrupted orphan file with invalid bitmaps.\n"
-msgstr "Kan inte fixa trasig föräldralös fil med ogiltiga bitkartor.\n"
+msgstr "Det går inte att rätta en skadad föräldralös fil med ogiltiga bitkartor.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Failed to truncate orphan file (@i %i).\n"
@@ -340296,11 +340296,11 @@ msgstr "Föräldralös fil (inod %i) block %b är inte ren.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Feature orphan_present is set but orphan file is clean.\n"
-msgstr "Funktionen orphan_present är satt men föräldralös fil är ren.\n"
+msgstr "Funktionen orphan_present är satt men den föräldralösa filen är ren.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Feature orphan_present is set but feature orphan_file is not.\n"
-msgstr "Funktionen orphan_present är satt men funktionen orphan_file är inte det.\n"
+msgstr "Funktionen orphan_present är satt men funktionen orphan_file är inte satt.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Orphan file (@i %i) size is not multiple of block size.\n"
@@ -340312,7 +340312,7 @@ msgstr "Föräldralös fil (inod %i) innehåller ett hål vid block %b.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Unhandled error code (0x%x)!\n"
-msgstr "Ej hanterad felkod (0x%x)!\n"
+msgstr "Ohanterad felkod (0x%x)!\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "in move_quota_inode"
@@ -340320,7 +340320,7 @@ msgstr "i move_quota_inode"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Memory used: %lu, elapsed time: %6.3f/%6.3f/%6.3f\n"
-msgstr "Använt minne: %lu, förlupen tid: %6.3f/%6.3f/%6.3f\n"
+msgstr "Använt minne: %lu, förfluten tid: %6.3f/%6.3f/%6.3f\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "size of inode=%d\n"
@@ -340348,7 +340348,7 @@ msgstr "vid anrop av ext2fs_adjust_ea_refcount2 för inod %u"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Truncating"
-msgstr "Kapar"
+msgstr "Avkortar"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Clearing"
@@ -340356,7 +340356,7 @@ msgstr "Tömmer"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while reading inode %d"
-msgstr "när inod %d lästes"
+msgstr "vid läsning av inod %d"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while calling ext2fs_block_iterate for inode %d"
@@ -340364,7 +340364,7 @@ msgstr "vid anrop av ext2fs_block_iterate för inod %d"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while reading blocks of inode %d"
-msgstr "när block från inod %d lästes"
+msgstr "vid läsning av block i inod %d"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Usage: %s [-panyrcdfktvDFV] [-b superblock] [-B blocksize]\n		[-l|-L bad_blocks_file] [-C fd] [-j external_journal]\n		[-E extended-options] [-z undo_file] device\n"
@@ -340376,7 +340376,7 @@ msgstr "\nNödhjälp:\n -p                   Reparera automatiskt (inga frågor)
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid " -v                   Be verbose\n -b superblock        Use alternative superblock\n -B blocksize         Force blocksize when looking for superblock\n -j external_journal  Set location of the external journal\n -l bad_blocks_file   Add to badblocks list\n -L bad_blocks_file   Set badblocks list\n -z undo_file         Create an undo file\n"
-msgstr " -v                   Var utförlig\n -b superblock        Använd alternativt superblock\n -B blockstorlek      Framtvinga blockstorlek vid sökande efter superblock\n -j extern_journal    Bestäm plats för den externa journalen\n -l dåliga_block_fil  Lägg till till listan över dåliga block\n -L dåliga_block_fil  Ange lista över dåliga block\n -z gör_ogjort_fil    Skapa en gör-ogjort-fil\n"
+msgstr " -v                   Var utförlig\n -b superblock        Använd alternativt superblock\n -B blockstorlek      Tvinga blockstorlek vid sökning efter superblock\n -j extern_journal    Ange platsen för den externa journalen\n -l dåliga_block_fil  Lägg till i listan över dåliga block\n -L dåliga_block_fil  Ange listan över dåliga block\n -z gör_ogjort_fil    Skapa en ångra-fil\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: %u/%u files (%0d.%d%% non-contiguous), %llu/%llu blocks\n"
@@ -340424,11 +340424,11 @@ msgstr " innehåller ett filsystem med fel"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid " was not cleanly unmounted"
-msgstr " var inte fläckfritt avmonterat"
+msgstr " var inte korrekt avmonterat"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid " primary superblock features different from backup"
-msgstr " det primära superblockets egenskaper skiljer från reservens"
+msgstr " det primära superblockets funktioner skiljer sig från reservens"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid " has been mounted %u times without being checked"
@@ -340560,11 +340560,11 @@ msgstr "\nOgiltigt ickenumeriskt argument till -%c (”%s”)\n\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "MMP interval is %u seconds and total wait time is %u seconds. Please wait...\n"
-msgstr "MMP-intervall är %u sekunder och den totala väntetiden är %u sekunder.  Var god dröj ...\n"
+msgstr "MMP-intervallet är %u sekunder och den totala väntetiden är %u sekunder. Vänta …\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while checking MMP block"
-msgstr "vid uppsättning av MMP-block"
+msgstr "vid kontroll av MMP-block"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "If you are sure the filesystem is not in use on any node, run:\n'tune2fs -f -E clear_mmp %s'\n"
@@ -340576,7 +340576,7 @@ msgstr "vid läsning av MMP-block"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Overwriting existing filesystem; this can be undone using the command:\n    e2undo %s %s\n\n"
-msgstr "Skriver över existerande filsystem, detta kan göras ogjort med kommandot:\n    e2undo %s %s\n\n"
+msgstr "Skriver över befintligt filsystem; detta kan ångras med kommandot:\n    e2undo %s %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while trying to delete %s"
@@ -340584,7 +340584,7 @@ msgstr "vid försök att ta bort %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while trying to setup undo file\n"
-msgstr "vid försök att skapa en gör-ogjort-fil\n"
+msgstr "vid försök att skapa en ångra-fil\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error: ext2fs library version out of date!\n"
@@ -340620,7 +340620,7 @@ msgstr "%s: går tillbaka till originalsuperblock\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The filesystem revision is apparently too high for this version of e2fsck.\n(Or the filesystem superblock is corrupt)\n\n"
-msgstr "Filsystemsrevisionen är uppenbarligen för hög för denna version av e2fsck.\n(Eller så är filsystemets superblock trasigt)\n\n"
+msgstr "Filsystemets revision är uppenbarligen för hög för den här versionen av e2fsck.\n(Eller så är filsystemets superblock skadat)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Could this be a zero-length partition?\n"
@@ -340632,11 +340632,11 @@ msgstr "Du måste ha %s-åtkomst till filsystemet eller vara root\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Possibly non-existent or swap device?\n"
-msgstr "Kanske inte existerar eller växlingsenhet?\n"
+msgstr "Kanske en obefintlig enhet eller växlingsenhet?\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Filesystem mounted or opened exclusively by another program?\n"
-msgstr "Filsystemet monterat eller öppnat exklusivt av ett annat program?\n"
+msgstr "Filsystemet är monterat eller exklusivt öppnat av ett annat program?\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Possibly non-existent device?\n"
@@ -340644,7 +340644,7 @@ msgstr "Kanske en enhet som inte existerar?\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Disk write-protected; use the -n option to do a read-only\ncheck of the device.\n"
-msgstr "Skrivskyddad disk; använd flaggan -n för att göra en läsningskontroll\nav enheten.\n"
+msgstr "Skrivskyddad disk; använd flaggan -n för att göra en skrivskyddad\nkontroll av enheten.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: Trying to load superblock despite errors...\n"
@@ -340664,19 +340664,19 @@ msgstr "Kan inte fortsätta med filsystemskontrollen"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Warning: skipping journal recovery because doing a read-only filesystem check.\n"
-msgstr "Varning: hoppar över journalåterhämtning eftersom en läsningskontroll av filsystem görs.\n"
+msgstr "Varning: hoppar över journalåterställning eftersom en skrivskyddad filsystemskontroll körs.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "unable to set superblock flags on %s\n"
-msgstr "kan inte sätta superblocksflaggor på %s\n"
+msgstr "det går inte att sätta superblocksflaggor på %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Journal checksum error found in %s\n"
-msgstr "Fel i journalkontrollsumman funnet i %s\n"
+msgstr "Fel i journalkontrollsumman hittades i %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Journal corrupted in %s\n"
-msgstr "Journalen trasig i %s\n"
+msgstr "Journalen i %s är skadad\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while recovering journal of %s"
@@ -340696,7 +340696,7 @@ msgstr "%s: %s vid läsning av inod för dåliga block\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "This doesn't bode well, but we'll try to go on...\n"
-msgstr "Detta bådar inte gott, men vi skall försöka att fortsätta ...\n"
+msgstr "Det bådar inte gott, men vi försöker fortsätta …\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Creating journal (%d blocks): "
@@ -340716,7 +340716,7 @@ msgstr "avbruten"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: e2fsck canceled.\n"
-msgstr "%s: e2fsck inställd.\n"
+msgstr "%s: e2fsck avbröts.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Creating orphan file (%d blocks): "
@@ -340728,7 +340728,7 @@ msgstr "Startar om e2fsck från början ...\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while resetting context"
-msgstr "vid återställning av omgivning"
+msgstr "vid återställning av kontext"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\n%s: ***** FILE SYSTEM ERRORS CORRECTED *****\n"
@@ -340804,7 +340804,7 @@ msgstr "vid upprepat försök att läsa bitkarta för %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "writing block and inode bitmaps"
-msgstr "skriver block- och inodsbitkartor"
+msgstr "skriver block- och inodbitkartor"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while rewriting block and inode bitmaps for %s"
@@ -340836,7 +340836,7 @@ msgstr "när inod %lu i %s lästes"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while writing inode %lu in %s"
-msgstr "när inod %lu i %s skrevs"
+msgstr "vid skrivning av inod %lu i %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "UNEXPECTED INCONSISTENCY: the filesystem is being modified while fsck is running.\n"
@@ -340856,7 +340856,7 @@ msgstr "%s: Flaggorna -n och -w är ömsesidigt uteslutande.\n\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%6.2f%% done, %s elapsed. (%d/%d/%d errors)"
-msgstr "%6.2f %% klar, %s har gått. (%d/%d/%d fel)"
+msgstr "%6.2f %% klart, %s har förflutit. (%d/%d/%d fel)"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Testing with random pattern: "
@@ -340896,7 +340896,7 @@ msgstr "Letar efter dåliga block i skrivskyddat läge\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Checking for bad blocks (read-only test): "
-msgstr "Letar efter dåliga block (skrivskyddad test): "
+msgstr "Letar efter dåliga block (skrivskyddat test): "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Too many bad blocks, aborting test\n"
@@ -340916,11 +340916,11 @@ msgstr "Läser och jämför: "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Checking for bad blocks in non-destructive read-write mode\n"
-msgstr "Letar efter dåliga block i ickeförstörande läs-skriv-läge\n"
+msgstr "Letar efter dåliga block i icke-förstörande läs-skrivläge\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Checking for bad blocks (non-destructive read-write test)\n"
-msgstr "Letar efter dåliga block (ickeförstörande läs-skriv-test)\n"
+msgstr "Letar efter dåliga block (icke-förstörande läs-skrivtest)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nInterrupt caught, cleaning up\n"
@@ -340960,11 +340960,11 @@ msgstr "%s är för stor – %lu"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Too big max bad blocks count %u - maximum is %u"
-msgstr "För stort maximalt antal dåliga block %u — maximum är %u"
+msgstr "För stort högsta antal dåliga block %u – högst är %u"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "can't allocate memory for test_pattern - %s"
-msgstr "kunde inte allokera minne för testmönster - %s"
+msgstr "kunde inte allokera minne för testmönster – %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Maximum of one test_pattern may be specified in read-only mode"
@@ -341008,7 +341008,7 @@ msgstr "felaktigt startblock (%llu): måste vara mindre än %llu"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "invalid end block (%llu): must be 32-bit value"
-msgstr "felaktigt startblock (%llu): måste vara ett 32-bitars värde"
+msgstr "felaktigt slutblock (%llu): måste vara ett 32-bitarsvärde"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while creating in-memory bad blocks list"
@@ -341020,11 +341020,11 @@ msgstr "indatafil — felaktigt format"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while adding to in-memory bad block list"
-msgstr "när tillägg gjordes till lista i minnet över dåliga block gjordes"
+msgstr "vid tillägg till listan över dåliga block i minnet"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Pass completed, %u bad blocks found. (%d/%d/%d errors)\n"
-msgstr "Pass avslutat, %u dåliga block hittade. (%d/%d/%d fel)\n"
+msgstr "Pass avslutat, %u dåliga block hittades. (%d/%d/%d fel)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Usage: %s [-RVf] [-+=aAcCdDeijPsStTuFx] [-p project] [-v version] files...\n"
@@ -341048,7 +341048,7 @@ msgstr "vid läsning av flaggor på %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Flags of %s set as "
-msgstr "Flaggor på %s satta som "
+msgstr "Flaggorna för %s sattes till "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while setting flags on %s"
@@ -341056,7 +341056,7 @@ msgstr "vid sättning av flaggor på %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Version of %s set as %lu\n"
-msgstr "Version av %s satt som %lu\n"
+msgstr "Versionen för %s sattes till %lu\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while setting version on %s"
@@ -341064,11 +341064,11 @@ msgstr "vid sättning av version på %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Project of %s set as %lu\n"
-msgstr "Projektet för %s satt som %lu\n"
+msgstr "Projektet för %s sattes till %lu\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while setting project on %s"
-msgstr "när projektet sattes på %s"
+msgstr "när projektet för %s sattes"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Couldn't allocate path variable in chattr_dir_proc"
@@ -341104,7 +341104,7 @@ msgstr "när inod %u öppnades"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while reading xattrs for inode %u"
-msgstr "när xattr för inod %u lästes"
+msgstr "när utökade attribut för inod %u lästes"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while allocating memory"
@@ -341176,7 +341176,7 @@ msgstr "vid försök att läsa länken ”%s”"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "symlink increased in size between lstat() and readlink()"
-msgstr "symlänk ökade i storlek mellan lstat() och readlink()"
+msgstr "symlänken ökade i storlek mellan lstat() och readlink()"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while writing symlink\"%s\""
@@ -341204,7 +341204,7 @@ msgstr "när inoden för ”%s” sattes"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while setting xattrs for \"%s\""
-msgstr "när xattrs för ”%s” sattes"
+msgstr "när utökade attribut för ”%s” sattes"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while saving inode data"
@@ -341216,7 +341216,7 @@ msgstr "när stat anropades"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while copying xattrs on root directory"
-msgstr "vid kopiering av xattr på rotkatalogen"
+msgstr "vid kopiering av utökade attribut på rotkatalogen"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Usage: %s [-bfghimxV] [-o superblock=<num>] [-o blocksize=<num>] device\n"
@@ -341240,11 +341240,11 @@ msgstr " (0x%04x FÖRVÄNTADES)"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "  %s superblock at "
-msgstr "  %ssuperblock vid "
+msgstr "  %s superblock vid "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Primary"
-msgstr "Primärt "
+msgstr "Primärt"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid ", Group descriptors at "
@@ -341284,7 +341284,7 @@ msgstr "\n  Inodstabell vid "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\n  %u free %s, %u free inodes, %u directories%s"
-msgstr "\n  %u fritt %s, %u fria inoder, %u kataloger%s"
+msgstr "\n  %u fria %s, %u fria inoder, %u kataloger%s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid ", %u unused inodes\n"
@@ -341316,11 +341316,11 @@ msgstr "när journalinoden öppnades"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while reading journal super block"
-msgstr "när journalsuperblocket lästes"
+msgstr "vid läsning av journalsuperblock"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Journal superblock magic number invalid!\n"
-msgstr "Journalsuperblockets magiska tal felaktigt!\n"
+msgstr "Journalsuperblockets magiska tal är felaktigt!\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while reading journal superblock"
@@ -341360,7 +341360,7 @@ msgstr "	Använder %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Couldn't find valid filesystem superblock.\n"
-msgstr "Kunde inte hitta giltigt filsystemssuperblock.\n"
+msgstr "Kunde inte hitta ett giltigt filsystemssuperblock.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: MMP feature not enabled.\n"
@@ -341392,7 +341392,7 @@ msgstr "vid allokering av buffert"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Writing block %llu\n"
-msgstr "När block %llu skrevs\n"
+msgstr "Skriver block %llu\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "error writing block %llu"
@@ -341444,7 +341444,7 @@ msgstr "Kopierar "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Stopping now will destroy the filesystem, interrupt again if you are sure\n"
-msgstr "Att sluta nu kommer förstöra filsystemet, avbryt igen om du är säker\n"
+msgstr "Att avbryta nu förstör filsystemet; avbryt igen om du är säker\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid " %s remaining at %.2f MB/s"
@@ -341472,7 +341472,7 @@ msgstr "när l2-cache allokerades"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Warning: There are still tables in the cache while putting the cache, data will be lost so the image may not be valid.\n"
-msgstr "Varning: det finns fortfarande tabeller i cachen medan cachen skrivs, data kommer gå förlorade så avbilden kommer kanske inte vara korrekt.\n"
+msgstr "Varning: det finns fortfarande tabeller i cachen när cachen skrivs; data går förlorade och avbilden kanske inte är giltig.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while allocating ext2_qcow2_image"
@@ -341484,7 +341484,7 @@ msgstr "när ext2_qcow2_image initierades"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Programming error: multiple sequential refcount blocks created!\n"
-msgstr "Programmeringsfel: multipla sekventiella referensräknarblock skapade!\n"
+msgstr "Programmeringsfel: flera sekventiella referensräknarblock skapades!\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while allocating block bitmap"
@@ -341512,7 +341512,7 @@ msgstr "vid iteration över inod %u"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Raw and qcow2 images cannot be installed"
-msgstr "Raw- och qcow2-avbilder kan inte installeras"
+msgstr "Råa och qcow2-avbilder kan inte installeras"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "error reading bitmaps"
@@ -341544,19 +341544,19 @@ msgstr "Flyttningsläge är endast tillåtet med raw-avbilder."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Move mode requires all data mode."
-msgstr "Flyttningsläge behöver läget all data."
+msgstr "Flyttningsläge kräver läget ”all data”."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "checking if mounted"
-msgstr "kontrollerar om monterad"
+msgstr "kontrollerar om filsystemet är monterat"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nRunning e2image on a R/W mounted filesystem can result in an\ninconsistent image which will not be useful for debugging purposes.\nUse -f option if you really want to do that.\n"
-msgstr "\nAtt köra e2image på ett filsystem monterat både för skrivning och läsning\nkan resultera i en inkonsistent avbild som inte kommer vara användbar för\nfelsökningsändamål.  Använd flaggan -f om du verkligen vill göra det.\n"
+msgstr "\nKörning av e2image på ett filsystem som är monterat för läsning och skrivning\nkan ge en inkonsekvent avbild som inte är användbar för felsökning.\nAnvänd flaggan -f om du verkligen vill göra det.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "QCOW2 image can not be written to the stdout!\n"
-msgstr "En QCOW2-avbild kan inte skrivas till standard ut!\n"
+msgstr "En QCOW2-avbild kan inte skrivas till standardutdata!\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Can not stat output\n"
@@ -341576,7 +341576,7 @@ msgstr "Avbilden (%s) är trasig\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while trying to convert qcow2 image (%s) into raw image (%s)"
-msgstr "vid försök att konvertera en qcow2-bild (%s) till en rå bild (%s)"
+msgstr "vid försök att konvertera qcow2-avbild (%s) till rå avbild (%s)"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The -c option only supported in raw mode\n"
@@ -341584,7 +341584,7 @@ msgstr "Flaggan -c stödjs endast i raw-läge\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The -c option not supported when writing to stdout\n"
-msgstr "Flaggan -c stödjs inte vid skrivning till standard ut\n"
+msgstr "Flaggan -c stöds inte vid skrivning till standardutdata\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while allocating check_buf"
@@ -341648,7 +341648,7 @@ msgstr "UUID stämmer inte.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Last mount time does not match.\n"
-msgstr "Senaste monteringstid stämmer inte.\n"
+msgstr "Senaste monteringstiden stämmer inte.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Last write time does not match.\n"
@@ -341660,11 +341660,11 @@ msgstr "Livstidsskrivningsräknaren stämmer inte.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while reading filesystem superblock."
-msgstr "när filsystemets superblock lästes."
+msgstr "vid läsning av filsystemets superblock."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while fetching superblock"
-msgstr "när superblocket skrevs"
+msgstr "vid hämtning av superblock"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Undo file superblock checksum doesn't match.\n"
@@ -341696,7 +341696,7 @@ msgstr "%s: Huvudets kontrollsumma stämmer inte.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: Corrupt undo file header.\n"
-msgstr "%s: Trasig huvud i gör-ogjort-filen.\n"
+msgstr "%s: Skadat huvud i ångra-filen.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: Undo block size too large.\n"
@@ -341708,7 +341708,7 @@ msgstr "%s: Gör-ogjort-blockstorleken är för liten.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: Unknown undo file feature set.\n"
-msgstr "%s: Okänd funktionsuppsättning i gör-ogjort-fil.\n"
+msgstr "%s: Okänd funktionsuppsättning i ångra-filen.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error while determining whether %s is mounted."
@@ -341716,7 +341716,7 @@ msgstr "Fel när det avgjordes om %s är monterat."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "e2undo should only be run on unmounted filesystems"
-msgstr "e2undo skall endast köras på omonterade filsystem"
+msgstr "e2undo ska bara köras på omonterade filsystem"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while opening `%s'"
@@ -341732,7 +341732,7 @@ msgstr "när nycklar lästes"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: wrong key magic at %llu\n"
-msgstr "%s: fel nyckelmagi vid %llu\n"
+msgstr "%s: felaktigt magiskt tal för nyckel vid %llu\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: key block checksum error at %llu.\n"
@@ -341752,7 +341752,7 @@ msgstr "kontrollsumman i filsystemblock %llu (gör-ogjort-block %llu)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while writing block %llu."
-msgstr "fel när block %llu skrevs."
+msgstr "vid skrivning av block %llu."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Undo file corruption; run e2fsck NOW!\n"
@@ -341768,7 +341768,7 @@ msgstr "Ofullständig gör-ogjort-post; kör e2fsck.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Usage:  findsuper device [skipbytes [startkb]]\n"
-msgstr "Användning:  findsuper enhet [skippabyte [startkb]]\n"
+msgstr "Användning: findsuper enhet [hoppa_över_byte [start_kB]]\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "skipbytes should be a number, not %s\n"
@@ -341780,11 +341780,11 @@ msgstr "skippabyte måste vara en multipel av sektorstorleken\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "startkb should be a number, not %s\n"
-msgstr "startkb skall vara ett tal, inte %s\n"
+msgstr "start_kB ska vara ett tal, inte %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "startkb should be positive, not %llu\n"
-msgstr "startkb skall vara positivt, inte %llu\n"
+msgstr "start_kB ska vara positivt, inte %llu\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "starting at %llu, with %u byte increments\n"
@@ -341796,7 +341796,7 @@ msgstr "[*] förmodligen ett superblock skrivet i ext3-journalsuperblocket,\n	s�
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "byte_offset  byte_start     byte_end  fs_blocks blksz  grp  mkfs/mount_time           sb_uuid label\n"
-msgstr "byteavstånd  bytestart      byteslut  fs_block  blkst  grp  mkfs/monteringstid        sb_uuid etikett\n"
+msgstr "byteavstånd  bytestart     byteslut  fs_block  blkst  grp  mkfs/monteringstid        sb_uuid etikett\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\n%11Lu: finished with errno %d\n"
@@ -341812,11 +341812,11 @@ msgstr "VARNING: fel format på rad %d av %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "WARNING: Your /etc/fstab does not contain the fsck passno\n	field.  I will kludge around things for you, but you\n	should fix your /etc/fstab file as soon as you can.\n\n"
-msgstr "VARNING: Din /etc/fstab innehåller inte fsck-passnr-fältet.\n	Jag fixar mig förbi detta åt dig, men du\n	bör rätta din /etc/fstab-fil så snart du kan.\n\n"
+msgstr "VARNING: Din /etc/fstab innehåller inte fältet fsck-passnr.\n\tJag gör en nödlösning åt dig, men du\n\tbör rätta din /etc/fstab-fil så snart du kan.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "fsck: %s: not found\n"
-msgstr "fsck: %s: inte funnen\n"
+msgstr "fsck: %s: hittades inte\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: wait: No more child process?!?\n"
@@ -341864,7 +341864,7 @@ msgstr "%s: för många argument\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "unmounting filesystem"
-msgstr "avmonterar filsystemetet"
+msgstr "avmonterar filsystemet"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "mounted filesystem"
@@ -341900,7 +341900,7 @@ msgstr "kryptering stödjs inte."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "casefolding not supported."
-msgstr "sammanslagning av skiftläge stödjs inte."
+msgstr "skiftlägesavbildning stöds inte."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Mounting read-only without recovering journal."
@@ -341908,15 +341908,15 @@ msgstr "Monterar endast för läsning utan att återhämta journalen."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Recovering journal."
-msgstr "Återhämtar journalen."
+msgstr "Återställer journalen."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Warning: fuse2fs does not support using the journal.\nThere may be file system corruption or data loss if\nthe file system is not gracefully unmounted.\n"
-msgstr "Varning: fuse2fs stödjer inte att använda journalen.\nFilsystemet kan vara trasigt eller ha förlorat data\nom filsystemet inte avmonterades snyggt.\n"
+msgstr "Varning: fuse2fs stöder inte användning av journalen.\nFilsystemet kan vara skadat eller ha förlorat data\nom det inte avmonterades korrekt.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Warning: Mounting unchecked fs, running e2fsck is recommended."
-msgstr "Varning: monterar okontrollerat fs, att köra e2fsck rekommenderas."
+msgstr "Varning: monterar ett okontrollerat filsystem; körning av e2fsck rekommenderas."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Warning: Maximal mount count reached, running e2fsck is recommended."
@@ -341928,19 +341928,19 @@ msgstr "Varning: kontrolltiden uppnådd; att köra e2fsck rekommenderas."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Orphans detected; running e2fsck is recommended."
-msgstr "Föräldralösa hittade; att köra e2fsck rekommenderas."
+msgstr "Föräldralösa poster hittades; körning av e2fsck rekommenderas."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Errors detected; running e2fsck is required."
-msgstr "Fel upptäckta; att köra e2fsck rekommenderas."
+msgstr "Fel upptäcktes; körning av e2fsck krävs."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Mount failed due to unrecognized options.  Check dmesg(1) for details."
-msgstr "Monteringen misslyckades på grund av en okänd flagga. Granska dmesg(1) för detaljer."
+msgstr "Monteringen misslyckades på grund av okända flaggor. Kontrollera dmesg(1) för detaljer."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Mount failed while opening filesystem.  Check dmesg(1) for details."
-msgstr "Monteringen misslyckades när filsystemet öppnades. Granska dmesg(1) för detaljer."
+msgstr "Monteringen misslyckades när filsystemet öppnades. Kontrollera dmesg(1) för detaljer."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Usage: %s [-RVadlpv] [files...]\n"
@@ -341964,7 +341964,7 @@ msgstr "Kunde inte allokera sökvägsvariabel i lsattr_dir_proc\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Usage: %s [-c|-l filename] [-b block-size] [-C cluster-size]\n	[-i bytes-per-inode] [-I inode-size] [-J journal-options]\n	[-G flex-group-size] [-N number-of-inodes] [-d root-directory|tarball]\n	[-m reserved-blocks-percentage] [-o creator-os]\n	[-g blocks-per-group] [-L volume-label] [-M last-mounted-directory]\n	[-O feature[,...]] [-E extended-option[,...]] [-t fs-type]\n	[-T usage-type ] [-U UUID] [-e errors_behavior][-z undo_file]\n	[-jnqvDFSV] device [blocks-count]\n"
-msgstr "Användning: %s [-c|-l filnamn] [-b blockstorlek] [-C klusterstorlek]\n	[-i byte-per-inod] [-I inodstorlek] [-J journalflaggor]\n	[-G flexgruppstorlek] [-N antal-inoder] [-d rotkatalog|tar-boll]\n	[-m reserverade-block-procent] [-o skapar-os]\n	[-g block-per-grupp] [-L volymetikett] [-M senast-monterad-katalog]\n	[-O funktion[,…]] [-E utökad-flagga[,…]] [-t fs-typ]\n	[-T användningstyp] [-U UUID] [-e felbeteende] [-z gör-ogjort-fil]\n	[-jnqvDFSV] enhet [blockantal]\n"
+msgstr "Användning: %s [-c|-l filnamn] [-b blockstorlek] [-C klusterstorlek]\n\t[-i byte-per-inod] [-I inodstorlek] [-J journalflaggor]\n\t[-G flexgruppstorlek] [-N antal-inoder] [-d rotkatalog|tararkiv]\n\t[-m reserverade-block-procent] [-o skapar-os]\n\t[-g block-per-grupp] [-L volymetikett] [-M senast-monterad-katalog]\n\t[-O funktion[,…]] [-E utökad-flagga[,…]] [-t fs-typ]\n\t[-T användningstyp] [-U UUID] [-e felbeteende] [-z ångra-fil]\n\t[-jnqvDFSV] enhet [blockantal]\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Running command: %s\n"
@@ -341988,7 +341988,7 @@ msgstr "Block %u till %u måste vara bra för att bygga ett filsystem.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Aborting....\n"
-msgstr "Avbryter...\n"
+msgstr "Avbryter …\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Warning: the backup superblock/group descriptors at block %u contain\n	bad blocks.\n\n"
@@ -342056,7 +342056,7 @@ msgstr "Varning: kunde inte radera sektor %d: %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while splitting the journal size"
-msgstr "när journalstorleken delades"
+msgstr "vid uppdelning av journalstorleken"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while initializing journal superblock"
@@ -342076,11 +342076,11 @@ msgstr "vid skrivning av journalsuperblock"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Creating filesystem with %llu %dk blocks and %u inodes\n"
-msgstr "Skapar ett filsystem med %llu %d k-block och %u inoder\n"
+msgstr "Skapar ett filsystem med %llu %dk-block och %u inoder\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "warning: %llu blocks unused.\n\n"
-msgstr "varning: %llu block oanvända.\n\n"
+msgstr "varning: %llu block är oanvända.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Filesystem label=%.*s\n"
@@ -342152,7 +342152,7 @@ msgstr "Filsystems-UUID: %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Superblock backups stored on blocks: "
-msgstr "Superblockkopior lagrade på block: "
+msgstr "Superblockskopior lagrade på block: "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s requires '-O 64bit'\n"
@@ -342196,7 +342196,7 @@ msgstr "Ogiltig storleksändringsparameter: %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The resize maximum must be greater than the filesystem size.\n"
-msgstr "Storleksändringens maximum måste vara större än filsystemets storlek.\n"
+msgstr "Den maximala storleksändringen måste vara större än filsystemets storlek.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "On-line resizing not supported with revision 0 filesystems\n"
@@ -342220,7 +342220,7 @@ msgstr "Felaktig kodning: %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Invalid size of orphan file %s\n"
-msgstr "Ogiltig storlek på föräldrals fil %s\n"
+msgstr "Ogiltig storlek på föräldralös fil %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nBad option(s) specified: %s\n\nExtended options are separated by commas, and may take an argument which\n	is set off by an equals ('=') sign.\n\nValid extended options are:\n	mmp_update_interval=<interval>\n	num_backup_sb=<0|1|2>\n	stride=<RAID per-disk data chunk in blocks>\n	stripe-width=<RAID stride * data disks in blocks>\n	offset=<offset to create the file system>\n	resize=<resize maximum size in blocks>\n	packed_meta_blocks=<0 to disable, 1 to enable>\n	lazy_itable_init=<0 to disable, 1 to enable>\n	lazy_journal_init=<0 to disable, 1 to enable>\n	root_owner=<uid of root dir>:<gid of root dir>\n	root_perms=<octal root directory permissions>\n	test_fs\n	discard\n	nodiscard\n	revision=<revision>\n	encoding=<encoding>\n	encoding_flags=<flags>\n	quotatype=<quota type(s) to be enabled>\n	assume_storage_prezeroed=<0 to disable, 1 to enable>\n\n"
@@ -342240,7 +342240,7 @@ msgstr "fel: en kodning måste specificeras explicit när kodningsflaggor skicka
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Syntax error in mke2fs config file (%s, line #%d)\n	%s\n"
-msgstr "Syntaxfel i mke2fs konfigurationsfil (%s, rad nr %d)\n	%s\n"
+msgstr "Syntaxfel i konfigurationsfilen mke2fs (%s, rad nr. %d)\n\t%s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Invalid filesystem option set: %s\n"
@@ -342288,7 +342288,7 @@ msgstr "felaktig klusterstorlek - %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "'-R' is deprecated, use '-E' instead"
-msgstr "”-R” undanbedes, använd ”-E” istället"
+msgstr "”-R” är föråldrad; använd ”-E” i stället"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "bad error behavior - %s"
@@ -342308,7 +342308,7 @@ msgstr "Felaktigt tal för flex_bg-storlek"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "flex_bg size must be a power of 2"
-msgstr "storlek på flex_bg måste vara en multipel av 2"
+msgstr "flex_bg-storleken måste vara en tvåpotens"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "flex_bg size (%lu) must be less than or equal to 2^31"
@@ -342316,7 +342316,7 @@ msgstr "storlek på flex_bg (%lu) måste vara mindre än eller lika med 2³¹"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "invalid inode ratio %s (min %d/max %d)"
-msgstr "ogiltig inodsförhållande %s (min %d/max %d)"
+msgstr "ogiltigt inodsförhållande %s (min %d/max %d)"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "invalid inode size - %s"
@@ -342324,7 +342324,7 @@ msgstr "ogiltig inodsstorlek - %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Warning: -K option is deprecated and should not be used anymore. Use '-E nodiscard' extended option instead!\n"
-msgstr "Varning: flaggan -K undanbedes och skall inte användas mera.  Använd den utökade flaggan ”-E nodiscard” istället!\n"
+msgstr "Varning: flaggan -K är föråldrad och ska inte längre användas. Använd den utökade flaggan ”-E nodiscard” i stället!\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "in malloc for bad_blocks_filename"
@@ -342332,7 +342332,7 @@ msgstr "i malloc för bad_blocks_filename"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Warning: label too long; will be truncated to '%s'\n\n"
-msgstr "Varning: etiketten för lång, kommer avkortas till ”%s”.\n\n"
+msgstr "Varning: etiketten är för lång och avkortas till ”%s”\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "invalid reserved blocks percent - %s"
@@ -342368,7 +342368,7 @@ msgstr "vid försök att öppna journalenhet %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Journal dev blocksize (%d) smaller than minimum blocksize %d\n"
-msgstr "Journalenhetens blockstorlek (%d) mindre än minsta blockstorlek %d\n"
+msgstr "Journalenhetens blockstorlek (%d) är mindre än minsta blockstorlek %d\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Using journal device's blocksize: %d\n"
@@ -342400,19 +342400,19 @@ msgstr "Kunde inte avgöra enhetsstorlek; du måste ange\nstorleken på filsyste
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Device size reported to be zero.  Invalid partition specified, or\n	partition table wasn't reread after running fdisk, due to\n	a modified partition being busy and in use.  You may need to reboot\n	to re-read your partition table.\n"
-msgstr "Enhetsstorlek rapporterades som noll.  Ogiltig partition angiven, eller\n	partitionstabellen var inte omläst efter att ha kört fsck, på grund\n	av en modifierad partition används och är i bruk.  Du kan behöva\n	starta om för att läsa om din partitionstabell.\n"
+msgstr "Enhetsstorleken rapporterades som noll. Antingen har en ogiltig partition angetts, eller så har partitionstabellen inte lästs om efter fdisk eftersom en ändrad partition är upptagen och används. Du kan behöva starta om för att läsa om partitionstabellen.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Filesystem larger than apparent device size."
-msgstr "Filsystem större än synbar enhetsstorlek."
+msgstr "Filsystemet är större än den synliga enhetsstorleken."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Failed to parse fs types list\n"
-msgstr "Misslyckades tolka fs-typlista\n"
+msgstr "Det gick inte att tolka listan över filsystemstyper\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The HURD does not support the filetype feature.\n"
-msgstr "HURD stödjer inte funktionen filtype.\n"
+msgstr "HURD stöder inte funktionen filetype.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The HURD does not support the huge_file feature.\n"
@@ -342444,11 +342444,11 @@ msgstr "Varning: angiven blockstorlek %d är mindre än enhetens fysiska sektors
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: Size of device (0x%llx blocks) %s too big to be expressed\n	in 32 bits using a blocksize of %d.\n"
-msgstr "%s: Storleken på enhet (0x%llx block) %s är för stor för att uttryckas\n	med 32 bitar med användning av en blockstorlek på %d.\n"
+msgstr "%s: Enhetens storlek (0x%llx block) %s är för stor för att uttryckas\nmed 32 bitar med en blockstorlek på %d.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s: Size of device (0x%llx blocks) %s too big to create\n	a filesystem using a blocksize of %d.\n"
-msgstr "%s: Storleken på enhet (0x%llx block) %s är för stor för att skapa\n	ett filsystem som använder en blockstorlek på %d.\n"
+msgstr "%s: Enhetens storlek (0x%llx block) %s är för stor för att skapa\nett filsystem med en blockstorlek på %d.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "fs_types for mke2fs.conf resolution: "
@@ -342464,7 +342464,7 @@ msgstr "Utsträckningar MÅSTE vara aktiverade på ett 64-bitars filsystem.  Ski
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Extents MUST be enabled for fs-verity support.  Pass -O extents to rectify.\n"
-msgstr "Utsträckningar MÅSTE vara aktiverade stöd för fs-verity.  Skicka -O extents för att rätta.\n"
+msgstr "Utsträckningar MÅSTE vara aktiverade för stöd för fs-verity. Skicka -O extents för att rätta.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The cluster size may not be smaller than the block size.\n"
@@ -342476,7 +342476,7 @@ msgstr "att ange en klusterstorlek förutsätter funktionen bigalloc"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "warning: Unable to get device geometry for %s\n"
-msgstr "varning: Kan inte ta reda på enhetens geometri för %s\n"
+msgstr "varning: det går inte att läsa enhetens geometri för %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s alignment is offset by %lu bytes.\n"
@@ -342484,11 +342484,11 @@ msgstr "%s justering är förskjuten med %lu byte.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "This may result in very poor performance, (re)-partitioning suggested.\n"
-msgstr "Detta kan medföra väldigt dåliga prestanda, (om)partitionering föreslås.\n"
+msgstr "Detta kan ge mycket dåliga prestanda; ompartitionering rekommenderas.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s is capable of DAX but current block size %u is different from system page size %u so filesystem will not support DAX.\n"
-msgstr "%s har förmågan DAX men aktuell blockstorlek %u är skild från systemsidstorleken %u så filsystemet kommer inte stödja DAX.\n"
+msgstr "%s stöder DAX, men den aktuella blockstorleken %u skiljer sig från systemets sidstorlek %u, så filsystemet stöder inte DAX.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%d-byte blocks too big for system (max %d)"
@@ -342500,7 +342500,7 @@ msgstr "Varning: %d-byteblock för stort för systemet (max %d), tvingas fortsä
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Suggestion: Use Linux kernel >= 3.18 for improved stability of the metadata and journal checksum features.\n"
-msgstr "Förslag: använd en Linuxkärna ≥ 3.18 för förbättrad stabilitet av metadatan och funktionerna för journalkontrollsumma.\n"
+msgstr "Förslag: använd Linux-kärna >= 3.18 för bättre stabilitet hos metadata- och journalkontrollsummefunktionerna.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Unknown filename encoding from profile: %s"
@@ -342520,7 +342520,7 @@ msgstr "Journaler stöds inte med revision 0-filsystem\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Inode size incompatible with revision 0 filesystems\n"
-msgstr "Inodsstorleken är inkompatibel revision 0-filsystem\n"
+msgstr "Inodsstorleken är inkompatibel med filsystem med revision 0\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nWarning: offset specified without an explicit file system size.\nCreating a file system with %llu blocks but this might\nnot be what you want.\n\n"
@@ -342552,7 +342552,7 @@ msgstr "antal block per grupp utanför giltigt intervall"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Flex_bg feature not enabled, so flex_bg size may not be specified"
-msgstr "Funktionen flex_bg är inte aktiverad, så fleg_bg-storlek kan inte anges"
+msgstr "Funktionen flex_bg är inte aktiverad, så flex_bg-storlek kan inte anges"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "invalid inode size %d (min %d/max %d)"
@@ -342564,7 +342564,7 @@ msgstr "%d-byteinoder är för små för inline-data; ange en större storlek"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "128-byte inodes cannot handle dates beyond 2038 and are deprecated\n"
-msgstr "128-bytes inoder kan inte hantera data bortom 2038 och bör undvikas\n"
+msgstr "128-byteinoder kan inte hantera datum efter 2038 och är föråldrade\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "too many inodes (%llu), raise inode ratio?"
@@ -342608,7 +342608,7 @@ msgstr "vid uppsättning av superblock"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Extents are not enabled.  The file extent tree can be checksummed, whereas block maps cannot.  Not enabling extents reduces the coverage of metadata checksumming.  Pass -O extents to rectify.\n"
-msgstr "Utsträckningar är inte aktiverade.  I trädet med filutsträckningar kan blocksummor beräknas, medan blockkartor inte kan det.  Att inte aktivera utsträckningar reducerar täckningen av kontrollsummor för metadata.  Skicka -O extents för att rätta.\n"
+msgstr "Utsträckningar är inte aktiverade. Filutsträckningsträdet kan kontrollsummekontrolleras, medan blockkartor inte kan det. Att inte aktivera utsträckningar minskar täckningen av metadatakontrollsummor. Skicka -O extents för att rätta.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "64-bit filesystem support is not enabled.  The larger fields afforded by this feature enable full-strength checksumming.  Pass -O 64bit to rectify.\n"
@@ -342620,11 +342620,11 @@ msgstr "Funktionen metadata_csum_seed förutsätter funktionen metadata_csum.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Assuming the storage device is prezeroed - skipping inode table and journal wipe\n"
-msgstr "Antar att lagringsenheten är nollställd i förväg — hoppar över att tömma inodstabellen och journalen\n"
+msgstr "Antar att lagringsenheten är nollställd i förväg – hoppar över nollställning av inodstabellen och journalen\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Discard succeeded and will return 0s - skipping inode table wipe\n"
-msgstr "Utrangering lyckades och kommer returnera 0s — hoppar över rensning av inodstabell\n"
+msgstr "Utrangering lyckades och returnerar nollor – hoppar över nollställning av inodstabellen\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "unknown os - %s"
@@ -342652,7 +342652,7 @@ msgstr "vid beräkning av omkostnad"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s may be further corrupted by superblock rewrite\n"
-msgstr "%s kan göras ännu trasigare av omskrivning av superblock\n"
+msgstr "%s kan skadas ytterligare vid omskrivning av superblock\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while zeroing block %llu at end of filesystem"
@@ -342668,7 +342668,7 @@ msgstr "en journal"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Adding journal to device %s: "
-msgstr "Lägger till journal till enhet %s: "
+msgstr "Lägger till journal på enheten %s: "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\n	while trying to add journal to device %s"
@@ -342676,7 +342676,7 @@ msgstr "\n	vid försök att lägga till journal till enhet %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Skipping journal creation in super-only mode\n"
-msgstr "Hoppar över att skapa journal i läget endast super\n"
+msgstr "Hoppar över journalskapande i läget endast superblock\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Creating journal (%u blocks): "
@@ -342696,7 +342696,7 @@ msgstr "Skydd mot flerfaldig montering är aktiverat med uppdateringsintervall %
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "cannot set orphan_file feature without a journal."
-msgstr "kan inte sätta funktionen orphan_file utan en journal."
+msgstr "funktionen orphan_file kan inte sättas utan en journal."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while creating orphan file"
@@ -342708,7 +342708,7 @@ msgstr "Kopierar filer till enheten: "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while populating file system"
-msgstr "när filsystemet populerades"
+msgstr "när filsystemet fylldes"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Writing superblocks and filesystem accounting information: "
@@ -342728,7 +342728,7 @@ msgstr "vid nollställning av block %llu för jättefil"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Partition offset of %llu (%uk) blocks not compatible with cluster size %u.\n"
-msgstr "Ett partitionsavstånd på %llu (%u k) block är inte kompatibelt med klusterstorleken %u.\n"
+msgstr "Partitionsavståndet %llu (%uk) block är inte kompatibelt med klusterstorleken %u.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Huge files will be zero'ed\n"
@@ -342768,7 +342768,7 @@ msgstr "%s: h=%3d s=%3d c=%4d   start=%8d storlek=%8lu slut=%8d\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nThis operation requires a freshly checked filesystem.\n"
-msgstr "\nDenna åtgärd kräver en nykontrollerat filsystem.\n"
+msgstr "\nDen här åtgärden kräver ett nykontrollerat filsystem.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Please run e2fsck -f on the filesystem.\n"
@@ -342796,11 +342796,11 @@ msgstr "%s är inte en journalenhet.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Journal superblock is corrupted, nr_users\nis too high (%d).\n"
-msgstr "Journalsuperblocket är trasigt, nr_users\när för hög (%d).\n"
+msgstr "Journalsuperblocket är skadat; nr_users\när för högt (%d).\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Filesystem's UUID not found on journal device.\n"
-msgstr "Filsystems UUID inte funnet på journalenhet.\n"
+msgstr "Filsystemets UUID hittades inte på journalenheten.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Cannot locate journal device. It was NOT removed\nUse -f option to remove missing journal device.\n"
@@ -342852,11 +342852,11 @@ msgstr "VARNING: Kunde inte bekräfta stöd i kärnan för metadata_csum_seed.\n
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Clearing filesystem feature '%s' not supported.\n"
-msgstr "Nollställning av filsystemsfunktion ”%s” stöds inte.\n"
+msgstr "Nollställning av filsystemsfunktionen ”%s” stöds inte.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Setting filesystem feature '%s' not supported.\n"
-msgstr "Att sätta filsystemsfunktion ”%s” stöds inte.\n"
+msgstr "Det går inte att sätta filsystemsfunktionen ”%s”.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The has_journal feature may only be cleared when the filesystem is\nunmounted or mounted read-only.\n"
@@ -342864,7 +342864,7 @@ msgstr "Flaggan has_journal får endast nollställas när filsystemet är\nomont
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The needs_recovery flag is set.  Please run e2fsck before clearing\nthe has_journal flag.\n"
-msgstr "Flaggan needs_recovery är satt.  Kör e2fsck före flaggan has_journal\nnollställs.\n"
+msgstr "Flaggan needs_recovery är satt. Kör e2fsck innan flaggan has_journal nollställs.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The orphan_file feature may only be cleared when the filesystem is unmounted.\n"
@@ -342884,7 +342884,7 @@ msgstr "\n	vid försök att radera den föräldralösa filen\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "orphan_file feature can be set only for filesystems with journal.\n"
-msgstr "funktionen orphan_file kan endast sättas för filsystem med en journal.\n"
+msgstr "Funktionen orphan_file kan endast sättas för filsystem med journal.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Setting filesystem feature 'sparse_super' not supported\nfor filesystems with the meta_bg feature enabled.\n"
@@ -342908,7 +342908,7 @@ msgstr "Fel vid läsning av bitkartor\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Magic number in MMP block does not match. expected: %x, actual: %x\n"
-msgstr "Magiskt tal i MMP-block stämmer inte.  förväntat: %x, faktiskt: %x\n"
+msgstr "Det magiska talet i MMP-blocket stämmer inte: förväntat %x, faktiskt %x\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while reading MMP block."
@@ -342924,7 +342924,7 @@ msgstr "Det går inte att avaktivera dir_index på ett monterat filsystem!\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Clearing the flex_bg flag would cause the the filesystem to be\ninconsistent.\n"
-msgstr "Att nollställa flaggan flex_bg skulle få filsystemet att bli\ninkonsistent.\n"
+msgstr "Nollställning av flaggan flex_bg skulle göra filsystemet inkonsistent.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The huge_file feature may only be cleared when the filesystem is\nunmounted or mounted read-only.\n"
@@ -342940,7 +342940,7 @@ msgstr "Kan inte aktivera metadata_csum på ett monterat filsystem!\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Extents are not enabled.  The file extent tree can be checksummed, whereas block maps cannot.  Not enabling extents reduces the coverage of metadata checksumming.  Re-run with -O extent to rectify.\n"
-msgstr "Utsträckningar är inte aktiverade.  I trädet med filutsträckningar kan blocksummor beräknas, medan blockkartor inte kan det.  Att inte aktivera utsträckningar reducerar täckningen av kontrollsummor för metadata.  Kör om med -O extents för att rätta.\n"
+msgstr "Utsträckningar är inte aktiverade. Filutsträckningsträdet kan kontrollsummekontrolleras, medan blockkartor inte kan det. Att inte aktivera utsträckningar minskar täckningen av metadatakontrollsummor. Kör om med -O extents för att rätta.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "64-bit filesystem support is not enabled.  The larger fields afforded by this feature enable full-strength checksumming.  Run resize2fs -b to rectify.\n"
@@ -342996,7 +342996,7 @@ msgstr "Att sätta funktionen ”metadata_csum_seed” stödjs bara\nför filsys
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "UUID has changed since enabling metadata_csum.  Filesystem must be unmounted \nto safely rewrite all metadata to match the new UUID.\n"
-msgstr "UUID har ändrats sedan metadata_csum aktiverades.  Filsystem måste vara omonterade för att säkert skriva om alla metadata till att matcha det nya UUID:t.\n"
+msgstr "UUID har ändrats sedan metadata_csum aktiverades. Filsystemet måste vara omonterat för att alla metadata ska kunna skrivas om säkert så att de matchar det nya UUID:t.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Recalculating checksums could take some time."
@@ -343024,7 +343024,7 @@ msgstr "Skapar journalinod: "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\n	while trying to create journal file"
-msgstr "\n	vid försök att skapa journalfil"
+msgstr "\n\tvid försök att skapa journalfilen"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Cannot enable project quota; inode size too small.\n"
@@ -343048,7 +343048,7 @@ msgstr "när kvotfil (%d) togs bort"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nBad quota options specified.\n\nFollowing valid quota options are available (pass by separating with comma):\n	[^]usr[quota]\n	[^]grp[quota]\n	[^]prj[quota]\n\n\n"
-msgstr "\nFelaktigt kvotalternativ angivet.\n\nFöljande giltiga kvotalternativ finns (skicka dem separerade med kommatecken):\n	[^]usr[quota]\n	[^]grp[quota]\n	[^]prj[quota]\n\n\n"
+msgstr "\nFelaktigt kvotalternativ angivet.\n\nFöljande giltiga kvotalternativ finns (separera dem med kommatecken):\n\t[^]usr[quota]\n\t[^]grp[quota]\n\t[^]prj[quota]\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Couldn't parse date/time specifier: %s"
@@ -343092,7 +343092,7 @@ msgstr "felaktig inodsstorlek - %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Inode size must be a power of two- %s"
-msgstr "Inodsstorlek måste vara en multipel av två- %s"
+msgstr "Inodsstorleken måste vara en tvåpotens – %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "mmp_update_interval too big: %lu\n"
@@ -343104,7 +343104,7 @@ msgstr "Sätter filsystemets felflagga för att framtvinga fsck.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Invalid RAID stride: %s\n"
-msgstr "Ogiltig RAID-kliv: %s\n"
+msgstr "Ogiltigt RAID-kliv: %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Invalid RAID stripe-width: %s\n"
@@ -343112,7 +343112,7 @@ msgstr "Ogiltig RAID-remsbredd: %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Invalid hash algorithm: %s\n"
-msgstr "Ogiltig hash-algoritm: %s\n"
+msgstr "Ogiltig hashalgoritm: %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Setting default hash algorithm to %s (%d)\n"
@@ -343148,7 +343148,7 @@ msgstr "Misslyckades att läsa blockbitkarta\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "blocks to be moved"
-msgstr "block att flytta"
+msgstr "block som ska flyttas"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Failed to allocate block bitmap when increasing inode size\n"
@@ -343160,19 +343160,19 @@ msgstr "Inte tillräckligt med utrymme för att öka inodsstorleken \n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Failed to relocate blocks during inode resize \n"
-msgstr "Misslyckades omlokalisera block under storleksändring av inoder \n"
+msgstr "Det gick inte att omlokalisera block under ändring av inodsstorleken \n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error in resizing the inode size.\nRun e2undo to undo the file system changes. \n"
-msgstr "Fel när storleken på inoder ändrades.\nKör e2undo för att göra filsystemsändringarna ogjorda. \n"
+msgstr "Fel vid ändring av inodsstorleken.\nKör e2undo för att ångra filsystemsändringarna. \n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while trying to get fs label"
-msgstr "vid försök att hitta fs-etiketten"
+msgstr "vid försök att hämta filsystemsetiketten"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while trying to set fs label"
-msgstr "vid försök att sätta fs-etiketten"
+msgstr "vid försök att ange filsystemsetiketten"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "If you are sure the filesystem is not in use on any node, run:\n'tune2fs -f -E clear_mmp {device}'\n"
@@ -343180,7 +343180,7 @@ msgstr "Om du är säker på att filsystemet inte används på någon nod, kör:
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "MMP block magic is bad. Try to fix it by running:\n'e2fsck -f %s'\n"
-msgstr "MMP-blockets magiska tal är felaktigt.  Försök att rätta det genom att köra:\n”e2fsck-f %s”\n"
+msgstr "MMP-blockets magiska tal är felaktigt. Försök att rätta det genom att köra:\n”e2fsck -f %s”\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Cannot modify a journal device.\n"
@@ -343204,11 +343204,11 @@ msgstr "Att ändra storlek på inoder kan ta ett tag."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Warning: The journal is dirty. You may wish to replay the journal like:\n\n	e2fsck -E journal_only %s\n\nthen rerun this command.  Otherwise, any changes made may be overwritten\nby journal recovery.\n"
-msgstr "Varning: journalen är smutsig.  Du kanske vill köra om journalen så här:\n\n	e2fsck -E journal_only %s\n\nkör sedan om detta kommando.  Annars kan eventuella ändringar skrivas över\nnär journalen återhämtas.\n"
+msgstr "Varning: journalen är smutsig. Du kanske vill återuppspela journalen så här:\n\n\te2fsck -E journal_only %s\n\nkör sedan om det här kommandot. Annars kan gjorda ändringar skrivas över\nnär journalen återställs.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Recovering journal.\n"
-msgstr "Återhämtar journalen.\n"
+msgstr "Återställer journalen.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Please run e2fsck -fy %s.\n"
@@ -343216,7 +343216,7 @@ msgstr "Kör e2fsck -fy %s.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Setting maximal mount count to %d\n"
-msgstr "Sätter max antal monteringar till %d\n"
+msgstr "Sätter högsta antal monteringar till %d\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Setting current mount count to %d\n"
@@ -343236,7 +343236,7 @@ msgstr "Gid för reserverade block är redan satt till %lu\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "interval between checks is too big (%lu)"
-msgstr "intervall mellan kontroller är för stort (%lu)"
+msgstr "intervallet mellan kontroller är för stort (%lu)"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Setting interval between checks to %lu seconds\n"
@@ -343244,7 +343244,7 @@ msgstr "Sätter intervall mellan kontroller till %lu sekunder\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Setting reserved blocks percentage to %g%% (%llu blocks)\n"
-msgstr "Sätter procent reserverade block till %g %% (%llu block)\n"
+msgstr "Sätter andelen reserverade block till %g %% (%llu block)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "reserved blocks count is too big (%llu)"
@@ -343260,19 +343260,19 @@ msgstr "\nFilsystemet har redan glesa superblock.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nSetting the sparse superblock flag not supported\nfor filesystems with the meta_bg feature enabled.\n"
-msgstr "\nAtt sätta superblockflaggan gles stödjs inte\nför filsystem med funktionen meta_bg aktiverad.\n"
+msgstr "\nDet går inte att sätta flaggan för glesa superblock\nför filsystem med funktionen meta_bg aktiverad.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nSparse superblock flag set.  %s"
-msgstr "\nFlaggan för glesa superblock satt.  %s"
+msgstr "\nFlaggan för glesa superblock är satt. %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nClearing the sparse superblock flag not supported.\n"
-msgstr "\nNollställning av superblocksflaggan gles stödjs inte.\n"
+msgstr "\nNollställning av flaggan för glesa superblock stöds inte.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Setting time filesystem last checked to %s\n"
-msgstr "Sätter tidpunkt för senaste filsystemskontroll till %s\n"
+msgstr "Sätter tidpunkten för senaste filsystemskontroll till %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Setting reserved blocks uid to %lu\n"
@@ -343280,7 +343280,7 @@ msgstr "Sätter uid för reserverade block till %lu\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error in using clear_mmp. It must be used with -f\n"
-msgstr "Fel vid användning av clear_mmp.  Det måste användas med -f\n"
+msgstr "Fel vid användning av clear_mmp. Det måste användas med -f\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The quota feature may only be changed when the filesystem is unmounted and not in use.\n"
@@ -343292,11 +343292,11 @@ msgstr "Kan inte ändra UUID:t på detta filsystem eftersom det har funktionsfla
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Setting the UUID on this filesystem could take some time."
-msgstr "Att sätta UUID:n på detta filsystem kan ta ett tag."
+msgstr "Att sätta UUID:t på filsystemet kan ta ett tag."
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The UUID may only be changed when the filesystem is unmounted.\n"
-msgstr "UUID:n får endast ändras när filsystemet är omonterat.\n"
+msgstr "UUID:t får endast ändras när filsystemet är omonterat.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "If you only use kernels newer than v4.4, run 'tune2fs -O metadata_csum_seed' and re-run this command.\n"
@@ -343308,7 +343308,7 @@ msgstr "Ogiltigt UUID-format\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Need to update journal superblock.\n"
-msgstr "Behöver uppdatera journalsuperblock.\n"
+msgstr "Journalsuperblocket måste uppdateras.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The inode size may only be changed when the filesystem is unmounted and not in use.\n"
@@ -343344,7 +343344,7 @@ msgstr "<fortsätter>\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Proceed anyway (or wait %d seconds to proceed) ? (y,N) "
-msgstr "Fortsätt ändå (eller vänta %d sekunder för att fortsätta)? (j,N) "
+msgstr "Fortsätt ändå (eller vänta %d sekunder)? (j,N) "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Proceed anyway? (y,N) "
@@ -343352,7 +343352,7 @@ msgstr "Fortsätt ändå? (j,N) "
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "mke2fs forced anyway.  Hope /etc/mtab is incorrect.\n"
-msgstr "mke2fs framtvingat ändå.  Hoppas /etc/mtab är felaktig.\n"
+msgstr "mke2fs tvingas ändå. Hoppas att /etc/mtab är felaktig.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "will not make a %s here!\n"
@@ -343360,7 +343360,7 @@ msgstr "skapar inte %s här!\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "mke2fs forced anyway.\n"
-msgstr "mke2fs framtvingad ändå.\n"
+msgstr "mke2fs tvingas ändå.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Couldn't allocate memory to parse journal options!\n"
@@ -343376,7 +343376,7 @@ msgstr "\nFelaktiga journalflaggor angivna.\n\nJournalflaggor separeras med komm
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nFilesystem too small for a journal\n"
-msgstr "\nFilsystem för litet för en journal\n"
+msgstr "\nFilsystemet är för litet för en journal\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nThe total requested journal size is %d blocks;\nit must be between %d and %u blocks.  Aborting.\n"
@@ -343388,7 +343388,7 @@ msgstr "\nDen totala journalstorleken är för stor för filsystemet.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "This filesystem will be automatically checked every %d mounts or\n%g days, whichever comes first.  Use tune2fs -c or -i to override.\n"
-msgstr "Detta filsystem kommer automatiskt kontrolleras var %d montering eller\n%g dag, vilket som kommer först.  Använd tune2fs -c eller -i för att ändra.\n"
+msgstr "Filsystemet kontrolleras automatiskt efter %d montering(ar) eller\n%g dagar, beroende på vilket som inträffar först. Använd tune2fs -c eller -i för att ändra detta.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Usage: %s [-d] [-p pidfile] [-s socketpath] [-T timeout]\n"
@@ -343404,15 +343404,15 @@ msgstr "       %s -k\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "uuidd daemon already running at pid %s\n"
-msgstr "uuidd-demonen som körs redan med pid %s\n"
+msgstr "uuidd-demonen körs redan med pid %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Couldn't create unix stream socket: %s"
-msgstr "Kunde inte skapa unix-strömuttag: %s"
+msgstr "Kunde inte skapa Unix-strömuttag: %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Couldn't bind unix socket %s: %s\n"
-msgstr "Kunde inte binda unix-uttag %s: %s\n"
+msgstr "Kunde inte binda Unix-uttaget %s: %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Couldn't listen on unix socket %s: %s\n"
@@ -343444,11 +343444,11 @@ msgstr "Oväntad svarslängd från servern %d\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Couldn't kill uuidd running at pid %d: %s\n"
-msgstr "Kunde inte döda uuidd som kör med pid %d: %s\n"
+msgstr "Kunde inte avsluta uuidd som körs med pid %d: %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Killed uuidd running at pid %d\n"
-msgstr "Dödade uuidd som körde med pid %d\n"
+msgstr "Avslutade uuidd som körde med pid %d\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Usage: %s [-r] [-t]\n"
@@ -343456,7 +343456,7 @@ msgstr "Användning: %s [-r] [-t]\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "# Extent dump:\n"
-msgstr "# Områdesdump:\n"
+msgstr "# Dump av utsträckningar:\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "#	Num=%llu, Size=%llu, Cursor=%llu, Sorted=%llu\n"
@@ -343464,7 +343464,7 @@ msgstr "#	Antal=%llu, Storlek=%llu, Markör=%llu, Sorterad=%llu\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Usage: %s [-d debug_flags] [-f] [-F] [-M] [-P] [-p] device [-b|-s|new_size] [-S RAID-stride] [-z undo_file]\n\n"
-msgstr "Användning: %s [-d felsökningflaggor] [-f] [-F] [-M] [-P] [-p] enhet [-b|-s|ny_storlek] [-S RAID-kliv] [-z gör-ogjort-fil]\n\n"
+msgstr "Användning: %s [-d felsökningsflaggor] [-f] [-F] [-M] [-P] [-p] enhet [-b|-s|ny_storlek] [-S RAID-kliv] [-z ångra-fil]\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Extending the inode table"
@@ -343492,7 +343492,7 @@ msgstr "Okänt pass?!?"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Begin pass %d (max = %lu)\n"
-msgstr "Börja pass %d (max = %lu)\n"
+msgstr "Påbörjar pass %d (max = %lu)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "\nResizing bigalloc file systems has not been fully tested.  Proceed at\nyour own risk!  Use the force option if you want to go ahead anyway.\n\n"
@@ -343520,7 +343520,7 @@ msgstr "Ogiltig ny storlek: %s\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "New size too large to be expressed in 32 bits\n"
-msgstr "Ny storlek för stor för att uttryckas i 32 bitar\n"
+msgstr "Den nya storleken är för stor för att uttryckas i 32 bitar\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "New size results in too many block group descriptors.\n"
@@ -343528,7 +343528,7 @@ msgstr "Ny storlek resulterar i för många blockgruppbeskrivare.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "New size smaller than minimum (%llu)\n"
-msgstr "Ny storlek mindre än minimum (%llu)\n"
+msgstr "Den nya storleken är mindre än minsta tillåtna (%llu)\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Invalid stride length"
@@ -343596,23 +343596,23 @@ msgstr "Filsystemet på %s är nu %llu (%d k) block långt.\n\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "while trying to truncate %s"
-msgstr "vid försök att korta av %s"
+msgstr "vid försök att avkorta %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "kernel does not support online resize with sparse_super2"
-msgstr "kärnan stödjer inte storleksändring uppkopplat med sparse_super2"
+msgstr "Kärnan stöder inte storleksändring under drift med sparse_super2"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Filesystem at %s is mounted on %s; on-line resizing required\n"
-msgstr "Filsystem på %s är monterat på %s, on-line-storleksändring krävs\n"
+msgstr "Filsystemet på %s är monterat på %s; storleksändring under drift krävs\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "On-line shrinking not supported"
-msgstr "Att krympa uppkopplat stödjs inte"
+msgstr "Krympning under drift stöds inte"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Filesystem does not support online resizing"
-msgstr "Filsystemet stödjer inte storleksändring uppkopplat"
+msgstr "Filsystemet stöder inte storleksändring under drift"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Not enough reserved gdt blocks for resizing"
@@ -343628,11 +343628,11 @@ msgstr "vid försök att öppna monteringspunkt %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Old resize interface requested.\n"
-msgstr "Gammalt gränssnitt för storleksändring begärt.\n"
+msgstr "Gammalt gränssnitt för storleksändring begärdes.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Permission denied to resize filesystem"
-msgstr "Rättighet att ändra storlek på filsystem nekas"
+msgstr "Behörighet att ändra storlek på filsystemet nekas"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "While checking for on-line resizing support"
@@ -343644,7 +343644,7 @@ msgstr "Kärnan stödjer inte storleksändring uppkopplat"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Performing an on-line resize of %s to %llu (%dk) blocks.\n"
-msgstr "Utför en storleksändring on-line av %s till %llu (%d k) block.\n"
+msgstr "Utför en storleksändring under drift av %s till %llu (%dk) block.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "While trying to extend the last group"
@@ -343652,7 +343652,7 @@ msgstr "Vid försök att utöka den sista gruppen"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "While trying to add group #%d"
-msgstr "Vid försök att öppna grupp nr. %d"
+msgstr "Vid försök att lägga till grupp nr. %d"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Filesystem at %s is mounted on %s, and on-line resizing is not supported on this system.\n"
@@ -343736,7 +343736,7 @@ msgstr "Fel magiskt tal för test io_channel-post"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Wrong magic number for directory block list structure"
-msgstr "Fel magiskt tal för katalogenblocklistepost"
+msgstr "Fel magiskt tal för katalogblocklistpost"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Wrong magic number for icount structure"
@@ -343768,7 +343768,7 @@ msgstr "Fel magiskt tal i superblocket"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Filesystem revision too high"
-msgstr "Filesystemversionen är för hög"
+msgstr "Filsystemets revision är för hög"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Attempt to write to filesystem opened read-only"
@@ -343832,11 +343832,11 @@ msgstr "EXT2-katalog skadad"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Attempt to read block from filesystem resulted in short read"
-msgstr "Försök att läsa block från filsystemet resulterade i en kort läsning"
+msgstr "Försök att läsa block från filsystemet resulterade i kort läsning"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Attempt to write block to filesystem resulted in short write"
-msgstr "Försök att skriva block till filsystemet resulterade i en kort skrivning"
+msgstr "Försök att skriva block till filsystemet resulterade i kort skrivning"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "No free space in the directory"
@@ -343968,7 +343968,7 @@ msgstr "IO-kanalen misslyckades söka vid läsning eller skrivning"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Invalid argument passed to ext2 library"
-msgstr "Ogiltigt argumentet skickat till ext2-biblioteket"
+msgstr "Ogiltigt argument skickat till ext2-biblioteket"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Could not allocate block in ext2 filesystem"
@@ -343976,7 +343976,7 @@ msgstr "Kunde inte allokera block i ext2-filsystem"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Could not allocate inode in ext2 filesystem"
-msgstr "Kunde inte allokera inoder i ext2-filsystem"
+msgstr "Kunde inte allokera en inod i ext2-filsystemet"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Ext2 inode is not a directory"
@@ -343992,7 +343992,7 @@ msgstr "Filen hittades inte av ext2_lookup"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "File open read-only"
-msgstr "Filen öppnas skrivskyddad"
+msgstr "Filen är öppnad skrivskyddad"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Ext2 directory block not found"
@@ -344008,7 +344008,7 @@ msgstr "Oimplementerad ext2-biblioteksfunktion"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "User cancel requested"
-msgstr "Användarannullering begärd"
+msgstr "Användaren begärde avbrott"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Ext2 file too big"
@@ -344028,7 +344028,7 @@ msgstr "Journalen måste vara minst 1024 block"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Unsupported journal version"
-msgstr "Ej stödd journalversion"
+msgstr "Journalversionen stöds inte"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Error loading external journal"
@@ -344036,11 +344036,11 @@ msgstr "Fel vid läsning av en extern journal"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Journal not found"
-msgstr "Journalen inte funnen"
+msgstr "Journalen hittades inte"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Directory hash unsupported"
-msgstr "Katalog-hash stödjs inte"
+msgstr "Kataloghashning stöds inte"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Illegal extended attribute block number"
@@ -344056,7 +344056,7 @@ msgstr "E2image-ögonblicksbild används inte"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Too many reserved group descriptor blocks"
-msgstr "För många reserverade gruppidentifierarblock"
+msgstr "För många reserverade gruppbeskrivningsblock"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Resize inode is corrupt"
@@ -344068,7 +344068,7 @@ msgstr "Försökte sätta en blockbitkarta med saknat indirektblock"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "TDB: Success"
-msgstr "TDB: Gick bra"
+msgstr "TDB: Lyckades"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "TDB: Corrupt database"
@@ -344096,7 +344096,7 @@ msgstr "TDB: Lås finns på andra nycklar"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "TDB: Invalid parameter"
-msgstr "TBD: Ogiltig parameter"
+msgstr "TDB: Ogiltig parameter"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "TDB: Record does not exist"
@@ -344112,11 +344112,11 @@ msgstr "Ext2fs-katalogblocklistan är tom"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Attempt to modify a block mapping via a read-only block iterator"
-msgstr "Försök att ändra en blockmappning via en endast läsbar blockiterator"
+msgstr "Försök att ändra en blockmappning via en skrivskyddad blockiterator"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Wrong magic number for ext4 extent saved path"
-msgstr "Fel magiskt nummer för sparad sökväg till ext4-utsträckning"
+msgstr "Fel magiskt tal för sparad sökväg till ext4-utsträckning"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Wrong magic number for 64-bit generic bitmap"
@@ -344176,7 +344176,7 @@ msgstr "Inget fritt utrymme i utsträckningskartan"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Inode does not use extents"
-msgstr "Inoder använder inte utsträckningar"
+msgstr "Inoden använder inte utsträckningar"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "No 'next' extent"
@@ -344192,7 +344192,7 @@ msgstr "Ingen ”upp”-utsträckning"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "No 'down' extent"
-msgstr "Ingen ”ner“-utsträckning"
+msgstr "Ingen ”ned”-utsträckning"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "No current node"
@@ -344212,7 +344212,7 @@ msgstr "Uppdelning skulle resultera i en tom nod"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Extent not found"
-msgstr "Utsträckningen inte funnen"
+msgstr "Utsträckningen hittades inte"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Operation not supported for inodes containing extents"
@@ -344224,19 +344224,19 @@ msgstr "Utsträckningslängden är felaktig"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "I/O Channel does not support 64-bit block numbers"
-msgstr "I/O-kanaler stödjer inte 64-bitars blocknummer"
+msgstr "I/O-kanalen stöder inte 64-bitars blocknummer"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Can't check if filesystem is mounted due to missing mtab file"
-msgstr "Kan inte kontrollera om filsystem är monterade för att mtab-filen saknas"
+msgstr "Det går inte att kontrollera om filsystemet är monterat eftersom mtab-filen saknas"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Filesystem too large to use legacy bitmaps"
-msgstr "Filsystemen är för stora för att använda gammaldags bitkartor"
+msgstr "Filsystemet är för stort för att använda äldre bitkartor"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "MMP: invalid magic number"
-msgstr "MMP: ogiltigt magiskt nummer"
+msgstr "MMP: ogiltigt magiskt tal"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "MMP: device currently active"
@@ -344252,7 +344252,7 @@ msgstr "MMP: blocknummer utanför filsystemets räckvidd"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "MMP: undergoing an unknown operation"
-msgstr "MMP: utför en okänd operation"
+msgstr "MMP: en okänd åtgärd pågår"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "MMP: filesystem still in use"
@@ -344276,7 +344276,7 @@ msgstr "Kontrollsumman för inodsbitkartan stämmer inte med bitkartan"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Extent block checksum does not match extent block"
-msgstr "Utökningens blockkontrollsumma stämmer inte utökningsblocket"
+msgstr "Utsträckningsblockets kontrollsumma stämmer inte med utsträckningsblocket"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Directory block does not have space for checksum"
@@ -344284,7 +344284,7 @@ msgstr "Katalogblocket har inte plats för kontrollsumman"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Directory block checksum does not match directory block"
-msgstr "Katalogblocksumman stämmer inte med katalogblocket"
+msgstr "Katalogblockets kontrollsumma stämmer inte med katalogblocket"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Extended attribute block checksum does not match block"
@@ -344308,7 +344308,7 @@ msgstr "Ext2-filen finns redan"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Block bitmap checksum does not match bitmap"
-msgstr "Blockbitkartan stämmer inte med bitkartan"
+msgstr "Blockbitkartans kontrollsumma stämmer inte med bitkartan"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Cannot iterate data blocks of an inode containing inline data"
@@ -344324,7 +344324,7 @@ msgstr "Ett utökat attribut har en ogiltig värdelängd"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Extended attribute has an incorrect hash"
-msgstr "Kontrollsumman för utökade attribut har en felaktig hash"
+msgstr "Ett utökat attribut har en felaktig hash"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Extended attribute block has a bad header"
@@ -344336,7 +344336,7 @@ msgstr "Nyckeln för utökade attribut finns inte"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Insufficient space to store extended attribute data"
-msgstr "Ofullständigt utrymme för att lagra utökade attributdata"
+msgstr "Otillräckligt utrymme för att lagra data för utökade attribut"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Filesystem is missing ext_attr or inline_data feature"
@@ -344344,7 +344344,7 @@ msgstr "Filsystemet saknar funktionen ext_attr eller inline_data"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Inode doesn't have inline data"
-msgstr "Inoder har inte inline-data"
+msgstr "Inoden har inte inline-data"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "No block for an inode with inline data"
@@ -344364,7 +344364,7 @@ msgstr "Inoden verkar innehålla skräp"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Extended attribute has an invalid value offset"
-msgstr "Utökade attribut har ett ogiltigt värdeavstånd"
+msgstr "Ett utökat attribut har ett ogiltigt värdeavstånd"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Journal flags inconsistent"
@@ -344384,7 +344384,7 @@ msgstr "Filsystemet är trasigt"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Bad CRC detected in file system"
-msgstr "Felaktig CRC upptäckt i filsystemet"
+msgstr "Felaktig CRC upptäcktes i filsystemet"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "The journal superblock is corrupt"
@@ -344408,7 +344408,7 @@ msgstr "Den interna ext2_filsys-datastrukturen förefaller vara trasig"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Found cyclic loop in extent tree"
-msgstr "Hittade en cyklisk slinga i utökningsträdet"
+msgstr "Hittade en cyklisk slinga i utsträckningsträdet"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Operation not supported on an external journal"
@@ -344416,7 +344416,7 @@ msgstr "Åtgärden stödjs inte på en extern journal"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Profile version 0.0"
-msgstr "Profil version 0.0"
+msgstr "Profilversion 0.0"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Bad magic value in profile_node"
@@ -344436,7 +344436,7 @@ msgstr "Försök att lägga till en relation till en nod som inte är en sektion
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "A profile section header has a non-zero value"
-msgstr "Ett huvud till en profilsektion har ett värde skilt från noll"
+msgstr "Ett sektionshuvud i profilen har ett värde skilt från noll"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Bad linked list in profile structures"
@@ -344456,7 +344456,7 @@ msgstr "Felaktigt magiskt värde i profiliterator"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Can't set value on section node"
-msgstr "Kan inte sätta värde på sektionsnod"
+msgstr "Det går inte att ange ett värde på en sektionsnod"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Invalid argument passed to profile library"
@@ -344468,7 +344468,7 @@ msgstr "Försök att ändra en endast läsbar profil"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Profile section header not at top level"
-msgstr "Huvudet till profilsektionen är inte på toppnivån"
+msgstr "Profilens sektionshuvud är inte på toppnivån"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Syntax error in profile section header"
@@ -344480,11 +344480,11 @@ msgstr "Syntaxfel i en profilrelation"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Extra closing brace in profile"
-msgstr "Extra avslutande klammer i profilen"
+msgstr "Extra avslutande klammerparentes i profilen"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Missing open brace in profile"
-msgstr "Inledande klammer saknas i profilen"
+msgstr "Inledande klammerparentes saknas i profilen"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Bad magic value in profile_t"
@@ -344496,7 +344496,7 @@ msgstr "Felaktigt magiskt värde i profile_section_t"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Iteration through all top level section not supported"
-msgstr "Iteration över alla toppnivåsektioner stödjs inte"
+msgstr "Iteration över alla sektioner på toppnivå stöds inte"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Invalid profile_section object"
@@ -344548,11 +344548,11 @@ msgstr "	senast monterad på %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "	created on %s"
-msgstr "	skapad %s"
+msgstr "\tskapades %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "	last modified on %s"
-msgstr "	senast modifierad på %s"
+msgstr "\tsenast ändrad %s"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "Found a %s partition table in %s\n"
@@ -344568,7 +344568,7 @@ msgstr "\nEnheten existerar uppenbarligen inte; angav du den korrekt?\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s is not a block special device.\n"
-msgstr "%s är inte en blockspecialenhet.\n"
+msgstr "%s är inte en särskild blockenhet.\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s contains a %s file system labelled '%s'\n"
@@ -344580,7 +344580,7 @@ msgstr "%s innehåller ett %s-filsystem\n"
 
 #. from tp:e2fsprogs-1.47.3-rc1
 msgid "%s contains `%s' data\n"
-msgstr "%s innehåller ”%s”-data\n"
+msgstr "%s innehåller data av typen ”%s”\n"
 
 #. from tp:enscript-1.6.5.90
 msgid "xmalloc(): couldn't allocate %d bytes\n"
