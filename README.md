@@ -1,6 +1,6 @@
 # Swedish Translation Memory
 
-**688 224 unique English–Swedish translation pairs** in 15 ecosystem exports
+**688 220 unique English–Swedish translation pairs** in 15 ecosystem exports
 (790 331 entries before deduplicating across ecosystems). These counts describe
 the files shipped in this repository, exported on 2026-09-19.
 
