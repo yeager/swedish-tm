@@ -4,6 +4,18 @@
 (790 331 entries before deduplicating across ecosystems). These counts describe
 the files shipped in this repository, exported on 2026-09-19.
 
+## Release 1.1.0
+
+Release 1.1.0 publishes the validated 2026-09-19 exports. It contains 790 331
+active entries and 688 224 distinct English–Swedish pairs across 15 ecosystems.
+The Translation Project review has individually checked 88 125 of 127 367
+source entries and made 21 181 confirmed corrections; its scope and remaining
+work are recorded in [TP-REVIEW.md](TP-REVIEW.md). The review is ongoing, so
+every match remains a suggestion to be evaluated in its destination context.
+
+All 15 PO files and 14 corresponding TMX files are checked in CI for gettext
+validity, XML safety, format agreement and statistics consistency.
+
 ## Contents
 
 | Ecosystem | Pairs in export | TMX | PO compendium |
