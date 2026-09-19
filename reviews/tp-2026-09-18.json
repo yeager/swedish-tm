@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 84792,
+  "reviewed_tp_entries": 85132,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 20201,
+  "changed_pairs": 20366,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 20201,
+      "confirmed_swedish_changes": 20366,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "49e39fad1e02011d27102a0234ddddaa2b4541acec1d889c9365c8a7d277b315"
+      "sha256": "c7ebcae242c4633fdb34976573418e8af57ed0a4d66d140ffb2ff08fff107fe6"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 20201,
+      "confirmed_swedish_changes": 20366,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "2b94468bc75ead9a58cd9d2c56f52957aad90968cd9f96ba52bedabf065ea957"
+      "sha256": "c78c57f7a271ecd2c60feea36ada26609d4fac807f4928d51820a2574bc4be07"
     }
   },
   "unmapped_plural_fixes": [
@@ -110,7 +110,8 @@
     "mailutils:9084",
     "man-db:70",
     "nano:255",
-    "nano:275"
+    "nano:275",
+    "nano:2553"
   ],
   "changes": [
     {
@@ -82319,6 +82320,1326 @@
       "msgid": "Smart home key",
       "before": "Smart hemtangent",
       "after": "Smart Home-tangent",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1407",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Auto indent",
+      "before": "Automatisk indragning",
+      "after": "Automatiskt indrag",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1415",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Hard wrapping of overlong lines",
+      "before": "Fast radbrytning av långa rader",
+      "after": "Hård radbrytning av för långa rader",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1427",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Search Command Help Text\n\n Enter the words or characters you would like to search for, and then press Enter.  If there is a match for the text you entered, the screen will be updated to the location of the nearest match for the search string.\n\n The previous search string will be shown in brackets after the search prompt.  Hitting Enter without entering any text will perform the previous search.  ",
+      "before": "Hjälptext för sökkommando\n\n Ange de ord eller tecken som du vill söka efter och tryck sedan Retur. Om det finns en träff för det du angav kommer skärmen att uppdateras till att visa den närmaste träffen för söksträngen.\n\n Den föregående söksträngen kommer att visas inom klamrar efter sökprompten. Att trycka Retur utan att ange någon text kommer att utföra den tidigare sökningen.  ",
+      "after": "Hjälp för sökkommandot\n\nAnge de ord eller tecken du vill söka efter och tryck sedan på Retur. Om den angivna texten matchar något uppdateras skärmen så att den närmaste träffen för söksträngen visas.\n\nDen föregående söksträngen visas inom hakparenteser efter sökprompten. Om du trycker på Retur utan att ange någon text utförs den föregående sökningen.  ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1441",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "If you have selected text with the mark and then search to replace, only matches in the selected text will be replaced.\n\n The following function keys are available in Search mode:\n\n",
+      "before": "Om du har markerat text med markören och sedan sökt och ersatt, kommer endast träffar i den markerade texten att ersättas.\n\n Följande funktionstangenter finns tillgängliga i sökläget:\n\n",
+      "after": "Om du har markerat text och sedan söker och ersätter, ersätts endast träffar i den markerade texten.\n\nFöljande funktionstangenter är tillgängliga i sökläget:\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1453",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "=== Replacement ===\n\n Type the characters that should replace what you typed at the previous prompt, and press Enter.\n\n",
+      "before": "=== Ersättning ===\n\nSkriv tecknen som ska ersätta det du skrev vid föregående prompt och tryck på Retur.\n\n",
+      "after": "=== Ersättning ===\n\nSkriv tecknen som ska ersätta det du angav vid föregående prompt och tryck på Retur.\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1473",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Go To Line Help Text\n\n Enter the line number that you wish to go to and hit Enter.  If there are fewer lines of text than the number you entered, you will be brought to the last line of the file.\n\n The following function keys are available in Go To Line mode:\n\n",
+      "before": "Hjälptext för gå till rad\n\n Ange det radnummer du vill gå till och tryck Retur. Om det finns färre textrader än det tal du angav kommer du att tas till den sista raden i filen.\n\n Följande funktionstangenter är tillgängliga i gå till rad-läge:\n\n",
+      "after": "Hjälp för Gå till rad\n\nAnge det radnummer du vill gå till och tryck på Retur. Om det finns färre rader text än talet du angav, kommer du till filens sista rad.\n\nFöljande funktionstangenter är tillgängliga i Gå till rad-läget:\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1489",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Insert File Help Text\n\n Type in the name of a file to be inserted into the current file buffer at the current cursor location.\n\n If you have compiled nano with multiple file buffer support, and enable multiple file buffers with the -F or --multibuffer command line flags, the Meta-F toggle, or a nanorc file, inserting a file will cause it to be loaded into a separate buffer (use Meta-< and > to switch between file buffers).  ",
+      "before": "Hjälptext för infoga fil\n\n Ange namnet på den fil som ska sättas in i den aktuella filbufferten på den aktuella platsen för markören.\n\n Om du har kompilerat nano med stöd för flera samtidiga filbuffertar och aktiverar flera buffertar med kommandoradsflaggorna -F eller --multibuffer, kombinationen Meta-F eller en nanorc-fil, kommer att infoga en fil göra så att den läses in i en separat buffert (använd Meta-< och > för att växla mellan filbuffertar). ",
+      "after": "Hjälp för Infoga fil\n\nAnge namnet på en fil som ska infogas i den aktuella filbufferten vid markörens aktuella position.\n\nOm du har kompilerat nano med stöd för flera filbuffertar och aktiverar flera filbuffertar med kommandoradsflaggorna -F eller --multibuffer, växlingen Meta-F eller en nanorc-fil, läses en infogad fil in i en separat buffert (använd Meta-< och > för att växla mellan filbuffertar).  ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1503",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "If you need another blank buffer, do not enter any filename, or type in a nonexistent filename at the prompt and press Enter.\n\n The following function keys are available in Insert File mode:\n\n",
+      "before": "Om du behöver ytterligare en tom buffert, ange inget filnamn, eller ange ett ickeexisterande filnamn vid prompten och tryck Retur.\n\n Följande funktionstangenter är tillgängliga i infoga fil-läge:\n\n",
+      "after": "Om du behöver en ny tom buffert ska du inte ange något filnamn, eller ange ett filnamn som inte finns vid prompten och trycka på Retur.\n\nFöljande funktionstangenter är tillgängliga i läget Infoga fil:\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1515",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Write File Help Text\n\n Type the name that you wish to save the current file as and press Enter to save the file.\n\n If you have selected text with the mark, you will be prompted to save only the selected portion to a separate file.  To reduce the chance of overwriting the current file with just a portion of it, the current filename is not the default in this mode.\n\n The following function keys are available in Write File mode:\n\n",
+      "before": "Hjälptext för skriv fil\n\n Ange det namn som du vill spara aktuell fil som och tryck Retur för att spara filen.\n\n Om du har markerat text med markören kommer du få frågan om att endast spara markeringen till en separat fil. För att minska risken att den aktuella filen skrivs över med endast en del av den är inte det aktuella filnamnet standardalternativet i detta läge.\n\n Följande funktionstangenter är tillgängliga i skriv fil-läge:\n\n",
+      "after": "Hjälp för Spara fil\n\nAnge det namn som du vill spara den aktuella filen under och tryck på Retur för att spara filen.\n\nOm du har markerat text ombeds du att endast spara den markerade delen till en separat fil. För att minska risken att skriva över den aktuella filen med bara en del av den, är det aktuella filnamnet inte förvalt i detta läge.\n\nFöljande funktionstangenter är tillgängliga i läget Spara fil:\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1535",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "File Browser Help Text\n\n The file browser is used to visually browse the directory structure to select a file for reading or writing.  You may use the arrow keys or Page Up/Down to browse through the files, and S or Enter to choose the selected file or enter the selected directory.  To move up one level, select the directory called \"..\" at the top of the file list.\n\n The following function keys are available in the file browser:\n\n",
+      "before": "Hjälptext för filbläddrare\n\n Filbläddraren används för att visuellt bläddra i katalogstrukturen för att välja en fil för läsning eller skrivning. Du kan använda piltangenterna eller PageUp/PageDown för att bläddra bland filerna, och S eller Retur för att välja den markerade filen eller gå in i den markerade katalogen. För att gå upp en nivå väljer du katalogen kallad \"..\" överst i fillistan.\n\n Följande funktionstangenter är tillgängliga i filbläddraren:\n\n",
+      "after": "Hjälp för filbläddraren\n\nFilbläddraren används för att bläddra visuellt i katalogstrukturen och välja en fil för läsning eller skrivning. Du kan använda piltangenterna eller Page Up/Page Down för att bläddra bland filerna, samt S eller Retur för att välja den markerade filen eller gå in i den markerade katalogen. Välj katalogen ”..” längst upp i fillistan för att gå upp en nivå.\n\nFöljande funktionstangenter är tillgängliga i filbläddraren:\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1551",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Browser Search Command Help Text\n\n Enter the words or characters you would like to search for, and then press Enter.  If there is a match for the text you entered, the screen will be updated to the location of the nearest match for the search string.\n\n The previous search string will be shown in brackets after the search prompt.  Hitting Enter without entering any text will perform the previous search.\n\n",
+      "before": "Hjälptext för sökkommando\n\n Ange de ord eller tecken som du vill söka efter och tryck sedan Retur. Om det finns en träff för det du angav kommer skärmen att uppdateras till att visa den närmaste träffen för söksträngen.\n\n Den föregående söksträngen kommer att visas inom klamrar efter sökprompten. Att trycka Retur utan att ange någon text kommer att genomföra den tidigare sökningen.\n\n",
+      "after": "Hjälp för filbläddrarens sökkommando\n\nAnge de ord eller tecken du vill söka efter och tryck sedan på Retur. Om den angivna texten matchar något uppdateras skärmen så att den närmaste träffen för söksträngen visas.\n\nDen föregående söksträngen visas inom hakparenteser efter sökprompten. Om du trycker på Retur utan att ange någon text utförs den föregående sökningen.\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1567",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Browser Go To Directory Help Text\n\n Enter the name of the directory you would like to browse to.\n\n If tab completion has not been disabled, you can use the Tab key to (attempt to) automatically complete the directory name.\n\n The following function keys are available in Browser Go To Directory mode:\n\n",
+      "before": "Hjälptext för gå till katalog i bläddraren\n\n Ange namnet på den katalog som du vill gå till.\n\n Om tabulatorkomplettering inte har inaktiverats kan du använda tabulatortangenten för att (försöka att) automatiskt komplettera katalognamnet.\n\n Följande funktionstangenter är tillgängliga i bläddrarens gå till katalog-läge:\n\n",
+      "after": "Hjälp för filbläddrarens Gå till katalog\n\nAnge namnet på den katalog du vill bläddra till.\n\nOm tabulatorkomplettering inte har inaktiverats kan du använda tabulatortangenten för att försöka komplettera katalognamnet automatiskt.\n\nFöljande funktionstangenter är tillgängliga i filbläddrarens Gå till katalog-läge:\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1595",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Execute Command Help Text\n\n This mode allows you to insert the output of a command run by the shell into the current buffer (or into a new buffer).  If the command is preceded by '|' (the pipe symbol), the current contents of the buffer (or marked region) will be piped to the command.  ",
+      "before": "Hjälptext för exekvera kommando\n\n Detta läge låter dig infoga utdata från ett kommando som körs av ett skal i den aktuella bufferten (eller till ny buffert i flerbuffertläge). Om kommandot föregås av pip-symbolen ”|” skickas aktuellt innehåll i bufferten (eller markerat område) till kommandot. ",
+      "after": "Hjälp för Kör kommando\n\nI detta läge kan du infoga utdata från ett kommando som körs av skalet i den aktuella bufferten (eller i en ny buffert). Om kommandot föregås av ”|” (rörsymbolen), skickas det aktuella innehållet i bufferten (eller den markerade regionen) genom ett rör till kommandot.  ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1605",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "If you just need another blank buffer, do not enter any command.\n\n You can also pick one of four tools, or cut a large piece of the buffer, or put the editor to sleep.\n\n",
+      "before": "Om du behöver en till tom buffert, ange inget kommando.\n\n Du kan också välja ett av fyra verktyg, eller att klippa ut en större del av bufferten, eller sätta redigeraren i viloläge.\n\n",
+      "after": "Om du behöver ytterligare en tom buffert ska du inte ange något kommando.\n\nDu kan även välja ett av fyra verktyg, klippa ut en stor del av bufferten eller pausa redigeraren.\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1617",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "=== Linter ===\n\n In this mode, the status bar shows an error message or warning, and the cursor is put at the corresponding position in the file.  With PageUp and PageDown you can switch to earlier and later messages.\n\n",
+      "before": "=== Linter ===\n\n I detta läge visar statusraden ett felmeddelande eller varning, och markören flyttas till motsvarande position i filen. Med upppil och nedpil kan du växla till tidigare och senare meddelanden.\n\n",
+      "after": "=== Felkontroll ===\n\nI detta läge visar statusraden ett felmeddelande eller en varning, och markören placeras vid motsvarande position i filen. Med Page Up och Page Down kan du växla till tidigare och senare meddelanden.\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1629",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": " The following function keys are available in Linter mode:\n\n",
+      "before": " Följande funktionstangenter är tillgängliga i Linter-läget:\n\n",
+      "after": "Följande funktionstangenter är tillgängliga i läget Felkontroll:\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1637",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Main nano help text\n\n The nano editor is designed to emulate the functionality and ease-of-use of the UW Pico text editor.  There are four main sections of the editor.  The top line shows the program version, the current filename being edited, and whether or not the file has been modified.  Next is the main editor window showing the file being edited.  The status line is the third line from the bottom and shows important messages.  ",
+      "before": "Hjälptext för nano\n\n Textredigeraren nano är skapad för att emulera funktionaliteten och lättanvändheten hos textredigeraren UW Pico. Det finns fyra huvuddelar i redigeraren: Översta raden visar programmets versionsnummer, namnet på filen som redigeras och om filen har ändrats. Efter detta finns huvudfönstret som visar filen som redigeras. Statusraden är tredje raden från nederkanten och visar viktiga meddelanden.  ",
+      "after": "Hjälp för nano\n\nTextredigeraren nano är utformad för att efterlikna funktionerna och användarvänligheten hos textredigeraren UW Pico. Redigeraren har fyra huvuddelar. Den översta raden visar programversionen, namnet på den fil som redigeras och om filen har ändrats. Därefter följer huvudredigeringsfönstret, som visar filen som redigeras. Statusraden är den tredje raden från nederkanten och visar viktiga meddelanden.  ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1647",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "The bottom two lines show the most commonly used shortcuts in the editor.\n\n Shortcuts are written as follows: Control-key sequences are notated with a '^' and can be entered either by using the Ctrl key or pressing the Esc key twice.  Meta-key sequences are notated with 'M-' and can be entered using either the Alt, Cmd, or Esc key, depending on your keyboard setup.  ",
+      "before": "De nedersta två raderna visar de vanligaste kortkommandona som används i textredigeraren.\n\n Notationen för kortkommandon är som följer: Sekvenser med Control-tangent skrivs med ett taktecken (^) och kan anges genom att trycka ned antingen Ctrl-tangenten eller genom att trycka Escape-tangenten två gånger. Meta-key-sekvenser skrivs med metatecknet (M) och anges antingen med Esc-, Alt- eller Cmd-tangenten beroende på dina tangentbordsinställningar.  ",
+      "after": "De nedersta två raderna visar de vanligaste kortkommandona i redigeraren.\n\nKortkommandon skrivs så här: Ctrl-tangentsekvenser anges med ”^” och kan skrivas genom att använda Ctrl-tangenten eller trycka två gånger på Esc-tangenten. Meta-tangentsekvenser anges med ”M-” och kan skrivas med Alt-, Cmd- eller Esc-tangenten, beroende på tangentbordsinställningarna.  ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1657",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Also, pressing Esc twice and then typing a three-digit decimal number from 000 to 255 will enter the character with the corresponding value.  The following keystrokes are available in the main editor window.  Alternative keys are shown in parentheses:\n\n",
+      "before": "Dessutom kan du genom att trycka på Escape två gånger och sedan ange ett tresiffrigt tal från 000 till 255 ange det tecken som har motsvarande ASCII-kod. Följande tangentkombinationer är tillgängliga i redigerarens huvudfönster. Alternativa tangenter visas inom parentes:\n\n",
+      "after": "Du kan också skriva tecknet med motsvarande värde genom att trycka två gånger på Esc och sedan ange ett tresiffrigt decimaltal från 000 till 255. Följande tangenttryckningar är tillgängliga i huvudredigeringsfönstret. Alternativa tangenter visas inom parentes:\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1673",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Unable to create directory %s: %s\nIt is required for saving/loading search history or cursor positions.\n",
+      "before": "Kunde inte skapa katalogen %s: %s\nDen krävs för skrivning/inläsning av sökhistorik eller markörpos.\n",
+      "after": "Kunde inte skapa katalogen %s: %s\nDen krävs för att spara eller läsa in sökhistorik och markörpositioner.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1682",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Path %s is not a directory and needs to be.\nNano will be unable to load or save search history or cursor positions.\n",
+      "before": "Sökvägen %s är inte en katalog som den måste vara.\nNano kommer inte att kunna läsa in eller spara sökhistorik eller markörpos.\n",
+      "after": "Sökvägen %s är inte en katalog men måste vara det.\nNano kan inte läsa in eller spara sökhistorik och markörpositioner.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1703",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Key is invalid in view mode",
+      "before": "Tangenten ogiltig i visningsläget",
+      "after": "Tangenten är ogiltig i visningsläget",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1711",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "To suspend, type ^T^Z",
+      "before": "För vänteläge, ange ^T^Z",
+      "after": "Pausa med ^T^Z",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1719",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Save modified buffer? ",
+      "before": "Spara ändrad buffert? ",
+      "after": "Spara den ändrade bufferten? ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1741",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Usage: nano [OPTIONS] [[+LINE[,COLUMN]] FILE]...\n\n",
+      "before": "Användning: nano [FLAGGOR] [[+RAD,KOLUMN]] FIL]...\n\n",
+      "after": "Användning: nano [FLAGGOR] [[+RAD[,KOLUMN]] FIL]...\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1750",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "To place the cursor on a specific line of a file, put the line number with\na '+' before the filename.  The column number can be added after a comma.\n",
+      "before": "För att placera markören på en specifik rad i en fil, ange radnummer med\nett ”+” före filnamnet. Kolumnnumret kan sedan läggas till efter ett komma.\n",
+      "after": "Placera markören på en viss rad i en fil genom att ange radnumret med\n”+” före filnamnet. Kolumnnumret kan läggas till efter ett kommatecken.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1761",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "When a filename is '-', nano reads data from standard input.\n\n",
+      "before": "När ett filnamn är ”-” läser nano data från standard in.\n\n",
+      "after": "När ett filnamn är ”-” läser nano data från standardindata.\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1783",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Enable smart home key",
+      "before": "Aktivera smart hemtangent",
+      "after": "Aktivera smart Home-tangent",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1793",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "-C <dir>",
+      "before": "-C <kat>",
+      "after": "-C <dir>",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1797",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "--backupdir=<dir>",
+      "before": "--backupdir=<kat>",
+      "after": "--backupdir=<dir>",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1805",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Use bold instead of reverse video text",
+      "before": "Använd fet stil istället för omvänd videotext",
+      "after": "Använd fetstil i stället för omvänd video",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1809",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Convert typed tabs to spaces",
+      "before": "Konvertera angivna tabulatorer till blanksteg",
+      "after": "Konvertera inmatade tabulatorer till blanksteg",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1813",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Read a file into a new buffer by default",
+      "before": "Läs en fil till en ny buffert som standard",
+      "after": "Läs som standard in en fil i en ny buffert",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1821",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Save & reload old search/replace strings",
+      "before": "Spara & läs om gamla sök/ersätt-strängar",
+      "after": "Spara och läs in tidigare sök- och ersättningssträngar",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1825",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Don't look at nanorc files",
+      "before": "Titta inte i nanorc-filer",
+      "after": "Läs inte nanorc-filer",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1829",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "-J <number>",
+      "before": "-J <tal>",
+      "after": "-J <number>",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1833",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "--guidestripe=<number>",
+      "before": "--guidestripe=<tal>",
+      "after": "--guidestripe=<number>",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1837",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Show a guiding bar at this column",
+      "before": "Visa en guiderad i denna kolumn",
+      "after": "Visa en hjälprad i denna kolumn",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1841",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Fix numeric keypad key confusion problem",
+      "before": "Ta hand om förvirringsproblemet med numeriska tangentbordet",
+      "after": "Åtgärda sammanblandade tangenter på det numeriska tangentbordet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1845",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Don't add an automatic newline",
+      "before": "Lägg ej till ett automatiskt nyradstecken",
+      "after": "Lägg inte till en automatisk radbrytning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1849",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Trim tail spaces when hard-wrapping",
+      "before": "Trimma eftersläpande blanksteg vid fast radbrytning",
+      "after": "Ta bort efterföljande blanksteg vid hård radbrytning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1859",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Leading whitespace means new paragraph",
+      "before": "Inledande blanktecken betyder ny paragraf",
+      "after": "Inledande blanktecken betyder ett nytt stycke",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1863",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Save & restore position of the cursor",
+      "before": "Spara & återställ markörens position",
+      "after": "Spara och återställ markörpositionen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1875",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Regular expression to match quoting",
+      "before": "Reguljärt uttryck att matcha citat",
+      "after": "Reguljärt uttryck för att matcha citeringar",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1885",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Display overlong lines on multiple rows",
+      "before": "Visa långa linjer på flera rader",
+      "after": "Visa för långa rader på flera rader",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1889",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "-T <number>",
+      "before": "-T <tal>",
+      "after": "-T <number>",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1893",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "--tabsize=<number>",
+      "before": "--tabsize=<tal>",
+      "after": "--tabsize=<number>",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1897",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Make a tab this number of columns wide",
+      "before": "Skapa en flik detta antal kolumner bred",
+      "after": "Gör en tabulator så här många kolumner bred",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1901",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Wipe status bar upon next keystroke",
+      "before": "Rensa statusrad vid nästa tangenttryckning",
+      "after": "Rensa statusraden vid nästa tangenttryckning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1909",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Detect word boundaries more accurately",
+      "before": "Identifiera ordgränsen mer noggrant",
+      "after": "Identifiera ordgränser noggrannare",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1921",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Which other characters are word parts",
+      "before": "Vilka andra tecken är orddelar",
+      "after": "Vilka andra tecken som är delar av ord",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1933",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Syntax definition to use for coloring",
+      "before": "Syntaxdefinition att använda för färger",
+      "after": "Syntaxdefinition för färgmarkering",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1937",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Let Bsp and Del erase a marked region",
+      "before": "Låt BakS och Del radera ett markerat område",
+      "after": "Låt Bsp och Del radera en markerad region",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1941",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "When soft-wrapping, do it at whitespace",
+      "before": "Mjuk radbrytning ska ske vid blanktecken",
+      "after": "Gör mjuk radbrytning vid blanktecken",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1945",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Automatically hard-wrap overlong lines",
+      "before": "Automatisk fast radbrytning för långa rader",
+      "after": "Gör automatiskt hård radbrytning av för långa rader",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1949",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Constantly show cursor position",
+      "before": "Visa markörposition hela tiden",
+      "after": "Visa alltid markörpositionen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1953",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Fix Backspace/Delete confusion problem",
+      "before": "Fixa förvirringsproblemet med Backsteg/Delete",
+      "after": "Åtgärda sammanblandade Backsteg- och Delete-tangenter",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1957",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Keep the line below the title bar empty",
+      "before": "Håll raden under titelraden tom",
+      "after": "Lämna raden under titelraden tom",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1961",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "-f <file>",
+      "before": "-f <fil>",
+      "after": "-f <file>",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1965",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "--rcfile=<file>",
+      "before": "--rcfile=<fil>",
+      "after": "--rcfile=<file>",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1973",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Show cursor in file browser & help text",
+      "before": "Visa markör i filbläddrare & hjälptext",
+      "after": "Visa markören i filbläddraren och hjälptexten",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1981",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Automatically indent new lines",
+      "before": "Automatisk indentering",
+      "after": "Indrag automatiskt på nya rader",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1985",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Scroll per half-screen, not per line",
+      "before": "Rulla per halvskärm, ej per rad",
+      "after": "Rulla en halv skärm åt gången, inte en rad",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:1989",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Cut from cursor to end of line",
+      "before": "Klipp ut från markören till slutet på raden",
+      "after": "Klipp ut från markören till radens slut",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2005",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "-o <dir>",
+      "before": "-o <kat>",
+      "after": "-o <dir>",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2009",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "--operatingdir=<dir>",
+      "before": "--operatingdir=<kat>",
+      "after": "--operatingdir=<dir>",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2013",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Set operating directory",
+      "before": "Ställ in arbetskatalog",
+      "after": "Ange arbetskatalog",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2021",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Show a position+portion indicator",
+      "before": "Visa position+positionsindikering",
+      "after": "Visa en positions- och omfattningsindikator",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2025",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "-r <number>",
+      "before": "-r <tal>",
+      "after": "-r <number>",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2029",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "--fill=<number>",
+      "before": "-fill=<tal>",
+      "after": "--fill=<number>",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2033",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Set width for hard-wrap and justify",
+      "before": "Ange bredd för fast radbrytning och justering",
+      "after": "Ange bredd för hård radbrytning och justering",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2045",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Use this alternative spell checker",
+      "before": "Använd alternativ stavningskontroll",
+      "after": "Använd denna alternativa stavningskontroll",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2049",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Save changes on exit, don't prompt",
+      "before": "Spara automatiskt vid avslut, fråga inte",
+      "after": "Spara ändringar vid avslut utan att fråga",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2053",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Save a file by default in Unix format",
+      "before": "Spara som standard en fil i Unix-format",
+      "after": "Spara som standard filer i Unix-format",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2061",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Don't hard-wrap long lines [default]",
+      "before": "[Standard] Använd inte fast radbrytning för långa rader",
+      "after": "Gör inte hård radbrytning av långa rader [standard]",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2077",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Also try magic to determine syntax",
+      "before": "Prova också magic för att avgöra syntax",
+      "after": "Försök även använda magic för att fastställa syntaxen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2081",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Accept 'filename:linenumber' notation",
+      "before": "Acceptera \"filnamn:radnummer\" notation",
+      "after": "Acceptera notationen ”filnamn:radnummer”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2085",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Show some states on the title bar",
+      "before": "Visa en del tillstånd på titelraden",
+      "after": "Visa vissa tillstånd på titelraden",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2093",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Hide all bars, use whole terminal",
+      "before": "Dölj alla lister, använd hela terminalen",
+      "after": "Dölj alla lister och använd hela terminalen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2112",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": " (C) %s the Free Software Foundation and various contributors\n",
+      "before": " (C) %s Free Software Foundation och deltagare\n",
+      "after": " (C) %s Free Software Foundation och olika bidragsgivare\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2128",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Could not reconnect stdin to keyboard\n",
+      "before": "Det gick inte att återansluta stdin till tangentbordet\n",
+      "after": "Kunde inte återansluta standardindata till tangentbordet\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2137",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Failed to open stdin: %s",
+      "before": "Misslyckades med att öppna stdin: %s",
+      "after": "Kunde inte öppna standardindata: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2142",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Received SIGHUP or SIGTERM\n",
+      "before": "Mottog SIGHUP eller SIGTERM\n",
+      "after": "Tog emot SIGHUP eller SIGTERM\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2146",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Sorry! Nano crashed!  Code: %d.  Please report a bug.\n",
+      "before": "Tyvärr! Nano kraschade! Kod: %d. Vänligen rapportera felet.\n",
+      "after": "Tyvärr! Nano kraschade! Kod: %d. Rapportera ett fel.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2151",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Use \"fg\" to return to nano.\n",
+      "before": "Använd \"fg\" för att återvända till nano.\n",
+      "after": "Använd ”fg” för att återgå till nano.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2183",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Unbound key: F%i",
+      "before": "Obunden tangent: F%i",
+      "after": "Obunden funktionstangent: F%i",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2207",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Flawed paste",
+      "before": "Bristfällig inklistring",
+      "after": "Felaktig inklistring",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2221",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Requested fill size \"%s\" is invalid",
+      "before": "Begärd fyllningsstorlek \"%s\" är ogiltig",
+      "after": "Den begärda fyllningsbredden ”%s” är ogiltig",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2237",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Bad quoting regex \"%s\": %s\n",
+      "before": "Felaktigt reguljärt uttryck \"%s\": %s\n",
+      "after": "Felaktigt reguljärt uttryck för citering ”%s”: %s\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2255",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Invalid number\n",
+      "before": "Ogiltigt nummer\n",
+      "after": "Ogiltigt tal\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2259",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Standard input is not a terminal\n",
+      "before": "Standard in är inte en terminal\n",
+      "after": "Standardindata är inte en terminal\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2263",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Can open just one file\n",
+      "before": "Det går inte att öppna bara en fil\n",
+      "after": "Kan endast öppna en fil\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2267",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Welcome to nano.  For basic help, type Ctrl+G.",
+      "before": "Välkommen till Nano. För grundläggande hjälp, tryck ned Ctrl+G.",
+      "after": "Välkommen till nano. Tryck på Ctrl+G för grundläggande hjälp.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2271",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Byte Order Mark",
+      "before": "Byteordningsmärke",
+      "after": "Byteordningsmarkering",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2302",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Mistakes in '%s'",
+      "before": "Misstag i ”%s”",
+      "after": "Fel i ”%s”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2316",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Argument '%s' has an unterminated \"",
+      "before": "Argumentet \"%s\" har ett oavslutat \"",
+      "after": "Argumentet ”%s” saknar avslutande ”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2321",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Regex strings must begin and end with a \" character",
+      "before": "Strängar med reguljära uttryck måste börja och sluta med ett \"-tecken",
+      "after": "Strängar med reguljära uttryck måste börja och sluta med tecknet ”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2325",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Empty regex string",
+      "before": "Tom sträng för reguljärt uttryck",
+      "after": "Tom sträng med reguljärt uttryck",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2338",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Unpaired quote in syntax name",
+      "before": "Syntaxnamn har omatchat citattecken",
+      "after": "Oparat citattecken i syntaxnamnet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2346",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "The \"default\" syntax does not accept extensions",
+      "before": "Syntaxen \"default\" accepterar inte utökningar",
+      "after": "Syntaxen ”default” accepterar inte filnamnstillägg",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2350",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Syntax \"%s\" has no color commands",
+      "before": "Syntax \"%s\" har inga färgkommandon",
+      "after": "Syntaxen ”%s” har inga färgkommandon",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2355",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Missing key name",
+      "before": "Saknar tangentnamn",
+      "after": "Tangentnamn saknas",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2364",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Must specify a function to bind the key to",
+      "before": "Måste ange en funktion att binda tangenten till",
+      "after": "Du måste ange en funktion att binda tangenten till",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2368",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Must specify a menu (or \"all\") in which to bind/unbind the key",
+      "before": "Måste ange en meny (eller \"all\") för att ändra bindning för tangent",
+      "after": "Du måste ange en meny (eller ”all”) där tangenten ska bindas eller avbindas",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2378",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Function '%s' does not exist in menu '%s'",
+      "before": "Funktionen ”%s”  existerar inte i meny ”%s”",
+      "after": "Funktionen ”%s” finns inte i menyn ”%s”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2388",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Command \"%s\" not understood",
+      "before": "Förstår inte kommandot \"%s\"",
+      "after": "Kommandot ”%s” känns inte igen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2393",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Path is too long",
+      "before": "Sökväg är för lång",
+      "after": "Sökvägen är för lång",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2397",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Error expanding %s: %s",
+      "before": "Fel vid utökning av %s: %s",
+      "after": "Fel vid expansion av %s: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2402",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Color '%s' takes no prefix",
+      "before": "Färgen ”%s” tar inte prefix",
+      "after": "Färgen ”%s” tar inget prefix",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2407",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Color \"%s\" not understood",
+      "before": "Förstår inte färgen \"%s\"",
+      "after": "Färgen ”%s” känns inte igen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2420",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Missing regex string after '%s' command",
+      "before": "Saknar regex-sträng efter ”%s”-kommando",
+      "after": "Reguljärt uttryck saknas efter kommandot ”%s”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2434",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "The \"default\" syntax does not accept '%s' regexes",
+      "before": "Syntaxen \"default\" accepterar inte reguljära uttryck som ”%s”",
+      "after": "Syntaxen ”default” accepterar inte reguljära uttryck för ”%s”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2444",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Argument of '%s' lacks closing \"",
+      "before": "Argumentet \"%s\" har ett oavslutat \"",
+      "after": "Argumentet ”%s” saknar avslutande ”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2449",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "No key is bound to function '%s' in menu '%s'.  Exiting.\n",
+      "before": "Ingen tangent är bunden till funktionen '%s' i menyn '%s'. Avslutar.\n",
+      "after": "Ingen tangent är bunden till funktionen ”%s” i menyn ”%s”. Avslutar.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2454",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "If needed, use nano with the -I option to adjust your nanorc settings.\n",
+      "before": "Om det behövs, använd nano med flaggan -I för att justera dina nanorc-inställningar.\n",
+      "after": "Använd vid behov nano med flaggan -I för att justera nanorc-inställningarna.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2458",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Could not find syntax \"%s\" to extend",
+      "before": "Det gick inte att hitta syntax %s att utöka",
+      "after": "Kunde inte hitta syntaxen ”%s” att utöka",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2463",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Command \"%s\" not allowed in included file",
+      "before": "Kommandot \"%s\" tillåts inte i inkluderad fil",
+      "after": "Kommandot ”%s” är inte tillåtet i en inkluderad fil",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2468",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Missing option",
+      "before": "Saknad flagga",
+      "after": "Flagga saknas",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2477",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Cannot unset option \"%s\"",
+      "before": "Kan inte bort flaggan \"%s\"",
+      "after": "Kan inte avaktivera flaggan ”%s”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2482",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Option \"%s\" requires an argument",
+      "before": "Flaggan \"%s\" kräver ett argument",
+      "after": "Flaggan ”%s” kräver ett argument",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2487",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Argument is not a valid multibyte string",
+      "before": "Argument är inte en giltig flerbytesträng",
+      "after": "Argumentet är inte en giltig flerbytessträng",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2495",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Even number of characters required",
+      "before": "Kräver jämnt antal tecken",
+      "after": "Ett jämnt antal tecken krävs",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2499",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Two single-column characters required",
+      "before": "Två enkel-kolumntecken krävs",
+      "after": "Två tecken med enkel kolumnbredd krävs",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2503",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Specified rcfile does not exist\n",
+      "before": "Angiven rcfile finns ej\n",
+      "after": "Den angivna rc-filen finns inte\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2538",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "\"%.*s%s\" not found",
+      "before": "\"%.*s%s\" kunde inte hittas",
+      "after": "”%.*s%s” hittades inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2560",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Enter line number, column number",
+      "before": "Ange radnummer, kolumnnummer",
+      "after": "Ange radnummer och kolumnnummer",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2585",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "This is the only anchor",
+      "before": "Detta är enda fästpunkten",
+      "after": "Detta är den enda fästpunkten",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2593",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Mark Set",
+      "before": "Markering satt",
+      "after": "Markering angiven",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2597",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Mark Unset",
+      "before": "Markera borttagen",
+      "after": "Markering borttagen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2605",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Cannot comment past end of file",
+      "before": "Kan inte kommentera bortom filavslutet",
+      "after": "Kan inte kommentera efter filens slut",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2613",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "addition",
+      "before": "addition",
+      "after": "tillägg",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2627",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "line join",
+      "before": "lägg ihop rad",
+      "after": "radsammanfogning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2635",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "erasure",
+      "before": "utsuddning",
+      "after": "radering",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2639",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "cut",
+      "before": "klipp ut",
+      "after": "urklipp",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2644",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "paste",
+      "before": "klistra in",
+      "after": "inklistring",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2656",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "unindent",
+      "before": "ångra indrag",
+      "after": "borttagning av indrag",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2664",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "uncomment",
+      "before": "ångra kommentar",
+      "after": "avkommentering",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2673",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Nothing to redo",
+      "before": "Inget att återställa",
+      "after": "Inget att göra om",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2677",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Redid %s",
+      "before": "Återställde %s",
+      "after": "Gjorde om %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2691",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Justified selection",
+      "before": "Justerade området",
+      "after": "Justerade markeringen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2707",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Invoking formatter...",
+      "before": "Startar formaterare...",
+      "after": "Startar formateraren...",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2717",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Program '%s' complained",
+      "before": "Programmet ”%s” klagade",
+      "after": "Programmet ”%s” rapporterade ett fel",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2726",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "spelling correction",
+      "before": "rättstavning",
+      "after": "stavningskorrigering",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2743",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Unfindable word: %s",
+      "before": "Ord kan inte hittas: %s",
+      "after": "Kan inte hitta ordet: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2762",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Could not get size of pipe buffer",
+      "before": "Det gick inte att få tag i rörbuffertens storlek",
+      "after": "Kunde inte hämta rörbuffertens storlek",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2772",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "No linter is defined for this type of file",
+      "before": "Ingen felkontroll definierad för denna filtyp",
+      "after": "Ingen felkontroll är definierad för denna filtyp",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2776",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Save modified buffer before linting?",
+      "before": "Spara ändrad buffert före felkontroll?",
+      "after": "Spara den ändrade bufferten före felkontrollen?",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2784",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Got 0 parsable lines from command: %s",
+      "before": "Fick 0 tolkningsbara rader från kommando: %s",
+      "after": "Fick 0 tolkningsbara rader från kommandot: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2789",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "This message is for unopened file %s, open it in a new buffer?",
+      "before": "Meddelandet är för oöppnade filen %s, öppna den i en ny buffert?",
+      "after": "Meddelandet gäller den oöppnade filen %s; öppna den i en ny buffert?",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2798",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "At first message",
+      "before": "Vid första meddelandet",
+      "after": "Vid det första meddelandet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2802",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "At last message",
+      "before": "Vid sista meddelandet",
+      "after": "Vid det sista meddelandet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2806",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "No formatter is defined for this type of file",
+      "before": "Ingen formaterare definierad för denna typ av fil",
+      "after": "Ingen formaterare är definierad för denna filtyp",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2815",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "In Selection:  ",
+      "before": "I markering:  ",
+      "after": "I markeringen:  ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2837",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Verbatim Input",
+      "before": "Exakt inmatning",
+      "after": "Ordagrann inmatning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2856",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "No matches",
+      "before": "Inga matchningar",
+      "after": "Inga träffar",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2869",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Stopped recording",
+      "before": "Stoppade inspelning",
+      "after": "Slutade spela in",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2873",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Cannot run macro while recording",
+      "before": "Kan inte köra makro samtidigt med inspelning",
+      "after": "Kan inte köra ett makro under inspelning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2885",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Too many errors from stdin\n",
+      "before": "För många fel från stdin\n",
+      "after": "För många fel från standardindata\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2896",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Linting --",
+      "before": "Lint --",
+      "after": "Felk. --",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2913",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Restricted",
+      "before": "Begränsad",
+      "after": "Begränsat",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2935",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "line %*zd/%zd (%2d%%), col %2zu/%2zu (%3d%%), char %*zu/%zu (%2d%%)",
+      "before": "rad %*zd/%zd (%2d%%), kol %2zu/%2zu (%3d%%), teck. %*zu/%zu (%2d%%)",
+      "after": "rad %*zd/%zd (%2d%%), kolumn %2zu/%2zu (%3d%%), tecken %*zu/%zu (%2d%%)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2948",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Brought to you by:",
+      "before": "Presenteras av:",
+      "after": "Medverkar:",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "nano:2952",
+      "project": "tp:nano-8.4-pre1",
+      "msgid": "Special thanks to:",
+      "before": "Ytterligare tack till:",
+      "after": "Särskilt tack till:",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:24",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "specified register cannot be read from",
+      "before": "angivet register kan inte läsas från",
+      "after": "det angivna registret kan inte läsas",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:28",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "specified register cannot be written to",
+      "before": "angivet register kan inte skrivas till",
+      "after": "det angivna registret kan inte skrivas",
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
     },
     {
