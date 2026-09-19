@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 90313,
+  "reviewed_tp_entries": 90363,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 22112,
+  "changed_pairs": 22133,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 22112,
+      "confirmed_swedish_changes": 22133,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "af0a8e5a6ecfda07eb423079b6eebaff0cce8058fcda2b58cd527a617a16f747"
+      "sha256": "c39a0c00d3edd175bcb9906289a0a1bbbc9afab80ee75fad1a7d11ffd9f2d1d1"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 22112,
+      "confirmed_swedish_changes": 22133,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "427033aae33b79839dd3b701c2b18c884130fdf86331fff400ca66ac8823eb1d"
+      "sha256": "7519632b0566b24936537a2a5cfde88677d598994d399079f50921b6fbbd93f0"
     }
   },
   "unmapped_plural_fixes": [
@@ -97351,8 +97351,8 @@
       "project": "tp:psmisc-23.7-rc1",
       "msgid": "killall: Cannot get UID from process status\n",
       "before": "killall: Kan inte hämta UID från processtatus\n",
-      "after": "killall: Kan inte hämta UID från processstatus\n",
-      "reason": "Rättar sammansättningen processstatus."
+      "after": "killall: Kan inte hämta UID från processtatus\n",
+      "reason": "Undviker tre lika bokstäver i följd i svensk sammansättning."
     },
     {
       "tp_id": "psmisc:246",
@@ -97609,6 +97609,174 @@
       "before": "Tryck Retur för att stänga\n",
       "after": "Tryck på Retur för att stänga\n",
       "reason": "Rättar svensk uppmaningsform."
+    },
+    {
+      "tp_id": "psmisc-man:67",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "B<fuser> [B<-fuv>] [B<-a>|B<-s>] [B<-4>|B<-6>] [B<-c>|B<-m>|B<-n> I<space>] [B<\\ -k> [B<-i>] [B<-M>] [B<-w>] [B<->I<SIGNAL>] ] I<name> ...",
+      "before": "B<fuser> [B<-fuv>] [B<-a>|B<-s>] [B<-4>|B<-6>] [B<-c>|B<-m>|B<-n> I<utrymme>] [B<\\ -k> [B<-i>] [B<-M>] [B<-w>] [B<->I<SIGNAL>] ] I<namn> ...",
+      "after": "B<fuser> [B<-fuv>] [B<-a>|B<-s>] [B<-4>|B<-6>] [B<-c>|B<-m>|B<-n> I<space>] [B<\\ -k> [B<-i>] [B<-M>] [B<-w>] [B<->I<SIGNAL>] ] I<namn> ...",
+      "reason": "Bevarar det dokumenterade syntaxvärdet space för -n."
+    },
+    {
+      "tp_id": "psmisc-man:89",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "B<fuser> displays the PIDs of processes using the specified files or file systems.  In the default display mode, each file name is followed by a letter denoting the type of access:",
+      "before": "B<fuser> visar PID:arna för processor som använder den angivna filerna eller filsystemen.  I standardvisningsläge kommer varje filnamn att åtföljas av en bokstav som visar typen av åtkomst:",
+      "after": "B<fuser> visar PID:erna för processer som använder de angivna filerna eller filsystemen.  I standardvyn följs varje filnamn av en bokstav som anger typen av åtkomst:",
+      "reason": "Rättar sakfel och svensk grammatik i beskrivningen."
+    },
+    {
+      "tp_id": "psmisc-man:111",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "executable being run.",
+      "before": "körbar fil körs.",
+      "after": "körbar fil som körs.",
+      "reason": "Rättar den ofullständiga svenska satsen."
+    },
+    {
+      "tp_id": "psmisc-man:122",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "open file.  B<f> is omitted in default display mode.",
+      "before": "fil öppen.  B<f> utelämnas i standardvisningsläge.",
+      "after": "öppen fil.  B<f> visas inte i standardvyn.",
+      "reason": "Rättar fragmentets svenska ordföljd."
+    },
+    {
+      "tp_id": "psmisc-man:133",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "open file for writing.  B<F> is omitted in default display mode.",
+      "before": "öppen för skrivning.  B<F> utelämnas i standardvisningsläge.",
+      "after": "öppen fil för skrivning.  B<F> visas inte i standardvyn.",
+      "reason": "Rättar svenskt fragment och konsekvent term för standardvyn."
+    },
+    {
+      "tp_id": "psmisc-man:155",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "mmap'ed file or shared library.",
+      "before": "mmap:pad fil eller delat bibliotek.",
+      "after": "minnesmappad fil eller delat bibliotek.",
+      "reason": "Rättar felaktig översättning av mmap'ed."
+    },
+    {
+      "tp_id": "psmisc-man:166",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "Placeholder, omitted in default display mode.",
+      "before": "Platshållare, utelämnas i standardvisningsläge.",
+      "after": "Platshållare, visas inte i standardvyn.",
+      "reason": "Rättar svensk sats och konsekvent term för standardvyn."
+    },
+    {
+      "tp_id": "psmisc-man:171",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "B<fuser> returns a non-zero return code if none of the specified files is accessed or in case of a fatal error.  If at least one access has been found, B<fuser> returns zero.",
+      "before": "B<fuser> returnerar en returkod som inte är noll om ingen av de angivna filerna används eller vid ett fatalt fel.  Om åtminstone en åtkomst hittats kommer B<fuser> att returnera noll.",
+      "after": "B<fuser> returnerar en returkod skild från noll om ingen av de angivna filerna används eller om ett allvarligt fel inträffar.  Om minst en åtkomst har hittats returnerar B<fuser> noll.",
+      "reason": "Rättar språkbruk och konsekvent formulering för returkoder."
+    },
+    {
+      "tp_id": "psmisc-man:176",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "In order to look up processes using TCP and UDP sockets, the corresponding name space has to be selected with the B<-n> option. By default B<fuser> will look in both IPv6 and IPv4 sockets.  To change the default behavior, use the B<-4> and B<-6> options.  The socket(s) can be specified by the local and remote port, and the remote address.  All fields are optional, but commas in front of missing fields must be present:",
+      "before": "För att slå upp processer som använder TCP- och UDP-uttag måste motsvarande namnrymd väljas med flaggan B<-n>.  Som standard kommer B<fuser> att leta bland både IPv6- och IPv4-uttag.  För att förändra standardbeteendet, använd flaggorna B<-4> och B<-6>.  Uttagen kan anges antingen efter lokal eller fjärrport och fjärradressen.  Alla fält är valfria, men komman i början av fält som saknas måste finnas:",
+      "after": "För att slå upp processer som använder TCP- och UDP-uttag måste motsvarande namnrymd väljas med flaggan B<-n>.  Som standard söker B<fuser> i både IPv6- och IPv4-uttag.  Använd flaggorna B<-4> och B<-6> för att ändra standardbeteendet.  Uttagen kan anges med lokal port, fjärrport och fjärradress.  Alla fält är valfria, men kommatecknen före utelämnade fält måste finnas med:",
+      "reason": "Rättar betydelsen av portfälten och gör terminologin för flaggor konsekvent."
+    },
+    {
+      "tp_id": "psmisc-man:181",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "[I<lcl_port>][,[I<rmt_host>][,[I<rmt_port>]]]",
+      "before": "[I<lkl_port>][,[I<fjr_värd>][,[I<fjr_port>]]]",
+      "after": "[I<lcl_port>][,[I<rmt_host>][,[I<rmt_port>]]]",
+      "reason": "Återställer de dokumenterade syntaxfälten."
+    },
+    {
+      "tp_id": "psmisc-man:186",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "Either symbolic or numeric values can be used for IP addresses and port numbers.",
+      "before": "Endera symboliska eller numeriska värden kan användas för IP-adresser och portnummer.",
+      "after": "Antingen symboliska eller numeriska värden kan användas för IP-adresser och portnummer.",
+      "reason": "Rättar konjunktionen i svensk sakprosa."
+    },
+    {
+      "tp_id": "psmisc-man:191",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "B<fuser> outputs only the PIDs to stdout, everything else is sent to stderr.",
+      "before": "B<fuser> matar endas ut PID:ar till standard ut, allting annat skickas till standard fel.",
+      "after": "B<fuser> skriver endast ut PID:er på standardutmatningen; allt annat skickas till standardfel.",
+      "reason": "Rättar stavning, pluralform och vedertagna termer för stdout och stderr."
+    },
+    {
+      "tp_id": "psmisc-man:209",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "Show all files specified on the command line.  By default, only files that are accessed by at least one process are shown.",
+      "before": "Visa alla filer angivna på kommandoraden.  Som standard visas endast filer som används av åtminstone en process.",
+      "after": "Visa alla filer som anges på kommandoraden.  Som standard visas endast filer som används av minst en process.",
+      "reason": "Rättar svensk ordföljd och gör formuleringen naturlig."
+    },
+    {
+      "tp_id": "psmisc-man:231",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "Silently ignored, used for POSIX compatibility.",
+      "before": "Ignoreras tyst, används för POSIX-kompatibilitet.",
+      "after": "Ignoreras utan meddelande; används för POSIX-kompatibilitet.",
+      "reason": "Använder idiomatisk svensk formulering."
+    },
+    {
+      "tp_id": "psmisc-man:242",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "Kill processes accessing the file.  Unless changed with B<->I<SIGNAL\\/>, SIGKILL is sent.  An B<fuser> process never kills itself, but may kill other B<fuser> processes.  The effective user ID of the process executing B<fuser> is set to its real user ID before attempting to kill.",
+      "before": "Döda processer som kommer åt filen.  Om det inte ändrats med B<->I<SIGNAL\\/>, så skickas SIGKILL.  En B<fuser> process dödar aldrig sig själv, men kan döda andra B<fuser>-processer.  Det effektiva användar-ID:t för processen som kör B<fuser> sätts till dess riktiga användar-ID innan försök att döda.",
+      "after": "Döda processer som har åtkomst till filen.  Om ingen annan signal väljs med B<->I<SIGNAL\\/>, skickas SIGKILL.  En B<fuser>-process dödar aldrig sig själv, men kan döda andra B<fuser>-processer.  Det effektiva användar-ID:t för processen som kör B<fuser> sätts till dess verkliga användar-ID innan ett försök att döda processer görs.",
+      "reason": "Rättar svensk grammatik och bevarar signalflaggan i roff-syntax."
+    },
+    {
+      "tp_id": "psmisc-man:253",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "Ask the user for confirmation before killing a process.  This option is silently ignored if B<-k> is not present too.",
+      "before": "Fråga användaren om bekräftelse innan en process dödas.  Denna flagga ignoreras tyst om B<-k> saknas.",
+      "after": "Fråga användaren om bekräftelse innan en process dödas.  Den här flaggan ignoreras utan meddelande om B<-k> saknas.",
+      "reason": "Gör formuleringen idiomatisk och konsekvent."
+    },
+    {
+      "tp_id": "psmisc-man:264",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "For the name space B<file> let all comparisons be based on the inodes of the specified file(s)  and never on the file names even on network based file systems.",
+      "before": "För namnrymden B<file> låt alla jämförelser baseras på inoderna för de angivna filerna och aldrig på filnamnen, gäller även för nätverksbaserade filsystem.",
+      "after": "För namnrymden B<file> ska alla jämförelser baseras på inoderna för de angivna filerna och aldrig på filnamnen, inte ens på nätverksbaserade filsystem.",
+      "reason": "Rättar satsens struktur och bevarar syntaxvärdet file."
+    },
+    {
+      "tp_id": "psmisc-man:275",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "List all known signal names.",
+      "before": "Lista alla kända signaler.",
+      "after": "Lista alla kända signalnamn.",
+      "reason": "Bevarar betydelsen signal names."
+    },
+    {
+      "tp_id": "psmisc-man:286",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "I<NAME> specifies a file on a mounted file system or a block device that is mounted.  All processes accessing files on that file system are listed.  If a directory is specified, it is automatically changed to I<NAME>/ to use any file system that might be mounted on that directory.",
+      "before": "I<NAMN> anger en fil på ett monterat filsystem eller en blockenhet som är monterad. Alla processer som använder filer på det filsystemet listas.  Om en katalog inte anges, ändras den automatiskt till I<NAMN>/ för att använda eventuellt filsystem som monterats på den katalogen.",
+      "after": "I<NAMN> anger en fil på ett monterat filsystem eller en monterad blockenhet.  Alla processer som har åtkomst till filer på det filsystemet listas.  Om en katalog anges, ändras den automatiskt till I<NAMN>/ för att använda ett filsystem som kan vara monterat på den katalogen.",
+      "reason": "Rättar den omvända villkorssatsen och förbättrar svensk fackprosa."
+    },
+    {
+      "tp_id": "psmisc-man:291",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "B<-M>, B<--ismountpoint>",
+      "before": "the shortcut notation",
+      "after": "B<-M>, B<--ismountpoint>",
+      "reason": "Återställer flaggans dokumenterade syntax."
+    },
+    {
+      "tp_id": "psmisc-man:297",
+      "project": "tp:psmisc-man-23.7-rc1",
+      "msgid": "Request will be fulfilled only if I<NAME> specifies a mountpoint.  This is an invaluable seat belt which prevents you from killing the machine if I<NAME> happens to not be a filesystem.",
+      "before": "Begäran kommer att uppfyllas om I<NAMN> anger en monteringspunkt.  Detta är ett ovärderligt säkerhetsbälte vilket förhindrar sig från att döda maskinen om I<NAMN> inte råkas vara ett filsystem.",
+      "after": "Begäran uppfylls endast om I<NAMN> anger en monteringspunkt.  Detta är ett ovärderligt skydd som hindrar dig från att döda systemet om I<NAMN> inte råkar vara ett filsystem.",
+      "reason": "Återställer villkoret endast om och rättar svensk grammatik."
     },
     {
       "tp_id": "diffutils:476",
