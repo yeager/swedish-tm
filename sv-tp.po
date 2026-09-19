@@ -455508,31 +455508,31 @@ msgstr "       finns inte på grund av byte till sommartid;\n"
 
 #. from tp:gnulib-20241209
 msgid "creation of reading thread failed"
-msgstr "att skapa lästråd misslyckades"
+msgstr "det gick inte att skapa lästråden"
 
 #. from tp:gnulib-20241209
 msgid "cannot set up nonblocking I/O to %s subprocess"
-msgstr "det gick inte att sätta upp icke blockerande I/O till %s-underprocess"
+msgstr "det gick inte att ställa in icke-blockerande I/O till %s-underprocessen"
 
 #. from tp:gnulib-20241209
 msgid "communication with %s subprocess failed"
-msgstr "kommunikation med %s-underprocess misslyckades"
+msgstr "kommunikationen med %s-underprocessen misslyckades"
 
 #. from tp:gnulib-20241209
 msgid "read from %s subprocess failed"
-msgstr "läsning från %s-underprocess misslyckades"
+msgstr "läsning från %s-underprocessen misslyckades"
 
 #. from tp:gnulib-20241209
 msgid "subprocess %s terminated with exit code %d"
-msgstr "underprocess %s avslutad med slutstatus %d"
+msgstr "underprocessen %s avslutades med slutstatus %d"
 
 #. from tp:gnulib-20241209
 msgid "creation of threads failed"
-msgstr "att skapa trådar misslyckades"
+msgstr "det gick inte att skapa trådar"
 
 #. from tp:gnulib-20241209
 msgid "%s subprocess terminated with exit code %d"
-msgstr "%s-underprocess avslutad med slutstatus %d"
+msgstr "%s-underprocessen avslutades med slutstatus %d"
 
 #. from tp:gnulib-20241209
 msgid "error writing to a closed pipe or socket"
@@ -455544,19 +455544,19 @@ msgstr "Körtider (sekunder)"
 
 #. from tp:gnulib-20241209
 msgid "CPU user"
-msgstr "CPU användare"
+msgstr "CPU, användare"
 
 #. from tp:gnulib-20241209
 msgid "CPU system"
-msgstr "CPU system"
+msgstr "CPU, system"
 
 #. from tp:gnulib-20241209
 msgid "wall clock"
-msgstr "väggklocka"
+msgstr "verklig tid"
 
 #. from tp:gnulib-20241209
 msgid "standard file descriptors"
-msgstr "standard filbeskrivare"
+msgstr "standardfilbeskrivare"
 
 #. from tp:gnutls-3.6.8
 msgid "Close notify"
@@ -455644,11 +455644,11 @@ msgstr "Inget certifikat (SSL 3.0)"
 
 #. from tp:gnutls-3.6.8
 msgid "Inappropriate fallback"
-msgstr "Olämplig reserv"
+msgstr "Olämplig återgång"
 
 #. from tp:gnutls-3.6.8
 msgid "No renegotiation is allowed"
-msgstr "Ingen återförhandling tillåts"
+msgstr "Ingen återförhandling är tillåten"
 
 #. from tp:gnutls-3.6.8
 msgid "Could not retrieve the specified certificate"
@@ -455656,7 +455656,7 @@ msgstr "Kunde inte hämta angivet certifikat"
 
 #. from tp:gnutls-3.6.8
 msgid "An unsupported extension was sent"
-msgstr "En utökning skickades som inte stöds"
+msgstr "En tilläggsfunktion som inte stöds skickades"
 
 #. from tp:gnutls-3.6.8
 msgid "The server name sent was not recognized"
@@ -455672,7 +455672,7 @@ msgstr "En utökning förväntades men syntes inte till"
 
 #. from tp:gnutls-3.6.8
 msgid "No supported application protocol could be negotiated"
-msgstr "Inget programprotokoll som stöds kunde förhandlas"
+msgstr "Inget applikationsprotokoll som stöds kunde förhandlas fram"
 
 #. from tp:gnutls-3.6.8
 msgid "Certificate is required"
@@ -455700,11 +455700,11 @@ msgstr "Kunde inte förhandla fram en stödd komprimeringsmetod."
 
 #. from tp:gnutls-3.6.8
 msgid "An unknown public key algorithm was encountered."
-msgstr "En okänd öppen nyckel-algoritm påträffades."
+msgstr "En okänd algoritm för öppen nyckel påträffades."
 
 #. from tp:gnutls-3.6.8
 msgid "An algorithm that is not enabled was negotiated."
-msgstr "En algoritm som inte är aktiverad blev förhandlad."
+msgstr "En algoritm som inte är aktiverad förhandlades fram."
 
 #. from tp:gnutls-3.6.8
 msgid "A packet with illegal or unsupported version was received."
@@ -455720,7 +455720,7 @@ msgstr "Fel vid avkodning av mottaget TLS-paket."
 
 #. from tp:gnutls-3.6.8
 msgid "A TLS record packet with invalid length was received."
-msgstr "Ett TLS-journalpaket med ogiltig längd togs emot."
+msgstr "Ett TLS-postpaket med ogiltig längd togs emot."
 
 #. from tp:gnutls-3.6.8
 msgid "The TLS connection was non-properly terminated."
@@ -455736,7 +455736,7 @@ msgstr "Internt fel i GnuTLS."
 
 #. from tp:gnutls-3.6.8
 msgid "A connection with inappropriate fallback was attempted."
-msgstr "Försökte ansluta med en olämplig reserv."
+msgstr "Ett anslutningsförsök med olämplig återgång gjordes."
 
 #. from tp:gnutls-3.6.8
 msgid "An illegal TLS extension was received."
@@ -455744,7 +455744,7 @@ msgstr "En otillåten TLS-utökning togs emot."
 
 #. from tp:gnutls-3.6.8
 msgid "An required TLS extension was received."
-msgstr "En nödvändig TLS-utökning togs emot."
+msgstr "En obligatorisk TLS-utökning togs emot."
 
 #. from tp:gnutls-3.6.8
 msgid "A TLS fatal alert has been received."
@@ -455820,15 +455820,15 @@ msgstr "Signering med öppen nyckel misslyckades."
 
 #. from tp:gnutls-3.6.8
 msgid "Public key signature verification has failed."
-msgstr "Validering av öppna nyckelns signatur misslyckades."
+msgstr "Verifiering av den öppna nyckelns signatur misslyckades."
 
 #. from tp:gnutls-3.6.8
 msgid "Decompression of the TLS record packet has failed."
-msgstr "Dekomprimering av TLS-journalpaketet har misslyckats."
+msgstr "Dekomprimering av TLS-postpaketet misslyckades."
 
 #. from tp:gnutls-3.6.8
 msgid "Compression of the TLS record packet has failed."
-msgstr "Komprimering av TLS-journalpaketet har misslyckats."
+msgstr "Komprimering av TLS-postpaketet misslyckades."
 
 #. from tp:gnutls-3.6.8
 msgid "Internal error in memory allocation."
@@ -455836,11 +455836,11 @@ msgstr "Internt fel i minnesallokering."
 
 #. from tp:gnutls-3.6.8
 msgid "An unimplemented or disabled feature has been requested."
-msgstr "En icke implementerad eller inaktiverad funktion begärdes."
+msgstr "En oimplementerad eller inaktiverad funktion begärdes."
 
 #. from tp:gnutls-3.6.8
 msgid "Insufficient credentials for that request."
-msgstr "Otillräckliga rättigheter för begäran."
+msgstr "Otillräckliga autentiseringsuppgifter för begäran."
 
 #. from tp:gnutls-3.6.8
 msgid "Error in password/key file."
@@ -455848,7 +455848,7 @@ msgstr "Fel i lösenords-/nyckelfil."
 
 #. from tp:gnutls-3.6.8
 msgid "Wrong padding in PKCS1 packet."
-msgstr "Fel utfyllnad i PKCS1-paket."
+msgstr "Felaktig utfyllnad i PKCS1-paket."
 
 #. from tp:gnutls-3.6.8
 msgid "The session or certificate has expired."
@@ -455892,7 +455892,7 @@ msgstr "Fel i utsändningsfunktionen."
 
 #. from tp:gnutls-3.6.8
 msgid "The upper limit of record packet sequence numbers has been reached. Wow!"
-msgstr "Den övre gränsen för sekvensnummer för journalpaket har nåtts. Wow!"
+msgstr "Den övre gränsen för sekvensnummer för postpaket har nåtts. Oj då!"
 
 #. from tp:gnutls-3.6.8
 msgid "Error in the certificate."
@@ -455904,7 +455904,7 @@ msgstr "Fel i certifikatets tidsfält."
 
 #. from tp:gnutls-3.6.8
 msgid "Error in the certificate verification."
-msgstr "Fel i certifikatverifikationen."
+msgstr "Fel vid certifikatverifieringen."
 
 #. from tp:gnutls-3.6.8
 msgid "Error in the CRL verification."
@@ -455912,7 +455912,7 @@ msgstr "Fel i CRL-verifikationen."
 
 #. from tp:gnutls-3.6.8
 msgid "Error in the private key verification; seed doesn't match."
-msgstr "Fel i privata nyckelverifikationen: frö matchar inte."
+msgstr "Fel vid verifiering av den privata nyckeln: fröet stämmer inte."
 
 #. from tp:gnutls-3.6.8
 msgid "Could not authenticate peer."
@@ -455928,11 +455928,11 @@ msgstr "CIDR-namnbegränsning är felaktig i storlek och struktur."
 
 #. from tp:gnutls-3.6.8
 msgid "Unsupported critical extension in X.509 certificate."
-msgstr "Kritisk utökning som ej stöds i X.509-certifikat."
+msgstr "Kritisk tilläggsfunktion som inte stöds i X.509-certifikat."
 
 #. from tp:gnutls-3.6.8
 msgid "Unsupported extension in X.509 certificate."
-msgstr "Utökning som ej stöds i X.509-certifikat."
+msgstr "Tilläggsfunktion som inte stöds i X.509-certifikat."
 
 #. from tp:gnutls-3.6.8
 msgid "Key usage violation in certificate has been detected."
@@ -455948,7 +455948,7 @@ msgstr "TLS-programdata togs emot när handskakningsdata förväntades."
 
 #. from tp:gnutls-3.6.8
 msgid "Error in Database backend."
-msgstr "Fel i databasbakänden."
+msgstr "Fel i databasmotorn."
 
 #. from tp:gnutls-3.6.8
 msgid "The Database entry already exists."
@@ -455960,7 +455960,7 @@ msgstr "Certifikattypen stöds inte."
 
 #. from tp:gnutls-3.6.8
 msgid "The given memory buffer is too short to hold parameters."
-msgstr "Den angivna minnesbufferten är för liten för att lagra parametrar."
+msgstr "Den angivna minnesbufferten är för liten för att rymma parametrarna."
 
 #. from tp:gnutls-3.6.8
 msgid "The request is invalid."
@@ -455980,7 +455980,7 @@ msgstr "En otillåten parameter hittades."
 
 #. from tp:gnutls-3.6.8
 msgid "Error while reading file."
-msgstr "Fel vid läsning av fil."
+msgstr "Fel vid läsning av filen."
 
 #. from tp:gnutls-3.6.8
 msgid "A disallowed SNI server name has been received."
@@ -455996,7 +455996,7 @@ msgstr "ASN1-tolkare: Identifieraren hittades inte"
 
 #. from tp:gnutls-3.6.8
 msgid "ASN1 parser: Error in DER parsing."
-msgstr "ASN1-tolkare: Fel i DER-tolkning."
+msgstr "ASN1-tolkare: Fel vid DER-tolkning."
 
 #. from tp:gnutls-3.6.8
 msgid "ASN1 parser: Value was not found."
@@ -456012,15 +456012,15 @@ msgstr "ASN1-tolkare: Värdet är inte giltigt."
 
 #. from tp:gnutls-3.6.8
 msgid "ASN1 parser: Error in TAG."
-msgstr "ASN1-tolkare: Fel i TAG."
+msgstr "ASN1-tolkare: Fel i TAGG."
 
 #. from tp:gnutls-3.6.8
 msgid "ASN1 parser: error in implicit tag"
-msgstr "ASN1-tolkare: fel i implicit tag"
+msgstr "ASN1-tolkare: fel i implicit tagg"
 
 #. from tp:gnutls-3.6.8
 msgid "ASN1 parser: Error in type 'ANY'."
-msgstr "ASN1-tolkare: Fel i typen \"ANY\"."
+msgstr "ASN1-tolkare: Fel i typen ”ANY”."
 
 #. from tp:gnutls-3.6.8
 msgid "ASN1 parser: Syntax error."
@@ -456028,11 +456028,11 @@ msgstr "ASN1-tolkare: Syntaxfel."
 
 #. from tp:gnutls-3.6.8
 msgid "ASN1 parser: Overflow in DER parsing."
-msgstr "ASN1-tolkare: Överspill i DER-tolkning."
+msgstr "ASN1-tolkare: Överflöde i DER-tolkning."
 
 #. from tp:gnutls-3.6.8
 msgid "Too many empty record packets have been received."
-msgstr "För många tomma journalpaket har tagits emot."
+msgstr "För många tomma postpaket har tagits emot."
 
 #. from tp:gnutls-3.6.8
 msgid "Too many handshake packets have been received."
@@ -456044,7 +456044,7 @@ msgstr "Mer än ett objekt matchar kriteriet."
 
 #. from tp:gnutls-3.6.8
 msgid "The crypto library version is too old."
-msgstr "Versionen av crypto-biblioteket är för gammal."
+msgstr "Kryptobibliotekets version är för gammal."
 
 #. from tp:gnutls-3.6.8
 msgid "The tasn1 library version is too old."
@@ -456064,7 +456064,7 @@ msgstr "Fel vid inläsning av nyckelringen."
 
 #. from tp:gnutls-3.6.8
 msgid "The initialization of crypto backend has failed."
-msgstr "Initieringen av krypteringsbakände misslyckades."
+msgstr "Initieringen av kryptomotorn misslyckades."
 
 #. from tp:gnutls-3.6.8
 msgid "No supported compression algorithms have been found."
@@ -456124,7 +456124,7 @@ msgstr "PKCS-strukturens innehållstyp är okänd."
 
 #. from tp:gnutls-3.6.8
 msgid "The PKCS structure's bag type is unknown."
-msgstr "PKCS-strukturens väsktyp är okänd."
+msgstr "PKCS-strukturens behållartyp är okänd."
 
 #. from tp:gnutls-3.6.8
 msgid "The given password contains invalid characters."
@@ -456144,11 +456144,11 @@ msgstr "Validering av meddelandeautentiseringskoden (MAC) misslyckades."
 
 #. from tp:gnutls-3.6.8
 msgid "Some constraint limits were reached."
-msgstr "Vissa begränsningar nåddes."
+msgstr "Vissa begränsningar uppnåddes."
 
 #. from tp:gnutls-3.6.8
 msgid "Failed to acquire random data."
-msgstr "Misslyckades med att få tag på slumpmässigt data."
+msgstr "Misslyckades med att hämta slumpdata."
 
 #. from tp:gnutls-3.6.8
 msgid "Verifying TLS/IA phase checksum failed"
@@ -456160,7 +456160,7 @@ msgstr "Angivna algoritmen eller protokollet är okänt."
 
 #. from tp:gnutls-3.6.8
 msgid "The handshake data size is too large."
-msgstr "Datastorlek för handskakning är för stor."
+msgstr "Handskakningsdatans storlek är för stor."
 
 #. from tp:gnutls-3.6.8
 msgid "Error opening /dev/crypto"
@@ -456176,7 +456176,7 @@ msgstr "Motparten har avslutat anslutningen"
 
 #. from tp:gnutls-3.6.8
 msgid "Channel binding data not available"
-msgstr "Kanalbindningsdata är inte tillgängligt"
+msgstr "Kanalbindningsdata är inte tillgängliga"
 
 #. from tp:gnutls-3.6.8
 msgid "TPM error."
@@ -456192,7 +456192,7 @@ msgstr "TPM är inte initierat."
 
 #. from tp:gnutls-3.6.8
 msgid "TPM key was not found in persistent storage."
-msgstr "TPM-nyckeln hittades inte i bestående lagring."
+msgstr "TPM-nyckeln hittades inte i permanent lagring."
 
 #. from tp:gnutls-3.6.8
 msgid "Cannot initialize a session with the TPM."
@@ -456208,11 +456208,11 @@ msgstr "PKCS #11-initieringsfel."
 
 #. from tp:gnutls-3.6.8
 msgid "Error in parsing."
-msgstr "Fel i tolkning."
+msgstr "Fel vid tolkning."
 
 #. from tp:gnutls-3.6.8
 msgid "Error in provided PIN."
-msgstr "Fel i tillhandahållen PIN."
+msgstr "Fel i angiven PIN-kod."
 
 #. from tp:gnutls-3.6.8
 msgid "Error in provided SRK password for TPM."
@@ -456220,7 +456220,7 @@ msgstr "Fel i tillhandahållet SRK-lösenord för TPM."
 
 #. from tp:gnutls-3.6.8
 msgid "Error in provided password for key to be loaded in TPM."
-msgstr "Fel i tillhandahållet lösenord för nyckel som ska läsas in i TPM."
+msgstr "Fel i angivet lösenord för nyckeln som ska läsas in i TPM."
 
 #. from tp:gnutls-3.6.8
 msgid "PKCS #11 error in slot"
@@ -456252,11 +456252,11 @@ msgstr "PKCS #11-fel i nyckel"
 
 #. from tp:gnutls-3.6.8
 msgid "PKCS #11 PIN expired"
-msgstr "PKCS #11 PIN-kod utgången"
+msgstr "PKCS #11 PIN-koden har gått ut"
 
 #. from tp:gnutls-3.6.8
 msgid "PKCS #11 PIN locked"
-msgstr "PKCS #11 PIN-kod låst"
+msgstr "PKCS #11 PIN-koden är låst"
 
 #. from tp:gnutls-3.6.8
 msgid "PKCS #11 error in session"
@@ -456296,7 +456296,7 @@ msgstr "Begärt PKCS #11-objekt är inte tillgängligt"
 
 #. from tp:gnutls-3.6.8
 msgid "The provided X.509 certificate list is not sorted (in subject to issuer order)"
-msgstr "Den tillhandahållna X.509-certifikatlistan är inte sorterad (sorterad enligt utfärdare)"
+msgstr "Den tillhandahållna X.509-certifikatlistan är inte sorterad i ordning från innehavare till utfärdare"
 
 #. from tp:gnutls-3.6.8
 msgid "The OCSP response is invalid"
@@ -456312,7 +456312,7 @@ msgstr "Det finns ingen certifikatsstatus (OCSP)."
 
 #. from tp:gnutls-3.6.8
 msgid "Error in the system's randomness device."
-msgstr "Fel i systemets slumpmässighetsenhet."
+msgstr "Fel i systemets slumpenhet."
 
 #. from tp:gnutls-3.6.8
 msgid "No common application protocol could be negotiated."
@@ -456328,19 +456328,19 @@ msgstr "Det finns inget självtest för denna algoritm."
 
 #. from tp:gnutls-3.6.8
 msgid "An error has been detected in the library and cannot continue operations."
-msgstr "Ett fel har upptäckts i biblioteket och åtgärder kan inte fortsätta."
+msgstr "Ett fel har upptäckts i biblioteket och det går inte att fortsätta åtgärderna."
 
 #. from tp:gnutls-3.6.8
 msgid "Error in sockets initialization."
-msgstr "Fel i uttagets initiering."
+msgstr "Fel vid initiering av uttag."
 
 #. from tp:gnutls-3.6.8
 msgid "Error in public key generation."
-msgstr "Fel vid publik nyckelgenerering."
+msgstr "Fel vid generering av öppen nyckel."
 
 #. from tp:gnutls-3.6.8
 msgid "Invalid TLS extensions length field."
-msgstr "TLS-utökningens längdfält är ogiltiga."
+msgstr "TLS-utökningens längdfält är ogiltigt."
 
 #. from tp:gnutls-3.6.8
 msgid "Peer's certificate or username has changed during a rehandshake."
@@ -456348,7 +456348,7 @@ msgstr "Motpartens certifikat eller användarnamn ändrades under en upprepad ha
 
 #. from tp:gnutls-3.6.8
 msgid "The provided string has an embedded null."
-msgstr "Den givna strängen har en inbäddad null."
+msgstr "Den givna strängen innehåller ett inbäddat nolltecken."
 
 #. from tp:gnutls-3.6.8
 msgid "Attempted handshake during false start."
@@ -456360,27 +456360,27 @@ msgstr "SNI-värdnamnet kändes inte igen."
 
 #. from tp:gnutls-3.6.8
 msgid "There was an issue converting to or from UTF8."
-msgstr "Det uppstod ett problem vid konvertering till eller från UTF8."
+msgstr "Det uppstod ett problem vid konvertering till eller från UTF-8."
 
 #. from tp:gnutls-3.6.8
 msgid "Cannot perform this action while handshake is in progress."
-msgstr "Kan inte utföra denna åtgärd medan handskakning pågår."
+msgstr "Kan inte utföra denna åtgärd medan handskakningen pågår."
 
 #. from tp:gnutls-3.6.8
 msgid "The public key is invalid."
-msgstr "Publika nyckeln är ogiltig."
+msgstr "Den offentliga nyckeln är ogiltig."
 
 #. from tp:gnutls-3.6.8
 msgid "There are no validation parameters present."
-msgstr "Det finns inga valideringsparametrar närvarande."
+msgstr "Det finns inga valideringsparametrar."
 
 #. from tp:gnutls-3.6.8
 msgid "The public key parameters are invalid."
-msgstr "Publika nyckelns parametrar är ogiltiga."
+msgstr "Parametrarna för den offentliga nyckeln är ogiltiga."
 
 #. from tp:gnutls-3.6.8
 msgid "The private key is invalid."
-msgstr "Privata nyckeln är ogiltig."
+msgstr "Den privata nyckeln är ogiltig."
 
 #. from tp:gnutls-3.6.8
 msgid "The DER time encoding is invalid."
@@ -456392,7 +456392,7 @@ msgstr "Signaturen är inkompatibel med den publika nyckeln."
 
 #. from tp:gnutls-3.6.8
 msgid "One of the involved algorithms has insufficient security level."
-msgstr "En av dom inblandade algoritmerna har otillräcklig säkerhetsnivå."
+msgstr "En av de inblandade algoritmerna har otillräcklig säkerhetsnivå."
 
 #. from tp:gnutls-3.6.8
 msgid "No common key share with peer."
@@ -456400,7 +456400,7 @@ msgstr "Ingen gemensam nyckeldelning med motparten."
 
 #. from tp:gnutls-3.6.8
 msgid "The early data were rejected."
-msgstr "Den tidiga datan avvisades."
+msgstr "De tidiga data avvisades."
 
 #. from tp:gnutls-3.6.8
 msgid "A TLS warning alert has been received."
@@ -456428,7 +456428,7 @@ msgstr "Upprepad handskakning begärdes av motparten."
 
 #. from tp:gnutls-3.6.8
 msgid "Re-authentication was requested by the peer."
-msgstr "Ny autentisering begärd av motparten."
+msgstr "Ny autentisering begärdes av motparten."
 
 #. from tp:gnutls-3.6.8
 msgid "(unknown error code)"
@@ -456440,7 +456440,7 @@ msgstr "OCSP-svaret är betrott. "
 
 #. from tp:gnutls-3.6.8
 msgid "The OCSP response's signer could not be found. "
-msgstr "OCSP-svarens undertecknare kunde inte hittas. "
+msgstr "OCSP-svarets undertecknare kunde inte hittas. "
 
 #. from tp:gnutls-3.6.8
 msgid "Error in the signer's key usageflags. "
@@ -456448,7 +456448,7 @@ msgstr "Fel i undertecknarens nyckelanvändningsflaggor. "
 
 #. from tp:gnutls-3.6.8
 msgid "The OCSP response's signer is not trusted. "
-msgstr "OCSP-svarens undertecknare är inte betrodd. "
+msgstr "OCSP-svarets undertecknare är inte betrodd. "
 
 #. from tp:gnutls-3.6.8
 msgid "The OCSP response depends on insecure algorithms. "
@@ -456460,11 +456460,11 @@ msgstr "OCSP-svarens signatur kunde inte valideras. "
 
 #. from tp:gnutls-3.6.8
 msgid "The OCSP response's signer's certificate is not activated. "
-msgstr "Undertecknarens OCSP-svarscertifikat är inte aktiverat. "
+msgstr "Certifikatet för OCSP-svarets undertecknare är inte aktiverat. "
 
 #. from tp:gnutls-3.6.8
 msgid "The OCSP response's signer's certificate is expired. "
-msgstr "Undertecknarens OCSP-svarscertifikat har gått ut. "
+msgstr "Certifikatet för OCSP-svarets undertecknare har gått ut. "
 
 #. from tp:gnutls-3.6.8
 msgid "Memory error"
@@ -456496,7 +456496,7 @@ msgstr "	Svararens ID: %s\n"
 
 #. from tp:gnutls-3.6.8
 msgid "	Produced At: %s\n"
-msgstr "	Producerat: %s\n"
+msgstr "\tFramställt: %s\n"
 
 #. from tp:gnutls-3.6.8
 msgid "		Revocation time: %s\n"
@@ -456540,7 +456540,7 @@ msgstr "%s%s: %.*s\n"
 
 #. from tp:gnutls-3.6.8
 msgid "warning: SAN contains an embedded NUL, replacing with '!'\n"
-msgstr "varning: SAN innehåller en inbäddad NUL, ersätter med \"!\"\n"
+msgstr "varning: SAN innehåller en inbäddad NUL, ersätter med ”!”\n"
 
 #. from tp:gnutls-3.6.8
 msgid "%sURI: %.*s\n"
@@ -456556,7 +456556,7 @@ msgstr "%sXMPP-adress: %.*s\n"
 
 #. from tp:gnutls-3.6.8
 msgid "%sKRB5Principal: %.*s\n"
-msgstr "%sKRB5-huvudsak: %.*s\n"
+msgstr "%sKRB5-huvudman: %.*s\n"
 
 #. from tp:gnutls-3.6.8
 msgid "%sUnknown name: "
@@ -456580,11 +456580,11 @@ msgstr "\n				Hexdump: "
 
 #. from tp:gnutls-3.6.8
 msgid "%s			Permitted:\n"
-msgstr "%s			Tillåten:\n"
+msgstr "%s\t\t\tTillåtet:\n"
 
 #. from tp:gnutls-3.6.8
 msgid "%s			Excluded:\n"
-msgstr "%s			Exkluderad:\n"
+msgstr "%s\t\t\tUteslutet:\n"
 
 #. from tp:gnutls-3.6.8
 msgid "			Access Method: %s (%s)\n"
@@ -456596,7 +456596,7 @@ msgstr "%sDigital signatur.\n"
 
 #. from tp:gnutls-3.6.8
 msgid "%sNon repudiation.\n"
-msgstr "%sOförnekbarhet.\n"
+msgstr "%sOavvislighet.\n"
 
 #. from tp:gnutls-3.6.8
 msgid "%sKey encipherment.\n"
@@ -456628,11 +456628,11 @@ msgstr "%sEndast nyckeldekryptering.\n"
 
 #. from tp:gnutls-3.6.8
 msgid "			Not Before: %s\n"
-msgstr "			Inte före: %s\n"
+msgstr "\t\t\tGäller från: %s\n"
 
 #. from tp:gnutls-3.6.8
 msgid "			Not After: %s\n"
-msgstr "			Inte efter: %s\n"
+msgstr "\t\t\tGäller till: %s\n"
 
 #. from tp:gnutls-3.6.8
 msgid "%s			TLS WWW Server.\n"
@@ -456692,7 +456692,7 @@ msgstr "\n%s			otherName ASCII: "
 
 #. from tp:gnutls-3.6.8
 msgid "%s		Basic Constraints (%s):\n"
-msgstr "%s		Allmänna begränsningar (%s):\n"
+msgstr "%s\t\tGrundläggande begränsningar (%s):\n"
 
 #. from tp:gnutls-3.6.8
 msgid "not critical"
@@ -456764,7 +456764,7 @@ msgstr "%s	Tillägg:\n"
 
 #. from tp:gnutls-3.6.8
 msgid "	%sPublic Key Algorithm: %s\n"
-msgstr "	%sÖppen nyckel-algoritm: %s\n"
+msgstr "\t%sAlgoritm för öppen nyckel: %s\n"
 
 #. from tp:gnutls-3.6.8
 msgid "	Algorithm Security Level: %s (%d bits)\n"
@@ -456880,7 +456880,7 @@ msgstr "		Inte efter: %s\n"
 
 #. from tp:gnutls-3.6.8
 msgid "	Subject:\n"
-msgstr "	Ämne:\n"
+msgstr "\tInnehavare:\n"
 
 #. from tp:gnutls-3.6.8
 msgid "	Subject: %s\n"
@@ -456900,15 +456900,15 @@ msgstr "		sha256:"
 
 #. from tp:gnutls-3.6.8
 msgid "%sPublic Key ID:\n%s	sha1:"
-msgstr "%sPublikt nyckel-ID:\n%s	sha1:"
+msgstr "%sID för offentlig nyckel:\n%s\tsha1:"
 
 #. from tp:gnutls-3.6.8
 msgid "%sPublic Key PIN:\n%s	pin-sha256:"
-msgstr "%sPublik nyckel-PIN:\n%s	pin-sha256:"
+msgstr "%sPIN för offentlig nyckel:\n%s\tpin-sha256:"
 
 #. from tp:gnutls-3.6.8
 msgid "no subject,"
-msgstr "inget ämne,"
+msgstr "ingen innehavare,"
 
 #. from tp:gnutls-3.6.8
 msgid "no issuer,"
@@ -456916,7 +456916,7 @@ msgstr "ingen utfärdare,"
 
 #. from tp:gnutls-3.6.8
 msgid "signed using %s (broken!), "
-msgstr "signerat med %s (trasig!), "
+msgstr "signerat med %s (bruten!), "
 
 #. from tp:gnutls-3.6.8
 msgid "signed using %s, "
@@ -457000,15 +457000,15 @@ msgstr "Information om begäran av PKCS #10-certifikat:\n"
 
 #. from tp:gnutls-3.6.8
 msgid "Public Key Usage:\n"
-msgstr "Öppen nyckel-användning:\n"
+msgstr "Användning av offentlig nyckel:\n"
 
 #. from tp:gnutls-3.6.8
 msgid "Public Key Information:\n"
-msgstr "Öppen nyckel-information:\n"
+msgstr "Information om offentlig nyckel:\n"
 
 #. from tp:gnutls-3.6.8
 msgid "Certificate matches. "
-msgstr "Certifikat matchar. "
+msgstr "Certifikaten stämmer överens. "
 
 #. from tp:gnutls-3.6.8
 msgid "Verification failed. "
@@ -457016,7 +457016,7 @@ msgstr "Verifiering misslyckades. "
 
 #. from tp:gnutls-3.6.8
 msgid "CA constrains were violated. "
-msgstr "Certifkatutfärdarbegränsningar bröts. "
+msgstr "Certifikatutfärdarens begränsningar överträddes. "
 
 #. from tp:gnutls-3.6.8
 msgid "The certificate differs. "
@@ -457036,11 +457036,11 @@ msgstr "Ett fel uppstod vid upplösning."
 
 #. from tp:gnutls-3.6.8
 msgid "No DANE data were found."
-msgstr "Ingen DANE-data hittades."
+msgstr "Inga DANE-data hittades. "
 
 #. from tp:gnutls-3.6.8
 msgid "Unknown DANE data were found."
-msgstr "Okänd DANE-data funnen."
+msgstr "Okända DANE-data hittades. "
 
 #. from tp:gnutls-3.6.8
 msgid "No DNSSEC signature was found."
@@ -457048,7 +457048,7 @@ msgstr "Ingen DNSSEC-signatur hittades."
 
 #. from tp:gnutls-3.6.8
 msgid "Received corrupt data."
-msgstr "Korrupt data mottagen."
+msgstr "Skadade data togs emot. "
 
 #. from tp:gnutls-3.6.8
 msgid "The DNSSEC signature is invalid."
@@ -457068,7 +457068,7 @@ msgstr "Det uppstod ett fel i certifikatet."
 
 #. from tp:gnutls-3.6.8
 msgid "There was an error in the public key."
-msgstr "Det uppstod ett fel i den publika nyckeln."
+msgstr "Det uppstod ett fel i den offentliga nyckeln."
 
 #. from tp:gnutls-3.6.8
 msgid "Error in file."
@@ -457092,7 +457092,7 @@ msgstr "Fil:\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "  None available.\n"
-msgstr "  Ingen tillgänglig.\n"
+msgstr "  Ingen är tillgänglig.\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "  Mime type:   '%s'\n"
@@ -457104,11 +457104,11 @@ msgstr "  Storlek:     %llu byte\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "  Width:       %i pixel(s)\n"
-msgstr "  Bredd:       %i bildpunkt(er)\n"
+msgstr "  Bredd:       %i bildpunkter\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "  Height:      %i pixel(s)\n"
-msgstr "  Höjd:        %i bildpunkt(er)\n"
+msgstr "  Höjd:        %i bildpunkter\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "  Downloaded:  %s\n"
@@ -457172,7 +457172,7 @@ msgstr "Kameror som stöds:\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "	\"%s\" (TESTING)\n"
-msgstr "	”%s” (TEST)\n"
+msgstr "\t”%s” (TESTNING)\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "	\"%s\" (EXPERIMENTAL)\n"
@@ -457200,7 +457200,7 @@ msgstr "----------------------------------------------------------\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Abilities for camera             : %s\n"
-msgstr "Förmågor hos kameran            : %s\n"
+msgstr "Funktioner för kameran           : %s\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Serial port support              : %s\n"
@@ -457220,7 +457220,7 @@ msgstr "                                 : %i\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Capture choices                  :\n"
-msgstr "Tagningsval                      :\n"
+msgstr "Alternativ för tagning           :\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "                                 : Image\n"
@@ -457240,7 +457240,7 @@ msgstr "                                 : Förhandsgranskning\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "                                 : Trigger Capture\n"
-msgstr "                                 : Utlösartagning\n"
+msgstr "                                 : Utlös tagning\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "                                 : Capture not supported by the driver\n"
@@ -457248,7 +457248,7 @@ msgstr "                                 : Tagning stöds inte av drivrutinen\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Configuration support            : %s\n"
-msgstr "Konfigurationsstöd                :%s\n"
+msgstr "Konfigurationsstöd               : %s\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Delete selected files on camera  : %s\n"
@@ -457264,7 +457264,7 @@ msgstr "Stöd för förhandsgranskning       : %s\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "File upload support              : %s\n"
-msgstr "Stöd för filsändningar           : %s\n"
+msgstr "Stöd för filuppladdning          : %s\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Ports must look like 'serial:/dev/ttyS0' or 'usb:', but '%s' is missing a colon so I am going to guess what you mean."
@@ -457320,11 +457320,11 @@ msgstr "Filmtagningsfel… Ohanterad MIME-typ ”%s”."
 
 #. from tp:gphoto2-2.5.32
 msgid "Movie capture: SIGUSR2 signal received, stopping capture!\n"
-msgstr "Filminfångning: SIGUSR2 signal mottagen, avslutar infångning!\n\n"
+msgstr "Filminfångning: SIGUSR2-signal mottagen, avslutar infångning!\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Ctrl-C pressed ... Exiting.\n"
-msgstr "Ctrl-C nedtryckt … Avslutar.\n"
+msgstr "Ctrl-C trycktes ned … Avslutar.\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Movie capture finished (%d frames)\n"
@@ -457332,7 +457332,7 @@ msgstr "Filmtagning avslutad (%d bildrutor)\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Waiting for events from camera. Press Ctrl-C to abort.\n"
-msgstr "Väntar på händelser från kamera. Tryck Ctrl-C för att avbryta.\n"
+msgstr "Väntar på händelser från kameran. Tryck Ctrl-C för att avbryta.\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Waiting for %d frames from the camera. Press Ctrl-C to abort.\n"
@@ -457340,19 +457340,19 @@ msgstr "Väntar på %d bilder från kameran. Tryck Ctrl-C för att avbryta.\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Waiting for %d milliseconds for events from camera. Press Ctrl-C to abort.\n"
-msgstr "Väntar i %d millisekunder på händelser från kamera. Tryck Ctrl-C för att avbryta.\n"
+msgstr "Väntar i %d millisekunder på händelser från kameran. Tryck Ctrl-C för att avbryta.\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Waiting for %d seconds for events from camera. Press Ctrl-C to abort.\n"
-msgstr "Väntar i %d sekunder på händelser från kamera. Tryck Ctrl-C för att avbryta.\n"
+msgstr "Väntar i %d sekunder på händelser från kameran. Tryck Ctrl-C för att avbryta.\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Waiting for %d events from camera. Press Ctrl-C to abort.\n"
-msgstr "Väntar på %d händelser från kamera. Tryck Ctrl-C för att avbryta.\n"
+msgstr "Väntar på %d händelser från kameran. Tryck Ctrl-C för att avbryta.\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Waiting for '%s' event from camera. Press Ctrl-C to abort.\n"
-msgstr "Väntar på ”%s”-händelse från kamera. Tryck Ctrl-C för att avbryta.\n"
+msgstr "Väntar på ”%s”-händelse från kameran. Tryck Ctrl-C för att avbryta.\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "SIGUSR1 signal received, triggering capture!\n"
@@ -457360,15 +457360,15 @@ msgstr "SIGUSR1-signal mottagen, utlöser tagning!\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "SIGUSR2 signal received, stopping wait!\n"
-msgstr "SIGUSR2 signal mottagen, avslutar väntan!\n\n"
+msgstr "SIGUSR2-signal mottagen, avslutar väntan!\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "event found, stopping wait!\n"
-msgstr "händelse hittad, avslutar väntan!\n"
+msgstr "Händelse hittades, avslutar väntan!\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Could not set folder."
-msgstr "Kunde inte ställa in mapp."
+msgstr "Kunde inte ställa in mappen."
 
 #. from tp:gphoto2-2.5.32
 msgid "Could not get image."
@@ -457376,7 +457376,7 @@ msgstr "Kunde inte hämta bild."
 
 #. from tp:gphoto2-2.5.32
 msgid "Buggy libcanon.so?"
-msgstr "Felaktig libcanon.so?"
+msgstr "Fel i libcanon.so?"
 
 #. from tp:gphoto2-2.5.32
 msgid "Could not delete image."
@@ -457404,11 +457404,11 @@ msgstr "Flyttbart RAM"
 
 #. from tp:gphoto2-2.5.32
 msgid "Camera layout (DCIM)"
-msgstr "Kameralayout (DCIM)"
+msgstr "Kamerastruktur (DCIM)"
 
 #. from tp:gphoto2-2.5.32
 msgid "Overriding USB vendor/product id 0x%x/0x%x with 0x%x/0x%x"
-msgstr "Åsidosätt USB-id för tillverkare/produkt 0x%x/0x%x med 0x%x/0x%x"
+msgstr "Åsidosätter USB-ID:n för tillverkare/produkt 0x%x/0x%x med 0x%x/0x%x"
 
 #. from tp:gphoto2-2.5.32
 msgid "ALWAYS INCLUDE THE FOLLOWING LINES WHEN SENDING DEBUG MESSAGES TO THE MAILING LIST:"
@@ -457440,7 +457440,7 @@ msgstr "Misslyckades med att hämta värden för datum/tid-komponenten %s."
 
 #. from tp:gphoto2-2.5.32
 msgid "Use 'now' as the current time when setting.\n"
-msgstr "Använd ”nu” som aktuell tid vid inställning.\n"
+msgstr "Använd ”now” som aktuell tid vid inställning.\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Failed to retrieve values of radio widget %s."
@@ -457456,11 +457456,11 @@ msgstr "Misslyckades med att ställa in värdet för textkomponenten %s till %s.
 
 #. from tp:gphoto2-2.5.32
 msgid "The passed value %s is not a floating point value."
-msgstr "Det vidaresända värdet %s är inte ett flyttalsvärde."
+msgstr "Det angivna värdet %s är inte ett flyttalsvärde."
 
 #. from tp:gphoto2-2.5.32
 msgid "The passed value %f is not within the expected range %f - %f."
-msgstr "Det vidaresända värdet %f är inte inom det förväntade intervallet %f - %f."
+msgstr "Det angivna värdet %f ligger inte inom det förväntade intervallet %f–%f."
 
 #. from tp:gphoto2-2.5.32
 msgid "Failed to set the value of range widget %s to %f."
@@ -457476,7 +457476,7 @@ msgstr "sant"
 
 #. from tp:gphoto2-2.5.32
 msgid "The passed value %s is not a valid toggle value."
-msgstr "Det vidaresända värdet %s är inte ett giltigt växlingsvärde."
+msgstr "Det angivna värdet %s är inte ett giltigt växlingsvärde."
 
 #. from tp:gphoto2-2.5.32
 msgid "Failed to set values %s of toggle widget %s."
@@ -457488,7 +457488,7 @@ msgstr "nu"
 
 #. from tp:gphoto2-2.5.32
 msgid "The passed value %s is neither a valid time nor an integer."
-msgstr "Det vidaresända värdet %s är varken en giltig tid eller ett heltal."
+msgstr "Det angivna värdet %s är varken en giltig tid eller ett heltal."
 
 #. from tp:gphoto2-2.5.32
 msgid "Failed to set new time of date/time widget %s to %s."
@@ -457512,7 +457512,7 @@ msgstr "Komponenten %s har ingen indexerad lista över val. Använd --set-config
 
 #. from tp:gphoto2-2.5.32
 msgid "Bad file number. You specified %i, but there are only %i files available in '%s' or its subfolders. Please obtain a valid file number from a file listing first."
-msgstr "Felaktigt filnummer. Du angav %i, men det fanns bara %i filer tillgängliga i ”%s” eller dess underkataloger. Leta fram ett giltigt filnummer från en fillista först."
+msgstr "Felaktigt filnummer. Du angav %i, men det finns bara %i filer tillgängliga i ”%s” eller dess underkataloger. Hämta först ett giltigt filnummer från en fillista."
 
 #. from tp:gphoto2-2.5.32
 msgid "There are no files in folder '%s'."
@@ -457560,11 +457560,11 @@ msgstr "Värde: "
 
 #. from tp:gphoto2-2.5.32
 msgid "Zero padding numbers in file names is only possible with %%n."
-msgstr "Utfyllning med nollor i filnamn är endast möjligt med %%n."
+msgstr "Nollutfyllnad av tal i filnamn är endast möjlig med %%n."
 
 #. from tp:gphoto2-2.5.32
 msgid "You cannot use %%n zero padding without a precision value!"
-msgstr "Du kan inte använda %%n utfyllning med nollor utan ett precist värde!"
+msgstr "Du kan inte använda %%n-nollutfyllnad utan ett precisionsvärde!"
 
 #. from tp:gphoto2-2.5.32
 msgid "The filename provided by the camera ('%s') does not contain a suffix!"
@@ -457576,11 +457576,11 @@ msgstr "Ogiltigt format ”%s” (fel vid position %i)."
 
 #. from tp:gphoto2-2.5.32
 msgid "Skip existing file %s\n"
-msgstr "Hoppa över existerande fil %s\n"
+msgstr "Hoppar över befintlig fil %s\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "File %s exists. Overwrite? [y|n] "
-msgstr "Filen %s finns redan. Skriv över? Ja/Nej [y|n] "
+msgstr "Filen %s finns redan. Skriv över? [y|n] "
 
 #. from tp:gphoto2-2.5.32
 msgid "Specify new filename? [y|n] "
@@ -457604,7 +457604,7 @@ msgstr "Ny fil finns på platsen %s%s%s på kameran\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Keeping file %s%s%s on the camera\n"
-msgstr "Behåll fil %s%s%s på kameran\n"
+msgstr "Behåller filen %s%s%s på kameran\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Deleting file %s%s%s on the camera\n"
@@ -457636,11 +457636,11 @@ msgstr "Tidsförloppsläge aktiverat (intervall: %ds).\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Standing by waiting for SIGUSR1 to capture.\n"
-msgstr "Väntar på SIGUSR1 för att fånga in.\n"
+msgstr "Väntar i beredskap på SIGUSR1 för att ta en bild.\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Bulb mode enabled (exposure time: %ds).\n"
-msgstr "Långtidsexponering aktiverat (exponeringstid: %ds).\n"
+msgstr "Långtidsexponering aktiverad (exponeringstid: %ds).\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Capturing frame #%d...\n"
@@ -457660,7 +457660,7 @@ msgstr "Kunde inte avsluta tagning (långtidsexponering)."
 
 #. from tp:gphoto2-2.5.32
 msgid "Could not trigger image capture."
-msgstr "Kunde inte utläsa bildtagning."
+msgstr "Kunde inte utlösa bildtagning."
 
 #. from tp:gphoto2-2.5.32
 msgid "Could not capture image."
@@ -457728,15 +457728,15 @@ msgstr "För felsökningsmeddelanden, använd flaggan --debug.\nFelsökningsmedd
 
 #. from tp:gphoto2-2.5.32
 msgid "Please make sure there is sufficient quoting around the arguments.\n\n"
-msgstr "Vänligen säkerställ att det finns tillräckligt med citationstecken runt argumenten.\n\n"
+msgstr "Säkerställ att argumenten är tillräckligt citerade.\n\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Print complete help message on program usage"
-msgstr "Skriv ut komplett hjälpmeddelande för användning"
+msgstr "Skriv ut fullständigt hjälpmeddelande om programanvändning"
 
 #. from tp:gphoto2-2.5.32
 msgid "Print short message on program usage"
-msgstr "Skriv ut kort meddelande för användning"
+msgstr "Skriv ut kort hjälpmeddelande om programanvändning"
 
 #. from tp:gphoto2-2.5.32
 msgid "Turn on debugging"
@@ -457756,11 +457756,11 @@ msgstr "Tyst utdata (standard=informativ)"
 
 #. from tp:gphoto2-2.5.32
 msgid "Simple parsable output (implies quiet)"
-msgstr "Enkelt tolkningsbar utmatning (medför tyst)"
+msgstr "Enkel tolkningsbar utdata (medför tyst läge)"
 
 #. from tp:gphoto2-2.5.32
 msgid "Hook script to call after downloads, captures, etc."
-msgstr "Hook-skript att anropa efter hämtningar, tagningar, etc."
+msgstr "Hook-skript att anropa efter hämtningar, tagningar osv."
 
 #. from tp:gphoto2-2.5.32
 msgid "Specify device port"
@@ -457788,11 +457788,11 @@ msgstr "(endast experter) Åsidosätt USB-ID"
 
 #. from tp:gphoto2-2.5.32
 msgid "USBIDs"
-msgstr "USBID"
+msgstr "USB-ID:n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Display version and exit"
-msgstr "Visa versionsnummer och avsluta"
+msgstr "Visa versionsinformation och avsluta"
 
 #. from tp:gphoto2-2.5.32
 msgid "List supported camera models"
@@ -457804,7 +457804,7 @@ msgstr "Lista portenheter som stöds"
 
 #. from tp:gphoto2-2.5.32
 msgid "Display the camera/driver abilities in the libgphoto2 database"
-msgstr "Visa kamera-/drivrutinsförmågor i libgphoto2-databasen"
+msgstr "Visa kamerans/drivrutinens funktioner i libgphoto2-databasen"
 
 #. from tp:gphoto2-2.5.32
 msgid "List configuration tree"
@@ -457836,15 +457836,15 @@ msgstr "Återställ enhetsport"
 
 #. from tp:gphoto2-2.5.32
 msgid "Keep images on camera after capturing"
-msgstr "Behåll bilder på kamera efter tagning"
+msgstr "Behåll bilder på kameran efter tagning"
 
 #. from tp:gphoto2-2.5.32
 msgid "Keep RAW images on camera after capturing"
-msgstr "Behåll RAW-bilder på kamera efter tagning"
+msgstr "Behåll RAW-bilder på kameran efter tagning"
 
 #. from tp:gphoto2-2.5.32
 msgid "Remove images from camera after capturing"
-msgstr "Ta bort bilder från kamera efter tagning"
+msgstr "Ta bort bilder från kameran efter tagning"
 
 #. from tp:gphoto2-2.5.32
 msgid "Wait for event(s) from camera"
@@ -457864,7 +457864,7 @@ msgstr "Ta en snabb förhandsgranskning"
 
 #. from tp:gphoto2-2.5.32
 msgid "Show a quick preview as Ascii Art"
-msgstr "Visa en snabb förhandsgranskning som Ascii-konst"
+msgstr "Visa en snabb förhandsgranskning som ASCII-konst"
 
 #. from tp:gphoto2-2.5.32
 msgid "Set bulb exposure time in seconds"
@@ -457872,7 +457872,7 @@ msgstr "Ställ in långtidsexponeringstid i sekunder"
 
 #. from tp:gphoto2-2.5.32
 msgid "Set number of frames to capture (default=infinite)"
-msgstr "Ställ in antal bildrutor att fånga in (standard=oändligt)"
+msgstr "Ställ in antal bildrutor som ska tas (standard=oändligt)"
 
 #. from tp:gphoto2-2.5.32
 msgid "Set capture interval in seconds"
@@ -457916,7 +457916,7 @@ msgstr "Lista mappar i mappen"
 
 #. from tp:gphoto2-2.5.32
 msgid "List files in folder"
-msgstr "Lista filer i mapp"
+msgstr "Lista filer i mappen"
 
 #. from tp:gphoto2-2.5.32
 msgid "Create a directory"
@@ -457924,7 +457924,7 @@ msgstr "Skapa en katalog"
 
 #. from tp:gphoto2-2.5.32
 msgid "DIRNAME"
-msgstr "KATNAMN"
+msgstr "KATALOGNAMN"
 
 #. from tp:gphoto2-2.5.32
 msgid "Remove a directory"
@@ -457948,7 +457948,7 @@ msgstr "Hämta alla filer från mappen"
 
 #. from tp:gphoto2-2.5.32
 msgid "Get thumbnails given in range"
-msgstr "Hämta alla miniatyrbilder i det angivna intervallet"
+msgstr "Hämta miniatyrbilder i det angivna intervallet"
 
 #. from tp:gphoto2-2.5.32
 msgid "Get all thumbnails from folder"
@@ -457960,11 +457960,11 @@ msgstr "Hämta metadata i det angivna intervallet"
 
 #. from tp:gphoto2-2.5.32
 msgid "Get all metadata from folder"
-msgstr "Hämta all metadata från mapp"
+msgstr "Hämta all metadata från mappen"
 
 #. from tp:gphoto2-2.5.32
 msgid "Upload metadata for file"
-msgstr "Skicka upp metadata för fil"
+msgstr "Ladda upp metadata för en fil"
 
 #. from tp:gphoto2-2.5.32
 msgid "Get raw data given in range"
@@ -457992,7 +457992,7 @@ msgstr "Ta bort alla filer i mappen (--no-recurse som standard)"
 
 #. from tp:gphoto2-2.5.32
 msgid "Upload a file to camera"
-msgstr "Skicka upp fil till kamera"
+msgstr "Ladda upp en fil till kameran"
 
 #. from tp:gphoto2-2.5.32
 msgid "Specify a filename or filename pattern"
@@ -458004,7 +458004,7 @@ msgstr "FILNAMNSMÖNSTER"
 
 #. from tp:gphoto2-2.5.32
 msgid "Specify the number a filename %%n will starts with (default 1)"
-msgstr "Ange numret som filnamn %%n kommer att starta med (standardvärde 1)"
+msgstr "Ange talet som %%n i filnamnet ska börja med (standardvärde 1)"
 
 #. from tp:gphoto2-2.5.32
 msgid "Specify camera folder (default=\"/\")"
@@ -458032,11 +458032,11 @@ msgstr "Skriv över filer utan att fråga"
 
 #. from tp:gphoto2-2.5.32
 msgid "Skip existing files"
-msgstr "Hoppa över existerande filer"
+msgstr "Hoppa över befintliga filer"
 
 #. from tp:gphoto2-2.5.32
 msgid "Send file to stdout"
-msgstr "Skicka fil till standard ut"
+msgstr "Skicka fil till standardutdata"
 
 #. from tp:gphoto2-2.5.32
 msgid "Print filesize before data"
@@ -458052,15 +458052,15 @@ msgstr "Visa EXIF-information för JPEG-bilder"
 
 #. from tp:gphoto2-2.5.32
 msgid "Show image information, like width, height, and capture time"
-msgstr "Visa bildinformation, så som bredd, höjd och tagningstid"
+msgstr "Visa bildinformation, såsom bredd, höjd och tagningstid"
 
 #. from tp:gphoto2-2.5.32
 msgid "Show camera summary"
-msgstr "Visa kamera-sammandrag"
+msgstr "Visa kamerasammanfattning"
 
 #. from tp:gphoto2-2.5.32
 msgid "Show camera driver manual"
-msgstr "Visa kameradrivrutinens manual"
+msgstr "Visa kameradrivrutinens handbok"
 
 #. from tp:gphoto2-2.5.32
 msgid "About the camera driver manual"
@@ -458096,7 +458096,7 @@ msgstr "Ta en bild från eller på kameran"
 
 #. from tp:gphoto2-2.5.32
 msgid "Downloading, uploading and manipulating files"
-msgstr "Hämtar, skickar upp och manipulerar filer"
+msgstr "Hämta, ladda upp och hantera filer"
 
 #. from tp:gphoto2-2.5.32
 msgid "EVENT can be either COUNT, SECONDS, MILLISECONDS, or MATCHSTRING.\n"
@@ -458188,7 +458188,7 @@ msgstr "Ta bort katalog"
 
 #. from tp:gphoto2-2.5.32
 msgid "Displays command usage"
-msgstr "Visar kommandoanvändning"
+msgstr "Visar kommandots användning"
 
 #. from tp:gphoto2-2.5.32
 msgid "[command]"
@@ -458196,7 +458196,7 @@ msgstr "[kommando]"
 
 #. from tp:gphoto2-2.5.32
 msgid "List the contents of the current directory"
-msgstr "Lista innehållet av den aktuella katalogen"
+msgstr "Lista innehållet i den aktuella katalogen"
 
 #. from tp:gphoto2-2.5.32
 msgid "[directory/]"
@@ -458248,11 +458248,11 @@ msgstr "antal eller sekunder"
 
 #. from tp:gphoto2-2.5.32
 msgid "Wait for images to be captured and download it"
-msgstr "Vänta på bilder att fångas in och hämta dem"
+msgstr "Vänta på att bilder fångas in och hämta dem"
 
 #. from tp:gphoto2-2.5.32
 msgid "Wait for events and images to be captured and download it"
-msgstr "Vänta på händelser och bilder att fångas in samt hämta dem"
+msgstr "Vänta på händelser och att bilder fångas in samt hämta dem"
 
 #. from tp:gphoto2-2.5.32
 msgid "The command '%s' requires an argument."
@@ -458292,7 +458292,7 @@ msgstr "set-config-index behöver ett andra argument.\n"
 
 #. from tp:gphoto2-2.5.32
 msgid "Command '%s' not found. Use 'help' to get a list of available commands."
-msgstr "Kommandot ”%s” hittades inte. Använd ”help” för att få en lista av tillgängliga kommandon."
+msgstr "Kommandot ”%s” hittades inte. Använd ”help” för att få en lista över tillgängliga kommandon."
 
 #. from tp:gphoto2-2.5.32
 msgid "Help on \"%s\":"
@@ -458300,11 +458300,11 @@ msgstr "Hjälp om ”%s”:"
 
 #. from tp:gphoto2-2.5.32
 msgid "* Arguments in brackets [] are optional"
-msgstr "* Argument inom klamrar [] är valfria"
+msgstr "* Argument inom hakparenteser [] är valfria"
 
 #. from tp:gphoto2-2.5.32
 msgid "To get help on a particular command, type in 'help command-name'."
-msgstr "För att få hjälp om ett speciellt kommando, skriv ”help kommandonamn”."
+msgstr "För att få hjälp om ett visst kommando, skriv ”help kommandonamn”."
 
 #. from tp:gprof-2.44.90
 msgid "<indirect child>"
@@ -458364,7 +458364,7 @@ msgstr "%9.2f   Medelexekveringar per rad\n"
 
 #. from tp:gprof-2.44.90
 msgid "[cg_tally] arc from %s to %s traversed %lu times\n"
-msgstr "[cg_tally] båge från %s till %s traverserad %lu gånger\n"
+msgstr "[cg_tally] båge från %s till %s genomlöptes %lu gånger\n"
 
 #. from tp:gprof-2.44.90
 msgid "		     Call graph (explanation follows)\n\n"
@@ -458380,11 +458380,11 @@ msgstr "\nupplösning: varje stickprov täcker %ld byte"
 
 #. from tp:gprof-2.44.90
 msgid " for %.2f%% of %.2f seconds\n\n"
-msgstr " för %.2f%% på %.2f sekunder\n\n"
+msgstr " för %.2f%% under %.2f sekunder\n\n"
 
 #. from tp:gprof-2.44.90
 msgid " no time propagated\n\n"
-msgstr " ingen tid propagerad\n\n"
+msgstr " ingen tid propagerades\n\n"
 
 #. from tp:gprof-2.44.90
 msgid "called"
@@ -458420,7 +458420,7 @@ msgstr "index %% tid     själv barn        anropad    namn\n"
 
 #. from tp:gprof-2.44.90
 msgid " <cycle %d as a whole> [%d]\n"
-msgstr " <hela cykel %d> [%d]\n"
+msgstr " <hel cykel %d> [%d]\n"
 
 #. from tp:gprof-2.44.90
 msgid "%6.6s %5.5s %7.7s %11.11s %7.7s %7.7s     <spontaneous>\n"
@@ -458456,7 +458456,7 @@ msgstr "%s: kan inte hitta .text-sektion i %s\n"
 
 #. from tp:gprof-2.44.90
 msgid "%s: ran out room for %lu bytes of text space\n"
-msgstr "%s: slut på utrymme för %lu byte textutrymme\n"
+msgstr "%s: slut på utrymme för %lu byte text\n"
 
 #. from tp:gprof-2.44.90
 msgid "%s: can't do -c\n"
@@ -458564,7 +458564,7 @@ msgstr "GNU gprof %s\n"
 
 #. from tp:gprof-2.44.90
 msgid "Based on BSD gprof, copyright 1983 Regents of the University of California.\n"
-msgstr "Baserat på BSD gprof, copyright 1983 Regents of the University of California.\n"
+msgstr "Baserat på BSD gprof, upphovsrätt 1983 Regents of the University of California.\n"
 
 #. from tp:gprof-2.44.90
 msgid "This program is free software.  This program has absolutely no warranty.\n"

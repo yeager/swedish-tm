@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 55659,
+  "reviewed_tp_entries": 56626,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 14039,
+  "changed_pairs": 14210,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 14039,
+      "confirmed_swedish_changes": 14210,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "32fb72c9bdede77889a0b905a1a10a351389359cf899f11e00a7dcc713eff631"
+      "sha256": "caabbc92dd3643d41cf95318d4e481c346dd0a9c6de8e69a4bf0d8fbc12d355a"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 14039,
+      "confirmed_swedish_changes": 14210,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "2608c4aa8609ca5be1aadf4fed66e5e6c880cdae1cae1151a70806f4312eaa3d"
+      "sha256": "a2788921d9db54b00bef4aa6b7607f61ac6881a8d55430ebf1adfbe215c8e620"
     }
   },
   "unmapped_plural_fixes": [
@@ -112397,6 +112397,1374 @@
       "before": "Misslyckades att öppna /dev/zero för läsning",
       "after": "kunde inte öppna /dev/zero för läsning",
       "reason": "Språk- och terminologigranskning av GnuCOBOL och Gnulib"
+    },
+    {
+      "tp_id": "gnulib:1003",
+      "project": "tp:gnulib-20241209",
+      "msgid": "creation of reading thread failed",
+      "before": "att skapa lästråd misslyckades",
+      "after": "det gick inte att skapa lästråden",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnulib:1008",
+      "project": "tp:gnulib-20241209",
+      "msgid": "cannot set up nonblocking I/O to %s subprocess",
+      "before": "det gick inte att sätta upp icke blockerande I/O till %s-underprocess",
+      "after": "det gick inte att ställa in icke-blockerande I/O till %s-underprocessen",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnulib:1013",
+      "project": "tp:gnulib-20241209",
+      "msgid": "communication with %s subprocess failed",
+      "before": "kommunikation med %s-underprocess misslyckades",
+      "after": "kommunikationen med %s-underprocessen misslyckades",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnulib:1023",
+      "project": "tp:gnulib-20241209",
+      "msgid": "read from %s subprocess failed",
+      "before": "läsning från %s-underprocess misslyckades",
+      "after": "läsning från %s-underprocessen misslyckades",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnulib:1028",
+      "project": "tp:gnulib-20241209",
+      "msgid": "subprocess %s terminated with exit code %d",
+      "before": "underprocess %s avslutad med slutstatus %d",
+      "after": "underprocessen %s avslutades med slutstatus %d",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnulib:1033",
+      "project": "tp:gnulib-20241209",
+      "msgid": "creation of threads failed",
+      "before": "att skapa trådar misslyckades",
+      "after": "det gick inte att skapa trådar",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnulib:1038",
+      "project": "tp:gnulib-20241209",
+      "msgid": "%s subprocess terminated with exit code %d",
+      "before": "%s-underprocess avslutad med slutstatus %d",
+      "after": "%s-underprocessen avslutades med slutstatus %d",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnulib:1328",
+      "project": "tp:gnulib-20241209",
+      "msgid": "CPU user",
+      "before": "CPU användare",
+      "after": "CPU, användare",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnulib:1332",
+      "project": "tp:gnulib-20241209",
+      "msgid": "CPU system",
+      "before": "CPU system",
+      "after": "CPU, system",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnulib:1336",
+      "project": "tp:gnulib-20241209",
+      "msgid": "wall clock",
+      "before": "väggklocka",
+      "after": "verklig tid",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnulib:1597",
+      "project": "tp:gnulib-20241209",
+      "msgid": "standard file descriptors",
+      "before": "standard filbeskrivare",
+      "after": "standardfilbeskrivare",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:117",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Inappropriate fallback",
+      "before": "Olämplig reserv",
+      "after": "Olämplig återgång",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:121",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "No renegotiation is allowed",
+      "before": "Ingen återförhandling tillåts",
+      "after": "Ingen återförhandling är tillåten",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:129",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "An unsupported extension was sent",
+      "before": "En utökning skickades som inte stöds",
+      "after": "En tilläggsfunktion som inte stöds skickades",
+      "reason": "Språk- och terminologigranskning av Gnulib och GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:145",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "No supported application protocol could be negotiated",
+      "before": "Inget programprotokoll som stöds kunde förhandlas",
+      "after": "Inget applikationsprotokoll som stöds kunde förhandlas fram",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:173",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "An unknown public key algorithm was encountered.",
+      "before": "En okänd öppen nyckel-algoritm påträffades.",
+      "after": "En okänd algoritm för öppen nyckel påträffades.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:177",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "An algorithm that is not enabled was negotiated.",
+      "before": "En algoritm som inte är aktiverad blev förhandlad.",
+      "after": "En algoritm som inte är aktiverad förhandlades fram.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:194",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "A TLS record packet with invalid length was received.",
+      "before": "Ett TLS-journalpaket med ogiltig längd togs emot.",
+      "after": "Ett TLS-postpaket med ogiltig längd togs emot.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:210",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "A connection with inappropriate fallback was attempted.",
+      "before": "Försökte ansluta med en olämplig reserv.",
+      "after": "Ett anslutningsförsök med olämplig återgång gjordes.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:218",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "An required TLS extension was received.",
+      "before": "En nödvändig TLS-utökning togs emot.",
+      "after": "En obligatorisk TLS-utökning togs emot.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:294",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Public key signature verification has failed.",
+      "before": "Validering av öppna nyckelns signatur misslyckades.",
+      "after": "Verifiering av den öppna nyckelns signatur misslyckades.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:298",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Decompression of the TLS record packet has failed.",
+      "before": "Dekomprimering av TLS-journalpaketet har misslyckats.",
+      "after": "Dekomprimering av TLS-postpaketet misslyckades.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:302",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Compression of the TLS record packet has failed.",
+      "before": "Komprimering av TLS-journalpaketet har misslyckats.",
+      "after": "Komprimering av TLS-postpaketet misslyckades.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:310",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "An unimplemented or disabled feature has been requested.",
+      "before": "En icke implementerad eller inaktiverad funktion begärdes.",
+      "after": "En oimplementerad eller inaktiverad funktion begärdes.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:314",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Insufficient credentials for that request.",
+      "before": "Otillräckliga rättigheter för begäran.",
+      "after": "Otillräckliga autentiseringsuppgifter för begäran.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:322",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Wrong padding in PKCS1 packet.",
+      "before": "Fel utfyllnad i PKCS1-paket.",
+      "after": "Felaktig utfyllnad i PKCS1-paket.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:370",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The upper limit of record packet sequence numbers has been reached. Wow!",
+      "before": "Den övre gränsen för sekvensnummer för journalpaket har nåtts. Wow!",
+      "after": "Den övre gränsen för sekvensnummer för postpaket har nåtts. Oj då!",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:382",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Error in the certificate verification.",
+      "before": "Fel i certifikatverifikationen.",
+      "after": "Fel vid certifikatverifieringen.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:390",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Error in the private key verification; seed doesn't match.",
+      "before": "Fel i privata nyckelverifikationen: frö matchar inte.",
+      "after": "Fel vid verifiering av den privata nyckeln: fröet stämmer inte.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:406",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Unsupported critical extension in X.509 certificate.",
+      "before": "Kritisk utökning som ej stöds i X.509-certifikat.",
+      "after": "Kritisk tilläggsfunktion som inte stöds i X.509-certifikat.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:410",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Unsupported extension in X.509 certificate.",
+      "before": "Utökning som ej stöds i X.509-certifikat.",
+      "after": "Tilläggsfunktion som inte stöds i X.509-certifikat.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:426",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Error in Database backend.",
+      "before": "Fel i databasbakänden.",
+      "after": "Fel i databasmotorn.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:438",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The given memory buffer is too short to hold parameters.",
+      "before": "Den angivna minnesbufferten är för liten för att lagra parametrar.",
+      "after": "Den angivna minnesbufferten är för liten för att rymma parametrarna.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:458",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Error while reading file.",
+      "before": "Fel vid läsning av fil.",
+      "after": "Fel vid läsning av filen.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:474",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "ASN1 parser: Error in DER parsing.",
+      "before": "ASN1-tolkare: Fel i DER-tolkning.",
+      "after": "ASN1-tolkare: Fel vid DER-tolkning.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:490",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "ASN1 parser: Error in TAG.",
+      "before": "ASN1-tolkare: Fel i TAG.",
+      "after": "ASN1-tolkare: Fel i TAGG.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:494",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "ASN1 parser: error in implicit tag",
+      "before": "ASN1-tolkare: fel i implicit tag",
+      "after": "ASN1-tolkare: fel i implicit tagg",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:498",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "ASN1 parser: Error in type 'ANY'.",
+      "before": "ASN1-tolkare: Fel i typen \"ANY\".",
+      "after": "ASN1-tolkare: Fel i typen ”ANY”.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:506",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "ASN1 parser: Overflow in DER parsing.",
+      "before": "ASN1-tolkare: Överspill i DER-tolkning.",
+      "after": "ASN1-tolkare: Överflöde i DER-tolkning.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:510",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Too many empty record packets have been received.",
+      "before": "För många tomma journalpaket har tagits emot.",
+      "after": "För många tomma postpaket har tagits emot.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:522",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The crypto library version is too old.",
+      "before": "Versionen av crypto-biblioteket är för gammal.",
+      "after": "Kryptobibliotekets version är för gammal.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:542",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The initialization of crypto backend has failed.",
+      "before": "Initieringen av krypteringsbakände misslyckades.",
+      "after": "Initieringen av kryptomotorn misslyckades.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:602",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The PKCS structure's bag type is unknown.",
+      "before": "PKCS-strukturens väsktyp är okänd.",
+      "after": "PKCS-strukturens behållartyp är okänd.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:623",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Some constraint limits were reached.",
+      "before": "Vissa begränsningar nåddes.",
+      "after": "Vissa begränsningar uppnåddes.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:627",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Failed to acquire random data.",
+      "before": "Misslyckades med att få tag på slumpmässigt data.",
+      "after": "Misslyckades med att hämta slumpdata.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:639",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The handshake data size is too large.",
+      "before": "Datastorlek för handskakning är för stor.",
+      "after": "Handskakningsdatans storlek är för stor.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:655",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Channel binding data not available",
+      "before": "Kanalbindningsdata är inte tillgängligt",
+      "after": "Kanalbindningsdata är inte tillgängliga",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:672",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "TPM key was not found in persistent storage.",
+      "before": "TPM-nyckeln hittades inte i bestående lagring.",
+      "after": "TPM-nyckeln hittades inte i permanent lagring.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:688",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Error in parsing.",
+      "before": "Fel i tolkning.",
+      "after": "Fel vid tolkning.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:692",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Error in provided PIN.",
+      "before": "Fel i tillhandahållen PIN.",
+      "after": "Fel i angiven PIN-kod.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:700",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Error in provided password for key to be loaded in TPM.",
+      "before": "Fel i tillhandahållet lösenord för nyckel som ska läsas in i TPM.",
+      "after": "Fel i angivet lösenord för nyckeln som ska läsas in i TPM.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:732",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "PKCS #11 PIN expired",
+      "before": "PKCS #11 PIN-kod utgången",
+      "after": "PKCS #11 PIN-koden har gått ut",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:736",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "PKCS #11 PIN locked",
+      "before": "PKCS #11 PIN-kod låst",
+      "after": "PKCS #11 PIN-koden är låst",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:776",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The provided X.509 certificate list is not sorted (in subject to issuer order)",
+      "before": "Den tillhandahållna X.509-certifikatlistan är inte sorterad (sorterad enligt utfärdare)",
+      "after": "Den tillhandahållna X.509-certifikatlistan är inte sorterad i ordning från innehavare till utfärdare",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:792",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Error in the system's randomness device.",
+      "before": "Fel i systemets slumpmässighetsenhet.",
+      "after": "Fel i systemets slumpenhet.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:808",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "An error has been detected in the library and cannot continue operations.",
+      "before": "Ett fel har upptäckts i biblioteket och åtgärder kan inte fortsätta.",
+      "after": "Ett fel har upptäckts i biblioteket och det går inte att fortsätta åtgärderna.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:812",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Error in sockets initialization.",
+      "before": "Fel i uttagets initiering.",
+      "after": "Fel vid initiering av uttag.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:816",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Error in public key generation.",
+      "before": "Fel vid publik nyckelgenerering.",
+      "after": "Fel vid generering av öppen nyckel.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:820",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Invalid TLS extensions length field.",
+      "before": "TLS-utökningens längdfält är ogiltiga.",
+      "after": "TLS-utökningens längdfält är ogiltigt.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:828",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The provided string has an embedded null.",
+      "before": "Den givna strängen har en inbäddad null.",
+      "after": "Den givna strängen innehåller ett inbäddat nolltecken.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:840",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "There was an issue converting to or from UTF8.",
+      "before": "Det uppstod ett problem vid konvertering till eller från UTF8.",
+      "after": "Det uppstod ett problem vid konvertering till eller från UTF-8.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:844",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Cannot perform this action while handshake is in progress.",
+      "before": "Kan inte utföra denna åtgärd medan handskakning pågår.",
+      "after": "Kan inte utföra denna åtgärd medan handskakningen pågår.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:848",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The public key is invalid.",
+      "before": "Publika nyckeln är ogiltig.",
+      "after": "Den offentliga nyckeln är ogiltig.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:852",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "There are no validation parameters present.",
+      "before": "Det finns inga valideringsparametrar närvarande.",
+      "after": "Det finns inga valideringsparametrar.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:856",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The public key parameters are invalid.",
+      "before": "Publika nyckelns parametrar är ogiltiga.",
+      "after": "Parametrarna för den offentliga nyckeln är ogiltiga.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:860",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The private key is invalid.",
+      "before": "Privata nyckeln är ogiltig.",
+      "after": "Den privata nyckeln är ogiltig.",
+      "reason": "Språk- och terminologigranskning av GnuTLS"
+    },
+    {
+      "tp_id": "gnutls:872",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "One of the involved algorithms has insufficient security level.",
+      "before": "En av dom inblandade algoritmerna har otillräcklig säkerhetsnivå.",
+      "after": "En av de inblandade algoritmerna har otillräcklig säkerhetsnivå.",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:880",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The early data were rejected.",
+      "before": "Den tidiga datan avvisades.",
+      "after": "De tidiga data avvisades.",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:912",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Re-authentication was requested by the peer.",
+      "before": "Ny autentisering begärd av motparten.",
+      "after": "Ny autentisering begärdes av motparten.",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:924",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The OCSP response's signer could not be found. ",
+      "before": "OCSP-svarens undertecknare kunde inte hittas. ",
+      "after": "OCSP-svarets undertecknare kunde inte hittas. ",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:932",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The OCSP response's signer is not trusted. ",
+      "before": "OCSP-svarens undertecknare är inte betrodd. ",
+      "after": "OCSP-svarets undertecknare är inte betrodd. ",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:944",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The OCSP response's signer's certificate is not activated. ",
+      "before": "Undertecknarens OCSP-svarscertifikat är inte aktiverat. ",
+      "after": "Certifikatet för OCSP-svarets undertecknare är inte aktiverat. ",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:948",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "The OCSP response's signer's certificate is expired. ",
+      "before": "Undertecknarens OCSP-svarscertifikat har gått ut. ",
+      "after": "Certifikatet för OCSP-svarets undertecknare har gått ut. ",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:985",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "\tProduced At: %s\n",
+      "before": "\tProducerat: %s\n",
+      "after": "\tFramställt: %s\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1045",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "warning: SAN contains an embedded NUL, replacing with '!'\n",
+      "before": "varning: SAN innehåller en inbäddad NUL, ersätter med \"!\"\n",
+      "after": "varning: SAN innehåller en inbäddad NUL, ersätter med ”!”\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1064",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "%sKRB5Principal: %.*s\n",
+      "before": "%sKRB5-huvudsak: %.*s\n",
+      "after": "%sKRB5-huvudman: %.*s\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1100",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "%s\t\t\tPermitted:\n",
+      "before": "%s\t\t\tTillåten:\n",
+      "after": "%s\t\t\tTillåtet:\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1105",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "%s\t\t\tExcluded:\n",
+      "before": "%s\t\t\tExkluderad:\n",
+      "after": "%s\t\t\tUteslutet:\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1120",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "%sNon repudiation.\n",
+      "before": "%sOförnekbarhet.\n",
+      "after": "%sOavvislighet.\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1161",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "\t\t\tNot Before: %s\n",
+      "before": "\t\t\tInte före: %s\n",
+      "after": "\t\t\tGäller från: %s\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1166",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "\t\t\tNot After: %s\n",
+      "before": "\t\t\tInte efter: %s\n",
+      "after": "\t\t\tGäller till: %s\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1246",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "%s\t\tBasic Constraints (%s):\n",
+      "before": "%s\t\tAllmänna begränsningar (%s):\n",
+      "after": "%s\t\tGrundläggande begränsningar (%s):\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1351",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "\t%sPublic Key Algorithm: %s\n",
+      "before": "\t%sÖppen nyckel-algoritm: %s\n",
+      "after": "\t%sAlgoritm för öppen nyckel: %s\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1481",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "\tSubject:\n",
+      "before": "\tÄmne:\n",
+      "after": "\tInnehavare:\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1502",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "%sPublic Key ID:\n%s\tsha1:",
+      "before": "%sPublikt nyckel-ID:\n%s\tsha1:",
+      "after": "%sID för offentlig nyckel:\n%s\tsha1:",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1511",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "%sPublic Key PIN:\n%s\tpin-sha256:",
+      "before": "%sPublik nyckel-PIN:\n%s\tpin-sha256:",
+      "after": "%sPIN för offentlig nyckel:\n%s\tpin-sha256:",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1520",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "no subject,",
+      "before": "inget ämne,",
+      "after": "ingen innehavare,",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1528",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "signed using %s (broken!), ",
+      "before": "signerat med %s (trasig!), ",
+      "after": "signerat med %s (bruten!), ",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1624",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Public Key Usage:\n",
+      "before": "Öppen nyckel-användning:\n",
+      "after": "Användning av offentlig nyckel:\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1628",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Public Key Information:\n",
+      "before": "Öppen nyckel-information:\n",
+      "after": "Information om offentlig nyckel:\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1632",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Certificate matches. ",
+      "before": "Certifikat matchar. ",
+      "after": "Certifikaten stämmer överens. ",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1640",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "CA constrains were violated. ",
+      "before": "Certifkatutfärdarbegränsningar bröts. ",
+      "after": "Certifikatutfärdarens begränsningar överträddes. ",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1660",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "No DANE data were found.",
+      "before": "Ingen DANE-data hittades.",
+      "after": "Inga DANE-data hittades. ",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1664",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Unknown DANE data were found.",
+      "before": "Okänd DANE-data funnen.",
+      "after": "Okända DANE-data hittades. ",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1672",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "Received corrupt data.",
+      "before": "Korrupt data mottagen.",
+      "after": "Skadade data togs emot. ",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gnutls:1692",
+      "project": "tp:gnutls-3.6.8",
+      "msgid": "There was an error in the public key.",
+      "before": "Det uppstod ett fel i den publika nyckeln.",
+      "after": "Det uppstod ett fel i den offentliga nyckeln.",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:60",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "  None available.\n",
+      "before": "  Ingen tillgänglig.\n",
+      "after": "  Ingen är tillgänglig.\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:75",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "  Width:       %i pixel(s)\n",
+      "before": "  Bredd:       %i bildpunkt(er)\n",
+      "after": "  Bredd:       %i bildpunkter\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:80",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "  Height:      %i pixel(s)\n",
+      "before": "  Höjd:        %i bildpunkt(er)\n",
+      "after": "  Höjd:        %i bildpunkter\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:195",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "\t\"%s\" (TESTING)\n",
+      "before": "\t”%s” (TEST)\n",
+      "after": "\t”%s” (TESTNING)\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:242",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Abilities for camera             : %s\n",
+      "before": "Förmågor hos kameran            : %s\n",
+      "after": "Funktioner för kameran           : %s\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:267",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Capture choices                  :\n",
+      "before": "Tagningsval                      :\n",
+      "after": "Alternativ för tagning           :\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:292",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "                                 : Trigger Capture\n",
+      "before": "                                 : Utlösartagning\n",
+      "after": "                                 : Utlös tagning\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:302",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Configuration support            : %s\n",
+      "before": "Konfigurationsstöd                :%s\n",
+      "after": "Konfigurationsstöd               : %s\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:322",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "File upload support              : %s\n",
+      "before": "Stöd för filsändningar           : %s\n",
+      "after": "Stöd för filuppladdning          : %s\n",
+      "reason": "Språk- och terminologigranskning av GnuTLS och GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:408",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Movie capture: SIGUSR2 signal received, stopping capture!\n",
+      "before": "Filminfångning: SIGUSR2 signal mottagen, avslutar infångning!\n\n",
+      "after": "Filminfångning: SIGUSR2-signal mottagen, avslutar infångning!\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:415",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Ctrl-C pressed ... Exiting.\n",
+      "before": "Ctrl-C nedtryckt … Avslutar.\n",
+      "after": "Ctrl-C trycktes ned … Avslutar.\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:425",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Waiting for events from camera. Press Ctrl-C to abort.\n",
+      "before": "Väntar på händelser från kamera. Tryck Ctrl-C för att avbryta.\n",
+      "after": "Väntar på händelser från kameran. Tryck Ctrl-C för att avbryta.\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:435",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Waiting for %d milliseconds for events from camera. Press Ctrl-C to abort.\n",
+      "before": "Väntar i %d millisekunder på händelser från kamera. Tryck Ctrl-C för att avbryta.\n",
+      "after": "Väntar i %d millisekunder på händelser från kameran. Tryck Ctrl-C för att avbryta.\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:440",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Waiting for %d seconds for events from camera. Press Ctrl-C to abort.\n",
+      "before": "Väntar i %d sekunder på händelser från kamera. Tryck Ctrl-C för att avbryta.\n",
+      "after": "Väntar i %d sekunder på händelser från kameran. Tryck Ctrl-C för att avbryta.\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:445",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Waiting for %d events from camera. Press Ctrl-C to abort.\n",
+      "before": "Väntar på %d händelser från kamera. Tryck Ctrl-C för att avbryta.\n",
+      "after": "Väntar på %d händelser från kameran. Tryck Ctrl-C för att avbryta.\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:450",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Waiting for '%s' event from camera. Press Ctrl-C to abort.\n",
+      "before": "Väntar på ”%s”-händelse från kamera. Tryck Ctrl-C för att avbryta.\n",
+      "after": "Väntar på ”%s”-händelse från kameran. Tryck Ctrl-C för att avbryta.\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:460",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "SIGUSR2 signal received, stopping wait!\n",
+      "before": "SIGUSR2 signal mottagen, avslutar väntan!\n\n",
+      "after": "SIGUSR2-signal mottagen, avslutar väntan!\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:467",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "event found, stopping wait!\n",
+      "before": "händelse hittad, avslutar väntan!\n",
+      "after": "Händelse hittades, avslutar väntan!\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:474",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Could not set folder.",
+      "before": "Kunde inte ställa in mapp.",
+      "after": "Kunde inte ställa in mappen.",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:482",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Buggy libcanon.so?",
+      "before": "Felaktig libcanon.so?",
+      "after": "Fel i libcanon.so?",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:550",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Camera layout (DCIM)",
+      "before": "Kameralayout (DCIM)",
+      "after": "Kamerastruktur (DCIM)",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:555",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Overriding USB vendor/product id 0x%x/0x%x with 0x%x/0x%x",
+      "before": "Åsidosätt USB-id för tillverkare/produkt 0x%x/0x%x med 0x%x/0x%x",
+      "after": "Åsidosätter USB-ID:n för tillverkare/produkt 0x%x/0x%x med 0x%x/0x%x",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:594",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Use 'now' as the current time when setting.\n",
+      "before": "Använd ”nu” som aktuell tid vid inställning.\n",
+      "after": "Använd ”now” som aktuell tid vid inställning.\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:613",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "The passed value %s is not a floating point value.",
+      "before": "Det vidaresända värdet %s är inte ett flyttalsvärde.",
+      "after": "Det angivna värdet %s är inte ett flyttalsvärde.",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:618",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "The passed value %f is not within the expected range %f - %f.",
+      "before": "Det vidaresända värdet %f är inte inom det förväntade intervallet %f - %f.",
+      "after": "Det angivna värdet %f ligger inte inom det förväntade intervallet %f–%f.",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:644",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "The passed value %s is not a valid toggle value.",
+      "before": "Det vidaresända värdet %s är inte ett giltigt växlingsvärde.",
+      "after": "Det angivna värdet %s är inte ett giltigt växlingsvärde.",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:658",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "The passed value %s is neither a valid time nor an integer.",
+      "before": "Det vidaresända värdet %s är varken en giltig tid eller ett heltal.",
+      "after": "Det angivna värdet %s är varken en giltig tid eller ett heltal.",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:688",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Bad file number. You specified %i, but there are only %i files available in '%s' or its subfolders. Please obtain a valid file number from a file listing first.",
+      "before": "Felaktigt filnummer. Du angav %i, men det fanns bara %i filer tillgängliga i ”%s” eller dess underkataloger. Leta fram ett giltigt filnummer från en fillista först.",
+      "after": "Felaktigt filnummer. Du angav %i, men det finns bara %i filer tillgängliga i ”%s” eller dess underkataloger. Hämta först ett giltigt filnummer från en fillista.",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:768",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Zero padding numbers in file names is only possible with %%n.",
+      "before": "Utfyllning med nollor i filnamn är endast möjligt med %%n.",
+      "after": "Nollutfyllnad av tal i filnamn är endast möjlig med %%n.",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:773",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "You cannot use %%n zero padding without a precision value!",
+      "before": "Du kan inte använda %%n utfyllning med nollor utan ett precist värde!",
+      "after": "Du kan inte använda %%n-nollutfyllnad utan ett precisionsvärde!",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:788",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Skip existing file %s\n",
+      "before": "Hoppa över existerande fil %s\n",
+      "after": "Hoppar över befintlig fil %s\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:793",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "File %s exists. Overwrite? [y|n] ",
+      "before": "Filen %s finns redan. Skriv över? Ja/Nej [y|n] ",
+      "after": "Filen %s finns redan. Skriv över? [y|n] ",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:826",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Keeping file %s%s%s on the camera\n",
+      "before": "Behåll fil %s%s%s på kameran\n",
+      "after": "Behåller filen %s%s%s på kameran\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:865",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Standing by waiting for SIGUSR1 to capture.\n",
+      "before": "Väntar på SIGUSR1 för att fånga in.\n",
+      "after": "Väntar i beredskap på SIGUSR1 för att ta en bild.\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:870",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Bulb mode enabled (exposure time: %ds).\n",
+      "before": "Långtidsexponering aktiverat (exponeringstid: %ds).\n",
+      "after": "Långtidsexponering aktiverad (exponeringstid: %ds).\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:894",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Could not trigger image capture.",
+      "before": "Kunde inte utläsa bildtagning.",
+      "after": "Kunde inte utlösa bildtagning.",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1003",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Please make sure there is sufficient quoting around the arguments.\n\n",
+      "before": "Vänligen säkerställ att det finns tillräckligt med citationstecken runt argumenten.\n\n",
+      "after": "Säkerställ att argumenten är tillräckligt citerade.\n\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1012",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Print complete help message on program usage",
+      "before": "Skriv ut komplett hjälpmeddelande för användning",
+      "after": "Skriv ut fullständigt hjälpmeddelande om programanvändning",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1016",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Print short message on program usage",
+      "before": "Skriv ut kort meddelande för användning",
+      "after": "Skriv ut kort hjälpmeddelande om programanvändning",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1041",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Simple parsable output (implies quiet)",
+      "before": "Enkelt tolkningsbar utmatning (medför tyst)",
+      "after": "Enkel tolkningsbar utdata (medför tyst läge)",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1045",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Hook script to call after downloads, captures, etc.",
+      "before": "Hook-skript att anropa efter hämtningar, tagningar, etc.",
+      "after": "Hook-skript att anropa efter hämtningar, tagningar osv.",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1073",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "USBIDs",
+      "before": "USBID",
+      "after": "USB-ID:n",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1077",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Display version and exit",
+      "before": "Visa versionsnummer och avsluta",
+      "after": "Visa versionsinformation och avsluta",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1089",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Display the camera/driver abilities in the libgphoto2 database",
+      "before": "Visa kamera-/drivrutinsförmågor i libgphoto2-databasen",
+      "after": "Visa kamerans/drivrutinens funktioner i libgphoto2-databasen",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1125",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Keep images on camera after capturing",
+      "before": "Behåll bilder på kamera efter tagning",
+      "after": "Behåll bilder på kameran efter tagning",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1129",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Keep RAW images on camera after capturing",
+      "before": "Behåll RAW-bilder på kamera efter tagning",
+      "after": "Behåll RAW-bilder på kameran efter tagning",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1133",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Remove images from camera after capturing",
+      "before": "Ta bort bilder från kamera efter tagning",
+      "after": "Ta bort bilder från kameran efter tagning",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1153",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Show a quick preview as Ascii Art",
+      "before": "Visa en snabb förhandsgranskning som Ascii-konst",
+      "after": "Visa en snabb förhandsgranskning som ASCII-konst",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1165",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Set number of frames to capture (default=infinite)",
+      "before": "Ställ in antal bildrutor att fånga in (standard=oändligt)",
+      "after": "Ställ in antal bildrutor som ska tas (standard=oändligt)",
+      "reason": "Språk- och terminologigranskning av GPhoto2"
+    },
+    {
+      "tp_id": "gphoto2:1213",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "List files in folder",
+      "before": "Lista filer i mapp",
+      "after": "Lista filer i mappen",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1221",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "DIRNAME",
+      "before": "KATNAMN",
+      "after": "KATALOGNAMN",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1247",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Get thumbnails given in range",
+      "before": "Hämta alla miniatyrbilder i det angivna intervallet",
+      "after": "Hämta miniatyrbilder i det angivna intervallet",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1259",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Get all metadata from folder",
+      "before": "Hämta all metadata från mapp",
+      "after": "Hämta all metadata från mappen",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1263",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Upload metadata for file",
+      "before": "Skicka upp metadata för fil",
+      "after": "Ladda upp metadata för en fil",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1291",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Upload a file to camera",
+      "before": "Skicka upp fil till kamera",
+      "after": "Ladda upp en fil till kameran",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1303",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Specify the number a filename %%n will starts with (default 1)",
+      "before": "Ange numret som filnamn %%n kommer att starta med (standardvärde 1)",
+      "after": "Ange talet som %%n i filnamnet ska börja med (standardvärde 1)",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1340",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Skip existing files",
+      "before": "Hoppa över existerande filer",
+      "after": "Hoppa över befintliga filer",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1344",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Send file to stdout",
+      "before": "Skicka fil till standard ut",
+      "after": "Skicka fil till standardutdata",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1360",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Show image information, like width, height, and capture time",
+      "before": "Visa bildinformation, så som bredd, höjd och tagningstid",
+      "after": "Visa bildinformation, såsom bredd, höjd och tagningstid",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1364",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Show camera summary",
+      "before": "Visa kamera-sammandrag",
+      "after": "Visa kamerasammanfattning",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1368",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Show camera driver manual",
+      "before": "Visa kameradrivrutinens manual",
+      "after": "Visa kameradrivrutinens handbok",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1408",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Downloading, uploading and manipulating files",
+      "before": "Hämtar, skickar upp och manipulerar filer",
+      "after": "Hämta, ladda upp och hantera filer",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1543",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Displays command usage",
+      "before": "Visar kommandoanvändning",
+      "after": "Visar kommandots användning",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1551",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "List the contents of the current directory",
+      "before": "Lista innehållet av den aktuella katalogen",
+      "after": "Lista innehållet i den aktuella katalogen",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1611",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Wait for images to be captured and download it",
+      "before": "Vänta på bilder att fångas in och hämta dem",
+      "after": "Vänta på att bilder fångas in och hämta dem",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1615",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Wait for events and images to be captured and download it",
+      "before": "Vänta på händelser och bilder att fångas in samt hämta dem",
+      "after": "Vänta på händelser och att bilder fångas in samt hämta dem",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1666",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "Command '%s' not found. Use 'help' to get a list of available commands.",
+      "before": "Kommandot ”%s” hittades inte. Använd ”help” för att få en lista av tillgängliga kommandon.",
+      "after": "Kommandot ”%s” hittades inte. Använd ”help” för att få en lista över tillgängliga kommandon.",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1686",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "* Arguments in brackets [] are optional",
+      "before": "* Argument inom klamrar [] är valfria",
+      "after": "* Argument inom hakparenteser [] är valfria",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gphoto2:1696",
+      "project": "tp:gphoto2-2.5.32",
+      "msgid": "To get help on a particular command, type in 'help command-name'.",
+      "before": "För att få hjälp om ett speciellt kommando, skriv ”help kommandonamn”.",
+      "after": "För att få hjälp om ett visst kommando, skriv ”help kommandonamn”.",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gprof:119",
+      "project": "tp:gprof-2.44.90",
+      "msgid": "[cg_tally] arc from %s to %s traversed %lu times\n",
+      "before": "[cg_tally] båge från %s till %s traverserad %lu gånger\n",
+      "after": "[cg_tally] båge från %s till %s genomlöptes %lu gånger\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gprof:151",
+      "project": "tp:gprof-2.44.90",
+      "msgid": " for %.2f%% of %.2f seconds\n\n",
+      "before": " för %.2f%% på %.2f sekunder\n\n",
+      "after": " för %.2f%% under %.2f sekunder\n\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gprof:160",
+      "project": "tp:gprof-2.44.90",
+      "msgid": " no time propagated\n\n",
+      "before": " ingen tid propagerad\n\n",
+      "after": " ingen tid propagerades\n\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gprof:211",
+      "project": "tp:gprof-2.44.90",
+      "msgid": " <cycle %d as a whole> [%d]\n",
+      "before": " <hela cykel %d> [%d]\n",
+      "after": " <hel cykel %d> [%d]\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gprof:260",
+      "project": "tp:gprof-2.44.90",
+      "msgid": "%s: ran out room for %lu bytes of text space\n",
+      "before": "%s: slut på utrymme för %lu byte textutrymme\n",
+      "after": "%s: slut på utrymme för %lu byte text\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
+    },
+    {
+      "tp_id": "gprof:431",
+      "project": "tp:gprof-2.44.90",
+      "msgid": "Based on BSD gprof, copyright 1983 Regents of the University of California.\n",
+      "before": "Baserat på BSD gprof, copyright 1983 Regents of the University of California.\n",
+      "after": "Baserat på BSD gprof, upphovsrätt 1983 Regents of the University of California.\n",
+      "reason": "Språk- och terminologigranskning av GPhoto2 och Gprof"
     }
   ]
 }
