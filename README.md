@@ -93,5 +93,5 @@ and ScummVM translations. Project references are included in the exports.
 
 License: CC BY 4.0.
 
-Related: [Swedish FOSS Terminology](https://github.com/yeager/swedish-foss-terminology)
+Related: [Swedish FOSS Terminology](https://github.com/yeager/swedish-foss-terminology), [Computer Swedens IT-ord](https://it-ord.computersweden.se/)
 and [svlang](https://github.com/yeager/svlang).
