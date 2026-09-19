@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 94333,
+  "reviewed_tp_entries": 94581,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 23775,
+  "changed_pairs": 23855,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 23775,
+      "confirmed_swedish_changes": 23855,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "c2f4b1cdc95d323926afd72a724ca098e1423c2089ee850aacb818be89c9ce45"
+      "sha256": "32ea90c236e4c29e6c24ba536f352bf80b1897cbde25ba0ed7ec4594dd166e8b"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 23775,
+      "confirmed_swedish_changes": 23855,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "e15e26b3d8187305d4a51a5ce1b8f58cb62edc124fdbd64b9eff3f1bcb5ef17e"
+      "sha256": "ff742a51d99150485c5b7bbd637e7e9841d295b200fd53b1b26ea7b978d0d293"
     }
   },
   "unmapped_plural_fixes": [
@@ -110994,6 +110994,646 @@
       "before": "ogiltig indexlista till -n\n",
       "after": "ogiltig indexlista i -n\n",
       "reason": "Rättar prepositionen för ett fel i flaggans värde."
+    },
+    {
+      "tp_id": "rush:29",
+      "project": "tp:rush-2.4.90",
+      "msgid": "group writable configuration file",
+      "before": "konfigurationsfil skrivbar för grupp",
+      "after": "gruppskrivbar konfigurationsfil",
+      "reason": "Använder den etablerade sammansättningen för group writable."
+    },
+    {
+      "tp_id": "rush:33",
+      "project": "tp:rush-2.4.90",
+      "msgid": "world writable configuration file",
+      "before": "konfigurationsfil skrivbar för alla",
+      "after": "världsskrivbar konfigurationsfil",
+      "reason": "Använder den etablerade Unix-termen för world writable."
+    },
+    {
+      "tp_id": "rush:41",
+      "project": "tp:rush-2.4.90",
+      "msgid": "configuration file in group writable directory",
+      "before": "konfigurationsfil i katalog skrivbar för grupp",
+      "after": "konfigurationsfil i gruppskrivbar katalog",
+      "reason": "Använder den etablerade sammansättningen för group writable directory."
+    },
+    {
+      "tp_id": "rush:45",
+      "project": "tp:rush-2.4.90",
+      "msgid": "configuration file in world writable directory",
+      "before": "konfigurationsfil i katalog skrivbar för alla",
+      "after": "konfigurationsfil i världsskrivbar katalog",
+      "reason": "Använder den etablerade Unix-termen för world writable directory."
+    },
+    {
+      "tp_id": "rush:49",
+      "project": "tp:rush-2.4.90",
+      "msgid": "%s: cannot stat directory: %s",
+      "before": "%s: det går inte att ta stat på katalog %s",
+      "after": "%s: kan inte ta status på katalogen %s",
+      "reason": "Använder den vedertagna svenska formuleringen för stat-fel."
+    },
+    {
+      "tp_id": "rush:63",
+      "project": "tp:rush-2.4.90",
+      "msgid": "$0 cannot be unset",
+      "before": "det går inte att avinitialisera $0",
+      "after": "$0 kan inte tas bort",
+      "reason": "Översätter unset korrekt i skalvariabelsammanhang."
+    },
+    {
+      "tp_id": "rush:71",
+      "project": "tp:rush-2.4.90",
+      "msgid": "$0 cannot be deleted",
+      "before": "det går inte att radera $0",
+      "after": "$0 kan inte raderas",
+      "reason": "Rättar ordföljden i statusmeddelandet."
+    },
+    {
+      "tp_id": "rush:75",
+      "project": "tp:rush-2.4.90",
+      "msgid": "invalid character in short option designator",
+      "before": "ogiltigt tecken i kortalternativets beteckning",
+      "after": "ogiltigt tecken i kortflaggans beteckning",
+      "reason": "Använder flagga för CLI options enligt etablerad svensk terminologi."
+    },
+    {
+      "tp_id": "rush:79",
+      "project": "tp:rush-2.4.90",
+      "msgid": "short option letter can be followed only by zero to two colons",
+      "before": "kortalternativets bokstav får endast följas av noll till två kolon",
+      "after": "kortflaggans bokstav får endast följas av noll till två kolon",
+      "reason": "Använder flagga för CLI options enligt etablerad svensk terminologi."
+    },
+    {
+      "tp_id": "rush:83",
+      "project": "tp:rush-2.4.90",
+      "msgid": "ignoring extra character in short option designator",
+      "before": "ignorerar extra tecken i kortalternativets beteckning",
+      "after": "ignorerar extra tecken i kortflaggans beteckning",
+      "reason": "Använder flagga för CLI options enligt etablerad svensk terminologi."
+    },
+    {
+      "tp_id": "rush:91",
+      "project": "tp:rush-2.4.90",
+      "msgid": "attempt to unset a read-only variable",
+      "before": "försök att avinitialisera en skrivskyddad variabel",
+      "after": "försök att ta bort en skrivskyddad variabel",
+      "reason": "Översätter unset korrekt i skalvariabelsammanhang."
+    },
+    {
+      "tp_id": "rush:105",
+      "project": "tp:rush-2.4.90",
+      "msgid": "bad value: %s",
+      "before": "felaktigt värde: %s",
+      "after": "ogiltigt värde: %s",
+      "reason": "Använder den etablerade termen för bad value i felmeddelanden."
+    },
+    {
+      "tp_id": "rush:129",
+      "project": "tp:rush-2.4.90",
+      "msgid": "looking for rush version clause",
+      "before": "letar efter rush-versionklausul",
+      "after": "letar efter versionsvillkoret för rush",
+      "reason": "Gör version clause idiomatiskt på svenska."
+    },
+    {
+      "tp_id": "rush:137",
+      "project": "tp:rush-2.4.90",
+      "msgid": "scanning arguments",
+      "before": "skannar argumenten",
+      "after": "tolkar argumenten",
+      "reason": "Ersätter engelskpåverkade skannar med den tekniska termen tolkar."
+    },
+    {
+      "tp_id": "rush:141",
+      "project": "tp:rush-2.4.90",
+      "msgid": "scanning quoted string",
+      "before": "skannar citerad sträng",
+      "after": "tolkar citerad sträng",
+      "reason": "Ersätter engelskpåverkade skannar med den tekniska termen tolkar."
+    },
+    {
+      "tp_id": "rush:145",
+      "project": "tp:rush-2.4.90",
+      "msgid": "scanning variable reference",
+      "before": "skannar variabelreferens",
+      "after": "tolkar variabelreferens",
+      "reason": "Ersätter engelskpåverkade skannar med den tekniska termen tolkar."
+    },
+    {
+      "tp_id": "rush:159",
+      "project": "tp:rush-2.4.90",
+      "msgid": "invalid include file name",
+      "before": "ogiltigt inkluderingsfilnamn",
+      "after": "ogiltigt filnamn för inkluderad fil",
+      "reason": "Rättar den oidiomatiska sammansättningen inkluderingsfilnamn."
+    },
+    {
+      "tp_id": "rush:163",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Ignoring non-existing include file %s",
+      "before": "Ignorerar icke existerande inkluderingsfil %s",
+      "after": "Ignorerar en fil som ska inkluderas men inte finns: %s",
+      "reason": "Rättar den oidiomatiska termen inkluderingsfil och uttrycket icke existerande."
+    },
+    {
+      "tp_id": "rush:168",
+      "project": "tp:rush-2.4.90",
+      "msgid": "cannot stat file %s: %s",
+      "before": "det går inte att ta stat på fil %s: %s",
+      "after": "kan inte ta status på filen %s: %s",
+      "reason": "Använder den vedertagna svenska formuleringen för stat-fel."
+    },
+    {
+      "tp_id": "rush:178",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Resuming parsing %s from line %d",
+      "before": "Återupptar tolkning av %s från rad %d",
+      "after": "Återupptar tolkningen av %s från rad %d",
+      "reason": "Rättar bestämd form i statusmeddelandet."
+    },
+    {
+      "tp_id": "rush:225",
+      "project": "tp:rush-2.4.90",
+      "msgid": "debug level set to %d",
+      "before": "felsökningsnivå satt till %d",
+      "after": "felsökningsnivån är satt till %d",
+      "reason": "Rättar den ofullständiga svenska satsen."
+    },
+    {
+      "tp_id": "rush:244",
+      "project": "tp:rush-2.4.90",
+      "msgid": "key field is not a number",
+      "before": "nyckelfältet är inte ett nummer",
+      "after": "nyckelfältet är inte ett tal",
+      "reason": "Använder tal för ett numeriskt värde."
+    },
+    {
+      "tp_id": "rush:248",
+      "project": "tp:rush-2.4.90",
+      "msgid": "value field is not a number",
+      "before": "värdefältet är inte ett nummer",
+      "after": "värdefältet är inte ett tal",
+      "reason": "Använder tal för ett numeriskt värde."
+    },
+    {
+      "tp_id": "rush:275",
+      "project": "tp:rush-2.4.90",
+      "msgid": "failed to parse value: %s",
+      "before": "misslyckades med att tolka värde: %s",
+      "after": "kunde inte tolka värdet: %s",
+      "reason": "Gör felmeddelandet idiomatiskt på svenska."
+    },
+    {
+      "tp_id": "rush:303",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Setting priority to %d",
+      "before": "Ställer inte prioritet till %d",
+      "after": "Ställer in prioriteten till %d",
+      "reason": "Rättar felaktiga inte till in och bestämd form."
+    },
+    {
+      "tp_id": "rush:313",
+      "project": "tp:rush-2.4.90",
+      "msgid": "No logins allowed for `%s'",
+      "before": "Inga inloggningar tillåtna för ”%s”",
+      "after": "Inga inloggningar är tillåtna för '%s'",
+      "reason": "Bevarar tekniska citattecken och rättar den ofullständiga satsen."
+    },
+    {
+      "tp_id": "rush:318",
+      "project": "tp:rush-2.4.90",
+      "msgid": "counting logins for %s",
+      "before": "räknar inloggningar för ”%s”",
+      "after": "räknar inloggningar för %s",
+      "reason": "Bevarar källtextens tekniska format utan tillagda citattecken."
+    },
+    {
+      "tp_id": "rush:323",
+      "project": "tp:rush-2.4.90",
+      "msgid": "acct database is empty",
+      "before": "kontodatabas är tom",
+      "after": "kontodatabasen är tom",
+      "reason": "Rättar bestämd form i statusmeddelandet."
+    },
+    {
+      "tp_id": "rush:357",
+      "project": "tp:rush-2.4.90",
+      "msgid": "%s:%lu: failed to parse line: %s",
+      "before": "%s:%lu: misslyckades med att tolka rad: %s",
+      "after": "%s:%lu: kunde inte tolka raden: %s",
+      "reason": "Rättar bestämd form och gör felmeddelandet idiomatiskt."
+    },
+    {
+      "tp_id": "rush:394",
+      "project": "tp:rush-2.4.90",
+      "msgid": "failed to write message to stderr: %s",
+      "before": "misslyckades med att skriva meddelande till stderr: %s",
+      "after": "kunde inte skriva meddelandet till standardfel: %s",
+      "reason": "Rättar språkbruket och använder den svenska termen standardfel för stderr."
+    },
+    {
+      "tp_id": "rush:399",
+      "project": "tp:rush-2.4.90",
+      "msgid": "failed to write message to stdout: %s",
+      "before": "misslyckades med att skriva meddelande till stdout: %s",
+      "after": "kunde inte skriva meddelandet till standardutdata: %s",
+      "reason": "Rättar språkbruket och använder den svenska termen standardutdata för stdout."
+    },
+    {
+      "tp_id": "rush:438",
+      "project": "tp:rush-2.4.90",
+      "msgid": "%s:%d: %s: can't stat '%s': %s",
+      "before": "%s:%d: %s: det går inte att ta stat på '%s': %s",
+      "after": "%s:%d: %s: kan inte ta status på '%s': %s",
+      "reason": "Använder den vedertagna svenska formuleringen för stat-fel och bevarar citattecknen."
+    },
+    {
+      "tp_id": "rush:443",
+      "project": "tp:rush-2.4.90",
+      "msgid": "INTERNAL ERROR at %s:%d: unrecognized operation %d",
+      "before": "INTERNT FEL vid %s:%d: okänd operation %d",
+      "after": "INTERNT FEL vid %s:%d: okänd åtgärd %d",
+      "reason": "Använder den svenska termen åtgärd för operation."
+    },
+    {
+      "tp_id": "rush:467",
+      "project": "tp:rush-2.4.90",
+      "msgid": "no argument at index %d in command: %s",
+      "before": "inget argument vid index %d i kommando: %s",
+      "after": "inget argument vid index %d i kommandot: %s",
+      "reason": "Rättar bestämd form i felmeddelandet."
+    },
+    {
+      "tp_id": "rush:472",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Removing option %s %s",
+      "before": "Tar bort flagga %s %s",
+      "after": "Tar bort flaggan %s %s",
+      "reason": "Rättar bestämd form i statusmeddelandet."
+    },
+    {
+      "tp_id": "rush:496",
+      "project": "tp:rush-2.4.90",
+      "msgid": "environment transformation is not yet implemented",
+      "before": "miljötransformering är ännu ej implementerad",
+      "after": "omvandling av miljön är ännu inte implementerad",
+      "reason": "Ersätter engelskpåverkade transformering med svensk formulering."
+    },
+    {
+      "tp_id": "rush:500",
+      "project": "tp:rush-2.4.90",
+      "msgid": "INTERNAL ERROR at %s:%d: can't modify read-only target",
+      "before": "INTERNT FEL vid %s:%d: det går inte att modifiera skrivskyddat mål",
+      "after": "INTERNT FEL vid %s:%d: kan inte ändra det skrivskyddade målet",
+      "reason": "Rättar bestämd form och ersätter den engelskpåverkade termen modifiera."
+    },
+    {
+      "tp_id": "rush:505",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Transformation map: %s, %s, %s, %u, %u, %s",
+      "before": "Transformationsmappning: %s, %s, %s, %u, %u, %s",
+      "after": "Mappning för omvandling: %s, %s, %s, %u, %u, %s",
+      "reason": "Ersätter den engelskpåverkade sammansättningen transformationsmappning."
+    },
+    {
+      "tp_id": "rush:515",
+      "project": "tp:rush-2.4.90",
+      "msgid": "transformed value: %s",
+      "before": "transformerat värde: %s",
+      "after": "omvandlat värde: %s",
+      "reason": "Ersätter engelskpåverkade transformerat med omvandlat."
+    },
+    {
+      "tp_id": "rush:520",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Deleting arguments %d-%d",
+      "before": "Tar bort argument %d-%d",
+      "after": "Tar bort argumenten %d-%d",
+      "reason": "Rättar bestämd form i statusmeddelandet."
+    },
+    {
+      "tp_id": "rush:534",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Final arguments:",
+      "before": "Sista argument:",
+      "after": "Slutliga argument:",
+      "reason": "Rättar final från sista till slutliga i statusutskriften."
+    },
+    {
+      "tp_id": "rush:538",
+      "project": "tp:rush-2.4.90",
+      "msgid": "error writing to database %s: %s",
+      "before": "fel vid skrivning till databas %s: %s",
+      "after": "fel vid skrivning till databasen %s: %s",
+      "reason": "Rättar bestämd form i felmeddelandet."
+    },
+    {
+      "tp_id": "rush:543",
+      "project": "tp:rush-2.4.90",
+      "msgid": "error writing stop to database file %s: %s",
+      "before": "fel vid skrivning av stopp till databasfil %s: %s",
+      "after": "fel vid skrivning av stopp till databasfilen %s: %s",
+      "reason": "Rättar bestämd form i felmeddelandet."
+    },
+    {
+      "tp_id": "rush:548",
+      "project": "tp:rush-2.4.90",
+      "msgid": "%s:%d: %s: cannot fork: %s",
+      "before": "%s:%d: %s: det går inte att köra fork: %s",
+      "after": "%s:%d: %s: kan inte skapa underprocess: %s",
+      "reason": "Översätter fork efter dess funktion och använder underprocess för child process."
+    },
+    {
+      "tp_id": "rush:553",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Forked process %lu",
+      "before": "Grenad process %lu",
+      "after": "Skapade underprocess %lu",
+      "reason": "Översätter forked process efter dess funktion och använder underprocess."
+    },
+    {
+      "tp_id": "rush:558",
+      "project": "tp:rush-2.4.90",
+      "msgid": "%s: subprocess exited with code %d",
+      "before": "%s: underprocess avslutade med kod %d",
+      "after": "%s: underprocessen avslutades med kod %d",
+      "reason": "Rättar bestämd form och verbböjning i processmeddelandet."
+    },
+    {
+      "tp_id": "rush:563",
+      "project": "tp:rush-2.4.90",
+      "msgid": "%s: subprocess terminated on signal %d",
+      "before": "%s: underprocess avslutades på grund av signal %d",
+      "after": "%s: underprocessen avslutades av signal %d",
+      "reason": "Rättar bestämd form och den idiomatiska signalformuleringen."
+    },
+    {
+      "tp_id": "rush:568",
+      "project": "tp:rush-2.4.90",
+      "msgid": "%s: subprocess terminated",
+      "before": "%s: underprocess avslutades",
+      "after": "%s: underprocessen avslutades",
+      "reason": "Rättar bestämd form i processmeddelandet."
+    },
+    {
+      "tp_id": "rush:573",
+      "project": "tp:rush-2.4.90",
+      "msgid": "cannot enforce gid %lu: %s",
+      "before": "det går inte att genomdriva gid %lu: %s",
+      "after": "kan inte tvinga fram GID %lu: %s",
+      "reason": "Använder den vedertagna stora förkortningen GID och en idiomatisk svensk formulering."
+    },
+    {
+      "tp_id": "rush:578",
+      "project": "tp:rush-2.4.90",
+      "msgid": "cannot enforce uid %lu: %s",
+      "before": "det går inte att genomdriva uid %lu: %s",
+      "after": "kan inte tvinga fram UID %lu: %s",
+      "reason": "Använder den vedertagna stora förkortningen UID och en idiomatisk svensk formulering."
+    },
+    {
+      "tp_id": "rush:597",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Error sending diagnostic message to descriptor %d: %s",
+      "before": "Fel vid sändning av diagnostiskt meddelande till deskriptor %d: %s",
+      "after": "Fel när diagnostiskt meddelande skickades till filbeskrivare %d: %s",
+      "reason": "Använder den etablerade svenska termen filbeskrivare."
+    },
+    {
+      "tp_id": "rush:627",
+      "project": "tp:rush-2.4.90",
+      "msgid": "cannot chroot to %s: %s",
+      "before": "det går inte att chroota till %s: %s",
+      "after": "kan inte byta rotkatalog till %s: %s",
+      "reason": "Översätter chroot efter dess funktion i stället för att skapa ett verb av kommandonamnet."
+    },
+    {
+      "tp_id": "rush:632",
+      "project": "tp:rush-2.4.90",
+      "msgid": "invalid uid %lu",
+      "before": "ogiltigt uid %lu",
+      "after": "ogiltigt UID %lu",
+      "reason": "Använder den vedertagna stora förkortningen UID."
+    },
+    {
+      "tp_id": "rush:642",
+      "project": "tp:rush-2.4.90",
+      "msgid": "cannot change to dir %s: %s",
+      "before": "det går inte att byta katalog till %s: %s",
+      "after": "kan inte byta till katalogen %s: %s",
+      "reason": "Rättar den oidiomatiska ordföljden i katalogbytet."
+    },
+    {
+      "tp_id": "rush:647",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Executing %s, %s",
+      "before": "Exekverar %s, %s",
+      "after": "Kör %s, %s",
+      "reason": "Ersätter den engelskpåverkade formen exekverar med idiomatiska kör."
+    },
+    {
+      "tp_id": "rush:661",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Set debugging level.",
+      "before": "Ställ in felsökningsnivå.",
+      "after": "Ställ in felsökningsnivån.",
+      "reason": "Rättar bestämd form i hjälptexten."
+    },
+    {
+      "tp_id": "rush:669",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Scanner test.",
+      "before": "Avläsningstest.",
+      "after": "Test av lexikalisk analys.",
+      "reason": "Rättar scanner test från avläsningstest till den tekniska termen lexikalisk analys."
+    },
+    {
+      "tp_id": "rush:673",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Print grammar and lexical analyzer traces",
+      "before": "Skriv ut spår för grammatisk och lexikalisk analysator",
+      "after": "Skriv ut spårningsinformation för grammatik och lexikalanalys",
+      "reason": "Rättar den oidiomatiska formuleringen och använder tydliga tekniska termer."
+    },
+    {
+      "tp_id": "rush:681",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Supply user name in test mode.",
+      "before": "Tillför användarnamn i testläge.",
+      "after": "Ange användarnamn i testläge.",
+      "reason": "Ersätter den oidiomatiska uppmaningen tillför med ange."
+    },
+    {
+      "tp_id": "rush:689",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Execute COMMAND.",
+      "before": "Exekvera KOMMANDO.",
+      "after": "Kör KOMMANDO.",
+      "reason": "Ersätter den engelskpåverkade termen exekvera med kör."
+    },
+    {
+      "tp_id": "rush:693",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Force interactive shell.",
+      "before": "Framtvinga interaktivt skal.",
+      "after": "Tvinga fram ett interaktivt skal.",
+      "reason": "Ersätter den oidiomatiska sammansättningen framtvinga med tvinga fram."
+    },
+    {
+      "tp_id": "rush:701",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Dump final request in test mode.",
+      "before": "Dumpa slutgiltig begäran i testläge.",
+      "after": "Skriv ut den slutliga begäran i testläge.",
+      "reason": "Ersätter engelskpåverkade dumpa med en idiomatisk svensk formulering."
+    },
+    {
+      "tp_id": "rush:745",
+      "project": "tp:rush-2.4.90",
+      "msgid": "user %s, uid %lu",
+      "before": "användare %s, uid %lu",
+      "after": "användare %s, UID %lu",
+      "reason": "Använder den vedertagna stora förkortningen UID."
+    },
+    {
+      "tp_id": "rush:758",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Serving interactive shell request for %s by rule %s",
+      "before": "Hanterar interaktiv skalbegäran för %s via regel %s",
+      "after": "Hanterar begäran om ett interaktivt skal för %s via regel %s",
+      "reason": "Rättar den oidiomatiska sammansättningen interaktiv skalbegäran."
+    },
+    {
+      "tp_id": "rush:777",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Use STRING instead of the default format.",
+      "before": "Använd STRÄNG istället för standardformat.",
+      "after": "Använd STRÄNG i stället för standardformatet.",
+      "reason": "Rättar bestämd form och den svenska skrivningen i stället."
+    },
+    {
+      "tp_id": "rush:785",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Look for database files in DIR.",
+      "before": "Leta efter databasfiler i KAT.",
+      "after": "Leta efter databasfiler i KATALOG.",
+      "reason": "Använder den tydliga metavariabeln KATALOG."
+    },
+    {
+      "tp_id": "rush:793",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Do not display header line.",
+      "before": "Visa inte huvudrad.",
+      "after": "Visa inte huvudraden.",
+      "reason": "Rättar bestämd form i hjälptexten."
+    },
+    {
+      "tp_id": "rush:797",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Show at most NUM records.",
+      "before": "Visa som mest NUM poster.",
+      "after": "Visa högst TAL poster.",
+      "reason": "Använder TAL för den numeriska metavariabeln NUMBER."
+    },
+    {
+      "tp_id": "rush:801",
+      "project": "tp:rush-2.4.90",
+      "msgid": "show listing of last rush logins",
+      "before": "visa lista över senaste rush-inloggningar",
+      "after": "visa en lista över de senaste rush-inloggningarna",
+      "reason": "Rättar artiklar och bestämd form i hjälptexten."
+    },
+    {
+      "tp_id": "rush:805",
+      "project": "tp:rush-2.4.90",
+      "msgid": "[user [user...]]",
+      "before": "[användare [användare…]]",
+      "after": "[användare [användare...]]",
+      "reason": "Bevarar ellipsen som kommandoradssyntax."
+    },
+    {
+      "tp_id": "rush:824",
+      "project": "tp:rush-2.4.90",
+      "msgid": "show listing of online rush users.",
+      "before": "visa lista över inloggade rush-användare.",
+      "after": "visa en lista över inloggade rush-användare.",
+      "reason": "Rättar den ofullständiga listformuleringen i hjälptexten."
+    },
+    {
+      "tp_id": "rush:843",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Transform expression must start with 's' followed by a punctuation character",
+      "before": "Transformuttryck måste börja med ”s” följt av ett skiljetecken",
+      "after": "Ett omvandlingsuttryck måste börja med 's' följt av ett skiljetecken",
+      "reason": "Ersätter engelskpåverkade Transform och bevarar tekniska citattecken."
+    },
+    {
+      "tp_id": "rush:847",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Missing 2nd delimiter in position %d of expression %s",
+      "before": "Saknar andra avgränsaren vid position %d i uttryck %s",
+      "after": "Den andra avgränsaren saknas vid position %d i uttrycket %s",
+      "reason": "Rättar bestämd form och gör felmeddelandet idiomatiskt."
+    },
+    {
+      "tp_id": "rush:852",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Missing trailing delimiter in position %d of expression %s",
+      "before": "Saknar avslutande avgränsare vid position %d i uttryck %s",
+      "after": "Den avslutande avgränsaren saknas vid position %d i uttrycket %s",
+      "reason": "Rättar bestämd form och gör felmeddelandet idiomatiskt."
+    },
+    {
+      "tp_id": "rush:857",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Unknown flag in transform expression: %c",
+      "before": "Okänd flagga i transformuttryck: %c",
+      "after": "Okänd flagga i omvandlingsuttrycket: %c",
+      "reason": "Ersätter engelskpåverkade transformuttryck och rättar bestämd form."
+    },
+    {
+      "tp_id": "rush:862",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Invalid transform expression: %s",
+      "before": "Ogiltigt transformuttryck: %s",
+      "after": "Ogiltigt omvandlingsuttryck: %s",
+      "reason": "Ersätter engelskpåverkade transformuttryck."
+    },
+    {
+      "tp_id": "rush:867",
+      "project": "tp:rush-2.4.90",
+      "msgid": "Invalid transform replacement: back reference out of range",
+      "before": "Ogiltig transformersättning: bakåtreferens utanför intervall",
+      "after": "Ogiltig ersättning i omvandling: bakåtreferensen ligger utanför intervallet",
+      "reason": "Ersätter engelskpåverkade transformersättning och rättar intervallformuleringen."
+    },
+    {
+      "tp_id": "rush:871",
+      "project": "tp:rush-2.4.90",
+      "msgid": "cannot stat format file %s",
+      "before": "det går inte att ta stat på formatfil %s",
+      "after": "kan inte ta status på formatfilen %s",
+      "reason": "Använder den vedertagna svenska formuleringen för stat-fel."
+    },
+    {
+      "tp_id": "rush:881",
+      "project": "tp:rush-2.4.90",
+      "msgid": "cannot open format file %s",
+      "before": "det går inte att öppna formatfil %s",
+      "after": "kan inte öppna formatfilen %s",
+      "reason": "Rättar bestämd form i felmeddelandet."
+    },
+    {
+      "tp_id": "rush:891",
+      "project": "tp:rush-2.4.90",
+      "msgid": "cannot stat directory %s: %s",
+      "before": "det går inte att ta stat på katalog %s: %s",
+      "after": "kan inte ta status på katalogen %s: %s",
+      "reason": "Använder den vedertagna svenska formuleringen för stat-fel."
     },
     {
       "tp_id": "diffutils:476",
