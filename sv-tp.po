@@ -110640,7 +110640,7 @@ msgstr "poll: protokollfel vid anslutningsupprättandet\n"
 
 #. from tp:libc-2.42.9000
 msgid "socket: protocol failure in circuit setup\n"
-msgstr "socket: protokollfel vid anslutningsupprättandet\n"
+msgstr "uttag: protokollfel vid anslutningsupprättandet\n"
 
 #. from tp:libc-2.42.9000
 msgid "rcmd: %s: short read"
@@ -112472,7 +112472,7 @@ msgstr "kan inte skriva till databasfil %s: %s"
 
 #. from tp:libc-2.42.9000
 msgid "cannot open socket: %s"
-msgstr "kan inte öppna socket: %s"
+msgstr "kan inte öppna uttag: %s"
 
 #. from tp:libc-2.42.9000
 msgid "cannot enable socket to accept connections: %s"
@@ -149676,7 +149676,7 @@ msgstr "Anslutningen misslyckades (för många försök)."
 
 #. from tp:lynx-2.9.0-dev8
 msgid "Could not restore socket to blocking."
-msgstr "Kunde inte återställa socketen till blockerande läge."
+msgstr "Kunde inte återställa uttaget till blockerande läge."
 
 #. from tp:lynx-2.9.0-dev8
 msgid "SOCKS5: connecting to %s"
@@ -149724,7 +149724,7 @@ msgstr "oväntat svar\n"
 
 #. from tp:lynx-2.9.0-dev8
 msgid "Socket read failed (too many tries)."
-msgstr "Fel vid läsning från socketen (för många försök)."
+msgstr "Fel vid läsning från uttaget (för många försök)."
 
 #. from tp:lynx-2.9.0-dev8
 msgid "SSL callback:%s, preverify_ok=%d, ssl_okay=%d"
@@ -152476,11 +152476,11 @@ msgstr "%s: ogiltig anslutningstyp: %s; port är meningslös för UNIX-sockets"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: %s: UNIX socket name too long"
-msgstr "%s: %s: UNIX-socketnamnet är för långt"
+msgstr "%s: %s: UNIX-uttagsnamnet är för långt"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: %s: cannot stat socket: %s"
-msgstr "%s: %s: kan inte hämta status för socketen: %s"
+msgstr "%s: %s: kan inte hämta status för uttaget: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: %s: not a socket"
@@ -152528,7 +152528,7 @@ msgstr "%s: protokoll som inte stöds: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: unable to create new socket: %s"
-msgstr "%s: det går inte att skapa en ny socket: %s"
+msgstr "%s: det går inte att skapa en ny uttag: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: cannot set close-on-exec: %s"
@@ -152680,7 +152680,7 @@ msgstr "fork() misslyckades: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "connect from socket %s"
-msgstr "anslutning från socketen %s"
+msgstr "anslutning från uttaget %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "connect from %s:%u"
@@ -152760,7 +152760,7 @@ msgstr "ogiltig anslutningstyp: %s; porten är meningslös för UNIX-sockets"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: cannot stat socket: %s"
-msgstr "%s: kan inte hämta status för socketen: %s"
+msgstr "%s: kan inte hämta status för uttaget: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: not a socket"
@@ -157852,7 +157852,7 @@ msgstr "I LMTP-läget, behåll dessa tilläggsgrupper."
 
 #. from tp:mailutils-3.20.93
 msgid "In LMTP mode, listen on the given URL.  Valid URLs are:\n   tcp://<address: string>:<port: number> (note that port is mandatory)\n   file://<socket-file-name>\nor socket://<socket-file-name>"
-msgstr "I LMTP-läge, lyssna på den angivna URL-adressen. Giltiga URL-adresser är:\n   tcp://<address: string>:<port: number> (observera att port är obligatorisk)\n   file://<socket-file-name>\neller socket://<socket-file-name>"
+msgstr "I LMTP-läge, lyssna på den angivna URL-adressen. Giltiga URL-adresser är:\n   tcp://<address: string>:<port: number> (observera att port är obligatorisk)\n   file://<socket-file-name>\neller uttag://<socket-file-name>"
 
 #. from tp:mailutils-3.20.93
 msgid "Reuse existing address (LMTP mode).  Default is 'yes'."
@@ -178680,7 +178680,7 @@ msgstr "Filsystemet rapporterar att det lediga utrymmet är %d kluster, inte %d 
 
 #. from tp:parted-3.4.64.2
 msgid "There's not enough room in the root directory for all of the files.  Either cancel, or ignore to lose the files."
-msgstr "Det finns inte tillräckligt med utrymme för alla filer i rotkatalogen.  Välj antingen att avbryta, eller ignorera och förlora filerna."
+msgstr "Det finns inte tillräckligt med utrymme för alla filer i rotkatalogen. Välj antingen Avbryt eller Ignorera för att förlora filerna."
 
 #. from tp:parted-3.4.64.2
 msgid "Error writing to the root directory."
@@ -178688,19 +178688,19 @@ msgstr "Ett fel uppstod vid skrivning till rotkatalogen."
 
 #. from tp:parted-3.4.64.2
 msgid "If you leave your file system as FAT16, then you will have no problems."
-msgstr "Om du låter filsystemet fortsätta vara FAT16 så kommer du inte att få några problem."
+msgstr "Om du lämnar filsystemet som FAT16 får du inga problem."
 
 #. from tp:parted-3.4.64.2
 msgid "If you convert to FAT16, and MS Windows is installed on this partition, then you must re-install the MS Windows boot loader.  If you want to do this, you should consult the Parted manual (or your distribution's manual)."
-msgstr "Om du konverterar till FAT16 och MS Windows är installerad på den här partitionen så måste du installera om MS Windows starthanterare.  Om du gör det bör du studera Parteds manual (eller din distributions manual)."
+msgstr "Om du konverterar till FAT16 och MS Windows är installerat på partitionen måste du installera om startladdaren för MS Windows. Läs Parteds handbok eller handboken för din distribution om du vill göra detta."
 
 #. from tp:parted-3.4.64.2
 msgid "If you leave your file system as FAT32, then you will not introduce any new problems."
-msgstr "Om du låter filsystemet fortsätta vara FAT32 kommer du inte att introducera några nya problem."
+msgstr "Om du lämnar filsystemet som FAT32 orsakar du inga nya problem."
 
 #. from tp:parted-3.4.64.2
 msgid "If you convert to FAT32, and MS Windows is installed on this partition, then you must re-install the MS Windows boot loader.  If you want to do this, you should consult the Parted manual (or your distribution's manual).  Also, converting to FAT32 will make the file system unreadable by MS DOS, MS Windows 95a, and MS Windows NT."
-msgstr "Om du konverterar till FAT32 och MS Windows är installerad på den här partitionen måste du installera om MS Windows starthanterare.  Om du gör det bör du studera Parteds manual (eller din distributions manual).  Märk att genom att konvertera filsystemet till FAT32 kommer det inte att kunna läsas av MS DOS, MS Windows 95a och MS Windows NT."
+msgstr "Om du konverterar till FAT32 och MS Windows är installerat på partitionen måste du installera om startladdaren för MS Windows. Läs Parteds handbok eller handboken för din distribution om du vill göra detta. Filsystemet kan inte längre läsas av MS DOS, MS Windows 95a och MS Windows NT efter en konvertering till FAT32."
 
 #. from tp:parted-3.4.64.2
 msgid "%s  %s  %s"
@@ -178716,11 +178716,11 @@ msgstr "%s  %s"
 
 #. from tp:parted-3.4.64.2
 msgid "The file system can only be resized to this size by converting to FAT16."
-msgstr "Filsystemet kan bara ändras till den här storleken genom att konvertera till FAT16."
+msgstr "Filsystemet kan endast ändras till denna storlek genom konvertering till FAT16."
 
 #. from tp:parted-3.4.64.2
 msgid "The file system can only be resized to this size by converting to FAT32."
-msgstr "Filsystemet kan bara ändras till den här storleken genom att konvertera till FAT32."
+msgstr "Filsystemet kan endast ändras till denna storlek genom konvertering till FAT32."
 
 #. from tp:parted-3.4.64.2
 msgid "GNU Parted cannot resize this partition to this size.  We're working on it!"
@@ -178728,7 +178728,7 @@ msgstr "GNU Parted kan inte ändra partitionen till den här storleken.  Vi arbe
 
 #. from tp:parted-3.4.64.2
 msgid "FAT %d media %x doesn't match the boot sector's media %x.  You should probably run scandisk."
-msgstr "FAT %d media %x passar inte med startsektorns media %x.  Du bör antagligen köra scandisk."
+msgstr "FAT %d-medietypen %x stämmer inte med medietypen %x i startsektorn. Du bör troligen köra scandisk."
 
 #. from tp:parted-3.4.64.2
 msgid "fat_table_set: cluster %ld outside file system"
@@ -178744,15 +178744,15 @@ msgstr "fat_table_alloc_cluster: inga lediga kluster"
 
 #. from tp:parted-3.4.64.2
 msgid "Could not detect file system."
-msgstr "Kunde inte hitta något filsystem."
+msgstr "Kunde inte identifiera filsystemet."
 
 #. from tp:parted-3.4.64.2
 msgid "resizing %s file systems is not supported"
-msgstr "storleksändring av %s-filsystem stöds inte"
+msgstr "Det stöds inte att ändra storlek på %s-filsystem"
 
 #. from tp:parted-3.4.64.2
 msgid "The file system is bigger than its volume!"
-msgstr "Filsystemet är större än dess volym!"
+msgstr "Filsystemet är större än sin volym!"
 
 #. from tp:parted-3.4.64.2
 msgid "The file system contains errors."
@@ -178760,15 +178760,15 @@ msgstr "Filsystemet innehåller fel."
 
 #. from tp:parted-3.4.64.2
 msgid "Bad blocks could not be read."
-msgstr "Felaktiga block kunde inte läsas."
+msgstr "Kunde inte läsa felaktiga block."
 
 #. from tp:parted-3.4.64.2
 msgid "Trying to register an extent starting at block 0x%X, but another one already exists at this position.  You should check the file system!"
-msgstr "Försöker att registrera en utsträckning som börjar på block 0x%X, men det finns redan en på denna position.  Du bör kontrollera filsystemet!"
+msgstr "Försöker registrera en utsträckning som börjar vid block 0x%X, men det finns redan en vid denna position. Kontrollera filsystemet!"
 
 #. from tp:parted-3.4.64.2
 msgid "Trying to move an extent from block 0x%X to block 0x%X, but another one already exists at this position.  This should not happen!"
-msgstr "Försöker att flytta en utsträckning från block 0x%X till block 0x%X, men det finns redan en på denna position.  Detta bör inte inträffa!"
+msgstr "Försöker flytta en utsträckning från block 0x%X till block 0x%X, men det finns redan en vid denna position. Detta ska inte inträffa!"
 
 #. from tp:parted-3.4.64.2
 msgid "Could not update the extent cache for HFS file with CNID %X."
@@ -178776,55 +178776,55 @@ msgstr "Kunde inte uppdatera utsträckningscachen för HFS-filen med CNID %X."
 
 #. from tp:parted-3.4.64.2
 msgid "Trying to read HFS file with CNID %X behind EOF."
-msgstr "Försöker att läsa HFS-fil med CNID %X efter EOF."
+msgstr "Försöker läsa HFS-filen med CNID %X efter filslutet."
 
 #. from tp:parted-3.4.64.2
 msgid "Could not find sector %lli of HFS file with CNID %X."
-msgstr "Kunde inte hitta sektor %lli för HFS-fil med CNID %X."
+msgstr "Kunde inte hitta sektor %lli i HFS-filen med CNID %X."
 
 #. from tp:parted-3.4.64.2
 msgid "Trying to write HFS file with CNID %X behind EOF."
-msgstr "Försöker skriva HFS-fil med CNID %X efter EOF."
+msgstr "Försöker skriva HFS-filen med CNID %X efter filslutet."
 
 #. from tp:parted-3.4.64.2
 msgid "Could not update the extent cache for HFS+ file with CNID %X."
-msgstr "Kunde inte uppdatera utsträckningscachen för HFS+-fil med CNID %X."
+msgstr "Kunde inte uppdatera utsträckningscachen för HFS+-filen med CNID %X."
 
 #. from tp:parted-3.4.64.2
 msgid "Trying to read HFS+ file with CNID %X behind EOF."
-msgstr "Försöker att läsa HFS+-fil med CNID %X efter filslut."
+msgstr "Försöker läsa HFS+-filen med CNID %X efter filslutet."
 
 #. from tp:parted-3.4.64.2
 msgid "Could not find sector %lli of HFS+ file with CNID %X."
-msgstr "Kunde inte hitta sektor %lli för HFS+-fil med CNID %X."
+msgstr "Kunde inte hitta sektor %lli i HFS+-filen med CNID %X."
 
 #. from tp:parted-3.4.64.2
 msgid "Trying to write HFS+ file with CNID %X behind EOF."
-msgstr "Försöker att skriva HFS+-fil med CNID %X efter EOF."
+msgstr "Försöker skriva HFS+-filen med CNID %X efter filslutet."
 
 #. from tp:parted-3.4.64.2
 msgid "Sorry, HFS cannot be resized that way yet."
-msgstr "Det går inte att ändra storlek på HFS än."
+msgstr "HFS kan ännu inte ändras på den här sättet."
 
 #. from tp:parted-3.4.64.2
 msgid "shrinking"
-msgstr "minskar"
+msgstr "krymper"
 
 #. from tp:parted-3.4.64.2
 msgid "Data relocation has failed."
-msgstr "Dataomplacering misslyckades."
+msgstr "Dataomlokalisering misslyckades."
 
 #. from tp:parted-3.4.64.2
 msgid "Data relocation left some data in the end of the volume."
-msgstr "Dataomplacering lämnade viss data på slutet av volymen."
+msgstr "Dataomlokalisering lämnade kvar data i slutet av volymen."
 
 #. from tp:parted-3.4.64.2
 msgid "writing HFS Master Directory Block"
-msgstr "skriver HFS huvudkatalogblock"
+msgstr "skriver HFS-huvudkatalogblocket"
 
 #. from tp:parted-3.4.64.2
 msgid "No valid HFS[+X] signature has been found while opening."
-msgstr "Ingen giltig HFS[+X]-signatur har hittats under öppningen."
+msgstr "Ingen giltig HFS[+X]-signatur hittades vid öppning."
 
 #. from tp:parted-3.4.64.2
 msgid "Version %d of HFS+ isn't supported."
@@ -178836,7 +178836,7 @@ msgstr "Version %d av HFSX stöds inte."
 
 #. from tp:parted-3.4.64.2
 msgid "Data relocation left some data at the end of the volume."
-msgstr "Omplacering av data lämnade viss data i slutet på volymen."
+msgstr "Dataomlokalisering lämnade kvar data i slutet av volymen."
 
 #. from tp:parted-3.4.64.2
 msgid "Error while writing the allocation file."
@@ -178848,55 +178848,55 @@ msgstr "Fel vid skrivning av kompatibilitetsdelen av allokeringsfilen."
 
 #. from tp:parted-3.4.64.2
 msgid "writing HFS+ Volume Header"
-msgstr "skriver HFS+-volymhuvud"
+msgstr "skriver HFS+-volymhuvudet"
 
 #. from tp:parted-3.4.64.2
 msgid "An error occurred while looking for the mandatory bad blocks file."
-msgstr "Ett fel inträffade under sökning efter den obligatoriska filen med dåliga block."
+msgstr "Fel vid sökning efter den obligatoriska filen med felaktiga block."
 
 #. from tp:parted-3.4.64.2
 msgid "It seems there is an error in the HFS wrapper: the bad blocks file doesn't contain the embedded HFS+ volume."
-msgstr "Det verkar som om det finns ett fel i HFS-omslaget: filen med dåliga block innehåller inte den inbäddade HFS+-volymen."
+msgstr "Det verkar finnas ett fel i HFS-omslaget: filen med felaktiga block innehåller inte den inbäddade HFS+-volymen."
 
 #. from tp:parted-3.4.64.2
 msgid "Sorry, HFS+ cannot be resized that way yet."
-msgstr "Det går inte att ändra storlek på HFS+ på det sättet än."
+msgstr "HFS+ kan ännu inte ändras på det här sättet."
 
 #. from tp:parted-3.4.64.2
 msgid "shrinking embedded HFS+ volume"
-msgstr "minskar inbäddad HFS+-volym"
+msgstr "krymper den inbäddade HFS+-volymen"
 
 #. from tp:parted-3.4.64.2
 msgid "Resizing the HFS+ volume has failed."
-msgstr "Storleksändring av HFS+-volymen misslyckades."
+msgstr "Det gick inte att ändra storleken på HFS+-volymen."
 
 #. from tp:parted-3.4.64.2
 msgid "shrinking HFS wrapper"
-msgstr "minskar HFS-omslut"
+msgstr "krymper HFS-omslaget"
 
 #. from tp:parted-3.4.64.2
 msgid "Updating the HFS wrapper has failed."
-msgstr "Uppdatering av HFS-omslutet har misslyckats."
+msgstr "Det gick inte att uppdatera HFS-omslaget."
 
 #. from tp:parted-3.4.64.2
 msgid "This is not a real %s check.  This is going to extract special low level files for debugging purposes."
-msgstr "Detta är inte en riktig %s-kontroll.  Detta kommer att extrahera speciella lågnivåfiler för felsökningsmöjligheter."
+msgstr "Detta är inte en riktig %s-kontroll. Särskilda lågnivåfiler extraheras för felsökning."
 
 #. from tp:parted-3.4.64.2
 msgid "Bad block list header checksum."
-msgstr "Kontrollsumma för lista över dåliga block."
+msgstr "Felaktig kontrollsumma i listans huvud för felaktiga block."
 
 #. from tp:parted-3.4.64.2
 msgid "Invalid size of a transaction block while replaying the journal (%i bytes)."
-msgstr "Ogiltig storlek för transaktionsblock vid återuppspelning av journalen (%i byte)."
+msgstr "Ogiltig storlek på ett transaktionsblock vid återuppspelning av journalen (%i byte)."
 
 #. from tp:parted-3.4.64.2
 msgid "Journal stored outside of the volume are not supported.  Try to deactivate the journal and run Parted again."
-msgstr "Att lagra journalen utanför volymen stöds inte.  Försök att inaktivera journalen och kör Parted igen."
+msgstr "Journaler som lagras utanför volymen stöds inte. Inaktivera journalen och kör Parted igen."
 
 #. from tp:parted-3.4.64.2
 msgid "Journal offset or size is not multiple of the sector size."
-msgstr "Journalposition eller storlek är inte en multipel av sektorstorleken."
+msgstr "Journalens förskjutning eller storlek är inte en multipel av sektorstorleken."
 
 #. from tp:parted-3.4.64.2
 msgid "Incorrect magic values in the journal header."
@@ -178904,11 +178904,11 @@ msgstr "Felaktiga magiska värden i journalhuvudet."
 
 #. from tp:parted-3.4.64.2
 msgid "Journal size mismatch between journal info block and journal header."
-msgstr "Journalstorleken skiljer sig mellan journalinfoblocket och journalhuvudet."
+msgstr "Journalstorleken stämmer inte mellan journalinfoblocket och journalhuvudet."
 
 #. from tp:parted-3.4.64.2
 msgid "Some header fields are not multiple of the sector size."
-msgstr "Vissa huvudfält är inte en multipel av sektorstorleken."
+msgstr "Vissa huvudfält är inte multiplar av sektorstorleken."
 
 #. from tp:parted-3.4.64.2
 msgid "The sector size stored in the journal is not 512 bytes.  Parted only supports 512 bytes length sectors."
@@ -178920,19 +178920,19 @@ msgstr "Felaktig journalkontrollsumma."
 
 #. from tp:parted-3.4.64.2
 msgid "The journal is not empty.  Parted must replay the transactions before opening the file system.  This will modify the file system."
-msgstr "Journalen är inte tom.  Parted måste spela upp transaktionerna före det öppnar filsystemet.  Detta kommer att modifiera filsystemet."
+msgstr "Journalen är inte tom. Parted måste spela upp transaktionerna innan filsystemet öppnas. Detta ändrar filsystemet."
 
 #. from tp:parted-3.4.64.2
 msgid "The volume header or the master directory block has changed while replaying the journal.  You should restart Parted."
-msgstr "Volymhuvudet eller huvudkatalogblocket har ändrats under återuppspelning av journalen.  Du bör starta om Parted."
+msgstr "Volymhuvudet eller huvudkatalogblocket ändrades under återuppspelning av journalen. Starta om Parted."
 
 #. from tp:parted-3.4.64.2
 msgid "An extent has not been relocated."
-msgstr "En utsträckning har inte omplacerats."
+msgstr "En utsträckning har inte omlokaliserats."
 
 #. from tp:parted-3.4.64.2
 msgid "A reference to an extent comes from a place it should not.  You should check the file system!"
-msgstr "En referens till en utsträckning kommer från en plats den inte borde.  Du bör kontrollera filsystemet!"
+msgstr "En referens till en utsträckning kommer från en plats där den inte borde komma. Kontrollera filsystemet!"
 
 #. from tp:parted-3.4.64.2
 msgid "This HFS volume has no catalog file.  This is very unusual!"
@@ -178940,11 +178940,11 @@ msgstr "Denna HFS-volym har ingen katalogfil.  Detta är väldigt ovanligt!"
 
 #. from tp:parted-3.4.64.2
 msgid "This HFS volume has no extents overflow file.  This is quite unusual!"
-msgstr "Denna HFS-volym har ingen överspillsfil för utsträckningar.  Detta är väldigt ovanligt!"
+msgstr "Denna HFS-volym saknar en spillfil för utsträckningar. Detta är ganska ovanligt!"
 
 #. from tp:parted-3.4.64.2
 msgid "The extents overflow file should not contain its own extents!  You should check the file system."
-msgstr "Överspillsfilen för utsträckningar bör inte innehålla sina egna utsträckningar!  Du bör kontrollera filsystemet."
+msgstr "Spillfilen för utsträckningar bör inte innehålla sina egna utsträckningar! Kontrollera filsystemet."
 
 #. from tp:parted-3.4.64.2
 msgid "Could not cache the file system in memory."
@@ -178956,15 +178956,15 @@ msgstr "Listan över felaktiga block kunde inte läsas in."
 
 #. from tp:parted-3.4.64.2
 msgid "An error occurred during extent relocation."
-msgstr "Ett fel inträffade under omplacering av utsträckningar."
+msgstr "Ett fel uppstod under omlokalisering av utsträckningar."
 
 #. from tp:parted-3.4.64.2
 msgid "This HFS+ volume has no catalog file.  This is very unusual!"
-msgstr "Denna HFS+-volym har ingen katalogfil.  Detta är väldigt ovanligt!"
+msgstr "Denna HFS+-volym saknar en katalogfil. Detta är mycket ovanligt!"
 
 #. from tp:parted-3.4.64.2
 msgid "This HFS+ volume has no extents overflow file.  This is quite unusual!"
-msgstr "Denna HFS+-volym har ingen överspillsfil för utsträckningar.  Detta är väldigt ovanligt!"
+msgstr "Denna HFS+-volym saknar en spillfil för utsträckningar. Detta är ganska ovanligt!"
 
 #. from tp:parted-3.4.64.2
 msgid "displays this help message"
@@ -178972,11 +178972,11 @@ msgstr "visa den här hjälptexten"
 
 #. from tp:parted-3.4.64.2
 msgid "lists partition layout on all block devices"
-msgstr "listar partitionslayout för alla blockenheter"
+msgstr "listar partitionslayouten på alla blockenheter"
 
 #. from tp:parted-3.4.64.2
 msgid "displays machine parseable output"
-msgstr "visar utskriften som maskintolkningsbar"
+msgstr "visar maskintolkningsbara utdata"
 
 #. from tp:parted-3.4.64.2
 msgid "displays JSON output"
@@ -178984,11 +178984,11 @@ msgstr "visar JSON-utdata"
 
 #. from tp:parted-3.4.64.2
 msgid "never prompts for user intervention"
-msgstr "frågar aldrig användaren om alternativ"
+msgstr "frågar aldrig efter användaråtgärd"
 
 #. from tp:parted-3.4.64.2
 msgid "in script mode, fix instead of abort when asked"
-msgstr "i skriptläge, fixa istället för att avbryta när du tillfrågas"
+msgstr "i skriptläge, åtgärda i stället för att avbryta när en fråga ställs"
 
 #. from tp:parted-3.4.64.2
 msgid "displays the version"
@@ -179000,19 +179000,19 @@ msgstr "justering för nya partitioner"
 
 #. from tp:parted-3.4.64.2
 msgid "NUMBER is the partition number used by Linux.  On MS-DOS disk labels, the primary partitions number from 1 to 4, logical partitions from 5 onwards.\n"
-msgstr "NUMMER är partitionsnumret som Linux använder.  På disketiketter av typen MS-DOS är de primära partitionerna numrerade från 1 till 4, och de logiska partitionerna från 5 och uppåt.\n"
+msgstr "NUMBER är det partitionsnummer som Linux använder. På MS-DOS-disketiketter numreras de primära partitionerna från 1 till 4 och de logiska från 5 och uppåt.\n"
 
 #. from tp:parted-3.4.64.2
 msgid "LABEL-TYPE is one of: "
-msgstr "PART-TYP är en av: "
+msgstr "LABEL-TYPE är ett av: "
 
 #. from tp:parted-3.4.64.2
 msgid "FLAG is one of: "
-msgstr "FLAGGA är en av: "
+msgstr "FLAG är ett av: "
 
 #. from tp:parted-3.4.64.2
 msgid "UNIT is one of: "
-msgstr "ENHET är en av: "
+msgstr "UNIT är ett av: "
 
 #. from tp:parted-3.4.64.2
 msgid "desired alignment: minimum or optimal"
@@ -179020,31 +179020,31 @@ msgstr "önskad justering: minimum eller optimal"
 
 #. from tp:parted-3.4.64.2
 msgid "PART-TYPE is one of: primary, logical, extended\n"
-msgstr "PART-TYP är en av: primär, logisk, utökad\n"
+msgstr "PART-TYPE är ett av: primary, logical, extended\n"
 
 #. from tp:parted-3.4.64.2
 msgid "FS-TYPE is one of: "
-msgstr "FS-TYP är en av: "
+msgstr "FS-TYPE är ett av: "
 
 #. from tp:parted-3.4.64.2
 msgid "START and END are disk locations, such as 4GB or 10%.  Negative values count from the end of the disk.  For example, -1s specifies exactly the last sector.\n"
-msgstr "BÖRJAN och SLUT är platser på disken, såsom 4GB eller 10%.  Negativa värden räknas från slutet på disken.  Till exempel, -1s anger exakt den sista sektorn.\n"
+msgstr "START och END är platser på disken, till exempel 4GB eller 10%. Negativa värden räknas från slutet av disken. Till exempel anger -1s exakt den sista sektorn.\n"
 
 #. from tp:parted-3.4.64.2
 msgid "END is disk location, such as 4GB or 10%.  Negative value counts from the end of the disk.  For example, -1s specifies exactly the last sector.\n"
-msgstr "SLUT är en plats på disken, såsom 4GB eller 10%.  Negativa värden räknas från slutet på disken.  Till exempel, -1s anger exakt den sista sektorn.\n"
+msgstr "END är en plats på disken, till exempel 4GB eller 10%. Ett negativt värde räknas från slutet av disken. Till exempel anger -1s exakt den sista sektorn.\n"
 
 #. from tp:parted-3.4.64.2
 msgid "STATE is one of: on, off\n"
-msgstr "TILLSTÅND är ett av: på, av\n"
+msgstr "STATE är ett av: on, off\n"
 
 #. from tp:parted-3.4.64.2
 msgid "DEVICE is usually /dev/hda or /dev/sda\n"
-msgstr "ENHET är vanligen /dev/hda eller /dev/sda\n"
+msgstr "DEVICE är vanligen /dev/hda eller /dev/sda\n"
 
 #. from tp:parted-3.4.64.2
 msgid "NAME is any word you want\n"
-msgstr "NAMN är vilket ord du vill\n"
+msgstr "NAME är ett valfritt ord\n"
 
 #. from tp:parted-3.4.64.2
 msgid "Copyright (C) 1998 - 2006 Free Software Foundation, Inc.\nThis program is free software, covered by the GNU General Public License.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\n"
@@ -179056,15 +179056,15 @@ msgstr "%0.f%%	(tid kvar %.2d:%.2d)"
 
 #. from tp:parted-3.4.64.2
 msgid "Partition %s is being used. Are you sure you want to continue?"
-msgstr "Partitionen %s används.  Är du säker på att du vill fortsätta?"
+msgstr "Partitionen %s används. Är du säker på att du vill fortsätta?"
 
 #. from tp:parted-3.4.64.2
 msgid "Partition(s) on %s are being used."
-msgstr "Partitionen på %s är i bruk."
+msgstr "Partitionerna på %s används."
 
 #. from tp:parted-3.4.64.2
 msgid "The existing disk label on %s will be destroyed and all data on this disk will be lost. Do you want to continue?"
-msgstr "Den befintliga disketiketten på %s kommer att förstöras och all data på denna disk kommer att gå förlorad.  Vill du fortsätta?"
+msgstr "Den befintliga disketiketten på %s förstörs och alla data på disken går förlorade. Vill du fortsätta?"
 
 #. from tp:parted-3.4.64.2
 msgid "New disk label type?"
@@ -179092,7 +179092,7 @@ msgstr "Slut?"
 
 #. from tp:parted-3.4.64.2
 msgid "You requested a partition from %s to %s (sectors %llu..%llu).\nThe closest location we can manage is %s to %s (sectors %llu..%llu).%s"
-msgstr "Du begärde en partition från %s till %s (sektorerna %llu..%llu).\nDen närmsta platsen vi kan hantera är %s till %s (sektorerna %llu..%llu).%s"
+msgstr "Du begärde en partition från %s till %s (sektorerna %llu..%llu).\nDen närmaste platsen vi kan hantera är %s till %s (sektorerna %llu..%llu).%s"
 
 #. from tp:parted-3.4.64.2
 msgid "\nIs this still acceptable to you?"
@@ -179100,11 +179100,11 @@ msgstr "\nÄr detta fortfarande godtagbart för dig?"
 
 #. from tp:parted-3.4.64.2
 msgid "The resulting partition is not properly aligned for best performance: %s"
-msgstr "Den resulterande partitionen är inte korrekt justerad för bästa prestanda: %s"
+msgstr "Den resulterande partitionen är inte tillräckligt justerad för bästa prestanda: %s"
 
 #. from tp:parted-3.4.64.2
 msgid "unknown (malloc failed)"
-msgstr "okänd (malloc misslyckades)"
+msgstr "okänd (malloc() misslyckades)"
 
 #. from tp:parted-3.4.64.2
 msgid "%s disk labels do not support partition name."
@@ -179116,7 +179116,7 @@ msgstr "Partitionsnummer?"
 
 #. from tp:parted-3.4.64.2
 msgid "BIOS cylinder,head,sector geometry: %d,%d,%d.  Each cylinder is %s.\n"
-msgstr "BIOS-geometri för cylinder,huvud,sektor: %d,%d,%d.  Varje cylinder är %s.\n"
+msgstr "BIOS-geometri för cylinder, huvud och sektor: %d,%d,%d. Varje cylinder är %s.\n"
 
 #. from tp:parted-3.4.64.2
 msgid "Model: %s (%s)\n"
@@ -179160,11 +179160,11 @@ msgstr "söker efter filsystem"
 
 #. from tp:parted-3.4.64.2
 msgid "The resize command has been removed in parted 3.0"
-msgstr "Kommandot ändra_storlek har tagits bort i parted 3.0"
+msgstr "Kommandot resize har tagits bort i parted 3.0"
 
 #. from tp:parted-3.4.64.2
 msgid "Shrinking a partition can cause data loss, are you sure you want to continue?"
-msgstr "Att minska storlek för en partition kan orsaka dataförlust, är du säker på att du vill fortsätta?"
+msgstr "Att minska storleken på en partition kan orsaka dataförlust. Är du säker på att du vill fortsätta?"
 
 #. from tp:parted-3.4.64.2
 msgid "New device?"
@@ -179172,7 +179172,7 @@ msgstr "Ny enhet?"
 
 #. from tp:parted-3.4.64.2
 msgid "alignment type(min/opt)"
-msgstr "justeringstyp(min/opt)"
+msgstr "justeringstyp (min/opt)"
 
 #. from tp:parted-3.4.64.2
 msgid "%d aligned\n"
@@ -179180,7 +179180,7 @@ msgstr "%d justerad\n"
 
 #. from tp:parted-3.4.64.2
 msgid "%d not aligned: %s\n"
-msgstr "%d inte justerad: %s\n"
+msgstr "%d är inte justerad: %s\n"
 
 #. from tp:parted-3.4.64.2
 msgid "Flag to Invert?"
@@ -179196,15 +179196,15 @@ msgstr "Enhet?"
 
 #. from tp:parted-3.4.64.2
 msgid "align-check"
-msgstr "justeringskontroll"
+msgstr "align-check"
 
 #. from tp:parted-3.4.64.2
 msgid "align-check TYPE N                       check partition N for TYPE(min|opt) alignment"
-msgstr "justeringskontroll TYP N                 kontrollera TYP(min|opt)-justering för partition N"
+msgstr "align-check TYPE N                       kontrollera justeringen TYPE(min|opt) för partition N"
 
 #. from tp:parted-3.4.64.2
 msgid "help [COMMAND]                           print general help, or help on COMMAND"
-msgstr "hjälp [KOMMANDO]                         skriver ut allmän hjälp eller hjälp för KOMMANDO"
+msgstr "help [COMMAND]                           skriv ut allmän hjälp eller hjälp för COMMAND"
 
 #. from tp:parted-3.4.64.2
 msgid "mklabel"
@@ -179216,7 +179216,7 @@ msgstr "mktable"
 
 #. from tp:parted-3.4.64.2
 msgid "mklabel,mktable LABEL-TYPE               create a new disklabel (partition table)"
-msgstr "mklabel,mktable ETIKETT-TYP              skapa en ny disketikett (partitionstabell)"
+msgstr "mklabel,mktable LABEL-TYPE               skapa en ny disketikett (partitionstabell)"
 
 #. from tp:parted-3.4.64.2
 msgid "mkpart"
@@ -179224,19 +179224,19 @@ msgstr "mkpart"
 
 #. from tp:parted-3.4.64.2
 msgid "mkpart PART-TYPE [FS-TYPE] START END     make a partition"
-msgstr "mkpart PART-TYP [FS-TYP] BÖRJAN SLUT     skapa en partition"
+msgstr "mkpart PART-TYPE [FS-TYPE] START END     skapa en partition"
 
 #. from tp:parted-3.4.64.2
 msgid "'mkpart' makes a partition without creating a new file system on the partition.  FS-TYPE may be specified to set an appropriate partition ID.\n"
-msgstr "\"mkpart\" skapar en partition utan att skapa ett nytt filsystem på partitionen.  FS-TYP måste anges för att ställa in ett lämpligt partitions-id.\n"
+msgstr "”mkpart” skapar en partition utan att skapa ett nytt filsystem på partitionen. FS-TYPE kan anges för att ange ett lämpligt partitions-ID.\n"
 
 #. from tp:parted-3.4.64.2
 msgid "name NUMBER NAME                         name partition NUMBER as NAME"
-msgstr "namn NUMMER NAMN                         ge namnet NAMN till partition NUMMER"
+msgstr "name NUMBER NAME                         ge partitionen NUMBER namnet NAME"
 
 #. from tp:parted-3.4.64.2
 msgid "print"
-msgstr "visa"
+msgstr "print"
 
 #. from tp:parted-3.4.64.2
 msgid "print [devices|free|list,all]            display the partition table, or available devices, or free space, or all found partitions"
@@ -179244,7 +179244,7 @@ msgstr "visa [devices|free|list,all]            visa partitionstabellen, tillgä
 
 #. from tp:parted-3.4.64.2
 msgid "Without arguments, 'print' displays the entire partition table. However with the following arguments it performs various other actions.\n"
-msgstr "Utan argument så skriver \"visa\" ut hela partitionstabellen.  Dock kan diverse andra åtgärder genomföras med följande argument.\n"
+msgstr "Utan argument visar ”print” hela partitionstabellen. Med följande argument utför det däremot olika andra åtgärder.\n"
 
 #. from tp:parted-3.4.64.2
 msgid "  devices   : display all active block devices\n"
@@ -179260,91 +179260,91 @@ msgstr "  list, all : visa partitionstabellerna på alla aktiva blockenheter\n"
 
 #. from tp:parted-3.4.64.2
 msgid "quit"
-msgstr "avsluta"
+msgstr "quit"
 
 #. from tp:parted-3.4.64.2
 msgid "quit                                     exit program"
-msgstr "avsluta                                  avsluta programmet"
+msgstr "quit                                     avsluta programmet"
 
 #. from tp:parted-3.4.64.2
 msgid "rescue"
-msgstr "rädda"
+msgstr "rescue"
 
 #. from tp:parted-3.4.64.2
 msgid "rescue START END                         rescue a lost partition near START and END"
-msgstr "rädda BÖRJAN SLUT                        rädda en förlorad partition nära BÖRJAN och SLUT"
+msgstr "rescue START END                         rädda en förlorad partition nära START och END"
 
 #. from tp:parted-3.4.64.2
 msgid "resize"
-msgstr "ändra_storlek"
+msgstr "resize"
 
 #. from tp:parted-3.4.64.2
 msgid "The resize command was removed in parted 3.0\n"
-msgstr "Kommandot ändra_storlek har tagits bort i parted 3.0\n"
+msgstr "Kommandot resize har tagits bort i parted 3.0\n"
 
 #. from tp:parted-3.4.64.2
 msgid "resizepart"
-msgstr "ändra_partstorlek"
+msgstr "resizepart"
 
 #. from tp:parted-3.4.64.2
 msgid "resizepart NUMBER END                    resize partition NUMBER"
-msgstr "ändra_partstorlek NUMMER SLUT            ändra storlek för partition NUMMER"
+msgstr "resizepart NUMBER END                    ändra storleken på partition NUMBER"
 
 #. from tp:parted-3.4.64.2
 msgid "rm"
-msgstr "ta_bort"
+msgstr "rm"
 
 #. from tp:parted-3.4.64.2
 msgid "rm NUMBER                                delete partition NUMBER"
-msgstr "ta_bort NUMMER                           ta bort partition NUMMER"
+msgstr "rm NUMBER                                ta bort partition NUMBER"
 
 #. from tp:parted-3.4.64.2
 msgid "select"
-msgstr "välj"
+msgstr "select"
 
 #. from tp:parted-3.4.64.2
 msgid "select DEVICE                            choose the device to edit"
-msgstr "välj ENHET                               välj enheten att redigera"
+msgstr "select DEVICE                            välj enheten som ska redigeras"
 
 #. from tp:parted-3.4.64.2
 msgid "disk_set"
-msgstr "disk_inställning"
+msgstr "disk_set"
 
 #. from tp:parted-3.4.64.2
 msgid "disk_set FLAG STATE                      change the FLAG on selected device"
-msgstr "disk_inställning FLAGGA TILLSTÅND        ändra FLAGGA för vald enhet"
+msgstr "disk_set FLAG STATE                      ändra FLAG på den valda enheten"
 
 #. from tp:parted-3.4.64.2
 msgid "disk_toggle"
-msgstr "disk_växla"
+msgstr "disk_toggle"
 
 #. from tp:parted-3.4.64.2
 msgid "disk_toggle [FLAG]                       toggle the state of FLAG on selected device"
-msgstr "disk_växla [FLAGGA]                      växla tillståndet för FLAGGA på vald enhet"
+msgstr "disk_toggle [FLAG]                       växla tillståndet för FLAG på den valda enheten"
 
 #. from tp:parted-3.4.64.2
 msgid "set"
-msgstr "ställ_in"
+msgstr "set"
 
 #. from tp:parted-3.4.64.2
 msgid "set NUMBER FLAG STATE                    change the FLAG on partition NUMBER"
-msgstr "ställ_in NUMMER FLAGGA TILLSTÅND         ändra FLAGGAn på partition NUMMER"
+msgstr "set NUMBER FLAG STATE                    ändra FLAG på partition NUMBER"
 
 #. from tp:parted-3.4.64.2
 msgid "toggle"
-msgstr "växla"
+msgstr "toggle"
 
 #. from tp:parted-3.4.64.2
 msgid "toggle [NUMBER [FLAG]]                   toggle the state of FLAG on partition NUMBER"
-msgstr "växla [NUMMER [FLAGGA]]                  växla tillståndet för FLAGGA på partition NUMMER"
+msgstr "toggle [NUMBER [FLAG]]                   växla tillståndet för FLAG på partition NUMBER"
 
 #. from tp:parted-3.4.64.2
 msgid "unit"
-msgstr "enhet"
+msgstr "unit"
 
 #. from tp:parted-3.4.64.2
 msgid "unit UNIT                                set the default unit to UNIT"
-msgstr "enhet ENHET                              ställ in standardenheten till ENHET"
+msgstr "unit UNIT                                ange standardenheten UNIT"
 
 #. from tp:parted-3.4.64.2
 msgid "version                                  display the version number and copyright information of GNU Parted"
@@ -179352,11 +179352,11 @@ msgstr "version                                  visa versionsnumret och upphovs
 
 #. from tp:parted-3.4.64.2
 msgid "'version' displays copyright and version information corresponding to this copy of GNU Parted\n"
-msgstr "\"version\" visar information om version och upphovsrätt för denna kopia av GNU Parted\n"
+msgstr "”version” visar information om version och upphovsrätt för denna kopia av GNU Parted\n"
 
 #. from tp:parted-3.4.64.2
 msgid "Usage: %s [-hlmsfv] [-a<align>] [DEVICE [COMMAND [PARAMETERS]]...]\n"
-msgstr "Användning: %s [-hlmsfv] [-a<justering>] [ENHET [KOMMANDO [PARAMETRAR]]…]\n"
+msgstr "Användning: %s [-hlmsfv] [-a<align>] [DEVICE [COMMAND [PARAMETERS]]...]\n"
 
 #. from tp:parted-3.4.64.2
 msgid "No device found"
@@ -179364,27 +179364,27 @@ msgstr "Ingen enhet hittades"
 
 #. from tp:parted-3.4.64.2
 msgid "WARNING: You are not superuser.  Watch out for permissions.\n"
-msgstr "VARNING: Du är inte superanvändare.  Se upp för rättighetsproblem.\n"
+msgstr "VARNING: Du är inte superanvändare. Var uppmärksam på behörigheter.\n"
 
 #. from tp:parted-3.4.64.2
 msgid "You should reinstall your boot loader before rebooting.  Read section 4 of the Parted User documentation for more information."
-msgstr "Du bör installera om startprogrammet innan du startar om.  Läs avsnitt fyra i Parteds användardokumentation för mer information."
+msgstr "Installera om startladdaren innan du startar om. Läs avsnitt 4 i Parteds användardokumentation för mer information."
 
 #. from tp:parted-3.4.64.2
 msgid "You may need to update /etc/fstab.\n"
-msgstr "Du kan behöva att uppdatera /etc/fstab.\n"
+msgstr "Du kan behöva uppdatera /etc/fstab.\n"
 
 #. from tp:parted-3.4.64.2
 msgid "Welcome to GNU Parted! Type 'help' to view a list of commands.\n"
-msgstr "Välkommen till GNU Parted! Skriv \"hjälp\" för att visa en lista över kommandon.\n"
+msgstr "Välkommen till GNU Parted! Skriv ”help” för att visa en lista med kommandon.\n"
 
 #. from tp:parted-3.4.64.2
 msgid "Usage: parted [OPTION]... [DEVICE [COMMAND [PARAMETERS]...]...]\nApply COMMANDs with PARAMETERS to DEVICE.  If no COMMAND(s) are given, run in\ninteractive mode.\n"
-msgstr "Användning: parted [FLAGGA]... [ENHET [KOMMANDO [PARAMETRAR]...]...]\nTillämpa KOMMANDOn med PARAMETRAR på ENHET.  Om inga KOMMANDO(n) anges\nkörs programmet i interaktivt läge.\n"
+msgstr "Användning: parted [OPTION]... [DEVICE [COMMAND [PARAMETERS]...]...]\nTillämpa COMMAND med PARAMETERS på DEVICE. Om inga COMMAND anges\nkörs programmet i interaktivt läge.\n"
 
 #. from tp:parted-3.4.64.2
 msgid "\n\nYou found a bug in GNU Parted! Here's what you have to do:\n\nDon't panic! The bug has most likely not affected any of your data.\nHelp us to fix this bug by doing the following:\n\nCheck whether the bug has already been fixed by checking\nthe last version of GNU Parted that you can find at:\n\n	http://ftp.gnu.org/gnu/parted/\n\nPlease check this version prior to bug reporting.\n\nIf this has not been fixed yet or if you don't know how to check,\nplease visit the GNU Parted website:\n\n	http://www.gnu.org/software/parted\n\nfor further information.\n\nYour report should contain the version of this release (%s)\nalong with the error message below, the output of\n\n	parted DEVICE unit co print unit s print\n\nand the following history of commands you entered.\nAlso include any additional information about your setup you\nconsider important.\n"
-msgstr "\n\nDu har hittat ett fel i GNU Parted! Det här behöver du göra:\n\nFå inte panik! Felet har antagligen inte påverkat något av ditt data.\nHjälp oss att rätta till detta fel genom att göra följande:\n\nKontrollera huruvida felet redan har rättats till genom att kontrollera\nden senaste versionen av GNU Parted som du kan hitta på:\n\n	http://ftp.gnu.org/gnu/parted/\n\nKontrollera med denna version innan du rapporterar felet.\n\nOm det inte har rättats till än, eller om du inte vet hur du ska\nkontrollera det, så besök webbsidan för GNU Parted:\n\n	http://www.gnu.org/software/parted\n\nför ytterligare information.\n\nDin rapport bör innehålla versionsnumret för denna utgåva (%s)\ntillsammans med felmeddelandet nedan samt utskriften från\n\n	parted ENHET unit co print unit s print\n\noch följande kommandohistorik som du angav.\nInkludera även ytterligare information om din konfiguration som\ndu anser vara viktigt att veta.\n"
+msgstr "\n\nDu har hittat ett fel i GNU Parted! Gör så här:\n\nFå inte panik! Felet har troligen inte påverkat några av dina data.\nHjälp oss att rätta felet genom att göra följande:\n\nKontrollera om felet redan har rättats genom att kontrollera\nden senaste versionen av GNU Parted på:\n\n\thttp://ftp.gnu.org/gnu/parted/\n\nKontrollera denna version innan du rapporterar felet.\n\nOm felet inte har rättats, eller om du inte vet hur du kontrollerar det,\nbesök GNU Parteds webbplats:\n\n\thttp://www.gnu.org/software/parted\n\nför mer information.\n\nRapporten bör innehålla versionsnumret för denna utgåva (%s),\nfelmeddelandet nedan, utdata från\n\n\tparted DEVICE unit co print unit s print\n\noch följande kommandohistorik.\nTa även med ytterligare information om konfigurationen som\ndu anser vara viktig.\n"
 
 #. from tp:parted-3.4.64.2
 msgid "\nCommand History:\n"
@@ -179400,7 +179400,7 @@ msgstr "\nFel: SEGV_ACCERR (Invalid permissions for mapped object)\n"
 
 #. from tp:parted-3.4.64.2
 msgid "\nError: A general SIGSEGV signal was encountered.\n"
-msgstr "\nFel: En allmän SIGSEGV-signal påträffades.\n"
+msgstr "\nFel: En allmän SIGSEGV-signal togs emot.\n"
 
 #. from tp:parted-3.4.64.2
 msgid "\nError: FPE_INTDIV (Integer: divide by zero)"
@@ -179436,7 +179436,7 @@ msgstr "\nFel: FPE_FLTSUB (Float: subscript out of range)"
 
 #. from tp:parted-3.4.64.2
 msgid "\nError: A general SIGFPE signal was encountered."
-msgstr "\nFel: A general SIGFPE signal was encountered."
+msgstr "\nFel: En allmän SIGFPE-signal togs emot."
 
 #. from tp:parted-3.4.64.2
 msgid "\nError: ILL_ILLOPC (Illegal Opcode)"
@@ -179472,15 +179472,15 @@ msgstr "\nFel: ILL_BADSTK (Internal Stack Error)"
 
 #. from tp:parted-3.4.64.2
 msgid "\nError: A general SIGILL signal was encountered."
-msgstr "\nFel: En allmän SIGILL-signal påträffades."
+msgstr "\nFel: En allmän SIGILL-signal togs emot."
 
 #. from tp:parted-3.4.64.2
 msgid "invalid token: %s"
-msgstr "ogiltigt token: %s"
+msgstr "ogiltig symbol: %s"
 
 #. from tp:parted-3.4.64.2
 msgid "Expecting a partition number."
-msgstr "Förväntade ett partitionsnummer."
+msgstr "Ett partitionsnummer förväntades."
 
 #. from tp:parted-3.4.64.2
 msgid "Partition doesn't exist."
@@ -179488,7 +179488,7 @@ msgstr "Partitionen finns inte."
 
 #. from tp:parted-3.4.64.2
 msgid "Expecting a file system type."
-msgstr "Förväntade en filsystemstyp."
+msgstr "En filsystemstyp förväntades."
 
 #. from tp:parted-3.4.64.2
 msgid "Unknown file system type \"%s\"."
@@ -179496,7 +179496,7 @@ msgstr "Okänd filsystemstyp ”%s”."
 
 #. from tp:parted-3.4.64.2
 msgid "Expecting a disk label type."
-msgstr "Förväntade en typ av disketikett."
+msgstr "En disketikettyp förväntades."
 
 #. from tp:parted-3.4.64.2
 msgid "No flags supported"
@@ -179508,7 +179508,7 @@ msgstr "Kan inte skapa några fler partitioner."
 
 #. from tp:parted-3.4.64.2
 msgid "Expecting a partition type."
-msgstr "Förväntade en partitionstyp."
+msgstr "En partitionstyp förväntades."
 
 #. from tp:parted-3.4.64.2
 msgid "optimal"
@@ -179528,7 +179528,7 @@ msgstr "KOMMANDON:"
 
 #. from tp:parted-3.4.64.2
 msgid "\nReport bugs to %s\n"
-msgstr "\nRapportera fel till: %s\nSkicka synpunkter på översättningen till <tp-sv@listor.tp-sv.se>\n"
+msgstr "\nRapportera fel till %s\nRapportera fel i översättningen till <tp-sv@listor.tp-sv.se>\n"
 
 #. from tp:parted-3.4.64.2
 msgid "Using %s\n"
@@ -179536,15 +179536,15 @@ msgstr "Använder %s\n"
 
 #. from tp:parted-3.4.64.2
 msgid "This command does not make sense in non-interactive mode.\n"
-msgstr "Detta kommando är meningslöst i icke-interaktivt läge.\n"
+msgstr "Detta kommando kan inte användas i icke-interaktivt läge.\n"
 
 #. from tp:pies-1.9
 msgid "socket name too long: %s"
-msgstr "uttagsnamn är för långt: %s"
+msgstr "uttagsnamnet är för långt: %s"
 
 #. from tp:pies-1.9
 msgid "cannot resolve host name: %s"
-msgstr "det går inte att slå upp värdnamn: %s"
+msgstr "kan inte slå upp värdnamnet: %s"
 
 #. from tp:pies-1.9
 msgid "invalid netmask: %s"
@@ -179552,19 +179552,19 @@ msgstr "ogiltig nätmask: %s"
 
 #. from tp:pies-1.9
 msgid "expected \"from\", but found list"
-msgstr "förväntade \"from\", men hittade lista"
+msgstr "förväntade ”from”, men hittade en lista"
 
 #. from tp:pies-1.9
 msgid "expected \"from\", but found \"%s\""
-msgstr "förväntade \"from\", men hittade \"%s\""
+msgstr "förväntade ”from”, men hittade ”%s”"
 
 #. from tp:pies-1.9
 msgid "unexpected end of statement after \"from\""
-msgstr "oväntat slut på sats efter \"from\""
+msgstr "oväntat satsslut efter ”from”"
 
 #. from tp:pies-1.9
 msgid "junk after from-list"
-msgstr "skräp efter from-lista"
+msgstr "skräp efter from-listan"
 
 #. from tp:pies-1.9
 msgid "ACL not defined: %s"
@@ -348104,7 +348104,7 @@ msgstr "Försöker ansluta till %s/%s …"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "cannot create socket: %s\n"
-msgstr "kan inte skapa socket: %s\n"
+msgstr "kan inte skapa uttag: %s\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "name %d: cannot create socket family %d type %d: %s\n"

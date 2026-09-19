@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 85959,
+  "reviewed_tp_entries": 86200,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 20790,
+  "changed_pairs": 20923,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 20790,
+      "confirmed_swedish_changes": 20923,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "4d79c5433628c110158de0d9290693f4911ed9b795763b51d61db4392acb19ca"
+      "sha256": "418f6ec403b20c225cc866aeb4d328ad957366039961b3d12e36f108c8f3ad48"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 20790,
+      "confirmed_swedish_changes": 20923,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "b5612d31e29696c8e47816c4eaf5b52a1057e17507095c0471fd3968f16d9f29"
+      "sha256": "2d17f3a09b7752f00349955b6015a1428a7e7409d704fa3de9bf384575b02a1c"
     }
   },
   "unmapped_plural_fixes": [
@@ -47423,7 +47423,7 @@
       "project": "tp:libc-2.42.9000",
       "msgid": "socket: protocol failure in circuit setup\n",
       "before": "uttag (socket): protokollfel i förbindelseuppsättning\n",
-      "after": "socket: protokollfel vid anslutningsupprättandet\n",
+      "after": "uttag: protokollfel vid anslutningsupprättandet\n",
       "reason": "Manuell språk-, terminologi- och sakgranskning av libc-diagnostik."
     },
     {
@@ -48767,7 +48767,7 @@
       "project": "tp:libc-2.42.9000",
       "msgid": "cannot open socket: %s",
       "before": "kan inte öppna uttag (socket): %s",
-      "after": "kan inte öppna socket: %s",
+      "after": "kan inte öppna uttag: %s",
       "reason": "Manuell språk-, terminologi- och sakgranskning av libc nscd- och säkerhetsdiagnostik."
     },
     {
@@ -62975,7 +62975,7 @@
       "project": "tp:lynx-2.9.0-dev8",
       "msgid": "Could not restore socket to blocking.",
       "before": "Kunde inte återställa blockering i uttag.",
-      "after": "Kunde inte återställa socketen till blockerande läge.",
+      "after": "Kunde inte återställa uttaget till blockerande läge.",
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
     },
     {
@@ -62991,7 +62991,7 @@
       "project": "tp:lynx-2.9.0-dev8",
       "msgid": "Socket read failed (too many tries).",
       "before": "Fel vid läsning från uttag (för många försök).",
-      "after": "Fel vid läsning från socketen (för många försök).",
+      "after": "Fel vid läsning från uttaget (för många försök).",
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
     },
     {
@@ -64599,7 +64599,7 @@
       "project": "tp:mailfromd-8.17.91",
       "msgid": "%s: %s: UNIX socket name too long",
       "before": "%s: %s: UNIX-uttagsnamn för långt",
-      "after": "%s: %s: UNIX-socketnamnet är för långt",
+      "after": "%s: %s: UNIX-uttagsnamnet är för långt",
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
     },
     {
@@ -64607,7 +64607,7 @@
       "project": "tp:mailfromd-8.17.91",
       "msgid": "%s: %s: cannot stat socket: %s",
       "before": "%s: %s: kan inte stat socket: %s",
-      "after": "%s: %s: kan inte hämta status för socketen: %s",
+      "after": "%s: %s: kan inte hämta status för uttaget: %s",
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
     },
     {
@@ -64623,7 +64623,7 @@
       "project": "tp:mailfromd-8.17.91",
       "msgid": "%s: unable to create new socket: %s",
       "before": "%s: Det går inte att skapa ett nytt uttag: %s",
-      "after": "%s: det går inte att skapa en ny socket: %s",
+      "after": "%s: det går inte att skapa en ny uttag: %s",
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
     },
     {
@@ -64743,7 +64743,7 @@
       "project": "tp:mailfromd-8.17.91",
       "msgid": "connect from socket %s",
       "before": "anslut från socket %s",
-      "after": "anslutning från socketen %s",
+      "after": "anslutning från uttaget %s",
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
     },
     {
@@ -64823,7 +64823,7 @@
       "project": "tp:mailfromd-8.17.91",
       "msgid": "%s: cannot stat socket: %s",
       "before": "%s: kan inte stat socket: %s",
-      "after": "%s: kan inte hämta status för socketen: %s",
+      "after": "%s: kan inte hämta status för uttaget: %s",
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
     },
     {
@@ -69095,7 +69095,7 @@
       "project": "tp:mailutils-3.20.93",
       "msgid": "In LMTP mode, listen on the given URL.  Valid URLs are:\n   tcp://<address: string>:<port: number> (note that port is mandatory)\n   file://<socket-file-name>\nor socket://<socket-file-name>",
       "before": "I LMTP-läget, lyssna på den angivna URL:en.  Giltiga URL:er är:\n   tcp://<adress: sträng>:<port: nummer> (observera att port är obligatorisk)\n   file://<uttagets-filnamn>\neller socket://<uttagets-filnamn>",
-      "after": "I LMTP-läge, lyssna på den angivna URL-adressen. Giltiga URL-adresser är:\n   tcp://<address: string>:<port: number> (observera att port är obligatorisk)\n   file://<socket-file-name>\neller socket://<socket-file-name>",
+      "after": "I LMTP-läge, lyssna på den angivna URL-adressen. Giltiga URL-adresser är:\n   tcp://<address: string>:<port: number> (observera att port är obligatorisk)\n   file://<socket-file-name>\neller uttag://<socket-file-name>",
       "reason": "Rättad svensk e-post-, Sieve- och dataströmsterminologi, inklusive data i stället för datum och bevarad kommandosyntax."
     },
     {
@@ -87035,6 +87035,1070 @@
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
     },
     {
+      "tp_id": "parted:1705",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "There's not enough room in the root directory for all of the files.  Either cancel, or ignore to lose the files.",
+      "before": "Det finns inte tillräckligt med utrymme för alla filer i rotkatalogen.  Välj antingen att avbryta, eller ignorera och förlora filerna.",
+      "after": "Det finns inte tillräckligt med utrymme för alla filer i rotkatalogen. Välj antingen Avbryt eller Ignorera för att förlora filerna.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1713",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "If you leave your file system as FAT16, then you will have no problems.",
+      "before": "Om du låter filsystemet fortsätta vara FAT16 så kommer du inte att få några problem.",
+      "after": "Om du lämnar filsystemet som FAT16 får du inga problem.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1717",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "If you convert to FAT16, and MS Windows is installed on this partition, then you must re-install the MS Windows boot loader.  If you want to do this, you should consult the Parted manual (or your distribution's manual).",
+      "before": "Om du konverterar till FAT16 och MS Windows är installerad på den här partitionen så måste du installera om MS Windows starthanterare.  Om du gör det bör du studera Parteds manual (eller din distributions manual).",
+      "after": "Om du konverterar till FAT16 och MS Windows är installerat på partitionen måste du installera om startladdaren för MS Windows. Läs Parteds handbok eller handboken för din distribution om du vill göra detta.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1721",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "If you leave your file system as FAT32, then you will not introduce any new problems.",
+      "before": "Om du låter filsystemet fortsätta vara FAT32 kommer du inte att introducera några nya problem.",
+      "after": "Om du lämnar filsystemet som FAT32 orsakar du inga nya problem.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1725",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "If you convert to FAT32, and MS Windows is installed on this partition, then you must re-install the MS Windows boot loader.  If you want to do this, you should consult the Parted manual (or your distribution's manual).  Also, converting to FAT32 will make the file system unreadable by MS DOS, MS Windows 95a, and MS Windows NT.",
+      "before": "Om du konverterar till FAT32 och MS Windows är installerad på den här partitionen måste du installera om MS Windows starthanterare.  Om du gör det bör du studera Parteds manual (eller din distributions manual).  Märk att genom att konvertera filsystemet till FAT32 kommer det inte att kunna läsas av MS DOS, MS Windows 95a och MS Windows NT.",
+      "after": "Om du konverterar till FAT32 och MS Windows är installerat på partitionen måste du installera om startladdaren för MS Windows. Läs Parteds handbok eller handboken för din distribution om du vill göra detta. Filsystemet kan inte längre läsas av MS DOS, MS Windows 95a och MS Windows NT efter en konvertering till FAT32.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1743",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "The file system can only be resized to this size by converting to FAT16.",
+      "before": "Filsystemet kan bara ändras till den här storleken genom att konvertera till FAT16.",
+      "after": "Filsystemet kan endast ändras till denna storlek genom konvertering till FAT16.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1747",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "The file system can only be resized to this size by converting to FAT32.",
+      "before": "Filsystemet kan bara ändras till den här storleken genom att konvertera till FAT32.",
+      "after": "Filsystemet kan endast ändras till denna storlek genom konvertering till FAT32.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1755",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "FAT %d media %x doesn't match the boot sector's media %x.  You should probably run scandisk.",
+      "before": "FAT %d media %x passar inte med startsektorns media %x.  Du bör antagligen köra scandisk.",
+      "after": "FAT %d-medietypen %x stämmer inte med medietypen %x i startsektorn. Du bör troligen köra scandisk.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1774",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Could not detect file system.",
+      "before": "Kunde inte hitta något filsystem.",
+      "after": "Kunde inte identifiera filsystemet.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1778",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "resizing %s file systems is not supported",
+      "before": "storleksändring av %s-filsystem stöds inte",
+      "after": "Det stöds inte att ändra storlek på %s-filsystem",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1783",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "The file system is bigger than its volume!",
+      "before": "Filsystemet är större än dess volym!",
+      "after": "Filsystemet är större än sin volym!",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1794",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Bad blocks could not be read.",
+      "before": "Felaktiga block kunde inte läsas.",
+      "after": "Kunde inte läsa felaktiga block.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1798",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Trying to register an extent starting at block 0x%X, but another one already exists at this position.  You should check the file system!",
+      "before": "Försöker att registrera en utsträckning som börjar på block 0x%X, men det finns redan en på denna position.  Du bör kontrollera filsystemet!",
+      "after": "Försöker registrera en utsträckning som börjar vid block 0x%X, men det finns redan en vid denna position. Kontrollera filsystemet!",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1803",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Trying to move an extent from block 0x%X to block 0x%X, but another one already exists at this position.  This should not happen!",
+      "before": "Försöker att flytta en utsträckning från block 0x%X till block 0x%X, men det finns redan en på denna position.  Detta bör inte inträffa!",
+      "after": "Försöker flytta en utsträckning från block 0x%X till block 0x%X, men det finns redan en vid denna position. Detta ska inte inträffa!",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1814",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Trying to read HFS file with CNID %X behind EOF.",
+      "before": "Försöker att läsa HFS-fil med CNID %X efter EOF.",
+      "after": "Försöker läsa HFS-filen med CNID %X efter filslutet.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1819",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Could not find sector %lli of HFS file with CNID %X.",
+      "before": "Kunde inte hitta sektor %lli för HFS-fil med CNID %X.",
+      "after": "Kunde inte hitta sektor %lli i HFS-filen med CNID %X.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1824",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Trying to write HFS file with CNID %X behind EOF.",
+      "before": "Försöker skriva HFS-fil med CNID %X efter EOF.",
+      "after": "Försöker skriva HFS-filen med CNID %X efter filslutet.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1829",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Could not update the extent cache for HFS+ file with CNID %X.",
+      "before": "Kunde inte uppdatera utsträckningscachen för HFS+-fil med CNID %X.",
+      "after": "Kunde inte uppdatera utsträckningscachen för HFS+-filen med CNID %X.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1834",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Trying to read HFS+ file with CNID %X behind EOF.",
+      "before": "Försöker att läsa HFS+-fil med CNID %X efter filslut.",
+      "after": "Försöker läsa HFS+-filen med CNID %X efter filslutet.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1839",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Could not find sector %lli of HFS+ file with CNID %X.",
+      "before": "Kunde inte hitta sektor %lli för HFS+-fil med CNID %X.",
+      "after": "Kunde inte hitta sektor %lli i HFS+-filen med CNID %X.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1844",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Trying to write HFS+ file with CNID %X behind EOF.",
+      "before": "Försöker att skriva HFS+-fil med CNID %X efter EOF.",
+      "after": "Försöker skriva HFS+-filen med CNID %X efter filslutet.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1849",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Sorry, HFS cannot be resized that way yet.",
+      "before": "Det går inte att ändra storlek på HFS än.",
+      "after": "HFS kan ännu inte ändras på den här sättet.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1853",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "shrinking",
+      "before": "minskar",
+      "after": "krymper",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1857",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Data relocation has failed.",
+      "before": "Dataomplacering misslyckades.",
+      "after": "Dataomlokalisering misslyckades.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1861",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Data relocation left some data in the end of the volume.",
+      "before": "Dataomplacering lämnade viss data på slutet av volymen.",
+      "after": "Dataomlokalisering lämnade kvar data i slutet av volymen.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1865",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "writing HFS Master Directory Block",
+      "before": "skriver HFS huvudkatalogblock",
+      "after": "skriver HFS-huvudkatalogblocket",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1869",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "No valid HFS[+X] signature has been found while opening.",
+      "before": "Ingen giltig HFS[+X]-signatur har hittats under öppningen.",
+      "after": "Ingen giltig HFS[+X]-signatur hittades vid öppning.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1883",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Data relocation left some data at the end of the volume.",
+      "before": "Omplacering av data lämnade viss data i slutet på volymen.",
+      "after": "Dataomlokalisering lämnade kvar data i slutet av volymen.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1895",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "writing HFS+ Volume Header",
+      "before": "skriver HFS+-volymhuvud",
+      "after": "skriver HFS+-volymhuvudet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1899",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "An error occurred while looking for the mandatory bad blocks file.",
+      "before": "Ett fel inträffade under sökning efter den obligatoriska filen med dåliga block.",
+      "after": "Fel vid sökning efter den obligatoriska filen med felaktiga block.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1903",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "It seems there is an error in the HFS wrapper: the bad blocks file doesn't contain the embedded HFS+ volume.",
+      "before": "Det verkar som om det finns ett fel i HFS-omslaget: filen med dåliga block innehåller inte den inbäddade HFS+-volymen.",
+      "after": "Det verkar finnas ett fel i HFS-omslaget: filen med felaktiga block innehåller inte den inbäddade HFS+-volymen.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1907",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Sorry, HFS+ cannot be resized that way yet.",
+      "before": "Det går inte att ändra storlek på HFS+ på det sättet än.",
+      "after": "HFS+ kan ännu inte ändras på det här sättet.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1911",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "shrinking embedded HFS+ volume",
+      "before": "minskar inbäddad HFS+-volym",
+      "after": "krymper den inbäddade HFS+-volymen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1915",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Resizing the HFS+ volume has failed.",
+      "before": "Storleksändring av HFS+-volymen misslyckades.",
+      "after": "Det gick inte att ändra storleken på HFS+-volymen.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1919",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "shrinking HFS wrapper",
+      "before": "minskar HFS-omslut",
+      "after": "krymper HFS-omslaget",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1923",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Updating the HFS wrapper has failed.",
+      "before": "Uppdatering av HFS-omslutet har misslyckats.",
+      "after": "Det gick inte att uppdatera HFS-omslaget.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1927",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "This is not a real %s check.  This is going to extract special low level files for debugging purposes.",
+      "before": "Detta är inte en riktig %s-kontroll.  Detta kommer att extrahera speciella lågnivåfiler för felsökningsmöjligheter.",
+      "after": "Detta är inte en riktig %s-kontroll. Särskilda lågnivåfiler extraheras för felsökning.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1932",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Bad block list header checksum.",
+      "before": "Kontrollsumma för lista över dåliga block.",
+      "after": "Felaktig kontrollsumma i listans huvud för felaktiga block.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1936",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Invalid size of a transaction block while replaying the journal (%i bytes).",
+      "before": "Ogiltig storlek för transaktionsblock vid återuppspelning av journalen (%i byte).",
+      "after": "Ogiltig storlek på ett transaktionsblock vid återuppspelning av journalen (%i byte).",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1941",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Journal stored outside of the volume are not supported.  Try to deactivate the journal and run Parted again.",
+      "before": "Att lagra journalen utanför volymen stöds inte.  Försök att inaktivera journalen och kör Parted igen.",
+      "after": "Journaler som lagras utanför volymen stöds inte. Inaktivera journalen och kör Parted igen.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1945",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Journal offset or size is not multiple of the sector size.",
+      "before": "Journalposition eller storlek är inte en multipel av sektorstorleken.",
+      "after": "Journalens förskjutning eller storlek är inte en multipel av sektorstorleken.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1953",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Journal size mismatch between journal info block and journal header.",
+      "before": "Journalstorleken skiljer sig mellan journalinfoblocket och journalhuvudet.",
+      "after": "Journalstorleken stämmer inte mellan journalinfoblocket och journalhuvudet.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1957",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Some header fields are not multiple of the sector size.",
+      "before": "Vissa huvudfält är inte en multipel av sektorstorleken.",
+      "after": "Vissa huvudfält är inte multiplar av sektorstorleken.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1969",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "The journal is not empty.  Parted must replay the transactions before opening the file system.  This will modify the file system.",
+      "before": "Journalen är inte tom.  Parted måste spela upp transaktionerna före det öppnar filsystemet.  Detta kommer att modifiera filsystemet.",
+      "after": "Journalen är inte tom. Parted måste spela upp transaktionerna innan filsystemet öppnas. Detta ändrar filsystemet.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1973",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "The volume header or the master directory block has changed while replaying the journal.  You should restart Parted.",
+      "before": "Volymhuvudet eller huvudkatalogblocket har ändrats under återuppspelning av journalen.  Du bör starta om Parted.",
+      "after": "Volymhuvudet eller huvudkatalogblocket ändrades under återuppspelning av journalen. Starta om Parted.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1977",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "An extent has not been relocated.",
+      "before": "En utsträckning har inte omplacerats.",
+      "after": "En utsträckning har inte omlokaliserats.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1981",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "A reference to an extent comes from a place it should not.  You should check the file system!",
+      "before": "En referens till en utsträckning kommer från en plats den inte borde.  Du bör kontrollera filsystemet!",
+      "after": "En referens till en utsträckning kommer från en plats där den inte borde komma. Kontrollera filsystemet!",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1989",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "This HFS volume has no extents overflow file.  This is quite unusual!",
+      "before": "Denna HFS-volym har ingen överspillsfil för utsträckningar.  Detta är väldigt ovanligt!",
+      "after": "Denna HFS-volym saknar en spillfil för utsträckningar. Detta är ganska ovanligt!",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:1993",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "The extents overflow file should not contain its own extents!  You should check the file system.",
+      "before": "Överspillsfilen för utsträckningar bör inte innehålla sina egna utsträckningar!  Du bör kontrollera filsystemet.",
+      "after": "Spillfilen för utsträckningar bör inte innehålla sina egna utsträckningar! Kontrollera filsystemet.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2005",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "An error occurred during extent relocation.",
+      "before": "Ett fel inträffade under omplacering av utsträckningar.",
+      "after": "Ett fel uppstod under omlokalisering av utsträckningar.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2009",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "This HFS+ volume has no catalog file.  This is very unusual!",
+      "before": "Denna HFS+-volym har ingen katalogfil.  Detta är väldigt ovanligt!",
+      "after": "Denna HFS+-volym saknar en katalogfil. Detta är mycket ovanligt!",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2013",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "This HFS+ volume has no extents overflow file.  This is quite unusual!",
+      "before": "Denna HFS+-volym har ingen överspillsfil för utsträckningar.  Detta är väldigt ovanligt!",
+      "after": "Denna HFS+-volym saknar en spillfil för utsträckningar. Detta är ganska ovanligt!",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2021",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "lists partition layout on all block devices",
+      "before": "listar partitionslayout för alla blockenheter",
+      "after": "listar partitionslayouten på alla blockenheter",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2025",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "displays machine parseable output",
+      "before": "visar utskriften som maskintolkningsbar",
+      "after": "visar maskintolkningsbara utdata",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2033",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "never prompts for user intervention",
+      "before": "frågar aldrig användaren om alternativ",
+      "after": "frågar aldrig efter användaråtgärd",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2037",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "in script mode, fix instead of abort when asked",
+      "before": "i skriptläge, fixa istället för att avbryta när du tillfrågas",
+      "after": "i skriptläge, åtgärda i stället för att avbryta när en fråga ställs",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2049",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "NUMBER is the partition number used by Linux.  On MS-DOS disk labels, the primary partitions number from 1 to 4, logical partitions from 5 onwards.\n",
+      "before": "NUMMER är partitionsnumret som Linux använder.  På disketiketter av typen MS-DOS är de primära partitionerna numrerade från 1 till 4, och de logiska partitionerna från 5 och uppåt.\n",
+      "after": "NUMBER är det partitionsnummer som Linux använder. På MS-DOS-disketiketter numreras de primära partitionerna från 1 till 4 och de logiska från 5 och uppåt.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2053",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "LABEL-TYPE is one of: ",
+      "before": "PART-TYP är en av: ",
+      "after": "LABEL-TYPE är ett av: ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2057",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "FLAG is one of: ",
+      "before": "FLAGGA är en av: ",
+      "after": "FLAG är ett av: ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2061",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "UNIT is one of: ",
+      "before": "ENHET är en av: ",
+      "after": "UNIT är ett av: ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2069",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "PART-TYPE is one of: primary, logical, extended\n",
+      "before": "PART-TYP är en av: primär, logisk, utökad\n",
+      "after": "PART-TYPE är ett av: primary, logical, extended\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2073",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "FS-TYPE is one of: ",
+      "before": "FS-TYP är en av: ",
+      "after": "FS-TYPE är ett av: ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2077",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "START and END are disk locations, such as 4GB or 10%.  Negative values count from the end of the disk.  For example, -1s specifies exactly the last sector.\n",
+      "before": "BÖRJAN och SLUT är platser på disken, såsom 4GB eller 10%.  Negativa värden räknas från slutet på disken.  Till exempel, -1s anger exakt den sista sektorn.\n",
+      "after": "START och END är platser på disken, till exempel 4GB eller 10%. Negativa värden räknas från slutet av disken. Till exempel anger -1s exakt den sista sektorn.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2081",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "END is disk location, such as 4GB or 10%.  Negative value counts from the end of the disk.  For example, -1s specifies exactly the last sector.\n",
+      "before": "SLUT är en plats på disken, såsom 4GB eller 10%.  Negativa värden räknas från slutet på disken.  Till exempel, -1s anger exakt den sista sektorn.\n",
+      "after": "END är en plats på disken, till exempel 4GB eller 10%. Ett negativt värde räknas från slutet av disken. Till exempel anger -1s exakt den sista sektorn.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2085",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "STATE is one of: on, off\n",
+      "before": "TILLSTÅND är ett av: på, av\n",
+      "after": "STATE är ett av: on, off\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2089",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "DEVICE is usually /dev/hda or /dev/sda\n",
+      "before": "ENHET är vanligen /dev/hda eller /dev/sda\n",
+      "after": "DEVICE är vanligen /dev/hda eller /dev/sda\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2093",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "NAME is any word you want\n",
+      "before": "NAMN är vilket ord du vill\n",
+      "after": "NAME är ett valfritt ord\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2130",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Partition %s is being used. Are you sure you want to continue?",
+      "before": "Partitionen %s används.  Är du säker på att du vill fortsätta?",
+      "after": "Partitionen %s används. Är du säker på att du vill fortsätta?",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2135",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Partition(s) on %s are being used.",
+      "before": "Partitionen på %s är i bruk.",
+      "after": "Partitionerna på %s används.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2140",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "The existing disk label on %s will be destroyed and all data on this disk will be lost. Do you want to continue?",
+      "before": "Den befintliga disketiketten på %s kommer att förstöras och all data på denna disk kommer att gå förlorad.  Vill du fortsätta?",
+      "after": "Den befintliga disketiketten på %s förstörs och alla data på disken går förlorade. Vill du fortsätta?",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2169",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "You requested a partition from %s to %s (sectors %llu..%llu).\nThe closest location we can manage is %s to %s (sectors %llu..%llu).%s",
+      "before": "Du begärde en partition från %s till %s (sektorerna %llu..%llu).\nDen närmsta platsen vi kan hantera är %s till %s (sektorerna %llu..%llu).%s",
+      "after": "Du begärde en partition från %s till %s (sektorerna %llu..%llu).\nDen närmaste platsen vi kan hantera är %s till %s (sektorerna %llu..%llu).%s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2186",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "The resulting partition is not properly aligned for best performance: %s",
+      "before": "Den resulterande partitionen är inte korrekt justerad för bästa prestanda: %s",
+      "after": "Den resulterande partitionen är inte tillräckligt justerad för bästa prestanda: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2191",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "unknown (malloc failed)",
+      "before": "okänd (malloc misslyckades)",
+      "after": "okänd (malloc() misslyckades)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2226",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "BIOS cylinder,head,sector geometry: %d,%d,%d.  Each cylinder is %s.\n",
+      "before": "BIOS-geometri för cylinder,huvud,sektor: %d,%d,%d.  Varje cylinder är %s.\n",
+      "after": "BIOS-geometri för cylinder, huvud och sektor: %d,%d,%d. Varje cylinder är %s.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2301",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "The resize command has been removed in parted 3.0",
+      "before": "Kommandot ändra_storlek har tagits bort i parted 3.0",
+      "after": "Kommandot resize har tagits bort i parted 3.0",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2305",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Shrinking a partition can cause data loss, are you sure you want to continue?",
+      "before": "Att minska storlek för en partition kan orsaka dataförlust, är du säker på att du vill fortsätta?",
+      "after": "Att minska storleken på en partition kan orsaka dataförlust. Är du säker på att du vill fortsätta?",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2313",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "alignment type(min/opt)",
+      "before": "justeringstyp(min/opt)",
+      "after": "justeringstyp (min/opt)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2322",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "%d not aligned: %s\n",
+      "before": "%d inte justerad: %s\n",
+      "after": "%d är inte justerad: %s\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2339",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "align-check",
+      "before": "justeringskontroll",
+      "after": "align-check",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2343",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "align-check TYPE N                       check partition N for TYPE(min|opt) alignment",
+      "before": "justeringskontroll TYP N                 kontrollera TYP(min|opt)-justering för partition N",
+      "after": "align-check TYPE N                       kontrollera justeringen TYPE(min|opt) för partition N",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2351",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "help [COMMAND]                           print general help, or help on COMMAND",
+      "before": "hjälp [KOMMANDO]                         skriver ut allmän hjälp eller hjälp för KOMMANDO",
+      "after": "help [COMMAND]                           skriv ut allmän hjälp eller hjälp för COMMAND",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2363",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "mklabel,mktable LABEL-TYPE               create a new disklabel (partition table)",
+      "before": "mklabel,mktable ETIKETT-TYP              skapa en ny disketikett (partitionstabell)",
+      "after": "mklabel,mktable LABEL-TYPE               skapa en ny disketikett (partitionstabell)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2371",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "mkpart PART-TYPE [FS-TYPE] START END     make a partition",
+      "before": "mkpart PART-TYP [FS-TYP] BÖRJAN SLUT     skapa en partition",
+      "after": "mkpart PART-TYPE [FS-TYPE] START END     skapa en partition",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2375",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "'mkpart' makes a partition without creating a new file system on the partition.  FS-TYPE may be specified to set an appropriate partition ID.\n",
+      "before": "\"mkpart\" skapar en partition utan att skapa ett nytt filsystem på partitionen.  FS-TYP måste anges för att ställa in ett lämpligt partitions-id.\n",
+      "after": "”mkpart” skapar en partition utan att skapa ett nytt filsystem på partitionen. FS-TYPE kan anges för att ange ett lämpligt partitions-ID.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2383",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "name NUMBER NAME                         name partition NUMBER as NAME",
+      "before": "namn NUMMER NAMN                         ge namnet NAMN till partition NUMMER",
+      "after": "name NUMBER NAME                         ge partitionen NUMBER namnet NAME",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2387",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "print",
+      "before": "visa",
+      "after": "print",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2395",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Without arguments, 'print' displays the entire partition table. However with the following arguments it performs various other actions.\n",
+      "before": "Utan argument så skriver \"visa\" ut hela partitionstabellen.  Dock kan diverse andra åtgärder genomföras med följande argument.\n",
+      "after": "Utan argument visar ”print” hela partitionstabellen. Med följande argument utför det däremot olika andra åtgärder.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2411",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "quit",
+      "before": "avsluta",
+      "after": "quit",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2415",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "quit                                     exit program",
+      "before": "avsluta                                  avsluta programmet",
+      "after": "quit                                     avsluta programmet",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2419",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "rescue",
+      "before": "rädda",
+      "after": "rescue",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2423",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "rescue START END                         rescue a lost partition near START and END",
+      "before": "rädda BÖRJAN SLUT                        rädda en förlorad partition nära BÖRJAN och SLUT",
+      "after": "rescue START END                         rädda en förlorad partition nära START och END",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2427",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "resize",
+      "before": "ändra_storlek",
+      "after": "resize",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2431",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "The resize command was removed in parted 3.0\n",
+      "before": "Kommandot ändra_storlek har tagits bort i parted 3.0\n",
+      "after": "Kommandot resize har tagits bort i parted 3.0\n",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2435",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "resizepart",
+      "before": "ändra_partstorlek",
+      "after": "resizepart",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2439",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "resizepart NUMBER END                    resize partition NUMBER",
+      "before": "ändra_partstorlek NUMMER SLUT            ändra storlek för partition NUMMER",
+      "after": "resizepart NUMBER END                    ändra storleken på partition NUMBER",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2443",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "rm",
+      "before": "ta_bort",
+      "after": "rm",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2447",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "rm NUMBER                                delete partition NUMBER",
+      "before": "ta_bort NUMMER                           ta bort partition NUMMER",
+      "after": "rm NUMBER                                ta bort partition NUMBER",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2451",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "select",
+      "before": "välj",
+      "after": "select",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2455",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "select DEVICE                            choose the device to edit",
+      "before": "välj ENHET                               välj enheten att redigera",
+      "after": "select DEVICE                            välj enheten som ska redigeras",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2459",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "disk_set",
+      "before": "disk_inställning",
+      "after": "disk_set",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2463",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "disk_set FLAG STATE                      change the FLAG on selected device",
+      "before": "disk_inställning FLAGGA TILLSTÅND        ändra FLAGGA för vald enhet",
+      "after": "disk_set FLAG STATE                      ändra FLAG på den valda enheten",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2467",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "disk_toggle",
+      "before": "disk_växla",
+      "after": "disk_toggle",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2471",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "disk_toggle [FLAG]                       toggle the state of FLAG on selected device",
+      "before": "disk_växla [FLAGGA]                      växla tillståndet för FLAGGA på vald enhet",
+      "after": "disk_toggle [FLAG]                       växla tillståndet för FLAG på den valda enheten",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2475",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "set",
+      "before": "ställ_in",
+      "after": "set",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2479",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "set NUMBER FLAG STATE                    change the FLAG on partition NUMBER",
+      "before": "ställ_in NUMMER FLAGGA TILLSTÅND         ändra FLAGGAn på partition NUMMER",
+      "after": "set NUMBER FLAG STATE                    ändra FLAG på partition NUMBER",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2483",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "toggle",
+      "before": "växla",
+      "after": "toggle",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2487",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "toggle [NUMBER [FLAG]]                   toggle the state of FLAG on partition NUMBER",
+      "before": "växla [NUMMER [FLAGGA]]                  växla tillståndet för FLAGGA på partition NUMMER",
+      "after": "toggle [NUMBER [FLAG]]                   växla tillståndet för FLAG på partition NUMBER",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2499",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "unit",
+      "before": "enhet",
+      "after": "unit",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2503",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "unit UNIT                                set the default unit to UNIT",
+      "before": "enhet ENHET                              ställ in standardenheten till ENHET",
+      "after": "unit UNIT                                ange standardenheten UNIT",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2515",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "'version' displays copyright and version information corresponding to this copy of GNU Parted\n",
+      "before": "\"version\" visar information om version och upphovsrätt för denna kopia av GNU Parted\n",
+      "after": "”version” visar information om version och upphovsrätt för denna kopia av GNU Parted\n",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2519",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Usage: %s [-hlmsfv] [-a<align>] [DEVICE [COMMAND [PARAMETERS]]...]\n",
+      "before": "Användning: %s [-hlmsfv] [-a<justering>] [ENHET [KOMMANDO [PARAMETRAR]]…]\n",
+      "after": "Användning: %s [-hlmsfv] [-a<align>] [DEVICE [COMMAND [PARAMETERS]]...]\n",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2528",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "WARNING: You are not superuser.  Watch out for permissions.\n",
+      "before": "VARNING: Du är inte superanvändare.  Se upp för rättighetsproblem.\n",
+      "after": "VARNING: Du är inte superanvändare. Var uppmärksam på behörigheter.\n",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2532",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "You should reinstall your boot loader before rebooting.  Read section 4 of the Parted User documentation for more information.",
+      "before": "Du bör installera om startprogrammet innan du startar om.  Läs avsnitt fyra i Parteds användardokumentation för mer information.",
+      "after": "Installera om startladdaren innan du startar om. Läs avsnitt 4 i Parteds användardokumentation för mer information.",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2536",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "You may need to update /etc/fstab.\n",
+      "before": "Du kan behöva att uppdatera /etc/fstab.\n",
+      "after": "Du kan behöva uppdatera /etc/fstab.\n",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2540",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Welcome to GNU Parted! Type 'help' to view a list of commands.\n",
+      "before": "Välkommen till GNU Parted! Skriv \"hjälp\" för att visa en lista över kommandon.\n",
+      "after": "Välkommen till GNU Parted! Skriv ”help” för att visa en lista med kommandon.\n",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2544",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Usage: parted [OPTION]... [DEVICE [COMMAND [PARAMETERS]...]...]\nApply COMMANDs with PARAMETERS to DEVICE.  If no COMMAND(s) are given, run in\ninteractive mode.\n",
+      "before": "Användning: parted [FLAGGA]... [ENHET [KOMMANDO [PARAMETRAR]...]...]\nTillämpa KOMMANDOn med PARAMETRAR på ENHET.  Om inga KOMMANDO(n) anges\nkörs programmet i interaktivt läge.\n",
+      "after": "Användning: parted [OPTION]... [DEVICE [COMMAND [PARAMETERS]...]...]\nTillämpa COMMAND med PARAMETERS på DEVICE. Om inga COMMAND anges\nkörs programmet i interaktivt läge.\n",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2554",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "\n\nYou found a bug in GNU Parted! Here's what you have to do:\n\nDon't panic! The bug has most likely not affected any of your data.\nHelp us to fix this bug by doing the following:\n\nCheck whether the bug has already been fixed by checking\nthe last version of GNU Parted that you can find at:\n\n\thttp://ftp.gnu.org/gnu/parted/\n\nPlease check this version prior to bug reporting.\n\nIf this has not been fixed yet or if you don't know how to check,\nplease visit the GNU Parted website:\n\n\thttp://www.gnu.org/software/parted\n\nfor further information.\n\nYour report should contain the version of this release (%s)\nalong with the error message below, the output of\n\n\tparted DEVICE unit co print unit s print\n\nand the following history of commands you entered.\nAlso include any additional information about your setup you\nconsider important.\n",
+      "before": "\n\nDu har hittat ett fel i GNU Parted! Det här behöver du göra:\n\nFå inte panik! Felet har antagligen inte påverkat något av ditt data.\nHjälp oss att rätta till detta fel genom att göra följande:\n\nKontrollera huruvida felet redan har rättats till genom att kontrollera\nden senaste versionen av GNU Parted som du kan hitta på:\n\n\thttp://ftp.gnu.org/gnu/parted/\n\nKontrollera med denna version innan du rapporterar felet.\n\nOm det inte har rättats till än, eller om du inte vet hur du ska\nkontrollera det, så besök webbsidan för GNU Parted:\n\n\thttp://www.gnu.org/software/parted\n\nför ytterligare information.\n\nDin rapport bör innehålla versionsnumret för denna utgåva (%s)\ntillsammans med felmeddelandet nedan samt utskriften från\n\n\tparted ENHET unit co print unit s print\n\noch följande kommandohistorik som du angav.\nInkludera även ytterligare information om din konfiguration som\ndu anser vara viktigt att veta.\n",
+      "after": "\n\nDu har hittat ett fel i GNU Parted! Gör så här:\n\nFå inte panik! Felet har troligen inte påverkat några av dina data.\nHjälp oss att rätta felet genom att göra följande:\n\nKontrollera om felet redan har rättats genom att kontrollera\nden senaste versionen av GNU Parted på:\n\n\thttp://ftp.gnu.org/gnu/parted/\n\nKontrollera denna version innan du rapporterar felet.\n\nOm felet inte har rättats, eller om du inte vet hur du kontrollerar det,\nbesök GNU Parteds webbplats:\n\n\thttp://www.gnu.org/software/parted\n\nför mer information.\n\nRapporten bör innehålla versionsnumret för denna utgåva (%s),\nfelmeddelandet nedan, utdata från\n\n\tparted DEVICE unit co print unit s print\n\noch följande kommandohistorik.\nTa även med ytterligare information om konfigurationen som\ndu anser vara viktig.\n",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2641",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "\nError: A general SIGSEGV signal was encountered.\n",
+      "before": "\nFel: En allmän SIGSEGV-signal påträffades.\n",
+      "after": "\nFel: En allmän SIGSEGV-signal togs emot.\n",
+      "reason": "Återställd kommandosyntax och korrigerat språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2713",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "\nError: A general SIGFPE signal was encountered.",
+      "before": "\nFel: A general SIGFPE signal was encountered.",
+      "after": "\nFel: En allmän SIGFPE-signal togs emot.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2785",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "\nError: A general SIGILL signal was encountered.",
+      "before": "\nFel: En allmän SIGILL-signal påträffades.",
+      "after": "\nFel: En allmän SIGILL-signal togs emot.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2793",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "invalid token: %s",
+      "before": "ogiltigt token: %s",
+      "after": "ogiltig symbol: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2798",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Expecting a partition number.",
+      "before": "Förväntade ett partitionsnummer.",
+      "after": "Ett partitionsnummer förväntades.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2806",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Expecting a file system type.",
+      "before": "Förväntade en filsystemstyp.",
+      "after": "En filsystemstyp förväntades.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2815",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Expecting a disk label type.",
+      "before": "Förväntade en typ av disketikett.",
+      "after": "En disketikettyp förväntades.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2827",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "Expecting a partition type.",
+      "before": "Förväntade en partitionstyp.",
+      "after": "En partitionstyp förväntades.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2855",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "\nReport bugs to %s\n",
+      "before": "\nRapportera fel till: %s\nSkicka synpunkter på översättningen till <tp-sv@listor.tp-sv.se>\n",
+      "after": "\nRapportera fel till %s\nRapportera fel i översättningen till <tp-sv@listor.tp-sv.se>\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "parted:2870",
+      "project": "tp:parted-3.4.64.2",
+      "msgid": "This command does not make sense in non-interactive mode.\n",
+      "before": "Detta kommando är meningslöst i icke-interaktivt läge.\n",
+      "after": "Detta kommando kan inte användas i icke-interaktivt läge.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:22",
+      "project": "tp:pies-1.9",
+      "msgid": "socket name too long: %s",
+      "before": "uttagsnamn är för långt: %s",
+      "after": "uttagsnamnet är för långt: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:27",
+      "project": "tp:pies-1.9",
+      "msgid": "cannot resolve host name: %s",
+      "before": "det går inte att slå upp värdnamn: %s",
+      "after": "kan inte slå upp värdnamnet: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:37",
+      "project": "tp:pies-1.9",
+      "msgid": "expected \"from\", but found list",
+      "before": "förväntade \"from\", men hittade lista",
+      "after": "förväntade ”from”, men hittade en lista",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:41",
+      "project": "tp:pies-1.9",
+      "msgid": "expected \"from\", but found \"%s\"",
+      "before": "förväntade \"from\", men hittade \"%s\"",
+      "after": "förväntade ”from”, men hittade ”%s”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:46",
+      "project": "tp:pies-1.9",
+      "msgid": "unexpected end of statement after \"from\"",
+      "before": "oväntat slut på sats efter \"from\"",
+      "after": "oväntat satsslut efter ”from”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:50",
+      "project": "tp:pies-1.9",
+      "msgid": "junk after from-list",
+      "before": "skräp efter from-lista",
+      "after": "skräp efter from-listan",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
       "tp_id": "diffutils:476",
       "project": "tp:diffutils-3.10.242",
       "msgid": "failed to reopen %s with mode %s",
@@ -102751,7 +103815,7 @@
       "project": "tp:fetchmail-6.6.0.rc3",
       "msgid": "cannot create socket: %s\n",
       "before": "kan inte skapa uttag: %s\n",
-      "after": "kan inte skapa socket: %s\n",
+      "after": "kan inte skapa uttag: %s\n",
       "reason": "Språk- och terminologigranskning av Fetchmail"
     },
     {
