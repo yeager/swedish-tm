@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 58865,
+  "reviewed_tp_entries": 59797,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 14826,
+  "changed_pairs": 15105,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 14826,
+      "confirmed_swedish_changes": 15105,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "d82f12baa63f78dbc22f5b877636e8f243237eb6debefce6d99bd0cc12767385"
+      "sha256": "8ef539bb90d6306fd284b8c6403f6e908318bfe4bb13ea70783b3fdc26dde718"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 14826,
+      "confirmed_swedish_changes": 15105,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "62e40743dd12b3bd8bacc2f3871d5b13e91b60eef9205a95d67b695f1f979262"
+      "sha256": "4693143bb2541d0d36e6ef6d879632e9e9dd26a6f87fdad16278621276be9258"
     }
   },
   "unmapped_plural_fixes": [
@@ -118693,6 +118693,2238 @@
       "before": "servercertifikat har inte en känd utgivare",
       "after": "servercertifikatet har ingen känd utfärdare",
       "reason": "Språk- och terminologigranskning av GRUB och GSASL"
+    },
+    {
+      "tp_id": "gsasl:426",
+      "project": "tp:gsasl-2.2.0",
+      "msgid": "Enter base64 authentication data from client (press RET if none):\n",
+      "before": "Mata in base64-autentiseringsdata från klient (finns inget data, tryck RETUR):\n",
+      "after": "Ange Base64-kodade autentiseringsdata från klienten (tryck Retur om inga finns):\n",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gsasl:431",
+      "project": "tp:gsasl-2.2.0",
+      "msgid": "Enter base64 authentication data from server (press RET if none):\n",
+      "before": "Mata in base64 autentiseringsdata från server (finns inget data, tryck RETUR):\n",
+      "after": "Ange Base64-kodade autentiseringsdata från servern (tryck Retur om inga finns):\n",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gsasl:446",
+      "project": "tp:gsasl-2.2.0",
+      "msgid": "Server authentication finished (client trusted)...\n",
+      "before": "Serverautentisering avslutad (klient betrodd)...\n",
+      "after": "Serverautentiseringen är klar (klienten är betrodd) ...\n",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gsasl:451",
+      "project": "tp:gsasl-2.2.0",
+      "msgid": "Client authentication finished (server trusted)...\n",
+      "before": "Klientautentisering avslutad (server betrodd)...\n",
+      "after": "Klientautentiseringen är klar (servern är betrodd) ...\n",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gsasl:456",
+      "project": "tp:gsasl-2.2.0",
+      "msgid": "Enter application data (EOF to finish):\n",
+      "before": "Mata in applikationsdata (EOF för att avsluta):\n",
+      "after": "Ange applikationsdata (EOF för att avsluta):\n",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gsasl:476",
+      "project": "tp:gsasl-2.2.0",
+      "msgid": "Session finished...\n",
+      "before": "Session avslutad...\n",
+      "after": "Sessionen är avslutad ...\n",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gsasl:481",
+      "project": "tp:gsasl-2.2.0",
+      "msgid": "terminating GnuTLS session failed: %s",
+      "before": "terminering av GnuTLS-session misslyckades: %s",
+      "after": "avslutning av GnuTLS-sessionen misslyckades: %s",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gsasl:486",
+      "project": "tp:gsasl-2.2.0",
+      "msgid": "warning: server did not return a token\n",
+      "before": "varning: server returnerade inte en symbol\n",
+      "after": "varning: servern returnerade ingen token\n",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:24",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Kerberos V5 GSS-API mechanism",
+      "before": "Kerberos V5 GSS-API mekanism",
+      "after": "Kerberos V5 GSS-API-mekanism",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:28",
+      "project": "tp:gss-1.0.1",
+      "msgid": "A required input parameter could not be read",
+      "before": "Nödvändig indata kunde ej läsas",
+      "after": "En nödvändig indataparameter kunde inte läsas",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:32",
+      "project": "tp:gss-1.0.1",
+      "msgid": "A required output parameter could not be written",
+      "before": "Nödvändig utdata kunde ej skrivas",
+      "after": "En nödvändig utdataparameter kunde inte skrivas",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:36",
+      "project": "tp:gss-1.0.1",
+      "msgid": "A parameter was malformed",
+      "before": "Parameter felaktig",
+      "after": "En parameter var felaktigt formaterad",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:40",
+      "project": "tp:gss-1.0.1",
+      "msgid": "An unsupported mechanism was requested",
+      "before": "Efterfrågad mekanism stöds ej",
+      "after": "En mekanism som inte stöds begärdes",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:44",
+      "project": "tp:gss-1.0.1",
+      "msgid": "An invalid name was supplied",
+      "before": "Felaktigt namn angiven",
+      "after": "Ett ogiltigt namn angavs",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:48",
+      "project": "tp:gss-1.0.1",
+      "msgid": "A supplied name was of an unsupported type",
+      "before": "Typen på angivet namn stöds ej",
+      "after": "Ett angivet namn hade en typ som inte stöds",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:52",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Incorrect channel bindings were supplied",
+      "before": "Ogiltig kanalbindning angiven",
+      "after": "Felaktig kanalbindning angavs",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:56",
+      "project": "tp:gss-1.0.1",
+      "msgid": "An invalid status code was supplied",
+      "before": "Felaktig statuskod angiven",
+      "after": "En ogiltig statuskod angavs",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:60",
+      "project": "tp:gss-1.0.1",
+      "msgid": "A token had an invalid MIC",
+      "before": "Meddelande har felaktig integritetskontroll",
+      "after": "En token hade en ogiltig MIC",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:64",
+      "project": "tp:gss-1.0.1",
+      "msgid": "No credentials were supplied, or the credentials were unavailable or inaccessible",
+      "before": "Ingen credential tillgänglig, eller så var angiven credential otillgänglig",
+      "after": "Inga autentiseringsuppgifter angavs, eller så var de otillgängliga eller oåtkomliga",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:72",
+      "project": "tp:gss-1.0.1",
+      "msgid": "A token was invalid",
+      "before": "Meddelande felaktig",
+      "after": "En token var ogiltig",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:76",
+      "project": "tp:gss-1.0.1",
+      "msgid": "A credential was invalid",
+      "before": "Credential felaktig",
+      "after": "Autentiseringsuppgifterna var ogiltiga",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:80",
+      "project": "tp:gss-1.0.1",
+      "msgid": "The referenced credentials have expired",
+      "before": "Angiven credential har gått ut",
+      "after": "De angivna autentiseringsuppgifterna har gått ut",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:92",
+      "project": "tp:gss-1.0.1",
+      "msgid": "The quality-of-protection requested could not be provided",
+      "before": "Efterfrågad skyddsnivå kan inte tillhandahållas",
+      "after": "Den begärda skyddsnivån kunde inte tillhandahållas",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:96",
+      "project": "tp:gss-1.0.1",
+      "msgid": "The operation is forbidden by local security policy",
+      "before": "Funktionen förbjuden av lokal säkerhetspolicy",
+      "after": "Åtgärden förbjuds av lokal säkerhetspolicy",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:100",
+      "project": "tp:gss-1.0.1",
+      "msgid": "The operation or option is unavailable",
+      "before": "Funktion eller parameter är inte tillgänglig",
+      "after": "Åtgärden eller flaggan är inte tillgänglig",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:104",
+      "project": "tp:gss-1.0.1",
+      "msgid": "The requested credential element already exists",
+      "before": "Efterfrågad credential existerar redan",
+      "after": "Det begärda autentiseringsuppgiftselementet finns redan",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:108",
+      "project": "tp:gss-1.0.1",
+      "msgid": "The provided name was not a mechanism name",
+      "before": "Givet namn är inte ett mekanism-namn",
+      "after": "Det angivna namnet var inte ett mekanismnamn",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:116",
+      "project": "tp:gss-1.0.1",
+      "msgid": "The token was a duplicate of an earlier token",
+      "before": "Meddelandet är en dubblett",
+      "after": "Token är en dubblett av en tidigare token",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:120",
+      "project": "tp:gss-1.0.1",
+      "msgid": "The token's validity period has expired",
+      "before": "Meddelandets giltighetstid har gått ut",
+      "after": "Tokenens giltighetstid har gått ut",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:124",
+      "project": "tp:gss-1.0.1",
+      "msgid": "A later token has already been processed",
+      "before": "Senare meddelande redan behandlat",
+      "after": "En senare token har redan bearbetats",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:128",
+      "project": "tp:gss-1.0.1",
+      "msgid": "An expected per-message token was not received",
+      "before": "Tidigare meddelande inte mottaget",
+      "after": "En förväntad token per meddelande togs inte emot",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:136",
+      "project": "tp:gss-1.0.1",
+      "msgid": "No @ in SERVICE-NAME name string",
+      "before": "Tecknet @ saknas i SERVICE-NAME namnsträng",
+      "after": "@ saknas i namnsträngen SERVICE-NAME",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:140",
+      "project": "tp:gss-1.0.1",
+      "msgid": "STRING-UID-NAME contains nondigits",
+      "before": "STRING-UID-NAME innehåller ickesiffror",
+      "after": "STRING-UID-NAME innehåller andra tecken än siffror",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:152",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Couldn't allocate gss_buffer_t data",
+      "before": "Kan inte allokera gss_buffer_t data",
+      "after": "Kunde inte allokera gss_buffer_t-data",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:156",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Message context invalid",
+      "before": "Ogiltig Meddelandekontext",
+      "after": "Meddelandekontexten är ogiltig",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:160",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Buffer is the wrong size",
+      "before": "Buffer har fel storlek",
+      "after": "Bufferten har fel storlek",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:164",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Credential usage type is unknown",
+      "before": "Credential har okänd typ",
+      "after": "Autentiseringsuppgifterna har okänd användningstyp",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:168",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Unknown quality of protection specified",
+      "before": "Okänd skyddsnivå begärd",
+      "after": "En okänd skyddsnivå angavs",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:172",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Principal in credential cache does not match desired name",
+      "before": "Namn på credential matchar inte begärt namn",
+      "after": "Huvudmannen i cachen för autentiseringsuppgifter matchar inte det önskade namnet",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:176",
+      "project": "tp:gss-1.0.1",
+      "msgid": "No principal in keytab matches desired name",
+      "before": "Inget namn i nyckelfil matchar begärt namn",
+      "after": "Ingen huvudman i keytab matchar det önskade namnet",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:180",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Credential cache has no TGT",
+      "before": "Credential-cache har ingen TGT",
+      "after": "Cachen för autentiseringsuppgifter saknar TGT",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:184",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Authenticator has no subkey",
+      "before": "Autenticerare har ingen nyckel",
+      "after": "Autentiseraren saknar undernyckel",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:188",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Context is already fully established",
+      "before": "Ingen säkerhetskontext har upprättats",
+      "after": "Säkerhetskontexten är redan helt upprättad",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:196",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Invalid field length in token",
+      "before": "Felaktigt längdfält i token",
+      "after": "Ogiltigt fältlängd i token",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:204",
+      "project": "tp:gss-1.0.1",
+      "msgid": "No krb5 error",
+      "before": "Inget krb5 fel",
+      "after": "Inget krb5-fel",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:208",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Unknown krb5 error",
+      "before": "Okänt krb5 fel",
+      "after": "Okänt krb5-fel",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:217",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Usage: %s OPTIONS...\n",
+      "before": "Användning: %s FLAGGA...\n",
+      "after": "Användning: %s FLAGGOR...\n",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:222",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Command line interface to GSS, used to explain error codes.\n\n",
+      "before": "Kommandoradsgränssnitt till GSS brukade förklara felkoder.\n\n",
+      "after": "Kommandoradsgränssnitt till GSS för att förklara felkoder.\n\n",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:234",
+      "project": "tp:gss-1.0.1",
+      "msgid": "  -h, --help        Print help and exit.\n  -V, --version     Print version and exit.\n  -l, --list-mechanisms\n                    List information about supported mechanisms\n                    in a human readable format.\n  -m, --major=LONG  Describe a `major status' error code value.\n",
+      "before": "  -h, --help        Skriv ut hjälptext och avsluta.\n  -V, --version     Skriv ut version och avsluta.\n  -l, --list-mechanisms\n                    Lista information, om mekanismer som stöds,\n                    i ett mänskligt läsbart format.\n  -m, --major=LONG  Förklara en `allvarlig status' felkodsvärde.\n",
+      "after": "  -h, --help        Skriv ut hjälptext och avsluta.\n  -V, --version     Skriv ut version och avsluta.\n  -l, --list-mechanisms\n                    Lista information om mekanismer som stöds\n                    i ett läsbart format.\n  -m, --major=LONG  Förklara ett felkodsvärde för ”huvudstatus”.\n",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:289",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Masked routine error %ld (0x%lx) shifted into %ld (0x%lx):\n",
+      "before": "Maskat funktionsfel %ld (0x%lx) skiftad till %ld (0x%lx):\n",
+      "after": "Maskerat funktionsfel %ld (0x%lx) skiftat till %ld (0x%lx):\n",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:299",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Masked calling error %ld (0x%lx) shifted into %ld (0x%lx):\n",
+      "before": "Maskat anropsfel %ld (0x%lx) skiftad till %ld (0x%lx):\n",
+      "after": "Maskerat anropsfel %ld (0x%lx) skiftat till %ld (0x%lx):\n",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:304",
+      "project": "tp:gss-1.0.1",
+      "msgid": "Masked supplementary info %ld (0x%lx) shifted into %ld (0x%lx):\n",
+      "before": "Maskad tillägssinformation %ld (0x%lx) skiftad till %ld (0x%lx):\n",
+      "after": "Maskerad tilläggsinformation %ld (0x%lx) skiftad till %ld (0x%lx):\n",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:314",
+      "project": "tp:gss-1.0.1",
+      "msgid": "indicating mechanisms failed (%d)",
+      "before": "misslyckades med att indikera mekanismer (%d)",
+      "after": "angivande av mekanismer misslyckades (%d)",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gss:319",
+      "project": "tp:gss-1.0.1",
+      "msgid": "inquiring information about mechanism failed (%d)",
+      "before": "insamling av information om mekanism misslyckades (%d)",
+      "after": "hämtning av information om mekanism misslyckades (%d)",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gst-plugins-bad:43",
+      "project": "tp:gst-plugins-bad-1.27.90",
+      "msgid": "Could not read DVD. This may be because the DVD is encrypted and a DVD decryption library is not installed.",
+      "before": "Kunde ej läsa dvd. Detta kan vara på grund av att dvd:n är krypterad och ett DVD avkrypteringsbibliotek inte är installerat.",
+      "after": "Kunde inte läsa dvd:n. Det kan bero på att dvd:n är krypterad och att ett dvd-avkrypteringsbibliotek inte är installerat.",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gst-plugins-bad:60",
+      "project": "tp:gst-plugins-bad-1.27.90",
+      "msgid": "Generated file has a larger preroll time than its streams duration",
+      "before": "Den genererade filen har en längre förrullningstid än dess strömlängd",
+      "after": "Den genererade filens förrullningstid är längre än strömmarnas varaktighet",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gst-plugins-bad:70",
+      "project": "tp:gst-plugins-bad-1.27.90",
+      "msgid": "File location is set to NULL, please set it to a valid filename",
+      "before": "Filposition är satt till NULL, vänligen sätt den till ett giltigt filnamn",
+      "after": "Filplatsen är satt till NULL; ange ett giltigt filnamn",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gst-plugins-base:136",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Custom text sink element is not usable.",
+      "before": "Anpassat text utgångs-element är inte användbart.",
+      "after": "Det anpassade textutdataelementet kan inte användas.",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gst-plugins-base:176",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "No URI specified to play from.",
+      "before": "Ingen uri angiven att spela upp från.",
+      "after": "Ingen URI har angetts att spela upp från.",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gst-plugins-base:180",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Invalid URI \"%s\".",
+      "before": "Ogiltig uri ”%s”.",
+      "after": "Ogiltig URI ”%s”.",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gst-plugins-base:207",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Source element has no pads.",
+      "before": "Källelementet har inga kontakter.",
+      "after": "Källelementet har inga anslutningspunkter.",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gst-plugins-base:232",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Subclass failed to initialize.",
+      "before": "Underklass misslyckades med initiering.",
+      "after": "Underklassen misslyckades med initieringen.",
+      "reason": "Språk- och terminologigranskning av GSASL, GSS och GStreamer"
+    },
+    {
+      "tp_id": "gst-plugins-base:278",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Run-length encoding",
+      "before": "Skurlängdskodning",
+      "after": "RLE-kodning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:282",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Timed Text",
+      "before": "Textning",
+      "after": "Tidsstyrd text",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:328",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Timed ID3 tag Metadata",
+      "before": "Tidsbegränsad ID3-tagg metadata",
+      "after": "Tidsbestämda ID3-taggmetadata",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:372",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Uncompressed audio",
+      "before": "Okomprimerad audio",
+      "after": "Okomprimerat ljud",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:460",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Unknown source element",
+      "before": "Okänt käll-element",
+      "after": "Okänt källelement",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:464",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Unknown sink element",
+      "before": "Okänt utgångs-element",
+      "after": "Okänt utdataelement",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:486",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Failed to read tag: not enough data",
+      "before": "Misslyckades med att läsa tagg: inte tillräckligt mycket data",
+      "after": "Misslyckades med att läsa tagg: för lite data",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:522",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "release group ID",
+      "before": "släpp grupp-ID",
+      "after": "utgivningsgrupps-ID",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:526",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "MusicBrainz release group ID",
+      "before": "MusicBrainz släpp grupp-ID",
+      "after": "MusicBrainz utgivningsgrupps-ID",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:530",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "release track ID",
+      "before": "släpp spår-ID",
+      "after": "utgivningsspårs-ID",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:534",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "MusicBrainz release track ID",
+      "before": "MusicBrainz släpp spår-ID",
+      "after": "MusicBrainz utgivningsspårs-ID",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:538",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "track TRM ID",
+      "before": "spår TRM-ID",
+      "after": "spårets TRM-ID",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:550",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "AcoustID fingerprint (chromaprint)",
+      "before": "AcoustID fingeravtryck (chromaavtryck)",
+      "after": "AcoustID-fingeravtryck (chromaprint)",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:578",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "capturing 35 mm equivalent focal length",
+      "before": "fångar 35mm-ekvivalent brännvidd",
+      "after": "35 mm-ekvivalent brännvidd",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:590",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Digital zoom ratio used when capturing an image",
+      "before": "Digitalt zoom-förhållande som används när bild infångas",
+      "after": "Digital zoomfaktor som används vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:598",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The ISO speed used when capturing an image",
+      "before": "ISO-tal som används när bild infångas",
+      "after": "ISO-tal som används vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:606",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The exposure program used when capturing an image",
+      "before": "Det exponeringsprogram som används när bild infångas",
+      "after": "Exponeringsprogrammet som används vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:614",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The exposure mode used when capturing an image",
+      "before": "Exponeringsläge som används när bild infångas",
+      "after": "Exponeringsläget som används vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:622",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The exposure compensation used when capturing an image",
+      "before": "Exponeringskompensationen som används när bild infångas",
+      "after": "Exponeringskompensationen som används vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:630",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The scene capture mode used when capturing an image",
+      "before": "Scenläge som används när bild infångas",
+      "after": "Scenläget som används vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:638",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The overall gain adjustment applied on an image",
+      "before": "Förstärkningsjustering som appliceras på en bild",
+      "after": "Förstärkningsjustering som tillämpas på bilden",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:646",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The white balance mode set when capturing an image",
+      "before": "Vitbalansläge som sätts när bild infångas",
+      "after": "Vitbalansläget som ställs in vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:650",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "capturing light source",
+      "before": "infångstljuskälla",
+      "after": "ljuskälla vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:654",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The light source indicates the kind of light when capturing animage",
+      "before": "Ljuskällan indikerar typen av ljus vid infångning av en bild",
+      "after": "Ljuskällan anger typen av ljus vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:662",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The direction of contrast processing applied when capturing an image",
+      "before": "Riktning för kontrastbehandling som appliceras när bild infångas",
+      "after": "Riktningen för kontrastbehandling som tillämpas vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:670",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The direction of saturation processing applied when capturing an image",
+      "before": "Riktning för mättnadsbehandling som appliceras när bild infångas",
+      "after": "Riktningen för mättnadsbehandling som tillämpas vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:678",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The direction of sharpness processing applied when capturing an image",
+      "before": "Riktningen på skärpningsbehandling som appliceras när bild infångas",
+      "after": "Riktningen för skärpebehandling som tillämpas vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:686",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "If the flash fired while capturing an image",
+      "before": "Om blixten avfyrats när bild infångas",
+      "after": "Om blixten utlöstes vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:694",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The selected flash mode while capturing an image",
+      "before": "Det valda blixtläget när bild infångas",
+      "after": "Det valda blixtläget vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:702",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The metering mode used while determining exposure for capturing an image",
+      "before": "Ljusmätarläge som används då exponering bestäms när bild infångas",
+      "after": "Ljusmätarläget som används för att fastställa exponeringen vid bildtagning",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:706",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "capturing source",
+      "before": "infångstkälla",
+      "after": "bildtagningskälla",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:710",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "The source or type of device used for the capture",
+      "before": "Källa eller typ av enhet som används för infångsten",
+      "after": "Källa eller typ av enhet som används för bildtagningen",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:714",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "image horizontal ppi",
+      "before": "bild horisontell ppi",
+      "after": "bildens horisontella ppi",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:718",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Media (image/video) intended horizontal pixel density in ppi",
+      "before": "Media (bild/video) avsedd horisontell pixeldensitet i ppi",
+      "after": "Avsedd horisontell pixeltäthet för media (bild/video) i ppi",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:722",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "image vertical ppi",
+      "before": "bild vertikal ppi",
+      "after": "bildens vertikala ppi",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:726",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Media (image/video) intended vertical pixel density in ppi",
+      "before": "Media (bild/video) avsedd vertikal pixeldensitet i ppi",
+      "after": "Avsedd vertikal pixeltäthet för media (bild/video) i ppi",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:734",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "unparsed id3v2 tag frame",
+      "before": "otolkad id3v2-tagg-ram",
+      "after": "otolkad ID3v2-taggram",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:742",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Initial key in which the sound starts",
+      "before": "Inledande tonart med vilken ljudet börjar",
+      "after": "Den ursprungliga tonart som ljudet börjar i",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:750",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Don't exit after showing the initial device list, but wait for devices to added/removed.",
+      "before": "Avsluta inte efter att den inledande enhetslistan visats, utan vänta på att enheter läggs till/tas bort.",
+      "after": "Avsluta inte efter att den inledande enhetslistan har visats, utan vänta på att enheter läggs till eller tas bort.",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:754",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Include devices from hidden device providers.",
+      "before": "Inkludera enheter från gömda enhetsleverantörer.",
+      "after": "Inkludera enheter från dolda enhetsleverantörer.",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:815",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Clock lost, selecting a new one\n",
+      "before": "Klocka förlorad, väljer en ny\n",
+      "after": "Klockan förlorades, väljer en ny\n",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:833",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "About to finish, preparing next title: %s",
+      "before": "Slutar snart, förbereder nästa titel: %s",
+      "after": "Håller på att avsluta, förbereder nästa titel: %s",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:852",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "pause/unpause",
+      "before": "pausa/fortsätt",
+      "after": "pausa/återuppta",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:880",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "seek forward",
+      "before": "sök framåt",
+      "after": "spola framåt",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:884",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "seek backward",
+      "before": "sök bakåt",
+      "after": "spola bakåt",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:896",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "toggle audio mute on/off",
+      "before": "växla tystnadsläge på/av",
+      "after": "växla ljudavstängning på/av",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:928",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "seek to beginning",
+      "before": "sök till början",
+      "after": "gå till början",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:953",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Video sink to use (default is autovideosink)",
+      "before": "Videoutgång som ska användas (standard är autovideosink)",
+      "after": "Videoutdata som ska användas (standard är autovideosink)",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:957",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Audio sink to use (default is autoaudiosink)",
+      "before": "Ljudutgång som ska användas (standard är autoaudiosink)",
+      "after": "Ljudutdata som ska användas (standard är autoaudiosink)",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:965",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Enable instantaneous uri changes (only with playbin3)",
+      "before": "Aktivera omedelbara uri-ändringar (endast med playbin3)",
+      "after": "Aktivera omedelbara URI-ändringar (endast med playbin3)",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:989",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Playlist file containing input media files",
+      "before": "Fil med spellista innehållandes inkommande mediafiler",
+      "after": "Spellistefil som innehåller inmatade mediafiler",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:997",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Do not print any output (apart from errors)",
+      "before": "Mata inte ut någonting (bortsett från fel)",
+      "after": "Skriv inte ut något (utom fel)",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:1009",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "Keep showing the last frame on EOS until quit or playlist change command (gapless is ignored)",
+      "before": "Fortsätt visa den sista ramen vid EOS tills avslutning eller ändringskommando för spellista (mellanrumslös hoppas över)",
+      "after": "Fortsätt visa den sista bildrutan vid EOS tills avslutning eller kommando för ändring av spellista (mellanrumslös uppspelning ignoreras)",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-base:1026",
+      "project": "tp:gst-plugins-base-1.27.90",
+      "msgid": "You must provide at least one filename or URI to play.",
+      "before": "Du måste ange åtminstone ett filnamn eller en URI att spela.",
+      "after": "Du måste ange minst ett filnamn eller en URI att spela upp.",
+      "reason": "Språk- och terminologigranskning av GStreamer Base"
+    },
+    {
+      "tp_id": "gst-plugins-good:93",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "No or invalid input audio, AVI stream will be corrupt.",
+      "before": "Inget eller ogiltigt ingångsljud. AVI-strömmen kommer att skadas.",
+      "after": "Inget eller ogiltigt inmatningsljud. AVI-strömmen blir skadad.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:106",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Cannot play stream because it is encrypted with PlayReady DRM.",
+      "before": "Kan ej spela ström då den är krypterad med PlayReady DRM.",
+      "after": "Kan inte spela upp strömmen eftersom den är krypterad med PlayReady DRM.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:121",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Cannot query file size",
+      "before": "Kan inte begära filstorlek",
+      "after": "Kan inte hämta filstorleken",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:125",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Cannot demux file",
+      "before": "Kan inte avmultiplexera fil",
+      "after": "Kan inte avmultiplexera filen",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:202",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to enumerate possible video formats device '%s' can work with",
+      "before": "Misslyckades med att räkna upp möjliga videoformat som enheten ”%s” kan arbeta med",
+      "after": "Misslyckades med att lista möjliga videoformat som enheten ”%s” kan använda",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:212",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "The driver of device '%s' does not support the IO method %d",
+      "before": "Drivrutinen för enheten ”%s” stöder inte IO-metod %d",
+      "after": "Drivrutinen för enheten ”%s” stöder inte I/O-metoden %d",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:222",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Invalid caps",
+      "before": "Ogiltig förmåga",
+      "after": "Ogiltiga caps",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:231",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Device '%s' failed during initialization",
+      "before": "Enheten ”%s” misslyckades under initiering",
+      "after": "Enheten ”%s” kunde inte initieras",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:241",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Device '%s' cannot capture at %dx%d",
+      "before": "Enheten ”%s” kan inte fånga i %dx%d",
+      "after": "Enheten ”%s” kan inte fånga vid %dx%d",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:246",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Device '%s' cannot capture in the specified format",
+      "before": "Enheten ”%s” kan inte fånga i det angivna formatet",
+      "after": "Enheten ”%s” kan inte fånga i angivet format",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:251",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Device '%s' does support non-contiguous planes",
+      "before": "Enheten ”%s” stöder inte icke-kontinuerliga plan",
+      "after": "Enheten ”%s” stöder icke-sammanhängande plan",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:256",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Device '%s' does not support %s interlacing",
+      "before": "Enhet ”%s” stöder inte %s-sammanflätning",
+      "after": "Enheten ”%s” stöder inte %s-sammanflätning",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:266",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Could not get parameters on device '%s'",
+      "before": "Kunde inte få tag i parametrar på enheten ”%s”",
+      "after": "Kunde inte hämta parametrarna för enheten ”%s”",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:271",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Video device did not accept new frame rate setting.",
+      "before": "Videoenheten accepterade inte ny inställning för bildfrekvens.",
+      "after": "Videoenheten accepterade inte den nya inställningen för bildfrekvens.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:275",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Video device did not provide output format.",
+      "before": "Videoenheten tillhandahöll inget utgångsformat.",
+      "after": "Videoenheten tillhandahöll inget utdataformat.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:283",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Video device uses an unsupported interlacing method.",
+      "before": "Videoenhet använder en sammanflätningsmetod som ej stöds.",
+      "after": "Videoenheten använder en sammanflätningsmetod som inte stöds.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:287",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Video device uses an unsupported pixel format.",
+      "before": "Videoenhet använder ett pixel-format som ej stöds.",
+      "after": "Videoenheten använder ett pixelformat som inte stöds.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:291",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to configure internal buffer pool.",
+      "before": "Misslyckades med att konfigurera intern buffert-pool.",
+      "after": "Misslyckades med att konfigurera intern buffertpool.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:295",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Video device did not suggest any buffer size.",
+      "before": "Videoenheten föreslog inte ny buffertstorlek.",
+      "after": "Videoenheten föreslog ingen buffertstorlek.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:299",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "No downstream pool to import from.",
+      "before": "Ingen nedströms-pool att importera från.",
+      "after": "Ingen nedströmspool att importera från.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:303",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to get settings of tuner %d on device '%s'.",
+      "before": "Misslyckades med att få tag i inställningarna för mottagare %d på enheten ”%s”.",
+      "after": "Misslyckades med att hämta inställningarna för mottagare %d på enheten ”%s”.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:308",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Error getting capabilities for device '%s'.",
+      "before": "Fel vid läsning av förmågor för enheten ”%s”.",
+      "after": "Fel vid hämtning av caps för enheten ”%s”.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:318",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to get radio input on device '%s'. ",
+      "before": "Kunde inte ställa in radioingång på enheten ”%s”. ",
+      "after": "Kunde inte hämta radioingången för enheten ”%s”. ",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:328",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to change mute state for device '%s'.",
+      "before": "Misslyckades med att ändra på ljudlös-läge för enheten ”%s”.",
+      "after": "Misslyckades med att ändra ljudavstängningsläget för enheten ”%s”.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:333",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to allocated required memory.",
+      "before": "Misslyckades att allokera begärt minne.",
+      "after": "Misslyckades med att allokera nödvändigt minne.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:337",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to allocate required memory.",
+      "before": "Misslyckades med att allokera begärt minne.",
+      "after": "Misslyckades med att allokera nödvändigt minne.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:352",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Decoder on device %s has no supported input format",
+      "before": "Avkodaren på enhet %s har inget ingångsformat som stöds",
+      "after": "Avkodaren på enheten %s har inget ingångsformat som stöds",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:357",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to start decoding thread.",
+      "before": "Misslyckades med att starta avkodningstråd.",
+      "after": "Misslyckades med att starta avkodningstråden.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:361",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to process frame.",
+      "before": "Misslyckades att behandla ram.",
+      "after": "Misslyckades med att behandla bildrutan.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:375",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to force keyframe.",
+      "before": "Misslyckades att tvinga nyckelram.",
+      "after": "Misslyckades med att tvinga fram en nyckelbildruta.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:379",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to start encoding thread.",
+      "before": "Misslyckades med att starta kodningstråd.",
+      "after": "Misslyckades med att starta kodningstråden.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:383",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Error getting capabilities for device '%s': It isn't a v4l2 driver. Check if it is a v4l1 driver.",
+      "before": "Fel vid läsning av förmågor för enheten ”%s”: Det är inte en v4l2-drivrutin. Kontrollera om det är en v4l1-drivrutin.",
+      "after": "Fel vid hämtning av caps för enheten ”%s”: Det är inte en v4l2-drivrutin. Kontrollera om det är en v4l1-drivrutin.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:388",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to query attributes of input %d in device %s",
+      "before": "Misslyckades med att fråga efter attribut för ingång %d i enheten %s",
+      "after": "Misslyckades med att fråga efter attribut för ingång %d på enheten %s",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:393",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to get setting of tuner %d on device '%s'.",
+      "before": "Misslyckades med att få tag i inställningen för mottagare %d på enheten ”%s”.",
+      "after": "Misslyckades med att hämta inställningen för mottagare %d på enheten ”%s”.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:398",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to query norm on device '%s'.",
+      "before": "Misslyckades med att fråga efter norm på enheten ”%s”.",
+      "after": "Misslyckades med att hämta normen för enheten ”%s”.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:403",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed getting controls attributes on device '%s'.",
+      "before": "Misslyckades med att få tag på kontrollattributen på enheten ”%s”.",
+      "after": "Misslyckades med att hämta kontrollattributen för enheten ”%s”.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:413",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "This isn't a device '%s'.",
+      "before": "Det här är inte en enhet ”%s”.",
+      "after": "Det här är inte enheten ”%s”.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:423",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Device '%s' is not a capture device.",
+      "before": "Enheten ”%s” är ingen fångstenhet.",
+      "after": "Enheten ”%s” är inte en fångstenhet.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:428",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Device '%s' is not a output device.",
+      "before": "Enheten ”%s” är ingen utgångsenhet.",
+      "after": "Enheten ”%s” är inte en utdataenhet.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:448",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to get current tuner frequency for device '%s'.",
+      "before": "Misslyckades med att gå tag på aktuell mottagarfrekvens för enheten ”%s”.",
+      "after": "Misslyckades med att hämta aktuell mottagarfrekvens för enheten ”%s”.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:458",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to get signal strength for device '%s'.",
+      "before": "Misslyckades med att få tag på signalstyrka för enheten ”%s”.",
+      "after": "Misslyckades med att hämta signalstyrkan för enheten ”%s”.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:473",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to set value %s for control %d on device '%s'.",
+      "before": "Kunde inte ställa in värdet %s för kontroll %d på enheten ”%s”.",
+      "after": "Kunde inte ställa in värdet %s för kontrollen %d på enheten ”%s”.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:478",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to get current input on device '%s'. May be it is a radio device",
+      "before": "Misslyckades med att få tag på aktuell ingång på enheten ”%s”. Kan vara en radioenhet",
+      "after": "Misslyckades med att hämta aktuell ingång för enheten ”%s”. Det kan vara en radioenhet.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:483",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to set input %u on device %s.",
+      "before": "Kunde inte ställa in ingång %u på enhet %s.",
+      "after": "Kunde inte ställa in ingång %u på enheten %s.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:488",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to get current output on device '%s'. May be it is a radio device",
+      "before": "Misslyckades med att få tag på aktuell utgång på enheten ”%s”. Kan vara en radioenhet",
+      "after": "Misslyckades med att hämta aktuell utdata för enheten ”%s”. Det kan vara en radioenhet.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-good:493",
+      "project": "tp:gst-plugins-good-1.27.90",
+      "msgid": "Failed to set output %u on device %s.",
+      "before": "Misslyckades med att ställa in utgång %u på enhet %s.",
+      "after": "Misslyckades med att ställa in utdata %u på enheten %s.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gst-plugins-ugly:62",
+      "project": "tp:gst-plugins-ugly-1.27.90",
+      "msgid": "This stream contains no data.",
+      "before": "Den här strömmen innehåller inget data.",
+      "after": "Den här strömmen innehåller inga data.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gstreamer:36",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Default debug level from 1 (only error) to 9 (anything) or 0 for no output",
+      "before": "Standardfelsökningsnivå från 1 (endast fel) till 9 (allting) eller 0 för ingen utmatning",
+      "after": "Standardfelsökningsnivå från 1 (endast fel) till 9 (allting) eller 0 för ingen utdata",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gstreamer:52",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Disable colored debugging output",
+      "before": "Inaktivera färglagd felsökningsutmatning",
+      "after": "Inaktivera färglagda felsökningsutdata",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gstreamer:56",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Changes coloring mode of the debug log. Possible modes: off, on, disable, auto, unix",
+      "before": "Ändrar färgläggning av felsökningsutskrifter. Möjliga lägen: off, on, disable, auto, unix",
+      "after": "Ändrar färgläget för felsökningsloggen. Möjliga lägen: off, on, disable, auto, unix",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gstreamer:72",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Comma-separated list of plugins to preload in addition to the list stored in environment variable GST_PLUGIN_PATH",
+      "before": "Kommaseparerad lista med insticksmoduler att förhandsinläsa utöver listan som lagras i miljövariabeln GST_PLUGIN_PATH",
+      "after": "Kommaseparerad lista med insticksmoduler att förinläsa utöver listan i miljövariabeln GST_PLUGIN_PATH",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gstreamer:80",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Disable trapping of segmentation faults during plugin loading",
+      "before": "Inaktivera fångst av segmenteringsfel under inläsning av insticksmoduler",
+      "after": "Inaktivera hantering av segmenteringsfel under inläsning av insticksmoduler",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gstreamer:88",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Disable spawning a helper process while scanning the registry",
+      "before": "Inaktivera start av en hjälpprocess vid avsökning av registret",
+      "after": "Inaktivera start av en hjälpprocess när registret avsöks",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gstreamer:100",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Unknown option",
+      "before": "Okänt flagga",
+      "after": "Okänd flagga",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gstreamer:105",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "GStreamer encountered a general core library error.",
+      "before": "GStreamer stötte på ett allmänt fel i kärnbibliotek.",
+      "after": "GStreamer stötte på ett allmänt fel i kärnbiblioteket.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gstreamer:113",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Internal GStreamer error: code not implemented.",
+      "before": "Internt GStreamer-fel: koden inte implementerad.",
+      "after": "Internt GStreamer-fel: koden är inte implementerad.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gstreamer:117",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "GStreamer error: state change failed and some element failed to post a proper error message with the reason for the failure.",
+      "before": "GStreamer-fel: tillståndsändring misslyckades och några element misslyckades med att skicka ett korrekt felmeddelande med anledningen till felet.",
+      "after": "GStreamer-fel: tillståndsändring misslyckades och ett element misslyckades med att skicka ett korrekt felmeddelande med orsaken till felet.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gstreamer:141",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Internal GStreamer error: caps problem.",
+      "before": "Internt GStreamer-fel: förmågeproblem.",
+      "after": "Internt GStreamer-fel: caps-problem.",
+      "reason": "Rättar betydelse, etablerad GStreamer-terminologi eller svenskt språkbruk."
+    },
+    {
+      "tp_id": "gstreamer:161",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "GStreamer encountered a general supporting library error.",
+      "before": "GStreamer stötte på ett allmänt fel i stödbibliotek.",
+      "after": "GStreamer stötte på ett allmänt fel i stödbiblioteket.",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:165",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Could not initialize supporting library.",
+      "before": "Kunde inte initiera stödbibliotek.",
+      "after": "Kunde inte initiera stödbiblioteket.",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:169",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Could not close supporting library.",
+      "before": "Kunde inte stänga stödbibliotek.",
+      "after": "Kunde inte stänga stödbiblioteket.",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:173",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Could not configure supporting library.",
+      "before": "Kunde inte konfigurera stödbibliotek.",
+      "after": "Kunde inte konfigurera stödbiblioteket.",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:189",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Resource busy or not available.",
+      "before": "Resursen upptagen eller inte tillgänglig.",
+      "after": "Resursen är upptagen eller inte tillgänglig.",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:217",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Could not perform seek on resource.",
+      "before": "Kunde inte utföra spolning på resursen.",
+      "after": "Kunde inte söka i resursen.",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:233",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Not authorized to access resource.",
+      "before": "Har ej befogenhet att använda resursen.",
+      "after": "Har inte behörighet att använda resursen.",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:241",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Element doesn't implement handling of this stream. Please file a bug.",
+      "before": "Elementet stöder inte hantering av denna ström. Skicka gärna in en felrapport.",
+      "after": "Elementet stöder inte hantering av denna ström. Rapportera ett fel.",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:253",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "There is no codec present that can handle the stream's type.",
+      "before": "Det finns ingen omkodare som kan hantera denna strömtyp.",
+      "after": "Det finns ingen kodek som kan hantera strömmens typ.",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:295",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Selected clock cannot be used in pipeline.",
+      "before": "Vald klocka kan inte användas i rörledning.",
+      "after": "Den valda klockan kan inte användas i pipeline.",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:356",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "The artist of the entire album, as it should be displayed",
+      "before": "Artisten för hela albumet, som det ska visas",
+      "after": "Artisten för hela albumet, som den ska visas.",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:364",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "The artist of the entire album, as it should be sorted",
+      "before": "Artisten för hela albumet, som det ska sorteras",
+      "after": "Artisten för hela albumet, som den ska sorteras.",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:396",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "free text commenting the data",
+      "before": "fri text som kommenterar dessa data",
+      "after": "Fritext som kommenterar dessa data",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:404",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "free text commenting the data in key=value or key[en]=comment form",
+      "before": "fri text som kommenterar dessa data i formatet key=värde eller key[sv]=kommentar",
+      "after": "Fritext som kommenterar dessa data i formen key=value eller key[en]=comment",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:452",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Homepage for this media (i.e. artist or movie homepage)",
+      "before": "Webbsida för detta media (alltså webbsidan för artisten eller filmen)",
+      "after": "Webbsida för detta medium (t.ex. artistens eller filmens webbsida)",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:488",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "copyright notice of the data",
+      "before": "copyrightnotis för dessa data",
+      "after": "Upphovsrättsnotis för dessa data",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:492",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "copyright uri",
+      "before": "copyright-uri",
+      "after": "Upphovsrätts-URI",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:496",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "URI to the copyright notice of the data",
+      "before": "Uri till copyrightnotis för datat",
+      "after": "URI till upphovsrättsnotisen för dessa data",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:524",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "license uri",
+      "before": "licens-uri",
+      "after": "Licens-URI",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:528",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "URI to the license of the data",
+      "before": "Uri till licens för datat",
+      "after": "URI till licensen för dessa data",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:536",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "person(s) performing",
+      "before": "person(er) som agerar",
+      "after": "person(er) som medverkar",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:552",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "conductor/performer refinement",
+      "before": "konduktör/artist förfining",
+      "after": "förfining av dirigent/utövare",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:592",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "codec the subtitle data is stored in",
+      "before": "omkodare som undertextdata lagrats med",
+      "after": "kodek som undertextdata lagras med",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:660",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "replaygain track gain",
+      "before": "uppspelningsförstärkning spårförstärkning",
+      "after": "ReplayGain-spårförstärkning",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:676",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "replaygain track peak",
+      "before": "uppspelningsförstärkning spårtopp",
+      "after": "ReplayGain-spårtopp",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:684",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "replaygain album gain",
+      "before": "uppspelningsförstärkning albumförstärkning",
+      "after": "ReplayGain-albumförstärkning",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:700",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "replaygain album peak",
+      "before": "uppspelningsförstärkning albumtopp",
+      "after": "ReplayGain-albumtopp",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:829",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "geo location horizontal error",
+      "before": "fel i horisontell geografisk plats",
+      "after": "geografisk horisontell noggrannhet",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:833",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "expected error of the horizontal positioning measures (in meters)",
+      "before": "förväntat fel i horisontell positioneringsmätning (i meter)",
+      "after": "Förväntat fel i den horisontella positionsmätningen (i meter)",
+      "reason": "Rättar betydelse, språkbruk och etablerad medieterminologi."
+    },
+    {
+      "tp_id": "gstreamer:857",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "indicates the direction the device is pointing to when capturing  a media. It is represented as degrees in floating point  representation, 0 means the geographic north, and increases clockwise",
+      "before": "indikerar riktningen som enheten pekar mot när mediet skapas. Det representeras som grader i flyttalsrepresentation, 0 betyder geografiskt nordlig riktning och ökar medsols",
+      "after": "Anger riktningen som enheten pekar mot när den fångar ett medium. Den anges som ett flyttal i grader, där 0 betyder geografiskt norr och värdet ökar medsols.",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:870",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "show sortname",
+      "before": "visa sorteringsnamn",
+      "after": "programsorteringsnamn",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:915",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Groups related media that spans multiple tracks, like the different pieces of a concerto. It is a higher level than a track, but lower than an album",
+      "before": "Grupprelaterade media som spänner över flera spår, såsom olika delar av en konsert. Det är en högre nivå än ett spår, men lägre än ett album",
+      "after": "Grupperar relaterade medier som omfattar flera spår, exempelvis de olika satserna i en konsert. Det är en högre nivå än ett spår, men lägre än ett album.",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:923",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Rating attributed by a user. The higher the rank, the more the user likes this media",
+      "before": "Betyg angivit av en användare. Desto högre rankning, desto mer gillar användaren detta media",
+      "after": "Betyg som en användare har angett. Ju högre betyg, desto mer gillar användaren detta medium.",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:955",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Arbitrary application data to be serialized into the media",
+      "before": "Godtycklig programdata att serialisera inuti detta media",
+      "after": "Godtyckliga programdata som ska serialiseras i detta medium",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:979",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Information about the people behind a remix and similar interpretations",
+      "before": "Information om människorna bakom en remix eller liknande tolkning",
+      "after": "Information om personerna bakom en remix eller liknande tolkningar",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:987",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Midi note number of the audio track.",
+      "before": "Midi-not-nummer för ljudspåret.",
+      "after": "MIDI-notnummer för ljudspåret.",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:991",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "private-data",
+      "before": "privat-data",
+      "after": "privata data",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:995",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Private data",
+      "before": "Privat data",
+      "after": "Privata data",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1017",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "No URI handler for the %s protocol found",
+      "before": "Ingen uri-hanterare hittades för %s-protokollet",
+      "after": "Ingen URI-hanterare hittades för protokollet %s",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1022",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "URI scheme '%s' not supported",
+      "before": "Uri-schema ”%s” saknar stöd",
+      "after": "URI-schemat ”%s” stöds inte",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1041",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "link has no source [sink=%s@%p]",
+      "before": "länk har ingen källa [utgång=%s@%p]",
+      "after": "Länken har ingen källa [mottagare=%s@%p]",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1049",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "link has no sink [source=%s@%p]",
+      "before": "länk har ingen utgång [källa=%s@%p]",
+      "after": "Länken har ingen mottagare [källa=%s@%p]",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1093",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "could not link %s to %s, %s can't handle caps %s",
+      "before": "kunde inte länka %s med %s, %s kan inte hantera förmågorna %s",
+      "after": "Kunde inte länka %s till %s, %s kan inte hantera caps %s",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1098",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "could not link %s to %s, neither element can handle caps %s",
+      "before": "kunde inte länka %s med %s, ingetdera element kan hantera förmågorna %s",
+      "after": "Kunde inte länka %s till %s, ingetdera elementet kan hantera caps %s",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1103",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "could not link %s to %s with caps %s",
+      "before": "kunde inte länka %s med %s med förmågor %s",
+      "after": "Kunde inte länka %s till %s med caps %s",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1108",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "could not link %s to %s",
+      "before": "kunde inte länka %s med %s",
+      "after": "Kunde inte länka %s till %s",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1113",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "unexpected reference \"%s\" - ignoring",
+      "before": "oväntad referens ”%s” - ignorerar",
+      "after": "Oväntad referens ”%s” – ignoreras",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1118",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "unexpected pad-reference \"%s\" - ignoring",
+      "before": "oväntad kontakt-referens ”%s” - ignorerar",
+      "after": "Oväntad pad-referens ”%s” – ignoreras",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1123",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "could not parse caps \"%s\"",
+      "before": "kunde inte tolka förmågorna ”%s”",
+      "after": "Kunde inte tolka caps ”%s”",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1128",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "no sink element for URI \"%s\"",
+      "before": "inget utgångselement för URI:n ”%s”",
+      "after": "Inget mottagarelement för URI:n ”%s”",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1133",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "no source element for URI \"%s\"",
+      "before": "inget källelement för URI:n ”%s”",
+      "after": "Inget källelement för URI:n ”%s”",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1142",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "specified empty bin \"%s\", not allowed",
+      "before": "angav tom korg ”%s”, inte tillåtet",
+      "after": "Angav tom bin ”%s”, vilket inte är tillåtet",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1147",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "no bin \"%s\", unpacking elements",
+      "before": "ingen korg ”%s”, packar upp element",
+      "after": "Ingen bin ”%s”, packar upp elementen",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1152",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "empty pipeline not allowed",
+      "before": "tom rörledning är inte tillåtet",
+      "after": "Tom pipeline är inte tillåten",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1156",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Pipeline construction is invalid, please add queues.",
+      "before": "Rörledningskonstruktion ogiltig, lägg till köer.",
+      "after": "Pipeline-konstruktionen är ogiltig. Lägg till köer.",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1168",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Internal data flow error.",
+      "before": "Internt fel i dataflöde.",
+      "after": "Internt fel i dataflödet.",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1176",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Failed to map buffer.",
+      "before": "Misslyckades med att mappa buffert.",
+      "after": "Misslyckades med att mappa bufferten.",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1181",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Filter caps",
+      "before": "Filtrera förmågor",
+      "after": "Filtrera caps",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1185",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Restrict the possible allowed capabilities (NULL means ANY). Setting this property takes a reference to the supplied GstCaps object.",
+      "before": "Begränsa de möjliga tillåtna förmågorna (NULL betyder ANY). Inställning av egenskapen tar en referens till det angivna GstCaps-objektet.",
+      "after": "Begränsa möjliga tillåtna caps (NULL betyder ANY). Den här egenskapen tar en referens till det angivna GstCaps-objektet.",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1189",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Caps Change Mode",
+      "before": "Ändringsläge för förmågor",
+      "after": "Ändringsläge för caps",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1193",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Filter caps change behaviour",
+      "before": "Ändringsläge för filterförmågor",
+      "after": "Ändringsbeteende för filter-caps",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1260",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Failed after iterations as requested.",
+      "before": "Misslyckades efter iterationer som begärt.",
+      "after": "Misslyckades efter det begärda antalet iterationer.",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1264",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "eos-after and error-after can't both be defined.",
+      "before": "eos-after och error-after kan inte båda definieras.",
+      "after": "eos-after och error-after kan inte båda anges.",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1268",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "caps",
+      "before": "förmågor",
+      "after": "caps",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1272",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "detected capabilities in stream",
+      "before": "detekterade förmågor i strömmen",
+      "after": "detekterade caps i strömmen",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1280",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "force caps",
+      "before": "tvinga förmågor",
+      "after": "tvinga caps",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1284",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "force caps without doing a typefind",
+      "before": "tvinga förmågor utan att göra en typefind",
+      "after": "tvinga caps utan att fastställa typen",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1293",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Stream contains no data.",
+      "before": "Strömmen innehåller inget data.",
+      "after": "Strömmen innehåller inga data.",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1384",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Print list of blacklisted files",
+      "before": "Skriv ut lista över svartlistade filer",
+      "after": "Skriv ut en lista över svartlistade filer",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1401",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "A slashes ('/') separated list of types of elements (also known as klass) to list. (unordered)",
+      "before": "En snedstreckseparerad lista (”/”) av typer av element (också känd som en klass) att lista. (oordnad)",
+      "after": "En snedstrecksseparerad lista över elementtyper (även kallade klasser) att lista. (osorterad)",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1405",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Check if the specified element or plugin exists",
+      "before": "Kontrollera om det angivna elementet eller insticksmodulen existerar",
+      "after": "Kontrollera om det angivna elementet eller den angivna insticksmodulen finns",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1413",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Print supported URI schemes, with the elements that implement them",
+      "before": "Skriv ut uri-scheman som stöds, tillsammans med elementen som implementerar dem",
+      "after": "Skriv ut URI-scheman som stöds, tillsammans med elementen som implementerar dem",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1421",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Color output, even when not sending to a tty.",
+      "before": "Färgutmatning, även då utmatning inte skickas till en tty.",
+      "after": "Färgad utdata, även när den inte skickas till en tty.",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1453",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Setting pipeline to PLAYING ...\n",
+      "before": "Ställer in rörledningen till PLAYING...\n",
+      "after": "Ställer in pipeline till PLAYING …\n",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1457",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "ERROR: pipeline doesn't want to play.\n",
+      "before": "FEL: rörledningen vill inte spela.\n",
+      "after": "FEL: pipeline vill inte spela.\n",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1481",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Got EOS from element \"%s\".\n",
+      "before": "Fick EOS från element ”%s”.\n",
+      "after": "Fick EOS från elementet ”%s”.\n",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1486",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "EOS received - stopping pipeline...\n",
+      "before": "EOS togs emot - stoppar rörledning...\n",
+      "after": "EOS togs emot – stoppar pipeline …\n",
+      "reason": "Rättar betydelse, svensk grammatik och etablerad GStreamer-terminologi."
+    },
+    {
+      "tp_id": "gstreamer:1537",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Pipeline is PREROLLED ...\n",
+      "before": "Rörledningen har utfört PREROLL...\n",
+      "after": "Pipeline har utfört PREROLL …\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1553",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Done buffering, setting pipeline to PLAYING ...\n",
+      "before": "Färdig med buffringen, ställer in rörledningen till PLAYING...\n",
+      "after": "Buffringen är klar, ställer in pipeline till PLAYING …\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1557",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Buffering, setting pipeline to PAUSED ...\n",
+      "before": "Buffrar, ställer in rörledningen till PAUSED...\n",
+      "after": "Buffrar, ställer in pipeline till PAUSED …\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1562",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Redistribute latency...\n",
+      "before": "Fördröjning för vidaresändning...\n",
+      "after": "Omfördelar fördröjningen …\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1571",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Interrupt: Stopping pipeline ...\n",
+      "before": "Avbrott: Stoppar rörledningen ...\n",
+      "after": "Avbrott: Stoppar pipeline …\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1577",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Interrupt while waiting for EOS - stopping pipeline...\n",
+      "before": "Avbrott medan EOS väntades på: Stoppar rörledningen...\n",
+      "after": "Avbrott medan EOS inväntades – stoppar pipeline …\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1581",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "EOS on shutdown enabled -- Forcing EOS on the pipeline\n",
+      "before": "EOS vid avstängning aktiverad -- Tvingar EOS på rörledningen\n",
+      "after": "EOS vid avstängning är aktiverat – tvingar EOS på pipeline\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1604",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "ERROR: pipeline doesn't want to preroll.\n",
+      "before": "FEL: rörledningen vill inte utföra preroll.\n",
+      "after": "FEL: pipeline vill inte utföra PREROLL.\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1617",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Output tags (also known as metadata)",
+      "before": "Mata ut taggar (även känt som metadata)",
+      "after": "Skriv ut taggar (även kallade metadata)",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1633",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Output messages",
+      "before": "Mata ut meddelanden",
+      "after": "Skriv ut meddelanden",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1637",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Do not output status information for the specified property if verbose output is enabled (can be used multiple times)",
+      "before": "Mata inte ut statusinformation för den angivna egenskapen om utförlig diagnostik är aktiverad (kan användas flera gånger)",
+      "after": "Skriv inte ut statusinformation för den angivna egenskapen när utförlig utdata är aktiverad (kan användas flera gånger)",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1645",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Set the name of the program",
+      "before": "Sätt namnet på programmet",
+      "after": "Ange programmets namn",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1657",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Force EOS on sources before shutting the pipeline down",
+      "before": "Tvinga EOS på källor innan rörledningen stängs av",
+      "after": "Tvinga EOS på källor innan pipeline stängs av",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1665",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Do not print current position of pipeline. If this option is unspecified, the position will be printed when stdout is a TTY. To enable printing position when stdout is not a TTY, use \"force-position\" option",
+      "before": "Skriv inte ut aktuell position för rörledningen. Om denna flagga inte är angivet, kommer positionen att skrivas ut då standard ut är en TTY. För att aktivera utskrift av position när standard ut inte är en TTY använd ”force-position”-flaggan",
+      "after": "Skriv inte ut pipelines aktuella position. Om flaggan inte anges skrivs positionen ut när standardutdata är en TTY. Använd flaggan ”force-position” för att skriva ut positionen när standardutdata inte är en TTY.",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1669",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Allow printing current position of pipeline even if stdout is not a TTY. This option has no effect if the \"no-position\" option is specified",
+      "before": "Tillåt utskrift av aktuell position av rörledningen även om standard ut inte är en TTY. Denna flagga har ingen effekt om flaggan ”no-position” är angiven",
+      "after": "Tillåt att pipelines aktuella position skrivs ut även om standardutdata inte är en TTY. Flaggan har ingen effekt om ”no-position” anges.",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1673",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "ERROR: pipeline could not be constructed: %s.\n",
+      "before": "FEL: rörledningen kunde inte konstrueras: %s.\n",
+      "after": "FEL: pipeline kunde inte konstrueras: %s.\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1678",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "ERROR: pipeline could not be constructed.\n",
+      "before": "FEL: rörledningen kunde inte konstrueras.\n",
+      "after": "FEL: pipeline kunde inte konstrueras.\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1682",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "WARNING: erroneous pipeline: %s\n",
+      "before": "VARNING: felaktig rörledning: %s\n",
+      "after": "VARNING: felaktig pipeline: %s\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1691",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Setting pipeline to PAUSED ...\n",
+      "before": "Ställer in rörledningen till PAUSED...\n",
+      "after": "Ställer in pipeline till PAUSED …\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1695",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Failed to set pipeline to PAUSED.\n",
+      "before": "Misslyckades med att sätta rörledningen till PAUSED.\n\n",
+      "after": "Misslyckades med att ställa in pipeline till PAUSED.\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1701",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Pipeline is live and does not need PREROLL ...\n",
+      "before": "Rörledningen lever och behöver inte PREROLL ...\n",
+      "after": "Pipeline är live och behöver inte PREROLL …\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1705",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Pipeline is PREROLLING ...\n",
+      "before": "Rörledningen utför PREROLL...\n",
+      "after": "Pipeline utför PREROLL …\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1713",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Setting pipeline to NULL ...\n",
+      "before": "Ställer in rörledningen till NULL...\n",
+      "after": "Ställer in pipeline till NULL …\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gstreamer:1717",
+      "project": "tp:gstreamer-1.27.90",
+      "msgid": "Freeing pipeline ...\n",
+      "before": "Frigör rörledning ...\n",
+      "after": "Frigör pipeline …\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gtick:22",
+      "project": "tp:gtick-0.5.4",
+      "msgid": "Usage: %s [OPTION...]\n\nOptions:\n  -h, --help              Show this help message\n  -v, --version           Print version information\n  -d, --debug[=level]     Print additional runtime debugging data to stdout\n\n",
+      "before": "Användning: %s [FLAGGA…]\n\nAlternativ:\n  -h, --help              Visa detta hjälpmeddelande\n  -v, --version           Skriv ut versionsinformation\n  -d, --debug[=nivå]      Skriv ut ytterligare felsökningsdata vid körning till standard ut\n\n",
+      "after": "Användning: %s [FLAGGA…]\n\nAlternativ:\n  -h, --help              Visa detta hjälpmeddelande\n  -v, --version           Skriv ut versionsinformation\n  -d, --debug[=nivå]      Skriv ut ytterligare felsökningsdata vid körning till standardutdata\n\n",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gtick:314",
+      "project": "tp:gtick-0.5.4",
+      "msgid": "_Visual Tick",
+      "before": "_Grafiska tick",
+      "after": "_Visuellt tick",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gtick:435",
+      "project": "tp:gtick-0.5.4",
+      "msgid": "Beat Accent",
+      "before": "Accent på slag",
+      "after": "Betoning av slag",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
+    },
+    {
+      "tp_id": "gtick:439",
+      "project": "tp:gtick-0.5.4",
+      "msgid": "Couldn't start metronome.\nPlease check if specified sound device\nand sample file are accessible.",
+      "before": "Kunde inte starta metronom.\nVar god kontrollera att den specificerade ljudenheten\noch samplingsfilen är tillgängliga.",
+      "after": "Kunde inte starta metronomen.\nKontrollera att den angivna ljudenheten\noch samplingsfilen är tillgängliga.",
+      "reason": "Rättar teknisk terminologi, svenska och direkt uppmaningsform."
     }
   ]
 }
