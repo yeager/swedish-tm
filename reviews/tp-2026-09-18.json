@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 86200,
+  "reviewed_tp_entries": 86364,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 20923,
+  "changed_pairs": 20984,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 20923,
+      "confirmed_swedish_changes": 20984,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "418f6ec403b20c225cc866aeb4d328ad957366039961b3d12e36f108c8f3ad48"
+      "sha256": "98ecd679952871a3f7b329f91750da704c9049c76b1b59eee8ded2e93b446355"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 20923,
+      "confirmed_swedish_changes": 20984,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "2d17f3a09b7752f00349955b6015a1428a7e7409d704fa3de9bf384575b02a1c"
+      "sha256": "288def604f076684d9f1188f5115cdab9389d2880f169cf745e22247ab8e4e36"
     }
   },
   "unmapped_plural_fixes": [
@@ -83111,7 +83111,7 @@
       "project": "tp:nano-8.4-pre1",
       "msgid": "Unpaired quote in syntax name",
       "before": "Syntaxnamn har omatchat citattecken",
-      "after": "Oparat citattecken i syntaxnamnet",
+      "after": "Omatchat citattecken i syntaxnamnet",
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
     },
     {
@@ -88096,6 +88096,494 @@
       "msgid": "junk after from-list",
       "before": "skräp efter from-lista",
       "after": "skräp efter from-listan",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:62",
+      "project": "tp:pies-1.9",
+      "msgid": "ACL not defined: %s",
+      "before": "ACL inte definierad: %s",
+      "after": "ACL:en är inte definierad: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:67",
+      "project": "tp:pies-1.9",
+      "msgid": "expected identity list, but found end of statement",
+      "before": "förväntade identitetslista, men hittade slut på sats",
+      "after": "förväntade en identitetslista, men hittade satsslut",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:84",
+      "project": "tp:pies-1.9",
+      "msgid": "ACL name is not expected",
+      "before": "ACL-namn är inte väntat",
+      "after": "ACL-namn förväntas inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:96",
+      "project": "tp:pies-1.9",
+      "msgid": "unexpected block statement",
+      "before": "oväntad block-sats",
+      "after": "oväntad blocksats",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:123",
+      "project": "tp:pies-1.9",
+      "msgid": "cannot install ACL: %s",
+      "before": "det går inte att installera ACL:et: %s",
+      "after": "kan inte installera ACL: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:147",
+      "project": "tp:pies-1.9",
+      "msgid": "cyclic dependencies detected:",
+      "before": "cykliska beroenden upptäckta:",
+      "after": "cykliska beroenden upptäcktes:",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:176",
+      "project": "tp:pies-1.9",
+      "msgid": "pass-fd-socket ignored: wrong mode",
+      "before": "pass-fd-uttag ignoreras: fel läge",
+      "after": "pass-fd-socket ignoreras: fel läge",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:184",
+      "project": "tp:pies-1.9",
+      "msgid": "must supply pass-fd-socket in this mode",
+      "before": "måste ange pass-fd-uttag i detta läge",
+      "after": "pass-fd-socket måste anges i detta läge",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:188",
+      "project": "tp:pies-1.9",
+      "msgid": "pass-fd-socket must be an absolute file name or chdir must be specified",
+      "before": "pass-fd-uttag måste vara ett absolut filnamn eller chdir måste anges",
+      "after": "pass-fd-socket måste vara ett absolut filnamn eller så måste chdir anges",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:196",
+      "project": "tp:pies-1.9",
+      "msgid": "TCPMUX master not specified, assuming \"tcpmux\"",
+      "before": "TCPMUX-master är inte angiven, antar \"tcpmux\"",
+      "after": "TCPMUX-master är inte angiven, antar ”tcpmux”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:200",
+      "project": "tp:pies-1.9",
+      "msgid": "SystemV init support is not compiled in",
+      "before": "SystemV-initstöd är inte inkompilerat",
+      "after": "System V-initstöd är inte inkompilerat",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:213",
+      "project": "tp:pies-1.9",
+      "msgid": "stdout redirection invalid in this mode",
+      "before": "stdout-omdirigering ogiltig i detta läge",
+      "after": "standardutdataomdirigering är ogiltig i detta läge",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:217",
+      "project": "tp:pies-1.9",
+      "msgid": "%s: must be an absolute file name or chdir must be specified",
+      "before": "%s: måste vara ett absolut filnamn eller chdir måste anges",
+      "after": "%s måste vara ett absolut filnamn eller så måste chdir anges",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:226",
+      "project": "tp:pies-1.9",
+      "msgid": "No components defined",
+      "before": "Inga komponenter definierade",
+      "after": "Inga komponenter är definierade",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:238",
+      "project": "tp:pies-1.9",
+      "msgid": "can't parse input line: %s",
+      "before": "det går inte att tolka inmatningsraden: %s",
+      "after": "kan inte tolka indataraden: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:247",
+      "project": "tp:pies-1.9",
+      "msgid": "cannot install header: %s",
+      "before": "det går inte att installera huvudet: %s",
+      "after": "kan inte installera huvudet: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:252",
+      "project": "tp:pies-1.9",
+      "msgid": "cannot install output header: %s",
+      "before": "det går inte att installera utdatahuvudet: %s",
+      "after": "kan inte installera utdatahuvudet: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:257",
+      "project": "tp:pies-1.9",
+      "msgid": "%s: can't authenticate: %s",
+      "before": "%s: det går inte att autentisera: %s",
+      "after": "%s: kan inte autentisera: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:262",
+      "project": "tp:pies-1.9",
+      "msgid": "trying identity provider %s...",
+      "before": "försöker identitetsleverantör %s...",
+      "after": "försöker använda identitetsleverantören %s...",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:267",
+      "project": "tp:pies-1.9",
+      "msgid": "%s granted admin access via %s",
+      "before": "%s fick administratörsåtkomst via %s",
+      "after": "%s beviljades administratörsåtkomst via %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:272",
+      "project": "tp:pies-1.9",
+      "msgid": "%s authenticated via %s",
+      "before": "%s autentiserad via %s",
+      "after": "%s autentiserades via %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:277",
+      "project": "tp:pies-1.9",
+      "msgid": "%s authenticated via %s, component %s",
+      "before": "%s autentiserad via %s, komponent %s",
+      "after": "%s autentiserades via %s, komponent %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:282",
+      "project": "tp:pies-1.9",
+      "msgid": "%s authenticated via %s, but failed ACL check",
+      "before": "%s autentiserad via %s, men ACL-kontrollen misslyckades",
+      "after": "%s autentiserades via %s, men ACL-kontrollen misslyckades",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:287",
+      "project": "tp:pies-1.9",
+      "msgid": "error reading from control socket: %s",
+      "before": "fel vid läsning från kontrolluttag: %s",
+      "after": "fel vid läsning från kontrolluttaget: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:292",
+      "project": "tp:pies-1.9",
+      "msgid": "error writing to control socket",
+      "before": "fel vid skrivning till kontrolluttag",
+      "after": "fel vid skrivning till kontrolluttaget",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:296",
+      "project": "tp:pies-1.9",
+      "msgid": "error writing to control socket: %s",
+      "before": "fel vid skrivning till kontrolluttag: %s",
+      "after": "fel vid skrivning till kontrolluttaget: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:310",
+      "project": "tp:pies-1.9",
+      "msgid": "can't create control socket %s",
+      "before": "det går inte att skapa kontrolluttaget %s",
+      "after": "kan inte skapa kontrolluttaget %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:315",
+      "project": "tp:pies-1.9",
+      "msgid": "out of memory trying to log a message",
+      "before": "slut på minne vid försök att logga ett meddelande",
+      "after": "minnet tog slut vid försök att logga ett meddelande",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:330",
+      "project": "tp:pies-1.9",
+      "msgid": "cannot open file %s: %s",
+      "before": "det går inte att öppna filen %s: %s",
+      "after": "kan inte öppna filen %s: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:340",
+      "project": "tp:pies-1.9",
+      "msgid": "%s: cannot get peer name: %s",
+      "before": "%s: det går inte att hämta peer-namnet: %s",
+      "after": "%s: kan inte hämta motpartens namn: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:345",
+      "project": "tp:pies-1.9",
+      "msgid": "cannot open configuration file %s: %s",
+      "before": "det går inte att öppna konfigurationsfilen %s: %s",
+      "after": "kan inte öppna konfigurationsfilen %s: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:354",
+      "project": "tp:pies-1.9",
+      "msgid": "bad protocol for tcpmux service",
+      "before": "felaktigt protokoll för tcpmux-tjänst",
+      "after": "felaktigt protokoll för tcpmux-tjänsten",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:358",
+      "project": "tp:pies-1.9",
+      "msgid": "bad socket type for tcpmux service",
+      "before": "felaktig uttagstyp för tcpmux-tjänst",
+      "after": "felaktig uttagstyp för tcpmux-tjänsten",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:375",
+      "project": "tp:pies-1.9",
+      "msgid": "L limit is not implemented",
+      "before": "L-gränsen är ej implementerad",
+      "after": "L-gränsen är inte implementerad",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:379",
+      "project": "tp:pies-1.9",
+      "msgid": "no \"%s\" statement in block",
+      "before": "ingen \"%s\"-sats i blocket",
+      "after": "ingen ”%s”-sats i blocket",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:388",
+      "project": "tp:pies-1.9",
+      "msgid": "unsupported type",
+      "before": "typ som inte stöds",
+      "after": "typen stöds inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:402",
+      "project": "tp:pies-1.9",
+      "msgid": "Specifies action to take when a component finishes with this return code.",
+      "before": "Anger åtgärd att utföra när en komponent avslutas med denna returkod.",
+      "after": "Anger åtgärden som ska utföras när en komponent avslutas med denna returkod.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:414",
+      "project": "tp:pies-1.9",
+      "msgid": "Notification message text (with headers).",
+      "before": "Text för notifieringsmeddelande (med huvuden).",
+      "after": "Text för meddelandet (med huvuden).",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:422",
+      "project": "tp:pies-1.9",
+      "msgid": "%s: not a number",
+      "before": "%s: inte ett nummer",
+      "after": "%s: inte ett tal",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:437",
+      "project": "tp:pies-1.9",
+      "msgid": "cannot get list item",
+      "before": "det går inte att hämta listposten",
+      "after": "kan inte hämta listposten",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:453",
+      "project": "tp:pies-1.9",
+      "msgid": "can't parse legacy env statement",
+      "before": "det går inte att tolka den äldre env-satsen",
+      "after": "kan inte tolka den äldre env-satsen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:473",
+      "project": "tp:pies-1.9",
+      "msgid": "Keep this variable. Unless value is supplied, name can contain wildcards.\nImplies \"clear\".",
+      "before": "Behåll denna variabel. Om inget värde anges kan namnet innehålla jokertecken.\nInnebär \"clear\".",
+      "after": "Behåll denna variabel. Om inget värde anges kan namnet innehålla jokertecken.\nInnebär ”clear”.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:485",
+      "project": "tp:pies-1.9",
+      "msgid": "Set environment variable. Note, that argument must be quoted.",
+      "before": "Sätt miljövariabel. Observera att argumentet måste vara citerat.",
+      "after": "Ange miljövariabeln. Observera att argumentet måste citeras.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:493",
+      "project": "tp:pies-1.9",
+      "msgid": "Evaluate string. Useful for side-effects, e.g. eval ${X:=2}.",
+      "before": "Utvärdera sträng. Användbart för sidoeffekter, t.ex. eval ${X:=2}.",
+      "after": "Utvärdera strängen. Användbart för sidoeffekter, till exempel eval ${X:=2}.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:502",
+      "project": "tp:pies-1.9",
+      "msgid": "Unset environment variable. Name can contain wildcards.",
+      "before": "Avsätt miljövariabel. Namnet kan innehålla jokertecken.",
+      "after": "Avdefiniera miljövariabeln. Namnet kan innehålla jokertecken.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:514",
+      "project": "tp:pies-1.9",
+      "msgid": "expected facility number or symbolic name",
+      "before": "förväntade facilitetstal eller symboliskt namn",
+      "after": "förväntade ett facilitetstal eller ett symboliskt namn",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:555",
+      "project": "tp:pies-1.9",
+      "msgid": "Component execution mode.",
+      "before": "Komponentens körläge.",
+      "after": "Komponentens exekveringsläge.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:579",
+      "project": "tp:pies-1.9",
+      "msgid": "List of flags.",
+      "before": "Lista över flaggor.",
+      "after": "Lista med flaggor.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:595",
+      "project": "tp:pies-1.9",
+      "msgid": "Runlevels to start that component in.",
+      "before": "Runlevels att starta komponenten i.",
+      "after": "Körnivåer där komponenten ska startas.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:599",
+      "project": "tp:pies-1.9",
+      "msgid": "Pass fd through this socket.",
+      "before": "Skicka filbeskrivare (fd) genom detta uttag.",
+      "after": "Skicka filbeskrivaren (fd) genom detta uttag.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:603",
+      "project": "tp:pies-1.9",
+      "msgid": "Time to wait for pass-fd socket to become available.",
+      "before": "Tid att vänta på att pass-fd-uttag blir tillgänglig.",
+      "after": "Tid att vänta på att pass-fd-socket blir tillgänglig.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:607",
+      "project": "tp:pies-1.9",
+      "msgid": "Maximum number of running instances.",
+      "before": "Maximalt antal körande instanser.",
+      "after": "Maximalt antal instanser som körs.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:623",
+      "project": "tp:pies-1.9",
+      "msgid": "Maximum number of times an inetd component can be invoked in one minute.",
+      "before": "Maximalt antal gånger en inetd-komponent kan anropas på en minut.",
+      "after": "Maximalt antal gånger en inetd-komponent kan startas under en minut.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:631",
+      "project": "tp:pies-1.9",
+      "msgid": "Listen on the given url.",
+      "before": "Lyssna på den angivna URL:en.",
+      "after": "Lyssna på angiven URL.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:685",
+      "project": "tp:pies-1.9",
+      "msgid": "Retain supplementary group.",
+      "before": "Behåll kompletterande grupp.",
+      "after": "Behåll den kompletterande gruppen.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:701",
+      "project": "tp:pies-1.9",
+      "msgid": "Set system limits",
+      "before": "Ställ in systemgränser",
+      "after": "Ange systemgränser",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:729",
+      "project": "tp:pies-1.9",
+      "msgid": "tag: exit-code-list",
+      "before": "tagg: exit-code-list",
+      "after": "tag: exit-code-list",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:741",
+      "project": "tp:pies-1.9",
+      "msgid": "tag",
+      "before": "tagg",
+      "after": "tag",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:745",
+      "project": "tp:pies-1.9",
+      "msgid": "Tag of master TCPMUX component.",
+      "before": "Tagg för huvud‑TCPMUX‑komponent.",
+      "after": "Tagg för TCPMUX-huvudkomponenten.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:749",
+      "project": "tp:pies-1.9",
+      "msgid": "expected block statement",
+      "before": "förväntade block-sats",
+      "after": "en blocksats förväntades",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "pies:753",
+      "project": "tp:pies-1.9",
+      "msgid": "Set connection ACL.",
+      "before": "Sätt anslutnings-ACL.",
+      "after": "Ange anslutnings-ACL.",
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
     },
     {
