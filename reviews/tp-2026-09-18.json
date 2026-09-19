@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 78783,
+  "reviewed_tp_entries": 79619,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 18027,
+  "changed_pairs": 18377,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 18027,
+      "confirmed_swedish_changes": 18377,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "50fbeddb4f365c1b743ce74ae1d9c25064f201baa1470746244c7468aba923da"
+      "sha256": "a34bec65753e738d592d12672eb4691cc5133b3be9b6fff135385b03ca52e738"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 18027,
+      "confirmed_swedish_changes": 18377,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "b775cc85f85b5832eacc02b2fd874d7e2c0b06048dc26d124321c3215e08b159"
+      "sha256": "2bffa09476153ed043a0af8688afcfcf2c33e771965e6be1d6228745026da426"
     }
   },
   "unmapped_plural_fixes": [
@@ -64921,6 +64921,2806 @@
       "before": "negativ-expire-interval gäller endast för cache-databas",
       "after": "negative-expire-interval gäller endast för cachedatabasen",
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "mailfromd:632",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set database record expiration interval",
+      "before": "Ange utgångsintervall för databasposter",
+      "after": "Ange hur länge databasposter ska sparas",
+      "reason": "Tydligare och idiomatiskt svenskt språkbruk för tidsintervallet före databasposters utgång."
+    },
+    {
+      "tp_id": "mailfromd:641",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set positive expiration interval (for database \"cache\" only)",
+      "before": "Ange positivt utgångsintervall (endast för databasens \"cache\")",
+      "after": "Ange ett positivt utgångsintervall (endast för databasen ”cache”)",
+      "reason": "Kompletterar svensk sats och använder typografiska citattecken i användartext."
+    },
+    {
+      "tp_id": "mailfromd:645",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set negative expiration interval (for database id \"cache\")",
+      "before": "Ange negativt utgångsintervall (för databas-ID \"cache\")",
+      "after": "Ange ett negativt utgångsintervall (för databas-id:t ”cache”)",
+      "reason": "Kompletterar svensk sats och följer svensk skrivning av sammansatt förkortning."
+    },
+    {
+      "tp_id": "mailfromd:691",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot configure asynchronous syslog: %s; falling back to system one",
+      "before": "kan inte konfigurera asynkron syslog: %s; faller tillbaka till system ett",
+      "after": "kan inte konfigurera asynkron syslogg: %s; använder systemets syslogg i stället",
+      "reason": "Rättar ofullständig svensk konstruktion och använder konsekvent benämning på sysloggtjänsten."
+    },
+    {
+      "tp_id": "mailfromd:706",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot get pid from pidfile `%s'",
+      "before": "kan inte hämta pid från pidfile `%s'",
+      "after": "kan inte hämta process-id från pidfilen `%s`",
+      "reason": "Rättad svensk teknisk terminologi och idiomatiskt språkbruk."
+    },
+    {
+      "tp_id": "mailfromd:716",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot unlink pidfile `%s': %s",
+      "before": "kan inte ta bort länken till pidfilen `%s': %s",
+      "after": "kan inte ta bort pidfilen `%s`: %s",
+      "reason": "Rättad svensk teknisk terminologi och idiomatiskt språkbruk."
+    },
+    {
+      "tp_id": "mailfromd:726",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "when running as root, --user option is mandatory.",
+      "before": "när du kör som root är alternativet --user obligatoriskt.",
+      "after": "när programmet körs som root krävs alternativet --user.",
+      "reason": "Rättad svensk teknisk terminologi och idiomatiskt språkbruk."
+    },
+    {
+      "tp_id": "mailfromd:740",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "fork: %s",
+      "before": "gaffel: %s",
+      "after": "förgrening: %s",
+      "reason": "Rättad svensk systemterminologi, grammatik och verbform i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:745",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot open input stream: %s",
+      "before": "kan inte öppna inmatningsström: %s",
+      "after": "kan inte öppna indataströmmen: %s",
+      "reason": "Rättad svensk systemterminologi, grammatik och verbform i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:750",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "syntax check failed; restart cancelled",
+      "before": "syntaxkontroll misslyckades; omstart avbruten",
+      "after": "syntaxkontrollen misslyckades; omstarten avbröts",
+      "reason": "Rättad svensk systemterminologi, grammatik och verbform i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:754",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot change to %s: %s",
+      "before": "kan inte ändras till %s: %s",
+      "after": "kan inte byta till %s: %s",
+      "reason": "Rättad svensk systemterminologi, grammatik och verbform i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:759",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "program started without full file name",
+      "before": "program startat utan fullständigt filnamn",
+      "after": "programmet startades utan fullständigt filnamn",
+      "reason": "Rättad svensk systemterminologi, grammatik och verbform i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:767",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot become a daemon: %s",
+      "before": "kan inte bli en daemon: %s",
+      "after": "kan inte bli en demon: %s",
+      "reason": "Rättad svensk systemterminologi, grammatik och verbform i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:797",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot get URL scheme: %s",
+      "before": "kan inte få URL-schema: %s",
+      "after": "kan inte hämta URL-schemat: %s",
+      "reason": "Rättad svensk teknisk terminologi och fullständig grammatisk formulering i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:817",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "port out of range: %u",
+      "before": "port utanför intervallet: %u",
+      "after": "portnumret ligger utanför intervallet: %u",
+      "reason": "Rättad svensk teknisk terminologi och fullständig grammatisk formulering i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:841",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s [%lu] terminated on signal %d",
+      "before": "%s [%lu] avbruten vid signal %d",
+      "after": "%s [%lu] avslutades av signal %d",
+      "reason": "Rättad svensk teknisk terminologi och fullständig grammatisk formulering i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:846",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s [%lu] stopped on signal %d",
+      "before": "%s [%lu] stoppad på signal %d",
+      "after": "%s [%lu] stoppades av signal %d",
+      "reason": "Rättad svensk teknisk terminologi och fullständig grammatisk formulering i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:851",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s [%lu] terminated with unrecognized status",
+      "before": "%s [%lu] avbruten med okänd status",
+      "after": "%s [%lu] avslutades med okänd status",
+      "reason": "Rättad svensk teknisk terminologi och fullständig grammatisk formulering i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:861",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "server %s: undefined ACL result; access from %s allowed",
+      "before": "server %s: odefinierat ACL-resultat; åtkomst från %s tillåten",
+      "after": "server %s: odefinierat resultat från ACL:en; åtkomst från %s tillåts",
+      "reason": "Rättad svensk systemterminologi, verbform och idiomatiskt språkbruk i serverdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:871",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "removing shut down server %s",
+      "before": "ta bort avstängd server %s",
+      "after": "tar bort avstängd server %s",
+      "reason": "Rättad svensk systemterminologi, verbform och idiomatiskt språkbruk i serverdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:876",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "server %s: too many children (%lu)",
+      "before": "server %s: för många barn (%lu)",
+      "after": "server %s: för många underordnade processer (%lu)",
+      "reason": "Rättad svensk systemterminologi, verbform och idiomatiskt språkbruk i serverdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:896",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s: file %s exists but cannot be stat'd: %s",
+      "before": "%s: filen %s finns men kan inte statas: %s",
+      "after": "%s: filen %s finns men kan inte avläsas med stat: %s",
+      "reason": "Rättad svensk systemterminologi, verbform och idiomatiskt språkbruk i serverdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:906",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s: cannot unlink file %s: %s",
+      "before": "%s: kan inte avlänka fil %s: %s",
+      "after": "%s: kan inte ta bort filen %s: %s",
+      "reason": "Rättad svensk systemterminologi, verbform och idiomatiskt språkbruk i serverdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:916",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s: cannot bind to %s: %s",
+      "before": "%s: kan inte bindas till %s: %s",
+      "after": "%s: kan inte binda till %s: %s",
+      "reason": "Rättad svensk systemterminologi, verbform och idiomatiskt språkbruk i serverdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:921",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s: listen on %s failed: %s",
+      "before": "%s: lyssna på %s misslyckades: %s",
+      "after": "%s: kan inte lyssna på %s: %s",
+      "reason": "Rättad svensk systemterminologi, verbform och idiomatiskt språkbruk i serverdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:926",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "no servers configured",
+      "before": "inga servrar konfigurerade",
+      "after": "inga servrar har konfigurerats",
+      "reason": "Rättad svensk systemterminologi, verbform och idiomatiskt språkbruk i serverdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:949",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "missing replacement expression",
+      "before": "saknas ersättning uttryck",
+      "after": "ersättningsuttryck saknas",
+      "reason": "Rättad svensk programterminologi, grammatik och direkt uppmaning utan omotiverad artighetsmarkör."
+    },
+    {
+      "tp_id": "mailfromd:953",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "missing trailing delimiter",
+      "before": "saknar efterföljande avgränsare",
+      "after": "efterföljande avgränsare saknas",
+      "reason": "Rättad svensk programterminologi, grammatik och direkt uppmaning utan omotiverad artighetsmarkör."
+    },
+    {
+      "tp_id": "mailfromd:961",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "back reference out of range",
+      "before": "bakre referens utanför intervallet",
+      "after": "bakåtreferens utanför intervallet",
+      "reason": "Rättad svensk programterminologi, grammatik och direkt uppmaning utan omotiverad artighetsmarkör."
+    },
+    {
+      "tp_id": "mailfromd:965",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "refusing to run as root",
+      "before": "vägrar att ställa upp som root",
+      "after": "vägrar att köras som root",
+      "reason": "Rättad svensk programterminologi, grammatik och direkt uppmaning utan omotiverad artighetsmarkör."
+    },
+    {
+      "tp_id": "mailfromd:1031",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "INTERNAL ERROR at %s:%d: please report",
+      "before": "INTERNT FEL vid %s:%d: vänligen rapportera",
+      "after": "INTERNT FEL vid %s:%d: rapportera",
+      "reason": "Rättad svensk programterminologi, grammatik och direkt uppmaning utan omotiverad artighetsmarkör."
+    },
+    {
+      "tp_id": "mailfromd:1036",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unrecognized time format (near `%s')",
+      "before": "oigenkänt tidsformat (nära `%s')",
+      "after": "okänt tidsformat (nära `%s`)",
+      "reason": "Rättad svensk programterminologi, grammatik och direkt uppmaning utan omotiverad artighetsmarkör."
+    },
+    {
+      "tp_id": "mailfromd:1042",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "this statement has no effect in %s",
+      "before": "detta uttalande har ingen effekt i %s",
+      "after": "den här satsen har ingen effekt i %s",
+      "reason": "Rättad svensk programterminologi, grammatik och direkt uppmaning utan omotiverad artighetsmarkör."
+    },
+    {
+      "tp_id": "mailfromd:1071",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "expected %s, but got %3.3s",
+      "before": "förväntade sig %s, men fick %3.3s",
+      "after": "förväntade %s men fick %3.3s",
+      "reason": "Rättad svensk teknisk terminologi, svensk sammansättning och imperativ i kommandoradshjälp."
+    },
+    {
+      "tp_id": "mailfromd:1076",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "expected \"%s\", but got %s",
+      "before": "förväntade sig \"%s\", men fick %s",
+      "after": "förväntade ”%s” men fick %s",
+      "reason": "Rättad svensk teknisk terminologi, svensk sammansättning och imperativ i kommandoradshjälp."
+    },
+    {
+      "tp_id": "mailfromd:1089",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "wrong assignment format: %s",
+      "before": "fel format på uppgiften: %s",
+      "after": "felaktigt tilldelningsformat: %s",
+      "reason": "Rättad svensk teknisk terminologi, svensk sammansättning och imperativ i kommandoradshjälp."
+    },
+    {
+      "tp_id": "mailfromd:1099",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unknown timeout: %c",
+      "before": "okänd timeout: %c",
+      "after": "okänd tidsgräns: %c",
+      "reason": "Rättad svensk teknisk terminologi, svensk sammansättning och imperativ i kommandoradshjälp."
+    },
+    {
+      "tp_id": "mailfromd:1104",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "missing '=' after %c",
+      "before": "saknar '=' efter %c",
+      "after": "”=” saknas efter %c",
+      "reason": "Rättad svensk teknisk terminologi, svensk sammansättning och imperativ i kommandoradshjälp."
+    },
+    {
+      "tp_id": "mailfromd:1109",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unexpected character at %s",
+      "before": "oväntad karaktär vid %s",
+      "after": "oväntat tecken vid %s",
+      "reason": "Rättad svensk teknisk terminologi, svensk sammansättning och imperativ i kommandoradshjälp."
+    },
+    {
+      "tp_id": "mailfromd:1114",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "invalid timeout near %s",
+      "before": "ogiltig timeout nära %s",
+      "after": "ogiltig tidsgräns nära %s",
+      "reason": "Rättad svensk teknisk terminologi, svensk sammansättning och imperativ i kommandoradshjälp."
+    },
+    {
+      "tp_id": "mailfromd:1146",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "use the SMTP protocol on standard input and output (same as -bs)",
+      "before": "använda SMTP-protokollet på standard in- och utdata (samma som -bs)",
+      "after": "använd SMTP-protokollet på standardindata och standardutdata (samma som -bs)",
+      "reason": "Rättad svensk teknisk terminologi, svensk sammansättning och imperativ i kommandoradshjälp."
+    },
+    {
+      "tp_id": "mailfromd:1150",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "run as daemon (same as -bd)",
+      "before": "kör som daemon (samma som -bd)",
+      "after": "kör som demon (samma som -bd)",
+      "reason": "Rättad svensk teknisk terminologi, svensk sammansättning och imperativ i kommandoradshjälp."
+    },
+    {
+      "tp_id": "mailfromd:1159",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "run with this user privileges",
+      "before": "körs med dessa användarrättigheter",
+      "after": "kör med den här användarens behörighet",
+      "reason": "Rättad svensk teknisk terminologi, svensk sammansättning och imperativ i kommandoradshjälp."
+    },
+    {
+      "tp_id": "mailfromd:1163",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "retain the supplementary group NAME when switching to user privileges",
+      "before": "behålla den kompletterande gruppen NAME när du byter till användarrättigheter",
+      "after": "behåll tilläggsgruppen NAME när du byter till användarbehörighet",
+      "reason": "Rättad svensk teknisk terminologi, svensk sammansättning och imperativ i kommandoradshjälp."
+    },
+    {
+      "tp_id": "mailfromd:1175",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "define Sendmail macro",
+      "before": "define Sendmail makro",
+      "after": "definiera Sendmail-makro",
+      "reason": "Rättad svensk teknisk terminologi, svensk sammansättning och imperativ i kommandoradshjälp."
+    },
+    {
+      "tp_id": "mailfromd:1187",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "pass temporary directory to mailfromd as its state dir (with -Xauto)",
+      "before": "skicka en tillfällig katalog till mailfromd som dess state dir (med -Xauto)",
+      "after": "skicka en tillfällig katalog till mailfromd som dess tillståndskatalog (med -Xauto)",
+      "reason": "Rättad svensk systemterminologi, sammansättning och kommandohjälpens imperativ."
+    },
+    {
+      "tp_id": "mailfromd:1195",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "set the body chunk for xxfi_body calls",
+      "before": "ställa in kroppsbiten för xxfi_body-anrop",
+      "after": "ange datasegmentet för xxfi_body-anrop",
+      "reason": "Rättad svensk systemterminologi, sammansättning och kommandohjälpens imperativ."
+    },
+    {
+      "tp_id": "mailfromd:1203",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "force using the given Milter protocol version number",
+      "before": "kraft med hjälp av det angivna versionsnumret för Milter-protokollet",
+      "after": "tvinga användning av det angivna versionsnumret för Milter-protokollet",
+      "reason": "Rättad svensk systemterminologi, sammansättning och kommandohjälpens imperativ."
+    },
+    {
+      "tp_id": "mailfromd:1215",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "set Milter protocol capabilities",
+      "before": "ställa in Milter-protokollets kapacitet",
+      "after": "ange Milter-protokollets funktioner",
+      "reason": "Rättad svensk systemterminologi, sammansättning och kommandohjälpens imperativ."
+    },
+    {
+      "tp_id": "mailfromd:1244",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "set readline prompt",
+      "before": "ställa in readline prompt",
+      "after": "ange readline-prompten",
+      "reason": "Rättad svensk systemterminologi, sammansättning och kommandohjälpens imperativ."
+    },
+    {
+      "tp_id": "mailfromd:1266",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "increase verbosity level",
+      "before": "öka ordrikhetsnivån",
+      "after": "öka detaljnivån",
+      "reason": "Rättad svensk systemterminologi, sammansättning och kommandohjälpens imperativ."
+    },
+    {
+      "tp_id": "mailfromd:1275",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "set Gacopyz log level",
+      "before": "ställa in Gacopyz loggnivå",
+      "after": "ange Gacopyz-loggnivån",
+      "reason": "Rättad svensk systemterminologi, sammansättning och kommandohjälpens imperativ."
+    },
+    {
+      "tp_id": "mailfromd:1287",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "set name of the TLS CA file",
+      "before": "ange namn på TLS CA-filen",
+      "after": "ange namnet på TLS-CA-filen",
+      "reason": "Rättad svensk systemterminologi, sammansättning och kommandohjälpens imperativ."
+    },
+    {
+      "tp_id": "mailfromd:1305",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot stat file `%s': %s",
+      "before": "kan inte stat-fil `%s': %s",
+      "after": "kan inte avläsa filen `%s` med stat: %s",
+      "reason": "Rättad svensk systemterminologi, sammansättning och kommandohjälpens imperativ."
+    },
+    {
+      "tp_id": "mailfromd:1310",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot unlink %s: %s",
+      "before": "kan inte ta bort länken %s: %s",
+      "after": "kan inte ta bort %s: %s",
+      "reason": "Rättad svensk systemterminologi, sammansättning och kommandohjälpens imperativ."
+    },
+    {
+      "tp_id": "mailfromd:1335",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "mailfromd terminated on signal %d",
+      "before": "mailfromd avslutat på signal %d",
+      "after": "mailfromd avslutades av signal %d",
+      "reason": "Rättad svensk systemterminologi, sammansättning och kommandohjälpens imperativ."
+    },
+    {
+      "tp_id": "mailfromd:1340",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "mailfromd terminated with unrecognized status",
+      "before": "mailfromd avslutat med okänd status",
+      "after": "mailfromd avslutades med okänd status",
+      "reason": "Rättad svensk systemterminologi, sammansättning och kommandohjälpens imperativ."
+    },
+    {
+      "tp_id": "mailfromd:1344",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "can't unlink %s: %s",
+      "before": "kan inte ta bort länken %s: %s",
+      "after": "kan inte ta bort %s: %s",
+      "reason": "Rättad svensk systemterminologi, sammansättning och kommandohjälpens imperativ."
+    },
+    {
+      "tp_id": "mailfromd:1349",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot fork: %s",
+      "before": "kan inte gaffla: %s",
+      "after": "kan inte förgrena: %s",
+      "reason": "Rättad svensk systemterminologi, verbform och preposition i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1363",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot open trace output: %s",
+      "before": "kan inte öppna spårningsutgång: %s",
+      "after": "kan inte öppna spårningsutdata: %s",
+      "reason": "Rättad svensk systemterminologi för utdata; formatvariabel bevarad."
+    },
+    {
+      "tp_id": "mailfromd:1381",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot connect to the milter using %s",
+      "before": "kan inte ansluta till miltern med hjälp av %s",
+      "after": "kan inte ansluta till miltern via %s",
+      "reason": "Rättad svensk systemterminologi, verbform och preposition i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1390",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "write failed: %s",
+      "before": "skrivning misslyckades: %s",
+      "after": "skrivningen misslyckades: %s",
+      "reason": "Rättad svensk systemterminologi, verbform och preposition i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1395",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "read failed: %s",
+      "before": "läsning misslyckades: %s",
+      "after": "läsningen misslyckades: %s",
+      "reason": "Rättad svensk systemterminologi, verbform och preposition i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1420",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Cannot open temporary file: %s",
+      "before": "Det går inte att öppna en temporär fil: %s",
+      "after": "kan inte öppna en tillfällig fil: %s",
+      "reason": "Rättad svensk systemterminologi, verbform och preposition i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1425",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "error writing temporary stream: %s",
+      "before": "fel vid skrivning av tillfällig ström: %s",
+      "after": "fel vid skrivning till tillfällig dataström: %s",
+      "reason": "Rättad svensk systemterminologi, verbform och preposition i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1434",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "no more message slots available",
+      "before": "inga fler meddelandeplatser tillgängliga",
+      "after": "inga fler meddelandeplatser finns tillgängliga",
+      "reason": "Rättad svensk systemterminologi, verbform och preposition i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1440",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "requested item (#%ld) not found",
+      "before": "begärd artikel (#%ld) hittades inte",
+      "after": "den begärda posten (#%ld) hittades inte",
+      "reason": "Rättad svensk systemterminologi, verbform och preposition i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1445",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "requested item (%s,%ld) not found",
+      "before": "begärd artikel (%s,%ld) hittades inte",
+      "after": "den begärda posten (%s,%ld) hittades inte",
+      "reason": "Rättad svensk systemterminologi, verbform och preposition i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1450",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "bad numeric file mode",
+      "before": "dåligt numeriskt filläge",
+      "after": "ogiltigt numeriskt filläge",
+      "reason": "Rättad svensk systemterminologi, verbform och preposition i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1459",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "bad symbolic file mode (near %s)",
+      "before": "dåligt symboliskt filläge (nära %s)",
+      "after": "ogiltigt symboliskt filläge (nära %s)",
+      "reason": "Rättad svensk systemterminologi, verbform och preposition i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1464",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot create list: %s",
+      "before": "kan inte skapa lista: %s",
+      "after": "kan inte skapa en lista: %s",
+      "reason": "Rättad svensk systemterminologi, verbform och preposition i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1484",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "failed to insert data to %s: %s %s: %s",
+      "before": "misslyckades med att infoga data till %s: %s %s: %s",
+      "after": "kunde inte infoga data i %s: %s %s: %s",
+      "reason": "Rättad svensk systemterminologi, verbform och preposition i programdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1533",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot insert datum `%-.*s' in greylist database %s: %s",
+      "before": "kan inte infoga datum `%-.*s' i greylistdatabasen %s: %s",
+      "after": "kan inte infoga data `%-.*s` i greylistdatabasen %s: %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1538",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Cannot insert datum `%-.*s' in greylist database %s: %s",
+      "before": "Det går inte att infoga datum `%-.*s' i greylistdatabasen %s: %s",
+      "after": "kan inte infoga data `%-.*s` i greylistdatabasen %s: %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1543",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "is_greylisted is not implemented for traditional greylist databases; see documentation, chapter %s %s for more info",
+      "before": "is_greylisted är inte implementerat för traditionella greylist-databaser; se dokumentation, kapitel %s %s för mer information",
+      "after": "is_greylisted är inte implementerat för traditionella greylistdatabaser; se dokumentationen, kapitel %s %s, för mer information",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1548",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "no such db format: %s",
+      "before": "inget sådant db-format: %s",
+      "after": "inget sådant databasformat: %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1563",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "bad signing algorithm: %s",
+      "before": "dålig signeringsalgoritm: %s",
+      "after": "ogiltig signeringsalgoritm: %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1568",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "bad canonicalization type: %s",
+      "before": "dålig kanoniseringstyp: %s",
+      "after": "ogiltig kanoniseringsmetod: %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1573",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "MMQ incompatible with dkim_sign: %s on %s, value %s",
+      "before": "MMQ inkompatibel med dkim_sign: %s på %s, värde %s",
+      "after": "MMQ är inkompatibel med dkim_sign: %s på %s, värdet %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1578",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s failed on %s, value %s: %s",
+      "before": "%s misslyckades på %s, värde %s: %s",
+      "after": "%s misslyckades för %s, värdet %s: %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1597",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot resolve IP %s",
+      "before": "kan inte lösa IP %s",
+      "after": "kan inte slå upp IP-adressen %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1602",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot create reverse name from %s and %s",
+      "before": "kan inte skapa omvänt namn från %s och %s",
+      "after": "kan inte skapa omvänt DNS-namn från %s och %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1607",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "domain %s is not suitable for PTR record %s",
+      "before": "domän %s är inte lämplig för PTR-post %s",
+      "after": "domänen %s är inte lämplig för PTR-posten %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1612",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot resolve host name %s",
+      "before": "kan inte lösa värdnamn %s",
+      "after": "kan inte slå upp värdnamnet %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1618",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot reverse IP %s",
+      "before": "kan inte vända IP %s",
+      "after": "kan inte göra en omvänd uppslagning av IP-adressen %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1623",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "bad DNS reply type: %d",
+      "before": "dåligt DNS-svar typ: %d",
+      "after": "felaktig DNS-svarstyp: %d",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1628",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "invalid resolve family value",
+      "before": "ogiltig upplösning familjevärde",
+      "after": "ogiltigt värde för uppslagsfamilj",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1632",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot resolve %s",
+      "before": "kan inte lösa %s",
+      "after": "kan inte slå upp %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1637",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot get MX records for %s",
+      "before": "kan inte få MX-poster för %s",
+      "after": "kan inte hämta MX-poster för %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1642",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot get MXs for %s",
+      "before": "kan inte få MX för %s",
+      "after": "kan inte hämta MX-poster för %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1652",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "failed to get PTR record for %s",
+      "before": "lyckades inte få PTR-rekord för %s",
+      "after": "kunde inte hämta PTR-posten för %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1657",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot get NS records for %s",
+      "before": "kan inte få NS-poster för %s",
+      "after": "kan inte hämta NS-poster för %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1672",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "index out of range: %ld",
+      "before": "index utanför intervallet: %ld",
+      "after": "indexet ligger utanför intervallet: %ld",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1681",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "DNS reply table full",
+      "before": "DNS-svarstabell full",
+      "after": "DNS-svarstabellen är full",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1690",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot get %s records for %s",
+      "before": "kan inte få %s poster för %s",
+      "after": "kan inte hämta %s-poster för %s",
+      "reason": "Rättad svensk DNS- och databasterminologi, inklusive data i stället för datum, samt fullständig grammatik."
+    },
+    {
+      "tp_id": "mailfromd:1699",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "malformed data list",
+      "before": "missbildad datalista",
+      "after": "felaktigt utformad datalista",
+      "reason": "Rättad svensk system- och nätverksterminologi samt grammatisk formulering."
+    },
+    {
+      "tp_id": "mailfromd:1703",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unsupported MMDB data type %d",
+      "before": "mMDB-datatyp som inte stöds %d",
+      "after": "MMDB-datatyp som inte stöds: %d",
+      "reason": "Rättad svensk system- och nätverksterminologi samt grammatisk formulering."
+    },
+    {
+      "tp_id": "mailfromd:1722",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Maximum number of stream descriptors.",
+      "before": "Maximalt antal stream descriptors.",
+      "after": "Maximalt antal strömdeskriptorer.",
+      "reason": "Rättad svensk system- och nätverksterminologi samt grammatisk formulering."
+    },
+    {
+      "tp_id": "mailfromd:1736",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s: error flushing stream",
+      "before": "%s: fel vid spolning av ström",
+      "after": "%s: fel vid tömning av dataströmmen",
+      "reason": "Rättad svensk system- och nätverksterminologi samt grammatisk formulering."
+    },
+    {
+      "tp_id": "mailfromd:1751",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "bad buffering type: %ld",
+      "before": "dålig buffringstyp: %ld",
+      "after": "ogiltig buffringstyp: %ld",
+      "reason": "Rättad svensk system- och nätverksterminologi samt grammatisk formulering."
+    },
+    {
+      "tp_id": "mailfromd:1780",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "fork failed: %s",
+      "before": "gaffel misslyckades: %s",
+      "after": "förgrening misslyckades: %s",
+      "reason": "Rättad svensk system- och nätverksterminologi samt grammatisk formulering."
+    },
+    {
+      "tp_id": "mailfromd:1795",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot open file %s for appending: %s",
+      "before": "kan inte öppna filen %s för appending: %s",
+      "after": "kan inte öppna filen %s för tillägg: %s",
+      "reason": "Rättad svensk system- och nätverksterminologi samt grammatisk formulering."
+    },
+    {
+      "tp_id": "mailfromd:1853",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "not a valid IP or CIDR: %s",
+      "before": "inte en giltig IP eller CIDR: %s",
+      "after": "inte en giltig IP-adress eller ett giltigt CIDR-nät: %s",
+      "reason": "Rättad svensk system- och nätverksterminologi samt grammatisk formulering."
+    },
+    {
+      "tp_id": "mailfromd:1858",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unknown smtp state tag: %s",
+      "before": "okänd smtp tillstånd tagg: %s",
+      "after": "okänd SMTP-tillståndstagg: %s",
+      "reason": "Rättad svensk system- och nätverksterminologi samt grammatisk formulering."
+    },
+    {
+      "tp_id": "mailfromd:1863",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "macro not defined: %s",
+      "before": "makro ej definierat: %s",
+      "after": "makro inte definierat: %s",
+      "reason": "Rättad svensk programterminologi och ofullständiga svenska satser i diagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1878",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "bad sender address `%s': %s",
+      "before": "dålig avsändaradress `%s': %s",
+      "after": "felaktig avsändaradress `%s`: %s",
+      "reason": "Rättad svensk programterminologi och ofullständiga svenska satser i diagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1883",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "opening mailer `%s' failed: %s",
+      "before": "öppning av mailer `%s' misslyckades: %s",
+      "after": "kan inte öppna mailer `%s`: %s",
+      "reason": "Rättad svensk programterminologi och ofullständiga svenska satser i diagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1902",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "no more mailboxes available",
+      "before": "inga fler brevlådor tillgängliga",
+      "after": "inga fler brevlådor finns tillgängliga",
+      "reason": "Rättad svensk programterminologi och ofullständiga svenska satser i diagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1930",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "mailbox not open",
+      "before": "brevlådan inte öppen",
+      "after": "brevlådan är inte öppen",
+      "reason": "Rättad svensk programterminologi och ofullständiga svenska satser i diagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1961",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "invalid dynamic library handle",
+      "before": "ogiltigt dynamiskt bibliotekshandtag",
+      "after": "ogiltigt handtag för dynamiskt bibliotek",
+      "reason": "Rättad svensk programterminologi och ofullständiga svenska satser i diagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1975",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "number of arguments doesn't satisfy type string",
+      "before": "antalet argument uppfyller inte typen string",
+      "after": "antalet argument uppfyller inte typsträngen",
+      "reason": "Rättad svensk programterminologi och ofullständiga svenska satser i diagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1989",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unsupported return type %d in call to %s, module %s failed",
+      "before": "ej stödd returtyp %d i anrop till %s, modul %s misslyckades",
+      "after": "returtypen %d stöds inte i anropet till %s; modulen %s misslyckades",
+      "reason": "Rättad svensk programterminologi och ofullständiga svenska satser i diagnostik."
+    },
+    {
+      "tp_id": "mailfromd:1998",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot obtain capture stream reference: %s",
+      "before": "kan inte erhålla referens för inspelningsström: %s",
+      "after": "kan inte hämta referens till inspelningsströmmen: %s",
+      "reason": "Rättad svensk programterminologi och ofullständiga svenska satser i diagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2007",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "message not open",
+      "before": "meddelandet inte öppet",
+      "after": "meddelandet är inte öppet",
+      "reason": "Rättad svensk programterminologi och ofullständiga svenska satser i diagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2011",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "message size out of representable range",
+      "before": "meddelandets storlek utanför det representativa intervallet",
+      "after": "meddelandets storlek ligger utanför det representerbara intervallet",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2015",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "body size out of representable range",
+      "before": "kroppsstorlek utanför representativt intervall",
+      "after": "brödtextens storlek ligger utanför det representerbara intervallet",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2024",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "header size out of representable range",
+      "before": "rubrikstorlek utanför representativt intervall",
+      "after": "huvudets storlek ligger utanför det representerbara intervallet",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2028",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "header not found",
+      "before": "rubriken hittades inte",
+      "after": "huvudet hittades inte",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2036",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "can't convert from charset %s to %s: %s",
+      "before": "kan inte konvertera från charset %s till %s: %s",
+      "after": "kan inte konvertera från teckenuppsättning %s till %s: %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2051",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unrecongized state id %ld",
+      "before": "orecongongized state id %ld",
+      "after": "oigenkänt tillstånds-id %ld",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2061",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "invalid version syntax",
+      "before": "ogiltig version syntax",
+      "after": "ogiltig versionssyntax",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2080",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot get rate for %s",
+      "before": "kan inte få pris för %s",
+      "after": "kan inte hämta frekvensen för %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2085",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot check TBF rate for %s",
+      "before": "kan inte kontrollera TBF-avgiften för %s",
+      "after": "kan inte kontrollera TBF-frekvensen för %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2090",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot create debug stream; transcript disabled: %s",
+      "before": "kan inte skapa debug-ström; transkription inaktiverad: %s",
+      "after": "kan inte skapa felsökningsström; transkribering inaktiverad: %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2105",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s: cannot get scheme: %s",
+      "before": "%s: kan inte få schema: %s",
+      "after": "%s: kan inte hämta schemat: %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2110",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s: cannot get path: %s",
+      "before": "%s: kan inte få sökväg: %s",
+      "after": "%s: kan inte hämta sökvägen: %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2115",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s: cannot get port: %s",
+      "before": "%s: kan inte hämta port: %s",
+      "after": "%s: kan inte hämta porten: %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2120",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s: cannot get host: %s",
+      "before": "%s: kan inte hämta värd: %s",
+      "after": "%s: kan inte hämta värden: %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2135",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "send stream failed: %s",
+      "before": "skicka ström misslyckades: %s",
+      "after": "sändning av dataström misslyckades: %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2140",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "remote side has closed connection",
+      "before": "fjärrsidan har sluten anslutning",
+      "after": "fjärränden har stängt anslutningen",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2144",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "spamd responded with bad string '%s'",
+      "before": "spamd svarade med fel sträng '%s'",
+      "after": "spamd svarade med en felaktig sträng ”%s”",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2149",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unsupported SPAMD version: %s",
+      "before": "sPAMD-version som inte stöds: %s",
+      "after": "SPAMD-version som inte stöds: %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2154",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "spamd responded with bad Spam header '%s'",
+      "before": "spamd svarade med felaktigt spamhuvud '%s'",
+      "after": "spamd svarade med ett felaktigt spamhuvud ”%s”",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2159",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "bad response from clamav: expected `PORT' but found `%s'",
+      "before": "dåligt svar från clamav: förväntade sig `PORT' men fann `%s'",
+      "after": "felaktigt svar från ClamAV: förväntade ”PORT” men fick ”%s”",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2164",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "sending to stream failed: %s",
+      "before": "sändning till ström misslyckades: %s",
+      "after": "sändning till dataström misslyckades: %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2169",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "error reading clamav response: %s",
+      "before": "fel vid läsning av clamav-svar: %s",
+      "after": "fel vid läsning av svar från ClamAV: %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2174",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unknown clamav response: %s",
+      "before": "okänd clamav svar: %s",
+      "after": "okänt svar från ClamAV: %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2179",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "clamav error: %s",
+      "before": "clamav fel: %s",
+      "after": "ClamAV-fel: %s",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2184",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "sieve called from here",
+      "before": "sikt som kallas härifrån",
+      "after": "Sieve anropades härifrån",
+      "reason": "Rättad svensk e-post-, nätverks- och programterminologi samt felaktiga och trasiga översättningar."
+    },
+    {
+      "tp_id": "mailfromd:2188",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "failed to initialize sieve machine: %s",
+      "before": "misslyckades med att initiera siktmaskinen: %s",
+      "after": "misslyckades med att initiera Sieve-maskinen: %s",
+      "reason": "Rättad svensk Sieve- och reguljärauttrycksterminologi samt konsekvent teknisk benämning."
+    },
+    {
+      "tp_id": "mailfromd:2198",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "sieving failed: %s",
+      "before": "siktningen misslyckades: %s",
+      "after": "Sieve-körningen misslyckades: %s",
+      "reason": "Rättad svensk Sieve- och reguljärauttrycksterminologi samt konsekvent teknisk benämning."
+    },
+    {
+      "tp_id": "mailfromd:2227",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "error encoding string: %s",
+      "before": "fel kodningssträng: %s",
+      "after": "fel vid kodning av sträng: %s",
+      "reason": "Rättad svensk Sieve- och reguljärauttrycksterminologi samt konsekvent teknisk benämning."
+    },
+    {
+      "tp_id": "mailfromd:2232",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unfinished character class near %s",
+      "before": "oavslutad karaktär klass nära %s",
+      "after": "oavslutad teckenklass nära %s",
+      "reason": "Rättad svensk Sieve- och reguljärauttrycksterminologi samt konsekvent teknisk benämning."
+    },
+    {
+      "tp_id": "mailfromd:2252",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "replacement set cannot be empty",
+      "before": "ersättningssetet kan inte vara tomt",
+      "after": "ersättningsmängden kan inte vara tom",
+      "reason": "Rättad svensk Sieve- och reguljärauttrycksterminologi samt konsekvent teknisk benämning."
+    },
+    {
+      "tp_id": "mailfromd:2260",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "ranges should appear at the same offset in both source and replacement sets",
+      "before": "intervall bör visas med samma offset i både käll- och ersättningsuppsättningar",
+      "after": "intervallen måste ha samma position i både käll- och ersättningsmängden",
+      "reason": "Rättad svensk Sieve- och reguljärauttrycksterminologi samt konsekvent teknisk benämning."
+    },
+    {
+      "tp_id": "mailfromd:2264",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "source and replacement ranges differ in size",
+      "before": "käll- och ersättningsområden skiljer sig åt i storlek",
+      "after": "käll- och ersättningsintervallen skiljer sig åt i storlek",
+      "reason": "Rättad svensk Sieve- och reguljärauttrycksterminologi samt konsekvent teknisk benämning."
+    },
+    {
+      "tp_id": "mailfromd:2303",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "restarting session",
+      "before": "omstart av session",
+      "after": "startar om sessionen",
+      "reason": "Rättad svensk Sieve- och reguljärauttrycksterminologi samt konsekvent teknisk benämning."
+    },
+    {
+      "tp_id": "mailfromd:2307",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot create debug stream: %s; transcript disabled",
+      "before": "kan inte skapa debug-ström: %s; transkription inaktiverad",
+      "after": "kan inte skapa felsökningsström: %s; transkribering inaktiverad",
+      "reason": "Rättad svensk Sieve- och reguljärauttrycksterminologi samt konsekvent teknisk benämning."
+    },
+    {
+      "tp_id": "mailfromd:2312",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot create transcript filterstream: %s",
+      "before": "kan inte skapa transkript filterström: %s",
+      "after": "kan inte skapa filterdataström för transkript: %s",
+      "reason": "Rättad svensk Sieve- och reguljärauttrycksterminologi samt konsekvent teknisk benämning."
+    },
+    {
+      "tp_id": "mailfromd:2317",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot create transcript stream: %s; transcript disabled",
+      "before": "kan inte skapa avskriftsström: %s; avskrift avaktiverad",
+      "after": "kan inte skapa transkriptström: %s; transkribering inaktiverad",
+      "reason": "Rättad svensk Sieve- och reguljärauttrycksterminologi samt konsekvent teknisk benämning."
+    },
+    {
+      "tp_id": "mailfromd:2346",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "General options",
+      "before": "Allmäna inställningar",
+      "after": "Allmänna inställningar",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2350",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "read resolver configuration from FILE",
+      "before": "läsa resolverkonfiguration från FILE",
+      "after": "läs namnuppslagskonfiguration från FIL",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2369",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unsupported RSA version in file %s",
+      "before": "rSA-version som inte stöds i filen %s",
+      "after": "RSA-version som inte stöds i filen %s",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2374",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "INTERNAL ERROR: unrecognized PEM error code: %d",
+      "before": "INTERNT FEL: Oigenkänd PEM-felkod: %d",
+      "after": "INTERNT FEL: oigenkänd PEM-felkod: %d",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2379",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unexpected end of file in canonical stream",
+      "before": "oväntat slut på fil i kanonisk ström",
+      "after": "oväntat filslut i den kanoniska dataströmmen",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2383",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "malformed canonical stream",
+      "before": "missbildad kanonisk ström",
+      "after": "felaktigt formaterad kanonisk dataström",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2391",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "left-hand side argument to the arithmetical operation is of wrong data type",
+      "before": "vänster sidas argument till den aritmetiska operationen är av fel datatyp",
+      "after": "vänsterledsargumentet till den aritmetiska operationen har fel datatyp",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2395",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "right-hand side argument to the arithmetical operation is of wrong data type",
+      "before": "höger sidas argument till den aritmetiska operationen är av fel datatyp",
+      "after": "högerledsargumentet till den aritmetiska operationen har fel datatyp",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2399",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot compile regex: %s",
+      "before": "kan inte kompilera regex: %s",
+      "after": "kan inte kompilera reguljärt uttryck: %s",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2404",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "left-hand side argument to match is of wrong data type",
+      "before": "vänster sidas argument för matchning är av fel datatyp",
+      "after": "vänsterledsargumentet till matchningen har fel datatyp",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2408",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "right-hand side argument to match is of wrong data type (should not happen)",
+      "before": "höger sidas argument för matchning är av fel datatyp (ska inte hända)",
+      "after": "högerledsargumentet till matchningen har fel datatyp (ska inte hända)",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2412",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "left-hand side argument to fnmatch is of wrong data type",
+      "before": "vänster sidas argument till fnmatch är av fel datatyp",
+      "after": "vänsterledsargumentet till fnmatch har fel datatyp",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2416",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "right-hand side argument to fnmatch is of wrong data type",
+      "before": "höger sidas argument till fnmatch är av fel datatyp",
+      "after": "högerledsargumentet till fnmatch har fel datatyp",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2428",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "reject extended code should be 5.x.x",
+      "before": "avvisa utökad kod bör vara 5.x.x",
+      "after": "avvisningens utökade kod bör vara 5.x.x",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2436",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "tempfail extended code should be 4.x.x",
+      "before": "tempfail utökad kod bör vara 4.x.x",
+      "after": "tempfail-kodens utökade kod bör vara 4.x.x",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2440",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot convert %s to number",
+      "before": "kan inte konvertera %s till nummer",
+      "after": "kan inte konvertera %s till tal",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2450",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot convert literal to number",
+      "before": "kan inte konvertera bokstav till tal",
+      "after": "kan inte konvertera literal till tal",
+      "reason": "Rättad svensk programterminologi, stavning och fullständiga satser i tolkningsdiagnostik."
+    },
+    {
+      "tp_id": "mailfromd:2463",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "execution of the filter program was not finished",
+      "before": "utförandet av filterprogrammet var inte klart",
+      "after": "körningen av filterprogrammet slutfördes inte",
+      "reason": "Rättad svensk kompilator- och Milterterminologi samt bevarade programspråksnyckelord."
+    },
+    {
+      "tp_id": "mailfromd:2497",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "missing module declaration",
+      "before": "saknar moduldeklaration",
+      "after": "moduldeklaration saknas",
+      "reason": "Rättad svensk kompilator- och Milterterminologi samt bevarade programspråksnyckelord."
+    },
+    {
+      "tp_id": "mailfromd:2501",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "duplicate module declaration",
+      "before": "duplikat moduldeklaration",
+      "after": "dubblerad moduldeklaration",
+      "reason": "Rättad svensk kompilator- och Milterterminologi samt bevarade programspråksnyckelord."
+    },
+    {
+      "tp_id": "mailfromd:2509",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "`precious' used with func",
+      "before": "\"värdefull\" används med func",
+      "after": "`precious` används med func",
+      "reason": "Rättad svensk kompilator- och Milterterminologi samt bevarade programspråksnyckelord."
+    },
+    {
+      "tp_id": "mailfromd:2517",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "duplicate `%s'",
+      "before": "duplikat `%s'",
+      "after": "dubblerad `%s`",
+      "reason": "Rättad svensk kompilator- och Milterterminologi samt bevarade programspråksnyckelord."
+    },
+    {
+      "tp_id": "mailfromd:2544",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "return from %s is ignored",
+      "before": "retur från %s ignoreras",
+      "after": "returvärdet från %s ignoreras",
+      "reason": "Rättad svensk kompilator- och Milterterminologi samt bevarade programspråksnyckelord."
+    },
+    {
+      "tp_id": "mailfromd:2561",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "header action is not allowed in end block",
+      "before": "rubrikåtgärd är inte tillåten i slutblock",
+      "after": "huvudåtgärd är inte tillåten i slutblocket",
+      "reason": "Rättad svensk kompilator- och Milterterminologi samt bevarade programspråksnyckelord."
+    },
+    {
+      "tp_id": "mailfromd:2573",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "invalid extended reply code",
+      "before": "ogiltig kod för utökat svar",
+      "after": "ogiltig utökad svarskod",
+      "reason": "Rättad svensk kompilator- och Milterterminologi samt bevarade programspråksnyckelord."
+    },
+    {
+      "tp_id": "mailfromd:2577",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "duplicate default statement",
+      "before": "duplicera standarduttalande",
+      "after": "dubblerad default-sats",
+      "reason": "Rättad svensk kompilator- och Milterterminologi samt bevarade programspråksnyckelord."
+    },
+    {
+      "tp_id": "mailfromd:2585",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "expected string, but found %s",
+      "before": "förväntad sträng, men hittades %s",
+      "after": "förväntade en sträng men fick %s",
+      "reason": "Rättad svensk kompilator- och Milterterminologi samt bevarade programspråksnyckelord."
+    },
+    {
+      "tp_id": "mailfromd:2590",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "duplicate loop increment",
+      "before": "duplicera slinga inkrement",
+      "after": "dubblerad slinginkrementering",
+      "reason": "Rättad svensk kompilator- och Milterterminologi samt bevarade programspråksnyckelord."
+    },
+    {
+      "tp_id": "mailfromd:2594",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "duplicate for statement",
+      "before": "duplikat för uttalande",
+      "after": "dubblerad for-sats",
+      "reason": "Rättad svensk kompilator- och Milterterminologi samt bevarade programspråksnyckelord."
+    },
+    {
+      "tp_id": "mailfromd:2598",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "duplicate while statement",
+      "before": "duplicera while-satsen",
+      "after": "dubblerad while-sats",
+      "reason": "Rättad svensk kompilator- och Milterterminologi samt bevarade programspråksnyckelord."
+    },
+    {
+      "tp_id": "mailfromd:2637",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "expected numeric value, but found `%s'",
+      "before": "förväntat numeriskt värde, men hittade `%s'",
+      "after": "förväntade ett numeriskt värde men fick `%s`",
+      "reason": "Rättad svensk programspråksterminologi, grammatik och direkt uppmaning."
+    },
+    {
+      "tp_id": "mailfromd:2642",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "exception code not a number",
+      "before": "undantagskod inte ett nummer",
+      "after": "undantagskoden är inte ett tal",
+      "reason": "Rättad svensk programspråksterminologi, grammatik och direkt uppmaning."
+    },
+    {
+      "tp_id": "mailfromd:2655",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "`return' with no value, in function returning non-void",
+      "before": "`return' utan värde, i funktion som returnerar icke-void",
+      "after": "`return` utan värde i en funktion som returnerar något annat än void",
+      "reason": "Rättad svensk programspråksterminologi, grammatik och direkt uppmaning."
+    },
+    {
+      "tp_id": "mailfromd:2663",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unspecified data type in conditional expression: please, report",
+      "before": "ospecificerad datatyp i villkorligt uttryck: snälla, rapportera",
+      "after": "ospecificerad datatyp i villkorligt uttryck: rapportera",
+      "reason": "Rättad svensk programspråksterminologi, grammatik och direkt uppmaning."
+    },
+    {
+      "tp_id": "mailfromd:2667",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "`on poll' used without prior `require poll'",
+      "before": "\"on poll\" används utan föregående \"require poll\"",
+      "after": "`on poll` används utan föregående `require poll`",
+      "reason": "Rättad svensk programspråksterminologi, grammatik och direkt uppmaning."
+    },
+    {
+      "tp_id": "mailfromd:2671",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "recipient address not specified in `on poll' construct",
+      "before": "mottagaradressen är inte angiven i \"on poll\"-konstruktionen",
+      "after": "mottagaradressen är inte angiven i `on poll`-konstruktionen",
+      "reason": "Rättad svensk programspråksterminologi, grammatik och direkt uppmaning."
+    },
+    {
+      "tp_id": "mailfromd:2688",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unknown regexp flag: %s",
+      "before": "okänd regexp-flagga: %s",
+      "after": "okänd flagga för reguljärt uttryck: %s",
+      "reason": "Rättad svensk programspråksterminologi, grammatik och direkt uppmaning."
+    },
+    {
+      "tp_id": "mailfromd:2693",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "invalid size: numeric overflow occurred",
+      "before": "ogiltig storlek: numeriskt överflöd inträffade",
+      "after": "ogiltig storlek: numeriskt överflöde inträffade",
+      "reason": "Rättad svensk programspråksterminologi, grammatik och direkt uppmaning."
+    },
+    {
+      "tp_id": "mailfromd:2725",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "automatic variable `%s' is shadowing a parameter",
+      "before": "automatisk variabel `%s' skuggar en parameter",
+      "after": "automatisk variabel `%s` skymmer en parameter",
+      "reason": "Rättad svensk programspråksterminologi, grammatik och direkt uppmaning."
+    },
+    {
+      "tp_id": "mailfromd:2730",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "automatic variable `%s' is shadowing a global",
+      "before": "automatiska variabeln `%s' skuggar en global",
+      "after": "automatisk variabel `%s` skymmer en global variabel",
+      "reason": "Rättad svensk programspråksterminologi, grammatik och direkt uppmaning."
+    },
+    {
+      "tp_id": "mailfromd:2735",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "parameter `%s' is shadowing a global",
+      "before": "parametern `%s' skuggar en global",
+      "after": "parametern `%s` skymmer en global variabel",
+      "reason": "Rättad svensk programspråksterminologi, grammatik och direkt uppmaning."
+    },
+    {
+      "tp_id": "mailfromd:2740",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "redeclaring `%s' as different data type",
+      "before": "omdefiniera `%s' som en annan datatyp",
+      "after": "omdeklarerar `%s` med en annan datatyp",
+      "reason": "Rättad svensk programspråksterminologi, grammatik och direkt uppmaning."
+    },
+    {
+      "tp_id": "mailfromd:2745",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "duplicate variable: %s",
+      "before": "duplicera variabel: %s",
+      "after": "dubblerad variabel: %s",
+      "reason": "Rättad svensk programspråksterminologi, grammatik och direkt uppmaning."
+    },
+    {
+      "tp_id": "mailfromd:2780",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "variable `%s' already initialized",
+      "before": "variabeln `%s' redan initierad",
+      "after": "variabeln `%s` är redan initierad",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2803",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "argument number too high",
+      "before": "argument nummer för högt",
+      "after": "argumentnumret är för högt",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2855",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "including a module file is unreliable and may cause subtle errors",
+      "before": "att inkludera en modulfil är opålitligt och kan orsaka subtila fel",
+      "after": "att inkludera en modulfil är opålitligt och kan orsaka svårupptäckta fel",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2859",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "use `require %*.*s' instead",
+      "before": "använd `require %*.*s' istället",
+      "after": "använd `require %*.*s` i stället",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2868",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "misplaced `module'",
+      "before": "felplacerad `modul'",
+      "after": "felplacerad `module`",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2872",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "end of file in comment",
+      "before": "slutet av filen i kommentar",
+      "after": "filslut i kommentaren",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2876",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "end of file in string",
+      "before": "slutet av filen i strängen",
+      "after": "filslut i strängen",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2880",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "end of file in shell block",
+      "before": "slutet av filen i skalblock",
+      "after": "filslut i skalblocket",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2884",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot create trace stream, using standard log: %s",
+      "before": "kan inte skapa spårström, använder standardlogg: %s",
+      "after": "kan inte skapa spårningsström; använder standardloggen: %s",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2894",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "mailfromd -- a general purpose milter daemon",
+      "before": "mailfromd -- en milter-daemon för allmänt bruk",
+      "after": "mailfromd – en allmän Milter-demon",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2902",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "expected assignment, but found `%s'",
+      "before": "förväntat uppdrag, men hittade `%s'",
+      "after": "förväntade en tilldelning men fick `%s`",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2907",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "preprocessor options given, but no default preprocessor defined: use the --preprocessor option",
+      "before": "preprocessor-alternativ angivna, men ingen standardpreprocessor definierad: använd alternativet --preprocessor",
+      "after": "alternativ för förbehandlaren angivna, men ingen standardförbehandlare definierad: använd alternativet --preprocessor",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2911",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Your configuration file disables passing defines to the preprocessor",
+      "before": "Din konfigurationsfil inaktiverar att defines skickas till preprocessorn",
+      "after": "Konfigurationsfilen inaktiverar att definitioner skickas till förbehandlaren",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2920",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "invalid milter timeout: %s",
+      "before": "ogiltig milter timeout: %s",
+      "after": "ogiltig Milter-tidsgräns: %s",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2925",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "HANDLER",
+      "before": "HANDHAVARE",
+      "after": "HANTERARE",
+      "reason": "Rättad svensk kompilator- och Milterterminologi, nyckelord samt ofullständiga diagnossatser."
+    },
+    {
+      "tp_id": "mailfromd:2937",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "run script and execute function FUNC (\"main\" if not given)",
+      "before": "kör skript och exekvera funktionen FUNC (\"main\" om den inte anges)",
+      "after": "kör skriptet och kör funktionen FUNC (”main” om den inte anges)",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:2949",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "run in daemon mode (default)",
+      "before": "körs i daemon-läge (standard)",
+      "after": "kör i demonläge (standard)",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:2970",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "add DIR to the load path",
+      "before": "lägg till DIR i laddningsstigen",
+      "after": "lägg till DIR i laddningssökvägen",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:2982",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "set communication socket",
+      "before": "ställ in kommunikationsuttag",
+      "after": "ange kommunikationssocket",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:2986",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "set callout socket",
+      "before": "inställd utropsteckning",
+      "after": "ange callout-socket",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:2994",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "set code optimization level",
+      "before": "ställa in kodoptimeringsnivå",
+      "after": "ange kodoptimeringsnivå",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3006",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "read relayed domains from FILE",
+      "before": "läsa vidarebefordrade domäner från FILE",
+      "after": "läs vidarebefordrade domäner från FIL",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3010",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "divert output of the \"echo\" instruction to FILE",
+      "before": "avleda utdata från \"echo\"-instruktionen till FILE",
+      "after": "avled utdata från instruktionen ”echo” till FIL",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3014",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Preprocessor options",
+      "before": "Alternativ för preprocessor",
+      "after": "Alternativ för förbehandlaren",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3022",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "use command as external preprocessor",
+      "before": "använda kommandot som extern preprocessor",
+      "after": "använd kommandot som extern förbehandlare",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3026",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "disable the use of external preprocessor",
+      "before": "inaktivera användningen av extern preprocessor",
+      "after": "inaktivera användningen av extern förbehandlare",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3034",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "define a preprocessor symbol NAME as having VALUE, or empty",
+      "before": "definiera en preprocessorsymbol NAME som att den har VALUE, eller är tom",
+      "after": "definiera förbehandlarsymbolen NAME med värdet VALUE, eller tom",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3038",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "undefine a preprocessor symbol NAME",
+      "before": "avdefiniera en preprocessorsymbol NAME",
+      "after": "avdefiniera förbehandlarsymbolen NAME",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3042",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Timeout control",
+      "before": "Timeout-kontroll",
+      "after": "Tidsgränskontroll",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3050",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "set MTA connection timeout",
+      "before": "set Timeout för MTA-anslutning",
+      "after": "ange tidsgräns för MTA-anslutning",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3074",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "dump disassembled code",
+      "before": "dumpa disassemblerad kod",
+      "after": "skriv ut disassemblerad kod",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3078",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "dump grammar traces",
+      "before": "dumpa grammatiska spår",
+      "after": "skriv ut grammatikspår",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3082",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "dump lexical analyzer traces",
+      "before": "dumpa spår av lexikal analysator",
+      "after": "skriv ut spår från lexikalanalysatorn",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3086",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "dump parser tree",
+      "before": "dumpa parser träd",
+      "after": "skriv ut parsningsträdet",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3094",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "produce a cross-reference listing",
+      "before": "producera en korsreferenslista",
+      "after": "skapa en korsreferenslista",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3098",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "enable stack traces on runtime errors",
+      "before": "aktivera stackspårning vid körtidsfel",
+      "after": "aktivera stackspår vid körtidsfel",
+      "reason": "Rättad svensk kommandoradshjälp, teknisk terminologi och konsekvent imperativ."
+    },
+    {
+      "tp_id": "mailfromd:3102",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Invalid milter timeout: %lu",
+      "before": "Ogiltig milter timeout: %lu",
+      "after": "Ogiltig Milter-tidsgräns: %lu",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3115",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "expected string or list of strings",
+      "before": "förväntad sträng eller lista med strängar",
+      "after": "förväntade en sträng eller en lista med strängar",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3119",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Dump stack traces on runtime errors.",
+      "before": "Dumpa stackspår vid körtidsfel.",
+      "after": "Skriv ut stackspår vid körtidsfel.",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3123",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set milter timeout.",
+      "before": "Ställ in milter timeout.",
+      "after": "Ange Milter-tidsgräns.",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3133",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Sets the URL of the default callout server.",
+      "before": "Ställer in URL:en för standardservern för utrop.",
+      "after": "Anger URL-adressen till standard-callout-servern.",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3141",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Add directories to the list of directories to be searched for header files.  Argument is a list of directory names separated by colons.",
+      "before": "Lägger till kataloger i listan över kataloger som ska genomsökas efter header-filer.  Argumentet är en lista med katalognamn åtskilda med kolon.",
+      "after": "Lägger till kataloger i listan över kataloger som ska genomsökas efter huvudfiler. Argumentet är en lista med katalognamn åtskilda med kolon.",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3181",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Read relayed domain names from the file",
+      "before": "Läsa vidarebefordrade domännamn från filen",
+      "after": "Läs vidarebefordrade domännamn från filen",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3189",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Configure MFL runtime values.",
+      "before": "Konfigurera MFL:s runtime-värden.",
+      "after": "Konfigurera MFL:s körtidsvärden.",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3197",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "no servers defined; will listen on %s",
+      "before": "inga servrar definierade; kommer att lyssna på %s",
+      "after": "inga servrar har definierats; lyssnar på %s",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3202",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot create echo output stream: %s",
+      "before": "kan inte skapa ekoutmatningsström: %s",
+      "after": "kan inte skapa ekoutdataström: %s",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3207",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "extra arguments in daemon mode",
+      "before": "extra argument i daemon-läge",
+      "after": "extra argument i demonläge",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3235",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "function %s must return number",
+      "before": "funktion %s måste returnera nummer",
+      "after": "funktionen %s måste returnera ett tal",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3244",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "operation is not applicable",
+      "before": "operationen är inte tillämplig",
+      "after": "åtgärden är inte tillämplig",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3248",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "database file name is not given",
+      "before": "databasens filnamn anges inte",
+      "after": "databasfilens namn har inte angetts",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3252",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "list is not applicable to this DB format",
+      "before": "listan är inte tillämplig på detta DB-format",
+      "after": "list gäller inte för detta databasformat",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3256",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "expire is not applicable to this DB format",
+      "before": "expire är inte tillämpligt på detta DB-format",
+      "after": "expire gäller inte för detta databasformat",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3260",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "compact is not applicable to this DB format",
+      "before": "compact är inte tillämpligt för detta DB-format",
+      "after": "compact gäller inte för detta databasformat",
+      "reason": "Rättad svensk kommandoradshjälp, systemterminologi och grammatisk form."
+    },
+    {
+      "tp_id": "mailfromd:3272",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "delete given entries from the database",
+      "before": "radera givna poster från databasen",
+      "after": "radera angivna poster från databasen",
+      "reason": "Rättad svensk kommandoradshjälp, tillståndskatalog- och förbehandlarterminologi samt ogrammatiska satser."
+    },
+    {
+      "tp_id": "mailfromd:3276",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "list given database (default cache)",
+      "before": "lista given databas (standard cache)",
+      "after": "lista angiven databas (standard är cache)",
+      "reason": "Rättad svensk kommandoradshjälp, tillståndskatalog- och förbehandlarterminologi samt ogrammatiska satser."
+    },
+    {
+      "tp_id": "mailfromd:3292",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "DB file name to operate upon",
+      "before": "DB-filnamn att arbeta med",
+      "after": "DB-filnamn att hantera",
+      "reason": "Rättad svensk kommandoradshjälp, tillståndskatalog- och förbehandlarterminologi samt ogrammatiska satser."
+    },
+    {
+      "tp_id": "mailfromd:3300",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "format of the DB file to operate upon",
+      "before": "format för DB-filen som ska bearbetas",
+      "after": "format för DB-filen som ska hanteras",
+      "reason": "Rättad svensk kommandoradshjälp, tillståndskatalog- och förbehandlarterminologi samt ogrammatiska satser."
+    },
+    {
+      "tp_id": "mailfromd:3328",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "set new program state directory",
+      "before": "ställa in nytt program statskatalog",
+      "after": "ange ny tillståndskatalog för programmet",
+      "reason": "Rättad svensk kommandoradshjälp, tillståndskatalog- och förbehandlarterminologi samt ogrammatiska satser."
+    },
+    {
+      "tp_id": "mailfromd:3332",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "set database expiration interval to NUMBER seconds",
+      "before": "ställa in databasens utgångsintervall till ANTAL sekunder",
+      "after": "ange databasens utgångsintervall till ANTAL sekunder",
+      "reason": "Rättad svensk kommandoradshjälp, tillståndskatalog- och förbehandlarterminologi samt ogrammatiska satser."
+    },
+    {
+      "tp_id": "mailfromd:3344",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set program state directory.",
+      "before": "Ställ in programstatuskatalog.",
+      "after": "Ange programmets tillståndskatalog.",
+      "reason": "Rättad svensk kommandoradshjälp, tillståndskatalog- och förbehandlarterminologi samt ogrammatiska satser."
+    },
+    {
+      "tp_id": "mailfromd:3352",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set mailfromd debugging level. Argument is a semicolon-separated list of debugging specifications. A simplified specification syntax is:\n   [!]<category: string>[.<level: string>,<level: string>...]\nFor details, please see the Mailfromd manual, section 3.18 \"Logging\nand Debugging\", GNU Mailutils manual, section 3.3 \"Debugging\",\nor visit <http://mailutils.org/wiki/Debug_level>.",
+      "before": "Ange felsökningsnivå för mailfromd. Argumentet är en semikolonseparerad lista med felsökningsspecifikationer. En förenklad syntax för specifikationerna är:\n   [!]<category: string>[.<level: string>,<level: string>...]\nFör mer information, se Mailfromd-manualen, avsnitt 3.18 \"Logging\nand Debugging\", GNU Mailutils manual, avsnitt 3.3 \"Debugging\",\neller besök <http://mailutils.org/wiki/Debug_level>.",
+      "after": "Ange felsökningsnivå för mailfromd. Argumentet är en semikolonseparerad lista med felsökningsspecifikationer. En förenklad syntax för specifikationerna är:\n   [!]<category: string>[.<level: string>,<level: string>...]\nMer information finns i Mailfromd-manualen, avsnitt 3.18 ”Logging\nand Debugging”, GNU Mailutils-manualen, avsnitt 3.3 ”Debugging”,\neller på <http://mailutils.org/wiki/Debug_level>.",
+      "reason": "Rättad svensk kommandoradshjälp, tillståndskatalog- och förbehandlarterminologi samt ogrammatiska satser."
+    },
+    {
+      "tp_id": "mailfromd:3375",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "you must specify one of --list, --delete, --expire or --compat",
+      "before": "måste du ange ett av följande alternativ: --list, --delete, --expire eller --compat",
+      "after": "du måste ange ett av alternativen --list, --delete, --expire eller --compat",
+      "reason": "Rättad svensk kommandoradshjälp, tillståndskatalog- och förbehandlarterminologi samt ogrammatiska satser."
+    },
+    {
+      "tp_id": "mailfromd:3397",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot parse include line: %s",
+      "before": "kan inte analysera inkludera rad: %s",
+      "after": "kan inte tolka include-raden: %s",
+      "reason": "Rättad svensk kommandoradshjälp, tillståndskatalog- och förbehandlarterminologi samt ogrammatiska satser."
+    },
+    {
+      "tp_id": "mailfromd:3415",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Enable preprocessor (default).",
+      "before": "Aktivera preprocessor (standard).",
+      "after": "Aktivera förbehandlaren (standard).",
+      "reason": "Rättad svensk kommandoradshjälp, tillståndskatalog- och förbehandlarterminologi samt ogrammatiska satser."
+    },
+    {
+      "tp_id": "mailfromd:3419",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Preprocessor command line stub.",
+      "before": "Preprocessor kommandoradsstub.",
+      "after": "Kommandoradsstub för förbehandlaren.",
+      "reason": "Rättad svensk kommandoradshjälp, tillståndskatalog- och förbehandlarterminologi samt ogrammatiska satser."
+    },
+    {
+      "tp_id": "mailfromd:3423",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Pass include search path to the preprocessor via -I options (default: false)",
+      "before": "Skicka sökvägen för inkludering till preprocessorn via -I-alternativen (standard: false)",
+      "after": "Skicka include-sökvägen till förbehandlaren via alternativen -I (standard: false)",
+      "reason": "Rättad svensk kommandoradshjälp, tillståndskatalog- och förbehandlarterminologi samt ogrammatiska satser."
+    },
+    {
+      "tp_id": "mailfromd:3427",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Pass feature definition and defines from the command line to the preprocessor via -D options (default: true)",
+      "before": "Skicka funktionsdefinitioner och definitioner från kommandoraden till preprocessorn via -D-alternativ (standard: true)",
+      "after": "Skicka funktionsdefinitioner och definitioner från kommandoraden till förbehandlaren via alternativen -D (standard: true)",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3431",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Name of the preprocessor setup file.  Looked up in include search path, unless absolute.",
+      "before": "Namnet på preprocessorns installationsfil.  Letas upp i sökvägen för include, om den inte är absolut.",
+      "after": "Namnet på förbehandlarens inställningsfil. Söks i include-sökvägen, om den inte är absolut.",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3435",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "MFL preprocessor configuration.",
+      "before": "Konfiguration av MFL-preprocessor.",
+      "after": "Konfiguration av MFL-förbehandlaren.",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3439",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "preprocessor exited with status %d",
+      "before": "preprocessorn avslutades med status %d",
+      "after": "förbehandlaren avslutades med status %d",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3444",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "preprocessor terminated on signal %d",
+      "before": "förprocessorn avslutades på signal %d",
+      "after": "förbehandlaren avslutades av signal %d",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3449",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "preprocessor stopped",
+      "before": "preprocessorn stoppad",
+      "after": "förbehandlaren stoppades",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3453",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "preprocessor terminated abnormally",
+      "before": "förprocessorn avslutades onormalt",
+      "after": "förbehandlaren avslutades onormalt",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3457",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "preprocessor options given, but the use of preprocessor is disabled; use the --preprocessor option",
+      "before": "preprocessor-alternativ anges, men användningen av preprocessor är inaktiverad; använd alternativet --preprocessor",
+      "after": "alternativ för förbehandlaren angivna, men användningen av förbehandlaren är inaktiverad; använd alternativet --preprocessor",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3482",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "stack segment expanded, new size=%lu",
+      "before": "stacksegmentet utökat, ny storlek=%lu",
+      "after": "stacksegmentet utökades, ny storlek=%lu",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3487",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "stack trace:",
+      "before": "stackspårning:",
+      "after": "stackspår:",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3505",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "stack underflow",
+      "before": "stack underflöde",
+      "after": "stackunderflöde",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3509",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "heap overrun; increase #pragma stacksize",
+      "before": "överskridande av heap; öka #pragma stacksize",
+      "after": "heapen överskreds; öka #pragma stacksize",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3529",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "invalid back-reference number",
+      "before": "ogiltigt back-referensnummer",
+      "after": "ogiltigt bakåtreferensnummer",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3542",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "pc out of range",
+      "before": "pc utanför intervallet",
+      "after": "programräknaren ligger utanför intervallet",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3546",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "out of memory while formatting error message:",
+      "before": "slut på minne under formatering felmeddelande:",
+      "after": "slut på minne vid formatering av felmeddelande:",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3555",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "uncaught exception %s: %s",
+      "before": "oavsiktligt undantag %s: %s",
+      "after": "ohanterat undantag %s: %s",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3560",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%scannot create temporary stream: %s",
+      "before": "%skan inte skapa tillfällig ström: %s",
+      "after": "%skan inte skapa tillfällig dataström: %s",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3565",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%stemporary stream seek failed: %s",
+      "before": "%s temporär strömsökning misslyckades: %s",
+      "after": "%ssökning i tillfällig dataström misslyckades: %s",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3570",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%stemporary stream write failed: %s",
+      "before": "%sskrivning av tillfällig ström misslyckades: %s",
+      "after": "%sskrivning till tillfällig dataström misslyckades: %s",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3575",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unknown built-in private data requested (%d)",
+      "before": "okänd inbyggd privat data begärd (%d)",
+      "after": "okänd inbyggd privatdata begärdes (%d)",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3580",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "no built-in private data registered",
+      "before": "inga inbyggda privata uppgifter registrerade",
+      "after": "ingen inbyggd privatdata är registrerad",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3584",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "initial allocation for built-in private data #%d failed",
+      "before": "initial tilldelning för inbyggda privata data #%d misslyckades",
+      "after": "ursprunglig allokering för inbyggd privatdata #%d misslyckades",
+      "reason": "Rättad konsekvent förbehandlarterminologi, svensk systemterminologi och trasiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3621",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "state directory `%s' is not an absolute file name",
+      "before": "state directory `%s' är inte ett absolut filnamn",
+      "after": "tillståndskatalogen `%s` är inte ett absolut filnamn",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3640",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Listen on this URL.",
+      "before": "Lyssna på den här URL:en.",
+      "after": "Lyssna på den här URL-adressen.",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3648",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Maximum number of instances allowed for this server.",
+      "before": "Högsta antal instanser som tillåts för denna server.",
+      "after": "Högsta tillåtna antal instanser för den här servern.",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3656",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Reuse existing socket (default).",
+      "before": "Återanvänd befintligt uttag (standard).",
+      "after": "Återanvänd befintlig socket (standard).",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3684",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unknown timeout class: %s",
+      "before": "okänd timeout klass: %s",
+      "after": "okänd tidsgränsklass: %s",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3689",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Initial SMTP connection timeout.",
+      "before": "Initial tidsgräns för SMTP-anslutning.",
+      "after": "Ursprunglig tidsgräns för SMTP-anslutning.",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3693",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Timeout for initial SMTP response.",
+      "before": "Timeout för det första SMTP-svaret.",
+      "after": "Tidsgräns för det första SMTP-svaret.",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3697",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Timeout for HELO response.",
+      "before": "Timeout för HELO-svar.",
+      "after": "Tidsgräns för HELO-svar.",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3701",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Timeout for MAIL response.",
+      "before": "Timeout för MAIL-svar.",
+      "after": "Tidsgräns för MAIL-svar.",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3705",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Timeout for RCPT response.",
+      "before": "Timeout för svar från RCPT.",
+      "after": "Tidsgräns för RCPT-svar.",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3709",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Timeout for RSET response.",
+      "before": "Timeout för RSET-svar.",
+      "after": "Tidsgräns för RSET-svar.",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3713",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Timeout for QUIT response.",
+      "before": "Timeout för QUIT-svar.",
+      "after": "Tidsgräns för QUIT-svar.",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3721",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "[soft | hard]",
+      "before": "[mjuk | hård]",
+      "after": "[soft | hard]",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3736",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "arg: never|always|ondemand",
+      "before": "arg: aldrig|alltid|ondemand",
+      "after": "arg: never|always|ondemand",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3741",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Timeout for all SMTP I/O operations.",
+      "before": "Timeout för alla SMTP I/O-operationer.",
+      "after": "Tidsgräns för alla SMTP-I/O-operationer.",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3757",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Retain the supplementary group <name> when switching to user privileges",
+      "before": "Behåll tilläggsgruppen <name> när du byter till användarrättigheter",
+      "after": "Behåll tilläggsgruppen <name> när du byter till användarbehörighet",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3765",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Switch to this user privileges after startup.",
+      "before": "Byt till denna användarrättighet efter uppstart.",
+      "after": "Byt till den här användarens behörighet efter uppstart.",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3773",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set logger stream.",
+      "before": "Ställ in loggerström.",
+      "after": "Ange loggström.",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3785",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set email address for use in SMTP `MAIL FROM' command.  Argument is an email address or a comma-separated list of addresses.  Use <> for null address.  Other addresses can be given without angle brackets.",
+      "before": "Ange en e-postadress som ska användas i SMTP-kommandot `MAIL FROM'.  Argumentet är en e-postadress eller en kommaseparerad lista med adresser.  Använd <> för nolladresser.  Andra adresser kan anges utan vinkelparenteser.",
+      "after": "Ange en e-postadress som ska användas i SMTP-kommandot `MAIL FROM`. Argumentet är en e-postadress eller en kommaseparerad lista med adresser. Använd <> för en tom adress. Andra adresser kan anges utan vinkelparenteser.",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3797",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "invalid pidfile name: must be absolute",
+      "before": "ogiltigt pidfile-namn: måste vara absolut",
+      "after": "ogiltigt pidfilnamn: måste vara absolut",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3805",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "stay in foreground",
+      "before": "hålla sig i förgrunden",
+      "after": "håll dig i förgrunden",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3809",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "run in single-process mode",
+      "before": "körs i enprocessläge",
+      "after": "kör i enprocessläge",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3813",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "set pidfile name",
+      "before": "set pidfile namn",
+      "after": "ange pidfilnamn",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3817",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "switch to this user privileges after startup",
+      "before": "växla till denna användarbehörighet efter uppstart",
+      "after": "byt till den här användarens behörighet efter uppstart",
+      "reason": "Rättad svensk server- och SMTP-terminologi; programspråksnyckelord har bevarats enligt översättarkommentar."
+    },
+    {
+      "tp_id": "mailfromd:3849",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "select logger stream",
+      "before": "välj loggerström",
+      "after": "välj loggström",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3853",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "set the identifier used in syslog messages to STRING",
+      "before": "ställ in identifieraren som används i syslog-meddelanden till STRING",
+      "after": "ange identifieraren som används i sysloggmeddelanden till STRING",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3861",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "unsupported logger stream: %s",
+      "before": "logger-ström som inte stöds: %s",
+      "after": "loggström som inte stöds: %s",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3866",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot compile regex (%s): %s",
+      "before": "kan inte kompilera regex (%s): %s",
+      "after": "kan inte kompilera reguljärt uttryck (%s): %s",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3944",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot append body chunk: %s",
+      "before": "kan inte lägga till body chunk: %s",
+      "after": "kan inte lägga till datasegment i brödtexten: %s",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3949",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot get the value of {%s}: %s",
+      "before": "kan inte få värdet av {%s}: %s",
+      "after": "kan inte hämta värdet för {%s}: %s",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3969",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set remote milter type. Only `milter' is understood so far.",
+      "before": "Ange typ av fjärrstyrd milter. Endast `milter' är förstådd hittills.",
+      "after": "Ange typ av fjärrmilter. Endast `milter` stöds hittills.",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3983",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set write timeout.",
+      "before": "Ställ in tidsgräns för skrivning.",
+      "after": "Ange tidsgräns för skrivning.",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3987",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set read timeout.",
+      "before": "Ställ in tidsgräns för läsning.",
+      "after": "Ange tidsgräns för läsning.",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3991",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set timeout for EOM.",
+      "before": "Ställ in timeout för EOM.",
+      "after": "Ange tidsgräns för EOM.",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3995",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set connect timeout.",
+      "before": "Ställ in tidsgräns för anslutning.",
+      "after": "Ange tidsgräns för anslutning.",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:3999",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set log verbosity level. Arg is a list of items separated by commas or whitespace.  Each item is a log level optionally prefixed with `!' to indicate `any level except this', or '<', meaning `all levels up to and including this'.  Log levels in order of increasing priority are: proto, debug, info, warn, err, fatal.",
+      "before": "Ställer in loggens ordrikhetsnivå. Arg är en lista med objekt som separeras med kommatecken eller blanksteg.  Varje objekt är en loggnivå som kan föregås av `!' för att ange `alla nivåer utom denna', eller '<', vilket betyder `alla nivåer upp till och inklusive denna'.  Loggnivåerna är i stigande prioritetsordning: proto, debug, info, warn, err, fatal.",
+      "after": "Ange loggens detaljnivå. Argumentet är en lista med objekt som separeras med kommatecken eller blanksteg. Varje objekt är en loggnivå som kan föregås av `!` för att ange ”alla nivåer utom denna”, eller `<`, vilket betyder ”alla nivåer upp till och inklusive denna”. Loggnivåerna i stigande prioritetsordning är: proto, debug, info, warn, err, fatal.",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:4022",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "macro %s already defined",
+      "before": "makro %s redan definierat",
+      "after": "makro %s är redan definierat",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:4036",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "not enough arguments to define-macros",
+      "before": "inte tillräckligt med argument för define-macros",
+      "after": "för få argument för define-macros",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:4040",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "too many arguments to define-macros",
+      "before": "för många argument till define-makron",
+      "after": "för många argument för define-macros",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:4044",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "too many macros defined for stage \"mail\", while processing \"auth-macros\" statement",
+      "before": "för många makron definierade för scenen \"mail\", vid bearbetning av \"auth-macros\" -uttalande",
+      "after": "för många makron definierade för stadiet ”mail” vid bearbetning av satsen ”auth-macros”",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:4048",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Listen for milter requests on the given URL.",
+      "before": "Lyssna efter milter-förfrågningar på den angivna URL:en.",
+      "after": "Lyssna efter milterförfrågningar på den angivna URL-adressen.",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:4052",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Maximum number of threads (soft limit).",
+      "before": "Maximalt antal trådar (soft limit).",
+      "after": "Maximalt antal trådar (mjuk gräns).",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:4064",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set pmilter debug verbosity level.",
+      "before": "Ställ in pmilter debug-ordningsnivå.",
+      "after": "Ange pmilters felsökningsdetaljnivå.",
+      "reason": "Rättad svensk loggnings-, Milter- och kommandoradsterminologi samt ofullständiga diagnosformuleringar."
+    },
+    {
+      "tp_id": "mailfromd:4084",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "Set Mailfromd debug verbosity level.  Argument is a comma-separated list of debug specifications, each of which has the following form:\n  <module: string>[=<level: number>]\nwhere <module> is the name of a Mailfromd module, and <level> is the desired verbosity level for that module.",
+      "before": "Ställer in Mailfromds felsökningsnivå.  Argument är en kommaseparerad lista med felsökningsspecifikationer, som var och en har följande form:\n <module: string>[=<level: number>]\ndär <module> är namnet på en Mailfromd-modul och <level> är den önskade felsökningsnivån för den modulen.",
+      "after": "Anger Mailfromds felsökningsdetaljnivå. Argumentet är en kommaseparerad lista med felsökningsspecifikationer, som var och en har följande form:\n  <module: string>[=<level: number>]\ndär <module> är namnet på en Mailfromd-modul och <level> är den önskade detaljnivån för den modulen.",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailfromd:4103",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "arg: number",
+      "before": "arg: nummer",
+      "after": "arg: tal",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailfromd:4111",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "pmilter multiplexer",
+      "before": "pmilter multiplexer",
+      "after": "pmilter-multiplexor",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailfromd:4119",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "listen on the given URL",
+      "before": "lyssna på den angivna URL:en",
+      "after": "lyssna på den angivna URL-adressen",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailfromd:4161",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%scannot get the size of the header stream: %s",
+      "before": "%s kan inte få storleken på rubrikströmmen: %s",
+      "after": "%skan inte hämta storleken på huvudets dataström: %s",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailfromd:4166",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%scannot create header: %s",
+      "before": "%skan inte skapa rubrik: %s",
+      "after": "%skan inte skapa huvud: %s",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailfromd:4171",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "reading from header stream failed: %s",
+      "before": "läsning från header stream misslyckades: %s",
+      "after": "läsning från huvudets dataström misslyckades: %s",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailfromd:4181",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s starting",
+      "before": "%s start",
+      "after": "%s startar",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailfromd:4186",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "%s terminated",
+      "before": "%s avslutade",
+      "after": "%s avslutades",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailfromd:4191",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "failed to set up signals: %s",
+      "before": "misslyckades med att sätta upp signaler: %s",
+      "after": "misslyckades med att konfigurera signaler: %s",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailfromd:4196",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "URL to listen on was not specified",
+      "before": "URL för att lyssna på angavs inte",
+      "after": "URL-adressen att lyssna på angavs inte",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailfromd:4200",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "no clients configured",
+      "before": "inga klienter konfigurerade",
+      "after": "inga klienter har konfigurerats",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailfromd:4204",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "version mismatch: compile_time=%d, run_time=%d",
+      "before": "versionsmissmatchning: compile_time=%d, run_time=%d",
+      "after": "versionsinkonsekvens: compile_time=%d, run_time=%d",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailfromd:4214",
+      "project": "tp:mailfromd-8.17.91",
+      "msgid": "cannot create main thread: %s",
+      "before": "kan inte skapa huvudtråd: %s",
+      "after": "kan inte skapa huvudtråden: %s",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailutils:41",
+      "project": "tp:mailutils-3.20.93",
+      "msgid": "Warning: your .biffrc has wrong permissions",
+      "before": "Varning: din .biffrc har fel rättigheter",
+      "after": "Varning: din .biffrc har felaktiga behörigheter",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailutils:46",
+      "project": "tp:mailutils-3.20.93",
+      "msgid": "%s's %s has wrong permissions",
+      "before": "%s:s %s har fel rättigheter",
+      "after": "%s:s %s har felaktiga behörigheter",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailutils:131",
+      "project": "tp:mailutils-3.20.93",
+      "msgid": "remain in foreground",
+      "before": "kvarstå i förgrunden",
+      "after": "stanna i förgrunden",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailutils:149",
+      "project": "tp:mailutils-3.20.93",
+      "msgid": "runs in daemon mode with a maximum of NUMBER children",
+      "before": "körs i demonläge med ett maximalt ANTAL barnprocesser",
+      "after": "kör i demonläge med högst ANTAL underordnade processer",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailutils:154",
+      "project": "tp:mailutils-3.20.93",
+      "msgid": "read FILE instead of .biffrc",
+      "before": "läs FIL istället för .biffrc",
+      "after": "läs FIL i stället för .biffrc",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailutils:158",
+      "project": "tp:mailutils-3.20.93",
+      "msgid": "not a boolean",
+      "before": "inte en boolean",
+      "after": "inte ett booleskt värde",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailutils:168",
+      "project": "tp:mailutils-3.20.93",
+      "msgid": "Notify only if the user is logged on one of the ttys.",
+      "before": "Notifiera endast om användaren är inloggad på en tty.",
+      "after": "Meddela endast om användaren är inloggad på en av tty:erna.",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailutils:181",
+      "project": "tp:mailutils-3.20.93",
+      "msgid": "Send biffrc errors to Mailutils error output.",
+      "before": "Skicka biffrc-fel till Mailutils felutmatning.",
+      "after": "Skicka biffrc-fel till Mailutils felutdata.",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailutils:193",
+      "project": "tp:mailutils-3.20.93",
+      "msgid": "Set control interval.",
+      "before": "Ställ in kontrollintervall.",
+      "after": "Ange kontrollintervall.",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailutils:197",
+      "project": "tp:mailutils-3.20.93",
+      "msgid": "Set overflow control interval.",
+      "before": "Ställ in intervall för kontroll av överflöde.",
+      "after": "Ange intervall för överflödeskontroll.",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailutils:201",
+      "project": "tp:mailutils-3.20.93",
+      "msgid": "Time to sleep after the first overflow occurs.",
+      "before": "Tid att sova efter att det första överflödet inträffar.",
+      "after": "Väntetid efter det första överflödet.",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
+    },
+    {
+      "tp_id": "mailutils:242",
+      "project": "tp:mailutils-3.20.93",
+      "msgid": "cannot get message (mailbox %s, qid %s): %s",
+      "before": "kan inte hämta meddelande (brevlåda %s, qid %s): %s",
+      "after": "kan inte hämta meddelandet (brevlåda %s, qid %s): %s",
+      "reason": "Rättad svensk Milter-, e-post- och systemterminologi samt imperativ och ofullständiga satser."
     },
     {
       "tp_id": "diffutils:476",

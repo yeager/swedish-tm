@@ -152944,7 +152944,7 @@ msgstr "Aktivera eller inaktivera databasen"
 
 #. from tp:mailfromd-8.17.91
 msgid "Set database record expiration interval"
-msgstr "Ange utgångsintervall för databasposter"
+msgstr "Ange hur länge databasposter ska sparas"
 
 #. from tp:mailfromd-8.17.91
 msgid "arg: interval"
@@ -152952,11 +152952,11 @@ msgstr "arg: intervall"
 
 #. from tp:mailfromd-8.17.91
 msgid "Set positive expiration interval (for database \"cache\" only)"
-msgstr "Ange positivt utgångsintervall (endast för databasens \"cache\")"
+msgstr "Ange ett positivt utgångsintervall (endast för databasen ”cache”)"
 
 #. from tp:mailfromd-8.17.91
 msgid "Set negative expiration interval (for database id \"cache\")"
-msgstr "Ange negativt utgångsintervall (för databas-ID \"cache\")"
+msgstr "Ange ett negativt utgångsintervall (för databas-id:t ”cache”)"
 
 #. from tp:mailfromd-8.17.91
 msgid "unknown database format: %s"
@@ -153000,7 +153000,7 @@ msgstr "Konfiguration av DNS-resolver."
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot configure asynchronous syslog: %s; falling back to system one"
-msgstr "kan inte konfigurera asynkron syslog: %s; faller tillbaka till system ett"
+msgstr "kan inte konfigurera asynkron syslogg: %s; använder systemets syslogg i stället"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot fetch `%s' from `%s': %s"
@@ -153012,11 +153012,11 @@ msgstr "kan inte öppna pidfilen `%s': %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot get pid from pidfile `%s'"
-msgstr "kan inte hämta pid från pidfile `%s'"
+msgstr "kan inte hämta process-id från pidfilen `%s`"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot unlink pidfile `%s': %s"
-msgstr "kan inte ta bort länken till pidfilen `%s': %s"
+msgstr "kan inte ta bort pidfilen `%s`: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot create pidfile `%s': %s"
@@ -153024,7 +153024,7 @@ msgstr "kan inte skapa pidfilen `%s': %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "when running as root, --user option is mandatory."
-msgstr "när du kör som root är alternativet --user obligatoriskt."
+msgstr "när programmet körs som root krävs alternativet --user."
 
 #. from tp:mailfromd-8.17.91
 msgid "pipe: %s"
@@ -153032,27 +153032,27 @@ msgstr "rör: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "fork: %s"
-msgstr "gaffel: %s"
+msgstr "förgrening: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot open input stream: %s"
-msgstr "kan inte öppna inmatningsström: %s"
+msgstr "kan inte öppna indataströmmen: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "syntax check failed; restart cancelled"
-msgstr "syntaxkontroll misslyckades; omstart avbruten"
+msgstr "syntaxkontrollen misslyckades; omstarten avbröts"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot change to %s: %s"
-msgstr "kan inte ändras till %s: %s"
+msgstr "kan inte byta till %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "program started without full file name"
-msgstr "program startat utan fullständigt filnamn"
+msgstr "programmet startades utan fullständigt filnamn"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot become a daemon: %s"
-msgstr "kan inte bli en daemon: %s"
+msgstr "kan inte bli en demon: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot restart: %s"
@@ -153064,7 +153064,7 @@ msgstr "kommandoraden var: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot get URL scheme: %s"
-msgstr "kan inte få URL-schema: %s"
+msgstr "kan inte hämta URL-schemat: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot get URL path: %s"
@@ -153076,7 +153076,7 @@ msgstr "kan inte hämta URL-port: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "port out of range: %u"
-msgstr "port utanför intervallet: %u"
+msgstr "portnumret ligger utanför intervallet: %u"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot get URL host: %s"
@@ -153096,15 +153096,15 @@ msgstr "%s [%lu] misslyckades med status %d"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s [%lu] terminated on signal %d"
-msgstr "%s [%lu] avbruten vid signal %d"
+msgstr "%s [%lu] avslutades av signal %d"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s [%lu] stopped on signal %d"
-msgstr "%s [%lu] stoppad på signal %d"
+msgstr "%s [%lu] stoppades av signal %d"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s [%lu] terminated with unrecognized status"
-msgstr "%s [%lu] avbruten med okänd status"
+msgstr "%s [%lu] avslutades med okänd status"
 
 #. from tp:mailfromd-8.17.91
 msgid "server %s: access from %s blocked: cannot check ACLs: %s"
@@ -153112,7 +153112,7 @@ msgstr "server %s: åtkomst från %s blockerad: kan inte kontrollera ACL:er: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "server %s: undefined ACL result; access from %s allowed"
-msgstr "server %s: odefinierat ACL-resultat; åtkomst från %s tillåten"
+msgstr "server %s: odefinierat resultat från ACL:en; åtkomst från %s tillåts"
 
 #. from tp:mailfromd-8.17.91
 msgid "server %s: access from %s blocked"
@@ -153120,11 +153120,11 @@ msgstr "server %s: åtkomst från %s blockerad"
 
 #. from tp:mailfromd-8.17.91
 msgid "removing shut down server %s"
-msgstr "ta bort avstängd server %s"
+msgstr "tar bort avstängd server %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "server %s: too many children (%lu)"
-msgstr "server %s: för många barn (%lu)"
+msgstr "server %s: för många underordnade processer (%lu)"
 
 #. from tp:mailfromd-8.17.91
 msgid "server %s: accept failed: %s"
@@ -153136,7 +153136,7 @@ msgstr "select misslyckades: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: file %s exists but cannot be stat'd: %s"
-msgstr "%s: filen %s finns men kan inte statas: %s"
+msgstr "%s: filen %s finns men kan inte avläsas med stat: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: file %s is not a socket"
@@ -153144,7 +153144,7 @@ msgstr "%s: filen %s är inte ett uttag"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: cannot unlink file %s: %s"
-msgstr "%s: kan inte avlänka fil %s: %s"
+msgstr "%s: kan inte ta bort filen %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "socket `%s' already exists"
@@ -153152,15 +153152,15 @@ msgstr "uttaget `%s' finns redan"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: cannot bind to %s: %s"
-msgstr "%s: kan inte bindas till %s: %s"
+msgstr "%s: kan inte binda till %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: listen on %s failed: %s"
-msgstr "%s: lyssna på %s misslyckades: %s"
+msgstr "%s: kan inte lyssna på %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "no servers configured"
-msgstr "inga servrar konfigurerade"
+msgstr "inga servrar har konfigurerats"
 
 #. from tp:mailfromd-8.17.91
 msgid "mf_dbm_open(%s) failed: %s"
@@ -153172,11 +153172,11 @@ msgstr "ogiltigt transformationsuttryck"
 
 #. from tp:mailfromd-8.17.91
 msgid "missing replacement expression"
-msgstr "saknas ersättning uttryck"
+msgstr "ersättningsuttryck saknas"
 
 #. from tp:mailfromd-8.17.91
 msgid "missing trailing delimiter"
-msgstr "saknar efterföljande avgränsare"
+msgstr "efterföljande avgränsare saknas"
 
 #. from tp:mailfromd-8.17.91
 msgid "unknown flag"
@@ -153184,11 +153184,11 @@ msgstr "okänd flagga"
 
 #. from tp:mailfromd-8.17.91
 msgid "back reference out of range"
-msgstr "bakre referens utanför intervallet"
+msgstr "bakåtreferens utanför intervallet"
 
 #. from tp:mailfromd-8.17.91
 msgid "refusing to run as root"
-msgstr "vägrar att ställa upp som root"
+msgstr "vägrar att köras som root"
 
 #. from tp:mailfromd-8.17.91
 msgid "setgroups failed: %s"
@@ -153228,23 +153228,23 @@ msgstr "okänd grupp: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "INTERNAL ERROR at %s:%d: please report"
-msgstr "INTERNT FEL vid %s:%d: vänligen rapportera"
+msgstr "INTERNT FEL vid %s:%d: rapportera"
 
 #. from tp:mailfromd-8.17.91
 msgid "unrecognized time format (near `%s')"
-msgstr "oigenkänt tidsformat (nära `%s')"
+msgstr "okänt tidsformat (nära `%s`)"
 
 #. from tp:mailfromd-8.17.91
 msgid "this statement has no effect in %s"
-msgstr "detta uttalande har ingen effekt i %s"
+msgstr "den här satsen har ingen effekt i %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "expected %s, but got %3.3s"
-msgstr "förväntade sig %s, men fick %3.3s"
+msgstr "förväntade %s men fick %3.3s"
 
 #. from tp:mailfromd-8.17.91
 msgid "expected \"%s\", but got %s"
-msgstr "förväntade sig \"%s\", men fick %s"
+msgstr "förväntade ”%s” men fick %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "mtasim -- MTA simulator for mailfromd"
@@ -153256,7 +153256,7 @@ msgstr "läge som inte stöds"
 
 #. from tp:mailfromd-8.17.91
 msgid "wrong assignment format: %s"
-msgstr "fel format på uppgiften: %s"
+msgstr "felaktigt tilldelningsformat: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid version syntax (near %s)"
@@ -153264,19 +153264,19 @@ msgstr "ogiltig versionssyntax (nära %s)"
 
 #. from tp:mailfromd-8.17.91
 msgid "unknown timeout: %c"
-msgstr "okänd timeout: %c"
+msgstr "okänd tidsgräns: %c"
 
 #. from tp:mailfromd-8.17.91
 msgid "missing '=' after %c"
-msgstr "saknar '=' efter %c"
+msgstr "”=” saknas efter %c"
 
 #. from tp:mailfromd-8.17.91
 msgid "unexpected character at %s"
-msgstr "oväntad karaktär vid %s"
+msgstr "oväntat tecken vid %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid timeout near %s"
-msgstr "ogiltig timeout nära %s"
+msgstr "ogiltig tidsgräns nära %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "value out of range: %s"
@@ -153300,19 +153300,19 @@ msgstr "ange MTA-läge (-bd eller -bs)"
 
 #. from tp:mailfromd-8.17.91
 msgid "use the SMTP protocol on standard input and output (same as -bs)"
-msgstr "använda SMTP-protokollet på standard in- och utdata (samma som -bs)"
+msgstr "använd SMTP-protokollet på standardindata och standardutdata (samma som -bs)"
 
 #. from tp:mailfromd-8.17.91
 msgid "run as daemon (same as -bd)"
-msgstr "kör som daemon (samma som -bd)"
+msgstr "kör som demon (samma som -bd)"
 
 #. from tp:mailfromd-8.17.91
 msgid "run with this user privileges"
-msgstr "körs med dessa användarrättigheter"
+msgstr "kör med den här användarens behörighet"
 
 #. from tp:mailfromd-8.17.91
 msgid "retain the supplementary group NAME when switching to user privileges"
-msgstr "behålla den kompletterande gruppen NAME när du byter till användarrättigheter"
+msgstr "behåll tilläggsgruppen NAME när du byter till användarbehörighet"
 
 #. from tp:mailfromd-8.17.91
 msgid "Operation modifiers"
@@ -153324,7 +153324,7 @@ msgstr "MACRO=VÄRDE"
 
 #. from tp:mailfromd-8.17.91
 msgid "define Sendmail macro"
-msgstr "define Sendmail makro"
+msgstr "definiera Sendmail-makro"
 
 #. from tp:mailfromd-8.17.91
 msgid "PORT"
@@ -153336,11 +153336,11 @@ msgstr "kommunicera med Milter PORT"
 
 #. from tp:mailfromd-8.17.91
 msgid "pass temporary directory to mailfromd as its state dir (with -Xauto)"
-msgstr "skicka en tillfällig katalog till mailfromd som dess state dir (med -Xauto)"
+msgstr "skicka en tillfällig katalog till mailfromd som dess tillståndskatalog (med -Xauto)"
 
 #. from tp:mailfromd-8.17.91
 msgid "set the body chunk for xxfi_body calls"
-msgstr "ställa in kroppsbiten för xxfi_body-anrop"
+msgstr "ange datasegmentet för xxfi_body-anrop"
 
 #. from tp:mailfromd-8.17.91
 msgid "VER"
@@ -153348,7 +153348,7 @@ msgstr "VER"
 
 #. from tp:mailfromd-8.17.91
 msgid "force using the given Milter protocol version number"
-msgstr "kraft med hjälp av det angivna versionsnumret för Milter-protokollet"
+msgstr "tvinga användning av det angivna versionsnumret för Milter-protokollet"
 
 #. from tp:mailfromd-8.17.91
 msgid "BITMASK"
@@ -153360,7 +153360,7 @@ msgstr "tvinga fram de givna Milter-åtgärderna"
 
 #. from tp:mailfromd-8.17.91
 msgid "set Milter protocol capabilities"
-msgstr "ställa in Milter-protokollets kapacitet"
+msgstr "ange Milter-protokollets funktioner"
 
 #. from tp:mailfromd-8.17.91
 msgid "F=V[,F=V...]"
@@ -153384,7 +153384,7 @@ msgstr "interaktivt läge"
 
 #. from tp:mailfromd-8.17.91
 msgid "set readline prompt"
-msgstr "ställa in readline prompt"
+msgstr "ange readline-prompten"
 
 #. from tp:mailfromd-8.17.91
 msgid "Debugging and tracing"
@@ -153400,7 +153400,7 @@ msgstr "ange namn på spårningsfilen"
 
 #. from tp:mailfromd-8.17.91
 msgid "increase verbosity level"
-msgstr "öka ordrikhetsnivån"
+msgstr "öka detaljnivån"
 
 #. from tp:mailfromd-8.17.91
 msgid "LEVEL"
@@ -153408,7 +153408,7 @@ msgstr "NIVÅ"
 
 #. from tp:mailfromd-8.17.91
 msgid "set Gacopyz log level"
-msgstr "ställa in Gacopyz loggnivå"
+msgstr "ange Gacopyz-loggnivån"
 
 #. from tp:mailfromd-8.17.91
 msgid "TLS options"
@@ -153420,7 +153420,7 @@ msgstr "ange namn på TLS-certifikatfilen"
 
 #. from tp:mailfromd-8.17.91
 msgid "set name of the TLS CA file"
-msgstr "ange namn på TLS CA-filen"
+msgstr "ange namnet på TLS-CA-filen"
 
 #. from tp:mailfromd-8.17.91
 msgid "set name of the TLS key file"
@@ -153436,11 +153436,11 @@ msgstr "kan inte öppna katalogen %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot stat file `%s': %s"
-msgstr "kan inte stat-fil `%s': %s"
+msgstr "kan inte avläsa filen `%s` med stat: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot unlink %s: %s"
-msgstr "kan inte ta bort länken %s: %s"
+msgstr "kan inte ta bort %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot save current directory: %s"
@@ -153460,19 +153460,19 @@ msgstr "mailfromd avslutades med status %d"
 
 #. from tp:mailfromd-8.17.91
 msgid "mailfromd terminated on signal %d"
-msgstr "mailfromd avslutat på signal %d"
+msgstr "mailfromd avslutades av signal %d"
 
 #. from tp:mailfromd-8.17.91
 msgid "mailfromd terminated with unrecognized status"
-msgstr "mailfromd avslutat med okänd status"
+msgstr "mailfromd avslutades med okänd status"
 
 #. from tp:mailfromd-8.17.91
 msgid "can't unlink %s: %s"
-msgstr "kan inte ta bort länken %s: %s"
+msgstr "kan inte ta bort %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot fork: %s"
-msgstr "kan inte gaffla: %s"
+msgstr "kan inte förgrena: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot execute mailfromd: %s"
@@ -153484,7 +153484,7 @@ msgstr "barnprocessen avslutades oväntat"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot open trace output: %s"
-msgstr "kan inte öppna spårningsutgång: %s"
+msgstr "kan inte öppna spårningsutdata: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "use either --stdio or --daemon"
@@ -153500,7 +153500,7 @@ msgstr "kan inte skapa gacopyz-server"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot connect to the milter using %s"
-msgstr "kan inte ansluta till miltern med hjälp av %s"
+msgstr "kan inte ansluta till miltern via %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "end of file reached"
@@ -153508,11 +153508,11 @@ msgstr "slutet av filen har nåtts"
 
 #. from tp:mailfromd-8.17.91
 msgid "write failed: %s"
-msgstr "skrivning misslyckades: %s"
+msgstr "skrivningen misslyckades: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "read failed: %s"
-msgstr "läsning misslyckades: %s"
+msgstr "läsningen misslyckades: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s:%d: INTERNAL ERROR: no reply (%s)"
@@ -153532,11 +153532,11 @@ msgstr "ingen sådan modul: %*.*s"
 
 #. from tp:mailfromd-8.17.91
 msgid "Cannot open temporary file: %s"
-msgstr "Det går inte att öppna en temporär fil: %s"
+msgstr "kan inte öppna en tillfällig fil: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "error writing temporary stream: %s"
-msgstr "fel vid skrivning av tillfällig ström: %s"
+msgstr "fel vid skrivning till tillfällig dataström: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "message is not a RFC-934 digest"
@@ -153544,19 +153544,19 @@ msgstr "meddelandet är inte en RFC-934-digest"
 
 #. from tp:mailfromd-8.17.91
 msgid "no more message slots available"
-msgstr "inga fler meddelandeplatser tillgängliga"
+msgstr "inga fler meddelandeplatser finns tillgängliga"
 
 #. from tp:mailfromd-8.17.91
 msgid "requested item (#%ld) not found"
-msgstr "begärd artikel (#%ld) hittades inte"
+msgstr "den begärda posten (#%ld) hittades inte"
 
 #. from tp:mailfromd-8.17.91
 msgid "requested item (%s,%ld) not found"
-msgstr "begärd artikel (%s,%ld) hittades inte"
+msgstr "den begärda posten (%s,%ld) hittades inte"
 
 #. from tp:mailfromd-8.17.91
 msgid "bad numeric file mode"
-msgstr "dåligt numeriskt filläge"
+msgstr "ogiltigt numeriskt filläge"
 
 #. from tp:mailfromd-8.17.91
 msgid "not a valid URL: %s"
@@ -153564,11 +153564,11 @@ msgstr "inte en giltig URL: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "bad symbolic file mode (near %s)"
-msgstr "dåligt symboliskt filläge (nära %s)"
+msgstr "ogiltigt symboliskt filläge (nära %s)"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot create list: %s"
-msgstr "kan inte skapa lista: %s"
+msgstr "kan inte skapa en lista: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "Cannot create list: %s"
@@ -153584,7 +153584,7 @@ msgstr "kan inte hämta data: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "failed to insert data to %s: %s %s: %s"
-msgstr "misslyckades med att infoga data till %s: %s %s: %s"
+msgstr "kunde inte infoga data i %s: %s %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "record already exists"
@@ -153624,19 +153624,19 @@ msgstr "greylistdatabasen %s har fel datastorlek"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot insert datum `%-.*s' in greylist database %s: %s"
-msgstr "kan inte infoga datum `%-.*s' i greylistdatabasen %s: %s"
+msgstr "kan inte infoga data `%-.*s` i greylistdatabasen %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "Cannot insert datum `%-.*s' in greylist database %s: %s"
-msgstr "Det går inte att infoga datum `%-.*s' i greylistdatabasen %s: %s"
+msgstr "kan inte infoga data `%-.*s` i greylistdatabasen %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "is_greylisted is not implemented for traditional greylist databases; see documentation, chapter %s %s for more info"
-msgstr "is_greylisted är inte implementerat för traditionella greylist-databaser; se dokumentation, kapitel %s %s för mer information"
+msgstr "is_greylisted är inte implementerat för traditionella greylistdatabaser; se dokumentationen, kapitel %s %s, för mer information"
 
 #. from tp:mailfromd-8.17.91
 msgid "no such db format: %s"
-msgstr "inget sådant db-format: %s"
+msgstr "inget sådant databasformat: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid module name: %s"
@@ -153648,19 +153648,19 @@ msgstr "slut på stackutrymme; öka #pragma stacksize"
 
 #. from tp:mailfromd-8.17.91
 msgid "bad signing algorithm: %s"
-msgstr "dålig signeringsalgoritm: %s"
+msgstr "ogiltig signeringsalgoritm: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "bad canonicalization type: %s"
-msgstr "dålig kanoniseringstyp: %s"
+msgstr "ogiltig kanoniseringsmetod: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "MMQ incompatible with dkim_sign: %s on %s, value %s"
-msgstr "MMQ inkompatibel med dkim_sign: %s på %s, värde %s"
+msgstr "MMQ är inkompatibel med dkim_sign: %s på %s, värdet %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s failed on %s, value %s: %s"
-msgstr "%s misslyckades på %s, värde %s: %s"
+msgstr "%s misslyckades för %s, värdet %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "Sendmail address header postprocessing failed: %s"
@@ -153672,43 +153672,43 @@ msgstr "DKIM misslyckades"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot resolve IP %s"
-msgstr "kan inte lösa IP %s"
+msgstr "kan inte slå upp IP-adressen %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot create reverse name from %s and %s"
-msgstr "kan inte skapa omvänt namn från %s och %s"
+msgstr "kan inte skapa omvänt DNS-namn från %s och %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "domain %s is not suitable for PTR record %s"
-msgstr "domän %s är inte lämplig för PTR-post %s"
+msgstr "domänen %s är inte lämplig för PTR-posten %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot resolve host name %s"
-msgstr "kan inte lösa värdnamn %s"
+msgstr "kan inte slå upp värdnamnet %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot reverse IP %s"
-msgstr "kan inte vända IP %s"
+msgstr "kan inte göra en omvänd uppslagning av IP-adressen %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "bad DNS reply type: %d"
-msgstr "dåligt DNS-svar typ: %d"
+msgstr "felaktig DNS-svarstyp: %d"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid resolve family value"
-msgstr "ogiltig upplösning familjevärde"
+msgstr "ogiltigt värde för uppslagsfamilj"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot resolve %s"
-msgstr "kan inte lösa %s"
+msgstr "kan inte slå upp %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot get MX records for %s"
-msgstr "kan inte få MX-poster för %s"
+msgstr "kan inte hämta MX-poster för %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot get MXs for %s"
-msgstr "kan inte få MX för %s"
+msgstr "kan inte hämta MX-poster för %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s has no MX records"
@@ -153716,11 +153716,11 @@ msgstr "%s har inga MX-poster"
 
 #. from tp:mailfromd-8.17.91
 msgid "failed to get PTR record for %s"
-msgstr "lyckades inte få PTR-rekord för %s"
+msgstr "kunde inte hämta PTR-posten för %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot get NS records for %s"
-msgstr "kan inte få NS-poster för %s"
+msgstr "kan inte hämta NS-poster för %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid DNS reply number: %ld"
@@ -153732,7 +153732,7 @@ msgstr "inget sådant svar: %ld"
 
 #. from tp:mailfromd-8.17.91
 msgid "index out of range: %ld"
-msgstr "index utanför intervallet: %ld"
+msgstr "indexet ligger utanför intervallet: %ld"
 
 #. from tp:mailfromd-8.17.91
 msgid "can't use dns_reply_ip on non-IPv4 replies"
@@ -153740,7 +153740,7 @@ msgstr "kan inte använda dns_reply_ip för svar som inte är IPv4"
 
 #. from tp:mailfromd-8.17.91
 msgid "DNS reply table full"
-msgstr "DNS-svarstabell full"
+msgstr "DNS-svarstabellen är full"
 
 #. from tp:mailfromd-8.17.91
 msgid "unsupported type: %ld"
@@ -153748,7 +153748,7 @@ msgstr "typ som inte stöds: %ld"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot get %s records for %s"
-msgstr "kan inte få %s poster för %s"
+msgstr "kan inte hämta %s-poster för %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "IP not found in the database"
@@ -153756,11 +153756,11 @@ msgstr "IP finns inte i databasen"
 
 #. from tp:mailfromd-8.17.91
 msgid "malformed data list"
-msgstr "missbildad datalista"
+msgstr "felaktigt utformad datalista"
 
 #. from tp:mailfromd-8.17.91
 msgid "unsupported MMDB data type %d"
-msgstr "mMDB-datatyp som inte stöds %d"
+msgstr "MMDB-datatyp som inte stöds: %d"
 
 #. from tp:mailfromd-8.17.91
 msgid "malformed data list: reported and actual number of keys differ"
@@ -153776,7 +153776,7 @@ msgstr "%lu: uid hittades inte"
 
 #. from tp:mailfromd-8.17.91
 msgid "Maximum number of stream descriptors."
-msgstr "Maximalt antal stream descriptors."
+msgstr "Maximalt antal strömdeskriptorer."
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: short write"
@@ -153788,7 +153788,7 @@ msgstr "%s: skrivfel: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: error flushing stream"
-msgstr "%s: fel vid spolning av ström"
+msgstr "%s: fel vid tömning av dataströmmen"
 
 #. from tp:mailfromd-8.17.91
 msgid "buffer size out of allowed range"
@@ -153800,7 +153800,7 @@ msgstr "kan inte allokera strömbuffert"
 
 #. from tp:mailfromd-8.17.91
 msgid "bad buffering type: %ld"
-msgstr "dålig buffringstyp: %ld"
+msgstr "ogiltig buffringstyp: %ld"
 
 #. from tp:mailfromd-8.17.91
 msgid "write error on %s: %s"
@@ -153824,7 +153824,7 @@ msgstr "pipe misslyckades: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "fork failed: %s"
-msgstr "gaffel misslyckades: %s"
+msgstr "förgrening misslyckades: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "unknown syslog facility (%s), redirecting stderr to %s"
@@ -153836,7 +153836,7 @@ msgstr "okänd syslog-prioritet (%s), omdirigerar stderr till %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot open file %s for appending: %s"
-msgstr "kan inte öppna filen %s för appending: %s"
+msgstr "kan inte öppna filen %s för tillägg: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "pipe left: %s"
@@ -153880,15 +153880,15 @@ msgstr "ogiltig IP-adress: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "not a valid IP or CIDR: %s"
-msgstr "inte en giltig IP eller CIDR: %s"
+msgstr "inte en giltig IP-adress eller ett giltigt CIDR-nät: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "unknown smtp state tag: %s"
-msgstr "okänd smtp tillstånd tagg: %s"
+msgstr "okänd SMTP-tillståndstagg: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "macro not defined: %s"
-msgstr "makro ej definierat: %s"
+msgstr "makro inte definierat: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot create mailer `%s': %s"
@@ -153900,11 +153900,11 @@ msgstr "felaktig mottagaradress `%s': %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "bad sender address `%s': %s"
-msgstr "dålig avsändaradress `%s': %s"
+msgstr "felaktig avsändaradress `%s`: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "opening mailer `%s' failed: %s"
-msgstr "öppning av mailer `%s' misslyckades: %s"
+msgstr "kan inte öppna mailer `%s`: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot send message: %s"
@@ -153920,7 +153920,7 @@ msgstr "Maximalt antal brevlådor som kan öppnas samtidigt."
 
 #. from tp:mailfromd-8.17.91
 msgid "no more mailboxes available"
-msgstr "inga fler brevlådor tillgängliga"
+msgstr "inga fler brevlådor finns tillgängliga"
 
 #. from tp:mailfromd-8.17.91
 msgid "incorrect mode near `%s'"
@@ -153944,7 +153944,7 @@ msgstr "ogiltig brevlådebeskrivare"
 
 #. from tp:mailfromd-8.17.91
 msgid "mailbox not open"
-msgstr "brevlådan inte öppen"
+msgstr "brevlådan är inte öppen"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot append message: %s"
@@ -153972,7 +153972,7 @@ msgstr "kan inte ladda %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid dynamic library handle"
-msgstr "ogiltigt dynamiskt bibliotekshandtag"
+msgstr "ogiltigt handtag för dynamiskt bibliotek"
 
 #. from tp:mailfromd-8.17.91
 msgid "can't find symbol %s in %s: %s"
@@ -153984,7 +153984,7 @@ msgstr "%s i modul %s har NULL-värde"
 
 #. from tp:mailfromd-8.17.91
 msgid "number of arguments doesn't satisfy type string"
-msgstr "antalet argument uppfyller inte typen string"
+msgstr "antalet argument uppfyller inte typsträngen"
 
 #. from tp:mailfromd-8.17.91
 msgid "call to %s in module %s failed"
@@ -153996,7 +153996,7 @@ msgstr "anrop till %s i modul %s misslyckades: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "unsupported return type %d in call to %s, module %s failed"
-msgstr "ej stödd returtyp %d i anrop till %s, modul %s misslyckades"
+msgstr "returtypen %d stöds inte i anropet till %s; modulen %s misslyckades"
 
 #. from tp:mailfromd-8.17.91
 msgid "Maximum number of messages to open simultaneously."
@@ -154004,7 +154004,7 @@ msgstr "Maximalt antal meddelanden som kan öppnas samtidigt."
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot obtain capture stream reference: %s"
-msgstr "kan inte erhålla referens för inspelningsström: %s"
+msgstr "kan inte hämta referens till inspelningsströmmen: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid message descriptor"
@@ -154012,15 +154012,15 @@ msgstr "ogiltig meddelandebeskrivning"
 
 #. from tp:mailfromd-8.17.91
 msgid "message not open"
-msgstr "meddelandet inte öppet"
+msgstr "meddelandet är inte öppet"
 
 #. from tp:mailfromd-8.17.91
 msgid "message size out of representable range"
-msgstr "meddelandets storlek utanför det representativa intervallet"
+msgstr "meddelandets storlek ligger utanför det representerbara intervallet"
 
 #. from tp:mailfromd-8.17.91
 msgid "body size out of representable range"
-msgstr "kroppsstorlek utanför representativt intervall"
+msgstr "brödtextens storlek ligger utanför det representerbara intervallet"
 
 #. from tp:mailfromd-8.17.91
 msgid "can't create filter for encoding %s: %s"
@@ -154028,11 +154028,11 @@ msgstr "kan inte skapa filter för kodning %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "header size out of representable range"
-msgstr "rubrikstorlek utanför representativt intervall"
+msgstr "huvudets storlek ligger utanför det representerbara intervallet"
 
 #. from tp:mailfromd-8.17.91
 msgid "header not found"
-msgstr "rubriken hittades inte"
+msgstr "huvudet hittades inte"
 
 #. from tp:mailfromd-8.17.91
 msgid "end of input"
@@ -154040,7 +154040,7 @@ msgstr "slut på inmatning"
 
 #. from tp:mailfromd-8.17.91
 msgid "can't convert from charset %s to %s: %s"
-msgstr "kan inte konvertera från charset %s till %s: %s"
+msgstr "kan inte konvertera från teckenuppsättning %s till %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "temporary failure querying for username %s"
@@ -154052,7 +154052,7 @@ msgstr "fel vid sökning efter användarnamn %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "unrecongized state id %ld"
-msgstr "orecongongized state id %ld"
+msgstr "oigenkänt tillstånds-id %ld"
 
 #. from tp:mailfromd-8.17.91
 msgid "unrecognized action code %ld"
@@ -154060,7 +154060,7 @@ msgstr "oigenkänd åtgärdskod %ld"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid version syntax"
-msgstr "ogiltig version syntax"
+msgstr "ogiltig versionssyntax"
 
 #. from tp:mailfromd-8.17.91
 msgid "this source file requires %s version %s or later,"
@@ -154076,15 +154076,15 @@ msgstr "inte ett giltigt versionsnummer: %s (argument %d)"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot get rate for %s"
-msgstr "kan inte få pris för %s"
+msgstr "kan inte hämta frekvensen för %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot check TBF rate for %s"
-msgstr "kan inte kontrollera TBF-avgiften för %s"
+msgstr "kan inte kontrollera TBF-frekvensen för %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot create debug stream; transcript disabled: %s"
-msgstr "kan inte skapa debug-ström; transkription inaktiverad: %s"
+msgstr "kan inte skapa felsökningsström; transkribering inaktiverad: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot create transcript stream: %s"
@@ -154096,19 +154096,19 @@ msgstr "kan inte skapa URL från `%s': %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: cannot get scheme: %s"
-msgstr "%s: kan inte få schema: %s"
+msgstr "%s: kan inte hämta schemat: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: cannot get path: %s"
-msgstr "%s: kan inte få sökväg: %s"
+msgstr "%s: kan inte hämta sökvägen: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: cannot get port: %s"
-msgstr "%s: kan inte hämta port: %s"
+msgstr "%s: kan inte hämta porten: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: cannot get host: %s"
-msgstr "%s: kan inte hämta värd: %s"
+msgstr "%s: kan inte hämta värden: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid URL: %s"
@@ -154120,51 +154120,51 @@ msgstr "okänt kommando: %ld"
 
 #. from tp:mailfromd-8.17.91
 msgid "send stream failed: %s"
-msgstr "skicka ström misslyckades: %s"
+msgstr "sändning av dataström misslyckades: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "remote side has closed connection"
-msgstr "fjärrsidan har sluten anslutning"
+msgstr "fjärränden har stängt anslutningen"
 
 #. from tp:mailfromd-8.17.91
 msgid "spamd responded with bad string '%s'"
-msgstr "spamd svarade med fel sträng '%s'"
+msgstr "spamd svarade med en felaktig sträng ”%s”"
 
 #. from tp:mailfromd-8.17.91
 msgid "unsupported SPAMD version: %s"
-msgstr "sPAMD-version som inte stöds: %s"
+msgstr "SPAMD-version som inte stöds: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "spamd responded with bad Spam header '%s'"
-msgstr "spamd svarade med felaktigt spamhuvud '%s'"
+msgstr "spamd svarade med ett felaktigt spamhuvud ”%s”"
 
 #. from tp:mailfromd-8.17.91
 msgid "bad response from clamav: expected `PORT' but found `%s'"
-msgstr "dåligt svar från clamav: förväntade sig `PORT' men fann `%s'"
+msgstr "felaktigt svar från ClamAV: förväntade ”PORT” men fick ”%s”"
 
 #. from tp:mailfromd-8.17.91
 msgid "sending to stream failed: %s"
-msgstr "sändning till ström misslyckades: %s"
+msgstr "sändning till dataström misslyckades: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "error reading clamav response: %s"
-msgstr "fel vid läsning av clamav-svar: %s"
+msgstr "fel vid läsning av svar från ClamAV: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "unknown clamav response: %s"
-msgstr "okänd clamav svar: %s"
+msgstr "okänt svar från ClamAV: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "clamav error: %s"
-msgstr "clamav fel: %s"
+msgstr "ClamAV-fel: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "sieve called from here"
-msgstr "sikt som kallas härifrån"
+msgstr "Sieve anropades härifrån"
 
 #. from tp:mailfromd-8.17.91
 msgid "failed to initialize sieve machine: %s"
-msgstr "misslyckades med att initiera siktmaskinen: %s"
+msgstr "misslyckades med att initiera Sieve-maskinen: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "compilation of Sieve script %s failed"
@@ -154172,7 +154172,7 @@ msgstr "kompilering av Sieve-skript %s misslyckades"
 
 #. from tp:mailfromd-8.17.91
 msgid "sieving failed: %s"
-msgstr "siktningen misslyckades: %s"
+msgstr "Sieve-körningen misslyckades: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "argument out of range"
@@ -154196,11 +154196,11 @@ msgstr "fel vid avkodning av sträng: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "error encoding string: %s"
-msgstr "fel kodningssträng: %s"
+msgstr "fel vid kodning av sträng: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "unfinished character class near %s"
-msgstr "oavslutad karaktär klass nära %s"
+msgstr "oavslutad teckenklass nära %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "unclosed character class near %s"
@@ -154216,7 +154216,7 @@ msgstr "fallande intervall i teckenklass nära %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "replacement set cannot be empty"
-msgstr "ersättningssetet kan inte vara tomt"
+msgstr "ersättningsmängden kan inte vara tom"
 
 #. from tp:mailfromd-8.17.91
 msgid "ranges in source set must be in ascending order"
@@ -154224,11 +154224,11 @@ msgstr "intervallen i källuppsättningen måste vara i stigande ordning"
 
 #. from tp:mailfromd-8.17.91
 msgid "ranges should appear at the same offset in both source and replacement sets"
-msgstr "intervall bör visas med samma offset i både käll- och ersättningsuppsättningar"
+msgstr "intervallen måste ha samma position i både käll- och ersättningsmängden"
 
 #. from tp:mailfromd-8.17.91
 msgid "source and replacement ranges differ in size"
-msgstr "käll- och ersättningsområden skiljer sig åt i storlek"
+msgstr "käll- och ersättningsintervallen skiljer sig åt i storlek"
 
 #. from tp:mailfromd-8.17.91
 msgid "%08lx: unknown opcode %u; aborting dump"
@@ -154260,19 +154260,19 @@ msgstr "STARTTLS misslyckades (%s)"
 
 #. from tp:mailfromd-8.17.91
 msgid "restarting session"
-msgstr "omstart av session"
+msgstr "startar om sessionen"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot create debug stream: %s; transcript disabled"
-msgstr "kan inte skapa debug-ström: %s; transkription inaktiverad"
+msgstr "kan inte skapa felsökningsström: %s; transkribering inaktiverad"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot create transcript filterstream: %s"
-msgstr "kan inte skapa transkript filterström: %s"
+msgstr "kan inte skapa filterdataström för transkript: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot create transcript stream: %s; transcript disabled"
-msgstr "kan inte skapa avskriftsström: %s; avskrift avaktiverad"
+msgstr "kan inte skapa transkriptström: %s; transkribering inaktiverad"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot convert %s to sockaddr: %s"
@@ -154296,11 +154296,11 @@ msgstr "calloutd -- en utropsserver"
 
 #. from tp:mailfromd-8.17.91
 msgid "General options"
-msgstr "Allmäna inställningar"
+msgstr "Allmänna inställningar"
 
 #. from tp:mailfromd-8.17.91
 msgid "read resolver configuration from FILE"
-msgstr "läsa resolverkonfiguration från FILE"
+msgstr "läs namnuppslagskonfiguration från FIL"
 
 #. from tp:mailfromd-8.17.91
 msgid "can't read private key from %s: %s"
@@ -154316,47 +154316,47 @@ msgstr "oväntat slut på filen i %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "unsupported RSA version in file %s"
-msgstr "rSA-version som inte stöds i filen %s"
+msgstr "RSA-version som inte stöds i filen %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "INTERNAL ERROR: unrecognized PEM error code: %d"
-msgstr "INTERNT FEL: Oigenkänd PEM-felkod: %d"
+msgstr "INTERNT FEL: oigenkänd PEM-felkod: %d"
 
 #. from tp:mailfromd-8.17.91
 msgid "unexpected end of file in canonical stream"
-msgstr "oväntat slut på fil i kanonisk ström"
+msgstr "oväntat filslut i den kanoniska dataströmmen"
 
 #. from tp:mailfromd-8.17.91
 msgid "malformed canonical stream"
-msgstr "missbildad kanonisk ström"
+msgstr "felaktigt formaterad kanonisk dataström"
 
 #. from tp:mailfromd-8.17.91
 msgid "left-hand side argument to the arithmetical operation is of wrong data type"
-msgstr "vänster sidas argument till den aritmetiska operationen är av fel datatyp"
+msgstr "vänsterledsargumentet till den aritmetiska operationen har fel datatyp"
 
 #. from tp:mailfromd-8.17.91
 msgid "right-hand side argument to the arithmetical operation is of wrong data type"
-msgstr "höger sidas argument till den aritmetiska operationen är av fel datatyp"
+msgstr "högerledsargumentet till den aritmetiska operationen har fel datatyp"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot compile regex: %s"
-msgstr "kan inte kompilera regex: %s"
+msgstr "kan inte kompilera reguljärt uttryck: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "left-hand side argument to match is of wrong data type"
-msgstr "vänster sidas argument för matchning är av fel datatyp"
+msgstr "vänsterledsargumentet till matchningen har fel datatyp"
 
 #. from tp:mailfromd-8.17.91
 msgid "right-hand side argument to match is of wrong data type (should not happen)"
-msgstr "höger sidas argument för matchning är av fel datatyp (ska inte hända)"
+msgstr "högerledsargumentet till matchningen har fel datatyp (ska inte hända)"
 
 #. from tp:mailfromd-8.17.91
 msgid "left-hand side argument to fnmatch is of wrong data type"
-msgstr "vänster sidas argument till fnmatch är av fel datatyp"
+msgstr "vänsterledsargumentet till fnmatch har fel datatyp"
 
 #. from tp:mailfromd-8.17.91
 msgid "right-hand side argument to fnmatch is of wrong data type"
-msgstr "höger sidas argument till fnmatch är av fel datatyp"
+msgstr "högerledsargumentet till fnmatch har fel datatyp"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid argument type in binary operation"
@@ -154368,7 +154368,7 @@ msgstr "avvisningskoden ska vara 5xx"
 
 #. from tp:mailfromd-8.17.91
 msgid "reject extended code should be 5.x.x"
-msgstr "avvisa utökad kod bör vara 5.x.x"
+msgstr "avvisningens utökade kod bör vara 5.x.x"
 
 #. from tp:mailfromd-8.17.91
 msgid "tempfail code should be 4xx"
@@ -154376,11 +154376,11 @@ msgstr "tempfail-koden bör vara 4xx"
 
 #. from tp:mailfromd-8.17.91
 msgid "tempfail extended code should be 4.x.x"
-msgstr "tempfail utökad kod bör vara 4.x.x"
+msgstr "tempfail-kodens utökade kod bör vara 4.x.x"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot convert %s to number"
-msgstr "kan inte konvertera %s till nummer"
+msgstr "kan inte konvertera %s till tal"
 
 #. from tp:mailfromd-8.17.91
 msgid "INTERNAL ERROR at %s:%d: cannot find loop"
@@ -154388,7 +154388,7 @@ msgstr "INTERNT FEL vid %s:%d: kan inte hitta slingan"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot convert literal to number"
-msgstr "kan inte konvertera bokstav till tal"
+msgstr "kan inte konvertera literal till tal"
 
 #. from tp:mailfromd-8.17.91
 msgid "expression evaluates to unspecified data type"
@@ -154400,7 +154400,7 @@ msgstr "ogiltig transformationssträng: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "execution of the filter program was not finished"
-msgstr "utförandet av filterprogrammet var inte klart"
+msgstr "körningen av filterprogrammet slutfördes inte"
 
 #. from tp:mailfromd-8.17.91
 msgid "mlfi_connect: unsupported address family: %d"
@@ -154428,11 +154428,11 @@ msgstr "den inbyggda funktionen `%s' kan inte användas i prog `%s'"
 
 #. from tp:mailfromd-8.17.91
 msgid "missing module declaration"
-msgstr "saknar moduldeklaration"
+msgstr "moduldeklaration saknas"
 
 #. from tp:mailfromd-8.17.91
 msgid "duplicate module declaration"
-msgstr "duplikat moduldeklaration"
+msgstr "dubblerad moduldeklaration"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid module declaration"
@@ -154440,7 +154440,7 @@ msgstr "ogiltig moduldeklaration"
 
 #. from tp:mailfromd-8.17.91
 msgid "`precious' used with func"
-msgstr "\"värdefull\" används med func"
+msgstr "`precious` används med func"
 
 #. from tp:mailfromd-8.17.91
 msgid "`static' and `public' used together"
@@ -154448,7 +154448,7 @@ msgstr "`static' och `public' används tillsammans"
 
 #. from tp:mailfromd-8.17.91
 msgid "duplicate `%s'"
-msgstr "duplikat `%s'"
+msgstr "dubblerad `%s`"
 
 #. from tp:mailfromd-8.17.91
 msgid "`precious' used with const"
@@ -154468,7 +154468,7 @@ msgstr "initialiseringselementet är inte numeriskt"
 
 #. from tp:mailfromd-8.17.91
 msgid "return from %s is ignored"
-msgstr "retur från %s ignoreras"
+msgstr "returvärdet från %s ignoreras"
 
 #. from tp:mailfromd-8.17.91
 msgid "unspecified value not ignored as it should be"
@@ -154484,7 +154484,7 @@ msgstr "Sendmail-åtgärder är inte tillåtna i slutblocket"
 
 #. from tp:mailfromd-8.17.91
 msgid "header action is not allowed in end block"
-msgstr "rubrikåtgärd är inte tillåten i slutblock"
+msgstr "huvudåtgärd är inte tillåten i slutblocket"
 
 #. from tp:mailfromd-8.17.91
 msgid "arguments are ignored for accept"
@@ -154496,11 +154496,11 @@ msgstr "ogiltig SMTP-svarskod"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid extended reply code"
-msgstr "ogiltig kod för utökat svar"
+msgstr "ogiltig utökad svarskod"
 
 #. from tp:mailfromd-8.17.91
 msgid "duplicate default statement"
-msgstr "duplicera standarduttalande"
+msgstr "dubblerad default-sats"
 
 #. from tp:mailfromd-8.17.91
 msgid "previously defined here"
@@ -154508,19 +154508,19 @@ msgstr "tidigare definierad här"
 
 #. from tp:mailfromd-8.17.91
 msgid "expected string, but found %s"
-msgstr "förväntad sträng, men hittades %s"
+msgstr "förväntade en sträng men fick %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "duplicate loop increment"
-msgstr "duplicera slinga inkrement"
+msgstr "dubblerad slinginkrementering"
 
 #. from tp:mailfromd-8.17.91
 msgid "duplicate for statement"
-msgstr "duplikat för uttalande"
+msgstr "dubblerad for-sats"
 
 #. from tp:mailfromd-8.17.91
 msgid "duplicate while statement"
-msgstr "duplicera while-satsen"
+msgstr "dubblerad while-sats"
 
 #. from tp:mailfromd-8.17.91
 msgid "no such loop: %s"
@@ -154556,11 +154556,11 @@ msgstr "$@ är endast tillåtet i variadiska funktioner"
 
 #. from tp:mailfromd-8.17.91
 msgid "expected numeric value, but found `%s'"
-msgstr "förväntat numeriskt värde, men hittade `%s'"
+msgstr "förväntade ett numeriskt värde men fick `%s`"
 
 #. from tp:mailfromd-8.17.91
 msgid "exception code not a number"
-msgstr "undantagskod inte ett nummer"
+msgstr "undantagskoden är inte ett tal"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid exception number: %lu"
@@ -154572,7 +154572,7 @@ msgstr "`return' utanför en funktion"
 
 #. from tp:mailfromd-8.17.91
 msgid "`return' with no value, in function returning non-void"
-msgstr "`return' utan värde, i funktion som returnerar icke-void"
+msgstr "`return` utan värde i en funktion som returnerar något annat än void"
 
 #. from tp:mailfromd-8.17.91
 msgid "`return' with a value, in function returning void"
@@ -154580,15 +154580,15 @@ msgstr "`return' med ett värde, i funktion som returnerar void"
 
 #. from tp:mailfromd-8.17.91
 msgid "unspecified data type in conditional expression: please, report"
-msgstr "ospecificerad datatyp i villkorligt uttryck: snälla, rapportera"
+msgstr "ospecificerad datatyp i villkorligt uttryck: rapportera"
 
 #. from tp:mailfromd-8.17.91
 msgid "`on poll' used without prior `require poll'"
-msgstr "\"on poll\" används utan föregående \"require poll\""
+msgstr "`on poll` används utan föregående `require poll`"
 
 #. from tp:mailfromd-8.17.91
 msgid "recipient address not specified in `on poll' construct"
-msgstr "mottagaradressen är inte angiven i \"on poll\"-konstruktionen"
+msgstr "mottagaradressen är inte angiven i `on poll`-konstruktionen"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid data type, expected number"
@@ -154604,11 +154604,11 @@ msgstr "inget att poppa"
 
 #. from tp:mailfromd-8.17.91
 msgid "unknown regexp flag: %s"
-msgstr "okänd regexp-flagga: %s"
+msgstr "okänd flagga för reguljärt uttryck: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid size: numeric overflow occurred"
-msgstr "ogiltig storlek: numeriskt överflöd inträffade"
+msgstr "ogiltig storlek: numeriskt överflöde inträffade"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid size suffix (near %s)"
@@ -154636,23 +154636,23 @@ msgstr "INTERNT FEL vid %s:%d, deklarerar %s %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "automatic variable `%s' is shadowing a parameter"
-msgstr "automatisk variabel `%s' skuggar en parameter"
+msgstr "automatisk variabel `%s` skymmer en parameter"
 
 #. from tp:mailfromd-8.17.91
 msgid "automatic variable `%s' is shadowing a global"
-msgstr "automatiska variabeln `%s' skuggar en global"
+msgstr "automatisk variabel `%s` skymmer en global variabel"
 
 #. from tp:mailfromd-8.17.91
 msgid "parameter `%s' is shadowing a global"
-msgstr "parametern `%s' skuggar en global"
+msgstr "parametern `%s` skymmer en global variabel"
 
 #. from tp:mailfromd-8.17.91
 msgid "redeclaring `%s' as different data type"
-msgstr "omdefiniera `%s' som en annan datatyp"
+msgstr "omdeklarerar `%s` med en annan datatyp"
 
 #. from tp:mailfromd-8.17.91
 msgid "duplicate variable: %s"
-msgstr "duplicera variabel: %s"
+msgstr "dubblerad variabel: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "duplicate parameter: %s"
@@ -154680,7 +154680,7 @@ msgstr "fel vid initialisering av variabel %s: inkompatibla typer"
 
 #. from tp:mailfromd-8.17.91
 msgid "variable `%s' already initialized"
-msgstr "variabeln `%s' redan initierad"
+msgstr "variabeln `%s` är redan initierad"
 
 #. from tp:mailfromd-8.17.91
 msgid "this is the location of the previous initialization"
@@ -154700,7 +154700,7 @@ msgstr "$N är endast tillåtet i funktioner med variabelt antal argument"
 
 #. from tp:mailfromd-8.17.91
 msgid "argument number too high"
-msgstr "argument nummer för högt"
+msgstr "argumentnumret är för högt"
 
 #. from tp:mailfromd-8.17.91
 msgid "use of uninitialized variable '%s'"
@@ -154736,31 +154736,31 @@ msgstr "numeriskt värde utanför intervallet"
 
 #. from tp:mailfromd-8.17.91
 msgid "including a module file is unreliable and may cause subtle errors"
-msgstr "att inkludera en modulfil är opålitligt och kan orsaka subtila fel"
+msgstr "att inkludera en modulfil är opålitligt och kan orsaka svårupptäckta fel"
 
 #. from tp:mailfromd-8.17.91
 msgid "use `require %*.*s' instead"
-msgstr "använd `require %*.*s' istället"
+msgstr "använd `require %*.*s` i stället"
 
 #. from tp:mailfromd-8.17.91
 msgid "misplaced `module'"
-msgstr "felplacerad `modul'"
+msgstr "felplacerad `module`"
 
 #. from tp:mailfromd-8.17.91
 msgid "end of file in comment"
-msgstr "slutet av filen i kommentar"
+msgstr "filslut i kommentaren"
 
 #. from tp:mailfromd-8.17.91
 msgid "end of file in string"
-msgstr "slutet av filen i strängen"
+msgstr "filslut i strängen"
 
 #. from tp:mailfromd-8.17.91
 msgid "end of file in shell block"
-msgstr "slutet av filen i skalblock"
+msgstr "filslut i skalblocket"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot create trace stream, using standard log: %s"
-msgstr "kan inte skapa spårström, använder standardlogg: %s"
+msgstr "kan inte skapa spårningsström; använder standardloggen: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot open file `%s': %s"
@@ -154768,7 +154768,7 @@ msgstr "kan inte öppna filen `%s': %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "mailfromd -- a general purpose milter daemon"
-msgstr "mailfromd -- en milter-daemon för allmänt bruk"
+msgstr "mailfromd – en allmän Milter-demon"
 
 #. from tp:mailfromd-8.17.91
 msgid "-O level must be a non-negative integer"
@@ -154776,15 +154776,15 @@ msgstr "-O-nivå måste vara ett icke-negativt heltal"
 
 #. from tp:mailfromd-8.17.91
 msgid "expected assignment, but found `%s'"
-msgstr "förväntat uppdrag, men hittade `%s'"
+msgstr "förväntade en tilldelning men fick `%s`"
 
 #. from tp:mailfromd-8.17.91
 msgid "preprocessor options given, but no default preprocessor defined: use the --preprocessor option"
-msgstr "preprocessor-alternativ angivna, men ingen standardpreprocessor definierad: använd alternativet --preprocessor"
+msgstr "alternativ för förbehandlaren angivna, men ingen standardförbehandlare definierad: använd alternativet --preprocessor"
 
 #. from tp:mailfromd-8.17.91
 msgid "Your configuration file disables passing defines to the preprocessor"
-msgstr "Din konfigurationsfil inaktiverar att defines skickas till preprocessorn"
+msgstr "Konfigurationsfilen inaktiverar att definitioner skickas till förbehandlaren"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s: not a valid interval"
@@ -154792,11 +154792,11 @@ msgstr "%s: inte ett giltigt intervall"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid milter timeout: %s"
-msgstr "ogiltig milter timeout: %s"
+msgstr "ogiltig Milter-tidsgräns: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "HANDLER"
-msgstr "HANDHAVARE"
+msgstr "HANTERARE"
 
 #. from tp:mailfromd-8.17.91
 msgid "run in test mode"
@@ -154808,7 +154808,7 @@ msgstr "FUNC"
 
 #. from tp:mailfromd-8.17.91
 msgid "run script and execute function FUNC (\"main\" if not given)"
-msgstr "kör skript och exekvera funktionen FUNC (\"main\" om den inte anges)"
+msgstr "kör skriptet och kör funktionen FUNC (”main” om den inte anges)"
 
 #. from tp:mailfromd-8.17.91
 msgid "check syntax and exit"
@@ -154820,7 +154820,7 @@ msgstr "visa standardvärden för kompilering"
 
 #. from tp:mailfromd-8.17.91
 msgid "run in daemon mode (default)"
-msgstr "körs i daemon-läge (standard)"
+msgstr "kör i demonläge (standard)"
 
 #. from tp:mailfromd-8.17.91
 msgid "preprocess source files and exit"
@@ -154836,7 +154836,7 @@ msgstr "ladda bibliotek"
 
 #. from tp:mailfromd-8.17.91
 msgid "add DIR to the load path"
-msgstr "lägg till DIR i laddningsstigen"
+msgstr "lägg till DIR i laddningssökvägen"
 
 #. from tp:mailfromd-8.17.91
 msgid "add the directory DIR to the list of directories to be searched for MFL module files"
@@ -154844,11 +154844,11 @@ msgstr "lägg till katalogen DIR i listan över kataloger som ska genomsökas ef
 
 #. from tp:mailfromd-8.17.91
 msgid "set communication socket"
-msgstr "ställ in kommunikationsuttag"
+msgstr "ange kommunikationssocket"
 
 #. from tp:mailfromd-8.17.91
 msgid "set callout socket"
-msgstr "inställd utropsteckning"
+msgstr "ange callout-socket"
 
 #. from tp:mailfromd-8.17.91
 msgid "run in mtasim compatibility mode"
@@ -154856,7 +154856,7 @@ msgstr "kör i mtasim-kompatibilitetsläge"
 
 #. from tp:mailfromd-8.17.91
 msgid "set code optimization level"
-msgstr "ställa in kodoptimeringsnivå"
+msgstr "ange kodoptimeringsnivå"
 
 #. from tp:mailfromd-8.17.91
 msgid "VAR=VALUE"
@@ -154868,23 +154868,23 @@ msgstr "tilldela VALUE till VAR"
 
 #. from tp:mailfromd-8.17.91
 msgid "read relayed domains from FILE"
-msgstr "läsa vidarebefordrade domäner från FILE"
+msgstr "läs vidarebefordrade domäner från FIL"
 
 #. from tp:mailfromd-8.17.91
 msgid "divert output of the \"echo\" instruction to FILE"
-msgstr "avleda utdata från \"echo\"-instruktionen till FILE"
+msgstr "avled utdata från instruktionen ”echo” till FIL"
 
 #. from tp:mailfromd-8.17.91
 msgid "Preprocessor options"
-msgstr "Alternativ för preprocessor"
+msgstr "Alternativ för förbehandlaren"
 
 #. from tp:mailfromd-8.17.91
 msgid "use command as external preprocessor"
-msgstr "använda kommandot som extern preprocessor"
+msgstr "använd kommandot som extern förbehandlare"
 
 #. from tp:mailfromd-8.17.91
 msgid "disable the use of external preprocessor"
-msgstr "inaktivera användningen av extern preprocessor"
+msgstr "inaktivera användningen av extern förbehandlare"
 
 #. from tp:mailfromd-8.17.91
 msgid "NAME[=VALUE]"
@@ -154892,19 +154892,19 @@ msgstr "NAMN[=VÄRDE]"
 
 #. from tp:mailfromd-8.17.91
 msgid "define a preprocessor symbol NAME as having VALUE, or empty"
-msgstr "definiera en preprocessorsymbol NAME som att den har VALUE, eller är tom"
+msgstr "definiera förbehandlarsymbolen NAME med värdet VALUE, eller tom"
 
 #. from tp:mailfromd-8.17.91
 msgid "undefine a preprocessor symbol NAME"
-msgstr "avdefiniera en preprocessorsymbol NAME"
+msgstr "avdefiniera förbehandlarsymbolen NAME"
 
 #. from tp:mailfromd-8.17.91
 msgid "Timeout control"
-msgstr "Timeout-kontroll"
+msgstr "Tidsgränskontroll"
 
 #. from tp:mailfromd-8.17.91
 msgid "set MTA connection timeout"
-msgstr "set Timeout för MTA-anslutning"
+msgstr "ange tidsgräns för MTA-anslutning"
 
 #. from tp:mailfromd-8.17.91
 msgid "Informational and debugging options"
@@ -154928,19 +154928,19 @@ msgstr "aktivera spårning av filterprogram"
 
 #. from tp:mailfromd-8.17.91
 msgid "dump disassembled code"
-msgstr "dumpa disassemblerad kod"
+msgstr "skriv ut disassemblerad kod"
 
 #. from tp:mailfromd-8.17.91
 msgid "dump grammar traces"
-msgstr "dumpa grammatiska spår"
+msgstr "skriv ut grammatikspår"
 
 #. from tp:mailfromd-8.17.91
 msgid "dump lexical analyzer traces"
-msgstr "dumpa spår av lexikal analysator"
+msgstr "skriv ut spår från lexikalanalysatorn"
 
 #. from tp:mailfromd-8.17.91
 msgid "dump parser tree"
-msgstr "dumpa parser träd"
+msgstr "skriv ut parsningsträdet"
 
 #. from tp:mailfromd-8.17.91
 msgid "show used Sendmail macros"
@@ -154948,27 +154948,27 @@ msgstr "visa använda Sendmail-makron"
 
 #. from tp:mailfromd-8.17.91
 msgid "produce a cross-reference listing"
-msgstr "producera en korsreferenslista"
+msgstr "skapa en korsreferenslista"
 
 #. from tp:mailfromd-8.17.91
 msgid "enable stack traces on runtime errors"
-msgstr "aktivera stackspårning vid körtidsfel"
+msgstr "aktivera stackspår vid körtidsfel"
 
 #. from tp:mailfromd-8.17.91
 msgid "Invalid milter timeout: %lu"
-msgstr "Ogiltig milter timeout: %lu"
+msgstr "Ogiltig Milter-tidsgräns: %lu"
 
 #. from tp:mailfromd-8.17.91
 msgid "expected string or list of strings"
-msgstr "förväntad sträng eller lista med strängar"
+msgstr "förväntade en sträng eller en lista med strängar"
 
 #. from tp:mailfromd-8.17.91
 msgid "Dump stack traces on runtime errors."
-msgstr "Dumpa stackspår vid körtidsfel."
+msgstr "Skriv ut stackspår vid körtidsfel."
 
 #. from tp:mailfromd-8.17.91
 msgid "Set milter timeout."
-msgstr "Ställ in milter timeout."
+msgstr "Ange Milter-tidsgräns."
 
 #. from tp:mailfromd-8.17.91
 msgid "time: interval"
@@ -154976,7 +154976,7 @@ msgstr "tid: intervall"
 
 #. from tp:mailfromd-8.17.91
 msgid "Sets the URL of the default callout server."
-msgstr "Ställer in URL:en för standardservern för utrop."
+msgstr "Anger URL-adressen till standard-callout-servern."
 
 #. from tp:mailfromd-8.17.91
 msgid "url"
@@ -154984,7 +154984,7 @@ msgstr "url"
 
 #. from tp:mailfromd-8.17.91
 msgid "Add directories to the list of directories to be searched for header files.  Argument is a list of directory names separated by colons."
-msgstr "Lägger till kataloger i listan över kataloger som ska genomsökas efter header-filer.  Argumentet är en lista med katalognamn åtskilda med kolon."
+msgstr "Lägger till kataloger i listan över kataloger som ska genomsökas efter huvudfiler. Argumentet är en lista med katalognamn åtskilda med kolon."
 
 #. from tp:mailfromd-8.17.91
 msgid "path: string"
@@ -155020,7 +155020,7 @@ msgstr "moduler: lista"
 
 #. from tp:mailfromd-8.17.91
 msgid "Read relayed domain names from the file"
-msgstr "Läsa vidarebefordrade domännamn från filen"
+msgstr "Läs vidarebefordrade domännamn från filen"
 
 #. from tp:mailfromd-8.17.91
 msgid "file: string"
@@ -155028,19 +155028,19 @@ msgstr "fil: sträng"
 
 #. from tp:mailfromd-8.17.91
 msgid "Configure MFL runtime values."
-msgstr "Konfigurera MFL:s runtime-värden."
+msgstr "Konfigurera MFL:s körtidsvärden."
 
 #. from tp:mailfromd-8.17.91
 msgid "no servers defined; will listen on %s"
-msgstr "inga servrar definierade; kommer att lyssna på %s"
+msgstr "inga servrar har definierats; lyssnar på %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot create echo output stream: %s"
-msgstr "kan inte skapa ekoutmatningsström: %s"
+msgstr "kan inte skapa ekoutdataström: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "extra arguments in daemon mode"
-msgstr "extra argument i daemon-läge"
+msgstr "extra argument i demonläge"
 
 #. from tp:mailfromd-8.17.91
 msgid "script file specified twice (%s and %s)"
@@ -155064,7 +155064,7 @@ msgstr "funktion %s måste ta variabelt antal argument"
 
 #. from tp:mailfromd-8.17.91
 msgid "function %s must return number"
-msgstr "funktion %s måste returnera nummer"
+msgstr "funktionen %s måste returnera ett tal"
 
 #. from tp:mailfromd-8.17.91
 msgid "script file is given without full file name"
@@ -155072,23 +155072,23 @@ msgstr "skriptfilen anges utan fullständigt filnamn"
 
 #. from tp:mailfromd-8.17.91
 msgid "operation is not applicable"
-msgstr "operationen är inte tillämplig"
+msgstr "åtgärden är inte tillämplig"
 
 #. from tp:mailfromd-8.17.91
 msgid "database file name is not given"
-msgstr "databasens filnamn anges inte"
+msgstr "databasfilens namn har inte angetts"
 
 #. from tp:mailfromd-8.17.91
 msgid "list is not applicable to this DB format"
-msgstr "listan är inte tillämplig på detta DB-format"
+msgstr "list gäller inte för detta databasformat"
 
 #. from tp:mailfromd-8.17.91
 msgid "expire is not applicable to this DB format"
-msgstr "expire är inte tillämpligt på detta DB-format"
+msgstr "expire gäller inte för detta databasformat"
 
 #. from tp:mailfromd-8.17.91
 msgid "compact is not applicable to this DB format"
-msgstr "compact är inte tillämpligt för detta DB-format"
+msgstr "compact gäller inte för detta databasformat"
 
 #. from tp:mailfromd-8.17.91
 msgid "mfdbtool -- Mailfromd database management tool"
@@ -155100,11 +155100,11 @@ msgstr "Kommandon för databashantering"
 
 #. from tp:mailfromd-8.17.91
 msgid "delete given entries from the database"
-msgstr "radera givna poster från databasen"
+msgstr "radera angivna poster från databasen"
 
 #. from tp:mailfromd-8.17.91
 msgid "list given database (default cache)"
-msgstr "lista given databas (standard cache)"
+msgstr "lista angiven databas (standard är cache)"
 
 #. from tp:mailfromd-8.17.91
 msgid "delete expired entries from the database"
@@ -155120,11 +155120,11 @@ msgstr "Kommandomodifierare"
 
 #. from tp:mailfromd-8.17.91
 msgid "DB file name to operate upon"
-msgstr "DB-filnamn att arbeta med"
+msgstr "DB-filnamn att hantera"
 
 #. from tp:mailfromd-8.17.91
 msgid "format of the DB file to operate upon"
-msgstr "format för DB-filen som ska bearbetas"
+msgstr "format för DB-filen som ska hanteras"
 
 #. from tp:mailfromd-8.17.91
 msgid "ignore failed reads while compacting the database"
@@ -155148,11 +155148,11 @@ msgstr "Konfigurationsmodifierare"
 
 #. from tp:mailfromd-8.17.91
 msgid "set new program state directory"
-msgstr "ställa in nytt program statskatalog"
+msgstr "ange ny tillståndskatalog för programmet"
 
 #. from tp:mailfromd-8.17.91
 msgid "set database expiration interval to NUMBER seconds"
-msgstr "ställa in databasens utgångsintervall till ANTAL sekunder"
+msgstr "ange databasens utgångsintervall till ANTAL sekunder"
 
 #. from tp:mailfromd-8.17.91
 msgid "Default database type"
@@ -155160,7 +155160,7 @@ msgstr "Standardtyp av databas"
 
 #. from tp:mailfromd-8.17.91
 msgid "Set program state directory."
-msgstr "Ställ in programstatuskatalog."
+msgstr "Ange programmets tillståndskatalog."
 
 #. from tp:mailfromd-8.17.91
 msgid "dir"
@@ -155168,7 +155168,7 @@ msgstr "dir"
 
 #. from tp:mailfromd-8.17.91
 msgid "Set mailfromd debugging level. Argument is a semicolon-separated list of debugging specifications. A simplified specification syntax is:\n   [!]<category: string>[.<level: string>,<level: string>...]\nFor details, please see the Mailfromd manual, section 3.18 \"Logging\nand Debugging\", GNU Mailutils manual, section 3.3 \"Debugging\",\nor visit <http://mailutils.org/wiki/Debug_level>."
-msgstr "Ange felsökningsnivå för mailfromd. Argumentet är en semikolonseparerad lista med felsökningsspecifikationer. En förenklad syntax för specifikationerna är:\n   [!]<category: string>[.<level: string>,<level: string>...]\nFör mer information, se Mailfromd-manualen, avsnitt 3.18 \"Logging\nand Debugging\", GNU Mailutils manual, avsnitt 3.3 \"Debugging\",\neller besök <http://mailutils.org/wiki/Debug_level>."
+msgstr "Ange felsökningsnivå för mailfromd. Argumentet är en semikolonseparerad lista med felsökningsspecifikationer. En förenklad syntax för specifikationerna är:\n   [!]<category: string>[.<level: string>,<level: string>...]\nMer information finns i Mailfromd-manualen, avsnitt 3.18 ”Logging\nand Debugging”, GNU Mailutils-manualen, avsnitt 3.3 ”Debugging”,\neller på <http://mailutils.org/wiki/Debug_level>."
 
 #. from tp:mailfromd-8.17.91
 msgid "spec: list"
@@ -155180,7 +155180,7 @@ msgstr "kan inte initiera DBM hint: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "you must specify one of --list, --delete, --expire or --compat"
-msgstr "måste du ange ett av följande alternativ: --list, --delete, --expire eller --compat"
+msgstr "du måste ange ett av alternativen --list, --delete, --expire eller --compat"
 
 #. from tp:mailfromd-8.17.91
 msgid "--all is meaningful only with --expire or --compact option"
@@ -155200,51 +155200,51 @@ msgstr "inmatningsfilen %s är inte läsbar: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot parse include line: %s"
-msgstr "kan inte analysera inkludera rad: %s"
+msgstr "kan inte tolka include-raden: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "Enable preprocessor (default)."
-msgstr "Aktivera preprocessor (standard)."
+msgstr "Aktivera förbehandlaren (standard)."
 
 #. from tp:mailfromd-8.17.91
 msgid "Preprocessor command line stub."
-msgstr "Preprocessor kommandoradsstub."
+msgstr "Kommandoradsstub för förbehandlaren."
 
 #. from tp:mailfromd-8.17.91
 msgid "Pass include search path to the preprocessor via -I options (default: false)"
-msgstr "Skicka sökvägen för inkludering till preprocessorn via -I-alternativen (standard: false)"
+msgstr "Skicka include-sökvägen till förbehandlaren via alternativen -I (standard: false)"
 
 #. from tp:mailfromd-8.17.91
 msgid "Pass feature definition and defines from the command line to the preprocessor via -D options (default: true)"
-msgstr "Skicka funktionsdefinitioner och definitioner från kommandoraden till preprocessorn via -D-alternativ (standard: true)"
+msgstr "Skicka funktionsdefinitioner och definitioner från kommandoraden till förbehandlaren via alternativen -D (standard: true)"
 
 #. from tp:mailfromd-8.17.91
 msgid "Name of the preprocessor setup file.  Looked up in include search path, unless absolute."
-msgstr "Namnet på preprocessorns installationsfil.  Letas upp i sökvägen för include, om den inte är absolut."
+msgstr "Namnet på förbehandlarens inställningsfil. Söks i include-sökvägen, om den inte är absolut."
 
 #. from tp:mailfromd-8.17.91
 msgid "MFL preprocessor configuration."
-msgstr "Konfiguration av MFL-preprocessor."
+msgstr "Konfiguration av MFL-förbehandlaren."
 
 #. from tp:mailfromd-8.17.91
 msgid "preprocessor exited with status %d"
-msgstr "preprocessorn avslutades med status %d"
+msgstr "förbehandlaren avslutades med status %d"
 
 #. from tp:mailfromd-8.17.91
 msgid "preprocessor terminated on signal %d"
-msgstr "förprocessorn avslutades på signal %d"
+msgstr "förbehandlaren avslutades av signal %d"
 
 #. from tp:mailfromd-8.17.91
 msgid "preprocessor stopped"
-msgstr "preprocessorn stoppad"
+msgstr "förbehandlaren stoppades"
 
 #. from tp:mailfromd-8.17.91
 msgid "preprocessor terminated abnormally"
-msgstr "förprocessorn avslutades onormalt"
+msgstr "förbehandlaren avslutades onormalt"
 
 #. from tp:mailfromd-8.17.91
 msgid "preprocessor options given, but the use of preprocessor is disabled; use the --preprocessor option"
-msgstr "preprocessor-alternativ anges, men användningen av preprocessor är inaktiverad; använd alternativet --preprocessor"
+msgstr "alternativ för förbehandlaren angivna, men användningen av förbehandlaren är inaktiverad; använd alternativet --preprocessor"
 
 #. from tp:mailfromd-8.17.91
 msgid "too few arguments in pragma"
@@ -155268,11 +155268,11 @@ msgstr "okänd pragma"
 
 #. from tp:mailfromd-8.17.91
 msgid "stack segment expanded, new size=%lu"
-msgstr "stacksegmentet utökat, ny storlek=%lu"
+msgstr "stacksegmentet utökades, ny storlek=%lu"
 
 #. from tp:mailfromd-8.17.91
 msgid "stack trace:"
-msgstr "stackspårning:"
+msgstr "stackspår:"
 
 #. from tp:mailfromd-8.17.91
 msgid "stack trace finishes"
@@ -155288,11 +155288,11 @@ msgstr "KÖRTIDSFEL nära %s:%u: "
 
 #. from tp:mailfromd-8.17.91
 msgid "stack underflow"
-msgstr "stack underflöde"
+msgstr "stackunderflöde"
 
 #. from tp:mailfromd-8.17.91
 msgid "heap overrun; increase #pragma stacksize"
-msgstr "överskridande av heap; öka #pragma stacksize"
+msgstr "heapen överskreds; öka #pragma stacksize"
 
 #. from tp:mailfromd-8.17.91
 msgid "memory chunk too big to fit into heap"
@@ -155312,7 +155312,7 @@ msgstr "inget tidigare reguljärt uttryck"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid back-reference number"
-msgstr "ogiltigt back-referensnummer"
+msgstr "ogiltigt bakåtreferensnummer"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid transform string \"%s\": %s"
@@ -155324,11 +155324,11 @@ msgstr "`accept' gör att tidigare kommandon för modifiering av meddelanden ign
 
 #. from tp:mailfromd-8.17.91
 msgid "pc out of range"
-msgstr "pc utanför intervallet"
+msgstr "programräknaren ligger utanför intervallet"
 
 #. from tp:mailfromd-8.17.91
 msgid "out of memory while formatting error message:"
-msgstr "slut på minne under formatering felmeddelande:"
+msgstr "slut på minne vid formatering av felmeddelande:"
 
 #. from tp:mailfromd-8.17.91
 msgid "unknown exception: %d: %s"
@@ -155336,31 +155336,31 @@ msgstr "okänt undantag: %d: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "uncaught exception %s: %s"
-msgstr "oavsiktligt undantag %s: %s"
+msgstr "ohanterat undantag %s: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%scannot create temporary stream: %s"
-msgstr "%skan inte skapa tillfällig ström: %s"
+msgstr "%skan inte skapa tillfällig dataström: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%stemporary stream seek failed: %s"
-msgstr "%s temporär strömsökning misslyckades: %s"
+msgstr "%ssökning i tillfällig dataström misslyckades: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%stemporary stream write failed: %s"
-msgstr "%sskrivning av tillfällig ström misslyckades: %s"
+msgstr "%sskrivning till tillfällig dataström misslyckades: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "unknown built-in private data requested (%d)"
-msgstr "okänd inbyggd privat data begärd (%d)"
+msgstr "okänd inbyggd privatdata begärdes (%d)"
 
 #. from tp:mailfromd-8.17.91
 msgid "no built-in private data registered"
-msgstr "inga inbyggda privata uppgifter registrerade"
+msgstr "ingen inbyggd privatdata är registrerad"
 
 #. from tp:mailfromd-8.17.91
 msgid "initial allocation for built-in private data #%d failed"
-msgstr "initial tilldelning för inbyggda privata data #%d misslyckades"
+msgstr "ursprunglig allokering för inbyggd privatdata #%d misslyckades"
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid use of $macro in startup handler"
@@ -155392,7 +155392,7 @@ msgstr "`%s' är inte en katalog"
 
 #. from tp:mailfromd-8.17.91
 msgid "state directory `%s' is not an absolute file name"
-msgstr "state directory `%s' är inte ett absolut filnamn"
+msgstr "tillståndskatalogen `%s` är inte ett absolut filnamn"
 
 #. from tp:mailfromd-8.17.91
 msgid "INTERNAL ERROR: no such server type: %s"
@@ -155408,11 +155408,11 @@ msgstr "Server-ID."
 
 #. from tp:mailfromd-8.17.91
 msgid "Listen on this URL."
-msgstr "Lyssna på den här URL:en."
+msgstr "Lyssna på den här URL-adressen."
 
 #. from tp:mailfromd-8.17.91
 msgid "Maximum number of instances allowed for this server."
-msgstr "Högsta antal instanser som tillåts för denna server."
+msgstr "Högsta tillåtna antal instanser för den här servern."
 
 #. from tp:mailfromd-8.17.91
 msgid "Single-process mode."
@@ -155420,7 +155420,7 @@ msgstr "Enprocessläge."
 
 #. from tp:mailfromd-8.17.91
 msgid "Reuse existing socket (default)."
-msgstr "Återanvänd befintligt uttag (standard)."
+msgstr "Återanvänd befintlig socket (standard)."
 
 #. from tp:mailfromd-8.17.91
 msgid "Server-dependent options"
@@ -155444,35 +155444,35 @@ msgstr "Konfigurera servern."
 
 #. from tp:mailfromd-8.17.91
 msgid "unknown timeout class: %s"
-msgstr "okänd timeout klass: %s"
+msgstr "okänd tidsgränsklass: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "Initial SMTP connection timeout."
-msgstr "Initial tidsgräns för SMTP-anslutning."
+msgstr "Ursprunglig tidsgräns för SMTP-anslutning."
 
 #. from tp:mailfromd-8.17.91
 msgid "Timeout for initial SMTP response."
-msgstr "Timeout för det första SMTP-svaret."
+msgstr "Tidsgräns för det första SMTP-svaret."
 
 #. from tp:mailfromd-8.17.91
 msgid "Timeout for HELO response."
-msgstr "Timeout för HELO-svar."
+msgstr "Tidsgräns för HELO-svar."
 
 #. from tp:mailfromd-8.17.91
 msgid "Timeout for MAIL response."
-msgstr "Timeout för MAIL-svar."
+msgstr "Tidsgräns för MAIL-svar."
 
 #. from tp:mailfromd-8.17.91
 msgid "Timeout for RCPT response."
-msgstr "Timeout för svar från RCPT."
+msgstr "Tidsgräns för RCPT-svar."
 
 #. from tp:mailfromd-8.17.91
 msgid "Timeout for RSET response."
-msgstr "Timeout för RSET-svar."
+msgstr "Tidsgräns för RSET-svar."
 
 #. from tp:mailfromd-8.17.91
 msgid "Timeout for QUIT response."
-msgstr "Timeout för QUIT-svar."
+msgstr "Tidsgräns för QUIT-svar."
 
 #. from tp:mailfromd-8.17.91
 msgid "Set SMTP timeouts."
@@ -155480,7 +155480,7 @@ msgstr "Ange tidsgränser för SMTP."
 
 #. from tp:mailfromd-8.17.91
 msgid "[soft | hard]"
-msgstr "[mjuk | hård]"
+msgstr "[soft | hard]"
 
 #. from tp:mailfromd-8.17.91
 msgid "Enable transcript of call-out SMTP sessions."
@@ -155492,11 +155492,11 @@ msgstr "Användning av STARTTLS i callout-sessioner (standard: ondemand)."
 
 #. from tp:mailfromd-8.17.91
 msgid "arg: never|always|ondemand"
-msgstr "arg: aldrig|alltid|ondemand"
+msgstr "arg: never|always|ondemand"
 
 #. from tp:mailfromd-8.17.91
 msgid "Timeout for all SMTP I/O operations."
-msgstr "Timeout för alla SMTP I/O-operationer."
+msgstr "Tidsgräns för alla SMTP-I/O-operationer."
 
 #. from tp:mailfromd-8.17.91
 msgid "time: seconds"
@@ -155512,7 +155512,7 @@ msgstr "ip: ipaddr"
 
 #. from tp:mailfromd-8.17.91
 msgid "Retain the supplementary group <name> when switching to user privileges"
-msgstr "Behåll tilläggsgruppen <name> när du byter till användarrättigheter"
+msgstr "Behåll tilläggsgruppen <name> när du byter till användarbehörighet"
 
 #. from tp:mailfromd-8.17.91
 msgid "group: string"
@@ -155520,7 +155520,7 @@ msgstr "grupp: sträng"
 
 #. from tp:mailfromd-8.17.91
 msgid "Switch to this user privileges after startup."
-msgstr "Byt till denna användarrättighet efter uppstart."
+msgstr "Byt till den här användarens behörighet efter uppstart."
 
 #. from tp:mailfromd-8.17.91
 msgid "Set file to store PID value in."
@@ -155528,7 +155528,7 @@ msgstr "Ange fil för att lagra PID-värdet i."
 
 #. from tp:mailfromd-8.17.91
 msgid "Set logger stream."
-msgstr "Ställ in loggerström."
+msgstr "Ange loggström."
 
 #. from tp:mailfromd-8.17.91
 msgid "dir: string"
@@ -155540,7 +155540,7 @@ msgstr "Ställ in domännamnet för kommandot EHLO."
 
 #. from tp:mailfromd-8.17.91
 msgid "Set email address for use in SMTP `MAIL FROM' command.  Argument is an email address or a comma-separated list of addresses.  Use <> for null address.  Other addresses can be given without angle brackets."
-msgstr "Ange en e-postadress som ska användas i SMTP-kommandot `MAIL FROM'.  Argumentet är en e-postadress eller en kommaseparerad lista med adresser.  Använd <> för nolladresser.  Andra adresser kan anges utan vinkelparenteser."
+msgstr "Ange en e-postadress som ska användas i SMTP-kommandot `MAIL FROM`. Argumentet är en e-postadress eller en kommaseparerad lista med adresser. Använd <> för en tom adress. Andra adresser kan anges utan vinkelparenteser."
 
 #. from tp:mailfromd-8.17.91
 msgid "Use the SMTP VRFY command, when available."
@@ -155548,7 +155548,7 @@ msgstr "Använd kommandot SMTP VRFY om det finns tillgängligt."
 
 #. from tp:mailfromd-8.17.91
 msgid "invalid pidfile name: must be absolute"
-msgstr "ogiltigt pidfile-namn: måste vara absolut"
+msgstr "ogiltigt pidfilnamn: måste vara absolut"
 
 #. from tp:mailfromd-8.17.91
 msgid "Server configuration modifiers"
@@ -155556,19 +155556,19 @@ msgstr "Modifierare för serverkonfiguration"
 
 #. from tp:mailfromd-8.17.91
 msgid "stay in foreground"
-msgstr "hålla sig i förgrunden"
+msgstr "håll dig i förgrunden"
 
 #. from tp:mailfromd-8.17.91
 msgid "run in single-process mode"
-msgstr "körs i enprocessläge"
+msgstr "kör i enprocessläge"
 
 #. from tp:mailfromd-8.17.91
 msgid "set pidfile name"
-msgstr "set pidfile namn"
+msgstr "ange pidfilnamn"
 
 #. from tp:mailfromd-8.17.91
 msgid "switch to this user privileges after startup"
-msgstr "växla till denna användarbehörighet efter uppstart"
+msgstr "byt till den här användarens behörighet efter uppstart"
 
 #. from tp:mailfromd-8.17.91
 msgid "set source address for TCP connections"
@@ -155596,11 +155596,11 @@ msgstr "STREAM"
 
 #. from tp:mailfromd-8.17.91
 msgid "select logger stream"
-msgstr "välj loggerström"
+msgstr "välj loggström"
 
 #. from tp:mailfromd-8.17.91
 msgid "set the identifier used in syslog messages to STRING"
-msgstr "ställ in identifieraren som används i syslog-meddelanden till STRING"
+msgstr "ange identifieraren som används i sysloggmeddelanden till STRING"
 
 #. from tp:mailfromd-8.17.91
 msgid "debug messages include source information"
@@ -155608,11 +155608,11 @@ msgstr "felsökningsmeddelanden innehåller källinformation"
 
 #. from tp:mailfromd-8.17.91
 msgid "unsupported logger stream: %s"
-msgstr "logger-ström som inte stöds: %s"
+msgstr "loggström som inte stöds: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot compile regex (%s): %s"
-msgstr "kan inte kompilera regex (%s): %s"
+msgstr "kan inte kompilera reguljärt uttryck (%s): %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot install builtin function %s: %s"
@@ -155676,11 +155676,11 @@ msgstr "INTERNT FEL: pragma %s redan definierad"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot append body chunk: %s"
-msgstr "kan inte lägga till body chunk: %s"
+msgstr "kan inte lägga till datasegment i brödtexten: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot get the value of {%s}: %s"
-msgstr "kan inte få värdet av {%s}: %s"
+msgstr "kan inte hämta värdet för {%s}: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "client type %s is not supported yet"
@@ -155696,7 +155696,7 @@ msgstr "ogiltig loggnivå: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "Set remote milter type. Only `milter' is understood so far."
-msgstr "Ange typ av fjärrstyrd milter. Endast `milter' är förstådd hittills."
+msgstr "Ange typ av fjärrmilter. Endast `milter` stöds hittills."
 
 #. from tp:mailfromd-8.17.91
 msgid "arg: milter [version: number]|pmilter"
@@ -155708,23 +155708,23 @@ msgstr "Ange URL för fjärrklient."
 
 #. from tp:mailfromd-8.17.91
 msgid "Set write timeout."
-msgstr "Ställ in tidsgräns för skrivning."
+msgstr "Ange tidsgräns för skrivning."
 
 #. from tp:mailfromd-8.17.91
 msgid "Set read timeout."
-msgstr "Ställ in tidsgräns för läsning."
+msgstr "Ange tidsgräns för läsning."
 
 #. from tp:mailfromd-8.17.91
 msgid "Set timeout for EOM."
-msgstr "Ställ in timeout för EOM."
+msgstr "Ange tidsgräns för EOM."
 
 #. from tp:mailfromd-8.17.91
 msgid "Set connect timeout."
-msgstr "Ställ in tidsgräns för anslutning."
+msgstr "Ange tidsgräns för anslutning."
 
 #. from tp:mailfromd-8.17.91
 msgid "Set log verbosity level. Arg is a list of items separated by commas or whitespace.  Each item is a log level optionally prefixed with `!' to indicate `any level except this', or '<', meaning `all levels up to and including this'.  Log levels in order of increasing priority are: proto, debug, info, warn, err, fatal."
-msgstr "Ställer in loggens ordrikhetsnivå. Arg är en lista med objekt som separeras med kommatecken eller blanksteg.  Varje objekt är en loggnivå som kan föregås av `!' för att ange `alla nivåer utom denna', eller '<', vilket betyder `alla nivåer upp till och inklusive denna'.  Loggnivåerna är i stigande prioritetsordning: proto, debug, info, warn, err, fatal."
+msgstr "Ange loggens detaljnivå. Argumentet är en lista med objekt som separeras med kommatecken eller blanksteg. Varje objekt är en loggnivå som kan föregås av `!` för att ange ”alla nivåer utom denna”, eller `<`, vilket betyder ”alla nivåer upp till och inklusive denna”. Loggnivåerna i stigande prioritetsordning är: proto, debug, info, warn, err, fatal."
 
 #. from tp:mailfromd-8.17.91
 msgid "arg: list"
@@ -155744,7 +155744,7 @@ msgstr "makro \"%s\" kan inte begäras i detta skede"
 
 #. from tp:mailfromd-8.17.91
 msgid "macro %s already defined"
-msgstr "makro %s redan definierat"
+msgstr "makro %s är redan definierat"
 
 #. from tp:mailfromd-8.17.91
 msgid "INTERNAL ERROR at %s:%d"
@@ -155756,23 +155756,23 @@ msgstr "okänt SMTP-steg"
 
 #. from tp:mailfromd-8.17.91
 msgid "not enough arguments to define-macros"
-msgstr "inte tillräckligt med argument för define-macros"
+msgstr "för få argument för define-macros"
 
 #. from tp:mailfromd-8.17.91
 msgid "too many arguments to define-macros"
-msgstr "för många argument till define-makron"
+msgstr "för många argument för define-macros"
 
 #. from tp:mailfromd-8.17.91
 msgid "too many macros defined for stage \"mail\", while processing \"auth-macros\" statement"
-msgstr "för många makron definierade för scenen \"mail\", vid bearbetning av \"auth-macros\" -uttalande"
+msgstr "för många makron definierade för stadiet ”mail” vid bearbetning av satsen ”auth-macros”"
 
 #. from tp:mailfromd-8.17.91
 msgid "Listen for milter requests on the given URL."
-msgstr "Lyssna efter milter-förfrågningar på den angivna URL:en."
+msgstr "Lyssna efter milterförfrågningar på den angivna URL-adressen."
 
 #. from tp:mailfromd-8.17.91
 msgid "Maximum number of threads (soft limit)."
-msgstr "Maximalt antal trådar (soft limit)."
+msgstr "Maximalt antal trådar (mjuk gräns)."
 
 #. from tp:mailfromd-8.17.91
 msgid "Maximum number of threads (hard limit)."
@@ -155784,7 +155784,7 @@ msgstr "Maximalt antal filbeskrivare som pmilter får öppna"
 
 #. from tp:mailfromd-8.17.91
 msgid "Set pmilter debug verbosity level."
-msgstr "Ställ in pmilter debug-ordningsnivå."
+msgstr "Ange pmilters felsökningsdetaljnivå."
 
 #. from tp:mailfromd-8.17.91
 msgid "Write PID to this file."
@@ -155804,7 +155804,7 @@ msgstr "stage: sträng> <makron: strängar"
 
 #. from tp:mailfromd-8.17.91
 msgid "Set Mailfromd debug verbosity level.  Argument is a comma-separated list of debug specifications, each of which has the following form:\n  <module: string>[=<level: number>]\nwhere <module> is the name of a Mailfromd module, and <level> is the desired verbosity level for that module."
-msgstr "Ställer in Mailfromds felsökningsnivå.  Argument är en kommaseparerad lista med felsökningsspecifikationer, som var och en har följande form:\n <module: string>[=<level: number>]\ndär <module> är namnet på en Mailfromd-modul och <level> är den önskade felsökningsnivån för den modulen."
+msgstr "Anger Mailfromds felsökningsdetaljnivå. Argumentet är en kommaseparerad lista med felsökningsspecifikationer, som var och en har följande form:\n  <module: string>[=<level: number>]\ndär <module> är namnet på en Mailfromd-modul och <level> är den önskade detaljnivån för den modulen."
 
 #. from tp:mailfromd-8.17.91
 msgid "Ignored for compatibility with mailfromd"
@@ -155816,7 +155816,7 @@ msgstr "typ: sträng"
 
 #. from tp:mailfromd-8.17.91
 msgid "arg: number"
-msgstr "arg: nummer"
+msgstr "arg: tal"
 
 #. from tp:mailfromd-8.17.91
 msgid "ident"
@@ -155824,11 +155824,11 @@ msgstr "identifierare"
 
 #. from tp:mailfromd-8.17.91
 msgid "pmilter multiplexer"
-msgstr "pmilter multiplexer"
+msgstr "pmilter-multiplexor"
 
 #. from tp:mailfromd-8.17.91
 msgid "listen on the given URL"
-msgstr "lyssna på den angivna URL:en"
+msgstr "lyssna på den angivna URL-adressen"
 
 #. from tp:mailfromd-8.17.91
 msgid "disable signal handling in the main thread (use for debugging)."
@@ -155860,15 +155860,15 @@ msgstr "%smisslyckades med att ansluta till %s (milter %s)"
 
 #. from tp:mailfromd-8.17.91
 msgid "%scannot get the size of the header stream: %s"
-msgstr "%s kan inte få storleken på rubrikströmmen: %s"
+msgstr "%skan inte hämta storleken på huvudets dataström: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "%scannot create header: %s"
-msgstr "%skan inte skapa rubrik: %s"
+msgstr "%skan inte skapa huvud: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "reading from header stream failed: %s"
-msgstr "läsning från header stream misslyckades: %s"
+msgstr "läsning från huvudets dataström misslyckades: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "got signal %d"
@@ -155876,27 +155876,27 @@ msgstr "fick signal %d"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s starting"
-msgstr "%s start"
+msgstr "%s startar"
 
 #. from tp:mailfromd-8.17.91
 msgid "%s terminated"
-msgstr "%s avslutade"
+msgstr "%s avslutades"
 
 #. from tp:mailfromd-8.17.91
 msgid "failed to set up signals: %s"
-msgstr "misslyckades med att sätta upp signaler: %s"
+msgstr "misslyckades med att konfigurera signaler: %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "URL to listen on was not specified"
-msgstr "URL för att lyssna på angavs inte"
+msgstr "URL-adressen att lyssna på angavs inte"
 
 #. from tp:mailfromd-8.17.91
 msgid "no clients configured"
-msgstr "inga klienter konfigurerade"
+msgstr "inga klienter har konfigurerats"
 
 #. from tp:mailfromd-8.17.91
 msgid "version mismatch: compile_time=%d, run_time=%d"
-msgstr "versionsmissmatchning: compile_time=%d, run_time=%d"
+msgstr "versionsinkonsekvens: compile_time=%d, run_time=%d"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot create PID file `%s': %s"
@@ -155904,7 +155904,7 @@ msgstr "kan inte skapa PID-filen `%s': %s"
 
 #. from tp:mailfromd-8.17.91
 msgid "cannot create main thread: %s"
-msgstr "kan inte skapa huvudtråd: %s"
+msgstr "kan inte skapa huvudtråden: %s"
 
 #. from tp:mailutils-3.20.93
 msgid "not an absolute pathname: %s"
@@ -155924,11 +155924,11 @@ msgstr "%s:s %s ägs inte av %s"
 
 #. from tp:mailutils-3.20.93
 msgid "Warning: your .biffrc has wrong permissions"
-msgstr "Varning: din .biffrc har fel rättigheter"
+msgstr "Varning: din .biffrc har felaktiga behörigheter"
 
 #. from tp:mailutils-3.20.93
 msgid "%s's %s has wrong permissions"
-msgstr "%s:s %s har fel rättigheter"
+msgstr "%s:s %s har felaktiga behörigheter"
 
 #. from tp:mailutils-3.20.93
 msgid "Cannot open .biffrc file: %s\n"
@@ -155976,7 +155976,7 @@ msgstr "kör i testläge; använd FIL som tty (standard: /dev/tty)"
 
 #. from tp:mailutils-3.20.93
 msgid "remain in foreground"
-msgstr "kvarstå i förgrunden"
+msgstr "stanna i förgrunden"
 
 #. from tp:mailutils-3.20.93
 msgid "run in inetd mode"
@@ -155984,15 +155984,15 @@ msgstr "kör i inetd-läge"
 
 #. from tp:mailutils-3.20.93
 msgid "runs in daemon mode with a maximum of NUMBER children"
-msgstr "körs i demonläge med ett maximalt ANTAL barnprocesser"
+msgstr "kör i demonläge med högst ANTAL underordnade processer"
 
 #. from tp:mailutils-3.20.93
 msgid "read FILE instead of .biffrc"
-msgstr "läs FIL istället för .biffrc"
+msgstr "läs FIL i stället för .biffrc"
 
 #. from tp:mailutils-3.20.93
 msgid "not a boolean"
-msgstr "inte en boolean"
+msgstr "inte ett booleskt värde"
 
 #. from tp:mailutils-3.20.93
 msgid "Read .biffrc file from the user home directory."
@@ -156000,7 +156000,7 @@ msgstr "Läs filen .biffrc från användarens hemkatalog."
 
 #. from tp:mailutils-3.20.93
 msgid "Notify only if the user is logged on one of the ttys."
-msgstr "Notifiera endast om användaren är inloggad på en tty."
+msgstr "Meddela endast om användaren är inloggad på en av tty:erna."
 
 #. from tp:mailutils-3.20.93
 msgid "Send biffrc errors to user's tty."
@@ -156008,7 +156008,7 @@ msgstr "Skicka biffrc-fel till användarens tty."
 
 #. from tp:mailutils-3.20.93
 msgid "Send biffrc errors to Mailutils error output."
-msgstr "Skicka biffrc-fel till Mailutils felutmatning."
+msgstr "Skicka biffrc-fel till Mailutils felutdata."
 
 #. from tp:mailutils-3.20.93
 msgid "Maximum number of message body lines to be output."
@@ -156020,15 +156020,15 @@ msgstr "Maximalt antal inkommande förfrågningar per kontrollintervall för fö
 
 #. from tp:mailutils-3.20.93
 msgid "Set control interval."
-msgstr "Ställ in kontrollintervall."
+msgstr "Ange kontrollintervall."
 
 #. from tp:mailutils-3.20.93
 msgid "Set overflow control interval."
-msgstr "Ställ in intervall för kontroll av överflöde."
+msgstr "Ange intervall för överflödeskontroll."
 
 #. from tp:mailutils-3.20.93
 msgid "Time to sleep after the first overflow occurs."
-msgstr "Tid att sova efter att det första överflödet inträffar."
+msgstr "Väntetid efter det första överflödet."
 
 #. from tp:mailutils-3.20.93
 msgid "Server configuration."
@@ -156052,7 +156052,7 @@ msgstr "kan inte ändra storlek på buffert: %s"
 
 #. from tp:mailutils-3.20.93
 msgid "cannot get message (mailbox %s, qid %s): %s"
-msgstr "kan inte hämta meddelande (brevlåda %s, qid %s): %s"
+msgstr "kan inte hämta meddelandet (brevlåda %s, qid %s): %s"
 
 #. from tp:mailutils-3.20.93
 msgid "bad line name in utmp record: %s"
