@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 87744,
+  "reviewed_tp_entries": 88125,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 21117,
+  "changed_pairs": 21181,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 21117,
+      "confirmed_swedish_changes": 21181,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "9caa6eba5fa8fed726c04f68529f7a17128382b4818e5f00c2f91ee443d749f1"
+      "sha256": "d8ded5d4756794d0da5e40327b114b0337397fb3c5df2578f4ff320c77dbafed"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 21117,
+      "confirmed_swedish_changes": 21181,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "88c23cf754cc16324f8b29d8a71c88263ceae5d20a2b91eb8d906ba4b6aed166"
+      "sha256": "64fa81e6965599626a05bb465b089937817a1cba359fee803b602c40e9285fee"
     }
   },
   "unmapped_plural_fixes": [
@@ -89649,6 +89649,518 @@
       "before": " -i, --ip-addr       visa IP-adress istället för värdnamn (om möjligt)\n",
       "after": " -i, --ip-addr       visa IP-adress i stället för värdnamn (om möjligt)\n",
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:98",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Total usable memory (MemTotal and SwapTotal in /proc/meminfo). This includes the physical and swap memory minus a few reserved bits and kernel binary code.",
+      "before": "Totalt användbart minne (MemTotal och SwapTotal i /proc/meminfo). Detta inkluderar det fysiska minnet och växlingsminnet mines några få reserverade bitar och kärnans binärkod.",
+      "after": "Totalt användbart minne (MemTotal och SwapTotal i /proc/meminfo). Detta inkluderar det fysiska minnet och växlingsminnet minus några reserverade bitar och kärnans binärkod.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:175",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Estimation of how much memory is available for starting new applications, without swapping. Unlike the data provided by the B<cache> or B<free> fields, this field takes into account page cache and also that not all reclaimable memory slabs will be reclaimed due to items being in use (MemAvailable in /proc/meminfo, available on kernels 3.14, emulated on kernels 2.6.27+, otherwise the same as B<free>)",
+      "before": "Uppskattning av hur mycket minne som är tillgängligt för att starta nya program, utan att börja växla.  Till skillnad mot data som tillhandahålls av fälten B<cache> eller B<fritt> tar detta fält hänsyn till sidcachen och även att inte alla återvinningsbara minnesskivor kommer återvinnas på grund av saker som används (MemAvailable i /proc/meminfo, tillgängligt i kärnan 3.14, emulerat i kärnor 2.6.27+, annars samma som B<fritt>)",
+      "after": "Uppskattning av hur mycket minne som är tillgängligt för att starta nya program utan att börja växla. Till skillnad från data i fälten B<cache> eller B<fritt> tar detta fält hänsyn till sidcachen och till att inte alla återvinningsbara minnesskivor återvinns, eftersom de kan användas (MemAvailable i /proc/meminfo, tillgängligt i kärnan 3.14, emulerat i kärnor 2.6.27+, annars samma som B<fritt>).",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:261",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Display the amount of memory in kilobytes. Implies --si.",
+      "before": "Visa mängden minne i kilobyte.  Implicerar --si.",
+      "after": "Visa mängden minne i kilobyte. Medför --si.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:272",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Display the amount of memory in megabytes. Implies --si.",
+      "before": "Visa mängden minne i megabyte.  Implicerar --si.",
+      "after": "Visa mängden minne i megabyte. Medför --si.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:283",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Display the amount of memory in gigabytes. Implies --si.",
+      "before": "Visa mängden minne i gigabyte.  Implicerar --si.",
+      "after": "Visa mängden minne i gigabyte. Medför --si.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:294",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Display the amount of memory in terabytes. Implies --si.",
+      "before": "Visa mängden minne i terabyte.  Implicerar --si.",
+      "after": "Visa mängden minne i terabyte. Medför --si.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:305",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Display the amount of memory in petabytes. Implies --si.",
+      "before": "Visa mängden minne i petabyte.  Implicerar --si.",
+      "after": "Visa mängden minne i petabyte. Medför --si.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:316",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Show all output fields automatically scaled to shortest three digit unit and display the units of print out.  Following units are used.",
+      "before": "Visa alla utmatningsfält automatiskt skalade till den kortaste enheten med tre siffror och visa enheterna i utskriften.  Följande enheter används.",
+      "after": "Visa alla utdatafält automatiskt skalade till den kortaste enheten med tre siffror och visa enheterna i utskriften. Följande enheter används.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:339",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "If unit is missing, and you have exbibyte of RAM or swap, the number is in tebibytes and columns might not be aligned with header.",
+      "before": "Om en enhet saknas, och du har exbibyte med RAM eller växlingsutrymme är talet i tebibyte och kolumnerna är inte nödvändigtvis justerade med rubriken.",
+      "after": "Om en enhet saknas och du har exbibyte RAM eller växlingsutrymme, anges talet i tebibyte och kolumnerna är inte nödvändigtvis justerade efter rubriken.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:383",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Show output on a single line, often used with the B<-s> option to show memory statistics repeatedly.",
+      "before": "Visa utdata på en enda rad, används ofta med flagga B<-s> för att upprepat visa minnesstatistik.",
+      "after": "Visa utdata på en enda rad, ofta för att upprepat visa minnesstatistik med flaggan B<-s>.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:571",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "B<kill> sends a signal to one or more processes by I<pid> or I<pgid>, a process or process group identifier.  B<signal>(7)  explains the varieties and behavior of signals.  B<kill>'s default signal is TERM.  The B<-l> and B<-L> options list available signals.  Particularly useful signals include HUP, INT, KILL, STOP, CONT, and 0.  Specify signals by number, by name, or by name with a \\[lq]SIG\\[rq] prefix; for example, B<-9>, B<-SIGKILL>, and B<-KILL> are equivalent.  A negative operand selects a process group; see the PGID column in B<ps>(1)  command output.  A I<pid> of B<-1> is special; it indicates all processes except the B<kill> process itself and B<init>(8).",
+      "before": "B<kill> skickar en signal till en eller flera processer enligt I<pid> eller I<pgid>, en process- eller processgruppidentifierare. B<signal>(7) förklarar de olika varianterna och beteendena hos signaler. B<kill>s standardsignal för är TERM. Flaggorna B<-l> och B<-L> listar tillgängliga signaler. Särskilt användbara signaler inkluderar HUP, INT, KILL, STOP, CONT och 0. Ange signaler med nummer, namn eller namn med ett prefix \\[rq]SIG\\[rq]; till exempel är B<-9>, B<-SIGKILL> och B<-KILL> ekvivalenta. En negativ operand väljer en processgrupp; se kolumnen PGID i utdata från kommandot ps. En I<pid> på B<-1> är speciell; den indikerar alla processer utom processen B<kill> själv och B<init>(8).",
+      "after": "B<kill> skickar en signal till en eller flera processer enligt I<pid> eller I<pgid>, en process- respektive processgruppidentifierare. B<signal>(7) förklarar signalernas varianter och beteenden. B<kill>:s standardsignal är TERM. Flaggorna B<-l> och B<-L> listar tillgängliga signaler. Särskilt användbara signaler är HUP, INT, KILL, STOP, CONT och 0. Ange signaler med nummer, namn eller namn med prefixet \\[lq]SIG\\[rq]; B<-9>, B<-SIGKILL> och B<-KILL> är till exempel likvärdiga. En negativ operand väljer en processgrupp; se kolumnen PGID i utdata från kommandot B<ps>(1). I<pid>-värdet B<-1> är särskilt: det anger alla processer utom B<kill>-processen själv och B<init>(8).",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:576",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "The B<-q> option uses an alternative signaling method to to additionally transmit an integral I<value> to a receiving process.  If that process has installed a handler for the signal and specified the SA_SIGINFO flag to B<sigaction>(2), then it can obtain this datum via the I<\\%si_value> field of the I<\\%siginfo_t> structure.",
+      "before": "Flaggan B<-q> använder en alternativ signaleringsmetod ör att ytterligare skicka ett heltalsI<värde> till en mottagande process. Om den processen har installerat en hanterare för signalen och angett flaggan SA_SIGINFO till B<sigaction>(2) så kan den hämta denna data via fältet I<\\%si_value> i posten I<\\%siginfo_t>.",
+      "after": "Flaggan B<-q> använder B<sigqueue>(3) i stället för B<kill>(2) för att dessutom skicka ett heltalsvärde I<value> till en mottagande process. Om processen har installerat en hanterare för signalen och angett flaggan SA_SIGINFO till B<sigaction>(2), kan den hämta detta värde via fältet I<\\%si_value> i strukturen I<\\%siginfo_t>.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:599",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Send I<signal> by name or number as described above.  If I<signal> is 0 (zero), B<kill> sends no signal, but still validates its operands; this behavior permits the caller to check whether the specified I<pid>s and/or I<pgid>s exist and it has permission to send them signals.",
+      "before": "Skicka I<signal> som namn elller nummer så som beskrivs ovan. Om I<signal> är 0 (noll) skickar B<kill> ingen signal, men validerar fortfarande sina operander; detta beteende gör det möjligt för anroparen att kontroller huruvida den angivna I<pid>:erna och/eller I<pgid>:erna finns och att den har rättigheter att skicka signaler till dem.",
+      "after": "Skicka I<signal> som namn eller nummer enligt beskrivningen ovan. Om I<signal> är 0 (noll) skickar B<kill> ingen signal, men validerar fortfarande sina operander. Därmed kan anroparen kontrollera att angivna I<pid>- och I<pgid>-värden finns och att den har behörighet att skicka signaler till dem.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:633",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Without an argument, list signal names.  The optional argument causes B<kill> to convert the specified I<signal> from name to numeric form, or vice versa as appropriate, and report the translation.",
+      "before": "Utan något argument, lista signalnamn. Det nöjliga argumentet gör att B<kill> konverterar den angivna I<signal>en från namn till numerisk form, eller vice versa vilket som är tillämpligt, och rapporterar översättningen.",
+      "after": "Utan argument listas signalnamn. Det valfria argumentet gör att B<kill> konverterar angiven I<signal> från namn till numerisk form eller tvärtom och rapporterar översättningen.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:662",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "The shell (command-line interpreter) often has a built-in \\[lq]kill\\[rq] command.  You may need to run the command described here as I</bin/\\:kill> to override the shell built-in.",
+      "before": "Skalet (kommandoradstolk) har ofta ett inbyggt \\[rq]kill\\[rq]-kommando. Man kan behöva köra kommandot som beskrivs här som I</bin/\\:kill> för att åsidosätta skalets inbyggda.",
+      "after": "Skalet (kommandoradstolken) har ofta ett inbyggt \\[lq]kill\\[rq]-kommando. Du kan behöva köra kommandot som beskrivs här som I</bin/\\:kill> för att åsidosätta skalets inbyggda kommando.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:667",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "If you use a negative operand, specify a signal by name or number first so that B<kill> can distinguish it from a process group.  For example, the command \\[lq]B<kill 123 -9>\\[rq] is ambiguous; it could mean to kill process 123 with signal 9, or to kill process 123 and process group 9 with the default signal.",
+      "before": "Om du använder en negativ operand, ange en signal med namn eller nummer först så att B<kill> kan skilja det från en processgrupp. Till exempel är kommandot \\[rq]B<kill 123 -9>\\[rq] tvetydigt; det skulle kunna betyda att döda process 123 med signal 9, eller att döda process 123 och processgrupp 9 med standardsignalen.",
+      "after": "Om du använder en negativ operand ska du ange en signal med namn eller nummer först, så att B<kill> kan skilja den från en processgrupp. Kommandot \\[lq]B<kill 123 -9>\\[rq] är till exempel tvetydigt: det kan betyda att process 123 dödas med signal 9 eller att process 123 och processgrupp 9 dödas med standardsignalen.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller roff-markering efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:769",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "B<pgrep> looks through the currently running processes and lists the process IDs which match the selection criteria to stdout.  All the criteria have to match.  For example,",
+      "before": "B<pgrep> letar igenom de just nu körande processerna och listar de process-ID:n som matchar urvalskriterierna till standard ut.  Alla kriterierna måste matcha.  Till exempel,",
+      "after": "B<pgrep> söker bland de processer som körs och listar de process-ID:n som matchar urvalskriterierna till standardutdata. Alla kriterier måste matcha. Till exempel",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:779",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "will only list the processes whose name include B<sshd> AND owned by B<root>.  On the other hand,",
+      "before": "kommer endast lista processer vars namn inkluderar B<sshd> OCH ägs av B<root>.  Å andra sidan,",
+      "after": "listar endast processer vars namn innehåller B<sshd> OCH ägs av B<root>. Å andra sidan",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:789",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "will list the processes owned by B<root> OR B<daemon>.",
+      "before": "kommer lista processerna som ägs av B<root> ELLER B<daemon>.",
+      "after": "listar processerna som ägs av B<root> ELLER B<daemon>.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:794",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "B<pkill> will send the specified signal (by default B<SIGTERM>)  to each process instead of listing them on stdout.",
+      "before": "B<pkill> kommer skicka den angivna signalen (B<SIGTERM> som standard) till varje process istället för att lista dem på standard ut.",
+      "after": "B<pkill> skickar den angivna signalen (B<SIGTERM> som standard) till varje process i stället för att lista dem på standardutdata.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:799",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "B<pidwait> will wait for each process instead of listing them on stdout.",
+      "before": "B<pidwait> kommer vänta på varje process istället för att räkna upp dem på standard ut.",
+      "after": "B<pidwait> väntar på varje process i stället för att lista dem på standardutdata.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:810",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Defines the signal to send to each matched process.  Either the numeric or the symbolic signal name can be used. In B<pgrep> or B<pidwait> mode only the long option can be used and has no effect unless used in conjunction with B<--require-handler> to filter to processes with a userspace signal handler present for a particular signal.",
+      "before": "Definierar signalen att skicka till varje matchad process. Antingen det numeriska eller det symboliska signalnamnet kan användas. I B<pgrep>- eller B<pidwait>-läge endast kan flaggan long användas och har ingen effekt om det inte används tilsammans med filtret B<--require-handler> för att filtrera ut processer där det finns en signalhanterare i användarrymden för en viss signal.",
+      "after": "Anger signalen som ska skickas till varje matchande process. Antingen det numeriska eller symboliska signalnamnet kan användas. I B<pgrep>- eller B<pidwait>-läge kan bara den långa flaggan användas. Den har ingen effekt utan B<--require-handler>, som filtrerar fram processer med en signalhanterare i användarrymden för den aktuella signalen.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:832",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Ignore all ancestors of B<pgrep>, B<pkill>, or B<pidwait>.  For example, this can be useful when elevating with B<sudo> or similar tools.",
+      "before": "Ignorera alla förfäder till B<pgrep>, B<pkill> eller B<pidwait>. Till exempel kan detta vara användbart när man höjer med B<sudo> eller liknande verktyg.",
+      "after": "Ignorera alla förfäder till B<pgrep>, B<pkill> eller B<pidwait>. Detta kan till exempel vara användbart när du använder B<sudo> eller liknande verktyg.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:843",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Suppress normal output; instead print a count of matching processes.  When count does not match anything, e.g. returns zero, the command will return non-zero value. Note that for pkill and pidwait, the count is the number of matching processes, not the processes that were successfully signaled or waited for.",
+      "before": "Utelämna normal utmatning; skriv istället antalet processer som matchar.  När antalet inte matchar något, d.v.s. returnerar noll, kommer kommandot returnera ett värde skilt från noll. Observera att för pkill och pidwait är numret antalet matchande processer, inte processerna som man lyckades skicka en signal till eller vänta på.",
+      "after": "Utelämna normal utdata och skriv i stället antalet matchande processer. Om antalet är noll returnerar kommandot ett nollskilt värde. Observera att antalet för B<pkill> och B<pidwait> avser matchande processer, inte de processer som signalerades eller inväntades.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:854",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Sets the string used to delimit each process ID in the output (by default a newline).  (B<pgrep> only.)",
+      "before": "Sätter strängen som används för att avgränsa varje process-ID i utdata (nyrad som standard).  (Endast B<pgrep>.)",
+      "after": "Anger strängen som avgränsar varje process-ID i utdata (radbrytning som standard). (Endast B<pgrep>.)",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:865",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Display name and PID of the process being killed.  (B<pkill> only.)",
+      "before": "Visa namnet och PID processen som dödas. (Endast B<pkill>.)",
+      "after": "Visa namnet och PID:t för processen som dödas. (Endast B<pkill>.)",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:887",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Read I<PID>s from I<file>.  This option is more useful for B<pkill> or B<pidwait> than B<pgrep>.  The filename \"-\" can be used to read from I<STDIN>.  Conflicts with the B<--pid> option.",
+      "before": "Läs I<PID>:ar från I<fil>. Denna flagga är mer användbar för B<pkill> eller B<pidwait> än B<pgrep>. Filnamnet ”-” kan användas för att läsa från I<STDIN>. Står i konflikt med flagga B<--pid>.",
+      "after": "Läs I<PID>:ar från I<fil>. Denna flagga är mer användbar för B<pkill> eller B<pidwait> än för B<pgrep>. Filnamnet ”-” kan användas för att läsa från I<STDIN>. Står i konflikt med flaggan B<--pid>.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:898",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Only match processes in the process group IDs listed.  Process group 0 is translated into B<pgrep>'s, B<pkill>'s, or B<pidwait>'s own process group.",
+      "before": "Matcha endast processer i de processgrupper vars ID listas.  Processgrupp 0 översätts till B<pgrep>s, B<pkill>s eller B<pidwait>s egen processgrupp.",
+      "after": "Matcha endast processer i processgrupperna med angivna ID:n. Processgrupp 0 översätts till den egna processgruppen för B<pgrep>, B<pkill> eller B<pidwait>.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:953",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Fail if pidfile (see B<-F>) not locked.",
+      "before": "Misslyckas om pid-filen (se B<-F>) inte är låst.",
+      "after": "Misslyckas om PID-filen (se B<-F>) inte är låst.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1063",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Only match processes whose process session ID is listed.  Session ID 0 is translated into B<pgrep>'s, B<pkill>'s, or B<pidwait>'s own session ID.",
+      "before": "Matcha endast processer vars processessions-ID listas.  Sessions-ID 0 översätts till B<pgrep>s, B<pkill>s eller B<pidwait>s eget sessions-ID.",
+      "after": "Matcha endast processer vars sessions-ID listas. Sessions-ID 0 översätts till det egna sessions-ID:t för B<pgrep>, B<pkill> eller B<pidwait>.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1074",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Only match processes whose controlling terminal is listed.  The terminal name should be specified without the \"/dev/\" prefix.",
+      "before": "Matcha endast processer vars styrande terminal listas.  Terminalnamnet skall anges utan prefixet ”/dev/”.",
+      "after": "Matcha endast processer vars styrande terminal listas. Terminalnamnet ska anges utan prefixet ”/dev/”.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1107",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Negates the matching.  This option is usually used in B<pgrep>'s or B<pidwait>'s context.  In B<pkill>'s context the short option is disabled to avoid accidental usage of the option.",
+      "before": "Negerar matchningen.  Denna flagga används oftast i B<pgrep>s eller B<pidwait>s sammanhang.  I B<pkill>s sammanhang är den korta flaggan avaktiverad för att undvika att flaggan används av misstag.",
+      "after": "Negerar matchningen. Denna flagga används oftast för B<pgrep> eller B<pidwait>. För B<pkill> är den korta flaggan inaktiverad för att undvika oavsiktlig användning.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1118",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Shows all thread ids instead of pids in B<pgrep>'s or B<pidwait>'s context.  In B<pkill>'s context this option is disabled.",
+      "before": "Visar alla tråd-id:n istället för pid:n i B<pgrep>s eller B<pidwait>s sammanhang.  I B<pkill>s sammanhang är denna flagga avaktiverad.",
+      "after": "Visar alla tråd-ID:n i stället för PID:n för B<pgrep> eller B<pidwait>. För B<pkill> är flaggan inaktiverad.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1145",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "B<--env >I<name>[I<=value>],.\\|.\\|.",
+      "before": "B<--nslist >I<namn>B<,…>",
+      "after": "B<--env >I<namn>[I<=värde>],…",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1151",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Match on process that have these environment variables. If the I<=value> parameter is not defined then only the variable name is matched.",
+      "before": "Matcha men process som har dessa miljövariabler. Om parametern I<=värde> inte är definierad matchas endast variabelnamnet.",
+      "after": "Matcha processer som har dessa miljövariabler. Om parametern I<=värde> inte anges, matchas endast variabelnamnet.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1184",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Do not write anything to standard output (B<pgrep> only).",
+      "before": "Skriv inte något till standard ut (endast B<pgrep>).",
+      "after": "Skriv inget till standardutdata (endast B<pgrep>).",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1220",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Specifies an Extended Regular Expression for matching against the process names or command lines.",
+      "before": "Specificerar ett utökat reguljärt uttryck att matcha mot processnamnen eller kommandoraderna.",
+      "after": "Anger ett utökat reguljärt uttryck som matchas mot processnamn eller kommandorader.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1265",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Example 5: Wait for a process with a known PID to finish:",
+      "before": "Exempel 5: vänta på att en process med ett känt PID avlutas:",
+      "after": "Exempel 5: Vänta på att en process med ett känt PID avslutas:",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1287",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "One or more processes matched the criteria. For B<pkill> and B<pidwait>, one or more processes must also have been successfully signalled or waited for.",
+      "before": "En eller flera processer matchar kriterierna.  För B<pkill> och B<pidwait> måste även en eller flera processer framgångsrikt ha signalerats.",
+      "after": "En eller flera processer matchade kriterierna. För B<pkill> och B<pidwait> måste dessutom minst en process ha signalerats respektive inväntats.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1320",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Fatal error: out of memory etc.",
+      "before": "Ödesdigert fel: slut på minne etc.",
+      "after": "Ödesdigert fel: minnet slut osv.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1330",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "The running B<pgrep>, B<pkill>, or B<pidwait> process will never report itself as a match.",
+      "before": "Den körande B<pgrep>-, B<pkill>- eller B<pidwait>-processen kommer aldrig rapportera sig själv som en matchning.",
+      "after": "Den körande B<pgrep>-, B<pkill>- eller B<pidwait>-processen rapporterar aldrig sig själv som en matchning.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1335",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "The B<-O --older> option will silently fail if I</proc> is mounted with the I<subset=pid> option.",
+      "before": "Flagga B<-O --older> kommer tyst misslyckas om I</proc> är monterat med flaggan I<subset=pid>.",
+      "after": "Flaggan B<-O --older> misslyckas tyst om I</proc> är monterat med flaggan I<subset=pid>.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1345",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "The options B<-n> and B<-o> and B<-v> can not be combined.  Let me know if you need to do this.",
+      "before": "Flaggorna B<-n> och B<-o> och B<-v> kan inte kombineras.  Berätta för mig om du behöver kunna göra detta.",
+      "after": "Flaggorna B<-n>, B<-o> och B<-v> kan inte kombineras. Meddela oss om du behöver kunna göra detta.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk eller funktionell manualtext efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1350",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "If processes start in the same clock tick (usually but not always a 100th of a second), the options B<-n> and B<-o> will not be able to distinguish which process started in the same clock tick and may give erroneous results.",
+      "before": "Om processer startar i samma klocktick (vanligen men inte alltid en 100-del av en sekund) kommer flaggorna B<-n> och B<-o> inte kunna skilja på vilken process som startades i samma klocktick och kan ge felaktiga resultat.",
+      "after": "Om processer startar i samma klocktick (vanligen, men inte alltid, en hundradels sekund), kan flaggorna B<-n> och B<-o> inte avgöra vilken process som startade först och kan ge felaktiga resultat.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1360",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "B<pidwait> requires the B<pidfd_open>(2)  system call which first appeared in Linux 5.3.",
+      "before": "B<pidwait> behöver systemanropet B<pidfd_open>(2) som först dök up i Linux 5.3.",
+      "after": "B<pidwait> kräver systemanropet B<pidfd_open>(2), som först infördes i Linux 5.3.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1387",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "B<pidof> [B<-s>] [B<-c>] [B<-q>] [B<-w>] [B<-x>] [B<-o> I<omitpid>[,.\\|.\\|.\\&]] \\&.\\|.\\|.\\& [B<-t>] [B<-S> I<separator>] I<program> .\\|.\\|.",
+      "before": "B<pidof> [B<-s>] [B<-c>] [B<-q>] [B<-w>] [B<-x>] [B<-o> I<skippapid>[,…]] … B<-t> [B<-S> I<separator>] I<program> …",
+      "after": "B<pidof> [B<-s>] [B<-c>] [B<-q>] [B<-w>] [B<-x>] [B<-o> I<utelämna-pid>[,…]] … [B<-t>] [B<-S> I<avgränsare>] I<program> …",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1392",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "B<Pidof> finds the process id's (pids) of the named programs. It prints those id's on the standard output.",
+      "before": "B<Pidof> hittar process-id:t (pid:ar) för de namngivna programmen.  Det skriver ut dessa id:n till standard ut.",
+      "after": "B<Pidof> hittar process-ID:n (PID:n) för de angivna programmen och skriver ut dem till standardutdata.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1414",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Only return process ids that are running with the same root directory.  This option is ignored for non-root users, as they will be unable to check the current root directory of processes they do not own.",
+      "before": "Returnera endast process-id:n som kör med samma rotkatalog.  Denna flagga ignoreras för andra användare än root, eftersom de inte kommer kunna kontrollera den aktuella rotkatalogen för processer de inte äger.",
+      "after": "Returnera endast process-ID:n som körs med samma rotkatalog. Flaggan ignoreras för andra användare än root, eftersom de inte kan kontrollera den aktuella rotkatalogen för processer som de inte äger.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1447",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Scripts too - this causes the program to also return process id's of shells running the named scripts.",
+      "before": "Även skript — detta får programmet att även returnera process-id:n för skal som kör de namngivna skripten.",
+      "after": "Även skript – programmet returnerar då också process-ID:n för skal som kör de angivna skripten.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1452",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "B<-o> I<omitpid>",
+      "before": "B<-o> I<skippapid>",
+      "after": "B<-o> I<utelämna-pid>",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1458",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Tells B<pidof> to omit processes with that process id. The special pid B<%PPID> can be used to name the parent process of the B<pidof> program, in other words the calling shell or shell script.",
+      "before": "Säger till B<pidof> att utesluta processer med det process-id:t.  Den speciella processen B<%PPID> kan användas för att namnge föräldraprocessen till B<pidof>-programmet, med andra ord det anropande skalet eller skalskriptet.",
+      "after": "Anger att B<pidof> ska utelämna processer med det process-ID:t. Special-PID:t B<%PPID> kan användas för att ange föräldraprocessen till B<pidof>, alltså det anropande skalet eller skalskriptet.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1469",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Shows all thread ids instead of pids.",
+      "before": "Visa alla tråd-id:n istället för pid:n.",
+      "after": "Visa alla tråd-ID:n i stället för PID:n.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1480",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Use I<separator> as a separator put between pids. Used only when more than one pids are printed for the program.  The B<-d> option is an alias for this option for sysvinit B<pidof> compatibility.",
+      "before": "Använd I<separator> som separator placerad mellan pid:er.  Använd endast när mer än en pid skrivs för programmet.  Flaggan B<-d> är ett alias för denna flagga för kompatibilitet med sysvinit:s B<pidof>.",
+      "after": "Använd I<avgränsare> mellan PID:n. Används bara när fler än en PID skrivs ut för programmet. Flaggan B<-d> är ett alias för denna flagga för kompatibilitet med sysvinit:s B<pidof>.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1495",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "When using the B<-x> option, B<pidof> only has a simple method for detecting scripts and will miss scripts that, for example, use env. This limitation is due to how the scripts look in the proc filesystem.",
+      "before": "När flaggan B<-x> används har B<pidof> endast en enkel metod för att upptäcka skript och kommer missa skript som, till exempel, använder env.  Denna begränsning beror på hur skripten ser ut i proc-filsystemet.",
+      "after": "När flaggan B<-x> används har B<pidof> bara en enkel metod för att upptäcka skript och missar därför skript som till exempel använder env. Begränsningen beror på hur skripten visas i proc-filsystemet.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1571",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Do not display some header or footer lines.",
+      "before": "Visa inte några huvud- och fotrader.",
+      "after": "Visa inte vissa rubrik- eller sidfotsrader.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1626",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "If available, use names provided by the kernel instead of \"[ anon ]\"",
+      "before": "Använd, om tillgängligt, namn som ges av kärnan istället för ”[ anon ]”",
+      "after": "Använd om möjligt namn från kärnan i stället för ”[ anon ]”.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1781",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "These tools are obsolete and unportable.  The command syntax is poorly defined.  Consider using the B<killall>, B<pkill>, and B<pgrep> commands instead.",
+      "before": "Dessa verktyg är föråldrade och oportabla.  Kommandosyntaxen är dåligt definierad.  Överväg att använda kommandona B<killall>, B<pkill> och B<pgrep> istället.",
+      "after": "Dessa verktyg är föråldrade och oportabla. Kommandosyntaxen är dåligt definierad. Överväg att använda B<killall>, B<pkill> och B<pgrep> i stället.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1885",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "PROCESS SELECTION OPTIONS",
+      "before": "FLAGGOR FÖR VAL AV PROCESS",
+      "after": "FLAGGOR FÖR PROCESSVAL",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1891",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Selection criteria can be: terminal, user, pid, command.  The options below may be used to ensure correct interpretation.",
+      "before": "Urvalskriterier kan vara: terminal, användare, pid, kommando.  Flaggorna nedan kan användas för att säkerställa rätt tolkning.",
+      "after": "Urvalskriterier kan vara terminal, användare, PID eller kommando. Flaggorna nedan kan användas för att säkerställa korrekt tolkning.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1924",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "The next expression is a process ID number.",
+      "before": "Nästa uttryck är ett process-ID-nummer.",
+      "after": "Nästa uttryck är ett process-ID.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:1946",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Match the processes that belong to the same namespace as pid.",
+      "before": "Matcha processerna som tillhör samma namnrymd som pid.",
+      "after": "Matcha processer som tillhör samma namnrymd som PID:t.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:2033",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "slabtop - display kernel slab cache information in real time",
+      "before": "slabtop — visa information om kärnans skivcache i realtid",
+      "after": "slabtop – visa information om kärnans slabcachar i realtid",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:2043",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "B<slabtop> displays detailed kernel slab cache information in real time.  It displays a listing of the top caches sorted by one of the listed sort criteria.  It also displays a statistics header filled with slab layer information.",
+      "before": "B<slabtop> visar detaljerad information om kärnans skiv-cache i realtid.  Det visar en lista över toppskivorna sorterade efter en av de listade sorteringskriterierna.  Det visar också ett huvud med statistisk information om skivnivåer.",
+      "after": "B<slabtop> visar detaljerad information om kärnans slabcachar i realtid. Det visar en lista över de största cacharna, sorterade efter ett av sorteringskriterierna. Det visar också en statistikrubrik med information om slablagret.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
+    },
+    {
+      "tp_id": "procps-ng-man:2059",
+      "project": "tp:procps-ng-man-4.0.6rc1",
+      "msgid": "Refresh the display every I<n> in seconds.  By default, B<slabtop> refreshes the display every three seconds.  To exit the program, hit B<q>.  This cannot be combined with the B<-o> option.",
+      "before": "Uppdatera presentationen var I<n>:e sekund. Som standard uppdaterar B<slabtop> presentationen var tredje sekund. För att avsluta programmet, skriv B<q>. Detta kan inte kombineras med flaggan B<-o>.",
+      "after": "Uppdatera visningen var I<n>:e sekund. Som standard uppdaterar B<slabtop> visningen var tredje sekund. Tryck B<q> för att avsluta programmet. Detta kan inte kombineras med flaggan B<-o>.",
+      "reason": "Korrigerad svensk fackterminologi, språkbruk och manualsyntax efter manuell granskning."
     },
     {
       "tp_id": "diffutils:476",
