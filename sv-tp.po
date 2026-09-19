@@ -177788,7 +177788,7 @@ msgstr "kontrollerar efter felaktiga block"
 
 #. from tp:parted-3.4.64.2
 msgid "Backtrace has %d calls on stack:\n"
-msgstr "Bakåtspårningen har %d anrop på stacken:\n"
+msgstr "Stackspårningen har %d anrop på stacken:\n"
 
 #. from tp:parted-3.4.64.2
 msgid "Assertion (%s) at %s:%d in function %s() failed."
@@ -180168,7 +180168,7 @@ msgstr "Ange plats för QOTD-filen."
 
 #. from tp:pies-1.9
 msgid "Set global system limits."
-msgstr "Ställ in globala systemgränser."
+msgstr "Ange globala systemgränser."
 
 #. from tp:pies-1.9
 msgid "arg: char"
@@ -180184,7 +180184,7 @@ msgstr "Vänta <n> sekunder på att alla komponenter ska stängas ned."
 
 #. from tp:pies-1.9
 msgid "Set global ACL."
-msgstr "Sätt global ACL."
+msgstr "Ange global ACL."
 
 #. from tp:pies-1.9
 msgid "file-or-dir: string"
@@ -180220,7 +180220,7 @@ msgstr "läser konfiguration"
 
 #. from tp:pies-1.9
 msgid "unexpected character %#03o in pidfile %s"
-msgstr "oväntat tecken %#03o i pid-fil %s"
+msgstr "oväntat tecken %#03o i PID-fil %s"
 
 #. from tp:pies-1.9
 msgid "cannot signal master process %lu: %s"
@@ -180236,7 +180236,7 @@ msgstr "läser om pies vid PID %lu"
 
 #. from tp:pies-1.9
 msgid "pies is not running, but a pidfile is found (pid %lu)"
-msgstr "pies kör inte, men en pid-fil hittades (pid %lu)"
+msgstr "pies kör inte, men en PID-fil hittades (pid %lu)"
 
 #. from tp:pies-1.9
 msgid "pies seems to run with pid %lu, but is not responding"
@@ -180276,11 +180276,11 @@ msgstr "anta inte SysV-initläge om PID är 1"
 
 #. from tp:pies-1.9
 msgid "set instance name"
-msgstr "ställ in instansnamn"
+msgstr "ange instansnamn"
 
 #. from tp:pies-1.9
 msgid "set default maximum rate for inetd-style components"
-msgstr "ställ in standard för maxhastighet för inetd-komponenter"
+msgstr "ange standardvärde för högsta hastighet för inetd-komponenter"
 
 #. from tp:pies-1.9
 msgid "{pies|meta1|inetd|inittab}"
@@ -180496,7 +180496,7 @@ msgstr "innehållstyp som inte stöds: %s"
 
 #. from tp:pies-1.9
 msgid "original json was: %s"
-msgstr "ursprunglig json var: %s"
+msgstr "ursprunglig JSON var: %s"
 
 #. from tp:pies-1.9
 msgid "original status line: %s %s %s"
@@ -180504,7 +180504,7 @@ msgstr "ursprunglig statusrad: %s %s %s"
 
 #. from tp:pies-1.9
 msgid "%s: raw JSON reply follows:\n"
-msgstr "%s: rå JSON‑svar följer:\n"
+msgstr "%s: rått JSON-svar följer:\n"
 
 #. from tp:pies-1.9
 msgid "please report"
@@ -181092,7 +181092,7 @@ msgstr "%s terminerades onormalt (%d)"
 
 #. from tp:pies-1.9
 msgid "Unrecognized token"
-msgstr "Okänd token"
+msgstr "Okänd symbol"
 
 #. from tp:pies-1.9
 msgid "Bad delimiter"
@@ -181584,19 +181584,19 @@ msgstr "pidfd_open för process %ld misslyckades"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%s killed (pid %lu)\n"
-msgstr "%s dödad (pid %lu)\n"
+msgstr "%s dödades (PID %lu)\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "pid %ld killed, but process_mrelease failed"
-msgstr "pid %ld dödad, men process_mrelease misslyckades"
+msgstr "PID %ld dödades, men process_mrelease misslyckades"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "killing pid %ld failed"
-msgstr "att döda pid %ld misslyckades"
+msgstr "det gick inte att döda PID %ld"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "waiting for %s (pid %lu)\n"
-msgstr "väntar på %s (pid %lu)\n"
+msgstr "väntar på %s (PID %lu)\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "pidfd_open() not implemented in Linux < 5.3"
@@ -181604,7 +181604,7 @@ msgstr "pidfd_open() är inte implementerat i Linux < 5.3"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "opening pid %ld failed"
-msgstr "att öppna pid %ld misslyckades"
+msgstr "det gick inte att öppna PID %ld"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "epoll_wait failed"
@@ -181644,11 +181644,11 @@ msgstr " -t, --lightweight         lista trådar också\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -S, --separator SEP       use SEP as separator put between PIDs"
-msgstr " -S, --separator SEP       använd SEP som separator mellan PID:ar"
+msgstr " -S, --separator SEP       använd SEP som avgränsare mellan PID:ar"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "illegal omit pid value (%s)!\n"
-msgstr "otillåtet värde på utesluten pid (%s)!\n"
+msgstr "otillåtet värde för PID som ska utelämnas (%s)!\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Offset"
@@ -181716,7 +181716,7 @@ msgstr " -N, --create-rc-to=<fil>    skapa en ny rc i filen\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "            NOTE: pid arguments are not allowed with -n, -N\n"
-msgstr "            OBS: pid-argument är inte tillåtna med -n, -N\n"
+msgstr "            OBS: PID-argument är inte tillåtna med -n, -N\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -d, --device                show the device format\n"
@@ -181772,27 +181772,27 @@ msgstr "totalt kB"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "mapped: %ldK    writeable/private: %ldK    shared: %ldK\n"
-msgstr "mappat: %ld k    skrivbart/privat: %ld k    delat: %ld k\n"
+msgstr "mappat: %ld kB    skrivbart/privat: %ld kB    delat: %ld kB\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " total %16ldK\n"
-msgstr " totalt %14ld k\n"
+msgstr " totalt %14ld kB\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " total %8ldK\n"
-msgstr " totalt %6ld k\n"
+msgstr " totalt %6ld kB\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "config line too long - line %d"
-msgstr "konfigurationsraden är för lång — rad %d"
+msgstr "konfigurationsraden är för lång – rad %d"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "unsupported section found in the config - line %d"
-msgstr "avsnitt som ej stödjs hittat i konfigurationen — rad %d"
+msgstr "ett avsnitt som inte stöds hittades i konfigurationen – rad %d"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "syntax error found in the config - line %d"
-msgstr "syntaxfel hittat i konfigurationen — rad %d"
+msgstr "syntaxfel hittades i konfigurationen – rad %d"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "memory allocation failed"
@@ -181820,7 +181820,7 @@ msgstr "flaggorna -p, -q är ömsesidigt uteslutande med -n, -N"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "rc file successfully created, feel free to edit the content"
-msgstr "rc-filen skapades, varsågod att redigera innehållet"
+msgstr "rc-filen skapades, redigera gärna innehållet"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "couldn't create the rc file"
@@ -181828,7 +181828,7 @@ msgstr "kunde inte skapa rc-filen"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "~/.%src file successfully created, feel free to edit the content"
-msgstr "~/.%src-filen skapades, varsågod att redigera innehållet"
+msgstr "~/.%src-filen skapades, redigera gärna innehållet"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "couldn't create ~/.%src"
@@ -181852,19 +181852,19 @@ msgstr "biblioteket misslyckades med pid-statistik"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Signal %d (%s) caught by %s (%s).\n"
-msgstr "Signal %d (%s) fångad av %s (%s).\n"
+msgstr "Signal %d (%s) fångades av %s (%s).\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "please report this bug"
-msgstr "var vänlig och rapportera detta fel"
+msgstr "rapportera det här felet"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Fatal library error, unable to select pids"
-msgstr "Öderstigert fel i biblioteket, kan inte välja pid:er"
+msgstr "Ödesdigert fel i biblioteket, kan inte välja PID:ar"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Fatal library error, unable to reap pids"
-msgstr "Ödersdigert fel i biblioteket, kan inte skörda pid:er"
+msgstr "Ödesdigert fel i biblioteket, kan inte skörda PID:ar"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "could not find start_time\n"
@@ -181876,7 +181876,7 @@ msgstr "kunde inte hitta ppid\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "fatal library error, reap\n"
-msgstr "ödersdigert fel i biblioteket, skörda\n"
+msgstr "ödesdigert fel i biblioteket, skörda\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "your %dx%d screen size is bogus. expect trouble\n"
@@ -182108,7 +182108,7 @@ msgstr "     --context        visa säkerhetskontext (för SELinux)\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "     --delimiter <d>  Use <d> as a column delimiter instead of variable space\n"
-msgstr "     --delimiter <a>  Använd <a> som en kolumnavgränsare istället för variabla blantecken\n"
+msgstr "     --delimiter <a>  Använd <a> som kolumnavgränsare i stället för variabla blanktecken\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "     --headers        repeat header lines, one per page\n"
@@ -182228,7 +182228,7 @@ msgstr "flaggan är uteslutande: "
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "process ID list syntax error"
-msgstr "syntax fel i process-ID-listan"
+msgstr "syntaxfel i process-ID-listan"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "process ID out of range"
@@ -182348,7 +182348,7 @@ msgstr "kan inte hända — problem nr. 2"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "second chance parse failed, not BSD or SysV"
-msgstr "andra chansen av tolkning misslyckades, inte BSD eller SysV"
+msgstr "det andra tolkningsförsöket misslyckades, varken BSD eller SysV"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "option A is reserved"
@@ -182372,7 +182372,7 @@ msgstr "den föråldrade flaggan W stödjs inte (har du en /dev/drum?)"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "only one heading option may be specified"
-msgstr "endast en flagga för huvud får anges"
+msgstr "endast en rubrikflagga får anges"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "long sort specification must follow 'k'"
@@ -182396,7 +182396,7 @@ msgstr "flagga som inte stödjs (BSD-syntax)"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "unknown gnu long option"
-msgstr "okänd lång gnu-flagga"
+msgstr "okänd lång GNU-flagga"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "list of real groups must follow --Group"
@@ -182460,7 +182460,7 @@ msgstr "ett antal rader måste följa --rows eller --lines"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "some sid thing(s) must follow --sid"
-msgstr "några sid-saker måste följa --sid"
+msgstr "något SID-värde måste följa --sid"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "long sort specification must follow --sort"
@@ -182476,7 +182476,7 @@ msgstr "en lista över effektiva användare måste följa --user"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "way bad"
-msgstr "heltrasigt"
+msgstr "helt trasigt"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "garbage option"
@@ -182488,7 +182488,7 @@ msgstr "något är trasigt"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "thread display conflicts with forest display"
-msgstr "att visa trådar står i konflikt med att visa skog"
+msgstr "visning av trådar står i konflikt med skogsvisning"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "thread flags conflict; can't use H with m or -m"
@@ -182548,7 +182548,7 @@ msgstr "kolumnbredder måste vara teckenlösa decimaltal"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "can not set width for a macro (multi-column) format specifier"
-msgstr "det går inte att sätta bredden för en (flerkolumners) makroformatspecificerare"
+msgstr "det går inte att ange bredd för en makroformatspecificerare (med flera kolumner)"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "improper sort list"
@@ -182560,11 +182560,11 @@ msgstr "tom sorteringslista"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "unknown sort specifier"
-msgstr "okänd sorteringsspecificerare"
+msgstr "okänd sorteringsspecifikation"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "bad sorting code"
-msgstr "oriktig sorteringskod"
+msgstr "felaktig sorteringskod"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "PPID sort and forest output conflict"
@@ -182576,7 +182576,7 @@ msgstr "flaggan -O får inte följa efter andra formatflaggor"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "multiple sort options"
-msgstr "multipla sorteringsflaggor"
+msgstr "flera sorteringsflaggor"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "option O is neither first format nor sort order"
@@ -182592,11 +182592,11 @@ msgstr "fel: måste nollställa listan först"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "tell <procps@freelists.org> what you expected"
-msgstr "berätta för <procps@freelists.org> vad du förväntade dig"
+msgstr "tala om för <procps@freelists.org> vad du förväntade dig"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "tell <procps@freelists.org> what you want (-L/-T, -m/m/H, and $PS_FORMAT)"
-msgstr "berätta för <procps@freelists.org> vad du vill (-L/-T, -m/m/H och $PS_FORMAT)"
+msgstr "tala om för <procps@freelists.org> vad du vill (-L/-T, -m/m/H och $PS_FORMAT)"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "warning: $PS_FORMAT ignored. (%s)\n"
@@ -182776,7 +182776,7 @@ msgstr " -s, --sort <tkn>    ange sorteringskriterium enligt tecken (se nedan)\n
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "\nThe following are valid sort criteria:\n"
-msgstr "\nFöljande är giltiga sorteringskritierier:\n"
+msgstr "\nFöljande sorteringskriterier är giltiga:\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " a: sort by number of active objects\n"
@@ -182868,7 +182868,7 @@ msgstr "Sökvägen är inte under %s: %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "separators should not be repeated: %s"
-msgstr "separatorer skall inte upprepas: %s"
+msgstr "avgränsare ska inte upprepas: %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " %s [options] [variable[=value] ...]\n"
@@ -182888,15 +182888,15 @@ msgstr "  -X                   alias för -a\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "      --deprecated     include deprecated parameters to listing\n"
-msgstr "      --deprecated     inkludera undanbedda parameter i listningen\n"
+msgstr "      --deprecated     inkludera föråldrade parametrar i listningen\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "      --dry-run        Print the key and values but do not write\n"
-msgstr "      --dry-run        Skriv nyckeln och värden men skriv inte\n"
+msgstr "      --dry-run        Skriv ut nyckeln och värdena, men skriv inte till dem\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "  -b, --binary         print value without new line\n"
-msgstr "  -b, --binary         skriv värden utan en nyrad\n"
+msgstr "  -b, --binary         skriv värden utan radbrytning\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "  -e, --ignore         ignore unknown variables errors\n"
@@ -182932,7 +182932,7 @@ msgstr "  -q, --quiet          eka inte satta variabler\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "  -w, --write          enable writing a value to variable\n"
-msgstr "  -w, --write          skriv ett värde till en variabel\n"
+msgstr "  -w, --write          aktivera skrivning av ett värde till en variabel\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "  -o                   does nothing\n"
@@ -182968,7 +182968,7 @@ msgstr "strdup-nyckel"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "setting key \"%s\""
-msgstr "sätter nyckeln ”%s”"
+msgstr "anger nyckeln ”%s”"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "\"%s\" is an unknown key%s"
@@ -182984,7 +182984,7 @@ msgstr "tillåtelse nekad för nyckeln ”%s”%s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "setting key \"%s\"%s"
-msgstr "sätter nyckeln ”%s”%s"
+msgstr "anger nyckeln ”%s”%s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%s(%d): invalid syntax, continuing..."
@@ -182992,7 +182992,7 @@ msgstr "%s(%d): felaktig syntax, fortsätter …"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "GLOB_TILDE is not supported on your platform, the tilde in \"%s\" won't be expanded."
-msgstr "GLOB_TILDE stödjs inte på din plattform, tildet i ”%s” kommer inte expanderas."
+msgstr "GLOB_TILDE stödjs inte på din plattform, tildet i ”%s” kommer inte att expanderas."
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "glob failed"
@@ -183004,7 +183004,7 @@ msgstr "kan inte öppna ”%s”"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "* Applying %s ...\n"
-msgstr "* Verkställer %s …\n"
+msgstr "* Tillämpar %s …\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "no variables specified\nTry `%s --help' for more information."
@@ -183060,7 +183060,7 @@ msgstr "misslyckades att skriva till tty:n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Process Id"
-msgstr "Process-id"
+msgstr "Process-ID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "PPID"
@@ -183068,7 +183068,7 @@ msgstr "FPID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Parent Process pid"
-msgstr "Föräldraprocess-pid"
+msgstr "Föräldraprocess-ID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "UID"
@@ -183076,7 +183076,7 @@ msgstr "AID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Effective User Id"
-msgstr "Effektiv användar-id"
+msgstr "Effektivt användar-ID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Effective User Name"
@@ -183088,7 +183088,7 @@ msgstr "VAID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Real User Id"
-msgstr "Verkligt användar-id"
+msgstr "Verkligt användar-ID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "RUSER"
@@ -183104,7 +183104,7 @@ msgstr "SAID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Saved User Id"
-msgstr "Sparat användar-id"
+msgstr "Sparat användar-ID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "SUSER"
@@ -183120,7 +183120,7 @@ msgstr "GID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Group Id"
-msgstr "Grupp-id"
+msgstr "Grupp-ID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Group Name"
@@ -183132,7 +183132,7 @@ msgstr "PGRP"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Process Group Id"
-msgstr "Processgrupp-id"
+msgstr "Processgrupp-ID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "TTY"
@@ -183140,7 +183140,7 @@ msgstr "TTY"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Controlling Tty"
-msgstr "Styr-tty"
+msgstr "Styrande tty"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "TPGID"
@@ -183148,7 +183148,7 @@ msgstr "TPGID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Tty Process Grp Id"
-msgstr "Tty-processgrupp-id"
+msgstr "Tty-processgrupp-ID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "SID"
@@ -183156,7 +183156,7 @@ msgstr "SID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Session Id"
-msgstr "Sessions-id"
+msgstr "Sessions-ID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "PR"
@@ -183220,7 +183220,7 @@ msgstr "VIRT"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Virtual Image (KiB)"
-msgstr "Virtuell avbild(KiB)"
+msgstr "Virtuell avbild (KiB)"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "SWAP"
@@ -183228,7 +183228,7 @@ msgstr "VÄXL"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Swapped Size (KiB)"
-msgstr "Växlingsstorlek(KiB)"
+msgstr "Växlingsstorlek (KiB)"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "RES"
@@ -183284,7 +183284,7 @@ msgstr "Antal smutsiga sidor"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Process Status"
-msgstr "Processtatus"
+msgstr "Processstatus"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Command Name/Line"
@@ -183300,7 +183300,7 @@ msgstr "Sover i funktion"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Task Flags <sched.h>"
-msgstr "Uppg.flagg <sched.h>"
+msgstr "Uppg.-flaggor <sched.h>"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "CGROUPS"
@@ -183316,7 +183316,7 @@ msgstr "KOMPGID"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Supp Groups IDs"
-msgstr "Kompl. grupp-id:n"
+msgstr "Kompl. grupp-ID:n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "SUPGRPS"
@@ -183364,7 +183364,7 @@ msgstr "vSt"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Major Faults delta"
-msgstr "Stora sidfel delta"
+msgstr "Förändring av stora sidfel"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "vMn"
@@ -183372,7 +183372,7 @@ msgstr "vSm"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Minor Faults delta"
-msgstr "Små sidfel delta"
+msgstr "Förändring av små sidfel"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "USED"
@@ -183680,11 +183680,11 @@ msgstr "felaktigt iterationsargument ”%s”"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "pid limit (%d) exceeded"
-msgstr "pid-gränsen (%d) överskriden"
+msgstr "PID-gränsen (%d) överskreds"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "bad pid '%s'"
-msgstr "felaktig pid ”%s”"
+msgstr "felaktig PID ”%s”"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "-%c argument missing"
@@ -183740,11 +183740,11 @@ msgstr "Inga färger att mappa!"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Failed '%s' open: %s"
-msgstr "Misslyckades öppna ”%s”: %s"
+msgstr "Misslyckades med att öppna ”%s”: %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Wrote configuration to '%s'"
-msgstr "Skriv konfigurationen till ”%s”"
+msgstr "Skrev konfigurationen till ”%s”"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Change delay from %.1f to"
@@ -183764,11 +183764,11 @@ msgstr "PID att signalera/döda [standard pid = %d]"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Send pid %d signal [%d/sigterm]"
-msgstr "Skicka pid %d signalen [%d/sigterm]"
+msgstr "Skicka signalen [%d/sigterm] till PID %d"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Failed signal pid '%d' with '%d': %s"
-msgstr "Misslyckades att signalera pid ”%d” med ”%d”: %s"
+msgstr "Misslyckades med att signalera PID ”%d” med ”%d”: %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Invalid signal"
@@ -183800,11 +183800,11 @@ msgstr "Maximalt antal uppgifter = %d, ändra till (0 är obegränsat)"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Invalid maximum"
-msgstr "Felaktigt maximum"
+msgstr "Felaktigt maxvärde"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Which user (blank for all)"
-msgstr "Vilken användare (blank för alla)"
+msgstr "Vilken användare (tomt för alla)"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Unknown command - try 'h' for help"
@@ -183836,11 +183836,11 @@ msgstr "skogsvy"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "failed pid maximum size test"
-msgstr "misslyckades med storlekstest för maximal pid"
+msgstr "misslyckades med test av maximal PID-storlek"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "failed number of cpus test"
-msgstr "misslyckades med test av antal cpu:er"
+msgstr "misslyckades med test av antal CPU:er"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "incompatible rcfile, you should delete '%s'"
@@ -183848,7 +183848,7 @@ msgstr "inkompatibel rc-fil, du bör radera ”%s”"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "window entry #%d corrupt, please delete '%s'"
-msgstr "fönsterpost nr. %d är trasig, var god radera ”%s”"
+msgstr "fönsterpost nr. %d är skadad, radera ”%s”"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Unavailable in secure mode"
@@ -183856,7 +183856,7 @@ msgstr "Otillgänglig i säkert läge"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Only 1 cpu detected"
-msgstr "Endast 1 cpu detekterad"
+msgstr "Endast 1 CPU identifierades"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Unacceptable integer"
@@ -183912,11 +183912,11 @@ msgstr "annan "
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Locate next inactive, use \"L\""
-msgstr "Hitta nästa inaktiva, använd ”L”"
+msgstr "Sök nästa inaktiva, använd ”L”"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Locate string"
-msgstr "Hitta sträng"
+msgstr "Sök sträng"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%s\"%s\" not found"
@@ -183936,7 +183936,7 @@ msgstr "okänt fältnamn ”%s”"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "even using field names only, window is now too small"
-msgstr "även med bara användning av endast fältnamn är fönstret för litet nu"
+msgstr "även med enbart fältnamn är fönstret nu för litet"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Open Files"
@@ -183948,7 +183948,7 @@ msgstr "NUMA-info"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "the '=' key will eventually show the actual file read or command(s) executed ..."
-msgstr "tangenten ”=” kommer så småningom visa den faktiskt lästa filen eller körda kommandot …"
+msgstr "Logg"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "demo"
@@ -183972,7 +183972,7 @@ msgstr "Valet misslyckades med: %s\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "unable to inspect, pid %d not found"
-msgstr "kan inte inspektera, pid %d finns inte"
+msgstr "kan inte inspektera, PID %d hittades inte"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "inspect at PID [default pid = %d]"
@@ -184004,7 +184004,7 @@ msgstr "skiftlägeskänslig"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "duplicate filter was ignored"
-msgstr "dubblerat filter ignorerades"
+msgstr "dubblettfilter ignorerades"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "'%s' filter delimiter is missing"
@@ -184032,7 +184032,7 @@ msgstr "%%Nod %-2d:"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "expand which numa node (0-%d)"
-msgstr "expandera vilken numa-nod (0-%d)"
+msgstr "fäll ut NUMA-nod (0–%d)"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "invalid numa node"
@@ -184040,7 +184040,7 @@ msgstr "felaktig numa-nod"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "sorry, NUMA extensions unavailable"
-msgstr "ledsen, NUMA-utökningar är inte tillgängliga"
+msgstr "NUMA-tillägg är inte tillgängliga"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Mem "
@@ -184052,15 +184052,15 @@ msgstr "Växl"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "library failed memory statistics, at %d: %s"
-msgstr "biblioteket misslyckades med minnesstatistik, vid %d: %s"
+msgstr "biblioteket kunde inte hämta minnesstatistik vid %d: %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "library failed cpu statistics, at %d: %s"
-msgstr "biblioteket misslyckades med cpu-statistik, vid %d: %s"
+msgstr "biblioteket kunde inte hämta CPU-statistik vid %d: %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "library failed pids statistics, at %d: %s"
-msgstr "biblioteket misslyckades med pid-statistik, vid %d: %s"
+msgstr "biblioteket kunde inte hämta PID-statistik vid %d: %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "bad memory scaling arg '%s'"
@@ -184068,7 +184068,7 @@ msgstr "felaktigt minnesskalningsargument ”%s”"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "PID to collapse/expand [default pid = %d]"
-msgstr "PID att fälla ihop/expandera [standard pid = %d]"
+msgstr "PID att fälla ihop/fälla ut [standard-PID = %d]"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "saving prevents older top from reading, save anyway?"
@@ -184088,7 +184088,7 @@ msgstr "ledsen, begränsad namnrymd med reducerad funktionalitet"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "set pid %d AGNI value to"
-msgstr "sätt pid %d AGNI-värde till"
+msgstr "ange AGNI-värdet för PID %d till"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "valid AGNI range is -20 to +19"
@@ -184096,31 +184096,31 @@ msgstr "tillåtet AGNI-intervall är -20 till +19"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "autogroup open failed, %s"
-msgstr "att öppna autogrupp misslyckades, %s"
+msgstr "det gick inte att öppna autogruppen: %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "autogroup write failed, %s"
-msgstr "autogruppskrivning misslyckades, %s"
+msgstr "det gick inte att skriva till autogruppen: %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "permitted capabilities for pid %d, %s"
-msgstr "tillåtna förmågor för pid %d, %s"
+msgstr "tillåtna förmågor för PID %d, %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "command line for pid %d, %s"
-msgstr "kommandorad för pid %d, %s"
+msgstr "kommandorad för PID %d, %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "control groups for pid %d, %s"
-msgstr "styrgrupper för pid %d, %s"
+msgstr "styrgrupper för PID %d, %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "environment for pid %d, %s"
-msgstr "miljön för pid %d, %s"
+msgstr "miljö för PID %d, %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "namespaces for pid %d, %s"
-msgstr "namnrymder för pid %d, %s"
+msgstr "namnrymder för PID %d, %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "n/a"
@@ -184128,7 +184128,7 @@ msgstr "e/t"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "supplementary groups for pid %d, %s"
-msgstr "kompletterande grupper för pid %d, %s"
+msgstr "kompletterande grupper för PID %d, %s"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "message log, last 10 messages:"
@@ -184144,11 +184144,11 @@ msgstr "Kärna%-3d:"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "sorry, distinct cpu core types do not exist"
-msgstr "tyvärr, distinkta cpu-kärnetyper finns inte"
+msgstr "systemet har inga olika CPU-kärntyper"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "sorry, system cpu core data is unavailable"
-msgstr "tyvärr, system-cpu-kärndata är inte tillgängliga"
+msgstr "systemets data om CPU-kärnor är inte tillgängliga"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Help for Interactive Commands~2 - %s\nWindow ~1%s~6: ~1Cumulative mode ~3%s~2.  ~1System~6: ~1Delay ~3%.1f secs~2; ~1Secure mode ~3%s~2.\n\n  Z~5,~1B~5,E,e   Global: '~1Z~2' colors; '~1B~2' bold; '~1E~2'/'~1e~2' summary/task memory scale\n  l,t,m,I,0 Toggle: '~1l~2' load avg; '~1t~2' task/cpu; '~1m~2' memory; '~1I~2' Irix; '~10~2' zeros\n  1,2,3,4,5 Toggle: '~11~2/~12~2/~13~2' cpu/numa views; '~14~2' cpus abreast; '~15~2' P/E-cores\n  f,X       Fields: '~1f~2' add/remove/order/sort; '~1X~2' increase fixed-width fields\n\n  L,&,<,> . Locate: '~1L~2'/'~1&~2' find/again; Move sort column: '~1<~2'/'~1>~2' left/right\n  R,H,J,C . Toggle: '~1R~2' Sort; '~1H~2' Threads; '~1J~2' Num justify; '~1C~2' Coordinates\n  c,i,S,j . Toggle: '~1c~2' Cmd name/line; '~1i~2' Idle; '~1S~2' Time; '~1j~2' Str justify\n  x~5,~1y~5     . Toggle highlights: '~1x~2' sort field; '~1y~2' running tasks\n  z~5,~1b~5     . Toggle: '~1z~2' color/mono; '~1b~2' bold/reverse (only if 'x' or 'y')\n  u,U,o,O . Filter by: '~1u~2'/'~1U~2' effective/any user; '~1o~2'/'~1O~2' other criteria\n  n,#,^O  . Set: '~1n~2'/'~1#~2' max tasks displayed; Show: ~1Ctrl~2+'~1O~2' other filter(s)\n  V,v,F   . Toggle: '~1V~2' forest view; '~1v~2' hide/show children; '~1F~2' keep focused\n          ( commands shown with '.' require a ~1visible~2 task display ~1window~2 ) \n\n%s  Y,^E      Inspect a task '~1Y~2'; Scale process time '~1^E~2'\n  !,^       Progressively Combine Cpus '~1!~2'; Display Cores vs. Cpus '~1^~2' \n  W         Write config file '~1W~2'\n\nPress '~1h~2' for help with ~1Specialized~2 keys, '~1H~2' for help with ~1Windows~2,\nType 'q' or <Esc> to continue "
@@ -184172,7 +184172,7 @@ msgstr "  d,k,r,^R  Ange fördröjning ”~1d~2”; Döda ”~1k~2”; Ändra ni
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Fields Management~2 for window ~1%s~6, whose current sort field is ~1%s~2\n   Navigate with Up/Dn, Right selects for move then <Enter> or Left commits,\n   'd' or <Space> toggles display, 's' sets sort.  Use 'q' or <Esc> to end!\n"
-msgstr "Fälthantering~2 för fönster ~1%s~6, vars aktuella sorteringsfält är ~1%s~2\n   Navigera med Upp/Ner, Höger väljer för flytt och <Retur> el Vänster sparar,\n   ”d” el <Mellanslag> växlar visning, ”s” anger sort.  ”q” el <Esc> avslutar!\n"
+msgstr "Fälthantering~2 för fönster ~1%s~6, vars aktuella sorteringsfält är ~1%s~2\n   Navigera med Upp/Ned; Höger väljer flytt, sedan sparar <Retur> eller Vänster.\n   ”d” eller <Mellanslag> växlar visning, ”s” anger sortering. ”q” eller <Esc> avslutar!\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%s:~3 %u ~2total,~3 %u ~2running,~3 %u ~2sleep,~3 %u ~2d-sleep,~3 %u ~2stopped,~3 %u ~2zombie~3\n"
@@ -184200,15 +184200,15 @@ msgstr "Inspektion~2 Paus vid: pid ~1%d~6, körande ~1%s~6\nAnvänd~2:  vänster
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Inspection~2 View at pid: ~1%s~3, running ~1%s~3.  Locating: ~1%s~6\nUse~2:  left/right/up/down/etc to ~1navigate~5 the output; 'L'/'&' to ~1locate~5/~1next~5.\nOr~2:   <Enter> to ~1select another~5; 'q' or <Esc> to ~1end~5 !\n"
-msgstr "Inspektion~2 Visa vid pid: ~1%s~3, körande ~1%s~3.  Hitta: ~1%s~6\nAnvänd~2:  vänster/höger/upp/ner/etc för att ~1navigera~5 utdatan; 'L'/'&' för att ~1hitta~5/~1nästa~5.\nEller~2:   <Retur> för att ~1välja en annan~5; 'q' eller <Esc> för att ~1avsluta~5 !\n"
+msgstr "Inspektion~2 Visning vid PID: ~1%s~3, körande ~1%s~3. Söker: ~1%s~6\nAnvänd~2: vänster/höger/upp/ned osv. för att ~1navigera~5 i utdata; ”L”/”&” för att ~1söka~5/~1nästa~5.\nEller~2: <Retur> för att ~1välja en annan~5; ”q” eller <Esc> för att ~1avsluta~5!\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Cannot get container uptime"
-msgstr "Kan inte få fram behållarens tid uppe"
+msgstr "Kan inte hämta behållarens uppetid"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Cannot get system uptime"
-msgstr "Kan inte få fram systemets tid uppe"
+msgstr "Kan inte hämta systemets uppetid"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -c, --container show container uptime\n"
@@ -184216,7 +184216,7 @@ msgstr " -c, --container visa behållarens uppetid\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -p, --pretty   show uptime in pretty format\n"
-msgstr " -p, --pretty   visa uppetiden i snyggt format\n"
+msgstr " -p, --pretty   visa uppetiden i lättläst format\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -r, --raw      show uptime values in raw format\n"
@@ -184236,7 +184236,7 @@ msgstr " -a, --active           aktivt/inaktivt minne\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -f, --forks            number of forks since boot\n"
-msgstr " -f, --forks            antal fork sedan senaste uppstart\n"
+msgstr " -f, --forks            antal fork sedan uppstart\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -m, --slabs            slabinfo\n"
@@ -184260,7 +184260,7 @@ msgstr " -D, --disk-sum         summera diskstatistik\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -p, --partition <dev>  partition specific statistics\n"
-msgstr " -p, --partition <enh>  partitionsspecifik statistik\n"
+msgstr " -p, --partition <enhet>  partitionsspecifik statistik\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -S, --unit <char>      define display unit\n"
@@ -184420,15 +184420,15 @@ msgstr "%13lu ms skrivet\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lu inprogress IO\n"
-msgstr "%13lu pågående IO\n"
+msgstr "%13lu pågående I/O\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lu milli spent IO\n"
-msgstr "%13lu ms under IO\n"
+msgstr "%13lu ms för I/O\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lu milli weighted IO\n"
-msgstr "%13lu ms viktad IO\n"
+msgstr "%13lu ms viktad I/O\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lu %s total memory\n"
@@ -184472,43 +184472,43 @@ msgstr "%13lu %s fri växling\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lld non-nice user cpu ticks\n"
-msgstr "%13lld icke-nice användar-cpu-tick\n"
+msgstr "%13lld CPU-tick för användare utan nice\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lld nice user cpu ticks\n"
-msgstr "%13lld nice användar-cpu-tick\n"
+msgstr "%13lld CPU-tick för användare med nice\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lld system cpu ticks\n"
-msgstr "%13lld system-cpu-tick\n"
+msgstr "%13lld CPU-tick för systemet\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lld idle cpu ticks\n"
-msgstr "%13lld inaktiva-cpu-tick\n"
+msgstr "%13lld inaktiva CPU-tick\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lld IO-wait cpu ticks\n"
-msgstr "%13lld cpu-tick i IO-väntan\n"
+msgstr "%13lld CPU-tick i I/O-väntan\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lld IRQ cpu ticks\n"
-msgstr "%13lld IRQ-cpu-tick\n"
+msgstr "%13lld CPU-tick för IRQ\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lld softirq cpu ticks\n"
-msgstr "%13lld softirq-cpu-tick\n"
+msgstr "%13lld CPU-tick för programvaruavbrott\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lld stolen cpu ticks\n"
-msgstr "%13lld stulna cpu-tick\n"
+msgstr "%13lld stulna CPU-tick\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lld non-nice guest cpu ticks\n"
-msgstr "%13lld icke-nice gäst-cpu-tick\n"
+msgstr "%13lld CPU-tick för gäst utan nice\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lld nice guest cpu ticks\n"
-msgstr "%13lld nice gäst-cpu-tick\n"
+msgstr "%13lld CPU-tick för gäst med nice\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lu K paged in\n"
@@ -184564,7 +184564,7 @@ msgstr "%13lu starttid\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "%13lu forks\n"
-msgstr "%13lu grenar\n"
+msgstr "%13lu fork\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "-S requires k, K, m or M (default is KiB)"
@@ -184660,11 +184660,11 @@ msgstr "Kunde inte tolka intervall från WATCH_INTERVAL"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Follow -f option conflicts with change options -d,-e or -q"
-msgstr "Följflaggan -f står i konfligt med ändringsflaggorna -d, -e eller -q"
+msgstr "Följflaggan -f står i konflikt med ändringsflaggorna -d, -e eller -q"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "command exit with a non-zero status, press a key to exit"
-msgstr "kommandot avslutade med en nollskild status, tryck en tangent för att avsluta"
+msgstr "kommandot avslutades med en nollskild status, tryck på en tangent för att avsluta"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " %2lludays"
@@ -184680,7 +184680,7 @@ msgstr " %2llu,%02us"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "Cannot format uptime"
-msgstr "Kan inte formatera systemets tid uppe"
+msgstr "Kan inte formatera systemets uppetid"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " %s [options] [user]\n"
@@ -184688,7 +184688,7 @@ msgstr " %s [flaggor] [användare]\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -c, --container     show container uptime\n"
-msgstr " -c, --container     visa behållarens tid uppe\n"
+msgstr " -c, --container     visa behållarens uppetid\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -h, --no-header     do not print header\n"
@@ -184696,7 +184696,7 @@ msgstr " -h, --no-header     skriv inte ut rubrik\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -u, --no-current    ignore current process username\n"
-msgstr " -u, --no-current    ignorera aktuell process användarnamn\n"
+msgstr " -u, --no-current    ignorera den aktuella processens användarnamn\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -s, --short         short format\n"
@@ -184716,7 +184716,7 @@ msgstr " -o, --old-style     utdata i gammal stil\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -i, --ip-addr       display IP address instead of hostname (if possible)\n"
-msgstr " -i, --ip-addr       visa IP-adress istället för värdnamn (om möjligt)\n"
+msgstr " -i, --ip-addr       visa IP-adress i stället för värdnamn (om möjligt)\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid " -p, --pids          show the PID(s) of processes in WHAT\n"
