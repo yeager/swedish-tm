@@ -175680,11 +175680,11 @@ msgstr "det angivna registret kan inte skrivas"
 
 #. from tp:opcodes-2.45.90
 msgid "unrecognised disassembler option: %s"
-msgstr "okänd avassemblerarflagga: %s"
+msgstr "okänd flagga för avassembleraren: %s"
 
 #. from tp:opcodes-2.45.90
 msgid "this `%s' should have an immediately preceding `%s'"
-msgstr "this ”%s” bör ha en omedelbart föregående ”%s”"
+msgstr "”%s” bör omedelbart föregås av ”%s”"
 
 #. from tp:opcodes-2.45.90
 msgid "expected `%s' after previous `%s'"
@@ -175692,7 +175692,7 @@ msgstr "förväntade ”%s” efter föregående ”%s”"
 
 #. from tp:opcodes-2.45.90
 msgid "\nThe following AARCH64 specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n"
-msgstr "\nFöljande AARCH64-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n"
+msgstr "\nFöljande AARCH64-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #. from tp:opcodes-2.45.90
 msgid "\n  no-aliases         Don't print instruction aliases.\n"
@@ -175716,11 +175716,11 @@ msgstr "\n  debug_dump         Tillfällig flagga för felsökningsspårning.\n"
 
 #. from tp:opcodes-2.45.90
 msgid "immediate value"
-msgstr "omedelbart värde"
+msgstr "direktvärde"
 
 #. from tp:opcodes-2.45.90
 msgid "immediate offset"
-msgstr "omedelbar position"
+msgstr "direktförskjutning"
 
 #. from tp:opcodes-2.45.90
 msgid "register number"
@@ -175748,23 +175748,23 @@ msgstr "förväntade ett valregister i intervallet w8-w11"
 
 #. from tp:opcodes-2.45.90
 msgid "starting offset is not a multiple of 2"
-msgstr "startposition är inte en multipel av 2"
+msgstr "startförskjutningen är inte en multipel av 2"
 
 #. from tp:opcodes-2.45.90
 msgid "starting offset is not a multiple of 4"
-msgstr "startposition är inte en multipel av 4"
+msgstr "startförskjutningen är inte en multipel av 4"
 
 #. from tp:opcodes-2.45.90
 msgid "expected a single offset rather than a range"
-msgstr "förväntade en enkel position snarare än ett intervall"
+msgstr "förväntade en enskild förskjutning i stället för ett intervall"
 
 #. from tp:opcodes-2.45.90
 msgid "expected a range of two offsets"
-msgstr "förväntade ett intervall av två positioner"
+msgstr "förväntade ett intervall med två förskjutningar"
 
 #. from tp:opcodes-2.45.90
 msgid "expected a range of four offsets"
-msgstr "förväntade ett intervall av fyra positioner"
+msgstr "förväntade ett intervall med fyra förskjutningar"
 
 #. from tp:opcodes-2.45.90
 msgid "second reg in pair should be xzr if first is xzr"
@@ -175772,19 +175772,19 @@ msgstr "det andra registret i paret bör vara xzr om det första är xzr"
 
 #. from tp:opcodes-2.45.90
 msgid "reg pair must start from even reg"
-msgstr "registerpar måste börja med jämnt register"
+msgstr "registerparet måste börja med ett jämnt register"
 
 #. from tp:opcodes-2.45.90
 msgid "reg pair must be contiguous"
-msgstr "registerpar måste vara kontinuerligt"
+msgstr "registerparet måste vara sammanhängande"
 
 #. from tp:opcodes-2.45.90
 msgid "extraneous register"
-msgstr "extra register"
+msgstr "överflödigt register"
 
 #. from tp:opcodes-2.45.90
 msgid "missing register"
-msgstr "saknar register"
+msgstr "register saknas"
 
 #. from tp:opcodes-2.45.90
 msgid "stack pointer register expected"
@@ -175792,11 +175792,11 @@ msgstr "stackpekarregister förväntat"
 
 #. from tp:opcodes-2.45.90
 msgid "register out of range"
-msgstr "register utanför intervall"
+msgstr "registret ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "start register out of range"
-msgstr "startregister utanför intervall"
+msgstr "startregistret ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "unexpected address writeback"
@@ -175812,11 +175812,11 @@ msgstr "negativ eller ojusterad position förväntad"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid register offset"
-msgstr "ogiltig registerposition"
+msgstr "ogiltig registerförskjutning"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid post-increment amount"
-msgstr "ogiltig efter-inkrementeringsmängd"
+msgstr "ogiltigt efterinkrement"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid shift amount"
@@ -175824,7 +175824,7 @@ msgstr "ogiltig skiftmängd"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid extend/shift operator"
-msgstr "ogiltig utökad-/skiftoperator"
+msgstr "ogiltig utvidgnings- eller skiftoperator"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid addressing mode"
@@ -175836,7 +175836,7 @@ msgstr "indexregister xzr är inte tillåtet"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid increment amount"
-msgstr "ogiltig inkrementeringsmängd"
+msgstr "ogiltigt inkrement"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid shift operator"
@@ -175848,7 +175848,7 @@ msgstr "skiftmängd måste vara 0 eller 12"
 
 #. from tp:opcodes-2.45.90
 msgid "immediate out of range"
-msgstr "omedelbar är utanför intervall"
+msgstr "direktvärdet ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "shift amount must be a multiple of 16"
@@ -175856,11 +175856,11 @@ msgstr "skiftmängden måste vara en multipel av 16"
 
 #. from tp:opcodes-2.45.90
 msgid "negative immediate value not allowed"
-msgstr "negativt omedelbart värde tillåts inte"
+msgstr "negativt direktvärde är inte tillåtet"
 
 #. from tp:opcodes-2.45.90
 msgid "immediate zero expected"
-msgstr "omedelbar nolla förväntad"
+msgstr "direktvärdet noll förväntades"
 
 #. from tp:opcodes-2.45.90
 msgid "rotate expected to be 0, 90, 180 or 270"
@@ -175872,11 +175872,11 @@ msgstr "rotation förväntades vara 90 eller 270"
 
 #. from tp:opcodes-2.45.90
 msgid "shift is not permitted"
-msgstr "skift är inte tillåtet"
+msgstr "skiftning är inte tillåten"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid value for immediate"
-msgstr "ogiltigt värde för omedelbar"
+msgstr "ogiltigt direktvärde"
 
 #. from tp:opcodes-2.45.90
 msgid "shift amount must be 0 or 16"
@@ -175884,7 +175884,7 @@ msgstr "skiftmängd måste vara 0 eller 16"
 
 #. from tp:opcodes-2.45.90
 msgid "floating-point immediate expected"
-msgstr "omedelbart flyttal förväntades"
+msgstr "ett direkt flyttalsvärde förväntades"
 
 #. from tp:opcodes-2.45.90
 msgid "no shift amount allowed for 8-bit constants"
@@ -175896,11 +175896,11 @@ msgstr "skiftmängd måste vara 0 eller 8"
 
 #. from tp:opcodes-2.45.90
 msgid "immediate too big for element size"
-msgstr "omedelbar för stor för elementstorlek"
+msgstr "direktvärdet är för stort för elementstorleken"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid arithmetic immediate"
-msgstr "ogiltig aritmetisk omedelbar"
+msgstr "ogiltigt aritmetiskt direktvärde"
 
 #. from tp:opcodes-2.45.90
 msgid "floating-point value must be 0.5 or 1.0"
@@ -175916,7 +175916,7 @@ msgstr "flyttalsvärde måste vara 0.0 eller 1.0"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid replicated MOV immediate"
-msgstr "ogiltig, replikerad MOV-omedelbar"
+msgstr "ogiltigt replikerat MOV-direktvärde"
 
 #. from tp:opcodes-2.45.90
 msgid "byte index must be a multiple of 8"
@@ -175928,15 +175928,15 @@ msgstr "register-index-formen av PRFM accepterar inte instruktioner i intervalle
 
 #. from tp:opcodes-2.45.90
 msgid "extend operator expected"
-msgstr "utökad operator förväntades"
+msgstr "utvidgningsoperator förväntades"
 
 #. from tp:opcodes-2.45.90
 msgid "missing extend operator"
-msgstr "saknar utökad operator"
+msgstr "utvidgningsoperator saknas"
 
 #. from tp:opcodes-2.45.90
 msgid "'LSL' operator not allowed"
-msgstr "”LSL”-operator inte tillåten"
+msgstr "”LSL”-operatorn är inte tillåten"
 
 #. from tp:opcodes-2.45.90
 msgid "W register expected"
@@ -175948,87 +175948,87 @@ msgstr "skiftoperator förväntades"
 
 #. from tp:opcodes-2.45.90
 msgid "'ROR' operator not allowed"
-msgstr "”ROR”-operator inte tillåten"
+msgstr "”ROR”-operatorn är inte tillåten"
 
 #. from tp:opcodes-2.45.90
 msgid "writing to a read-only register"
-msgstr "skrivning till ett register som endast kan läsas"
+msgstr "skriver till ett skrivskyddat register"
 
 #. from tp:opcodes-2.45.90
 msgid "reading from a write-only register"
-msgstr "läsning från ett register som endast kan skrivas"
+msgstr "läser från ett register som endast kan skrivas"
 
 #. from tp:opcodes-2.45.90
 msgid "the three register operands must be distinct from one another"
-msgstr "de tre registeroperanderna måste vara distinkta från varandra"
+msgstr "de tre registeroperanderna måste vara olika"
 
 #. from tp:opcodes-2.45.90
 msgid "the two register operands must be distinct from each other"
-msgstr "de två registeroperanderna måste vara distinkta från varandra"
+msgstr "de två registeroperanderna måste vara olika"
 
 #. from tp:opcodes-2.45.90
 msgid "destination register differs from preceding instruction"
-msgstr "destinationsregister skiljer sig från föregående instruktion"
+msgstr "destinationsregistret skiljer sig från föregående instruktion"
 
 #. from tp:opcodes-2.45.90
 msgid "source register differs from preceding instruction"
-msgstr "källregister skiljer sig från det i föregående instruktion"
+msgstr "källregistret skiljer sig från det i föregående instruktion"
 
 #. from tp:opcodes-2.45.90
 msgid "size register differs from preceding instruction"
-msgstr "storleksregister skiljer sig från det i föregående instruktion"
+msgstr "storleksregistret skiljer sig från det i föregående instruktion"
 
 #. from tp:opcodes-2.45.90
 msgid "instruction opens new dependency sequence without ending previous one"
-msgstr "instruktion öppnar en ny beroende sekvens utan att avsluta föregående"
+msgstr "instruktionen öppnar en ny beroendesekvens utan att avsluta den föregående"
 
 #. from tp:opcodes-2.45.90
 msgid "previous `movprfx' sequence not closed"
-msgstr "föregående ”movprfx”-sekvens inte stängd"
+msgstr "föregående ”movprfx”-sekvens är inte avslutad"
 
 #. from tp:opcodes-2.45.90
 msgid "SVE instruction expected after `movprfx'"
-msgstr "SVE-instruktion förväntad efter ”movprfx”"
+msgstr "en SVE-instruktion förväntades efter ”movprfx”"
 
 #. from tp:opcodes-2.45.90
 msgid "SVE `movprfx' compatible instruction expected"
-msgstr "SVE ”movprfx”-kompatibel instruktion förväntad"
+msgstr "en SVE-instruktion som är kompatibel med ”movprfx” förväntades"
 
 #. from tp:opcodes-2.45.90
 msgid "predicated instruction expected after `movprfx'"
-msgstr "instruktion med predikat förväntad efter ”movprfx”"
+msgstr "en predicerad instruktion förväntades efter ”movprfx”"
 
 #. from tp:opcodes-2.45.90
 msgid "merging predicate expected due to preceding `movprfx'"
-msgstr "sammanslagningspredikat förväntat på grund av föregående ”movprfx”"
+msgstr "ett sammanslagningspredikat förväntades på grund av föregående ”movprfx”"
 
 #. from tp:opcodes-2.45.90
 msgid "predicate register differs from that in preceding `movprfx'"
-msgstr "predikatregister skiljer sig från det i föregående ”movprfx”"
+msgstr "predikatregistret skiljer sig från det i föregående ”movprfx”"
 
 #. from tp:opcodes-2.45.90
 msgid "output register of preceding `movprfx' not used in current instruction"
-msgstr "utdataregister från föregående ”movprfx” används inte i aktuell instruktion"
+msgstr "utdataregistret från föregående ”movprfx” används inte i den aktuella instruktionen"
 
 #. from tp:opcodes-2.45.90
 msgid "output register of preceding `movprfx' expected as output"
-msgstr "utdataregister från föregående ”movprfx” förväntat som utdata"
+msgstr "utdataregistret från föregående ”movprfx” förväntades som utdata"
 
 #. from tp:opcodes-2.45.90
 msgid "output register of preceding `movprfx' used as input"
-msgstr "utdataregister från föregående ”movprfx” används som indata"
+msgstr "utdataregistret från föregående ”movprfx” används som indata"
 
 #. from tp:opcodes-2.45.90
 msgid "register size not compatible with previous `movprfx'"
-msgstr "registerstorlek inte kompatibel med föregående ”movprfx”"
+msgstr "registerstorleken är inte kompatibel med föregående ”movprfx”"
 
 #. from tp:opcodes-2.45.90
 msgid "branch operand unaligned"
-msgstr "grenoperanden ligger inte på jämn gräns"
+msgstr "grenoperanden är inte justerad"
 
 #. from tp:opcodes-2.45.90
 msgid "jump hint unaligned"
-msgstr "hopptipset ligger inte på jämn gräns"
+msgstr "hoppanvisningen är inte justerad"
 
 #. from tp:opcodes-2.45.90
 msgid "\nWarning: disassembly may be wrong due to guessed opcode class choice.\nUse -M<class[,class]> to select the correct opcode class(es).\n				"
@@ -176040,7 +176040,7 @@ msgstr "Ett fel inträffade vid generering av operationer för utökningsinstruk
 
 #. from tp:opcodes-2.45.90
 msgid "unrecognised disassembler CPU option: %s"
-msgstr "okänd avassemblerarflagga för CPU: %s"
+msgstr "okänd CPU-flagga för avassembleraren: %s"
 
 #. from tp:opcodes-2.45.90
 msgid "\nWarning: illegal use of double register pair.\n"
@@ -176048,7 +176048,7 @@ msgstr "\nVarning: otillåten användning av dubbelt registerpar.\n"
 
 #. from tp:opcodes-2.45.90
 msgid "Enforce the designated architecture while decoding."
-msgstr "Tvinga den utsedda arkitekturen vid avkodning."
+msgstr "Tvinga den angivna arkitekturen vid avkodning."
 
 #. from tp:opcodes-2.45.90
 msgid "Recognize DSP instructions."
@@ -176084,11 +176084,11 @@ msgstr "Känn igen NPS400-instruktioner."
 
 #. from tp:opcodes-2.45.90
 msgid "Use only hexadecimal number to print immediates."
-msgstr "Använd endast hexadecimala nummer för att skriva ut omedelbara."
+msgstr "Skriv direktvärden endast hexadecimalt."
 
 #. from tp:opcodes-2.45.90
 msgid "\nThe following ARC specific disassembler options are supported for use \nwith the -M switch (multiple options should be separated by commas):\n"
-msgstr "\nFöljande ARC-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n"
+msgstr "\nFöljande ARC-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #. from tp:opcodes-2.45.90
 msgid "\n  For the options above, the following values are supported for \"%s\":\n   "
@@ -176100,163 +176100,163 @@ msgstr "\n   "
 
 #. from tp:opcodes-2.45.90
 msgid "LP_COUNT register cannot be used as destination register"
-msgstr "LP_COUNT-register kan inte används som destinationsregister"
+msgstr "LP_COUNT-registret kan inte användas som destinationsregister"
 
 #. from tp:opcodes-2.45.90
 msgid "cannot use odd number destination register"
-msgstr "kan inte använda udda numrerat destinationsregister"
+msgstr "kan inte använda ett destinationsregister med udda nummer"
 
 #. from tp:opcodes-2.45.90
 msgid "cannot use odd number source register"
-msgstr "kan inte använda udda numrerat källregister"
+msgstr "kan inte använda ett källregister med udda nummer"
 
 #. from tp:opcodes-2.45.90
 msgid "operand is not zero"
-msgstr "operand är inte noll"
+msgstr "operanden är inte noll"
 
 #. from tp:opcodes-2.45.90
 msgid "register R30 is a limm indicator"
-msgstr "register R30 är en limm-indikator"
+msgstr "registret R30 är en limm-indikator"
 
 #. from tp:opcodes-2.45.90
 msgid "register must be R0"
-msgstr "register måste vara R0"
+msgstr "registret måste vara R0"
 
 #. from tp:opcodes-2.45.90
 msgid "register must be R1"
-msgstr "register måste vara R1"
+msgstr "registret måste vara R1"
 
 #. from tp:opcodes-2.45.90
 msgid "register must be R2"
-msgstr "register måste vara R2"
+msgstr "registret måste vara R2"
 
 #. from tp:opcodes-2.45.90
 msgid "register must be R3"
-msgstr "register måste vara R3"
+msgstr "registret måste vara R3"
 
 #. from tp:opcodes-2.45.90
 msgid "register must be SP"
-msgstr "register måste vara SP"
+msgstr "registret måste vara SP"
 
 #. from tp:opcodes-2.45.90
 msgid "register must be GP"
-msgstr "register måste vara GP"
+msgstr "registret måste vara GP"
 
 #. from tp:opcodes-2.45.90
 msgid "register must be PCL"
-msgstr "register måste vara PCL"
+msgstr "registret måste vara PCL"
 
 #. from tp:opcodes-2.45.90
 msgid "register must be BLINK"
-msgstr "register måste vara BLINK"
+msgstr "registret måste vara BLINK"
 
 #. from tp:opcodes-2.45.90
 msgid "register must be ILINK1"
-msgstr "register måste vara ILINK1"
+msgstr "registret måste vara ILINK1"
 
 #. from tp:opcodes-2.45.90
 msgid "register must be ILINK2"
-msgstr "register måste vara ILINK2"
+msgstr "registret måste vara ILINK2"
 
 #. from tp:opcodes-2.45.90
 msgid "register must be either r0-r3 or r12-r15"
-msgstr "register måste vara antingen r0-r3 eller r12-r15"
+msgstr "registret måste vara antingen r0-r3 eller r12-r15"
 
 #. from tp:opcodes-2.45.90
 msgid "accepted values are from -1 to 6"
-msgstr "accepterade värden är från -1 till 6"
+msgstr "godtagbara värden är från -1 till 6"
 
 #. from tp:opcodes-2.45.90
 msgid "first register of the range should be r13"
-msgstr "första register i intervallet borde vara r13"
+msgstr "det första registret i intervallet bör vara r13"
 
 #. from tp:opcodes-2.45.90
 msgid "last register of the range doesn't fit"
-msgstr "sista register i intervallet får inte plats"
+msgstr "det sista registret i intervallet får inte plats"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid register number, should be fp"
-msgstr "ogiltigt registernummer, borde vara fp"
+msgstr "ogiltigt registernummer, bör vara fp"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid register number, should be blink"
-msgstr "ogiltigt registernummer, borde vara blink"
+msgstr "ogiltigt registernummer, bör vara blink"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid register number, should be pcl"
-msgstr "ogiltigt registernummer, borde vara pcl"
+msgstr "ogiltigt registernummer, bör vara pcl"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid size, should be 1, 2, 4, or 8"
-msgstr "ogiltig storlek, borde vara 1, 2, 4 eller 8"
+msgstr "ogiltig storlek, bör vara 1, 2, 4 eller 8"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid immediate, must be 1, 2, or 4"
-msgstr "ogiltig omedelbar, måste vara 1, 2 eller 4"
+msgstr "ogiltigt direktvärde, måste vara 1, 2 eller 4"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid value for CMEM ld/st immediate"
-msgstr "ogiltigt värde för CMEM ld/st-omedelbar"
+msgstr "ogiltigt värde för CMEM ld/st-direktvärdet"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid position, should be 0, 16, 32, 48 or 64."
-msgstr "ogiltig position, borde vara 0, 16, 32, 48 eller 64."
+msgstr "ogiltig bitposition, bör vara 0, 16, 32, 48 eller 64."
 
 #. from tp:opcodes-2.45.90
 msgid "invalid position, should be 16, 32, 64 or 128."
-msgstr "ogiltig position, borde vara 16, 32, 64 eller 128."
+msgstr "ogiltig bitposition, bör vara 16, 32, 64 eller 128."
 
 #. from tp:opcodes-2.45.90
 msgid "invalid size value must be on range 1-64."
-msgstr "ogiltigt storleksvärde måste vara i intervallet 1-64."
+msgstr "ogiltigt storleksvärde; det måste ligga i intervallet 1-64."
 
 #. from tp:opcodes-2.45.90
 msgid "invalid position, should be 0, 8, 16, or 24"
-msgstr "ogiltig position, borde vara 0, 8, 16 eller 24"
+msgstr "ogiltig bitposition; den bör vara 0, 8, 16 eller 24"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid size, value must be "
-msgstr "ogiltig storlek, värde måste vara "
+msgstr "ogiltig storlek, värdet måste vara "
 
 #. from tp:opcodes-2.45.90
 msgid "value out of range 1 - 256"
-msgstr "värde utanför intervall 1-256"
+msgstr "värdet ligger utanför intervallet 1-256"
 
 #. from tp:opcodes-2.45.90
 msgid "value must be power of 2"
-msgstr "värde måste vara en tvåpotens"
+msgstr "värdet måste vara en tvåpotens"
 
 #. from tp:opcodes-2.45.90
 msgid "value must be in the range 0 to 28"
-msgstr "värde måste vara i intervallet 0 till 28"
+msgstr "värdet måste ligga i intervallet 0 till 28"
 
 #. from tp:opcodes-2.45.90
 msgid "value must be in the range 1 to "
-msgstr "värde måste vara i intervallet 1 till "
+msgstr "värdet måste ligga i intervallet 1 till "
 
 #. from tp:opcodes-2.45.90
 msgid "value must be in the range 0 to 240"
-msgstr "värde måste vara i intervallet 0 till 240"
+msgstr "värdet måste ligga i intervallet 0 till 240"
 
 #. from tp:opcodes-2.45.90
 msgid "value must be a multiple of 16"
-msgstr "värde måste vara en multipel av 16"
+msgstr "värdet måste vara en multipel av 16"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid address type for operand"
-msgstr "ogiltig adresstyp för operand"
+msgstr "ogiltig adresstyp för operanden"
 
 #. from tp:opcodes-2.45.90
 msgid "value must be in the range 0 to 31"
-msgstr "värde måste vara i intervallet 0 till 31"
+msgstr "värdet måste ligga i intervallet 0 till 31"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid position, should be one of: 0,4,8,...124."
-msgstr "ogiltig position, borde vara endera av: 0, 4, 8, …124."
+msgstr "ogiltig bitposition; den bör vara en av: 0, 4, 8, …, 124."
 
 #. from tp:opcodes-2.45.90
 msgid "Select raw register names"
-msgstr "Välj råa registernamn"
+msgstr "Välj obearbetade registernamn"
 
 #. from tp:opcodes-2.45.90
 msgid "Select register names used by GCC"
@@ -176268,7 +176268,7 @@ msgstr "Välj registernamn som används i ARM:s ISA-dokumentation"
 
 #. from tp:opcodes-2.45.90
 msgid "Assume all insns are Thumb insns"
-msgstr "Förvänta att alla instr är Thumb-instr"
+msgstr "Anta att alla instruktioner är Thumb-instruktioner"
 
 #. from tp:opcodes-2.45.90
 msgid "Examine preceding label to determine an insn's type"
@@ -176288,7 +176288,7 @@ msgstr "Välj specialregisternamn som används i ATPCS"
 
 #. from tp:opcodes-2.45.90
 msgid "Enable CDE extensions for coprocessor N space"
-msgstr "Aktivera CDE-utökningar för coprocessor-N-rymd"
+msgstr "Aktivera CDE-utökningar för koprocessorutrymmet N"
 
 #. from tp:opcodes-2.45.90
 msgid "unrecognised register name set: %s"
@@ -176296,7 +176296,7 @@ msgstr "okänd registernamnsuppsättning: %s"
 
 #. from tp:opcodes-2.45.90
 msgid "cde coprocessor not between 0-7: %s"
-msgstr "cde-coprocessor inte mellan 0-7: %s"
+msgstr "CDE-koprocessorn ligger inte mellan 0 och 7: %s"
 
 #. from tp:opcodes-2.45.90
 msgid "coproc must have an argument: %s"
@@ -176304,15 +176304,15 @@ msgstr "coproc måste ha ett argument: %s"
 
 #. from tp:opcodes-2.45.90
 msgid "coprocN argument takes options \"generic\", \"cde\", or \"CDE\": %s"
-msgstr "coprocN-argument tar flaggorna ”generic”, ”cde” eller ”CDE”: %s"
+msgstr "coprocN-argumentet accepterar värdena ”generic”, ”cde” eller ”CDE”: %s"
 
 #. from tp:opcodes-2.45.90
 msgid "\nThe following ARM specific disassembler options are supported for use with\nthe -M switch:\n"
-msgstr "\nFöljande ARM-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M:\n"
+msgstr "\nFöljande ARM-specifika flaggor för avassembleraren stöds med\nflaggan -M:\n"
 
 #. from tp:opcodes-2.45.90
 msgid "internal disassembler error"
-msgstr "internt fel i avassemblerare"
+msgstr "internt fel i avassembleraren"
 
 #. from tp:opcodes-2.45.90
 msgid "unknown constraint `%c'"
@@ -176320,15 +176320,15 @@ msgstr "okänd begränsning \"%c\""
 
 #. from tp:opcodes-2.45.90
 msgid "\nThe following BPF specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n"
-msgstr "\nFöljande BFP-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n"
+msgstr "\nFöljande BPF-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #. from tp:opcodes-2.45.90
 msgid "      pseudoc                  Use pseudo-c syntax.\n      v1,v2,v3,v4,xbpf         Version of the BPF ISA to use.\n      hex,oct,dec              Output numerical base for immediates.\n"
-msgstr "      pseudoc                  Använd pseudo-C syntax.\n      v1,v2,v3,v4,xbpf         Version av BPF ISA att använda.\n      hex,oct,dec              Talbas för omedelbara vid utskrift.\n"
+msgstr "      pseudoc                  Använd pseudo-C-syntax.\n      v1,v2,v3,v4,xbpf         BPF ISA-version att använda.\n      hex,oct,dec              Talbas för direktvärden vid utskrift.\n"
 
 #. from tp:opcodes-2.45.90
 msgid "unrecognized disassembler option: %s"
-msgstr "okänd avassemblerarflagga: %s"
+msgstr "okänd flagga för avassembleraren: %s"
 
 #. from tp:opcodes-2.45.90
 msgid "unknown BPF CPU version %u\n"
@@ -176348,11 +176348,11 @@ msgstr "operanden är utanför intervallet (%lu är inte mellan %lu och %lu)"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: cris_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: cris_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”"
+msgstr "internt fel: cris_cgen_rebuild_tables: motstridiga värden för insn-chunk-bitsize: ”%d” respektive ”%d”"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: cris_cgen_cpu_open: unsupported argument `%d'"
-msgstr "internt fel: cris_cgen_cpu_open: argument stöds inte ”%d”"
+msgstr "internt fel: cris_cgen_cpu_open: argumentet ”%d” stöds inte"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: cris_cgen_cpu_open: no endianness specified"
@@ -176360,7 +176360,7 @@ msgstr "internt fel: cris_cgen_cpu_open: ingen byteordning angiven"
 
 #. from tp:opcodes-2.45.90
 msgid "illegal id (%d)"
-msgstr "otillåtet id (%d)"
+msgstr "otillåtet ID (%d)"
 
 #. from tp:opcodes-2.45.90
 msgid "<unknown register %d>"
@@ -176372,11 +176372,11 @@ msgstr "Okänt fel %d\n"
 
 #. from tp:opcodes-2.45.90
 msgid "Address 0x%<PRIx64> is out of bounds.\n"
-msgstr "Adressen 0x%<PRIx64> ligger utanför tillåtna gränser.\n"
+msgstr "Adressen 0x%<PRIx64> ligger utanför gränserna.\n"
 
 #. from tp:opcodes-2.45.90
 msgid "assertion fail %s:%d"
-msgstr "försäkran misslyckades %s:%d"
+msgstr "kontrollsatsen misslyckades %s:%d"
 
 #. from tp:opcodes-2.45.90
 msgid "Please report this bug"
@@ -176384,15 +176384,15 @@ msgstr "Rapportera denna bugg"
 
 #. from tp:opcodes-2.45.90
 msgid "register unavailable for short instructions"
-msgstr "register otillgänglig för korta instruktioner"
+msgstr "registret är otillgängligt för korta instruktioner"
 
 #. from tp:opcodes-2.45.90
 msgid "register name used as immediate value"
-msgstr "registernamn använt som omedelbart värde"
+msgstr "registernamn används som direktvärde"
 
 #. from tp:opcodes-2.45.90
 msgid "register source in immediate move"
-msgstr "registerkälla i omedelbar förflyttning"
+msgstr "registerkälla i direktförflyttning"
 
 #. from tp:opcodes-2.45.90
 msgid "byte relocation unsupported"
@@ -176404,7 +176404,7 @@ msgstr "AVBROTT: okänd operand"
 
 #. from tp:opcodes-2.45.90
 msgid "Not a pc-relative address."
-msgstr "Inte en pc-relativ adress."
+msgstr "Inte en PC-relativ adress."
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: unrecognized field %d while parsing"
@@ -176412,7 +176412,7 @@ msgstr "internt fel: okänt fält %d vid tolkning"
 
 #. from tp:opcodes-2.45.90
 msgid "missing mnemonic in syntax string"
-msgstr "instruktion saknas i syntaxsträng"
+msgstr "mnemonik saknas i syntaxsträngen"
 
 #. from tp:opcodes-2.45.90
 msgid "unrecognized instruction"
@@ -176420,15 +176420,15 @@ msgstr "okänd instruktion"
 
 #. from tp:opcodes-2.45.90
 msgid "syntax error (expected char `%c', found `%c')"
-msgstr "syntaxfel (tecknet \"%c\" förväntades, hittade \"%c\")"
+msgstr "syntaxfel (förväntade tecknet ”%c”, hittade ”%c”)"
 
 #. from tp:opcodes-2.45.90
 msgid "syntax error (expected char `%c', found end of instruction)"
-msgstr "syntaxfel (tecknet \"%c\" förväntades, hittade slutet på instruktion)"
+msgstr "syntaxfel (förväntade tecknet ”%c”, hittade instruktionsslutet)"
 
 #. from tp:opcodes-2.45.90
 msgid "junk at end of line"
-msgstr "skräp vid slutet på raden"
+msgstr "skräp i slutet av raden"
 
 #. from tp:opcodes-2.45.90
 msgid "unrecognized form of instruction"
@@ -176436,19 +176436,19 @@ msgstr "okänd instruktionsform"
 
 #. from tp:opcodes-2.45.90
 msgid "bad instruction `%.50s...'"
-msgstr "felaktig instruktion \"%.50s...\""
+msgstr "felaktig instruktion ”%.50s...”"
 
 #. from tp:opcodes-2.45.90
 msgid "bad instruction `%.50s'"
-msgstr "felaktig instruktion \"%.50s\""
+msgstr "felaktig instruktion ”%.50s”"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: epiphany_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
-msgstr "internt fel: epiphany_cgen_rebuild_tables: insn-chunk-bitsize värden i konflikt: ”%d” vs. ”%d”"
+msgstr "internt fel: epiphany_cgen_rebuild_tables: motstridiga värden för insn-chunk-bitsize: ”%d” respektive ”%d”"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: epiphany_cgen_cpu_open: unsupported argument `%d'"
-msgstr "internt fel: epiphany_cgen_cpu_open: argument stöds inte ”%d”"
+msgstr "internt fel: epiphany_cgen_cpu_open: argumentet ”%d” stöds inte"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: epiphany_cgen_cpu_open: no endianness specified"
@@ -176464,11 +176464,11 @@ msgstr "operanden är utanför intervallet (%ld är inte mellan %ld och %lu)"
 
 #. from tp:opcodes-2.45.90
 msgid "operand out of range (0x%lx not between 0 and 0x%lx)"
-msgstr "operand utanför intervall (0x%lx inte mellan 0 och 0x%lx)"
+msgstr "operanden ligger utanför intervallet (0x%lx är inte mellan 0 och 0x%lx)"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: unrecognized field %d while building insn"
-msgstr "internt fel: okänt fält %d vid konstruktion av instruktion"
+msgstr "internt fel: okänt fält %d när instruktionen byggdes"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: unrecognized field %d while decoding insn"
@@ -176492,19 +176492,19 @@ msgstr "internt fel: okänt fält %d vid inställning av vma-operand"
 
 #. from tp:opcodes-2.45.90
 msgid "Register number is not valid"
-msgstr "Registernummer är inte giltigt"
+msgstr "Registernumret är inte giltigt"
 
 #. from tp:opcodes-2.45.90
 msgid "Register must be between r0 and r7"
-msgstr "Register måste vara mellan r0 och r7"
+msgstr "Registret måste ligga mellan r0 och r7"
 
 #. from tp:opcodes-2.45.90
 msgid "Register must be between r8 and r15"
-msgstr "Register måste vara mellan r8 och r15"
+msgstr "Registret måste ligga mellan r8 och r15"
 
 #. from tp:opcodes-2.45.90
 msgid "Register list is not valid"
-msgstr "Registerlista är inte giltig"
+msgstr "Registerlistan är inte giltig"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: fr30_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
@@ -176512,7 +176512,7 @@ msgstr "internt fel: fr30_cgen_rebuild_tables: insn-chunk-bitsize-värden i konf
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: fr30_cgen_cpu_open: unsupported argument `%d'"
-msgstr "internt fel: fr30_cgen_cpu_open: argument stöds inte ”%d”"
+msgstr "internt fel: fr30_cgen_cpu_open: argumentet ”%d” stöds inte"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: fr30_cgen_cpu_open: no endianness specified"
@@ -176520,11 +176520,11 @@ msgstr "internt fel: fr30_cgen_cpu_open: ingen byteordning angiven"
 
 #. from tp:opcodes-2.45.90
 msgid "Special purpose register number is out of range"
-msgstr "Nummer för register för specialanvändning är utanför interval"
+msgstr "Numret för specialregistret ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "Value of A operand must be 0 or 1"
-msgstr "Värde för A-operand måste vara 0 eller 1"
+msgstr "Värdet för A-operanden måste vara 0 eller 1"
 
 #. from tp:opcodes-2.45.90
 msgid "register number must be even"
@@ -176536,7 +176536,7 @@ msgstr "internt fel: frv_cgen_rebuild_tables: insn-chunk-bitsize-värden i konfl
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: frv_cgen_cpu_open: unsupported argument `%d'"
-msgstr "internt fel: frv_cgen_cpu_open: argument stöds inte ”%d”"
+msgstr "internt fel: frv_cgen_cpu_open: argumentet ”%d” stöds inte"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: frv_cgen_cpu_open: no endianness specified"
@@ -176568,7 +176568,7 @@ msgstr "<internt fel i avassembleraren>"
 
 #. from tp:opcodes-2.45.90
 msgid "\nThe following i386/x86-64 specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n"
-msgstr "\nFöljande i386/x86-64-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n"
+msgstr "\nFöljande i386/x86-64-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #. from tp:opcodes-2.45.90
 msgid "  x86-64      Disassemble in 64bit mode\n"
@@ -176592,31 +176592,31 @@ msgstr "  intel       Visa instruktion i Intel-syntax\n"
 
 #. from tp:opcodes-2.45.90
 msgid "  att-mnemonic  (AT&T syntax only)\n              Display instruction with AT&T mnemonic\n"
-msgstr "  att-mnemonic  (endast AT&T-syntax)\n              Visa instruktion med AT&T-mnemonic\n"
+msgstr "  att-mnemonic  (endast AT&T-syntax)\n              Visa instruktionen med AT&T-mnemonik\n"
 
 #. from tp:opcodes-2.45.90
 msgid "  intel-mnemonic  (AT&T syntax only)\n              Display instruction with Intel mnemonic\n"
-msgstr "  intel-mnemonic  (endast AT&T-syntax)\n              Visa instruktion med Intel-mnemonic\n"
+msgstr "  intel-mnemonic  (endast AT&T-syntax)\n              Visa instruktionen med Intel-mnemonik\n"
 
 #. from tp:opcodes-2.45.90
 msgid "  addr64      Assume 64bit address size\n"
-msgstr "  addr64      Antag 64-bitars adresstorlek\n"
+msgstr "  addr64      Anta en 64-bitarsadressstorlek\n"
 
 #. from tp:opcodes-2.45.90
 msgid "  addr32      Assume 32bit address size\n"
-msgstr "  addr32      Antag 32-bitars adresstorlek\n"
+msgstr "  addr32      Anta en 32-bitarsadressstorlek\n"
 
 #. from tp:opcodes-2.45.90
 msgid "  addr16      Assume 16bit address size\n"
-msgstr "  addr16      Antag 16-bitars adresstorlek\n"
+msgstr "  addr16      Anta en 16-bitarsadressstorlek\n"
 
 #. from tp:opcodes-2.45.90
 msgid "  data32      Assume 32bit data size\n"
-msgstr "  data32      Antag 32-bitars datastorlek\n"
+msgstr "  data32      Anta en 32-bitarsdatastorlek\n"
 
 #. from tp:opcodes-2.45.90
 msgid "  data16      Assume 16bit data size\n"
-msgstr "  data16      Antag 16-bitars datastorlek\n"
+msgstr "  data16      Anta en 16-bitarsdatastorlek\n"
 
 #. from tp:opcodes-2.45.90
 msgid "  suffix      Always display instruction suffix in AT&T syntax\n"
@@ -176636,19 +176636,19 @@ msgstr "64-bitars adress är inaktiverad"
 
 #. from tp:opcodes-2.45.90
 msgid "W keyword invalid in FR operand slot."
-msgstr "W-nyckelord ogiltigt i FR-operandlucka."
+msgstr "W-nyckelordet är ogiltigt i FR-operandplatsen."
 
 #. from tp:opcodes-2.45.90
 msgid "offset(IP) is not a valid form"
-msgstr "position(IP) är inte en giltig form"
+msgstr "förskjutning(IP) är inte en giltig form"
 
 #. from tp:opcodes-2.45.90
 msgid "(DP) offset out of range."
-msgstr "(DP) positionen är utanför intervallet."
+msgstr "förskjutningen (DP) ligger utanför intervallet."
 
 #. from tp:opcodes-2.45.90
 msgid "(SP) offset out of range."
-msgstr "(SP) positionen är utanför intervallet."
+msgstr "förskjutningen (SP) ligger utanför intervallet."
 
 #. from tp:opcodes-2.45.90
 msgid "illegal use of parentheses"
@@ -176656,27 +176656,27 @@ msgstr "otillåten användning av parenteser"
 
 #. from tp:opcodes-2.45.90
 msgid "operand out of range (not between 1 and 255)"
-msgstr "operanden utanför intervallet (inte mellan 1 och 255)"
+msgstr "operanden ligger utanför intervallet (inte mellan 1 och 255)"
 
 #. from tp:opcodes-2.45.90
 msgid "parse_addr16: invalid opindex."
-msgstr "parse_addr16: ogiltigt opindex."
+msgstr "parse_addr16: ogiltigt operandindex."
 
 #. from tp:opcodes-2.45.90
 msgid "Byte address required. - must be even."
-msgstr "Byteadress krävs - måste vara jämn."
+msgstr "En byteadress krävs och måste vara jämn."
 
 #. from tp:opcodes-2.45.90
 msgid "cgen_parse_address returned a symbol. Literal required."
-msgstr "cgen_parse_address returnerade en symbol. Litteral krävs."
+msgstr "cgen_parse_address returnerade en symbol. Ett literal krävs."
 
 #. from tp:opcodes-2.45.90
 msgid "percent-operator operand is not a symbol"
-msgstr "procent-operatoroperand är inte en symbol"
+msgstr "operanden för procentoperatorn är inte en symbol"
 
 #. from tp:opcodes-2.45.90
 msgid "Attempt to find bit index of 0"
-msgstr "Försök att hitta 0-bitindex"
+msgstr "Försök att hitta bitindex för 0"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: ip2k_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
@@ -176684,7 +176684,7 @@ msgstr "internt fel: ip2k_cgen_rebuild_tables: insn-chunk-bitsize-värden i konf
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: ip2k_cgen_cpu_open: unsupported argument `%d'"
-msgstr "internt fel: ip2k_cgen_cpu_open: argument stöds inte ”%d”"
+msgstr "internt fel: ip2k_cgen_cpu_open: argumentet ”%d” stöds inte"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: ip2k_cgen_cpu_open: no endianness specified"
@@ -176692,15 +176692,15 @@ msgstr "internt fel: ip2k_cgen_cpu_open: ingen byteordning angiven"
 
 #. from tp:opcodes-2.45.90
 msgid "immediate value cannot be register"
-msgstr "omedelbart värde kan inte vara register"
+msgstr "direktvärdet kan inte vara ett register"
 
 #. from tp:opcodes-2.45.90
 msgid "immediate value out of range"
-msgstr "omedelbart värde är utanför intervallet"
+msgstr "direktvärdet ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "21-bit offset out of range"
-msgstr "21-bitars position utanför intervallet"
+msgstr "21-bitarsförskjutningen ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: iq2000_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
@@ -176708,7 +176708,7 @@ msgstr "internt fel: iq2000_cgen_rebuild_tables: insn-chunk-bitsize-värden i ko
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: iq2000_cgen_cpu_open: unsupported argument `%d'"
-msgstr "internt fel: iq2000_cgen_cpu_open: argument stöds inte ”%d”"
+msgstr "internt fel: iq2000_cgen_cpu_open: argumentet ”%d” stöds inte"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: iq2000_cgen_cpu_open: no endianness specified"
@@ -176716,35 +176716,35 @@ msgstr "internt fel: iq2000_cgen_cpu_open: ingen byteordning angiven"
 
 #. from tp:opcodes-2.45.90
 msgid "\nThe following KVX specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n"
-msgstr "\nFöljande KVX-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n"
+msgstr "\nFöljande KVX-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #. from tp:opcodes-2.45.90
 msgid "\n  pretty               Print 32-bit words in natural order corresponding to re-ordered instruction.\n"
-msgstr "\n  pretty               Skriv 32-bitars ord i naturlig ordning motsvarande omorganiserad instruktion.\n"
+msgstr "\n  pretty               Skriv 32-bitarsord i naturlig ordning enligt den omordnade instruktionen.\n"
 
 #. from tp:opcodes-2.45.90
 msgid "\n  compact-assembly     Do not emit a new line between bundles of instructions.\n"
-msgstr "\n  compact-assembly     Mata inte ut en nyrad mellan instruktionsbuntar.\n"
+msgstr "\n  compact-assembly     Skriv inte ut en ny rad mellan instruktionsbuntar.\n"
 
 #. from tp:opcodes-2.45.90
 msgid "\n  no-compact-assembly  Emit a new line between bundles of instructions.\n"
-msgstr "\n  no-compact-assembly  Mata ut en nyrad mellan instruktionsbuntar.\n"
+msgstr "\n  no-compact-assembly  Skriv ut en ny rad mellan instruktionsbuntar.\n"
 
 #. from tp:opcodes-2.45.90
 msgid "expecting gp relative address: gp(symbol)"
-msgstr "förväntade gp-relativ adress: gp(symbol)"
+msgstr "förväntade en GP-relativ adress: gp(symbol)"
 
 #. from tp:opcodes-2.45.90
 msgid "expecting got relative address: got(symbol)"
-msgstr "förväntade got-relativ adress: got(symbol)"
+msgstr "förväntade en GOT-relativ adress: got(symbol)"
 
 #. from tp:opcodes-2.45.90
 msgid "expecting got relative address: gotoffhi16(symbol)"
-msgstr "förväntade got-relativ adress: gotoffhi16(symbol)"
+msgstr "förväntade en GOT-relativ adress: gotoffhi16(symbol)"
 
 #. from tp:opcodes-2.45.90
 msgid "expecting got relative address: gotofflo16(symbol)"
-msgstr "förväntade got-relativ adress: gotofflo16(symbol)"
+msgstr "förväntade en GOT-relativ adress: gotofflo16(symbol)"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: lm32_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
@@ -176752,7 +176752,7 @@ msgstr "internt fel: lm32_cgen_rebuild_tables: insn-chunk-bitsize-värden i konf
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: lm32_cgen_cpu_open: unsupported argument `%d'"
-msgstr "internt fel: lm32_cgen_cpu_open: argument stöds inte ”%d”"
+msgstr "internt fel: lm32_cgen_cpu_open: argumentet ”%d” stöds inte"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: lm32_cgen_cpu_open: no endianness specified"
@@ -176760,15 +176760,15 @@ msgstr "internt fel: lm32_cgen_cpu_open: ingen byteordning angiven"
 
 #. from tp:opcodes-2.45.90
 msgid "\nThe following LoongArch disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n"
-msgstr "\nFöljande LoongArch-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n"
+msgstr "\nFöljande LoongArch-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #. from tp:opcodes-2.45.90
 msgid "\n    no-aliases    Use canonical instruction forms.\n"
-msgstr "\n    no-aliases    Använd kanoniska instruktionsformer.\n\n"
+msgstr "\n    no-aliases    Använd kanoniska instruktionsformer.\n"
 
 #. from tp:opcodes-2.45.90
 msgid "\n    numeric       Print numeric register names, rather than ABI names.\n"
-msgstr "\n    numeric       Skriv ut numeriska registernamn, snarare än ABI-namn.\n\n"
+msgstr "\n    numeric       Skriv ut numeriska registernamn i stället för ABI-namn.\n"
 
 #. from tp:opcodes-2.45.90
 msgid "unknown	0x%04lx"
@@ -176780,7 +176780,7 @@ msgstr "okänd	0x%02lx"
 
 #. from tp:opcodes-2.45.90
 msgid "imm:6 immediate is out of range"
-msgstr "imm:6 omedelbar är utanför intervall"
+msgstr "direktvärdet imm:6 ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "%dsp8() takes a symbolic address, not a number"
@@ -176788,15 +176788,15 @@ msgstr "%dsp8() tar en symbolisk adress, inte ett tal"
 
 #. from tp:opcodes-2.45.90
 msgid "dsp:8 immediate is out of range"
-msgstr "dsp:8 omedelbar är utanför intervall"
+msgstr "direktvärdet dsp:8 ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "Immediate is out of range -8 to 7"
-msgstr "Omedelbar är utanför intervall -8 till 7"
+msgstr "direktvärdet ligger utanför intervallet -8 till 7"
 
 #. from tp:opcodes-2.45.90
 msgid "Immediate is out of range -7 to 8"
-msgstr "Omedelbar är utanför intervall -7 till 8"
+msgstr "direktvärdet ligger utanför intervallet -7 till 8"
 
 #. from tp:opcodes-2.45.90
 msgid "%dsp16() takes a symbolic address, not a number"
@@ -176804,43 +176804,43 @@ msgstr "%dsp16() tar en symbolisk adress, inte ett tal"
 
 #. from tp:opcodes-2.45.90
 msgid "dsp:16 immediate is out of range"
-msgstr "dsp:16 omedelbar är utanför intervall"
+msgstr "direktvärdet dsp:16 ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "dsp:20 immediate is out of range"
-msgstr "dsp:20 omedelbar är utanför intervall"
+msgstr "direktvärdet dsp:20 ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "dsp:24 immediate is out of range"
-msgstr "dsp:24 omedelbar är utanför intervall"
+msgstr "direktvärdet dsp:24 ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "immediate is out of range 1-2"
-msgstr "omedelbar är utanför intervall 1-2"
+msgstr "direktvärdet ligger utanför intervallet 1-2"
 
 #. from tp:opcodes-2.45.90
 msgid "immediate is out of range 1-8"
-msgstr "omedelbar är utanför intervall 1-8"
+msgstr "direktvärdet ligger utanför intervallet 1-8"
 
 #. from tp:opcodes-2.45.90
 msgid "immediate is out of range 0-7"
-msgstr "omedelbar är utanför intervall 0-7"
+msgstr "direktvärdet ligger utanför intervallet 0-7"
 
 #. from tp:opcodes-2.45.90
 msgid "immediate is out of range 2-9"
-msgstr "omedelbar är utanför intervall 2-9"
+msgstr "direktvärdet ligger utanför intervallet 2-9"
 
 #. from tp:opcodes-2.45.90
 msgid "Bit number for indexing general register is out of range 0-15"
-msgstr "Bitnummer för indexering av generella register är utanför intervall 0-15"
+msgstr "Bitnumret för indexering av allmänna register ligger utanför intervallet 0-15"
 
 #. from tp:opcodes-2.45.90
 msgid "bit,base is out of range"
-msgstr "bit, bas är utanför intervall"
+msgstr "bit,bas ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "bit,base out of range for symbol"
-msgstr "bit,bas utanför intervall för symbol"
+msgstr "bit,bas ligger utanför intervallet för symbolen"
 
 #. from tp:opcodes-2.45.90
 msgid "not a valid r0l/r0h pair"
@@ -176856,7 +176856,7 @@ msgstr "internt fel: m32c_cgen_rebuild_tables: insn-chunk-bitsize-värden i konf
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: m32c_cgen_cpu_open: unsupported argument `%d'"
-msgstr "internt fel: m32c_cgen_cpu_open: argument stöds inte ”%d”"
+msgstr "internt fel: m32c_cgen_cpu_open: argumentet ”%d” stöds inte"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: m32c_cgen_cpu_open: no endianness specified"
@@ -176868,7 +176868,7 @@ msgstr "internt fel: m32r_cgen_rebuild_tables: insn-chunk-bitsize-värden i konf
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: m32r_cgen_cpu_open: unsupported argument `%d'"
-msgstr "internt fel: m32r_cgen_cpu_open: argument stöds inte ”%d”"
+msgstr "internt fel: m32r_cgen_cpu_open: argumentet ”%d” stöds inte"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: m32r_cgen_cpu_open: no endianness specified"
@@ -176892,27 +176892,27 @@ msgstr "Endast $sp eller $15 tillåtet för denna instruktion"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid %function() here"
-msgstr "ogiltig %funktion() här"
+msgstr "ogiltig %function() här"
 
 #. from tp:opcodes-2.45.90
 msgid "Immediate is out of range -32768 to 32767"
-msgstr "Omedelbar är utanför intervall -32768 till 32767"
+msgstr "direktvärdet ligger utanför intervallet -32768 till 32767"
 
 #. from tp:opcodes-2.45.90
 msgid "Immediate is out of range 0 to 65535"
-msgstr "Omedelbar är utanför intervall 0 till 65535"
+msgstr "direktvärdet ligger utanför intervallet 0 till 65535"
 
 #. from tp:opcodes-2.45.90
 msgid "Immediate is out of range -512 to 511"
-msgstr "Omedelbar är utanför intervall -512 till 511"
+msgstr "direktvärdet ligger utanför intervallet -512 till 511"
 
 #. from tp:opcodes-2.45.90
 msgid "Immediate is out of range -128 to 127"
-msgstr "Omedelbar är utanför intervall -128 till 127"
+msgstr "direktvärdet ligger utanför intervallet -128 till 127"
 
 #. from tp:opcodes-2.45.90
 msgid "Value is not aligned enough"
-msgstr "Värde är inte justerat nog"
+msgstr "Värdet är inte tillräckligt justerat"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: mep_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
@@ -176920,7 +176920,7 @@ msgstr "internt fel: mep_cgen_rebuild_tables: insn-chunk-bitsize-värden i konfl
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: mep_cgen_cpu_open: unsupported argument `%d'"
-msgstr "internt fel: mep_cgen_cpu_open: argument stöds inte ”%d”"
+msgstr "internt fel: mep_cgen_cpu_open: argumentet ”%d” stöds inte"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: mep_cgen_cpu_open: no endianness specified"
@@ -176928,11 +176928,11 @@ msgstr "internt fel: mep_cgen_cpu_open: ingen byteordning angiven"
 
 #. from tp:opcodes-2.45.90
 msgid "illegal MEP INDEX setting '%x' in ELF header e_flags field"
-msgstr "otillåten MEP INDEX-inställning '%x' i ELF-huvudfält e_flags"
+msgstr "otillåten MEP INDEX-inställning ”%x” i fältet e_flags i ELF-huvudet"
 
 #. from tp:opcodes-2.45.90
 msgid "# internal error, undefined operand in `%s %s'"
-msgstr "# internt fel, okänd operand i ”%s %s”"
+msgstr "# internt fel, odefinierad operand i ”%s %s”"
 
 #. from tp:opcodes-2.45.90
 msgid "Use canonical instruction forms.\n"
@@ -176948,23 +176948,23 @@ msgstr "Känn igen ASE-virtualiseringsinstruktioner.\n"
 
 #. from tp:opcodes-2.45.90
 msgid "Recognize the eXtended Physical Address (XPA) ASE\n                  instructions.\n"
-msgstr "Känn igen utökade fysiskadress- (XPA) ASE-\n                  instruktioner.\n"
+msgstr "Känn igen instruktioner för ASE med eXtended Physical Address (XPA).\n"
 
 #. from tp:opcodes-2.45.90
 msgid "Recognize the Global INValidate (GINV) ASE instructions.\n"
-msgstr "Känn igen globala invaliderings- (GINV) ASE-instruktioner.\n"
+msgstr "Känn igen instruktioner för ASE med Global INValidate (GINV).\n"
 
 #. from tp:opcodes-2.45.90
 msgid "Recognize the Loongson MultiMedia extensions Instructions (MMI) ASE instructions.\n"
-msgstr "Känn igen Loongson MultiMedia extensions Instructions (MMI) ASE-instruktioner\n"
+msgstr "Känn igen instruktioner för Loongson MultiMedia extensions Instructions (MMI) ASE.\n"
 
 #. from tp:opcodes-2.45.90
 msgid "Recognize the Loongson Content Address Memory (CAM)  instructions.\n"
-msgstr "Känn igen Loongson Content Address Memory (CAM)-instruktioner.\n"
+msgstr "Känn igen Loongson Content Address Memory-instruktioner (CAM).\n"
 
 #. from tp:opcodes-2.45.90
 msgid "Recognize the Loongson EXTensions (EXT)  instructions.\n"
-msgstr "Känn igen Loongson EXTensions (EXT)-instruktioner.\n"
+msgstr "Känn igen Loongson EXTensions-instruktioner (EXT).\n"
 
 #. from tp:opcodes-2.45.90
 msgid "Recognize the Loongson EXTensions R2 (EXT2)  instructions.\n"
@@ -176980,7 +176980,7 @@ msgstr "Skriv ut FPR-namn enligt angivet ABI.\n                  Standard: numer
 
 #. from tp:opcodes-2.45.90
 msgid "Print CP0 register names according to specified architecture.\n                  Default: based on binary being disassembled.\n"
-msgstr "Skriv ut CP0-registernamn enligt angiven arkitektur.\n                  Standard: baserat på den binärfil som disassembleras.\n"
+msgstr "Skriv ut CP0-registernamn enligt angiven arkitektur.\n                  Standard: baserat på den binärfil som avassembleras.\n"
 
 #. from tp:opcodes-2.45.90
 msgid "Print HWR names according to specified architecture.\n                  Default: based on binary being disassembled.\n"
@@ -176992,11 +176992,11 @@ msgstr "Skriv ut GPR- och FPR-namn enligt det angivna ABI:t.\n"
 
 #. from tp:opcodes-2.45.90
 msgid "Print CP0 register and HWR names according to specified\n                  architecture."
-msgstr "Skriv ut CP0-register med HWR-namn enligt angiven\n                  arkitektur."
+msgstr "Skriv ut CP0-register- och HWR-namn enligt angiven\n                  arkitektur."
 
 #. from tp:opcodes-2.45.90
 msgid "\nThe following MIPS specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n\n"
-msgstr "\nFöljande MIPS-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n\n"
+msgstr "\nFöljande MIPS-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n\n"
 
 #. from tp:opcodes-2.45.90
 msgid "bad case %d (%s) in %s:%d"
@@ -177016,15 +177016,15 @@ msgstr "*okänd operandtyp: %d*"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: immediate() called with invalid byte count %d"
-msgstr "internt fel: immediate() anropad med ogiltigt byteantal %d"
+msgstr "internt fel: immediate() anropades med ogiltigt byteantal %d"
 
 #. from tp:opcodes-2.45.90
 msgid "Warning: disassembly unreliable - not enough bytes available"
-msgstr "Varning: avassemblering otillförlitlig - inte tillräckligt med byte tillgängliga"
+msgstr "Varning: avassembleringen är otillförlitlig – inte tillräckligt många byte är tillgängliga"
 
 #. from tp:opcodes-2.45.90
 msgid "Error: read from memory failed"
-msgstr "Fel: läsning från minne misslyckades"
+msgstr "Fel: läsning från minnet misslyckades"
 
 #. from tp:opcodes-2.45.90
 msgid "Warning: illegal as emulation instr"
@@ -177040,23 +177040,23 @@ msgstr "Varning: okänt CALLA-adresseringsläge"
 
 #. from tp:opcodes-2.45.90
 msgid "Warning: reserved use of A/L and B/W bits detected"
-msgstr "Varning: okänd användning av A/L- och B/W-bitar detekterad"
+msgstr "Varning: reserverad användning av A/L- och B/W-bitar upptäcktes"
 
 #. from tp:opcodes-2.45.90
 msgid "Operand out of range. Must be between -32768 and 32767."
-msgstr "Operand utanför intervall. Måste vara mellan -32768 och 32767."
+msgstr "Operanden ligger utanför intervallet. Den måste vara mellan -32768 och 32767."
 
 #. from tp:opcodes-2.45.90
 msgid "Biiiig Trouble in parse_imm16!"
-msgstr "Stoooort Problem i parse_imm16!"
+msgstr "Stora problem i parse_imm16!"
 
 #. from tp:opcodes-2.45.90
 msgid "The percent-operator's operand is not a symbol"
-msgstr "Procent-operatorns operand är inte symbol"
+msgstr "Procentoperatorns operand är inte en symbol"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid operand.  type may have values 0,1,2 only."
-msgstr "ogiltig operand.  typ får endast ha värdena 0, 1, 2."
+msgstr "ogiltig operand. Typen får endast ha värdena 0, 1 eller 2."
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: mt_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
@@ -177064,7 +177064,7 @@ msgstr "internt fel: mt_cgen_rebuild_tables: insn-chunk-bitsize-värden i konfli
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: mt_cgen_cpu_open: unsupported argument `%d'"
-msgstr "internt fel: mt_cgen_cpu_open: argument stöds inte ”%d”"
+msgstr "internt fel: mt_cgen_cpu_open: argumentet ”%d” stöds inte"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: mt_cgen_cpu_open: no endianness specified"
@@ -177084,11 +177084,11 @@ msgstr "internt fel: okänd hårdvaruresurs"
 
 #. from tp:opcodes-2.45.90
 msgid "insufficient data to decode instruction"
-msgstr "otillräcklig data för att avkoda instruktion"
+msgstr "otillräckliga data för att avkoda instruktionen"
 
 #. from tp:opcodes-2.45.90
 msgid "<invalid_instruction>:"
-msgstr "<otillåten instruktion>:"
+msgstr "<invalid_instruction>:"
 
 #. from tp:opcodes-2.45.90
 msgid ", <invalid CRC operator>, "
@@ -177100,7 +177100,7 @@ msgstr "<ogiltig gren>["
 
 #. from tp:opcodes-2.45.90
 msgid "<invalid cmd target %d:%d:%d>[]"
-msgstr "<ogiltigt kommandomål %d:%d%d>[]"
+msgstr "<ogiltigt kommandomål %d:%d:%d>[]"
 
 #. from tp:opcodes-2.45.90
 msgid "<invalid cmd action %d:%d:%d>[]"
@@ -177108,7 +177108,7 @@ msgstr "<ogiltig kommandoåtgärd %d:%d:%d>[]"
 
 #. from tp:opcodes-2.45.90
 msgid "File has no ME-Config section."
-msgstr "Fil har inget ME-Config-avsnitt."
+msgstr "Filen saknar ett ME-Config-avsnitt."
 
 #. from tp:opcodes-2.45.90
 msgid "The ME-Config section is corrupt."
@@ -177116,11 +177116,11 @@ msgstr "ME-Config-avsnittet är skadat."
 
 #. from tp:opcodes-2.45.90
 msgid "File has invalid ME-Config section."
-msgstr "Fil har ogiltigt ME-Config-avsnitt."
+msgstr "Filen har ett ogiltigt ME-Config-avsnitt."
 
 #. from tp:opcodes-2.45.90
 msgid "Error processing section %u "
-msgstr "Fel vid behandling av avsnitt %u "
+msgstr "Fel vid behandling av avsnittet %u "
 
 #. from tp:opcodes-2.45.90
 msgid "invalid NFP option: %s"
@@ -177128,11 +177128,11 @@ msgstr "ogiltig NFP-flagga: %s"
 
 #. from tp:opcodes-2.45.90
 msgid "\nThe following NFP specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n"
-msgstr "\nFöljande NFP-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n"
+msgstr "\nFöljande NFP-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #. from tp:opcodes-2.45.90
 msgid "\n  no-pc		    Don't print program counter prefix.\n  ctx4		    Force disassembly using 4-context mode.\n  ctx8		    Force 8-context mode, takes precedence."
-msgstr "\n  no-pc		    Skriv inte ut programräknarprefix.\n  ctx4		    Tvinga avassemblering via 4-kontextläge.\n  ctx8		    Tvinga 8-kontextläge, tar företräde."
+msgstr "\n  no-pc\t\t    Skriv inte ut programräknarprefixet.\n  ctx4\t\t    Tvinga avassemblering i 4-kontextläge.\n  ctx8\t\t    Tvinga 8-kontextläge; det har företräde."
 
 #. from tp:opcodes-2.45.90
 msgid "$<undefined>"
@@ -177140,11 +177140,11 @@ msgstr "$<odefinierad>"
 
 #. from tp:opcodes-2.45.90
 msgid "relocation invalid for store"
-msgstr "omlokalisering ogiltig för lagring"
+msgstr "omlokaliseringen är ogiltig för lagring"
 
 #. from tp:opcodes-2.45.90
 msgid "internal relocation type invalid"
-msgstr "intern omlokaliseringstyp ogiltig"
+msgstr "den interna omlokaliseringstypen är ogiltig"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: or1k_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
@@ -177152,7 +177152,7 @@ msgstr "internt fel: or1k_cgen_rebuild_tables: insn-chunk-bitsize-värden i konf
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: or1k_cgen_cpu_open: unsupported argument `%d'"
-msgstr "internt fel: or1k_cgen_cpu_open: argument stöds inte ”%d”"
+msgstr "internt fel: or1k_cgen_cpu_open: argumentet ”%d” stöds inte"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: or1k_cgen_cpu_open: no endianness specified"
@@ -177160,11 +177160,11 @@ msgstr "internt fel: or1k_cgen_cpu_open: ingen byteordning angiven"
 
 #. from tp:opcodes-2.45.90
 msgid "warning: ignoring unknown -M%s option"
-msgstr "varning: hoppar över okänd -M%s-flagga"
+msgstr "varning: hoppar över den okända flaggan -M%s"
 
 #. from tp:opcodes-2.45.90
 msgid "\nThe following PPC specific disassembler options are supported for use with\nthe -M switch:\n"
-msgstr "\nFöljande PPC-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M:\n"
+msgstr "\nFöljande PPC-specifika flaggor för avassembleraren stöds med\nflaggan -M:\n"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid register"
@@ -177172,7 +177172,7 @@ msgstr "ogiltigt register"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid conditional option"
-msgstr "ogiltig villkorlig flagga"
+msgstr "ogiltig villkorsflagga"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid counter access"
@@ -177180,19 +177180,19 @@ msgstr "ogiltig räknaråtkomst"
 
 #. from tp:opcodes-2.45.90
 msgid "BO value implies no branch hint, when using + or - modifier"
-msgstr "BO-värde implicerar inget grentips, när modifierarna + eller - används"
+msgstr "BO-värdet medger ingen grenantydan när modifieraren + eller - används"
 
 #. from tp:opcodes-2.45.90
 msgid "attempt to set y bit when using + or - modifier"
-msgstr "försök att ställa in y-biten då modifieraren + eller - användes"
+msgstr "försök att ange y-biten när modifieraren + eller - används"
 
 #. from tp:opcodes-2.45.90
 msgid "attempt to set 'at' bits when using + or - modifier"
-msgstr "försök att ställa in ”at”-bitar när + eller - modifierare används"
+msgstr "försök att ange ”at”-bitarna när modifieraren + eller - används"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid offset: must be in the range [-512, -8] and be a multiple of 8"
-msgstr "ogiltig position: måste vara i intervallet [-512, -8] och vara en multipel av 8"
+msgstr "ogiltig förskjutning: måste ligga i intervallet [-512, -8] och vara en multipel av 8"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid R operand"
@@ -177224,7 +177224,7 @@ msgstr "otillåten bitmask"
 
 #. from tp:opcodes-2.45.90
 msgid "address register in load range"
-msgstr "adressregister i inläsningsintervall"
+msgstr "adressregistret ligger i inläsningsintervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "illegal PL operand value"
@@ -177232,7 +177232,7 @@ msgstr "felaktigt PL-operandsvärde"
 
 #. from tp:opcodes-2.45.90
 msgid "index register in load range"
-msgstr "indexregistret är i inläsningsintervallet"
+msgstr "indexregistret ligger i inläsningsintervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "source and target register operands must be different"
@@ -177240,27 +177240,27 @@ msgstr "käll- och målregisteroperander måste vara olika"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid base address register operand"
-msgstr "ogiltigt basadressregister för operand"
+msgstr "ogiltig basadressregisteroperand"
 
 #. from tp:opcodes-2.45.90
 msgid "illegal immediate value"
-msgstr "felaktigt omedelbart värde"
+msgstr "ogiltigt direktvärde"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid bat number"
-msgstr "ogiltigt bat-nummer"
+msgstr "ogiltigt BAT-nummer"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid sprg number"
-msgstr "ogiltigt sprg-nummer"
+msgstr "ogiltigt SPRG-nummer"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid tbr number"
-msgstr "ogiltigt tbr-nummer"
+msgstr "ogiltigt TBR-nummer"
 
 #. from tp:opcodes-2.45.90
 msgid "VSR overlaps ACC operand"
-msgstr "VSR överlappar med ACC-operand"
+msgstr "VSR överlappar ACC-operanden"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid constant"
@@ -177284,11 +177284,11 @@ msgstr "UIMM-värden >15 är otillåtna"
 
 #. from tp:opcodes-2.45.90
 msgid "GPR odd is illegal"
-msgstr "Udda GPR är otillåtet"
+msgstr "ett udda GPR-register är otillåtet"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid offset"
-msgstr "ogiltig position"
+msgstr "ogiltig förskjutning"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid Ddd value"
@@ -177300,39 +177300,39 @@ msgstr "ogiltigt TH-värde"
 
 #. from tp:opcodes-2.45.90
 msgid "unrecognized disassembler option with '=': %s"
-msgstr "okänd avassemblerarflagga med ”=”: %s"
+msgstr "okänd flagga för avassembleraren med ”=”: %s"
 
 #. from tp:opcodes-2.45.90
 msgid "unknown privileged spec set by %s=%s"
-msgstr "okänd privilegierad spec satt av %s=%s"
+msgstr "okänd privilegierad specifikation angiven av %s=%s"
 
 #. from tp:opcodes-2.45.90
 msgid "mis-matched privilege spec set by %s=%s, the elf privilege attribute is %s"
-msgstr "felaktig privilegie-spec satt av %s=%s, elf-privilegieattributet är %s"
+msgstr "privilegiespecifikationen från %s=%s stämmer inte; ELF-privilegieattributet är %s"
 
 #. from tp:opcodes-2.45.90
 msgid "# internal error, undefined modifier (%c)"
-msgstr "# internt fel, okänd modifierare (%c)"
+msgstr "# internt fel, odefinierad modifierare (%c)"
 
 #. from tp:opcodes-2.45.90
 msgid "Disassemble without checking architecture string."
-msgstr "Avassemblera utan att kontrollera arkitektursträng."
+msgstr "Avassemblera utan att kontrollera arkitektursträngen."
 
 #. from tp:opcodes-2.45.90
 msgid "Print numeric register names, rather than ABI names."
-msgstr "Skriv ut numeriska registernamn, snarare än ABI-namn."
+msgstr "Skriv ut numeriska registernamn i stället för ABI-namn."
 
 #. from tp:opcodes-2.45.90
 msgid "Disassemble only into canonical instructions."
-msgstr "Avassemblera endas till kanoniska instruktionsformer."
+msgstr "Avassemblera endast till kanoniska instruktionsformer."
 
 #. from tp:opcodes-2.45.90
 msgid "Print the CSR according to the chosen privilege spec."
-msgstr "Skriv ut CSR enligt till den angivna privilegiespecen."
+msgstr "Skriv ut CSR enligt den valda privilegiespecifikationen."
 
 #. from tp:opcodes-2.45.90
 msgid "\nThe following RISC-V specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n"
-msgstr "\nFöljande RISC-V-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n"
+msgstr "\nFöljande RISC-V-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #. from tp:opcodes-2.45.90
 msgid "<invalid register number>"
@@ -177340,7 +177340,7 @@ msgstr "<ogiltigt registernummer>"
 
 #. from tp:opcodes-2.45.90
 msgid "<invalid condition code>"
-msgstr "<ogiltig villkorsflagga>"
+msgstr "<ogiltig villkorskod>"
 
 #. from tp:opcodes-2.45.90
 msgid "<invalid flag>"
@@ -177368,27 +177368,27 @@ msgstr ".<felaktig>"
 
 #. from tp:opcodes-2.45.90
 msgid "Disassemble in ESA architecture mode"
-msgstr "Avassemblera i ESA-arkitektursläge"
+msgstr "Avassemblera i ESA-arkitekturläge"
 
 #. from tp:opcodes-2.45.90
 msgid "Disassemble in z/Architecture mode"
-msgstr "Avassemblera i z/Arkitektursläge"
+msgstr "Avassemblera i z/Architecture-läge"
 
 #. from tp:opcodes-2.45.90
 msgid "Print unknown instructions according to length from first two bits"
-msgstr "Skriv ut okända instruktioner enligt längd från de första två bitarna"
+msgstr "Skriv ut okända instruktioner enligt längden på de två första bitarna"
 
 #. from tp:opcodes-2.45.90
 msgid "Print instruction description as comment"
-msgstr "Skriv ut instruktionsbeskrivning som kommentar"
+msgstr "Skriv ut instruktionsbeskrivningen som kommentar"
 
 #. from tp:opcodes-2.45.90
 msgid "unknown S/390 disassembler option: %s"
-msgstr "okänd S/390-avassemblerarflagga: %s"
+msgstr "okänd S/390-flagga för avassembleraren: %s"
 
 #. from tp:opcodes-2.45.90
 msgid "\nThe following S/390 specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n"
-msgstr "\nFöljande S/390-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n"
+msgstr "\nFöljande S/390-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n"
 
 #. from tp:opcodes-2.45.90
 msgid "<illegal instruction>"
@@ -177440,7 +177440,7 @@ msgstr "okänt register: %d"
 
 #. from tp:opcodes-2.45.90
 msgid "displacement value is not in range and is not aligned"
-msgstr "förskjutningsvärdet är inte inom intervallet och ligger inte på jämn gräns"
+msgstr "förskjutningsvärdet ligger utanför intervallet och är inte justerat"
 
 #. from tp:opcodes-2.45.90
 msgid "displacement value is out of range"
@@ -177448,11 +177448,11 @@ msgstr "förskjutningsvärdet är utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "displacement value is not aligned"
-msgstr "förskjutningsvärdet ligger inte på jämn gräns"
+msgstr "förskjutningsvärdet är inte justerat"
 
 #. from tp:opcodes-2.45.90
 msgid "immediate value is out of range"
-msgstr "omedelbara värdet är utanför intervallet"
+msgstr "direktvärdet ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "branch value out of range"
@@ -177460,39 +177460,39 @@ msgstr "grenvärdet är utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "branch value not in range and to odd offset"
-msgstr "grenvärdet är inte inom intervallet och till ett udda position"
+msgstr "grenvärdet ligger utanför intervallet och har en udda förskjutning"
 
 #. from tp:opcodes-2.45.90
 msgid "branch to odd offset"
-msgstr "grening till udda position"
+msgstr "gren till en udda förskjutning"
 
 #. from tp:opcodes-2.45.90
 msgid "position value is out of range"
-msgstr "positionsvärde är utanför intervall"
+msgstr "positionsvärdet ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "width value is out of range"
-msgstr "breddvärde är utanför intervall"
+msgstr "breddvärdet ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "SelID is out of range"
-msgstr "SelID är utanför intervall"
+msgstr "SelID ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "vector8 is out of range"
-msgstr "vector8 är utanför intervall"
+msgstr "vector8 ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "vector5 is out of range"
-msgstr "vector5 är utanför intervall"
+msgstr "vector5 ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "imm10 is out of range"
-msgstr "imm10 är utanför intervall"
+msgstr "imm10 ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "SR/SelID is out of range"
-msgstr "SR/SellD är utanför intervall"
+msgstr "SR/SelID ligger utanför intervallet"
 
 #. from tp:opcodes-2.45.90
 msgid "invalid register for stack adjustment"
@@ -177508,19 +177508,19 @@ msgstr "Avassemblera ”register”-namn"
 
 #. from tp:opcodes-2.45.90
 msgid "Name well-known globals"
-msgstr "Namnge välkända globaler"
+msgstr "Namnge välkända globala symboler"
 
 #. from tp:opcodes-2.45.90
 msgid "The following WebAssembly-specific disassembler options are supported for use\nwith the -M switch:\n"
-msgstr "Följande WebAssembly-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M:\n"
+msgstr "Följande WebAssembly-specifika flaggor för avassembleraren stöds med\nflaggan -M:\n"
 
 #. from tp:opcodes-2.45.90
 msgid "Bad register in preincrement"
-msgstr "Felaktigt register i förhandsökning"
+msgstr "Felaktigt register vid förhandsökning"
 
 #. from tp:opcodes-2.45.90
 msgid "Bad register in postincrement"
-msgstr "Felaktigt register i efterhandsökning"
+msgstr "Felaktigt register vid efterhandsökning"
 
 #. from tp:opcodes-2.45.90
 msgid "Bad register name"
@@ -177528,7 +177528,7 @@ msgstr "Felaktigt registernamn"
 
 #. from tp:opcodes-2.45.90
 msgid "Label conflicts with register name"
-msgstr "Etiketten står i konflikt med registernamn"
+msgstr "Etiketten står i konflikt med ett registernamn"
 
 #. from tp:opcodes-2.45.90
 msgid "Label conflicts with `Rx'"
@@ -177536,15 +177536,15 @@ msgstr "Etiketten står i konflikt med \"Rx\""
 
 #. from tp:opcodes-2.45.90
 msgid "Bad immediate expression"
-msgstr "Felaktigt omedelbart uttryck"
+msgstr "Felaktigt direktvärdesuttryck"
 
 #. from tp:opcodes-2.45.90
 msgid "No relocation for small immediate"
-msgstr "Ingen omlokalisering för litet omedelbart tal"
+msgstr "Ingen omlokalisering för ett litet direktvärde"
 
 #. from tp:opcodes-2.45.90
 msgid "Small operand was not an immediate number"
-msgstr "Liten operand var inte ett omedelbart tal"
+msgstr "Den lilla operanden var inte ett direktvärde"
 
 #. from tp:opcodes-2.45.90
 msgid "Operand is not a symbol"
@@ -177552,7 +177552,7 @@ msgstr "Operanden är inte en symbol"
 
 #. from tp:opcodes-2.45.90
 msgid "Syntax error: No trailing ')'"
-msgstr "Syntaxfel: Inget eftersläpande \")\""
+msgstr "Syntaxfel: ingen avslutande ”)”"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: xstormy16_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'"
@@ -177560,7 +177560,7 @@ msgstr "internt fel: xstormy16_cgen_rebuild_tables: insn-chunk-bitsize-värden i
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: xstormy16_cgen_cpu_open: unsupported argument `%d'"
-msgstr "internt fel: xstormy16_cgen_cpu_open: argument stöds inte ”%d”"
+msgstr "internt fel: xstormy16_cgen_cpu_open: argumentet ”%d” stöds inte"
 
 #. from tp:opcodes-2.45.90
 msgid "internal error: xstormy16_cgen_cpu_open: no endianness specified"

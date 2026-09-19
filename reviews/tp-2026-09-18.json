@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 85132,
+  "reviewed_tp_entries": 85648,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 20366,
+  "changed_pairs": 20642,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 20366,
+      "confirmed_swedish_changes": 20642,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "856a4de5f789e364712b4a1828d14ecab19f2cca7aa158c65d573cbb7cc19de3"
+      "sha256": "54829dd7629d4746686503d4066bf9cf93db27f8d2ca3ffc28482b7e8c7380f0"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 20366,
+      "confirmed_swedish_changes": 20642,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "7d847c879a86a4241443affe77478b00235776de4333295ec43041156fe1b7ab"
+      "sha256": "3b0eec71939fc27d923243af4b68b91d44fd817894acf2e7209a04faab86fdf3"
     }
   },
   "unmapped_plural_fixes": [
@@ -83640,6 +83640,2214 @@
       "msgid": "specified register cannot be written to",
       "before": "angivet register kan inte skrivas till",
       "after": "det angivna registret kan inte skrivas",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:32",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "unrecognised disassembler option: %s",
+      "before": "okänd avassemblerarflagga: %s",
+      "after": "okänd flagga för avassembleraren: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:38",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "this `%s' should have an immediately preceding `%s'",
+      "before": "this ”%s” bör ha en omedelbart föregående ”%s”",
+      "after": "”%s” bör omedelbart föregås av ”%s”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:48",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\nThe following AARCH64 specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n",
+      "before": "\nFöljande AARCH64-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n",
+      "after": "\nFöljande AARCH64-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:135",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "immediate value",
+      "before": "omedelbart värde",
+      "after": "direktvärde",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:139",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "immediate offset",
+      "before": "omedelbar position",
+      "after": "direktförskjutning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:167",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "starting offset is not a multiple of 2",
+      "before": "startposition är inte en multipel av 2",
+      "after": "startförskjutningen är inte en multipel av 2",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:171",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "starting offset is not a multiple of 4",
+      "before": "startposition är inte en multipel av 4",
+      "after": "startförskjutningen är inte en multipel av 4",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:175",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "expected a single offset rather than a range",
+      "before": "förväntade en enkel position snarare än ett intervall",
+      "after": "förväntade en enskild förskjutning i stället för ett intervall",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:179",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "expected a range of two offsets",
+      "before": "förväntade ett intervall av två positioner",
+      "after": "förväntade ett intervall med två förskjutningar",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:183",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "expected a range of four offsets",
+      "before": "förväntade ett intervall av fyra positioner",
+      "after": "förväntade ett intervall med fyra förskjutningar",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:191",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "reg pair must start from even reg",
+      "before": "registerpar måste börja med jämnt register",
+      "after": "registerparet måste börja med ett jämnt register",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:195",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "reg pair must be contiguous",
+      "before": "registerpar måste vara kontinuerligt",
+      "after": "registerparet måste vara sammanhängande",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:199",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "extraneous register",
+      "before": "extra register",
+      "after": "överflödigt register",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:203",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "missing register",
+      "before": "saknar register",
+      "after": "register saknas",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:207",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register out of range",
+      "before": "register utanför intervall",
+      "after": "registret ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:211",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "start register out of range",
+      "before": "startregister utanför intervall",
+      "after": "startregistret ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:223",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid register offset",
+      "before": "ogiltig registerposition",
+      "after": "ogiltig registerförskjutning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:227",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid post-increment amount",
+      "before": "ogiltig efter-inkrementeringsmängd",
+      "after": "ogiltigt efterinkrement",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:235",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid extend/shift operator",
+      "before": "ogiltig utökad-/skiftoperator",
+      "after": "ogiltig utvidgnings- eller skiftoperator",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:247",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid increment amount",
+      "before": "ogiltig inkrementeringsmängd",
+      "after": "ogiltigt inkrement",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:260",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "immediate out of range",
+      "before": "omedelbar är utanför intervall",
+      "after": "direktvärdet ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:269",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "negative immediate value not allowed",
+      "before": "negativt omedelbart värde tillåts inte",
+      "after": "negativt direktvärde är inte tillåtet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:273",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "immediate zero expected",
+      "before": "omedelbar nolla förväntad",
+      "after": "direktvärdet noll förväntades",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:285",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "shift is not permitted",
+      "before": "skift är inte tillåtet",
+      "after": "skiftning är inte tillåten",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:289",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid value for immediate",
+      "before": "ogiltigt värde för omedelbar",
+      "after": "ogiltigt direktvärde",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:297",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "floating-point immediate expected",
+      "before": "omedelbart flyttal förväntades",
+      "after": "ett direkt flyttalsvärde förväntades",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:309",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "immediate too big for element size",
+      "before": "omedelbar för stor för elementstorlek",
+      "after": "direktvärdet är för stort för elementstorleken",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:313",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid arithmetic immediate",
+      "before": "ogiltig aritmetisk omedelbar",
+      "after": "ogiltigt aritmetiskt direktvärde",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:329",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid replicated MOV immediate",
+      "before": "ogiltig, replikerad MOV-omedelbar",
+      "after": "ogiltigt replikerat MOV-direktvärde",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:341",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "extend operator expected",
+      "before": "utökad operator förväntades",
+      "after": "utvidgningsoperator förväntades",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:345",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "missing extend operator",
+      "before": "saknar utökad operator",
+      "after": "utvidgningsoperator saknas",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:349",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "'LSL' operator not allowed",
+      "before": "”LSL”-operator inte tillåten",
+      "after": "”LSL”-operatorn är inte tillåten",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:361",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "'ROR' operator not allowed",
+      "before": "”ROR”-operator inte tillåten",
+      "after": "”ROR”-operatorn är inte tillåten",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:371",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "writing to a read-only register",
+      "before": "skrivning till ett register som endast kan läsas",
+      "after": "skriver till ett skrivskyddat register",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:375",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "reading from a write-only register",
+      "before": "läsning från ett register som endast kan skrivas",
+      "after": "läser från ett register som endast kan skrivas",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:379",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "the three register operands must be distinct from one another",
+      "before": "de tre registeroperanderna måste vara distinkta från varandra",
+      "after": "de tre registeroperanderna måste vara olika",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:383",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "the two register operands must be distinct from each other",
+      "before": "de två registeroperanderna måste vara distinkta från varandra",
+      "after": "de två registeroperanderna måste vara olika",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:387",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "destination register differs from preceding instruction",
+      "before": "destinationsregister skiljer sig från föregående instruktion",
+      "after": "destinationsregistret skiljer sig från föregående instruktion",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:391",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "source register differs from preceding instruction",
+      "before": "källregister skiljer sig från det i föregående instruktion",
+      "after": "källregistret skiljer sig från det i föregående instruktion",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:395",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "size register differs from preceding instruction",
+      "before": "storleksregister skiljer sig från det i föregående instruktion",
+      "after": "storleksregistret skiljer sig från det i föregående instruktion",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:399",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "instruction opens new dependency sequence without ending previous one",
+      "before": "instruktion öppnar en ny beroende sekvens utan att avsluta föregående",
+      "after": "instruktionen öppnar en ny beroendesekvens utan att avsluta den föregående",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:403",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "previous `movprfx' sequence not closed",
+      "before": "föregående ”movprfx”-sekvens inte stängd",
+      "after": "föregående ”movprfx”-sekvens är inte avslutad",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:407",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "SVE instruction expected after `movprfx'",
+      "before": "SVE-instruktion förväntad efter ”movprfx”",
+      "after": "en SVE-instruktion förväntades efter ”movprfx”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:411",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "SVE `movprfx' compatible instruction expected",
+      "before": "SVE ”movprfx”-kompatibel instruktion förväntad",
+      "after": "en SVE-instruktion som är kompatibel med ”movprfx” förväntades",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:415",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "predicated instruction expected after `movprfx'",
+      "before": "instruktion med predikat förväntad efter ”movprfx”",
+      "after": "en predicerad instruktion förväntades efter ”movprfx”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:419",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "merging predicate expected due to preceding `movprfx'",
+      "before": "sammanslagningspredikat förväntat på grund av föregående ”movprfx”",
+      "after": "ett sammanslagningspredikat förväntades på grund av föregående ”movprfx”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:423",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "predicate register differs from that in preceding `movprfx'",
+      "before": "predikatregister skiljer sig från det i föregående ”movprfx”",
+      "after": "predikatregistret skiljer sig från det i föregående ”movprfx”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:427",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "output register of preceding `movprfx' not used in current instruction",
+      "before": "utdataregister från föregående ”movprfx” används inte i aktuell instruktion",
+      "after": "utdataregistret från föregående ”movprfx” används inte i den aktuella instruktionen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:431",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "output register of preceding `movprfx' expected as output",
+      "before": "utdataregister från föregående ”movprfx” förväntat som utdata",
+      "after": "utdataregistret från föregående ”movprfx” förväntades som utdata",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:435",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "output register of preceding `movprfx' used as input",
+      "before": "utdataregister från föregående ”movprfx” används som indata",
+      "after": "utdataregistret från föregående ”movprfx” används som indata",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:439",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register size not compatible with previous `movprfx'",
+      "before": "registerstorlek inte kompatibel med föregående ”movprfx”",
+      "after": "registerstorleken är inte kompatibel med föregående ”movprfx”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:443",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "branch operand unaligned",
+      "before": "grenoperanden ligger inte på jämn gräns",
+      "after": "grenoperanden är inte justerad",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:447",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "jump hint unaligned",
+      "before": "hopptipset ligger inte på jämn gräns",
+      "after": "hoppanvisningen är inte justerad",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:467",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "unrecognised disassembler CPU option: %s",
+      "before": "okänd avassemblerarflagga för CPU: %s",
+      "after": "okänd CPU-flagga för avassembleraren: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:480",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Enforce the designated architecture while decoding.",
+      "before": "Tvinga den utsedda arkitekturen vid avkodning.",
+      "after": "Tvinga den angivna arkitekturen vid avkodning.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:516",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Use only hexadecimal number to print immediates.",
+      "before": "Använd endast hexadecimala nummer för att skriva ut omedelbara.",
+      "after": "Skriv direktvärden endast hexadecimalt.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:520",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\nThe following ARC specific disassembler options are supported for use \nwith the -M switch (multiple options should be separated by commas):\n",
+      "before": "\nFöljande ARC-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n",
+      "after": "\nFöljande ARC-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:551",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "LP_COUNT register cannot be used as destination register",
+      "before": "LP_COUNT-register kan inte används som destinationsregister",
+      "after": "LP_COUNT-registret kan inte användas som destinationsregister",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:555",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "cannot use odd number destination register",
+      "before": "kan inte använda udda numrerat destinationsregister",
+      "after": "kan inte använda ett destinationsregister med udda nummer",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:559",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "cannot use odd number source register",
+      "before": "kan inte använda udda numrerat källregister",
+      "after": "kan inte använda ett källregister med udda nummer",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:563",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "operand is not zero",
+      "before": "operand är inte noll",
+      "after": "operanden är inte noll",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:567",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register R30 is a limm indicator",
+      "before": "register R30 är en limm-indikator",
+      "after": "registret R30 är en limm-indikator",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:571",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register must be R0",
+      "before": "register måste vara R0",
+      "after": "registret måste vara R0",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:575",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register must be R1",
+      "before": "register måste vara R1",
+      "after": "registret måste vara R1",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:579",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register must be R2",
+      "before": "register måste vara R2",
+      "after": "registret måste vara R2",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:583",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register must be R3",
+      "before": "register måste vara R3",
+      "after": "registret måste vara R3",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:587",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register must be SP",
+      "before": "register måste vara SP",
+      "after": "registret måste vara SP",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:591",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register must be GP",
+      "before": "register måste vara GP",
+      "after": "registret måste vara GP",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:595",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register must be PCL",
+      "before": "register måste vara PCL",
+      "after": "registret måste vara PCL",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:599",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register must be BLINK",
+      "before": "register måste vara BLINK",
+      "after": "registret måste vara BLINK",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:603",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register must be ILINK1",
+      "before": "register måste vara ILINK1",
+      "after": "registret måste vara ILINK1",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:607",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register must be ILINK2",
+      "before": "register måste vara ILINK2",
+      "after": "registret måste vara ILINK2",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:611",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register must be either r0-r3 or r12-r15",
+      "before": "register måste vara antingen r0-r3 eller r12-r15",
+      "after": "registret måste vara antingen r0-r3 eller r12-r15",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:616",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "accepted values are from -1 to 6",
+      "before": "accepterade värden är från -1 till 6",
+      "after": "godtagbara värden är från -1 till 6",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:620",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "first register of the range should be r13",
+      "before": "första register i intervallet borde vara r13",
+      "after": "det första registret i intervallet bör vara r13",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:624",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "last register of the range doesn't fit",
+      "before": "sista register i intervallet får inte plats",
+      "after": "det sista registret i intervallet får inte plats",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:628",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid register number, should be fp",
+      "before": "ogiltigt registernummer, borde vara fp",
+      "after": "ogiltigt registernummer, bör vara fp",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:632",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid register number, should be blink",
+      "before": "ogiltigt registernummer, borde vara blink",
+      "after": "ogiltigt registernummer, bör vara blink",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:636",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid register number, should be pcl",
+      "before": "ogiltigt registernummer, borde vara pcl",
+      "after": "ogiltigt registernummer, bör vara pcl",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:640",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid size, should be 1, 2, 4, or 8",
+      "before": "ogiltig storlek, borde vara 1, 2, 4 eller 8",
+      "after": "ogiltig storlek, bör vara 1, 2, 4 eller 8",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:644",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid immediate, must be 1, 2, or 4",
+      "before": "ogiltig omedelbar, måste vara 1, 2 eller 4",
+      "after": "ogiltigt direktvärde, måste vara 1, 2 eller 4",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:648",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid value for CMEM ld/st immediate",
+      "before": "ogiltigt värde för CMEM ld/st-omedelbar",
+      "after": "ogiltigt värde för CMEM ld/st-direktvärdet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:652",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid position, should be 0, 16, 32, 48 or 64.",
+      "before": "ogiltig position, borde vara 0, 16, 32, 48 eller 64.",
+      "after": "ogiltig bitposition, bör vara 0, 16, 32, 48 eller 64.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:656",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid position, should be 16, 32, 64 or 128.",
+      "before": "ogiltig position, borde vara 16, 32, 64 eller 128.",
+      "after": "ogiltig bitposition, bör vara 16, 32, 64 eller 128.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:660",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid size value must be on range 1-64.",
+      "before": "ogiltigt storleksvärde måste vara i intervallet 1-64.",
+      "after": "ogiltigt storleksvärde; det måste ligga i intervallet 1-64.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:664",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid position, should be 0, 8, 16, or 24",
+      "before": "ogiltig position, borde vara 0, 8, 16 eller 24",
+      "after": "ogiltig bitposition; den bör vara 0, 8, 16 eller 24",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:668",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid size, value must be ",
+      "before": "ogiltig storlek, värde måste vara ",
+      "after": "ogiltig storlek, värdet måste vara ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:672",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "value out of range 1 - 256",
+      "before": "värde utanför intervall 1-256",
+      "after": "värdet ligger utanför intervallet 1-256",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:676",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "value must be power of 2",
+      "before": "värde måste vara en tvåpotens",
+      "after": "värdet måste vara en tvåpotens",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:680",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "value must be in the range 0 to 28",
+      "before": "värde måste vara i intervallet 0 till 28",
+      "after": "värdet måste ligga i intervallet 0 till 28",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:684",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "value must be in the range 1 to ",
+      "before": "värde måste vara i intervallet 1 till ",
+      "after": "värdet måste ligga i intervallet 1 till ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:688",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "value must be in the range 0 to 240",
+      "before": "värde måste vara i intervallet 0 till 240",
+      "after": "värdet måste ligga i intervallet 0 till 240",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:692",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "value must be a multiple of 16",
+      "before": "värde måste vara en multipel av 16",
+      "after": "värdet måste vara en multipel av 16",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:696",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid address type for operand",
+      "before": "ogiltig adresstyp för operand",
+      "after": "ogiltig adresstyp för operanden",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:700",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "value must be in the range 0 to 31",
+      "before": "värde måste vara i intervallet 0 till 31",
+      "after": "värdet måste ligga i intervallet 0 till 31",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:704",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid position, should be one of: 0,4,8,...124.",
+      "before": "ogiltig position, borde vara endera av: 0, 4, 8, …124.",
+      "after": "ogiltig bitposition; den bör vara en av: 0, 4, 8, …, 124.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:708",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Select raw register names",
+      "before": "Välj råa registernamn",
+      "after": "Välj obearbetade registernamn",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:720",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Assume all insns are Thumb insns",
+      "before": "Förvänta att alla instr är Thumb-instr",
+      "after": "Anta att alla instruktioner är Thumb-instruktioner",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:740",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Enable CDE extensions for coprocessor N space",
+      "before": "Aktivera CDE-utökningar för coprocessor-N-rymd",
+      "after": "Aktivera CDE-utökningar för koprocessorutrymmet N",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:749",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "cde coprocessor not between 0-7: %s",
+      "before": "cde-coprocessor inte mellan 0-7: %s",
+      "after": "CDE-koprocessorn ligger inte mellan 0 och 7: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:759",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "coprocN argument takes options \"generic\", \"cde\", or \"CDE\": %s",
+      "before": "coprocN-argument tar flaggorna ”generic”, ”cde” eller ”CDE”: %s",
+      "after": "coprocN-argumentet accepterar värdena ”generic”, ”cde” eller ”CDE”: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:764",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\nThe following ARM specific disassembler options are supported for use with\nthe -M switch:\n",
+      "before": "\nFöljande ARM-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M:\n",
+      "after": "\nFöljande ARM-specifika flaggor för avassembleraren stöds med\nflaggan -M:\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:780",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal disassembler error",
+      "before": "internt fel i avassemblerare",
+      "after": "internt fel i avassembleraren",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:790",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\nThe following BPF specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n",
+      "before": "\nFöljande BFP-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n",
+      "after": "\nFöljande BPF-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:801",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "      pseudoc                  Use pseudo-c syntax.\n      v1,v2,v3,v4,xbpf         Version of the BPF ISA to use.\n      hex,oct,dec              Output numerical base for immediates.\n",
+      "before": "      pseudoc                  Använd pseudo-C syntax.\n      v1,v2,v3,v4,xbpf         Version av BPF ISA att använda.\n      hex,oct,dec              Talbas för omedelbara vid utskrift.\n",
+      "after": "      pseudoc                  Använd pseudo-C-syntax.\n      v1,v2,v3,v4,xbpf         BPF ISA-version att använda.\n      hex,oct,dec              Talbas för direktvärden vid utskrift.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:812",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "unrecognized disassembler option: %s",
+      "before": "okänd avassemblerarflagga: %s",
+      "after": "okänd flagga för avassembleraren: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:841",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: cris_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'",
+      "before": "internt fel: cris_cgen_rebuild_tables: insn-chunk-bitsize-värden i konflikt: ”%d” vs. ”%d”",
+      "after": "internt fel: cris_cgen_rebuild_tables: motstridiga värden för insn-chunk-bitsize: ”%d” respektive ”%d”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:846",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: cris_cgen_cpu_open: unsupported argument `%d'",
+      "before": "internt fel: cris_cgen_cpu_open: argument stöds inte ”%d”",
+      "after": "internt fel: cris_cgen_cpu_open: argumentet ”%d” stöds inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:856",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "illegal id (%d)",
+      "before": "otillåtet id (%d)",
+      "after": "otillåtet ID (%d)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:872",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Address 0x%<PRIx64> is out of bounds.\n",
+      "before": "Adressen 0x%<PRIx64> ligger utanför tillåtna gränser.\n",
+      "after": "Adressen 0x%<PRIx64> ligger utanför gränserna.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:877",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "assertion fail %s:%d",
+      "before": "försäkran misslyckades %s:%d",
+      "after": "kontrollsatsen misslyckades %s:%d",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:886",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register unavailable for short instructions",
+      "before": "register otillgänglig för korta instruktioner",
+      "after": "registret är otillgängligt för korta instruktioner",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:890",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register name used as immediate value",
+      "before": "registernamn använt som omedelbart värde",
+      "after": "registernamn används som direktvärde",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:894",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "register source in immediate move",
+      "before": "registerkälla i omedelbar förflyttning",
+      "after": "registerkälla i direktförflyttning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:917",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Not a pc-relative address.",
+      "before": "Inte en pc-relativ adress.",
+      "after": "Inte en PC-relativ adress.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:928",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "missing mnemonic in syntax string",
+      "before": "instruktion saknas i syntaxsträng",
+      "after": "mnemonik saknas i syntaxsträngen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:949",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "syntax error (expected char `%c', found `%c')",
+      "before": "syntaxfel (tecknet \"%c\" förväntades, hittade \"%c\")",
+      "after": "syntaxfel (förväntade tecknet ”%c”, hittade ”%c”)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:956",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "syntax error (expected char `%c', found end of instruction)",
+      "before": "syntaxfel (tecknet \"%c\" förväntades, hittade slutet på instruktion)",
+      "after": "syntaxfel (förväntade tecknet ”%c”, hittade instruktionsslutet)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:963",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "junk at end of line",
+      "before": "skräp vid slutet på raden",
+      "after": "skräp i slutet av raden",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:975",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "bad instruction `%.50s...'",
+      "before": "felaktig instruktion \"%.50s...\"",
+      "after": "felaktig instruktion ”%.50s...”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:982",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "bad instruction `%.50s'",
+      "before": "felaktig instruktion \"%.50s\"",
+      "after": "felaktig instruktion ”%.50s”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:989",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: epiphany_cgen_rebuild_tables: conflicting insn-chunk-bitsize values: `%d' vs. `%d'",
+      "before": "internt fel: epiphany_cgen_rebuild_tables: insn-chunk-bitsize värden i konflikt: ”%d” vs. ”%d”",
+      "after": "internt fel: epiphany_cgen_rebuild_tables: motstridiga värden för insn-chunk-bitsize: ”%d” respektive ”%d”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:994",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: epiphany_cgen_cpu_open: unsupported argument `%d'",
+      "before": "internt fel: epiphany_cgen_cpu_open: argument stöds inte ”%d”",
+      "after": "internt fel: epiphany_cgen_cpu_open: argumentet ”%d” stöds inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1025",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "operand out of range (0x%lx not between 0 and 0x%lx)",
+      "before": "operand utanför intervall (0x%lx inte mellan 0 och 0x%lx)",
+      "after": "operanden ligger utanför intervallet (0x%lx är inte mellan 0 och 0x%lx)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1032",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: unrecognized field %d while building insn",
+      "before": "internt fel: okänt fält %d vid konstruktion av instruktion",
+      "after": "internt fel: okänt fält %d när instruktionen byggdes",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1074",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Register number is not valid",
+      "before": "Registernummer är inte giltigt",
+      "after": "Registernumret är inte giltigt",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1078",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Register must be between r0 and r7",
+      "before": "Register måste vara mellan r0 och r7",
+      "after": "Registret måste ligga mellan r0 och r7",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1082",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Register must be between r8 and r15",
+      "before": "Register måste vara mellan r8 och r15",
+      "after": "Registret måste ligga mellan r8 och r15",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1086",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Register list is not valid",
+      "before": "Registerlista är inte giltig",
+      "after": "Registerlistan är inte giltig",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1095",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: fr30_cgen_cpu_open: unsupported argument `%d'",
+      "before": "internt fel: fr30_cgen_cpu_open: argument stöds inte ”%d”",
+      "after": "internt fel: fr30_cgen_cpu_open: argumentet ”%d” stöds inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1109",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Special purpose register number is out of range",
+      "before": "Nummer för register för specialanvändning är utanför interval",
+      "after": "Numret för specialregistret ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1113",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Value of A operand must be 0 or 1",
+      "before": "Värde för A-operand måste vara 0 eller 1",
+      "after": "Värdet för A-operanden måste vara 0 eller 1",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1126",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: frv_cgen_cpu_open: unsupported argument `%d'",
+      "before": "internt fel: frv_cgen_cpu_open: argument stöds inte ”%d”",
+      "after": "internt fel: frv_cgen_cpu_open: argumentet ”%d” stöds inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1165",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\nThe following i386/x86-64 specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n",
+      "before": "\nFöljande i386/x86-64-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n",
+      "after": "\nFöljande i386/x86-64-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1201",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "  att-mnemonic  (AT&T syntax only)\n              Display instruction with AT&T mnemonic\n",
+      "before": "  att-mnemonic  (endast AT&T-syntax)\n              Visa instruktion med AT&T-mnemonic\n",
+      "after": "  att-mnemonic  (endast AT&T-syntax)\n              Visa instruktionen med AT&T-mnemonik\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1210",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "  intel-mnemonic  (AT&T syntax only)\n              Display instruction with Intel mnemonic\n",
+      "before": "  intel-mnemonic  (endast AT&T-syntax)\n              Visa instruktion med Intel-mnemonic\n",
+      "after": "  intel-mnemonic  (endast AT&T-syntax)\n              Visa instruktionen med Intel-mnemonik\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1219",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "  addr64      Assume 64bit address size\n",
+      "before": "  addr64      Antag 64-bitars adresstorlek\n",
+      "after": "  addr64      Anta en 64-bitarsadressstorlek\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1224",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "  addr32      Assume 32bit address size\n",
+      "before": "  addr32      Antag 32-bitars adresstorlek\n",
+      "after": "  addr32      Anta en 32-bitarsadressstorlek\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1229",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "  addr16      Assume 16bit address size\n",
+      "before": "  addr16      Antag 16-bitars adresstorlek\n",
+      "after": "  addr16      Anta en 16-bitarsadressstorlek\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1234",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "  data32      Assume 32bit data size\n",
+      "before": "  data32      Antag 32-bitars datastorlek\n",
+      "after": "  data32      Anta en 32-bitarsdatastorlek\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1239",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "  data16      Assume 16bit data size\n",
+      "before": "  data16      Antag 16-bitars datastorlek\n",
+      "after": "  data16      Anta en 16-bitarsdatastorlek\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1268",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "W keyword invalid in FR operand slot.",
+      "before": "W-nyckelord ogiltigt i FR-operandlucka.",
+      "after": "W-nyckelordet är ogiltigt i FR-operandplatsen.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1274",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "offset(IP) is not a valid form",
+      "before": "position(IP) är inte en giltig form",
+      "after": "förskjutning(IP) är inte en giltig form",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1279",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "(DP) offset out of range.",
+      "before": "(DP) positionen är utanför intervallet.",
+      "after": "förskjutningen (DP) ligger utanför intervallet.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1285",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "(SP) offset out of range.",
+      "before": "(SP) positionen är utanför intervallet.",
+      "after": "förskjutningen (SP) ligger utanför intervallet.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1295",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "operand out of range (not between 1 and 255)",
+      "before": "operanden utanför intervallet (inte mellan 1 och 255)",
+      "after": "operanden ligger utanför intervallet (inte mellan 1 och 255)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1299",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "parse_addr16: invalid opindex.",
+      "before": "parse_addr16: ogiltigt opindex.",
+      "after": "parse_addr16: ogiltigt operandindex.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1304",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Byte address required. - must be even.",
+      "before": "Byteadress krävs - måste vara jämn.",
+      "after": "En byteadress krävs och måste vara jämn.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1308",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "cgen_parse_address returned a symbol. Literal required.",
+      "before": "cgen_parse_address returnerade en symbol. Litteral krävs.",
+      "after": "cgen_parse_address returnerade en symbol. Ett literal krävs.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1312",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "percent-operator operand is not a symbol",
+      "before": "procent-operatoroperand är inte en symbol",
+      "after": "operanden för procentoperatorn är inte en symbol",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1316",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Attempt to find bit index of 0",
+      "before": "Försök att hitta 0-bitindex",
+      "after": "Försök att hitta bitindex för 0",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1325",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: ip2k_cgen_cpu_open: unsupported argument `%d'",
+      "before": "internt fel: ip2k_cgen_cpu_open: argument stöds inte ”%d”",
+      "after": "internt fel: ip2k_cgen_cpu_open: argumentet ”%d” stöds inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1335",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "immediate value cannot be register",
+      "before": "omedelbart värde kan inte vara register",
+      "after": "direktvärdet kan inte vara ett register",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1339",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "immediate value out of range",
+      "before": "omedelbart värde är utanför intervallet",
+      "after": "direktvärdet ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1343",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "21-bit offset out of range",
+      "before": "21-bitars position utanför intervallet",
+      "after": "21-bitarsförskjutningen ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1352",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: iq2000_cgen_cpu_open: unsupported argument `%d'",
+      "before": "internt fel: iq2000_cgen_cpu_open: argument stöds inte ”%d”",
+      "after": "internt fel: iq2000_cgen_cpu_open: argumentet ”%d” stöds inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1362",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\nThe following KVX specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n",
+      "before": "\nFöljande KVX-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n",
+      "after": "\nFöljande KVX-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1373",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\n  pretty               Print 32-bit words in natural order corresponding to re-ordered instruction.\n",
+      "before": "\n  pretty               Skriv 32-bitars ord i naturlig ordning motsvarande omorganiserad instruktion.\n",
+      "after": "\n  pretty               Skriv 32-bitarsord i naturlig ordning enligt den omordnade instruktionen.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1382",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\n  compact-assembly     Do not emit a new line between bundles of instructions.\n",
+      "before": "\n  compact-assembly     Mata inte ut en nyrad mellan instruktionsbuntar.\n",
+      "after": "\n  compact-assembly     Skriv inte ut en ny rad mellan instruktionsbuntar.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1391",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\n  no-compact-assembly  Emit a new line between bundles of instructions.\n",
+      "before": "\n  no-compact-assembly  Mata ut en nyrad mellan instruktionsbuntar.\n",
+      "after": "\n  no-compact-assembly  Skriv ut en ny rad mellan instruktionsbuntar.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1400",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "expecting gp relative address: gp(symbol)",
+      "before": "förväntade gp-relativ adress: gp(symbol)",
+      "after": "förväntade en GP-relativ adress: gp(symbol)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1404",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "expecting got relative address: got(symbol)",
+      "before": "förväntade got-relativ adress: got(symbol)",
+      "after": "förväntade en GOT-relativ adress: got(symbol)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1408",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "expecting got relative address: gotoffhi16(symbol)",
+      "before": "förväntade got-relativ adress: gotoffhi16(symbol)",
+      "after": "förväntade en GOT-relativ adress: gotoffhi16(symbol)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1412",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "expecting got relative address: gotofflo16(symbol)",
+      "before": "förväntade got-relativ adress: gotofflo16(symbol)",
+      "after": "förväntade en GOT-relativ adress: gotofflo16(symbol)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1421",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: lm32_cgen_cpu_open: unsupported argument `%d'",
+      "before": "internt fel: lm32_cgen_cpu_open: argument stöds inte ”%d”",
+      "after": "internt fel: lm32_cgen_cpu_open: argumentet ”%d” stöds inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1431",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\nThe following LoongArch disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n",
+      "before": "\nFöljande LoongArch-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n",
+      "after": "\nFöljande LoongArch-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1442",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\n    no-aliases    Use canonical instruction forms.\n",
+      "before": "\n    no-aliases    Använd kanoniska instruktionsformer.\n\n",
+      "after": "\n    no-aliases    Använd kanoniska instruktionsformer.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1452",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\n    numeric       Print numeric register names, rather than ABI names.\n",
+      "before": "\n    numeric       Skriv ut numeriska registernamn, snarare än ABI-namn.\n\n",
+      "after": "\n    numeric       Skriv ut numeriska registernamn i stället för ABI-namn.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1472",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "imm:6 immediate is out of range",
+      "before": "imm:6 omedelbar är utanför intervall",
+      "after": "direktvärdet imm:6 ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1481",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "dsp:8 immediate is out of range",
+      "before": "dsp:8 omedelbar är utanför intervall",
+      "after": "direktvärdet dsp:8 ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1485",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Immediate is out of range -8 to 7",
+      "before": "Omedelbar är utanför intervall -8 till 7",
+      "after": "direktvärdet ligger utanför intervallet -8 till 7",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1489",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Immediate is out of range -7 to 8",
+      "before": "Omedelbar är utanför intervall -7 till 8",
+      "after": "direktvärdet ligger utanför intervallet -7 till 8",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1498",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "dsp:16 immediate is out of range",
+      "before": "dsp:16 omedelbar är utanför intervall",
+      "after": "direktvärdet dsp:16 ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1502",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "dsp:20 immediate is out of range",
+      "before": "dsp:20 omedelbar är utanför intervall",
+      "after": "direktvärdet dsp:20 ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1506",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "dsp:24 immediate is out of range",
+      "before": "dsp:24 omedelbar är utanför intervall",
+      "after": "direktvärdet dsp:24 ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1510",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "immediate is out of range 1-2",
+      "before": "omedelbar är utanför intervall 1-2",
+      "after": "direktvärdet ligger utanför intervallet 1-2",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1514",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "immediate is out of range 1-8",
+      "before": "omedelbar är utanför intervall 1-8",
+      "after": "direktvärdet ligger utanför intervallet 1-8",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1518",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "immediate is out of range 0-7",
+      "before": "omedelbar är utanför intervall 0-7",
+      "after": "direktvärdet ligger utanför intervallet 0-7",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1522",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "immediate is out of range 2-9",
+      "before": "omedelbar är utanför intervall 2-9",
+      "after": "direktvärdet ligger utanför intervallet 2-9",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1526",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Bit number for indexing general register is out of range 0-15",
+      "before": "Bitnummer för indexering av generella register är utanför intervall 0-15",
+      "after": "Bitnumret för indexering av allmänna register ligger utanför intervallet 0-15",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1530",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "bit,base is out of range",
+      "before": "bit, bas är utanför intervall",
+      "after": "bit,bas ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1534",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "bit,base out of range for symbol",
+      "before": "bit,bas utanför intervall för symbol",
+      "after": "bit,bas ligger utanför intervallet för symbolen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1551",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: m32c_cgen_cpu_open: unsupported argument `%d'",
+      "before": "internt fel: m32c_cgen_cpu_open: argument stöds inte ”%d”",
+      "after": "internt fel: m32c_cgen_cpu_open: argumentet ”%d” stöds inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1566",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: m32r_cgen_cpu_open: unsupported argument `%d'",
+      "before": "internt fel: m32r_cgen_cpu_open: argument stöds inte ”%d”",
+      "after": "internt fel: m32r_cgen_cpu_open: argumentet ”%d” stöds inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1594",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid %function() here",
+      "before": "ogiltig %funktion() här",
+      "after": "ogiltig %function() här",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1599",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Immediate is out of range -32768 to 32767",
+      "before": "Omedelbar är utanför intervall -32768 till 32767",
+      "after": "direktvärdet ligger utanför intervallet -32768 till 32767",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1603",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Immediate is out of range 0 to 65535",
+      "before": "Omedelbar är utanför intervall 0 till 65535",
+      "after": "direktvärdet ligger utanför intervallet 0 till 65535",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1607",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Immediate is out of range -512 to 511",
+      "before": "Omedelbar är utanför intervall -512 till 511",
+      "after": "direktvärdet ligger utanför intervallet -512 till 511",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1611",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Immediate is out of range -128 to 127",
+      "before": "Omedelbar är utanför intervall -128 till 127",
+      "after": "direktvärdet ligger utanför intervallet -128 till 127",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1615",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Value is not aligned enough",
+      "before": "Värde är inte justerat nog",
+      "after": "Värdet är inte tillräckligt justerat",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1624",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: mep_cgen_cpu_open: unsupported argument `%d'",
+      "before": "internt fel: mep_cgen_cpu_open: argument stöds inte ”%d”",
+      "after": "internt fel: mep_cgen_cpu_open: argumentet ”%d” stöds inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1634",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "illegal MEP INDEX setting '%x' in ELF header e_flags field",
+      "before": "otillåten MEP INDEX-inställning '%x' i ELF-huvudfält e_flags",
+      "after": "otillåten MEP INDEX-inställning ”%x” i fältet e_flags i ELF-huvudet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1639",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "# internal error, undefined operand in `%s %s'",
+      "before": "# internt fel, okänd operand i ”%s %s”",
+      "after": "# internt fel, odefinierad operand i ”%s %s”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1656",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Recognize the eXtended Physical Address (XPA) ASE\n                  instructions.\n",
+      "before": "Känn igen utökade fysiskadress- (XPA) ASE-\n                  instruktioner.\n",
+      "after": "Känn igen instruktioner för ASE med eXtended Physical Address (XPA).\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1664",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Recognize the Global INValidate (GINV) ASE instructions.\n",
+      "before": "Känn igen globala invaliderings- (GINV) ASE-instruktioner.\n",
+      "after": "Känn igen instruktioner för ASE med Global INValidate (GINV).\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1668",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Recognize the Loongson MultiMedia extensions Instructions (MMI) ASE instructions.\n",
+      "before": "Känn igen Loongson MultiMedia extensions Instructions (MMI) ASE-instruktioner\n",
+      "after": "Känn igen instruktioner för Loongson MultiMedia extensions Instructions (MMI) ASE.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1672",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Recognize the Loongson Content Address Memory (CAM)  instructions.\n",
+      "before": "Känn igen Loongson Content Address Memory (CAM)-instruktioner.\n",
+      "after": "Känn igen Loongson Content Address Memory-instruktioner (CAM).\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1676",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Recognize the Loongson EXTensions (EXT)  instructions.\n",
+      "before": "Känn igen Loongson EXTensions (EXT)-instruktioner.\n",
+      "after": "Känn igen Loongson EXTensions-instruktioner (EXT).\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1700",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Print CP0 register names according to specified architecture.\n                  Default: based on binary being disassembled.\n",
+      "before": "Skriv ut CP0-registernamn enligt angiven arkitektur.\n                  Standard: baserat på den binärfil som disassembleras.\n",
+      "after": "Skriv ut CP0-registernamn enligt angiven arkitektur.\n                  Standard: baserat på den binärfil som avassembleras.\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1720",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Print CP0 register and HWR names according to specified\n                  architecture.",
+      "before": "Skriv ut CP0-register med HWR-namn enligt angiven\n                  arkitektur.",
+      "after": "Skriv ut CP0-register- och HWR-namn enligt angiven\n                  arkitektur.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1728",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\nThe following MIPS specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n\n",
+      "before": "\nFöljande MIPS-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n\n",
+      "after": "\nFöljande MIPS-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1764",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: immediate() called with invalid byte count %d",
+      "before": "internt fel: immediate() anropad med ogiltigt byteantal %d",
+      "after": "internt fel: immediate() anropades med ogiltigt byteantal %d",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1769",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Warning: disassembly unreliable - not enough bytes available",
+      "before": "Varning: avassemblering otillförlitlig - inte tillräckligt med byte tillgängliga",
+      "after": "Varning: avassembleringen är otillförlitlig – inte tillräckligt många byte är tillgängliga",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1774",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Error: read from memory failed",
+      "before": "Fel: läsning från minne misslyckades",
+      "after": "Fel: läsning från minnet misslyckades",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1792",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Warning: reserved use of A/L and B/W bits detected",
+      "before": "Varning: okänd användning av A/L- och B/W-bitar detekterad",
+      "after": "Varning: reserverad användning av A/L- och B/W-bitar upptäcktes",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1797",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Operand out of range. Must be between -32768 and 32767.",
+      "before": "Operand utanför intervall. Måste vara mellan -32768 och 32767.",
+      "after": "Operanden ligger utanför intervallet. Den måste vara mellan -32768 och 32767.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1801",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Biiiig Trouble in parse_imm16!",
+      "before": "Stoooort Problem i parse_imm16!",
+      "after": "Stora problem i parse_imm16!",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1805",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "The percent-operator's operand is not a symbol",
+      "before": "Procent-operatorns operand är inte symbol",
+      "after": "Procentoperatorns operand är inte en symbol",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1809",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid operand.  type may have values 0,1,2 only.",
+      "before": "ogiltig operand.  typ får endast ha värdena 0, 1, 2.",
+      "after": "ogiltig operand. Typen får endast ha värdena 0, 1 eller 2.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1818",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: mt_cgen_cpu_open: unsupported argument `%d'",
+      "before": "internt fel: mt_cgen_cpu_open: argument stöds inte ”%d”",
+      "after": "internt fel: mt_cgen_cpu_open: argumentet ”%d” stöds inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1843",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "insufficient data to decode instruction",
+      "before": "otillräcklig data för att avkoda instruktion",
+      "after": "otillräckliga data för att avkoda instruktionen",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1847",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "<invalid_instruction>:",
+      "before": "<otillåten instruktion>:",
+      "after": "<invalid_instruction>:",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1859",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "<invalid cmd target %d:%d:%d>[]",
+      "before": "<ogiltigt kommandomål %d:%d%d>[]",
+      "after": "<ogiltigt kommandomål %d:%d:%d>[]",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1869",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "File has no ME-Config section.",
+      "before": "Fil har inget ME-Config-avsnitt.",
+      "after": "Filen saknar ett ME-Config-avsnitt.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1878",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "File has invalid ME-Config section.",
+      "before": "Fil har ogiltigt ME-Config-avsnitt.",
+      "after": "Filen har ett ogiltigt ME-Config-avsnitt.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1882",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Error processing section %u ",
+      "before": "Fel vid behandling av avsnitt %u ",
+      "after": "Fel vid behandling av avsnittet %u ",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1892",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\nThe following NFP specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n",
+      "before": "\nFöljande NFP-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n",
+      "after": "\nFöljande NFP-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1903",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\n  no-pc\t\t    Don't print program counter prefix.\n  ctx4\t\t    Force disassembly using 4-context mode.\n  ctx8\t\t    Force 8-context mode, takes precedence.",
+      "before": "\n  no-pc\t\t    Skriv inte ut programräknarprefix.\n  ctx4\t\t    Tvinga avassemblering via 4-kontextläge.\n  ctx8\t\t    Tvinga 8-kontextläge, tar företräde.",
+      "after": "\n  no-pc\t\t    Skriv inte ut programräknarprefixet.\n  ctx4\t\t    Tvinga avassemblering i 4-kontextläge.\n  ctx8\t\t    Tvinga 8-kontextläge; det har företräde.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1926",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "relocation invalid for store",
+      "before": "omlokalisering ogiltig för lagring",
+      "after": "omlokaliseringen är ogiltig för lagring",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1930",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal relocation type invalid",
+      "before": "intern omlokaliseringstyp ogiltig",
+      "after": "den interna omlokaliseringstypen är ogiltig",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1939",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: or1k_cgen_cpu_open: unsupported argument `%d'",
+      "before": "internt fel: or1k_cgen_cpu_open: argument stöds inte ”%d”",
+      "after": "internt fel: or1k_cgen_cpu_open: argumentet ”%d” stöds inte",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1949",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "warning: ignoring unknown -M%s option",
+      "before": "varning: hoppar över okänd -M%s-flagga",
+      "after": "varning: hoppar över den okända flaggan -M%s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1954",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\nThe following PPC specific disassembler options are supported for use with\nthe -M switch:\n",
+      "before": "\nFöljande PPC-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M:\n",
+      "after": "\nFöljande PPC-specifika flaggor för avassembleraren stöds med\nflaggan -M:\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1969",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid conditional option",
+      "before": "ogiltig villkorlig flagga",
+      "after": "ogiltig villkorsflagga",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1977",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "BO value implies no branch hint, when using + or - modifier",
+      "before": "BO-värde implicerar inget grentips, när modifierarna + eller - används",
+      "after": "BO-värdet medger ingen grenantydan när modifieraren + eller - används",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1981",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "attempt to set y bit when using + or - modifier",
+      "before": "försök att ställa in y-biten då modifieraren + eller - användes",
+      "after": "försök att ange y-biten när modifieraren + eller - används",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1985",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "attempt to set 'at' bits when using + or - modifier",
+      "before": "försök att ställa in ”at”-bitar när + eller - modifierare används",
+      "after": "försök att ange ”at”-bitarna när modifieraren + eller - används",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:1989",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid offset: must be in the range [-512, -8] and be a multiple of 8",
+      "before": "ogiltig position: måste vara i intervallet [-512, -8] och vara en multipel av 8",
+      "after": "ogiltig förskjutning: måste ligga i intervallet [-512, -8] och vara en multipel av 8",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2021",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "address register in load range",
+      "before": "adressregister i inläsningsintervall",
+      "after": "adressregistret ligger i inläsningsintervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2029",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "index register in load range",
+      "before": "indexregistret är i inläsningsintervallet",
+      "after": "indexregistret ligger i inläsningsintervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2037",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid base address register operand",
+      "before": "ogiltigt basadressregister för operand",
+      "after": "ogiltig basadressregisteroperand",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2041",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "illegal immediate value",
+      "before": "felaktigt omedelbart värde",
+      "after": "ogiltigt direktvärde",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2055",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid bat number",
+      "before": "ogiltigt bat-nummer",
+      "after": "ogiltigt BAT-nummer",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2059",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid sprg number",
+      "before": "ogiltigt sprg-nummer",
+      "after": "ogiltigt SPRG-nummer",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2063",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid tbr number",
+      "before": "ogiltigt tbr-nummer",
+      "after": "ogiltigt TBR-nummer",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2067",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "VSR overlaps ACC operand",
+      "before": "VSR överlappar med ACC-operand",
+      "after": "VSR överlappar ACC-operanden",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2097",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "GPR odd is illegal",
+      "before": "Udda GPR är otillåtet",
+      "after": "ett udda GPR-register är otillåtet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2101",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "invalid offset",
+      "before": "ogiltig position",
+      "after": "ogiltig förskjutning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2113",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "unrecognized disassembler option with '=': %s",
+      "before": "okänd avassemblerarflagga med ”=”: %s",
+      "after": "okänd flagga för avassembleraren med ”=”: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2120",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "unknown privileged spec set by %s=%s",
+      "before": "okänd privilegierad spec satt av %s=%s",
+      "after": "okänd privilegierad specifikation angiven av %s=%s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2125",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "mis-matched privilege spec set by %s=%s, the elf privilege attribute is %s",
+      "before": "felaktig privilegie-spec satt av %s=%s, elf-privilegieattributet är %s",
+      "after": "privilegiespecifikationen från %s=%s stämmer inte; ELF-privilegieattributet är %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2130",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "# internal error, undefined modifier (%c)",
+      "before": "# internt fel, okänd modifierare (%c)",
+      "after": "# internt fel, odefinierad modifierare (%c)",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2135",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Disassemble without checking architecture string.",
+      "before": "Avassemblera utan att kontrollera arkitektursträng.",
+      "after": "Avassemblera utan att kontrollera arkitektursträngen.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2139",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Print numeric register names, rather than ABI names.",
+      "before": "Skriv ut numeriska registernamn, snarare än ABI-namn.",
+      "after": "Skriv ut numeriska registernamn i stället för ABI-namn.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2143",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Disassemble only into canonical instructions.",
+      "before": "Avassemblera endas till kanoniska instruktionsformer.",
+      "after": "Avassemblera endast till kanoniska instruktionsformer.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2147",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Print the CSR according to the chosen privilege spec.",
+      "before": "Skriv ut CSR enligt till den angivna privilegiespecen.",
+      "after": "Skriv ut CSR enligt den valda privilegiespecifikationen.",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2151",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\nThe following RISC-V specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n",
+      "before": "\nFöljande RISC-V-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n",
+      "after": "\nFöljande RISC-V-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2166",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "<invalid condition code>",
+      "before": "<ogiltig villkorsflagga>",
+      "after": "<ogiltig villkorskod>",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2194",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Disassemble in ESA architecture mode",
+      "before": "Avassemblera i ESA-arkitektursläge",
+      "after": "Avassemblera i ESA-arkitekturläge",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2198",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Disassemble in z/Architecture mode",
+      "before": "Avassemblera i z/Arkitektursläge",
+      "after": "Avassemblera i z/Architecture-läge",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2203",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Print unknown instructions according to length from first two bits",
+      "before": "Skriv ut okända instruktioner enligt längd från de första två bitarna",
+      "after": "Skriv ut okända instruktioner enligt längden på de två första bitarna",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2207",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Print instruction description as comment",
+      "before": "Skriv ut instruktionsbeskrivning som kommentar",
+      "after": "Skriv ut instruktionsbeskrivningen som kommentar",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2211",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "unknown S/390 disassembler option: %s",
+      "before": "okänd S/390-avassemblerarflagga: %s",
+      "after": "okänd S/390-flagga för avassembleraren: %s",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2216",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "\nThe following S/390 specific disassembler options are supported for use\nwith the -M switch (multiple options should be separated by commas):\n",
+      "before": "\nFöljande S/390-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M (flera flaggor kan skiljas åt med komman):\n",
+      "after": "\nFöljande S/390-specifika flaggor för avassembleraren stöds med\nflaggan -M (flera flaggor ska skiljas åt med komman):\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2285",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "displacement value is not in range and is not aligned",
+      "before": "förskjutningsvärdet är inte inom intervallet och ligger inte på jämn gräns",
+      "after": "förskjutningsvärdet ligger utanför intervallet och är inte justerat",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2298",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "displacement value is not aligned",
+      "before": "förskjutningsvärdet ligger inte på jämn gräns",
+      "after": "förskjutningsvärdet är inte justerat",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2302",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "immediate value is out of range",
+      "before": "omedelbara värdet är utanför intervallet",
+      "after": "direktvärdet ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2310",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "branch value not in range and to odd offset",
+      "before": "grenvärdet är inte inom intervallet och till ett udda position",
+      "after": "grenvärdet ligger utanför intervallet och har en udda förskjutning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2314",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "branch to odd offset",
+      "before": "grening till udda position",
+      "after": "gren till en udda förskjutning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2318",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "position value is out of range",
+      "before": "positionsvärde är utanför intervall",
+      "after": "positionsvärdet ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2322",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "width value is out of range",
+      "before": "breddvärde är utanför intervall",
+      "after": "breddvärdet ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2326",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "SelID is out of range",
+      "before": "SelID är utanför intervall",
+      "after": "SelID ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2330",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "vector8 is out of range",
+      "before": "vector8 är utanför intervall",
+      "after": "vector8 ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2334",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "vector5 is out of range",
+      "before": "vector5 är utanför intervall",
+      "after": "vector5 ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2338",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "imm10 is out of range",
+      "before": "imm10 är utanför intervall",
+      "after": "imm10 ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2342",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "SR/SelID is out of range",
+      "before": "SR/SellD är utanför intervall",
+      "after": "SR/SelID ligger utanför intervallet",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2358",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Name well-known globals",
+      "before": "Namnge välkända globaler",
+      "after": "Namnge välkända globala symboler",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2362",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "The following WebAssembly-specific disassembler options are supported for use\nwith the -M switch:\n",
+      "before": "Följande WebAssembly-specifika avassemblerarflaggor stöds för användning\ntillsammans med flaggan -M:\n",
+      "after": "Följande WebAssembly-specifika flaggor för avassembleraren stöds med\nflaggan -M:\n",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2371",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Bad register in preincrement",
+      "before": "Felaktigt register i förhandsökning",
+      "after": "Felaktigt register vid förhandsökning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2375",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Bad register in postincrement",
+      "before": "Felaktigt register i efterhandsökning",
+      "after": "Felaktigt register vid efterhandsökning",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2383",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Label conflicts with register name",
+      "before": "Etiketten står i konflikt med registernamn",
+      "after": "Etiketten står i konflikt med ett registernamn",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2391",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Bad immediate expression",
+      "before": "Felaktigt omedelbart uttryck",
+      "after": "Felaktigt direktvärdesuttryck",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2395",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "No relocation for small immediate",
+      "before": "Ingen omlokalisering för litet omedelbart tal",
+      "after": "Ingen omlokalisering för ett litet direktvärde",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2399",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Small operand was not an immediate number",
+      "before": "Liten operand var inte ett omedelbart tal",
+      "after": "Den lilla operanden var inte ett direktvärde",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2407",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "Syntax error: No trailing ')'",
+      "before": "Syntaxfel: Inget eftersläpande \")\"",
+      "after": "Syntaxfel: ingen avslutande ”)”",
+      "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
+    },
+    {
+      "tp_id": "opcodes:2416",
+      "project": "tp:opcodes-2.45.90",
+      "msgid": "internal error: xstormy16_cgen_cpu_open: unsupported argument `%d'",
+      "before": "internt fel: xstormy16_cgen_cpu_open: argument stöds inte ”%d”",
+      "after": "internt fel: xstormy16_cgen_cpu_open: argumentet ”%d” stöds inte",
       "reason": "Korrigerad svensk fackterminologi, innebörd eller språkbruk efter manuell granskning."
     },
     {
