@@ -78384,11 +78384,11 @@ msgstr "  [TEXTDOMÄN]               hämta ett översatt meddelande från TEXTD
 
 #. from tp:gettext-runtime-1.0-pre2
 msgid "  MSGID MSGID-PLURAL        translate MSGID (singular) / MSGID-PLURAL (plural)\n"
-msgstr "  MEDID MEDID-PLURAL        översätt MEDID (singularis) / MEDID-PLURAL (plural)\n"
+msgstr "  MEDID MEDID-PLURAL        översätt MEDID (singular) / MEDID-PLURAL (plural)\n"
 
 #. from tp:gettext-runtime-1.0-pre2
 msgid "  COUNT                     choose singular/plural form based on this value\n"
-msgstr "  ANTAL                     välj singular/plural form baserat på detta värde\n"
+msgstr "  ANTAL                     välj singular- eller pluralform utifrån detta värde\n"
 
 #. from tp:gettext-runtime-1.0-pre2
 msgid "If the TEXTDOMAIN parameter is not given, the domain is determined from the\nenvironment variable TEXTDOMAIN.  If the message catalog is not found in the\nregular directory, another location can be specified with the environment\nvariable TEXTDOMAINDIR.\nStandard search directory: %s\n"
@@ -78400,7 +78400,7 @@ msgstr "I direktiv nummer %zu är inte argument nummer 0 ett positivt heltal."
 
 #. from tp:gettext-runtime-1.0-pre2
 msgid "The string ends in the middle of a directive."
-msgstr "Strängen slutar mitt i ett direktiv"
+msgstr "Strängen slutar mitt i ett direktiv."
 
 #. from tp:gettext-runtime-1.0-pre2
 msgid "In the directive number %zu, the character '%c' is not a valid conversion specifier."
@@ -78424,7 +78424,7 @@ msgstr "Strängen slutar mitt i en styrsekvens."
 
 #. from tp:gettext-runtime-1.0-pre2
 msgid "The escape sequence '%c%c' is unsupported (not in POSIX)."
-msgstr "Styrsevkensen ”%c%c” stödjs inte (inte i POSIX)."
+msgstr "Styrsekvensen ”%c%c” stödjs inte (inte i POSIX)."
 
 #. from tp:gettext-runtime-1.0-pre2
 msgid "The escape sequence '%c%c' is invalid."
@@ -78448,7 +78448,7 @@ msgstr "Användning: %s [FLAGGA] FORMAT [ARGUMENT]…\n"
 
 #. from tp:gettext-runtime-1.0-pre2
 msgid "Produces formatted output, applying the native language translation of FORMAT\nto the ARGUMENTs.\n"
-msgstr "Producerar formaterad utdata, med tillämpning av det egna språkets översättning\nav FORMAT till ARGUMENTen.\n"
+msgstr "Producerar formaterad utdata genom att tillämpa översättningen av FORMAT till ARGUMENTen på det lokala språket.\n"
 
 #. from tp:gettext-runtime-1.0-pre2
 msgid "  -c, --context=CONTEXT     specify context for FORMAT\n"
@@ -78468,7 +78468,7 @@ msgstr "Formatsträngen består av\n  - vanlig text,\n  - direktiv, som inleds m
 
 #. from tp:gettext-runtime-1.0-pre2
 msgid "A directive that consumes an argument\n  - starts with '%s' or '%s' where %s is a positive integer,\n  - is optionally followed by any of the characters '%c', '%c', '%c', '%c', '%c',\n    each of which acts as a flag,\n  - is optionally followed by a width specification (a nonnegative integer),\n  - is optionally followed by '%c' and a precision specification (an optional\n    nonnegative integer),\n  - is finished by a specifier\n      - '%c', that prints a character,\n      - '%c', that prints a string,\n      - '%c', '%c', that print an integer,\n      - '%c', '%c', '%c', '%c', that print an unsigned (nonnegative) integer,\n      - '%c', '%c', that print a floating-point number in scientific notation,\n      - '%c', '%c', that print a floating-point number without an exponent,\n      - '%c', '%c', that print a floating-point number in general notation,\n      - '%c', '%c', that print a floating-point number in hexadecimal notation.\nAdditionally there is the directive '%s', that prints a single '%c'.\n"
-msgstr "Ett direktiv som konsumerar ett argument\n  - inleds med ”%s” eller ”%s” där %s är ett positivt heltal,\n  - följs eventuellt av några av tecknen ”%c”, ”%c”, ”%c”, ”%c”, ”%c”,\n    där var och ett fungerar som en flagga.\n  - följs eventuellt av en breddspecifikation (ett ickenegativt heltal),\n  - följs eventuellt av ”%c” och en precisionsspecifikation (ett eventuellt\n    ickenegativt heltal),\n  - avslutas med en speicficerare\n      - ”%c”, som skriver ett tecken,\n      - ”%c”, som skriver en sträng,\n      - ”%c”, ”%c”, som skriver ett heltal,\n      - ”%c”, ”%c”, ”%c”, ”%c”, som skriver ett teckenlöst (ickenegativt) heltal,\n      - ”%c”, ”%c”, som skriver ett flyttal i vetenskaplig notation,\n      - ”%c”, ”%c”, som skriver ett flyttal utan någon exponent,\n      - ”%c”, ”%c”, som skriver ett flyttal i allmän notation,\n      - ”%c”, ”%c”, som skriver ett flyttal i hexadecimal notation.\nDessutom finns direktivet ”%s”, som skriver ett ensamt ”%c”.\n"
+msgstr "Ett direktiv som använder ett argument\n  - inleds med ”%s” eller ”%s”, där %s är ett positivt heltal,\n  - följs eventuellt av något av tecknen ”%c”, ”%c”, ”%c”, ”%c”, ”%c”,\n    som vart och ett fungerar som en flagga,\n  - följs eventuellt av en breddspecifikation (ett ickenegativt heltal),\n  - följs eventuellt av ”%c” och en precisionsspecifikation (ett eventuellt\n    ickenegativt heltal),\n  - avslutas med en specificerare\n      - ”%c”, som skriver ett tecken,\n      - ”%c”, som skriver en sträng,\n      - ”%c”, ”%c”, som skriver ett heltal,\n      - ”%c”, ”%c”, ”%c”, ”%c”, som skriver ett teckenlöst (ickenegativt) heltal,\n      - ”%c”, ”%c”, som skriver ett flyttal i vetenskaplig notation,\n      - ”%c”, ”%c”, som skriver ett flyttal utan exponent,\n      - ”%c”, ”%c”, som skriver ett flyttal i allmän notation,\n      - ”%c”, ”%c”, som skriver ett flyttal i hexadecimal notation.\nDessutom finns direktivet ”%s”, som skriver ett ensamt ”%c”.\n"
 
 #. from tp:gettext-runtime-1.0-pre2
 msgid "If a directive specifies the argument by its number ('%s' notation),\nall directives that consume an argument must do so.\n"
@@ -78488,7 +78488,7 @@ msgstr "Översättningen av formatsträngen slås upp i översättningsdomänen\
 
 #. from tp:gettext-runtime-1.0-pre2
 msgid "It is looked up in the catalogs directory given by the environment variable\n%s or, if not present, in the default catalogs directory.\nThis binary is configured to use the default catalogs directory:\n%s\n"
-msgstr "Den slås upp i katalogmappen som ges av miljövariabeln\n%s eller, om den inte finns, i standardkatalogmappen.\nDenna binär är konfigurerad att använda standardkatalogmappen:\n%s\n"
+msgstr "Den slås upp i katalogen som anges av miljövariabeln\n%s eller, om den inte finns, i standardkatalogen.\nDen här binärfilen är konfigurerad att använda standardkatalogen:\n%s\n"
 
 #. from tp:gettext-runtime-1.0-pre2
 msgid "Usage: %s [OPTION] FORMAT FORMAT-PLURAL COUNT [ARGUMENT]...\n"
@@ -78532,7 +78532,7 @@ msgstr "Användning: %s [FLAGGA…] [LOKALREGLER]…\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Extract or convert Unicode CLDR plural rules.\n\nIf both LOCALE and RULES are specified, it reads CLDR plural rules for\nLOCALE from RULES and print them in a form suitable for gettext use.\nIf no argument is given, it reads CLDR plural rules from the standard input.\n"
-msgstr "Extrahera eller konvertera Unicode CLDR plural-regler.\n\nOm både LOKAL och REGLER anges, läser den CLDR plural-regler för\nLOKAL från REGLER och skriv dem i en form som passar för gettext att använda.\nOm inget argument anges, läser den CLDR plural-regler från standard in.\n"
+msgstr "Extrahera eller konvertera Unicode CLDR-pluralregler.\n\nOm både LOKAL och REGLER anges läser programmet CLDR-pluralregler för LOKAL från REGLER och skriver dem i en form som gettext kan använda.\nOm inget argument anges läser programmet CLDR-pluralregler från standardindata.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Mandatory arguments to long options are mandatory for short options too.\nSimilarly for optional arguments.\n"
@@ -78780,7 +78780,7 @@ msgstr "Citatgruppen som öppnades av direktiv nummer %zu är inte avslutad."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "The color group opened by the directive number %zu is not terminated."
-msgstr "Färgruppen som öppnades av direktiv nummer %zu är inte avslutad."
+msgstr "Färggruppen som öppnades av direktiv nummer %zu är inte avslutad."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "The URL group opened by the directive number %zu is not terminated."
@@ -78832,7 +78832,7 @@ msgstr "Strängen refererar till argument nummer %zu på inkompatibla sätt."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "In the directive number %zu, the substring \"%s\" is not a valid date/time style."
-msgstr "I direktiv nummer %zu är delsträngen \"%s\" inte en giltig datum/tid-stil."
+msgstr "I direktiv nummer %zu är delsträngen ”%s” inte en giltig datum-/tidsstil."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "In the directive number %zu, \"%s\" is not followed by a comma."
@@ -78840,7 +78840,7 @@ msgstr "I direktiv nummer %zu följs inte \"%s\" av ett komma."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "In the directive number %zu, the substring \"%s\" is not a valid number style."
-msgstr "I direktiv nummer %zu är delsträngen \"%s\" inte en giltig nummerstil."
+msgstr "I direktiv nummer %zu är delsträngen ”%s” inte en giltig talstil."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "In the directive number %zu, the argument number is not followed by a comma and one of \"%s\", \"%s\", \"%s\", \"%s\"."
@@ -78848,7 +78848,7 @@ msgstr "I direktiv nummer %zu följs inte argumentnumret av ett komma och en av 
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "In the directive number %zu, a choice contains no number."
-msgstr "I direktiv nummer %zu innehåller ett val inga nummer."
+msgstr "I direktiv nummer %zu innehåller ett val inget tal."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "In the directive number %zu, a choice contains a number that is not followed by '<', '#' or '%s'."
@@ -78948,7 +78948,7 @@ msgstr "I direktiv nummer %zu kan inte \"%c\" inleda ett getattr-argument."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "In the directive number %zu, a getattr argument starts with a character that is not alphabetical or underscore."
-msgstr "I direktiv nummer %zu börjar ett getattr-argument med ett tecken som inte är alfanumeriskt eller understrykningstecken."
+msgstr "I direktiv nummer %zu börjar ett getattr-argument med ett tecken som varken är en bokstav eller ett understreck."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "In the directive number %zu, '%c' cannot start a getitem argument."
@@ -78956,7 +78956,7 @@ msgstr "I direktiv nummer %zu kan inte \"%c\" inleda ett getitem-argument."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "In the directive number %zu, a getitem argument starts with a character that is not alphanumerical or underscore."
-msgstr "I direktiv nummer %zu börjar ett getitem-argument med ett tecken som inte är alfanumeriskt eller understrykningstecken."
+msgstr "I direktiv nummer %zu börjar ett getitem-argument med ett tecken som varken är alfanumeriskt eller ett understreck."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "In the directive number %zu, there is an unterminated getitem argument."
@@ -78968,7 +78968,7 @@ msgstr "I direktiv nummer %zu kan inte \"%c\" inleda ett fältnamn."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "In the directive number %zu, a field name starts with a character that is not alphanumerical or underscore."
-msgstr "I direktiv nummer %zu börjar ett fältnamn med ett tecken som inte är alfanumeriskt eller understrykningstecken."
+msgstr "I direktiv nummer %zu börjar ett fältnamn med ett tecken som varken är alfanumeriskt eller ett understreck."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "In the directive number %zu, no more nesting is allowed in a format specifier."
@@ -79120,7 +79120,7 @@ msgstr "kan inte skapa XPath-kontext"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "cannot evaluate XPath expression: %s"
-msgstr "kan inte evaluera XPath-uttryck: %s"
+msgstr "Kan inte utvärdera XPath-uttryck: %s"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "\"%s\" node does not contain \"%s\""
@@ -79140,7 +79140,7 @@ msgstr "kan inte läsa %s: %s"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "cannot evaluate XPath location path: %s"
-msgstr "kan inte evaluera XPath-platssökväg: %s"
+msgstr "Kan inte utvärdera XPath-platssökväg: %s"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "cannot find attribute %s on %s"
@@ -79164,7 +79164,7 @@ msgstr "rotelementet är inte ”locatingRules”"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "at most one input file allowed"
-msgstr "högst en infil tillåten"
+msgstr "Högst en indatafil är tillåten"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "%s and %s are mutually exclusive"
@@ -79192,7 +79192,7 @@ msgstr "  -D, --directory=KATALOG     sök infiler även i KATALOG\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "If no input file is given or if it is -, standard input is read.\n"
-msgstr "Om ingen infil är angiven eller om den är -, läses standard in.\n"
+msgstr "Om ingen indatafil anges eller om den är - läses standardindata.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Output file location:\n"
@@ -79204,7 +79204,7 @@ msgstr "  -o, --output-file=FIL       skriv resultat till angiven fil\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "The results are written to standard output if no output file is specified\nor if it is -.\n"
-msgstr "Resultatet skrivs till standard ut om ingen utfil anges eller om den är -.\n"
+msgstr "Resultatet skrivs till standardutdata om ingen utdatafil anges eller om den är -.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Message selection:\n"
@@ -79380,7 +79380,7 @@ msgstr "  -f, --files-from=FIL        läs lista av infiler från FIL\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "If input file is -, standard input is read.\n"
-msgstr "Om infil är - läses standard in.\n"
+msgstr "Om indatafilen är - läses standardindata.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  -<, --less-than=NUMBER      print messages with less than this many\n                              definitions, defaults to infinite if not set\n"
@@ -79432,7 +79432,7 @@ msgstr "Användning: %s [FLAGGA] def.po ref.pot\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Compare two Uniforum style .po files to check that both contain the same\nset of msgid strings.  The def.po file is an existing PO file with the\ntranslations.  The ref.pot file is the last created PO file, or a PO Template\nfile (generally created by xgettext).  This is useful for checking that\nyou have translated each and every message in your program.  Where an exact\nmatch cannot be found, fuzzy matching is used to produce better diagnostics.\n"
-msgstr "Jämför två .po-filer av Uniforum-typ för att kontrollera att de innehåller\nsamma uppsättning id-strängar.  Filen def.po är en existerande PO-fil med de\ngamla översättningarna.  Filen ref.po är den senast skapade PO-filen eller\nen PO-mönsterfil (i allmänhet skapad av xgettext).\nDetta är användbart för att kontrollera att du har översatt alla strängar i\nprogrammet.  Om en exakt likhet inte kan hittas används luddig jämförelse \nför att ge bättre felmeddelanden.\n"
+msgstr "Jämför två .po-filer av Uniforum-typ för att kontrollera att de innehåller samma uppsättning msgid-strängar. Filen def.po är en befintlig PO-fil med översättningarna. Filen ref.pot är den senast skapade PO-filen eller en PO-mallfil (vanligen skapad av xgettext). Detta är användbart för att kontrollera att du har översatt varje meddelande i programmet. Om en exakt träff inte kan hittas används luddig matchning för att ge bättre diagnoser.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  def.po                      translations\n"
@@ -79448,7 +79448,7 @@ msgstr "Bearbetningsvarianter:\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  -m, --multi-domain          apply ref.pot to each of the domains in def.po\n"
-msgstr "  -m, --multi-domain          tillämpa ref.pot till alla domäner i def.po\n"
+msgstr "  -m, --multi-domain          tillämpa ref.pot på var och en av domänerna i def.po\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  -N, --no-fuzzy-matching     do not use fuzzy matching\n"
@@ -79532,7 +79532,7 @@ msgstr "      --strict                strikt Uniforum-format på resultatet\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "no input file given"
-msgstr "inga infiler givna"
+msgstr "Ingen indatafil angavs"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "exactly one input file required"
@@ -79560,11 +79560,11 @@ msgstr "Användning: %s [FLAGGA] KOMMANDO [KOMMANDOFLAGGOR]\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Applies a command to all translations of a translation catalog.\nThe COMMAND can be any program that reads a translation from standard\ninput.  It is invoked once for each translation.  Its output becomes\nmsgexec's output.  msgexec's return code is the maximum return code\nacross all invocations.\n"
-msgstr "Tillämpa ett kommando på alla översättningar i en meddelandekatalog.\nKOMMANDO kan vara vilket program som helst som läser ett meddelande från\nstandard in.  Det körs en gång för varje meddelande.  Utdata från KOMMANDO\nblir utdata från msgexec.  Slutstatusvärdet för msgexec är det maximala\nslutstatusvärdet för alla kommandokörningar.\n"
+msgstr "Tillämpa ett kommando på alla översättningar i en meddelandekatalog.\nKOMMANDO kan vara vilket program som helst som läser en översättning från\nstandardindata. Det körs en gång för varje översättning. Dess utdata blir\nmsgexecs utdata. Msgexecs slutstatus är den högsta slutstatusen från alla\nkörningar.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "A special builtin command called '0' outputs the translation, followed by a\nnull byte.  The output of \"msgexec 0\" is suitable as input for \"xargs -0\".\n"
-msgstr "Ett speciellt inbyggt kommando som heter \"0\" skriver ut meddelandet följt\nav ett nolltecken.  Utdata för \"msgexec 0\" är lämpligt som indata för\n\"xargs -O\"\n"
+msgstr "Ett särskilt inbyggt kommando med namnet ”0” skriver ut översättningen följd av en nollbyte. Utdata från ”msgexec 0” kan användas som indata för ”xargs -0”.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Command input:\n"
@@ -79580,7 +79580,7 @@ msgstr "  -i, --input=INFIL           PO-infil\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "write to stdout failed"
-msgstr "skrivning till standard ut misslyckades"
+msgstr "Skrivning till standardutdata misslyckades"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "write to %s subprocess failed"
@@ -79604,7 +79604,7 @@ msgstr "Tillämpar ett filter på alla översättningar i en meddelandekatalog.\
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "The FILTER can be any program that reads a translation from standard input\nand writes a modified translation to standard output.\n"
-msgstr "FILTER kan vara vilket program som helst som läser en översättning från\nstandard in och skriver den modifierade översättningen till standard ut.\n"
+msgstr "FILTER kan vara vilket program som helst som läser en översättning från\nstandardindata och skriver den ändrade översättningen till standardutdata.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Filter input and output:\n"
@@ -79640,7 +79640,7 @@ msgstr "      --indent                indentera resultatet\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "      --keep-header           keep header entry unmodified, don't filter it\n"
-msgstr "      --keep-header           bevara huvudrader oförändrade, filtrera dem inte\n"
+msgstr "Bevara huvudposten oförändrad; filtrera den inte\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "filter output is not terminated with a newline"
@@ -79748,7 +79748,7 @@ msgstr "      --strict                strikt Uniforum-format på resultatet\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "If output file is -, output is written to standard output.\n"
-msgstr "Om utfilen är - skrivs resultatet till standard ut.\n"
+msgstr "Om utdatafilen är - skrivs resultatet till standardutdata.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Output file location in Java mode:\n"
@@ -79840,7 +79840,7 @@ msgstr "Tolkning av infil:\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  -c, --check                 perform all the checks implied by\n                                --check-format, --check-header, --check-domain\n"
-msgstr "  -c, --check                 utför alla kontroller som bestäms av\n                                --check-format, --check-header, --check-domain\n"
+msgstr "  -c, --check                 utför alla kontroller som innebär\n                                --check-format, --check-header, --check-domain\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "      --check-format          check language dependent format strings\n"
@@ -79876,7 +79876,7 @@ msgstr "      --no-redundancy         förexpandera inte ISO C 99 <inttypes.h>\n
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  -a, --alignment=NUMBER      align strings to NUMBER bytes (default: %d)\n"
-msgstr "  -a, --alignment=TAL         lägg strängar på jämna TAL byte (normalt: %d)\n"
+msgstr "  -a, --alignment=TAL         justera strängar till TAL byte (normalt: %d)\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "      --endianness=BYTEORDER  write out 32-bit numbers in the given byte order\n                                (big or little, default depends on platform)\n"
@@ -79936,7 +79936,7 @@ msgstr "%s finns men kan inte läsas"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "option '%c' cannot be used before 'J' or 'K' or 'T' or 'C' or 'X' has been specified"
-msgstr "flagga \"%c\" kan inte användas förrän \"J\", \"K\", \"T\" \"C\" eller \"X\" angivits"
+msgstr "Flaggan ”%c” kan inte användas innan ”J”, ”K”, ”T”, ”C” eller ”X” har angetts"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Extracts all messages of a translation catalog that match a given pattern\nor belong to some given source files.\n"
@@ -79976,7 +79976,7 @@ msgstr "  -i, --input=INFIL           POT-infil\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "If no input file is given, the current directory is searched for the POT file.\nIf it is -, standard input is read.\n"
-msgstr "Om ingen infil ges söks POT-filen i aktuell katalog.\nOm den är - läses standard in.\n"
+msgstr "Om ingen indatafil anges söks POT-filen i den aktuella katalogen.\nOm den är - läses standardindata.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  -o, --output-file=FILE      write output to specified PO file\n"
@@ -79984,7 +79984,7 @@ msgstr "  -o, --output-file=FIL       skriv resultatet till den givna PO-filen\n
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "If no output file is given, it depends on the --locale option or the user's\nlocale setting.\nIf the output file already exists, it is merged with the input file,\nas if through '%s'.\nIf it is -, the results are written to standard output.\n"
-msgstr "Om ingen utfil ges beror den på flaggan --locale eller användarens\nlokalinställning.\nOm utdatafilen redan finns slås den samman med indatafilen, som\nvia ”%s”.\nOm den är - skrivs resultatet till standard ut.\n"
+msgstr "Om ingen utdatafil anges beror den på flaggan --locale eller användarens lokalinställning.\nOm utdatafilen redan finns slås den samman med indatafilen, som om ”%s” hade använts.\nOm den är - skrivs resultatet till standardutdata.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  -l, --locale=LL_CC[.ENCODING]  set target locale\n"
@@ -80092,7 +80092,7 @@ msgstr "- Konvertera meddelandekatalogen till %s med \"msgconv\",\n  tillämpa d
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "- Set LC_ALL to a locale with encoding %s,\n  convert the translation catalog to %s using 'msgconv',\n  then apply '%s',\n  then convert back to %s using 'msgconv'.\n"
-msgstr "- Sätt LC_ALL till en lokal med kodning %s,\n  konvertera meddelandekatalogen till %s med \"msgconv\",\n  tillämpa därefter \"%s\"\n  konvertera sedan tillbaka till %s med \"msgconv\".\n"
+msgstr "- Sätt LC_ALL till en lokal med kodning %s,\n  konvertera meddelandekatalogen till %s med ”msgconv”,\n  tillämpa därefter ”%s”,\n  konvertera sedan tillbaka till %s med ”msgconv”.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Locale charset \"%s\" is not a portable encoding name.\nOutput of '%s' might be incorrect.\nA possible workaround is to set LC_ALL=C.\n"
@@ -80104,11 +80104,11 @@ msgstr "pluraluttryck kan ge division med noll"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "plural expression can produce integer overflow"
-msgstr "pluraluttryck kan ge heltalsspill"
+msgstr "Pluraluttryck kan ge heltalsöverflöde"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "plural expression can produce stack overflow"
-msgstr "pluraluttryck kan ge stackspill"
+msgstr "Pluraluttryck kan ge stacköverflöde"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "plural expression can produce negative values"
@@ -80128,7 +80128,7 @@ msgstr "meddelandekatalog har översättningar med pluralform"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "but header entry lacks a \"plural=EXPRESSION\" attribute"
-msgstr "men huvudrader saknar attribut av typ \"plurals=UTTRYCK\""
+msgstr "Men huvudposten saknar attributet ”plural=UTTRYCK”"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "but header entry lacks a \"nplurals=INTEGER\" attribute"
@@ -80228,7 +80228,7 @@ msgstr "detta meddelande ska inte definiera pluralformer"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "%sRead %ld old + %ld reference, merged %ld, fuzzied %ld, missing %ld, obsolete %ld.\n"
-msgstr "%sLäste %ld gamla + %ld referenser, %ld sammanslagna, %ld luddiga, %ld saknade, %ld föråldrade.\n"
+msgstr "%sLäste %ld gamla och %ld referenser, slog ihop %ld, markerade %ld som luddiga, saknade %ld, föråldrade %ld.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid " done.\n"
@@ -80244,7 +80244,7 @@ msgstr "Slår samman två .po-filer av Uniforum-typ.  Filen def.po är en\nexist
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  def.po                      translations referring to old sources\n"
-msgstr "  def.po                      översättningar som refererar till gamla källkoden\n"
+msgstr "  def.po                      översättningar som refererar till gamla källor\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  ref.pot                     references to new sources\n"
@@ -80280,7 +80280,7 @@ msgstr "Versionshanteringen kan styras med --backup eller miljövariabeln\nVERSI
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "The backup suffix is '~', unless set with --suffix or the SIMPLE_BACKUP_SUFFIX\nenvironment variable.\n"
-msgstr "Suffix för säkerhetskopior är \"~\", om den inte sätts med --suffix eller\nmiljövariabeln SIMPLE_BACKUP_SUFFIX.\n"
+msgstr "Suffixet för säkerhetskopior är ”~”, om det inte anges med --suffix eller miljövariabeln SIMPLE_BACKUP_SUFFIX.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "      --for-msgfmt            produce output for '%s', not for a translator\n"
@@ -80348,7 +80348,7 @@ msgstr "  -m, --model=MODELL          Anger modellen som skall användas.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "      --prompt=TEXT           Specifies the prompt to use before standard input.\n"
-msgstr "      --prompt=TEXT          Anger prompt:en som skall användas före standard in.\n"
+msgstr "      --prompt=TEXT           Anger prompten som ska användas före standardindata.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "      --postprocess=COMMAND   Specifies a command to post-process the output.\n"
@@ -80396,7 +80396,7 @@ msgstr "Plats för infil i C#-läge:\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "The -l and -d options are mandatory.  The .dll file is located in a\nsubdirectory of the specified directory whose name depends on the locale.\n"
-msgstr "Flaggorna -l och -d är obligatoriska.  .dll-filen placeras i en\nunderkatalog till den givna katalogen vars namn beror på lokalen.\n"
+msgstr "Flaggorna -l och -d är obligatoriska. .dll-filen finns i en underkatalog till den angivna katalogen vars namn beror på lokalen.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Input file location in Tcl mode:\n"
@@ -80428,7 +80428,7 @@ msgstr "  -u, --unique                skriv bara unika meddelanden, duplikat kas
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "<stdin>"
-msgstr "<standard in>"
+msgstr "<standardindata>"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "this file may not contain domain directives"
@@ -80488,7 +80488,7 @@ msgstr "filen ”%s” är inte i GNUs .mo-format: hash-tabellstorleken är fela
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "file \"%s\" is not in GNU .mo format: The hash table contains invalid entries."
-msgstr "filen ”%s” är inte på GNUs .mo-format: hash-tabellen innehåller felaktiga poster."
+msgstr "Filen ”%s” är inte i GNU:s .mo-format: hash-tabellen innehåller felaktiga poster."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "file \"%s\" is not in GNU .mo format: Some messages are not present in the hash table."
@@ -80628,11 +80628,11 @@ msgstr "Danilo Šegan"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Recode Serbian text from Cyrillic to Latin script.\n"
-msgstr "Omkoda serbisk text från kyrillisk till latinsk kodning.\n"
+msgstr "Omkoda serbisk text från kyrillisk till latinsk skrift.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "The input text is read from standard input.  The converted text is output to\nstandard output.\n"
-msgstr "Indatatexten läses från standard in. Den konverterade texten skrivs till\nstandard ut.\n"
+msgstr "Indatatexten läses från standardindata. Den konverterade texten skrivs till standardutdata.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "input is not valid in \"%s\" encoding"
@@ -80656,7 +80656,7 @@ msgstr "curl-fel %u: %s"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Passes standard input to a Large Language Model (LLM) instance and prints\nthe response.\nWith the %s option, it translates standard input to the specified language\nthrough a Large Language Model (LLM) and prints the translation.\n"
-msgstr "Skickar standard in till en instans av en stor språkmodell (Large Language\nModel,(LLM) och skriver ut svaret.\nMed flaggan %s översätter den standard in till det angivna språket genom en\nstor språkmodell (Large Language Model, LLM) och skriver ut översättningen.\n"
+msgstr "Skickar standardindata till en instans av en stor språkmodell (LLM) och skriver ut svaret.\nMed flaggan %s översätter den standardindata till det angivna språket genom en stor språkmodell (LLM) och skriver ut översättningen.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Warning: The output might not be what you expect.\nIt might be of the wrong form, be of poor quality, or reflect some biases.\n"
@@ -80672,7 +80672,7 @@ msgstr "      --to=SPRÅK              Anger målspråket.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "      --prompt=TEXT           Specifies the prompt to use before standard input.\n                              This option overrides the --to option.\n"
-msgstr "      --prompt=TEXT           Anger prompt:en som skall användas före standard in.\n                              Denna flagga åsidosätter flaggan --to.\n"
+msgstr "      --prompt=TEXT           Anger prompten som ska användas före standardindata.\n                              Denna flagga åsidosätter flaggan --to.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  -h, --help                  Display this help and exit.\n"
@@ -80684,7 +80684,7 @@ msgstr "  -V, --version               Visa versionsinformation och avsluta.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "error reading standard input"
-msgstr "fel när standard in lästes"
+msgstr "Fel vid läsning av standardindata"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "expected two arguments"
@@ -80696,7 +80696,7 @@ msgstr "Användning: %s [FLAGGA] URL FIL\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Fetches and outputs the contents of an URL.  If the URL cannot be accessed,\nthe locally accessible FILE is used instead.\n"
-msgstr "Hämtar och skriver ut innehållet på URL.  Om URL inte kan hämtas används\nden lokala filen FIL istället.\n"
+msgstr "Hämtar och skriver ut innehållet från en URL. Om URL:en inte kan nås används den lokalt tillgängliga filen FIL i stället.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "error reading \"%s\""
@@ -80704,7 +80704,7 @@ msgstr "fel uppstod då \"%s\" lästes"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "error writing stdout"
-msgstr "fel vid skrivning till standard ut"
+msgstr "Fel vid skrivning till standardutdata"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "error after reading \"%s\""
@@ -80928,7 +80928,7 @@ msgstr "filen ”%s” stödjs inte eftersom den är för stor"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "file \"%s\" is unsupported because not UTF-8 or UTF-16 or UTF-32 encoded"
-msgstr "filen ”%s” stödjs inte eftersom den inte är UTF-8- eller UTF-16 eller UTF-32-kodad"
+msgstr "Filen ”%s” stöds inte eftersom den varken är UTF-8-, UTF-16- eller UTF-32-kodad"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "too deeply nested escape sequence"
@@ -80956,7 +80956,7 @@ msgstr "kontexten stämmer inte överens mellan singular- och pluralformen"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "ASCII ellipsis ('...') instead of Unicode"
-msgstr "ASCII-ellips (”...”) istället för Unicode"
+msgstr "ASCII-ellips (”...”) används i stället för Unicode"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "space before ellipsis found in user visible string"
@@ -81028,7 +81028,7 @@ msgstr "meningens sluttyp ”%s” okänd"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "--join-existing cannot be used when output is written to stdout"
-msgstr "--join-existing kan inte användas då resultatet skrivs till standard ut"
+msgstr "--join-existing kan inte användas när resultatet skrivs till standardutdata"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "xgettext cannot work without keywords to look for"
@@ -81088,7 +81088,7 @@ msgstr "      --from-code=NAMN        kodning av infiler\n                      
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "By default the input files are assumed to be in ASCII.\n"
-msgstr "Normalt antas att filer är i ASCII-format.\n"
+msgstr "Som standard antas indatafilerna vara ASCII-kodade.\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  -j, --join-existing         join messages with existing file\n"
@@ -81096,7 +81096,7 @@ msgstr "  -j, --join-existing         slå ihop meddelanden med existerande fil\
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  -x, --exclude-file=FILE.po  entries from FILE.po are not extracted\n"
-msgstr "  -x, --exclude-file=FIL.po   rader från FIL tas inte ut\n"
+msgstr "  -x, --exclude-file=FIL.po   poster från FIL.po extraheras inte\n"
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "  -cTAG, --add-comments=TAG   place comment blocks starting with TAG and\n                                preceding keyword lines in output file\n  -c, --add-comments          place all comment blocks preceding keyword lines\n                                in output file\n"
@@ -81264,15 +81264,15 @@ msgstr "Tomt msgid. Det är reserverat av GNU gettext:\ngettext(\"\") returnerar
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "%s%s: Here is the occurrence without plural."
-msgstr "%s%s: här finns förekomsten utan plural."
+msgstr "%s%s: Här finns förekomsten utan plural."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "%s%s: Here is the occurrence with plural."
-msgstr "%s%s: här finns förekomsten med plural."
+msgstr "%s%s: Här finns förekomsten med plural."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "Workaround: If the msgid is a sentence, change the wording of the sentence; otherwise, use contexts for disambiguation."
-msgstr "Sätt att gå runt: om msgid:n är en mening, ändra ordalydelsen i meningen; annars, använd kontexter för att särskilja."
+msgstr "Lösning: Om msgid är en mening, ändra meningen; använd annars kontexter för att skilja betydelser åt."
 
 #. from tp:gettext-tools-1.0-pre2
 msgid "lone surrogate U+%04X"
@@ -448576,7 +448576,7 @@ msgstr "Kubens storlek:"
 
 #. from tp:gnubik-2.4.3
 msgid "Re_gular cube"
-msgstr "_Vanlig kub"
+msgstr "Va_nlig kub"
 
 #. from tp:gnubik-2.4.3
 msgid "Sets the number of blocks in each side"
@@ -448588,7 +448588,7 @@ msgstr "Tillåt bara kuber med alla sidor i samma storlek"
 
 #. from tp:gnubik-2.4.3
 msgid "A 3 dimensional magic cube puzzle"
-msgstr "Ett tredimensionellt magisk-kub-pussel"
+msgstr "Ett tredimensionellt pussel med en magisk kub"
 
 #. from tp:gnubik-2.4.3
 msgid "Initial position"
@@ -448624,7 +448624,7 @@ msgstr "Vy från höger"
 
 #. from tp:gnubik-2.4.3
 msgid "A mark is now set at position %d."
-msgstr "Ett märke är nu satt på position %d."
+msgstr "Ett märke är nu placerat på position %d."
 
 #. from tp:gnubik-2.4.3
 msgid "Moves: %d / %d"
@@ -448632,7 +448632,7 @@ msgstr "Vridningar: %d / %d"
 
 #. from tp:gnubik-2.4.3
 msgid "Cube is NOT solved! The colours are correct,  but have incorrect orientation"
-msgstr "Kuben är INTE löst! Färgerna är korrekta men har inkorrekt orientering"
+msgstr "Kuben är INTE löst! Färgerna är korrekta men har fel orientering"
 
 #. from tp:gnubik-2.4.3
 msgid "_Game"
@@ -448728,7 +448728,7 @@ msgstr "Gnubik-fel"
 
 #. from tp:gnubik-2.4.3
 msgid "A sample of the colour. You can click and select a new colour, or drag one to this space."
-msgstr "Ett test av färgen. Du kan klicka och välja en ny färg, eller dra en till denna ruta."
+msgstr "Ett färgprov. Du kan klicka och välja en ny färg eller dra en till den här rutan."
 
 #. from tp:gnubik-2.4.3
 msgid "Pixbuf has wrong number of channels"
@@ -448832,23 +448832,23 @@ msgstr "Syntax för att lägga till en ny bok är:\n\n	book add fil.pgn\n"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid "Book is now on.\n"
-msgstr "Bok är nu på.\n"
+msgstr "Öppningsboken är nu på.\n"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid "Book is now off.\n"
-msgstr "Bok är nu av.\n"
+msgstr "Öppningsboken är nu av.\n"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid "Book is now best.\n"
-msgstr "Bok är nu bästa.\n"
+msgstr "Öppningsboken använder nu bästa drag.\n"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid "Book is now worst.\n"
-msgstr "Bok är nu sämsta.\n"
+msgstr "Öppningsboken använder nu sämsta drag.\n"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid "Book is now random.\n"
-msgstr "Bok är nu slumpmässig.\n"
+msgstr "Öppningsboken använder nu slumpmässiga drag.\n"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid "Incorrect book option: '%s'.\n"
@@ -448944,7 +448944,7 @@ msgstr "Kommandot ”random” stöds för närvarande inte.\n"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid "my rating = %d, opponent rating = %d\n"
-msgstr "min ranking = %d, motståndarranking = %d\n"
+msgstr "Mitt ratingtal = %d, motståndarens ratingtal = %d\n"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid "No moves to undo!\n"
@@ -449024,7 +449024,7 @@ msgstr "Drag accepteras antingen i algebraisk standardnotation (SAN)\neller i ko
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid "The file 'gnuchess.ini' allows setting configuration options, but it is\nignored if the --uci option is used. See 'info gnuchess' for details\nabout the options. The program will look for 'gnuchess.ini' in\n$XDG_CONFIG_HOME/gnuchess/ and $HOME/.config/gnuchess/ in that order,\nand it will use the first one it finds, if any.\n\n"
-msgstr "Filen ”gnuchess.ini” tillåter inställning av konfigurationsflaggor, men\nignoreras om flaggan --uci används. Se ”info gnuchess” för detaljer\nom flaggorna. Programmet kommer söka ”gnuchess.ini” i\n$XDG_CONFIG_HOME/gnuchess/ och $HOME/.config/gnuchess/ i den ordningen,\noch kommer använda den första den hittar, om någon.\n\n"
+msgstr "Filen ”gnuchess.ini” gör det möjligt att ange konfigurationsflaggor, men ignoreras om flaggan --uci används. Se ”info gnuchess” för information om flaggorna. Programmet söker efter ”gnuchess.ini” i $XDG_CONFIG_HOME/gnuchess/ och $HOME/.config/gnuchess/ i den ordningen och använder den första fil som hittas.\n\n"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid "Report bugs to: <bug-gnu-chess@gnu.org>.\n"
@@ -449096,7 +449096,7 @@ msgstr " Producerar en hjälptext som motsvarar denna lista över kommandon."
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid " add FILENAME - compiles book.bin from pgn book FILENAME"
-msgstr " add FILNAMN - kompilerar book.bin från en pgn-boken FILNAMN"
+msgstr " add FILNAMN - kompilerar book.bin från en PGN-öppningsbok i FILNAMN"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid " on - enables use of book (default)"
@@ -449220,7 +449220,7 @@ msgstr " on - aktiverar användning av nolldragssökning för att snabba upp sö
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid " off - disables using the null-move heuristic"
-msgstr " on - inaktiverar användning av nolldragssökning"
+msgstr " off - inaktiverar användning av nolldragssökning"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid " on - enables use of xboard/winboard"
@@ -449292,7 +449292,7 @@ msgstr " capture - visar drag som tar en pjäs"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid " eval [or score] - shows the evaluation per piece and overall"
-msgstr " eval [eller score] - visar evalueringen per pjäs och sammanlagt"
+msgstr " eval [eller score] - visar utvärderingen för varje pjäs och totalt"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid " game - shows moves in game history"
@@ -449308,7 +449308,7 @@ msgstr " movelist - läser in en epd-fil och visar tillåtna drag för dess post
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid " capture - reads in an epd file and shows legal captures for its entries"
-msgstr " capture - läser in en epd-fil och visar tillåtet tagande för dess poster"
+msgstr " capture - läser in en EPD-fil och visar tillåtna slag för dess poster"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid " movegenspeed - tests speed of move generator"
@@ -449340,11 +449340,11 @@ msgstr " Inaktiverar grafiskt läge och visar klassiskt läge."
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid " Displays the chessboard rank and file in both graphic and classical views."
-msgstr " Visar raden och linjen för schackbrädet både i grafiskt och klassiskt läge."
+msgstr " Visar schackbrädets rader och linjer i både grafiskt och klassiskt läge."
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid " Does not display the chessboard rank nor file in either mode (graphic nor classical)."
-msgstr " Visar inte raden eller linjen för schackbrädet i någotdera läge (grafiskt eller klassiskt)."
+msgstr " Visar varken schackbrädets rader eller linjer i något av lägena (grafiskt eller klassiskt)."
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid "Help for command '%s' not found.\n\n"
@@ -449356,7 +449356,7 @@ msgstr "Lista över kommandon: (help KOMMANDO för mer hjälp)\n"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid "\nMy move is : %s\n"
-msgstr "\nMitt drag är : %s\n"
+msgstr "\nMitt drag är: %s\n"
 
 #. from tp:gnuchess-6.3.0-pre2
 msgid "File '%s' already exists. Please delete it first, or choose a different file name.\n"
@@ -449460,7 +449460,7 @@ msgstr "duplicerad DEFINE ”%s” - överhoppad"
 
 #. from tp:gnucobol-3.2
 msgid "environment variable '%s' is '%s'; should not contain '%c'"
-msgstr "miljövariabel ”%s” är ”%s”; borde innehålla ”%c”"
+msgstr "miljövariabeln ”%s” är ”%s”; får inte innehålla ”%c”"
 
 #. from tp:gnucobol-3.2
 msgid "parameter buffer size exceeded"
@@ -449652,7 +449652,7 @@ msgstr "%s-flagga kräver en listningsfil"
 
 #. from tp:gnucobol-3.2
 msgid "output to stdout only valid for preprocess"
-msgstr "utmatning till standard ut är bara giltig för förbehandling"
+msgstr "Utdata till standardutdata är endast giltig för förbehandling"
 
 #. from tp:gnucobol-3.2
 msgid "-MT must be given to specify target file"
@@ -449664,7 +449664,7 @@ msgstr "alla körtidskontroller är aktiverade"
 
 #. from tp:gnucobol-3.2
 msgid "only one stdin input allowed"
-msgstr "endast en standard in inmatning tillåts"
+msgstr "Endast en indata från standardindata är tillåten"
 
 #. from tp:gnucobol-3.2
 msgid "invalid file name parameter (length > %d)"
@@ -449688,7 +449688,7 @@ msgstr "miljön tolkar %s som: %s"
 
 #. from tp:gnucobol-3.2
 msgid "preprocessing:"
-msgstr "preprocessar:"
+msgstr "förbehandling:"
 
 #. from tp:gnucobol-3.2
 msgid "'cobxref' execution unsuccessful"
@@ -449700,7 +449700,7 @@ msgstr "kontrollera att ”cobxref” finns i %s"
 
 #. from tp:gnucobol-3.2
 msgid "no listing produced"
-msgstr "ingen listning producerad"
+msgstr "Ingen listning skapades"
 
 #. from tp:gnucobol-3.2
 msgid "No fields defined."
@@ -449744,7 +449744,7 @@ msgstr "%d fel i kompileringsgrupp"
 
 #. from tp:gnucobol-3.2
 msgid "Too many errors in compilation group: %d maximum errors"
-msgstr "För många fel i kompileringsgrupp: %d fel som mest"
+msgstr "För många fel i kompileringsgruppen: högst %d fel"
 
 #. from tp:gnucobol-3.2
 msgid "%s:%d: too many continuation lines"
@@ -449764,11 +449764,11 @@ msgstr "%s-flagga ogiltig i denna kombination"
 
 #. from tp:gnucobol-3.2
 msgid "unexpected CONSTANT item"
-msgstr "okänt CONSTANT-objekt"
+msgstr "Oväntat CONSTANT-objekt"
 
 #. from tp:gnucobol-3.2
 msgid "unexpected cast type: %d"
-msgstr "okänd typkonverteringstyp: %d"
+msgstr "Oväntad typkonverteringstyp: %d"
 
 #. from tp:gnucobol-3.2
 msgid "internal statement stack depth exceeded: %d"
@@ -449816,7 +449816,7 @@ msgstr "ogiltigt värde ”%s” för konfigurationstagg ”%s”"
 
 #. from tp:gnucobol-3.2
 msgid "should be one of the following values: %s"
-msgstr "borde vara endera av följande värden: %s"
+msgstr "Ska vara ett av följande värden: %s"
 
 #. from tp:gnucobol-3.2
 msgid "must be numeric"
@@ -450104,7 +450104,7 @@ msgstr "SYNCHRONIZED-klausul"
 
 #. from tp:gnucobol-3.2
 msgid "LEFT/RIGHT phrases in SYNCHRONIZED clause"
-msgstr "LEFT/RIGHT-frase i SYNCHRONIZED-klausul"
+msgstr "LEFT/RIGHT-fraser i SYNCHRONIZED-klausulen"
 
 #. from tp:gnucobol-3.2
 msgid "SPECIAL-NAMES clause"
@@ -450296,7 +450296,7 @@ msgstr "RECORD DELIMITER-klausul"
 
 #. from tp:gnucobol-3.2
 msgid "BINARY-SEQUENTIAL and LINE-SEQUENTIAL phrases in RECORD DELIMITER"
-msgstr "BINARY-SEQUENTIAL- och LINE-SEQUENTIAL-frase i RECORD DELIMITER"
+msgstr "BINARY-SEQUENTIAL- och LINE-SEQUENTIAL-fraser i RECORD DELIMITER"
 
 #. from tp:gnucobol-3.2
 msgid "RECORD DELIMITER clause on file with fixed-length records"
@@ -450348,7 +450348,7 @@ msgstr "VSAM-status i FILE STATUS"
 
 #. from tp:gnucobol-3.2
 msgid "CALL to own PROGRAM-ID implies RECURSIVE attribute"
-msgstr "CALL till eget PROGRAM-ID innebär RECURSIVE-attribut"
+msgstr "CALL till eget PROGRAM-ID innebär attributet RECURSIVE"
 
 #. from tp:gnucobol-3.2
 msgid "DEPENDING clause in RECORD CONTAINS"
@@ -450360,7 +450360,7 @@ msgstr "PICTURE-sträng med tecknet 'L'"
 
 #. from tp:gnucobol-3.2
 msgid "note: "
-msgstr "not: "
+msgstr "anmärkning: "
 
 #. from tp:gnucobol-3.2
 msgid "in section '%s':"
@@ -450468,7 +450468,7 @@ msgstr "nivå %02d-objekt ”%s” kan endast ha en %s-klausul"
 
 #. from tp:gnucobol-3.2
 msgid "constant expression has Divide by ZERO"
-msgstr "konstantuttryck har division med noll"
+msgstr "Konstantuttrycket innebär division med noll"
 
 #. from tp:gnucobol-3.2
 msgid "missing right parenthesis"
@@ -450476,11 +450476,11 @@ msgstr "saknar högerparentes"
 
 #. from tp:gnucobol-3.2
 msgid "expression stack overflow at %d entries for operation '%c'"
-msgstr "uttrycksstacken spiller över vid %d poster för operation ”%c”"
+msgstr "Uttrycksstacken överflödar vid %d poster för operationen ”%c”"
 
 #. from tp:gnucobol-3.2
 msgid "expression stack overflow at %d entries"
-msgstr "uttrycksstacken spiller över vid %d poster"
+msgstr "Uttrycksstacken överflödar vid %d poster"
 
 #. from tp:gnucobol-3.2
 msgid "missing left parenthesis"
@@ -450592,15 +450592,15 @@ msgstr "”%s” EXTERNAL och BASED är ömsesidigt uteslutande"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' EXTERNAL not allowed with REDEFINES"
-msgstr "”%s” EXTERNAL inte tillåten med REDEFINES"
+msgstr "”%s” EXTERNAL är inte tillåten med REDEFINES"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' BASED not allowed here"
-msgstr "”%s” BASED inte tillåtet här"
+msgstr "”%s” BASED är inte tillåtet här"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' BASED not allowed with REDEFINES"
-msgstr "”%s” BASED inte tillåtet med REDEFINES"
+msgstr "”%s” BASED är inte tillåtet med REDEFINES"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' BASED only allowed at the 01 and 77 levels"
@@ -450788,7 +450788,7 @@ msgstr "”%s” 77-nivå är inte tillåten här"
 
 #. from tp:gnucobol-3.2
 msgid "OCCURS and multi COLUMNs is not allowed"
-msgstr "OCCURS och flera COLUMN är inte tillåtet"
+msgstr "OCCURS och flera COLUMN är inte tillåtna"
 
 #. from tp:gnucobol-3.2
 msgid "duplicate LINE %d ignored"
@@ -450804,7 +450804,7 @@ msgstr "större REDEFINES"
 
 #. from tp:gnucobol-3.2
 msgid "size of '%s' larger than size of '%s'"
-msgstr "storlek för ”%s” större än storlek för ”%s”"
+msgstr "Storleken på ”%s” är större än storleken på ”%s”"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' cannot be larger than %d bytes"
@@ -450888,7 +450888,7 @@ msgstr "  -fmax-errors=<number>	maximalt antal fel att rapportera innan\n       
 
 #. from tp:gnucobol-3.2
 msgid "  -fintrinsics=[ALL|intrinsic function name(,name,...)]\n                        intrinsics to be used without FUNCTION keyword"
-msgstr "  -fintrinsics=[ALL|intrinsic function name(,name,...)]\n                        intrinsiska funktioner som får användas utan FUNCTION-nyckelord"
+msgstr "  -fintrinsics=[ALL|intrinsic function name(,name,...)]\n                        inbyggda funktioner som får användas utan FUNCTION-nyckelord"
 
 #. from tp:gnucobol-3.2
 msgid "  -fdump=<scope>        dump data fields on abort, <scope> may be\n                        a combination of: ALL, WS, LS, RD, FD, SC, LO"
@@ -450932,7 +450932,7 @@ msgstr "  -fstack-on-heap       PERFORM-stack allokeras på heapen"
 
 #. from tp:gnucobol-3.2
 msgid "  -fstack-extended      store origin of entrypoints and PERFORM\n                        * turned on by --debug/-fdump"
-msgstr "  -fstack-extended      lagra ursprung för entrypoints och PERFORM\n                        * aktiveras av --debug/-fdump"
+msgstr "  -fstack-extended      lagra ursprunget för startpunkter och PERFORM\n                        * aktiveras av --debug/-fdump"
 
 #. from tp:gnucobol-3.2
 msgid "  -fno-fast-compare     disables inline comparisions"
@@ -450940,7 +450940,7 @@ msgstr "  -fno-fast-compare     inaktiverar inline-jämförelser"
 
 #. from tp:gnucobol-3.2
 msgid "  -fno-remove-unreachable	disable remove of unreachable code\n                        * turned off by -g"
-msgstr "  -fno-remove-unreachable	inaktivera borttagning av oåtkomlig kod\n                        * stängs av av -g"
+msgstr "  -fno-remove-unreachable\tinaktivera borttagning av oåtkomlig kod\n                        * inaktiveras av -g"
 
 #. from tp:gnucobol-3.2
 msgid "  -ftrace               generate trace code\n                        * scope: executed SECTION/PARAGRAPH"
@@ -451000,7 +451000,7 @@ msgstr "  -facucomment          '$' i indikatorområdet behandlas som '*',\n    
 
 #. from tp:gnucobol-3.2
 msgid "  -fno-trunc            allow numeric field overflow\n                        * non-ANSI behaviour"
-msgstr "  -fno-trunc            tillåt överspill i numeriska fält\n                        * icke-ANSI-beteende"
+msgstr "  -fno-trunc            tillåt överflöde i numeriska fält\n                        * icke-ANSI-beteende"
 
 #. from tp:gnucobol-3.2
 msgid "  -fsingle-quote        use a single quote (apostrophe) for QUOTE\n                        * default: double quote"
@@ -451076,7 +451076,7 @@ msgstr "Användning: %s [flaggor]… fil…"
 
 #. from tp:gnucobol-3.2
 msgid "Report bugs to: %s\nor (preferably) use the issue tracker via the home page."
-msgstr "Rapportera fel till: %s\neller (hellre) via felrapporteringssystemet via webbplatsen."
+msgstr "Rapportera fel till: %s\neller, helst, via felhanteraren på webbplatsen."
 
 #. from tp:gnucobol-3.2
 msgid "GnuCOBOL home page: <%s>"
@@ -451120,7 +451120,7 @@ msgstr "  -m                    bygg en dynamiskt inläsningsbar modul (standard
 
 #. from tp:gnucobol-3.2
 msgid "  -j [<args>], --job[=<args>]	run program after build, passing <args>"
-msgstr "  -j [<arg>], --job[=<arg>]	kör program efter bygge, skicka vidare <arg>"
+msgstr "  -j [<arg>], --job[=<arg>]\tkör programmet efter bygget och skicka vidare <arg>"
 
 #. from tp:gnucobol-3.2
 msgid "  -std=<dialect>        warnings/features for a specific dialect\n                        <dialect> can be one of:\n                        default, cobol2014, cobol2002, cobol85, xopen,\n                        ibm-strict, ibm, mvs-strict, mvs,\n                        mf-strict, mf, bs2000-strict, bs2000,\n                        acu-strict, acu, rm-strict, rm, gcos-strict,\n                        gcos;\n                        see configuration files in directory config"
@@ -451160,7 +451160,7 @@ msgstr "  -fno-ec=<undantagsnamn>	inaktivera kodgenerering för <undantagsnamn>"
 
 #. from tp:gnucobol-3.2
 msgid "  -o <file>             place the output into <file>"
-msgstr "  -o <fil>              placera utmatning i <fil>"
+msgstr "  -o <fil>              skriv utdata till <fil>"
 
 #. from tp:gnucobol-3.2
 msgid "  -b                    combine all input files into a single\n                        dynamically loadable module"
@@ -451196,7 +451196,7 @@ msgstr "  --tlines=<rader>      ange rader per sida i listning, standard = 55"
 
 #. from tp:gnucobol-3.2
 msgid "  -P[=<dir or file>]    generate preprocessed program listing (.lst)"
-msgstr "  -P[=<kat eller fil>]  generera preprocessad programlistning (.lst)"
+msgstr "  -P[=<kat eller fil>]  generera förbehandlad programlistning (.lst)"
 
 #. from tp:gnucobol-3.2
 msgid "  -X, --Xref            generate cross reference through 'cobxref'\n                        (V. Coen's 'cobxref' must be in path)"
@@ -451388,7 +451388,7 @@ msgstr "specialregister att aktivera"
 
 #. from tp:gnucobol-3.2
 msgid "<word> or <word>:<definition>, where definition uses backslash escaped spaces"
-msgstr "<ord> eller <ord>:<definition>, där definitionen använder omvänt snedstreck-escape för blanksteg"
+msgstr "<ord> eller <ord>:<definition>, där definitionen använder blanksteg med omvänt snedstreck som escape-tecken"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' should start in Area A"
@@ -451404,7 +451404,7 @@ msgstr "%s ska inte börja i Area A"
 
 #. from tp:gnucobol-3.2
 msgid "start of statement in Area A"
-msgstr "start av sats i Area A"
+msgstr "början av sats i Area A"
 
 #. from tp:gnucobol-3.2
 msgid "unreachable statement '%s'"
@@ -451460,7 +451460,7 @@ msgstr "maximalt antal förekomster antas vara exakt antal"
 
 #. from tp:gnucobol-3.2
 msgid "OCCURS TO must be greater than OCCURS FROM"
-msgstr "OCCUR TO måste vara större än OCCURS FROM"
+msgstr "OCCURS TO måste vara större än OCCURS FROM"
 
 #. from tp:gnucobol-3.2
 msgid "OCCURS DEPENDING ON without TO phrase"
@@ -451504,7 +451504,7 @@ msgstr "END PROGRAM ”%s” är inte samma som PROGRAM-ID ”%s”"
 
 #. from tp:gnucobol-3.2
 msgid "currency symbol must be one character long"
-msgstr "valutasymbol måste vara ett tecken lång"
+msgstr "Valutasymbolen måste vara ett tecken lång"
 
 #. from tp:gnucobol-3.2
 msgid "invalid character '%c' in currency symbol"
@@ -451620,7 +451620,7 @@ msgstr "skärm-klausuler kan endast användas för DISPLAY på CRT"
 
 #. from tp:gnucobol-3.2
 msgid "ambiguous DISPLAY; put items to display on device in separate DISPLAY"
-msgstr "tvetydig DISPLAY; stoppa objekt att visa på enhet i separat DISPLAY"
+msgstr "Tvetydig DISPLAY; placera objekten som ska visas på enheten i en separat DISPLAY-sats"
 
 #. from tp:gnucobol-3.2
 msgid "%s is not an alphanumeric literal"
@@ -451644,7 +451644,7 @@ msgstr "RENAMES-objekt får inte användas här"
 
 #. from tp:gnucobol-3.2
 msgid "ANY LENGTH item not allowed here"
-msgstr "ANY LENGTH-objekt inte tillåtet här"
+msgstr "ANY LENGTH-objekt är inte tillåtet här"
 
 #. from tp:gnucobol-3.2
 msgid "item '%s' has wrong class for VALIDATE"
@@ -451680,7 +451680,7 @@ msgstr "körbar fil begärd men inget program hittades"
 
 #. from tp:gnucobol-3.2
 msgid "prototypes must be come before any program/function definitions"
-msgstr "prototyper måste komma före alla program-/funktionsdefinitioner"
+msgstr "Prototyper måste komma före alla program- och funktionsdefinitioner"
 
 #. from tp:gnucobol-3.2
 msgid "COMMON may only be used in a contained program"
@@ -451800,7 +451800,7 @@ msgstr "DOS/VS APPLY-fras"
 
 #. from tp:gnucobol-3.2
 msgid "RECORD description missing or invalid"
-msgstr "RECORD-beskrivning saknas eller ogiltig"
+msgstr "RECORD-beskrivningen saknas eller är ogiltig"
 
 #. from tp:gnucobol-3.2
 msgid "duplicate file description for %s"
@@ -451840,7 +451840,7 @@ msgstr "CD-post saknas"
 
 #. from tp:gnucobol-3.2
 msgid "CONSTANT item not at 01 level"
-msgstr "CONSTANT-objekt inte vid nivå 01"
+msgstr "CONSTANT-objektet är inte på nivå 01"
 
 #. from tp:gnucobol-3.2
 msgid "REDEFINES clause not following entry-name"
@@ -451848,7 +451848,7 @@ msgstr "REDEFINES-klausul följer inte postnamn"
 
 #. from tp:gnucobol-3.2
 msgid "%s only allowed at 01/77 level"
-msgstr "%s endast tillåtet vid nivå 01/77"
+msgstr "%s är endast tillåtet på nivå 01/77"
 
 #. from tp:gnucobol-3.2
 msgid "%s requires a data name"
@@ -451856,11 +451856,11 @@ msgstr "%s kräver ett datanamn"
 
 #. from tp:gnucobol-3.2
 msgid "%s not allowed in %s"
-msgstr "%s inte tillåtet i %s"
+msgstr "%s är inte tillåtet i %s"
 
 #. from tp:gnucobol-3.2
 msgid "%s not allowed here"
-msgstr "%s inte tillåtet här"
+msgstr "%s är inte tillåtet här"
 
 #. from tp:gnucobol-3.2
 msgid "%s requires DEPENDING clause"
@@ -451916,7 +451916,7 @@ msgstr "post i FROM (%d) måste vara <= post i TO (%d)"
 
 #. from tp:gnucobol-3.2
 msgid "%s only allowed at 01 level"
-msgstr "%s endast tillåtet på nivå 01"
+msgstr "%s är endast tillåtet på nivå 01"
 
 #. from tp:gnucobol-3.2
 msgid "%s and %s combination not allowed"
@@ -451972,11 +451972,11 @@ msgstr "åsidosätter konvention angiven i ENTRY-CONVENTION"
 
 #. from tp:gnucobol-3.2
 msgid "executable program requested but PROCEDURE/ENTRY has USING clause"
-msgstr "körbart program begärt men PROCEDURE/ENTRY har USING-klausul"
+msgstr "Ett körbart program har begärts men PROCEDURE/ENTRY har en USING-klausul"
 
 #. from tp:gnucobol-3.2
 msgid "number of arguments exceeds maximum %d"
-msgstr "antal argument överskrider max %d"
+msgstr "Antalet argument överskrider högsta tillåtna antal, %d"
 
 #. from tp:gnucobol-3.2
 msgid "CHAINING invalid in user FUNCTION"
@@ -451988,7 +451988,7 @@ msgstr "ANY LENGTH-objekt får endast vara BY REFERENCE-formella parametrar"
 
 #. from tp:gnucobol-3.2
 msgid "%s not allowed in CHAINED programs"
-msgstr "%s inte tillåtet i CHAINED-program"
+msgstr "%s är inte tillåtet i CHAINED-program"
 
 #. from tp:gnucobol-3.2
 msgid "parameters passed BY VALUE"
@@ -451996,7 +451996,7 @@ msgstr "parametrar skickade BY VALUE"
 
 #. from tp:gnucobol-3.2
 msgid "SIZE only allowed for BY VALUE items"
-msgstr "SIZE endast tillåtet för BY VALUE-objekt"
+msgstr "SIZE är endast tillåtet för BY VALUE-objekt"
 
 #. from tp:gnucobol-3.2
 msgid "invalid value for SIZE"
@@ -452008,7 +452008,7 @@ msgstr "MEMORY SIZE-fras i CALL-sats"
 
 #. from tp:gnucobol-3.2
 msgid "OPTIONAL only allowed for BY REFERENCE items"
-msgstr "OPTIONAL endast tillåtet för BY REFERENCE-objekt"
+msgstr "OPTIONAL är endast tillåtet för BY REFERENCE-objekt"
 
 #. from tp:gnucobol-3.2
 msgid "RETURNING clause is required for a FUNCTION"
@@ -452192,7 +452192,7 @@ msgstr "EXIT FUNCTION är inte tillåtet inom en USE GLOBAL-procedur"
 
 #. from tp:gnucobol-3.2
 msgid "EXIT FUNCTION only allowed within a FUNCTION"
-msgstr "EXIT FUNCTION endast tillåtet inom en FUNCTION"
+msgstr "EXIT FUNCTION är endast tillåtet inom en FUNCTION"
 
 #. from tp:gnucobol-3.2
 msgid "EXIT PERFORM is only valid with inline PERFORM"
@@ -452208,7 +452208,7 @@ msgstr "EXIT PARAGRAPH är endast giltig med en aktiv PARAGRAPH"
 
 #. from tp:gnucobol-3.2
 msgid "RETURNING/GIVING not allowed for non-returning runtime elements"
-msgstr "RETURNING/GIVING inte tillåtet för icke-returnerande körtidselement"
+msgstr "RETURNING/GIVING är inte tillåtet för körtidselement utan returvärde"
 
 #. from tp:gnucobol-3.2
 msgid "IF without imperative statement"
@@ -452460,7 +452460,7 @@ msgstr "ogiltig PAGE-COUNTER-användning"
 
 #. from tp:gnucobol-3.2
 msgid "%s requires a record name as subject"
-msgstr "%s kräver ett postnamn som ämne"
+msgstr "%s kräver ett postnamn som objekt"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' not indexed"
@@ -452776,7 +452776,7 @@ msgstr "Systemnamn"
 
 #. from tp:gnucobol-3.2
 msgid "Reserved Words"
-msgstr "Reserverad ord"
+msgstr "Reserverade ord"
 
 #. from tp:gnucobol-3.2
 msgid "Yes (Context sensitive)"
@@ -452872,7 +452872,7 @@ msgstr "nationell litteral"
 
 #. from tp:gnucobol-3.2
 msgid "national-character literal"
-msgstr "nationellt teckenlitteral"
+msgstr "Nationell teckenlitteral"
 
 #. from tp:gnucobol-3.2
 msgid "hexadecimal literal has zero length; X'00' will be assumed"
@@ -452908,7 +452908,7 @@ msgstr "ACUCOBOL-numerisk litteral"
 
 #. from tp:gnucobol-3.2
 msgid "literal exceeds limit %u"
-msgstr "litteral överskred gräns %u"
+msgstr "Litteralen överskrider gränsen %u"
 
 #. from tp:gnucobol-3.2
 msgid "numeric boolean literal"
@@ -453056,11 +453056,11 @@ msgstr "oväntad kategori: %d"
 
 #. from tp:gnucobol-3.2
 msgid "literal length %d exceeds maximum of %d digits"
-msgstr "litterallängd %d överskriver maximala %d siffror"
+msgstr "Litterallängden %d överskrider högsta tillåtna antal, %d siffror"
 
 #. from tp:gnucobol-3.2
 msgid "literal length %d exceeds %d digits"
-msgstr "litterallängd %d överskriver %d siffror"
+msgstr "Litterallängden %d överskrider %d siffror"
 
 #. from tp:gnucobol-3.2
 msgid "numeric literal '%s' exceeds limit '%s'"
@@ -453072,11 +453072,11 @@ msgstr "ogiltig LOCALE-litteral"
 
 #. from tp:gnucobol-3.2
 msgid "only literals with the same category can be concatenated"
-msgstr "endast litteraler med samma kategori kan konkateneras"
+msgstr "Endast litteraler i samma kategori kan sammanfogas"
 
 #. from tp:gnucobol-3.2
 msgid "only alphanumeric, utf-8, national or boolean literals may be concatenated"
-msgstr "endast alfanumeriska, utf-8-, nationella eller booleska litteraler kan konkateneras"
+msgstr "Endast alfanumeriska, UTF-8-, nationella eller booleska litteraler kan sammanfogas"
 
 #. from tp:gnucobol-3.2
 msgid "literal length %d exceeds %d characters"
@@ -453092,11 +453092,11 @@ msgstr "tecknet på flyttalsexponenten"
 
 #. from tp:gnucobol-3.2
 msgid "a leading +/- sign"
-msgstr "ett inledande +/--tecken"
+msgstr "Ett inledande +/-tecken"
 
 #. from tp:gnucobol-3.2
 msgid "a trailing +/- sign"
-msgstr "ett efterföljande +/--tecken"
+msgstr "Ett efterföljande +/-tecken"
 
 #. from tp:gnucobol-3.2
 msgid "CR or DB"
@@ -453120,11 +453120,11 @@ msgstr "ett Z eller * som kommer efter decimalpunkten"
 
 #. from tp:gnucobol-3.2
 msgid "a floating +/- string which is before the decimal point"
-msgstr "en flytande +/--sträng som kommer före decimalpunkten"
+msgstr "En flytande +/-sträng före decimalpunkten"
 
 #. from tp:gnucobol-3.2
 msgid "a floating +/- string which is after the decimal point"
-msgstr "en flytande +/--sträng som kommer efter decimalpunkten"
+msgstr "En flytande +/-sträng efter decimalpunkten"
 
 #. from tp:gnucobol-3.2
 msgid "a floating currency symbol string which is before the decimal point"
@@ -453240,7 +453240,7 @@ msgstr "PICTURE-sträng måste innehålla minst ett tecken ur uppsättningen A, 
 
 #. from tp:gnucobol-3.2
 msgid "numeric field cannot be larger than %d digits"
-msgstr "Det går inte att ha ett numeriskt fält större än %d siffror"
+msgstr "Ett numeriskt fält får inte vara större än %d siffror"
 
 #. from tp:gnucobol-3.2
 msgid "needs PICTURE clause for SUM %s"
@@ -453252,7 +453252,7 @@ msgstr "icke-numerisk PICTURE-klausul för SUM %s"
 
 #. from tp:gnucobol-3.2
 msgid "no DETAIL line defined in report %s"
-msgstr "ingen DETAIL-rad definierad i rapport %s"
+msgstr "Ingen DETAIL-rad har definierats i rapporten %s"
 
 #. from tp:gnucobol-3.2
 msgid "PAGE LIMIT FIRST DETAIL should be >= HEADING"
@@ -453292,7 +453292,7 @@ msgstr "saknar filbeskrivning för %s"
 
 #. from tp:gnucobol-3.2
 msgid "size of record '%s' (%d) smaller than minimum of file '%s' (%d)"
-msgstr "storlek för post ”%s” (%d) mindre än det minsta för fil ”%s” (%d)"
+msgstr "Storleken på posten ”%s” (%d) är mindre än minimistorleken för filen ”%s” (%d)"
 
 #. from tp:gnucobol-3.2
 msgid "file size adjusted"
@@ -453300,7 +453300,7 @@ msgstr "filstorlek justerad"
 
 #. from tp:gnucobol-3.2
 msgid "size of record '%s' (%d) larger than maximum of file '%s' (%d)"
-msgstr "storlek för post ”%s” (%d) större än det största för fil ”%s” (%d)"
+msgstr "Storleken på posten ”%s” (%d) är större än maximistorleken för filen ”%s” (%d)"
 
 #. from tp:gnucobol-3.2
 msgid "RECORD VARYING specified without limits, but implied limits are equal"
@@ -453336,11 +453336,11 @@ msgstr "litteralen '%s' har fler siffror än '%s'"
 
 #. from tp:gnucobol-3.2
 msgid "unsigned '%s' may not be %s %s"
-msgstr "teckenlös '%s' får inte vara %s %s"
+msgstr "Teckenlösa ”%s” får inte vara %s %s"
 
 #. from tp:gnucobol-3.2
 msgid "unsigned '%s' may always be %s %s"
-msgstr "teckenlös '%s' får alltid vara %s %s"
+msgstr "Teckenlösa ”%s” kan alltid vara %s %s"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' may not be %s %s"
@@ -453400,15 +453400,15 @@ msgstr "BY CONTENT antas för nationellt objekt ”%s”"
 
 #. from tp:gnucobol-3.2
 msgid "PERFORM FOREVER since UNTIL is always FALSE"
-msgstr "PERFORM FOREVER då UNTIL är alltid FALSE"
+msgstr "PERFORM FOREVER eftersom UNTIL alltid är FALSE"
 
 #. from tp:gnucobol-3.2
 msgid "PERFORM ONCE since UNTIL is always TRUE"
-msgstr "PERFORM ONCE då UNTIL är alltid TRUE"
+msgstr "PERFORM ONCE eftersom UNTIL alltid är TRUE"
 
 #. from tp:gnucobol-3.2
 msgid "PERFORM NEVER since UNTIL is always TRUE"
-msgstr "PERFORM NEVER då UNTIL alltid är TRUE"
+msgstr "PERFORM NEVER eftersom UNTIL alltid är TRUE"
 
 #. from tp:gnucobol-3.2
 msgid "no definition/prototype seen for FUNCTION '%s'"
@@ -453588,7 +453588,7 @@ msgstr "VALUE av ”%s”: %s mål ”%s” är ogiltigt"
 
 #. from tp:gnucobol-3.2
 msgid "target must be in FILE SECTION or LINKAGE SECTION or have the EXTERNAL clause"
-msgstr "mål måste vara i FILE SECTION eller LINKAGE SECTION eller har en EXTERNAL-klausul"
+msgstr "Målet måste finnas i FILE SECTION eller LINKAGE SECTION eller ha EXTERNAL-klausulen"
 
 #. from tp:gnucobol-3.2
 msgid "VALUE of '%s': %s target is invalid"
@@ -453612,7 +453612,7 @@ msgstr "”%s” är inte nivå 01 eller 77"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' REDEFINES field not allowed here"
-msgstr "”%s”REDEFINES-fält inte tillåtet här"
+msgstr "”%s” REDEFINES-fält är inte tillåtet här"
 
 #. from tp:gnucobol-3.2
 msgid "duplicate USING BY REFERENCE item '%s'"
@@ -453708,11 +453708,11 @@ msgstr "förväntade ett RETURNING-objekt, men inget angavs"
 
 #. from tp:gnucobol-3.2
 msgid "duplicate character values in alphabet '%s': %s"
-msgstr "duplicerade teckenvärde i alfabet ”%s”: %s"
+msgstr "Dubbla teckenvärden i alfabetet ”%s”: %s"
 
 #. from tp:gnucobol-3.2
 msgid "invalid character values in alphabet '%s', starting at position %d"
-msgstr "ogiltiga teckenvärden i alfabet ”%s”, börjar på position %d"
+msgstr "Ogiltiga teckenvärden i alfabetet ”%s”, från position %d"
 
 #. from tp:gnucobol-3.2
 msgid "duplicate character values in class '%s'"
@@ -453888,7 +453888,7 @@ msgstr "”%s” är inte ett giltigt DEBUGGING-mål"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' is not in DECLARATIVES"
-msgstr "”%s” är inte inuti DECLARATIVES"
+msgstr "”%s” ingår inte i DECLARATIVES"
 
 #. from tp:gnucobol-3.2
 msgid "invalid reference to '%s' (in DECLARATIVES)"
@@ -453896,7 +453896,7 @@ msgstr "ogiltig referens till ”%s” (i DECLARATIVES)"
 
 #. from tp:gnucobol-3.2
 msgid "GO TO paragraph '%s' which is defined in another SECTION"
-msgstr "GO TO-stycke ”%s” som är definierat i en annan SECTION"
+msgstr "GO TO-stycke ”%s” som definieras i en annan SECTION"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' is not a procedure name"
@@ -453936,7 +453936,7 @@ msgstr "ogiltigt villkorsuttryck"
 
 #. from tp:gnucobol-3.2
 msgid "internal decimal structure size exceeded: %d"
-msgstr "intern decimalstrukturstorlek överskriden: %d"
+msgstr "Den interna decimalstrukturens storlek överskreds: %d"
 
 #. from tp:gnucobol-3.2
 msgid "Try to minimize the number of parentheses or split into multiple computations."
@@ -453948,7 +453948,7 @@ msgstr "fler än %d nästlade uttryck"
 
 #. from tp:gnucobol-3.2
 msgid "precision of result may change with arithmetic-osvs"
-msgstr "precision för resultatet kan förändras med osvs-aritmetik"
+msgstr "Resultatets precision kan ändras med arithmetic-osvs"
 
 #. from tp:gnucobol-3.2
 msgid "unexpected operation: %c (%d)"
@@ -453960,7 +453960,7 @@ msgstr "%s-operatorn kan vara felplacerad"
 
 #. from tp:gnucobol-3.2
 msgid "unexpected constant expansion"
-msgstr "oväntat konstantuttryck"
+msgstr "oväntad konstantexpansion"
 
 #. from tp:gnucobol-3.2
 msgid "alphanumeric value is expected"
@@ -453984,7 +453984,7 @@ msgstr "fler än %d nästlade villkor"
 
 #. from tp:gnucobol-3.2
 msgid "no CORRESPONDING items found"
-msgstr "inget CORRESPONDING-objekt hittat"
+msgstr "Inga CORRESPONDING-objekt hittades"
 
 #. from tp:gnucobol-3.2
 msgid "no items to ACCEPT found"
@@ -454036,7 +454036,7 @@ msgstr "okänd enhet ”%s”; inte definierad i SPECIAL-NAMES"
 
 #. from tp:gnucobol-3.2
 msgid "target of RETURNING is not a data pointer"
-msgstr "mål för RETURNING är inte en datapekare"
+msgstr "RETURNING-målet är inte en datapekare"
 
 #. from tp:gnucobol-3.2
 msgid "cannot change address of '%s', which is not BASED or a LINKAGE item"
@@ -454064,11 +454064,11 @@ msgstr "ogiltigt RETURNING-fält"
 
 #. from tp:gnucobol-3.2
 msgid "STDCALL not available on this platform"
-msgstr "STDCALL inte tillgängligt på denna plattform"
+msgstr "STDCALL är inte tillgängligt på denna plattform"
 
 #. from tp:gnucobol-3.2
 msgid "STDCALL used on 64-bit Windows platform"
-msgstr "STDCALL använt på 64-bitars Windows-plattform"
+msgstr "STDCALL används på 64-bitars Windows-plattform"
 
 #. from tp:gnucobol-3.2
 msgid "STATIC CALL convention requires a literal program name"
@@ -454084,7 +454084,7 @@ msgstr "numerisk litteral är negativ"
 
 #. from tp:gnucobol-3.2
 msgid "numeric literal exceeds size limits"
-msgstr "numerisk litteral överskriver storleksbegränsningar"
+msgstr "numerisk litteral överskrider storleksbegränsningarna"
 
 #. from tp:gnucobol-3.2
 msgid "figurative constant %s invalid here"
@@ -454096,7 +454096,7 @@ msgstr "”%s” är inte ett nivå-01- eller -77-objekt"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' ANY LENGTH item not passed BY REFERENCE"
-msgstr "”%s” ANY LENGTH-objekt förbigås inte av BY REFERENCE"
+msgstr "”%s” ANY LENGTH-objekt skickas inte med BY REFERENCE"
 
 #. from tp:gnucobol-3.2
 msgid "wrong number of CALL parameters for '%s', %d given, %d expected"
@@ -454104,7 +454104,7 @@ msgstr "fel antal CALL-parametrar för ”%s”, %d angivna, %d förväntades"
 
 #. from tp:gnucobol-3.2
 msgid "%s not allowed on %s files"
-msgstr "%s inte tillåtet på %s-filer"
+msgstr "%s är inte tillåtet för %s-filer"
 
 #. from tp:gnucobol-3.2
 msgid "positions cannot be specified for main windows"
@@ -454112,7 +454112,7 @@ msgstr "positioner kan inte anges för huvudfönster"
 
 #. from tp:gnucobol-3.2
 msgid "HANDLE must be either a generic or a WINDOW HANDLE or X(10)"
-msgstr "HANDLE måste vara antingen en generisk eller ett WINDOW HANDLE eller X(10)"
+msgstr "HANDLE måste vara antingen ett generiskt HANDLE, ett WINDOW HANDLE eller X(10)"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' is an invalid type for DISPLAY operand"
@@ -454124,7 +454124,7 @@ msgstr "ogiltig typ för DISPLAY-operand"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' is not an output device"
-msgstr "”%s” är inte en utmatningsenhet"
+msgstr "”%s” är inte en utdataenhet"
 
 #. from tp:gnucobol-3.2
 msgid "invalid use of 88 level in WHEN expression"
@@ -454176,19 +454176,19 @@ msgstr "operand har fel storlek"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' defined here as PIC %s"
-msgstr "”%s” definierat här som PIC %s"
+msgstr "”%s” definierades här som PIC %s"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' defined here as a group of length %d"
-msgstr "”%s” definierat här som en grupp med längden %d"
+msgstr "”%s” definierades här som en grupp med längden %d"
 
 #. from tp:gnucobol-3.2
 msgid "internal register '%s' defined as USAGE %s"
-msgstr "internt register ”%s” definierat som USAGE %s"
+msgstr "internt register ”%s” definierades som USAGE %s"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' defined here as USAGE %s"
-msgstr "”%s” definierat här som USAGE %s"
+msgstr "”%s” definierades här som USAGE %s"
 
 #. from tp:gnucobol-3.2
 msgid "value size is %d"
@@ -454228,7 +454228,7 @@ msgstr "hoppar över tecken"
 
 #. from tp:gnucobol-3.2
 msgid "overlapping MOVE may occur and produce unpredictable results"
-msgstr "överlappande MOVE kan förekomma och ger oförutsägbara resultat"
+msgstr "överlappande MOVE kan förekomma och ge oförutsägbara resultat"
 
 #. from tp:gnucobol-3.2
 msgid "overlapping MOVE may produce unpredictable results"
@@ -454256,11 +454256,11 @@ msgstr "ogiltig MOVE-sats"
 
 #. from tp:gnucobol-3.2
 msgid "literal exceeds data size"
-msgstr "litteral överskrider datastorlek"
+msgstr "litteralen överskrider datastorleken"
 
 #. from tp:gnucobol-3.2
 msgid "numeric literal exceeds data size"
-msgstr "numerisk litteral överskrider datastorlek"
+msgstr "numerisk litteral överskrider datastorleken"
 
 #. from tp:gnucobol-3.2
 msgid "MOVE of non-integer to alphanumeric"
@@ -454276,7 +454276,7 @@ msgstr "värde passar inte i bildsträngen"
 
 #. from tp:gnucobol-3.2
 msgid "value size exceeds data size"
-msgstr "storlek för värde överstiger datastorlek"
+msgstr "värdets storlek överskrider datastorleken"
 
 #. from tp:gnucobol-3.2
 msgid "sending field larger than receiving field"
@@ -454284,7 +454284,7 @@ msgstr "skickar fält större än mottagande fält"
 
 #. from tp:gnucobol-3.2
 msgid "some digits may be truncated"
-msgstr "vissa siffror kan komma att trunkeras"
+msgstr "vissa siffror kan komma att avkortas"
 
 #. from tp:gnucobol-3.2
 msgid "invalid MOVE target: %s"
@@ -454292,11 +454292,11 @@ msgstr "ogiltigt MOVE-mål: %s"
 
 #. from tp:gnucobol-3.2
 msgid "READ PREVIOUS not allowed for this file type"
-msgstr "READ PREVIOUS inte tillåtet för denna filtyp"
+msgstr "READ PREVIOUS är inte tillåtet för denna filtyp"
 
 #. from tp:gnucobol-3.2
 msgid "KEY ignored with sequential READ"
-msgstr "KEY överhoppat med sekventiell READ"
+msgstr "KEY ignoreras vid sekventiell READ"
 
 #. from tp:gnucobol-3.2
 msgid "figurative constants not allowed in FROM clause"
@@ -454316,7 +454316,7 @@ msgstr "%s-ämne refererar inte till ett postnamn"
 
 #. from tp:gnucobol-3.2
 msgid "RELEASE not allowed on this record item"
-msgstr "RELEASE inte tillåtet för detta postobjekt"
+msgstr "RELEASE är inte tillåtet för detta postobjekt"
 
 #. from tp:gnucobol-3.2
 msgid "invalid SEARCH ALL condition"
@@ -454324,7 +454324,7 @@ msgstr "ogiltigt SEARCH ALL-villkor"
 
 #. from tp:gnucobol-3.2
 msgid "SEARCH ALL requires comparision of KEY field"
-msgstr "SEARCH ALL kräver jämförelse av KEY-fält"
+msgstr "SEARCH ALL kräver jämförelse av KEY-fältet"
 
 #. from tp:gnucobol-3.2
 msgid "SET targets must be PROGRAM-POINTER"
@@ -454336,7 +454336,7 @@ msgstr "SET-mål ”%s” är inte numeriskt, en INDEX eller en POINTER"
 
 #. from tp:gnucobol-3.2
 msgid "cannot change address of '%s', which is not level 1 or 77"
-msgstr "det går inte att ändra adress för ”%s”, vilken inte är nivå 1 eller 77"
+msgstr "det går inte att ändra adressen för ”%s”, som inte är på nivå 1 eller 77"
 
 #. from tp:gnucobol-3.2
 msgid "SET target '%s' is not a POINTER for FCD"
@@ -454348,7 +454348,7 @@ msgstr "SET-mål ”%s” är inte en POINTER för FCD-KEYDEF"
 
 #. from tp:gnucobol-3.2
 msgid "field does not have a FALSE clause"
-msgstr "fält har inte en FALSE-klausul"
+msgstr "fältet har ingen FALSE-klausul"
 
 #. from tp:gnucobol-3.2
 msgid "THREAD-priority must be between 1 and 32767"
@@ -454372,11 +454372,11 @@ msgstr "ogiltigt nyckelobjekt"
 
 #. from tp:gnucobol-3.2
 msgid "LENGTH/SIZE clause only allowed on INDEXED files"
-msgstr "LENGTH-/SIZE-klausul endast tillåten för INDEXED-filer"
+msgstr "LENGTH-/SIZE-klausulen är endast tillåten för INDEXED-filer"
 
 #. from tp:gnucobol-3.2
 msgid "START not allowed with ACCESS MODE RANDOM"
-msgstr "START inte tillåtet med ACCESS MODE RANDOM"
+msgstr "START är inte tillåtet med ACCESS MODE RANDOM"
 
 #. from tp:gnucobol-3.2
 msgid "%s item '%s' must be an integer"
@@ -454416,7 +454416,7 @@ msgstr "%s får inte vara en bildlig konstant"
 
 #. from tp:gnucobol-3.2
 msgid "%s must be a child of the input record"
-msgstr "%s måste vara ett barn till inmatningsposten"
+msgstr "%s måste vara underordnat inmatningsposten"
 
 #. from tp:gnucobol-3.2
 msgid "%s may not be an ignored item in JSON/XML GENERATE"
@@ -454440,27 +454440,27 @@ msgstr "%s måste vara ett heltal"
 
 #. from tp:gnucobol-3.2
 msgid "JSON/XML GENERATE receiving item"
-msgstr "JSON/XML GENERATE mottagarobjekt"
+msgstr "JSON/XML GENERATE-mottagarobjekt"
 
 #. from tp:gnucobol-3.2
 msgid "JSON/XML GENERATE receiving item may not have JUSTIFIED clause"
-msgstr "JSON/XML GENERATE mottagarobjekt får inte ha JUSTIFIED-klausul"
+msgstr "JSON/XML GENERATE-mottagarobjektet får inte ha JUSTIFIED-klausul"
 
 #. from tp:gnucobol-3.2
 msgid "JSON/XML GENERATE input record may not be reference modified"
-msgstr "JSON/XML GENERATE inmatningspost får inte referensmodifieras"
+msgstr "JSON/XML GENERATE-inmatningsposten får inte referensmodifieras"
 
 #. from tp:gnucobol-3.2
 msgid "JSON/XML GENERATE input record may not have RENAMES clause"
-msgstr "JSON/XML GENERATE inmatningspost får inte ha RENAMES-klausul"
+msgstr "JSON/XML GENERATE-inmatningsposten får inte ha RENAMES-klausul"
 
 #. from tp:gnucobol-3.2
 msgid "all the children of '%s' are ignored in JSON/XML GENERATE"
-msgstr "alla barn till ”%s” ignoreras i JSON/XML GENERATE"
+msgstr "alla underobjekt till ”%s” ignoreras i JSON/XML GENERATE"
 
 #. from tp:gnucobol-3.2
 msgid "JSON/XML GENERATE input record has subrecords with non-unique names"
-msgstr "JSON/XML GENERATE inmatningspost har underposter med icke-unika namn"
+msgstr "JSON/XML GENERATE-inmatningsposten har delposter med icke-unika namn"
 
 #. from tp:gnucobol-3.2
 msgid "floating-point items in JSON/XML GENERATE"
@@ -454484,7 +454484,7 @@ msgstr "NAME OF-objekt"
 
 #. from tp:gnucobol-3.2
 msgid "NAME OF item must be the input record or a child of it"
-msgstr "NAME OF-objekt måste vara inmatningsposten eller ett barn till den"
+msgstr "NAME OF-objektet måste vara inmatningsposten eller ett underobjekt till den"
 
 #. from tp:gnucobol-3.2
 msgid "NAME OF ... OMITTED only valid for source identifier"
@@ -454492,7 +454492,7 @@ msgstr "NAME OF ... OMITTED är bara giltigt för källidentifierare"
 
 #. from tp:gnucobol-3.2
 msgid "NAME OF literal must be a valid %s identifier"
-msgstr "NAME OF-litteral måste vara en giltig %s-identifierare"
+msgstr "NAME OF-litteralen måste vara en giltig %s-identifierare"
 
 #. from tp:gnucobol-3.2
 msgid "TYPE OF item"
@@ -454520,7 +454520,7 @@ msgstr "SUPPRESS-objekt med WHEN-klausul"
 
 #. from tp:gnucobol-3.2
 msgid "WITH ATTRIBUTES specified, but no attributes can be generated"
-msgstr "WITH ATTRIBUTES angivet, men inga attribut kan genereras"
+msgstr "WITH ATTRIBUTES har angetts, men inga attribut kan genereras"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wadditional          additional warnings only raised with -Wall"
@@ -454532,15 +454532,15 @@ msgstr "  -Wno-unfinished       varna inte när ofärdiga funktioner används"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wno-pending          do not warn if pending features are used"
-msgstr "  -Wno-pending          varna inte när väntande funktioner används"
+msgstr "  -Wno-pending          varna inte när funktioner under utveckling används"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wno-repository-checks	do not warn/check for program/function/external signature mismatch"
-msgstr "  -Wno-repository-checks	varna inte/kontrollera inte signaturavvikelser för program/funktion/extern"
+msgstr "  -Wno-repository-checks\tvarna inte/kontrollera inte signaturavvikelser för program, funktioner och externa namn"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wno-ignored-error    do not warn about errors in code parts which are unreachable and so normally ignored"
-msgstr "  -Wno-ignored-error    varna inte om fel i koddelar som är oåtkomliga och därför normalt ignoreras"
+msgstr "  -Wno-ignored-error    varna inte om fel i koddelar som inte kan nås och därför normalt ignoreras"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wobsolete            warn if obsolete features are used"
@@ -454556,11 +454556,11 @@ msgstr "  -Wredefinition        varna om orefererade tvetydiga dataobjekt"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wtruncate            warn about field truncation from constant assignments"
-msgstr "  -Wtruncate            varna för fälttrunkering vid konstanttilldelningar"
+msgstr "  -Wtruncate            varna för fältavkortning vid konstanttilldelningar"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wpossible-truncate   warn about possible field truncation"
-msgstr "  -Wpossible-truncate   varna för möjlig fälttrunkering"
+msgstr "  -Wpossible-truncate   varna för möjlig fältavkortning"
 
 #. from tp:gnucobol-3.2
 msgid "  -Woverlap             warn about overlapping MOVE of items"
@@ -454616,11 +454616,11 @@ msgstr "  -Wconstant-numlit-expression	varna för numeriska uttryck som alltid g
 
 #. from tp:gnucobol-3.2
 msgid "  -Wlarger-01-redefines  warn about larger redefines allowed by COBOL standards"
-msgstr "  -Wlarger-01-redefines  varna om större redefines som tillåts av COBOL-standarder"
+msgstr "  -Wlarger-01-redefines  varna om större REDEFINES som tillåts av COBOL-standarderna"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wcolumn-overflow     warn about text after program-text area, FIXED format"
-msgstr "  -Wcolumn-overflow     varna om text efter programtextområde, FIXED-format"
+msgstr "  -Wcolumn-overflow     varna om text efter programtextområdet, FIXED-format"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wterminator          warn about lack of scope terminator END-XXX"
@@ -454640,19 +454640,19 @@ msgstr "  -Wno-dialect          varna inte om dialektspecifika problem"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wno-goto-section     do not warn about GO TO section-name"
-msgstr "  -Wno-goto-section     varna inte om GO TO sektionsnamn"
+msgstr "  -Wno-goto-section     varna inte om GO TO-sektionsnamn"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wgoto-different-section	warn about GO TO a praragraph defined in a different section"
-msgstr "  -Wgoto-different-section	varna om GO TO till stycke definierat i annan sektion"
+msgstr "  -Wgoto-different-section\tvarna om GO TO till ett stycke som definieras i en annan sektion"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wsuspicious-perform-thru	warn if PERFORM THRU references procedures not in ascending order or multiple sections"
-msgstr "  -Wsuspicious-perform-thru	varna om PERFORM THRU refererar procedurer utan stigande ordning eller flera sektioner"
+msgstr "  -Wsuspicious-perform-thru\tvarna om PERFORM THRU refererar till procedurer som inte står i stigande ordning eller till flera sektioner"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wdangling-text       warn about source text after program-area"
-msgstr "  -Wdangling-text       varna om källtext efter programområde"
+msgstr "  -Wdangling-text       varna om källtext efter programområdet"
 
 #. from tp:gnucobol-3.2
 msgid "  -Wno-missing-newline  do not warn about missing newlines"
@@ -454696,11 +454696,11 @@ msgstr "användardefinierad FUNCTION ”%s” hittades inte"
 
 #. from tp:gnucobol-3.2
 msgid "NULL parameter passed to '%s'"
-msgstr "NULL-parameter skickad till ”%s”"
+msgstr "NULL-parametern skickades till ”%s”"
 
 #. from tp:gnucobol-3.2
 msgid "invalid number of arguments passed to '%s'"
-msgstr "ogiltigt antal argument skickade till ”%s”"
+msgstr "ogiltigt antal argument skickades till ”%s”"
 
 #. from tp:gnucobol-3.2
 msgid "multiple call to 'cob_setjmp'"
@@ -454720,7 +454720,7 @@ msgstr "cob_init() har inte anropats"
 
 #. from tp:gnucobol-3.2
 msgid "parameter %d is not within range of %d"
-msgstr "parameter %d är inte inom intervallet %d"
+msgstr "parameter %d ligger inte inom intervallet %d"
 
 #. from tp:gnucobol-3.2
 msgid "parameter %d is NULL"
@@ -454732,11 +454732,11 @@ msgstr "NULL-fält"
 
 #. from tp:gnucobol-3.2
 msgid "field not allocated"
-msgstr "fält ej allokerat"
+msgstr "fältet är inte allokerat"
 
 #. from tp:gnucobol-3.2
 msgid "attempt to over-write constant field with '%s'"
-msgstr "försök att skriva över konstant fält med ”%s”"
+msgstr "försök att skriva över konstantfält med ”%s”"
 
 #. from tp:gnucobol-3.2
 msgid "attempt to over-write constant parameter %d with '%s'"
@@ -454768,11 +454768,11 @@ msgstr "%s: flagga kräver ett argument -- ”%c”"
 
 #. from tp:gnucobol-3.2
 msgid "requested coredump creation failed with status %d"
-msgstr "begärd coredump-skapning misslyckades med status %d"
+msgstr "begärd coredump kunde inte skapas; status %d"
 
 #. from tp:gnucobol-3.2
 msgid "fatal arithmetic error"
-msgstr "ödesdigert aritmetiskt fel"
+msgstr "allvarligt aritmetiskt fel"
 
 #. from tp:gnucobol-3.2
 msgid "interrupt from keyboard"
@@ -454780,7 +454780,7 @@ msgstr "avbrott från tangentbord"
 
 #. from tp:gnucobol-3.2
 msgid "hangup"
-msgstr "upphängning"
+msgstr "avbruten anslutning"
 
 #. from tp:gnucobol-3.2
 msgid "termination"
@@ -454800,7 +454800,7 @@ msgstr "I/O-signal"
 
 #. from tp:gnucobol-3.2
 msgid "attempt to reference invalid memory address"
-msgstr "försök att referera ogiltig minnesadress"
+msgstr "försök att referera till en ogiltig minnesadress"
 
 #. from tp:gnucobol-3.2
 msgid "bus error"
@@ -454816,7 +454816,7 @@ msgstr "avbryt"
 
 #. from tp:gnucobol-3.2
 msgid "process killed"
-msgstr "processen dödades"
+msgstr "processen har dödats"
 
 #. from tp:gnucobol-3.2
 msgid "alarm signal"
@@ -454824,7 +454824,7 @@ msgstr "larmsignal"
 
 #. from tp:gnucobol-3.2
 msgid "stop process"
-msgstr "stoppa process"
+msgstr "stoppa processen"
 
 #. from tp:gnucobol-3.2
 msgid "child process stopped"
@@ -454840,7 +454840,7 @@ msgstr "(fler COBOL-körtidselement följer...)"
 
 #. from tp:gnucobol-3.2
 msgid "abnormal termination - file contents may be incorrect"
-msgstr "onormal avslutning - filinnehåll kan vara felaktigt"
+msgstr "onormal avslutning – filinnehållet kan vara felaktigt"
 
 #. from tp:gnucobol-3.2
 msgid "version mismatch"
@@ -454856,7 +454856,7 @@ msgstr "CALL till %s kräver %d argument"
 
 #. from tp:gnucobol-3.2
 msgid "code execution leaving %s"
-msgstr "kodkörning lämnar %s"
+msgstr "kodexekvering lämnar %s"
 
 #. from tp:gnucobol-3.2
 msgid "BASED/LINKAGE item %s has NULL address"
@@ -454864,15 +454864,15 @@ msgstr "BASED/LINKAGE-objekt %s har NULL-adress"
 
 #. from tp:gnucobol-3.2
 msgid "memory violation detected for '%s' after %s"
-msgstr "minnesöverträdelse upptäckt för ”%s” efter %s"
+msgstr "minnesåtkomstfel upptäcktes för ”%s” efter %s"
 
 #. from tp:gnucobol-3.2
 msgid "memory violation detected after %s"
-msgstr "minnesöverträdelse upptäckt efter %s"
+msgstr "minnesåtkomstfel upptäcktes efter %s"
 
 #. from tp:gnucobol-3.2
 msgid "LINKAGE item %s not passed by caller"
-msgstr "LINKAGE-objekt %s inte skickat av anroparen"
+msgstr "LINKAGE-objektet %s skickades inte av anroparen"
 
 #. from tp:gnucobol-3.2
 msgid "LINKAGE item %s (size %lu) too small in the caller (size %lu)"
@@ -454880,11 +454880,11 @@ msgstr "LINKAGE-objekt %s (storlek %lu) är för litet hos anroparen (storlek %l
 
 #. from tp:gnucobol-3.2
 msgid "'%s' (Type: %s) not numeric: '%s'"
-msgstr "”%s” (typ: %s) inte numeriskt: ”%s”"
+msgstr "”%s” (typ: %s) är inte numeriskt: ”%s”"
 
 #. from tp:gnucobol-3.2
 msgid "OCCURS DEPENDING ON '%s' out of bounds: %d"
-msgstr "OCCURS DEPENDING ON ”%s” utanför intervall: %d"
+msgstr "OCCURS DEPENDING ON ”%s” är utanför gränserna: %d"
 
 #. from tp:gnucobol-3.2
 msgid "maximum subscript for '%s': %d"
@@ -454900,19 +454900,19 @@ msgstr "för närvarande största index för ”%s”: %d"
 
 #. from tp:gnucobol-3.2
 msgid "offset of '%s' out of bounds: %d, maximum: %d"
-msgstr "förskjutning för ”%s” utanför intervall: %d, max: %d"
+msgstr "förskjutning för ”%s” är utanför gränserna: %d, högsta värde: %d"
 
 #. from tp:gnucobol-3.2
 msgid "length of '%s' out of bounds: %d, maximum: %d"
-msgstr "längd för ”%s” utanför intervall: %d, max: %d"
+msgstr "längd för ”%s” är utanför gränserna: %d, högsta värde: %d"
 
 #. from tp:gnucobol-3.2
 msgid "length of '%s' out of bounds: %d, starting at: %d, maximum: %d"
-msgstr "längd för ”%s” utanför intervall: %d, start vid: %d, max: %d"
+msgstr "längd för ”%s” är utanför gränserna: %d, start: %d, högsta värde: %d"
 
 #. from tp:gnucobol-3.2
 msgid "EXTERNAL item '%s' previously allocated with size %d, requested size is %d"
-msgstr "EXTERNAL-objekt ”%s” tidigare allokerat med storlek %d, begärd storlek är %d"
+msgstr "EXTERNAL-objektet ”%s” har tidigare allokerats med storleken %d, begärd storlek är %d"
 
 #. from tp:gnucobol-3.2
 msgid "COB_CURRENT_DATE '%s' is invalid"
@@ -454940,7 +454940,7 @@ msgstr "fel ”%s” för P%d under CBL_GC_WAITPID"
 
 #. from tp:gnucobol-3.2
 msgid "call to CBL_GC_GETOPT with wrong longoption size"
-msgstr "anrop till CBL_GC_GETOPT med fel storlek på långflagga"
+msgstr "anrop till CBL_GC_GETOPT med fel storlek på lång flagga"
 
 #. from tp:gnucobol-3.2
 msgid "call to CBL_GC_GETOPT with missing longind"
@@ -454964,11 +454964,11 @@ msgstr "borde inte innehålla ”%c”"
 
 #. from tp:gnucobol-3.2
 msgid "set by %s"
-msgstr "satt av %s"
+msgstr "angivet av %s"
 
 #. from tp:gnucobol-3.2
 msgid "WARNING - '%s' without a value - ignored!"
-msgstr "VARNING - ”%s” utan ett värde - överhoppat!"
+msgstr "VARNING – ”%s” utan värde – ignoreras!"
 
 #. from tp:gnucobol-3.2
 msgid "'%s' without a value!"
@@ -454976,7 +454976,7 @@ msgstr "”%s” utan ett värde!"
 
 #. from tp:gnucobol-3.2
 msgid "WARNING - '%s %s' without a value - ignored!"
-msgstr "VARNING - ”%s %s” utan ett värde - överhoppat!"
+msgstr "VARNING – ”%s %s” utan värde – ignoreras!"
 
 #. from tp:gnucobol-3.2
 msgid "attempt to CANCEL active program"
@@ -454988,7 +454988,7 @@ msgstr "CALL till program med CHAINING-klausul"
 
 #. from tp:gnucobol-3.2
 msgid "stack overflow, possible PERFORM depth exceeded"
-msgstr "stacköverspill, möjligt PERFORM-djup överskridit"
+msgstr "stacköverflöde, möjligt PERFORM-djup har överskridits"
 
 #. from tp:gnucobol-3.2
 msgid "invalid entry/exit in GLOBAL USE procedure"
@@ -454996,7 +454996,7 @@ msgstr "ogiltig ingång/avslut i GLOBAL USE-procedur"
 
 #. from tp:gnucobol-3.2
 msgid "invalid entry into module"
-msgstr "ogiltig ingång in i modul"
+msgstr "ogiltig ingång i modul"
 
 #. from tp:gnucobol-3.2
 msgid "recursive CALL from '%s' to '%s' which is NOT RECURSIVE"
@@ -455012,7 +455012,7 @@ msgstr "nyckel utanför intervall"
 
 #. from tp:gnucobol-3.2
 msgid "key order not ascending"
-msgstr "nyckelsortering inte stigande"
+msgstr "nyckelordningen är inte stigande"
 
 #. from tp:gnucobol-3.2
 msgid "record key already exists"
@@ -455020,7 +455020,7 @@ msgstr "postnyckel existerar redan"
 
 #. from tp:gnucobol-3.2
 msgid "record key does not exist"
-msgstr "postnyckel existerar inte"
+msgstr "postnyckeln finns inte"
 
 #. from tp:gnucobol-3.2
 msgid "permanent file error"
@@ -455036,15 +455036,15 @@ msgstr "filen existerar inte"
 
 #. from tp:gnucobol-3.2
 msgid "mismatch of fixed file attributes"
-msgstr "felmatchning av fasta filattribut"
+msgstr "fasta filattribut matchar inte"
 
 #. from tp:gnucobol-3.2
 msgid "file already open"
-msgstr "fil redan öppen"
+msgstr "filen är redan öppen"
 
 #. from tp:gnucobol-3.2
 msgid "file not open"
-msgstr "fil inte öppen"
+msgstr "filen är inte öppen"
 
 #. from tp:gnucobol-3.2
 msgid "READ must be executed first"
@@ -455052,7 +455052,7 @@ msgstr "READ måste köras först"
 
 #. from tp:gnucobol-3.2
 msgid "record overflow"
-msgstr "postöverspill"
+msgstr "postöverflöde"
 
 #. from tp:gnucobol-3.2
 msgid "READ after unsuccessful READ/START"
@@ -455060,19 +455060,19 @@ msgstr "READ efter misslyckad READ/START"
 
 #. from tp:gnucobol-3.2
 msgid "READ/START not allowed, file not open for input"
-msgstr "READ/START inte tillåtet, fil inte öppen för inmatning"
+msgstr "READ/START är inte tillåtet, filen är inte öppen för indata"
 
 #. from tp:gnucobol-3.2
 msgid "WRITE not allowed, file not open for output"
-msgstr "WRITE inte tillåtet, fil inte öppen för utmatning"
+msgstr "WRITE är inte tillåtet, filen är inte öppen för utdata"
 
 #. from tp:gnucobol-3.2
 msgid "DELETE/REWRITE not allowed, file not open for I-O"
-msgstr "DELETE/REWRITE inte tillåtet, fil inte öppen för in-/utmatning"
+msgstr "DELETE/REWRITE är inte tillåtet, filen är inte öppen för in-/utdata"
 
 #. from tp:gnucobol-3.2
 msgid "record locked by another file connector"
-msgstr "post låst av en annan filkontakt"
+msgstr "posten är låst av en annan filanslutning"
 
 #. from tp:gnucobol-3.2
 msgid "LINAGE values invalid"
@@ -455088,7 +455088,7 @@ msgstr "ogiltiga data i LINE SEQUENTIAL-fil"
 
 #. from tp:gnucobol-3.2
 msgid "runtime library is not configured for this operation"
-msgstr "körtidsbibliotek är inte konfigurerat för denna åtgärd"
+msgstr "körtidsbiblioteket är inte konfigurerat för denna åtgärd"
 
 #. from tp:gnucobol-3.2
 msgid "unknown file error"
@@ -455148,11 +455148,11 @@ msgstr "CALL-konfiguration"
 
 #. from tp:gnucobol-3.2
 msgid "File I/O configuration"
-msgstr "Fil in/ut-konfiguration"
+msgstr "Konfiguration av fil-I/O"
 
 #. from tp:gnucobol-3.2
 msgid "Screen I/O configuration"
-msgstr "Skärm in/ut-konfiguration"
+msgstr "Konfiguration av skärm-I/O"
 
 #. from tp:gnucobol-3.2
 msgid "System configuration"
@@ -455184,7 +455184,7 @@ msgstr "kompilatorn byggdes inte med --enable-debug-log; COB_DEBUG_LOG ignoreras
 
 #. from tp:gnucobol-3.2
 msgid "%s called with unknown option: %d"
-msgstr "%s anropades med okänt alternativ: %d"
+msgstr "%s anropades med okänd flagga: %d"
 
 #. from tp:gnucobol-3.2
 msgid "No COBOL runtime elements on stack."
@@ -455196,11 +455196,11 @@ msgstr "Moduldump på grund av %s"
 
 #. from tp:gnucobol-3.2
 msgid "Dump Program-Id %s from %s compiled %s"
-msgstr "Dump Program-Id %s från %s kompilerad %s"
+msgstr "Dump av Program-Id %s från %s, kompilerad %s"
 
 #. from tp:gnucobol-3.2
 msgid "dump written to %s"
-msgstr "dump skriven till %s"
+msgstr "dump skrevs till %s"
 
 #. from tp:gnucobol-3.2
 msgid "invalid internal call of %s"
@@ -455216,7 +455216,7 @@ msgstr "BDB-fel: %s %s"
 
 #. from tp:gnucobol-3.2
 msgid "cannot join BDB environment (%s), error: %d %s"
-msgstr "det går inte att sammanfoga BDB-miljö (%s): fel: %d %s"
+msgstr "kan inte ansluta till BDB-miljön (%s), fel: %d %s"
 
 #. from tp:gnucobol-3.2
 msgid "BDB (%s), error: %d %s"
@@ -455224,7 +455224,7 @@ msgstr "BDB (%s), fel: %d %s"
 
 #. from tp:gnucobol-3.2
 msgid "ERROR FILE %s has ASSIGN field is NULL"
-msgstr "FEL FIL %s har ASSIGN-fält som är NULL"
+msgstr "FEL: FIL %s har ett NULL-ASSIGN-fält"
 
 #. from tp:gnucobol-3.2
 msgid "call to CBL_OPEN_FILE with wrong access mode: %d"
@@ -455244,7 +455244,7 @@ msgstr "”%s” - Område för fildetaljer är för kort"
 
 #. from tp:gnucobol-3.2
 msgid "SORT is unable to acquire temporary file"
-msgstr "SORT kan inte få tag i temporärfil"
+msgstr "SORT kan inte hämta temporärfil"
 
 #. from tp:gnucobol-3.2
 msgid "implicit CLOSE of "
@@ -455304,7 +455304,7 @@ msgstr "det gick inte att hitta någon rad att SUPPRESS i rapport %s"
 
 #. from tp:gnucobol-3.2
 msgid "failed to initialize curses"
-msgstr "misslyckades att initiera curses"
+msgstr "det gick inte att initiera curses"
 
 #. from tp:gnucobol-3.2
 msgid "end of program, please press a key to exit"
@@ -455320,7 +455320,7 @@ msgstr "det går inte att öppna %s (=%s)"
 
 #. from tp:gnucobol-3.2
 msgid "COB_DISPLAY_PUNCH_FILE is invalid, output to SYSPUNCH skipped"
-msgstr "COB_DISPLAY_PUNCH_FILE är ogiltig, utmatning till SYSPUNCH överhoppas"
+msgstr "COB_DISPLAY_PUNCH_FILE är ogiltig, utdata till SYSPUNCH hoppas över"
 
 #. from tp:gnucobol-3.2
 msgid "GnuCOBOL module loader"
@@ -455356,7 +455356,7 @@ msgstr "  -v, --verbose                   visa utökad utdata med --info"
 
 #. from tp:gnucobol-3.2
 msgid "  -q, --brief                     reduced displays"
-msgstr "  -q, --brief                     begränsade utskrifter"
+msgstr "  -q, --brief                     begränsad utdata"
 
 #. from tp:gnucobol-3.2
 msgid "  -c <file>, --config=<file>      set runtime configuration from <file>"
@@ -455364,7 +455364,7 @@ msgstr "  -c <fil>, --config=<fil>        ställ in körtidskonfiguration från 
 
 #. from tp:gnucobol-3.2
 msgid "  -r, --runtime-config            display current runtime configuration\n                                  (value and origin for all settings)"
-msgstr "  -r, --runtime-config            skriv ut aktuell körtidskonfiguration\n                                  (värde och härkomst för alla inställningar)"
+msgstr "  -r, --runtime-config            visa aktuell körtidskonfiguration\n                                  (värde och ursprung för alla inställningar)"
 
 #. from tp:gnucobol-3.2
 msgid "  -M <module>, --module=<module>  set entry point module name and/or load path\n                                  where -M module prepends any directory to the\n                                  dynamic link loader library search path\n                                  and any basename to the module preload list\n                                  (COB_LIBRARY_PATH and/or COB_PRELOAD)"
@@ -455464,11 +455464,11 @@ msgstr "kunde inte avgöra %s-versionen"
 
 #. from tp:gnulib-20241209
 msgid "C# virtual machine not found, try installing mono or dotnet"
-msgstr "den virtuella C#-maskinen hittades inte, försök installera mono eller dotnet"
+msgstr "den virtuella Java-maskinen hittades inte, försök installera mono eller dotnet"
 
 #. from tp:gnulib-20241209
 msgid "cannot convert file name '%s' to Windows syntax"
-msgstr "kan inte konvertera filnamnet ”%s” till Windows syntax"
+msgstr "kan inte konvertera filnamnet ”%s” till Windows-syntax"
 
 #. from tp:gnulib-20241209
 msgid "cygwin_conv_path failed"
@@ -455480,7 +455480,7 @@ msgstr "anrop av %s misslyckades"
 
 #. from tp:gnulib-20241209
 msgid "The java program is too old. Cannot compile Java code for this old version any more."
-msgstr "Javaprogrammet är för gammalt. Kan inte kompilera Javakod för denna gamla version längre."
+msgstr "Java-programmet är för gammalt. Kan inte längre kompilera Java-kod för denna gamla version."
 
 #. from tp:gnulib-20241209
 msgid "invalid source_version argument to compile_java_class"
@@ -455492,7 +455492,7 @@ msgstr "ogiltigt target_version-argument till compile_java_class"
 
 #. from tp:gnulib-20241209
 msgid "Java compiler not found, try setting $JAVAC"
-msgstr "Javakompilatorn hittades inte, försök at sätta $JAVAC"
+msgstr "Java-kompilatorn hittades inte, försök att sätta $JAVAC"
 
 #. from tp:gnulib-20241209
 msgid "Java virtual machine not found, try setting $JAVA"
@@ -455500,7 +455500,7 @@ msgstr "Javas virtuella maskin hittades inte, försök att sätta $JAVA"
 
 #. from tp:gnulib-20241209
 msgid "Failed to open /dev/zero for read"
-msgstr "Misslyckades att öppna /dev/zero för läsning"
+msgstr "kunde inte öppna /dev/zero för läsning"
 
 #. from tp:gnulib-20241209
 msgid "       nonexistent due to daylight-saving time;\n"

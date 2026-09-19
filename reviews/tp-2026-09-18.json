@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 52863,
+  "reviewed_tp_entries": 55659,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 13777,
+  "changed_pairs": 14039,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 13777,
+      "confirmed_swedish_changes": 14039,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "1d5d1daef49a86dd41767022f2b7fc6f5873d7c0d379fceea7caa8f8290cdef4"
+      "sha256": "32fb72c9bdede77889a0b905a1a10a351389359cf899f11e00a7dcc713eff631"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 13777,
+      "confirmed_swedish_changes": 14039,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "5c7b735c34c67bb5fd8c93c9e3777294bf391782600773fb56c2faebd4be2936"
+      "sha256": "2608c4aa8609ca5be1aadf4fed66e5e6c880cdae1cae1151a70806f4312eaa3d"
     }
   },
   "unmapped_plural_fixes": [
@@ -82,7 +82,8 @@
     "gcc:55136",
     "gcc:55143",
     "gcc:68604",
-    "gcc:68611"
+    "gcc:68611",
+    "gnubik:156"
   ],
   "changes": [
     {
@@ -39868,6 +39869,494 @@
       "before": "Om parametern TEXTDOMÄN utelämnas bestäms domänen av miljövariabeln\nTEXTDOMAIN. Om meddelandekatalogen inte hittas i den normala katalogen så\nkan en annan katalog anges med miljövariabeln TEXTDOMAINDIR.\nNär flaggan -s ges uppträder programmet som kommandot ”echo”.\nMen det kopierar inte enbart sina argument till standard ut. Istället\növersätts de argument som hittas i den valda meddelandekatalogen.\nNormal katalog för meddelandekataloger: %s\n",
       "after": "Om parametern TEXTDOMÄN inte anges bestäms domänen av miljövariabeln TEXTDOMAIN. Om meddelandekatalogen inte hittas i den vanliga katalogen kan en annan plats anges med miljövariabeln TEXTDOMAINDIR.\nNär flaggan -s används beter sig programmet som kommandot ”echo”. Men det kopierar inte enbart sina argument till standardutdata. I stället översätts de argument som finns i den valda meddelandekatalogen.\nStandardkatalog för meddelandekataloger: %s\n",
       "reason": "Språk- och terminologigranskning av GDBM och gettext"
+    },
+    {
+      "tp_id": "gettext-runtime:268",
+      "project": "tp:gettext-runtime-1.0-pre2",
+      "msgid": "  MSGID MSGID-PLURAL        translate MSGID (singular) / MSGID-PLURAL (plural)\n",
+      "before": "  MEDID MEDID-PLURAL        översätt MEDID (singularis) / MEDID-PLURAL (plural)\n",
+      "after": "  MEDID MEDID-PLURAL        översätt MEDID (singular) / MEDID-PLURAL (plural)\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-runtime:273",
+      "project": "tp:gettext-runtime-1.0-pre2",
+      "msgid": "  COUNT                     choose singular/plural form based on this value\n",
+      "before": "  ANTAL                     välj singular/plural form baserat på detta värde\n",
+      "after": "  ANTAL                     välj singular- eller pluralform utifrån detta värde\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-runtime:297",
+      "project": "tp:gettext-runtime-1.0-pre2",
+      "msgid": "The string ends in the middle of a directive.",
+      "before": "Strängen slutar mitt i ett direktiv",
+      "after": "Strängen slutar mitt i ett direktiv.",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-runtime:327",
+      "project": "tp:gettext-runtime-1.0-pre2",
+      "msgid": "The escape sequence '%c%c' is unsupported (not in POSIX).",
+      "before": "Styrsevkensen ”%c%c” stödjs inte (inte i POSIX).",
+      "after": "Styrsekvensen ”%c%c” stödjs inte (inte i POSIX).",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-runtime:379",
+      "project": "tp:gettext-runtime-1.0-pre2",
+      "msgid": "Produces formatted output, applying the native language translation of FORMAT\nto the ARGUMENTs.\n",
+      "before": "Producerar formaterad utdata, med tillämpning av det egna språkets översättning\nav FORMAT till ARGUMENTen.\n",
+      "after": "Producerar formaterad utdata genom att tillämpa översättningen av FORMAT till ARGUMENTen på det lokala språket.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-runtime:416",
+      "project": "tp:gettext-runtime-1.0-pre2",
+      "msgid": "A directive that consumes an argument\n  - starts with '%s' or '%s' where %s is a positive integer,\n  - is optionally followed by any of the characters '%c', '%c', '%c', '%c', '%c',\n    each of which acts as a flag,\n  - is optionally followed by a width specification (a nonnegative integer),\n  - is optionally followed by '%c' and a precision specification (an optional\n    nonnegative integer),\n  - is finished by a specifier\n      - '%c', that prints a character,\n      - '%c', that prints a string,\n      - '%c', '%c', that print an integer,\n      - '%c', '%c', '%c', '%c', that print an unsigned (nonnegative) integer,\n      - '%c', '%c', that print a floating-point number in scientific notation,\n      - '%c', '%c', that print a floating-point number without an exponent,\n      - '%c', '%c', that print a floating-point number in general notation,\n      - '%c', '%c', that print a floating-point number in hexadecimal notation.\nAdditionally there is the directive '%s', that prints a single '%c'.\n",
+      "before": "Ett direktiv som konsumerar ett argument\n  - inleds med ”%s” eller ”%s” där %s är ett positivt heltal,\n  - följs eventuellt av några av tecknen ”%c”, ”%c”, ”%c”, ”%c”, ”%c”,\n    där var och ett fungerar som en flagga.\n  - följs eventuellt av en breddspecifikation (ett ickenegativt heltal),\n  - följs eventuellt av ”%c” och en precisionsspecifikation (ett eventuellt\n    ickenegativt heltal),\n  - avslutas med en speicficerare\n      - ”%c”, som skriver ett tecken,\n      - ”%c”, som skriver en sträng,\n      - ”%c”, ”%c”, som skriver ett heltal,\n      - ”%c”, ”%c”, ”%c”, ”%c”, som skriver ett teckenlöst (ickenegativt) heltal,\n      - ”%c”, ”%c”, som skriver ett flyttal i vetenskaplig notation,\n      - ”%c”, ”%c”, som skriver ett flyttal utan någon exponent,\n      - ”%c”, ”%c”, som skriver ett flyttal i allmän notation,\n      - ”%c”, ”%c”, som skriver ett flyttal i hexadecimal notation.\nDessutom finns direktivet ”%s”, som skriver ett ensamt ”%c”.\n",
+      "after": "Ett direktiv som använder ett argument\n  - inleds med ”%s” eller ”%s”, där %s är ett positivt heltal,\n  - följs eventuellt av något av tecknen ”%c”, ”%c”, ”%c”, ”%c”, ”%c”,\n    som vart och ett fungerar som en flagga,\n  - följs eventuellt av en breddspecifikation (ett ickenegativt heltal),\n  - följs eventuellt av ”%c” och en precisionsspecifikation (ett eventuellt\n    ickenegativt heltal),\n  - avslutas med en specificerare\n      - ”%c”, som skriver ett tecken,\n      - ”%c”, som skriver en sträng,\n      - ”%c”, ”%c”, som skriver ett heltal,\n      - ”%c”, ”%c”, ”%c”, ”%c”, som skriver ett teckenlöst (ickenegativt) heltal,\n      - ”%c”, ”%c”, som skriver ett flyttal i vetenskaplig notation,\n      - ”%c”, ”%c”, som skriver ett flyttal utan exponent,\n      - ”%c”, ”%c”, som skriver ett flyttal i allmän notation,\n      - ”%c”, ”%c”, som skriver ett flyttal i hexadecimal notation.\nDessutom finns direktivet ”%s”, som skriver ett ensamt ”%c”.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-runtime:507",
+      "project": "tp:gettext-runtime-1.0-pre2",
+      "msgid": "It is looked up in the catalogs directory given by the environment variable\n%s or, if not present, in the default catalogs directory.\nThis binary is configured to use the default catalogs directory:\n%s\n",
+      "before": "Den slås upp i katalogmappen som ges av miljövariabeln\n%s eller, om den inte finns, i standardkatalogmappen.\nDenna binär är konfigurerad att använda standardkatalogmappen:\n%s\n",
+      "after": "Den slås upp i katalogen som anges av miljövariabeln\n%s eller, om den inte finns, i standardkatalogen.\nDen här binärfilen är konfigurerad att använda standardkatalogen:\n%s\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:59",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "Extract or convert Unicode CLDR plural rules.\n\nIf both LOCALE and RULES are specified, it reads CLDR plural rules for\nLOCALE from RULES and print them in a form suitable for gettext use.\nIf no argument is given, it reads CLDR plural rules from the standard input.\n",
+      "before": "Extrahera eller konvertera Unicode CLDR plural-regler.\n\nOm både LOKAL och REGLER anges, läser den CLDR plural-regler för\nLOKAL från REGLER och skriv dem i en form som passar för gettext att använda.\nOm inget argument anges, läser den CLDR plural-regler från standard in.\n",
+      "after": "Extrahera eller konvertera Unicode CLDR-pluralregler.\n\nOm både LOKAL och REGLER anges läser programmet CLDR-pluralregler för LOKAL från REGLER och skriver dem i en form som gettext kan använda.\nOm inget argument anges läser programmet CLDR-pluralregler från standardindata.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:481",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "The color group opened by the directive number %zu is not terminated.",
+      "before": "Färgruppen som öppnades av direktiv nummer %zu är inte avslutad.",
+      "after": "Färggruppen som öppnades av direktiv nummer %zu är inte avslutad.",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:574",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "In the directive number %zu, the substring \"%s\" is not a valid date/time style.",
+      "before": "I direktiv nummer %zu är delsträngen \"%s\" inte en giltig datum/tid-stil.",
+      "after": "I direktiv nummer %zu är delsträngen ”%s” inte en giltig datum-/tidsstil.",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:584",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "In the directive number %zu, the substring \"%s\" is not a valid number style.",
+      "before": "I direktiv nummer %zu är delsträngen \"%s\" inte en giltig nummerstil.",
+      "after": "I direktiv nummer %zu är delsträngen ”%s” inte en giltig talstil.",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:594",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "In the directive number %zu, a choice contains no number.",
+      "before": "I direktiv nummer %zu innehåller ett val inga nummer.",
+      "after": "I direktiv nummer %zu innehåller ett val inget tal.",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:731",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "In the directive number %zu, a getattr argument starts with a character that is not alphabetical or underscore.",
+      "before": "I direktiv nummer %zu börjar ett getattr-argument med ett tecken som inte är alfanumeriskt eller understrykningstecken.",
+      "after": "I direktiv nummer %zu börjar ett getattr-argument med ett tecken som varken är en bokstav eller ett understreck.",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:741",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "In the directive number %zu, a getitem argument starts with a character that is not alphanumerical or underscore.",
+      "before": "I direktiv nummer %zu börjar ett getitem-argument med ett tecken som inte är alfanumeriskt eller understrykningstecken.",
+      "after": "I direktiv nummer %zu börjar ett getitem-argument med ett tecken som varken är alfanumeriskt eller ett understreck.",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:756",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "In the directive number %zu, a field name starts with a character that is not alphanumerical or underscore.",
+      "before": "I direktiv nummer %zu börjar ett fältnamn med ett tecken som inte är alfanumeriskt eller understrykningstecken.",
+      "after": "I direktiv nummer %zu börjar ett fältnamn med ett tecken som varken är alfanumeriskt eller ett understreck.",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:998",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "cannot evaluate XPath expression: %s",
+      "before": "kan inte evaluera XPath-uttryck: %s",
+      "after": "Kan inte utvärdera XPath-uttryck: %s",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:1024",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "cannot evaluate XPath location path: %s",
+      "before": "kan inte evaluera XPath-platssökväg: %s",
+      "after": "Kan inte utvärdera XPath-platssökväg: %s",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:1054",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "at most one input file allowed",
+      "before": "högst en infil tillåten",
+      "after": "Högst en indatafil är tillåten",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:1113",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "If no input file is given or if it is -, standard input is read.\n",
+      "before": "Om ingen infil är angiven eller om den är -, läses standard in.\n",
+      "after": "Om ingen indatafil anges eller om den är - läses standardindata.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:1135",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "The results are written to standard output if no output file is specified\nor if it is -.\n",
+      "before": "Resultatet skrivs till standard ut om ingen utfil anges eller om den är -.\n",
+      "after": "Resultatet skrivs till standardutdata om ingen utdatafil anges eller om den är -.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:1438",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "If input file is -, standard input is read.\n",
+      "before": "Om infil är - läses standard in.\n",
+      "after": "Om indatafilen är - läses standardindata.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:1524",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "Compare two Uniforum style .po files to check that both contain the same\nset of msgid strings.  The def.po file is an existing PO file with the\ntranslations.  The ref.pot file is the last created PO file, or a PO Template\nfile (generally created by xgettext).  This is useful for checking that\nyou have translated each and every message in your program.  Where an exact\nmatch cannot be found, fuzzy matching is used to produce better diagnostics.\n",
+      "before": "Jämför två .po-filer av Uniforum-typ för att kontrollera att de innehåller\nsamma uppsättning id-strängar.  Filen def.po är en existerande PO-fil med de\ngamla översättningarna.  Filen ref.po är den senast skapade PO-filen eller\nen PO-mönsterfil (i allmänhet skapad av xgettext).\nDetta är användbart för att kontrollera att du har översatt alla strängar i\nprogrammet.  Om en exakt likhet inte kan hittas används luddig jämförelse \nför att ge bättre felmeddelanden.\n",
+      "after": "Jämför två .po-filer av Uniforum-typ för att kontrollera att de innehåller samma uppsättning msgid-strängar. Filen def.po är en befintlig PO-fil med översättningarna. Filen ref.pot är den senast skapade PO-filen eller en PO-mallfil (vanligen skapad av xgettext). Detta är användbart för att kontrollera att du har översatt varje meddelande i programmet. Om en exakt träff inte kan hittas används luddig matchning för att ge bättre diagnoser.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:1557",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "  -m, --multi-domain          apply ref.pot to each of the domains in def.po\n",
+      "before": "  -m, --multi-domain          tillämpa ref.pot till alla domäner i def.po\n",
+      "after": "  -m, --multi-domain          tillämpa ref.pot på var och en av domänerna i def.po\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:1687",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "no input file given",
+      "before": "inga infiler givna",
+      "after": "Ingen indatafil angavs",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:1729",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "Applies a command to all translations of a translation catalog.\nThe COMMAND can be any program that reads a translation from standard\ninput.  It is invoked once for each translation.  Its output becomes\nmsgexec's output.  msgexec's return code is the maximum return code\nacross all invocations.\n",
+      "before": "Tillämpa ett kommando på alla översättningar i en meddelandekatalog.\nKOMMANDO kan vara vilket program som helst som läser ett meddelande från\nstandard in.  Det körs en gång för varje meddelande.  Utdata från KOMMANDO\nblir utdata från msgexec.  Slutstatusvärdet för msgexec är det maximala\nslutstatusvärdet för alla kommandokörningar.\n",
+      "after": "Tillämpa ett kommando på alla översättningar i en meddelandekatalog.\nKOMMANDO kan vara vilket program som helst som läser en översättning från\nstandardindata. Det körs en gång för varje översättning. Dess utdata blir\nmsgexecs utdata. Msgexecs slutstatus är den högsta slutstatusen från alla\nkörningar.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:1744",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "A special builtin command called '0' outputs the translation, followed by a\nnull byte.  The output of \"msgexec 0\" is suitable as input for \"xargs -0\".\n",
+      "before": "Ett speciellt inbyggt kommando som heter \"0\" skriver ut meddelandet följt\nav ett nolltecken.  Utdata för \"msgexec 0\" är lämpligt som indata för\n\"xargs -O\"\n",
+      "after": "Ett särskilt inbyggt kommando med namnet ”0” skriver ut översättningen följd av en nollbyte. Utdata från ”msgexec 0” kan användas som indata för ”xargs -0”.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:1769",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "write to stdout failed",
+      "before": "skrivning till standard ut misslyckades",
+      "after": "Skrivning till standardutdata misslyckades",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:1799",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "The FILTER can be any program that reads a translation from standard input\nand writes a modified translation to standard output.\n",
+      "before": "FILTER kan vara vilket program som helst som läser en översättning från\nstandard in och skriver den modifierade översättningen till standard ut.\n",
+      "after": "FILTER kan vara vilket program som helst som läser en översättning från\nstandardindata och skriver den ändrade översättningen till standardutdata.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:1858",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "      --keep-header           keep header entry unmodified, don't filter it\n",
+      "before": "      --keep-header           bevara huvudrader oförändrade, filtrera dem inte\n",
+      "after": "Bevara huvudposten oförändrad; filtrera den inte\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:2028",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "If output file is -, output is written to standard output.\n",
+      "before": "Om utfilen är - skrivs resultatet till standard ut.\n",
+      "after": "Om utdatafilen är - skrivs resultatet till standardutdata.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:2170",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "  -c, --check                 perform all the checks implied by\n                                --check-format, --check-header, --check-domain\n",
+      "before": "  -c, --check                 utför alla kontroller som bestäms av\n                                --check-format, --check-header, --check-domain\n",
+      "after": "  -c, --check                 utför alla kontroller som innebär\n                                --check-format, --check-header, --check-domain\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:2233",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "  -a, --alignment=NUMBER      align strings to NUMBER bytes (default: %d)\n",
+      "before": "  -a, --alignment=TAL         lägg strängar på jämna TAL byte (normalt: %d)\n",
+      "after": "  -a, --alignment=TAL         justera strängar till TAL byte (normalt: %d)\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:2325",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "option '%c' cannot be used before 'J' or 'K' or 'T' or 'C' or 'X' has been specified",
+      "before": "flagga \"%c\" kan inte användas förrän \"J\", \"K\", \"T\" \"C\" eller \"X\" angivits",
+      "after": "Flaggan ”%c” kan inte användas innan ”J”, ”K”, ”T”, ”C” eller ”X” har angetts",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:2474",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "If no input file is given, the current directory is searched for the POT file.\nIf it is -, standard input is read.\n",
+      "before": "Om ingen infil ges söks POT-filen i aktuell katalog.\nOm den är - läses standard in.\n",
+      "after": "Om ingen indatafil anges söks POT-filen i den aktuella katalogen.\nOm den är - läses standardindata.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:2488",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "If no output file is given, it depends on the --locale option or the user's\nlocale setting.\nIf the output file already exists, it is merged with the input file,\nas if through '%s'.\nIf it is -, the results are written to standard output.\n",
+      "before": "Om ingen utfil ges beror den på flaggan --locale eller användarens\nlokalinställning.\nOm utdatafilen redan finns slås den samman med indatafilen, som\nvia ”%s”.\nOm den är - skrivs resultatet till standard ut.\n",
+      "after": "Om ingen utdatafil anges beror den på flaggan --locale eller användarens lokalinställning.\nOm utdatafilen redan finns slås den samman med indatafilen, som om ”%s” hade använts.\nOm den är - skrivs resultatet till standardutdata.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:2689",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "- Set LC_ALL to a locale with encoding %s,\n  convert the translation catalog to %s using 'msgconv',\n  then apply '%s',\n  then convert back to %s using 'msgconv'.\n",
+      "before": "- Sätt LC_ALL till en lokal med kodning %s,\n  konvertera meddelandekatalogen till %s med \"msgconv\",\n  tillämpa därefter \"%s\"\n  konvertera sedan tillbaka till %s med \"msgconv\".\n",
+      "after": "- Sätt LC_ALL till en lokal med kodning %s,\n  konvertera meddelandekatalogen till %s med ”msgconv”,\n  tillämpa därefter ”%s”,\n  konvertera sedan tillbaka till %s med ”msgconv”.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:2717",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "plural expression can produce integer overflow",
+      "before": "pluraluttryck kan ge heltalsspill",
+      "after": "Pluraluttryck kan ge heltalsöverflöde",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:2721",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "plural expression can produce stack overflow",
+      "before": "pluraluttryck kan ge stackspill",
+      "after": "Pluraluttryck kan ge stacköverflöde",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:2743",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "but header entry lacks a \"plural=EXPRESSION\" attribute",
+      "before": "men huvudrader saknar attribut av typ \"plurals=UTTRYCK\"",
+      "after": "Men huvudposten saknar attributet ”plural=UTTRYCK”",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:2877",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "%sRead %ld old + %ld reference, merged %ld, fuzzied %ld, missing %ld, obsolete %ld.\n",
+      "before": "%sLäste %ld gamla + %ld referenser, %ld sammanslagna, %ld luddiga, %ld saknade, %ld föråldrade.\n",
+      "after": "%sLäste %ld gamla och %ld referenser, slog ihop %ld, markerade %ld som luddiga, saknade %ld, föråldrade %ld.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:2920",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "  def.po                      translations referring to old sources\n",
+      "before": "  def.po                      översättningar som refererar till gamla källkoden\n",
+      "after": "  def.po                      översättningar som refererar till gamla källor\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:2985",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "The backup suffix is '~', unless set with --suffix or the SIMPLE_BACKUP_SUFFIX\nenvironment variable.\n",
+      "before": "Suffix för säkerhetskopior är \"~\", om den inte sätts med --suffix eller\nmiljövariabeln SIMPLE_BACKUP_SUFFIX.\n",
+      "after": "Suffixet för säkerhetskopior är ”~”, om det inte anges med --suffix eller miljövariabeln SIMPLE_BACKUP_SUFFIX.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:3086",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "      --prompt=TEXT           Specifies the prompt to use before standard input.\n",
+      "before": "      --prompt=TEXT          Anger prompt:en som skall användas före standard in.\n",
+      "after": "      --prompt=TEXT           Anger prompten som ska användas före standardindata.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:3155",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "The -l and -d options are mandatory.  The .dll file is located in a\nsubdirectory of the specified directory whose name depends on the locale.\n",
+      "before": "Flaggorna -l och -d är obligatoriska.  .dll-filen placeras i en\nunderkatalog till den givna katalogen vars namn beror på lokalen.\n",
+      "after": "Flaggorna -l och -d är obligatoriska. .dll-filen finns i en underkatalog till den angivna katalogen vars namn beror på lokalen.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:3219",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "<stdin>",
+      "before": "<standard in>",
+      "after": "<standardindata>",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:3287",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "file \"%s\" is not in GNU .mo format: The hash table contains invalid entries.",
+      "before": "filen ”%s” är inte på GNUs .mo-format: hash-tabellen innehåller felaktiga poster.",
+      "after": "Filen ”%s” är inte i GNU:s .mo-format: hash-tabellen innehåller felaktiga poster.",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:3466",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "Recode Serbian text from Cyrillic to Latin script.\n",
+      "before": "Omkoda serbisk text från kyrillisk till latinsk kodning.\n",
+      "after": "Omkoda serbisk text från kyrillisk till latinsk skrift.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:3471",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "The input text is read from standard input.  The converted text is output to\nstandard output.\n",
+      "before": "Indatatexten läses från standard in. Den konverterade texten skrivs till\nstandard ut.\n",
+      "after": "Indatatexten läses från standardindata. Den konverterade texten skrivs till standardutdata.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:3504",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "Passes standard input to a Large Language Model (LLM) instance and prints\nthe response.\nWith the %s option, it translates standard input to the specified language\nthrough a Large Language Model (LLM) and prints the translation.\n",
+      "before": "Skickar standard in till en instans av en stor språkmodell (Large Language\nModel,(LLM) och skriver ut svaret.\nMed flaggan %s översätter den standard in till det angivna språket genom en\nstor språkmodell (Large Language Model, LLM) och skriver ut översättningen.\n",
+      "after": "Skickar standardindata till en instans av en stor språkmodell (LLM) och skriver ut svaret.\nMed flaggan %s översätter den standardindata till det angivna språket genom en stor språkmodell (LLM) och skriver ut översättningen.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:3536",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "      --prompt=TEXT           Specifies the prompt to use before standard input.\n                              This option overrides the --to option.\n",
+      "before": "      --prompt=TEXT           Anger prompt:en som skall användas före standard in.\n                              Denna flagga åsidosätter flaggan --to.\n",
+      "after": "      --prompt=TEXT           Anger prompten som ska användas före standardindata.\n                              Denna flagga åsidosätter flaggan --to.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:3555",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "error reading standard input",
+      "before": "fel när standard in lästes",
+      "after": "Fel vid läsning av standardindata",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:3570",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "Fetches and outputs the contents of an URL.  If the URL cannot be accessed,\nthe locally accessible FILE is used instead.\n",
+      "before": "Hämtar och skriver ut innehållet på URL.  Om URL inte kan hämtas används\nden lokala filen FIL istället.\n",
+      "after": "Hämtar och skriver ut innehållet från en URL. Om URL:en inte kan nås används den lokalt tillgängliga filen FIL i stället.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:3584",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "error writing stdout",
+      "before": "fel vid skrivning till standard ut",
+      "after": "Fel vid skrivning till standardutdata",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:3943",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "file \"%s\" is unsupported because not UTF-8 or UTF-16 or UTF-32 encoded",
+      "before": "filen ”%s” stödjs inte eftersom den inte är UTF-8- eller UTF-16 eller UTF-32-kodad",
+      "after": "Filen ”%s” stöds inte eftersom den varken är UTF-8-, UTF-16- eller UTF-32-kodad",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:3978",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "ASCII ellipsis ('...') instead of Unicode",
+      "before": "ASCII-ellips (”...”) istället för Unicode",
+      "after": "ASCII-ellips (”...”) används i stället för Unicode",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:4064",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "--join-existing cannot be used when output is written to stdout",
+      "before": "--join-existing kan inte användas då resultatet skrivs till standard ut",
+      "after": "--join-existing kan inte användas när resultatet skrivs till standardutdata",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:4159",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "By default the input files are assumed to be in ASCII.\n",
+      "before": "Normalt antas att filer är i ASCII-format.\n",
+      "after": "Som standard antas indatafilerna vara ASCII-kodade.\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:4169",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "  -x, --exclude-file=FILE.po  entries from FILE.po are not extracted\n",
+      "before": "  -x, --exclude-file=FIL.po   rader från FIL tas inte ut\n",
+      "after": "  -x, --exclude-file=FIL.po   poster från FIL.po extraheras inte\n",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:4497",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "%s%s: Here is the occurrence without plural.",
+      "before": "%s%s: här finns förekomsten utan plural.",
+      "after": "%s%s: Här finns förekomsten utan plural.",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:4502",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "%s%s: Here is the occurrence with plural.",
+      "before": "%s%s: här finns förekomsten med plural.",
+      "after": "%s%s: Här finns förekomsten med plural.",
+      "reason": "Språk- och terminologigranskning av gettext"
+    },
+    {
+      "tp_id": "gettext-tools:4507",
+      "project": "tp:gettext-tools-1.0-pre2",
+      "msgid": "Workaround: If the msgid is a sentence, change the wording of the sentence; otherwise, use contexts for disambiguation.",
+      "before": "Sätt att gå runt: om msgid:n är en mening, ändra ordalydelsen i meningen; annars, använd kontexter för att särskilja.",
+      "after": "Lösning: Om msgid är en mening, ändra meningen; använd annars kontexter för att skilja betydelser åt.",
+      "reason": "Språk- och terminologigranskning av gettext"
     },
     {
       "tp_id": "dico:79",
@@ -110300,6 +110789,1614 @@
       "before": "fel i ARGP_HELP_FMT: %s värde är utanför intervall\n",
       "after": "Fel i ARGP_HELP_FMT: värdet %s ligger utanför intervallet\n",
       "reason": "Språk- och terminologigranskning av GDBM och gettext"
+    },
+    {
+      "tp_id": "gnubik:79",
+      "project": "tp:gnubik-2.4.3",
+      "msgid": "Re_gular cube",
+      "before": "_Vanlig kub",
+      "after": "Va_nlig kub",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnubik:91",
+      "project": "tp:gnubik-2.4.3",
+      "msgid": "A 3 dimensional magic cube puzzle",
+      "before": "Ett tredimensionellt magisk-kub-pussel",
+      "after": "Ett tredimensionellt pussel med en magisk kub",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnubik:146",
+      "project": "tp:gnubik-2.4.3",
+      "msgid": "A mark is now set at position %d.",
+      "before": "Ett märke är nu satt på position %d.",
+      "after": "Ett märke är nu placerat på position %d.",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnubik:163",
+      "project": "tp:gnubik-2.4.3",
+      "msgid": "Cube is NOT solved! The colours are correct,  but have incorrect orientation",
+      "before": "Kuben är INTE löst! Färgerna är korrekta men har inkorrekt orientering",
+      "after": "Kuben är INTE löst! Färgerna är korrekta men har fel orientering",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnubik:299",
+      "project": "tp:gnubik-2.4.3",
+      "msgid": "A sample of the colour. You can click and select a new colour, or drag one to this space.",
+      "before": "Ett test av färgen. Du kan klicka och välja en ny färg, eller dra en till denna ruta.",
+      "after": "Ett färgprov. Du kan klicka och välja en ny färg eller dra en till den här rutan.",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:66",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": "Book is now on.\n",
+      "before": "Bok är nu på.\n",
+      "after": "Öppningsboken är nu på.\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:71",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": "Book is now off.\n",
+      "before": "Bok är nu av.\n",
+      "after": "Öppningsboken är nu av.\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:76",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": "Book is now best.\n",
+      "before": "Bok är nu bästa.\n",
+      "after": "Öppningsboken använder nu bästa drag.\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:81",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": "Book is now worst.\n",
+      "before": "Bok är nu sämsta.\n",
+      "after": "Öppningsboken använder nu sämsta drag.\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:86",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": "Book is now random.\n",
+      "before": "Bok är nu slumpmässig.\n",
+      "after": "Öppningsboken använder nu slumpmässiga drag.\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:210",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": "my rating = %d, opponent rating = %d\n",
+      "before": "min ranking = %d, motståndarranking = %d\n",
+      "after": "Mitt ratingtal = %d, motståndarens ratingtal = %d\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:344",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": "The file 'gnuchess.ini' allows setting configuration options, but it is\nignored if the --uci option is used. See 'info gnuchess' for details\nabout the options. The program will look for 'gnuchess.ini' in\n$XDG_CONFIG_HOME/gnuchess/ and $HOME/.config/gnuchess/ in that order,\nand it will use the first one it finds, if any.\n\n",
+      "before": "Filen ”gnuchess.ini” tillåter inställning av konfigurationsflaggor, men\nignoreras om flaggan --uci används. Se ”info gnuchess” för detaljer\nom flaggorna. Programmet kommer söka ”gnuchess.ini” i\n$XDG_CONFIG_HOME/gnuchess/ och $HOME/.config/gnuchess/ i den ordningen,\noch kommer använda den första den hittar, om någon.\n\n",
+      "after": "Filen ”gnuchess.ini” gör det möjligt att ange konfigurationsflaggor, men ignoreras om flaggan --uci används. Se ”info gnuchess” för information om flaggorna. Programmet söker efter ”gnuchess.ini” i $XDG_CONFIG_HOME/gnuchess/ och $HOME/.config/gnuchess/ i den ordningen och använder den första fil som hittas.\n\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:466",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": " add FILENAME - compiles book.bin from pgn book FILENAME",
+      "before": " add FILNAMN - kompilerar book.bin från en pgn-boken FILNAMN",
+      "after": " add FILNAMN - kompilerar book.bin från en PGN-öppningsbok i FILNAMN",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:625",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": " off - disables using the null-move heuristic",
+      "before": " on - inaktiverar användning av nolldragssökning",
+      "after": " off - inaktiverar användning av nolldragssökning",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:707",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": " eval [or score] - shows the evaluation per piece and overall",
+      "before": " eval [eller score] - visar evalueringen per pjäs och sammanlagt",
+      "after": " eval [eller score] - visar utvärderingen för varje pjäs och totalt",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:723",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": " capture - reads in an epd file and shows legal captures for its entries",
+      "before": " capture - läser in en epd-fil och visar tillåtet tagande för dess poster",
+      "after": " capture - läser in en EPD-fil och visar tillåtna slag för dess poster",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:755",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": " Displays the chessboard rank and file in both graphic and classical views.",
+      "before": " Visar raden och linjen för schackbrädet både i grafiskt och klassiskt läge.",
+      "after": " Visar schackbrädets rader och linjer i både grafiskt och klassiskt läge.",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:759",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": " Does not display the chessboard rank nor file in either mode (graphic nor classical).",
+      "before": " Visar inte raden eller linjen för schackbrädet i någotdera läge (grafiskt eller klassiskt).",
+      "after": " Visar varken schackbrädets rader eller linjer i något av lägena (grafiskt eller klassiskt).",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnuchess:777",
+      "project": "tp:gnuchess-6.3.0-pre2",
+      "msgid": "\nMy move is : %s\n",
+      "before": "\nMitt drag är : %s\n",
+      "after": "\nMitt drag är: %s\n",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnucobol:140",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "environment variable '%s' is '%s'; should not contain '%c'",
+      "before": "miljövariabel ”%s” är ”%s”; borde innehålla ”%c”",
+      "after": "miljövariabeln ”%s” är ”%s”; får inte innehålla ”%c”",
+      "reason": "Språk- och terminologigranskning"
+    },
+    {
+      "tp_id": "gnucobol:393",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "output to stdout only valid for preprocess",
+      "before": "utmatning till standard ut är bara giltig för förbehandling",
+      "after": "Utdata till standardutdata är endast giltig för förbehandling",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:405",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "only one stdin input allowed",
+      "before": "endast en standard in inmatning tillåts",
+      "after": "Endast en indata från standardindata är tillåten",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:432",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "preprocessing:",
+      "before": "preprocessar:",
+      "after": "förbehandling:",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:445",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "no listing produced",
+      "before": "ingen listning producerad",
+      "after": "Ingen listning skapades",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:491",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "Too many errors in compilation group: %d maximum errors",
+      "before": "För många fel i kompileringsgrupp: %d fel som mest",
+      "after": "För många fel i kompileringsgruppen: högst %d fel",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:518",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "unexpected CONSTANT item",
+      "before": "okänt CONSTANT-objekt",
+      "after": "Oväntat CONSTANT-objekt",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:523",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "unexpected cast type: %d",
+      "before": "okänd typkonverteringstyp: %d",
+      "after": "Oväntad typkonverteringstyp: %d",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:583",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "should be one of the following values: %s",
+      "before": "borde vara endera av följande värden: %s",
+      "after": "Ska vara ett av följande värden: %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:914",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "LEFT/RIGHT phrases in SYNCHRONIZED clause",
+      "before": "LEFT/RIGHT-frase i SYNCHRONIZED-klausul",
+      "after": "LEFT/RIGHT-fraser i SYNCHRONIZED-klausulen",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1107",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "BINARY-SEQUENTIAL and LINE-SEQUENTIAL phrases in RECORD DELIMITER",
+      "before": "BINARY-SEQUENTIAL- och LINE-SEQUENTIAL-frase i RECORD DELIMITER",
+      "after": "BINARY-SEQUENTIAL- och LINE-SEQUENTIAL-fraser i RECORD DELIMITER",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1159",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "CALL to own PROGRAM-ID implies RECURSIVE attribute",
+      "before": "CALL till eget PROGRAM-ID innebär RECURSIVE-attribut",
+      "after": "CALL till eget PROGRAM-ID innebär attributet RECURSIVE",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1177",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "note: ",
+      "before": "not: ",
+      "after": "anmärkning: ",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1314",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "constant expression has Divide by ZERO",
+      "before": "konstantuttryck har division med noll",
+      "after": "Konstantuttrycket innebär division med noll",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1322",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "expression stack overflow at %d entries for operation '%c'",
+      "before": "uttrycksstacken spiller över vid %d poster för operation ”%c”",
+      "after": "Uttrycksstacken överflödar vid %d poster för operationen ”%c”",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1327",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "expression stack overflow at %d entries",
+      "before": "uttrycksstacken spiller över vid %d poster",
+      "after": "Uttrycksstacken överflödar vid %d poster",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1469",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "'%s' EXTERNAL not allowed with REDEFINES",
+      "before": "”%s” EXTERNAL inte tillåten med REDEFINES",
+      "after": "”%s” EXTERNAL är inte tillåten med REDEFINES",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1474",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "'%s' BASED not allowed here",
+      "before": "”%s” BASED inte tillåtet här",
+      "after": "”%s” BASED är inte tillåtet här",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1479",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "'%s' BASED not allowed with REDEFINES",
+      "before": "”%s” BASED inte tillåtet med REDEFINES",
+      "after": "”%s” BASED är inte tillåtet med REDEFINES",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1695",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "OCCURS and multi COLUMNs is not allowed",
+      "before": "OCCURS och flera COLUMN är inte tillåtet",
+      "after": "OCCURS och flera COLUMN är inte tillåtna",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1713",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "size of '%s' larger than size of '%s'",
+      "before": "storlek för ”%s” större än storlek för ”%s”",
+      "after": "Storleken på ”%s” är större än storleken på ”%s”",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1845",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -fintrinsics=[ALL|intrinsic function name(,name,...)]\n                        intrinsics to be used without FUNCTION keyword",
+      "before": "  -fintrinsics=[ALL|intrinsic function name(,name,...)]\n                        intrinsiska funktioner som får användas utan FUNCTION-nyckelord",
+      "after": "  -fintrinsics=[ALL|intrinsic function name(,name,...)]\n                        inbyggda funktioner som får användas utan FUNCTION-nyckelord",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1919",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -fstack-extended      store origin of entrypoints and PERFORM\n                        * turned on by --debug/-fdump",
+      "before": "  -fstack-extended      lagra ursprung för entrypoints och PERFORM\n                        * aktiveras av --debug/-fdump",
+      "after": "  -fstack-extended      lagra ursprunget för startpunkter och PERFORM\n                        * aktiveras av --debug/-fdump",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:1931",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -fno-remove-unreachable\tdisable remove of unreachable code\n                        * turned off by -g",
+      "before": "  -fno-remove-unreachable\tinaktivera borttagning av oåtkomlig kod\n                        * stängs av av -g",
+      "after": "  -fno-remove-unreachable\tinaktivera borttagning av oåtkomlig kod\n                        * inaktiveras av -g",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:2037",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -fno-trunc            allow numeric field overflow\n                        * non-ANSI behaviour",
+      "before": "  -fno-trunc            tillåt överspill i numeriska fält\n                        * icke-ANSI-beteende",
+      "after": "  -fno-trunc            tillåt överflöde i numeriska fält\n                        * icke-ANSI-beteende",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:2150",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "Report bugs to: %s\nor (preferably) use the issue tracker via the home page.",
+      "before": "Rapportera fel till: %s\neller (hellre) via felrapporteringssystemet via webbplatsen.",
+      "after": "Rapportera fel till: %s\neller, helst, via felhanteraren på webbplatsen.",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:2227",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -j [<args>], --job[=<args>]\trun program after build, passing <args>",
+      "before": "  -j [<arg>], --job[=<arg>]\tkör program efter bygge, skicka vidare <arg>",
+      "after": "  -j [<arg>], --job[=<arg>]\tkör programmet efter bygget och skicka vidare <arg>",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:2297",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -o <file>             place the output into <file>",
+      "before": "  -o <fil>              placera utmatning i <fil>",
+      "after": "  -o <fil>              skriv utdata till <fil>",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:2337",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -P[=<dir or file>]    generate preprocessed program listing (.lst)",
+      "before": "  -P[=<kat eller fil>]  generera preprocessad programlistning (.lst)",
+      "after": "  -P[=<kat eller fil>]  generera förbehandlad programlistning (.lst)",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:2552",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "<word> or <word>:<definition>, where definition uses backslash escaped spaces",
+      "before": "<ord> eller <ord>:<definition>, där definitionen använder omvänt snedstreck-escape för blanksteg",
+      "after": "<ord> eller <ord>:<definition>, där definitionen använder blanksteg med omvänt snedstreck som escape-tecken",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:2571",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "start of statement in Area A",
+      "before": "start av sats i Area A",
+      "after": "början av sats i Area A",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:2637",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "OCCURS TO must be greater than OCCURS FROM",
+      "before": "OCCUR TO måste vara större än OCCURS FROM",
+      "after": "OCCURS TO måste vara större än OCCURS FROM",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:2689",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "currency symbol must be one character long",
+      "before": "valutasymbol måste vara ett tecken lång",
+      "after": "Valutasymbolen måste vara ett tecken lång",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:2812",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "ambiguous DISPLAY; put items to display on device in separate DISPLAY",
+      "before": "tvetydig DISPLAY; stoppa objekt att visa på enhet i separat DISPLAY",
+      "after": "Tvetydig DISPLAY; placera objekten som ska visas på enheten i en separat DISPLAY-sats",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:2840",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "ANY LENGTH item not allowed here",
+      "before": "ANY LENGTH-objekt inte tillåtet här",
+      "after": "ANY LENGTH-objekt är inte tillåtet här",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:2879",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "prototypes must be come before any program/function definitions",
+      "before": "prototyper måste komma före alla program-/funktionsdefinitioner",
+      "after": "Prototyper måste komma före alla program- och funktionsdefinitioner",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3011",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "RECORD description missing or invalid",
+      "before": "RECORD-beskrivning saknas eller ogiltig",
+      "after": "RECORD-beskrivningen saknas eller är ogiltig",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3055",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "CONSTANT item not at 01 level",
+      "before": "CONSTANT-objekt inte vid nivå 01",
+      "after": "CONSTANT-objektet är inte på nivå 01",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3063",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "%s only allowed at 01/77 level",
+      "before": "%s endast tillåtet vid nivå 01/77",
+      "after": "%s är endast tillåtet på nivå 01/77",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3075",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "%s not allowed in %s",
+      "before": "%s inte tillåtet i %s",
+      "after": "%s är inte tillåtet i %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3080",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "%s not allowed here",
+      "before": "%s inte tillåtet här",
+      "after": "%s är inte tillåtet här",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3146",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "%s only allowed at 01 level",
+      "before": "%s endast tillåtet på nivå 01",
+      "after": "%s är endast tillåtet på nivå 01",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3210",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "executable program requested but PROCEDURE/ENTRY has USING clause",
+      "before": "körbart program begärt men PROCEDURE/ENTRY har USING-klausul",
+      "after": "Ett körbart program har begärts men PROCEDURE/ENTRY har en USING-klausul",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3214",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "number of arguments exceeds maximum %d",
+      "before": "antal argument överskrider max %d",
+      "after": "Antalet argument överskrider högsta tillåtna antal, %d",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3227",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "%s not allowed in CHAINED programs",
+      "before": "%s inte tillåtet i CHAINED-program",
+      "after": "%s är inte tillåtet i CHAINED-program",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3236",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "SIZE only allowed for BY VALUE items",
+      "before": "SIZE endast tillåtet för BY VALUE-objekt",
+      "after": "SIZE är endast tillåtet för BY VALUE-objekt",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3249",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "OPTIONAL only allowed for BY REFERENCE items",
+      "before": "OPTIONAL endast tillåtet för BY REFERENCE-objekt",
+      "after": "OPTIONAL är endast tillåtet för BY REFERENCE-objekt",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3450",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "EXIT FUNCTION only allowed within a FUNCTION",
+      "before": "EXIT FUNCTION endast tillåtet inom en FUNCTION",
+      "after": "EXIT FUNCTION är endast tillåtet inom en FUNCTION",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3466",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "RETURNING/GIVING not allowed for non-returning runtime elements",
+      "before": "RETURNING/GIVING inte tillåtet för icke-returnerande körtidselement",
+      "after": "RETURNING/GIVING är inte tillåtet för körtidselement utan returvärde",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:3726",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "%s requires a record name as subject",
+      "before": "%s kräver ett postnamn som ämne",
+      "after": "%s kräver ett postnamn som objekt",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4112",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "Reserved Words",
+      "before": "Reserverad ord",
+      "after": "Reserverade ord",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4225",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "national-character literal",
+      "before": "nationellt teckenlitteral",
+      "after": "Nationell teckenlitteral",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4267",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "literal exceeds limit %u",
+      "before": "litteral överskred gräns %u",
+      "after": "Litteralen överskrider gränsen %u",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4445",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "literal length %d exceeds maximum of %d digits",
+      "before": "litterallängd %d överskriver maximala %d siffror",
+      "after": "Litterallängden %d överskrider högsta tillåtna antal, %d siffror",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4450",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "literal length %d exceeds %d digits",
+      "before": "litterallängd %d överskriver %d siffror",
+      "after": "Litterallängden %d överskrider %d siffror",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4464",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "only literals with the same category can be concatenated",
+      "before": "endast litteraler med samma kategori kan konkateneras",
+      "after": "Endast litteraler i samma kategori kan sammanfogas",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4468",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "only alphanumeric, utf-8, national or boolean literals may be concatenated",
+      "before": "endast alfanumeriska, utf-8-, nationella eller booleska litteraler kan konkateneras",
+      "after": "Endast alfanumeriska, UTF-8-, nationella eller booleska litteraler kan sammanfogas",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4485",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "a leading +/- sign",
+      "before": "ett inledande +/--tecken",
+      "after": "Ett inledande +/-tecken",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4489",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "a trailing +/- sign",
+      "before": "ett efterföljande +/--tecken",
+      "after": "Ett efterföljande +/-tecken",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4513",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "a floating +/- string which is before the decimal point",
+      "before": "en flytande +/--sträng som kommer före decimalpunkten",
+      "after": "En flytande +/-sträng före decimalpunkten",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4517",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "a floating +/- string which is after the decimal point",
+      "before": "en flytande +/--sträng som kommer efter decimalpunkten",
+      "after": "En flytande +/-sträng efter decimalpunkten",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4640",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "numeric field cannot be larger than %d digits",
+      "before": "Det går inte att ha ett numeriskt fält större än %d siffror",
+      "after": "Ett numeriskt fält får inte vara större än %d siffror",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4655",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "no DETAIL line defined in report %s",
+      "before": "ingen DETAIL-rad definierad i rapport %s",
+      "after": "Ingen DETAIL-rad har definierats i rapporten %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4700",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "size of record '%s' (%d) smaller than minimum of file '%s' (%d)",
+      "before": "storlek för post ”%s” (%d) mindre än det minsta för fil ”%s” (%d)",
+      "after": "Storleken på posten ”%s” (%d) är mindre än minimistorleken för filen ”%s” (%d)",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4709",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "size of record '%s' (%d) larger than maximum of file '%s' (%d)",
+      "before": "storlek för post ”%s” (%d) större än det största för fil ”%s” (%d)",
+      "after": "Storleken på posten ”%s” (%d) är större än maximistorleken för filen ”%s” (%d)",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4755",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "unsigned '%s' may not be %s %s",
+      "before": "teckenlös '%s' får inte vara %s %s",
+      "after": "Teckenlösa ”%s” får inte vara %s %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4760",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "unsigned '%s' may always be %s %s",
+      "before": "teckenlös '%s' får alltid vara %s %s",
+      "after": "Teckenlösa ”%s” kan alltid vara %s %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4830",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "PERFORM FOREVER since UNTIL is always FALSE",
+      "before": "PERFORM FOREVER då UNTIL är alltid FALSE",
+      "after": "PERFORM FOREVER eftersom UNTIL alltid är FALSE",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4834",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "PERFORM ONCE since UNTIL is always TRUE",
+      "before": "PERFORM ONCE då UNTIL är alltid TRUE",
+      "after": "PERFORM ONCE eftersom UNTIL alltid är TRUE",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:4838",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "PERFORM NEVER since UNTIL is always TRUE",
+      "before": "PERFORM NEVER då UNTIL alltid är TRUE",
+      "after": "PERFORM NEVER eftersom UNTIL alltid är TRUE",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5058",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "target must be in FILE SECTION or LINKAGE SECTION or have the EXTERNAL clause",
+      "before": "mål måste vara i FILE SECTION eller LINKAGE SECTION eller har en EXTERNAL-klausul",
+      "after": "Målet måste finnas i FILE SECTION eller LINKAGE SECTION eller ha EXTERNAL-klausulen",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5086",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "'%s' REDEFINES field not allowed here",
+      "before": "”%s”REDEFINES-fält inte tillåtet här",
+      "after": "”%s” REDEFINES-fält är inte tillåtet här",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5198",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "duplicate character values in alphabet '%s': %s",
+      "before": "duplicerade teckenvärde i alfabet ”%s”: %s",
+      "after": "Dubbla teckenvärden i alfabetet ”%s”: %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5203",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "invalid character values in alphabet '%s', starting at position %d",
+      "before": "ogiltiga teckenvärden i alfabet ”%s”, börjar på position %d",
+      "after": "Ogiltiga teckenvärden i alfabetet ”%s”, från position %d",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5416",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "'%s' is not in DECLARATIVES",
+      "before": "”%s” är inte inuti DECLARATIVES",
+      "after": "”%s” ingår inte i DECLARATIVES",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5426",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "GO TO paragraph '%s' which is defined in another SECTION",
+      "before": "GO TO-stycke ”%s” som är definierat i en annan SECTION",
+      "after": "GO TO-stycke ”%s” som definieras i en annan SECTION",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5478",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "internal decimal structure size exceeded: %d",
+      "before": "intern decimalstrukturstorlek överskriden: %d",
+      "after": "Den interna decimalstrukturens storlek överskreds: %d",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5492",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "precision of result may change with arithmetic-osvs",
+      "before": "precision för resultatet kan förändras med osvs-aritmetik",
+      "after": "Resultatets precision kan ändras med arithmetic-osvs",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5506",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "unexpected constant expansion",
+      "before": "oväntat konstantuttryck",
+      "after": "oväntad konstantexpansion",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5531",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "no CORRESPONDING items found",
+      "before": "inget CORRESPONDING-objekt hittat",
+      "after": "Inga CORRESPONDING-objekt hittades",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5588",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "target of RETURNING is not a data pointer",
+      "before": "mål för RETURNING är inte en datapekare",
+      "after": "RETURNING-målet är inte en datapekare",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5618",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "STDCALL not available on this platform",
+      "before": "STDCALL inte tillgängligt på denna plattform",
+      "after": "STDCALL är inte tillgängligt på denna plattform",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5622",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "STDCALL used on 64-bit Windows platform",
+      "before": "STDCALL använt på 64-bitars Windows-plattform",
+      "after": "STDCALL används på 64-bitars Windows-plattform",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5639",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "numeric literal exceeds size limits",
+      "before": "numerisk litteral överskriver storleksbegränsningar",
+      "after": "numerisk litteral överskrider storleksbegränsningarna",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5653",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "'%s' ANY LENGTH item not passed BY REFERENCE",
+      "before": "”%s” ANY LENGTH-objekt förbigås inte av BY REFERENCE",
+      "after": "”%s” ANY LENGTH-objekt skickas inte med BY REFERENCE",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5663",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "%s not allowed on %s files",
+      "before": "%s inte tillåtet på %s-filer",
+      "after": "%s är inte tillåtet för %s-filer",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5675",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "HANDLE must be either a generic or a WINDOW HANDLE or X(10)",
+      "before": "HANDLE måste vara antingen en generisk eller ett WINDOW HANDLE eller X(10)",
+      "after": "HANDLE måste vara antingen ett generiskt HANDLE, ett WINDOW HANDLE eller X(10)",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5688",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "'%s' is not an output device",
+      "before": "”%s” är inte en utmatningsenhet",
+      "after": "”%s” är inte en utdataenhet",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5748",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "'%s' defined here as PIC %s",
+      "before": "”%s” definierat här som PIC %s",
+      "after": "”%s” definierades här som PIC %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5753",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "'%s' defined here as a group of length %d",
+      "before": "”%s” definierat här som en grupp med längden %d",
+      "after": "”%s” definierades här som en grupp med längden %d",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5758",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "internal register '%s' defined as USAGE %s",
+      "before": "internt register ”%s” definierat som USAGE %s",
+      "after": "internt register ”%s” definierades som USAGE %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5763",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "'%s' defined here as USAGE %s",
+      "before": "”%s” definierat här som USAGE %s",
+      "after": "”%s” definierades här som USAGE %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5806",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "overlapping MOVE may occur and produce unpredictable results",
+      "before": "överlappande MOVE kan förekomma och ger oförutsägbara resultat",
+      "after": "överlappande MOVE kan förekomma och ge oförutsägbara resultat",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5835",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "literal exceeds data size",
+      "before": "litteral överskrider datastorlek",
+      "after": "litteralen överskrider datastorleken",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5839",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "numeric literal exceeds data size",
+      "before": "numerisk litteral överskrider datastorlek",
+      "after": "numerisk litteral överskrider datastorleken",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5855",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "value size exceeds data size",
+      "before": "storlek för värde överstiger datastorlek",
+      "after": "värdets storlek överskrider datastorleken",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5863",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "some digits may be truncated",
+      "before": "vissa siffror kan komma att trunkeras",
+      "after": "vissa siffror kan komma att avkortas",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5872",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "READ PREVIOUS not allowed for this file type",
+      "before": "READ PREVIOUS inte tillåtet för denna filtyp",
+      "after": "READ PREVIOUS är inte tillåtet för denna filtyp",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5876",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "KEY ignored with sequential READ",
+      "before": "KEY överhoppat med sekventiell READ",
+      "after": "KEY ignoreras vid sekventiell READ",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5898",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "RELEASE not allowed on this record item",
+      "before": "RELEASE inte tillåtet för detta postobjekt",
+      "after": "RELEASE är inte tillåtet för detta postobjekt",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5906",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "SEARCH ALL requires comparision of KEY field",
+      "before": "SEARCH ALL kräver jämförelse av KEY-fält",
+      "after": "SEARCH ALL kräver jämförelse av KEY-fältet",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5919",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "cannot change address of '%s', which is not level 1 or 77",
+      "before": "det går inte att ändra adress för ”%s”, vilken inte är nivå 1 eller 77",
+      "after": "det går inte att ändra adressen för ”%s”, som inte är på nivå 1 eller 77",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5934",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "field does not have a FALSE clause",
+      "before": "fält har inte en FALSE-klausul",
+      "after": "fältet har ingen FALSE-klausul",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5959",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "LENGTH/SIZE clause only allowed on INDEXED files",
+      "before": "LENGTH-/SIZE-klausul endast tillåten för INDEXED-filer",
+      "after": "LENGTH-/SIZE-klausulen är endast tillåten för INDEXED-filer",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:5963",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "START not allowed with ACCESS MODE RANDOM",
+      "before": "START inte tillåtet med ACCESS MODE RANDOM",
+      "after": "START är inte tillåtet med ACCESS MODE RANDOM",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6008",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "%s must be a child of the input record",
+      "before": "%s måste vara ett barn till inmatningsposten",
+      "after": "%s måste vara underordnat inmatningsposten",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6038",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "JSON/XML GENERATE receiving item",
+      "before": "JSON/XML GENERATE mottagarobjekt",
+      "after": "JSON/XML GENERATE-mottagarobjekt",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6042",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "JSON/XML GENERATE receiving item may not have JUSTIFIED clause",
+      "before": "JSON/XML GENERATE mottagarobjekt får inte ha JUSTIFIED-klausul",
+      "after": "JSON/XML GENERATE-mottagarobjektet får inte ha JUSTIFIED-klausul",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6046",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "JSON/XML GENERATE input record may not be reference modified",
+      "before": "JSON/XML GENERATE inmatningspost får inte referensmodifieras",
+      "after": "JSON/XML GENERATE-inmatningsposten får inte referensmodifieras",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6050",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "JSON/XML GENERATE input record may not have RENAMES clause",
+      "before": "JSON/XML GENERATE inmatningspost får inte ha RENAMES-klausul",
+      "after": "JSON/XML GENERATE-inmatningsposten får inte ha RENAMES-klausul",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6054",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "all the children of '%s' are ignored in JSON/XML GENERATE",
+      "before": "alla barn till ”%s” ignoreras i JSON/XML GENERATE",
+      "after": "alla underobjekt till ”%s” ignoreras i JSON/XML GENERATE",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6059",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "JSON/XML GENERATE input record has subrecords with non-unique names",
+      "before": "JSON/XML GENERATE inmatningspost har underposter med icke-unika namn",
+      "after": "JSON/XML GENERATE-inmatningsposten har delposter med icke-unika namn",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6083",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "NAME OF item must be the input record or a child of it",
+      "before": "NAME OF-objekt måste vara inmatningsposten eller ett barn till den",
+      "after": "NAME OF-objektet måste vara inmatningsposten eller ett underobjekt till den",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6091",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "NAME OF literal must be a valid %s identifier",
+      "before": "NAME OF-litteral måste vara en giltig %s-identifierare",
+      "after": "NAME OF-litteralen måste vara en giltig %s-identifierare",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6121",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "WITH ATTRIBUTES specified, but no attributes can be generated",
+      "before": "WITH ATTRIBUTES angivet, men inga attribut kan genereras",
+      "after": "WITH ATTRIBUTES har angetts, men inga attribut kan genereras",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6133",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -Wno-pending          do not warn if pending features are used",
+      "before": "  -Wno-pending          varna inte när väntande funktioner används",
+      "after": "  -Wno-pending          varna inte när funktioner under utveckling används",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6137",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -Wno-repository-checks\tdo not warn/check for program/function/external signature mismatch",
+      "before": "  -Wno-repository-checks\tvarna inte/kontrollera inte signaturavvikelser för program/funktion/extern",
+      "after": "  -Wno-repository-checks\tvarna inte/kontrollera inte signaturavvikelser för program, funktioner och externa namn",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6141",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -Wno-ignored-error    do not warn about errors in code parts which are unreachable and so normally ignored",
+      "before": "  -Wno-ignored-error    varna inte om fel i koddelar som är oåtkomliga och därför normalt ignoreras",
+      "after": "  -Wno-ignored-error    varna inte om fel i koddelar som inte kan nås och därför normalt ignoreras",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6157",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -Wtruncate            warn about field truncation from constant assignments",
+      "before": "  -Wtruncate            varna för fälttrunkering vid konstanttilldelningar",
+      "after": "  -Wtruncate            varna för fältavkortning vid konstanttilldelningar",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6161",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -Wpossible-truncate   warn about possible field truncation",
+      "before": "  -Wpossible-truncate   varna för möjlig fälttrunkering",
+      "after": "  -Wpossible-truncate   varna för möjlig fältavkortning",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6218",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -Wlarger-01-redefines  warn about larger redefines allowed by COBOL standards",
+      "before": "  -Wlarger-01-redefines  varna om större redefines som tillåts av COBOL-standarder",
+      "after": "  -Wlarger-01-redefines  varna om större REDEFINES som tillåts av COBOL-standarderna",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6222",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -Wcolumn-overflow     warn about text after program-text area, FIXED format",
+      "before": "  -Wcolumn-overflow     varna om text efter programtextområde, FIXED-format",
+      "after": "  -Wcolumn-overflow     varna om text efter programtextområdet, FIXED-format",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6242",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -Wno-goto-section     do not warn about GO TO section-name",
+      "before": "  -Wno-goto-section     varna inte om GO TO sektionsnamn",
+      "after": "  -Wno-goto-section     varna inte om GO TO-sektionsnamn",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6246",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -Wgoto-different-section\twarn about GO TO a praragraph defined in a different section",
+      "before": "  -Wgoto-different-section\tvarna om GO TO till stycke definierat i annan sektion",
+      "after": "  -Wgoto-different-section\tvarna om GO TO till ett stycke som definieras i en annan sektion",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6250",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -Wsuspicious-perform-thru\twarn if PERFORM THRU references procedures not in ascending order or multiple sections",
+      "before": "  -Wsuspicious-perform-thru\tvarna om PERFORM THRU refererar procedurer utan stigande ordning eller flera sektioner",
+      "after": "  -Wsuspicious-perform-thru\tvarna om PERFORM THRU refererar till procedurer som inte står i stigande ordning eller till flera sektioner",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6254",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -Wdangling-text       warn about source text after program-area",
+      "before": "  -Wdangling-text       varna om källtext efter programområde",
+      "after": "  -Wdangling-text       varna om källtext efter programområdet",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6304",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "NULL parameter passed to '%s'",
+      "before": "NULL-parameter skickad till ”%s”",
+      "after": "NULL-parametern skickades till ”%s”",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6309",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "invalid number of arguments passed to '%s'",
+      "before": "ogiltigt antal argument skickade till ”%s”",
+      "after": "ogiltigt antal argument skickades till ”%s”",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6331",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "parameter %d is not within range of %d",
+      "before": "parameter %d är inte inom intervallet %d",
+      "after": "parameter %d ligger inte inom intervallet %d",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6345",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "field not allocated",
+      "before": "fält ej allokerat",
+      "after": "fältet är inte allokerat",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6349",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "attempt to over-write constant field with '%s'",
+      "before": "försök att skriva över konstant fält med ”%s”",
+      "after": "försök att skriva över konstantfält med ”%s”",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6394",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "requested coredump creation failed with status %d",
+      "before": "begärd coredump-skapning misslyckades med status %d",
+      "after": "begärd coredump kunde inte skapas; status %d",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6399",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "fatal arithmetic error",
+      "before": "ödesdigert aritmetiskt fel",
+      "after": "allvarligt aritmetiskt fel",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6407",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "hangup",
+      "before": "upphängning",
+      "after": "avbruten anslutning",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6431",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "attempt to reference invalid memory address",
+      "before": "försök att referera ogiltig minnesadress",
+      "after": "försök att referera till en ogiltig minnesadress",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6447",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "process killed",
+      "before": "processen dödades",
+      "after": "processen har dödats",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6455",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "stop process",
+      "before": "stoppa process",
+      "after": "stoppa processen",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6473",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "abnormal termination - file contents may be incorrect",
+      "before": "onormal avslutning - filinnehåll kan vara felaktigt",
+      "after": "onormal avslutning – filinnehållet kan vara felaktigt",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6493",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "code execution leaving %s",
+      "before": "kodkörning lämnar %s",
+      "after": "kodexekvering lämnar %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6503",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "memory violation detected for '%s' after %s",
+      "before": "minnesöverträdelse upptäckt för ”%s” efter %s",
+      "after": "minnesåtkomstfel upptäcktes för ”%s” efter %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6508",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "memory violation detected after %s",
+      "before": "minnesöverträdelse upptäckt efter %s",
+      "after": "minnesåtkomstfel upptäcktes efter %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6513",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "LINKAGE item %s not passed by caller",
+      "before": "LINKAGE-objekt %s inte skickat av anroparen",
+      "after": "LINKAGE-objektet %s skickades inte av anroparen",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6524",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "'%s' (Type: %s) not numeric: '%s'",
+      "before": "”%s” (typ: %s) inte numeriskt: ”%s”",
+      "after": "”%s” (typ: %s) är inte numeriskt: ”%s”",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6529",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "OCCURS DEPENDING ON '%s' out of bounds: %d",
+      "before": "OCCURS DEPENDING ON ”%s” utanför intervall: %d",
+      "after": "OCCURS DEPENDING ON ”%s” är utanför gränserna: %d",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6549",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "offset of '%s' out of bounds: %d, maximum: %d",
+      "before": "förskjutning för ”%s” utanför intervall: %d, max: %d",
+      "after": "förskjutning för ”%s” är utanför gränserna: %d, högsta värde: %d",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6554",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "length of '%s' out of bounds: %d, maximum: %d",
+      "before": "längd för ”%s” utanför intervall: %d, max: %d",
+      "after": "längd för ”%s” är utanför gränserna: %d, högsta värde: %d",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6559",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "length of '%s' out of bounds: %d, starting at: %d, maximum: %d",
+      "before": "längd för ”%s” utanför intervall: %d, start vid: %d, max: %d",
+      "after": "längd för ”%s” är utanför gränserna: %d, start: %d, högsta värde: %d",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6564",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "EXTERNAL item '%s' previously allocated with size %d, requested size is %d",
+      "before": "EXTERNAL-objekt ”%s” tidigare allokerat med storlek %d, begärd storlek är %d",
+      "after": "EXTERNAL-objektet ”%s” har tidigare allokerats med storleken %d, begärd storlek är %d",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6598",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "call to CBL_GC_GETOPT with wrong longoption size",
+      "before": "anrop till CBL_GC_GETOPT med fel storlek på långflagga",
+      "after": "anrop till CBL_GC_GETOPT med fel storlek på lång flagga",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6637",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "set by %s",
+      "before": "satt av %s",
+      "after": "angivet av %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6642",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "WARNING - '%s' without a value - ignored!",
+      "before": "VARNING - ”%s” utan ett värde - överhoppat!",
+      "after": "VARNING – ”%s” utan värde – ignoreras!",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6652",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "WARNING - '%s %s' without a value - ignored!",
+      "before": "VARNING - ”%s %s” utan ett värde - överhoppat!",
+      "after": "VARNING – ”%s %s” utan värde – ignoreras!",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6669",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "stack overflow, possible PERFORM depth exceeded",
+      "before": "stacköverspill, möjligt PERFORM-djup överskridit",
+      "after": "stacköverflöde, möjligt PERFORM-djup har överskridits",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6681",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "invalid entry into module",
+      "before": "ogiltig ingång in i modul",
+      "after": "ogiltig ingång i modul",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6703",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "key order not ascending",
+      "before": "nyckelsortering inte stigande",
+      "after": "nyckelordningen är inte stigande",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6711",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "record key does not exist",
+      "before": "postnyckel existerar inte",
+      "after": "postnyckeln finns inte",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6731",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "mismatch of fixed file attributes",
+      "before": "felmatchning av fasta filattribut",
+      "after": "fasta filattribut matchar inte",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6735",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "file already open",
+      "before": "fil redan öppen",
+      "after": "filen är redan öppen",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6739",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "file not open",
+      "before": "fil inte öppen",
+      "after": "filen är inte öppen",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6747",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "record overflow",
+      "before": "postöverspill",
+      "after": "postöverflöde",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6755",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "READ/START not allowed, file not open for input",
+      "before": "READ/START inte tillåtet, fil inte öppen för inmatning",
+      "after": "READ/START är inte tillåtet, filen är inte öppen för indata",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6759",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "WRITE not allowed, file not open for output",
+      "before": "WRITE inte tillåtet, fil inte öppen för utmatning",
+      "after": "WRITE är inte tillåtet, filen är inte öppen för utdata",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6763",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "DELETE/REWRITE not allowed, file not open for I-O",
+      "before": "DELETE/REWRITE inte tillåtet, fil inte öppen för in-/utmatning",
+      "after": "DELETE/REWRITE är inte tillåtet, filen är inte öppen för in-/utdata",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6767",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "record locked by another file connector",
+      "before": "post låst av en annan filkontakt",
+      "after": "posten är låst av en annan filanslutning",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6783",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "runtime library is not configured for this operation",
+      "before": "körtidsbibliotek är inte konfigurerat för denna åtgärd",
+      "after": "körtidsbiblioteket är inte konfigurerat för denna åtgärd",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6852",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "File I/O configuration",
+      "before": "Fil in/ut-konfiguration",
+      "after": "Konfiguration av fil-I/O",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6856",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "Screen I/O configuration",
+      "before": "Skärm in/ut-konfiguration",
+      "after": "Konfiguration av skärm-I/O",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6894",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "%s called with unknown option: %d",
+      "before": "%s anropades med okänt alternativ: %d",
+      "after": "%s anropades med okänd flagga: %d",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6909",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "Dump Program-Id %s from %s compiled %s",
+      "before": "Dump Program-Id %s från %s kompilerad %s",
+      "after": "Dump av Program-Id %s från %s, kompilerad %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6914",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "dump written to %s",
+      "before": "dump skriven till %s",
+      "after": "dump skrevs till %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6936",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "cannot join BDB environment (%s), error: %d %s",
+      "before": "det går inte att sammanfoga BDB-miljö (%s): fel: %d %s",
+      "after": "kan inte ansluta till BDB-miljön (%s), fel: %d %s",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6947",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "ERROR FILE %s has ASSIGN field is NULL",
+      "before": "FEL FIL %s har ASSIGN-fält som är NULL",
+      "after": "FEL: FIL %s har ett NULL-ASSIGN-fält",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:6972",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "SORT is unable to acquire temporary file",
+      "before": "SORT kan inte få tag i temporärfil",
+      "after": "SORT kan inte hämta temporärfil",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL"
+    },
+    {
+      "tp_id": "gnucobol:7048",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "failed to initialize curses",
+      "before": "misslyckades att initiera curses",
+      "after": "det gick inte att initiera curses",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL och Gnulib"
+    },
+    {
+      "tp_id": "gnucobol:7065",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "COB_DISPLAY_PUNCH_FILE is invalid, output to SYSPUNCH skipped",
+      "before": "COB_DISPLAY_PUNCH_FILE är ogiltig, utmatning till SYSPUNCH överhoppas",
+      "after": "COB_DISPLAY_PUNCH_FILE är ogiltig, utdata till SYSPUNCH hoppas över",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL och Gnulib"
+    },
+    {
+      "tp_id": "gnucobol:7103",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -q, --brief                     reduced displays",
+      "before": "  -q, --brief                     begränsade utskrifter",
+      "after": "  -q, --brief                     begränsad utdata",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL och Gnulib"
+    },
+    {
+      "tp_id": "gnucobol:7111",
+      "project": "tp:gnucobol-3.2",
+      "msgid": "  -r, --runtime-config            display current runtime configuration\n                                  (value and origin for all settings)",
+      "before": "  -r, --runtime-config            skriv ut aktuell körtidskonfiguration\n                                  (värde och härkomst för alla inställningar)",
+      "after": "  -r, --runtime-config            visa aktuell körtidskonfiguration\n                                  (värde och ursprung för alla inställningar)",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL och Gnulib"
+    },
+    {
+      "tp_id": "gnulib:403",
+      "project": "tp:gnulib-20241209",
+      "msgid": "C# virtual machine not found, try installing mono or dotnet",
+      "before": "den virtuella C#-maskinen hittades inte, försök installera mono eller dotnet",
+      "after": "den virtuella Java-maskinen hittades inte, försök installera mono eller dotnet",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL och Gnulib"
+    },
+    {
+      "tp_id": "gnulib:408",
+      "project": "tp:gnulib-20241209",
+      "msgid": "cannot convert file name '%s' to Windows syntax",
+      "before": "kan inte konvertera filnamnet ”%s” till Windows syntax",
+      "after": "kan inte konvertera filnamnet ”%s” till Windows-syntax",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL och Gnulib"
+    },
+    {
+      "tp_id": "gnulib:603",
+      "project": "tp:gnulib-20241209",
+      "msgid": "The java program is too old. Cannot compile Java code for this old version any more.",
+      "before": "Javaprogrammet är för gammalt. Kan inte kompilera Javakod för denna gamla version längre.",
+      "after": "Java-programmet är för gammalt. Kan inte längre kompilera Java-kod för denna gamla version.",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL och Gnulib"
+    },
+    {
+      "tp_id": "gnulib:618",
+      "project": "tp:gnulib-20241209",
+      "msgid": "Java compiler not found, try setting $JAVAC",
+      "before": "Javakompilatorn hittades inte, försök at sätta $JAVAC",
+      "after": "Java-kompilatorn hittades inte, försök att sätta $JAVAC",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL och Gnulib"
+    },
+    {
+      "tp_id": "gnulib:668",
+      "project": "tp:gnulib-20241209",
+      "msgid": "Failed to open /dev/zero for read",
+      "before": "Misslyckades att öppna /dev/zero för läsning",
+      "after": "kunde inte öppna /dev/zero för läsning",
+      "reason": "Språk- och terminologigranskning av GnuCOBOL och Gnulib"
     }
   ]
 }
