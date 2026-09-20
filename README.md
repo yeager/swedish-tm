@@ -1,6 +1,6 @@
 # Swedish Translation Memory
 
-**706 128 unique English–Swedish translation pairs** in 15 ecosystem exports
+**688 242 unique English–Swedish translation pairs** in 16 ecosystem exports
 (790 331 entries before deduplicating across ecosystems). These counts describe
 the files shipped in this repository, exported on 2026-09-19.
 
@@ -13,7 +13,7 @@ source entries and made 21 181 confirmed corrections; its scope and remaining
 work are recorded in [TP-REVIEW.md](TP-REVIEW.md). The review is ongoing, so
 every match remains a suggestion to be evaluated in its destination context.
 
-All 15 PO files and 14 corresponding TMX files are checked in CI for gettext
+All 16 PO files and 15 corresponding TMX files are checked in CI for gettext
 validity, XML safety, format agreement and statistics consistency.
 
 ## Contents
@@ -29,6 +29,7 @@ validity, XML safety, format agreement and statistics consistency.
 | XFCE | 3 182 | [sv-xfce.tmx](sv-xfce.tmx) | [sv-xfce.po](sv-xfce.po) |
 | Translation Project | 117 723 | [sv-tp.tmx](sv-tp.tmx) | [sv-tp.po](sv-tp.po) |
 | Transifex | 227 083 | — | [sv-transifex.po](sv-transifex.po) |
+| CrowdIn | 1 750 | [sv-crowdin.tmx](sv-crowdin.tmx) | [sv-crowdin.po](sv-crowdin.po) |
 | Weblate | 22 854 | [sv-weblate.tmx](sv-weblate.tmx) | [sv-weblate.po](sv-weblate.po) |
 | Blender | 70 264 | [sv-blender.tmx](sv-blender.tmx) | [sv-blender.po](sv-blender.po) |
 | Inkscape | 15 892 | [sv-inkscape.tmx](sv-inkscape.tmx) | [sv-inkscape.po](sv-inkscape.po) |
