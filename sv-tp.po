@@ -222208,15 +222208,15 @@ msgstr "   -T, --text-files           behandla alla filer som text\n            
 
 #. from tp:sharutils-4.15.2
 msgid "Specifying file selection and output modes:\n"
-msgstr "Ange filurvalet och utdatalägen:\n"
+msgstr "Ange filurvals- och utdatalägen:\n"
 
 #. from tp:sharutils-4.15.2
 msgid "   -o, --output-prefix=str    print output to file PREFIX.nn\n"
-msgstr "   -o, --output-prefix=str    skriv ut till fil PREFIX.nn\n"
+msgstr "   -o, --output-prefix=STRÄNG skriv utdata i filen PREFIX.nn\n"
 
 #. from tp:sharutils-4.15.2
 msgid "   -l, --whole-size-limit=SIZE\n                              split archive, not files, to SIZE\n                                - requires the option 'output-prefix'\n                                - is scalable with a suffix: k/K/m/M/g/G/t/T\n                                - it must lie in one of the ranges:\n                                  8 to 1023, or 8192 to 4194304\n"
-msgstr "   -l, --whole-size-limit=STORLEK\n                              dela arkiv, inte filer, enligt STORLEK\n                                - kräver flaggan ”output-prefix”\n                                - är skalbart med ett suffix: k/K/m/M/g/G/t/T\n                                - måste vara i ett av intervallen:\n                                  8 till 1023, eller 8192 till 4194304\n"
+msgstr "   -l, --whole-size-limit=STORLEK\n                              dela arkivet, men inte filerna, i delar med\n                              storleken STORLEK\n                                - kräver flaggan ”output-prefix”\n                                - kan skalas med suffixet: k/K/m/M/g/G/t/T\n                                - måste ligga i något av intervallen:\n                                  8 till 1023 eller 8192 till 4194304\n"
 
 #. from tp:sharutils-4.15.2
 msgid "   -L, --split-size-limit=SIZE\n                              split archive or files to SIZE\n                                - requires the option 'output-prefix'\n                                - is scalable with a suffix: k/K/m/M/g/G/t/T\n                                - it must lie in one of the ranges:\n                                  8 to 1023, or 8192 to 4194304\n                                - an alternate for 'whole-size-limit'\n"

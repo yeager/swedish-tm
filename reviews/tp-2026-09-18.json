@@ -1,29 +1,29 @@
 {
   "baseline": "359390fce7a17db50de4722db14331cb9e9735b2",
-  "reviewed_tp_entries": 99514,
+  "reviewed_tp_entries": 99520,
   "total_tp_entries": 127367,
   "complete": false,
-  "changed_pairs": 25502,
+  "changed_pairs": 25505,
   "files": {
     "sv-tp.po": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 25502,
+      "confirmed_swedish_changes": 25505,
       "structural_entries": 2,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "be998435d6900b03bf7f3adb4c9ea00d6c487deb3b660b3d91602bd366f5628c"
+      "sha256": "3a6204684e724fb213e87a5ce3bd0db61fc79459cd6621206bc9254209f61c17"
     },
     "sv-tp.tmx": {
       "entries_checked": 117723,
-      "confirmed_swedish_changes": 25502,
+      "confirmed_swedish_changes": 25505,
       "structural_entries": 0,
       "all_sources_and_projects_preserved": true,
       "native_controls_lossless": true,
       "syntax_valid": true,
       "serialized_bytes_verified": true,
-      "sha256": "cb94e832557607c8e04fc378cb0a2aa583338eeaf357754203ee50cca9b86270"
+      "sha256": "e7967dfef6d3cb7fea8de9ff65ba2201f83ebb29bef0aea9de5362741348f3f9"
     }
   },
   "unmapped_plural_fixes": [
@@ -123701,6 +123701,30 @@
       "before": "   -C, --compactor=PROG       ange kompressionsprogram PROG\n                                - förbjuder flaggan ”vanilla-option”\n                                - får förekomma flera gånger\n                                - måste vara känt av shar: xz gzip bzip2\n",
       "after": "   -C, --compactor=PROGRAM    ange kompressionsprogram PROGRAM\n                                - förbjuder flaggan ”vanilla-operation”\n                                - får förekomma flera gånger\n                                - måste vara känt av shar: xz gzip bzip2\n",
       "reason": "Rättar flaggnamnet vanilla-operation och översätter den semantiska programparametern."
+    },
+    {
+      "tp_id": "sharutils:483",
+      "project": "tp:sharutils-4.15.2",
+      "msgid": "Specifying file selection and output modes:\n",
+      "before": "Ange filurvalet och utdatalägen:\n",
+      "after": "Ange filurvals- och utdatalägen:\n",
+      "reason": "Rättar sammansättningen för file selection och output modes."
+    },
+    {
+      "tp_id": "sharutils:487",
+      "project": "tp:sharutils-4.15.2",
+      "msgid": "   -o, --output-prefix=str    print output to file PREFIX.nn\n",
+      "before": "   -o, --output-prefix=str    skriv ut till fil PREFIX.nn\n",
+      "after": "   -o, --output-prefix=STRÄNG skriv utdata i filen PREFIX.nn\n",
+      "reason": "Översätter den semantiska strängparametern och använder utdata för output."
+    },
+    {
+      "tp_id": "sharutils:491",
+      "project": "tp:sharutils-4.15.2",
+      "msgid": "   -l, --whole-size-limit=SIZE\n                              split archive, not files, to SIZE\n                                - requires the option 'output-prefix'\n                                - is scalable with a suffix: k/K/m/M/g/G/t/T\n                                - it must lie in one of the ranges:\n                                  8 to 1023, or 8192 to 4194304\n",
+      "before": "   -l, --whole-size-limit=STORLEK\n                              dela arkiv, inte filer, enligt STORLEK\n                                - kräver flaggan ”output-prefix”\n                                - är skalbart med ett suffix: k/K/m/M/g/G/t/T\n                                - måste vara i ett av intervallen:\n                                  8 till 1023, eller 8192 till 4194304\n",
+      "after": "   -l, --whole-size-limit=STORLEK\n                              dela arkivet, men inte filerna, i delar med\n                              storleken STORLEK\n                                - kräver flaggan ”output-prefix”\n                                - kan skalas med suffixet: k/K/m/M/g/G/t/T\n                                - måste ligga i något av intervallen:\n                                  8 till 1023 eller 8192 till 4194304\n",
+      "reason": "Förtydligar att arkivet delas i delar av angiven storlek och förbättrar tekniskt språkbruk."
     },
     {
       "tp_id": "diffutils:476",
