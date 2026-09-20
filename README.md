@@ -29,7 +29,7 @@ validity, XML safety, format agreement and statistics consistency.
 | XFCE | 3 182 | [sv-xfce.tmx](sv-xfce.tmx) | [sv-xfce.po](sv-xfce.po) |
 | Translation Project | 117 723 | [sv-tp.tmx](sv-tp.tmx) | [sv-tp.po](sv-tp.po) |
 | Transifex | 227 083 | — | [sv-transifex.po](sv-transifex.po) |
-| CrowdIn | 1 750 | [sv-crowdin.tmx](sv-crowdin.tmx) | [sv-crowdin.po](sv-crowdin.po) |
+| CrowdIn | 1 834 | [sv-crowdin.tmx](sv-crowdin.tmx) | [sv-crowdin.po](sv-crowdin.po) |
 | Weblate | 22 854 | [sv-weblate.tmx](sv-weblate.tmx) | [sv-weblate.po](sv-weblate.po) |
 | Blender | 70 264 | [sv-blender.tmx](sv-blender.tmx) | [sv-blender.po](sv-blender.po) |
 | Inkscape | 15 892 | [sv-inkscape.tmx](sv-inkscape.tmx) | [sv-inkscape.po](sv-inkscape.po) |
