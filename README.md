@@ -108,3 +108,7 @@ License: CC BY 4.0.
 
 Related: [Swedish FOSS Terminology](https://github.com/yeager/swedish-foss-terminology), [Computer Swedens IT-ord](https://it-ord.computersweden.se/)
 and [svlang](https://github.com/yeager/svlang).
+
+## Review-derived project memories
+
+Project-specific reviewed data and context-preserving PO/TMX exports are documented in [reviewed/README.md](reviewed/README.md). These supplement the ecosystem exports and retain original contexts, plural identities and review evidence.
