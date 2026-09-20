@@ -1,11 +1,11 @@
 {
-  "baseline": "37c04a5a460e6985d858affea679fde85fb79673",
-  "reviewed_tp_entries": 104440,
+  "baseline": "46dd225",
+  "reviewed_tp_entries": 107269,
   "total_tp_entries": 127367,
   "complete": false,
-  "reviewed_entries": 104440,
-  "unique_candidate_pairs": 30457,
-  "applied_pairs": 429,
+  "reviewed_entries": 107269,
+  "unique_candidate_pairs": 30513,
+  "applied_pairs": 476,
   "ambiguous_pairs_excluded": 70,
   "changes": [
     {
@@ -2152,6 +2152,242 @@
       "msgid": "Su",
       "before": "sö",
       "after": "Mo"
+    },
+    {
+      "msgid": "%s: option '%s%s' is ambiguous\n",
+      "before": "%s: flaggan '%s%s' är tvetydig\n",
+      "after": "%s: flaggan ”%s%s” är tvetydig\n"
+    },
+    {
+      "msgid": "%s: option '%s%s' requires an argument\n",
+      "before": "%s: flaggan ”%s%s” kräver ett argument\n",
+      "after": "%s: flaggan '%s%s' kräver ett argument\n"
+    },
+    {
+      "msgid": "Unmatched ) or \\)",
+      "before": "Omatchad ) eller \\)",
+      "after": "Omatchat ) eller \\)"
+    },
+    {
+      "msgid": "%s subprocess",
+      "before": "underprocessen %s",
+      "after": "%s-underprocess"
+    },
+    {
+      "msgid": "addition",
+      "before": "addition",
+      "after": "tillägg"
+    },
+    {
+      "msgid": "\n\nYou are upgrading to tin %s from an earlier version.\nSome values in your %s file have changed!\nRead WHATSNEW, etc...\n",
+      "before": "\n\nDu uppgraderar till tin %s från en tidigare version.\nVissa värden i din %s-fil har ändrats!\nLäs WHATSNEW, etc...\n",
+      "after": "\n\nDu uppgraderar till tin %s från en tidigare version.\nVissa värden i din %s-fil har ändrats!\nLäs WHATSNEW med mera.\n"
+    },
+    {
+      "msgid": "Warning: this mail address may contain a spamtrap. %s=continue, %s=abort? ",
+      "before": "Varning: den här e-postadressen kan innehålla en spamtrap. %s=fortsätt, %s=avbryt? ",
+      "after": "Varning: den här e-postadressen kan innehålla en skräppostfälla. %s=fortsätt, %s=avbryt? "
+    },
+    {
+      "msgid": "\nWarning: Signatures should start with '-- \\n' not with '--\\n'.\n",
+      "before": "\nVarning för signaturer: Signaturer ska börja med \"-- \\n\", inte med \"--\\n\".\n",
+      "after": "\nVarning: signaturer ska börja med \"-- \\n\", inte med \"--\\n\".\n"
+    },
+    {
+      "msgid": "Writing attributes file...",
+      "before": "Skriver attributfil...",
+      "after": "Skriver attributfil…"
+    },
+    {
+      "msgid": "Can't run slrnface: couldn't construct fifo name.",
+      "before": "Kan inte köra slrnface: kunde inte konstruera fifo-namn.",
+      "after": "Kan inte köra slrnface: kunde inte skapa FIFO-namn."
+    },
+    {
+      "msgid": "Can't run slrnface: Environment variable %s not found.",
+      "before": "Kan inte köra slrnface: Miljövariabeln %s hittades inte.",
+      "after": "Kan inte köra slrnface: miljövariabeln %s hittades inte."
+    },
+    {
+      "msgid": "Can't run slrnface: Not running in an xterm.",
+      "before": "Kan inte köra slrnface: Körs inte i en xterm.",
+      "after": "Kan inte köra slrnface: körs inte i en xterm."
+    },
+    {
+      "msgid": "couldn't connect to display",
+      "before": "kunde inte ansluta till skärmen",
+      "after": "kunde inte ansluta till visningen"
+    },
+    {
+      "msgid": "couldn't find controlling terminal",
+      "before": "kunde inte hitta kontrollterminalen",
+      "after": "kunde inte hitta styrande terminal"
+    },
+    {
+      "msgid": "terminal doesn't export width and height",
+      "before": "terminalen exporterar inte bredd och höjd",
+      "after": "terminalen anger inte bredd och höjd"
+    },
+    {
+      "msgid": "Xref: line (case insensitive)",
+      "before": "Xref: rad (skiftlägesokänslig)",
+      "after": "Xref:-rad (skiftlägesokänslig)"
+    },
+    {
+      "msgid": "corrupt yenc",
+      "before": "korrupt yenc",
+      "after": "skadad yenc"
+    },
+    {
+      "msgid": "crc checksum %s",
+      "before": "crc-kontrollsumma %s",
+      "after": "CRC-kontrollsumma %s"
+    },
+    {
+      "msgid": "You have mail",
+      "before": "Du har post",
+      "after": "Du har e-post"
+    },
+    {
+      "msgid": "\nWarning: Posting is in %s and contains characters which are not\n         in your selected MM_NETWORK_CHARSET: %s.\n         These characters will be replaced by '?' if you post this\n         article unchanged. To avoid garbling your article please either\n         edit it and remove those characters or change the setting of\n         MM_NETWORK_CHARSET to a suitable value for your posting via the\n         M)enu option.\n",
+      "before": "\nVarning för detta: Postningen är i %s och innehåller tecken som inte finns\n         i ditt valda MM_NETWORK_CHARSET: %s.\n         Dessa tecken kommer att ersättas av '?' om du publicerar denna\n         artikel oförändrad. För att undvika att din artikel förvrängs, vänligen antingen\n         redigera den och ta bort dessa tecken eller ändra inställningen för\n         MM_NETWORK_CHARSET till ett värde som passar för din postning via\n         M)enu-alternativet.\n",
+      "after": "\nVarning: inlägget använder %s och innehåller tecken som inte ingår\n         i den valda MM_NETWORK_CHARSET: %s.\n         Dessa tecken ersätts av '?' om du postar artikeln\n         oförändrad. För att undvika att artikeln förvanskas redigerar du den\n         och tar bort tecknen, eller ändrar inställningen MM_NETWORK_CHARSET\n         till ett värde som passar inlägget via alternativet i M)enyn.\n"
+    },
+    {
+      "msgid": "\nError: Followup-To set to more than one newsgroup!\n",
+      "before": "\nFelmeddelande: Followup-To satt till mer än en nyhetsgrupp!\n",
+      "after": "\nFel: Followup-To är satt till mer än en nyhetsgrupp!\n"
+    },
+    {
+      "msgid": "\nError: \"%s\" is not a valid newsgroup!\n",
+      "before": "\nFelmeddelande: \"%s\" är inte en giltig nyhetsgrupp!\n",
+      "after": "\nFel: ”%s” är inte en giltig nyhetsgrupp!\n"
+    },
+    {
+      "msgid": "\nWarning: Followup-To set to more than one newsgroup!\n",
+      "before": "\nVarning för att Followup-To sätts till mer än en nyhetsgrupp!\n",
+      "after": "\nVarning: Followup-To är satt till mer än en nyhetsgrupp!\n"
+    },
+    {
+      "msgid": "\nWarning: \"%s\" is not in your newsrc,\nit may be invalid at this site!\n",
+      "before": "\nVarning: \"%s\" finns inte i din newsrc, det kan vara ogiltigt\npå denna webbplats!\n",
+      "after": "\nVarning: ”%s” finns inte i din newsrc;\ndet kan vara ogiltigt på denna nyhetsserver!\n"
+    },
+    {
+      "msgid": "\nWarning: \"%s\" is not a valid newsgroup at this site!\n",
+      "before": "\nVarning för att \"%s\" är inte en giltig nyhetsgrupp på den här webbplatsen!\n",
+      "after": "\nVarning: ”%s” är inte en giltig nyhetsgrupp på denna nyhetsserver!\n"
+    },
+    {
+      "msgid": "%d files successfully written from %d articles. %d %s occurred.",
+      "before": "%d filer framgångsrikt skrivna från %d artiklar. %d %s inträffade.",
+      "after": "%d filer skrevs utan fel från %d artiklar. %d %s inträffade."
+    },
+    {
+      "msgid": "Missing parts.",
+      "before": "Saknade delar.",
+      "after": "Delar saknas."
+    },
+    {
+      "msgid": "No data.",
+      "before": "Inget data.",
+      "after": "Inga data."
+    },
+    {
+      "msgid": "perform PGP operations on article",
+      "before": "genomför PGP-operationer på artikel",
+      "after": "utför PGP-åtgärder på artikel"
+    },
+    {
+      "msgid": "%s=sign, %s=sign & include public key, %s=quit: ",
+      "before": "%s=signera, %s=signera & inkludera publik nyckel, %s=avsluta: ",
+      "after": "%s=signera, %s=signera och inkludera offentlig nyckel, %s=avsluta: "
+    },
+    {
+      "msgid": "%s=quit, %s=edit, %s=send [%%s]: ",
+      "before": "%s=sluta, %s=redigera, %s=sänd [%%s]: ",
+      "after": "%s=avsluta, %s=redigera, %s=skicka [%%s]: "
+    },
+    {
+      "msgid": "%s argument is not numeric: %s",
+      "before": "%s argumentet är inte numeriskt: %s",
+      "after": "argumentet %s är inte numeriskt: %s"
+    },
+    {
+      "msgid": "Tin will use local index files instead.\n",
+      "before": "Tin kommer att använda lokala indexfiler istället.\n",
+      "after": "Tin använder lokala indexfiler i stället.\n"
+    },
+    {
+      "msgid": "Connecting to %s:%u...",
+      "before": "Ansluter till %s:%u...",
+      "after": "Ansluter till %s:%u…"
+    },
+    {
+      "msgid": "NNTP connection error. Exiting...",
+      "before": "Fel i NNTP-anslutningen. Avslutar...",
+      "after": "Fel i NNTP-anslutningen. Avslutar…"
+    },
+    {
+      "msgid": "NNTP connection error: nntp_read_timeout_secs %d elapsed. Exiting...",
+      "before": "NNTP-anslutningsfel: nntp_read_timeout_secs %d har löpt ut. Avslutar...",
+      "after": "NNTP-anslutningsfel: nntp_read_timeout_secs %d har löpt ut. Avslutar…"
+    },
+    {
+      "msgid": "Disconnecting from server...",
+      "before": "Kopplar bort från servern...",
+      "after": "Kopplar bort från servern…"
+    },
+    {
+      "msgid": "Failed to connect to NNTP server %s. Exiting...",
+      "before": "Misslyckades med att ansluta till NNTP-servern %s. Avslutar...",
+      "after": "Misslyckades med att ansluta till NNTP-servern %s. Avslutar…"
+    },
+    {
+      "msgid": "reconnect (%d) limit %d reached, giving up.",
+      "before": "återansluta (%d) gräns %d nådd, ger upp.",
+      "after": "Gränsen %d för återanslutningar (%d) har nåtts, ger upp."
+    },
+    {
+      "msgid": "Connection to news server has timed out. Reconnect?",
+      "before": "Anslutningen till nyhetsservern har tidsavbrutits. Återansluta?",
+      "after": "Anslutningen till nyhetsservern har gjort timeout. Återanslut?"
+    },
+    {
+      "msgid": "Continuing...",
+      "before": "Fortsätter...",
+      "after": "Fortsätter…"
+    },
+    {
+      "msgid": "Giving up...\n",
+      "before": "Ger upp...\n",
+      "after": "Ger upp…\n"
+    },
+    {
+      "msgid": "Your server does not have Xref: in its XOVER information.\nTin will try to use XHDR XREF instead (slows down things a bit).\n",
+      "before": "Din server har inte Xref: i sin XOVER-information.\nTin kommer att försöka använda XHDR XREF istället (saktar ner saker lite).\n",
+      "after": "Din server har inte Xref: i sin XOVER-information.\nTin försöker använda XHDR XREF i stället (det går lite långsammare).\n"
+    },
+    {
+      "msgid": "Posting using external inews failed. Use built in inews instead?",
+      "before": "Postning med externa inews misslyckades. Använd inbyggda inews istället?",
+      "after": "Postning med externa inews misslyckades. Använd inbyggda inews i stället?"
+    },
+    {
+      "msgid": "Pipe to command [%.*s]> ",
+      "before": "Rör till kommando [%.*s]> ",
+      "after": "Skicka till kommando via rörledning [%.*s]> "
+    },
+    {
+      "msgid": "Group %.*s ('q' to quit)...",
+      "before": "Grupp %.*s (\"q\" för att avsluta)...",
+      "after": "Grupp %.*s (\"q\" för att avsluta)…"
+    },
+    {
+      "msgid": "Group %.*s...",
+      "before": "Grupp %.*s...",
+      "after": "Grupp %.*s…"
     }
-  ]
+  ],
+  "incremental_applied_pairs": 47
 }
