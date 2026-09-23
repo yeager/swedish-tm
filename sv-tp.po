@@ -9472,11 +9472,11 @@ msgstr "%pB: %#<PRIx64>: varning: dåligt antal"
 
 #. from tp:bfd-2.45.90
 msgid "%pB: %#<PRIx64>: fatal: reloc overflow while relaxing"
-msgstr "%pB: %#<PRIx64>: allvarligt fel: omlokaliseringen ger överspill vid relaxering"
+msgstr "%pB: %#<PRIx64>: ödesdigert fel: omlokaliseringen ger överspill vid relaxering"
 
 #. from tp:bfd-2.45.90
 msgid "%pB: fatal: generic symbols retrieved before relaxing"
-msgstr "%pB: allvarligt fel: generiska symboler hämtades före relaxering"
+msgstr "%pB: ödesdigert fel: generiska symboler hämtades före relaxering"
 
 #. from tp:bfd-2.45.90
 msgid "%pB: illegal symbol index %ld in relocs"
@@ -12096,19 +12096,19 @@ msgstr "%pB: %#<PRIx64>: varning: R_SH_USES pekar på en okänd instruktion 0x%x
 
 #. from tp:bfd-2.45.90
 msgid "%pB: %#<PRIx64>: fatal: unaligned branch target for relax-support relocation"
-msgstr "%pB: %#<PRIx64>: allvarligt fel: ojusterat hoppmål för omlokalisering som stöder relaxering"
+msgstr "%pB: %#<PRIx64>: ödesdigert fel: ojusterat hoppmål för omlokalisering som stöder relaxering"
 
 #. from tp:bfd-2.45.90
 msgid "%pB: %#<PRIx64>: fatal: unaligned %s relocation %#<PRIx64>"
-msgstr "%pB: %#<PRIx64>: allvarligt fel: ojusterad %s-omlokalisering %#<PRIx64>"
+msgstr "%pB: %#<PRIx64>: ödesdigert fel: ojusterad %s-omlokalisering %#<PRIx64>"
 
 #. from tp:bfd-2.45.90
 msgid "%pB: %#<PRIx64>: fatal: R_SH_PSHA relocation %<PRId64> not in range -32..32"
-msgstr "%pB: %#<PRIx64>: allvarligt fel: R_SH_PSHA-omlokalisering %<PRId64> inte inom intervallet -32..32"
+msgstr "%pB: %#<PRIx64>: ödesdigert fel: R_SH_PSHA-omlokalisering %<PRId64> inte inom intervallet -32..32"
 
 #. from tp:bfd-2.45.90
 msgid "%pB: %#<PRIx64>: fatal: R_SH_PSHL relocation %<PRId64> not in range -32..32"
-msgstr "%pB: %#<PRIx64>: allvarligt fel: R_SH_PSHL-omlokalisering %<PRId64> inte inom intervallet -32..32"
+msgstr "%pB: %#<PRIx64>: ödesdigert fel: R_SH_PSHL-omlokalisering %<PRId64> inte inom intervallet -32..32"
 
 #. from tp:bfd-2.45.90
 msgid "%pB(%pA+%#<PRIx64>): cannot emit fixup to `%s' in read-only section"
@@ -27832,7 +27832,7 @@ msgstr "Användning: %s [flaggor] [infil] [utfil]\n"
 
 #. from tp:binutils-2.45.90
 msgid " The options are:\n  -i --input=<file>            Name input file\n  -o --output=<file>           Name output file\n  -J --input-format=<format>   Specify input format\n  -O --output-format=<format>  Specify output format\n  -F --target=<target>         Specify COFF target\n     --preprocessor=<program>  Program to use to preprocess rc file\n     --preprocessor-arg=<arg>  Additional preprocessor argument\n  -I --include-dir=<dir>       Include directory when preprocessing rc file\n  -D --define <sym>[=<val>]    Define SYM when preprocessing rc file\n  -U --undefine <sym>          Undefine SYM when preprocessing rc file\n  -v --verbose                 Verbose - tells you what it's doing\n  -c --codepage=<codepage>     Specify default codepage\n  -l --language=<val>          Set language when reading rc file\n     --use-temp-file           Use a temporary file instead of popen to read\n                               the preprocessor output\n     --no-use-temp-file        Use popen (default)\n"
-msgstr " Flaggorna är:\n  -i --input=<fil>             Välj infil\n  -o --output=<fil>            Välj utfil\n  -J --input-format=<format>   Ange indataformat\n  -O --output-format=<format>  Ange utdataformat\n  -F --target=<mål>            Ange COFF-mål\n     --preprocessor=<program>  Program att preprocessa rc-filen med\n     --preprocessor-arg=<arg>  Extra argument till preprocessorn\n  -I --include-dir=<katalog>   Inkludera katalog när rc-filen preprocessas\n  -D --define <sym>[=<värde>]  Definiera SYM när rc-filen preprocessas\n  -U --undefine <sym>          Avdefiniera SYM när rc-filen preprocessas\n  -v --verbose                 Utförlig - berättar vad den gör\n  -c --codepage=<kodsida>      Ange standardkodsida\n  -l --language=<värde>        Välj språk när rc-filen läses\n     --use-temp-file           Använd en temporärfil istället för popen för att\n                               läsa utdata från preprocessorn\n     --no-use-temp-file        Använd popen (standard)\n"
+msgstr " Flaggorna är:\n  -i --input=<fil>             Välj infil\n  -o --output=<fil>            Välj utfil\n  -J --input-format=<format>   Ange indataformat\n  -O --output-format=<format>  Ange utdataformat\n  -F --target=<mål>            Ange COFF-mål\n     --preprocessor=<program>  Program att preprocessa rc-filen med\n     --preprocessor-arg=<arg>  Extra argument till preprocessorn\n  -I --include-dir=<kat>   Inkludera katalog när rc-filen preprocessas\n  -D --define <sym>[=<värde>]  Definiera SYM när rc-filen preprocessas\n  -U --undefine <sym>          Avdefiniera SYM när rc-filen preprocessas\n  -v --verbose                 Utförlig - berättar vad den gör\n  -c --codepage=<kodsida>      Ange standardkodsida\n  -l --language=<värde>        Välj språk när rc-filen läses\n     --use-temp-file           Använd en temporärfil istället för popen för att\n                               läsa utdata från preprocessorn\n     --no-use-temp-file        Använd popen (standard)\n"
 
 #. from tp:binutils-2.45.90
 msgid "     --yydebug                 Turn on parser debugging\n"
@@ -46972,7 +46972,7 @@ msgstr "Flytta filpositionen till angiven position innan data skrivs"
 
 #. from tp:cpio-2.15
 msgid "Suppress non-fatal diagnostic messages"
-msgstr "Undertryck diagnostiska meddelanden som inte är fatala"
+msgstr "Undertryck diagnostiska meddelanden som inte är ödesdigra"
 
 #. from tp:cpio-2.15
 msgid "File statistics options:"
@@ -105500,7 +105500,7 @@ msgstr "VARNING: Data är opålitliga!\n"
 
 #. from tp:ld-2.45.90
 msgid "%P: fatal error: libbfd ABI mismatch\n"
-msgstr "%P: allvarligt fel: libbfd ABI-konflikt\n"
+msgstr "%P: ödesdigert fel: libbfd ABI-konflikt\n"
 
 #. from tp:ld-2.45.90
 msgid "%X%P: can't set BFD default target to `%s': %E\n"
@@ -111544,7 +111544,7 @@ msgstr "kan inte skapa katalog för utdatafiler"
 
 #. from tp:libc-2.42.9000
 msgid "FATAL: system does not define `_POSIX2_LOCALEDEF'"
-msgstr "FATALT: systemet definierar inte \"_POSIX2_LOCALEDEF\""
+msgstr "ÖDESDIGERT: systemet definierar inte \"_POSIX2_LOCALEDEF\""
 
 #. from tp:libc-2.42.9000
 msgid "cannot open locale definition file `%s'"
@@ -112724,7 +112724,7 @@ msgstr "felaktigt antal argument"
 
 #. from tp:libc-2.42.9000
 msgid "failure while reading configuration file; this is fatal"
-msgstr "fel vid läsning av konfigurationsfilen; detta är allvarligt"
+msgstr "fel vid läsning av konfigurationsfilen; detta är ödesdigert"
 
 #. from tp:libc-2.42.9000
 msgid "already running"
@@ -113376,7 +113376,7 @@ msgstr "minnet är slut\n"
 
 #. from tp:libc-2.42.9000
 msgid "auth_unix.c: Fatal marshalling problem"
-msgstr "auth_unix.c: Fatalt kodningsproblem"
+msgstr "auth_unix.c: Ödesdigert kodningsproblem"
 
 #. from tp:libc-2.42.9000
 msgid "%s: %s; low version = %lu, high version = %lu"
@@ -113500,7 +113500,7 @@ msgstr "Misslyckades (ospecificerat fel)"
 
 #. from tp:libc-2.42.9000
 msgid "clnt_raw.c: fatal header serialization error"
-msgstr "clnt_raw.c: fatalt fel vid serialisering"
+msgstr "clnt_raw.c: ödesdigert fel vid serialisering"
 
 #. from tp:libc-2.42.9000
 msgid "pmap_getmaps.c: rpc problem"
@@ -123976,7 +123976,7 @@ msgstr "Vet inte hur camera->port->type-värde %i aka 0x%x på %s rad %i ska han
 
 #. from tp:libgphoto2-2.5.32
 msgid "FATAL ERROR: initial CRC value for length %d unknown\n"
-msgstr "FATALT FEL: inledande CRC-värde för längd %d är okänt\n"
+msgstr "ÖDESDIGERT FEL: inledande CRC-värde för längd %d är okänt\n"
 
 #. from tp:libgphoto2-2.5.32
 msgid "unable to guess initial CRC value\n"
@@ -124564,7 +124564,7 @@ msgstr "Ansluten till kameran"
 
 #. from tp:libgphoto2-2.5.32
 msgid "ERROR: a fatal error condition was detected, can't continue "
-msgstr "FEL: ett allvarligt feltillstånd upptäcktes, kan inte fortsätta "
+msgstr "FEL: ett ödesdigert feltillstånd upptäcktes, kan inte fortsätta "
 
 #. from tp:libgphoto2-2.5.32
 msgid "ERROR: %d is too big"
@@ -135780,7 +135780,7 @@ msgstr "lägg till KATALOG i inkluderingssökvägen"
 
 #. from tp:lilypond-2.23.80
 msgid "format Texinfo output so that Info will look for images of music in DIR"
-msgstr "formatera Texinfo-utdata så att Info kommer att leta efter bilder av musik i DIR"
+msgstr "formatera Texinfo-utdata så att Info kommer att leta efter bilder av musik i KATALOG"
 
 #. from tp:lilypond-2.23.80
 msgid "pad left side of music to align music in spite of uneven bar numbers (in mm) [default: %default]"
@@ -136244,7 +136244,7 @@ msgstr "%zu förväntade varningar inte påträffade: "
 
 #. from tp:lilypond-2.23.80
 msgid "fatal error: %s"
-msgstr "fatalt fel: %s"
+msgstr "ödesdigert fel: %s"
 
 #. from tp:lilypond-2.23.80
 msgid "suppressed programming error: %s"
@@ -145040,7 +145040,7 @@ msgstr "Starta med ett test-scenario"
 
 #. from tp:lordsawar-0.3.3-pre2
 msgid "Use DIR instead of %1"
-msgstr "Använd DIR istället för %1"
+msgstr "Använd KATALOG istället för %1"
 
 #. from tp:lordsawar-0.3.3-pre2
 msgid "Seed the random number generator with NUMBER"
@@ -150272,7 +150272,7 @@ msgstr "TERMINALTYPEN ÄR SATT TILL"
 
 #. from tp:lynx-2.9.0-dev8
 msgid "\nA Fatal error has occurred in %s Ver. %s\n"
-msgstr "\nEtt allvarligt fel har uppstått i %s version %s\n"
+msgstr "\nEtt ödesdigert fel har uppstått i %s version %s\n"
 
 #. from tp:lynx-2.9.0-dev8
 msgid "\nPlease notify your system administrator to confirm a bug, and if\nconfirmed, to notify the lynx-dev list.  Bug reports should have concise\ndescriptions of the command and/or URL which causes the problem, the\noperating system name with version number, the TCPIP implementation, the\nTRACEBACK if it can be captured, and any other relevant information.\n"
@@ -150828,7 +150828,7 @@ msgstr "Tolkar om dokumentet med aktuella inställningar…"
 
 #. from tp:lynx-2.9.0-dev8
 msgid "Fatal error - could not open output file %s\n"
-msgstr "Allvarligt fel – kunde inte öppna utdatafilen %s\n"
+msgstr "Ödesdigert fel – kunde inte öppna utdatafilen %s\n"
 
 #. from tp:lynx-2.9.0-dev8
 msgid "TABLE center enable."
@@ -152072,7 +152072,7 @@ msgstr "%s underprocess"
 
 #. from tp:m4-1.4.21
 msgid "%s subprocess got fatal signal %d"
-msgstr "%s underprocess fick en allvarlig signal %d"
+msgstr "%s underprocess fick en ödesdiger signal %d"
 
 #. from tp:m4-1.4.21
 msgid "--warn-macro-sequence: bad regular expression `%s': %s"
@@ -154836,11 +154836,11 @@ msgstr "ladda bibliotek"
 
 #. from tp:mailfromd-8.17.91
 msgid "add DIR to the load path"
-msgstr "lägg till DIR i laddningssökvägen"
+msgstr "lägg till KAT i laddningssökvägen"
 
 #. from tp:mailfromd-8.17.91
 msgid "add the directory DIR to the list of directories to be searched for MFL module files"
-msgstr "lägg till katalogen DIR i listan över kataloger som ska genomsökas efter MFL-modulfiler"
+msgstr "lägg till katalogen KAT i listan över kataloger som ska genomsökas efter MFL-modulfiler"
 
 #. from tp:mailfromd-8.17.91
 msgid "set communication socket"
@@ -165400,7 +165400,7 @@ msgstr "  -B, --always-make           Bygg ovillkorligen alla mål.\n"
 
 #. from tp:make-4.4.0.90
 msgid "  -C DIRECTORY, --directory=DIRECTORY\n                              Change to DIRECTORY before doing anything.\n"
-msgstr "  -C DIRECTORY, --directory=DIRECTORY\n                              Byt till DIRECTORY innan något görs.\n"
+msgstr "  -C KATALOG, --directory=KATALOG\n                              Byt till KATALOG innan något görs.\n"
 
 #. from tp:make-4.4.0.90
 msgid "  -d                          Print lots of debugging information.\n"
@@ -165432,7 +165432,7 @@ msgstr "  -i, --ignore-errors         Ignorera fel från recept.\n"
 
 #. from tp:make-4.4.0.90
 msgid "  -I DIRECTORY, --include-dir=DIRECTORY\n                              Search DIRECTORY for included makefiles.\n"
-msgstr "  -I DIRECTORY, --include-dir=DIRECTORY\n                              Sök i DIRECTORY efter inkluderade makefiler.\n"
+msgstr "  -I KATALOG, --include-dir=KATALOG\n                              Sök i KATALOG efter inkluderade makefiler.\n"
 
 #. from tp:make-4.4.0.90
 msgid "  -j [N], --jobs[=N]          Allow N jobs at once; infinite jobs with no arg.\n"
@@ -166392,7 +166392,7 @@ msgstr "setuid-användaren för manualsidor, ”%s”, finns inte"
 
 #. from tp:man-db-2.13.1-pre1
 msgid "fatal: regex `%s': %s"
-msgstr "kritiskt fel: reguljärt uttryck ”%s”: %s"
+msgstr "ödesdigert fel: reguljärt uttryck ”%s”: %s"
 
 #. from tp:man-db-2.13.1-pre1
 msgid "multi key %s does not exist"
@@ -166428,7 +166428,7 @@ msgstr "varning: %s är version %s, %s förväntas\n"
 
 #. from tp:man-db-2.13.1-pre1
 msgid "fatal: unable to insert version identifier into %s"
-msgstr "kritiskt fel: kan inte infoga versionsidentifierare i %s"
+msgstr "ödesdigert fel: kan inte infoga versionsidentifierare i %s"
 
 #. from tp:man-db-2.13.1-pre1
 msgid "[MAN DATABASE]"
@@ -171848,7 +171848,7 @@ msgstr "kan inte stänga %s: %s"
 
 #. from tp:mpop-1.4.19
 msgid "%s: FATAL: %s\n"
-msgstr "%s: KRITISKT FEL: %s\n"
+msgstr "%s: ÖDESDIGERT FEL: %s\n"
 
 #. from tp:mpop-1.4.19
 msgid "the POP3 server does not support TLS via the STLS command"
@@ -174668,11 +174668,11 @@ msgstr "Spara säkerhetskopior av befintliga filer"
 
 #. from tp:nano-8.4-pre1
 msgid "-C <dir>"
-msgstr "-C <dir>"
+msgstr "-C <kat>"
 
 #. from tp:nano-8.4-pre1
 msgid "--backupdir=<dir>"
-msgstr "--backupdir=<dir>"
+msgstr "--backupdir=<kat>"
 
 #. from tp:nano-8.4-pre1
 msgid "Directory for saving unique backup files"
@@ -174872,11 +174872,11 @@ msgstr "Läs inte filen (skriv den bara)"
 
 #. from tp:nano-8.4-pre1
 msgid "-o <dir>"
-msgstr "-o <dir>"
+msgstr "-o <kat>"
 
 #. from tp:nano-8.4-pre1
 msgid "--operatingdir=<dir>"
-msgstr "--operatingdir=<dir>"
+msgstr "--operatingdir=<kat>"
 
 #. from tp:nano-8.4-pre1
 msgid "Set operating directory"
@@ -177968,7 +177968,7 @@ msgstr "Okänd partitionsflagga, %d."
 
 #. from tp:parted-3.4.64.2
 msgid "Fatal"
-msgstr "Allvarligt"
+msgstr "Ödesdigert"
 
 #. from tp:parted-3.4.64.2
 msgid "Bug"
@@ -178204,7 +178204,7 @@ msgstr "VOLSER hittades inte på enheten"
 
 #. from tp:parted-3.4.64.2
 msgid "Fatal error"
-msgstr "Allvarligt fel"
+msgstr "Ödesdigert fel"
 
 #. from tp:parted-3.4.64.2
 msgid "No room for volume label."
@@ -181892,11 +181892,11 @@ msgstr "kan inte göra strdup() på personlighetstexten\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "fatal library error, context\n"
-msgstr "öderstiget fel i biblioteket, kontexten\n"
+msgstr "ödesdigert fel i biblioteket, kontexten\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "fatal library error, lookup self\n"
-msgstr "öderstigert fel i biblioteket, slå upp själv\n"
+msgstr "ödesdigert fel i biblioteket, slå upp själv\n"
 
 #. from tp:procps-ng-4.0.6rc1
 msgid "simple"
@@ -194660,7 +194660,7 @@ msgstr "Platshållare, visas inte i standardvyn."
 
 #. from tp:psmisc-man-23.7-rc1
 msgid "B<fuser> returns a non-zero return code if none of the specified files is accessed or in case of a fatal error.  If at least one access has been found, B<fuser> returns zero."
-msgstr "B<fuser> returnerar en returkod skild från noll om ingen av de angivna filerna används eller om ett allvarligt fel inträffar.  Om minst en åtkomst har hittats returnerar B<fuser> noll."
+msgstr "B<fuser> returnerar en returkod skild från noll om ingen av de angivna filerna används eller om ett ödesdigert fel inträffar.  Om minst en åtkomst har hittats returnerar B<fuser> noll."
 
 #. from tp:psmisc-man-23.7-rc1
 msgid "In order to look up processes using TCP and UDP sockets, the corresponding name space has to be selected with the B<-n> option. By default B<fuser> will look in both IPv6 and IPv4 sockets.  To change the default behavior, use the B<-4> and B<-6> options.  The socket(s) can be specified by the local and remote port, and the remote address.  All fields are optional, but commas in front of missing fields must be present:"
@@ -203072,7 +203072,7 @@ msgstr "_Visa tips vid start"
 
 #. from tp:pspp-2.1.0
 msgid "Psppire: Fatal Error"
-msgstr "PSPPIRE: Allvarligt fel"
+msgstr "PSPPIRE: Ödesdigert fel"
 
 #. from tp:pspp-2.1.0
 msgid "You have discovered a bug in PSPP.  Please report this to %s including all of the following information, and a description of what you were doing when this happened."
@@ -222128,7 +222128,7 @@ msgstr "felaktig användning av shar:\n"
 
 #. from tp:sharutils-4.15.2
 msgid "shar fatal error:\n"
-msgstr "allvarligt fel i shar:\n"
+msgstr "ödesdigert fel i shar:\n"
 
 #. from tp:sharutils-4.15.2
 msgid "fserr %d (%s) performing '%s' on %s\n"
@@ -222680,7 +222680,7 @@ msgstr "användningsfel i unshar:\n"
 
 #. from tp:sharutils-4.15.2
 msgid "unshar fatal error:\n"
-msgstr "allvarligt fel i unshar:\n"
+msgstr "ödesdigert fel i unshar:\n"
 
 #. from tp:sharutils-4.15.2
 msgid "unshar (GNU sharutils) 4.15.2\nCopyright (C) 1994-2015 Free Software Foundation, Inc., all rights reserved.\nThis is free software. It is licensed for use, modification and\nredistribution under the terms of the GNU General Public License,\nversion 3 or later <http://gnu.org/licenses/gpl.html>\n"
@@ -222804,7 +222804,7 @@ msgstr "användningsfel i uudecode:\n"
 
 #. from tp:sharutils-4.15.2
 msgid "uudecode fatal error:\n"
-msgstr "allvarligt fel i uudecode:\n"
+msgstr "ödesdigert fel i uudecode:\n"
 
 #. from tp:sharutils-4.15.2
 msgid "uudecode (GNU sharutils) 4.15.2\nCopyright (C) 1994-2015 Free Software Foundation, Inc., all rights reserved.\nThis is free software. It is licensed for use, modification and\nredistribution under the terms of the GNU General Public License,\nversion 3 or later <http://gnu.org/licenses/gpl.html>\n"
@@ -222928,7 +222928,7 @@ msgstr "användningsfel i uuencode:\n"
 
 #. from tp:sharutils-4.15.2
 msgid "uuencode fatal error:\n"
-msgstr "allvarligt fel i uuencode:\n"
+msgstr "ödesdigert fel i uuencode:\n"
 
 #. from tp:sharutils-4.15.2
 msgid "uuencode (GNU sharutils) 4.15.2\nCopyright (C) 1994-2015 Free Software Foundation, Inc., all rights reserved.\nThis is free software. It is licensed for use, modification and\nredistribution under the terms of the GNU General Public License,\nversion 3 or later <http://gnu.org/licenses/gpl.html>\n"
@@ -223312,7 +223312,7 @@ msgstr "logga tjänstens utdata i FIL"
 
 #. from tp:shepherd-1.0.9rc1
 msgid "run service from DIRECTORY (for transient services)"
-msgstr "kör tjänsten från KAT (för tillfälliga tjänster)"
+msgstr "kör tjänsten från KATALOG (för tillfälliga tjänster)"
 
 #. from tp:shepherd-1.0.9rc1
 msgid "pass the environment variable specified by ENVIRONMENT"
@@ -225760,7 +225760,7 @@ msgstr "Konfigurationsflaggor: %s\n"
 
 #. from tp:sudo-1.9.18b1
 msgid "fatal error, unable to load plugins"
-msgstr "allvarligt fel: kunde inte läsa in insticksmoduler"
+msgstr "ödesdigert fel: kunde inte läsa in insticksmoduler"
 
 #. from tp:sudo-1.9.18b1
 msgid "plugin did not return a command to execute"
@@ -258304,7 +258304,7 @@ msgstr "ÖDESDIGERT: kan inte återöppna tty: %m"
 
 #. from tp:util-linux-2.41.2-rc1
 msgid "FATAL: %s is not a terminal"
-msgstr "FATALT: %s är inte en terminal"
+msgstr "ÖDESDIGERT: %s är inte en terminal"
 
 #. from tp:util-linux-2.41.2-rc1
 msgid "chown (%s, %u, %u) failed: %m"
@@ -258324,7 +258324,7 @@ msgstr "TIOCGWINSZ ioctl misslyckades: %m"
 
 #. from tp:util-linux-2.41.2-rc1
 msgid "FATAL: %s: change permissions failed: %m"
-msgstr "FATALT: %s: att ändra rättigheter misslyckades: %m"
+msgstr "ÖDESDIGERT: %s: att ändra rättigheter misslyckades: %m"
 
 #. from tp:util-linux-2.41.2-rc1
 msgid "TIOCSWINSZ ioctl failed: %m"
@@ -262480,7 +262480,7 @@ msgstr " -c, --check        fortsätt inte efter ett fel"
 
 #. from tp:util-linux-2.41.2-rc1
 msgid " -q, --quiet        do not warn of non-fatal errors"
-msgstr " -q, --quiet        varna inte för fel som inte är allvarliga"
+msgstr " -q, --quiet        varna inte för fel som inte är ödesdigra"
 
 #. from tp:util-linux-2.41.2-rc1
 msgid " -v, --verbose      provide detailed output"
@@ -273664,7 +273664,7 @@ msgstr "En mycket vanlig konfiguration i _/etc/fstab_-filer är därför att ang
 
 #. from tp:util-linux-man-2.41.2-rc1
 msgid "*fsck* normally does not check whether the device actually exists before calling a filesystem specific checker. Therefore non-existing devices may cause the system to enter filesystem repair mode during boot if the filesystem specific checker returns a fatal error. The _/etc/fstab_ mount option *nofail* may be used to have *fsck* skip non-existing devices. *fsck* also skips non-existing devices that have the special filesystem type *auto*."
-msgstr "*fsck* kontrollerar normalt inte om enheten faktiskt existerar innan en filsystemspecifik kontroll anropas. Därför kan icke-existerande enheter leda till att systemet går in i reparationsläge för filsystemet under uppstarten om den filsystemspecifika kontrollen returnerar ett allvarligt fel. Monteringsflaggan *nofail* i _/etc/fstab_ kan användas för att få *fsck* att hoppa över icke-existerande enheter. *fsck* hoppar också över icke-existerande enheter som har den speciella filsystemtypen *auto*."
+msgstr "*fsck* kontrollerar normalt inte om enheten faktiskt existerar innan en filsystemspecifik kontroll anropas. Därför kan icke-existerande enheter leda till att systemet går in i reparationsläge för filsystemet under uppstarten om den filsystemspecifika kontrollen returnerar ett ödesdigert fel. Monteringsflaggan *nofail* i _/etc/fstab_ kan användas för att få *fsck* att hoppa över icke-existerande enheter. *fsck* hoppar också över icke-existerande enheter som har den speciella filsystemtypen *auto*."
 
 #. from tp:util-linux-man-2.41.2-rc1
 msgid "*-C* [_fd_]"
@@ -312060,7 +312060,7 @@ msgstr "       --retry-connrefused         försök igen även om anslutningen n
 
 #. from tp:wget-1.25.0
 msgid "       --retry-on-host-error       consider host errors as non-fatal, transient errors\n"
-msgstr "       --retry-on-host-error       behandla värdfel som icke-fatala, tillfälliga fel\n"
+msgstr "       --retry-on-host-error       behandla värdfel som icke-ödesdigra, tillfälliga fel\n"
 
 #. from tp:wget-1.25.0
 msgid "       --retry-on-http-error=ERRORS    comma-separated list of HTTP errors to retry\n"
@@ -312548,7 +312548,7 @@ msgstr "       --no-warc-keep-log          lagra inte loggfilen i en WARC-post\n
 
 #. from tp:wget-1.25.0
 msgid "       --warc-tempdir=DIRECTORY    location for temporary files created by the\n                                     WARC writer\n"
-msgstr "       --warc-tempdir=KAT          plats för tillfälliga filer som skapas av\n                                     WARC-skrivaren\n"
+msgstr "       --warc-tempdir=KATALOG          plats för tillfälliga filer som skapas av\n                                     WARC-skrivaren\n"
 
 #. from tp:wget-1.25.0
 msgid "Recursive download:\n"
@@ -317496,7 +317496,7 @@ msgstr "Alternativ för partilistan"
 
 #. from tp:xboard-4.9.0-pre2
 msgid "Fatal Error"
-msgstr "Kritiskt fel"
+msgstr "Ödesdigert fel"
 
 #. from tp:xboard-4.9.0-pre2
 msgid "Pawn"
@@ -347204,7 +347204,7 @@ msgstr "Flaggan --check kan inte användas med ODMR\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "server recv fatal\n"
-msgstr "allvarligt fel vid mottagning från servern\n"
+msgstr "ödesdigert fel vid mottagning från servern\n"
 
 #. from tp:fetchmail-6.6.0.rc3
 msgid "Could not decode OTP challenge\n"
@@ -349788,7 +349788,7 @@ msgstr "%s %s\n"
 
 #. from tp:flex-2.6.4
 msgid "fatal parse error"
-msgstr "allvarligt tolkningsfel"
+msgstr "ödesdigert tolkningsfel"
 
 #. from tp:flex-2.6.4
 msgid "could not create backing-up info file %s"
@@ -349872,7 +349872,7 @@ msgstr "minnesallokeringen misslyckades i xstrdup()"
 
 #. from tp:flex-2.6.4
 msgid "%s: fatal internal error, %s\n"
-msgstr "%s: allvarligt internt fel, %s\n"
+msgstr "%s: ödesdigert internt fel, %s\n"
 
 #. from tp:flex-2.6.4
 msgid "attempt to increase array size failed"
@@ -351424,7 +351424,7 @@ msgstr ".compiler-direktivet saknar version"
 
 #. from tp:gas-2.45.90
 msgid "FATAL: Attaching compiler header %s"
-msgstr "ALLVARLIGT FEL: kopplar kompilatorhuvudet %s"
+msgstr "ÖDESDIGERT FEL: kopplar kompilatorhuvudet %s"
 
 #. from tp:gas-2.45.90
 msgid "Only one .version pseudo-op per file!"
@@ -368964,7 +368964,7 @@ msgstr "Assemblerarmeddelanden:\n"
 
 #. from tp:gas-2.45.90
 msgid "Fatal error: "
-msgstr "Allvarligt fel: "
+msgstr "Ödesdigert fel: "
 
 #. from tp:gas-2.45.90
 msgid "Internal error (%s).\n"
@@ -371108,7 +371108,7 @@ msgstr "”return” är inte tillåtet i det aktuella sammanhanget; satsen igno
 
 #. from tp:gawk-5.3.66
 msgid "fatal error during eval, need to restart.\n"
-msgstr "allvarligt fel under eval; omstart krävs.\n"
+msgstr "ödesdigert fel under eval; omstart krävs.\n"
 
 #. from tp:gawk-5.3.66
 msgid "no symbol `%s' in current context"
@@ -372336,7 +372336,7 @@ msgstr "%s: ödesdigert: kan inte ta status på %s: %s\n"
 
 #. from tp:gawk-5.3.66
 msgid "%s: fatal: using persistent memory is not allowed when running as root.\n"
-msgstr "%s: allvarligt: beständigt minne får inte användas vid körning som root.\n"
+msgstr "%s: ödesdigert: beständigt minne får inte användas vid körning som root.\n"
 
 #. from tp:gawk-5.3.66
 msgid "%s: warning: %s is not owned by euid %d.\n"
@@ -372484,7 +372484,7 @@ msgstr "Ogiltiga flerteckendata påträffades. Dina data och din lokal kanske in
 
 #. from tp:gawk-5.3.66
 msgid "fatal: must use `count$' on all formats or none"
-msgstr "allvarligt: ”nummer$” måste användas i alla format eller inget"
+msgstr "ödesdigert: ”nummer$” måste användas i alla format eller inget"
 
 #. from tp:gawk-5.3.66
 msgid "field width is ignored for `%%' specifier"
@@ -372500,7 +372500,7 @@ msgstr "fältbredden och precisionen ignoreras för specificeraren ”%%”"
 
 #. from tp:gawk-5.3.66
 msgid "fatal: `$' is not permitted in awk formats"
-msgstr "allvarligt: ”$” är inte tillåtet i awk-format"
+msgstr "ödesdigert: ”$” är inte tillåtet i awk-format"
 
 #. from tp:gawk-5.3.66
 msgid "fatal: argument index with `$' must be > 0"
@@ -372516,7 +372516,7 @@ msgstr "”nummer$” måste användas i alla format eller inget"
 
 #. from tp:gawk-5.3.66
 msgid "fatal: no `$' supplied for positional field width or precision"
-msgstr "allvarligt: inget ”$” angavs för positionsfältsbredd eller -precision"
+msgstr "ödesdigert: inget ”$” angavs för positionsfältsbredd eller -precision"
 
 #. from tp:gawk-5.3.66
 msgid "`%c' is meaningless in awk formats; ignored"
@@ -372540,7 +372540,7 @@ msgstr "okänt formatspecifikationstecken ”%c” ignoreras: inget argument kon
 
 #. from tp:gawk-5.3.66
 msgid "fatal: not enough arguments to satisfy format string"
-msgstr "allvarligt: inte tillräckligt många argument för formatsträngen"
+msgstr "ödesdigert: inte tillräckligt många argument för formatsträngen"
 
 #. from tp:gawk-5.3.66
 msgid "^ ran out for this one"
@@ -393328,7 +393328,7 @@ msgstr "  -r, --relative-only             Visa endast data för relativa källor
 
 #. from tp:gcc-16.1-b20260222
 msgid "  -s, --source-prefix DIR         Source prefix to elide\n"
-msgstr "  -s, --source-prefix DIR         Källprefix att utelämna\n"
+msgstr "  -s, --source-prefix KAT         Källprefix att utelämna\n"
 
 #. from tp:gcc-16.1-b20260222
 msgid "  -t, --stdout                    Output to stdout instead of a file\n"
@@ -454772,7 +454772,7 @@ msgstr "begärd coredump kunde inte skapas; status %d"
 
 #. from tp:gnucobol-3.2
 msgid "fatal arithmetic error"
-msgstr "allvarligt aritmetiskt fel"
+msgstr "ödesdigert aritmetiskt fel"
 
 #. from tp:gnucobol-3.2
 msgid "interrupt from keyboard"
