@@ -1,41 +1,47 @@
 # Swedish Translation Memory
 
-**688 242 unique English–Swedish translation pairs** in 16 ecosystem exports
-(790 331 entries before deduplicating across ecosystems). These counts describe
-the files shipped in this repository, exported on 2026-09-19.
+**704 702 unique English–Swedish translation pairs** in 16 ecosystem exports
+(811 676 entries before deduplicating across ecosystems). These counts describe
+the files shipped in this repository  including the Translation Project update of 2026-09-23.
 
-## Release 1.1.0
+## Translation Project review update, 2026-09-23
 
-Release 1.1.0 publishes the validated 2026-09-19 exports. It contains 790 331
-active entries and 688 224 distinct English–Swedish pairs across 15 ecosystems.
-The Translation Project review has individually checked 88 125 of 127 367
-source entries and made 21 181 confirmed corrections; its scope and remaining
-work are recorded in [TP-REVIEW.md](TP-REVIEW.md). The review is ongoing, so
-every match remains a suggestion to be evaluated in its destination context.
+The Translation Project export now contains 117 723 active, context-free singular
+pairs. The review individually read 126 157 of 127 367 active source entries.
+The remaining 1 210 entries are the explicitly excluded Wastesedge domain, which
+has had no release for many years. It has not been represented as reviewed.
 
-All 16 PO files and 15 corresponding TMX files are checked in CI for gettext
-validity, XML safety, format agreement and statistics consistency.
+The update imports 33 484 verified source/previous-target/revised-target matches
+into both `sv-tp.po` and `sv-tp.tmx`. It deliberately leaves out 184 plural
+corrections, because this context-free singular compendium cannot preserve their
+plural identity safely. [TP-REVIEW.md](TP-REVIEW.md) and the
+[2026-09-23 audit](reviews/tp-2026-09-23.json) document the source baseline,
+selection and exact output digests.
+
+Every export remains a translation suggestion to be checked in its destination
+context. All 16 PO files and 15 corresponding TMX files are checked in CI for
+gettext validity, XML safety, format agreement and statistics consistency.
 
 ## Contents
 
 | Ecosystem | Pairs in export | TMX | PO compendium |
 |-----------|----------------:|-----|---------------|
-| GNOME | 70 026 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
-| KDE | 35 507 | [sv-kde.tmx](sv-kde.tmx) | [sv-kde.po](sv-kde.po) |
-| Mozilla | 19 293 | [sv-mozilla.tmx](sv-mozilla.tmx) | [sv-mozilla.po](sv-mozilla.po) |
-| Ubuntu | 50 525 | [sv-ubuntu.tmx](sv-ubuntu.tmx) | [sv-ubuntu.po](sv-ubuntu.po) |
-| Fedora | 14 237 | [sv-fedora.tmx](sv-fedora.tmx) | [sv-fedora.po](sv-fedora.po) |
-| LibreOffice | 44 495 | [sv-libreoffice.tmx](sv-libreoffice.tmx) | [sv-libreoffice.po](sv-libreoffice.po) |
-| XFCE | 3 182 | [sv-xfce.tmx](sv-xfce.tmx) | [sv-xfce.po](sv-xfce.po) |
-| Translation Project | 117 723 | [sv-tp.tmx](sv-tp.tmx) | [sv-tp.po](sv-tp.po) |
-| Transifex | 227 083 | — | [sv-transifex.po](sv-transifex.po) |
-| CrowdIn | 1 834 | [sv-crowdin.tmx](sv-crowdin.tmx) | [sv-crowdin.po](sv-crowdin.po) |
-| Weblate | 22 854 | [sv-weblate.tmx](sv-weblate.tmx) | [sv-weblate.po](sv-weblate.po) |
-| Blender | 70 264 | [sv-blender.tmx](sv-blender.tmx) | [sv-blender.po](sv-blender.po) |
-| Inkscape | 15 892 | [sv-inkscape.tmx](sv-inkscape.tmx) | [sv-inkscape.po](sv-inkscape.po) |
-| Stellarium | 44 409 | [sv-stellarium.tmx](sv-stellarium.tmx) | [sv-stellarium.po](sv-stellarium.po) |
-| QGIS | 39 685 | [sv-qgis.tmx](sv-qgis.tmx) | [sv-qgis.po](sv-qgis.po) |
-| ScummVM | 15 156 | [sv-scummvm.tmx](sv-scummvm.tmx) | [sv-scummvm.po](sv-scummvm.po) |
+\g<1>70 026\g<2> [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
+\g<1>35 507\g<2> [sv-kde.tmx](sv-kde.tmx) | [sv-kde.po](sv-kde.po) |
+\g<1>19 293\g<2> [sv-mozilla.tmx](sv-mozilla.tmx) | [sv-mozilla.po](sv-mozilla.po) |
+\g<1>50 525\g<2> [sv-ubuntu.tmx](sv-ubuntu.tmx) | [sv-ubuntu.po](sv-ubuntu.po) |
+\g<1>14 237\g<2> [sv-fedora.tmx](sv-fedora.tmx) | [sv-fedora.po](sv-fedora.po) |
+\g<1>44 495\g<2> [sv-libreoffice.tmx](sv-libreoffice.tmx) | [sv-libreoffice.po](sv-libreoffice.po) |
+\g<1>3 182\g<2> [sv-xfce.tmx](sv-xfce.tmx) | [sv-xfce.po](sv-xfce.po) |
+\g<1>117 723\g<2> [sv-tp.tmx](sv-tp.tmx) | [sv-tp.po](sv-tp.po) |
+\g<1>227 083\g<2> — | [sv-transifex.po](sv-transifex.po) |
+\g<1>1 918\g<2> [sv-crowdin.tmx](sv-crowdin.tmx) | [sv-crowdin.po](sv-crowdin.po) |
+\g<1>38 672\g<2> [sv-weblate.tmx](sv-weblate.tmx) | [sv-weblate.po](sv-weblate.po) |
+\g<1>73 032\g<2> [sv-blender.tmx](sv-blender.tmx) | [sv-blender.po](sv-blender.po) |
+\g<1>16 733\g<2> [sv-inkscape.tmx](sv-inkscape.tmx) | [sv-inkscape.po](sv-inkscape.po) |
+\g<1>44 409\g<2> [sv-stellarium.tmx](sv-stellarium.tmx) | [sv-stellarium.po](sv-stellarium.po) |
+\g<1>39 685\g<2> [sv-qgis.tmx](sv-qgis.tmx) | [sv-qgis.po](sv-qgis.po) |
+\g<1>15 156\g<2> [sv-scummvm.tmx](sv-scummvm.tmx) | [sv-scummvm.po](sv-scummvm.po) |
 
 The former README described different collection-wide counts and a
 `sv-complete.po` that is not present in this repository. Use the ecosystem
