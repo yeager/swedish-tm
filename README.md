@@ -1,5 +1,27 @@
 # Swedish Translation Memory
 
+## Svenska
+
+Detta översättningsminne innehåller engelska–svenska översättningspar från
+FOSS-projekt. Använd det för förslag, aldrig som ensamt facit. Kontrollera varje
+träff mot aktuell källtext och gränssnittskontext med l10n-lint, svlang,
+hunspell-sv och swedish-foss-terminology.
+
+### Användning
+
+```bash
+msgmerge --compendium sv-gnome.po --compendium sv-kde.po my-file.po my-file.pot -o filled.po
+```
+
+Bevara platshållare, taggar, snabbtangenter och radbrytningar exakt. Tillämpa
+svensk skrivpolicy på förslaget: ingen komma omedelbart före `och`, svenska
+citattecken, `…`, korrekt procentformat, siffergruppering och tankstreck i
+intervall. Text före `|` i en Crowdin-sträng är kontextmetadata och får inte
+visas i översättningen. Bedöm alltid betydelse, stilnivå och terminologi rad
+för rad.
+
+## English reference
+
 **707 099 unique English–Swedish translation pairs** in 16 ecosystem exports
 (814 219 entries before deduplicating across ecosystems). These counts describe
 the files shipped in this repository  including the Translation Project update of 2026-09-23.
@@ -47,22 +69,22 @@ The former README described different collection-wide counts and a
 `sv-complete.po` that is not present in this repository. Use the ecosystem
 files above. [stats.json](stats.json) contains counts verified from the exports.
 
-## Granskning med övriga verktyg
+## Review with the companion tools
 
-Översättningsminnet ger förslag, inte facit. Kontrollera alltid en träff mot
-källtext och aktuell gränssnittskontext med
+The translation memory provides suggestions, not authoritative translations.
+Check every match against source text and the current interface context with
 [l10n-lint](https://github.com/yeager/l10n-lint),
 [svlang](https://github.com/yeager/svlang),
-[hunspell-sv](https://github.com/yeager/hunspell-sv) och
+[hunspell-sv](https://github.com/yeager/hunspell-sv) and
 [swedish-foss-terminology](https://github.com/yeager/swedish-foss-terminology).
-Bevara platshållare, taggar, tangenter och radbrytningar exakt enligt källan.
+Preserve placeholders, tags, shortcuts and line breaks exactly as in source.
 
-Tillämpa svensk skrivpolicy på förslaget: ingen komma omedelbart före `och`,
-svenska citattecken, utelämningstecknet `…`, korrekt procentformat,
-tusentalsgruppering och tankstreck i intervall. Dessa regler automatiseras där
-det är säkert; betydelse, stilnivå och domänspecifik terminologi måste
-fortfarande bedömas rad för rad. Text före `|` i en Crowdin-sträng är
-kontextmetadata och ska inte förekomma i den synliga översättningen.
+Apply the Swedish style policy to suggestions: no comma directly before `och`,
+Swedish quotation marks, the ellipsis character `…`, correct percent formatting,
+digit grouping and an en dash in ranges. Rules are automated where safe;
+meaning, register and domain terminology still require line-by-line review.
+Text before `|` in a Crowdin string is context metadata and must not occur in
+visible translation.
 
 ## Usage
 
