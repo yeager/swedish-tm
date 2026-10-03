@@ -47,6 +47,23 @@ The former README described different collection-wide counts and a
 `sv-complete.po` that is not present in this repository. Use the ecosystem
 files above. [stats.json](stats.json) contains counts verified from the exports.
 
+## Granskning med övriga verktyg
+
+Översättningsminnet ger förslag, inte facit. Kontrollera alltid en träff mot
+källtext och aktuell gränssnittskontext med
+[l10n-lint](https://github.com/yeager/l10n-lint),
+[svlang](https://github.com/yeager/svlang),
+[hunspell-sv](https://github.com/yeager/hunspell-sv) och
+[swedish-foss-terminology](https://github.com/yeager/swedish-foss-terminology).
+Bevara platshållare, taggar, tangenter och radbrytningar exakt enligt källan.
+
+Tillämpa svensk skrivpolicy på förslaget: ingen komma omedelbart före `och`,
+svenska citattecken, utelämningstecknet `…`, korrekt procentformat,
+tusentalsgruppering och tankstreck i intervall. Dessa regler automatiseras där
+det är säkert; betydelse, stilnivå och domänspecifik terminologi måste
+fortfarande bedömas rad för rad. Text före `|` i en Crowdin-sträng är
+kontextmetadata och ska inte förekomma i den synliga översättningen.
+
 ## Usage
 
 Use a PO compendium with GNU gettext:
