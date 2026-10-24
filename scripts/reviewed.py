@@ -39,7 +39,7 @@ def fields(r):
     return {k:r[k] for k in ['id','project','component','context','unit','publication_status']} | {'source_plural':r['source'][-1] if len(r['source'])==2 else '', 'evidence':r['evidence']['artifact'],'evidence_sha256':r['evidence']['sha256'],'source_evidence':json.dumps(r.get('source_evidence',{}),ensure_ascii=False,separators=(',',':')),'note_json':json.dumps(r['note'],ensure_ascii=False)}
 
 def write(rows,po_path):
-    po=polib.POFile(wrapwidth=0);po.metadata={'Project-Id-Version':'Swedish reviewed translation memory','Language':'sv','MIME-Version':'1.0','Content-Type':'text/plain; charset=UTF-8','Content-Transfer-Encoding':'8bit','Plural-Forms':'nplurals=2; plural=(n != 1);','Last-Translator':'Swedish FOSS review','Language-Team':'Swedish','PO-Revision-Date':'2026-09-20 00:00+0000'}
+    po=polib.POFile(wrapwidth=0);po.metadata={'Project-Id-Version':'Swedish reviewed translation memory','Language':'sv','MIME-Version':'1.0','Content-Type':'text/plain; charset=UTF-8','Content-Transfer-Encoding':'8bit','Plural-Forms':'nplurals=2; plural=(n != 1);','Last-Translator':'Daniel Nylander <po@danielnylander.se>','Language-Team':'Swedish <tp-sv@listor.tp-sv.se>','PO-Revision-Date':'2026-10-24 12:00+0200'}
     for r in rows:po.append(po_entry(r))
     po.save(str(po_path))
     with po_path.with_suffix('.tmx').open('w',encoding='utf-8',newline='\n') as out:
