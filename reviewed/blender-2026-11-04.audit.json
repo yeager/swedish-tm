@@ -1,0 +1,44 @@
+{
+  "project": "Blender",
+  "reviewed_on": "2026-11-04",
+  "current_ui_source": {
+    "artifact": "Blender/exports/2026-11-04/blender-ui-ui-sv.po",
+    "sha256": "2dff2e6f5a04d19041edb980faa2f7fad67293a9c54ef599b3e05916af7e398b",
+    "active_translated_entries": 40427
+  },
+  "comparison_with_previous_reviewed_ui_memory": {
+    "exact_source_context_target_matches": 36098,
+    "different_targets_requiring_contextual_review": 2528,
+    "new_source_context_pairs_requiring_review": 1801,
+    "decision": "Do not bulk-import the newer export. The existing memory remains historical evidence; only individually reviewed corrections are promoted."
+  },
+  "promoted_corrections": {
+    "new_contextual_records": 22,
+    "superseded_ui_records": 3,
+    "review_sources": [
+      "blender-ui-sv-review-batch-20261104-01.po",
+      "blender-manual-web-ui-sv-review-batch-20261104-01.po",
+      "blender-manual-sv-review-batch-20261104-01.po",
+      "blender-manual-sv-review-batch-20261104-02.po"
+    ]
+  },
+  "reviewed_catalog": {
+    "units_before": 43015,
+    "units_after": 43037,
+    "segments_after": 43037,
+    "distinct_pairs_after": 40708
+  },
+  "flat_blender_compendium": {
+    "incoming_unambiguous_pairs": 27,
+    "changed_pairs": 6,
+    "added_pairs": 18,
+    "total_pairs_after": 75593,
+    "note": "The flat compendium intentionally omits context-dependent conflicts; use reviewed/catalogs/blender.po or .tmx when original context matters."
+  },
+  "validation": {
+    "reviewed_jsonl_po_tmx": "passed",
+    "ecosystem_po_tmx_and_statistics": "passed",
+    "pytest": "12 passed",
+    "delta_msgfmt_l10n_lint_svlang_hunspell_gitleaks": "passed; Hunspell residuals were technical identifiers, Sphinx markup or established Blender compounds"
+  }
+}
