@@ -39,6 +39,10 @@
     "reviewed_jsonl_po_tmx": "passed",
     "ecosystem_po_tmx_and_statistics": "passed",
     "pytest": "12 passed",
-    "delta_msgfmt_l10n_lint_svlang_hunspell_gitleaks": "passed; Hunspell residuals were technical identifiers, Sphinx markup or established Blender compounds"
+    "delta_msgfmt_l10n_lint_svlang_hunspell_gitleaks": "passed; Hunspell residuals were technical identifiers, Sphinx markup or established Blender compounds",
+    "existing_reviewed_catalog_l10n_lint": {
+      "issues": 1079,
+      "interpretation": "These are pre-existing catalog-wide signals, chiefly boundary punctuation and source-equals-target checks. They were not bulk-edited and are not attributed to this 25-decision update."
+    }
   }
 }
