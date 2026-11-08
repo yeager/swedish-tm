@@ -1,0 +1,32 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Swedish reviewed translation memory\n"
+"PO-Revision-Date: 2026-10-24 12:00+0200\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Review: blender-20261108-spz-header-magic
+# Evidence: https://github.com/yeager/translations/blob/458a1420/Blender/blender-ui-sv-reviewed-batch-1248-spz-header-diagnostics.po
+# Evidence-SHA256: c9fc63da4c09d12583db9c30dc6a443334fc268fbb7b5a3031833e734a69892e
+# Source-evidence: {"format": "PO", "source_catalog": "/Users/danielnylander/Downloads/blender-ui-ui-sv.po", "source_reference": "source/blender/io/spz/intern/spz_header.cc:20", "reviewed_on": "2026-11-08"}
+# Publication: local-reviewed-delta
+#. Review-note (JSON): "SPZ header diagnostic. Translate magic as the technical term magiskt värde and retain the format placeholder."
+msgctxt "[\"Blender\",\"blender-ui-ui-sv.po\",\"\",\"source/blender/io/spz/intern/spz_header.cc:20\",\"blender-20261108-spz-header-magic\"]"
+msgid "Unexpected SPZ header magic 0x{:X}"
+msgstr "Oväntat magiskt värde i SPZ-rubriken: 0x{:X}"
+
+# Review: blender-20261108-spz-big-endian
+# Evidence: https://github.com/yeager/translations/blob/458a1420/Blender/blender-ui-sv-reviewed-batch-1248-spz-header-diagnostics.po
+# Evidence-SHA256: c9fc63da4c09d12583db9c30dc6a443334fc268fbb7b5a3031833e734a69892e
+# Source-evidence: {"format": "PO", "source_catalog": "/Users/danielnylander/Downloads/blender-ui-ui-sv.po", "source_reference": "source/blender/io/spz/intern/spz_read.cc:35", "reviewed_on": "2026-11-08"}
+# Publication: local-reviewed-delta
+#. Review-note (JSON): "SPZ reader diagnostic. Preserve the established big-endian format term with a hyphen."
+msgctxt "[\"Blender\",\"blender-ui-ui-sv.po\",\"\",\"source/blender/io/spz/intern/spz_read.cc:35\",\"blender-20261108-spz-big-endian\"]"
+msgid "SPZ Read: Big endian machines are not supported"
+msgstr "SPZ-läsning: Datorer med big-endian stöds inte"
