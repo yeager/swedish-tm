@@ -374073,11 +374073,11 @@ msgstr "Oinitierad bild %s"
 
 #. from Blender XLIFF manual review 2026-09-28
 msgid "Problem saving the bake map internally for object \"%s\""
-msgstr "Problem vid intern sparning av bakningskartan för objektet ”%s”"
+msgstr "Problem vid internt sparande av bakningskartan för objektet ”%s”"
 
 #. from Blender XLIFF manual review 2026-09-28
 msgid "Problem saving baked map in \"%s\""
-msgstr "Problem vid sparning av bakad karta i ”%s”"
+msgstr "Problem vid sparande av bakad karta i ”%s”"
 
 #. from Blender XLIFF manual review 2026-09-28
 msgid "Baking map written to \"%s\""
@@ -374085,7 +374085,7 @@ msgstr "Bakningskartan skrevs till ”%s”"
 
 #. from yeager:blender
 msgid "No UV layer named \"%s\" found in the object \"%s\""
-msgstr "Inget UV-lager med namnet \"%s\" hittades i objektet \"%s\""
+msgstr "Inget UV-lager med namnet ”%s” hittades i objektet ”%s”"
 
 #. from Blender XLIFF manual review 2026-09-28
 msgid "Cage object \"%s\" not found in evaluated scene, it may be hidden"
@@ -374163,7 +374163,8 @@ msgstr "Inga filhanterare tillgängliga"
 
 #. from Blender XLIFF manual review 2026-09-28
 msgid "Skipped some collections because of cycle detected"
-msgstr "Hoppade över vissa samlingar eftersom en cykel upptäcktes"
+msgstr ""
+"Hoppade över vissa samlingar eftersom ett cykliskt beroende upptäcktes"
 
 #. from yeager:blender
 msgid "Active object contains no collections"
@@ -396316,8 +396317,8 @@ msgstr "En fil är för stor för att kunna packas (>2 GB)."
 #. from Blender XLIFF manual review 2026-09-28
 msgid "Cannot determine bake location on disk. Falling back to packed bake."
 msgstr ""
-"Det går inte att bestämma beräkningsplats på disken. Faller tillbaka till "
-"packad beräkning."
+"Det går inte att fastställa bakningsplatsen på disken. Använder i stället "
+"packad bakning."
 
 #. from yeager:blender-review
 msgid "Calculating simulation..."
@@ -408716,7 +408717,7 @@ msgstr "Samlingen måste vara tom"
 
 #. from Blender XLIFF manual review 2026-09-28
 msgid "Filepath needs to be set first"
-msgstr "Sökvägen måste anges först"
+msgstr "Filsökvägen måste anges först"
 
 #. from Blender XLIFF manual review 2026-09-28
 msgid ""
@@ -412890,3 +412891,11 @@ msgstr "Filtret ”Endast på nätet” är aktiverat."
 #. from yeager:blender-ui-reviewed-20261110-export8
 msgid "'Glob' file type extension(s), as defined by the selected file handler"
 msgstr "Filändelser för ”Glob” enligt den valda filhanteraren"
+
+#. from yeager:blender-ui-reviewed-20261110-export8
+msgid "The active collection already has another importer"
+msgstr "Den aktiva samlingen har redan en annan importör"
+
+#. from yeager:blender-ui-reviewed-20261110-export8
+msgid "Could not add an importer to the active collection '%s'"
+msgstr "Kunde inte lägga till en importör i den aktiva samlingen ”%s”"
