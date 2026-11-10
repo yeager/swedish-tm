@@ -2454,3 +2454,41 @@ msgstr "Denna algoritm använder verktyget GPSBabel för att konvertera en GPS-d
 msgctxt "[\"QGIS\",\"qgis-application\",\"Qgs3DMapCanvasWidget\",\"o:qgis:p:QGIS:r:qgis-application:s:00647dfc8d892836baeb6dd094715384\",\"0e2180c9b1ab4a9f8c000232\"]"
 msgid "Some of the files referenced by the VPC have not yet been loaded, selection of areas of a not yet loaded dataset will not cause any changes to its data. Only actually selected points will be edited."
 msgstr "Vissa av filerna som VPC refererar till har ännu inte lästs in. Om du markerar områden i en datamängd som ännu inte har lästs in ändras inte dess data. Endast punkter som faktiskt är markerade redigeras."
+
+# Review: 0e2180c9b1ab4a9f8c000233
+# Evidence: https://app.transifex.com/qgis/qgis/translate/#sv/qgis-application/
+# Evidence-SHA256: b00cd4e568feceb3d77ace0e83917d75dd1693499d3f4f7e9c9d45ecaf833d03
+# Source-evidence: {"artifact": "local:qgis-application-sv-transifex-live-20261110.ts", "sha256": "b00cd4e568feceb3d77ace0e83917d75dd1693499d3f4f7e9c9d45ecaf833d03"}
+# Publication: local-reviewed-pending-upload
+#. Review-note (JSON): "Rättar den felaktiga konstruktionen Huruvida att och gör hjälptipset idiomatiskt utan att översätta standard- eller formatnamn."
+msgctxt "[\"QGIS\",\"qgis-application\",\"QObject\",\"o:qgis:p:QGIS:r:qgis-application:s:6c8d050de1523700fb7f2cd7821fc514\",\"0e2180c9b1ab4a9f8c000233\"]"
+msgid "Whether to use RFC 7946 standard. If disabled GeoJSON 2008 initial version will be used. Default is NO (thus GeoJSON 2008). See also Documentation (via Help button)"
+msgstr "Anger om standarden RFC 7946 ska användas. Om den är inaktiverad används den ursprungliga versionen GeoJSON 2008. Standardvärdet är NO (alltså GeoJSON 2008). Se även dokumentationen via hjälpknappen."
+
+# Review: 0e2180c9b1ab4a9f8c000234
+# Evidence: https://app.transifex.com/qgis/qgis/translate/#sv/qgis-application/
+# Evidence-SHA256: b00cd4e568feceb3d77ace0e83917d75dd1693499d3f4f7e9c9d45ecaf833d03
+# Source-evidence: {"artifact": "local:qgis-application-sv-transifex-live-20261110.ts", "sha256": "b00cd4e568feceb3d77ace0e83917d75dd1693499d3f4f7e9c9d45ecaf833d03"}
+# Publication: local-reviewed-pending-upload
+#. Review-note (JSON): "Rättar grammatik och radbrytning samt bevarar RS-värdet, standardnamnet och de maskinläsbara formatnamnen. Källans avslutande blanksteg före radbrytningen har normaliserats endast i TM-posten."
+msgctxt "[\"QGIS\",\"qgis-application\",\"QObject\",\"o:qgis:p:QGIS:r:qgis-application:s:9a46bb3fcf2ed57f884cfe75e98f5c7c\",\"0e2180c9b1ab4a9f8c000234\"]"
+msgid ""
+"Whether to start records with the RS=0x1E character (RFC 8142 standard). Defaults to NO: Newline Delimited JSON (geojsonl).\n"
+"If set to YES:  RFC 8142 standard: GeoJSON Text Sequences  (geojsons)."
+msgstr ""
+"Anger om poster ska inledas med tecknet RS=0x1E (standarden RFC 8142). Standardvärdet är NO: Newline Delimited JSON (geojsonl).\n"
+"Om värdet är YES används standarden RFC 8142: GeoJSON Text Sequences (geojsons)."
+
+# Review: 0e2180c9b1ab4a9f8c000235
+# Evidence: https://app.transifex.com/qgis/qgis/translate/#sv/qgis-application/
+# Evidence-SHA256: b00cd4e568feceb3d77ace0e83917d75dd1693499d3f4f7e9c9d45ecaf833d03
+# Source-evidence: {"artifact": "local:qgis-application-sv-transifex-live-20261110.ts", "sha256": "b00cd4e568feceb3d77ace0e83917d75dd1693499d3f4f7e9c9d45ecaf833d03"}
+# Publication: local-reviewed-pending-upload
+#. Review-note (JSON): "Rättar felaktig satskonstruktion och förtydligar att VPC avser utdata, med oförändrade formatnamn COPC och LAZ/LAS."
+msgctxt "[\"QGIS\",\"qgis-application\",\"QObject\",\"o:qgis:p:QGIS:r:qgis-application:s:c9441423871e8599bedd817b7f85cc05\",\"0e2180c9b1ab4a9f8c000235\"]"
+msgid ""
+"Specify the underlying format in which data are stored for VPC output.\n"
+"Select COPC if you need to render the output VPC in QGIS. LAZ/LAS may be faster to process, however only allow rendering of the point cloud extents."
+msgstr ""
+"Ange det underliggande format som data sparas i för VPC-utdata.\n"
+"Välj COPC om du behöver rendera VPC-utdata i QGIS. LAZ/LAS kan gå snabbare att bearbeta, men tillåter bara rendering av punktmolnets utbredning."
