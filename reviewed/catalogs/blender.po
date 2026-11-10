@@ -440449,7 +440449,7 @@ msgstr "Kroatiska - Hrvatski"
 # Source-evidence: {}
 # Publication: local-reviewed-delta
 #. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
-msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"py.types.CyclesRenderSettings.preview_adaptive_min_samples\",\"blender-1596-0001\"]"
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.preview_adaptive_min_samples\",\"blender-1596-0001\"]"
 msgid "Minimum AA samples for adaptive sampling, to discover noisy features before stopping sampling. Zero for automatic setting based on noise threshold, for viewport renders"
 msgstr "Minsta antal AA-sampel för adaptiv sampling, för att upptäcka brusiga egenskaper innan samplingen avbryts. Noll använder automatisk inställning baserad på brusgränsvärdet för rendering i vyporten"
 
@@ -440459,7 +440459,7 @@ msgstr "Minsta antal AA-sampel för adaptiv sampling, för att upptäcka brusiga
 # Source-evidence: {}
 # Publication: local-reviewed-delta
 #. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
-msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"py.types.CyclesRenderSettings.preview_adaptive_threshold\",\"blender-1596-0002\"]"
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.preview_adaptive_threshold\",\"blender-1596-0002\"]"
 msgid "Noise level step to stop sampling at, lower values reduce noise at the cost of render time. Zero for automatic setting based on number of AA samples, for viewport renders"
 msgstr "Brusnivå vid vilken samplingen avbryts. Lägre värden minskar bruset på bekostnad av renderingstiden. Noll använder automatisk inställning baserad på antalet AA-sampel för rendering i vyporten"
 
@@ -440469,7 +440469,7 @@ msgstr "Brusnivå vid vilken samplingen avbryts. Lägre värden minskar bruset p
 # Source-evidence: {}
 # Publication: local-reviewed-delta
 #. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
-msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"py.types.CyclesRenderSettings.preview_denoiser\",\"blender-1596-0003\"]"
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.preview_denoiser\",\"blender-1596-0003\"]"
 msgid "Viewport Denoiser"
 msgstr "Brusreducerare för vyport"
 
@@ -440479,7 +440479,7 @@ msgstr "Brusreducerare för vyport"
 # Source-evidence: {}
 # Publication: local-reviewed-delta
 #. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
-msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"py.types.CyclesRenderSettings.preview_denoising_input_passes\",\"blender-1596-0004\"]"
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.preview_denoising_input_passes\",\"blender-1596-0004\"]"
 msgid "Viewport Denoising Input Passes"
 msgstr "Indatapass för brusreducering i vyport"
 
@@ -440489,7 +440489,7 @@ msgstr "Indatapass för brusreducering i vyport"
 # Source-evidence: {}
 # Publication: local-reviewed-delta
 #. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
-msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"py.types.CyclesRenderSettings.preview_denoising_prefilter\",\"blender-1596-0005\"]"
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.preview_denoising_prefilter\",\"blender-1596-0005\"]"
 msgid "Viewport Denoising Prefilter"
 msgstr "Förfilter för brusreducering i vyporten"
 
@@ -440499,7 +440499,7 @@ msgstr "Förfilter för brusreducering i vyporten"
 # Source-evidence: {}
 # Publication: local-reviewed-delta
 #. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
-msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"py.types.CyclesRenderSettings.preview_denoising_quality\",\"blender-1596-0006\"]"
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.preview_denoising_quality\",\"blender-1596-0006\"]"
 msgid "Viewport Denoising Quality"
 msgstr "Kvalitet på brusreducering i vyporten"
 
@@ -440509,6 +440509,116 @@ msgstr "Kvalitet på brusreducering i vyporten"
 # Source-evidence: {}
 # Publication: local-reviewed-delta
 #. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
-msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"py.types.CyclesRenderSettings.preview_denoising_upscale_quality\",\"blender-1596-0007\"]"
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1596-viewport-cycles-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.preview_denoising_upscale_quality\",\"blender-1596-0007\"]"
 msgid "Viewport Denoising Upscale Quality"
 msgstr "Uppskalningskvalitet för brusreducering i vyport"
+
+# Review: blender-1597-0001
+# Evidence: https://github.com/yeager/translations/blob/b03abee/Blender/blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po
+# Evidence-SHA256: 3222c6d442dc0d70251c509776377f68219e64511d3148a6b6b9710d687a2d76
+# Source-evidence: {}
+# Publication: local-reviewed-delta
+#. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.preview_dicing_rate\",\"blender-1597-0001\"]"
+msgid "Viewport Dicing Rate"
+msgstr "Indelningsgrad för vyport"
+
+# Review: blender-1597-0002
+# Evidence: https://github.com/yeager/translations/blob/b03abee/Blender/blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po
+# Evidence-SHA256: 3222c6d442dc0d70251c509776377f68219e64511d3148a6b6b9710d687a2d76
+# Source-evidence: {}
+# Publication: local-reviewed-delta
+#. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.preview_dicing_rate\",\"blender-1597-0002\"]"
+msgid "Multiplier for per object adaptive subdivision size in the viewport"
+msgstr "Multiplikator för adaptiv underindelningsstorlek per objekt i vyporten"
+
+# Review: blender-1597-0003
+# Evidence: https://github.com/yeager/translations/blob/b03abee/Blender/blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po
+# Evidence-SHA256: 3222c6d442dc0d70251c509776377f68219e64511d3148a6b6b9710d687a2d76
+# Source-evidence: {}
+# Publication: local-reviewed-delta
+#. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.preview_samples; bpy.types.SceneEEVEE.taa_samples\",\"blender-1597-0003\"]"
+msgid "Viewport Samples"
+msgstr "Sampel för vyport"
+
+# Review: blender-1597-0004
+# Evidence: https://github.com/yeager/translations/blob/b03abee/Blender/blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po
+# Evidence-SHA256: 3222c6d442dc0d70251c509776377f68219e64511d3148a6b6b9710d687a2d76
+# Source-evidence: {}
+# Publication: local-reviewed-delta
+#. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.preview_samples\",\"blender-1597-0004\"]"
+msgid "Number of samples to render in the viewport, unlimited if 0"
+msgstr "Antal sampel som ska renderas i vyporten, obegränsat om 0"
+
+# Review: blender-1597-0005
+# Evidence: https://github.com/yeager/translations/blob/b03abee/Blender/blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po
+# Evidence-SHA256: 3222c6d442dc0d70251c509776377f68219e64511d3148a6b6b9710d687a2d76
+# Source-evidence: {}
+# Publication: local-reviewed-delta
+#. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.preview_scrambling_distance\",\"blender-1597-0005\"]"
+msgid "Scrambling Distance viewport"
+msgstr "Blandningsavstånd för vyport"
+
+# Review: blender-1597-0006
+# Evidence: https://github.com/yeager/translations/blob/b03abee/Blender/blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po
+# Evidence-SHA256: 3222c6d442dc0d70251c509776377f68219e64511d3148a6b6b9710d687a2d76
+# Source-evidence: {}
+# Publication: local-reviewed-delta
+#. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.preview_scrambling_distance\",\"blender-1597-0006\"]"
+msgid "Uses the Scrambling Distance value for the viewport. Faster but may flicker"
+msgstr "Använder värdet för blandningsavstånd för vyporten. Snabbare men kan flimra"
+
+# Review: blender-1597-0007
+# Evidence: https://github.com/yeager/translations/blob/b03abee/Blender/blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po
+# Evidence-SHA256: 3222c6d442dc0d70251c509776377f68219e64511d3148a6b6b9710d687a2d76
+# Source-evidence: {}
+# Publication: local-reviewed-delta
+#. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.texture_limit\",\"blender-1597-0007\"]"
+msgid "Viewport Texture Limit"
+msgstr "Texturgräns för vyport"
+
+# Review: blender-1597-0008
+# Evidence: https://github.com/yeager/translations/blob/b03abee/Blender/blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po
+# Evidence-SHA256: 3222c6d442dc0d70251c509776377f68219e64511d3148a6b6b9710d687a2d76
+# Source-evidence: {}
+# Publication: local-reviewed-delta
+#. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.texture_limit\",\"blender-1597-0008\"]"
+msgid "Limit texture size used by viewport rendering"
+msgstr "Begränsa texturstorleken som används vid rendering i vyporten"
+
+# Review: blender-1597-0009
+# Evidence: https://github.com/yeager/translations/blob/b03abee/Blender/blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po
+# Evidence-SHA256: 3222c6d442dc0d70251c509776377f68219e64511d3148a6b6b9710d687a2d76
+# Source-evidence: {}
+# Publication: local-reviewed-delta
+#. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.texture_resolution\",\"blender-1597-0009\"]"
+msgid "Viewport Texture Resolution"
+msgstr "Texturupplösning i vyport"
+
+# Review: blender-1597-0010
+# Evidence: https://github.com/yeager/translations/blob/b03abee/Blender/blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po
+# Evidence-SHA256: 3222c6d442dc0d70251c509776377f68219e64511d3148a6b6b9710d687a2d76
+# Source-evidence: {}
+# Publication: local-reviewed-delta
+#. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.texture_resolution\",\"blender-1597-0010\"]"
+msgid "Scale factor for texture resolution used by viewport rendering"
+msgstr "Skalfaktor för texturupplösningen som används vid rendering i vyporten"
+
+# Review: blender-1597-0011
+# Evidence: https://github.com/yeager/translations/blob/b03abee/Blender/blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po
+# Evidence-SHA256: 3222c6d442dc0d70251c509776377f68219e64511d3148a6b6b9710d687a2d76
+# Source-evidence: {}
+# Publication: local-reviewed-delta
+#. Review-note (JSON): "Locally reviewed Swedish Blender UI terminology."
+msgctxt "[\"Blender\",\"blender-ui-sv-reviewed-batch-1597-cycles-viewport-20261110.po\",\"\",\"bpy.types.CyclesRenderSettings.use_fast_gi\",\"blender-1597-0011\"]"
+msgid "Approximate diffuse indirect light with background tinted ambient occlusion. This provides fast alternative to full global illumination, for interactive viewport rendering or final renders with reduced quality"
+msgstr "Approximerar diffust indirekt ljus med bakgrundsfärgad omgivningsocklusion. Detta ger ett snabbt alternativ till fullständig global belysning, för interaktiv rendering i vyporten eller slutrenderingar med lägre kvalitet"
