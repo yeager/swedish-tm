@@ -1,10 +1,10 @@
 # Översättningsminne från språkgranskningar
 
-Denna utgåva innehåller **204 644 poster och 205 389 segment i 144 projektminnen**.
+Denna utgåva innehåller **208 148 poster och 208 893 segment i 146 projektminnen**.
 
 JSONL i [data](data/) är källa till minnena i [catalogs](catalogs/). [stats.json](stats.json) redovisar verifierade antal. Dessa poster kompletterar de platta ekosystemminnena i förrådets rot och ska inte adderas till deras antal som om alla par vore nya.
 
-Grundunderlagen inventerades den 20 september 2026. Den offentliga översättningssamlingen lästes vid revision `67e6d27877c9cfd6b6dbc74bd852b10bdbe09c3c` av [yeager/translations](https://github.com/yeager/translations). Senare tillägg omfattar FreeCAD Addons-deltat vid revision `543f91f919f73af045357c0f7d5d255743bda520` och granskade Home Assistant-batcher: LIFX-teman i batch 98–100 och 102–106, stämningar i batch 107 samt Daikin i batch 101. Se respektive commit och granskningsunderlag i [yeager/translations](https://github.com/yeager/translations). Annat pågående arbete ingår inte automatiskt.
+Grundunderlagen inventerades den 20 september 2026. Den offentliga översättningssamlingen lästes vid revision `67e6d27877c9cfd6b6dbc74bd852b10bdbe09c3c` av [yeager/translations](https://github.com/yeager/translations). Senare tillägg omfattar FreeCAD Addons-deltat vid revision `543f91f919f73af045357c0f7d5d255743bda520` och granskade Home Assistant-batcher: LIFX-teman i batch 98–100 och 102–106, stämningar i batch 107 samt Daikin i batch 101. Hermes Agent tillför 3 504 unika lokalt granskade delta-nycklar från 192 batchfiler; den sammansatta katalogen vid revision `f60889b413494b02c1bc9765d92bca524a7ce1ea` väljer den senaste granskade texten per nyckel. Källkatalogen är pinnad vid Hermes Agent-revision `abeeef4d491cba7ea6126a2f54d81c879da5059f`. Hermes-texterna är inte upstream-inskickade eller godkända. Se respektive commit och granskningsunderlag i [yeager/translations](https://github.com/yeager/translations). Annat pågående arbete ingår inte automatiskt.
 
 Underlaget omfattar individuella beslut i FreeCADs 36 filer, bekräftade rättelser från Translation Project, GNOME och Ubuntu-granskningen, tidigare granskade filleveranser samt ändrade tvåspråkiga poster i översättningssamlingens granskningscommits. Automatiska varningar utan språkbeslut räknas inte som granskade rättelser.
 
@@ -16,7 +16,7 @@ Varje post innehåller projekt, komponent, ursprunglig kontext, källtext, svens
 
 Importera en passande TMX-fil i ditt CAT-verktyg, exempelvis `catalogs/freecad.tmx`. Varje segment behåller projekt, komponent, kontext, gransknings-ID och publiceringsstatus som TMX-egenskaper. Pluralformer lagras som separata segment med `plural_index` och med engelsk pluraltext när underlaget innehåller den.
 
-PO-filerna bevarar båda svenska pluralformerna. Deras `msgctxt` är en JSON-lista med projekt, komponent, ursprunglig kontext, källpostens ID och gransknings-ID. De är avsedda som sökbara minnen, inte som färdiga ersättningsfiler för respektive program. För direkt återanvändning måste ursprunglig kontext jämföras.
+PO-filerna bevarar båda svenska pluralformerna. Deras `msgctxt` är en JSON-lista med projekt, komponent, ursprunglig kontext, källpostens ID och gransknings-ID. De är avsedda som sökbara minnen, inte som färdiga ersättningsfiler för respektive program. För direkt återanvändning måste ursprunglig kontext jämföras. Om bara källan eller målet har en avslutande radbrytning trimmas den enbart i PO-exporten för GNU gettext-kompatibilitet; JSONL och TMX behåller exakt granskad text.
 
 ```sh
 python3 scripts/reviewed.py        # kontrollera JSONL, PO, TMX och antal

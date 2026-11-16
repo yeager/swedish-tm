@@ -29,10 +29,19 @@ def context(r):
     return json.dumps([r['project'],r['component'],r['context'],r['unit'],r['id']],ensure_ascii=False,separators=(',',':'))
 
 def po_entry(r):
-    e=polib.POEntry(msgid=r['source'][0],msgctxt=context(r),comment='Review-note (JSON): '+json.dumps(r['note'],ensure_ascii=False),tcomment=f"Review: {r['id']}\nEvidence: {r['evidence']['artifact']}\nEvidence-SHA256: {r['evidence']['sha256']}\nSource-evidence: {json.dumps(r.get('source_evidence',{}),ensure_ascii=False)}\nPublication: {r['publication_status']}")
+    source=r['source'][0]; target=r['target'][0]
+    newline_normalized=source.endswith('\n') != target.endswith('\n')
+    # A TM PO is gettext-syntax transport, not a replacement catalog. GNU
+    # msgfmt rejects mismatched terminal newlines, so trim only that boundary
+    # in PO; JSONL and TMX continue to preserve the exact reviewed strings.
+    if newline_normalized:
+        if source.endswith('\n'): source=source[:-1]
+        if target.endswith('\n'): target=target[:-1]
+    normalization='\nPO-normalization: unmatched terminal LF trimmed in PO; JSONL and TMX retain exact text.' if newline_normalized else ''
+    e=polib.POEntry(msgid=source,msgctxt=context(r),comment='Review-note (JSON): '+json.dumps(r['note'],ensure_ascii=False),tcomment=f"Review: {r['id']}\nEvidence: {r['evidence']['artifact']}\nEvidence-SHA256: {r['evidence']['sha256']}\nSource-evidence: {json.dumps(r.get('source_evidence',{}),ensure_ascii=False)}\nPublication: {r['publication_status']}{normalization}")
     if len(r['target'])==2:
         e.msgid_plural=r['source'][-1];e.msgstr_plural={i:t for i,t in enumerate(r['target'])}
-    else:e.msgstr=r['target'][0]
+    else:e.msgstr=target
     return e
 
 def fields(r):
