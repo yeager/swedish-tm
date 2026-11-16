@@ -1,10 +1,10 @@
 # Översättningsminne från språkgranskningar
 
-Denna utgåva innehåller **204 522 poster och 205 267 segment i 144 projektminnen**.
+Denna utgåva innehåller **204 538 poster och 205 283 segment i 144 projektminnen**.
 
 JSONL i [data](data/) är källa till minnena i [catalogs](catalogs/). [stats.json](stats.json) redovisar verifierade antal. Dessa poster kompletterar de platta ekosystemminnena i förrådets rot och ska inte adderas till deras antal som om alla par vore nya.
 
-Grundunderlagen inventerades den 20 september 2026. Den offentliga översättningssamlingen lästes vid revision `67e6d27877c9cfd6b6dbc74bd852b10bdbe09c3c` av [yeager/translations](https://github.com/yeager/translations). Senare tillägg omfattar bland annat FreeCAD Addons-deltat vid revision `543f91f919f73af045357c0f7d5d255743bda520`; annat pågående arbete ingår inte automatiskt.
+Grundunderlagen inventerades den 20 september 2026. Den offentliga översättningssamlingen lästes vid revision `67e6d27877c9cfd6b6dbc74bd852b10bdbe09c3c` av [yeager/translations](https://github.com/yeager/translations). Senare tillägg omfattar bland annat FreeCAD Addons-deltat vid revision `543f91f919f73af045357c0f7d5d255743bda520` och Home Assistants LIFX-teman från batch 98–99 (`15c7da3`, `9a801bb`); annat pågående arbete ingår inte automatiskt.
 
 Underlaget omfattar individuella beslut i FreeCADs 36 filer, bekräftade rättelser från Translation Project, GNOME och Ubuntu-granskningen, tidigare granskade filleveranser samt ändrade tvåspråkiga poster i översättningssamlingens granskningscommits. Automatiska varningar utan språkbeslut räknas inte som granskade rättelser.
 
