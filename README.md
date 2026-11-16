@@ -22,8 +22,8 @@ för rad.
 
 ## English reference
 
-**707 099 unique English–Swedish translation pairs** in 16 ecosystem exports
-(814 219 entries before deduplicating across ecosystems). These counts describe
+**707 207 unique English–Swedish translation pairs** in 16 ecosystem exports
+(814 318 entries before deduplicating across ecosystems). These counts describe
 the files shipped in this repository  including the Translation Project update of 2026-09-23.
 
 ## Translation Project review update, 2026-09-23
@@ -59,7 +59,7 @@ gettext validity, XML safety, format agreement and statistics consistency.
 | Transifex | 227 083 | — | [sv-transifex.po](sv-transifex.po) |
 | Crowdin | 1 918 | [sv-crowdin.tmx](sv-crowdin.tmx) | [sv-crowdin.po](sv-crowdin.po) |
 | Weblate | 38 672 | [sv-weblate.tmx](sv-weblate.tmx) | [sv-weblate.po](sv-weblate.po) |
-| Blender | 75 575 | [sv-blender.tmx](sv-blender.tmx) | [sv-blender.po](sv-blender.po) |
+| Blender | 75 674 | [sv-blender.tmx](sv-blender.tmx) | [sv-blender.po](sv-blender.po) |
 | Inkscape | 16 733 | [sv-inkscape.tmx](sv-inkscape.tmx) | [sv-inkscape.po](sv-inkscape.po) |
 | Stellarium | 44 409 | [sv-stellarium.tmx](sv-stellarium.tmx) | [sv-stellarium.po](sv-stellarium.po) |
 | QGIS | 39 685 | [sv-qgis.tmx](sv-qgis.tmx) | [sv-qgis.po](sv-qgis.po) |

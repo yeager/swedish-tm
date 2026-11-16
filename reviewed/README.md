@@ -1,6 +1,6 @@
 # Översättningsminne från språkgranskningar
 
-Denna utgåva innehåller **202 655 poster och 203 395 segment i 144 projektminnen**.
+Denna utgåva innehåller **204 522 poster och 205 267 segment i 144 projektminnen**.
 
 JSONL i [data](data/) är källa till minnena i [catalogs](catalogs/). [stats.json](stats.json) redovisar verifierade antal. Dessa poster kompletterar de platta ekosystemminnena i förrådets rot och ska inte adderas till deras antal som om alla par vore nya.
 
