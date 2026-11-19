@@ -22,7 +22,7 @@ python3 scripts/home_assistant_export.py --fetch --write --validate
 
 ## Lokala granskningsförslag, 19 november 2026
 
-[TMX-tillägget för Core](sv-home-assistant-core-proposals-20261119.tmx) innehåller sju lokalt granskade förslag med Lokalise-nyckel och länk till granskningsunderlaget. Förslagen är inte sparade i Lokalise och är inte formellt godkända. Tillägget kompletterar den oförändrade ögonblicksbilden från 24 oktober; välj kontext och kontrollera aktuell källtext innan ett förslag används.
+[TMX-tillägget för Core](sv-home-assistant-core-proposals-20261119.tmx) innehåller nio lokalt granskade förslag med Lokalise-nyckel och länk till granskningsunderlaget. Förslagen är inte sparade i Lokalise och är inte formellt godkända. Tillägget kompletterar den oförändrade ögonblicksbilden från 24 oktober; välj kontext och kontrollera aktuell källtext innan ett förslag används.
 
 ## Verifiering 19 november 2026
 
