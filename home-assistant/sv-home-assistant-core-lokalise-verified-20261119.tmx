@@ -1718,5 +1718,21 @@ Please update your configuration per the [instructions]({component_url}), restar
 
 Uppdatera din konfiguration enligt [instruktionerna]({component_url}), starta om Home Assistant och försök igen.</seg></tuv></tu>
   <tu tuid="component::smartthings::config::abort::no_available_locations"><prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-19</prop><tuv xml:lang="en"><seg>There are no available SmartThings Locations to set up in Home Assistant.</seg></tuv><tuv xml:lang="sv"><seg>Det finns inga SmartThings-platser tillgängliga att konfigurera i Home Assistant.</seg></tuv></tu>
+  <tu tuid="component::braviatv::config::error::unsupported_model"><prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-19</prop><tuv xml:lang="en"><seg>Your TV model is not supported.</seg></tuv><tuv xml:lang="sv"><seg>Den här tv-modellen stöds inte.</seg></tuv></tu>
+  <tu tuid="component::braviatv::config::step::authorize::description"><prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-19</prop><tuv xml:lang="en"><seg>Make sure that «Control remotely» is enabled on your TV. Go to: 
+Settings -&gt; Network -&gt; Remote device settings -&gt; Control remotely. 
+
+There are two authorization methods: PIN code or PSK (Pre-Shared Key). 
+Authorization via PSK is recommended, as it is more stable. 
+
+Use an SSL connection only if your TV supports this connection type.</seg></tuv><tuv xml:lang="sv"><seg>Se till att «Fjärrstyrning» är aktiverat på din TV. Gå till:
+Inställningar -&gt; Nätverk -&gt; Inställningar för fjärrenhet -&gt; Fjärrstyrning.
+
+Det finns två auktoriseringsmetoder: PIN-kod eller PSK (i förväg delad nyckel).
+Auktorisering via PSK rekommenderas, eftersom den är stabilare.
+
+Använd endast en SSL-anslutning om din TV stöder den här anslutningstypen.</seg></tuv></tu>
+  <tu tuid="component::nws::config::step::user::data::station"><prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-19</prop><tuv xml:lang="en"><seg>METAR station code</seg></tuv><tuv xml:lang="sv"><seg>METAR-stationskod</seg></tuv></tu>
+  <tu tuid="component::nws::config::step::user::description"><prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-19</prop><tuv xml:lang="en"><seg>Choose how to configure the weather location.</seg></tuv><tuv xml:lang="sv"><seg>Välj hur du vill konfigurera platsen för väderdata.</seg></tuv></tu>
 </body>
 </tmx>
