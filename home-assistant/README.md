@@ -27,3 +27,7 @@ python3 scripts/home_assistant_export.py --fetch --write --validate
 ## Verifiering 19 november 2026
 
 De fyra katalogerna har kontrollerats mot sina arkiverade JSONL-underlag: samtliga PO- och TMX-par stämmer med respektive ögonblicksbild. Även varje TMX-segments komponent, nyckel, kontext och underlagets SHA-256 kontrollerades utan avvikelser. Detta verifierar den historiska exportens internkonsistens, inte att den motsvarar dagens Lokalise eller att varje översättning är språkligt korrekt. Ingen ny liveexport har genomförts vid denna kontroll.
+
+## Verifierat tillägg från Lokalise, 19 november 2026
+
+[Separat Core-TMX](sv-home-assistant-core-lokalise-verified-20261119.tmx) innehåller fyra sparade och återlästa MQTT-översättningar med fullständig nyckel och [spårbar ändringslogg](https://github.com/yeager/translations/blob/main/Home-Assistant/Lokalise/2026-11-19/sparade-andringar-mqtt.md). Tillägget är en partiell uppdatering, inte en aktuell fullständig export; de övriga senare Lokalise-ändringarna återstår att föra in och verifiera. De äldre katalogerna och det separata förslagsminnet är oförändrade. XML-struktur, unika nycklar, språkpar, platshållare och länkmål kontrollerades före publicering.
