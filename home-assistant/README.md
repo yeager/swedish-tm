@@ -22,7 +22,7 @@ python3 scripts/home_assistant_export.py --fetch --write --validate
 
 ## Lokala granskningsförslag, 19 november 2026
 
-[TMX-tillägget för Core](sv-home-assistant-core-proposals-20261119.tmx) innehåller sju lokala textförslag för Recorder, HomeWizard, Philips TV och IPP som inte har sparats i Lokalise, med fullständig nyckel och spårbar källa. De fem tidigare Miele-förslagen har sparats och återlästs i Lokalise; se [ändringsloggen](https://github.com/yeager/translations/blob/main/Home-Assistant/Lokalise/2026-11-19/sparade-andringar-miele.md). Andra lokala förslag i granskningsrapporterna återstår. Tillägget kompletterar den oförändrade ögonblicksbilden från 24 oktober; välj kontext och kontrollera aktuell källtext innan ett förslag används.
+[TMX-tillägget för Core](sv-home-assistant-core-proposals-20261119.tmx) är för närvarande tomt: de sju tidigare textförslagen har sparats och återlästs i Lokalise och förts till det verifierade tillägget. De fem tidigare Miele-förslagen har sparats och återlästs i Lokalise; se [ändringsloggen](https://github.com/yeager/translations/blob/main/Home-Assistant/Lokalise/2026-11-19/sparade-andringar-miele.md). Andra lokala förslag i granskningsrapporterna återstår. Tillägget kompletterar den oförändrade ögonblicksbilden från 24 oktober; välj kontext och kontrollera aktuell källtext innan ett förslag används.
 
 ## Verifiering 19 november 2026
 
@@ -30,6 +30,6 @@ De fyra katalogerna har kontrollerats mot sina arkiverade JSONL-underlag: samtli
 
 ## Verifierat tillägg från Lokalise, 19 november 2026
 
-[Separat Core-TMX](sv-home-assistant-core-lokalise-verified-20261119.tmx) innehåller 414 sparade och återlästa översättningar från sjuttiotre ändringsloggar, med fullständig nyckel och källhänvisning inklusive källfilens Git-blob. De fyra tidigare posterna är oförändrade. Tillägget är en partiell uppdatering, inte en aktuell fullständig export; de övriga senare Lokalise-ändringarna återstår att föra in och verifiera. De äldre katalogerna och det separata förslagsminnet är oförändrade. XML-struktur, unika nycklar, språkpar, platshållare och länkmål kontrollerades före publicering.
+[Separat Core-TMX](sv-home-assistant-core-lokalise-verified-20261119.tmx) innehåller 421 sparade och återlästa översättningar från sjuttiosex ändringsloggar, med fullständig nyckel och källhänvisning inklusive källfilens Git-blob. De fyra tidigare posterna är oförändrade. Tillägget är en partiell uppdatering, inte en aktuell fullständig export; de övriga senare Lokalise-ändringarna återstår att föra in och verifiera. De äldre katalogerna och det separata förslagsminnet är oförändrade. XML-struktur, unika nycklar, språkpar, platshållare och länkmål kontrollerades före publicering.
 
 Återställda nyckelreferenser förs inte in som vanliga textpar: referensernas ursprung och mål dokumenteras i ändringsloggarna och måste bedömas i sitt sammanhang.
