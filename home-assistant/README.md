@@ -22,7 +22,7 @@ python3 scripts/home_assistant_export.py --fetch --write --validate
 
 ## Lokala granskningsförslag, 19 november 2026
 
-[TMX-tillägget för Core](sv-home-assistant-core-proposals-20261119.tmx) innehåller för närvarande inga poster. De fem tidigare Miele-förslagen har sparats och återlästs i Lokalise; se [ändringsloggen](https://github.com/yeager/translations/blob/main/Home-Assistant/Lokalise/2026-11-19/sparade-andringar-miele.md). Andra lokala förslag i granskningsrapporterna återstår. Tillägget kompletterar den oförändrade ögonblicksbilden från 24 oktober; välj kontext och kontrollera aktuell källtext innan ett förslag används.
+[TMX-tillägget för Core](sv-home-assistant-core-proposals-20261119.tmx) innehåller två lokala Recorder-förslag som inte har sparats i Lokalise, med fullständig nyckel och spårbar källa. De fem tidigare Miele-förslagen har sparats och återlästs i Lokalise; se [ändringsloggen](https://github.com/yeager/translations/blob/main/Home-Assistant/Lokalise/2026-11-19/sparade-andringar-miele.md). Andra lokala förslag i granskningsrapporterna återstår. Tillägget kompletterar den oförändrade ögonblicksbilden från 24 oktober; välj kontext och kontrollera aktuell källtext innan ett förslag används.
 
 ## Verifiering 19 november 2026
 
