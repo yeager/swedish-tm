@@ -30,6 +30,6 @@ De fyra katalogerna har kontrollerats mot sina arkiverade JSONL-underlag: samtli
 
 ## Verifierat tillägg från Lokalise, 19 november 2026
 
-[Separat Core-TMX](sv-home-assistant-core-lokalise-verified-20261119.tmx) innehåller 303 sparade och återlästa översättningar från fyrtionio ändringsloggar, med fullständig nyckel och källhänvisning inklusive källfilens Git-blob. De fyra tidigare posterna är oförändrade. Tillägget är en partiell uppdatering, inte en aktuell fullständig export; de övriga senare Lokalise-ändringarna återstår att föra in och verifiera. De äldre katalogerna och det separata förslagsminnet är oförändrade. XML-struktur, unika nycklar, språkpar, platshållare och länkmål kontrollerades före publicering.
+[Separat Core-TMX](sv-home-assistant-core-lokalise-verified-20261119.tmx) innehåller 304 sparade och återlästa översättningar från fyrtionio ändringsloggar, med fullständig nyckel och källhänvisning inklusive källfilens Git-blob. De fyra tidigare posterna är oförändrade. Tillägget är en partiell uppdatering, inte en aktuell fullständig export; de övriga senare Lokalise-ändringarna återstår att föra in och verifiera. De äldre katalogerna och det separata förslagsminnet är oförändrade. XML-struktur, unika nycklar, språkpar, platshållare och länkmål kontrollerades före publicering.
 
 Återställda nyckelreferenser förs inte in som vanliga textpar: referensernas ursprung och mål dokumenteras i ändringsloggarna och måste bedömas i sitt sammanhang.
