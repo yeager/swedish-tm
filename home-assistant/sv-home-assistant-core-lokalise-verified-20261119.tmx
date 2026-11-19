@@ -1609,5 +1609,32 @@ På iOS öppnar du [OwnTracks-appen]({ios_url}), trycker på (i)-ikonen längst 
 {secret}
 
 Se [dokumentationen]({docs_url}) för mer information.</seg></tuv></tu>
-</body>
+<tu tuid="component::tellduslive::config::step::auth::description"><prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-19</prop><tuv xml:lang="en"><seg>To link your Telldus Live account:
+1. Open the link below
+2. Log in to Telldus Live
+3. Authorize **{app_name}** (select **Yes**).
+4. Come back here and select **Submit**.
+
+[Link Telldus Live account]({auth_url})</seg></tuv><tuv xml:lang="sv"><seg>För att länka ditt Telldus Live-konto:
+
+1. Öppna länken nedan
+2. Logga in på Telldus Live
+3. Godkänn **{app_name}** (välj **Ja**).
+4. Gå tillbaka hit och välj **Bekräfta**.
+
+[Länka Telldus Live-konto]({auth_url})</seg></tuv></tu><tu tuid="component::tellduslive::config::step::auth::title"><prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-19</prop><tuv xml:lang="en"><seg>Authenticate with Telldus Live</seg></tuv><tuv xml:lang="sv"><seg>Autentisera med Telldus Live</seg></tuv></tu><tu tuid="component::geofency::config::create_entry::default"><prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-19</prop><tuv xml:lang="en"><seg>To send events to Home Assistant, you will need to set up the webhook feature in Geofency.
+
+Fill in the following info:
+
+- URL: `{webhook_url}`
+- Method: POST
+
+See [the documentation]({docs_url}) for further details.</seg></tuv><tuv xml:lang="sv"><seg>För att skicka händelser till Home Assistant måste du konfigurera webhook-funktionen i Geofency.
+
+Fyll i följande information:
+
+- URL: `{webhook_url}`
+- Metod: POST
+
+Se [dokumentationen]({docs_url}) för mer information.</seg></tuv></tu></body>
 </tmx>
