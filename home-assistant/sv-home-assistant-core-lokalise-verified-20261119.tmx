@@ -3198,5 +3198,91 @@ Se till att stänga dKey-adminappen innan du fortsätter.</seg></tuv>
  <tuv xml:lang="en"><seg>Common air quality index</seg></tuv>
  <tuv xml:lang="sv"><seg>Allmänt luftkvalitetsindex</seg></tuv>
 </tu>
+<tu tuid="299592987">
+<prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop>
+<prop type="status">saved-and-read-back</prop>
+<prop type="verified-date">2026-11-20</prop>
+<tuv xml:lang="en"><seg>The IMAP email content integration is deprecated. Your IMAP server configuration was already migrated to the [imap integration](https://my.home-assistant.io/redirect/config_flow_start?domain=imap). To set up a sensor for the IMAP email content, set up a template sensor with the config:
+
+```yaml
+{yaml_example}```
+
+Please remove the deprecated `imap_email_plaform` sensor configuration from your `configuration.yaml`.
+
+Note that the event filter only filters on the first of the configured allowed senders, customize the filter if needed.
+
+You can skip this part if you have already set up a template sensor.</seg></tuv>
+<tuv xml:lang="sv"><seg>IMAP-integrationen för e-postinnehåll är utfasad. Din IMAP-serverkonfiguration har redan migrerats till [imap-integrationen](https://my.home-assistant.io/redirect/config_flow_start?domain=imap). För att konfigurera en sensor för IMAP-e-postinnehåll, konfigurera en mallsensor med följande konfiguration:
+
+```yaml
+{yaml_example}```
+
+Ta bort den utfasade sensorkonfigurationen `imap_email_plaform` från din `configuration.yaml`.
+
+Observera att händelsefiltret endast filtrerar på den första av de konfigurerade tillåtna avsändarna; anpassa filtret vid behov.
+
+Du kan hoppa över den här delen om du redan har konfigurerat en mallsensor.</seg></tuv>
+</tu>
+<tu tuid="299592991">
+<prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop>
+<prop type="status">saved-and-read-back</prop>
+<prop type="verified-date">2026-11-20</prop>
+<tuv xml:lang="en"><seg>In this step an `imap` config entry will be set up with the following configuration:
+
+```text
+Server	{server}
+Port	{port}
+Username	{username}
+Password	*****
+Folder	{folder}
+```
+
+See also: (https://www.home-assistant.io/integrations/imap/)
+
+Fitering configuration on allowed `sender` is part of the template sensor config that can copied and placed in your `configuration.yaml.
+
+Note that the event filter only filters on the first of the configured allowed senders, customize the filter if needed.
+
+```yaml
+{yaml_example}```
+Do not forget to cleanup the your `configuration.yaml` after migration.
+
+Submit to migrate your IMAP server configuration to an `imap` configuration entry.</seg></tuv>
+<tuv xml:lang="sv"><seg>I detta steg kommer en `imap`-konfigurationspost att skapas med följande konfiguration:
+
+```text
+Server	{server}
+Port	{port}
+Användarnamn	{username}
+Lösenord	*****
+Mapp	{folder}
+```
+
+Se även: (https://www.home-assistant.io/integrations/imap/)
+
+Filterkonfigurationen för tillåtna `sender` ingår i mallsensorkonfigurationen och kan kopieras till din `configuration.yaml`.
+
+Observera att händelsefiltret endast filtrerar på den första av de konfigurerade tillåtna avsändarna; anpassa filtret vid behov.
+
+```yaml
+{yaml_example}```
+Glöm inte att rensa din `configuration.yaml` efter migreringen.
+
+Bekräfta för att migrera din IMAP-serverkonfiguration till en `imap`-konfigurationspost.</seg></tuv>
+</tu>
+<tu tuid="299592992">
+<prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop>
+<prop type="status">saved-and-read-back</prop>
+<prop type="verified-date">2026-11-20</prop>
+<tuv xml:lang="en"><seg>Your IMAP server settings will be migrated</seg></tuv>
+<tuv xml:lang="sv"><seg>Dina IMAP-serverinställningar kommer att migreras</seg></tuv>
+</tu>
+<tu tuid="299592994">
+<prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop>
+<prop type="status">saved-and-read-back</prop>
+<prop type="verified-date">2026-11-20</prop>
+<tuv xml:lang="en"><seg>Migrate your IMAP email configuration</seg></tuv>
+<tuv xml:lang="sv"><seg>Migrera din IMAP-e-postkonfiguration</seg></tuv>
+</tu>
 </body>
 </tmx>
