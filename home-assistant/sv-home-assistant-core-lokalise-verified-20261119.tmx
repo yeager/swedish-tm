@@ -2196,5 +2196,42 @@ System-ID:n för registrerade system visas på samma sida.</seg></tuv></tu>
   <tu tuid="145371659"><prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-20</prop><tuv xml:lang="en"><seg>Latitude and longitude are not defined in Home Assistant.</seg></tuv><tuv xml:lang="sv"><seg>Latitud och longitud är inte angivna i Home Assistant.</seg></tuv></tu>
   <tu tuid="147361621"><prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-20</prop><tuv xml:lang="en"><seg>The bulb cannot be connected via WiZ integration.</seg></tuv><tuv xml:lang="sv"><seg>Lampan kan inte anslutas via WiZ-integrationen.</seg></tuv></tu>
   <tu tuid="147361626"><prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-20</prop><tuv xml:lang="en"><seg>If you leave the IP address empty, discovery will be used to find devices.</seg></tuv><tuv xml:lang="sv"><seg>Om du lämnar IP-adressen tom används automatisk upptäckt för att hitta enheter.</seg></tuv></tu>
+  <tu tuid="147631545"><prop type="source">https://github.com/home-assistant/core/blob/dev/homeassistant/components</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-20</prop><tuv xml:lang="en"><seg>Input IP address with port and access token of Z-Way server. To get the token go to the Z-Way user interface Smart Home UI &gt; Menu &gt; Settings &gt; Users &gt; Administrator &gt; API token.
+
+Example of connecting to Z-Way running as an app:
+URL: {add_on_url}
+Token: {local_token}
+
+Example of connecting to Z-Way in the local network:
+URL: {local_url}
+Token: {local_token}
+
+Example of connecting to Z-Way via remote access find.z-wave.me:
+URL: {find_url}
+Token: {find_token}
+
+Example of connecting to Z-Way with a static public IP address:
+URL: {remote_url}
+Token: {local_token}
+
+When connecting via find.z-wave.me you need to use a token with a global scope (log in to Z-Way via find.z-wave.me for this).</seg></tuv><tuv xml:lang="sv"><seg>Ange IP-adress, port och åtkomsttoken för Z-Way-servern. För att hämta token går du till Z-Ways användargränssnitt: Smart Home UI &gt; Meny &gt; Inställningar &gt; Användare &gt; Administratör &gt; API-token.
+
+Exempel på anslutning till Z-Way som ett tillägg:
+URL: {add_on_url}
+Token: {local_token}
+
+Exempel på anslutning till Z-Way i det lokala nätverket:
+URL: {local_url}
+Token: {local_token}
+
+Exempel på anslutning till Z-Way via fjärråtkomst på find.z-wave.me:
+URL: {find_url}
+Token: {find_token}
+
+Exempel på anslutning till Z-Way med en statisk offentlig IP-adress:
+URL: {remote_url}
+Token: {local_token}
+
+När du ansluter via find.z-wave.me måste du använda en token med global räckvidd. Logga in på Z-Way via find.z-wave.me för att hämta en sådan token.</seg></tuv></tu>
 </body>
 </tmx>
