@@ -143,6 +143,24 @@ formats, and checks `stats.json`. After an intentional data update, regenerate
 counts with `python3 scripts/validate.py --write-stats`.
 GitHub Actions runs these checks on pushes and pull requests.
 
+### Home Assistant Core Lokalise provenance
+
+The checked-in Home Assistant Core canonical TMX is intentionally validated
+separately because it is a context-preserving Lokalise review ledger rather
+than a PO compendium. Check its XML structure, language variants, source
+provenance and review status with:
+
+```bash
+python3 scripts/validate_home_assistant_core_tmx.py \
+  Home-Assistant/sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx
+```
+
+Older entries can use their full source key as `tuid`; entries read back
+through the Lokalise API use `lokalise:<translation-id>`. The default command
+reports both styles. Once every older entry has been uniquely reconciled via
+the API, use `--require-lokalise-ids` as the migration gate. Do not replace a
+legacy key with an inferred ID.
+
 ## Sources and reuse
 
 The collection draws on GNOME, KDE, Mozilla, Ubuntu, Fedora, LibreOffice,
