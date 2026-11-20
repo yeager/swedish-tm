@@ -43,8 +43,11 @@ def validate(path: Path, *, require_lokalise_ids: bool = False) -> Counter:
         languages = {item.get("{http://www.w3.org/XML/1998/namespace}lang") for item in variants}
         if source is None or not source.text:
             raise ValueError(f"{tuid}: missing source provenance")
-        if status is None or status.text != "saved-and-read-back":
-            raise ValueError(f"{tuid}: expected saved-and-read-back status")
+        valid_statuses = {"saved-and-read-back", "verified-existing"}
+        if status is None or status.text not in valid_statuses:
+            raise ValueError(
+                f"{tuid}: expected one of {', '.join(sorted(valid_statuses))} statuses"
+            )
         if len(variants) != 2 or languages != {"en", "sv"}:
             raise ValueError(f"{tuid}: expected one en and one sv segment")
         if any(item.find("seg") is None for item in variants):
