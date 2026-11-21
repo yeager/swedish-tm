@@ -29,6 +29,18 @@ def api_get(url: str, token: str):
         return json.load(response), {key.lower(): value for key, value in response.headers.items()}
 
 
+def lokalise_token():
+    """Read the API token from the environment or the desktop secret store."""
+    token = os.environ.get("LOKALISE_TOKEN")
+    if token:
+        return token
+    try:
+        import keyring
+        return keyring.get_password("lokalise", "api_token")
+    except Exception:
+        return None
+
+
 def parse_variant(value: str):
     """Return ordered plural values, or a single nonempty string."""
     if not isinstance(value, str) or not value:
@@ -191,9 +203,9 @@ def main():
         parser.error("select at least one action")
     today = dt.date.today().isoformat()
     if args.fetch:
-        token = os.environ.get("LOKALISE_TOKEN")
+        token = lokalise_token()
         if not token:
-            parser.error("LOKALISE_TOKEN is required with --fetch")
+            parser.error("LOKALISE_TOKEN or the secure Lokalise keyring entry is required with --fetch")
         for component, (title, project_id) in PROJECTS.items():
             rows = fetch_component(component, title, project_id, token, today)
             write_snapshot(component, rows)

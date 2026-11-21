@@ -14,7 +14,9 @@ Varje PO-post har Lokalise-nyckel och engelsk respektive svensk översättnings-
 Kör den reproducerbara exporten med:
 
 ```sh
+# Antingen en tillfällig miljövariabel eller den säkra skrivbordsnyckelringen:
 export LOKALISE_TOKEN='…'
+# keyring.set_password("lokalise", "api_token", "…")
 python3 scripts/home_assistant_export.py --fetch --write --validate
 ```
 
