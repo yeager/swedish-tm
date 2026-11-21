@@ -18348,5 +18348,15 @@ Det finns ingen migreringsväg, därför måste du lägga till din Xiaomi Mijia 
 Din befintliga Xiaomi Mijia BLE temperatur- och luftfuktighetssensor YAML-konfiguration används inte längre av Home Assistant. Ta bort YAML-konfigurationen från filen configuration.yaml och starta om Home Assistant för att åtgärda problemet.</seg></tuv></tu>
 
 <tu tuid="lokalise:2823977569"><prop type="source">component::mutesync::entity::binary_sensor::muted::name</prop><prop type="lokalise-key-id">351741695</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">manual review; saved to Lokalise and read back</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-21</prop><tuv xml:lang="en"><seg>Muted</seg></tuv><tuv xml:lang="sv"><seg>Ljud av</seg></tuv></tu>
+
+<tu tuid="lokalise:5540961644"><prop type="source">component::network::issues::docker_host_network::description</prop><prop type="lokalise-key-id">630616341</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">manual review; saved to Lokalise and read back</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-21</prop><tuv xml:lang="en"><seg>Home Assistant is running in a container without host networking mode. This can cause networking issues with device discovery, multicast, broadcast, other network features, and incorrectly detecting its own URL and IP addresses, causing issues with media players and sending audio responses to voice assistants.
+
+It is recommended to run Home Assistant with host networking by adding the `--network host` flag to your Docker run command or setting `network_mode: host` in your `docker-compose.yml` file.
+
+See the [Docker documentation]({docs_url}) for more information about Docker host networking and refer to the [Home Assistant installation guide]({install_url}) for our recommended and supported setup.</seg></tuv><tuv xml:lang="sv"><seg>Home Assistant körs i en behållare utan värdnätverksläge. Detta kan orsaka nätverksproblem med enhetsupptäckt, multicast, broadcast och andra nätverksfunktioner. Det kan även leda till felaktig identifiering av egna URL- och IP-adresser samt problem med mediaspelare och när ljudsvar skickas till röstassistenter.
+
+Vi rekommenderar att köra Home Assistant med värdnätverk genom att lägga till flaggan `--network host` i ditt Docker run-kommando eller ställa in `network_mode: host` i filen `docker-compose.yml`.
+
+Se [Docker-dokumentationen]({docs_url}) för mer information om Dockers värdnätverk och [Home Assistant-installationsguiden]({install_url}) för rekommenderad och supportad konfiguration.</seg></tuv></tu>
 </body>
 </tmx>
