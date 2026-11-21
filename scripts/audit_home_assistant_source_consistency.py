@@ -11,8 +11,8 @@ from __future__ import annotations
 import argparse
 from collections import defaultdict
 import json
+import os
 from pathlib import Path
-import sys
 
 
 def main() -> int:
@@ -46,4 +46,4 @@ if __name__ == "__main__":
     except BrokenPipeError:
         # Normal when callers intentionally narrow the candidate list with
         # head, rg, or another downstream process that exits early.
-        sys.stdout.close()
+        os._exit(0)
