@@ -56,7 +56,7 @@ def append(canonical: Path, manifest: Path, *, write: bool) -> int:
         tuid = f"lokalise:{entry['translation_id']}"
         by_id = existing_ids.get(tuid)
         by_key = existing_keys.get(entry["key"])
-        if by_id or by_key:
+        if by_id is not None or by_key is not None:
             if by_id is None or by_key is None or by_id is not by_key:
                 raise ValueError(f"conflicting canonical entry: {entry['key']}")
             replacements.append((tuid, rendered_unit))
