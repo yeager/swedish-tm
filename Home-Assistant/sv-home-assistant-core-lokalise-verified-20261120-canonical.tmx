@@ -18714,5 +18714,26 @@ Du kan ange bindningsnyckeln själv, eller så kan Home Assistant importera den 
 <tu tuid="lokalise:8639552055"><prop type="source">component::yoto::exceptions::update_error::message</prop><prop type="lokalise-key-id">860524557</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-21</prop><tuv xml:lang="en"><seg>An error occurred while communicating with Yoto.</seg></tuv><tuv xml:lang="sv"><seg>Fel vid kommunikation med Yoto.</seg></tuv></tu>
 <tu tuid="lokalise:8705561373"><prop type="source">component::yoto::exceptions::play_failed::message</prop><prop type="lokalise-key-id">864252951</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-21</prop><tuv xml:lang="en"><seg>Failed to play Yoto media.</seg></tuv><tuv xml:lang="sv"><seg>Det gick inte att spela upp Yoto-mediefilen.</seg></tuv></tu>
 <tu tuid="lokalise:8834067836"><prop type="source">component::yoto::exceptions::config_update_failed::message</prop><prop type="lokalise-key-id">872976121</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-21</prop><tuv xml:lang="en"><seg>Failed to update Yoto player settings.</seg></tuv><tuv xml:lang="sv"><seg>Det gick inte att uppdatera inställningarna för Yoto-spelaren.</seg></tuv></tu>
+
+<tu tuid="lokalise:6567364169"><prop type="source">component::ntfy::issues::topic_protected::fix_flow::step::confirm::description</prop><prop type="lokalise-key-id">710026064</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-21</prop><tuv xml:lang="en"><seg>The topic **{topic}** on **{name}** is protected and requires authentication to subscribe.
+
+To resolve this issue, you have two options:
+
+1. **Reconfigure the ntfy integration**
+Add a username and password that has permission to access this topic.
+
+2. **Deactivate the event entity**
+This will stop Home Assistant from subscribing to the topic.
+Select **Submit** to deactivate the entity.</seg></tuv><tuv xml:lang="sv"><seg>Ämnet **{topic}** på **{name}** är skyddat och kräver autentisering för att prenumerera.
+
+För att lösa problemet har du två alternativ:
+
+1. **Konfigurera om ntfy-integrationen**
+Lägg till ett användarnamn och lösenord som har behörighet att komma åt detta ämne.
+
+2. **Inaktivera händelseentiteten**
+Detta hindrar Home Assistant från att prenumerera på ämnet.
+
+Tryck på **Bekräfta** för att inaktivera entiteten.</seg></tuv></tu>
 </body>
 </tmx>
