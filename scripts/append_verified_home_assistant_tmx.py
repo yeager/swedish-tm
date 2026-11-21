@@ -22,11 +22,15 @@ def unit(entry: dict[str, str]) -> str:
     optional = {"verification_method", "verified_date"}
     if not required.issubset(entry) or not set(entry).issubset(required | optional) or any(not entry[name] for name in required):
         raise ValueError("each entry must have non-empty key_id, key, translation_id, en and sv")
-    if not entry["translation_id"].isdigit() or not entry["key_id"].isdigit():
+    # JSON producers may emit these numeric Lokalise identifiers as JSON
+    # numbers; normalize before validating instead of rejecting valid input.
+    translation_id = str(entry["translation_id"])
+    key_id = str(entry["key_id"])
+    if not translation_id.isdigit() or not key_id.isdigit():
         raise ValueError(f"{entry['key']}: IDs must be decimal")
     properties = (
         ("source", entry["key"]),
-        ("lokalise-key-id", entry["key_id"]),
+        ("lokalise-key-id", key_id),
         ("lokalise-project-id", "130246255a974bd3b5e8a1.51616605"),
         ("verification-method", entry.get("verification_method", "Lokalise UI readback")),
         ("status", "saved-and-read-back"),
@@ -34,7 +38,7 @@ def unit(entry: dict[str, str]) -> str:
     )
     props = "".join(f'<prop type="{name}">{escape(value)}</prop>' for name, value in properties)
     return (
-        f'<tu tuid="lokalise:{entry["translation_id"]}">{props}'
+        f'<tu tuid="lokalise:{translation_id}">{props}'
         f'<tuv xml:lang="en"><seg>{escape(entry["en"])}</seg></tuv>'
         f'<tuv xml:lang="sv"><seg>{escape(entry["sv"])}</seg></tuv></tu>'
     )
