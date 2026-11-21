@@ -2,8 +2,9 @@
 """Append read-back Home Assistant Core translations to the canonical TMX.
 
 The input is a checked-in JSON list so that each memory addition is reviewable
-without reproducing a Lokalise session. This tool refuses duplicates by key or
-Lokalise translation ID and does not contact Lokalise.
+without reproducing a Lokalise session. It appends new entries and replaces an
+existing entry only when both its key and Lokalise translation ID match. It
+does not contact Lokalise.
 """
 
 from __future__ import annotations

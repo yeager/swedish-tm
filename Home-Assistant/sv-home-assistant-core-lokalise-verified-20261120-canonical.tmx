@@ -18350,5 +18350,15 @@ Vi rekommenderar att köra Home Assistant med värdnätverk genom att lägga til
 Se [Docker-dokumentationen]({docs_url}) för mer information om Dockers värdnätverk och [Home Assistant-installationsguiden]({install_url}) för rekommenderad och supportad konfiguration.</seg></tuv></tu>
 
 <tu tuid="lokalise:2807677989"><prop type="source">component::nissan_leaf::services::update::fields::vin::description</prop><prop type="lokalise-key-id">349140911</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">manual review; saved to Lokalise and read back</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-21</prop><tuv xml:lang="en"><seg>The vehicle identification number (VIN) of the vehicle, 17 characters.</seg></tuv><tuv xml:lang="sv"><seg>Fordonets 17 tecken långa identifieringsnummer (VIN).</seg></tuv></tu>
+
+<tu tuid="lokalise:1564465011"><prop type="source">component::uscis::issues::pending_removal::description</prop><prop type="lokalise-key-id">198161647</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-21</prop><tuv xml:lang="en"><seg>The U.S. Citizenship and Immigration Services (USCIS) integration is pending removal from Home Assistant and will no longer be available as of Home Assistant 2022.10.
+
+The integration is being removed, because it relies on webscraping, which is not allowed.
+
+Remove the YAML configuration from your configuration.yaml file and restart Home Assistant to fix this issue.</seg></tuv><tuv xml:lang="sv"><seg>Integrationen för U.S. Citizenship and Immigration Services (USCIS) är på väg att tas bort från Home Assistant och kommer inte längre att vara tillgänglig från och med Home Assistant 2022.10.
+
+Integrationen tas bort eftersom den använder webbskrapning, vilket inte är tillåtet.
+
+Ta bort YAML-konfigurationen från filen configuration.yaml och starta om Home Assistant för att åtgärda problemet.</seg></tuv></tu>
 </body>
 </tmx>
