@@ -198,24 +198,32 @@ def main():
     parser.add_argument("--fetch", action="store_true", help="Fetch all nonarchived Home Assistant keys from Lokalise.")
     parser.add_argument("--write", action="store_true", help="Generate PO and TMX files from snapshots.")
     parser.add_argument("--validate", action="store_true", help="Validate snapshots against PO and TMX outputs.")
+    parser.add_argument(
+        "--component",
+        choices=tuple(PROJECTS),
+        action="append",
+        help="Limit the operation to a component; may be supplied more than once.",
+    )
     args = parser.parse_args()
     if not (args.fetch or args.write or args.validate):
         parser.error("select at least one action")
+    components = args.component or tuple(PROJECTS)
     today = dt.date.today().isoformat()
     if args.fetch:
         token = lokalise_token()
         if not token:
             parser.error("LOKALISE_TOKEN or the secure Lokalise keyring entry is required with --fetch")
-        for component, (title, project_id) in PROJECTS.items():
+        for component in components:
+            title, project_id = PROJECTS[component]
             rows = fetch_component(component, title, project_id, token, today)
             write_snapshot(component, rows)
             print(component, "fetched", len(rows))
     result = {}
     if args.write:
-        for component in PROJECTS:
+        for component in components:
             result[component] = write_component(component, load_snapshot(component))
     if args.validate:
-        for component in PROJECTS:
+        for component in components:
             result[component] = validate_component(component)
     if result:
         print(json.dumps(result, ensure_ascii=False, indent=2))

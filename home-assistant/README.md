@@ -18,6 +18,9 @@ Kör den reproducerbara exporten med:
 export LOKALISE_TOKEN='…'
 # keyring.set_password("lokalise", "api_token", "…")
 python3 scripts/home_assistant_export.py --fetch --write --validate
+
+# Vid löpande Core-granskning kan enbart Core hämtas och valideras:
+python3 scripts/home_assistant_export.py --component core --fetch --write --validate
 ```
 
 `glossary-sv.json` innehåller den svenska Home Assistant-terminologi som ska vara gemensam för core, frontend, iOS och Android. Den bygger på den befintliga projektordlistan och de granskade svenska beslut som används i de aktuella komponenterna.
