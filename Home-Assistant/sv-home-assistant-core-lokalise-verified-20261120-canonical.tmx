@@ -3566,17 +3566,7 @@
         <seg>Startar fordonets laddning. Fordonet måste först anslutas.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:2807677749">
-      <prop type="source">component::nissan_leaf::services::start_charge::fields::vin::description</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-20</prop>
-      <tuv xml:lang="en">
-        <seg>The vehicle identification number (VIN) of the vehicle, 17 characters.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Fordonets 17-siffriga identifieringsnummer (VIN).</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:2807677749"><prop type="source">component::nissan_leaf::services::start_charge::fields::vin::description</prop><prop type="lokalise-key-id">349140907</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">manual review; saved to Lokalise and read back</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-21</prop><tuv xml:lang="en"><seg>The vehicle identification number (VIN) of the vehicle, 17 characters.</seg></tuv><tuv xml:lang="sv"><seg>Fordonets 17 tecken långa identifieringsnummer (VIN).</seg></tuv></tu>
     <tu tuid="lokalise:2807678229">
       <prop type="source">component::nuki::services::lock_n_go::fields::unlatch::description</prop>
       <prop type="status">saved-and-read-back</prop>
@@ -18358,5 +18348,7 @@ See the [Docker documentation]({docs_url}) for more information about Docker hos
 Vi rekommenderar att köra Home Assistant med värdnätverk genom att lägga till flaggan `--network host` i ditt Docker run-kommando eller ställa in `network_mode: host` i filen `docker-compose.yml`.
 
 Se [Docker-dokumentationen]({docs_url}) för mer information om Dockers värdnätverk och [Home Assistant-installationsguiden]({install_url}) för rekommenderad och supportad konfiguration.</seg></tuv></tu>
+
+<tu tuid="lokalise:2807677989"><prop type="source">component::nissan_leaf::services::update::fields::vin::description</prop><prop type="lokalise-key-id">349140911</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">manual review; saved to Lokalise and read back</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-21</prop><tuv xml:lang="en"><seg>The vehicle identification number (VIN) of the vehicle, 17 characters.</seg></tuv><tuv xml:lang="sv"><seg>Fordonets 17 tecken långa identifieringsnummer (VIN).</seg></tuv></tu>
 </body>
 </tmx>

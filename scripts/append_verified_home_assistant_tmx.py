@@ -12,6 +12,7 @@ import argparse
 from html import escape
 import json
 from pathlib import Path
+import re
 from xml.etree import ElementTree as ET
 
 
@@ -43,26 +44,39 @@ def append(canonical: Path, manifest: Path, *, write: bool) -> int:
     body = root.find("body")
     if root.tag != "tmx" or body is None:
         raise ValueError("expected TMX with body")
-    existing_ids = {item.get("tuid") for item in body.findall("tu")}
-    existing_keys = {item.findtext("prop[@type='source']") for item in body.findall("tu")}
+    existing_ids = {item.get("tuid"): item for item in body.findall("tu")}
+    existing_keys = {item.findtext("prop[@type='source']"): item for item in body.findall("tu")}
     entries = json.loads(manifest.read_text(encoding="utf-8"))
     if not isinstance(entries, list):
         raise ValueError("manifest must contain a JSON list")
     rendered = []
+    replacements = []
     for entry in entries:
         rendered_unit = unit(entry)
         tuid = f"lokalise:{entry['translation_id']}"
-        if tuid in existing_ids or entry["key"] in existing_keys:
-            raise ValueError(f"duplicate canonical entry: {entry['key']}")
-        rendered.append(rendered_unit)
+        by_id = existing_ids.get(tuid)
+        by_key = existing_keys.get(entry["key"])
+        if by_id or by_key:
+            if by_id is None or by_key is None or by_id is not by_key:
+                raise ValueError(f"conflicting canonical entry: {entry['key']}")
+            replacements.append((tuid, rendered_unit))
+        else:
+            rendered.append(rendered_unit)
     if write:
         data = canonical.read_bytes()
+        for tuid, rendered_unit in replacements:
+            pattern = rb'<tu tuid="' + re.escape(tuid.encode()) + rb'">.*?</tu>'
+            data, count = re.subn(pattern, rendered_unit.encode(), data, count=1, flags=re.DOTALL)
+            if count != 1:
+                raise ValueError(f"could not replace canonical entry: {tuid}")
         marker = b"</body>"
         index = data.rfind(marker)
         if index < 0:
             raise ValueError("missing closing TMX body")
-        canonical.write_bytes(data[:index] + ("\n" + "\n".join(rendered) + "\n").encode() + data[index:])
-    return len(rendered)
+        if rendered:
+            data = data[:index] + ("\n" + "\n".join(rendered) + "\n").encode() + data[index:]
+        canonical.write_bytes(data)
+    return len(rendered) + len(replacements)
 
 
 def main() -> int:
