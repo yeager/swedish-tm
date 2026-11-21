@@ -12,6 +12,7 @@ import argparse
 from collections import defaultdict
 import json
 from pathlib import Path
+import sys
 
 
 def main() -> int:
@@ -40,4 +41,9 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        raise SystemExit(main())
+    except BrokenPipeError:
+        # Normal when callers intentionally narrow the candidate list with
+        # head, rg, or another downstream process that exits early.
+        sys.stdout.close()
