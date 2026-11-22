@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 81328
+# Entries: 81435
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -332653,3 +332653,547 @@ msgstr "Filen har en rad som är för lång."
 #. from gnome:reviewed/gtksourceview/master
 msgid "File has too many lines."
 msgstr "Filen har för många rader."
+
+#. from gnome:reviewed/pipewire/master
+msgid ""
+"%s [options]\n"
+"  -h, --help                            Show this help\n"
+"  -v, --verbose                         Increase verbosity by one level\n"
+"      --version                         Show version\n"
+"  -c, --config                          Load config (Default %s)\n"
+"  -P  --properties                      Set context properties\n"
+msgstr ""
+"%s [flaggor]\n"
+"  -h, --help                            Visa denna hjälp\n"
+"  -v, --verbose                         Öka utförligheten en nivå\n"
+"      --version                         Visa version\n"
+"  -c, --config                          Läs in konfig (standard %s)\n"
+"  -P  --properties                      Ställ in kontextegenskaper\n"
+
+#. from gnome:reviewed/pipewire/master
+msgid "PipeWire Media System"
+msgstr "PipeWire mediasystem"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Start the PipeWire Media System"
+msgstr "Starta mediasystemet PipeWire"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Tunnel to %s%s%s"
+msgstr "Tunnel till %s%s%s"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Dummy Output"
+msgstr "Attrapputgång"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Tunnel for %s@%s"
+msgstr "Tunnel för %s@%s"
+
+#. from gnome:reviewed/pipewire/master
+msgid "%s on %s@%s"
+msgstr "%s på %s@%s"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Supported formats:\n"
+msgstr "Format som stöds:\n"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Supported channel layouts:\n"
+msgstr "Kanallayouter som stöds:\n"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Supported channel layout aliases:\n"
+msgstr "Kanallayoutalias som stöds:\n"
+
+#. from gnome:reviewed/pipewire/master
+msgid "    %s -> %s\n"
+msgstr "    %s -> %s\n"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Supported channel names:\n"
+msgstr "Kanalnamn som stöds:\n"
+
+#. from gnome:reviewed/pipewire/master
+msgid ""
+"%s [options] [<file>|-]\n"
+"  -h, --help                            Show this help\n"
+"      --version                         Show version\n"
+"  -v, --verbose                         Enable verbose operations\n"
+"\n"
+msgstr ""
+"%s [flaggor] [<fil>|-]\n"
+"  -h, --help                            Visa denna hjälp\n"
+"      --version                         Visa version\n"
+"  -v, --verbose                         Aktivera utförliga operationer\n"
+"\n"
+
+#. from gnome:reviewed/pipewire/master
+msgid ""
+"  -R, --remote                          Remote daemon name\n"
+"      --media-type                      Set media type (default %s)\n"
+"      --media-category                  Set media category (default %s)\n"
+"      --media-role                      Set media role (default %s)\n"
+"      --target                          Set node target serial or name (default %s)\n"
+"                                          0 means don't link\n"
+"  -C  --monitor                         Capture monitor ports (in recording mode)\n"
+"      --latency                         Set node latency (default %s)\n"
+"                                          Xunit (unit = s, ms, us, ns)\n"
+"                                          or direct samples (256)\n"
+"                                          the rate is the one of the source file\n"
+"  -P  --properties                      Set node properties\n"
+"\n"
+msgstr ""
+"  -R, --remote                          Fjärrdemonnamn\n"
+"      --media-type                      Sätt mediatyp (standard %s)\n"
+"      --media-category                  Sätt mediakategori (standard %s)\n"
+"      --media-role                      Sätt mediaroll (standard %s)\n"
+"      --target                          Sätt nodmåls serienummer eller namn\n"
+"                                          (standard %s), 0 betyder länka inte\n"
+"  -C  --monitor                         Fånga bildskärmsportar (i inspelningsläge)\n"
+"      --latency                         Sätt nodlatens (standard %s)\n"
+"                                          Xenhet (enhet = s, ms, us, ns)\n"
+"                                          eller direkta samplar (256)\n"
+"                                          hastigheten är källfilens\n"
+"  -P  --properties                      Sätt nodegenskaper\n"
+"\n"
+
+#. from gnome:reviewed/pipewire/master
+msgid ""
+"      --rate                            Sample rate (default %u)\n"
+"      --channels                        Number of channels (default %u)\n"
+"      --channel-map                     Channel map\n"
+"                                            a channel layout: \"Stereo\", \"5.1\",... or\n"
+"                                            comma separated list of channel names: eg. \"FL,FR\"\n"
+"      --list-layouts                    List supported channel layouts\n"
+"      --list-channel-names              List supported channel maps\n"
+"      --format                          Sample format (default %s)\n"
+"      --list-formats                    List supported sample formats\n"
+"      --container                       Container format\n"
+"      --list-containers                 List supported containers and extensions\n"
+"      --volume                          Stream volume 0-1.0 (default %.3f)\n"
+"  -q  --quality                         Resampler quality (0 - 15) (default %d)\n"
+"  -a, --raw                             RAW mode\n"
+"  -M, --force-midi                      Force midi format, one of \"none\", \"midi\" or \"ump\", (default none)\n"
+"  -n, --sample-count COUNT              Stop after COUNT samples\n"
+"\n"
+msgstr ""
+"      --rate                            Samplingsfrekvens (standard %u)\n"
+"      --channels                        Antal kanaler (standard %u)\n"
+"      --channel-map                     Kanalmappning\n"
+"                                            en kanallayout: \"Stereo\", \"5.1\",... eller\n"
+"                                            kommaseparerad lista av kanalnamn: t.ex. \"FL,FR\"\n"
+"      --list-layouts                    Lista kanallayouter som stöds\n"
+"      --list-channel-names              Lista kanalmappningar som stöds\n"
+"      --format                          Samplingsformat (standard %s)\n"
+"      --list-formats                    Lista samplingsformat som stöds\n"
+"      --container                       Behållarformat\n"
+"      --list-containers                 Lista behållare och tillägg som stöds\n"
+"      --volume                          Strömvolym 0-1.0 (standard %.3f)\n"
+"  -q  --quality                         Omsamplarkvalitet (0 - 15) (standard %d)\n"
+"  -a, --raw                             RAW-läge\n"
+"  -M, --force-midi                      Tvinga midi-format, en av \"none\", \"midi\" eller \"ump\", (standard none)\n"
+"  -n, --sample-count ANTAL              Stoppa efter ANTAL samplar\n"
+"\n"
+
+#. from gnome:reviewed/pipewire/master
+msgid ""
+"  -p, --playback                        Playback mode\n"
+"  -r, --record                          Recording mode\n"
+"  -m, --midi                            Midi mode\n"
+"  -d, --dsd                             DSD mode\n"
+"  -o, --encoded                         Encoded mode\n"
+"  -s, --sysex                           SysEx mode\n"
+"  -c, --midi-clip                       MIDI clip mode\n"
+"\n"
+msgstr ""
+"  -p, --playback                        Uppspelningsläge\n"
+"  -r, --record                          Inspelningsläge\n"
+"  -m, --midi                            Midiläge\n"
+"  -d, --dsd                             DSD-läge\n"
+"  -o, --encoded                         Kodat läge\n"
+"  -s, --sysex                           SysEx-läge\n"
+"  -c, --midi-clip                       MIDI-klippläge\n"
+"\n"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Supported containers and extensions:\n"
+msgstr "Behållare och tillägg som stöds:\n"
+
+#. from gnome:reviewed/pipewire/master
+msgid ""
+"%s [options] [command]\n"
+"  -h, --help                            Show this help\n"
+"      --version                         Show version\n"
+"  -d, --daemon                          Start as daemon (Default false)\n"
+"  -r, --remote                          Remote daemon name\n"
+"  -m, --monitor                         Monitor activity\n"
+"\n"
+msgstr ""
+"%s [flaggor] [kommando]\n"
+"  -h, --help                            Visa denna hjälp\n"
+"      --version                         Show version\n"
+"  -d, --daemon                          Starta som demon (standard false)\n"
+"  -r, --remote                          Fjärrdemonnamn\n"
+"  -m, --monitor                         Övervaka aktivitet\n"
+"\n"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Pro Audio"
+msgstr "Professionellt ljud"
+
+#. from gnome:reviewed/pipewire/master
+msgid "%s [ALSA UCM error]"
+msgstr "%s [ALSA UCM-fel]"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Docking Station Input"
+msgstr "Ingång för dockningsstation"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Docking Station Microphone"
+msgstr "Mikrofon för dockningsstation"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Docking Station Line In"
+msgstr "Linje in för dockningsstation"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Line In"
+msgstr "Linje in"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Front Microphone"
+msgstr "Frontmikrofon"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Rear Microphone"
+msgstr "Bakre mikrofon"
+
+#. from gnome:reviewed/pipewire/master
+msgid "External Microphone"
+msgstr "Extern mikrofon"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Internal Microphone"
+msgstr "Intern mikrofon"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Automatic Gain Control"
+msgstr "Automatisk förstärkningskontroll"
+
+#. from gnome:reviewed/pipewire/master
+msgid "No Automatic Gain Control"
+msgstr "Ingen automatisk förstärkningskontroll"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Boost"
+msgstr "Ökning"
+
+#. from gnome:reviewed/pipewire/master
+msgid "No Boost"
+msgstr "Ingen ökning"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Amplifier"
+msgstr "Förstärkare"
+
+#. from gnome:reviewed/pipewire/master
+msgid "No Amplifier"
+msgstr "Ingen förstärkare"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Bass Boost"
+msgstr "Basökning"
+
+#. from gnome:reviewed/pipewire/master
+msgid "No Bass Boost"
+msgstr "Ingen basökning"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Input"
+msgstr "Analog ingång"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Dock Microphone"
+msgstr "Dockmikrofon"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Headset Microphone"
+msgstr "Headset-mikrofon"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Output"
+msgstr "Analog utgång"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Headphones 2"
+msgstr "Hörlurar 2"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Headphones Mono Output"
+msgstr "Monoutgång för hörlurar"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Line Out"
+msgstr "Linje ut"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Mono Output"
+msgstr "Analog monoutgång"
+
+#. from gnome:reviewed/pipewire/master
+msgid "HDMI / DisplayPort"
+msgstr "HDMI / DisplayPort"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Digital Output (S/PDIF)"
+msgstr "Digital utgång (S/PDIF)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Digital Input (S/PDIF)"
+msgstr "Digital ingång (S/PDIF)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Multichannel Input"
+msgstr "Multikanalingång"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Multichannel Output"
+msgstr "Multikanalutgång"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Game Output"
+msgstr "Spelutgång"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Chat Output"
+msgstr "Chatt-utgång"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Chat Input"
+msgstr "Chatt-ingång"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Virtual Surround 7.1"
+msgstr "Virtual surround 7.1"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Mono"
+msgstr "Analog mono"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Mono (Left)"
+msgstr "Analog mono (vänster)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Mono (Right)"
+msgstr "Analog mono (höger)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Stereo"
+msgstr "Analog stereo"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Speakerphone"
+msgstr "Högtalartelefon"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Multichannel"
+msgstr "Multikanal"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Surround 2.1"
+msgstr "Analog surround 2.1"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Surround 3.0"
+msgstr "Analog surround 3.0"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Surround 3.1"
+msgstr "Analog surround 3.1"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Surround 4.0"
+msgstr "Analog surround 4.0"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Surround 4.1"
+msgstr "Analog surround 4.1"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Surround 5.0"
+msgstr "Analog surround 5.0"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Surround 5.1"
+msgstr "Analog surround 5.1"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Surround 6.0"
+msgstr "Analog surround 6.0"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Surround 6.1"
+msgstr "Analog surround 6.1"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Surround 7.0"
+msgstr "Analog surround 7.0"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Surround 7.1"
+msgstr "Analog surround 7.1"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Digital Stereo (IEC958)"
+msgstr "Digital stereo (IEC958)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Digital Surround 4.0 (IEC958/AC3)"
+msgstr "Digital surround 4.0 (IEC958/AC3)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Digital Surround 5.1 (IEC958/AC3)"
+msgstr "Digital surround 5.1 (IEC958/AC3)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Digital Surround 5.1 (IEC958/DTS)"
+msgstr "Digital surround 5.1 (IEC958/DTS)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Digital Stereo (HDMI)"
+msgstr "Digital stereo (HDMI)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Digital Surround 5.1 (HDMI)"
+msgstr "Digital surround 5.1 (HDMI)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Mono Duplex"
+msgstr "Analog mono duplex"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Analog Stereo Duplex"
+msgstr "Analog stereo duplex"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Digital Stereo Duplex (IEC958)"
+msgstr "Digital stereo duplex (IEC958)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Multichannel Duplex"
+msgstr "Multikanalduplex"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Stereo Duplex"
+msgstr "Stereo duplex"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Mono Chat + 7.1 Surround"
+msgstr "Mono Chatt + 7.1 Surround"
+
+#. from gnome:reviewed/pipewire/master
+msgid "%s Output"
+msgstr "%s-utgång"
+
+#. from gnome:reviewed/pipewire/master
+msgid "%s Input"
+msgstr "%s-ingång"
+
+#. from gnome:reviewed/pipewire/master
+msgid ""
+"snd_pcm_avail_delay() returned strange values: delay %lu is less than avail %lu.\n"
+"Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers."
+msgstr ""
+"snd_pcm_avail_delay() returnerade konstiga värden: fördröjningen %lu är mindre än tillgängliga %lu.\n"
+"Förmodligen är detta ett fel i ALSA-drivrutinen ”%s”. Vänligen rapportera problemet till ALSA-utvecklarna."
+
+#. from gnome:reviewed/pipewire/master
+msgid "(invalid)"
+msgstr "(ogiltig)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Built-in Audio"
+msgstr "Inbyggt ljud"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Audio Gateway (A2DP Source & HSP/HFP AG)"
+msgstr "Audio gateway (A2DP-källa & HSP/HFP AG)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Audio Streaming for Hearing Aids (ASHA Sink)"
+msgstr "Ljudströmning för hörhjälpmedel (ASHA-utgång)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "High Fidelity Playback (A2DP Sink, codec %s)"
+msgstr "High fidelity-uppspelning (A2DP-utgång, kodek %s)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "High Fidelity Duplex (A2DP Source/Sink, codec %s)"
+msgstr "High fidelity duplex (A2DP-källa/utgång, kodek %s)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "High Fidelity Playback (A2DP Sink)"
+msgstr "High fidelity-uppspelning (A2DP-utgång)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "High Fidelity Duplex (A2DP Source/Sink)"
+msgstr "High fidelity duplex (A2DP-källa/utgång)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Auto: Prefer Quality (A2DP)"
+msgstr "Auto: Föredra kvalitet (A2DP)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Auto: Prefer Latency (A2DP)"
+msgstr "Auto: Föredra låg fördröjning (A2DP)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "High Fidelity Playback (BAP Sink, codec %s)"
+msgstr "High fidelity-uppspelning (BAP-utgång, kodek %s)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "High Fidelity Input (BAP Source, codec %s)"
+msgstr "High fidelity-ingång (BAP-källa, kodek %s)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "High Fidelity Duplex (BAP Source/Sink, codec %s)"
+msgstr "High fidelity duplex (BAP-källa/utgång, kodek %s)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "High Fidelity Playback (BAP Sink)"
+msgstr "High fidelity-uppspelning (BAP-utgång)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "High Fidelity Input (BAP Source)"
+msgstr "High fidelity-ingång (BAP-källa)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "High Fidelity Duplex (BAP Source/Sink)"
+msgstr "High fidelity duplex (BAP-källa/utgång)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Headset Head Unit (HSP/HFP, codec %s)"
+msgstr "Headset-huvudenhet (HSP/HFP, kodek %s)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Handsfree"
+msgstr "Handsfree"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Handsfree (HFP)"
+msgstr "Handsfree (HFP)"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Portable"
+msgstr "Bärbar"
+
+#. from gnome:reviewed/pipewire/master
+msgid "HiFi"
+msgstr "HiFi"
+
+#. from gnome:reviewed/pipewire/master
+msgid "Bluetooth Handsfree"
+msgstr "Bluetooth-handsfree"
