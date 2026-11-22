@@ -19190,5 +19190,41 @@ En ogiltig API-nyckel hittades när din konfiguration importerades. Uppdatera di
 <tu tuid="lokalise:8287370434"><prop type="source">component::fumis::entity::sensor::fan_2_speed::name</prop><prop type="lokalise-key-id">838026683</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>Fan 2 speed</seg></tuv><tuv xml:lang="sv"><seg>Fläkt 2-hastighet</seg></tuv></tu>
 <tu tuid="lokalise:9509693318"><prop type="source">component::midea::entity::select::detect_mode::state::pm_25</prop><prop type="lokalise-key-id">918180311</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>PM2.5</seg></tuv><tuv xml:lang="sv"><seg>PM2,5</seg></tuv></tu>
 <tu tuid="lokalise:9918018598"><prop type="source">component::litellm::config_subentries::stt::initiate_flow::user</prop><prop type="lokalise-key-id">947803220</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>Add speech-to-text service</seg></tuv><tuv xml:lang="sv"><seg>Lägg till tjänst för tal-till-text</seg></tuv></tu>
+
+<tu tuid="lokalise:5780820117"><prop type="source">component::smartthings::issues::deprecated_switch_dhw::description</prop><prop type="lokalise-key-id">649405306</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>The switch `{entity_id}` is deprecated and a water heater entity has been added to replace it.
+
+Please update your dashboards and templates accordingly and disable the switch to fix this issue.</seg></tuv><tuv xml:lang="sv"><seg>Brytaren `{entity_id}` är utfasad och en värmepumpsentitet har lagts till för att ersätta den.
+
+Uppdatera dina kontrollpaneler och mallar så de använder den nya värmepumpsentiteten och inaktivera brytaren för att åtgärda problemet.</seg></tuv></tu>
+<tu tuid="lokalise:5780820245"><prop type="source">component::smartthings::issues::deprecated_switch_dhw_scripts::description</prop><prop type="lokalise-key-id">649405308</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>The switch `{entity_id}` is deprecated and a water heater entity has been added to replace it.
+
+The switch was used in the following automations or scripts:
+{items}
+
+Please use the new water heater entity in the above automations or scripts and disable the switch to fix this issue.</seg></tuv><tuv xml:lang="sv"><seg>Brytaren `{entity_id}` är utfasad och en varmvattenberedarentitet har lagts till för att ersätta den.
+
+Brytaren användes i följande automatiseringar eller skript:
+{items}
+
+Uppdatera ovanstående automatiseringar eller skript så de använder den nya varmvattenberedarentiteten och inaktivera brytaren för att åtgärda problemet.</seg></tuv></tu>
+<tu tuid="lokalise:5784886543"><prop type="source">component::smartthings::issues::deprecated_dhw::description</prop><prop type="lokalise-key-id">649885149</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>The sensor {entity_name} (`{entity_id}`) is deprecated because it has been replaced with a water heater entity.
+
+Please update your dashboards and templates to use the new water heater entity and disable the sensor to fix this issue.</seg></tuv><tuv xml:lang="sv"><seg>Sensorn {entity_name} (`{entity_id}`) är utfasad eftersom den har ersatts med en varmvattenberedarentitet.
+
+Uppdatera dina kontrollpaneler och mallar så de använder den nya varmvattenberedarentiteten och inaktivera sensorn för att åtgärda problemet.</seg></tuv></tu>
+<tu tuid="lokalise:5784886671"><prop type="source">component::smartthings::issues::deprecated_dhw_scripts::description</prop><prop type="lokalise-key-id">649885151</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>The sensor {entity_name} (`{entity_id}`) is deprecated because it has been replaced with a water heater entity.
+
+The sensor was used in the following automations or scripts:
+{items}
+
+Please update the above automations or scripts to use the new water heater entity and disable the sensor to fix this issue.</seg></tuv><tuv xml:lang="sv"><seg>Sensorn {entity_name} (`{entity_id}`) är utfasad eftersom den har ersatts med en varmvattenberedarentitet.
+
+Sensorn användes i följande automatiseringar eller skript:
+{items}
+
+Uppdatera ovanstående automatiseringar eller skript så de använder den nya varmvattenberedarentiteten och inaktivera sensorn för att åtgärda problemet.</seg></tuv></tu>
+<tu tuid="lokalise:6009575132"><prop type="source">component::ntfy::config::step::reconfigure::data_description::token</prop><prop type="lokalise-key-id">668350606</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>Enter a new or existing access token. To create a new access token navigate to Account → Access tokens and select &#x27;Create access token&#x27;</seg></tuv><tuv xml:lang="sv"><seg>Ange en ny eller befintlig åtkomsttoken. För att skapa en ny åtkomsttoken navigerar du till Konto → Åtkomsttoken och väljer ”Skapa åtkomsttoken”.</seg></tuv></tu>
+<tu tuid="lokalise:6009575580"><prop type="source">component::ntfy::config::step::reconfigure_user::data_description::token</prop><prop type="lokalise-key-id">668350613</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>Enter a new or existing access token. To create a new access token navigate to Account → Access tokens and select &#x27;Create access token&#x27;</seg></tuv><tuv xml:lang="sv"><seg>Ange en ny eller befintlig åtkomsttoken. För att skapa en ny åtkomsttoken navigerar du till Konto → Åtkomsttoken och väljer ”Skapa åtkomsttoken”.</seg></tuv></tu>
+<tu tuid="lokalise:6631472709"><prop type="source">component::google_generative_ai_conversation::issues::deprecated_generate_content::title</prop><prop type="lokalise-key-id">714195267</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT followed by GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>Deprecated &#x27;generate_content&#x27; action</seg></tuv><tuv xml:lang="sv"><seg>Föråldrad åtgärd ”generate_content”</seg></tuv></tu>
 </body>
 </tmx>
