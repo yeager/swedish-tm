@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 80244
+# Entries: 81302
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -326929,3 +326929,5596 @@ msgstr "fast"
 msgctxt "textattr"
 msgid "spelling"
 msgstr "stavning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You are not allowed to trigger a refresh on this branch. You do not have the"
+" required permissions. You need to be a site admin, a team coordinator, or a"
+" maintainer of the module."
+msgstr ""
+"Du får inte utlösa en uppdatering på denna gren. Du har inte rättigheterna "
+"som krävs. Du behöver vara en webbplatsadministratör, gruppkoordinator eller"
+" en av de ansvariga för modulen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "A refresh is already in progress."
+msgstr "En uppdatering pågår redan."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Refresh started."
+msgstr "Uppdatering startad."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Git repository %s is not valid. Calling ‘git-status’ failed."
+msgstr "Git-arkivet %s är inte giltigt. Anrop av ”git-status” misslyckades."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Git repository at %(name)s could not be cloned. %(command_error)s"
+msgstr "Git-arkivet på %(name)s kunde inte klonas. %(command_error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Git repository %(name)s could not be fetched: %(command_error)s"
+msgstr "Git-arkivet %(name)s kunde inte hämtas: %(command_error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Git repository %(name)s could not be updated: %(command_error)s"
+msgstr "Git-arkivet %(name)s kunde inte uppdateras: %(command_error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Git repository %(name)s could not checkout to feature branch: "
+"%(command_error)s"
+msgstr ""
+"Git-arkivet %(name)s kunde inte checka ut till funktionsgren: "
+"%(command_error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Git repository %(name)s could not create feature branch: %(command_error)s"
+msgstr ""
+"Git-arkivet %(name)s kunde inte skapa funktionsgren: %(command_error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Git branch ‘%(name)s’ could not be renamed in repository: %(command_error)s"
+msgstr ""
+"Kunde inte byta namn på git-grenen ”%(name)s” i arkivet: %(command_error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Git repository could not be removed due to insufficient rights on the "
+"filesystem."
+msgstr ""
+"Git-arkiv kunde inte tas bort på grund av otillräckliga rättigheter på "
+"filsystemet."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Git branch ‘%(name)s’ could not be removed from repository: "
+"%(command_error)s"
+msgstr ""
+"Kunde inte ta bort git-grenen ”%(name)s” från arkivet: %(command_error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Git repository %(name)s could not create a worktree for branch ‘%(branch)s’:"
+" %(command_error)s"
+msgstr ""
+"Git-arkivet %(name)s kunde inte skapa ett arbetsträd för grenen "
+"”%(branch)s”: %(command_error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Git repository %(name)s could not be committed: %(command_error)s"
+msgstr "Kunde inte checka in på Git-arkivet %(name)s: %(command_error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Git repository %(name)s could not cherry-pick commit ‘%(hash)s’: "
+"%(command_error)s"
+msgstr ""
+"Git-arkivet %(name)s kunde inte köra ”cherry-pick” på incheckningen "
+"”%(hash)s”: %(command_error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Git remote branches could not be listed for %(url)s: %(command_error)s"
+msgstr "Git-fjärrgrenar kunde inte listas för %(url)s: %(command_error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Git repository %(name)s could not be pushed: %(command_error)s. The branch "
+"seems protected and Damned Lies is unable to push references to the "
+"repository. Ask the project maintenance team to update the protection for "
+"branches to allow Damned Lies to push commits."
+msgstr ""
+"Kunde inte köra ”push” på Git-arkivet %(name)s: %(command_error)s. Grenen "
+"verkar vara skyddad och Förbannade lögner kan inte skicka referenser till "
+"arkivet. Fråga projektets grupp för underhåll om att uppdatera skyddet för "
+"grenar för att låta Förbannade lögner skicka incheckningar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Git repository %(name)s could not be pushed because of an unknown error: "
+"%(command_error)s"
+msgstr ""
+"Kunde inte köra ”push” på Git-arkivet %(name)s på grund av ett okänt fel: "
+"%(command_error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Git repository %(name)s could not create a %(request_type)s: "
+"%(command_error)s"
+msgstr ""
+"Git-arkivet %(name)s kunde inte skapa en %(request_type)s: %(command_error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Git repository %(name)s could not push branch: %(command_error)s. The branch"
+" seems protected and Damned Lies is unable to push references to the "
+"repository. Ask the project maintenance team to update the protection for "
+"branches to allow Damned Lies to push commits."
+msgstr ""
+"Git-arkivet %(name)s kunde inte köra ”push” för gren: %(command_error)s. "
+"Grenen verkar vara skyddad och Förbannade lögner kan inte skicka referenser "
+"till arkivet. Fråga projektets grupp för underhåll om att uppdatera skyddet "
+"för grenar för att låta Förbannade lögner skicka incheckningar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Git repository %(name)s could not create a pull request: GitHub CLI (gh) is "
+"not installed. Please install it from https://cli.github.com/"
+msgstr ""
+"Git-arkivet %(name)s kunde inte skapa en pull-förfrågan: CLI för GitHub (gh)"
+" är inte installerat. Installera det från https://cli.github.com/"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Git repository %(name)s could not create a pull request: A pull request "
+"already exists for this branch."
+msgstr ""
+"Git-arkivet %(name)s kunde inte skapa en pull-förfrågan: En pull-förfrågan "
+"finns redan för denna gren."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Friulian"
+msgstr "Friuliska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Abkhazian"
+msgstr "Abchaziska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Akan"
+msgstr "Akan"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Albanian"
+msgstr "Albanska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Amharic"
+msgstr "Amhariska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Aragonese"
+msgstr "Aragonska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Asturian"
+msgstr "Asturiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Australian English"
+msgstr "Australisk engelska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Azerbaijani"
+msgstr "Azerbajdzjanska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Balochi"
+msgstr "Baluchi"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Basque"
+msgstr "Baskiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Bemba"
+msgstr "Bemba"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Bengali (India)"
+msgstr "Bengali (Indien)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Bodo"
+msgstr "Bodo"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Bosnian"
+msgstr "Bosniska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Breton"
+msgstr "Bretonska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "British English"
+msgstr "Brittisk engelska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Burmese"
+msgstr "Burmesiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Canadian English"
+msgstr "Kanadensisk engelska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Central Kurdish"
+msgstr "Centralkurdiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Central Nahuatl"
+msgstr "Central-nahuatl"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Chinese (China)"
+msgstr "Kinesiska (Kina)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Cornish"
+msgstr "Korniska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Crimean Tatar"
+msgstr "Krimtatariska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Danish"
+msgstr "Danska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Divehi"
+msgstr "Divehi"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Dutch"
+msgstr "Nederländska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Dzongkha"
+msgstr "Dzongkha"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Faroese"
+msgstr "Färöiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Filipino"
+msgstr "Filipino"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "French"
+msgstr "Franska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Frisian"
+msgstr "Frisiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Fula"
+msgstr "Fula"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Galician"
+msgstr "Galiciska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "German"
+msgstr "Tyska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Guarani"
+msgstr "Guarani"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Haitian Creole"
+msgstr "Haitisk kreol"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Hausa"
+msgstr "Hausa"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Hungarian"
+msgstr "Ungerska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Ido"
+msgstr "Ido"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Indonesian"
+msgstr "Indonesiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Interlingua"
+msgstr "Interlingua"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Interlingue"
+msgstr "Interlingue"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Iranian Azerbaijani"
+msgstr "Iransk azerbajdzjanska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Irish"
+msgstr "Iriska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Kabyle"
+msgstr "Kabyliska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Karbi"
+msgstr "Karbi"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Kashmiri"
+msgstr "Kashmiri"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Kikongo"
+msgstr "Kikongo"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Kirghiz"
+msgstr "Kirgiziska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Limburgian"
+msgstr "Limburgiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Lingala"
+msgstr "Lingala"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Lithuanian"
+msgstr "Litauiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Low German"
+msgstr "Lågtyska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Maithili"
+msgstr "Maithili"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Malagasy"
+msgstr "Malagasy"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Manx"
+msgstr "Manx"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Mexican Spanish"
+msgstr "Spanska (Mexiko)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Neapolitan"
+msgstr "Neapolitanska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Northern Sotho"
+msgstr "Nord-Sotho"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Norwegian (Bokmål and Nynorsk)"
+msgstr "Norska (bokmål och nynorsk)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Occitan"
+msgstr "Occitanska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Old English"
+msgstr "Fornengelska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Ossetian"
+msgstr "Ossetiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Pashto"
+msgstr "Pashto"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Quechua"
+msgstr "Quechua"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Santali"
+msgstr "Santali"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Scottish Gaelic"
+msgstr "Skotsk gäliska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Silesian"
+msgstr "Schlesiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Somali"
+msgstr "Somaliska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Swahili"
+msgstr "Swahili"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Swedish"
+msgstr "Svenska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Swiss German"
+msgstr "Schweizertyska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Tajik"
+msgstr "Tadzjikiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Tsonga"
+msgstr "Tsonga"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Tswana"
+msgstr "Tswana"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Turkmen"
+msgstr "Turkmeniska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Uighur"
+msgstr "Uiguriska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Urdu"
+msgstr "Urdu"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Walloon"
+msgstr "Vallonska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Wayuu"
+msgstr "Wayuu"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Welsh"
+msgstr "Walesiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Xhosa"
+msgstr "Xhosa"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Yoruba"
+msgstr "Yoruba"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Zulu"
+msgstr "Zulu"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Acholi"
+msgstr "Acholi"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Belarusian (Latin)"
+msgstr "Vitryska (latin)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Catalan (Valencian)"
+msgstr "Katalanska (Valencianska)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Chechen"
+msgstr "Tjetjenska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Chinese (Hong Kong)"
+msgstr "Kinesiska (Hong Kong)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Chinese (Taiwan)"
+msgstr "Kinesiska (Taiwan)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Igbo"
+msgstr "Igbo"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Kashubian"
+msgstr "Kasjubiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Kazakh (Latin)"
+msgstr "Kazakiska (latin)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Luxembourgish"
+msgstr "Luxemburgiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Maltese"
+msgstr "Maltesiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Northern Sami"
+msgstr "Nordsamiska"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Norwegian Bokmål"
+msgstr "Norska bokmål"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Norwegian Nynorsk"
+msgstr "Norska nynorsk"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Quechua (Cuzco-Collao)"
+msgstr "Quechua (qusqu-qullaw)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Serbian (Latin)"
+msgstr "Serbiska (latin)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Serbian Jekavian"
+msgstr "Serbiska (jekaviska)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Shan"
+msgstr "Shan"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "South Ndebele"
+msgstr "Sydndebele"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Southern Sotho"
+msgstr "Sydsotho"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Uzbek (Cyrillic)"
+msgstr "Uzbekiska (Kyrillisk)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Uzbek (Latin)"
+msgstr "Uzbekiska (latin)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "AppStream"
+msgstr "AppStream"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "UI Translations"
+msgstr "Gränssnittsöversättningar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Example App: Film manager"
+msgstr "Exempelprogram: Filmhanterare"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Example App: Lesson planner"
+msgstr "Exempelprogram: Lektionsplanering"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Example App: Music collection"
+msgstr "Exempelprogram: Musiksamling"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Example App: Project manager"
+msgstr "Exempelprogram: Projekthantering"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Example App: Small business"
+msgstr "Exempelprogram: Mindre företag"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "UI translations"
+msgstr "Gränssnittsöversättningar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Weather Locations"
+msgstr "Väderplatser"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Secrets server implementation"
+msgstr "Hemlighetsserverimplementation"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Bad plugins"
+msgstr "Onda insticksmoduler"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Base plugins"
+msgstr "Bas-insticksmoduler"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Good plugins"
+msgstr "Goda insticksmoduler"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Ugly plugins"
+msgstr "Fula insticksmoduler"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Layout Descriptions"
+msgstr "Layoutbeskrivningar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Main library translations"
+msgstr "Översättningar av huvudbiblioteket"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "User Directories"
+msgstr "Användarkataloger"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Engine-Campfire"
+msgstr "Campfire-motor"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Engine-IRC"
+msgstr "IRC-motor"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Engine-JabbR"
+msgstr "JabbR-motor"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Engine-MessageBuffer"
+msgstr "MessageBuffer-motor"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Engine-Twitter"
+msgstr "Twitter-motor"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Engine-XMPP"
+msgstr "XMPP-motor"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Frontend"
+msgstr "Framände"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Frontend-GNOME"
+msgstr "GNOME-framände"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Frontend-GNOME-IRC"
+msgstr "GNOME-IRC-framände"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Frontend-GNOME-Twitter"
+msgstr "GNOME-Twitter-framände"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Frontend-GNOME-XMPP"
+msgstr "GNOME-XMPP-framände"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Recipes translations"
+msgstr "Receptöversättningar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "libgimp"
+msgstr "libgimp"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "plug-ins"
+msgstr "plug-ins"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Property Nicks"
+msgstr "Egenskapsnamn"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "python"
+msgstr "python"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "script-fu"
+msgstr "script-fu"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "tags"
+msgstr "taggar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "tips"
+msgstr "tips"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Windows installer"
+msgstr "Windows-installationsprogram"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Website content"
+msgstr "Webbplatsinnehåll"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Keyboard Accessibility Monitor Manual"
+msgstr "Handbok för Övervakare av tangentbordshjälpmedel"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Battery Charge Monitor Manual"
+msgstr "Handbok för Batteriövervakare"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Browser Help"
+msgstr "Webbläsarhjälp"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Build Tutorial"
+msgstr "Bygghandledning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Character Palette Manual"
+msgstr "Handbok för Teckenpalett"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Clock Applet Manual"
+msgstr "Handbok för miniprogrammet Klocka"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "concepts"
+msgstr "koncept"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "CPU Frequency Scaling Monitor Manual"
+msgstr "Handbok för Övervakare av processorfrekvensskalning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "FDL License"
+msgstr "Licensen FDL"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GPL License"
+msgstr "Licensen GPL"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "LGPL License"
+msgstr "Licensen LGPL"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "dialogs"
+msgstr "dialogrutor"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "User Guide"
+msgstr "Användarguide"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Disk Mounter Manual"
+msgstr "Handbok för Diskmonterare"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "FAQ"
+msgstr "Frågor och svar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "filters"
+msgstr "filter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "animation filter"
+msgstr "animationsfilter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "artistic filter"
+msgstr "artistiska filter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "blur filter"
+msgstr "oskärpefilter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "combine filter"
+msgstr "kombinationsfilter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "decor filter"
+msgstr "dekorfilter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "distort filter"
+msgstr "förvrängningsfilter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "edge-detect filter"
+msgstr "kantdetekteringsfilter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "enhance filter"
+msgstr "förbättringsfilter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "generic filter"
+msgstr "allmänna filter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "light-and-shadow filter"
+msgstr "ljus och skugga-filter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "map filter"
+msgstr "mappningsfilter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "noise filter"
+msgstr "brusfilter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "render filter"
+msgstr "renderingsfilter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "web filter"
+msgstr "webbfilter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Fish Applet Manual"
+msgstr "Handbok för miniprogrammet Fisk"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Geyes Manual"
+msgstr "Handbok för Geyes"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "gimp"
+msgstr "gimp"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "quick reference"
+msgstr "snabbreferens"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Weather Report Manual"
+msgstr "Handbok för Väderrapport"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Library help"
+msgstr "Hjälp för GNOME-biblioteket"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "menus"
+msgstr "menyer"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "colors menus"
+msgstr "färgmenyer"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "colors auto menu"
+msgstr "automeny för färger"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "colors component menu"
+msgstr "komponentmeny för färger"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "colors desaturate menu"
+msgstr "avmättningsmeny för färger"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "colors info menu"
+msgstr "infomeny för färger"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "colors map menu"
+msgstr "mappningsmeny för färger"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "colors tone-mapping menu"
+msgstr "tonmappningsmeny för färger"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "edit menu"
+msgstr "redigeringsmeny"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "file menu"
+msgstr "arkivmeny"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "filters menu"
+msgstr "filtermeny"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "help menu"
+msgstr "hjälpmeny"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "image menu"
+msgstr "bildmeny"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "layer menu"
+msgstr "lagermeny"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "select menu"
+msgstr "markeringsmeny"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "view menu"
+msgstr "visningsmeny"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Command Line Manual"
+msgstr "Handbok för Kommandorad"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "System Monitor Manual"
+msgstr "Handbok för Systemövervakare"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Netspeed Applet Manual"
+msgstr "Handbok för miniprogrammet Näthastighet"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Sticky Notes Manual"
+msgstr "Handbok för Klisterlappar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "System Administration Guide"
+msgstr "Systemadministrationsguide"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "toolbox"
+msgstr "verktygslåda"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "toolbox (paint)"
+msgstr "verktygslåda (måla)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "toolbox (selection)"
+msgstr "verktygslåda (markera)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "toolbox (transform)"
+msgstr "verktygslåda (transformera)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Panel Trash Manual"
+msgstr "Handbok för panelprogrammet Papperskorg"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "tutorial"
+msgstr "handledning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Tutorial"
+msgstr "Handledning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "using gimp"
+msgstr "använda gimp"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "AccountsService"
+msgstr "AccountsService"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Apps for GNOME"
+msgstr "Program för GNOME"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Local network service discovery via mDNS/DNS-SD"
+msgstr "Lokal nätverkstjänstupptäckt via mDNS/DNS-SD"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Compress videos to target sizes"
+msgstr "Komprimera videoklipp till målstorlekar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Shell Extensions Repository"
+msgstr "Förråd för GNOME Shell-tillägg"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Developer tools"
+msgstr "Utvecklarverktyg"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Look up guitar chords"
+msgstr "Slå upp gitarrackord"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Collection of plugins for the gedit text editor"
+msgstr "Insticksmodulsamling för textredigeraren gedit"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GIMP User Manual"
+msgstr "Användarhandbok för GIMP"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME User Documentation"
+msgstr "Användardokumentation för GNOME"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Help"
+msgstr "GNOME Hjälp"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Find LaTeX symbols"
+msgstr "Hitta LaTeX-symboler"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Practice your typing skills"
+msgstr "Träna på dina skrivfärdigheter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Gedit Technology - Actions, Menus and Toolbars Kit"
+msgstr "Gedit-teknologi - Verktyg för åtgärder, menyer och verktygsfält"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Gedit Technology - File loading and saving"
+msgstr "Gedit-teknologi - Filinläsning och sparning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Gedit Technology - Source code editing widget"
+msgstr "Gedit-teknologi - Källkodredigeringskomponent"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Gedit Technology - Text editor product line"
+msgstr "Gedit-teknologi - Textredigerarens produktlinje"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Library Web site"
+msgstr "GNOMEs webbplats för bibliotek"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Set historic GNOME wallpapers"
+msgstr "Ställ in historiska GNOME-skrivbordsbakgrunder"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Python GTK 3 Tutorial"
+msgstr "Python-handledning för GTK 3"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Tweak various aspects of GNOME"
+msgstr "Justera olika aspekter av GNOME"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Shared MIME Info"
+msgstr "Delad MIME-information"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Upscale and enhance images"
+msgstr "Skala upp och förbättra bilder"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "WebKitGTK"
+msgstr "WebKitGTK"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Welcome to GNOME"
+msgstr "Välkommen till GNOME"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Website"
+msgstr "GNOMEs webbplats"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "XKeyboard-Config"
+msgstr "XKeyboard-Config"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"D-Bus interface for user account query and manipulation. To submit your "
+"translation, <a "
+"href=\"https://gitlab.freedesktop.org/accountsservice/accountsservice/merge_requests\">create"
+" a merge request</a>."
+msgstr ""
+"D-Bus-gränssnitt för manipulation av och frågor om användarkonton. <a "
+"href=\"https://gitlab.freedesktop.org/accountsservice/accountsservice/merge_requests\">Skapa"
+" en merge-förfrågan</a> för att skicka in din översättning."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Apps for GNOME is the web application you can find at <a "
+"href=\"https://apps.gnome.org/\">https://apps.gnome.org/</a>."
+msgstr ""
+"Program för GNOME är webbapplikationen du kan hitta på <a "
+"href=\"https://apps.gnome.org/\">https://apps.gnome.org/</a>."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Utilities to generate, maintain and access the AppStream Xapian database and"
+" work with AppStream metadata."
+msgstr ""
+"Verktyg för att generera, underhålla och komma åt AppStream Xapian-databasen"
+" och arbeta med AppStream-metadata."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"There is a glossary that will help translators in Chronojump localization: "
+"<a "
+"href=\"https://gitlab.gnome.org/GNOME/chronojump/-/blob/master/glossary/chronojump_glossary_for_translators.md\">https://gitlab.gnome.org/GNOME/chronojump/-/blob/master/glossary/chronojump_glossary_for_translators.md</a>."
+msgstr ""
+"Det finns en ordlista som hjälper översättare i lokalanpassning av "
+"Chronojump: <a "
+"href=\"https://gitlab.gnome.org/GNOME/chronojump/-/blob/master/glossary/chronojump_glossary_for_translators.md\">https://gitlab.gnome.org/GNOME/chronojump/-/blob/master/glossary/chronojump_glossary_for_translators.md</a>."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"colord is a system service that makes it easy to manage, install and "
+"generate color profiles to accurately color manage input and output devices."
+msgstr ""
+"colord är en systemtjänst som gör det enkelt att hantera, installera och "
+"skapa färgprofiler för att korrekt färghantera indata- och utdataenheter."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "PolicyKit helper to configure CUPS with fine-grained privileges."
+msgstr ""
+"PolicyKit-hjälpare för att konfigurera CUPS med finkorniga privilegier."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Translators: Please keep the “SPDX-License-Identifier:” line in the header "
+"of your .po files. Build will break if it’s missing."
+msgstr ""
+"Översättare: Behåll raden ”SPDX-License-Identifier:” i dina .po-filers "
+"huvud. Bygget kommer inte fungera om den saknas."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "D-Bus service to access fingerprint readers."
+msgstr "D-Bus-tjänst för att använda fingeravtrycksläsare."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Please only translate the main branch. The other ones are only listed for "
+"stats and won’t accept commits."
+msgstr ""
+"Översätt bara huvudgrenen. De andra listas bara för statistik och kommer "
+"inte acceptera incheckningar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "A simple daemon to allow session software to update UEFI firmware."
+msgstr ""
+"En enkel demon för att tillåta sessionprogramvara att uppdatera fast "
+"programvara för UEFI."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"See <a href=\"https://wiki.gnome.org/gbrainy/Localizing\">wiki</a> for "
+"recommendations when translating gbrainy."
+msgstr ""
+"Se <a href=\"https://wiki.gnome.org/gbrainy/Localizing\">wikisidan</a> för "
+"rekommendationer vid översättning av gbrainy."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"glom is a user-friendly database application.<br>\n"
+"Apart from the UI messages and the documentation, there are additional example files that can be translated."
+msgstr ""
+"glom är ett användarvänligt databasprogram.<br>\n"
+"I tillägg till gränssnittsmeddelanden och dokumentationen så finns det även ytterligare exempelfiler som kan översättas."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"There is a limited number of supported locales. If you use an unsupported locale, the browser (at least Chromium-based) will ignore it. <b>Google Chrome/Chromium/Vivaldi support:</b>\n"
+"\n"
+"<i>ar, am, bg, bn, ca, cs, da, de, el, en, en_GB, en_US, es, es_419, et, fa, fi, fil, fr, gu, he, hi, hr, hu, id, it, ja, kn, ko, lt, lv, ml, mr, ms, nl, no, pl, pt_BR, pt_PT, ro, ru, sk, sl, sr, sv, sw, ta, te, th, tr, uk, vi, zh_CN, zh_TW</i>\n"
+"\n"
+"<b>Opera supports:</b>\n"
+"\n"
+"<i>af, az, be, bg, bn, ca, cs, da, de, el, en_GB, en_US, es_419, es, fi, fil, fr_CA, fr, fy, gd, he, hi, hr, hu, id, it, ja, kk, ko, lt, lv, me, mk, ms, nb, nl, nn, pa, pl, pt_BR, pt_PT, ro, ru, sk, sr, sr_ME, sv, sw, ta, te, th, tr, uk, uz, vi, zh_CN, zh_TW, zu</i>\n"
+"\n"
+"<b>Firefox supports:</b>\n"
+"\n"
+"<i>ach, af, an, ar, as, ast, az, bg, bn_BD, bn_IN, br, bs, ca, cak, cs, cy, da, de, dsb, el, en, en_GB, en_US, en_ZA, eo, es_AR, es_CL, es_ES, es_MX, et, eu, fa, ff, fi, fr, fy_NL, ga_IE, gd, gl, gn, gu_IN, he, hi_IN, hr, hsb, hu, hy_AM, id, is, it, ja, ka, kab, kk, km, kn, ko, lij, lt, lv, mai, mk, ml, mr, ms, nb_NO, nl, nn_NO, or, pa_IN, pl, pt_BR, pt_PT, rm, ro, ru, si, sk, sl, son, sq, sr, sv_SE, ta, te, th, tr, uk, uz, vi, xh, zh_CN, zh_TW</i>"
+msgstr ""
+"Det finns ett begränsat antal lokaler som stöds. Om du använder en lokal som inte stöds kommer webbläsaren (i alla fall de som är Chromiumbaserade) att ignorera den. <b>Google Chrome/Chromium/Vivaldi stöder:</b>\n"
+"\n"
+"<i>ar, am, bg, bn, ca, cs, da, de, el, en, en_GB, en_US, es, es_419, et, fa, fi, fil, fr, gu, he, hi, hr, hu, id, it, ja, kn, ko, lt, lv, ml, mr, ms, nl, no, pl, pt_BR, pt_PT, ro, ru, sk, sl, sr, sv, sw, ta, te, th, tr, uk, vi, zh_CN, zh_TW</i>\n"
+"\n"
+"<b>Opera stöder:</b>\n"
+"\n"
+"<i>af, az, be, bg, bn, ca, cs, da, de, el, en_GB, en_US, es_419, es, fi, fil, fr_CA, fr, fy, gd, he, hi, hr, hu, id, it, ja, kk, ko, lt, lv, me, mk, ms, nb, nl, nn, pa, pl, pt_BR, pt_PT, ro, ru, sk, sr, sr_ME, sv, sw, ta, te, th, tr, uk, uz, vi, zh_CN, zh_TW, zu</i>\n"
+"\n"
+"<b>Firefox stöder:</b>\n"
+"\n"
+"<i>ach, af, an, ar, as, ast, az, bg, bn_BD, bn_IN, br, bs, ca, cak, cs, cy, da, de, dsb, el, en, en_GB, en_US, en_ZA, eo, es_AR, es_CL, es_ES, es_MX, et, eu, fa, ff, fi, fr, fy_NL, ga_IE, gd, gl, gn, gu_IN, he, hi_IN, hr, hsb, hu, hy_AM, id, is, it, ja, ka, kab, kk, km, kn, ko, lij, lt, lv, mai, mk, ml, mr, ms, nb_NO, nl, nn_NO, or, pa_IN, pl, pt_BR, pt_PT, rm, ro, ru, si, sk, sl, son, sq, sr, sv_SE, ta, te, th, tr, uk, uz, vi, xh, zh_CN, zh_TW</i>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Note that some strings visible in the gnome-tweaks interface are coming from"
+" the <a href=\"/module/gsettings-desktop-schemas/\">gsettings-desktop-"
+"schemas</a> module."
+msgstr ""
+"Observera att några synliga strängar i gränssnittet för gnome-tweaks kommer "
+"från modulen <a href=\"/module/gsettings-desktop-schemas/\">gsettings-"
+"desktop-schemas</a>."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"To ease localization, gallery of GNOME Video Effects has been set up here: "
+"<a "
+"href=\"https://wiki.gnome.org/Projects/GnomeVideoEffects/Effects\">https://wiki.gnome.org/Projects/GnomeVideoEffects/Effects</a>."
+msgstr ""
+"Ett galleri av GNOME-videoeffekter finns här för att förenkla "
+"lokalanpassningen: <a "
+"href=\"https://wiki.gnome.org/Projects/GnomeVideoEffects/Effects\">https://wiki.gnome.org/Projects/GnomeVideoEffects/Effects</a>."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Useful information on localization of the Gnumeric analysis tools can be "
+"found in the <a href "
+"=\"https://gitlab.gnome.org/GNOME/gnumeric/raw/master/po/README.analysis\">po/README.analysis</a>"
+" file, and <a href =\"https://gitlab.gnome.org/GNOME/gnumeric/raw/master/po-"
+"functions/README.translators\">po-functions/README.translators</a> has "
+"useful information on localization of Gnumeric functions."
+msgstr ""
+"Användbar information om lokalanpassning av analysverktyget Gnumeric kan "
+"hittas i filen <a href "
+"=\"https://gitlab.gnome.org/GNOME/gnumeric/raw/master/po/README.analysis\">po/README.analysis</a>,"
+" och <a href =\"https://gitlab.gnome.org/GNOME/gnumeric/raw/master/po-"
+"functions/README.translators\">po-functions/README.translators</a> har "
+"användbar information om lokalanpassning av Gnumeric-funktioner."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This a low-priority module to translate, as there are currently no user "
+"interface that show those strings."
+msgstr ""
+"Detta är en lågprioriterad modul att översätta eftersom det för närvarande "
+"inte finns något användargränssnitt som visar dessa strängar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GStreamer open-source multimedia framework core library."
+msgstr "Kärnbibliotek för det öppna källkodsmultimediaramverket GStreamer."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This module will be released on a regular basis and is not concerned by any "
+"string freeze limitation."
+msgstr ""
+"Denna modul kommer ha regelbundna utgåvor och berörs inte av några "
+"strängfrysningsbegränsningar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"malcontent implements support for restricting the type of content accessible"
+" to non-administrator accounts on a Linux system. To submit your "
+"translation, <a "
+"href=\"https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html\">fork"
+" the project</a>, edit your translation file in the forked project and <a "
+"href=\"https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html\">create"
+" a merge request</a>."
+msgstr ""
+"malcontent implementerar stöd för att begränsa typen av innehåll som kan "
+"kommas åt av icke-administratörskonton på ett Linux-system. För att skicka "
+"in din översättning, <a "
+"href=\"https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html\">gör"
+" en förgrening (fork) av projektet</a>, redigera översättningsfilen i din "
+"kopia av projektet och <a "
+"href=\"https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html\">skapa"
+" en merge-förfrågan</a>."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Unified high-level API for communicating with mobile broadband modems. To "
+"submit your translation, <a href=\"https://gitlab.freedesktop.org/mobile-"
+"broadband/ModemManager/merge_requests\">create a merge request</a>."
+msgstr ""
+"Förenat högnivå-API för att kommunicera med modem för mobilt bredband. <a "
+"href=\"https://gitlab.freedesktop.org/mobile-"
+"broadband/ModemManager/merge_requests\">Skapa en merge-förfrågan</a> för att"
+" skicka in din översättning."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Network connection manager and user applications. To submit your "
+"translation, <a "
+"href=\"https://gitlab.freedesktop.org/NetworkManager/NetworkManager/merge_requests\">create"
+" a merge request</a>."
+msgstr ""
+"Nätverksanslutningshanterare och användarprogram. <a "
+"href=\"https://gitlab.freedesktop.org/NetworkManager/NetworkManager/merge_requests\">Skapa"
+" en merge-förfrågan</a> för att skicka in din översättning."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "PKCS#11 cryptography framework for multiple consumers."
+msgstr "PKCS#11-kryptografiramverk för flera konsumenter."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"System designed to make installing and updating software on your computer "
+"easier."
+msgstr ""
+"System som är byggt för att förenkla installation och uppdatering av "
+"programvara på din dator."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Multimedia processing graphs. To submit your translation, <a "
+"href=\"https://gitlab.freedesktop.org/pipewire/pipewire/-/merge_requests\">create"
+" a merge request</a>."
+msgstr ""
+"Multimediabearbetande grafer. <a "
+"href=\"https://gitlab.freedesktop.org/pipewire/pipewire/-/merge_requests\">Skapa"
+" en merge-förfrågan</a> för att skicka in din översättning."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Plymouth provides the graphical boot-splash and offline-updates status "
+"splash on most distributions."
+msgstr ""
+"Plymouth tillhandahåller den grafiska uppstartsbilden och statusbild för "
+"frånkopplade uppdateringar på de flesta distributioner."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Toolkit for defining and handling authorizations. To submit your "
+"translation, <a href=\"https://github.com/polkit-org/polkit/pulls\">create a"
+" merge request</a>."
+msgstr ""
+"Verktygslåda för att definiera och hantera autentiseringar. <a "
+"href=\"https://github.com/polkit-org/polkit/pulls\">Skapa en merge-"
+"förfrågan</a> för att skicka in din översättning."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for "
+"your sound applications."
+msgstr ""
+"PulseAudio är ett ljudsystem för POSIX-operativsystem, vilket betyder att "
+"det är en proxy för dina ljudprogram."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"D-Bus system service that manages discovery and enrollment in realms/domains"
+" like Active Directory or IPA."
+msgstr ""
+"D-Bus-systemtjänst som hanterar upptäckt och registrering i sfärer/domäner "
+"som Active Directory eller IPA."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Shared MIME information specification."
+msgstr "Specifikation för delad MIME-information."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "System and session manager."
+msgstr "System- och sessionshanterare."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Fast and secure file transfer"
+msgstr "Snabb och säker filöverföring"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Translations should be submitted as <a "
+"href=\"https://bugs.webkit.org/enter_bug.cgi?product=WebKit&component=WebKitGTK\">bug"
+" reports</a>. Please remember to select “WebKitGTK” as the component, so "
+"that the report doesn’t get lost."
+msgstr ""
+"Översättningar ska skickas som <a "
+"href=\"https://bugs.webkit.org/enter_bug.cgi?product=WebKit&component=WebKitGTK\">felrapporter</a>."
+" Kom ihåg att välja ”WebKitGTK” som komponent så att inte rapporten tappas "
+"bort."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Session / policy manager implementation for PipeWire. To submit your "
+"translation, <a "
+"href=\"https://gitlab.freedesktop.org/pipewire/wireplumber/-/merge_requests\">create"
+" a merge request</a>."
+msgstr ""
+"Implementation av sessions-/policyhanterare för PipeWire. <a "
+"href=\"https://gitlab.freedesktop.org/pipewire/wireplumber/-/merge_requests\">Skapa"
+" en merge-förfrågan</a> för att skicka in din översättning."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GTK implementation of xdg-desktop-portal."
+msgstr "GTK-implementation av xdg-desktop-portal."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Tool to help manage “well known” user directories like the desktop folder "
+"and the music folder."
+msgstr ""
+"Verktyg för att hantera ”välkända” användarkataloger som skrivbordsmappen "
+"och musikmappen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Database of keyboard configuration data."
+msgstr "Databas över inställningsdata för tangentbord."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME 51 (stable)"
+msgstr "GNOME 51 (stabil)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME 50 (oldstable)"
+msgstr "GNOME 50 (gammal stabil)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME 49 (old stable)"
+msgstr "GNOME 49 (gammal stabil)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME 48 (old stable)"
+msgstr "GNOME 48 (gammal stabil)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME 47 (old stable)"
+msgstr "GNOME 47 (gammal stabil)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME 46 (old stable)"
+msgstr "GNOME 46 (gammal stabil)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME 45 (old stable)"
+msgstr "GNOME 45 (gammal stabil)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME 44 (old stable)"
+msgstr "GNOME 44 (gammal stabil)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Obsolete GNOME Applications"
+msgstr "Föråldrade GNOME-program"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Incubator"
+msgstr "Inkubator"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Infrastructure"
+msgstr "GNOME-infrastruktur"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GIMP and Friends"
+msgstr "GIMP med vänner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Other Apps (stable)"
+msgstr "Övriga program (stabil)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Circle"
+msgstr "GNOME Circle"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Evolution and friends"
+msgstr "Evolution med vänner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "freedesktop.org (non-GNOME)"
+msgstr "freedesktop.org (icke-GNOME)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Administration Tools"
+msgstr "Administrationsverktyg"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Development Tools"
+msgstr "Utvecklingsverktyg"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Developer Platform"
+msgstr "GNOME-utvecklingsplattform"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "New Module Proposals"
+msgstr "Nya modulförslag"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Backends"
+msgstr "Bakändar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Core Libraries"
+msgstr "Kärnbibliotek"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Extra Libraries"
+msgstr "Extra bibliotek"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Legacy Desktop"
+msgstr "Äldre skrivbord"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Stable Branches"
+msgstr "Stabila grenar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Development Branches"
+msgstr "Utvecklingsgrenar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Office Apps"
+msgstr "Kontorsprogram"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Utils"
+msgstr "Verktyg"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Desktop"
+msgstr "GNOME-skrivbordet"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No comment"
+msgstr "Ingen kommentar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "%(site)s — Workflow actions for the %(lang)s language"
+msgstr "%(site)s — Arbetsflödes-åtgärder för språket %(lang)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Latest actions of the GNOME Translation Project for the %s language"
+msgstr "Senaste åtgärder för GNOME-översättningsprojektet för språket %s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Invalid plural form syntax."
+msgstr "Ogiltig pluralformsyntax."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Natural name of the language, such as French, English…"
+msgstr "Naturligt namn på språket, såsom franska, engelska…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Locale code (ISO-639), such as fr, en_GB…"
+msgstr "Lokalkod (ISO-639), såsom fr, en_GB…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The team that manages the translations in this language."
+msgstr "Gruppen som hanterar översättningarna till detta språk."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The plural form of the language, such as ‘nplurals=2; plural=(n != 1);’"
+msgstr "Språkets pluralform, exempelvis ”nplurals=2; plural=(n != 1);”"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No corresponding Language was found for this IANA BCP47 code (%s)."
+msgstr "Inget motsvarande språk hittades för denna IANA BCP47-kod (%s)."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "User Interface (red.)"
+msgstr "Användargränssnitt (minskade)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Translated/Fuzzy/Untranslated"
+msgstr "Översatta/Luddiga/Ej översatta"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "All modules"
+msgstr "Alla moduler"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "RSS Feed for the %(language)s team."
+msgstr "RSS-flöde för gruppen %(language)s."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Languages"
+msgstr "GNOME-språk"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "My Languages and Languages Suggestions"
+msgstr "Mina språk och språkförslag"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Suggestions are based on the current language you use to interact with the "
+"website and on the teams you’re already a member of."
+msgstr ""
+"Förslagen baseras på språket du nu använder för att interagera med "
+"webbplatsen och på de grupper du redan är medlem i."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Languages with translation teams"
+msgstr "Språk med översättningsgrupper"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Languages without any translation team"
+msgstr "Språk utan någon översättningsgrupp"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"These languages may have translations, but still don’t have a language team "
+"in Damned Lies. If you wish to start a team, please read <a "
+"href=\"https://wiki.gnome.org/TranslationProject/StartingATeam/\">the "
+"documentation to start a new team</a>. It may not always be necessary to "
+"start a new team for every existing language. For instance, the existence of"
+" the <code>fr_FR</code> (French spoken in France) language should not lead "
+"to the creation of a team that is different from the already existing "
+"<code>fr</code> (French) team."
+msgstr ""
+"Dessa språk kan ha översättningar, men har ännu inte någon grupp i "
+"Förbannade lögner. Läs <a "
+"href=\"https://wiki.gnome.org/TranslationProject/StartingATeam/\">dokumentationen"
+" om att starta en ny grupp</a> om du vill starta en grupp. Det är inte "
+"alltid nödvändigt att starta en ny grupp för varje språk. Att språket "
+"<code>fr_FR</code> (franska som den talas i Frankrike) finns bör inte leda "
+"till skapandet av en annan grupp än den befintliga franska gruppen "
+"(<code>fr</code>)."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The modules of this release are not part of the GNOME Git repository. Please"
+" check each module’s web page to see where to send translations."
+msgstr ""
+"Modulerna i den här utgåvan är inte en del av GNOMEs Git-arkiv. Kontrollera "
+"webbsidan för varje modul för att se var översättningarna ska skickas."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Download all po files"
+msgstr "Hämta alla po-filer"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Hide completed modules"
+msgstr "Dölj färdiga moduler"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Show completed modules"
+msgstr "Visa färdiga moduler"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "%(total_trans_perc)s%%"
+msgstr "%(total_trans_perc)s%%"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "%(category_name)s (%(percentage)s%% translated)"
+msgstr "%(category_name)s (%(percentage)s%% översatt)"
+
+#. from gnome:reviewed/damned-lies/main
+msgctxt "refers to a category"
+msgid "Priority"
+msgstr "Prioritet"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "View module translation activity"
+msgstr "Visa översättningsaktivitet för modul"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "View module details"
+msgstr "Visa moduldetaljer"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Error summary"
+msgstr "Sammandrag av fel"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "UI Translations (reduced)"
+msgstr "Gränssnittsöversättningar (minskade)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Original strings"
+msgstr "Ursprungliga strängar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Your profile is missing your GitLab forge account on Damned Lies"
+msgstr "Din profil på Förbannade lögner saknar ditt Gitlab-konto"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Send messages to coordinators that did not set their GitLab profile "
+"username."
+msgstr ""
+"Skicka meddelanden till koordinatorer som inte har angett sitt Gitlab-"
+"profilnamn."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Failed to send email to coordinators to inform them that their GitLab "
+"account is not set. The error was %(error)s."
+msgstr ""
+"Misslyckades med att skicka e-post till koordinatorerna för att informera "
+"dem om att deras GitLab-konto inte ställts in. Felet var %(error)s."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "custom lookups"
+msgstr "anpassade sökningar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Suspected Spam Accounts"
+msgstr "Misstänkta skräppostkonton"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Obsolete Accounts"
+msgstr "Gamla konton"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Maintained module"
+msgstr "Modul som underhålls"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Maintained modules"
+msgstr "Moduler som underhålls"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Important dates"
+msgstr "Viktiga datum"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Authenticated user"
+msgstr "Autentiserad användare"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Forge account"
+msgstr "Smedjekonto"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"There is no user matching this email address. Please, check the email "
+"address you entered."
+msgstr ""
+"Det finns ingen användare som matchar denna e-postadress. Kontrollera "
+"e-postadressen du angav."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This email address is already used by another account. You can not use it "
+"here."
+msgstr ""
+"Denna e-postadress används redan av ett annat konto. Du kan inte använda det"
+" här."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Image too high or too wide (%(width)d×%(height)d, maximum is "
+"%(max_width)d×%(max_height)d pixels)"
+msgstr ""
+"Bilden är för hög eller för bred (%(width)d×%(height)d, maximalt är "
+"%(max_width)d×%(max_height)d bildpunkter)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "There was an error retrieving the image file (%(exception)s)"
+msgstr "Ett fel uppstod vid hämtande av bildfilen (%(exception)s)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Sorry, an error occurred while trying to get image size (%(exception)s)."
+msgstr "Ett fel uppstod när bildstorleken skulle erhållas (%(exception)s)."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The URL you provided seems not to correspond to a valid image."
+msgstr "URL:en som du angav verkar inte vara en giltig bild."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The Matrix username you entered is incorrect. It does not match Matrix "
+"servers username patterns. For instance, @%(username)s:gnome.org is a valid "
+"Matrix username, as well as @%(username)s:matrix.org."
+msgstr ""
+"Matrix-användarnamnet du angav är felaktigt. Det matchar inte "
+"användarnamnsmönstret för Matrix-servrar. Exempelvis är "
+"@%(username)s:gnome.org ett giltigt Matrix-användarnamn, liksom "
+"@%(username)s:matrix.org."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"URL to an image file (.jpg, .png, …) of a hackergotchi (max. "
+"%(width)d×%(height)d pixels)"
+msgstr ""
+"URL till en bildfil (.jpg, .png, …) för en hackergotchi (max. "
+"%(width)d×%(height)d bildpunkter)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Avatar provider"
+msgstr "Profilbildsleverantör"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Web page"
+msgstr "Webbsida"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "URL to your personal web page."
+msgstr "URL till din personliga webbsida."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Matrix Account"
+msgstr "Matrix-konto"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Your full Matrix username you use for GNOME. It has the form "
+"@user:domain.tld."
+msgstr ""
+"Det fullständiga Matrix-användarnamn du använder för GNOME. Det har formen "
+"@användare:domän.tld."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Discourse account"
+msgstr "Discourse-konto"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Your username on the GNOME Discourse instance. For instance “user”."
+msgstr "Ditt användarnamn på GNOMEs Discourse-instans. Till exempel ”namn”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Enter a valid GNOME Discourse username consisting of letters, numbers, "
+"underscores dashes and dots."
+msgstr ""
+"Ange ett giltigt användarnamn för GNOME Discourse som består av bokstäver, "
+"siffror, understreck, bindestreck och punkter."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GitLab account"
+msgstr "GitLab-konto"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Your username or permanent profile URI on the GNOME GitLab forge instance. "
+"For instance “@user”, “user”, or “-/u/61488”."
+msgstr ""
+"Ditt användarnamn eller permanenta profil-URI på GNOMEs Gitlab-instans. Till"
+" exempel ”@namn”, ”namn” eller ”-/u/52”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Enter a valid GNOME GitLab username or permanent profile URI consisting of "
+"letters, numbers, underscores, dashes, dots and slashes without any other "
+"special character."
+msgstr ""
+"Ange ett giltigt användarnamn eller en permanent profil-URI för GNOME GitLab"
+" som består av bokstäver, siffror, understreck, bindestreck, punkter och "
+"snedstreck utan några andra specialtecken."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "people"
+msgstr "personer"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The forge account name is missing from the user profile."
+msgstr "Smedjekontonamnet saknas i användarprofilen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The username on the GNOME forum is missing from the user profile."
+msgstr "Användarnamnet för GNOME-forumet saknas i användarprofilen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Successfully connected provider %(provider_name)s to your account. You are "
+"now able to login to your account using this provider on the login page."
+msgstr ""
+"Anslöt leverantören %(provider_name)s till ditt konto. Du kan nu logga in på"
+" ditt konto med denna leverantör på inloggningssidan."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Successfully disconnected from provider %(provider_name)s. You will have to "
+"restart the association process if you’d like to use this provider in the "
+"future."
+msgstr ""
+"Kopplade från leverantören %(provider_name)s. Du kommer behöva starta om "
+"associeringsprocessen om du vill använda denna leverantör i framtiden."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Current activity"
+msgstr "Nuvarande aktivitet"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Module maintenance"
+msgstr "Modulunderhåll"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Last login: %(last_login)s"
+msgstr "Senast inloggad: %(last_login)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgctxt "user status"
+msgid "No recent activity"
+msgstr "Ingen aktivitet nyligen"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Web:"
+msgstr "Webb:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GitLab account:"
+msgstr "GitLab-konto:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Discourse account:"
+msgstr "Discourse-konto:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Matrix account:"
+msgstr "Matrix-konto:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Authentication token:"
+msgstr "Autentiseringstoken:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Show/hide the token"
+msgstr "Visa/dölj token"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Copy the token"
+msgstr "Kopiera token"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Site Language"
+msgstr "Språk för webbplats"
+
+#. from gnome:reviewed/damned-lies/main
+msgctxt "person_team_membership"
+msgid "Contributes to team"
+msgstr "Bidrar till grupp"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<span id=\"role-%(role_name)s-in-%(team_name)s-team\" class=\"badge text-bg-"
+"secondary\">%(role_name_display)s</span> − %(team_name_url)s"
+msgstr ""
+"<span id=\"role-%(role_name)s-in-%(team_name)s-team\" class=\"badge text-bg-"
+"secondary\">%(role_name_display)s</span> − %(team_name_url)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Login to Damned Lies"
+msgstr "Logga in på Förbannade lögner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Enter the email address associated to your Damned Lies account and you will "
+"receive a link to connect to it in your mailbox."
+msgstr ""
+"Ange e-postadressen som är associerad med ditt Förbannade lögner-konto så "
+"kommer du att få en länk för att ansluta till den i din postlåda."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Ask for an Authentication Link"
+msgstr "Efterfråga en autentiseringslänk"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p> Your account <strong>%(username)s</strong> on <a "
+"href=\"%(site_domain)s\">Damned Lies</a> has been successfully deleted. </p>"
+" <p> All your personal information has been removed from the system. Your "
+"translation contributions and activity history remain visible but are no "
+"longer associated with your account. </p> <p> If you did not request this "
+"deletion, please contact the Damned Lies administration team immediately. "
+"</p>"
+msgstr ""
+"<p> Ditt konto <strong>%(username)s</strong> på <a "
+"href=\"%(site_domain)s\">Förbannade lögner</a> har tagits bort. </p> <p> All"
+" din personliga information har tagits bort från systemet. Dina "
+"översättningsbidrag och aktivitetshistorik förblir synliga, men de kommer "
+"inte längre vara associerade med ditt konto. </p> <p> Om du inte begärde "
+"denna borttagning, kontakta omedelbart administratörsgruppen för Förbannade "
+"lögner. </p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Your account ‘%(username)s’ on Damned Lies (%(site_domain)s) has been "
+"successfully deleted. All your personal information has been removed from "
+"the system. Your translation contributions and activity history remain "
+"visible but are no longer associated with your account. If you did not "
+"request this deletion, please contact the Damned Lies administration team "
+"immediately."
+msgstr ""
+"Ditt konto ”%(username)s” på Förbannade lögner (%(site_domain)s) har tagits "
+"bort. All din personliga information har tagits bort från systemet. Dina "
+"översättningsbidrag och aktivitetshistorik förblir synliga, men de kommer "
+"inte längre vara associerade med ditt konto. Om du inte begärde denna "
+"borttagning, kontakta omedelbart administratörsgruppen för Förbannade "
+"lögner."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p>%(username)s,</p>\n"
+"\n"
+"<p>This is an automatic email from <a href=\"%(site_domain)s\">Damned Lies</a> to inform you that your profile is missing\n"
+"your username on <a href=\"%(forge_url)s\">GNOME’s GitLab</a>. As you coordinate at least one team, you are asked\n"
+"to register on this platform and update your Damned Lies profile with your GitLab account.</p>\n"
+"\n"
+"<p>The administration team of Damned Lies</p>"
+msgstr ""
+"<p>%(username)s,</p>\n"
+"\n"
+"<p>Detta är ett automatiskt e-postmeddelande från <a href=\"%(site_domain)s\">Förbannade lögner</a> för att informera dig\n"
+"om att din profil saknar ditt användarnamn på <a href=\"%(forge_url)s\">GNOMEs GitLab</a>. Eftersom du koordinerar minst\n"
+"en grupp ombeds du att registrera dig på denna plattform och uppdatera din Förbannade lögner-profil\n"
+"med ditt GitLab-konto.</p>\n"
+"\n"
+"<p>Administratörsgruppen för Förbannade lögner</p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"%(username)s,\n"
+"\n"
+"This is an automatic email from Damned Lies (%(site_domain)s) to inform you that your profile is missing\n"
+"your username on GNOME’s GitLab (%(forge_url)s). As you coordinate at least one team, you are asked\n"
+"to register on this platform and update your Damned Lies profile with your GitLab account.\n"
+"\n"
+"The administration team of Damned Lies"
+msgstr ""
+"%(username)s,\n"
+"\n"
+"Detta är ett automatiskt e-postmeddelande från Förbannade lögner (%(site_domain)s) för att informera dig\n"
+"om att din profil saknar ditt användarnamn på GNOMEs GitLab (%(forge_url)s). Eftersom du koordinerar\n"
+"minst en grupp ombeds du att registrera dig på denna plattform och uppdatera din\n"
+"Förbannade lögner-profil med ditt GitLab-konto.\n"
+"\n"
+"Administratörsgruppen för Förbannade lögner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p>%(username)s,</p>\n"
+"\n"
+"<p>You asked to update the email of your profile on <a href=\"%(site_domain)s\">Damned Lies</a>. You can confirm this action by clicking the following link:</p>\n"
+"<p><a href=\"%(email_update_confirmation_link)s\">%(email_update_confirmation_link)s</a></p>\n"
+"\n"
+"<p>The link expires after five minutes (at %(expiration_date)s) and you can use it only once.</p>\n"
+"\n"
+"<p>If you are not the one who requested this connection, please contact us on <em>#i18n:gnome.org</em> (<a href=\"https://handbook.gnome.org/get-in-touch.html#matrix\">more on Matrix in the GNOME handbook</a>).</p>\n"
+"\n"
+"<p>The administration team of Damned Lies</p>"
+msgstr ""
+"<p>%(username)s,</p>\n"
+"\n"
+"<p>Du efterfrågade att uppdatera e-posten för din profil på <a href=\"%(site_domain)s\">Förbannade lögner</a>. Du kan bekräfta denna åtgärd genom att klicka på följande länk:</p>\n"
+"<p><a href=\"%(email_update_confirmation_link)s\">%(email_update_confirmation_link)s</a></p>\n"
+"\n"
+"<p>Länken slutar gälla efter fem minuter (%(expiration_date)s) och du kan endast använda den en gång.</p>\n"
+"\n"
+"<p>Om det inte var du som begärde denna anslutning, kontakta oss på <em>#i18n:gnome.org</em> (<a href=\"https://handbook.gnome.org/get-in-touch.html#matrix\">mer om Matrix i GNOME-handboken</a>).</p>\n"
+"\n"
+"<p>Administratörsgruppen för Förbannade lögner</p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"%(username)s,\n"
+"\n"
+"You asked to update the email of your profile on %(site_domain)s. You can confirm this action by clicking the following link:\n"
+"%(email_update_confirmation_link)s\n"
+"\n"
+"The link expires after five minutes (at %(expiration_date)s) and you can use it only once.\n"
+"\n"
+"If you are not the one who requested this connection, please contact us on the #i18n:gnome.org Matrix channel (https://handbook.gnome.org/get-in-touch.html#matrix).\n"
+"\n"
+"The administration team of Damned Lies"
+msgstr ""
+"%(username)s,\n"
+"\n"
+"Du efterfrågade att uppdatera e-posten för din profil på %(site_domain)s. Du kan bekräfta denna åtgärd genom att klicka på följande länk:\n"
+"%(email_update_confirmation_link)s\n"
+"\n"
+"Länken slutar gälla efter fem minuter (%(expiration_date)s) och du kan endast använda den en gång.\n"
+"\n"
+"Om det inte var du som begärde denna anslutning, kontakta oss på Matrix-kanalen #i18n:gnome.org (https://handbook.gnome.org/get-in-touch.html#matrix).\n"
+"\n"
+"Administratörsgruppen för Förbannade lögner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p>%(username)s,</p>\n"
+"\n"
+"<p>Someone asked to update the email of your profile on <a href=\"%(site_domain)s\">Damned Lies</a>.</p>\n"
+"\n"
+"<p>If you are not the one who requested this change, please contact us on <em>#i18n:gnome.org</em> (<a href=\"https://handbook.gnome.org/get-in-touch.html#matrix\">more on Matrix in the GNOME handbook</a>).</p>\n"
+"\n"
+"<p>The administration team of Damned Lies</p>"
+msgstr ""
+"<p>%(username)s,</p>\n"
+"\n"
+"<p>Någon efterfrågade att uppdatera e-posten för din profil på <a href=\"%(site_domain)s\">Förbannade lögner</a>.</p>\n"
+"\n"
+"<p>Om det inte var du som begärde denna ändring, kontakta oss på <em>#i18n:gnome.org</em> (<a href=\"https://handbook.gnome.org/get-in-touch.html#matrix\">mer om Matrix i GNOME-handboken</a>).</p>\n"
+"\n"
+"<p>Administratörsgruppen för Förbannade lögner</p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"%(username)s,\n"
+"\n"
+"Someone asked to update the email of your profile on %(site_domain)s.\n"
+"\n"
+"If you are not the one who requested this change, please contact us on the #i18n:gnome.org Matrix channel (https://handbook.gnome.org/get-in-touch.html#matrix).\n"
+"\n"
+"The administration team of Damned Lies"
+msgstr ""
+"%(username)s,\n"
+"\n"
+"Någon efterfrågade att uppdatera e-posten för din profil på %(site_domain)s.\n"
+"\n"
+"Om det inte var du som begärde denna ändring, kontakta oss på Matrix-kanalen #i18n:gnome.org (https://handbook.gnome.org/get-in-touch.html#matrix).\n"
+"\n"
+"Administratörsgruppen för Förbannade lögner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p>%(username)s,</p>\n"
+"\n"
+"<p>You asked for a connection link to <a href=\"%(site_domain)s\">Damned Lies</a> (%(site_domain)s). You can log in automatically as %(username)s by clicking the following link:</p>\n"
+"<a href=\"%(connection_link)s\">%(connection_link)s</a>\n"
+"\n"
+"<p>The link expires after five minutes (at %(expiration_date)s) and you can use it only once.</p>\n"
+"\n"
+"<p>If you are not the one who requested this connection, please contact us on <em>#i18n:gnome.org</em> (<a href=\"https://handbook.gnome.org/get-in-touch.html#matrix\">more on Matrix in the GNOME handbook</a>).</p>\n"
+"\n"
+"<p>The administration team of Damned Lies</p>"
+msgstr ""
+"<p>%(username)s,</p>\n"
+"\n"
+"<p>Du efterfrågade en anslutningslänk till <a href=\"%(site_domain)s\">Förbannade lögner</a> (%(site_domain)s). Du kan logga in automatiskt som %(username)s genom att klicka på följande länk:</p>\n"
+"<a href=\"%(connection_link)s\">%(connection_link)s</a>\n"
+"\n"
+"<p>Länken slutar gälla efter fem minuter (%(expiration_date)s) och du kan endast använda den en gång.</p>\n"
+"\n"
+"<p>Om det inte var du som begärde denna anslutning, kontakta oss på <em>#i18n:gnome.org</em> (<a href=\"https://handbook.gnome.org/get-in-touch.html#matrix\">mer om Matrix i GNOME-handboken</a>).</p>\n"
+"\n"
+"<p>Administratörsgruppen för Förbannade lögner</p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"%(username)s,\n"
+"\n"
+"You asked for a connection link to %(site_domain)s. You can log in automatically as %(username)s by clicking the following link:\n"
+"%(connection_link)s\n"
+"\n"
+"The link expires after five minutes (at %(expiration_date)s) and you can use it only once.\n"
+"\n"
+"If you are not the one who requested this connection, please contact us on the #i18n:gnome.org Matrix channel (https://handbook.gnome.org/get-in-touch.html#matrix).\n"
+"\n"
+"The administration team of Damned Lies"
+msgstr ""
+"%(username)s,\n"
+"\n"
+"Du efterfrågade en anslutningslänk till %(site_domain)s. Du kan logga in automatiskt som %(username)s genom att klicka på följande länk:\n"
+"%(connection_link)s\n"
+"\n"
+"Länken slutar gälla efter fem minuter (%(expiration_date)s) och du kan endast använda den en gång.\n"
+"\n"
+"Om det inte var du som begärde denna anslutning, kontakta oss på Matrix-kanalen #i18n:gnome.org (https://handbook.gnome.org/get-in-touch.html#matrix).\n"
+"\n"
+"Administratörsgruppen för Förbannade lögner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "%(username)s - GNOME Contributor"
+msgstr "%(username)s - GNOME-bidragsgivare"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "View on application’s backend"
+msgstr "Visa på programmets bakände"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Change your details and settings"
+msgstr "Ändra dina uppgifter och inställningar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Manage external authentication providers"
+msgstr "Hantera externa autentiseringsleverantörer"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Create an authentication token"
+msgstr "Skapa ett autentiseringstoken"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Are you sure you want to delete your authentication token?"
+msgstr "Är du säker på att du vill ta bort ditt autentiseringstoken?"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Delete the authentication token"
+msgstr "Ta bort autentiseringstoken"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Change your details"
+msgstr "Ändra dina uppgifter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Update personal details"
+msgstr "Uppdatera personlig information"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Delete your account"
+msgstr "Ta bort ditt konto"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Permanently delete your account and all associated data."
+msgstr "Ta permanent bort ditt konto och alla associerade data."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Delete my account"
+msgstr "Ta bort mitt konto"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You are about to permanently delete your account. This action cannot be "
+"undone."
+msgstr ""
+"Du håller på att permanent ta bort ditt konto. Denna åtgärd kan inte ångras."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"All your personal information will be removed from the system. Your "
+"translation contributions and activity history will remain in the system, "
+"but they will no longer be associated with your account."
+msgstr ""
+"All din personliga information kommer tas bort från systemet. Dina "
+"översättningsbidrag och aktivitetshistorik kommer kvarstå i systemet, men de"
+" kommer inte längre vara associerade med ditt konto."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You will receive a confirmation email once your account has been deleted."
+msgstr ""
+"Du kommer att få ett bekräftelsemeddelande på e-post då ditt konto har "
+"tagits bort."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Uid"
+msgstr "Uid"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Connected since"
+msgstr "Ansluten sedan"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"When your password is not set and you have only one provider connected, you "
+"cannot disconnect it."
+msgstr ""
+"När ditt lösenord inte ställts in och du endast har en leverantör ansluten "
+"så kan du inte koppla från den."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Disconnect %(provider_name)s"
+msgstr "Koppla från %(provider_name)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Connect with %(provider_name)s"
+msgstr "Anslut med %(provider_name)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Contributors"
+msgstr "GNOME-bidragsgivare"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME is being developed by following people:"
+msgstr "GNOME utvecklas av följande personer:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Create a New Account or Log in with a Connection Link"
+msgstr "Skapa ett nytt konto eller logga in med en anslutningslänk"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<b> You are trying to connect with a third party provider, and we don’t know"
+" you with this identity yet. </b> </br> If you already have a Damned Lies "
+"account, please log in using the Legacy Connection process and fill in your "
+"e-mail address to receive a connection link. You will be able to connect "
+"third party providers from your profile page."
+msgstr ""
+"<b> Du försöker ansluta med en tredjepartsleverantör, och vi känner inte "
+"till dig med denna identitet ännu. </b> </br> Om du redan har ett Förbannade"
+" lögner-konto, logga in med den äldre anslutningsprocessen och fyll i din "
+"e-postadress för att få en anslutningslänk. Du kommer kunna ansluta "
+"tredjepartsleverantörer från din profilsida."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Alternatively, if you don’t have a Damned Lies account, you can continue the"
+" process normally and create a new account."
+msgstr ""
+"Alternativt, om du inte har ett Förbannade lögner-konto, kan du fortsätta "
+"processen normalt och skapa ett nytt konto."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Legacy Connection"
+msgstr "Äldre anslutning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Continue and Create a New Account"
+msgstr "Fortsätt och skapa ett nytt konto"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Create a New Account"
+msgstr "Skapa ett nytt konto"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You are about to create a new account on Damned Lies. Please note that if "
+"you already have an account, the new account you create will not be linked "
+"to your existing account. You will not find your existing contributions in "
+"this account."
+msgstr ""
+"Du håller på att skapa ett nytt konto på Förbannade lögner. Notera att om du"
+" redan har ett konto kommer det nya kontot som du skapar inte länkas till "
+"ditt befintliga konto. Du kommer inte hitta dina befintliga bidrag på detta "
+"konto."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p> This is an automated message sent from <a "
+"href=\"%(site_domain)s\">Damned Lies</a> to inform you that <a "
+"href=\"%(site_domain)s/%(person_slug_url)s\">%(username)s</a> has just "
+"joined the team <a href=\"%(site_domain)s/%(team_slug_url)s\">%(team)s</a> "
+"you coordinate. </p>"
+msgstr ""
+"<p>Detta är ett automatiskt meddelande från <a "
+"href=\"%(site_domain)s\">Förbannade lögner</a> för att informera dig om att "
+"<a href=\"%(site_domain)s/%(person_slug_url)s\">%(username)s</a> just gått "
+"med i gruppen <a href=\"%(site_domain)s/%(team_slug_url)s\">%(team)s</a> som"
+" du koordinerar. </p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This is an automated message sent from Damned Lies (%(site_domain)s) to "
+"inform you that %(username)s (%(site_domain)s/%(person_slug_url)s) has just "
+"joined the team %(team)s (%(site_domain)s/%(team_slug_url)s) you coordinate."
+msgstr ""
+"Detta är ett automatiskt meddelande från Förbannade lögner (%(site_domain)s)"
+" för att informera dig om att %(username)s "
+"(%(site_domain)s/%(person_slug_url)s) just gått med i gruppen %(team)s "
+"(%(site_domain)s/%(team_slug_url)s) som du koordinerar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "avatar icon"
+msgstr "profilbildsikon"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "generic person icon"
+msgstr "allmän personikon"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "i18n coordination team member"
+msgstr "Medlem i gruppen för i18n-koordinering"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The requested user does not exist."
+msgstr "Den begärda användaren finns inte."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You did not register a GitLab account in your profile and are the "
+"coordinator of a translation team. If you do not have any yet, please "
+"register on the GNOME GitLab platform (%s) and indicate your username in "
+"your Damned Lies profile."
+msgstr ""
+"Du har inte registrerat något Gitlab-konto i din profil och är koordinator "
+"för en översättningsgrupp. Om du inte har något konto ännu kan du registrera"
+" dig på GNOMEs Gitlab-plattform (%s) och ange ditt användarnamn i din "
+"Förbannade lögner-profil."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You did not fill your real name in your profile. Your work can only be added"
+" to the project in your name if you fill it in."
+msgstr ""
+"Du fyllde inte i ditt riktiga namn i din profil. Ditt arbete kan bara läggas"
+" till i projektet i ditt namn om du fyller i det."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The GNOME GitLab username you set in your profile does not exist on %s. "
+"Please check your username or create an account if this is not done yet."
+msgstr ""
+"GNOME Gitlab-användarnamnet du angav i din profil finns inte på %s. "
+"Kontrollera ditt användarnamn eller skapa ett konto om du inte gjort detta "
+"ännu."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Someone requested to change the email address of your Damned Lies account"
+msgstr ""
+"Någon efterfrågade en ändring av e-postadressen för ditt Förbannade lögner-"
+"konto"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Confirm your new email address on Damned Lies"
+msgstr "Bekräfta din nya e-postadress på Förbannade lögner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You asked to modify the email of your account. You will receive an email to "
+"confirm your identity."
+msgstr ""
+"Du efterfrågade att ändra e-posten för ditt konto. Du kommer få ett "
+"e-postmeddelande för att bekräfta din identitet."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Sorry, the form is not valid."
+msgstr "Formuläret är tyvärr inte giltigt."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Your Damned Lies account has been deleted"
+msgstr "Ditt konto på Förbannade lögner har tagits bort"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The account ‘%(username)s’ has been successfully deleted from Damned Lies."
+msgstr "Kontot ”%(username)s” har tagits bort från Förbannade lögner."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You have not joined any translation team yet. You can do it from the <a "
+"href=\"%(url)s\">list of teams</a>."
+msgstr ""
+"Du har inte gått med i någon översättningsgrupp än. Du kan göra det från <a "
+"href=\"%(url)s\">grupplistan</a>."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Login unsuccessful. Please verify your username and password."
+msgstr "Inloggningen misslyckades. Verifiera ditt användarnamn och lösenord."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Your link to connect to Damned Lies"
+msgstr "Din länk för att ansluta till Förbannade lögner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"We have sent, at the email address you provided, a magic link to connect to "
+"your account. Open this link and you will be automatically connected. "
+"Beware, it expires after 5 minutes."
+msgstr ""
+"Vi har skickat en magisk länk för att ansluta till ditt konto till "
+"e-postadressen som du tillhandahållit. Öppna denna länk så kommer du "
+"automatiskt anslutas. Se upp, den slutar gälla efter 5 minuter."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "This magic link has expired. Please request a new one."
+msgstr "Denna magiska länk är inaktuell. Begär en ny."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The token you are trying to login with is invalid."
+msgstr "Den token du försöker logga in med är ogiltig."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "This magic link belongs to a different account."
+msgstr "Denna magiska länk hör till ett annat konto."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The token you are using to validate your email is invalid."
+msgstr "Den token som du använder för att validera din e-post är ogiltig."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "This email update link belongs to a different account."
+msgstr "Denna e-postuppdateringslänk hör till ett annat konto."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"%(username)s, your email has been successfully updated to %(new_email)s."
+msgstr "%(username)s, din e-post har uppdaterats till %(new_email)s."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The authentication link you provided is invalid and cannot be used to login."
+" The authentication token may have expired or never existed."
+msgstr ""
+"Autentiseringslänken du tillhandahöll är ogiltig och kan inte användas för "
+"att logga in. Din autentiseringstoken kan ha gått ut eller kanske aldrig "
+"funnits."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Forge"
+msgstr "Smedja"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Repository"
+msgstr "Arkiv"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Link check"
+msgstr "Länkkontroll"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "DOAP file"
+msgstr "DOAP-fil"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Branches without release"
+msgstr "Grenar utan någon utgåva"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "POT Generation Parameters"
+msgstr "POT-genereringsparametrar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Domain restriction over branches"
+msgstr "Domänbegränsning över grenar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Please copy only one release at a time"
+msgstr "Kopiera bara en utgåva åt gången"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "New release %(name)s created"
+msgstr "Ny utgåva %(name)s skapad"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Copy release (and associated branches)"
+msgstr "Kopiera utgåva (och tillhörande grenar)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Delete release (and associated branches)"
+msgstr "Ta bort utgåva (och tillhörande grenar)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Application catalog"
+msgstr "Programkatalog"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "You have to provide a category when a version is specified."
+msgstr "Du måste tillhandahålla en kategori när en version anges."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "This branch already has this release assigned."
+msgstr "Denna gren har redan denna utgåva tilldelad."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "This field is required."
+msgstr "Detta fält är obligatoriskt."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"There is already an entry for branch %(branch)s. Edit that one if you want "
+"to remove the release link."
+msgstr ""
+"Det finns redan en post för grenen %(branch)s. Redigera den om du vill ta "
+"bort utgåvelänken."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The new branch %s has been added"
+msgstr "Den nya grenen %s har lagts till"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Error adding the branch '%(branch_name)s': %(error)s"
+msgstr "Fel vid tillägg av grenen ”%(branch_name)s”: %(error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Opening a merge or pull request is not supported for the selected forge."
+msgstr ""
+"Det går inte att öppna en merge- eller pull-begäran för den valda smedjan."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Cannot clone repository for module: %s"
+msgstr "Kan inte klona arkiv för modul: %s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Content of the DOAP file of your module."
+msgstr "Innehållet i DOAP-filen för din modul."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GitLab"
+msgstr "GitLab"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GitHub"
+msgstr "GitHub"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Other / unknown forge"
+msgstr "Annan / okänd smedja"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Directly pushed to the repository"
+msgstr "Direkt skickad till arkivet"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Through a merge/pull request"
+msgstr "Genom en merge/pull-förfrågan"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Single checkout shared by all branches"
+msgstr "Ensam utcheckning delad av alla grenar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "One worktree per branch"
+msgstr "Ett arbetsträd per gren"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The homepage URL is automatically updated if the module contains a .doap "
+"file."
+msgstr ""
+"Webbside-URL:en uppdateras automatiskt om modulen innehåller en .doap-fil."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"A short description of the module. It will be displayed on the module page, "
+"close to the module name."
+msgstr ""
+"En kort beskrivning av modulen. Den kommer visas på modulsidan, nära "
+"modulnamnet."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Comment & more"
+msgstr "Kommentar med mera"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"A comment about the module. It is used to display additional information on "
+"the module page such as context, explanation or put external links."
+msgstr ""
+"En kommentar om modulen. Den används för att visa ytterligare information på"
+" modulsidan såsom kontext, förklaring eller för att lägga in externa länkar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Commit message template"
+msgstr "Incheckningsmeddelandemall"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"A Django template used to render the title line of translation commits, "
+"overriding the default “Add/Update {{ language }} translation” message. "
+"Available variables: {{ module }}, {{ branch }}, {{ domain }}, {{ language "
+"}} and {{ po_file_already_exists }} (true when updating an existing "
+"translation, false when adding a new one). Leave empty to use the default "
+"message."
+msgstr ""
+"En Django-mall som används för att rendera titelraden i "
+"översättningsincheckningar, vilket åsidosätter standardmeddelandet "
+"”Add/Update {{ language }} translation”. Tillgängliga variabler: {{ module "
+"}}, {{ branch }}, {{ domain }}, {{ language }} och {{ po_file_already_exists"
+" }} (true när en befintlig översättning uppdateras, false när en ny läggs "
+"till). Lämna tom för att använda standardmeddelandet."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The forge hosting this module’s repository."
+msgstr "Smedjan som står värd för denna moduls arkiv."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Push action"
+msgstr "Sändåtgärd"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"How changes are published to this module. Direct push is the default; "
+"opening a merge or pull request is only supported on GitLab and GitHub."
+msgstr ""
+"Hur ändringar publiceras till denna modul. Direkt ”push” är standard, stöd "
+"finns för merge- eller pull-förfrågningar för GitLab och GitHub."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Checkout type"
+msgstr "Utcheckningstyp"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"How the module’s branches are checked out on disk. A single shared checkout "
+"is the default; one worktree per branch allows concurrent checkouts of the "
+"module’s branches. Switch to worktree mode if the repository has a lot of "
+"objects and checking out from one branch to another takes a very long time."
+msgstr ""
+"Hur modulens grenar checkas ut på disk. En ensam delad utcheckning är "
+"standard; ett arbetsträd per gren tillåter samtidiga utcheckningar av "
+"modulens grenar. Växla till arbetsträdsläge om arkivet har många objekt och "
+"att checka ut från en gren till en annan tar väldigt lång tid."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Issue tracker URL"
+msgstr "URL till ärendehanteringssystem"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The URL to the module’s bug tracker."
+msgstr "URL:en till modulens felhanteringssystem."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Version Control System URL (SSH)"
+msgstr "URL för versionshanteringssystem (SSH)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The URL to the module’s version control system. In order to commit changes, "
+"it has to be a SSH URL."
+msgstr ""
+"URL:en till modulens versionshanteringssystem. För att checka in ändringar "
+"behöver det vara en SSH-URL."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Version Control System URL (Web)"
+msgstr "URL för versionshanteringssystem (webb)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The URL to the module’s version control system web interface."
+msgstr "URL:en till webbgränssnittet för modulens versionshanteringssystem."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "External platform"
+msgstr "Extern platform"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"URL to external translation platform, if any. It has to be an unsupported "
+"platform, without Git access, the only supported protocol."
+msgstr ""
+"URL till extern översättningsplattform om någon finns. Måste vara en "
+"plattform som inte stöds, utan Git-åtkomst, det enda protokoll som stöds."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Archived"
+msgstr "Arkiverad"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"If checked, the module is considered as archived and will not be updated."
+msgstr "Om ikryssad anses modulen vara arkiverad och kommer inte uppdateras."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The list of maintainers is automatically updated if the module contains a "
+".doap file."
+msgstr ""
+"Listan över ansvariga uppdateras automatiskt om modulen innehåller en .doap-"
+"fil."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Link check date"
+msgstr "Datum för länkkontroll"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The date and time when the module’s links were last checked."
+msgstr "Datum och tid när modulens länkar senast kontrollerades."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Link check result"
+msgstr "Resultat av länkkontroll"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The result of the last link check, as a JSON object."
+msgstr "Resultat av senaste länkkontroll, som ett JSON-objekt."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "DOAP check date"
+msgstr "Datum för DOAP-kontroll"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The date and time when the module’s .doap file was last loaded."
+msgstr "Datum och tid då modulens .doap-fil senast lästes in."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "DOAP check result"
+msgstr "Resultat av DOAP-kontroll"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The problems found the last time the module’s .doap file was loaded."
+msgstr "Problemen som hittades när modulens .doap-fil senast lästes in."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "This name generates a slug that is already in use."
+msgstr "Det här namnet ger en slug som redan används."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Opening a merge or pull request is only supported on GitLab and GitHub. Set "
+"the forge, or switch the push action to direct push."
+msgstr ""
+"Att öppna en merge- eller pull-förfrågan stöds endast på GitLab och GitHub. "
+"Ställ in smedjan, eller växla sändåtgärden till direkt ”push”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Invalid template syntax: %(error)s"
+msgstr "Ogiltig mallsyntax: %(error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Translations for this module are externally hosted. Please go to the <a "
+"href=\"%(link)s\">external platform</a> to see how you can submit your "
+"translation."
+msgstr ""
+"Översättningar för denna modul hanteras externt. Gå till den <a "
+"href=\"%(link)s\">externa plattformen</a> för att se hur du kan skicka in "
+"din översättning."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The name of the branch, such as “master” or “gnome-3-10”."
+msgstr "Namnet på grenen, såsom ”master” eller ”gnome-3-10”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "VCS sub path"
+msgstr "Undersökväg för versionshanteringssystem"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Version Control System subpath. Where the .git is located for a Git managed "
+"project."
+msgstr ""
+"Undersökväg för versionshanteringssystem. Där .git finns för ett projekt "
+"hanterat med Git."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Weight is used to order branches. The smaller weights are displayed first."
+msgstr "Vikt används för att sortera grenar. De mindre vikterna visas först."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "File Hashes"
+msgstr "Filhashar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Indicates whether the branch is locked. Locked branches cannot receive "
+"translations."
+msgstr ""
+"Indikerar huruvida grenen är låst. Låsta grenar kan inte ta emot nya "
+"översättningar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "This branch is not linked from any release."
+msgstr "Denna gren är inte länkad från någon utgåva."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This branch name is ‘%(branch_name)s’ while there already exists a branch "
+"that points to HEAD (called %(branch_head_names)s)."
+msgstr ""
+"Denna grens namn är ”%(branch_name)s” medan det redan finns en gren som "
+"pekar på HEAD (med namnet %(branch_head_names)s)."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"There are too many main branches for this module. Please report this issue "
+"to the coordination team, some cleanup is needed."
+msgstr ""
+"Det finns för många huvudgrenar för denna modul. Rapportera detta problem "
+"till koordineringsgruppen, rensning behövs."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The name of the domain (ie. “po”, “help”…)"
+msgstr "Namnet på domänen (t.ex. ”po”, ”help”…)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"A description of the domain. “%(ui)s” and “%(doc)s” are common descriptions "
+"for modules."
+msgstr ""
+"En beskrivning av domänen. ”%(ui)s” och ”%(doc)s” är vanliga beskrivningar "
+"för moduler."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Domain type"
+msgstr "Domäntyp"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Whether the Domain is for a user interface (%(ui)s) or a documentation "
+"(%(doc)s)."
+msgstr ""
+"Huruvida domänen är för ett användargränssnitt (%(ui)s) eller dokumentation "
+"(%(doc)s)."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "PO files layout"
+msgstr "PO-fillayout"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The standard for the user interface is “%(po_layout_for_ui)s”. For the "
+"documentation, it’s “%(po_layout_for_help)s”."
+msgstr ""
+"Standard för användargränssnittet är ”%(po_layout_for_ui)s”. För "
+"dokumentationen är det ”%(po_layout_for_help)s”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "POT generation method"
+msgstr "POT-genereringsmetod"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The method to generate the POT file."
+msgstr "Metoden för att generera POT-filen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "POT generation parameters"
+msgstr "POT-genereringsparametrar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"pot_method='url': URL, pot_method='shell': shell command, "
+"pot_method='gettext': optional params"
+msgstr ""
+"pot_method='url': URL, pot_method='shell': skalkommando, "
+"pot_method='gettext': valfria parametrar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Extra ITS directories"
+msgstr "Extra ITS-kataloger"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Colon-separated directories containing extra .its/.loc files for gettext and"
+" shell methods"
+msgstr ""
+"Kolonseparerade kataloger som innehåller extra .its/.loc-filer för gettext "
+"och skalmetoder"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "LINGUAS file location"
+msgstr "Plats för LINGUAS-fil"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Use “%s” for no LINGUAS check, or path/to/file#variable for a non-standard location.\n"
+"Leave blank for standard location (ALL_LINGUAS in LINGUAS/configure.ac/.in for UI and DOC_LINGUAS in Makefile.am for DOC). This value is used to check if a language is correctly listed in the LINGUAS file. In many situations, the LINGUAS files should contain all the languages for which a translation exists."
+msgstr ""
+"Använd ”%s” för att inte ha någon LINGUAS-kontroll, eller sökväg/till/fil#variabel för en plats annan än den som är standard.\n"
+"Lämna tom för standardplats (ALL_LINGUAS i LINGUAS/configure.ac/.in för UI och DOC_LINGUAS i Makefile.am för DOC). Detta värde används för att kontrollera om ett språk listas korrekt i LINGUAS-filen. I många situationer ska LINGUAS-filen innehålla alla språken som det finns en översättning för."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Reduced string filter"
+msgstr "Filter för reducerade strängar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"A “%s” filter to strip po file from unprioritized strings (format: "
+"location|string, “-” for no filter)"
+msgstr ""
+"Ett ”%s”-filter för att ta bort lågprioritetssträngar från po-filer (format:"
+" plats|sträng, ”-” för inget filter)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Valid from branch"
+msgstr "Giltig från gren"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The domain is valid from the branch given, for all branches otherwise."
+msgstr "Domänen är giltig från den angivna grenen, annars för alla grenar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Valid to branch"
+msgstr "Giltig till gren"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"If empty, the domain is valid for all branches or until the branch given."
+msgstr "Om tom är domänen giltig för alla grenar eller till grenen anges."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Unable to determine the PO path for this domain in language “%(lang)s”"
+msgstr "Kunde inte avgöra PO-sökvägen för denna domän i språket ”%(lang)s”"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "This domain is not a documentation domain."
+msgstr "Denna domän är inte en dokumentationsdomän."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"No check of the LINGUAS file. The “%(linguas_location)s” value is set to "
+"“%(value)s”."
+msgstr ""
+"Ingen kontroll av LINGUAS-filen. Värdet ”%(linguas_location)s” är satt till "
+"”%(value)s”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The LINGUAS file is stored at “%(linguas_location)s” but does not exist on "
+"the disk. %(diagnostic)sPlease update the settings so that the LINGUAS file "
+"could be found and updated."
+msgstr ""
+"LINGUAS-filen lagras på ”%(linguas_location)s” men finns inte på disken. "
+"%(diagnostic)sUppdatera inställningarna så att LINGUAS-filen kan hittas och "
+"uppdateras."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"A “%(makefile)s” file was found and lists languages in a variable instead of"
+" a separate LINGUAS file; Damned Lies does not support editing that variable"
+" yet. "
+msgstr ""
+"En ”%(makefile)s”-fil hittades och listar språk i en variabel i stället för "
+"en separat LINGUAS-fil. Förbannade lögner stöder inte redigering av den "
+"variabeln ännu. "
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Entry for this language is not present in %(var)s variable in %(file)s file."
+msgstr ""
+"Post för det här språket finns inte i variabeln %(var)s i filen %(file)s."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Domain dtype should be “%(dtype_ui)s” or “%(dtype_doc)s”."
+msgstr "Domänens dtype ska vara ”%(dtype_ui)s” eller ”%(dtype_doc)s”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The name of the release. You should use a slug, a unique identifier for this"
+" release, such as “gnome-40”. This information is used in URLs."
+msgstr ""
+"Namnet på utgåvan. Du bör använda en ”slug”, en unik identifierare för denna"
+" utgåva, som ”gnome-40”. Denna information används i URL:er."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The real name of the release, such as “GIMP 2.8” or “GNOME 40”"
+msgstr "Det riktiga namnet på utgåvan, som ”GIMP 2.8” eller ”GNOME 40”"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "String frozen"
+msgstr "Strängfryst"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Whether the strings are frozen for this release."
+msgstr "Huruvida strängarna är frysta för denna utgåva."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The status of the release: whether it is official or not."
+msgstr "Statusen för utgåvan: huruvida den är officiell eller inte."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The weight is used to sort releases, higher on top, below 0 in archives."
+msgstr ""
+"Vikten används för att sortera utgåvor, högre högst upp, under 0 i arkiv."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Category name"
+msgstr "Kategorinamn"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Full PO file"
+msgstr "Fullständig PO-fil"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Partial PO file"
+msgstr "Partiell PO-fil"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "%(lang_name)s (%(lang_locale)s)"
+msgstr "%(lang_name)s (%(lang_locale)s)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "(%(messages)s — %(words)s, %(figures)s)"
+msgstr "(%(messages)s — %(words)s, %(figures)s)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "(%(messages)s — %(words)s)"
+msgstr "(%(messages)s — %(words)s)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Unable to summarize the POT statistics, the file is missing."
+msgstr "Kunde inte sammanfatta POT-statistiken, filen saknas."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Broken links detected for module ‘%(module_name)s’"
+msgstr "Trasiga länkar upptäckta för modulen ”%(module_name)s”"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Module ‘%(module_name)s’ was automatically archived"
+msgstr "Modulen ”%(module_name)s” arkiverades automatiskt"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "New branches automatically added to database"
+msgstr "Nya grenar automatiskt tillagda till databas"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Unable to initialize the GitLab client because the authentication failed."
+msgstr ""
+"Kunde inte initiera GitLab-klienten för att autentiseringen misslyckades."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Unable to create GitLab issue."
+msgstr "Kunde inte skapa GitLab-ärende."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The .doap file is not a valid XML document."
+msgstr ".doap-filen är inte ett giltigt XML-dokument."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The .doap file does not list any maintainer."
+msgstr ".doap-filen listar ingen underhållare."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"A maintainer has no name (foaf:name), so they were not added to the module."
+msgstr ""
+"En underhållare saknar namn (foaf:name) och lades därför inte till i "
+"modulen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The maintainer %(name)s has no email (foaf:mbox), so they were not added to "
+"the module."
+msgstr ""
+"Underhållaren %(name)s saknar e-postadress (foaf:mbox) och lades därför inte"
+" till i modulen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Unable to generate template file (POT). The POT generation process itself "
+"did not fail, but the POT file does not exist on disk."
+msgstr ""
+"Kunde inte generera mallfil (POT). POT-genereringsprocessen i sig "
+"misslyckades inte, men POT-filen finns inte på disk."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The refresh process has not started yet."
+msgstr "Uppdateringsprocessen har inte startat ännu."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No refresh in progress."
+msgstr "Ingen uppdatering pågår."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The refresh process was aborted."
+msgstr "Uppdateringsprocessen avbröts."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The refresh process failed."
+msgstr "Uppdateringsprocessen misslyckades."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Processing domain “%(domain)s”: %(step)s"
+msgstr "Bearbetar domänen ”%(domain)s”: %(step)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The refresh process completed successfully."
+msgstr "Uppdateringsprocessen slutfördes."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The task failed without a specific error message."
+msgstr "Uppgiften misslyckades utan något specifikt felmeddelande."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"An error occurred while starting the refresh process. Please try again later"
+" or if the problem persists, contact the site administration."
+msgstr ""
+"Ett fel inträffade då uppdateringsprocessen startades. Försök igen senare, "
+"eller kontakta webbplatsadministrationen om problemet kvarstår."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The refresh service is currently unavailable. Please try again later or if "
+"the problem persists, contact the site administration."
+msgstr ""
+"Uppdateringstjänsten för närvarande otillgänglig. Försök igen senare, eller "
+"kontakta webbplatsadministrationen om problemet kvarstår."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Checking domain presence…"
+msgstr "Kontrollerar att domänen finns…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Checking out the branch…"
+msgstr "Checkar ut grenen…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Checking POT files…"
+msgstr "Kontrollerar POT-filer…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Errors while running “intltool-update -m” check."
+msgstr "Fel vid körning av ”intltool-update -m”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "There are some missing files from POTFILES.in: %s"
+msgstr "Det saknas filer i POTFILES.in: %s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Following files are referenced in either POTFILES.in or POTFILES.skip, yet "
+"they don’t exist: %s"
+msgstr ""
+"Följande filer refereras till i antingen POTFILES.in eller POTFILES.skip, "
+"men de finns inte: %s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Generating the POT file…"
+msgstr "Genererar POT-filen…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Reading the LINGUAS file…"
+msgstr "Läser LINGUAS-filen…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Refreshing the POT file…"
+msgstr "Uppdaterar POT-filen…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Can’t generate template file (POT), using old one."
+msgstr "Kan inte generera mallfil (POT), använder den gamla."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Can’t generate template file (POT), statistics aborted."
+msgstr "Kan inte generera mallfil (POT), statistiken avbruten."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Unable to send notification to GitLab, hence, no notification was sent to "
+"GitLab. The administration team will be notified about this issue. The error"
+" was: %(error)s."
+msgstr ""
+"Kunde inte skicka avisering till GitLab, så ingen sådan skickades till "
+"GitLab. Administratörsgruppen kommer meddelas om detta problem. Felet var: "
+"%(error)s."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Replacing the old POT file with the new one…"
+msgstr "Ersätter den gamla POT-filen med den nya…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Can’t copy new template file (POT) to public location."
+msgstr "Kan inte kopiera ny mallfil (POT) till publik plats."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Updating PO files in languages: “%(locale)s”…"
+msgstr "Uppdaterar PO-filer i språk: ”%(locale)s”…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Updating PO files in languages…"
+msgstr "Uppdaterar PO-filer i språk…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Unable to update the PO file in “%(locale)s” using the newly created POT for"
+" %(module)s/%(branch)s"
+msgstr ""
+"Kunde inte uppdatera PO-filen i ”%(locale)s” med den nyskapade POT-filen för"
+" %(module)s/%(branch)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The language “%(language)s” is not listed in the LINGUAS file for the domain"
+" “%(domain)s”."
+msgstr ""
+"Språket ”%(language)s” är inte listat i filen LINGUAS för domänen "
+"”%(domain)s”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "PO file “%s” is not UTF-8 encoded."
+msgstr "PO-filen ”%s” är inte UTF-8-kodad."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "This PO file has an executable bit set."
+msgstr "Den här PO-filen har fått den körbara biten inställd."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "PO file “%s” does not pass “msgfmt -vc” checks."
+msgstr "PO-filen ”%s” klarade inte ”msgfmt -vc”-kontrollerna."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "PO File is not found on the system."
+msgstr "PO-filen hittades inte på systemet."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Cleaning up obsolete statistics…"
+msgstr "Rensar gammal statistik…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Updating module information with DOAP file…"
+msgstr "Uppdaterar modulinformation med DOAP-fil…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"An error occurred while committing ‘%(po_file)s’ for module %(module)s in "
+"branch %(branch)s: %(error)s"
+msgstr ""
+"Ett fel uppstod vid incheckning av ”%(po_file)s” för modulen %(module)s i "
+"grenen %(branch)s: %(error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"An error occurred while pushing the commit for module %(module)s in branch "
+"%(branch)s: %(error)s"
+msgstr ""
+"Ett fel uppstod vid ”push” av incheckning för modulen %(module)s i grenen "
+"%(branch)s: %(error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"An error occurred while pushing the references to the remote for module "
+"%(module)s in branch %(branch)s: %(error)s"
+msgstr ""
+"Ett fel uppstod vid ”push” av referenserna till fjärren för modulen "
+"%(module)s i grenen %(branch)s: %(error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"An error occurred while removing the repository for module %(module)s in "
+"branch %(branch)s: %(error)s"
+msgstr ""
+"Ett fel uppstod vid borttagning av arkivet för modulen %(module)s i grenen "
+"%(branch)s: %(error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"An error occurred while checking out the repository for module %(module)s in"
+" branch %(branch)s: %(error)s"
+msgstr ""
+"Ett fel uppstod vid utcheckning av arkivet för modulen %(module)s i grenen "
+"%(branch)s: %(error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"An error occurred while updating the module %(module)s in branch %(branch)s:"
+" %(error)s"
+msgstr ""
+"Ett fel uppstod vid uppdatering av modulen %(module)s i grenen %(branch)s: "
+"%(error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"An error occurred while cherry-picking commit for module %(module)s in "
+"branch %(branch)s: %(error)s"
+msgstr ""
+"Ett fel uppstod vid ”cherry-pick” av incheckning för modulen %(module)s i "
+"grenen %(branch)s: %(error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The repository %s is read-only. It is not possible to create commits."
+msgstr ""
+"Arkivet %s är skrivskyddat. Det är inte möjligt att skapa incheckningar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Unable to determine the location of the LINGUAS file: %(reason)s Adding the "
+"language code in the LINGUAS file is mandatory to add a new translation."
+msgstr ""
+"Kunde inte avgöra platsen för LINGUAS-filen: %(reason)s Att lägga till "
+"språkkoden i LINGUAS-filen är obligatoriskt för att lägga till en ny "
+"översättning."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The PO file path could not be determined. No commit will be emitted."
+msgstr ""
+"PO-filens sökväg kunde inte avgöras. Ingen incheckning kommer sändas ut."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No PO file was provided to update statistics."
+msgstr "Ingen PO-fil angavs för att uppdatera statistiken."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Error while updating statistics using “%(file_path)s”. The file may not "
+"exist on disk or is unreadable."
+msgstr ""
+"Fel vid uppdatering av statistik med ”%(file_path)s”. Filen kanske inte "
+"finns på disken eller är oläsbar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This module has been archived. It is only kept for statistical purposes. "
+"Please don’t translate it any more."
+msgstr ""
+"Denna modul har arkiverats. Den behålls enbart för att föra statistik. "
+"Översätt den inte längre."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Some links for this module appear to be broken and may need to be updated."
+msgstr ""
+"Vissa länkar för denna modul verkar vara trasiga och kan behöva uppdateras."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You can fix this by going to the <a href=\"%(module_edit_url)s\">module "
+"edition page</a> and updating the broken links."
+msgstr ""
+"Du kan fixa detta genom att gå till <a "
+"href=\"%(module_edit_url)s\">modulredigeringssidan</a> och uppdatera de "
+"trasiga länkarna."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Ask the module maintenance team or platform coordination team to update the "
+"links."
+msgstr ""
+"Fråga gruppen för modulunderhåll eller plattformskoordinering om att "
+"uppdatera länkarna."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Some information in the .doap file of this module could not be used, so the "
+"module details on this page may be incomplete."
+msgstr ""
+"Viss information i modulens .doap-fil kunde inte användas, så "
+"moduluppgifterna på denna sida kan vara ofullständiga."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Module maintainers can fix this by updating the .doap file in the module’s "
+"repository. They can <a href=\"%(doap_check_url)s\">check the new file</a> "
+"before pushing it."
+msgstr ""
+"Modulunderhållare kan rätta till detta genom att uppdatera .doap-filen i "
+"modulens källförråd. De kan <a href=\\\"%(doap_check_url)s\\\">kontrollera "
+"den nya filen</a> före uppladdning."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Last check of the .doap file: %(check_date)s"
+msgstr "Senaste kontroll av .doap-filen: %(check_date)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Modules I maintain"
+msgstr "Moduler jag underhåller"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Modules you maintain, listed here so you can reach their translation status "
+"in one click."
+msgstr ""
+"Moduler du underhåller, listade här så du kan nå deras översättningsstatus "
+"med ett klick."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "This module is archived and read-only."
+msgstr "Denna modul är arkiverad och skrivskyddad."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "You maintain this module."
+msgstr "Du är ansvarig för denna modul"
+
+#. from gnome:reviewed/damned-lies/main
+msgctxt "refers to a module"
+msgid "Maintained"
+msgstr "Underhålls"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This branch has been locked. Please don't translate it anymore and report "
+"your efforts on other branches."
+msgstr ""
+"Denna gren är låst. Översätt den inte mera och rapportera dina "
+"ansträngningar på andra grenar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Check your DOAP"
+msgstr "Kontrollera din DOAP"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Check and Validate a <code>.doap</code> File"
+msgstr "Kontrollera och validera en <code>.doap</code>-fil"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Damned Lies reads the maintainers, the homepage and the bug tracker of a "
+"module from the <code>.doap</code> file at the root of its repository. Paste"
+" the content of the file below to see what Damned Lies would read from it, "
+"and what it cannot use. Nothing is saved. Read the documentation about the "
+"<a href=\"%(url)s\">DOAP file Formatting</a> in case you need more "
+"information."
+msgstr ""
+"Damned Lies läser underhållare, webbplats och felrapporteringssystem för en "
+"modul från <code>.doap</code>-filen i källförrådets rot. Klistra in filens "
+"innehåll nedan för att se vad Damned Lies skulle läsa från den och vad som "
+"inte kan användas. Ingenting sparas. Läs dokumentationen om <a "
+"href=\\\"%(url)s\\\">formatering av DOAP-filer</a> om du behöver mer "
+"information."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Some information in this DOAP cannot be used:"
+msgstr "Viss information i denna DOAP kan inte användas:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No problem found in this DOAP."
+msgstr "Inga problem hittades i denna DOAP."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Validate and check DOAP"
+msgstr "Validera och kontrollera DOAP"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Information Extracted from the DOAP File"
+msgstr "Information extraherad från DOAP-filen"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Responsible for Maintenance"
+msgstr "Ansvarig för underhåll"
+
+#. from gnome:reviewed/damned-lies/main
+msgctxt "DOAP maintainer"
+msgid "None"
+msgstr "Ingen"
+
+#. from gnome:reviewed/damned-lies/main
+msgctxt "DOAP homepage"
+msgid "None"
+msgstr "Ingen"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Bug tracker"
+msgstr "Felrapporteringssystem"
+
+#. from gnome:reviewed/damned-lies/main
+msgctxt "DOAP bug tracker"
+msgid "None"
+msgstr "Ingen"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Module Statistics: %(name)s"
+msgstr "Modulstatistik: %(name)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You are about to force statistics refresh for that branch. This action can "
+"take several minutes. Are you sure you want to proceed?"
+msgstr ""
+"Du håller på att tvinga en statistikuppdatering för den grenen. Denna åtgärd"
+" kan ta flera minuter. Är du säker på att du vill fortsätta?"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Project Homepage"
+msgstr "Projektwebbsida"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Update Module"
+msgstr "Uppdatera modul"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Maintenance"
+msgstr "Underhåll"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Bug reporting"
+msgstr "Felrapportering"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Sorry, no known locations to report bugs for this module."
+msgstr ""
+"Känner tyvärr inte till några platser för att rapportera fel för denna "
+"modul."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Show existing i18n and l10n bugs"
+msgstr "Visa befintliga felrapporter (i18n och l10n)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Report a bug"
+msgstr "Rapportera ett fel"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Branches:"
+msgstr "Grenar:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Expand or collapse statistics for this branch"
+msgstr "Expandera eller fäll ihop statistik för denna gren"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Browse Repository"
+msgstr "Bläddra i arkiv"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Refresh branch statistics"
+msgstr "Uppdatera grenstatistik"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Editing module: %(name)s"
+msgstr "Redigerar modul: %(name)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Editing module properties"
+msgstr "Redigerar modulegenskaper"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "New branch name"
+msgstr "Nytt grennamn"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Domains"
+msgstr "Domäner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Show/Hide Advanced Options"
+msgstr "Visa/dölj avancerade alternativ"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Module Doc Figure Status: %(name)s"
+msgstr "Bildstatus för moduldokumentation: %(name)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Figures translation status"
+msgstr "Status för lokalanpassade bilder"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Screenshot for original figure"
+msgstr "Skärmbild för originalbild"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Screenshot for translated figure"
+msgstr "Skärmbild för översatt bild"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Translated, but uses original one (maybe the figure doesn’t contain any "
+"string to translate)"
+msgstr ""
+"Översatt, men använder originalet (kanske bilden inte innehåller någon "
+"sträng att översätta)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Fuzzy"
+msgstr "Luddiga"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No existing file (“Technical” fuzzy)"
+msgstr "Ingen befintlig fil (”Tekniskt” luddig)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Not translated"
+msgstr "Inte översatt"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Empty icon"
+msgstr "Tom ikon"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Modules"
+msgstr "GNOME-moduler"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Translation state in %(user_language)s (%(language_code)s)"
+msgstr "Översättningstillstånd för %(user_language)s (%(language_code)s)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Select a module below to see some damned lies about it. The translation "
+"percentages you see are computed based on the main module branch (that might"
+" be called <code>master</code>, <code>main</code>, <code>trunk</code>, "
+"etc.). Translation badges show statistics about the translation percentage "
+"for both the User Interface and the Documentation. The badge is <span "
+"class=\"badge text-bg-success\">green</span> when the translation is 100%%, "
+"<span class=\"badge text-bg-warning\">orange</span> between 96%% and 100%%. "
+"Otherwise, it will be displayed in <span class=\"badge text-bg-"
+"danger\">red</span>. UI or documentation po files might be missing. In this "
+"case, the <span class=\"badge text-bg-secondary\">UI missing</span> or <span"
+" class=\"badge text-bg-secondary\">Doc. missing</span> is shown. When there "
+"are multiple domains for a module, whether for the User Interface or the "
+"Documentation, the mean of all the statistics is displayed."
+msgstr ""
+"Välj en modul nedan för att se några förbannade lögner om den. "
+"Översättningsprocenten du ser beräknas baserat på huvudmodulgrenen (som kan "
+"kallas <code>master</code>, <code>main</code>, <code>trunk</code> eller "
+"dylikt). Översättningsemblem visar statistik om översättningsprocenten för "
+"både användargränssnitt och dokumentation. Emblemet är <span class=\"badge "
+"text-bg-success\">grönt</span> när översättningen är 100 %% och <span "
+"class=\"badge text-bg-warning\">orange</span> när den är mellan 96 %% och "
+"100 %%. I annat fall kommer det att visas i <span class=\"badge text-bg-"
+"danger\">rött</span>. Po-filer för användargränssnitt eller dokumentation "
+"kan saknas. I så fall så kommer <span class=\"badge text-bg-secondary\">UI "
+"saknas</span> eller <span class=\"badge text-bg-secondary\">Dok. "
+"saknas</span> att visas. När det finns flera domäner för en modul, vare sig "
+"det är för användargränssnitt eller dokumentation, så kommer genomsnittet av"
+" all statistik att visas."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Translation percentage of the User Interface on the main branch."
+msgstr "Översättningsprocent för användargränssnittet på huvudgrenen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "UI %(translated_ui_percentage)s%%"
+msgstr "UI %(translated_ui_percentage)s%%"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Translation percentage of the User Interface on the main branch is missing."
+msgstr "Översättningsprocent för användargränssnittet på huvudgrenen saknas."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "UI missing"
+msgstr "UI saknas"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Translation percentage of the Documentation on the main branch."
+msgstr "Översättningsprocent för dokumentationen på huvudgrenen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Doc. %(translated_doc_percentage)s%%"
+msgstr "Dok. %(translated_doc_percentage)s%%"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Translation percentage of the Documentation on the main branch is missing."
+msgstr "Översättningsprocent för dokumentationen på huvudgrenen saknas."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Doc. missing"
+msgstr "Dok. saknas"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Check and Validate a <code>.doap</code> File."
+msgstr "Kontrollera och validera en <code>.doap</code>-fil."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Archived modules"
+msgstr "Arkiverade moduler"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"These modules are archived and read-only. They are no longer maintained and "
+"translation percentages are not displayed for them."
+msgstr ""
+"Dessa moduler är arkiverade och skrivskyddade. De underhålls inte längre och"
+" översättningsprocent visas inte för dem."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Releases Comparison"
+msgstr "Jämförelse av utgåvor"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "%(name)s Release"
+msgstr "Utgåvan %(name)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Releases"
+msgstr "GNOME-utgåvor"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Select a release below to see more details about it. A release is a "
+"collection of module branches."
+msgstr ""
+"Välj en utgåva nedan för att se mer detaljer om den. En utgåva är en samling"
+" av modulgrenar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Expand or collapse the category"
+msgstr "Expandera eller fäll ihop kategorin"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Older Releases"
+msgstr "Äldre utgåvor"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p> This is an automated message sent from <a "
+"href=\"%(site_domain)s\">Damned Lies</a> to inform you that the module <a "
+"href=\"%(site_domain)s%(module_url)s\">%(module_name)s</a> has broken links "
+"that need attention. </p>"
+msgstr ""
+"<p>Detta är ett automatiskt meddelande från <a "
+"href=\"%(site_domain)s\">Förbannade lögner</a> för att informera dig om att "
+"modulen <a href=\"%(site_domain)s%(module_url)s\">%(module_name)s</a> har "
+"trasiga länkar som behöver ses över. </p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The following links appear to be broken:"
+msgstr "Följande länkar verkar vara trasiga:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p> Please update the broken links by visiting the <a "
+"href=\"%(site_domain)s%(module_edit_url)s\">module edition page</a>. </p>"
+msgstr ""
+"<p> Uppdatera de trasiga länkarna genom att besöka <a "
+"href=\"%(site_domain)s%(module_edit_url)s\">modulredigeringssidan</a>. </p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This is an automated message sent from Damned Lies (%(site_domain)s) to "
+"inform you that the module %(module_name)s (%(site_domain)s%(module_url)s) "
+"has broken links that need attention."
+msgstr ""
+"Detta är ett automatiskt meddelande från Förbannade lögner (%(site_domain)s)"
+" för att informera dig om att modulen %(module_name)s "
+"(%(site_domain)s%(module_url)s) har trasiga länkar som behöver ses över."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Please update the broken links by visiting the module edition page: "
+"%(site_domain)s%(module_edit_url)s"
+msgstr ""
+"Uppdatera de trasiga länkarna genom att besöka modulredigeringssidan: "
+"%(site_domain)s%(module_edit_url)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p> This is an automated message sent from <a "
+"href=\"%(site_domain)s\">Damned Lies</a> to inform you that the module <a "
+"href=\"%(site_domain)s%(module_url)s\">%(module_name)s</a> was automatically"
+" marked as archived, because its upstream repository on %(forge_host)s is "
+"archived. </p>"
+msgstr ""
+"<p>Detta är ett automatiskt meddelande från <a "
+"href=\"%(site_domain)s\">Förbannade lögner</a> för att informera dig om att "
+"modulen <a href=\"%(site_domain)s%(module_url)s\">%(module_name)s</a> "
+"markerats som arkiverad för att dess uppströmsarkiv på %(forge_host)s är "
+"arkiverat. </p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p> If this is not correct, you can un-archive the module from its <a "
+"href=\"%(site_domain)s%(module_edit_url)s\">edition page</a>. </p>"
+msgstr ""
+"<p> Om detta inte är riktigt kan du avarkivera modulen från dess <a "
+"href=\"%(site_domain)s%(module_edit_url)s\">redigeringssida</a>. </p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This is an automated message sent from Damned Lies (%(site_domain)s) to "
+"inform you that the module %(module_name)s (%(site_domain)s%(module_url)s) "
+"was automatically marked as archived, because its upstream repository on "
+"%(forge_host)s is archived."
+msgstr ""
+"Detta är ett automatiskt meddelande från Förbannade lögner (%(site_domain)s)"
+" för att informera dig om att modulen %(module_name)s "
+"(%(site_domain)s%(module_url)s) automatiskt markerats som arkiverad för att "
+"dess uppströmsarkiv på %(forge_host)s har arkiverats."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"If this is not correct, you can un-archive the module from its edition page:"
+" %(site_domain)s%(module_edit_url)s"
+msgstr ""
+"Om detta inte är riktigt kan du avarkivera modulen från dess "
+"modulredigeringssida: %(site_domain)s%(module_edit_url)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p> This is an automated message sent from <a "
+"href=\"%(site_domain)s\">Damned Lies</a> to inform you that new branches "
+"have been detected in remote repositories and automatically added to the "
+"database. </p>"
+msgstr ""
+"<p>Detta är ett automatiskt meddelande från <a "
+"href=\"%(site_domain)s\">Förbannade lögner</a> för att informera dig om att "
+"nya grenar har upptäckts i fjärrarkiv och automatiskt har lagts till i "
+"databasen. </p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The following branches were automatically created and linked to a release:"
+msgstr "Följande grenar skapades automatiskt och länkades till en utgåva:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The following HEAD branches were unlinked from releases (replaced by the "
+"newly detected branches):"
+msgstr ""
+"Följande HEAD-grenar avlänkades från utgåvor (ersatta av de nyligen "
+"upptäckta grenarna):"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "unlinked from"
+msgstr "avlänkad från"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The following branches were created but still need manual release linking:"
+msgstr ""
+"Följande grenar skapades men behöver fortfarande manuell utgåvelänkning:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This is an automated message sent from Damned Lies (%(site_domain)s) to "
+"inform you that new branches have been detected in remote repositories and "
+"automatically added to the database."
+msgstr ""
+"Detta är ett automatiskt meddelande från Förbannade lögner (%(site_domain)s)"
+" för att informera dig om att nya grenar har upptäckts i fjärrarkiv och "
+"automatiskt har lagts till i databasen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Download template file (POT)"
+msgstr "Hämta mallfil (POT)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Template file (POT)"
+msgstr "Mallfil (POT)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Download an archive with all the translated po files for this domain."
+msgstr "Hämta ett arkiv med alla översatta po-filer för denna domän."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Notices"
+msgstr "Anteckningar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Search for similar bugs before reporting it"
+msgstr "Sök efter liknande fel innan rapportering"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Report this bug"
+msgstr "Rapportera detta fel"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Translated"
+msgstr "Översatt"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Display document figures"
+msgstr "Visa dokumentationsbilder"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You do not have the rights to edit this module. Module edition is restricted"
+" to people responsible for module maintenance."
+msgstr ""
+"Du har inte rättigheterna för att redigera denna modul. Modulredigering är "
+"begränsad till ansvariga för modulunderhåll."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Module properties have been updated. If you modified branches, domain or "
+"repository for instance, you will have to trigger statistics refresh "
+"manually."
+msgstr ""
+"Modulegenskaper har uppdaterats. Om du exempelvis ändrade grenar, domän "
+"eller arkiv kommer du behöva utlösa en statistikuppdatering manuellt."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Hi new team member…"
+msgstr "Hej nya gruppmedlem…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Mark as Inactive"
+msgstr "Markera som inaktiv"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Remove From Team"
+msgstr "Ta bort från grupp"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "A team must have at least one active coordinator."
+msgstr "En grupp måste ha minst en aktiv koordinator."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "You can only manage your own team membership."
+msgstr "Du kan endast hantera ditt eget gruppmedlemskap."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "You are already member of this team."
+msgstr "Du är redan medlem i denna grupp."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "You are not a member of this team."
+msgstr "Du är inte medlem av denna grupp."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The name of the team, as a locale name (ie: fr, en)."
+msgstr "Namnet på gruppen som ett lokalnamn (t.ex.: fr, en)."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The description of the team, it is generally the natural name of the "
+"language, such a French or English."
+msgstr ""
+"Beskrivningen av gruppen, det är vanligen språkets naturliga namn, som "
+"franska eller engelska."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "A presentation of the team, its goals, its members…"
+msgstr "En presentation av gruppen, dess mål, dess medlemmar…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Presentation − Welcome Message"
+msgstr "Presentation − Välkomstmeddelande"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "A welcome message for the new team members."
+msgstr "Ett välkomstmeddelande för de nya gruppmedlemmarna."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "URL to subscribe"
+msgstr "URL för prenumeration"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No team for locale %s"
+msgstr "Ingen grupp för lokalen %s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Coordinator"
+msgstr "Koordinator"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Is active"
+msgstr "Är aktiv"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Whether the person is active in the team or not. Accounts that have no "
+"recent activity are set to inactive."
+msgstr ""
+"Huruvida personen är aktiv i gruppen eller inte. Konton som inte har någon "
+"aktivitet nyligen sätts som inaktiva."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Your role in the %(team)s team has been changed to %(role)s"
+msgstr "Din roll i gruppen %(team)s har ändrats till %(role)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "You have been removed from the %(team)s team"
+msgstr "Du har tagits bort från gruppen %(team)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "You have joined the %(team)s team"
+msgstr "Du har gått med i gruppen %(team)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "A new person joined your team “%s”"
+msgstr "En ny person har gått med i din grupp ”%s”"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Last login on %(last_login)s"
+msgstr "Senast inloggad %(last_login)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Coordinated by %(people_list)s"
+msgstr "Koordineras av %(people_list)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No coordinator"
+msgstr "Ingen koordinator"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "You already are a member of the %(team_name)s team."
+msgstr "Du är redan medlem i gruppen %(team_name)s."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "We suggest you to become a member of the %(team_name)s team."
+msgstr "Vi föreslår att du blir medlem i gruppen %(team_name)s."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Suggestion"
+msgstr "Förslag"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "My Teams and Teams Suggestions"
+msgstr "Mina grupper och gruppförslag"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p>%(username)s,</p>\n"
+"\n"
+"<p>Your role in the %(team)s team on %(site_domain)s has been set to “%(role)s”.</p>\n"
+"\n"
+"<p>This is an automatic message sent from <a href=\"%(site_domain)s\">Damned Lies</a>. Please do not answer.</p>\n"
+"\n"
+"<p>The administration team of Damned Lies</p>"
+msgstr ""
+"<p>%(username)s,</p>\n"
+"\n"
+"<p>Din roll i gruppen %(team)s på %(site_domain)s har ställts in till ”%(role)s”.</p>\n"
+"\n"
+"<p>Detta är ett automatiskt meddelande skickat från <a href=\"%(site_domain)s\">Förbannade lögner</a>. Svara inte.</p>\n"
+"\n"
+"<p>Administratörsgruppen för Förbannade lögner</p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"%(username)s,\n"
+"\n"
+"Your role in the %(team)s team on %(site_domain)s has been set to “%(role)s”.\n"
+"\n"
+"This is an automatic message sent from %(site_domain)s. Please do not answer.\n"
+"\n"
+"The administration team of Damned Lies"
+msgstr ""
+"%(username)s,\n"
+"\n"
+"Din roll i gruppen %(team)s på %(site_domain)s har ställts in till ”%(role)s”.\n"
+"\n"
+"Detta är ett automatiskt meddelande skickat från %(site_domain)s. Svara inte.\n"
+"\n"
+"Administratörsgruppen för Förbannade lögner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p>%(username)s,</p>\n"
+"\n"
+"<p>You have been removed from %(team)s team on %(site_domain)s. All your activity feed has been kept, but you cannot submit translations anymore.</p>\n"
+"\n"
+"<p>This is an automatic message sent from <a href=\"%(site_domain)s\">Damned Lies</a>. Please do not answer.</p>\n"
+"\n"
+"<p>The administration team of Damned Lies</p>"
+msgstr ""
+"<p>%(username)s,</p>\n"
+"\n"
+"<p>Du har tagits bort från gruppen %(team)s på %(site_domain)s. Hela ditt aktivitetsflöde har behållits, men\n"
+"du kan inte skicka in översättningar längre.</p>\n"
+"\n"
+"<p>Detta är ett automatiskt meddelande från <a href=\"%(site_domain)s\">Förbannade lögner</a>. Svara inte.</p>\n"
+"\n"
+"<p>Administratörsgruppen för Förbannade lögner</p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"%(username)s,\n"
+"\n"
+"You have been removed from %(team)s team on %(site_domain)s. All your activity feed has been kept, but\n"
+"you cannot submit translations anymore.\n"
+"\n"
+"This is an automatic message sent from %(site_domain)s. Please do not answer.\n"
+"\n"
+"The administration team of Damned Lies\n"
+msgstr ""
+"%(username)s,\n"
+"\n"
+"Du har tagits bort från gruppen %(team)s på %(site_domain)s. Hela ditt aktivitetsflöde har behållits, men\n"
+"du kan inte skicka in översättningar längre.\n"
+"\n"
+"Detta är ett automatiskt meddelande från %(site_domain)s. Svara inte.\n"
+"\n"
+"Administratörsgruppen för Förbannade lögner\n"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"<p>You have joined the %(team)s team on %(site_domain)s. You can now "
+"contribute and submit translations in your language.</p>"
+msgstr ""
+"<p>Du har gått med i gruppen %(team)s på %(site_domain)s. Du kan nu bidra "
+"med översättningar på ditt språk.</p>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This is an automatic message sent from <a "
+"href=\"https://%(site_domain)s\">Damned Lies</a>. Please do not answer."
+msgstr ""
+"Detta är ett automatiskt skickat meddelande från <a "
+"href=\"https://%(site_domain)s\">Förbannade lögner</a>. Svara inte på det."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The administration team of Damned Lies"
+msgstr "Administratörsgruppen för Förbannade lögner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You have joined the %(team)s team on %(site_domain)s. You can now contribute"
+" and submit translations in your language."
+msgstr ""
+"Du har gått med i gruppen %(team)s på %(site_domain)s. Du kan nu bidra med "
+"översättningar på ditt språk."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "%(lang)s Translation Team Page:"
+msgstr "Sida för %(lang)s översättningsgruppen:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Bug reporting:"
+msgstr "Felrapportering:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Report Bug in Translation"
+msgstr "Rapportera fel i översättning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Show Existing Bugs"
+msgstr "Visa befintliga felrapporter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Mailing List:"
+msgstr "Sändlista:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Send e-mail to the list"
+msgstr "Skicka e-post till listan"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Coordination"
+msgstr "Koordinering"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "This team has currently no coordinator."
+msgstr "Denna grupp har för närvarande ingen koordinator."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"See <a href=\"%(link)s\">the GTP Wiki</a> for more information about "
+"coordinatorship."
+msgstr ""
+"Se <a href=\"%(link)s\">GTP-wikin</a> för mer information om koordinationen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Last actions made by the %(lang)s team of the GNOME Translation Project"
+msgstr ""
+"Senaste åtgärder gjorda av gruppen %(lang)s i GNOME-översättningsprojektet"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "%(language)s Translation Team"
+msgstr "%(language)s översättningsgruppen"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Leave the “<b>%(language)s</b>” team"
+msgstr "Lämna gruppen ”<b>%(language)s</b>”"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "By leaving the team, you will:"
+msgstr "Genom att lämna gruppen kommer du:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Stop being able to contribute."
+msgstr "Sluta kunna bidra."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Lose the right to translate."
+msgstr "Förlora rätten att översätta."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Lose your rights as a reviewer or committer."
+msgstr "Förlora dina rättigheter som granskare eller insändare."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Leave the team"
+msgstr "Lämna gruppen"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Update Team"
+msgstr "Uppdatera grupp"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"There is currently no established team for this language. See <a "
+"href=\"https://wiki.gnome.org/TranslationProject/StartingATeam\">the GTP "
+"Wiki</a> to get more information about the process of building a new "
+"translation team."
+msgstr ""
+"Det finns för närvarande inte någon etablerad grupp för detta språk. Se <a "
+"href=\"https://wiki.gnome.org/TranslationProject/StartingATeam\">GTP:s "
+"wikisida</a> för att få mer information om processen för att bygga upp en ny"
+" översättningsgrupp."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Plural forms:"
+msgstr "Pluralformer:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Current activities"
+msgstr "Aktuella aktiviteter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Show/hide archived translations"
+msgstr "Visa/göm arkiverade översättningar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Team members"
+msgstr "Gruppmedlemmar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Show or hide inactive team members"
+msgstr "Visa eller dölj inaktiva gruppmedlemmar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Apply modifications"
+msgstr "Verkställ ändringar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "%(lang)s Translation Team"
+msgstr "%(lang)s översättningsgruppen"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"To manage coordinators and other team roles, please use the team membership "
+"section on the team page."
+msgstr ""
+"För att hantera koordinatorer och andra grupproller, använd "
+"gruppmedlemskapsdelen på gruppsidan."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "General Details"
+msgstr "Allmänna detaljer"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Welcome Message"
+msgstr "Välkomstmeddelande"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"A message is sent automatically to new team members if you write a welcome "
+"message. You can use Markdown syntax to write this message."
+msgstr ""
+"Ett meddelande skickas automatiskt till nya gruppmedlemmar om du skriver ett"
+" välkomstmeddelande. Du kan använda markdown-syntax för att skriva detta "
+"meddelande."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Translation Teams"
+msgstr "GNOME-översättningsgrupper"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Select a team below to see more information about it:"
+msgstr "Välj en grupp nedan för att se mer information om den:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "All Teams"
+msgstr "Alla grupper"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "There are currently no translation teams in GNOME. :("
+msgstr "Det finns för närvarande inga översättningsgrupper i GNOME. :("
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No coordinators"
+msgstr "Inga koordinatorer"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Committers"
+msgstr "Insändare"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No committers"
+msgstr "Inga insändare"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Reviewers"
+msgstr "Granskare"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No reviewers"
+msgstr "Inga granskare"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No translators"
+msgstr "Inga översättare"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Inactive members"
+msgstr "Inaktiva medlemmar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No inactive members"
+msgstr "Inga inaktiva medlemmar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The role of the user has been changed successfully."
+msgstr "Rollen för användaren har ändrats."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The form contains errors."
+msgstr "Formuläret innehåller fel."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The team details have been updated successfully."
+msgstr "Gruppdetaljerna har uppdaterats."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You have joined the team “%(team)s”. You are now able to contribute and "
+"submit translations in your language."
+msgstr ""
+"Du har gått med i gruppen ”%(team)s”. Du kan nu bidra och skicka in "
+"översättningar på ditt språk."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You have left the team “%(team)s”. All your activity feed has been kept, but"
+" you cannot submit translations anymore."
+msgstr ""
+"Du har lämnat gruppen ”%(team)s”. Ditt aktivitetsflöde har behållits men du "
+"kan inte skicka in översättningar mera."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Error: page not found"
+msgstr "Fel: sidan hittades inte"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The page you requested has not been found on this server."
+msgstr "Sidan som du begärde hittades inte på denna server."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Error: server error (500)"
+msgstr "Fel: serverfel (500)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Server Error"
+msgstr "Serverfel"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "We’re sorry but a server error has occurred."
+msgstr "Vi är ledsna men ett serverfel har inträffat."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"If anything should be changed on this page, please <a target=\"_blank\" "
+"class=\"alert-link\" href=\"%(internationalisation_team_bug_url)s\">submit a"
+" bug report</a>."
+msgstr ""
+"<a target=\"_blank\" class=\"alert-link\" "
+"href=\"%(internationalisation_team_bug_url)s\">Skicka in en felrapport</a> "
+"om något behöver ändras på den här sidan."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Statistics refresh in progress…"
+msgstr "Statistikuppdatering pågår…"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "About Damned Lies"
+msgstr "Om Förbannade lögner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "About Us"
+msgstr "Om oss"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Merchandise"
+msgstr "Reklamartiklar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Contact Us"
+msgstr "Kontakta oss"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The GNOME Foundation"
+msgstr "GNOME-stiftelsen"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Developer Center"
+msgstr "Utvecklingscenter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Project Handbook"
+msgstr "GNOME-projektets handbok"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME Discourse"
+msgstr "GNOME Discourse"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME GitLab"
+msgstr "GNOME GitLab"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Press Releases"
+msgstr "Äldre utgåvor"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Latest Release"
+msgstr "Senaste utgåva"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Planet GNOME"
+msgstr "Planet GNOME"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Back to Damned Lies home page"
+msgstr "Tillbaka till Förbannade lögner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Teams"
+msgstr "Grupper"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Releases"
+msgstr "Utgåvor"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Toggle light, dark or auto color theme."
+msgstr "Växla ljust, mörkt eller automatiskt färgtema."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Damned Lies is the Web application used to manage the localisation (l10n) of"
+" the GNOME project."
+msgstr ""
+"Förbannade lögner är webbapplikationen som används för att hantera "
+"lokalanpassningen (l10n) av GNOME-projektet."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"It allows you to browse live statistics. Damned Lies also manages the "
+"translation <a href=\"%(link)s\">workflow</a>."
+msgstr ""
+"Det låter dig att titta på realtidsstatistik. Förbannade lögner hanterar "
+"även <a href=\"%(link)s\">arbetsflödet</a> för översättningar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Damned Lies is Free Software, its source code is available under the <a "
+"href=\"%(gpl)s\">GNU GPL license</a>. You are welcome to participate in its "
+"improvement, especially by <a href=\"%(bug)s\">reporting bugs and "
+"enhancement proposals</a>."
+msgstr ""
+"Förbannade lögner är fri programvara, dess källkod finns tillgänglig under "
+"licensen <a href=\"%(gpl)s\">GNU GPL</a>. Delta gärna med att förbättra det,"
+" speciellt genom att <a href=\"%(bug)s\">rapportera fel och föreslå "
+"förbättringar</a>."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"If you wonder about the name of this application, see <a "
+"href=\"%(link)s\">this article on Wikipedia</a>."
+msgstr ""
+"Se <a href=\"%(link)s\">denna artikel på Wikipedia</a> om du undrar om "
+"namnet på denna applikation."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Quality check icon by <a href=\"%(link)s\">Gregor Cresnar</a>."
+msgstr "Kvalitetskontrollikon av <a href=\"%(link)s\">Gregor Cresnar</a>."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "This Web site has been translated in your language by:"
+msgstr "Denna webbplats har översatts till ditt språk av:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Internationalisation tools"
+msgstr "Internationaliseringsverktyg"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNU gettext"
+msgstr "GNU gettext"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "intltool"
+msgstr "intltool"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "itstool"
+msgstr "itstool"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "yelp-tools"
+msgstr "yelp-tools"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Translate Toolkit"
+msgstr "Translate Toolkit"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Quick links"
+msgstr "Snabblänkar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Project wiki"
+msgstr "Projektets wikisida"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Bug tracking page"
+msgstr "Sida för felhantering"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Source code"
+msgstr "Källkod"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Damned Lies site admin"
+msgstr "Admin för Förbannade lögner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Damned Lies about GNOME"
+msgstr "Förbannade lögner om GNOME"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This is a preproduction instance of Damned Lies. If you wish to contribute "
+"to GNOME, please, check out the official Damned Lies application."
+msgstr ""
+"Detta är en prototypinstans av Förbannade lögner. Se den officiella "
+"Förbannade lögner-applikationen om du vill bidra till GNOME."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Reduced po files"
+msgstr "Reducerade po-filer"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Damned Lies is able to filter strings which are seldom visible in user "
+"interfaces, so as translation teams can concentrate on most visible strings."
+msgstr ""
+"Förbannade lögner kan filtrera strängar som sällan är synliga i "
+"användargränssnitt, så att översättningsgrupper kan koncentrera sig på de "
+"mest synliga strängarna."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The most typical case is the strings from schema files, hence the default "
+"filter is filtering out strings which come from files having "
+"“gschema.xml.in” in their name. Technically speaking, the filter is using "
+"the <a href=\"%(pogrep_url)s\">pogrep command from the Translate "
+"Toolkit</a>."
+msgstr ""
+"Det mest vanliga är strängarna från schemafiler, därför filtrerar "
+"standardfiltret bort strängar som kommer från filer som har ”gschema.xml.in”"
+" i sina namn. Rent tekniskt använder filtret kommandot <a "
+"href=\"%(pogrep_url)s\">pogrep från Translate Toolkit</a>."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"When you see a po file or a table header containing “(red.)” or “(reduced)”,"
+" it means that the target files have been filtered as stated above."
+msgstr ""
+"När du ser en po-fil eller ett tabellhuvud som innehåller ”(red.)” eller "
+"”(reducerad)” så betyder det att målfilerna har filtrerats enligt det "
+"ovanstående."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"If you think you found a better filter for a specific module, please <a "
+"href=\"%(internationalisation_team_bug_url)s\">submit a bug report</a> with "
+"your proposal."
+msgstr ""
+"<a href=\"%(internationalisation_team_bug_url)s\">Skicka in en "
+"felrapport</a> med ditt förslag om du tror dig ha hittat ett bättre filter "
+"för en specifik modul."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Vertimus Workflow"
+msgstr "Vertimus-arbetsflöde"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The figure below describes the various states and actions available during "
+"the translation process of a module."
+msgstr ""
+"Figuren nedan beskriver de olika tillstånd och åtgärder som finns "
+"tillgängliga under översättningsarbetet för en modul."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Vertimus workflow schema."
+msgstr "Arbetsflödesschema för Vertimus."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The GNOME Project Translation Platform"
+msgstr "GNOME-projektets översättningsplattform"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Contribute by <a href=\"%(sign_in_url)s\">creating an account</a> and become"
+" a <a href=\"%(teams_url)s\">member of a translation team</a> in one of your"
+" mother tongues or a language you master."
+msgstr ""
+"Bidra genom att <a href=\"%(sign_in_url)s\">skapa ett konto</a> och bli <a "
+"href=\"%(teams_url)s\">medlem i en översättningsgrupp</a> på antingen något "
+"av dina modersmål eller ett språk du behärskar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"GNOME Translation Teams, with full information such as primary contact "
+"(coordinator), web pages and mailing list information."
+msgstr ""
+"GNOME-översättningsgrupper, med fullständig information såsom primär kontakt"
+" (koordinator), webbsidor och information om sändlistor."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"If there is no team for your language, you can easily <a "
+"href='https://wiki.gnome.org/TranslationProject/StartingATeam/'>start your "
+"own team</a>."
+msgstr ""
+"Om det inte finns någon grupp för ditt språk kan du enkelt <a "
+"href='https://wiki.gnome.org/TranslationProject/StartingATeam/'>starta din "
+"egna grupp</a>."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Languages with <a href='%(teams_url)s'>Translation Teams</a>."
+msgstr "Språk med <a href='%(teams_url)s'>översättningsgrupper</a>."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Some teams manage more than one language (usually just simple variants), and"
+" here you can see all the languages GNOME is being translated to."
+msgstr ""
+"Några grupper hanterar fler än ett språk (vanligtvis bara enklare varianter)"
+" och här kan du se alla de språk som GNOME blir översatt till."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Examples of release sets are “GNOME Infrastructure” or “GNOME 43”."
+msgstr "Exempel på utgåvesamlingar är ”GNOME-infrastruktur” eller ”GNOME 43”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Official GNOME release sets are further divided into categories such as "
+"“Desktop Applications” and “Developer Platform”."
+msgstr ""
+"Officiella GNOME-utgåvesamlingar delas sedan upp i kategorier som "
+"”Skrivbordsprogram” och ”Utvecklingsplattform”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Look here if you want to compare language support in any of these release "
+"sets."
+msgstr ""
+"Se här om du vill jämföra språkstödet för någon av dessa utgåvesamlingar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Modules are separate libraries or applications, with one or more branches of"
+" development included."
+msgstr ""
+"Moduler är separata bibliotek eller program, med en eller flera "
+"utvecklingsgrenar inkluderade."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"They are usually taken from the Git repository, and we keep all relevant "
+"information on them (GitLab details, web page, maintainer information…)."
+msgstr ""
+"De hämtas oftast från Git-arkivet och vi har all relevant information om dem"
+" (GitLab-detaljer, webbsida, information om ansvariga…)."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Third Party Authentication"
+msgstr "Tredjepartsautentisering"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Fedora OIDC"
+msgstr "Fedora OIDC"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Launchpad"
+msgstr "Launchpad"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GNOME SSO"
+msgstr "GNOME SSO"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "GitLab.com"
+msgstr "GitLab.com"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "You are already logged in as %(username)s."
+msgstr "Du är redan inloggad som %(username)s."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Administration Settings"
+msgstr "Administrativa inställningar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Unable to find a documentation directory for module %s"
+msgstr "Kunde inte hitta någon dokumentationskatalog för modulen %s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Unable to find doc source files for this module."
+msgstr "Kunde inte hitta dokumentationskällfiler för denna modul."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Invalid URL format. Cannot parse the provided URL."
+msgstr "Ogiltigt URL-format. Kan inte tolka tillhandahållen URL."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Invalid URL scheme. Only HTTP and HTTPS schemes are allowed."
+msgstr "Ogiltigt URL-schema. Endast HTTP- och HTTPS-scheman tillåts."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "URL resolves to a private/internal IP address. This is not allowed."
+msgstr "URL slås upp till en privat/intern IP-adress. Detta är inte tillåtet."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Error retrieving POT file from URL."
+msgstr "Fel vid hämtning av POT-fil från URL."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "POT file from URL larger than the accepted default (file is > %dMB)."
+msgstr ""
+"POT-fil från URL större än det accepterade standardvärdet (filen är > %d "
+"MB)."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "POT file path traversal attempt detected: %(path)s"
+msgstr "Försök att traversera sökväg till POT-fil upptäcktes: %(path)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"POT file not found in repository, while the configuration indicates it "
+"should be located at “%(pot_file_path)s”. We also tried using the "
+"“%(param)s” with the path “%(path)s” but the file does not exist."
+msgstr ""
+"POT-filen hittades inte i arkivet, medan konfigurationen indikerar att den "
+"skulle finnas på ”%(pot_file_path)s”. Vi försökte också använda ”%(param)s” "
+"med sökvägen ”%(path)s” men filen finns inte."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No subtitle files found."
+msgstr "Inga undertextfiler hittades."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The command used to generate a POT file time out after %d seconds"
+msgstr ""
+"Kommandot som används för att generera en POT-fil fick tidsgränsen "
+"överskriden efter %d sekunder"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Error regenerating template file (POT) for %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+msgstr ""
+"Fel vid återgenerering av mallfil (POT) för %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Unable to generate an extraction command with xgettext for the file “%s”."
+msgstr ""
+"Kunde inte generera ett extraheringskommando med xgettext för filen ”%s”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Command injection detected: semicolon in pot_params not allowed."
+msgstr "Kommandoinjektion identifierad: semikolon i pot_params tillåts inte."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Command injection detected: command substitution not allowed."
+msgstr "Kommandoinjektion identifierad: kommandosubstitution tillåts inte."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Error regenerating POT file for document %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+msgstr ""
+"Fel vid återgenerering av POT-fil för dokumentet %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Unable to generate template file (POT). The output file does not exist."
+msgstr "Kunde inte generera mallfil (POT). Utdatafilen finns inte."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"While refreshing the POT file for Damned Lies, an error happened with the "
+"“update-trans” command."
+msgstr ""
+"Under uppdatering av POT-filen för Förbannade lögner inträffade ett fel med "
+"kommandot ”update-trans”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"'xgettext' command cannot be built, the following error occurred: %(error)s"
+msgstr ""
+"”xgettext”-kommandot kan inte byggas, följande fel inträffade: %(error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The path given to initialize the POTFile does not exist: %(path)s."
+msgstr "Sökvägen angiven för att initiera POT-filen finns inte: %(path)s."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "PO file “%s” does not exist or cannot be read."
+msgstr "PO-filen ”%s” finns inte eller kan inte läsas."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Can’t get statistics for POT file “%s”."
+msgstr "Kan inte få tag på statistik för POT-filen ”%s”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "When compiling the PO file, the error was “%(exception)s”."
+msgstr "Vid kompilering av PO-filen var felet ”%(exception)s”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The file “%s” does not exist"
+msgstr "Filen ”%s” finns inte"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Error running pofilter: %s"
+msgstr "Fel vid körning av pofilter: %s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Building documentation failed."
+msgstr "Bygge av dokumentation misslyckades."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Building documentation with %(program)s failed."
+msgstr "Bygge av dokumentation med %(program)s misslyckades."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "%(name)s (full name missing)"
+msgstr "%(name)s (fullständigt namn saknas)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "%(name)s (email missing)"
+msgstr "%(name)s (e-post saknas)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Commit author"
+msgstr "Incheckare"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Whether to synchronize the current branch with the main branch."
+msgstr "Huruvida den aktuella grenen ska synkroniseras med huvudgrenen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Upload a .po, .gz, .xz or .png file"
+msgstr "Skicka upp en fil av typen .po, .gz, .xz eller .png"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Send message to the team mailing list"
+msgstr "Skicka meddelande till gruppens sändlista"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Synchronize the current branch with the branch “%(name)s”."
+msgstr "Synkronisera aktuell gren med grenen ”%(name)s”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Try to cherry-pick the commit made on this branch, “%(current_branch)s” to "
+"the “%(target_branch)s” branch. If the “%(target_branch)s” branch requires "
+"merge or pull requests, a new one will be opened for this cherry-pick."
+msgstr ""
+"Försök att föra incheckningen på denna gren ”%(current_branch)s” till grenen"
+" ”%(target_branch)s” med ”cherry-pick”. Om grenen ”%(target_branch)s” kräver"
+" merge- eller pull-förfrågningar kommer en ny sådan öppnas för denna cherry-"
+"pick."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The uploaded file is too large (%(size)sMiB). Maximum allowed size is "
+"%(max_size)sMiB."
+msgstr ""
+"Den skickade filen är för stor (%(size)s MiB). Största tillåten storlek är "
+"%(max_size)s MiB."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Only files with extension .po, .gz, .xz or .png are admitted."
+msgstr "Endast filer med filändelsen .po, .gz, .xz eller .png tillåts."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "PO file “%(filename)s” is not UTF-8 encoded."
+msgstr "PO-filen ”%(filename)s” är inte UTF-8-kodad."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Invalid action. Please, select a valid action."
+msgstr "Ogiltig åtgärd. Välj en giltig åtgärd."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Invalid action. Someone probably posted another action just before you."
+msgstr ""
+"Ogiltig åtgärd. Antagligen så postade någon en annan åtgärd precis före dig."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Committing a file requires a commit author."
+msgstr "Att checka in en fil kräver en författare för incheckningen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Committing a file with token-based authentication is prohibited."
+msgstr "Att checka in en fil med tokenbaserad autentisering är förbjudet."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "A comment is needed for this action."
+msgstr "En kommentar behövs för denna åtgärd."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "A comment or a file is needed for this action."
+msgstr "En kommentar eller en fil behövs för denna åtgärd."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "A file is needed for this action."
+msgstr "En fil behövs för denna åtgärd."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Please, don’t send a file with a “Reserve” action."
+msgstr "Skicka inte en fil med en ”Reservera”-åtgärd."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Reservation cancelled: this person left the team."
+msgstr "Reservationen avbröts: personen lämnade laget."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "URL of the Merge Request"
+msgstr "URL till merge-förfrågan"
+
+#. from gnome:reviewed/damned-lies/main
+msgctxt "merge_request_status"
+msgid "Merged"
+msgstr "Sammanslagen"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Whether the merge request has been merged. None means the state has not been"
+" checked yet."
+msgstr ""
+"Huruvida merge-förfrågan har slagits samman. Ingen betyder att tillståndet "
+"inte har kontrollerats ännu."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The person who made the last action."
+msgstr "Personen som gjorde den sista åtgärden."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Updated at"
+msgstr "Uppdaterad"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Merge Request"
+msgstr "Merge-förfrågan"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Translating"
+msgstr "Översätter"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Proofreading"
+msgstr "Korrekturläsning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "To Review"
+msgstr "För granskning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "To Commit"
+msgstr "För insändning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Committing"
+msgstr "Insändning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Committed"
+msgstr "Insänd"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Waiting for merge request approval"
+msgstr "Väntar på godkännande av merge-förfrågan"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Write a comment"
+msgstr "Skriv en kommentar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Upload the new translation"
+msgstr "Skicka upp ny översättning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Reserve for proofreading"
+msgstr "Reservera för korrekturläsning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Upload the proofread translation"
+msgstr "Skicka upp granskad översättning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Mark as ready for submission"
+msgstr "Markera som färdig för insändning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Submit to repository"
+msgstr "Skicka in till arkivet"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Reserve to submit"
+msgstr "Reservera för insändning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Inform of submission"
+msgstr "Informera om insändning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Request rework"
+msgstr "Begär omarbetning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Archive the actions"
+msgstr "Arkivera åtgärderna"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Undo the last state change"
+msgstr "Ångra senaste tillståndsändring"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Wrote a comment"
+msgstr "Skrev en kommentar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Reserved for translation"
+msgstr "Reserverade för översättning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Uploaded a new translation"
+msgstr "Skickade upp en ny översättning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Reserved for proofreading"
+msgstr "Reserverade för korrekturläsning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Uploaded the proofread translation"
+msgstr "Skickade upp granskad översättning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Marked as ready for submission"
+msgstr "Markerade som färdig för insändning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Submitted to repository"
+msgstr "Skickade in till arkivet"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Reserved to submit"
+msgstr "Reserverade för insändning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Informed of submission"
+msgstr "Informerade om insändning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Requested rework"
+msgstr "Begärde omarbetning"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Archived the actions"
+msgstr "Arkiverade åtgärderna"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Undid the last state change"
+msgstr "Ångrade senaste tillståndsändring"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The state of the module. This may not be changed manually."
+msgstr "Tillståndet på modulen. Detta får inte ändras manuellt."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The person who made the action."
+msgstr "Personen som utförde åtgärden."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Created at"
+msgstr "Skapad"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Notification to ML"
+msgstr "Avisering till sändlista"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Whether a notification to the mailing list of the language team has been "
+"sent."
+msgstr "Huruvida en avisering har skickats till språkgruppens sändlista."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Uploaded file"
+msgstr "Uppskickad fil"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The file uploaded by the user."
+msgstr "Filen som skickats upp av användaren."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Merged file"
+msgstr "Sammanslagen fil"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The file merged with the new POT after the upload."
+msgstr ""
+"Filen som slagits samman med den nya POT-filen efter att den skickats."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Has HTML build"
+msgstr "Har HTML-bygge"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Whether an HTML documentation build exists for this action."
+msgstr "Huruvida ett HTML-dokumentationsbygge finns för denna åtgärd."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "deleted account"
+msgstr "borttaget konto"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "File in repository"
+msgstr "Fil i arkiv"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Uploaded file by %(name)s on %(date)s"
+msgstr "Uppskickad fil av %(name)s den %(date)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"It is not possible to apply this action (%(action)s) on the current state: "
+"%(state)s."
+msgstr ""
+"Det är inte möjligt att verkställa denna åtgärd (%(action)s) på aktuellt "
+"tillstånd: %(state)s."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The commit has been created with success, but an error occurred while "
+"refreshing the branch statistics. If you have enough rights, you can try to "
+"update the statistics manually, or open an issue."
+msgstr ""
+"Incheckningen har skapats, men ett fel uppstod vid uppdatering av "
+"grenstatistiken. Om du har tillräckliga rättigheter kan du försöka uppdatera"
+" statistiken manuellt, eller öppna en felrapport."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"There is no action in this workflow with a PO file. It is impossible to "
+"submit anything, please upload a PO file first."
+msgstr ""
+"Det finns ingen åtgärd i detta tillstånd med en PO-fil. Inget kan checkas "
+"in, skicka upp en PO-fil först."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Creating commits is impossible: %(error)s"
+msgstr "Skapande av incheckningar är omöjligt: %(error)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"An error occurred while trying to synchronize branch “%(main_branch)s” with "
+"the current branch “%(current_branch)s”. The original PO file has been "
+"committed anyway. Please, upload the same PO file to the target branch "
+"(%(main_branch)s)."
+msgstr ""
+"Ett fel inträffade under försök att synkronisera grenen ”%(main_branch)s” "
+"med aktuell gren ”%(current_branch)s”. Den ursprungliga PO-filen har "
+"checkats in ändå. Skicka upp samma PO-fil till målgrenen (%(main_branch)s)."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"It is impossible to cherry-pick the commit “%(commit_hash)s” from "
+"“%(current_branch)s” to the target branch “%(main_branch)s” because branches"
+" are the same."
+msgstr ""
+"Det är omöjligt att föra över incheckningen ”%(commit_hash)s” från "
+"”%(current_branch)s” till målgrenen ”%(main_branch)s” med ”cherry-pick” för "
+"att grenarna är desamma."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "%(datetime)s − New action in module %(module)s:%(branch)s"
+msgstr "%(datetime)s − Ny åtgärd i modulen %(module)s:%(branch)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This module is read-only and no translation can be submitted by Damned Lies."
+" This is usually because the repository URL is not writable or because the "
+"maintenance team does not accept translation commits from Damned Lies "
+"directly. You might contact the team to submit your translations."
+msgstr ""
+"Denna modul är skrivskyddad och ingen översättning kan skickas in av "
+"Förbannade lögner. Detta är vanligen för att arkiv-URL:en inte är skrivbar, "
+"eller för att underhållsgruppen inte accepterar översättningsincheckningar "
+"direkt från Förbannade lögner. Du kan kontakta gruppen för att skicka in "
+"dina översättningar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You can fix this by going to the <a href=\"%(module_change_url)s\">module "
+"edition page</a> and updating the repository URL."
+msgstr ""
+"Du kan fixa detta genom att gå till <a "
+"href=\"%(module_change_url)s\">modulredigeringssidan</a> och uppdatera "
+"arkiv-URL:en."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "You should ask the platform coordinators to update the repository URL."
+msgstr "Du bör fråga plattformskoordinatorerna om att uppdatera arkiv-URL:en."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Strings:"
+msgstr "Strängar:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Words:"
+msgstr "Ord:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Activity summary for “%(lang)s”"
+msgstr "Sammandrag av aktiviteter för ”%(lang)s”"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Activity summary for <a href=\"%(url)s\">%(lang)s</a>"
+msgstr "Sammandrag av aktiviteter för <a href=\"%(url)s\">%(lang)s</a>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Hello,"
+msgstr "Hej,"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The state of <a href=\"%(url)s\">%(module)s — %(branch)s — %(domain)s "
+"(%(language)s)</a> is “%(new_state)s”."
+msgstr ""
+"Tillståndet för <a href=\"%(url)s\">%(module)s — %(branch)s — %(domain)s "
+"(%(language)s)</a> är ”%(new_state)s”."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Hello,\n"
+"\n"
+"The state of %(module)s — %(branch)s — %(domain)s (%(language)s) is “%(new_state)s”.\n"
+"%(url)s\n"
+"\n"
+"%(comment)s\n"
+"%(person_name)s\n"
+"\n"
+"This is an automatic message sent from https://%(site_domain)s. Please do not answer.\n"
+"\n"
+"The administration team of Damned Lies"
+msgstr ""
+"Hej,\n"
+"\n"
+"tillståndet för %(module)s — %(branch)s — %(domain)s (%(language)s) är ”%(new_state)s”.\n"
+"%(url)s\n"
+"\n"
+"%(comment)s\n"
+"%(person_name)s\n"
+"\n"
+"Detta är ett automatiskt meddelande från https://%(site_domain)s. Svara inte.\n"
+"\n"
+"Administratörsgruppen för Förbannade lögner"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Quality check results"
+msgstr "Resultat av kvalitetskontroll"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Checks (%(checks)s) by <a href=\"%(url)s\" target=\"_blank\">pofilter</a>"
+msgstr ""
+"Kontrollerar (%(checks)s) från <a href=\"%(url)s\" "
+"target=\"_blank\">pofilter</a>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Module Translation: %(name)s"
+msgstr "Modulöversättning: %(name)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This branch is archived and no new translation can be submitted. It is only "
+"kept for statistical purposes."
+msgstr ""
+"Denna modul är arkiverad och ingen ny översättning kan skickas in. Den "
+"behålls enbart för att föra statistik."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"This branch has been frozen. Please don't translate it anymore and report "
+"your efforts on other branches."
+msgstr ""
+"Denna gren är fryst. Översätt den inte mera och rapportera dina "
+"ansträngningar på andra grenar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Used in release(s):"
+msgstr "Används i utgåvor:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Expand or collapse all"
+msgstr "Expandera eller fäll ihop alla"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Incoming synchronization merge request:"
+msgstr "Inkommande synkroniserings-mergeförfrågan:"
+
+#. from gnome:reviewed/damned-lies/main
+msgctxt "merge_request_status"
+msgid "Open"
+msgstr "Öppen"
+
+#. from gnome:reviewed/damned-lies/main
+msgctxt "merge_request_status"
+msgid "Pending"
+msgstr "Väntar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The translation file (PO) that will be the starting point of the translation"
+msgstr ""
+"Översättningsfilen (PO) som kommer vara startpunkten för översättningen"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Download current translation file (PO) as stored in the repository"
+msgstr "Hämta aktuell översättningsfil (PO) som den lagrats i arkivet"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "File to translate (PO)"
+msgstr "Fil att översätta (PO)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Current translated file (PO)"
+msgstr "Aktuell översatt fil (PO)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Current translation with inline diffs for fuzzy strings"
+msgstr "Aktuell översättning med inbäddade diffar för luddiga strängar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Icons to show current translation with inline diffs for fuzzy strings"
+msgstr ""
+"Ikoner för att visa aktuell översättning med inbäddade diffar för luddiga "
+"strängar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Differences for fuzzy strings"
+msgstr "Skillnader för luddiga strängar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Quality checks"
+msgstr "Kvalitetskontroller"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Quality check"
+msgstr "Kvalitetskontroll"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Download current reduced translation file (PO) as stored in the repository"
+msgstr ""
+"Hämta aktuell reducerad översättningsfil (PO) som den lagrats i arkivet"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Current reduced translated file (PO)"
+msgstr "Aktuell reducerad översatt fil (PO)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Activity in multiple branches at once results in duplicated work and "
+"divergences. If it’s relevant, at the end of a flow, committers shall apply "
+"changes from one branch to another one."
+msgstr ""
+"Aktivitet i flera grenar samtidigt leder till dubbelt arbete och skillnader."
+" Om de är relevanta ska insändaren i slutet av ett arbetsflöde tillämpa "
+"ändringar från en gren till en annan."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"There is currently no translation for this module branch yet. You can start "
+"translating it by <a class=\"link-underline-primary\" href=\"%(po_url)s\"> "
+"downloading the template file</a> and uploading it back on this workflow."
+msgstr ""
+"Det finns ingen översättning för denna modulgren ännu. Du kan börja "
+"översätta den genom att <a class=\"link-underline-primary\" "
+"href=\"%(po_url)s\"> hämta mallfilen</a> och skicka den tillbaka till detta "
+"arbetsflöde."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Archived Actions (%(human_level)s archived series)"
+msgstr "Arkiverade åtgärder (%(human_level)s arkiverade serien)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "(Return to current actions)"
+msgstr "(Återgå till aktuella åtgärder)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "(Previous action history)"
+msgstr "(Åtgärdshistorik)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Y-m-d g:i a O"
+msgstr "Y-m-d H:i O"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "This message was sent to the mailing list"
+msgstr "Detta meddelande skickades till sändlistan"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Link to this action"
+msgstr "Länk till denna åtgärd"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Submitted file"
+msgstr "Inskickad fil"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Submitted file merged with development changes"
+msgstr "Inskickad fil sammanfogad med utvecklingsändringar"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "User Guide Index"
+msgstr "Index för användarguide"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Build help"
+msgstr "Bygg hjälp"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Compare to:"
+msgstr "Jämför med:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Merge Request:"
+msgstr "Merge-förfrågan:"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No current actions."
+msgstr "Inga aktuella åtgärder."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "New Action"
+msgstr "Ny åtgärd"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You need <a href=\"%(login_url)s\">to be authenticated</a> and member of the"
+" %(team_name)s team."
+msgstr ""
+"Du måste <a href=\"%(login_url)s\">vara autentiserad</a> och vara medlem av "
+"gruppen %(team_name)s."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Diff between po files"
+msgstr "Diff mellan po-filer"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "← Back to actions"
+msgstr "← Tillbaka till åtgärder"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Note: both files are merged with latest POT file."
+msgstr "Observera: båda filerna är sammanfogade med senaste POT-fil."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"The file has been successfully uploaded and committed to the repository."
+msgstr "Filen har skickats och checkats in i arkivet."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Additionally, the file has been synchronized with the main branch."
+msgstr "Utöver detta har filen synkroniseringats mot huvudgrenen."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You’ve just uploaded a new translation but did not fill your real name in "
+"your profile. If you want your work to be added to the project in your name,"
+" you need to fill it. Please, %(user_link)s go to your profile %(user_link)s"
+" to update your identity."
+msgstr ""
+"Du har skickat in en ny översättning men har inte fyllt i ditt riktiga namn "
+"i din profil. Om du vill att ditt arbete ska läggas till i projektet i ditt "
+"namn så behöver du fylla i det. %(user_link)s, gå till din profil "
+"%(user_link)s för att uppdatera din identitet."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"No file was found as the first operand of the comparison. It does not exist "
+"on disk."
+msgstr ""
+"Ingen fil hittades som första operand för jämförelsen. Den finns inte på "
+"disk."
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"No file was found as the second operand of the comparison. It does not exist"
+" on disk."
+msgstr ""
+"Ingen fil hittades som andra operand för jämförelsen. Den finns inte på "
+"disk."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "<a href=\"%(url)s\">%(label)s</a> by %(name)s on %(date)s"
+msgstr "<a href=\"%(url)s\">%(label)s</a> av %(name)s den %(date)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "<a href=\"%(url)s\">Latest committed file</a> for %(lang)s"
+msgstr "<a href=\"%(url)s\">Senaste insända fil</a> för %(lang)s"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "<a href=\"%(url)s\">%(text)s</a>"
+msgstr "<a href=\"%(url)s\">%(text)s</a>"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "Latest POT file"
+msgstr "Senaste POT-fil"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No po file to check"
+msgstr "Ingen po-fil att kontrollera"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"Sorry, the server was not able to run the quality checks on this file (%s)"
+msgstr ""
+"Servern kunde tyvärr inte köra kvalitetskontrollerna på denna fil (%s)"
+
+#. from gnome:reviewed/damned-lies/main
+msgid "The po file looks good!"
+msgstr "Po-filen ser bra ut!"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"WARNING: This file is <b>NOT</b> suitable as a base for completing this "
+"translation. It contains HTML markup to highlight differential parts of "
+"changed strings."
+msgstr ""
+"VARNING: Denna fil är <b>INTE</b> lämplig som en bas för att komplettera "
+"denna översättning. Den innehåller HTML-markup för att färgmarkera delar som"
+" skiljer sig för ändrade strängar."
+
+#. from gnome:reviewed/damned-lies/main
+msgid "No target po file for this action"
+msgstr "Ingen po-fil är mål för denna åtgärd"
+
+#. from gnome:reviewed/damned-lies/main
+msgid ""
+"You are not allowed to build the documentation. Only team members can "
+"perform this operation."
+msgstr ""
+"Du får inte bygga dokumentationen. Endast gruppmedlemmar kan utföra denna "
+"åtgärd."
