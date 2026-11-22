@@ -19861,5 +19861,11 @@ Du måste migrera alla dina OpenWeatherMap-integrationer till v3.0.
 Innan migreringen måste du ha en aktiv prenumeration (tänk på att prenumerationsaktiveringen kan ta upp till 2 timmar). När din prenumeration har aktiverats väljer du **Bekräfta** för att migrera integrationen till API V3.0. Mer information finns i dokumentationen.</seg></tuv></tu>
 
 <tu tuid="lokalise:5045871404"><prop type="source">component::habitica::config::step::reauth_confirm::sections::reauth_login::description</prop><prop type="lokalise-key-id">584057193</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback; established HA terminology</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>Enter your login details below to re-authorize the Home Assistant integration with Habitica</seg></tuv><tuv xml:lang="sv"><seg>Ange dina inloggningsuppgifter nedan för att återauktorisera Home Assistant-integrationen med Habitica</seg></tuv></tu>
+
+<tu tuid="lokalise:5474036728"><prop type="source">component::zengge::issues::integration_removed::description</prop><prop type="lokalise-key-id">624152729</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback; code, link and line breaks preserved</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>The Zengge integration has been removed from Home Assistant. Support for Zengge lights is provided by the `led_ble` integration.
+
+To resolve this issue, please remove the (now defunct) `zengge` light configuration from your Home Assistant configuration and [configure the `led_ble` integration]({led_ble_url}).</seg></tuv><tuv xml:lang="sv"><seg>Zengge-integrationen har tagits bort från Home Assistant. Stöd för Zengge-lampor tillhandahålls av integrationen `led_ble`.
+
+För att lösa problemet tar du bort den numera obrukbara Zengge-ljuskonfigurationen från din Home Assistant-konfiguration och [konfigurerar integrationen `led_ble`]({led_ble_url}).</seg></tuv></tu>
 </body>
 </tmx>
