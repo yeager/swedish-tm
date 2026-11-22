@@ -1,0 +1,164 @@
+[
+  {
+    "key": "component::mitemp_bt::issues::replaced::description",
+    "key_id": "199528527",
+    "translation_id": "1576240613",
+    "en": "The Xiaomi Mijia BLE Temperature and Humidity Sensor integration stopped working in Home Assistant 2022.7 and was replaced by the Xiaomi BLE integration in the 2022.8 release.\n\nThere is no migration path possible, therefore, you have to add your Xiaomi Mijia BLE device using the new integration manually.\n\nYour existing Xiaomi Mijia BLE Temperature and Humidity Sensor YAML configuration is no longer used by Home Assistant. Remove the YAML configuration from your configuration.yaml file and restart Home Assistant to fix this issue.",
+    "sv": "Xiaomi Mijia BLE temperatur- och fuktsensorintegrationen slutade fungera i Home Assistant 2022.7 och ersattes av Xiaomi BLE-integrationen i 2022.8-versionen.\n\nDet finns ingen migreringsväg, därför måste du lägga till din Xiaomi Mijia BLE-enhet manuellt med den nya integrationen.\n\nDin befintliga Xiaomi Mijia BLE temperatur- och luftfuktighetssensor YAML-konfiguration används inte längre av Home Assistant. Ta bort YAML-konfigurationen från filen configuration.yaml och starta om Home Assistant för att åtgärda problemet.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::mitemp_bt::issues::replaced::title",
+    "key_id": "199528528",
+    "translation_id": "1576240674",
+    "en": "The Xiaomi Mijia BLE Temperature and Humidity Sensor integration has been replaced",
+    "sv": "Xiaomi Mijia BLE temperatur- och fuktsensorintegration har ersatts",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::sonos::issues::upnp_disabled::description",
+    "key_id": "778562683",
+    "translation_id": "7366518232",
+    "en": "Unable to connect to Sonos speaker at {device_ip}.\n\nPlease ensure UPnP is enabled on your Sonos system.\n\nOpen the Sonos app on your phone or tablet. Go to Account > Privacy and Security > UPnP. Enable the UPnP setting. Once UPnP is enabled, return to Home Assistant and reload the Sonos integration. The connection should now succeed. See our [documentation]({documentation_url}) for steps to resolve this issue.",
+    "sv": "Det går inte att ansluta till Sonos-högtalaren på {device_ip}. \n\nKontrollera att UPnP är aktiverat i Sonos-systemet. \n\nÖppna Sonos-appen på din telefon eller surfplatta. Gå till Konto > Sekretess och säkerhet > UPnP. Aktivera UPnP-inställningen. När UPnP är aktiverat går du tillbaka till Home Assistant och laddar om Sonos-integrationen. Anslutningen bör nu lyckas. Se vår [dokumentation]({documentation_url}) för steg för att lösa detta problem.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::mitsubishi_comfort::issues::missing_address::fix_flow::step::addresses::description",
+    "key_id": "923422805",
+    "translation_id": "9594929943",
+    "en": "These devices have no known local IP address, so they have no entities yet. Enter the local IPv4 address for each device below; each field is labeled with the device's MAC address. Leave a field blank to keep waiting for DHCP discovery (which only works when the device is on the same network as Home Assistant). After you submit, the integration reloads and sets up every device that has an address. Devices: {devices}",
+    "sv": "Dessa enheter saknar en känd lokal IP-adress och har därför ännu inga entiteter. Ange den lokala IPv4-adressen för varje enhet nedan. Varje fält är märkt med enhetens MAC-adress. Lämna ett fält tomt om du vill fortsätta vänta på DHCP-upptäckt, som bara fungerar när enheten är i samma nätverk som Home Assistant. När du skickar in uppgifterna läses integrationen in på nytt och varje enhet med en adress konfigureras. Enheter: {devices}",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::teslemetry::config_subentries::energy_site::step::pair::description",
+    "key_id": "929850159",
+    "translation_id": "9674562626",
+    "en": "Flick the On/Off switch on your primary Powerwall off and back on to approve Home Assistant's access, then continue. This only needs to be done once. Removing this integration later does not revoke this access on your Powerwall or Backup Gateway.",
+    "sv": "Stäng av strömbrytaren på din primära Powerwall och slå på den igen för att godkänna Home Assistants åtkomst. Fortsätt sedan. Detta behöver bara göras en gång. Om du senare tar bort integrationen återkallas inte åtkomsten på din Powerwall eller Backup Gateway.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::discogs::issues::deprecated_yaml_import_issue_cannot_connect::description",
+    "key_id": "935706772",
+    "translation_id": "9759249196",
+    "en": "Configuring {integration_title} via YAML is deprecated and will be removed in a future release. While importing your YAML configuration, the Discogs API could not be reached or the token was invalid. Please verify your token and restart Home Assistant to retry, or remove the {domain} sensor from your configuration and set up the integration via the UI.",
+    "sv": "Konfiguration av {integration_title} via YAML är föråldrad och tas bort i en framtida version. Vid importen av YAML-konfigurationen gick det inte att nå Discogs-API:t eller så var token ogiltig. Kontrollera din token och starta om Home Assistant för att försöka igen, eller ta bort sensorn {domain} från konfigurationen och konfigurera integrationen via användargränssnittet.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::volkszaehler::issues::deprecated_yaml_import_issue_cannot_connect::description",
+    "key_id": "937286382",
+    "translation_id": "9779603907",
+    "en": "Importing Volkszaehler sensor configuration from YAML failed because the server could not be reached. Remove the YAML configuration and set up the integration through the Home Assistant UI.",
+    "sv": "Import av Volkszaehler-sensorkonfiguration från YAML misslyckades eftersom servern inte kunde nås. Ta bort YAML-konfigurationen och konfigurera integrationen via Home Assistants användargränssnitt.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::volkszaehler::issues::deprecated_yaml_import_issue_no_data::description",
+    "key_id": "937286384",
+    "translation_id": "9779604035",
+    "en": "Importing Volkszaehler sensor configuration from YAML failed because no data was available for the channel. Remove the YAML configuration and set up the integration through the Home Assistant UI.",
+    "sv": "Import av Volkszaehler-sensorkonfiguration från YAML misslyckades eftersom inga data var tillgängliga för kanalen. Ta bort YAML-konfigurationen och konfigurera integrationen via Home Assistants användargränssnitt.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::volkszaehler::issues::deprecated_yaml_import_issue_unknown::description",
+    "key_id": "937286386",
+    "translation_id": "9779604163",
+    "en": "Importing Volkszaehler sensor configuration from YAML is deprecated or failed. Remove the YAML configuration and set up the integration through the Home Assistant UI.",
+    "sv": "YAML-importen av Volkszaehler-sensorkonfiguration är föråldrad eller har misslyckats. Ta bort YAML-konfigurationen och konfigurera integrationen via Home Assistants användargränssnitt.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::gree_infrared::config::step::user::data_description::infrared_receiver_entity_id",
+    "key_id": "938529380",
+    "translation_id": "9795087139",
+    "en": "Optional — allows the integration to update state when the physical remote is used.",
+    "sv": "Valfritt. Gör att integrationen kan uppdatera tillståndet när den fysiska fjärrkontrollen används.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::ring::exceptions::chime_type_unknown::message",
+    "key_id": "939339543",
+    "translation_id": "9809822018",
+    "en": "The in-home chime type changed and is no longer supported. Reload the Ring integration.",
+    "sv": "Typen av dörrklocka inomhus har ändrats och stöds inte längre. Läs in Ring-integrationen igen.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::fronius::config::step::reconfigure::data_description::auto_revert_power_limit",
+    "key_id": "943419473",
+    "translation_id": "9864226019",
+    "en": "The inverter drops the AC power limit and the battery charge and discharge limits an hour after it last received them, and returns to its own settings. Home Assistant sends active limits again every 15 minutes, so this only takes effect once it stops sending - because Home Assistant is down, or because the integration was removed. The battery minimum reserve and grid charging are not affected.",
+    "sv": "Växelriktaren tar bort AC-effektgränsen en timme efter att den senast tog emot den och återgår till sina egna inställningar. Home Assistant skickar gränsen igen var femtonde minut, så detta får bara effekt när systemet slutar skicka den eftersom Home Assistant är nere eller integrationen tagits bort. Batteriernas börvärden påverkas inte. Växelriktaren har ingen tidsgräns för dem.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::fronius::config::step::user::data_description::auto_revert_power_limit",
+    "key_id": "943419475",
+    "translation_id": "9864226147",
+    "en": "The inverter drops the AC power limit and the battery charge and discharge limits an hour after it last received them, and returns to its own settings. Home Assistant sends active limits again every 15 minutes, so this only takes effect once it stops sending - because Home Assistant is down, or because the integration was removed. The battery minimum reserve and grid charging are not affected.",
+    "sv": "Växelriktaren tar bort gränsen för växelströmseffekt och gränserna för batteriets laddning och urladdning en timme efter att den senast tog emot dem och återgår till sina egna inställningar. Home Assistant skickar aktiva gränser igen var femtonde minut, så detta sker först när Home Assistant slutar skicka dem, till exempel när Home Assistant är nere eller integrationen har tagits bort. Batteriets lägsta reservnivå och laddning från elnätet påverkas inte.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::mcp_server::config::create_entry::default",
+    "key_id": "943574040",
+    "translation_id": "9865635074",
+    "en": "The Model Context Protocol server is active. To change which tools its main URL exposes, select **Configure** on the integration.",
+    "sv": "Model Context Protocol-servern är aktiv. Om du vill ändra vilka verktyg som exponeras via dess huvudadress väljer du **Konfigurera** på integrationen.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::mcp_server::options::step::init::data_description::all_llm_apis",
+    "key_id": "943574042",
+    "translation_id": "9865635202",
+    "en": "Also exposes sets of tools that integrations add later.",
+    "sv": "Exponerar även verktygsuppsättningar som integrationer lägger till senare.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::marketplace::exceptions::replaces_built_in_not_confirmed::message",
+    "key_id": "946921669",
+    "translation_id": "9909777119",
+    "en": "{repository} replaces the built-in {domain} integration, confirm that before installing it.",
+    "sv": "{repository} ersätter den inbyggda integrationen {domain}. Bekräfta det innan du installerar arkivet.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::marketplace::issues::python_scripts_not_supported::description",
+    "key_id": "946921706",
+    "translation_id": "9909779487",
+    "en": "The Marketplace no longer manages Python scripts. The scripts it installed stay in place and the Python scripts integration keeps running them: {scripts}.\n\nUpdates for these scripts no longer come from the Marketplace. Keep them up to date yourself, outside of the Marketplace.",
+    "sv": "Marketplace hanterar inte längre Python-skript. Skript som Marketplace har installerat ligger kvar och integrationen för Python-skript fortsätter att köra dem: {scripts}.\n\nUppdateringar för dessa skript kommer inte längre från Marketplace. Håll dem uppdaterade själv utanför Marketplace.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  },
+  {
+    "key": "component::litellm::config_subentries::stt::abort::entry_not_loaded",
+    "key_id": "947803215",
+    "translation_id": "9918018278",
+    "en": "The main integration entry is not loaded. Please ensure the integration is loaded before reconfiguring.",
+    "sv": "Huvudposten för integrationen är inte inläst. Kontrollera att integrationen är inläst innan du konfigurerar om den.",
+    "verification_method": "Lokalise API readback; established HA terminology: integration/integrationer",
+    "verified_date": "2026-11-22"
+  }
+]
