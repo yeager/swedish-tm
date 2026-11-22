@@ -61,7 +61,9 @@ def append(canonical: Path, manifest: Path, *, write: bool) -> int:
         tuid = f"lokalise:{entry['translation_id']}"
         by_id = existing_ids.get(tuid)
         by_key = existing_keys.get(entry["key"])
-        if by_id is not None or by_key is not None:
+        legacy_tuid = f"lokalise:{entry['key_id']}"
+        by_legacy_id = existing_ids.get(legacy_tuid)
+        if by_id is not None or by_key is not None or by_legacy_id is not None:
             # Lokalise can retain a translation ID while moving it to a new
             # key/source during upstream catalogue migrations.  The manifest
             # has just been verified against the live key, so replace this
@@ -70,6 +72,10 @@ def append(canonical: Path, manifest: Path, *, write: bool) -> int:
             # still a conflict and must never be overwritten implicitly.
             if by_id is not None and (by_key is None or by_key is by_id):
                 replacements.append((tuid, rendered_unit))
+            elif by_key is not None and by_key is by_legacy_id:
+                # Older UI-review records used the Lokalise key ID as tuid.
+                # A live manifest supplies the actual translation ID.
+                replacements.append((legacy_tuid, rendered_unit))
             else:
                 raise ValueError(f"conflicting canonical entry: {entry['key']}")
         else:
