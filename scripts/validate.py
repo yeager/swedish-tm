@@ -65,13 +65,16 @@ def validate(root):
         po = polib.pofile(str(path), encoding='utf-8')
         if po.metadata.get('Language') != 'sv':
             raise ValueError(f'{path.name}: expected Language: sv')
-        if any(e.obsolete or e.fuzzy or not e.msgid or not e.msgstr or e.msgid_plural or e.msgctxt for e in po):
-            raise ValueError(f'{path.name}: expected active, translated singular pairs without context')
-        if len({e.msgid for e in po}) != len(po):
-            raise ValueError(f'{path.name}: duplicate source')
+        # A catalogue can legitimately distinguish otherwise identical source
+        # strings with gettext context (notably sv-gnome.po).  Context is not
+        # retained by the TMX compendium, but every such active singular entry
+        # is exported as a separate pair.  Treat (context, source) as the PO
+        # identity and compare pair multiplicities with the TMX below.
+        if any(e.obsolete or e.fuzzy or not e.msgid or not e.msgstr or e.msgid_plural for e in po):
+            raise ValueError(f'{path.name}: expected active, translated singular pairs')
+        if len({(e.msgctxt, e.msgid) for e in po}) != len(po):
+            raise ValueError(f'{path.name}: duplicate context/source')
         pairs = collections.Counter((e.msgid, e.msgstr) for e in po)
-        if any(n != 1 for n in pairs.values()):
-            raise ValueError(f'{path.name}: duplicate pair')
         all_pairs.update(pairs)
         info = {'po_entries': len(po)}
         tmx = path.with_suffix('.tmx')
