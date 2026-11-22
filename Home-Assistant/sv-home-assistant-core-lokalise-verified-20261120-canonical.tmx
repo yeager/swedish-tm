@@ -19505,5 +19505,40 @@ Uppdatera ovanstående automatiseringar eller skript så de använder den nya va
 <tu tuid="lokalise:5180607087"><prop type="source">component::zha::entity::sensor::energy_produced_ph_c::name</prop><prop type="lokalise-key-id">599681883</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>Energy produced phase C</seg></tuv><tuv xml:lang="sv"><seg>Producerad energi, fas C</seg></tuv></tu>
 
 <tu tuid="lokalise:3723328833"><prop type="source">component::imap::exceptions::imap_server_fail::message</prop><prop type="lokalise-key-id">463368487</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>The IMAP server failed to connect: {error}.</seg></tuv><tuv xml:lang="sv"><seg>IMAP-servern kunde inte ansluta: {error}.</seg></tuv></tu>
+
+<tu tuid="lokalise:1422758356"><prop type="source">component::nest::config::step::create_cloud_project::description</prop><prop type="lokalise-key-id">184933946</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>The Nest integration allows you to integrate your Nest Thermostats, Cameras, and Doorbells using the Smart Device Management API. The SDM API **requires a US $5** one-time setup fee. See documentation for [more info]({more_info_url}).
+
+1. Go to the [Google Cloud Console]({cloud_console_url}).
+1. If this is your first project, select **Create Project** then **New Project**.
+1. Give your Cloud Project a name and then select **Create**.
+1. Save the Cloud Project ID e.g. *example-project-12345* as you will need it later
+1. Go to API Library for [Smart Device Management API]({sdm_api_url}) and select **Enable**.
+1. Go to API Library for [Cloud Pub/Sub API]({pubsub_api_url}) and select **Enable**.
+
+Proceed when your Cloud Project is set up.</seg></tuv><tuv xml:lang="sv"><seg>Med Nest-integrationen kan du integrera dina Nest-termostater, -kameror och -dörrklockor med hjälp av Smart Device Management API:et. SDM API **kräver en engångsavgift på 5 USD** för installation. Se dokumentationen för [mer information]({more_info_url}).
+
+1. Gå till [Google Cloud Console]({cloud_console_url}).
+1. Om detta är ditt första projekt väljer du **Skapa projekt** och sedan **Nytt projekt**.
+1. Ge ditt projekt ett namn och välj sedan **Skapa**.
+1. Spara Cloud Project ID:t (t.ex. *example-project-12345*), eftersom du behöver det senare.
+1. Gå till API Library för [Smart Device Management API]({sdm_api_url}) och välj **Aktivera**.
+1. Gå till API Library för [Cloud Pub/Sub API]({pubsub_api_url}) och välj **Aktivera**.
+
+Fortsätt när ditt molnprojekt har konfigurerats.</seg></tuv></tu>
+<tu tuid="lokalise:1422758539"><prop type="source">component::nest::config::step::device_project::description</prop><prop type="lokalise-key-id">184933949</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>Create a Nest Device Access project which **requires paying Google a US $5 fee** to set up.
+1. Go to the [Device Access Console]({device_access_console_url}), and through the payment flow.
+1. Select on **Create project**
+1. Give your Device Access project a name and select **Next**.
+1. Enter your OAuth Client ID
+1. Skip enabling events for now and select **Create project**.
+
+Enter your Device Access Project ID below ([more info]({more_info_url})).</seg></tuv><tuv xml:lang="sv"><seg>Skapa ett Nest Device Access-projekt som **kräver en avgift på 5 USD** för att konfigurera.
+1. Gå till [Device Access Console]({device_access_console_url}) och gå igenom betalningsflödet.
+1. Välj **Skapa projekt**.
+1. Ge ditt Device Access-projekt ett namn och klicka på **Nästa**.
+1. Ange ditt OAuth-klient-ID.
+1. Hoppa över aktivering av händelser tills vidare och välj **Skapa projekt**.
+
+Ange ditt Device Access Project ID nedan ([mer information]({more_info_url})).</seg></tuv></tu>
 </body>
 </tmx>
