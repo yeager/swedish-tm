@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261122T090252Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261122T091713Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -414832,6 +414832,667 @@ Administratörsgruppen för Förbannade lögner</seg></tuv>
       <prop type="project">gnome:reviewed/gtksourceview/master</prop>
       <tuv xml:lang="en"><seg>File has too many lines.</seg></tuv>
       <tuv xml:lang="sv"><seg>Filen har för många rader.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>%s [options]
+  -h, --help                            Show this help
+  -v, --verbose                         Increase verbosity by one level
+      --version                         Show version
+  -c, --config                          Load config (Default %s)
+  -P  --properties                      Set context properties
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>%s [flaggor]
+  -h, --help                            Visa denna hjälp
+  -v, --verbose                         Öka utförligheten en nivå
+      --version                         Visa version
+  -c, --config                          Läs in konfig (standard %s)
+  -P  --properties                      Ställ in kontextegenskaper
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>PipeWire Media System</seg></tuv>
+      <tuv xml:lang="sv"><seg>PipeWire mediasystem</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Start the PipeWire Media System</seg></tuv>
+      <tuv xml:lang="sv"><seg>Starta mediasystemet PipeWire</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Tunnel to %s%s%s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tunnel till %s%s%s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Dummy Output</seg></tuv>
+      <tuv xml:lang="sv"><seg>Attrapputgång</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Tunnel for %s@%s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tunnel för %s@%s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>%s on %s@%s</seg></tuv>
+      <tuv xml:lang="sv"><seg>%s på %s@%s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Supported formats:
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>Format som stöds:
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Supported channel layouts:
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kanallayouter som stöds:
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Supported channel layout aliases:
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kanallayoutalias som stöds:
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>    %s -&gt; %s
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>    %s -&gt; %s
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Supported channel names:
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kanalnamn som stöds:
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>%s [options] [&lt;file&gt;|-]
+  -h, --help                            Show this help
+      --version                         Show version
+  -v, --verbose                         Enable verbose operations
+
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>%s [flaggor] [&lt;fil&gt;|-]
+  -h, --help                            Visa denna hjälp
+      --version                         Visa version
+  -v, --verbose                         Aktivera utförliga operationer
+
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>  -R, --remote                          Remote daemon name
+      --media-type                      Set media type (default %s)
+      --media-category                  Set media category (default %s)
+      --media-role                      Set media role (default %s)
+      --target                          Set node target serial or name (default %s)
+                                          0 means don't link
+  -C  --monitor                         Capture monitor ports (in recording mode)
+      --latency                         Set node latency (default %s)
+                                          Xunit (unit = s, ms, us, ns)
+                                          or direct samples (256)
+                                          the rate is the one of the source file
+  -P  --properties                      Set node properties
+
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>  -R, --remote                          Fjärrdemonnamn
+      --media-type                      Sätt mediatyp (standard %s)
+      --media-category                  Sätt mediakategori (standard %s)
+      --media-role                      Sätt mediaroll (standard %s)
+      --target                          Sätt nodmåls serienummer eller namn
+                                          (standard %s), 0 betyder länka inte
+  -C  --monitor                         Fånga bildskärmsportar (i inspelningsläge)
+      --latency                         Sätt nodlatens (standard %s)
+                                          Xenhet (enhet = s, ms, us, ns)
+                                          eller direkta samplar (256)
+                                          hastigheten är källfilens
+  -P  --properties                      Sätt nodegenskaper
+
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>      --rate                            Sample rate (default %u)
+      --channels                        Number of channels (default %u)
+      --channel-map                     Channel map
+                                            a channel layout: "Stereo", "5.1",... or
+                                            comma separated list of channel names: eg. "FL,FR"
+      --list-layouts                    List supported channel layouts
+      --list-channel-names              List supported channel maps
+      --format                          Sample format (default %s)
+      --list-formats                    List supported sample formats
+      --container                       Container format
+      --list-containers                 List supported containers and extensions
+      --volume                          Stream volume 0-1.0 (default %.3f)
+  -q  --quality                         Resampler quality (0 - 15) (default %d)
+  -a, --raw                             RAW mode
+  -M, --force-midi                      Force midi format, one of "none", "midi" or "ump", (default none)
+  -n, --sample-count COUNT              Stop after COUNT samples
+
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>      --rate                            Samplingsfrekvens (standard %u)
+      --channels                        Antal kanaler (standard %u)
+      --channel-map                     Kanalmappning
+                                            en kanallayout: "Stereo", "5.1",... eller
+                                            kommaseparerad lista av kanalnamn: t.ex. "FL,FR"
+      --list-layouts                    Lista kanallayouter som stöds
+      --list-channel-names              Lista kanalmappningar som stöds
+      --format                          Samplingsformat (standard %s)
+      --list-formats                    Lista samplingsformat som stöds
+      --container                       Behållarformat
+      --list-containers                 Lista behållare och tillägg som stöds
+      --volume                          Strömvolym 0-1.0 (standard %.3f)
+  -q  --quality                         Omsamplarkvalitet (0 - 15) (standard %d)
+  -a, --raw                             RAW-läge
+  -M, --force-midi                      Tvinga midi-format, en av "none", "midi" eller "ump", (standard none)
+  -n, --sample-count ANTAL              Stoppa efter ANTAL samplar
+
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>  -p, --playback                        Playback mode
+  -r, --record                          Recording mode
+  -m, --midi                            Midi mode
+  -d, --dsd                             DSD mode
+  -o, --encoded                         Encoded mode
+  -s, --sysex                           SysEx mode
+  -c, --midi-clip                       MIDI clip mode
+
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>  -p, --playback                        Uppspelningsläge
+  -r, --record                          Inspelningsläge
+  -m, --midi                            Midiläge
+  -d, --dsd                             DSD-läge
+  -o, --encoded                         Kodat läge
+  -s, --sysex                           SysEx-läge
+  -c, --midi-clip                       MIDI-klippläge
+
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Supported containers and extensions:
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>Behållare och tillägg som stöds:
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>%s [options] [command]
+  -h, --help                            Show this help
+      --version                         Show version
+  -d, --daemon                          Start as daemon (Default false)
+  -r, --remote                          Remote daemon name
+  -m, --monitor                         Monitor activity
+
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>%s [flaggor] [kommando]
+  -h, --help                            Visa denna hjälp
+      --version                         Show version
+  -d, --daemon                          Starta som demon (standard false)
+  -r, --remote                          Fjärrdemonnamn
+  -m, --monitor                         Övervaka aktivitet
+
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Pro Audio</seg></tuv>
+      <tuv xml:lang="sv"><seg>Professionellt ljud</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>%s [ALSA UCM error]</seg></tuv>
+      <tuv xml:lang="sv"><seg>%s [ALSA UCM-fel]</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Docking Station Input</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ingång för dockningsstation</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Docking Station Microphone</seg></tuv>
+      <tuv xml:lang="sv"><seg>Mikrofon för dockningsstation</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Docking Station Line In</seg></tuv>
+      <tuv xml:lang="sv"><seg>Linje in för dockningsstation</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Line In</seg></tuv>
+      <tuv xml:lang="sv"><seg>Linje in</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Front Microphone</seg></tuv>
+      <tuv xml:lang="sv"><seg>Frontmikrofon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Rear Microphone</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bakre mikrofon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>External Microphone</seg></tuv>
+      <tuv xml:lang="sv"><seg>Extern mikrofon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Internal Microphone</seg></tuv>
+      <tuv xml:lang="sv"><seg>Intern mikrofon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Automatic Gain Control</seg></tuv>
+      <tuv xml:lang="sv"><seg>Automatisk förstärkningskontroll</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>No Automatic Gain Control</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ingen automatisk förstärkningskontroll</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Boost</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ökning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>No Boost</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ingen ökning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Amplifier</seg></tuv>
+      <tuv xml:lang="sv"><seg>Förstärkare</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>No Amplifier</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ingen förstärkare</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Bass Boost</seg></tuv>
+      <tuv xml:lang="sv"><seg>Basökning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>No Bass Boost</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ingen basökning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Input</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog ingång</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Dock Microphone</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dockmikrofon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Headset Microphone</seg></tuv>
+      <tuv xml:lang="sv"><seg>Headset-mikrofon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Output</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog utgång</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Headphones 2</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hörlurar 2</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Headphones Mono Output</seg></tuv>
+      <tuv xml:lang="sv"><seg>Monoutgång för hörlurar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Line Out</seg></tuv>
+      <tuv xml:lang="sv"><seg>Linje ut</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Mono Output</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog monoutgång</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>HDMI / DisplayPort</seg></tuv>
+      <tuv xml:lang="sv"><seg>HDMI / DisplayPort</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Digital Output (S/PDIF)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Digital utgång (S/PDIF)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Digital Input (S/PDIF)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Digital ingång (S/PDIF)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Multichannel Input</seg></tuv>
+      <tuv xml:lang="sv"><seg>Multikanalingång</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Multichannel Output</seg></tuv>
+      <tuv xml:lang="sv"><seg>Multikanalutgång</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Game Output</seg></tuv>
+      <tuv xml:lang="sv"><seg>Spelutgång</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Chat Output</seg></tuv>
+      <tuv xml:lang="sv"><seg>Chatt-utgång</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Chat Input</seg></tuv>
+      <tuv xml:lang="sv"><seg>Chatt-ingång</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Virtual Surround 7.1</seg></tuv>
+      <tuv xml:lang="sv"><seg>Virtual surround 7.1</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Mono</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog mono</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Mono (Left)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog mono (vänster)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Mono (Right)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog mono (höger)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Stereo</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog stereo</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Speakerphone</seg></tuv>
+      <tuv xml:lang="sv"><seg>Högtalartelefon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Multichannel</seg></tuv>
+      <tuv xml:lang="sv"><seg>Multikanal</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Surround 2.1</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog surround 2.1</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Surround 3.0</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog surround 3.0</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Surround 3.1</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog surround 3.1</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Surround 4.0</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog surround 4.0</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Surround 4.1</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog surround 4.1</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Surround 5.0</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog surround 5.0</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Surround 5.1</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog surround 5.1</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Surround 6.0</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog surround 6.0</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Surround 6.1</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog surround 6.1</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Surround 7.0</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog surround 7.0</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Surround 7.1</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog surround 7.1</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Digital Stereo (IEC958)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Digital stereo (IEC958)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Digital Surround 4.0 (IEC958/AC3)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Digital surround 4.0 (IEC958/AC3)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Digital Surround 5.1 (IEC958/AC3)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Digital surround 5.1 (IEC958/AC3)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Digital Surround 5.1 (IEC958/DTS)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Digital surround 5.1 (IEC958/DTS)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Digital Stereo (HDMI)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Digital stereo (HDMI)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Digital Surround 5.1 (HDMI)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Digital surround 5.1 (HDMI)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Mono Duplex</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog mono duplex</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Analog Stereo Duplex</seg></tuv>
+      <tuv xml:lang="sv"><seg>Analog stereo duplex</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Digital Stereo Duplex (IEC958)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Digital stereo duplex (IEC958)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Multichannel Duplex</seg></tuv>
+      <tuv xml:lang="sv"><seg>Multikanalduplex</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Stereo Duplex</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stereo duplex</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Mono Chat + 7.1 Surround</seg></tuv>
+      <tuv xml:lang="sv"><seg>Mono Chatt + 7.1 Surround</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>%s Output</seg></tuv>
+      <tuv xml:lang="sv"><seg>%s-utgång</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>%s Input</seg></tuv>
+      <tuv xml:lang="sv"><seg>%s-ingång</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>snd_pcm_avail_delay() returned strange values: delay %lu is less than avail %lu.
+Most likely this is a bug in the ALSA driver '%s'. Please report this issue to the ALSA developers.</seg></tuv>
+      <tuv xml:lang="sv"><seg>snd_pcm_avail_delay() returnerade konstiga värden: fördröjningen %lu är mindre än tillgängliga %lu.
+Förmodligen är detta ett fel i ALSA-drivrutinen ”%s”. Vänligen rapportera problemet till ALSA-utvecklarna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>(invalid)</seg></tuv>
+      <tuv xml:lang="sv"><seg>(ogiltig)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Built-in Audio</seg></tuv>
+      <tuv xml:lang="sv"><seg>Inbyggt ljud</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Audio Gateway (A2DP Source &amp; HSP/HFP AG)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Audio gateway (A2DP-källa &amp; HSP/HFP AG)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Audio Streaming for Hearing Aids (ASHA Sink)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ljudströmning för hörhjälpmedel (ASHA-utgång)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>High Fidelity Playback (A2DP Sink, codec %s)</seg></tuv>
+      <tuv xml:lang="sv"><seg>High fidelity-uppspelning (A2DP-utgång, kodek %s)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>High Fidelity Duplex (A2DP Source/Sink, codec %s)</seg></tuv>
+      <tuv xml:lang="sv"><seg>High fidelity duplex (A2DP-källa/utgång, kodek %s)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>High Fidelity Playback (A2DP Sink)</seg></tuv>
+      <tuv xml:lang="sv"><seg>High fidelity-uppspelning (A2DP-utgång)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>High Fidelity Duplex (A2DP Source/Sink)</seg></tuv>
+      <tuv xml:lang="sv"><seg>High fidelity duplex (A2DP-källa/utgång)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Auto: Prefer Quality (A2DP)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Auto: Föredra kvalitet (A2DP)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Auto: Prefer Latency (A2DP)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Auto: Föredra låg fördröjning (A2DP)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>High Fidelity Playback (BAP Sink, codec %s)</seg></tuv>
+      <tuv xml:lang="sv"><seg>High fidelity-uppspelning (BAP-utgång, kodek %s)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>High Fidelity Input (BAP Source, codec %s)</seg></tuv>
+      <tuv xml:lang="sv"><seg>High fidelity-ingång (BAP-källa, kodek %s)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>High Fidelity Duplex (BAP Source/Sink, codec %s)</seg></tuv>
+      <tuv xml:lang="sv"><seg>High fidelity duplex (BAP-källa/utgång, kodek %s)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>High Fidelity Playback (BAP Sink)</seg></tuv>
+      <tuv xml:lang="sv"><seg>High fidelity-uppspelning (BAP-utgång)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>High Fidelity Input (BAP Source)</seg></tuv>
+      <tuv xml:lang="sv"><seg>High fidelity-ingång (BAP-källa)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>High Fidelity Duplex (BAP Source/Sink)</seg></tuv>
+      <tuv xml:lang="sv"><seg>High fidelity duplex (BAP-källa/utgång)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Headset Head Unit (HSP/HFP, codec %s)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Headset-huvudenhet (HSP/HFP, kodek %s)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Handsfree</seg></tuv>
+      <tuv xml:lang="sv"><seg>Handsfree</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Handsfree (HFP)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Handsfree (HFP)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Portable</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bärbar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>HiFi</seg></tuv>
+      <tuv xml:lang="sv"><seg>HiFi</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>Bluetooth Handsfree</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bluetooth-handsfree</seg></tuv>
     </tu>
   </body>
 </tmx>
