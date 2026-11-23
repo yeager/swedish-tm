@@ -129,6 +129,7 @@ msgstr "Programidentifierare i D-Bus-format (t.ex: org.example.viewer)"
 #. from gnome:glib
 #. from gnome:reviewed/ptyxis/main
 #. from gnome:reviewed/flatpak/main
+#. from gnome:reviewed/crosswords/main
 msgid "FILE"
 msgstr "FILE"
 
@@ -250,6 +251,7 @@ msgstr "Åtgärden avbröts"
 
 #. from gnome:glib
 #. from gnome:reviewed/gtksourceview/master
+#. from gnome:reviewed/glib/main
 msgid "Invalid object, not initialized"
 msgstr "Ogiltigt objekt, ej initierat"
 
@@ -259,6 +261,7 @@ msgstr "Ofullständig flerbytesekvens i inmatning"
 
 #. from gnome:glib
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/glib/main
 msgid "Not enough space in destination"
 msgstr "För lite utrymme i målet"
 
@@ -270,6 +273,7 @@ msgstr "Ogiltig bytesekvens i konverteringsindata"
 
 #. from gnome:glib
 #. from gnome:reviewed/gtksourceview/master
+#. from gnome:reviewed/glib/main
 msgid "Error during conversion: %s"
 msgstr "Fel under konvertering: %s"
 
@@ -467,6 +471,7 @@ msgstr "Fel vid skapandet av katalogen ”%s”: %s"
 
 #. from gnome:glib
 #. from gnome:reviewed/gnome-control-center/main
+#. from gnome:reviewed/glib/main
 msgid "Operation not supported"
 msgstr "Operationen stöds ej"
 
@@ -1979,11 +1984,13 @@ msgstr "Lista innehållet i kataloger i ett trädliknande format."
 
 #. from gnome:glib
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/glib/main
 msgid "Element <%s> not allowed inside <%s>"
 msgstr "Elementet <%s> är inte tillåtet inuti <%s>"
 
 #. from gnome:glib
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/glib/main
 msgid "Element <%s> not allowed at toplevel"
 msgstr "Elementet <%s> är inte tillåtet i toppnivå"
 
@@ -2333,6 +2340,7 @@ msgstr "Elementet <default> krävs i <key>"
 
 #. from gnome:glib
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/glib/main
 msgid "Text may not appear inside <%s>"
 msgstr "Text får inte finnas inuti <%s>"
 
@@ -2710,6 +2718,7 @@ msgstr "Ogiltig GSeekType angavs"
 
 #. from gnome:glib
 #. from gnome:reviewed/libsoup/master
+#. from gnome:reviewed/glib/main
 msgid "Invalid seek request"
 msgstr "Ogiltig ”seek”-förfrågan"
 
@@ -3565,6 +3574,7 @@ msgstr "Inkludera kataloger i GIR-sökväg"
 
 #. from gnome:glib
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/glib/main
 msgid "Output file"
 msgstr "Utdatafil"
 
@@ -5275,8 +5285,9 @@ msgstr "Du kan stoppa denna åtgärd genom att klicka på avbryt."
 #. from gnome:reviewed/papers/gnome-48
 #. from gnome:reviewed/drum-machine/main
 #. from gnome:reviewed/ptyxis/main
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "_Cancel"
-msgstr "_Avbryt"
+msgstr "A_vbryt"
 
 #. from gnome:nautilus
 msgid "%s %s %s"
@@ -5808,6 +5819,7 @@ msgstr "Filens ägare."
 
 #. from gnome:nautilus
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/chronojump/master
 msgid "Group"
 msgstr "Gruppera"
 
@@ -5933,7 +5945,7 @@ msgstr "_Sammanfoga"
 #. from gnome:reviewed/simple-scan/master
 #. from gnome:reviewed/evolution/master
 msgid "_Replace"
-msgstr "_Ersätt"
+msgstr "E_rsätt"
 
 #. from gnome:nautilus
 msgid "S_kip All"
@@ -6207,6 +6219,7 @@ msgstr "Presentation"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/graphs/main
 msgid "Spreadsheet"
 msgstr "Kalkylprogram"
 
@@ -7178,6 +7191,7 @@ msgstr "Välj målplats för kopiering"
 #. from gnome:reviewed/fractal/main
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/decoder/master
 msgid "_Select"
 msgstr "_Markera"
 
@@ -7338,8 +7352,9 @@ msgstr "_Papperskorgsinställningar"
 #. from gnome:nautilus
 #. from gnome:reviewed/gnome-maps/main
 #. from gnome:reviewed/gnome-text-editor/main
+#. from gnome:reviewed/gtk/main
 msgid "Clear Entry"
-msgstr "Töm sökruta"
+msgstr "Töm sökfält"
 
 #. from gnome:nautilus
 msgid "Go to Location"
@@ -7465,8 +7480,9 @@ msgstr "Öppnar ”%s”."
 #. from gnome:reviewed/simple-scan/master
 #. from gnome:reviewed/evolution/master
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "_Close"
-msgstr "_Stäng"
+msgstr "S_täng"
 
 #. from gnome:nautilus
 msgid "Con_nect"
@@ -7526,6 +7542,7 @@ msgstr "Nätkonto"
 #. from gnome:reviewed/gnome-control-center/main
 #. from gnome:reviewed/nautilus/main
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/chronojump/master
 msgid "Connected"
 msgstr "Ansluten"
 
@@ -7969,6 +7986,7 @@ msgstr "Stjärnmärkta filer"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/orca/main
+#. from gnome:reviewed/epiphany/main
 msgid "Desktop"
 msgstr "Stationär dator"
 
@@ -8222,9 +8240,11 @@ msgstr "Följande kommando kan användas, men endast för feltestning:"
 #. from gnome:reviewed/ptyxis/main
 msgid "translator-credits"
 msgstr ""
-"Luna Jernberg <lunajernberg@gnome.org>\n"
-"Miró Allard <info@miroallard.com>\n"
-"Anders Jonsson <anders.jonsson@norsjovallen.se>"
+"Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Luna Jernberg <droidbittin@gmail.com>\n"
+"\n"
+"Skicka synpunkter på översättningen till\n"
+"<tp-sv@listor.tp-sv.se>."
 
 #. from gnome:nautilus
 msgid "Parent folder"
@@ -8238,6 +8258,7 @@ msgstr "Bakåt"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/epiphany/main
 msgid "Forward"
 msgstr "Vidarebefordra"
 
@@ -8985,6 +9006,7 @@ msgstr "använt"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/gtk-doc/master
+#. from gnome:reviewed/nautilus/main
 msgid "free"
 msgstr "fritt"
 
@@ -9195,6 +9217,7 @@ msgstr "Ikonstorlek"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/gitte/main
+#. from gnome:reviewed/crosswords/main
 msgid "Sort"
 msgstr "Sortera"
 
@@ -9277,8 +9300,9 @@ msgstr "_Stäng flik"
 #. from gnome:nautilus
 #. from gnome:reviewed/epiphany/main
 #. from gnome:reviewed/nautilus/main
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Close _Other Tabs"
-msgstr "Stäng _andra flikar"
+msgstr "Stäng a_ndra flikar"
 
 #. from gnome:nautilus
 msgid "Main Menu"
@@ -9378,6 +9402,7 @@ msgstr "Lägg till bokmärke för aktuell plats"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/goffice/master
 msgid "View"
 msgstr "Visa"
 
@@ -9391,8 +9416,10 @@ msgstr "Zooma ut"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/ptyxis/gnome-46
+#. from gnome:reviewed/crosswords/main
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Reset Zoom"
-msgstr "Återställ zoom"
+msgstr "Återställ zoomnivå"
 
 #. from gnome:nautilus
 msgid "List View"
@@ -9544,6 +9571,7 @@ msgstr "Visa inställningar"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/whisp/main
 #. from gnome:reviewed/ptyxis/main
+#. from gnome:reviewed/chronojump/master
 msgid "Shortcuts"
 msgstr "Genvägar"
 
@@ -10366,6 +10394,7 @@ msgstr "Ändra bakgrund…"
 
 #. from gnome:gnome-shell
 #. from gnome:reviewed/orca/main
+#. from gnome:reviewed/gnome-flashback/master
 msgid "Display Settings"
 msgstr "Visningsinställningar"
 
@@ -10842,6 +10871,7 @@ msgstr "Inte uppdaterad"
 
 #. from gnome:gnome-shell
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gnome-maps/main
 msgid "Downloading"
 msgstr "Hämtning"
 
@@ -11235,6 +11265,7 @@ msgstr "Hög"
 
 #. from gnome:gnome-shell
 #. from gnome:reviewed/gnome-control-center/main
+#. from gnome:reviewed/gimp/master
 msgid "Keyboard"
 msgstr "Tan­gent­bord"
 
@@ -11723,6 +11754,7 @@ msgstr "Misslyckades med att starta ”%s”"
 
 #. from gnome:gnome-shell
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/fractal/main
 msgid "Passwords do not match"
 msgstr "Lösenord stämmer inte överens"
 
@@ -11815,6 +11847,7 @@ msgstr "_Webbplats"
 
 #. from gnome:gnome-shell
 #. from gnome:reviewed/gnome-commander/main
+#. from gnome:reviewed/gimp/master
 msgid "_Settings"
 msgstr "In_ställningar"
 
@@ -13561,6 +13594,7 @@ msgstr "Ämne"
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/papers/gnome-48
 #. from gnome:reviewed/rhythmbox/master
+#. from gnome:reviewed/crosswords/main
 msgid "Author"
 msgstr "Upphovsperson"
 
@@ -13711,6 +13745,7 @@ msgstr "Sista sidan"
 
 #. from gnome:evince
 #. from gnome:reviewed/gtk-doc/master
+#. from gnome:reviewed/epiphany/main
 msgid "History"
 msgstr "historik"
 
@@ -13743,8 +13778,9 @@ msgid "_Unlock Document"
 msgstr "_Lås upp dokument"
 
 #. from gnome:evince
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "No Recent Documents"
-msgstr "Inga senaste dokument"
+msgstr "Inga nyligen använda dokument"
 
 #. from gnome:evince
 msgid "Find previous occurrence of the search string"
@@ -13892,6 +13928,7 @@ msgstr "Ram"
 
 #. from gnome:evince
 #. from gnome:reviewed/gtk-doc/master
+#. from gnome:reviewed/papers/gnome-48
 msgid "Annotations"
 msgstr "Noteringar"
 
@@ -15247,8 +15284,9 @@ msgstr "Skapa nytt dokument"
 
 #. from gnome:gedit
 #. from gnome:reviewed/ptyxis/gnome-46
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Leave Fullscreen"
-msgstr "Lämna helskärm"
+msgstr "Lämna helskärmsläge"
 
 #. from gnome:gedit
 #. from gnome:reviewed/evolution/master
@@ -15858,8 +15896,9 @@ msgstr "Öppna stängd _flik igen"
 #. from gnome:gedit
 #. from gnome:reviewed/crosswords/main
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Save _As…"
-msgstr "Spara so_m…"
+msgstr "Spara s_om…"
 
 #. from gnome:gedit
 msgid "_New Window"
@@ -15869,13 +15908,15 @@ msgstr "_Nytt fönster"
 #. from gnome:reviewed/crosswords/main
 #. from gnome:reviewed/loupe/main
 #. from gnome:reviewed/papers/gnome-48
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "_Print…"
-msgstr "Skriv _ut…"
+msgstr "S_kriv ut…"
 
 #. from gnome:gedit
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/sysprof/master
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/epiphany/main
 msgid "_Quit"
 msgstr "_Avsluta"
 
@@ -16170,6 +16211,7 @@ msgstr "_Skiftlägeskänslig"
 
 #. from gnome:gedit
 #. from gnome:reviewed/orca/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Match _entire word only"
 msgstr "Matcha endast _hela ord"
 
@@ -17258,10 +17300,11 @@ msgstr "Kontrollera alltid huruvida GNOME Terminal är standardterminalen"
 #. from gnome:reviewed/gnome-terminal/master
 #. from gnome:reviewed/meld/main
 msgid "Tab"
-msgstr "Tabulator"
+msgstr "Tabb"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/ptyxis/gnome-46
+#. from gnome:reviewed/chronojump/master
 msgid "Last"
 msgstr "Sista"
 
@@ -17373,6 +17416,7 @@ msgstr "Automatisk"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/ptyxis/gnome-46
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Control-H"
 msgstr "Ctrl-H"
 
@@ -17387,6 +17431,7 @@ msgstr "Kontrollsekvens"
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/ptyxis/gnome-46
 #. from gnome:reviewed/ptyxis/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "TTY Erase"
 msgstr "TTY-radering"
 
@@ -17880,6 +17925,7 @@ msgstr "Matcha som _reguljärt uttryck"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/orca/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "_Wrap around"
 msgstr "_Börja om"
 
@@ -17944,6 +17990,7 @@ msgstr "Återställ"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/ptyxis/gnome-46
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Reset and Clear"
 msgstr "Återställ och rensa"
 
@@ -17969,6 +18016,7 @@ msgstr "Koppla loss flik"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/ptyxis/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Switch to Last Tab"
 msgstr "Växla till sista fliken"
 
@@ -17978,6 +18026,7 @@ msgstr "Innehåll"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/ptyxis/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Show Primary Menu"
 msgstr "Visa huvudmeny"
 
@@ -18114,8 +18163,9 @@ msgstr "Klistra in som _filnamn"
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/crosswords/main
 #. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "P_references"
-msgstr "I_nställningar"
+msgstr "_Inställningar"
 
 #. from gnome:gnome-terminal
 msgid "Show _Menubar"
@@ -18127,11 +18177,13 @@ msgstr "_Normal storlek"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Find _Next"
 msgstr "Sök efter _nästa"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Find _Previous"
 msgstr "Sök efter _föregående"
 
@@ -18997,21 +19049,25 @@ msgstr "HD DVD-videoskiva"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/shared-mime-info/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Picture CD"
 msgstr "Picture CD"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/shared-mime-info/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Super Video CD"
 msgstr "Super Video CD"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/shared-mime-info/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Video CD"
 msgstr "Video-cd"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/shared-mime-info/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Windows software"
 msgstr "Windows-program"
 
@@ -19321,6 +19377,7 @@ msgstr "Gul"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Orange"
 msgstr "Brandgult"
 
@@ -19334,6 +19391,7 @@ msgstr "Rosa"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Purple"
 msgstr "Purpur"
 
@@ -19416,6 +19474,7 @@ msgstr "_Fortsätt"
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnome-calendar/main
 #. from gnome:reviewed/gnome-control-center/main
+#. from gnome:reviewed/fractal/main
 msgid "_Done"
 msgstr "_Klar"
 
@@ -19838,6 +19897,7 @@ msgstr "Färg;ICC;Profil;Kalibrera;Skrivare;Skärm;"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Other…"
 msgstr "Annat…"
 
@@ -19851,6 +19911,7 @@ msgstr "Språk eller land"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnome-initial-setup/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "No languages found"
 msgstr "Inga språk hittades"
 
@@ -20062,6 +20123,7 @@ msgstr "Nattbelysning gör skärmens färg varmare. Detta kan underlätta att f�
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "_Schedule"
 msgstr "_Boka"
 
@@ -20143,6 +20205,7 @@ msgstr "Spela (eller spela/gör paus)"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/rhythmbox/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Pause playback"
 msgstr "Pausa uppspelningen"
 
@@ -20160,6 +20223,7 @@ msgstr "Nästa spår"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnome-initial-setup/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Typing"
 msgstr "Inmatning"
 
@@ -20379,6 +20443,7 @@ msgstr "Sök kortkommandon"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Search Shortcuts"
 msgstr "Sök genvägar"
 
@@ -20975,6 +21040,7 @@ msgstr "S_täng av"
 #. from gnome:reviewed/gnome-initial-setup/main
 #. from gnome:reviewed/gnome-maps/main
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
@@ -21081,6 +21147,7 @@ msgstr "2,4 GHz / 5 GHz"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "2.4 GHz"
 msgstr "2.4 GHz"
 
@@ -21236,6 +21303,7 @@ msgstr "Standardrutt"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Last Used"
 msgstr "Senast använda"
 
@@ -21507,6 +21575,7 @@ msgstr "sekunder"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/chronojump/master
 msgid "Apply"
 msgstr "Tillämpa"
 
@@ -21548,6 +21617,7 @@ msgstr "%'d Mb/s"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Wired"
 msgstr "Trådbunden"
 
@@ -21663,6 +21733,7 @@ msgstr "IP-konfiguration passerade slutdatum"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Secrets were required, but not provided"
 msgstr "Hemligheter krävdes men tillhandahölls inte"
 
@@ -21684,6 +21755,7 @@ msgstr "802.1x-supplikanten tog för lång tid på sig att autentisera"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "PPP service failed to start"
 msgstr "PPP-tjänsten misslyckades med att starta"
 
@@ -21697,11 +21769,13 @@ msgstr "PPP misslyckades"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "DHCP client failed to start"
 msgstr "DHCP-klienten misslyckades med att starta"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "DHCP client error"
 msgstr "Fel i DHCP-klienten"
 
@@ -21711,6 +21785,7 @@ msgstr "DHCP-klienten misslyckades"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Shared connection service failed to start"
 msgstr "Tjänsten för delad anslutning misslyckades med att starta"
 
@@ -21720,6 +21795,7 @@ msgstr "Tjänsten för delad anslutning misslyckades"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "AutoIP service failed to start"
 msgstr "AutoIP-tjänsten misslyckades med att starta"
 
@@ -21741,6 +21817,7 @@ msgstr "Ingen rington"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "No carrier could be established"
 msgstr "Ingen bärare kunde etableras"
 
@@ -21766,16 +21843,19 @@ msgstr "Söker inte efter nätverk"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Network registration denied"
 msgstr "Nätverksregistreringen nekades"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Network registration timed out"
 msgstr "Tidsgränsen för nätverksregistrering överskreds"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Failed to register with the requested network"
 msgstr "Misslyckades med att registrera mot det begärda nätverket"
 
@@ -22208,6 +22288,7 @@ msgstr "Batterinivå"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnome-flashback/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Hibernate"
 msgstr "Viloläge"
 
@@ -22388,21 +22469,25 @@ msgstr "Kortsida (vänd)"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Portrait"
 msgstr "Stående"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Landscape"
 msgstr "Liggande"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Reverse landscape"
 msgstr "Omvänt liggande"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Reverse portrait"
 msgstr "Omvänt stående"
 
@@ -22469,6 +22554,7 @@ msgstr "Rensning av jobb kan inte göras ogjord"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Clear _All"
 msgstr "Töm _alla"
 
@@ -22616,6 +22702,7 @@ msgstr "Färg"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-maps/main
 msgid "Finishing"
 msgstr "Färdigställning"
 
@@ -22633,6 +22720,7 @@ msgstr "Välj automatiskt"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Printer Default"
 msgstr "Skrivarens standard"
 
@@ -23198,6 +23286,7 @@ msgstr "Upplåst"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/fwupd/main
 msgid "Encrypted"
 msgstr "Krypterat"
 
@@ -23387,6 +23476,7 @@ msgstr "Alla objekt i papperskorgen kommer att tas bort permanent."
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "_Empty Trash"
 msgstr "Töm papperskor_gen"
 
@@ -23547,6 +23637,7 @@ msgstr "Fildelning möjliggör delning av din publika mapp med andra enheter på
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/rhythmbox/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Sharing"
 msgstr "Utdelning"
 
@@ -23891,6 +23982,7 @@ msgstr "Pr_ogramvaruuppdateringar"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Date & Time"
 msgstr "Datum och Tid"
 
@@ -24112,6 +24204,7 @@ msgstr "_Språk"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "_Formats"
 msgstr "_Formatering"
 
@@ -24178,6 +24271,7 @@ msgstr "Inloggningsdetaljer"
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnome-initial-setup/main
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "_Username"
 msgstr "_Användarnamn"
 
@@ -24383,11 +24477,13 @@ msgstr "Misslyckades med att registrera konto"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnome-initial-setup/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Failed to join domain"
 msgstr "Misslyckades med att ansluta till domän"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnome-initial-setup/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "No supported way to authenticate with this domain"
 msgstr "Inga stödda sätt att autentisera mot denna domän"
 
@@ -24405,6 +24501,7 @@ msgstr "Värdnamnet fungerade inte"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnome-initial-setup/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Failed to log into domain"
 msgstr "Misslyckades med att logga in i domän"
 
@@ -24657,16 +24754,19 @@ msgstr "Lösenordet kunde inte ändras"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnome-initial-setup/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Cannot automatically join this type of domain"
 msgstr "Kan inte automatiskt ansluta till denna typ av domän"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnome-initial-setup/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "No such domain or realm found"
 msgstr "Ingen sådan domän eller rike hittades"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnome-initial-setup/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Cannot log in as %s at the %s domain"
 msgstr "Kan inte logga in som %s i domänen %s"
 
@@ -24676,6 +24776,7 @@ msgstr "Ogiltigt lösenord, försök igen"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gnome-initial-setup/main
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Couldn’t connect to the %s domain: %s"
 msgstr "Kunde inte ansluta till domänen %s: %s"
 
@@ -31525,6 +31626,7 @@ msgstr "Nya namnet är det samma som det gamla. Ange ett annat namn."
 #. from gnome:file-roller
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/simple-scan/master
+#. from gnome:reviewed/file-roller/master
 msgid "A file named “%s” already exists.  Do you want to replace it?"
 msgstr "En fil med namnet ”%s” finns redan.  Vill du ersätta den?"
 
@@ -31797,6 +31899,7 @@ msgstr "Spara alternativ"
 
 #. from gnome:file-roller
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/file-roller/master
 msgid "Reset Options"
 msgstr "Återställ alternativ till standardvärden"
 
@@ -31843,6 +31946,7 @@ msgstr "Skriv _inte över nyare filer"
 #. from gnome:file-roller
 #. from gnome:reviewed/gnome-commander/main
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/file-roller/master
 msgid "_Select All"
 msgstr "_Markera allt"
 
@@ -32043,6 +32147,7 @@ msgstr "Fönster maximerat"
 
 #. from gnome:totem
 #. from gnome:reviewed/gnome-calendar/main
+#. from gnome:reviewed/fractal/main
 msgid "Window maximized state"
 msgstr "Fönstermaximeringstillstånd"
 
@@ -32687,6 +32792,7 @@ msgstr "Inget ljud"
 #. from gnome:reviewed/ptyxis/gnome-46
 #. from gnome:reviewed/showtime/main
 #. from gnome:reviewed/sushi/main
+#. from gnome:reviewed/FieldMonitor/main
 msgid "Toggle Fullscreen"
 msgstr "Växla helskärm"
 
@@ -35564,6 +35670,7 @@ msgstr "Navigera med markör"
 
 #. from gnome:ny-main.sv
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/epiphany/main
 msgid "Home page"
 msgstr "Webbsida"
 
@@ -35725,6 +35832,7 @@ msgstr "Väljer färgstilen för artiklar som visas i läsarläge. Möjliga vär
 
 #. from gnome:ny-main.sv
 #. from gnome:reviewed/webkit/main
+#. from gnome:reviewed/epiphany/main
 msgid "Minimum font size"
 msgstr "Minimumstorlek för typsnitt"
 
@@ -36807,6 +36915,7 @@ msgstr "Detta formulär är inte säkert ‒ lösenord kommer inte hållas priva
 #. from gnome:ny-main.sv
 #. from gnome:reviewed/gnome-commander/main
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/epiphany/main
 msgid "_Dismiss"
 msgstr "S_täng"
 
@@ -37363,6 +37472,7 @@ msgstr "Detta certifikat är giltigt. Men resurser på denna sida skickades på 
 
 #. from gnome:ny-main.sv
 #. from gnome:reviewed/packagekit/main
+#. from gnome:reviewed/chronojump/master
 msgid "Finished"
 msgstr "Färdigställd"
 
@@ -37421,6 +37531,7 @@ msgstr "Alla synliga länkar kommer tas bort permanent"
 #. from gnome:ny-main.sv
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/epiphany/main
 msgid "Cl_ear"
 msgstr "T_öm"
 
@@ -37479,6 +37590,7 @@ msgstr "Anpassad profilkatalog för privat instans"
 #. from gnome:ny-main.sv
 #. from gnome:reviewed/ptyxis/main
 #. from gnome:reviewed/flatpak/main
+#. from gnome:reviewed/epiphany/main
 msgid "DIR"
 msgstr "DIR"
 
@@ -37622,6 +37734,7 @@ msgstr "_Bakåt"
 #. from gnome:reviewed/fractal/main
 #. from gnome:reviewed/gnome-commander/main
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/epiphany/main
 msgid "_Forward"
 msgstr "Vidare_befordra"
 
@@ -37631,6 +37744,7 @@ msgstr "Lägg till bo_kmärke…"
 
 #. from gnome:ny-main.sv
 #. from gnome:reviewed/webkit/main
+#. from gnome:reviewed/epiphany/main
 msgid "Open Link in New _Window"
 msgstr "Öppna länk i nytt _fönster"
 
@@ -37988,6 +38102,7 @@ msgstr "Serif"
 #. from gnome:reviewed/gitte/main
 #. from gnome:reviewed/Errands/main
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/epiphany/main
 msgid "Light"
 msgstr "Lätt"
 
@@ -38149,6 +38264,7 @@ msgstr "Postnummer"
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/gnome-maps/main
+#. from gnome:reviewed/epiphany/main
 msgid "City"
 msgstr "Ort"
 
@@ -38324,6 +38440,7 @@ msgstr "Än_dra"
 #. from gnome:reviewed/meld/main
 #. from gnome:reviewed/orca/main
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/crosswords/main
 msgid "_Clear"
 msgstr "_Töm"
 
@@ -38469,6 +38586,7 @@ msgstr "Typsnitt med fast breddslag"
 
 #. from gnome:ny-main.sv
 #. from gnome:reviewed/gfeeds/master
+#. from gnome:reviewed/epiphany/main
 msgid "Reader Mode"
 msgstr "Läsläge"
 
@@ -38510,6 +38628,7 @@ msgstr "Inga tillägg installerade"
 
 #. from gnome:ny-main.sv
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/epiphany/main
 msgid "Features"
 msgstr "Finesser"
 
@@ -38519,6 +38638,7 @@ msgstr "Återställ alla"
 
 #. from gnome:ny-main.sv
 #. from gnome:reviewed/gnome-software/main
+#. from gnome:reviewed/epiphany/main
 msgid "Web App"
 msgstr "Webbapplikation"
 
@@ -38564,6 +38684,7 @@ msgstr "_Tom sida"
 
 #. from gnome:ny-main.sv
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/epiphany/main
 msgid "_Custom"
 msgstr "A_npassad"
 
@@ -39612,6 +39733,7 @@ msgstr "Symboler"
 
 #. from gnome:y-main.sv
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/damned-lies/main
 msgid "Documentation"
 msgstr "Dokumentering"
 
@@ -39649,6 +39771,7 @@ msgstr "Indentering och formatering"
 
 #. from gnome:y-main.sv
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gnote/master
 msgid "Formatting"
 msgstr "Format"
 
@@ -39664,6 +39787,7 @@ msgstr "Försäkra att filer slutar med nyrad"
 #. from gnome:reviewed/gnome-text-editor/main
 #. from gnome:reviewed/meld/main
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gimp/master
 msgid "Indentation"
 msgstr "Indrag"
 
@@ -42993,6 +43117,7 @@ msgstr "_Om Almanah dagbok"
 
 #. from gnome:Almanah
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/webkit/main
 msgid "_Bold"
 msgstr "_Fetstil"
 
@@ -43002,6 +43127,7 @@ msgstr "_Kursiv"
 
 #. from gnome:Almanah
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/webkit/main
 msgid "_Underline"
 msgstr "_Understrykning"
 
@@ -43741,11 +43867,13 @@ msgstr "Sök text"
 
 #. from gnome:Console
 #. from gnome:reviewed/gnome-text-editor/main
+#. from gnome:reviewed/gnome-commander/main
 msgid "Previous Match"
 msgstr "Föregående matchning"
 
 #. from gnome:Console
 #. from gnome:reviewed/gnome-text-editor/main
+#. from gnome:reviewed/gnome-commander/main
 msgid "Next Match"
 msgstr "Nästa matchning"
 
@@ -44930,6 +45058,7 @@ msgstr "_Mitten"
 #. from gnome:Dia
 #. from gnome:reviewed/evolution/master
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gimp/master
 msgid "_Bottom"
 msgstr "_Underkant"
 
@@ -46865,6 +46994,7 @@ msgstr "Sila"
 
 #. from gnome:Dia
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Distribute"
 msgstr "Fördela"
 
@@ -47100,6 +47230,7 @@ msgstr "Särskilj"
 
 #. from gnome:Dia
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/chronojump/master
 msgid "Check"
 msgstr "Kontroll"
 
@@ -48014,12 +48145,14 @@ msgstr "Spetsighetskontroll"
 
 #. from gnome:Dia
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/loupe/main
 msgid "Free"
 msgstr "Ledig"
 
 #. from gnome:Dia
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gimp/master
 msgid "Fixed"
 msgstr "Fix"
 
@@ -48679,6 +48812,7 @@ msgstr "Villkor för att utföra övergången när händelsen utlöses"
 
 #. from gnome:Dia
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/goffice/master
 msgid "Scope"
 msgstr "Omfattning"
 
@@ -49606,6 +49740,7 @@ msgstr "Kvartscirkel"
 
 #. from gnome:Dia
 #. from gnome:reviewed/libipuz/main
+#. from gnome:reviewed/gimp/master
 msgid "Diamond"
 msgstr "Ruter"
 
@@ -49739,6 +49874,7 @@ msgstr "Ärmvinkel"
 
 #. from gnome:Dia
 #. from gnome:reviewed/libipuz/main
+#. from gnome:reviewed/gimp/master
 msgid "Heart"
 msgstr "Hjärter"
 
@@ -53509,6 +53645,7 @@ msgstr "Inga förekomster hittades."
 
 #. from gnome:GHex
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gimp/master
 msgid "Untitled"
 msgstr "Ingen titel"
 
@@ -53840,6 +53977,7 @@ msgstr "Misslyckades med att öppna temporär fil."
 
 #. from gnome:GHex
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/fractal/main
 msgid "Error reading file"
 msgstr "Fel vid inläsning"
 
@@ -53928,8 +54066,9 @@ msgid "Next page"
 msgstr "Nästa sida"
 
 #. from gnome:GHex
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "File Has Changed on Disk"
-msgstr "Filen har ändrats på disk"
+msgstr "Filen har ändrats på disken"
 
 #. from gnome:GHex
 msgid "The file has been changed by another program."
@@ -54310,6 +54449,7 @@ msgstr "Proceduren att behandla satskommandon med"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Quit immediately after performing requested actions"
 msgstr "Avsluta omedelbart efter att ha utfört begärda åtgärder"
 
@@ -54331,6 +54471,7 @@ msgstr "Aktivera icke-ödesdiger signalhanterare för felsökning"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/gimp/master
 msgid "Make all warnings fatal"
 msgstr "Gör alla varningar till ödesdigra"
 
@@ -54392,11 +54533,13 @@ msgstr "Pekarinformation"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Dashboard"
 msgstr "Instrumentpanel"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/sysprof/master
+#. from gnome:reviewed/gimp/master
 msgid "Debug"
 msgstr "Felsökning"
 
@@ -54428,6 +54571,7 @@ msgstr "Målningsdynamik"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Error Console"
 msgstr "Felkonsoll"
 
@@ -54446,6 +54590,7 @@ msgstr "Verktygsförinställning"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Tool Preset Editor"
 msgstr "Redigeraren för verktygsförinställningar"
 
@@ -56455,6 +56600,7 @@ msgstr "_Mellan"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gnote/master
 msgid "_Large"
 msgstr "S_tor"
 
@@ -56934,6 +57080,7 @@ msgstr "Det finns inga bilddata i urklipp att klistra in."
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Cut Named"
 msgstr "Klipp ut med namn"
 
@@ -56943,6 +57090,7 @@ msgstr "Ange ett namn för denna buffert"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Copy Named"
 msgstr "Kopiera med namn"
 
@@ -57996,6 +58144,7 @@ msgstr "Återfördela _handtagen i markering"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Replicate Segment"
 msgstr "Duplicera segment"
 
@@ -58025,6 +58174,7 @@ msgstr "Välj antalet gånger som\nmarkeringen ska replikeras."
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Split Segment Uniformly"
 msgstr "Dela segment jämnt"
 
@@ -59662,6 +59812,7 @@ msgstr "Redigera banattribut"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/gimp-help-3-0
+#. from gnome:reviewed/gimp/master
 msgid "New Path"
 msgstr "Ny slinga"
 
@@ -59923,6 +60074,7 @@ msgstr "Stryk längs markering med senast använda värden"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Feather selection by"
 msgstr "Fjädra markeringen med"
 
@@ -59937,6 +60089,7 @@ msgstr "Vid luddning, agera som om markerade områden fortsätter utanför bilde
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Shrink selection by"
 msgstr "Förminska markeringen med"
 
@@ -59946,11 +60099,13 @@ msgstr "Vid förminskning, agera som om markerade områden fortsätter utanför 
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Grow selection by"
 msgstr "Utöka markeringen med"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Border selection by"
 msgstr "Skapa markeringskant med"
 
@@ -61836,6 +61991,7 @@ msgstr "Kom ihåg aktuellt verktyg, mönster, färg och pensel mellan GIMP-sessi
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid ""
 "When enabled, the same tool and tool options will be used for all input "
 "devices. No tool switching will occur when the input device changes."
@@ -63715,6 +63871,7 @@ msgstr "Mellanrumsenhet"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Offset X"
 msgstr "X-förskjutning"
 
@@ -63724,6 +63881,7 @@ msgstr "Horisontell början på första linjen; detta kan vara negativt."
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Offset Y"
 msgstr "Y-förskjutning"
 
@@ -64106,6 +64264,7 @@ msgstr "Sammanfoga lagergrupp"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/gimp-help-3-0
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Merge Visible Paths"
 msgstr "Sammanfoga synliga slingor"
 
@@ -64635,6 +64794,7 @@ msgstr "Stryk längs markering"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Feather Selection"
 msgstr "Fjädra markering"
 
@@ -64648,11 +64808,13 @@ msgstr "Kantmarkering"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Grow Selection"
 msgstr "Utöka markering"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Shrink Selection"
 msgstr "Förminska markering"
 
@@ -64963,6 +65125,7 @@ msgstr "Hämta GIMP %s (utgiven %s)\n"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Check for updates"
 msgstr "Sök efter uppdateringar"
 
@@ -65635,6 +65798,7 @@ msgstr "Bilden ”%s” innehåller Exif-orienteringsmetadata"
 #. from gnome:GIMP
 #. from gnome:reviewed/loupe/main
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/damned-lies/main
 msgid "Original"
 msgstr "Ursprunglig"
 
@@ -65676,6 +65840,7 @@ msgstr "Copyright:"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gnome-commander/main
+#. from gnome:reviewed/gimp/master
 msgid "Location:"
 msgstr "Plats:"
 
@@ -65909,6 +66074,7 @@ msgstr "Systemresurser"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Resource Consumption"
 msgstr "Resursförbrukning"
 
@@ -65947,6 +66113,7 @@ msgstr "Sök uppdateringar (kräver internet)"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Image Thumbnails"
 msgstr "Bildminiatyrer"
 
@@ -65996,6 +66163,7 @@ msgstr "Bildvisnings_läge:"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Color Managed Display"
 msgstr "Färghanterad visning"
 
@@ -66223,6 +66391,7 @@ msgstr "Standard_interpolation:"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Paint Options Shared Between Tools"
 msgstr "Målningsalternativ delade mellan verktyg"
 
@@ -66264,6 +66433,7 @@ msgstr "Ställ in standardsnabbmaskfärg"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Default Image Grid"
 msgstr "Standardrutnät för bild"
 
@@ -66405,6 +66575,7 @@ msgstr "Verktygskonfiguration"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Dialog Defaults"
 msgstr "Standardvärden för dialogrutor"
 
@@ -66490,6 +66661,7 @@ msgstr "Aktivera färgutjämning för textlager"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Filter Dialogs"
 msgstr "Filterdialogrutor"
 
@@ -66698,6 +66870,7 @@ msgstr "Språk för användargränssnitt"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Help Browser"
 msgstr "Hjälpbläddrare"
 
@@ -66767,6 +66940,7 @@ msgstr "Fönsterhantering"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Window Manager Hints"
 msgstr "Tips för fönsterhanteraren"
 
@@ -66896,6 +67070,7 @@ msgstr "Initial zoom_faktor:"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Image Window Appearance"
 msgstr "Bildfönstrets utseende"
 
@@ -67013,6 +67188,7 @@ msgstr "Ytterligare inmatningsenheter"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Input Controllers"
 msgstr "Inmatningsstyrenheter"
 
@@ -67295,6 +67471,7 @@ msgstr "Klicka på %s för att ignorera alla ändringar och stänga alla bilder.
 
 #. from gnome:GIMP
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gimp/master
 msgid "_Discard Changes"
 msgstr "Förkasta ä_ndringar"
 
@@ -67348,6 +67525,7 @@ msgstr "_Y:"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gimp/master
 msgid "C_enter"
 msgstr "Ce_ntrera"
 
@@ -68153,6 +68331,7 @@ msgstr "Redigeringsläge"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Polygonal"
 msgstr "Polygonal"
 
@@ -68858,6 +69037,7 @@ msgstr "Kontrast"
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/chronojump/master
 msgid "Range"
 msgstr "Område"
 
@@ -68879,6 +69059,7 @@ msgstr "Gulblå"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Preserve Luminosity"
 msgstr "Bevara ljusstyrka"
 
@@ -69023,6 +69204,7 @@ msgstr "Läge"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Choose shade of gray based on"
 msgstr "Välj grå nyans baserat på"
 
@@ -69086,6 +69268,7 @@ msgstr "Högt tröskelvärde"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Threshold Alpha"
 msgstr "Alfatröskel"
 
@@ -69103,6 +69286,7 @@ msgstr "Bildåterskapande"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gimp/master
 msgid "_Recover"
 msgstr "Å_terställ"
 
@@ -69128,6 +69312,7 @@ msgstr "Färgspruta"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Motion only"
 msgstr "Endast rörelse"
 
@@ -69148,6 +69333,7 @@ msgstr "Inga mönster finns tillgängliga för detta verktyg."
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/evolution/master
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/fwupd/main
 msgid "Source"
 msgstr "Källområde"
 
@@ -69157,6 +69343,7 @@ msgstr "Falta"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Convolve Type"
 msgstr "Utjämningstyp"
 
@@ -69329,6 +69516,7 @@ msgstr "Ignorera luddighet för aktuell pensel"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Apply Jitter"
 msgstr "Tillämpa spridning"
 
@@ -69455,6 +69643,7 @@ msgstr "Ingen suddningseffekt"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Sample merged"
 msgstr "Sampla sammanfogat"
 
@@ -69503,11 +69692,13 @@ msgstr "Fyll bana"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Stroke Path"
 msgstr "Konturera bana"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/gimp-help-3-0
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Path to Selection"
 msgstr "Slinga till markering"
 
@@ -69641,6 +69832,7 @@ msgstr "Insticksmodul"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Brightness-Contrast"
 msgstr "Ljusstyrka–kontrast"
 
@@ -69664,6 +69856,7 @@ msgstr "Mätta ur"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Hue-Saturation"
 msgstr "Färgton-mättnad"
 
@@ -69677,6 +69870,7 @@ msgstr "Skuggor-Högdagrar"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Posterize"
 msgstr "Posterisera"
 
@@ -69966,6 +70160,7 @@ msgstr "Autobeskär bild"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Autocrop layer"
 msgstr "Beskär lager automatiskt"
 
@@ -70328,6 +70523,7 @@ msgstr "_M"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Select Primary Color to Adjust"
 msgstr "Välj primärfärg att justera"
 
@@ -70338,6 +70534,7 @@ msgstr "Ö_verlappa"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Adjust Selected Color"
 msgstr "Justera vald färg"
 
@@ -70762,6 +70959,7 @@ msgstr "Justera ljusstyrka och kontrast"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/simple-scan/master
+#. from gnome:reviewed/gimp/master
 msgid "_Contrast"
 msgstr "_Kontrast"
 
@@ -70779,6 +70977,7 @@ msgstr "Vilket område som kommer att fyllas"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Fill transparent areas"
 msgstr "Fyll genomskinliga områden"
 
@@ -70848,6 +71047,7 @@ msgstr "Största lucka (i bildpunkter) i linjegrafik som kan stängas"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Fill by"
 msgstr "Fyll efter"
 
@@ -70883,6 +71083,7 @@ msgstr "Hitta liknande färger"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Line Art Detection"
 msgstr "Linjeteckningsidentifiering"
 
@@ -70896,11 +71097,13 @@ msgstr "Upptäck opacitet snarare än gråskala"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Line Art Closure"
 msgstr "Stängning av linjeteckning"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Fill borders"
 msgstr "Fyll gränser"
 
@@ -71457,6 +71660,7 @@ msgstr "Redigera filter"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Blending Options"
 msgstr "Blandningsalternativ"
 
@@ -71537,6 +71741,7 @@ msgstr "Storlek på penseln som används för förfiningar"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help/master
+#. from gnome:reviewed/gimp/master
 msgid "Preview color"
 msgstr "Förhandsvisningsfärg"
 
@@ -71695,6 +71900,7 @@ msgstr "Måttenhet att använda för avståndsberäkning"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Adaptive Supersampling"
 msgstr "Adaptiv översampling"
 
@@ -71712,6 +71918,7 @@ msgstr "Bekräfta gradient omedelbart"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Modify active gradient"
 msgstr "Ändra aktiv övertoning"
 
@@ -72018,6 +72225,7 @@ msgstr "Välj vitpunkt för den markerade kanalen"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Input Levels"
 msgstr "Innivåer"
 
@@ -72027,6 +72235,7 @@ msgstr "Begränsa _indata"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Output Levels"
 msgstr "Utnivåer"
 
@@ -72060,6 +72269,7 @@ msgstr "Beräknar histogram…"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Auto-resize window"
 msgstr "Anpassa fönsterstorlek automatiskt"
 
@@ -72149,11 +72359,13 @@ msgstr "Flytta de markerade lagren"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Pick a path"
 msgstr "Välj en slinga"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Move the active path"
 msgstr "Flytta den aktiva slingan"
 
@@ -72323,6 +72535,7 @@ msgstr "Redigera denna dynamik"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Fade Options"
 msgstr "Toningalternativ"
 
@@ -72476,6 +72689,7 @@ msgstr "Krymp automatiskt till närmaste rektangulära form i ett lager"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help/master
+#. from gnome:reviewed/gimp/master
 msgid "Shrink merged"
 msgstr "Krymp sammanfogat"
 
@@ -72533,6 +72747,7 @@ msgstr "Enhet för fast bredd, höjd eller storlek"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help/master
+#. from gnome:reviewed/gimp/master
 msgid "Expand from center"
 msgstr "Utöka från mitten"
 
@@ -73391,6 +73606,7 @@ msgstr "Bildruta %d"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/sysprof/master
+#. from gnome:reviewed/gimp/master
 msgid "Frame"
 msgstr "Ram"
 
@@ -73543,6 +73759,7 @@ msgstr "Form:"
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/gimp-help — GIMP User Manual/gimp-help-3-0
+#. from gnome:reviewed/gimp/master
 msgid "Spikes"
 msgstr "Spetsar"
 
@@ -73772,6 +73989,7 @@ msgstr "Välj åtgärd för händelsen ”%s”"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Select Controller Event Action"
 msgstr "Välj åtgärd för styrenhetshändelse"
 
@@ -73877,6 +74095,7 @@ msgstr "Mushjul"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Mouse Wheel Events"
 msgstr "Händelser för musens rullhjul"
 
@@ -74223,6 +74442,7 @@ msgstr "CPU"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/sysprof/master
+#. from gnome:reviewed/gimp/master
 msgid "CPU usage"
 msgstr "Processoranvändning"
 
@@ -74280,6 +74500,7 @@ msgstr "Y-lutning"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Wheel"
 msgstr "Hjul"
 
@@ -74289,6 +74510,7 @@ msgstr "Avstånd"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gitg/master
 msgid "Slider"
 msgstr "Rullningslist"
 
@@ -74878,6 +75100,7 @@ msgstr "Sökning med reguljära uttryck"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/webkit/main
+#. from gnome:reviewed/gimp/master
 msgid "search"
 msgstr "sök"
 
@@ -75264,6 +75487,7 @@ msgstr "Ändra baslinje för markerad text"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gimp/master
 msgid "Bold"
 msgstr "Fetstil"
 
@@ -75275,6 +75499,7 @@ msgstr "Kursiv"
 #. from gnome:reviewed/papers/gnome-48
 #. from gnome:reviewed/evolution/master
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gimp/master
 msgid "Strikethrough"
 msgstr "Genomstrykning"
 
@@ -75404,6 +75629,7 @@ msgstr "Lås synlighet för bana"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Open the brush selection dialog"
 msgstr "Öppna dialogrutan för penselval"
 
@@ -75413,6 +75639,7 @@ msgstr "Öppna dialogrutan för dynamikval"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Open the MyPaint brush selection dialog"
 msgstr "Öppna dialogrutan för val av MyPaint-pensel"
 
@@ -75482,6 +75709,7 @@ msgstr "Förgrund"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "HSV"
 msgstr "HSV"
 
@@ -77028,6 +77256,7 @@ msgstr "Markera som _viktigt"
 
 #. from gnome:Geary
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/fractal/main
 msgid "_Reply"
 msgstr "_Svara"
 
@@ -77635,6 +77864,7 @@ msgstr "Öppna markerade bifogade filer"
 
 #. from gnome:Geary
 #. from gnome:reviewed/sysprof/master
+#. from gnome:reviewed/evolution/master
 msgid "Reply"
 msgstr "Svar"
 
@@ -93172,6 +93402,7 @@ msgstr "Kopia"
 
 #. from gnome:balsa
 #. from gnome:reviewed/gitte/main
+#. from gnome:reviewed/decoder/master
 msgid "Body"
 msgstr "Text"
 
@@ -95924,6 +96155,7 @@ msgstr "Slut:"
 
 #. from gnome:balsa
 #. from gnome:reviewed/rhythmbox/master
+#. from gnome:reviewed/packagekit/main
 msgid "Duration:"
 msgstr "Speltid:"
 
@@ -102388,6 +102620,7 @@ msgstr "Förhandsvisning av delning"
 
 #. from gnome:brasero
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gnome-calculator/main
 msgid "Hours"
 msgstr "timmar"
 
@@ -102398,6 +102631,7 @@ msgstr ":"
 
 #. from gnome:brasero
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gnome-calculator/main
 msgid "Minutes"
 msgstr "minuter"
 
@@ -102673,8 +102907,9 @@ msgstr "Om aktiverad kommer redigeraren att visa diagnostik till vänster om rad
 
 #. from gnome:builder-main.sv
 #. from gnome:reviewed/meld/main
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Highlight current line"
-msgstr "Markera aktuell rad"
+msgstr "Färgmarkera aktuell rad"
 
 #. from gnome:builder-main.sv
 msgid "If enabled, the editor will highlight the line containing the cursor."
@@ -103065,8 +103300,9 @@ msgid "The encoding used to load the file detected errors. You may select an alt
 msgstr "Kodningen som används för att läsa in filens upptäckta fel. Du kan välja en alternativ kodning från statusraden och läsa in på nytt."
 
 #. from gnome:builder-main.sv
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Could Not Open File"
-msgstr "Kunde inte öppna fil"
+msgstr "Kunde inte öppna filen"
 
 #. from gnome:builder-main.sv
 msgid "You do not have permission to open the file."
@@ -103077,8 +103313,9 @@ msgid "Open As _Administrator"
 msgstr "Öppna som _administratör"
 
 #. from gnome:builder-main.sv
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Document Restored"
-msgstr "Dokument återställt"
+msgstr "Dokumentet har återställts"
 
 #. from gnome:builder-main.sv
 msgid "Unsaved document has been restored."
@@ -103416,21 +103653,23 @@ msgstr "Det går inte att hitta egenskapen %s i klassen %s"
 #. from gnome:reviewed/gnome-text-editor/main
 #. from gnome:reviewed/sysprof/master
 msgid "Failed to find property %s in %s"
-msgstr "Misslyckades med att hitta egenskapen %s i %s"
+msgstr "Misslyckades med att hitta egenskap %s i %s"
 
 #. from gnome:builder-main.sv
 #. from gnome:reviewed/gnome-text-editor/main
 #. from gnome:reviewed/sysprof/master
 msgid "Failed to retrieve va_list value: %s"
-msgstr "Misslyckades med att erhålla va_list-värde: %s"
+msgstr "Misslyckades med att hämta va_list-värde: %s"
 
 #. from gnome:builder-main.sv
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "File path is NULL"
-msgstr "Filsökväg är NULL"
+msgstr "Sökvägen till filen är NULL"
 
 #. from gnome:builder-main.sv
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Error converting UTF-8 filename to wide char"
-msgstr "Fel vid konvertering av UTF-8-filnamn till breda tecken"
+msgstr "Fel vid konvertering av UTF-8-filnamn till bredtecken"
 
 #. from gnome:builder-main.sv
 msgid "ILCreateFromPath() failed"
@@ -105244,7 +105483,7 @@ msgstr "Blanksteg"
 #. from gnome:reviewed/gnome-text-editor/main
 #. from gnome:reviewed/webkit/main
 msgid "Go"
-msgstr "Gå till"
+msgstr "Gå"
 
 #. from gnome:builder-main.sv
 msgid "Go to Line"
@@ -108042,6 +108281,7 @@ msgstr "Avrundning"
 
 #. from gnome:calculator-main.sv
 #. from gnome:reviewed/gnome-maps/main
+#. from gnome:reviewed/gnome-calculator/main
 msgid "Floor"
 msgstr "Våning"
 
@@ -108859,6 +109099,7 @@ msgstr "vecka,veckor"
 
 #. from gnome:calculator-main.sv
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gnome-calculator/main
 msgid "Days"
 msgstr "dagar"
 
@@ -108948,6 +109189,7 @@ msgstr "byte,bytes,B"
 
 #. from gnome:calculator-main.sv
 #. from gnome:reviewed/gnome-nibbles/release-4-0
+#. from gnome:reviewed/gnome-calculator/main
 msgid "Nibbles"
 msgstr "Nibbles"
 
@@ -109357,6 +109599,7 @@ msgstr "Hektopascal,hektopascal,Hectopascal,hectopascal,hPa"
 
 #. from gnome:calculator-main.sv
 #. from gnome:reviewed/gnome-maps/main
+#. from gnome:reviewed/gnome-calculator/main
 msgid "Bars"
 msgstr "Barer"
 
@@ -109438,6 +109681,7 @@ msgstr "Börja med given ekvation"
 
 #. from gnome:calculator-main.sv
 #. from gnome:reviewed/gnome-nibbles/release-4-0
+#. from gnome:reviewed/gnome-calculator/main
 msgid "Show release version"
 msgstr "Visa utgåvans version"
 
@@ -110599,6 +110843,7 @@ msgstr "Anslut kodare"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/NetworkManager/main
+#. from gnome:reviewed/chronojump/master
 msgid "Controller"
 msgstr "Styrenhet"
 
@@ -110640,6 +110885,7 @@ msgstr "Bästa RFD"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/chronojump/master
 msgid "Raw"
 msgstr "Rad"
 
@@ -111352,6 +111598,7 @@ msgstr "Alla sessioner"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/chronojump/master
 msgid "Individual"
 msgstr "Person"
 
@@ -111637,6 +111884,7 @@ msgstr "Samma X-skala"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/chronojump/master
 msgid "Displacement"
 msgstr "Förskjutning"
 
@@ -111746,6 +111994,7 @@ msgstr "Öppna databasfil"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/simple-scan/master
+#. from gnome:reviewed/chronojump/master
 msgid "More"
 msgstr "Högre"
 
@@ -112215,6 +112464,7 @@ msgstr "Testbild och beskrivning"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/rhythmbox/master
+#. from gnome:reviewed/chronojump/master
 msgid "Logout"
 msgstr "Logga ut"
 
@@ -112448,6 +112698,7 @@ msgstr "Rotationsaxel"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/chronojump/master
 msgid "Selected:"
 msgstr "Vald:"
 
@@ -113190,6 +113441,7 @@ msgstr "Begränsad av "
 
 #. from gnome:chronojump
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/chronojump/master
 msgid "value"
 msgstr "intensitet"
 
@@ -113833,6 +114085,7 @@ msgstr "Välj kamera"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/chronojump/master
 msgid "Pixel format"
 msgstr "Bildpunktsformat"
 
@@ -113882,6 +114135,7 @@ msgstr "Format för import och export av kalkylblad"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/damned-lies/main
+#. from gnome:reviewed/chronojump/master
 msgid "Latin"
 msgstr "Latin"
 
@@ -114088,6 +114342,7 @@ msgstr "allmän data"
 #. from gnome:chronojump
 #. from gnome:reviewed/libipuz/main
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/goffice/master
 msgid "Down"
 msgstr "Ner"
 
@@ -114369,6 +114624,7 @@ msgstr "Idrottsvetenskap"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/chronojump/master
 msgid "Engineering"
 msgstr "Tekniska"
 
@@ -114430,6 +114686,7 @@ msgstr "Chronojump-profil"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/chronojump/master
 msgid "Any"
 msgstr "Vilken som helst"
 
@@ -114871,6 +115128,7 @@ msgstr "Kodare (tröghet)"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/webkit/main
+#. from gnome:reviewed/chronojump/master
 msgid "jump"
 msgstr "hoppa"
 
@@ -117460,11 +117718,13 @@ msgstr "Inga index"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/chronojump/master
 msgid "Male"
 msgstr "Man"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/chronojump/master
 msgid "Female"
 msgstr "Kvinna"
 
@@ -119150,6 +119410,7 @@ msgstr "hoppande"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/chronojump/master
 msgid "Artistic"
 msgstr "Konstnärligt"
 
@@ -119259,6 +119520,7 @@ msgstr "Curling"
 
 #. from gnome:chronojump
 #. from gnome:reviewed/gnome-maps/main
+#. from gnome:reviewed/chronojump/master
 msgid "Cycling"
 msgstr "Med cykel"
 
@@ -127499,6 +127761,7 @@ msgstr "Inaktiverar inställningen med mörkt tema för Eye of GNOME"
 #. from gnome:eog-plugins
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/goffice/master
 msgid "Map"
 msgstr "Avbilda"
 
@@ -140299,6 +140562,7 @@ msgstr "innehåller"
 
 #. from gnome:evolution
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/rhythmbox/master
 msgid "does not contain"
 msgstr "innehåller ej"
 
@@ -142435,6 +142699,7 @@ msgstr "start"
 
 #. from gnome:evolution
 #. from gnome:reviewed/orca/main
+#. from gnome:reviewed/chronojump/master
 msgid "end"
 msgstr "end"
 
@@ -144819,6 +145084,7 @@ msgstr "A_lternativ"
 
 #. from gnome:evolution
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/evolution/master
 msgid "Print Pre_view"
 msgstr "_Förhandsgranskning"
 
@@ -146602,6 +146868,7 @@ msgstr "Klistra in som _text"
 
 #. from gnome:evolution
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/evolution/master
 msgid "_Strikethrough"
 msgstr "Genomstry_kning"
 
@@ -146611,16 +146878,19 @@ msgstr "In_dexläge"
 
 #. from gnome:evolution
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/goffice/master
 msgid "Subscript"
 msgstr "Nedsänkt"
 
 #. from gnome:evolution
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/evolution/master
 msgid "Su_perscript"
 msgstr "U_pphöjd"
 
 #. from gnome:evolution
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/goffice/master
 msgid "Superscript"
 msgstr "Upphöjd"
 
@@ -146834,6 +147104,7 @@ msgstr "<b>Bakgrund</b>"
 
 #. from gnome:evolution
 #. from gnome:reviewed/gtk-doc/master
+#. from gnome:reviewed/gimp/master
 msgid "Transparent"
 msgstr "transparent"
 
@@ -147089,6 +147360,7 @@ msgstr "F_ilnamn:"
 
 #. from gnome:evolution
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/evolution/master
 msgid "File _type:"
 msgstr "Filt_yp:"
 
@@ -155737,6 +156009,7 @@ msgstr "Innehåller värde"
 
 #. from gnome:evolution
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/evolution/master
 msgid "Header"
 msgstr "Sidhuvud"
 
@@ -157040,6 +157313,7 @@ msgstr "Kontaktlista"
 
 #. from gnome:evolution
 #. from gnome:reviewed/Errands/main
+#. from gnome:reviewed/evolution/master
 msgid "Due"
 msgstr "Förfaller"
 
@@ -161524,6 +161798,7 @@ msgstr "Personalisera…"
 
 #. from gnome:gThumb
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gtksourceview/master
 msgid "Script"
 msgstr "Index- eller exponentläge"
 
@@ -171750,6 +172025,7 @@ msgstr "Misslyckades att ta bort undermodulen ”%s” från kön"
 
 #. from gnome:gitg
 #. from gnome:reviewed/meld/main
+#. from gnome:reviewed/gitg/master
 msgid "Staged"
 msgstr "Köad"
 
@@ -172467,6 +172743,7 @@ msgstr "Fjärrförråd"
 
 #. from gnome:gitg
 #. from gnome:reviewed/gitte/main
+#. from gnome:reviewed/gitg/master
 msgid "Stash"
 msgstr "Stasha"
 
@@ -172556,6 +172833,7 @@ msgstr "Lägg till si_gnatur"
 
 #. from gnome:gitg
 #. from gnome:reviewed/sysprof/master
+#. from gnome:reviewed/gitg/master
 msgid "Filter Files"
 msgstr "Filterfiler"
 
@@ -172726,6 +173004,7 @@ msgstr "Bevara huvudlinje för nuvarande utcheckad gren"
 
 #. from gnome:gitg
 #. from gnome:reviewed/gitte/main
+#. from gnome:reviewed/gitg/master
 msgid "Startup"
 msgstr "Uppstart"
 
@@ -173005,6 +173284,7 @@ msgstr "Föregående försök att autentisera har misslyckats, ange ditt använd
 
 #. from gnome:gitg
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gitg/master
 msgid "Remember password until you _logout"
 msgstr "Kom ihåg lösenordet tills du _loggar ut"
 
@@ -176598,6 +176878,7 @@ msgstr "Detta alternativ definierar om den hexadecimala förskjutningen ska visa
 
 #. from gnome:gnome-commander
 #. from gnome:reviewed/meld/main
+#. from gnome:reviewed/gnome-commander/main
 msgid "Wrap mode"
 msgstr "Radbrytningsläge"
 
@@ -178504,6 +178785,7 @@ msgstr "Mallfil som använts för dokumentets skapande."
 
 #. from gnome:gnome-commander
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/goffice/master
 msgid "Case Sensitive"
 msgstr "Gör skillnad på gemener/VERSALER"
 
@@ -185888,6 +186170,7 @@ msgstr "Följande programvara behöver också installeras om"
 
 #. from gnome:gnome-packagekit
 #. from gnome:reviewed/packagekit/main
+#. from gnome:reviewed/fwupd/main
 msgid "Reinstall"
 msgstr "Ominstallera"
 
@@ -189039,8 +189322,9 @@ msgid "Whether line numbers should be displayed next to each line."
 msgstr "Huruvida radnummer ska visas intill varje rad."
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Whether a margin line should be displayed on the right of the editor."
-msgstr "Huruvida en marginalrad ska visas i höger sida av redigeraren."
+msgstr "Huruvida en marginalrad ska visas till höger i redigeraren."
 
 #. from gnome:gnome-text-editor
 msgid "The position in characters at which the right margin should be displayed."
@@ -189059,12 +189343,17 @@ msgid "Show Background Grid"
 msgstr "Visa bakgrundsrutnät"
 
 #. from gnome:gnome-text-editor
-msgid "If enabled, a blueprint style grid is printed on the editor background."
-msgstr "Om aktiverad kommer ett rutnät som på en teknisk ritning att visas på redigerarens bakgrund."
+#. from gnome:reviewed/gnome-text-editor/main
+msgid ""
+"If enabled, a blueprint style grid is printed on the editor background."
+msgstr ""
+"Om detta är aktiverat visas ett rutnät som på en teknisk ritning på "
+"redigerarens bakgrund."
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "If enabled, the current line will be highlighted."
-msgstr "Om aktiverad kommer aktuell rad att färgmarkeras."
+msgstr "Om detta är aktiverat färgmarkeras den aktuella raden."
 
 #. from gnome:gnome-text-editor
 msgid "Whether text should be wrapped."
@@ -189072,8 +189361,9 @@ msgstr "Huruvida text ska radbrytas."
 
 #. from gnome:gnome-text-editor
 #. from gnome:reviewed/ptyxis/gnome-46
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Use System Font"
-msgstr "Använd systemets typsnitt"
+msgstr "Använd systemtypsnitt"
 
 #. from gnome:gnome-text-editor
 msgid "Whether the default system monospace font should be used."
@@ -189088,24 +189378,38 @@ msgid "Style Scheme"
 msgstr "Stilschema"
 
 #. from gnome:gnome-text-editor
-msgid "The style scheme to use by the editor. It may translate this into a dark format when available."
-msgstr "Stilschemat som redigeraren ska använda. Den kan ändra detta till ett mörkt format när tillgängligt."
+#. from gnome:reviewed/gnome-text-editor/main
+msgid ""
+"The style scheme to use by the editor. It may translate this into a dark "
+"format when available."
+msgstr ""
+"Stilschemat som redigeraren ska använda. Det kan översättas till en mörk "
+"variant när en sådan är tillgänglig."
 
 #. from gnome:gnome-text-editor
 msgid "Discover File Settings"
 msgstr "Identifiera filinställningar"
 
 #. from gnome:gnome-text-editor
-msgid "If enabled, then Text Editor will try to discover file settings from modelines, editorconfig, or per-language defaults."
-msgstr "Om aktiverad kommer Textredigerare försöka identifiera filinställningar från lägesrader, editorconfig eller standardvärden per språk."
+#. from gnome:reviewed/gnome-text-editor/main
+msgid ""
+"If enabled, then Text Editor will try to discover file settings from "
+"modelines, editorconfig, or per-language defaults."
+msgstr ""
+"Om detta är aktiverat kommer Textredigerare att försöka identifiera "
+"filinställningar från lägesrader, editorconfig eller standardvärden per "
+"språk."
 
 #. from gnome:gnome-text-editor
 msgid "Automatically check spelling"
 msgstr "Kontrollera automatiskt stavning"
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "If enabled, then Text Editor will check spelling as you type."
-msgstr "Om aktiverad kommer Textredigerare kontrollera stavning medan du skriver."
+msgstr ""
+"Om detta är aktiverat kommer Textredigerare att kontrollera stavningen medan"
+" du skriver."
 
 #. from gnome:gnome-text-editor
 msgid "Restore session"
@@ -189116,8 +189420,9 @@ msgid "When Text Editor is running, restore the previous session."
 msgstr "Återställ den föregående sessionen när Textredigerare körs."
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Recolor Window"
-msgstr "Byt färg på fönster"
+msgstr "Byt färg på fönstret"
 
 #. from gnome:gnome-text-editor
 msgid "Use the style-scheme to recolor the application window."
@@ -189128,8 +189433,9 @@ msgid "Keybindings"
 msgstr "Tangentbindningar"
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "The keybindings to use within Text Editor."
-msgstr "Tangentbindningarna att använda i Textredigerare."
+msgstr "Tangentbindningarna som ska användas i Textredigerare."
 
 #. from gnome:gnome-text-editor
 msgid "Last Save Directory"
@@ -189144,8 +189450,13 @@ msgid "The various types of spaces to draw in the editor."
 msgstr "De olika typerna av blanktecken att rita ut i redigeraren."
 
 #. from gnome:gnome-text-editor
-msgid "Enable the use of snippets registered with GtkSourceView from within the editor."
-msgstr "Aktivera användning av textsnuttar som registrerats med GtkSourceView inifrån redigeraren."
+#. from gnome:reviewed/gnome-text-editor/main
+msgid ""
+"Enable the use of snippets registered with GtkSourceView from within the "
+"editor."
+msgstr ""
+"Aktivera användning av textsnuttar som registrerats med GtkSourceView i "
+"redigeraren."
 
 #. from gnome:gnome-text-editor
 msgid "Highlight matching brackets and braces."
@@ -189156,20 +189467,23 @@ msgid "This action cannot be undone"
 msgstr "Denna åtgärd kan inte ångras"
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Standard input was requested multiple times. Ignoring request."
-msgstr "Standard in begärdes flera gånger. Ignorerar begäran."
+msgstr "Standardinmatning begärdes flera gånger. Begäran ignoreras."
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Standard input is not supported on this platform. Ignoring request."
-msgstr "Standard in stöds inte på denna plattform. Ignorerar begäran."
+msgstr "Standardinmatning stöds inte på denna plattform. Begäran ignoreras."
 
 #. from gnome:gnome-text-editor
 msgid "Bugs may be reported at:"
 msgstr "Fel kan rapporteras på:"
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "[FILES…]"
-msgstr "[FILER…]"
+msgstr "[FILES…]"
 
 #. from gnome:gnome-text-editor
 msgid "Do not restore session at startup"
@@ -189196,8 +189510,9 @@ msgid "Search encodings"
 msgstr "Sök kodningar"
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Draft Changes Restored"
-msgstr "Utkastsändringar återställda"
+msgstr "Utkastsändringarna har återställts"
 
 #. from gnome:gnome-text-editor
 msgid "Unsaved changes to the document have been restored."
@@ -189244,16 +189559,18 @@ msgid "Search documents"
 msgstr "Sök dokument"
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Open New Document"
-msgstr "Öppna nytt dokument"
+msgstr "Öppna ett nytt dokument"
 
 #. from gnome:gnome-text-editor
 msgid "%s (Administrator)"
 msgstr "%s (administratör)"
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Failed to save document"
-msgstr "Misslyckades med att spara dokument"
+msgstr "Misslyckades med att spara dokumentet"
 
 #. from gnome:gnome-text-editor
 msgid "Document Portal"
@@ -189312,8 +189629,11 @@ msgid "_Discover Document Settings"
 msgstr "I_dentifiera dokumentinställningar"
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Apply settings using modelines, editorconfig, or sensible defaults"
-msgstr "Tillämpa inställningar med lägesrader, editorconfig eller rimliga standardvärden"
+msgstr ""
+"Tillämpa inställningar med hjälp av lägesrader, editorconfig eller rimliga "
+"standardvärden"
 
 #. from gnome:gnome-text-editor
 msgid "_Restore Session"
@@ -189328,8 +189648,9 @@ msgid "Draft: %s"
 msgstr "Utkast: %s"
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Open in File Manager"
-msgstr "Öppna i filhanterare"
+msgstr "Öppna i filhanteraren"
 
 #. from gnome:gnome-text-editor
 msgid "_Document Type"
@@ -189372,20 +189693,24 @@ msgid "Re_gular Expressions"
 msgstr "Re_guljära uttryck"
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Saving changes will replace the previously saved version."
-msgstr "Att spara ändringar kommer ersätta den tidigare sparade versionen."
+msgstr ""
+"Att spara ändringarna kommer att ersätta den tidigare sparade versionen."
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Save Changes to “%s”?"
-msgstr "Spara ändringar till ”%s”?"
+msgstr "Spara ändringar i ”%s”?"
 
 #. from gnome:gnome-text-editor
 msgid "Unsaved changes will be permanently lost."
 msgstr "Osparade ändringar kommer att förloras permanent."
 
 #. from gnome:gnome-text-editor
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Discard Changes to “%s”?"
-msgstr "Förkasta ändringar till ”%s”?"
+msgstr "Förkasta ändringar i ”%s”?"
 
 #. from gnome:gnome-text-editor
 msgid "%s (%s) - Text Editor"
@@ -189401,8 +189726,9 @@ msgstr "_Ny tom fil"
 
 #. from gnome:gnome-text-editor
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Recently Used Documents"
-msgstr "Tidigare använda dokument"
+msgstr "Nyligen använda dokument"
 
 #. from gnome:gnome-text-editor
 msgid "_Discard Changes…"
@@ -205860,6 +206186,7 @@ msgstr "Det beskurna området vid bildens överdel som en bråkdel av bildhöjde
 
 #. from gnome:goffice
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/goffice/master
 msgid "Canvas"
 msgstr "Canvas"
 
@@ -205917,6 +206244,7 @@ msgstr "Rotationen kring den första punktpositionen"
 
 #. from gnome:goffice
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/goffice/master
 msgid "Closed"
 msgstr "Sluten"
 
@@ -206046,6 +206374,7 @@ msgstr "Attributlistan som PangoAttrList"
 
 #. from gnome:goffice
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/goffice/master
 msgid "Clip"
 msgstr "Klipp"
 
@@ -206455,6 +206784,7 @@ msgstr "_Rotation:"
 
 #. from gnome:goffice
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/goffice/master
 msgid "Mapping"
 msgstr "Avbildning"
 
@@ -207104,6 +207434,7 @@ msgstr "Semikolonseparerad lista över tips för automatiska tillägg av objekt 
 
 #. from gnome:goffice
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/goffice/master
 msgid "Default interpolation"
 msgstr "Standardinterpolering"
 
@@ -212086,6 +212417,7 @@ msgstr "Bråkdel av standardradien använd för visning"
 
 #. from gnome:goffice
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/goffice/master
 msgid "Bubble"
 msgstr "Bubbla"
 
@@ -243192,6 +243524,7 @@ msgstr "Rutstorlek för lokal katalog med kartrutor"
 
 #. from gnome:maps-gnome-50.sv
 #. from gnome:reviewed/rhythmbox/master
+#. from gnome:reviewed/gnome-maps/main
 msgid "Show the version of the program"
 msgstr "Visa programversionen"
 
@@ -248806,6 +249139,7 @@ msgstr "Misslyckades med att initiera pkcs12-struktur"
 
 #. from gnome:network-manager-sstp
 #. from gnome:reviewed/gnome-calendar/main
+#. from gnome:reviewed/FieldMonitor/main
 msgid "Failed to read file"
 msgstr "Misslyckades med att läsa filen"
 
@@ -274806,6 +275140,7 @@ msgstr "F:"
 
 #. from gnome:yelp-xsl
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gnome-commander/main
 msgid "Bibliography"
 msgstr "Källförteckning"
 
@@ -278144,6 +278479,7 @@ msgstr "Systemkontrast"
 
 #. from gnome:gtk-gtk-4-22.sv
 #. from gnome:reviewed/simple-scan/master
+#. from gnome:reviewed/gtk/main
 msgid "Less"
 msgstr "Lägre"
 
@@ -282048,6 +282384,7 @@ msgstr "Flytta åt höger"
 
 #. from gnome:simple-scan-master.sv
 #. from gnome:reviewed/webkit/main
+#. from gnome:reviewed/simple-scan/master
 msgid "_Single Page"
 msgstr "_En sida"
 
@@ -295661,11 +295998,11 @@ msgstr "%s-%s"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgid "Whether to show an overview map of the document."
-msgstr "Huruvida en översiktskarta över dokumentet ska visas."
+msgstr "Huruvida en översiktskarta för dokumentet ska visas."
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgid "Reload with a Different Encoding?"
-msgstr "Läs in igen med en annan teckenkodning?"
+msgstr "Läs in med en annan teckenkodning?"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgid "Some Characters Could Not Be Read"
@@ -295677,7 +296014,7 @@ msgstr "_Granska…"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgid "_Discard and Reload"
-msgstr "_Förkasta och läs in igen"
+msgstr "_Förkasta och läs in på nytt"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgid ""
@@ -295721,17 +296058,17 @@ msgstr "Gå till föregående flik"
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Reorder after next tab"
-msgstr "Flytta till efter nästa flik"
+msgstr "Flytta efter nästa flik"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Reorder before previous tab"
-msgstr "Flytta till före föregående flik"
+msgstr "Flytta före föregående flik"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Restore previously closed tab"
-msgstr "Återställ senast stängd flik"
+msgstr "Återställ den senast stängda fliken"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
@@ -295756,7 +296093,7 @@ msgstr "Nytt dokument"
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Browse to open document"
-msgstr "Bläddra för att öppna dokument"
+msgstr "Bläddra efter ett dokument att öppna"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
@@ -295781,12 +296118,12 @@ msgstr "Sök/ersätt"
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Close document"
-msgstr "Stäng dokument"
+msgstr "Stäng dokumentet"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Open document properties"
-msgstr "Öppna dokumentegenskaper"
+msgstr "Öppna dokumentegenskaperna"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
@@ -295851,12 +296188,12 @@ msgstr "Sök och ersätt i dokumentet"
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Increment number at cursor"
-msgstr "Öka nummer vid markör"
+msgstr "Öka talet vid markören"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Decrement number at cursor"
-msgstr "Minska nummer vid markör"
+msgstr "Minska talet vid markören"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
@@ -295866,12 +296203,12 @@ msgstr "Aktivera/inaktivera överskrivning"
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Toggle visibility of insertion caret"
-msgstr "Växla synligheten för insättningsmarkör"
+msgstr "Växla synligheten för insättningsmarkören"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Selections"
-msgstr "Markering"
+msgstr "Markeringar"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
@@ -295886,27 +296223,27 @@ msgstr "Markera aktuell rad"
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Movements"
-msgstr "Förflyttning"
+msgstr "Förflyttningar"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Move to beginning of document"
-msgstr "Gå till början på dokumentet"
+msgstr "Gå till början av dokumentet"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Move to end of document"
-msgstr "Gå till slutet på dokumentet"
+msgstr "Gå till slutet av dokumentet"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Move to start of previous paragraph"
-msgstr "Gå till början på föregående stycke"
+msgstr "Gå till början av föregående stycke"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Move to end of next paragraph"
-msgstr "Gå till slutet på nästa stycke"
+msgstr "Gå till slutet av nästa stycke"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
@@ -295926,27 +296263,27 @@ msgstr "Borttagning"
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Delete from cursor to word start"
-msgstr "Ta bort mellan markören och början på ordet"
+msgstr "Ta bort mellan markören och ordets början"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Delete from cursor to word end"
-msgstr "Ta bort mellan markören och slutet på ordet"
+msgstr "Ta bort mellan markören och ordets slut"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Delete from cursor to paragraph start"
-msgstr "Ta bort mellan markören och början på stycket"
+msgstr "Ta bort mellan markören och styckets början"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Delete from cursor to paragraph end"
-msgstr "Ta bort mellan markören och slutet på stycket"
+msgstr "Ta bort mellan markören och styckets slut"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
 msgid "Delete the current line"
-msgstr "Ta bort aktuell rad"
+msgstr "Ta bort den aktuella raden"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "shortcut window"
@@ -357693,6 +358030,7 @@ msgid "Intersect with selection."
 msgstr "Skär med markeringen."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Selection to Path"
 msgstr "Markering till slinga"
 
