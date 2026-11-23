@@ -6,6 +6,7 @@ from __future__ import annotations
 import hashlib
 import json
 import subprocess
+import argparse
 from datetime import datetime, timezone
 from pathlib import Path
 from xml.sax.saxutils import escape
@@ -68,6 +69,15 @@ def entry_bounds(lines: list[str], line_number: int) -> tuple[int, int]:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--rebuild-tmx", action="store_true",
+                        help="Regenerate the TMX from the checked-in PO even if no pairs are added.")
+    parser.add_argument("--rebuild-tmx-only", action="store_true",
+                        help="Regenerate only the TMX; do not alter the review manifest.")
+    args = parser.parse_args()
+    if args.rebuild_tmx_only:
+        write_tmx(polib.pofile(str(TM_PO), encoding="utf-8"))
+        return
     review_index = json.loads(INDEX.read_text(encoding="utf-8"))["reviews"]
     baseline = git_baseline()
     baseline_path = Path("/tmp/sv-gnome-baseline.po")
@@ -115,6 +125,8 @@ def main() -> None:
         TM_PO.write_text(merged, encoding="utf-8")
         tm = polib.pofile(str(TM_PO), encoding="utf-8")
         write_tmx(tm)
+    elif args.rebuild_tmx:
+        write_tmx(polib.pofile(str(TM_PO), encoding="utf-8"))
     MANIFEST.write_text(json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(), "sources": sources,
         "added_singular_pairs": added, "context_conflicts_not_overwritten": conflicts,
