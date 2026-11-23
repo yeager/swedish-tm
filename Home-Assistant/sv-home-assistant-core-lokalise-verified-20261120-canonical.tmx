@@ -20196,5 +20196,27 @@ Se [dokumentationen]({docs_url}) om hur du konfigurerar automatiseringar för at
 4. Gå tillbaka hit och välj **Bekräfta**.
 
 [Länka Telldus Live-konto]({auth_url})</seg></tuv></tu>
+
+<tu tuid="lokalise:82195730"><prop type="source">component::daikin::config::step::user::description</prop><prop type="lokalise-key-id">15839859</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reviewed existing Swedish translation</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Enter the IP address of your Daikin AC.
+If your device is set up with a password or API-key, please use that, in all other cases leave the fields blank.</seg></tuv><tuv xml:lang="sv"><seg>Ange IP-adressen för din Daikin AC.
+Om din enhet är konfigurerad med ett lösenord eller en API-nyckel, använd det. I alla andra fall ska fälten lämnas tomma.</seg></tuv></tu>
+<tu tuid="lokalise:82196502"><prop type="source">component::esphome::config::error::connection_error</prop><prop type="lokalise-key-id">15839928</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reviewed existing Swedish translation</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Unable to connect to the ESPHome device. Make sure the device’s YAML configuration includes an `api` section.</seg></tuv><tuv xml:lang="sv"><seg>Det går inte att ansluta till ESPHome-enheten. Se till att enhetens YAML-konfiguration innehåller en `api`-sektion.</seg></tuv></tu>
+<tu tuid="lokalise:82196600"><prop type="source">component::esphome::config::error::resolve_error</prop><prop type="lokalise-key-id">15839930</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reviewed existing Swedish translation</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Unable to resolve the address of the ESPHome device. If this issue continues, consider setting a static IP address.</seg></tuv><tuv xml:lang="sv"><seg>Adressen till ESPHome-enheten kan inte fastställas. Om problemet kvarstår bör du överväga att ställa in en statisk IP-adress.</seg></tuv></tu>
+<tu tuid="lokalise:82196698"><prop type="source">component::esphome::config::step::authenticate::description</prop><prop type="lokalise-key-id">15839932</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reviewed existing Swedish translation</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Please enter the password you set in your ESPHome device YAML configuration for `{name}`.</seg></tuv><tuv xml:lang="sv"><seg>Ange det lösenord du angett i ESPHome-enhetens YAML-konfiguration för `{name}`.</seg></tuv></tu>
+<tu tuid="lokalise:85661827"><prop type="source">component::geofency::config::create_entry::default</prop><prop type="lokalise-key-id">16396022</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reviewed existing Swedish translation</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>To send events to Home Assistant, you will need to set up the webhook feature in Geofency.
+
+Fill in the following info:
+
+- URL: `{webhook_url}`
+- Method: POST
+
+See [the documentation]({docs_url}) for further details.</seg></tuv><tuv xml:lang="sv"><seg>För att skicka händelser till Home Assistant måste du konfigurera webhook-funktionen i Geofency.
+
+Fyll i följande information:
+
+- URL: `{webhook_url}`
+- Metod: POST
+
+Se [dokumentationen]({docs_url}) för mer information.</seg></tuv></tu>
 </body>
 </tmx>
