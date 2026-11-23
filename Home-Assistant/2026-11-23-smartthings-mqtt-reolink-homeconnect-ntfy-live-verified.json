@@ -1,0 +1,47 @@
+[
+  {
+    "key": "component::smartthings::config::abort::reauth_location_mismatch",
+    "key_id": "612466355",
+    "translation_id": "5337048129",
+    "en": "Authenticated location does not match the location to be reauthenticated. Please log in with the correct account and pick the right location.",
+    "sv": "Den autentiserade platsen stämmer inte överens med platsen som ska autentiseras på nytt. Logga in med rätt konto och välj rätt plats.",
+    "verification_method": "Lokalise API live readback; Swedish UI and terminology review",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::description",
+    "key_id": "619931474",
+    "translation_id": "5428700925",
+    "en": "Please configure MQTT specific details for {platform} entity \"{entity}\":",
+    "sv": "Konfigurera MQTT-specifika uppgifter för {platform}-entiteten \"{entity}\":",
+    "verification_method": "Lokalise API live readback; Swedish UI and terminology review",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::reolink::issues::password_too_long::description",
+    "key_id": "622676802",
+    "translation_id": "5457769633",
+    "en": "The password for \"{name}\" is more than 31 characters long, this is no longer compatible with the Reolink API. Please change the password using the Reolink app/client to a password with is shorter than 32 characters. After changing the password, fill in the new password in the Reolink Re-authentication flow to continue using this integration. The latest version of the Reolink app/client also has a password limit of 31 characters.",
+    "sv": "Lösenordet för \"{name}\" är längre än 31 tecken och är inte längre kompatibelt med Reolink-API:et. Ändra lösenordet i Reolink-appen eller -klienten till ett lösenord som är kortare än 32 tecken. När du har ändrat lösenordet anger du det nya lösenordet i Reolinks återautentiseringsflöde för att fortsätta använda integrationen. Den senaste versionen av Reolink-appen eller -klienten har också en lösenordsgräns på 31 tecken.",
+    "verification_method": "Lokalise API live readback; Swedish UI and terminology review",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::home_connect::issues::deprecated_time_alarm_clock_in_automations_scripts::fix_flow::step::confirm::description",
+    "key_id": "625262263",
+    "translation_id": "5486041301",
+    "en": "The alarm clock entity `{entity_id}`, which is deprecated because it's being moved to the `number` platform, is used in the following automations or scripts:\n{items}\n\nPlease, fix this issue by updating your automations or scripts to use the new `number` entity.",
+    "sv": "Väckarklocka-entiteten `{entity_id}`, som är utfasad eftersom den flyttas till plattformen `number`, används i följande automatiseringar eller skript:\n{items}\n\nÅtgärda problemet genom att uppdatera dina automatiseringar eller skript så att de använder den nya `number`-entiteten i stället.",
+    "verification_method": "Lokalise API live readback; Swedish UI and terminology review",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::ntfy::exceptions::authentication_error::message",
+    "key_id": "639583996",
+    "translation_id": "5656593684",
+    "en": "Failed to authenticate with ntfy service. Please verify your credentials",
+    "sv": "Det gick inte att autentisera med ntfy-tjänsten. Kontrollera dina inloggningsuppgifter.",
+    "verification_method": "Lokalise API live readback; Swedish UI and terminology review",
+    "verified_date": "2026-11-23"
+  }
+]
