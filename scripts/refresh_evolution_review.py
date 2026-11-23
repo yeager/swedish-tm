@@ -1,17 +1,21 @@
 #!/usr/bin/env python3
 """Refresh only matching Evolution-owned TM entries without rewriting the PO."""
 from pathlib import Path
+import os
 import sys
 import polib
 
 ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = Path(__file__).resolve().parents[2]
-ARCHIVE = WORKSPACE / "translations/GNOME-granskning/evolution/master/po"
+MODULE = os.environ.get("GNOME_TM_MODULE", "evolution")
+BRANCH = os.environ.get("GNOME_TM_BRANCH", "master")
+STEM = os.environ.get("GNOME_TM_STEM", f"{MODULE}.{BRANCH}.sv")
+ARCHIVE = WORKSPACE / "translations/GNOME-granskning" / MODULE / BRANCH / "po"
 sys.path.insert(0, str(ROOT / "scripts"))
 from import_gnome_reviewed import write_tmx  # noqa: E402
 
-before = polib.pofile(str(ARCHIVE / "evolution.master.sv.original.po"), encoding="utf-8")
-after = polib.pofile(str(ARCHIVE / "evolution.master.sv.reviewed.po"), encoding="utf-8")
+before = polib.pofile(str(ARCHIVE / f"{STEM}.original.po"), encoding="utf-8")
+after = polib.pofile(str(ARCHIVE / f"{STEM}.reviewed.po"), encoding="utf-8")
 old = {(e.msgctxt, e.msgid): e for e in before if not e.obsolete}
 new = {(e.msgctxt, e.msgid): e for e in after if not e.obsolete}
 tm_path = ROOT / "sv-gnome.po"
@@ -22,7 +26,7 @@ for entry in tm:
     reviewed = new.get((entry.msgctxt, entry.msgid))
     if not source or not reviewed or source.msgstr == reviewed.msgstr:
         continue
-    if entry.comment == "from gnome:evolution" and entry.msgstr == source.msgstr:
+    if entry.comment == f"from gnome:{MODULE}" and entry.msgstr == source.msgstr:
         replacement = polib.POEntry(**entry.__dict__)
         replacement.msgstr = reviewed.msgstr
         replacements.append((entry.linenum, str(replacement).rstrip("\n")))
