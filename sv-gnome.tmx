@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261123T091208Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261123T091450Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -534984,6 +534984,91 @@ Det kommer återgå till nmtui då det är klart.</seg></tuv>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Restore target</seg></tuv>
       <tuv xml:lang="sv"><seg>Återställ mål</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>%s [options]
+  -h, --help                            Show this help
+  -v, --verbose                         Increase verbosity by one level
+      --version                         Visa version
+  -c, --config                          Load config (Default %s)
+  -P  --properties                      Set context properties
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>%s [flaggor]
+  -h, --help                            Visa denna hjälp
+  -v, --verbose                         Öka utförligheten en nivå
+      --version                         Visa version
+  -c, --config                          Läs in konfig (standard %s)
+  -P  --properties                      Ställ in kontextegenskaper
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>  -R, --remote                          Remote daemon name
+      --media-type                      Set media type (default %s)
+      --media-category                  Set media category (default %s)
+      --media-role                      Set media role (default %s)
+      --target                          Set node target serial or name (default %s)
+                                          0 means don't link
+      --latency                         Set node latency (default %s)
+                                          Xunit (unit = s, ms, us, ns)
+                                          or direct samples (256)
+                                          the rate is the one of the source file
+  -P  --properties                      Set node properties
+
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>  -R, --remote                          Fjärrdemonnamn
+      --media-type                      Sätt mediatyp (standard %s)
+      --media-category                  Sätt mediakategori (standard %s)
+      --media-role                      Sätt mediaroll (standard %s)
+      --target                          Sätt nodmåls serienummer eller namn
+                                          (standard %s), 0 betyder länka inte
+      --latency                         Sätt nodlatens (standard %s)
+                                          Xenhet (enhet = s, ms, us, ns)
+                                          eller direkta samplar (256)
+                                          hastigheten är källfilens
+  -P  --properties                      Sätt nodegenskaper
+
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pipewire/master</prop>
+      <tuv xml:lang="en"><seg>      --rate                            Sample rate (default %u)
+      --channels                        Number of channels (default %u)
+      --channel-map                     Channel map
+                                            a channel layout: "Stereo", "5.1",... or
+                                            comma separated list of channel names: eg. "FL,FR"
+      --list-layouts                    List supported channel layouts
+      --list-channel-names              List supported channel maps
+      --format                          Sample format (default %s)
+      --list-formats                    List supported sample formats
+      --container                       Container format
+      --list-containers                 List supported containers and extensions
+      --volume                          Stream volume 0-1.0 (default %.3f)
+  -q  --quality                         Resampler quality (0 - 15) (default %d)
+  -a, --raw                             RAW mode
+  -M, --force-midi                      Force midi format, one of "midi" or "ump", (default ump)
+  -n, --sample-count COUNT              Stop after COUNT samples
+
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>      --rate                            Samplingsfrekvens (standard %u)
+      --channels                        Antal kanaler (standard %u)
+      --channel-map                     Kanalmappning
+                                            en kanallayout: "Stereo", "5.1",... eller
+                                            kommaseparerad lista av kanalnamn: t.ex. "FL,FR"
+      --list-layouts                    Lista kanallayouter som stöds
+      --list-channel-names              Lista kanalmappningar som stöds
+      --format                          Samplingsformat (standard %s)
+      --list-formats                    Lista samplingsformat som stöds
+      --container                       Behållarformat
+      --list-containers                 Lista behållare och tillägg som stöds
+      --volume                          Strömvolym 0-1.0 (standard %.3f)
+  -q  --quality                         Omsamplarkvalitet (0 - 15) (standard %d)
+  -a, --raw                             RAW-läge
+  -M, --force-midi                      Tvinga midi-format, en av "midi" eller "ump", (standard ump)
+  -n, --sample-count ANTAL              Stoppa efter ANTAL samplar
+
+</seg></tuv>
     </tu>
   </body>
 </tmx>
