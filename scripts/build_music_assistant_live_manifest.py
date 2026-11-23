@@ -28,6 +28,7 @@ def main() -> int:
     parser.add_argument("output", type=Path)
     parser.add_argument("project_id")
     parser.add_argument("key_id", nargs="+", type=int)
+    parser.add_argument("--target-language", default="sv_SE")
     parser.add_argument("--method", required=True)
     parser.add_argument("--date", required=True)
     args = parser.parse_args()
@@ -43,7 +44,7 @@ def main() -> int:
         response.raise_for_status()
         key = response.json()["key"]
         source = translation(key, "en")
-        target = translation(key, "sv_SE")
+        target = translation(key, args.target_language)
         if not source["translation"] or not target["translation"]:
             raise ValueError(f"{key_id}: source or Swedish target is empty")
         entries.append({
