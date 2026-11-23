@@ -12802,20 +12802,7 @@ Går det inte att tolka entiteterna? Formatera ditt meddelande enligt [formateri
         <seg>Det gick inte att ställa in termostattemperaturen.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:524526757">
-      <prop type="source">component::deako::config::step::confirm::description</prop>
-      <prop type="lokalise-key-id">524526757</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise UI review</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-20</prop>
-      <tuv xml:lang="en">
-        <seg>Please confirm setting up the Deako integration</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Vänligen bekräfta konfigurationen av Deako-integrationen</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:4409625771"><prop type="source">component::deako::config::step::confirm::description</prop><prop type="lokalise-key-id">524526757</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish direct UI prompt review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Please confirm setting up the Deako integration</seg></tuv><tuv xml:lang="sv"><seg>Bekräfta konfigurationen av Deako-integrationen.</seg></tuv></tu>
     <tu tuid="lokalise:30688385">
       <prop type="source">component::hisense_aehw4a1::config::step::confirm::description</prop>
       <prop type="lokalise-key-id">30688385</prop>
@@ -20101,5 +20088,10 @@ Mer information finns i [emoncms-dokumentationen]({doc_url}).</seg></tuv></tu>
 <tu tuid="lokalise:4141453954"><prop type="source">component::auth::exceptions::username_not_normalized::message</prop><prop type="lokalise-key-id">496780979</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish direct UI prompt review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Username &quot;{new_username}&quot; is not normalized. Please make sure the username is lowercase and does not contain any whitespace.</seg></tuv><tuv xml:lang="sv"><seg>Användarnamnet &quot;{new_username}&quot; är inte normaliserat. Kontrollera att användarnamnet bara innehåller små bokstäver och inga blanksteg.</seg></tuv></tu>
 <tu tuid="lokalise:4220648667"><prop type="source">component::mealie::config::error::mealie_version</prop><prop type="lokalise-key-id">504867356</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish direct UI prompt review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Minimum required version is v3.2.0. Please upgrade Mealie and then retry.</seg></tuv><tuv xml:lang="sv"><seg>Lägsta version som krävs är v3.2.0. Uppgradera Mealie och försök sedan igen.</seg></tuv></tu>
 <tu tuid="lokalise:4220762238"><prop type="source">component::mealie::config::step::reauth_confirm::description</prop><prop type="lokalise-key-id">504886381</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish direct UI prompt review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Please reauthenticate with Mealie.</seg></tuv><tuv xml:lang="sv"><seg>Autentisera dig igen med Mealie.</seg></tuv></tu>
+
+<tu tuid="lokalise:4577059392"><prop type="source">component::withings::config::abort::wrong_account</prop><prop type="lokalise-key-id">543750059</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish direct UI prompt review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Authenticated account does not match the account to be reauthenticated. Please log in with the correct account.</seg></tuv><tuv xml:lang="sv"><seg>Det autentiserade kontot stämmer inte överens med kontot som ska autentiseras på nytt. Logga in med rätt konto.</seg></tuv></tu>
+<tu tuid="lokalise:4615575475"><prop type="source">component::mealie::config::step::reconfigure::description</prop><prop type="lokalise-key-id">547506584</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish direct UI prompt review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Please reconfigure with Mealie.</seg></tuv><tuv xml:lang="sv"><seg>Konfigurera om med Mealie.</seg></tuv></tu>
+<tu tuid="lokalise:4973209766"><prop type="source">component::myuplink::exceptions::config_entry_auth_failed::message</prop><prop type="lokalise-key-id">579171172</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish direct UI prompt review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Error while logging in to the API. Please check your credentials.</seg></tuv><tuv xml:lang="sv"><seg>Kunde inte logga in på API:t. Kontrollera dina inloggningsuppgifter.</seg></tuv></tu>
+<tu tuid="lokalise:4975771278"><prop type="source">component::ohme::config::step::reauth_confirm::description</prop><prop type="lokalise-key-id">579380408</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish direct UI prompt review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Please update your password for {email}</seg></tuv><tuv xml:lang="sv"><seg>Uppdatera ditt lösenord för {email}.</seg></tuv></tu>
 </body>
 </tmx>
