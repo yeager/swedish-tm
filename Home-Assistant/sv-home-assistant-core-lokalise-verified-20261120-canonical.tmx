@@ -13787,20 +13787,7 @@ Se [dokumentationen]({docs_url}) för mer information.</seg>
         <seg>Ett fel uppstod vid kommunikation med Peblar EV-laddaren: {error}</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:412439392">
-      <prop type="source">component::peco::config::error::http_error</prop>
-      <prop type="lokalise-key-id">412439392</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise UI review</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>There was an error communicating with PECO. The issue that is most likely is that you entered an invalid phone number. Please check the phone number or try again later.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Det uppstod ett fel i kommunikationen med PECO. Det mest troliga är att du har angett ett ogiltigt telefonnummer. Vänligen kontrollera telefonnumret eller försök igen senare.</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:3285524495"><prop type="source">component::peco::config::error::http_error</prop><prop type="lokalise-key-id">412439392</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish direct UI prompt review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>There was an error communicating with PECO. The issue that is most likely is that you entered an invalid phone number. Please check the phone number or try again later.</seg></tuv><tuv xml:lang="sv"><seg>Det uppstod ett kommunikationsfel med PECO. Du har troligen angett ett ogiltigt telefonnummer. Kontrollera telefonnumret eller försök igen senare.</seg></tuv></tu>
     <tu tuid="lokalise:890507502">
       <prop type="source">component::permobil::issues::integration_removed::description</prop>
       <prop type="lokalise-key-id">890507502</prop>
@@ -20103,5 +20090,8 @@ Mer information finns i [emoncms-dokumentationen]({doc_url}).</seg></tuv></tu>
 <tu tuid="lokalise:3263527711"><prop type="source">component::overkiz::config::error::no_such_token</prop><prop type="lokalise-key-id">409743034</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; direct Swedish UI imperative review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Cannot create a token for this gateway. Please confirm if the account is linked to this gateway.</seg></tuv><tuv xml:lang="sv"><seg>Det går inte att skapa en token för den här gatewayen. Bekräfta att kontot är länkat till den här gatewayen.</seg></tuv></tu>
 <tu tuid="lokalise:3320882369"><prop type="source">component::aosmith::config::step::reauth_confirm::description</prop><prop type="lokalise-key-id">415899246</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; direct Swedish UI imperative review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Please update your password for {email}</seg></tuv><tuv xml:lang="sv"><seg>Uppdatera ditt lösenord för {email}.</seg></tuv></tu>
 <tu tuid="lokalise:3584501566"><prop type="source">component::webmin::config::step::user::description</prop><prop type="lokalise-key-id">448037020</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; direct Swedish UI imperative review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Please enter the connection details of your instance.</seg></tuv><tuv xml:lang="sv"><seg>Ange anslutningsuppgifterna för din instans.</seg></tuv></tu>
+
+<tu tuid="lokalise:3531523935"><prop type="source">component::cloud::issues::deprecated_tts_platform_config::description</prop><prop type="lokalise-key-id">442432982</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish direct UI prompt review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>The whole `platform: cloud` entry under the `tts:` section in configuration.yaml is deprecated and should be removed. You can use the UI to change settings for the Cloud text-to-speech platform. Please adjust your configuration.yaml and restart Home Assistant to fix this issue.</seg></tuv><tuv xml:lang="sv"><seg>Hela `platform: cloud` under avsnittet `tts:` i configuration.yaml är utfasat och bör tas bort. Du kan använda gränssnittet för att ändra inställningar för Cloud text-till-tal-plattformen. Justera din configuration.yaml och starta om Home Assistant för att åtgärda problemet.</seg></tuv></tu>
+<tu tuid="lokalise:3610873357"><prop type="source">component::system_bridge::config::abort::unsupported_version</prop><prop type="lokalise-key-id">450958351</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish direct UI prompt review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Your version of System Bridge is not supported. Please upgrade to the latest version.</seg></tuv><tuv xml:lang="sv"><seg>Din version av System Bridge stöds inte. Uppgradera till den senaste versionen.</seg></tuv></tu>
 </body>
 </tmx>
