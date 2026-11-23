@@ -59,7 +59,11 @@ def fetch_component(component: str, title: str, project_id: str, token: str, sna
     rows = []
     page = 1
     while True:
-        url = f"https://api.lokalise.com/api2/projects/{project_id}/keys?include_translations=1&limit=500&page={page}"
+        # Lokalise's paginated key endpoint can otherwise serve a stale cached
+        # translation list immediately after an individual-key update.  A
+        # per-request cache buster keeps exports aligned with live readbacks.
+        url = (f"https://api.lokalise.com/api2/projects/{project_id}/keys?"
+               f"include_translations=1&limit=500&page={page}&cache_bust={time.time_ns()}")
         payload, headers = api_get(url, token)
         for key in payload.get("keys", []):
             if key.get("is_archived"):
