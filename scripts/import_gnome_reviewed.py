@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import subprocess
 import argparse
 from datetime import datetime, timezone
@@ -15,8 +16,11 @@ import polib
 
 
 ROOT = Path(__file__).resolve().parents[1]
-WORKSPACE = ROOT.parents[1]
-ARCHIVE = WORKSPACE / "translations" / "GNOME-granskning"
+DEFAULT_WORKSPACE = ROOT.parents[1]
+ARCHIVE = Path(os.environ.get(
+    "GNOME_REVIEW_ARCHIVE", DEFAULT_WORKSPACE / "translations" / "GNOME-granskning"
+)).resolve()
+WORKSPACE = ARCHIVE.parent.parent
 INDEX = ARCHIVE / "index.json"
 TM_PO = ROOT / "sv-gnome.po"
 TM_TMX = ROOT / "sv-gnome.tmx"
@@ -80,9 +84,7 @@ def main() -> None:
         return
     review_index = json.loads(INDEX.read_text(encoding="utf-8"))["reviews"]
     baseline = git_baseline()
-    baseline_path = Path("/tmp/sv-gnome-baseline.po")
-    baseline_path.write_text(baseline, encoding="utf-8")
-    tm = polib.pofile(str(baseline_path), encoding="utf-8")
+    tm = polib.pofile(baseline, encoding="utf-8")
     existing = {(entry.msgctxt, entry.msgid): entry for entry in tm if not entry.msgid_plural}
     appended: list[polib.POEntry] = []
     added = skipped_plural = conflicts = 0
