@@ -1,0 +1,172 @@
+[
+  {
+    "key": "component::foreca::exceptions::minute_forecast_error::message",
+    "key_id": "984730531",
+    "translation_id": "10400413257",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Error fetching the minute forecast.",
+    "sv": "Fel vid hämtning av minutprognosen.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::foreca::services::get_minute_forecast::description",
+    "key_id": "984730532",
+    "translation_id": "10400413322",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Retrieves the precipitation rate for each minute of the next hour, in the weather entity's precipitation unit per hour. Every call makes a request to the Foreca Weather API and counts toward the daily limit of your plan.",
+    "sv": "Hämtar nederbördshastigheten för varje minut under nästa timme, i väderentitetens nederbördsenhet per timme. Varje anrop gör en förfrågan till Foreca Weather API och räknas mot den dagliga gränsen för din plan.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::foreca::services::get_minute_forecast::name",
+    "key_id": "984730533",
+    "translation_id": "10400413387",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Get minute forecast",
+    "sv": "Hämta minutprognos",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::nobo_hub::device::zone::name",
+    "key_id": "984730534",
+    "translation_id": "10400413452",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Heating",
+    "sv": "Uppvärmning",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::bosch_smart_camera::entity::switch::privacy_mode::name",
+    "key_id": "984730543",
+    "translation_id": "10400413677",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Privacy mode",
+    "sv": "Integritetsläge",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::bosch_smart_camera::exceptions::privacy_mode_failed::message",
+    "key_id": "984730544",
+    "translation_id": "10400413742",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Unable to change the privacy mode at Bosch.",
+    "sv": "Det gick inte att ändra integritetsläget hos Bosch.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::webdav::exceptions::create_folder_error::message",
+    "key_id": "984730548",
+    "translation_id": "10400413825",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Failed to create folder on WebDAV server: {message}",
+    "sv": "Det gick inte att skapa mapp på WebDAV-servern: {message}",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::webdav::exceptions::duplicate_destination_path::message",
+    "key_id": "984730549",
+    "translation_id": "10400413890",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Multiple files would be uploaded to the same destination: {paths}",
+    "sv": "Flera filer skulle överföras till samma mål: {paths}",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::webdav::exceptions::filenames_do_not_exist::message",
+    "key_id": "984730550",
+    "translation_id": "10400413955",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "The following files do not exist: {filenames}",
+    "sv": "Följande filer finns inte: {filenames}",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::webdav::exceptions::invalid_destination_path::message",
+    "key_id": "984730551",
+    "translation_id": "10400414020",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Invalid destination path `{destination_path}`",
+    "sv": "Ogiltig målsökväg `{destination_path}`",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::webdav::exceptions::no_access_to_path::message",
+    "key_id": "984730552",
+    "translation_id": "10400414085",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Cannot read {filename}, no access to path; `allowlist_external_dirs` may need to be adjusted in `configuration.yaml`",
+    "sv": "Det går inte att läsa {filename}; saknar åtkomst till sökvägen. `allowlist_external_dirs` kan behöva justeras i `configuration.yaml`.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::webdav::exceptions::no_files_match_pattern::message",
+    "key_id": "984730553",
+    "translation_id": "10400414150",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "No files match the following patterns: {patterns}",
+    "sv": "Inga filer matchar följande mönster: {patterns}",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::webdav::exceptions::upload_error::message",
+    "key_id": "984730554",
+    "translation_id": "10400414215",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Failed to upload to WebDAV server: {message}",
+    "sv": "Det gick inte att överföra till WebDAV-servern: {message}",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::webdav::services::upload::description",
+    "key_id": "984730555",
+    "translation_id": "10400414280",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Uploads one or more files to a WebDAV server.",
+    "sv": "Överför en eller flera filer till en WebDAV-server.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::webdav::services::upload::fields::config_entry_id::description",
+    "key_id": "984730556",
+    "translation_id": "10400414345",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "The config entry representing the WebDAV server you want to upload to.",
+    "sv": "Konfigurationsposten som representerar WebDAV-servern som du vill överföra till.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::webdav::services::upload::fields::config_entry_id::name",
+    "key_id": "984730557",
+    "translation_id": "10400414410",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Config entry ID",
+    "sv": "Konfigurationspost-id",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::webdav::services::upload::fields::destination_folder::description",
+    "key_id": "984730558",
+    "translation_id": "10400414475",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Folder on the WebDAV server, relative to the configured URL, you want to upload the files to. Will be created if it does not exist.",
+    "sv": "Mapp på WebDAV-servern, relativt den konfigurerade URL:en, som du vill överföra till.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  }
+]
