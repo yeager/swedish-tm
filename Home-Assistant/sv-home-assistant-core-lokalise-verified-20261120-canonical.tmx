@@ -13629,52 +13629,39 @@ När du har skannat koden anger du den sexsiffriga koden från din app för att 
         <seg>Autentiseringen för OVO Energy misslyckades. Ange dina aktuella inloggningsuppgifter.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:15111917">
-      <prop type="source">component::owntracks::config::create_entry::default</prop>
-      <prop type="lokalise-key-id">15111917</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise UI review</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>On Android, open [the OwnTracks app]({android_url}), go to Preferences &gt; Connection. Change the following settings:
+    <tu tuid="lokalise:76636880"><prop type="source">component::owntracks::config::create_entry::default</prop><prop type="lokalise-key-id">15111917</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reviewed existing Swedish translation</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>On Android, open [the OwnTracks app]({android_url}), go to Preferences &gt; Connection. Change the following settings:
  - Mode: HTTP
  - Host: {webhook_url}
  - Identification:
-   - Username: `'(Your name)'`
-   - Device ID: `'(Your device name)'`
+   - Username: `&#x27;(Your name)&#x27;`
+   - Device ID: `&#x27;(Your device name)&#x27;`
 
 On iOS, open [the OwnTracks app]({ios_url}), tap (i) icon in top left &gt; Settings. Change the following settings:
  - Mode: HTTP
  - URL: {webhook_url}
  - Turn on authentication
- - UserID: `'(Your name)'`
+ - UserID: `&#x27;(Your name)&#x27;`
 
 {secret}
 
-See [the documentation]({docs_url}) for more information.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>På Android öppnar du [OwnTracks-appen]({android_url}) och går till Inställningar &gt; Anslutning. Ändra följande inställningar:
+See [the documentation]({docs_url}) for more information.</seg></tuv><tuv xml:lang="sv"><seg>På Android öppnar du [OwnTracks-appen]({android_url}) och går till Inställningar &gt; Anslutning. Ändra följande inställningar:
 
 - Läge: HTTP
 - Värd: {webhook_url}
 - Identifiering:
-  - Användarnamn: `'(Ditt namn)'`
-  - Enhets-ID: `'(Ditt enhetsnamn)'`
+  - Användarnamn: `&#x27;(Ditt namn)&#x27;`
+  - Enhets-ID: `&#x27;(Ditt enhetsnamn)&#x27;`
 
 På iOS öppnar du [OwnTracks-appen]({ios_url}), trycker på (i)-ikonen längst upp till vänster och väljer Inställningar. Ändra följande inställningar:
 
 - Läge: HTTP
 - URL: {webhook_url}
 - Aktivera autentisering
-- UserID: `'(Ditt namn)'`
+- UserID: `&#x27;(Ditt namn)&#x27;`
 
 {secret}
 
-Se [dokumentationen]({docs_url}) för mer information.</seg>
-      </tuv>
-    </tu>
+Se [dokumentationen]({docs_url}) för mer information.</seg></tuv></tu>
     <tu tuid="lokalise:783207492"><prop type="source">component::p1_monitor::config::step::user::description</prop><prop type="lokalise-key-id">107088853</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback; svlang check 10.0/10 (only Home Assistant proper-name frequency notices); hunspell-sv only flags proper name; established HA terminology</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>Set up P1 Monitor for integration with Home Assistant.</seg></tuv><tuv xml:lang="sv"><seg>Konfigurera P1 Monitor för integration med Home Assistant.</seg></tuv></tu>
     <tu tuid="lokalise:207439318">
       <prop type="source">component::p1_monitor::config::step::user::data_description::host</prop>
@@ -17586,7 +17573,7 @@ Kontrollera att anslutningen till {integration_title} fungerar och starta om Hom
 <tu tuid="lokalise:4503459088"><prop type="source">component::autarco::entity::sensor::flow_now::name</prop><prop type="lokalise-key-id">535690222</prop><prop type="status">saved-and-read-back</prop><tuv xml:lang="en"><seg>Flow now</seg></tuv><tuv xml:lang="sv"><seg>Aktuellt flöde</seg></tuv></tu>
 <tu tuid="lokalise:4503459149"><prop type="source">component::autarco::entity::sensor::state_of_charge::name</prop><prop type="lokalise-key-id">535690223</prop><prop type="status">saved-and-read-back</prop><tuv xml:lang="en"><seg>State of charge</seg></tuv><tuv xml:lang="sv"><seg>Laddningsnivå</seg></tuv></tu>
 <tu tuid="lokalise:65964947"><prop type="source">component::auth::mfa_setup::notify::step::init::title</prop><prop type="lokalise-key-id">13193939</prop><prop type="status">saved-and-read-back</prop><tuv xml:lang="en"><seg>Set up one-time password delivered by notify component</seg></tuv><tuv xml:lang="sv"><seg>Konfigurera ett engångslösenord som levereras via aviseringskomponenten</seg></tuv></tu>
-<tu tuid="lokalise:65964996"><prop type="source">component::auth::mfa_setup::notify::step::setup::description</prop><prop type="lokalise-key-id">13193940</prop><prop type="status">saved-and-read-back</prop><tuv xml:lang="en"><seg>A one-time password has been sent via **notify.{notify_service}**. Please enter it below:</seg></tuv><tuv xml:lang="sv"><seg>Ett engångslösenord har skickats via **notify.{notify_service}**. Ange det nedan:</seg></tuv></tu>
+<tu tuid="lokalise:65964996"><prop type="source">component::auth::mfa_setup::notify::step::setup::description</prop><prop type="lokalise-key-id">13193940</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reviewed existing Swedish translation</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>A one-time password has been sent via **notify.{notify_service}**. Please enter it below:</seg></tuv><tuv xml:lang="sv"><seg>Ett engångslösenord har skickats via **notify.{notify_service}**. Ange det nedan:</seg></tuv></tu>
 <tu tuid="lokalise:65965094"><prop type="source">component::auth::mfa_setup::notify::title</prop><prop type="lokalise-key-id">13193942</prop><prop type="status">saved-and-read-back</prop><tuv xml:lang="en"><seg>Notify one-time password</seg></tuv><tuv xml:lang="sv"><seg>Engångslösenord via avisering</seg></tuv></tu>
 <tu tuid="lokalise:4133341206"><prop type="source">component::automation::issues::validation_failed_actions::description</prop><prop type="lokalise-key-id">495985119</prop><prop type="status">saved-and-read-back</prop><tuv xml:lang="en"><seg>The automation &quot;{name}&quot; (`{entity_id}`) is not active because its actions could not be set up.&#10;&#10;Error: `{error}`.&#10;&#10;To fix this error, [edit the automation]({edit}) to correct it, then save and reload the automation configuration.</seg></tuv><tuv xml:lang="sv"><seg>Automatiseringen {name} (`{entity_id}`) är inte aktiv eftersom dess åtgärder inte kunde konfigureras.&#10;&#10;Fel: `{error}`.&#10;&#10;Åtgärda felet genom att [redigera automatiseringen]({edit}), spara sedan och läs in automatiseringskonfigurationen på nytt.</seg></tuv></tu>
 <tu tuid="lokalise:4133341328"><prop type="source">component::automation::issues::validation_failed_blueprint::description</prop><prop type="lokalise-key-id">495985121</prop><prop type="status">saved-and-read-back</prop><tuv xml:lang="en"><seg>The blueprinted automation &quot;{name}&quot; (`{entity_id}`) failed to set up.&#10;&#10;Error: `{error}`.&#10;&#10;To fix this error, [edit the automation]({edit}) to correct it, then save and reload the automation configuration.</seg></tuv><tuv xml:lang="sv"><seg>Blueprint-automatiseringen {name} (`{entity_id}`) kunde inte konfigureras.&#10;&#10;Fel: `{error}`.&#10;&#10;Åtgärda felet genom att [redigera automatiseringen]({edit}), spara sedan och läs in automatiseringskonfigurationen på nytt.</seg></tuv></tu>
@@ -20176,5 +20163,38 @@ After scanning the code, enter the six-digit code from your app to verify the se
 När du har skannat koden anger du den sexsiffriga koden från appen för att bekräfta inställningen. Om du har problem med att skanna QR-koden gör du en manuell inställning med koden **`{code}`**.</seg></tuv></tu>
 
 <tu tuid="lokalise:66829248"><prop type="source">component::mqtt::config::step::hassio_confirm::description</prop><prop type="lokalise-key-id">13330858</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish syntax and field terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Do you want to configure Home Assistant to connect to the MQTT broker provided by the {addon} app?</seg></tuv><tuv xml:lang="sv"><seg>Vill du konfigurera Home Assistant så att det ansluter till MQTT-brokern som tillhandahålls av tillägget {addon}?</seg></tuv></tu>
+
+<tu tuid="lokalise:60475492"><prop type="source">component::auth::mfa_setup::totp::error::invalid_code</prop><prop type="lokalise-key-id">12333522</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reviewed existing Swedish translation</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Invalid code, please try again. If you get this error consistently, please make sure the clock of your Home Assistant system is accurate.</seg></tuv><tuv xml:lang="sv"><seg>Ogiltig kod, försök igen. Om du flera gånger i rad får detta fel, se till att klockan i ditt Home Assistant-system är korrekt inställd.</seg></tuv></tu>
+<tu tuid="lokalise:66719290"><prop type="source">component::ifttt::config::create_entry::default</prop><prop type="lokalise-key-id">13309276</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reviewed existing Swedish translation</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>To send events to Home Assistant, you will need to use the &quot;Make a web request&quot; action from the [IFTTT webhook applet]({applet_url}).
+
+Fill in the following info:
+
+- URL: `{webhook_url}`
+- Method: POST
+- Content Type: application/json
+
+See [the documentation]({docs_url}) on how to configure automations to handle incoming data.</seg></tuv><tuv xml:lang="sv"><seg>För att skicka händelser till Home Assistant behöver du använda åtgärden ”Gör en webbförfrågan” från [IFTTT webhook applet]({applet_url}).
+
+Fyll i följande information:
+
+- URL: `{webhook_url}`
+- Metod: POST
+- Innehållstyp: application/json
+
+Se [dokumentationen]({docs_url}) om hur du konfigurerar automatiseringar för att hantera inkommande data.</seg></tuv></tu>
+<tu tuid="lokalise:80015630"><prop type="source">component::tellduslive::config::step::auth::description</prop><prop type="lokalise-key-id">15572067</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reviewed existing Swedish translation</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>To link your Telldus Live account:
+1. Open the link below
+2. Log in to Telldus Live
+3. Authorize **{app_name}** (select **Yes**).
+4. Come back here and select **Submit**.
+
+[Link Telldus Live account]({auth_url})</seg></tuv><tuv xml:lang="sv"><seg>För att länka ditt Telldus Live-konto:
+
+1. Öppna länken nedan
+2. Logga in på Telldus Live
+3. Godkänn **{app_name}** (välj **Ja**).
+4. Gå tillbaka hit och välj **Bekräfta**.
+
+[Länka Telldus Live-konto]({auth_url})</seg></tuv></tu>
 </body>
 </tmx>

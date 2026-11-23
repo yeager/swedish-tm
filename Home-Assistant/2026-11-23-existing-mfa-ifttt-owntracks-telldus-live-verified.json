@@ -1,0 +1,52 @@
+[
+  {
+    "key": "component::auth::mfa_setup::totp::error::invalid_code",
+    "key_id": "12333522",
+    "translation_id": "60475492",
+    "en": "Invalid code, please try again. If you get this error consistently, please make sure the clock of your Home Assistant system is accurate.",
+    "sv": "Ogiltig kod, försök igen. Om du flera gånger i rad får detta fel, se till att klockan i ditt Home Assistant-system är korrekt inställd.",
+    "verification_method": "Lokalise API live readback; reviewed existing Swedish translation",
+    "verified_date": "2026-11-23",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::auth::mfa_setup::notify::step::setup::description",
+    "key_id": "13193940",
+    "translation_id": "65964996",
+    "en": "A one-time password has been sent via **notify.{notify_service}**. Please enter it below:",
+    "sv": "Ett engångslösenord har skickats via **notify.{notify_service}**. Ange det nedan:",
+    "verification_method": "Lokalise API live readback; reviewed existing Swedish translation",
+    "verified_date": "2026-11-23",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::ifttt::config::create_entry::default",
+    "key_id": "13309276",
+    "translation_id": "66719290",
+    "en": "To send events to Home Assistant, you will need to use the \"Make a web request\" action from the [IFTTT webhook applet]({applet_url}).\n\nFill in the following info:\n\n- URL: `{webhook_url}`\n- Method: POST\n- Content Type: application/json\n\nSee [the documentation]({docs_url}) on how to configure automations to handle incoming data.",
+    "sv": "För att skicka händelser till Home Assistant behöver du använda åtgärden ”Gör en webbförfrågan” från [IFTTT webhook applet]({applet_url}).\n\nFyll i följande information:\n\n- URL: `{webhook_url}`\n- Metod: POST\n- Innehållstyp: application/json\n\nSe [dokumentationen]({docs_url}) om hur du konfigurerar automatiseringar för att hantera inkommande data.",
+    "verification_method": "Lokalise API live readback; reviewed existing Swedish translation",
+    "verified_date": "2026-11-23",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::owntracks::config::create_entry::default",
+    "key_id": "15111917",
+    "translation_id": "76636880",
+    "en": "On Android, open [the OwnTracks app]({android_url}), go to Preferences > Connection. Change the following settings:\n - Mode: HTTP\n - Host: {webhook_url}\n - Identification:\n   - Username: `'(Your name)'`\n   - Device ID: `'(Your device name)'`\n\nOn iOS, open [the OwnTracks app]({ios_url}), tap (i) icon in top left > Settings. Change the following settings:\n - Mode: HTTP\n - URL: {webhook_url}\n - Turn on authentication\n - UserID: `'(Your name)'`\n\n{secret}\n\nSee [the documentation]({docs_url}) for more information.",
+    "sv": "På Android öppnar du [OwnTracks-appen]({android_url}) och går till Inställningar > Anslutning. Ändra följande inställningar:\n\n- Läge: HTTP\n- Värd: {webhook_url}\n- Identifiering:\n  - Användarnamn: `'(Ditt namn)'`\n  - Enhets-ID: `'(Ditt enhetsnamn)'`\n\nPå iOS öppnar du [OwnTracks-appen]({ios_url}), trycker på (i)-ikonen längst upp till vänster och väljer Inställningar. Ändra följande inställningar:\n\n- Läge: HTTP\n- URL: {webhook_url}\n- Aktivera autentisering\n- UserID: `'(Ditt namn)'`\n\n{secret}\n\nSe [dokumentationen]({docs_url}) för mer information.",
+    "verification_method": "Lokalise API live readback; reviewed existing Swedish translation",
+    "verified_date": "2026-11-23",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tellduslive::config::step::auth::description",
+    "key_id": "15572067",
+    "translation_id": "80015630",
+    "en": "To link your Telldus Live account:\n1. Open the link below\n2. Log in to Telldus Live\n3. Authorize **{app_name}** (select **Yes**).\n4. Come back here and select **Submit**.\n\n[Link Telldus Live account]({auth_url})",
+    "sv": "För att länka ditt Telldus Live-konto:\n\n1. Öppna länken nedan\n2. Logga in på Telldus Live\n3. Godkänn **{app_name}** (välj **Ja**).\n4. Gå tillbaka hit och välj **Bekräfta**.\n\n[Länka Telldus Live-konto]({auth_url})",
+    "verification_method": "Lokalise API live readback; reviewed existing Swedish translation",
+    "verified_date": "2026-11-23",
+    "status": "verified-existing"
+  }
+]
