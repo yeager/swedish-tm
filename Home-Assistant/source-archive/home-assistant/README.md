@@ -9,7 +9,7 @@ Detta är en kontextbevarande ögonblicksbild av samtliga **icke arkiverade** st
 | iOS Companion | 3 572 | 3 572 |
 | Android Companion | 1 668 | 1 673 |
 
-Varje PO-post har Lokalise-nyckel och engelsk respektive svensk översättnings-ID i kommentaren. TMX-filerna bevarar motsvarande metadata, kontext och kontrollsumma för den importerade komponentens råa JSONL-ögonblicksbild. Katalogerna är API-exporter från angivet datum och kompletterar den mindre, individuellt granskade `reviewed/catalogs/home-assistant.*`-katalogen. En exporterad post är en översättningsresurs och innebär inte att varje äldre sträng har fått en ny språkgranskning.
+Varje PO-post har Lokalise-nyckel och engelsk respektive svensk översättnings-ID i kommentaren. TMX-filerna bevarar motsvarande metadata, kontext och kontrollsumma för den importerade komponentens råa JSONL-ögonblicksbild. Katalogerna är API-exporter från angivet datum och kompletterar de mindre, individuellt granskade kopiorna i `../../review-archive/catalogs/`. En exporterad post är en översättningsresurs och innebär inte att varje äldre sträng har fått en ny språkgranskning.
 
 Kör den reproducerbara exporten med:
 
