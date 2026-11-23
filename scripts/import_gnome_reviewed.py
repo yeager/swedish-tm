@@ -87,7 +87,8 @@ def main() -> None:
     tm = polib.pofile(baseline, encoding="utf-8")
     existing = {(entry.msgctxt, entry.msgid): entry for entry in tm if not entry.msgid_plural}
     appended: list[polib.POEntry] = []
-    added = skipped_plural = conflicts = 0
+    updated_entries: list[polib.POEntry] = []
+    added = updated = skipped_plural = 0
     sources: list[dict[str, object]] = []
     for review in review_index:
         path = ARCHIVE / review["path"] / review["reviewed"]
@@ -113,15 +114,27 @@ def main() -> None:
                 appended.append(target)
                 added += 1
             elif target.msgstr != entry.msgstr:
-                # This compendium has no project dimension. Do not let a
-                # module-specific UI label overwrite another GNOME context.
-                conflicts += 1
+                # A completed line review is authoritative. Keep an audit
+                # trail when replacing an older context-free TM suggestion.
+                target.msgstr = entry.msgstr
+                source = f"from gnome:reviewed/{review['module']}/{review['branch']}"
+                if source not in target.comment.splitlines():
+                    target.comment = f"{target.comment}\n{source}".strip()
+                updated_entries.append(target)
+                updated += 1
         sources.append({"module": review["module"], "branch": review["branch"], "kind": review["kind"],
                         "path": str(path.relative_to(WORKSPACE)), "sha256": digest(path),
                         "singular_pairs": singular, "plural_pairs_not_in_compendium": plural})
-    if added:
+    if added or updated:
         lines = baseline.splitlines(keepends=True)
-        merged = "".join(lines).replace(f"# Entries: {len(existing) - added}\n", f"# Entries: {len(existing)}\n", 1)
+        # Replace changed baseline entries in reverse order so original line
+        # locations remain valid, while preserving the rest of the file.
+        for entry in sorted(updated_entries, key=lambda item: item.linenum, reverse=True):
+            start, end = entry_bounds(lines, entry.linenum)
+            lines[start:end] = [str(entry).rstrip("\n") + "\n"]
+        merged = "".join(lines)
+        if added:
+            merged = merged.replace(f"# Entries: {len(existing) - added}\n", f"# Entries: {len(existing)}\n", 1)
         if appended:
             merged += "\n" + "\n\n".join(str(entry).rstrip("\n") for entry in appended) + "\n"
         TM_PO.write_text(merged, encoding="utf-8")
@@ -131,11 +144,11 @@ def main() -> None:
         write_tmx(polib.pofile(str(TM_PO), encoding="utf-8"))
     MANIFEST.write_text(json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(), "sources": sources,
-        "added_singular_pairs": added, "context_conflicts_not_overwritten": conflicts,
+        "added_singular_pairs": added, "updated_reviewed_pairs": updated,
         "plural_pairs_not_in_context_free_compendium": skipped_plural,
         "note": "Plural pairs remain in their reviewed PO archives; sv-gnome.po is a context-free singular compendium.",
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"added={added} conflicts={conflicts} plural_skipped={skipped_plural} sources={len(sources)}")
+    print(f"added={added} updated={updated} plural_skipped={skipped_plural} sources={len(sources)}")
 
 
 if __name__ == "__main__":
