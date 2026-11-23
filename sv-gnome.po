@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 109747
+# Entries: 109760
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -465424,11 +465424,13 @@ msgstr "Överhoppat kommando: %s"
 
 #. from gnome:reviewed/realmd/master
 msgid "Configured command invalid: %s"
-msgstr "Konfigurerat kommando ogiltigt: %s"
+msgstr "Konfigurerat kommando är ogiltigt: %s"
 
 #. from gnome:reviewed/realmd/master
 msgid "Received invalid or unsupported Netlogon data from server"
-msgstr "Tog emot ogiltigt eller Netlogon-data som inte stöds från server"
+msgstr ""
+"Tog emot ogiltiga Netlogon-data eller Netlogon-data som inte stöds från "
+"servern"
 
 #. from gnome:reviewed/realmd/master
 msgid "LDAP on this system does not support UDP connections"
@@ -465436,7 +465438,7 @@ msgstr "LDAP på detta system stödjer inte UDP-anslutningar"
 
 #. from gnome:reviewed/realmd/master
 msgid "Failed to setup LDAP connection"
-msgstr "Misslyckades med att konfigurera LDAP-anslutning"
+msgstr "Kunde inte konfigurera LDAP-anslutningen"
 
 #. from gnome:reviewed/realmd/master
 msgid "Unsupported or unknown membership software '%s'"
@@ -465444,7 +465446,7 @@ msgstr "Medlemskapsprogramvaran ”%s” är okänd eller stöds ej"
 
 #. from gnome:reviewed/realmd/master
 msgid "Already joined to a domain"
-msgstr "Redan anslutit till en domän"
+msgstr "Redan ansluten till en domän"
 
 #. from gnome:reviewed/realmd/master
 msgid "Admin name or password is not valid"
@@ -465524,7 +465526,7 @@ msgstr "Kör redan en annan åtgärd"
 
 #. from gnome:reviewed/realmd/master
 msgid "Already joined to another domain: %s"
-msgstr "Redan anslutit till en domän: %s"
+msgstr "Redan ansluten till en annan domän: %s"
 
 #. from gnome:reviewed/realmd/master
 msgid "Failed to change permitted logins. See diagnostics."
@@ -465596,7 +465598,7 @@ msgstr "Ej stödda autentiseringsuppgifter för att ansluta till en domän"
 
 #. from gnome:reviewed/realmd/master
 msgid "Already joined to this domain"
-msgstr "Redan anslutit till denna domän"
+msgstr "Redan ansluten till denna domän"
 
 #. from gnome:reviewed/realmd/master
 msgid "A domain with this name is already configured"
@@ -465751,11 +465753,11 @@ msgstr "Sfär stödjer inte automatiskt medlemskap"
 
 #. from gnome:reviewed/realmd/master
 msgid "Couldn't discover realms"
-msgstr "Kunde inte upptäcka sfär"
+msgstr "Kunde inte upptäcka sfärer"
 
 #. from gnome:reviewed/realmd/master
 msgid "No default realm discovered"
-msgstr "Ingen standardsfär upptäckt"
+msgstr "Ingen standardsfär hittades"
 
 #. from gnome:reviewed/realmd/master
 msgid "No such realm found: %s"
@@ -465807,7 +465809,7 @@ msgstr "Stäng av automatisk id-mappning"
 
 #. from gnome:reviewed/realmd/master
 msgid "Use specific computer name instead of hostname"
-msgstr "Använd ett specifikt datornamn i stället för värdnamn"
+msgstr "Använd ett angivet datornamn i stället för värdnamnet"
 
 #. from gnome:reviewed/realmd/master
 msgid "Computer OU DN to join"
@@ -465823,11 +465825,11 @@ msgstr "Anslut med ett förinställt engångslösenord"
 
 #. from gnome:reviewed/realmd/master
 msgid "Use specific operation system name"
-msgstr "Använd ett specifikt operativsystemsnamn"
+msgstr "Använd ett angivet operativsystemsnamn"
 
 #. from gnome:reviewed/realmd/master
 msgid "Use specific operation system version"
-msgstr "Använd en specifik operativsystemsversion"
+msgstr "Använd en angiven operativsystemsversion"
 
 #. from gnome:reviewed/realmd/master
 msgid "User name to use for enrollment"
@@ -465849,8 +465851,8 @@ msgstr "Ange en sfär att ansluta till"
 msgid ""
 "The --no-password argument cannot be used with --one-time-password or --user"
 msgstr ""
-"Argumentet--no-password argument kan inte användas med --one-time-password "
-"eller --user"
+"Argumentet --no-password kan inte användas med --one-time-password eller "
+"--user"
 
 #. from gnome:reviewed/realmd/master
 msgid "The --one-time-password argument cannot be used with --user"
@@ -517517,3 +517519,75 @@ msgstr "Aktivera övervakningsportar på ljudströmmar"
 #. from gnome:reviewed/WirePlumber/master
 msgid "Configure all audio device sink streams in MONO"
 msgstr "Konfigurera alla ljudenheters utgångsströmmar som MONO"
+
+#. from gnome:reviewed/realmd/master
+msgid "Renew credentials for this machine in a realm"
+msgstr "Förnya autentiseringsuppgifter för denna maskin i en sfär"
+
+#. from gnome:reviewed/realmd/master
+msgid "Failed to discover realm"
+msgstr "Kunde inte upptäcka sfär"
+
+#. from gnome:reviewed/realmd/master
+msgid "No realm found"
+msgstr "Ingen sfär hittades"
+
+#. from gnome:reviewed/realmd/master
+msgid "Cannot determine if fully-qualified name are used or not"
+msgstr "Kan inte avgöra om fullständiga namn används eller inte"
+
+#. from gnome:reviewed/realmd/master
+msgid ""
+"Please note that by default, you have to use fully-qualified names\n"
+"during AD user lookup & login instead of just short names\n"
+"e.g. 'username@domain' instead of just 'username'. Although\n"
+"fully-qualified names are recommended, this behaviour can be changed\n"
+"in sssd.conf file with the 'use_fully_qualified_names = False' option.\n"
+msgstr ""
+"Observera att du som standard måste använda fullständiga namn\n"
+"vid sökning efter och inloggning av AD-användare, i stället för endast korta namn\n"
+"till exempel 'användarnamn@domän' i stället för endast 'användarnamn'. Även om\n"
+"fullständiga namn rekommenderas kan beteendet ändras\n"
+"i filen sssd.conf med alternativet 'use_fully_qualified_names = False'.\n"
+
+#. from gnome:reviewed/realmd/master
+msgid ""
+"Please note that by default, you can use short names during AD user\n"
+"lookup & login instead of fully-qualified names\n"
+"e.g. 'username' instead of 'username@domain'. If you prefer\n"
+"fully-qualified names, this behaviour can be changed\n"
+"in sssd.conf file with the 'use_fully_qualified_names = True' option.\n"
+msgstr ""
+"Observera att du som standard kan använda korta namn vid sökning efter och\n"
+"inloggning av AD-användare, i stället för fullständiga namn\n"
+"till exempel 'användarnamn' i stället för 'användarnamn@domän'. Om du föredrar\n"
+"fullständiga namn kan beteendet ändras\n"
+"i filen sssd.conf med alternativet 'use_fully_qualified_names = True'.\n"
+
+#. from gnome:reviewed/realmd/master
+msgid "Cannot renew credentials for this realm"
+msgstr "Kan inte förnya autentiseringsuppgifter för denna sfär"
+
+#. from gnome:reviewed/realmd/master
+msgid "Couldn't renew realm credentials"
+msgstr "Kunde inte förnya autentiseringsuppgifter för sfären"
+
+#. from gnome:reviewed/realmd/master
+msgid "Path to the keytab"
+msgstr "Sökväg till keytab-filen"
+
+#. from gnome:reviewed/realmd/master
+msgid "Fully-qualified name of the host"
+msgstr "Värdens fullständiga namn"
+
+#. from gnome:reviewed/realmd/master
+msgid "lifetime of the host accounts password in days"
+msgstr "Livslängd för värdkontots lösenord i dagar"
+
+#. from gnome:reviewed/realmd/master
+msgid "Try to update Samba's internal machine account password as well"
+msgstr "Försök även uppdatera Sambas interna lösenord för maskinkontot"
+
+#. from gnome:reviewed/realmd/master
+msgid "Specify one realm to renew credentials"
+msgstr "Ange en sfär där autentiseringsuppgifter ska förnyas"
