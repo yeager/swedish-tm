@@ -1,0 +1,82 @@
+[
+  {
+    "key": "component::tomorrowio::services::get_minute_forecast::description",
+    "key_id": "984729484",
+    "translation_id": "10400405993",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Retrieves the minute-level forecast (nowcast) for a location, in intervals of the length configured for that location. The data comes from the latest scheduled update, so this action does not use any API requests. Precipitation is the amount expected in each interval, in the weather entity's precipitation unit.",
+    "sv": "Hämtar minutprognosen (nowcast) för en plats i intervall med den längd som har konfigurerats för platsen. Uppgifterna kommer från den senaste schemalagda uppdateringen, så åtgärden använder inga API-anrop. Nederbörden är den förväntade mängden för varje intervall, i väderentitetens nederbördsenhet.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::tomorrowio::services::get_minute_forecast::name",
+    "key_id": "984729485",
+    "translation_id": "10400406058",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Get minute forecast",
+    "sv": "Hämta minutprognos",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::kaco_modbus::device::mppt::name",
+    "key_id": "984730272",
+    "translation_id": "10400406247",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "MPPT {number}",
+    "sv": "MPPT {number}",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::nibe_heatpump::entity::image::heating_curve::name",
+    "key_id": "984730321",
+    "translation_id": "10400406409",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Heating curve {system}",
+    "sv": "Värmekurva {system}",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::nibe_heatpump::options::step::log_set::description",
+    "key_id": "984730322",
+    "translation_id": "10400406475",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "A LOG.SET file selects the registers the pump sends without being asked. Download {link} and load it from a USB stick on the pump.\n\nThe pump only sends the first 20 slots, where 32-bit registers take two. Read-only registers are placed first, and the remaining registers are polled.",
+    "sv": "En LOG.SET-fil väljer de register som värmepumpen skickar utan att tillfrågas. Hämta {link} och läs in den från ett USB-minne i värmepumpen.\n\nVärmepumpen skickar endast de första 20 platserna, där 32-bitarsregister tar två. Skrivskyddade register placeras först och återstående register avläses.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::nibe_heatpump::options::step::log_set::title",
+    "key_id": "984730323",
+    "translation_id": "10400406540",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "LOG.SET for MODBUS40",
+    "sv": "LOG.SET för MODBUS40",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::nibe_heatpump::options::step::log_set_unavailable::description",
+    "key_id": "984730324",
+    "translation_id": "10400406605",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "A LOG.SET file selects the registers the pump sends without being asked. It can only be created while the integration is loaded.",
+    "sv": "En LOG.SET-fil väljer de register som värmepumpen skickar utan att tillfrågas. Den kan bara skapas medan integrationen är inläst.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::nibe_heatpump::options::step::log_set_unavailable::title",
+    "key_id": "984730325",
+    "translation_id": "10400406670",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "LOG.SET for MODBUS40",
+    "sv": "LOG.SET för MODBUS40",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  }
+]
