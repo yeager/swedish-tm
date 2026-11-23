@@ -19486,11 +19486,11 @@ Ange ditt Device Access Project ID nedan ([mer information]({more_info_url})).</
 <tu tuid="lokalise:7174823635"><prop type="source">component::energyid::config_subentries::sensor_mapping::step::user::description</prop><prop type="lokalise-key-id">763521622</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>Select a Home Assistant sensor to send to {integration_name}. The sensor name will be used as the {integration_name} metric key.</seg></tuv><tuv xml:lang="sv"><seg>Välj en Home Assistant-sensor som ska skickas till {integration_name}. Sensornamnet kommer att användas som metrisk nyckel för {integration_name}.</seg></tuv></tu>
 <tu tuid="lokalise:9052660470"><prop type="source">component::omie::exceptions::date_before_market_start::message</prop><prop type="lokalise-key-id">887689175</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>No quarter-hourly prices exist for {date}. Prices are available from {start_date} onwards.</seg></tuv><tuv xml:lang="sv"><seg>Det finns inga kvartspriser för {date}. Priser finns tillgängliga från och med {start_date}.</seg></tuv></tu>
 
-<tu tuid="lokalise:51883247"><prop type="source">component::homematicip_cloud::config::step::link::description</prop><prop type="lokalise-key-id">11008997</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>Press the blue button on the access point and the **Submit** button to register Homematic IP with Home Assistant.
+<tu tuid="lokalise:51883247"><prop type="source">component::homematicip_cloud::config::step::link::description</prop><prop type="lokalise-key-id">11008997</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish setup instructions reviewed</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Press the blue button on the access point and the **Submit** button to register Homematic IP with Home Assistant.
 
-![Location of button on bridge](/static/images/config_flows/config_homematicip_cloud.png)</seg></tuv><tuv xml:lang="sv"><seg>Tryck på den blå knappen på accesspunkten och på **Bekräfta**-knappen för att registrera Homematic IP med Home Assistant.
+![Location of button on bridge](/static/images/config_flows/config_homematicip_cloud.png)</seg></tuv><tuv xml:lang="sv"><seg>Tryck på den blå knappen på åtkomstpunkten och sedan på knappen **Bekräfta** för att registrera Homematic IP hos Home Assistant.
 
-![Placering av knappen på bryggan](/static/images/config_flows/config_homematicip_cloud.png)</seg></tuv></tu>
+![Knappens placering på bryggan](/static/images/config_flows/config_homematicip_cloud.png)</seg></tuv></tu>
 <tu tuid="lokalise:3656513786"><prop type="source">component::modbus::issues::missing_modbus_name::description</prop><prop type="lokalise-key-id">456718742</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>Please add `{sub_1}` key to the {integration} entry with host `{sub_2}` in your configuration.yaml file and restart Home Assistant to fix this issue
 
 . `{sub_1}: {sub_3}` have been added.</seg></tuv><tuv xml:lang="sv"><seg>Lägg till nyckeln `{sub_1}` i posten {integration} med värdnamnet `{sub_2}` i filen configuration.yaml och starta om Home Assistant för att åtgärda problemet.
@@ -20157,5 +20157,22 @@ The valve is available directly in the respective climate entity.
 Please update your automations and scripts, disable `{entity}` and reload the integration/restart Home Assistant to fix this issue.</seg></tuv><tuv xml:lang="sv"><seg>Homee-entiteten `{entity}` är utfasad och kommer att tas bort i version 2025.12.
 Ventilen är tillgänglig direkt i respektive klimatentitet.
 Uppdatera dina automatiseringar och skript, inaktivera `{entity}` och läs in integrationen på nytt eller starta om Home Assistant för att åtgärda problemet.</seg></tuv></tu>
+
+<tu tuid="lokalise:39727650"><prop type="source">component::deconz::config::step::link::description</prop><prop type="lokalise-key-id">9029385</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish setup instructions reviewed</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Unlock your deCONZ gateway to register with Home Assistant.
+
+1. Go to deCONZ Settings &gt; Gateway &gt; Advanced
+2. Select the **Authenticate app** button</seg></tuv><tuv xml:lang="sv"><seg>Lås upp din deCONZ-gateway för att registrera den hos Home Assistant.
+
+1. Gå till deCONZ Settings &gt; Gateway &gt; Advanced
+2. Välj knappen **Authenticate app**</seg></tuv></tu>
+<tu tuid="lokalise:60475541"><prop type="source">component::auth::mfa_setup::totp::step::init::description</prop><prop type="lokalise-key-id">12333523</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish setup instructions reviewed</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>To activate two-factor authentication using time-based one-time passwords, scan the QR code with your authentication app. If you don&#x27;t have one, we recommend either [Google Authenticator]({google_authenticator_url}) or [Authy]({authy_url}).
+
+{qr_code}
+
+After scanning the code, enter the six-digit code from your app to verify the setup. If you have problems scanning the QR code, do a manual setup with code **`{code}`**.</seg></tuv><tuv xml:lang="sv"><seg>För att aktivera tvåfaktorsautentisering med tidsbaserade engångslösenord skannar du QR-koden med din autentiseringsapp. Om du saknar en rekommenderar vi [Google Authenticator]({google_authenticator_url}) eller [Authy]({authy_url}).
+
+{qr_code}
+
+När du har skannat koden anger du den sexsiffriga koden från appen för att bekräfta inställningen. Om du har problem med att skanna QR-koden gör du en manuell inställning med koden **`{code}`**.</seg></tuv></tu>
 </body>
 </tmx>
