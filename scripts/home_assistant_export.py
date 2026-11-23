@@ -102,7 +102,9 @@ def fetch_component(component: str, title: str, project_id: str, token: str, sna
         if page >= pages:
             break
         page += 1
-        time.sleep(0.11)
+        # Sequential requests are already network-bound; keep a small yield
+        # without adding enough delay to make a complete Core export stale.
+        time.sleep(0.01)
     rows.sort(key=lambda row: int(row["unit"]))
     return rows
 
