@@ -1,0 +1,282 @@
+[
+  {
+    "key": "component::abrp::exceptions::send_telemetry_failed::message",
+    "key_id": "984730503",
+    "translation_id": "10400411437",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Failed to send telemetry to A Better Routeplanner.",
+    "sv": "Det gick inte att skicka telemetri till A Better Routeplanner.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::exceptions::telemetry_write_not_granted::message",
+    "key_id": "984730504",
+    "translation_id": "10400411502",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Home Assistant is not allowed to send telemetry to A Better Routeplanner yet; please re-authenticate to grant it.",
+    "sv": "Home Assistant har ännu inte behörighet att skicka telemetri till A Better Routeplanner. Autentisera igen för att ge behörighet.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::exceptions::vehicle_not_in_garage::message",
+    "key_id": "984730505",
+    "translation_id": "10400411567",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "{vehicle} is not in the A Better Routeplanner garage of this account.",
+    "sv": "{vehicle} finns inte i A Better Routeplanner-garaget för det här kontot.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::selector::charging_state::options::charging_ac",
+    "key_id": "984730506",
+    "translation_id": "10400411632",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Charging (AC)",
+    "sv": "Laddar (AC)",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::selector::charging_state::options::charging_dc",
+    "key_id": "984730507",
+    "translation_id": "10400411697",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Charging (DC)",
+    "sv": "Laddar (DC)",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::selector::charging_state::options::charging_unknown",
+    "key_id": "984730508",
+    "translation_id": "10400411762",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Charging",
+    "sv": "Laddar",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::selector::charging_state::options::not_charging",
+    "key_id": "984730509",
+    "translation_id": "10400411827",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Not charging",
+    "sv": "Laddar inte",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::selector::charging_state::options::plugged_in",
+    "key_id": "984730510",
+    "translation_id": "10400411892",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Plugged in",
+    "sv": "Ansluten",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::description",
+    "key_id": "984730511",
+    "translation_id": "10400411957",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Sends a telemetry point for a vehicle to A Better Routeplanner, for example the state of charge reported by another integration.",
+    "sv": "Skickar en telemetripunkt för ett fordon till A Better Routeplanner, till exempel laddningsnivån som rapporteras av en annan integration.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::battery_temperature::description",
+    "key_id": "984730512",
+    "translation_id": "10400412022",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Battery temperature, in °C.",
+    "sv": "Batteritemperatur i °C.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::battery_temperature::name",
+    "key_id": "984730513",
+    "translation_id": "10400412087",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Battery temperature",
+    "sv": "Batteritemperatur",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::charging_state::description",
+    "key_id": "984730514",
+    "translation_id": "10400412152",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Whether the vehicle is plugged in or charging.",
+    "sv": "Om fordonet är anslutet eller laddar.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::charging_state::name",
+    "key_id": "984730515",
+    "translation_id": "10400412217",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Charging state",
+    "sv": "Laddningsstatus",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::estimated_range::description",
+    "key_id": "984730516",
+    "translation_id": "10400412282",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Remaining range estimated by the vehicle, in km.",
+    "sv": "Återstående räckvidd som beräknas av fordonet, i km.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::estimated_range::name",
+    "key_id": "984730517",
+    "translation_id": "10400412347",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Estimated range",
+    "sv": "Beräknad räckvidd",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::location::description",
+    "key_id": "984730518",
+    "translation_id": "10400412412",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Position of the vehicle.",
+    "sv": "Fordonets position.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::location::name",
+    "key_id": "984730519",
+    "translation_id": "10400412477",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Location",
+    "sv": "Plats",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::odometer::description",
+    "key_id": "984730520",
+    "translation_id": "10400412542",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Odometer reading, in km.",
+    "sv": "Vägmätarställning i km.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::odometer::name",
+    "key_id": "984730521",
+    "translation_id": "10400412607",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Odometer",
+    "sv": "Vägmätarställning",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::power::description",
+    "key_id": "984730522",
+    "translation_id": "10400412672",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Battery power, in kW. Negative while charging, positive while driving.",
+    "sv": "Batterieffekt i kW. Negativ vid laddning, positiv under körning.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::power::name",
+    "key_id": "984730523",
+    "translation_id": "10400412737",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Power",
+    "sv": "Effekt",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::soc::description",
+    "key_id": "984730524",
+    "translation_id": "10400412802",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Battery state of charge, in %.",
+    "sv": "Batteriets laddningsnivå i %.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::soc::name",
+    "key_id": "984730525",
+    "translation_id": "10400412867",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "State of charge",
+    "sv": "Laddningsnivå",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::time::description",
+    "key_id": "984730526",
+    "translation_id": "10400412932",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "When the values were measured. Defaults to now.",
+    "sv": "När värdena mättes. Standard är nu.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::time::name",
+    "key_id": "984730527",
+    "translation_id": "10400412997",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Time",
+    "sv": "Tid",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::vehicle::description",
+    "key_id": "984730528",
+    "translation_id": "10400413062",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "The A Better Routeplanner vehicle to send the telemetry for.",
+    "sv": "A Better Routeplanner-fordonet som telemetrin ska skickas för.",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::fields::vehicle::name",
+    "key_id": "984730529",
+    "translation_id": "10400413127",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Vehicle",
+    "sv": "Fordon",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::abrp::services::send_telemetry::name",
+    "key_id": "984730530",
+    "translation_id": "10400413192",
+    "project_id": "130246255a974bd3b5e8a1.51616605",
+    "en": "Send telemetry",
+    "sv": "Skicka telemetri",
+    "verification_method": "Lokalise API live readback; Core strings reviewed and saved",
+    "verified_date": "2026-11-23"
+  }
+]
