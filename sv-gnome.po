@@ -158467,8 +158467,10 @@ msgid "Thumbnail size (default: 128)"
 msgstr "Storlek på miniatyrbild (standard: 128)"
 
 #. from gnome:font-viewer-main.sv
+#. from gnome:reviewed/phodav/master
+#. from gnome:reviewed/gtk/main
 msgid "SIZE"
-msgstr "STORLEK"
+msgstr "SIZE"
 
 #. from gnome:font-viewer-main.sv
 msgid "FONT-FILE OUTPUT-FILE"
@@ -259415,12 +259417,12 @@ msgstr "ingen_e-post"
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "Print program version"
-msgstr "Visa programmets version"
+msgstr "Skriv ut programmets version"
 
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "Be verbose"
-msgstr "Var utförlig"
+msgstr "Visa utförlig information"
 
 #. from gnome:phodav
 msgid "Port to listen to"
@@ -259435,13 +259437,14 @@ msgid "Listen on all interfaces"
 msgstr "Lyssna på alla gränssnitt"
 
 #. from gnome:phodav
+#. from gnome:reviewed/phodav/master
 msgid "Path to export"
-msgstr "Sökväg att exportera"
+msgstr "Sökväg som ska exporteras"
 
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "Path to htdigest file"
-msgstr "Sökväg till htdigest-filen"
+msgstr "Sökväg till htdigest-fil"
 
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
@@ -259455,12 +259458,12 @@ msgstr "Skrivskyddad åtkomst"
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "Skip mDNS service announcement"
-msgstr "Hoppa över mDNS-tjänsteannonsering"
+msgstr "Hoppa över mDNS-tjänstmeddelande"
 
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "- simple WebDAV server"
-msgstr "– enkel WebDAV-server"
+msgstr "- enkel WebDAV-server"
 
 #. from gnome:phodav
 msgid "Report bugs to <%s>"
@@ -259474,17 +259477,17 @@ msgstr "Tolkning av flaggor misslyckades: %s\n"
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "Unsupported extra arguments: %s ...\n"
-msgstr "Ytterligare argument som inte stöds: %s …\n"
+msgstr "Extra argument som inte stöds: %s …\n"
 
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "--local and --public are mutually exclusive\n"
-msgstr "--local och --public kan inte användas tillsammans\n"
+msgstr "--local och --public kan inte användas samtidigt\n"
 
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "Failed to open htdigest: %s\n"
-msgstr "Kunde inte öppna htdigest: %s\n"
+msgstr "Misslyckades med att öppna htdigest: %s\n"
 
 #. from gnome:phodav
 msgid "mDNS failed: %s\n"
@@ -259497,7 +259500,7 @@ msgstr "Internt fel, bör inte inträffa\n"
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "Listen failed: %s\n"
-msgstr "Kunde inte lyssna: %s\n"
+msgstr "Misslyckades med att lyssna: %s\n"
 
 #. from gnome:quadrapassel
 msgid "Quadrapassel"
@@ -336169,23 +336172,23 @@ msgstr "Filer och mappar"
 
 #. from gnome:reviewed/phodav/master
 msgid "--tls-cert contains no private key, pass it with --tls-key\n"
-msgstr "--tls-cert innehåller ingen privat nyckel, ange den med --tls-key\n"
+msgstr "--tls-cert innehåller ingen privat nyckel; ange den med --tls-key\n"
 
 #. from gnome:reviewed/phodav/master
 msgid "Unix socket to listen on"
-msgstr "Unix-uttag att lyssna på"
+msgstr "Unix-socket att lyssna på"
 
 #. from gnome:reviewed/phodav/master
 msgid "Refuse uploads over SIZE bytes (0 for no limit)"
-msgstr "Neka uppladdningar större än SIZE byte (0 för ingen gräns)"
+msgstr "Avvisa uppladdningar större än SIZE byte (0 för ingen gräns)"
 
 #. from gnome:reviewed/phodav/master
 msgid ""
 "Serve HTTPS, with the TLS certificate in CERT (which must include the "
 "private key, unless --tls-key is given)"
 msgstr ""
-"Tillhandahåll HTTPS med TLS-certifikatet i CERT (som måste innehålla den "
-"privata nyckeln om inte --tls-key anges)"
+"Använd HTTPS med TLS-certifikatet i CERT (som måste innehålla den privata "
+"nyckeln om inte --tls-key anges)"
 
 #. from gnome:reviewed/phodav/master
 msgid "CERT"
@@ -336193,24 +336196,23 @@ msgstr "CERT"
 
 #. from gnome:reviewed/phodav/master
 msgid "Path to the TLS private key, when it is not in the certificate file"
-msgstr ""
-"Sökväg till den privata TLS-nyckeln när den inte finns i certifikatfilen"
+msgstr "Sökväg till TLS-privatnyckeln när den inte finns i certifikatfilen"
 
 #. from gnome:reviewed/phodav/master
 msgid "KEY"
-msgstr "NYCKEL"
+msgstr "KEY"
 
 #. from gnome:reviewed/phodav/master
 msgid "--socket and --local are mutually exclusive\n"
-msgstr "--socket och --local kan inte användas tillsammans\n"
+msgstr "--socket och --local kan inte användas samtidigt\n"
 
 #. from gnome:reviewed/phodav/master
 msgid "--socket and --public are mutually exclusive\n"
-msgstr "--socket och --public kan inte användas tillsammans\n"
+msgstr "--socket och --public kan inte användas samtidigt\n"
 
 #. from gnome:reviewed/phodav/master
 msgid "--socket and --port are mutually exclusive\n"
-msgstr "--socket och --port kan inte användas tillsammans\n"
+msgstr "--socket och --port kan inte användas samtidigt\n"
 
 #. from gnome:reviewed/phodav/master
 msgid "--max-upload must not be negative\n"
