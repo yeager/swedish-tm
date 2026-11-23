@@ -43,7 +43,10 @@ def main() -> int:
     entries = json.loads(args.manifest.read_text(encoding="utf-8"))
     added, replaced = [], []
     for entry in entries:
-        unit = render(entry); tuid = f"lokalise:{entry['translation_id']}"; old = by_id.get(tuid) or by_key.get(entry["key"])
+        unit = render(entry); tuid = f"lokalise:{entry['translation_id']}"
+        old = by_id.get(tuid)
+        if old is None:
+            old = by_key.get(entry["key"])
         if old is None:
             added.append(unit)
         else:
