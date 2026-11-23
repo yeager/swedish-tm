@@ -5286,6 +5286,7 @@ msgstr "Du kan stoppa denna åtgärd genom att klicka på avbryt."
 #. from gnome:reviewed/drum-machine/main
 #. from gnome:reviewed/ptyxis/main
 #. from gnome:reviewed/gnome-text-editor/main
+#. from gnome:reviewed/gtksourceview/master
 msgid "_Cancel"
 msgstr "_Avbryt"
 
@@ -7194,6 +7195,7 @@ msgstr "Välj målplats för kopiering"
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/gnumeric/master
 #. from gnome:reviewed/decoder/master
+#. from gnome:reviewed/gtksourceview/master
 msgid "_Select"
 msgstr "_Markera"
 
@@ -17785,12 +17787,16 @@ msgstr "Kyrillisk/Rysk"
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/goffice/master
 #. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gtksourceview/master
+#. from gnome:reviewed/damned-lies/main
 msgid "Japanese"
 msgstr "Japansk"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/goffice/master
 #. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gtksourceview/master
+#. from gnome:reviewed/damned-lies/main
 msgid "Korean"
 msgstr "Koreansk"
 
@@ -17805,30 +17811,38 @@ msgstr "Västerländsk"
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/goffice/master
 #. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gtksourceview/master
 msgid "Central European"
 msgstr "Centraleuropeisk"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/goffice/master
 #. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gtksourceview/master
 msgid "Cyrillic"
 msgstr "Kyrillisk"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/goffice/master
 #. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gtksourceview/master
+#. from gnome:reviewed/damned-lies/main
 msgid "Turkish"
 msgstr "Turkisk"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/goffice/master
 #. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gtksourceview/master
+#. from gnome:reviewed/damned-lies/main
 msgid "Hebrew"
 msgstr "Hebreisk"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/goffice/master
 #. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gtksourceview/master
+#. from gnome:reviewed/damned-lies/main
 msgid "Arabic"
 msgstr "Arabisk"
 
@@ -17839,6 +17853,7 @@ msgstr "Nordisk"
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/goffice/master
 #. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gtksourceview/master
 msgid "Baltic"
 msgstr "Baltisk"
 
@@ -17861,6 +17876,8 @@ msgstr "Sydeuropeisk"
 #. from gnome:reviewed/gnome-terminal/master
 #. from gnome:reviewed/orca/main
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/gtksourceview/master
+#. from gnome:reviewed/damned-lies/main
 msgid "Greek"
 msgstr "Grekisk"
 
@@ -17882,6 +17899,7 @@ msgstr "Kroatiska"
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/gtksourceview/master
 #. from gnome:reviewed/evolution/master
+#. from gnome:reviewed/damned-lies/main
 msgid "Thai"
 msgstr "Thai"
 
@@ -17892,6 +17910,8 @@ msgstr "Unicode"
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/goffice/master
 #. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gtksourceview/master
+#. from gnome:reviewed/damned-lies/main
 msgid "Vietnamese"
 msgstr "Vietnamesisk"
 
@@ -217801,8 +217821,9 @@ msgid "C++ Header"
 msgstr "C++-huvud"
 
 #. from gnome:gtksourceview
+#. from gnome:reviewed/gtksourceview/master
 msgid "DOS Batch"
-msgstr "Dos-batch"
+msgstr "DOS-batch"
 
 #. from gnome:gtksourceview
 msgid "Django Template"
@@ -217869,12 +217890,14 @@ msgid "Cobalt"
 msgstr "Kobolt"
 
 #. from gnome:gtksourceview
+#. from gnome:reviewed/gtksourceview/master
 msgid "Dark color scheme used in the Kate text editor"
-msgstr "Mörkt färgschema använt i textredigeraren Kate"
+msgstr "Mörkt färgschema som används i textredigeraren Kate"
 
 #. from gnome:gtksourceview
+#. from gnome:reviewed/gtksourceview/master
 msgid "Color scheme used in the Kate text editor"
-msgstr "Färgschema använt i textredigeraren Kate"
+msgstr "Färgschema som används i textredigeraren Kate"
 
 #. from gnome:gtksourceview
 msgid "Oblivion"
@@ -217925,12 +217948,21 @@ msgid "%d of %u"
 msgstr "%d av %u"
 
 #. from gnome:gtksourceview
-msgid "Cannot create a regex for all the transitions, the syntax highlighting process will be slower than usual.\nThe error was: %s"
-msgstr "Kan inte skapa ett reguljärt uttryck för alla övergångarna, syntaxmärkningsprocessen kommer att vara\nlångsammare än vanligt. Felet var: %s"
+#. from gnome:reviewed/gtksourceview/master
+msgid ""
+"Cannot create a regex for all the transitions, the syntax highlighting process will be slower than usual.\n"
+"The error was: %s"
+msgstr ""
+"Kan inte skapa ett reguljärt uttryck för alla övergångar. Syntaxmarkeringsprocessen kommer att vara\n"
+"långsammare än vanligt. Felet var: %s"
 
 #. from gnome:gtksourceview
-msgid "Highlighting a single line took too much time, syntax highlighting will be disabled"
-msgstr "Färgmarkering av en enda rad tog för lång tid, syntaxmarkering kommer att inaktiveras"
+#. from gnome:reviewed/gtksourceview/master
+msgid ""
+"Highlighting a single line took too much time, syntax highlighting will be "
+"disabled"
+msgstr ""
+"Syntaxmarkering av en enda rad tog för lång tid; syntaxmarkering inaktiveras"
 
 #. from gnome:gtksourceview
 msgid "context “%s” cannot contain a \\%%{...@start} command"
