@@ -335742,6 +335742,7 @@ msgstr ""
 "\n"
 
 #. from gnome:reviewed/pipewire/master
+#. from gnome:reviewed/PipeWire/master
 msgid ""
 "  -R, --remote                          Remote daemon name\n"
 "      --media-type                      Set media type (default %s)\n"
@@ -335761,9 +335762,9 @@ msgstr ""
 "      --media-type                      Sätt mediatyp (standard %s)\n"
 "      --media-category                  Sätt mediakategori (standard %s)\n"
 "      --media-role                      Sätt mediaroll (standard %s)\n"
-"      --target                          Sätt nodmåls serienummer eller namn\n"
-"                                          (standard %s), 0 betyder länka inte\n"
-"  -C  --monitor                         Fånga bildskärmsportar (i inspelningsläge)\n"
+"      --target                          Sätt målnodens serienummer eller namn (standard %s)\n"
+"                                          0 betyder att ingen länkning sker\n"
+"  -C  --monitor                         Fånga övervakningsportar (i inspelningsläge)\n"
 "      --latency                         Sätt nodlatens (standard %s)\n"
 "                                          Xenhet (enhet = s, ms, us, ns)\n"
 "                                          eller direkta samplar (256)\n"
@@ -335772,6 +335773,7 @@ msgstr ""
 "\n"
 
 #. from gnome:reviewed/pipewire/master
+#. from gnome:reviewed/PipeWire/master
 msgid ""
 "      --rate                            Sample rate (default %u)\n"
 "      --channels                        Number of channels (default %u)\n"
@@ -335803,9 +335805,9 @@ msgstr ""
 "      --container                       Behållarformat\n"
 "      --list-containers                 Lista behållare och tillägg som stöds\n"
 "      --volume                          Strömvolym 0-1.0 (standard %.3f)\n"
-"  -q  --quality                         Omsamplarkvalitet (0 - 15) (standard %d)\n"
+"  -q  --quality                         Omsamplarkvalitet (0–15) (standard %d)\n"
 "  -a, --raw                             RAW-läge\n"
-"  -M, --force-midi                      Tvinga midi-format, en av \"none\", \"midi\" eller \"ump\", (standard none)\n"
+"  -M, --force-midi                      Tvinga MIDI-format, ett av \"none\", \"midi\" eller \"ump\", (standard none)\n"
 "  -n, --sample-count ANTAL              Stoppa efter ANTAL samplar\n"
 "\n"
 
@@ -336160,8 +336162,9 @@ msgid "Auto: Prefer Quality (A2DP)"
 msgstr "Auto: Föredra kvalitet (A2DP)"
 
 #. from gnome:reviewed/pipewire/master
+#. from gnome:reviewed/PipeWire/master
 msgid "Auto: Prefer Latency (A2DP)"
-msgstr "Auto: Föredra låg fördröjning (A2DP)"
+msgstr "Auto: Föredra latens (A2DP)"
 
 #. from gnome:reviewed/pipewire/master
 msgid "High Fidelity Playback (BAP Sink, codec %s)"

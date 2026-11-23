@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261123T161219Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261123T161550Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -414948,9 +414948,9 @@ Administratörsgruppen för Förbannade lögner</seg></tuv>
       --media-type                      Sätt mediatyp (standard %s)
       --media-category                  Sätt mediakategori (standard %s)
       --media-role                      Sätt mediaroll (standard %s)
-      --target                          Sätt nodmåls serienummer eller namn
-                                          (standard %s), 0 betyder länka inte
-  -C  --monitor                         Fånga bildskärmsportar (i inspelningsläge)
+      --target                          Sätt målnodens serienummer eller namn (standard %s)
+                                          0 betyder att ingen länkning sker
+  -C  --monitor                         Fånga övervakningsportar (i inspelningsläge)
       --latency                         Sätt nodlatens (standard %s)
                                           Xenhet (enhet = s, ms, us, ns)
                                           eller direkta samplar (256)
@@ -414991,9 +414991,9 @@ Administratörsgruppen för Förbannade lögner</seg></tuv>
       --container                       Behållarformat
       --list-containers                 Lista behållare och tillägg som stöds
       --volume                          Strömvolym 0-1.0 (standard %.3f)
-  -q  --quality                         Omsamplarkvalitet (0 - 15) (standard %d)
+  -q  --quality                         Omsamplarkvalitet (0–15) (standard %d)
   -a, --raw                             RAW-läge
-  -M, --force-midi                      Tvinga midi-format, en av "none", "midi" eller "ump", (standard none)
+  -M, --force-midi                      Tvinga MIDI-format, ett av "none", "midi" eller "ump", (standard none)
   -n, --sample-count ANTAL              Stoppa efter ANTAL samplar
 
 </seg></tuv>
@@ -415430,7 +415430,7 @@ Förmodligen är detta ett fel i ALSA-drivrutinen ”%s”. Vänligen rapportera
     <tu>
       <prop type="project">gnome:reviewed/pipewire/master</prop>
       <tuv xml:lang="en"><seg>Auto: Prefer Latency (A2DP)</seg></tuv>
-      <tuv xml:lang="sv"><seg>Auto: Föredra låg fördröjning (A2DP)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Auto: Föredra latens (A2DP)</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/pipewire/master</prop>
