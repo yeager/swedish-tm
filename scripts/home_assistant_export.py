@@ -13,7 +13,7 @@ import polib
 from import_reviewed import esc
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "home-assistant"
+OUT = ROOT / "Home-Assistant" / "source-archive" / "home-assistant"
 PROJECTS = {
     "core": ("Home Assistant Core", "130246255a974bd3b5e8a1.51616605"),
     "frontend": ("Home Assistant Frontend", "3420425759f6d6d241f598.13594006"),
