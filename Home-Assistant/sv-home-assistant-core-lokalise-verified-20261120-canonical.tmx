@@ -19537,7 +19537,7 @@ Fyll i följande information:
 
 Se [dokumentationen]({docs_url}) om hur du konfigurerar automatiseringar för att hantera inkommande data.</seg></tuv></tu>
 
-<tu tuid="lokalise:70606877"><prop type="source">component::mailgun::config::create_entry::default</prop><prop type="lokalise-key-id">14012669</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-22</prop><tuv xml:lang="en"><seg>To send events to Home Assistant, you will need to set up a [webhook with Mailgun]({mailgun_url}).
+<tu tuid="lokalise:70606877"><prop type="source">component::mailgun::config::create_entry::default</prop><prop type="lokalise-key-id">14012669</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish syntax and field terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>To send events to Home Assistant, you will need to set up a [webhook with Mailgun]({mailgun_url}).
 
 Fill in the following info:
 
@@ -20174,5 +20174,7 @@ After scanning the code, enter the six-digit code from your app to verify the se
 {qr_code}
 
 När du har skannat koden anger du den sexsiffriga koden från appen för att bekräfta inställningen. Om du har problem med att skanna QR-koden gör du en manuell inställning med koden **`{code}`**.</seg></tuv></tu>
+
+<tu tuid="lokalise:66829248"><prop type="source">component::mqtt::config::step::hassio_confirm::description</prop><prop type="lokalise-key-id">13330858</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Swedish syntax and field terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Do you want to configure Home Assistant to connect to the MQTT broker provided by the {addon} app?</seg></tuv><tuv xml:lang="sv"><seg>Vill du konfigurera Home Assistant så att det ansluter till MQTT-brokern som tillhandahålls av tillägget {addon}?</seg></tuv></tu>
 </body>
 </tmx>
