@@ -1,0 +1,29 @@
+[
+  {
+    "key": "component::emoncms::issues::missing_include_only_feed_id::description",
+    "key_id": "526927524",
+    "translation_id": "4433335042",
+    "en": "Configuring {domain} using YAML is being removed.\n\nPlease add manually the feeds you want to synchronize with the `configure` button of the integration.",
+    "sv": "Konfiguration av {domain} med YAML tas bort.\n\nLägg manuellt till de flöden du vill synkronisera med integrationens knapp `konfigurera`.",
+    "verification_method": "Lokalise API live readback; EmonCMS deprecation and migration notices reviewed against source, terminology, svlang and hunspell",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::emoncms::issues::remove_value_template::description",
+    "key_id": "526927526",
+    "translation_id": "4433335164",
+    "en": "Configuring {domain} using YAML is being removed and the `{parameter}` parameter cannot be imported.\n\nPlease remove `{parameter}` from your `{domain}` yaml configuration and restart Home Assistant\n\nAlternatively, you may entirely remove the `{domain}` configuration from your configuration.yaml, restart Home Assistant, and add the {domain} integration manually.",
+    "sv": "Konfiguration av {domain} med YAML tas bort och parametern `{parameter}` kan inte importeras.\n\nTa bort `{parameter}` från din YAML-konfiguration för `{domain}` och starta om Home Assistant.\n\nAlternativt kan du helt ta bort konfigurationen för `{domain}` från din configuration.yaml, starta om Home Assistant och lägga till {domain}-integrationen manuellt.",
+    "verification_method": "Lokalise API live readback; EmonCMS deprecation and migration notices reviewed against source, terminology, svlang and hunspell",
+    "verified_date": "2026-11-23"
+  },
+  {
+    "key": "component::emoncms::issues::migrate_database::description",
+    "key_id": "561783406",
+    "translation_id": "4775606998",
+    "en": "Your [emoncms]({url}) does not ship a unique identifier.\n\nPlease upgrade to at least version 11.5.7 and migrate your emoncms database.\n\nMore info in the [emoncms documentation]({doc_url})",
+    "sv": "Din [emoncms]({url}) innehåller ingen unik identifierare.\n\nUppgradera till minst version 11.5.7 och migrera emoncms-databasen.\n\nMer information finns i [emoncms-dokumentationen]({doc_url}).",
+    "verification_method": "Lokalise API live readback; EmonCMS deprecation and migration notices reviewed against source, terminology, svlang and hunspell",
+    "verified_date": "2026-11-23"
+  }
+]

@@ -20054,5 +20054,29 @@ Ta bort alla `{domain}`plattformssensorer från din konfiguration och starta om 
 <tu tuid="lokalise:5285965913"><prop type="source">component::aranet::entity::sensor::threshold::state::green</prop><prop type="lokalise-key-id">608820376</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Aranet component re-reviewed against current source, terminology, svlang and hunspell</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Green</seg></tuv><tuv xml:lang="sv"><seg>Grön</seg></tuv></tu>
 <tu tuid="lokalise:5285965976"><prop type="source">component::aranet::entity::sensor::threshold::state::red</prop><prop type="lokalise-key-id">608820377</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Aranet component re-reviewed against current source, terminology, svlang and hunspell</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Red</seg></tuv><tuv xml:lang="sv"><seg>Röd</seg></tuv></tu>
 <tu tuid="lokalise:5285966039"><prop type="source">component::aranet::entity::sensor::threshold::state::yellow</prop><prop type="lokalise-key-id">608820378</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Aranet component re-reviewed against current source, terminology, svlang and hunspell</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Yellow</seg></tuv><tuv xml:lang="sv"><seg>Gul</seg></tuv></tu>
+
+<tu tuid="lokalise:4433335042"><prop type="source">component::emoncms::issues::missing_include_only_feed_id::description</prop><prop type="lokalise-key-id">526927524</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; EmonCMS deprecation and migration notices reviewed against source, terminology, svlang and hunspell</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Configuring {domain} using YAML is being removed.
+
+Please add manually the feeds you want to synchronize with the `configure` button of the integration.</seg></tuv><tuv xml:lang="sv"><seg>Konfiguration av {domain} med YAML tas bort.
+
+Lägg manuellt till de flöden du vill synkronisera med integrationens knapp `konfigurera`.</seg></tuv></tu>
+<tu tuid="lokalise:4433335164"><prop type="source">component::emoncms::issues::remove_value_template::description</prop><prop type="lokalise-key-id">526927526</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; EmonCMS deprecation and migration notices reviewed against source, terminology, svlang and hunspell</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Configuring {domain} using YAML is being removed and the `{parameter}` parameter cannot be imported.
+
+Please remove `{parameter}` from your `{domain}` yaml configuration and restart Home Assistant
+
+Alternatively, you may entirely remove the `{domain}` configuration from your configuration.yaml, restart Home Assistant, and add the {domain} integration manually.</seg></tuv><tuv xml:lang="sv"><seg>Konfiguration av {domain} med YAML tas bort och parametern `{parameter}` kan inte importeras.
+
+Ta bort `{parameter}` från din YAML-konfiguration för `{domain}` och starta om Home Assistant.
+
+Alternativt kan du helt ta bort konfigurationen för `{domain}` från din configuration.yaml, starta om Home Assistant och lägga till {domain}-integrationen manuellt.</seg></tuv></tu>
+<tu tuid="lokalise:4775606998"><prop type="source">component::emoncms::issues::migrate_database::description</prop><prop type="lokalise-key-id">561783406</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; EmonCMS deprecation and migration notices reviewed against source, terminology, svlang and hunspell</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-23</prop><tuv xml:lang="en"><seg>Your [emoncms]({url}) does not ship a unique identifier.
+
+Please upgrade to at least version 11.5.7 and migrate your emoncms database.
+
+More info in the [emoncms documentation]({doc_url})</seg></tuv><tuv xml:lang="sv"><seg>Din [emoncms]({url}) innehåller ingen unik identifierare.
+
+Uppgradera till minst version 11.5.7 och migrera emoncms-databasen.
+
+Mer information finns i [emoncms-dokumentationen]({doc_url}).</seg></tuv></tu>
 </body>
 </tmx>
