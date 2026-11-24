@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261124T190532Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261124T190945Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -594234,6 +594234,111 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Freeze Panes&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Freeze Panes&lt;/guimenuitem&gt; menu item is used to freeze the top-most and leftmost visible portion of the worksheet. This is useful to be able to line up portions of the worksheet which are not usually together. For instance, if a user had a very large table with the titles of each column of data on row 12, the user could select row 13 and select this menu item. If the user scrolled through each data row, the data would line up underneath each header.</seg></tuv>
       <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Frys paneler&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Frys paneler&lt;/guimenuitem&gt; låser den översta och vänstra synliga delen av kalkylbladet. Då kan du hålla ihop delar av kalkylbladet som annars inte visas samtidigt. Om du till exempel har en stor tabell med kolumnrubriker på rad 12 kan du markera rad 13 och välja det här menyobjektet. När du sedan rullar genom raderna ligger data kvar under respektive rubrik.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;View Statusbar&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;View Statusbar&lt;/guimenuitem&gt; menu item determines whether to display the status bar and information area at the bottom of each worksheets. Selecting the menu item toggles the check mark in front. When this menu item has the checkmark, &lt;application&gt;Gnumeric&lt;/application&gt; will display the statusbar.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Visa statusrad&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Visa statusrad&lt;/guimenuitem&gt; avgör om statusraden och informationsområdet visas längst ned på varje kalkylblad. När du väljer menyobjektet växlar markeringen. Om objektet är markerat visar &lt;application&gt;Gnumeric&lt;/application&gt; statusraden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Full Screen&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Full Screen&lt;/guimenuitem&gt; menu item changes the display of &lt;application&gt;Gnumeric&lt;/application&gt; from a window based display to a display which occupies the whole screen. In full screen mode, the window borders will not be displayed nor will the toolbars. The key &lt;keysym&gt;F11&lt;/keysym&gt; toggles between full screen and regular display mode. When this menu item has the checkmark, &lt;application&gt;Gnumeric&lt;/application&gt; is in &lt;guimenuitem&gt;Full Screen&lt;/guimenuitem&gt; mode.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Helskärm&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Helskärm&lt;/guimenuitem&gt; växlar &lt;application&gt;Gnumeric&lt;/application&gt; från fönsterläge till helskärmsläge. I helskärmsläge visas varken fönsterramar eller verktygsfält. Tangenten &lt;keysym&gt;F11&lt;/keysym&gt; växlar mellan helskärmsläge och vanligt visningsläge. När menyobjektet är markerat är &lt;application&gt;Gnumeric&lt;/application&gt; i läget &lt;guimenuitem&gt;Helskärm&lt;/guimenuitem&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;View Properties...&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;View Properties...&lt;/guimenuitem&gt; menu item opens the &lt;guimenuitem&gt;View Properties&lt;/guimenuitem&gt; dialog.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Visningsegenskaper…&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Visningsegenskaper…&lt;/guimenuitem&gt; öppnar dialogrutan &lt;guimenuitem&gt;Visningsegenskaper&lt;/guimenuitem&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-view-properties-dialog.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the View Properties dialog.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-view-properties-dialog.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Dialogrutan Visningsegenskaper.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guimenu&gt;View Properties&lt;/guimenu&gt; dialog has four tabs. &lt;guimenu&gt;Auto Completion &lt;/guimenu&gt;is described in &lt;xref linkend="sect-worksheets-settings"/&gt;, &lt;guimenu&gt;Protection&lt;/guimenu&gt; in &lt;xref linkend="sect-worksheets-settings-protection"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan &lt;guimenu&gt;Visningsegenskaper&lt;/guimenu&gt; har fyra flikar. Fliken &lt;guimenu&gt;Autokomplettera &lt;/guimenu&gt; beskrivs i &lt;xref linkend="sect-worksheets-settings"/&gt; och fliken &lt;guimenu&gt;Skydd&lt;/guimenu&gt; i &lt;xref linkend="sect-worksheets-settings-protection"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guimenu&gt;View Properties&lt;/guimenu&gt; dialog, &lt;guimenu&gt;Cell Markers&lt;/guimenu&gt; tab</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan &lt;guimenu&gt;Visningsegenskaper&lt;/guimenu&gt;, fliken &lt;guimenu&gt;Cellmarkörer&lt;/guimenu&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-view-properties-dialog-cm.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the Cell Markers tab of the View Properties dialog.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-view-properties-dialog-cm.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Fliken Cellmarkörer i dialogrutan Visningsegenskaper.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The check boxes on the &lt;guimenu&gt;Cell Markers&lt;/guimenu&gt; tab shown in &lt;xref linkend="menu-view-properties-dialog-cm.png"/&gt; determine whether cells are shown with indicators that they contain formulae and/or that they have clipped content.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kryssrutorna på fliken &lt;guimenu&gt;Cellmarkörer&lt;/guimenu&gt;, som visas i &lt;xref linkend="menu-view-properties-dialog-cm.png"/&gt;, avgör om celler markeras när de innehåller formler eller innehåll som inte visas helt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The check boxes on the &lt;guimenu&gt;Widget&lt;/guimenu&gt; tab shown in &lt;xref linkend="menu-view-properties-dialog.png"/&gt; determine whether the notebook tabs, the horizontal scrollbar and/or the vertical scrollbars are shown in this view.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kryssrutorna på fliken &lt;guimenu&gt;Gränssnittskomponenter&lt;/guimenu&gt;, som visas i &lt;xref linkend="menu-view-properties-dialog.png"/&gt;, avgör om kalkylbladsflikarna, den vågräta rullningslisten och de lodräta rullningslisterna visas i den här vyn.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Zoom...&lt;/guimenuitem&gt; opens a dialog where you can set the magnification of one or more worksheets in the current workbook.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Zooma…&lt;/guimenuitem&gt; öppnar en dialogruta där du kan ställa in förstoringen för ett eller flera kalkylblad i den aktuella arbetsboken.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-insert-labelled.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the Insert menu.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-insert-labelled.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av menyn Infoga.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Cells...&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Cells...&lt;/guimenuitem&gt; menu item opens a dialog asking the user how the sheet should be altered when new cells are inserted. The dialog lists four choices. The user can choose one of these by clicking the mouse pointer on one of the four dots. Only one choice is possible and the currently selected choice has a black dot in front.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Infoga celler…&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Infoga celler…&lt;/guimenuitem&gt; öppnar en dialogruta där du väljer hur kalkylbladet ska ändras när nya celler infogas. Dialogrutan visar fyra alternativ. Välj ett genom att klicka på motsvarande alternativknapp. Du kan bara välja ett alternativ åt gången; det valda alternativet markeras med en svart punkt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Shift cells right&lt;/guilabel&gt; will insert a region of new cells of the size of the current selection. Cells which are on the same row as the selection and within or to the right of the selection will shift over to the right to accommodate the new cells. The &lt;guilabel&gt;Shift cells down&lt;/guilabel&gt; choice will also insert a region of new cells the same size as the current selection. With this choice, cells which are in the selection or below the selection will move down to accommodate the new cells. The two other choices will act as if the user had chosen to insert rows or columns. These actions are explained above.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guilabel&gt;Flytta celler åt höger&lt;/guilabel&gt; infogar ett område med nya celler som är lika stort som den aktuella markeringen. Celler på samma rader som markeringen, inom den eller till höger om den flyttas åt höger för att ge plats åt de nya cellerna. Alternativet &lt;guilabel&gt;Flytta celler nedåt&lt;/guilabel&gt; infogar också ett område som är lika stort som markeringen. Då flyttas cellerna i markeringen eller nedanför den nedåt. De två andra alternativen fungerar som om du hade valt att infoga rader eller kolumner. Dessa åtgärder beskrivs ovan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Columns&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Columns&lt;/guimenuitem&gt; menu item will insert columns to the left of the current selection. The number of columns inserted will equal the number of columns spanned by the current selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Kolumner&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Kolumner&lt;/guimenuitem&gt; infogar kolumner till vänster om den aktuella markeringen. Antalet infogade kolumner motsvarar antalet kolumner som markeringen omfattar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Rows&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Rows&lt;/guimenuitem&gt; menu item will insert rows above the current selection. The number of rows inserted will be equal to the number of rows spanned by the current selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Rader&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Rader&lt;/guimenuitem&gt; infogar rader ovanför den aktuella markeringen. Antalet infogade rader motsvarar antalet rader som markeringen omfattar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Sheet&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Sheet&lt;/guimenuitem&gt; menu item allows the user to insert a worksheet immediately following the current sheet.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Blad&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Blad&lt;/guimenuitem&gt; infogar ett kalkylblad direkt efter det aktuella kalkylbladet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;2&lt;/emphasis&gt; Insert an object into the worksheet or content into the current cell.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;2&lt;/emphasis&gt; Infoga ett objekt i kalkylbladet eller innehåll i den aktuella cellen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The menu items insert sheet objects into the worksheet or insert content into the current cell.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Menyobjekten infogar objekt i kalkylbladet eller innehåll i den aktuella cellen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Graph...&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Graph...&lt;/guimenuitem&gt; menu item will allow a user to insert a graphic plot of data. This menu item will launch the graph druid. Graphing in &lt;application&gt;Gnumeric&lt;/application&gt; is explained in &lt;xref linkend="chapter-graphs"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Graf…&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Graf…&lt;/guimenuitem&gt; låter dig infoga en grafisk återgivning av data. Det öppnar diagramguiden. Diagram i &lt;application&gt;Gnumeric&lt;/application&gt; beskrivs i &lt;xref linkend="chapter-graphs"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Image...&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Image...&lt;/guimenuitem&gt; menu item will allow a user to insert a graphic object containing the image from an external file. The use of images in &lt;application&gt;Gnumeric&lt;/application&gt; is explained in &lt;xref linkend="sect-graphics-images"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Bild…&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Bild…&lt;/guimenuitem&gt; låter dig infoga ett grafiskt objekt med en bild från en extern fil. Bilder i &lt;application&gt;Gnumeric&lt;/application&gt; beskrivs i &lt;xref linkend="sect-graphics-images"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Function&lt;/guimenuitem&gt; — This menu item opens a dialog to allow the user to enter a mathematical formula into the cell. The function dialog includes the names and a brief explanation of all the available functions.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Funktion&lt;/guimenuitem&gt; — Menyobjektet öppnar en dialogruta där du kan skriva in en matematisk formel i cellen. Dialogrutan listar alla tillgängliga funktioner med namn och en kort beskrivning.</seg></tuv>
     </tu>
   </body>
 </tmx>
