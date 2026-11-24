@@ -82,6 +82,21 @@ def progress_sources() -> list[dict[str, object]]:
     return sources
 
 
+def progress_reviews() -> list[tuple[dict[str, object], Path, polib.POFile]]:
+    """Read individually reviewed in-progress batches for inclusion in the TM."""
+    reviews = []
+    directory = ROOT / "reviews" / "gnome-progress"
+    for audit_path in sorted(directory.glob("*.json")):
+        audit = json.loads(audit_path.read_text(encoding="utf-8"))
+        batch_name = audit.get("reviewed_batch_file")
+        if not batch_name:
+            continue
+        batch_path = ROOT / batch_name
+        batch = polib.pofile(str(batch_path), encoding="utf-8")
+        reviews.append((audit, batch_path, batch))
+    return reviews
+
+
 def git_baseline() -> str:
     return subprocess.check_output(["git", "show", "HEAD:sv-gnome.po"], cwd=ROOT, text=True)
 
@@ -122,6 +137,8 @@ def main() -> None:
     appended: list[polib.POEntry] = []
     updated_entries: dict[int, polib.POEntry] = {}
     added = updated = skipped_plural = 0
+    progress_added = progress_updated = 0
+    progress_results = []
     sources: list[dict[str, object]] = []
     for review in review_index:
         path = ARCHIVE / review["path"] / review["reviewed"]
@@ -159,6 +176,40 @@ def main() -> None:
         sources.append({"module": review["module"], "branch": review["branch"], "kind": review["kind"],
                         "path": str(path.relative_to(WORKSPACE)), "sha256": digest(path),
                         "singular_pairs": singular, "plural_pairs_not_in_compendium": plural})
+    for audit, batch_path, batch in progress_reviews():
+        origin = f"from gnome:reviewed/{audit['module']}/{audit['branch']}/{audit['component']}"
+        batch_added = batch_updated = batch_matched = 0
+        for entry in batch:
+            if entry.obsolete or entry.fuzzy or not entry.msgid or entry.msgid_plural or not entry.msgstr:
+                continue
+            key = (entry.msgctxt, entry.msgid)
+            target = existing.get(key)
+            if target is None:
+                target = polib.POEntry(msgid=entry.msgid, msgstr=entry.msgstr, msgctxt=entry.msgctxt,
+                                       comment=origin)
+                tm.append(target)
+                existing[key] = target
+                appended.append(target)
+                added += 1
+                progress_added += 1
+                batch_added += 1
+            elif target.msgstr != entry.msgstr:
+                target.msgstr = entry.msgstr
+                if origin not in target.comment.splitlines():
+                    target.comment = f"{target.comment}\n{origin}".strip()
+                if target.linenum is not None:
+                    updated_entries[target.linenum] = target
+                updated += 1
+                progress_updated += 1
+                batch_updated += 1
+            else:
+                batch_matched += 1
+        progress_results.append({
+            "module": audit["module"], "branch": audit["branch"],
+            "component": audit["component"], "batch": str(batch_path.relative_to(ROOT)),
+            "sha256": digest(batch_path), "entries_added": batch_added,
+            "entries_updated": batch_updated, "entries_already_matching": batch_matched,
+        })
     if added or updated:
         lines = baseline.splitlines(keepends=True)
         # Replace changed baseline entries in reverse order so original line
@@ -184,11 +235,13 @@ def main() -> None:
             "excluded_status_or_branch": len(all_reviews) - len(review_index),
         },
         "incremental_sources": progress_sources(),
+        "progress_import_results": progress_results,
         "added_singular_pairs": added, "updated_reviewed_pairs": updated,
         "plural_pairs_not_in_context_free_compendium": skipped_plural,
         "note": "Plural pairs remain in their reviewed PO archives. sv-gnome.po stores singular entries and available message contexts; TMX retains project provenance but does not store message context.",
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"added={added} updated={updated} plural_skipped={skipped_plural} sources={len(sources)}")
+    print(f"added={added} updated={updated} plural_skipped={skipped_plural} sources={len(sources)} "
+          f"progress_added={progress_added} progress_updated={progress_updated}")
 
 
 if __name__ == "__main__":
