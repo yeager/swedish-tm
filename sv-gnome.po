@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GNOME Swedish translation\n"
-"PO-Revision-Date: 2026-11-24 10:23+0100\n"
+"PO-Revision-Date: 2026-11-24 11:01+0100\n"
 "Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -306419,8 +306419,7 @@ msgstr "Ogiltiga argument, GUID förväntades"
 #. from gnome:reviewed/fwupd/main
 msgid "Invalid arguments, expected at least ARCHIVE FIRMWARE METAINFO"
 msgstr ""
-"Ogiltiga argument, förväntade åtminstone ARKIV FAST_PROGRAMVARA METAINFO"
-
+"Ogiltiga argument, förväntade åtminstone ARKIV FAST_PROGRAMVARA METADATA"
 #. from gnome:reviewed/fwupd/main
 msgid "Ignore firmware checksum failures"
 msgstr "Ignorera fel i kontrollsumman för fast programvara"
@@ -306586,8 +306585,7 @@ msgstr "Ta bort all historik för fast programvara"
 #. from gnome:reviewed/fwupd/main
 msgid "ARCHIVE FIRMWARE METAINFO [FIRMWARE] [METAINFO] [JCATFILE]"
 msgstr ""
-"ARKIV FAST_PROGRAMVARA METAINFO [FAST_PROGRAMVARA] [METAINFO] [JCAT-FIL]"
-
+"ARKIV FAST_PROGRAMVARA METADATA [FAST_PROGRAMVARA] [METADATA] [JCAT-FIL]"
 #. from gnome:reviewed/fwupd/main
 msgid "Build a cabinet archive from a firmware blob and XML metadata"
 msgstr "Bygg ett kabinettarkiv från en fast programvaru-blob och XML-metadata"
@@ -440499,8 +440497,7 @@ msgstr "Inga normala rutor"
 
 #. from gnome:reviewed/crosswords/main
 msgid "Settability Score (%.2f)"
-msgstr "Inställbarhetspoäng (%.2f)"
-
+msgstr "Konstruktionssvårighet (%.2f)"
 #. from gnome:reviewed/crosswords/main
 msgid ""
 "A <i>Pangram</i> is a puzzle that has all the letters in the alphabet in its"
@@ -485582,7 +485579,7 @@ msgstr ""
 "användas för att visa accesspunkter för ett visst gränssnitt eller med ett specifikt BSSID.\n"
 "Flaggan --rescan anger om en ny Wi-Fi-skanning ska startas.\n"
 "\n"
-"ARGUMENTS := connect <(B)SSID> [password <lösenord>] [wep-key-type key|phrase] [ifname <grnamn>]\n"
+"ARGUMENT := connect <(B)SSID> [password <lösenord>] [wep-key-type key|phrase] [ifname <grnamn>]\n"
 "                     [bssid <BSSID>] [name <namn>] [private yes|no] [hidden yes|no]\n"
 "\n"
 "Anslut till ett Wi-Fi-nätverk som anges av SSID eller BSSID. Kommandot hittar en\n"
@@ -485615,7 +485612,6 @@ msgstr ""
 "anges. Observera att detta kommando inte visar accesspunkterna,\n"
 "använd ”nmcli device wifi list” för det.\n"
 "\n"
-
 #. from gnome:reviewed/NetworkManager/main
 msgid ""
 "Usage: nmcli device lldp { ARGUMENTS | help }\n"
@@ -486098,15 +486094,14 @@ msgid ""
 "a hostname, NetworkManager will set it as the new persistent system hostname.\n"
 "\n"
 msgstr ""
-"Användning: nmcli general hostname { ARGUMENTS | help }\n"
+"Användning: nmcli general hostname { ARGUMENT | help }\n"
 "\n"
-"ARGUMENTS := [<värdnamn>]\n"
+"ARGUMENT := [<värdnamn>]\n"
 "\n"
 "Hämta eller ändra permanent systemvärdnamn.\n"
 "Om inga argument anges skrivs det aktuella konfigurerade värdnamnet ut. Om\n"
 "du anger ett värdnamn anger Nätverkshanteraren det som nytt permanent systemvärdnamn.\n"
 "\n"
-
 #. from gnome:reviewed/NetworkManager/main
 msgid ""
 "Usage: nmcli general permissions { help }\n"
@@ -486150,9 +486145,9 @@ msgid ""
 "With no flags, everything that is supported is reloaded, which is\n"
 "identical to sending a SIGHUP.\n"
 msgstr ""
-"Användning: nmcli general reload { ARGUMENTS | help }\n"
+"Användning: nmcli general reload { ARGUMENT | help }\n"
 "\n"
-"ARGUMENTS := [<flagga>[,<flagga>…]]\n"
+"ARGUMENT := [<flagga>[,<flagga>…]]\n"
 "\n"
 "Ladda om Nätverkshanterarens konfiguration och utför vissa uppdateringar, till\n"
 "exempel rensa cacheminnen eller skriva om externt tillstånd till disk. Detta\n"
@@ -486178,7 +486173,6 @@ msgstr ""
 "\n"
 "Utan flaggor laddas allt som stöds om; det motsvarar att skicka en\n"
 "SIGHUP.\n"
-
 #. from gnome:reviewed/NetworkManager/main
 msgid ""
 "Usage: nmcli general logging { ARGUMENTS | help }\n"
@@ -539113,3 +539107,658 @@ msgstr "Den första synkroniseringen pågår. Det kan ta några minuter."
 msgctxt "podcast noun"
 msgid "Show"
 msgstr "Podd"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Jonathan Blandford"
+msgstr "Jonathan Blandford"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Creates Crosswords, Cryptics, Barred, and Acrostic puzzles"
+msgstr ""
+"Skapar korsord i fyra varianter: vanliga och kryptiska, med stoppar eller "
+"som akrostikon"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Grid overlays for spell checking, unchecked cells, and dead cells"
+msgstr "Visa stavningskontroll, omarkerade och obrukbara rutor i rutnätet"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Puzzle preview and printing"
+msgstr "Förhandsgranskning och utskrift av korsord"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Creating an acrostic from a quote"
+msgstr "Skapa ett akrostikonkorsord utifrån ett citat"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Crosswords, Acrostics, Cryptics, and Barred puzzles"
+msgstr "Korsord, akrostikon, kryptiska korsord och korsord med stoppar"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Magnifier to give a zoomed view of the current cell"
+msgstr "Förstoringsglas som visar den aktuella rutan i större format"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Printing puzzles to solve on paper"
+msgstr "Skriv ut korsord och lös dem på papper"
+
+#. from gnome:reviewed/crosswords/main
+msgid "An adaptive layout, from large monitors to phone-sized screens"
+msgstr ""
+"En anpassningsbar layout för allt från stora skärmar till mobilskärmar"
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"Locally installed crosswords as well as support for third party downloaders"
+msgstr ""
+"Lokalt installerade korsord samt stöd för hämtningstjänster från tredje part"
+
+#. from gnome:reviewed/crosswords/main
+msgid "The welcome screen"
+msgstr "Välkomstskärmen"
+
+#. from gnome:reviewed/crosswords/main
+msgid "A crossword shown in dark mode"
+msgstr "Ett korsord i mörkt läge"
+
+#. from gnome:reviewed/crosswords/main
+msgid "The print preview of a crossword"
+msgstr "Förhandsgranskning av korsordsutskrift"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Custom Puzzles"
+msgstr "Anpassade korsord"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Load a crossword from disk"
+msgstr "Läs in ett korsord från disk"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Select a Puzzle to Play"
+msgstr "Välj ett korsord att lösa"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Added Files"
+msgstr "Tillagda filer"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Add new puzzles in .puz and .ipuz format from disk"
+msgstr "Lägg till nya korsord i formaten .puz och .ipuz från disk"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Add Puzzle File…"
+msgstr "Lägg till korsordsfil…"
+
+#. from gnome:reviewed/crosswords/main
+msgid "The quote and source cannot make an acrostic\n"
+msgstr "Citatet och dess källa kan inte bilda ett akrostikonkorsord\n"
+
+#. from gnome:reviewed/crosswords/main
+msgid "This is a %s puzzle, which isn't supported."
+msgstr "Korsord av typen %s stöds inte."
+
+#. from gnome:reviewed/crosswords/main
+msgid "Keep this answer for the puzzle"
+msgstr "Behåll det här svaret i korsordet"
+
+#. from gnome:reviewed/crosswords/main
+msgid "_Pin All"
+msgstr "_Fäst alla"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Pinned:"
+msgstr "Fästa svar:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Progress:"
+msgstr "Förlopp:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Remaining Letters:"
+msgstr "Återstående bokstäver:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Letters in the quote that are not yet used in an answer"
+msgstr "Bokstäver i citatet som ännu inte används i något svar"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Ready to write clues"
+msgstr "Klar att skriva ledtrådar"
+
+#. from gnome:reviewed/crosswords/main
+msgid "_Author / _Title"
+msgstr "_Upphovsperson / _Titel"
+
+#. from gnome:reviewed/crosswords/main
+msgid "The source is too long for this quote"
+msgstr "Källtexten är för lång för citatet"
+
+#. from gnome:reviewed/crosswords/main
+msgid "The source uses letters not in the quote"
+msgstr "Källtexten innehåller bokstäver som saknas i citatet"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Quote Length:"
+msgstr "Citatets längd:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Source Length:"
+msgstr "Källans längd:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Average Length:"
+msgstr "Genomsnittlig längd:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Settability:"
+msgstr "Konstruktionssvårighet:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Measure of how hard it is to find matching clues quote and source"
+msgstr ""
+"Mått på hur svårt det är att hitta ledtrådar som passar citatet och dess "
+"källa"
+
+#. from gnome:reviewed/crosswords/main
+msgid "%u letters"
+msgstr "%u bokstäver"
+
+#. from gnome:reviewed/crosswords/main
+msgid "%.1f letters per clue"
+msgstr "%.1f bokstäver per ledtråd"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Automatically Find Answers"
+msgstr "Hitta svar automatiskt"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Cursor Coordinate:"
+msgstr "Markörens koordinater:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Available Letters:"
+msgstr "Tillgängliga bokstäver:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Unfillable cell"
+msgstr "Ruta som inte går att fylla"
+
+#. from gnome:reviewed/crosswords/main
+msgid "_Auto Advance"
+msgstr "_Gå vidare automatiskt"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Move to the next empty clue after editing"
+msgstr "Gå till nästa obesvarade ledtråd efter redigering"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Acrostic Puzzle"
+msgstr "Akrostikonkorsord"
+
+#. from gnome:reviewed/crosswords/main
+msgid "_Puzzle Title"
+msgstr "_Korsordstitel"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Author / _Title"
+msgstr "Upphovsperson / _Titel"
+
+#. from gnome:reviewed/crosswords/main
+msgid "N/A:"
+msgstr "Saknas:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "This <b>Author / Title</b> is too long for the <b>Quote</b>"
+msgstr "Fältet <b>Upphovsperson / titel</b> är för långt för <b>citatet</b>"
+
+#. from gnome:reviewed/crosswords/main
+msgid "This <b>Author / Title</b> uses letters not found in the <b>Quote</b>"
+msgstr ""
+"Fältet <b>Upphovsperson / titel</b> innehåller bokstäver som saknas i "
+"<b>citatet</b>"
+
+#. from gnome:reviewed/crosswords/main
+msgid "How hard these templates are to fill"
+msgstr "Hur svåra de här mallarna är att fylla i"
+
+#. from gnome:reviewed/crosswords/main
+msgid "All Templates"
+msgstr "Alla mallar"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Very Easy"
+msgstr "Mycket lätt"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Completion:"
+msgstr "Ifyllnadsgrad:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Dimensions:"
+msgstr "Dimensioner:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Grid Composition:"
+msgstr "Rutnätets sammansättning:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Total number of letters used: %u"
+msgstr "Totalt antal använda bokstäver: %u"
+
+#. from gnome:reviewed/crosswords/main
+msgid "No answers"
+msgstr "Inga svar"
+
+#. from gnome:reviewed/crosswords/main
+msgid "No clues"
+msgstr "Inga ledtrådar"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Puzzle _Title"
+msgstr "Korsordets _titel"
+
+#. from gnome:reviewed/crosswords/main
+msgid "_Introduction"
+msgstr "_Introduktion"
+
+#. from gnome:reviewed/crosswords/main
+msgid "E_xplanation"
+msgstr "_Förklaring"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Language and Conventions"
+msgstr "Språk och konventioner"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Country associated with the puzzle"
+msgstr "Land som hör till korsordet"
+
+#. from gnome:reviewed/crosswords/main
+msgid "The set of valid characters that the puzzle allows."
+msgstr "De tecken som är tillåtna i korsordet."
+
+#. from gnome:reviewed/crosswords/main
+msgid "Credits and Publication"
+msgstr "Upphov och publicering"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Publication _Date"
+msgstr "_Publiceringsdatum"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Toggle Information Panel  Ctrl+F9"
+msgstr "Visa eller dölj informationspanelen  Ctrl+F9"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Redo  Ctrl+Shift+Z"
+msgstr "Gör om  Ctrl+Shift+Z"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Undo  Ctrl+Z"
+msgstr "Ångra  Ctrl+Z"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Misspelled _Answers"
+msgstr "_Felstavade svar"
+
+#. from gnome:reviewed/crosswords/main
+msgid "_Invalid Letters"
+msgstr "_Ogiltiga bokstäver"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Unfillable _Clues"
+msgstr "Ledtrådar som inte går att _fylla"
+
+#. from gnome:reviewed/crosswords/main
+msgid "_Available Letters"
+msgstr "_Tillgängliga bokstäver"
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"Couldn't open “%s”.\n"
+"%s"
+msgstr ""
+"Det gick inte att öppna ”%s”.\n"
+"%s"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Couldn't open “%s”."
+msgstr "Det gick inte att öppna ”%s”."
+
+#. from gnome:reviewed/crosswords/main
+msgid "Start Autofill Search, Then Step Through Results"
+msgstr "Starta sökningen efter möjliga svar och gå sedan igenom resultaten"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Step Backwards Through Autofill Results"
+msgstr "Gå bakåt bland sökresultaten"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Default (Latin Alphabet)"
+msgstr "Standard (latinskt alfabet)"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Downloaded Puzzles"
+msgstr "Hämtade korsord"
+
+#. from gnome:reviewed/crosswords/main
+msgid "If you clear this puzzle, all your progress will be lost"
+msgstr "Om du rensar det här korsordet går alla dina framsteg förlorade"
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"If you remove this puzzle, you won't be able to play it again and all your "
+"progress will be lost"
+msgstr ""
+"Om du tar bort det här korsordet kan du inte spela det igen och alla dina "
+"framsteg går förlorade"
+
+#. from gnome:reviewed/crosswords/main
+msgid "If you remove this puzzle, you won't be able to play it again"
+msgstr "Om du tar bort det här korsordet kan du inte spela det igen"
+
+#. from gnome:reviewed/crosswords/main
+msgid "No Matching Puzzle Sources"
+msgstr "Inga matchande korsordskällor"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Try selecting other languages or puzzle types"
+msgstr "Prova att välja andra språk eller korsordstyper"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Clear Languages"
+msgstr "Rensa språk"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Clear Puzzle Types"
+msgstr "Rensa korsordstyper"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Show Incorrect Guesses in the Cell"
+msgstr "Visa felaktiga gissningar i rutan"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Show Incorrect Guesses in the Clue"
+msgstr "Visa felaktiga gissningar i ledtråden"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Show Incorrect Guesses in the Puzzle"
+msgstr "Visa felaktiga gissningar i korsordet"
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"Fill the grid with answers. Press <b>Return</b> key to toggle the cursor "
+"direction between Across and Down. Move around with <b>arrows</b> and "
+"<b>Tab</b> / <b>Shift+Tab</b>."
+msgstr ""
+"Fyll rutnätet med svar. Tryck på tangenten <b>Retur</b> för att växla "
+"markörens riktning mellan vågrätt och lodrätt. Flytta runt med "
+"<b>piltangenterna</b> och <b>Tab</b> / <b>Shift+Tab</b>."
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"Use <b>Ctrl+H</b> for a hint or <b>Ctrl+E</b> to highlight errors. Your "
+"conscience decides how often to use them!"
+msgstr ""
+"Använd <b>Ctrl+H</b> för ett tips eller <b>Ctrl+E</b> för att markera fel. "
+"Ditt samvete avgör hur ofta du använder dem!"
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"Did you type the wrong letter? <b>Undo</b> or <b>Redo</b> with a click, or "
+"use <b>Ctrl+Z</b> and <b>Ctrl+Shift+Z</b>."
+msgstr ""
+"Skrev du fel bokstav? <b>Ångra</b> eller <b>Gör om</b> med ett klick, eller "
+"använd <b>Ctrl+Z</b> och <b>Ctrl+Shift+Z</b>."
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"<b><i>“Rebus”</i></b> puzzles are sneaky — some cells may need multiple "
+"letters. These puzzles do not warn you in advance, so you have to figure it "
+"out! Press <b>Alt+Return</b> to enter a <b>multi-letter</b> answer."
+msgstr ""
+"<b><i>Rebuskorsord</i></b> är kluriga — vissa rutor kan innehålla flera "
+"bokstäver. De här korsorden talar inte om det i förväg, så du får lista ut "
+"det själv! Tryck på <b>Alt+Return</b> för att ange ett svar med <b>flera "
+"bokstäver</b>."
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"Prefer the classic feel? You can <b>print</b> any crossword by pressing "
+"<b>Ctrl+P</b> to solve it with pencil and paper."
+msgstr ""
+"Föredrar du den klassiska känslan? Du kan <b>skriva ut</b> valfritt korsord "
+"genom att trycka på <b>Ctrl+P</b> och lösa det med penna och papper."
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"<b>Standard clues</b> are synonyms or definitions. <b>Cryptic clues</b> "
+"contain both a definition and some <i>“wordplay”</i>. If a clue feels like a"
+" riddle, it’s likely a Cryptic!"
+msgstr ""
+"<b>Vanliga ledtrådar</b> är synonymer eller definitioner. <b>Kryptiska "
+"ledtrådar</b> innehåller både en definition och någon form av <i>ordlek</i>."
+" Om en ledtråd känns som en gåta är den troligen kryptisk!"
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"You are running Crosswords without any additional puzzles. You may want to "
+"install more from Flathub:"
+msgstr ""
+"Du kör Crosswords utan extra korsord. Du kan installera fler från Flathub:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Reveal _Errors"
+msgstr "Visa _fel"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Whole _Puzzle"
+msgstr "_Hela korsordet"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Current C_lue"
+msgstr "Aktuell _ledtråd"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Current _Cell"
+msgstr "Aktuell _ruta"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Show a _Hint"
+msgstr "Visa ett _tips"
+
+#. from gnome:reviewed/crosswords/main
+msgid "How to Pla_y"
+msgstr "_Så spelar du"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Couldn't Add Puzzle"
+msgstr "Det gick inte att lägga till korsordet"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Couldn't detect the puzzle type for \"%s\""
+msgstr "Det gick inte att identifiera korsordstypen för ”%s”"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Toggle Direction  Ctrl+T"
+msgstr "Växla riktning  Ctrl+T"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Answer:"
+msgstr "Svar:"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Previous Clue"
+msgstr "Föregående ledtråd"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Next Clue"
+msgstr "Nästa ledtråd"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Downloaded file is not a valid crossword"
+msgstr "Den hämtade filen är inte ett giltigt korsord"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Unable to download a puzzle from \"%s\""
+msgstr "Det gick inte att hämta ett korsord från ”%s”"
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"An **Acrostic** is a quote-based word puzzle.\n"
+"\n"
+"Acrostics consists of two parts: a grid containing a **Quote**, and a list of clues with answers. Each cell in the grid has a label and corresponds to one of the cells in an answer. The puzzle can be solved by a combination of guessing words in the quote and solving the clues.\n"
+"\n"
+"# Quote\n"
+"The quote is hidden in the grid and its letters are what every answer is spelled from.\n"
+"\n"
+"# Author / Title\n"
+"The first letter of each answer will typically spell out the **Author** and/or **Title** of the work the quote came from. It can only use letters that appear in the quote itself."
+msgstr ""
+"Ett **akrostikonkorsord** är ett ordpussel som bygger på ett citat.\n"
+"\n"
+"Ett akrostikonkorsord består av två delar: ett rutnät med ett **citat** och en lista med ledtrådar och svar. Varje ruta i rutnätet har en beteckning och motsvarar en ruta i ett svar. Korsordet löses genom att gissa orden i citatet och lösa ledtrådarna.\n"
+"\n"
+"# Citat\n"
+"Citatet är dolt i rutnätet och dess bokstäver bildar underlaget för alla svar.\n"
+"\n"
+"# Upphovsperson / titel\n"
+"Första bokstaven i varje svar bildar vanligtvis **upphovspersonens** namn och/eller verkets **titel**. Svaren får bara innehålla bokstäver som förekommer i själva citatet."
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"A **Barred crossword** uses thick bars along the edges of cells to mark where words end. Every square in the grid holds a letter, and most belong to both an across and a down clue. Grids normally show quarter symmetry, though there are many variants.\n"
+"\n"
+"# Filling the Grid\n"
+"With no blocks to break up the grid, a barred crossword is more tightly constrained than other forms. Filling these puzzles often require obscure words. As a result, they are among the hardest puzzles to set — and to solve.\n"
+"\n"
+"# Clues and Preamble\n"
+"Barred puzzles usually take **Cryptic-style** clues, where each clue combines a definition with some wordplay leading to the same answer. They sometimes feature a **Preamble** setting out a rule the solver must apply, such as omitting a letter from every answer before entering it."
+msgstr ""
+"Ett **korsord med stoppar** har tjocka streck längs rutornas kanter som markerar var orden slutar. Varje ruta innehåller en bokstav, och de flesta ingår i både ett vågrätt och ett lodrätt svar. Rutnäten är vanligen kvartssymmetriska, men det finns många varianter.\n"
+"\n"
+"# Fyll i rutnätet\n"
+"Eftersom rutnätet saknar svarta rutor har korsord med stoppar fler begränsningar än andra typer. Det krävs ofta ovanliga ord för att fylla i rutorna. Därför hör de till de svåraste korsorden att konstruera — och lösa.\n"
+"\n"
+"# Ledtrådar och förtext\n"
+"I korsord med stoppar används vanligen **kryptiska** ledtrådar, där varje ledtråd kombinerar en definition och en ordlek som leder till samma svar. Ibland innehåller de en **förtext** med en regel som lösaren ska följa, till exempel att utelämna en bokstav i varje svar innan det skrivs in."
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"This section holds text fields visible to users. Every field here is\n"
+"optional. A few clarifications:\n"
+"\n"
+"# Introduction\n"
+"This is shown above the grid. It shows a message from the setter, or\n"
+"perhaps a little bit of context. It's generally short.\n"
+"\n"
+"# Notes\n"
+"A longer free-form field. Visually it appears just below the grid. This\n"
+"is where longer instructions are spelled out for a themed or variant\n"
+"puzzle.\n"
+"\n"
+"# Difficulty\n"
+"This is advisory and free-form. Suggested values are words like\n"
+"*\"Easy\"*, *\"Medium\"*, or *\"Difficult\"*.\n"
+"\n"
+"# Explanation\n"
+"A brief message presented to the user after they solve the puzzle. It is\n"
+"intended to give context on the solution."
+msgstr ""
+"Det här avsnittet innehåller textfält som visas för användarna. Alla fält är\n"
+"valfria. Här följer några förtydliganden:\n"
+"\n"
+"# Introduktion\n"
+"Visas ovanför rutnätet. Här visas ett meddelande från konstruktören eller\n"
+"lite bakgrundsinformation. Texten är vanligtvis kort.\n"
+"\n"
+"# Anteckningar\n"
+"Ett längre fritextfält. Det visas direkt under rutnätet. Här anges\n"
+"längre instruktioner för ett temakorsord eller en variant av ett\n"
+"korsord.\n"
+"\n"
+"# Svårighetsgrad\n"
+"Detta är vägledande fritext. Exempel på värden är\n"
+"*”Lätt”*, *”Medel”* eller *”Svår”*.\n"
+"\n"
+"# Förklaring\n"
+"Ett kort meddelande som visas för användaren efter att korsordet är\n"
+"löst. Det ger bakgrund till lösningen."
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"These settings describe the conventions a solver should expect.\n"
+"\n"
+"# Show Enumerations\n"
+"**Enumerations** are a hint about the length of the answer after the\n"
+"clue, such as *(3,4)* for a two-word answer. They are common in\n"
+"British-style and Cryptic puzzles.\n"
+"\n"
+"# Country and Language\n"
+"These fields records the **country** the puzzle is associated\n"
+"with and the **language** it is written in. Together, they determine\n"
+"the alphabet for the puzzle, and valid letters to be entered in the\n"
+"grid."
+msgstr ""
+"De här inställningarna beskriver vilka konventioner lösaren kan förvänta sig.\n"
+"\n"
+"# Visa längdangivelser\n"
+"**Längdangivelser** ger en ledtråd om svarets längd efter\n"
+"ledtråden, till exempel *(3,4)* för ett svar med två ord. De är vanliga i\n"
+"brittiska och kryptiska korsord.\n"
+"\n"
+"# Land och språk\n"
+"Dessa fält anger vilket **land** korsordet hör till\n"
+"och vilket **språk** det är skrivet på. Tillsammans avgör de\n"
+"vilket alfabet som används i korsordet och vilka bokstäver som får\n"
+"fyllas i rutnätet."
+
+#. from gnome:reviewed/crosswords/main
+msgid ""
+"This section records who made the puzzle and where it appeared.\n"
+"Every field here is optional.\n"
+"\n"
+"# Credits\n"
+"**Author** is whoever created the puzzle and **Editor** whoever\n"
+"edited it for publication. **Copyright** is a short notice, such\n"
+"as *\"© 2026 Example, Inc\"*.\n"
+"\n"
+"# Publication\n"
+"**Publisher** names who published the puzzle, while\n"
+"**Publication** is a fuller bibliographic reference to where it\n"
+"appeared. **Date** is the date of publication. **Puzzle URL**\n"
+"should be a permanent link."
+msgstr ""
+"Det här avsnittet anger vem som har skapat korsordet och var det har publicerats.\n"
+"Alla fält är valfria.\n"
+"\n"
+"# Upphovsuppgifter\n"
+"**Upphovspersonen** är den som har skapat korsordet och **redaktören** den som\n"
+"har redigerat det inför publicering. **Upphovsrättsnotisen** är en kort text,\n"
+"till exempel *”© 2026 Exempel AB”*.\n"
+"\n"
+"# Publicering\n"
+"**Utgivaren** anger vem som har publicerat korsordet, medan\n"
+"**publikationsuppgiften** är en fullständig bibliografisk referens till var\n"
+"det publicerades. **Datum** är publiceringsdatumet. **Korsordets URL**\n"
+"ska vara en permanent länk."
+
+#. from gnome:reviewed/crosswords/main
+msgid "Acrostics"
+msgstr "Akrostikoner"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Arrowwords"
+msgstr "Pilord"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Barred Crosswords"
+msgstr "Korsord med stoppar"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Vocab"
+msgstr "Ordförråd"
+
+#. from gnome:reviewed/crosswords/main
+msgid "Smaller"
+msgstr "Mindre"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261124T092344Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261124T100112Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -386170,7 +386170,7 @@ Vid %s</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/fwupd/main</prop>
       <tuv xml:lang="en"><seg>Invalid arguments, expected at least ARCHIVE FIRMWARE METAINFO</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ogiltiga argument, förväntade åtminstone ARKIV FAST_PROGRAMVARA METAINFO</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ogiltiga argument, förväntade åtminstone ARKIV FAST_PROGRAMVARA METADATA</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/fwupd/main</prop>
@@ -386375,7 +386375,7 @@ Vid %s</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/fwupd/main</prop>
       <tuv xml:lang="en"><seg>ARCHIVE FIRMWARE METAINFO [FIRMWARE] [METAINFO] [JCATFILE]</seg></tuv>
-      <tuv xml:lang="sv"><seg>ARKIV FAST_PROGRAMVARA METAINFO [FAST_PROGRAMVARA] [METAINFO] [JCAT-FIL]</seg></tuv>
+      <tuv xml:lang="sv"><seg>ARKIV FAST_PROGRAMVARA METADATA [FAST_PROGRAMVARA] [METADATA] [JCAT-FIL]</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/fwupd/main</prop>
@@ -491698,7 +491698,7 @@ passande för riktningsändringstester och RSA)</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/crosswords/main</prop>
       <tuv xml:lang="en"><seg>Settability Score (%.2f)</seg></tuv>
-      <tuv xml:lang="sv"><seg>Inställbarhetspoäng (%.2f)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Konstruktionssvårighet (%.2f)</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/crosswords/main</prop>
@@ -538281,7 +538281,7 @@ Visa tillgängliga Wi-Fi-accesspunkter. Alternativen ”ifname” och ”bssid�
 användas för att visa accesspunkter för ett visst gränssnitt eller med ett specifikt BSSID.
 Flaggan --rescan anger om en ny Wi-Fi-skanning ska startas.
 
-ARGUMENTS := connect &lt;(B)SSID&gt; [password &lt;lösenord&gt;] [wep-key-type key|phrase] [ifname &lt;grnamn&gt;]
+ARGUMENT := connect &lt;(B)SSID&gt; [password &lt;lösenord&gt;] [wep-key-type key|phrase] [ifname &lt;grnamn&gt;]
                      [bssid &lt;BSSID&gt;] [name &lt;namn&gt;] [private yes|no] [hidden yes|no]
 
 Anslut till ett Wi-Fi-nätverk som anges av SSID eller BSSID. Kommandot hittar en
@@ -538908,9 +538908,9 @@ With no arguments, this prints currently configured hostname. When you pass
 a hostname, NetworkManager will set it as the new persistent system hostname.
 
 </seg></tuv>
-      <tuv xml:lang="sv"><seg>Användning: nmcli general hostname { ARGUMENTS | help }
+      <tuv xml:lang="sv"><seg>Användning: nmcli general hostname { ARGUMENT | help }
 
-ARGUMENTS := [&lt;värdnamn&gt;]
+ARGUMENT := [&lt;värdnamn&gt;]
 
 Hämta eller ändra permanent systemvärdnamn.
 Om inga argument anges skrivs det aktuella konfigurerade värdnamnet ut. Om
@@ -538962,9 +538962,9 @@ Available flags are:
 With no flags, everything that is supported is reloaded, which is
 identical to sending a SIGHUP.
 </seg></tuv>
-      <tuv xml:lang="sv"><seg>Användning: nmcli general reload { ARGUMENTS | help }
+      <tuv xml:lang="sv"><seg>Användning: nmcli general reload { ARGUMENT | help }
 
-ARGUMENTS := [&lt;flagga&gt;[,&lt;flagga&gt;…]]
+ARGUMENT := [&lt;flagga&gt;[,&lt;flagga&gt;…]]
 
 Ladda om Nätverkshanterarens konfiguration och utför vissa uppdateringar, till
 exempel rensa cacheminnen eller skriva om externt tillstånd till disk. Detta
@@ -587497,6 +587497,725 @@ Försök igen senare / bekräfta att du är ansluten till internet.</seg></tuv>
       <prop type="project">gnome:podcasts/main/po (noun: podcast show)</prop>
       <tuv xml:lang="en"><seg>Show</seg></tuv>
       <tuv xml:lang="sv"><seg>Podd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Jonathan Blandford</seg></tuv>
+      <tuv xml:lang="sv"><seg>Jonathan Blandford</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Creates Crosswords, Cryptics, Barred, and Acrostic puzzles</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skapar korsord i fyra varianter: vanliga och kryptiska, med stoppar eller som akrostikon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Grid overlays for spell checking, unchecked cells, and dead cells</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visa stavningskontroll, omarkerade och obrukbara rutor i rutnätet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Puzzle preview and printing</seg></tuv>
+      <tuv xml:lang="sv"><seg>Förhandsgranskning och utskrift av korsord</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Creating an acrostic from a quote</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skapa ett akrostikonkorsord utifrån ett citat</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Crosswords, Acrostics, Cryptics, and Barred puzzles</seg></tuv>
+      <tuv xml:lang="sv"><seg>Korsord, akrostikon, kryptiska korsord och korsord med stoppar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Magnifier to give a zoomed view of the current cell</seg></tuv>
+      <tuv xml:lang="sv"><seg>Förstoringsglas som visar den aktuella rutan i större format</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Printing puzzles to solve on paper</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skriv ut korsord och lös dem på papper</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>An adaptive layout, from large monitors to phone-sized screens</seg></tuv>
+      <tuv xml:lang="sv"><seg>En anpassningsbar layout för allt från stora skärmar till mobilskärmar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Locally installed crosswords as well as support for third party downloaders</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lokalt installerade korsord samt stöd för hämtningstjänster från tredje part</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>The welcome screen</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välkomstskärmen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>A crossword shown in dark mode</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett korsord i mörkt läge</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>The print preview of a crossword</seg></tuv>
+      <tuv xml:lang="sv"><seg>Förhandsgranskning av korsordsutskrift</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Custom Puzzles</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anpassade korsord</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Load a crossword from disk</seg></tuv>
+      <tuv xml:lang="sv"><seg>Läs in ett korsord från disk</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Select a Puzzle to Play</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj ett korsord att lösa</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Added Files</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillagda filer</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Add new puzzles in .puz and .ipuz format from disk</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lägg till nya korsord i formaten .puz och .ipuz från disk</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Add Puzzle File…</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lägg till korsordsfil…</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>The quote and source cannot make an acrostic
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>Citatet och dess källa kan inte bilda ett akrostikonkorsord
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>This is a %s puzzle, which isn't supported.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Korsord av typen %s stöds inte.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Keep this answer for the puzzle</seg></tuv>
+      <tuv xml:lang="sv"><seg>Behåll det här svaret i korsordet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>_Pin All</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Fäst alla</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Pinned:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fästa svar:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Progress:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Förlopp:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Remaining Letters:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Återstående bokstäver:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Letters in the quote that are not yet used in an answer</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bokstäver i citatet som ännu inte används i något svar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Ready to write clues</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klar att skriva ledtrådar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>_Author / _Title</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Upphovsperson / _Titel</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>The source is too long for this quote</seg></tuv>
+      <tuv xml:lang="sv"><seg>Källtexten är för lång för citatet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>The source uses letters not in the quote</seg></tuv>
+      <tuv xml:lang="sv"><seg>Källtexten innehåller bokstäver som saknas i citatet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Quote Length:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Citatets längd:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Source Length:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Källans längd:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Average Length:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Genomsnittlig längd:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Settability:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Konstruktionssvårighet:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Measure of how hard it is to find matching clues quote and source</seg></tuv>
+      <tuv xml:lang="sv"><seg>Mått på hur svårt det är att hitta ledtrådar som passar citatet och dess källa</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>%u letters</seg></tuv>
+      <tuv xml:lang="sv"><seg>%u bokstäver</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>%.1f letters per clue</seg></tuv>
+      <tuv xml:lang="sv"><seg>%.1f bokstäver per ledtråd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Automatically Find Answers</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hitta svar automatiskt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Cursor Coordinate:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markörens koordinater:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Available Letters:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillgängliga bokstäver:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Unfillable cell</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ruta som inte går att fylla</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>_Auto Advance</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Gå vidare automatiskt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Move to the next empty clue after editing</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gå till nästa obesvarade ledtråd efter redigering</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Acrostic Puzzle</seg></tuv>
+      <tuv xml:lang="sv"><seg>Akrostikonkorsord</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>_Puzzle Title</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Korsordstitel</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Author / _Title</seg></tuv>
+      <tuv xml:lang="sv"><seg>Upphovsperson / _Titel</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>N/A:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Saknas:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>This &lt;b&gt;Author / Title&lt;/b&gt; is too long for the &lt;b&gt;Quote&lt;/b&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fältet &lt;b&gt;Upphovsperson / titel&lt;/b&gt; är för långt för &lt;b&gt;citatet&lt;/b&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>This &lt;b&gt;Author / Title&lt;/b&gt; uses letters not found in the &lt;b&gt;Quote&lt;/b&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fältet &lt;b&gt;Upphovsperson / titel&lt;/b&gt; innehåller bokstäver som saknas i &lt;b&gt;citatet&lt;/b&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>How hard these templates are to fill</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hur svåra de här mallarna är att fylla i</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>All Templates</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alla mallar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Very Easy</seg></tuv>
+      <tuv xml:lang="sv"><seg>Mycket lätt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Completion:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ifyllnadsgrad:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Dimensions:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dimensioner:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Grid Composition:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Rutnätets sammansättning:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Total number of letters used: %u</seg></tuv>
+      <tuv xml:lang="sv"><seg>Totalt antal använda bokstäver: %u</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>No answers</seg></tuv>
+      <tuv xml:lang="sv"><seg>Inga svar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>No clues</seg></tuv>
+      <tuv xml:lang="sv"><seg>Inga ledtrådar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Puzzle _Title</seg></tuv>
+      <tuv xml:lang="sv"><seg>Korsordets _titel</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>_Introduction</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Introduktion</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>E_xplanation</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Förklaring</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Language and Conventions</seg></tuv>
+      <tuv xml:lang="sv"><seg>Språk och konventioner</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Country associated with the puzzle</seg></tuv>
+      <tuv xml:lang="sv"><seg>Land som hör till korsordet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>The set of valid characters that the puzzle allows.</seg></tuv>
+      <tuv xml:lang="sv"><seg>De tecken som är tillåtna i korsordet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Credits and Publication</seg></tuv>
+      <tuv xml:lang="sv"><seg>Upphov och publicering</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Publication _Date</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Publiceringsdatum</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Toggle Information Panel  Ctrl+F9</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visa eller dölj informationspanelen  Ctrl+F9</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Redo  Ctrl+Shift+Z</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gör om  Ctrl+Shift+Z</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Undo  Ctrl+Z</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ångra  Ctrl+Z</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Misspelled _Answers</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Felstavade svar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>_Invalid Letters</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Ogiltiga bokstäver</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Unfillable _Clues</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ledtrådar som inte går att _fylla</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>_Available Letters</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Tillgängliga bokstäver</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Couldn't open “%s”.
+%s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att öppna ”%s”.
+%s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Couldn't open “%s”.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att öppna ”%s”.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Start Autofill Search, Then Step Through Results</seg></tuv>
+      <tuv xml:lang="sv"><seg>Starta sökningen efter möjliga svar och gå sedan igenom resultaten</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Step Backwards Through Autofill Results</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gå bakåt bland sökresultaten</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Default (Latin Alphabet)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Standard (latinskt alfabet)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Downloaded Puzzles</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hämtade korsord</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>If you clear this puzzle, all your progress will be lost</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du rensar det här korsordet går alla dina framsteg förlorade</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>If you remove this puzzle, you won't be able to play it again and all your progress will be lost</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du tar bort det här korsordet kan du inte spela det igen och alla dina framsteg går förlorade</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>If you remove this puzzle, you won't be able to play it again</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du tar bort det här korsordet kan du inte spela det igen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>No Matching Puzzle Sources</seg></tuv>
+      <tuv xml:lang="sv"><seg>Inga matchande korsordskällor</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Try selecting other languages or puzzle types</seg></tuv>
+      <tuv xml:lang="sv"><seg>Prova att välja andra språk eller korsordstyper</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Clear Languages</seg></tuv>
+      <tuv xml:lang="sv"><seg>Rensa språk</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Clear Puzzle Types</seg></tuv>
+      <tuv xml:lang="sv"><seg>Rensa korsordstyper</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Show Incorrect Guesses in the Cell</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visa felaktiga gissningar i rutan</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Show Incorrect Guesses in the Clue</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visa felaktiga gissningar i ledtråden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Show Incorrect Guesses in the Puzzle</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visa felaktiga gissningar i korsordet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Fill the grid with answers. Press &lt;b&gt;Return&lt;/b&gt; key to toggle the cursor direction between Across and Down. Move around with &lt;b&gt;arrows&lt;/b&gt; and &lt;b&gt;Tab&lt;/b&gt; / &lt;b&gt;Shift+Tab&lt;/b&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fyll rutnätet med svar. Tryck på tangenten &lt;b&gt;Retur&lt;/b&gt; för att växla markörens riktning mellan vågrätt och lodrätt. Flytta runt med &lt;b&gt;piltangenterna&lt;/b&gt; och &lt;b&gt;Tab&lt;/b&gt; / &lt;b&gt;Shift+Tab&lt;/b&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Use &lt;b&gt;Ctrl+H&lt;/b&gt; for a hint or &lt;b&gt;Ctrl+E&lt;/b&gt; to highlight errors. Your conscience decides how often to use them!</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd &lt;b&gt;Ctrl+H&lt;/b&gt; för ett tips eller &lt;b&gt;Ctrl+E&lt;/b&gt; för att markera fel. Ditt samvete avgör hur ofta du använder dem!</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Did you type the wrong letter? &lt;b&gt;Undo&lt;/b&gt; or &lt;b&gt;Redo&lt;/b&gt; with a click, or use &lt;b&gt;Ctrl+Z&lt;/b&gt; and &lt;b&gt;Ctrl+Shift+Z&lt;/b&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skrev du fel bokstav? &lt;b&gt;Ångra&lt;/b&gt; eller &lt;b&gt;Gör om&lt;/b&gt; med ett klick, eller använd &lt;b&gt;Ctrl+Z&lt;/b&gt; och &lt;b&gt;Ctrl+Shift+Z&lt;/b&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>&lt;b&gt;&lt;i&gt;“Rebus”&lt;/i&gt;&lt;/b&gt; puzzles are sneaky — some cells may need multiple letters. These puzzles do not warn you in advance, so you have to figure it out! Press &lt;b&gt;Alt+Return&lt;/b&gt; to enter a &lt;b&gt;multi-letter&lt;/b&gt; answer.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;b&gt;&lt;i&gt;Rebuskorsord&lt;/i&gt;&lt;/b&gt; är kluriga — vissa rutor kan innehålla flera bokstäver. De här korsorden talar inte om det i förväg, så du får lista ut det själv! Tryck på &lt;b&gt;Alt+Return&lt;/b&gt; för att ange ett svar med &lt;b&gt;flera bokstäver&lt;/b&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Prefer the classic feel? You can &lt;b&gt;print&lt;/b&gt; any crossword by pressing &lt;b&gt;Ctrl+P&lt;/b&gt; to solve it with pencil and paper.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Föredrar du den klassiska känslan? Du kan &lt;b&gt;skriva ut&lt;/b&gt; valfritt korsord genom att trycka på &lt;b&gt;Ctrl+P&lt;/b&gt; och lösa det med penna och papper.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>&lt;b&gt;Standard clues&lt;/b&gt; are synonyms or definitions. &lt;b&gt;Cryptic clues&lt;/b&gt; contain both a definition and some &lt;i&gt;“wordplay”&lt;/i&gt;. If a clue feels like a riddle, it’s likely a Cryptic!</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;b&gt;Vanliga ledtrådar&lt;/b&gt; är synonymer eller definitioner. &lt;b&gt;Kryptiska ledtrådar&lt;/b&gt; innehåller både en definition och någon form av &lt;i&gt;ordlek&lt;/i&gt;. Om en ledtråd känns som en gåta är den troligen kryptisk!</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>You are running Crosswords without any additional puzzles. You may want to install more from Flathub:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kör Crosswords utan extra korsord. Du kan installera fler från Flathub:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Reveal _Errors</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visa _fel</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Whole _Puzzle</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Hela korsordet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Current C_lue</seg></tuv>
+      <tuv xml:lang="sv"><seg>Aktuell _ledtråd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Current _Cell</seg></tuv>
+      <tuv xml:lang="sv"><seg>Aktuell _ruta</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Show a _Hint</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visa ett _tips</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>How to Pla_y</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Så spelar du</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Couldn't Add Puzzle</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att lägga till korsordet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Couldn't detect the puzzle type for "%s"</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att identifiera korsordstypen för ”%s”</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Toggle Direction  Ctrl+T</seg></tuv>
+      <tuv xml:lang="sv"><seg>Växla riktning  Ctrl+T</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Answer:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Svar:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Previous Clue</seg></tuv>
+      <tuv xml:lang="sv"><seg>Föregående ledtråd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Next Clue</seg></tuv>
+      <tuv xml:lang="sv"><seg>Nästa ledtråd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Downloaded file is not a valid crossword</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den hämtade filen är inte ett giltigt korsord</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Unable to download a puzzle from "%s"</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta ett korsord från ”%s”</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>An **Acrostic** is a quote-based word puzzle.
+
+Acrostics consists of two parts: a grid containing a **Quote**, and a list of clues with answers. Each cell in the grid has a label and corresponds to one of the cells in an answer. The puzzle can be solved by a combination of guessing words in the quote and solving the clues.
+
+# Quote
+The quote is hidden in the grid and its letters are what every answer is spelled from.
+
+# Author / Title
+The first letter of each answer will typically spell out the **Author** and/or **Title** of the work the quote came from. It can only use letters that appear in the quote itself.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett **akrostikonkorsord** är ett ordpussel som bygger på ett citat.
+
+Ett akrostikonkorsord består av två delar: ett rutnät med ett **citat** och en lista med ledtrådar och svar. Varje ruta i rutnätet har en beteckning och motsvarar en ruta i ett svar. Korsordet löses genom att gissa orden i citatet och lösa ledtrådarna.
+
+# Citat
+Citatet är dolt i rutnätet och dess bokstäver bildar underlaget för alla svar.
+
+# Upphovsperson / titel
+Första bokstaven i varje svar bildar vanligtvis **upphovspersonens** namn och/eller verkets **titel**. Svaren får bara innehålla bokstäver som förekommer i själva citatet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>A **Barred crossword** uses thick bars along the edges of cells to mark where words end. Every square in the grid holds a letter, and most belong to both an across and a down clue. Grids normally show quarter symmetry, though there are many variants.
+
+# Filling the Grid
+With no blocks to break up the grid, a barred crossword is more tightly constrained than other forms. Filling these puzzles often require obscure words. As a result, they are among the hardest puzzles to set — and to solve.
+
+# Clues and Preamble
+Barred puzzles usually take **Cryptic-style** clues, where each clue combines a definition with some wordplay leading to the same answer. They sometimes feature a **Preamble** setting out a rule the solver must apply, such as omitting a letter from every answer before entering it.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett **korsord med stoppar** har tjocka streck längs rutornas kanter som markerar var orden slutar. Varje ruta innehåller en bokstav, och de flesta ingår i både ett vågrätt och ett lodrätt svar. Rutnäten är vanligen kvartssymmetriska, men det finns många varianter.
+
+# Fyll i rutnätet
+Eftersom rutnätet saknar svarta rutor har korsord med stoppar fler begränsningar än andra typer. Det krävs ofta ovanliga ord för att fylla i rutorna. Därför hör de till de svåraste korsorden att konstruera — och lösa.
+
+# Ledtrådar och förtext
+I korsord med stoppar används vanligen **kryptiska** ledtrådar, där varje ledtråd kombinerar en definition och en ordlek som leder till samma svar. Ibland innehåller de en **förtext** med en regel som lösaren ska följa, till exempel att utelämna en bokstav i varje svar innan det skrivs in.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>This section holds text fields visible to users. Every field here is
+optional. A few clarifications:
+
+# Introduction
+This is shown above the grid. It shows a message from the setter, or
+perhaps a little bit of context. It's generally short.
+
+# Notes
+A longer free-form field. Visually it appears just below the grid. This
+is where longer instructions are spelled out for a themed or variant
+puzzle.
+
+# Difficulty
+This is advisory and free-form. Suggested values are words like
+*"Easy"*, *"Medium"*, or *"Difficult"*.
+
+# Explanation
+A brief message presented to the user after they solve the puzzle. It is
+intended to give context on the solution.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det här avsnittet innehåller textfält som visas för användarna. Alla fält är
+valfria. Här följer några förtydliganden:
+
+# Introduktion
+Visas ovanför rutnätet. Här visas ett meddelande från konstruktören eller
+lite bakgrundsinformation. Texten är vanligtvis kort.
+
+# Anteckningar
+Ett längre fritextfält. Det visas direkt under rutnätet. Här anges
+längre instruktioner för ett temakorsord eller en variant av ett
+korsord.
+
+# Svårighetsgrad
+Detta är vägledande fritext. Exempel på värden är
+*”Lätt”*, *”Medel”* eller *”Svår”*.
+
+# Förklaring
+Ett kort meddelande som visas för användaren efter att korsordet är
+löst. Det ger bakgrund till lösningen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>These settings describe the conventions a solver should expect.
+
+# Show Enumerations
+**Enumerations** are a hint about the length of the answer after the
+clue, such as *(3,4)* for a two-word answer. They are common in
+British-style and Cryptic puzzles.
+
+# Country and Language
+These fields records the **country** the puzzle is associated
+with and the **language** it is written in. Together, they determine
+the alphabet for the puzzle, and valid letters to be entered in the
+grid.</seg></tuv>
+      <tuv xml:lang="sv"><seg>De här inställningarna beskriver vilka konventioner lösaren kan förvänta sig.
+
+# Visa längdangivelser
+**Längdangivelser** ger en ledtråd om svarets längd efter
+ledtråden, till exempel *(3,4)* för ett svar med två ord. De är vanliga i
+brittiska och kryptiska korsord.
+
+# Land och språk
+Dessa fält anger vilket **land** korsordet hör till
+och vilket **språk** det är skrivet på. Tillsammans avgör de
+vilket alfabet som används i korsordet och vilka bokstäver som får
+fyllas i rutnätet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>This section records who made the puzzle and where it appeared.
+Every field here is optional.
+
+# Credits
+**Author** is whoever created the puzzle and **Editor** whoever
+edited it for publication. **Copyright** is a short notice, such
+as *"© 2026 Example, Inc"*.
+
+# Publication
+**Publisher** names who published the puzzle, while
+**Publication** is a fuller bibliographic reference to where it
+appeared. **Date** is the date of publication. **Puzzle URL**
+should be a permanent link.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det här avsnittet anger vem som har skapat korsordet och var det har publicerats.
+Alla fält är valfria.
+
+# Upphovsuppgifter
+**Upphovspersonen** är den som har skapat korsordet och **redaktören** den som
+har redigerat det inför publicering. **Upphovsrättsnotisen** är en kort text,
+till exempel *”© 2026 Exempel AB”*.
+
+# Publicering
+**Utgivaren** anger vem som har publicerat korsordet, medan
+**publikationsuppgiften** är en fullständig bibliografisk referens till var
+det publicerades. **Datum** är publiceringsdatumet. **Korsordets URL**
+ska vara en permanent länk.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Acrostics</seg></tuv>
+      <tuv xml:lang="sv"><seg>Akrostikoner</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Arrowwords</seg></tuv>
+      <tuv xml:lang="sv"><seg>Pilord</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Barred Crosswords</seg></tuv>
+      <tuv xml:lang="sv"><seg>Korsord med stoppar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Vocab</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ordförråd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/crosswords/main</prop>
+      <tuv xml:lang="en"><seg>Smaller</seg></tuv>
+      <tuv xml:lang="sv"><seg>Mindre</seg></tuv>
     </tu>
   </body>
 </tmx>
