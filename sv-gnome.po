@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 114680
+# Entries: 114695
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40672,7 +40672,7 @@ msgstr "Antal kanaler"
 
 #. from gnome:xbuf-master.sv
 msgid "The number of samples per pixel"
-msgstr "Antalet samplingar per bildpunkt"
+msgstr "Antalet värden per bildpunkt"
 
 #. from gnome:xbuf-master.sv
 msgid "Colorspace"
@@ -40680,15 +40680,15 @@ msgstr "Färgrymd"
 
 #. from gnome:xbuf-master.sv
 msgid "The colorspace in which the samples are interpreted"
-msgstr "Färgrymden i vilken samplingarna tolkas"
+msgstr "Färgrymden som värdena tolkas i"
 
 #. from gnome:xbuf-master.sv
 msgid "Has Alpha"
-msgstr "Har alfa"
+msgstr "Har alfakanal"
 
 #. from gnome:xbuf-master.sv
 msgid "Whether the pixbuf has an alpha channel"
-msgstr "Huruvida pixbufen har en alfakanal"
+msgstr "Om pixbufen har en alfakanal"
 
 #. from gnome:xbuf-master.sv
 msgid "Bits per Sample"
@@ -40696,7 +40696,7 @@ msgstr "Bitar per sampling"
 
 #. from gnome:xbuf-master.sv
 msgid "The number of bits per sample"
-msgstr "Antalet bitar per sampling"
+msgstr "Antalet bitar per värde"
 
 #. from gnome:xbuf-master.sv
 msgid "The number of columns of the pixbuf"
@@ -40708,11 +40708,11 @@ msgstr "Antalet rader i pixbufen"
 
 #. from gnome:xbuf-master.sv
 msgid "Rowstride"
-msgstr "Radlängd"
+msgstr "Radsteg"
 
 #. from gnome:xbuf-master.sv
 msgid "The number of bytes between the start of a row and the start of the next row"
-msgstr "Antal byte mellan början på en rad och början på nästa rad"
+msgstr "Antal byte mellan början av en rad och början av nästa rad"
 
 #. from gnome:xbuf-master.sv
 msgid "Pixels"
@@ -40720,15 +40720,15 @@ msgstr "Bildpunkter"
 
 #. from gnome:xbuf-master.sv
 msgid "A pointer to the pixel data of the pixbuf"
-msgstr "En pekare till pixbufens bildpunktsdata"
+msgstr "En pekare till pixbufens bilddata"
 
 #. from gnome:xbuf-master.sv
 msgid "Pixel Bytes"
-msgstr "Bildpunktsbyte"
+msgstr "Bildpunktsdata i byte"
 
 #. from gnome:xbuf-master.sv
 msgid "Readonly pixel data"
-msgstr "Skrivskyddade bildpunktsdata"
+msgstr "Skrivskyddade bilddata"
 
 #. from gnome:xbuf-master.sv
 msgid "Unable to load image-loading module: %s: %s"
@@ -40764,7 +40764,7 @@ msgstr "Detta bygge av gdk-pixbuf stöder inte sparande av bildformatet: %s"
 
 #. from gnome:xbuf-master.sv
 msgid "Insufficient memory to save image to callback"
-msgstr "För lite minne för att spara bild till återuppringning"
+msgstr "För lite minne för att spara bilden via återanropsfunktionen"
 
 #. from gnome:xbuf-master.sv
 msgid "Failed to open temporary file"
@@ -40800,15 +40800,15 @@ msgstr "Inkrementell inläsning av bildtypen ”%s” stöds inte"
 
 #. from gnome:xbuf-master.sv
 msgid "Loop"
-msgstr "Slinga"
+msgstr "Börja om"
 
 #. from gnome:xbuf-master.sv
 msgid "Whether the animation should loop when it reaches the end"
-msgstr "Huruvida animationen ska börja om då den når slutet"
+msgstr "Om animeringen ska börja om när den når slutet"
 
 #. from gnome:xbuf-master.sv
 msgid "Image header corrupt"
-msgstr "Bildhuvudet är trasigt"
+msgstr "Bildens filhuvud är skadat"
 
 #. from gnome:xbuf-master.sv
 msgid "Image format unknown"
@@ -40816,23 +40816,23 @@ msgstr "Bildformatet är okänt"
 
 #. from gnome:xbuf-master.sv
 msgid "Image pixel data corrupt"
-msgstr "Bildpunktsdata är trasigt"
+msgstr "Bildens bildpunktsdata är skadade"
 
 #. from gnome:xbuf-master.sv
 msgid "Unexpected icon chunk in animation"
-msgstr "Oväntat ikonstycke i animation"
+msgstr "Oväntat ikonblock i animeringen"
 
 #. from gnome:xbuf-master.sv
 msgid "Invalid header in animation"
-msgstr "Ogiltigt huvud i animation"
+msgstr "Ogiltigt filhuvud i animeringen"
 
 #. from gnome:xbuf-master.sv
 msgid "Not enough memory to load animation"
-msgstr "För lite minne för att läsa in animation"
+msgstr "För lite minne för att läsa in animeringen"
 
 #. from gnome:xbuf-master.sv
 msgid "Malformed chunk in animation"
-msgstr "Felaktigt stycke i animation"
+msgstr "Felaktigt block i animeringen"
 
 #. from gnome:xbuf-master.sv
 msgid "ANI image was truncated or incomplete."
@@ -40844,7 +40844,7 @@ msgstr "Animerad Windows-muspekare"
 
 #. from gnome:xbuf-master.sv
 msgid "BMP image has bogus header data"
-msgstr "BMP-bilden har felaktig huvuddata"
+msgstr "BMP-bilden har ogiltiga data i filhuvudet"
 
 #. from gnome:xbuf-master.sv
 msgid "Not enough memory to load bitmap image"
@@ -40864,7 +40864,7 @@ msgstr "BMP-bilden har en för stor palett"
 
 #. from gnome:xbuf-master.sv
 msgid "Topdown BMP images cannot be compressed"
-msgstr "BMP-bilder som är uppifrån-och-ned kan inte komprimeras"
+msgstr "BMP-bilder med rader lagrade uppifrån och ned kan inte komprimeras"
 
 #. from gnome:xbuf-master.sv
 msgid "BMP image width too large"
@@ -40872,11 +40872,11 @@ msgstr "För stor bredd på BMP-bild"
 
 #. from gnome:xbuf-master.sv
 msgid "Premature end-of-file encountered"
-msgstr "För tidigt filslut påträffades"
+msgstr "Oväntat filslut påträffades"
 
 #. from gnome:xbuf-master.sv
 msgid "Error while decoding colormap"
-msgstr "Fel vid avkodning av färgkarta"
+msgstr "Fel vid avkodning av färgkartan"
 
 #. from gnome:xbuf-master.sv
 msgid "Image is too wide for BMP format."
@@ -40884,7 +40884,7 @@ msgstr "Bilden är för bred för BMP-format."
 
 #. from gnome:xbuf-master.sv
 msgid "Couldn’t allocate memory for saving BMP file"
-msgstr "Kunde inte allokera minne för sparande av BMP-fil"
+msgstr "Kunde inte allokera minne för att spara BMP-filen"
 
 #. from gnome:xbuf-master.sv
 msgid "Couldn’t write to BMP file"
@@ -40932,7 +40932,7 @@ msgstr "Kunde inte skapa ström: %s"
 
 #. from gnome:xbuf-master.sv
 msgid "Could not seek stream: %s"
-msgstr "Kunde inte spola i ström: %s"
+msgstr "Kunde inte flytta strömmens position: %s"
 
 #. from gnome:xbuf-master.sv
 msgid "Could not read from stream: %s"
@@ -40948,7 +40948,7 @@ msgstr "Kunde inte läsa in metafil"
 
 #. from gnome:xbuf-master.sv
 msgid "Unsupported image format for GDI+"
-msgstr "GDI+-bildformatet stöds inte"
+msgstr "Bildformatet stöds inte av GDI+"
 
 #. from gnome:xbuf-master.sv
 msgid "Couldn’t save"
@@ -41040,15 +41040,15 @@ msgstr "ICO-bilden var trunkerad eller ofullständig."
 
 #. from gnome:xbuf-master.sv
 msgid "Image too large to be saved as ICO"
-msgstr "Bilden för stor för att sparas som ICO"
+msgstr "Bilden är för stor för att sparas som ICO"
 
 #. from gnome:xbuf-master.sv
 msgid "Cursor hotspot outside image"
-msgstr "Markörpunkt utanför bilden"
+msgstr "Muspekarens aktiva punkt ligger utanför bilden"
 
 #. from gnome:xbuf-master.sv
 msgid "Unsupported depth for ICO file: %d"
-msgstr "Djupet stöds inte för ICO-fil: %d"
+msgstr "Färgdjupet stöds inte i ICO-filen: %d"
 
 #. from gnome:xbuf-master.sv
 msgid "Error interpreting JPEG image file (%s)"
@@ -41072,11 +41072,11 @@ msgstr "Antalet färgkomponenter stöds inte (%d)"
 
 #. from gnome:xbuf-master.sv
 msgid "JPEG x-dpi must be a value between 1 and 65535; value “%s” is not allowed."
-msgstr "x-dpi för JPEG måste vara ett värde mellan 1 och 65535; värdet ”%s” är inte tillåtet."
+msgstr "JPEG:s x-dpi måste vara ett värde mellan 1 och 65535; värdet ”%s” är inte tillåtet."
 
 #. from gnome:xbuf-master.sv
 msgid "JPEG y-dpi must be a value between 1 and 65535; value “%s” is not allowed."
-msgstr "y-dpi för JPEG måste vara ett värde mellan 1 och 65535; värdet ”%s” är inte tillåtet."
+msgstr "JPEG:s y-dpi måste vara ett värde mellan 1 och 65535; värdet ”%s” är inte tillåtet."
 
 #. from gnome:xbuf-master.sv
 msgid "Color profile has invalid length “%u”."
@@ -41084,7 +41084,7 @@ msgstr "Färgprofilen har en ogiltig längd ”%u”."
 
 #. from gnome:xbuf-master.sv
 msgid "Bits per channel of PNG image is invalid."
-msgstr "Bitar per kanal i PNG-bilden är ogiltigt."
+msgstr "Bitarna per kanal i PNG-bilden är ogiltiga."
 
 #. from gnome:xbuf-master.sv
 msgid "Transformed PNG has zero width or height."
@@ -41092,19 +41092,19 @@ msgstr "Transformerad PNG har bredden eller höjden noll."
 
 #. from gnome:xbuf-master.sv
 msgid "Bits per channel of transformed PNG is not 8."
-msgstr "Bitar per kanal av transformerad PNG är inte 8."
+msgstr "Antalet bitar per kanal i den transformerade PNG-bilden är inte 8."
 
 #. from gnome:xbuf-master.sv
 msgid "Transformed PNG not RGB or RGBA."
-msgstr "Transformerad PNG är inte RGB eller RGBA."
+msgstr "Den transformerade PNG-bilden är varken RGB eller RGBA."
 
 #. from gnome:xbuf-master.sv
 msgid "Transformed PNG has unsupported number of channels, must be 3 or 4."
-msgstr "Transformerad PNG har antal kanaler som inte stöds, måste vara 3 eller 4."
+msgstr "Den transformerade PNG-bilden har ett antal kanaler som inte stöds; det måste vara 3 eller 4."
 
 #. from gnome:xbuf-master.sv
 msgid "Fatal error in PNG image file: %s"
-msgstr "Ödesdigert fel i PNG-bildfil: %s"
+msgstr "Allvarligt fel i PNG-bildfilen: %s"
 
 #. from gnome:xbuf-master.sv
 msgid "Insufficient memory to load PNG file"
@@ -41120,11 +41120,11 @@ msgstr "För lite minne för att lagra en %lu × %lu stor bild; försök att avs
 
 #. from gnome:xbuf-master.sv
 msgid "Fatal error reading PNG image file"
-msgstr "Ödesdigert fel vid läsning av PNG-bildfil"
+msgstr "Allvarligt fel vid läsning av PNG-bildfilen"
 
 #. from gnome:xbuf-master.sv
 msgid "Fatal error reading PNG image file: %s"
-msgstr "Ödesdigert fel vid läsning av PNG-bildfil: %s"
+msgstr "Allvarligt fel vid läsning av PNG-bildfilen: %s"
 
 #. from gnome:xbuf-master.sv
 msgid "Invalid key “%s”. Keys for PNG text chunks must have at least 1 and at most 79 characters."
@@ -41148,7 +41148,7 @@ msgstr "PNG-komprimeringsnivån måste vara ett värde mellan 0 och 9; värdet �
 
 #. from gnome:xbuf-master.sv
 msgid "PNG %s must be greater than zero; value “%s” is not allowed"
-msgstr "%s för PNG måste vara större än noll; värdet ”%s” är inte tillåtet"
+msgstr "PNG-parametern %s måste vara större än noll; värdet ”%s” är inte tillåtet"
 
 #. from gnome:xbuf-master.sv
 msgid "PNM loader expected to find an integer, but didn’t"
@@ -41192,11 +41192,11 @@ msgstr "Råa PNM-bildtypen är ogiltig"
 
 #. from gnome:xbuf-master.sv
 msgid "PNM image loader does not support this PNM subformat"
-msgstr "PNM-bildinläsaren stöder inte detta underformat av PNM"
+msgstr "PNM-bildinläsaren stöder inte det här PNM-underformatet"
 
 #. from gnome:xbuf-master.sv
 msgid "Raw PNM formats require exactly one whitespace before sample data"
-msgstr "Råa PNM-format kräver precis ett blanktecken före provdata"
+msgstr "Råa PNM-format kräver exakt ett blanktecken före bilddata"
 
 #. from gnome:xbuf-master.sv
 msgid "Cannot allocate memory for loading PNM image"
@@ -41204,7 +41204,7 @@ msgstr "Kan inte allokera minne för inläsning av PNM-bild"
 
 #. from gnome:xbuf-master.sv
 msgid "Insufficient memory to load PNM context struct"
-msgstr "För lite minne för att läsa in PNM-sammanhangsstruktur"
+msgstr "För lite minne för att läsa in PNM-kontextstrukturen"
 
 #. from gnome:xbuf-master.sv
 msgid "Unexpected end of PNM image data"
@@ -41220,7 +41220,7 @@ msgstr "PNM/PBM/PGM/PPM"
 
 #. from gnome:xbuf-master.sv
 msgid "Input file descriptor is NULL."
-msgstr "Filhandtag för inmatning är NULL."
+msgstr "Filbeskrivaren för indata är NULL."
 
 #. from gnome:xbuf-master.sv
 msgid "Failed to read QTIF header"
@@ -41232,7 +41232,7 @@ msgstr "Filfel vid läsning av QTIF-atom: %s"
 
 #. from gnome:xbuf-master.sv
 msgid "Failed to allocate QTIF context structure."
-msgstr "Misslyckades med att allokera QTIF-sammanhangsstruktur."
+msgstr "Kunde inte allokera QTIF-kontextstrukturen."
 
 #. from gnome:xbuf-master.sv
 msgid "Failed to create GdkPixbufLoader object."
@@ -41256,7 +41256,7 @@ msgstr "Kan inte allokera ny pixbuf"
 
 #. from gnome:xbuf-master.sv
 msgid "Unexpected bitdepth for colormap entries"
-msgstr "Oväntat bitdjup för färgkarteposter"
+msgstr "Oväntat bitdjup för poster i färgkartan"
 
 #. from gnome:xbuf-master.sv
 msgid "Pseudocolor image does not contain a colormap"
@@ -41264,7 +41264,7 @@ msgstr "Pseudofärgbild innehåller inte en färgkarta"
 
 #. from gnome:xbuf-master.sv
 msgid "Cannot allocate TGA header memory"
-msgstr "Kan inte allokera TGA-huvudminne"
+msgstr "Kan inte allokera minne för TGA-filhuvudet"
 
 #. from gnome:xbuf-master.sv
 msgid "TGA image has invalid dimensions"
@@ -41276,7 +41276,7 @@ msgstr "TGA-bildtypen stöds inte"
 
 #. from gnome:xbuf-master.sv
 msgid "Cannot allocate memory for TGA context struct"
-msgstr "Kan inte allokera minne för TGA-kontextstruct"
+msgstr "Kan inte allokera minne för TGA-kontextstrukturen"
 
 #. from gnome:xbuf-master.sv
 msgid "TGA image was truncated or incomplete."
@@ -41324,7 +41324,7 @@ msgstr "Misslyckades med att spara TIFF-bild"
 
 #. from gnome:xbuf-master.sv
 msgid "TIFF compression doesn’t refer to a valid codec."
-msgstr "TIFF-komprimering refererar inte till en giltig kodek."
+msgstr "TIFF-komprimeringen hänvisar inte till en giltig kodek."
 
 #. from gnome:xbuf-master.sv
 msgid "Color profile has invalid length %d."
@@ -41332,7 +41332,7 @@ msgstr "Färgprofilen har en ogiltig längd %d."
 
 #. from gnome:xbuf-master.sv
 msgid "TIFF bits-per-sample doesn’t contain a supported value."
-msgstr "bits-per-sample för TIFF innehåller inte ett värde som stöds."
+msgstr "TIFF-filen anger ett bitantal per sampel som inte stöds."
 
 #. from gnome:xbuf-master.sv
 msgid "Failed to write TIFF data"
@@ -41340,15 +41340,15 @@ msgstr "Misslyckades med att skriva TIFF-data"
 
 #. from gnome:xbuf-master.sv
 msgid "TIFF x-dpi must be greater than zero; value “%s” is not allowed."
-msgstr "x-dpi för TIFF måste vara större än noll; värdet ”%s” är inte tillåtet."
+msgstr "TIFF:s x-dpi måste vara större än noll; värdet ”%s” är inte tillåtet."
 
 #. from gnome:xbuf-master.sv
 msgid "TIFF y-dpi must be greater than zero; value “%s” is not allowed."
-msgstr "y-dpi för TIFF måste vara större än noll; värdet ”%s” är inte tillåtet."
+msgstr "TIFF:s y-dpi måste vara större än noll; värdet ”%s” är inte tillåtet."
 
 #. from gnome:xbuf-master.sv
 msgid "Couldn’t write to TIFF file"
-msgstr "Kunde inte skriva till TIFF-fil"
+msgstr "Kunde inte skriva till TIFF-filen"
 
 #. from gnome:xbuf-master.sv
 msgid "Invalid XBM file"
@@ -41376,19 +41376,19 @@ msgstr "Ogiltigt XPM-huvud"
 
 #. from gnome:xbuf-master.sv
 msgid "XPM file has image width <= 0"
-msgstr "XPM-filen har bildbredd <= 0"
+msgstr "Bildbredden i XPM-filen är 0 eller mindre"
 
 #. from gnome:xbuf-master.sv
 msgid "XPM file has image height <= 0"
-msgstr "XPM-filen har bildhöjd <= 0"
+msgstr "Bildhöjden i XPM-filen är 0 eller mindre"
 
 #. from gnome:xbuf-master.sv
 msgid "XPM has invalid number of chars per pixel"
-msgstr "XPM har ogiltigt antal tecken per bildpunkt"
+msgstr "XPM-filen har ett ogiltigt antal tecken per bildpunkt"
 
 #. from gnome:xbuf-master.sv
 msgid "XPM file has invalid number of colors"
-msgstr "XPM-filen har ogiltigt antal färger"
+msgstr "XPM-filen har ett ogiltigt antal färger"
 
 #. from gnome:xbuf-master.sv
 msgid "Cannot allocate memory for loading XPM image"
@@ -41400,7 +41400,7 @@ msgstr "Kan inte läsa XPM-färgkarta"
 
 #. from gnome:xbuf-master.sv
 msgid "Dimensions do not match data"
-msgstr "Dimensioner stämmer inte överens med data"
+msgstr "Bildens dimensioner stämmer inte med data"
 
 #. from gnome:xbuf-master.sv
 msgid "Failed to write to temporary file when loading XPM image"
@@ -537915,3 +537915,78 @@ msgstr "Samlingstyp %s, initieringsfel: %s"
 #. from gnome:reviewed/Errands/main
 msgid "Expand Sub-Tasks"
 msgstr "Expandera deluppgifter"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "Windows animated cursor"
+msgstr "Animerad Windows-muspekare"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "BMP"
+msgstr "BMP"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "EMF"
+msgstr "EMF"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "GIF"
+msgstr "GIF"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "Windows icon"
+msgstr "Windows-ikon"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "JPEG"
+msgstr "JPEG"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "TIFF"
+msgstr "TIFF"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "WMF"
+msgstr "WMF"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "MacOS X icon"
+msgstr "Mac OS X-ikon"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "PNG"
+msgstr "PNG"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "PNM/PBM/PGM/PPM"
+msgstr "PNM/PBM/PGM/PPM"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "QuickTime"
+msgstr "QuickTime"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "Targa"
+msgstr "Targa"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "XBM"
+msgstr "XBM"
+
+#. from gnome:reviewed/gdk-pixbuf/master
+msgctxt "image format"
+msgid "XPM"
+msgstr "XPM"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261124T065554Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261124T071021Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -51478,7 +51478,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>The number of samples per pixel</seg></tuv>
-      <tuv xml:lang="sv"><seg>Antalet samplingar per bildpunkt</seg></tuv>
+      <tuv xml:lang="sv"><seg>Antalet värden per bildpunkt</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51488,17 +51488,17 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>The colorspace in which the samples are interpreted</seg></tuv>
-      <tuv xml:lang="sv"><seg>Färgrymden i vilken samplingarna tolkas</seg></tuv>
+      <tuv xml:lang="sv"><seg>Färgrymden som värdena tolkas i</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Has Alpha</seg></tuv>
-      <tuv xml:lang="sv"><seg>Har alfa</seg></tuv>
+      <tuv xml:lang="sv"><seg>Har alfakanal</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Whether the pixbuf has an alpha channel</seg></tuv>
-      <tuv xml:lang="sv"><seg>Huruvida pixbufen har en alfakanal</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om pixbufen har en alfakanal</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51508,7 +51508,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>The number of bits per sample</seg></tuv>
-      <tuv xml:lang="sv"><seg>Antalet bitar per sampling</seg></tuv>
+      <tuv xml:lang="sv"><seg>Antalet bitar per värde</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51523,12 +51523,12 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Rowstride</seg></tuv>
-      <tuv xml:lang="sv"><seg>Radlängd</seg></tuv>
+      <tuv xml:lang="sv"><seg>Radsteg</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>The number of bytes between the start of a row and the start of the next row</seg></tuv>
-      <tuv xml:lang="sv"><seg>Antal byte mellan början på en rad och början på nästa rad</seg></tuv>
+      <tuv xml:lang="sv"><seg>Antal byte mellan början av en rad och början av nästa rad</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51538,17 +51538,17 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>A pointer to the pixel data of the pixbuf</seg></tuv>
-      <tuv xml:lang="sv"><seg>En pekare till pixbufens bildpunktsdata</seg></tuv>
+      <tuv xml:lang="sv"><seg>En pekare till pixbufens bilddata</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Pixel Bytes</seg></tuv>
-      <tuv xml:lang="sv"><seg>Bildpunktsbyte</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bildpunktsdata i byte</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Readonly pixel data</seg></tuv>
-      <tuv xml:lang="sv"><seg>Skrivskyddade bildpunktsdata</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skrivskyddade bilddata</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51593,7 +51593,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Insufficient memory to save image to callback</seg></tuv>
-      <tuv xml:lang="sv"><seg>För lite minne för att spara bild till återuppringning</seg></tuv>
+      <tuv xml:lang="sv"><seg>För lite minne för att spara bilden via återanropsfunktionen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51638,17 +51638,17 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Loop</seg></tuv>
-      <tuv xml:lang="sv"><seg>Slinga</seg></tuv>
+      <tuv xml:lang="sv"><seg>Börja om</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Whether the animation should loop when it reaches the end</seg></tuv>
-      <tuv xml:lang="sv"><seg>Huruvida animationen ska börja om då den når slutet</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om animeringen ska börja om när den når slutet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Image header corrupt</seg></tuv>
-      <tuv xml:lang="sv"><seg>Bildhuvudet är trasigt</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bildens filhuvud är skadat</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51658,27 +51658,27 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Image pixel data corrupt</seg></tuv>
-      <tuv xml:lang="sv"><seg>Bildpunktsdata är trasigt</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bildens bildpunktsdata är skadade</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Unexpected icon chunk in animation</seg></tuv>
-      <tuv xml:lang="sv"><seg>Oväntat ikonstycke i animation</seg></tuv>
+      <tuv xml:lang="sv"><seg>Oväntat ikonblock i animeringen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Invalid header in animation</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ogiltigt huvud i animation</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ogiltigt filhuvud i animeringen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Not enough memory to load animation</seg></tuv>
-      <tuv xml:lang="sv"><seg>För lite minne för att läsa in animation</seg></tuv>
+      <tuv xml:lang="sv"><seg>För lite minne för att läsa in animeringen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Malformed chunk in animation</seg></tuv>
-      <tuv xml:lang="sv"><seg>Felaktigt stycke i animation</seg></tuv>
+      <tuv xml:lang="sv"><seg>Felaktigt block i animeringen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51693,7 +51693,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>BMP image has bogus header data</seg></tuv>
-      <tuv xml:lang="sv"><seg>BMP-bilden har felaktig huvuddata</seg></tuv>
+      <tuv xml:lang="sv"><seg>BMP-bilden har ogiltiga data i filhuvudet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51718,7 +51718,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Topdown BMP images cannot be compressed</seg></tuv>
-      <tuv xml:lang="sv"><seg>BMP-bilder som är uppifrån-och-ned kan inte komprimeras</seg></tuv>
+      <tuv xml:lang="sv"><seg>BMP-bilder med rader lagrade uppifrån och ned kan inte komprimeras</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51728,12 +51728,12 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Premature end-of-file encountered</seg></tuv>
-      <tuv xml:lang="sv"><seg>För tidigt filslut påträffades</seg></tuv>
+      <tuv xml:lang="sv"><seg>Oväntat filslut påträffades</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Error while decoding colormap</seg></tuv>
-      <tuv xml:lang="sv"><seg>Fel vid avkodning av färgkarta</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fel vid avkodning av färgkartan</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51743,7 +51743,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Couldn’t allocate memory for saving BMP file</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte allokera minne för sparande av BMP-fil</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kunde inte allokera minne för att spara BMP-filen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51803,7 +51803,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Could not seek stream: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte spola i ström: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kunde inte flytta strömmens position: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51823,7 +51823,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Unsupported image format for GDI+</seg></tuv>
-      <tuv xml:lang="sv"><seg>GDI+-bildformatet stöds inte</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bildformatet stöds inte av GDI+</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51938,17 +51938,17 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Image too large to be saved as ICO</seg></tuv>
-      <tuv xml:lang="sv"><seg>Bilden för stor för att sparas som ICO</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bilden är för stor för att sparas som ICO</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Cursor hotspot outside image</seg></tuv>
-      <tuv xml:lang="sv"><seg>Markörpunkt utanför bilden</seg></tuv>
+      <tuv xml:lang="sv"><seg>Muspekarens aktiva punkt ligger utanför bilden</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Unsupported depth for ICO file: %d</seg></tuv>
-      <tuv xml:lang="sv"><seg>Djupet stöds inte för ICO-fil: %d</seg></tuv>
+      <tuv xml:lang="sv"><seg>Färgdjupet stöds inte i ICO-filen: %d</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51978,12 +51978,12 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>JPEG x-dpi must be a value between 1 and 65535; value “%s” is not allowed.</seg></tuv>
-      <tuv xml:lang="sv"><seg>x-dpi för JPEG måste vara ett värde mellan 1 och 65535; värdet ”%s” är inte tillåtet.</seg></tuv>
+      <tuv xml:lang="sv"><seg>JPEG:s x-dpi måste vara ett värde mellan 1 och 65535; värdet ”%s” är inte tillåtet.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>JPEG y-dpi must be a value between 1 and 65535; value “%s” is not allowed.</seg></tuv>
-      <tuv xml:lang="sv"><seg>y-dpi för JPEG måste vara ett värde mellan 1 och 65535; värdet ”%s” är inte tillåtet.</seg></tuv>
+      <tuv xml:lang="sv"><seg>JPEG:s y-dpi måste vara ett värde mellan 1 och 65535; värdet ”%s” är inte tillåtet.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -51993,7 +51993,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Bits per channel of PNG image is invalid.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Bitar per kanal i PNG-bilden är ogiltigt.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bitarna per kanal i PNG-bilden är ogiltiga.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52003,22 +52003,22 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Bits per channel of transformed PNG is not 8.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Bitar per kanal av transformerad PNG är inte 8.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Antalet bitar per kanal i den transformerade PNG-bilden är inte 8.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Transformed PNG not RGB or RGBA.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Transformerad PNG är inte RGB eller RGBA.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den transformerade PNG-bilden är varken RGB eller RGBA.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Transformed PNG has unsupported number of channels, must be 3 or 4.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Transformerad PNG har antal kanaler som inte stöds, måste vara 3 eller 4.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den transformerade PNG-bilden har ett antal kanaler som inte stöds; det måste vara 3 eller 4.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Fatal error in PNG image file: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ödesdigert fel i PNG-bildfil: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Allvarligt fel i PNG-bildfilen: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52038,12 +52038,12 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Fatal error reading PNG image file</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ödesdigert fel vid läsning av PNG-bildfil</seg></tuv>
+      <tuv xml:lang="sv"><seg>Allvarligt fel vid läsning av PNG-bildfilen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Fatal error reading PNG image file: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ödesdigert fel vid läsning av PNG-bildfil: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Allvarligt fel vid läsning av PNG-bildfilen: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52073,7 +52073,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>PNG %s must be greater than zero; value “%s” is not allowed</seg></tuv>
-      <tuv xml:lang="sv"><seg>%s för PNG måste vara större än noll; värdet ”%s” är inte tillåtet</seg></tuv>
+      <tuv xml:lang="sv"><seg>PNG-parametern %s måste vara större än noll; värdet ”%s” är inte tillåtet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52128,12 +52128,12 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>PNM image loader does not support this PNM subformat</seg></tuv>
-      <tuv xml:lang="sv"><seg>PNM-bildinläsaren stöder inte detta underformat av PNM</seg></tuv>
+      <tuv xml:lang="sv"><seg>PNM-bildinläsaren stöder inte det här PNM-underformatet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Raw PNM formats require exactly one whitespace before sample data</seg></tuv>
-      <tuv xml:lang="sv"><seg>Råa PNM-format kräver precis ett blanktecken före provdata</seg></tuv>
+      <tuv xml:lang="sv"><seg>Råa PNM-format kräver exakt ett blanktecken före bilddata</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52143,7 +52143,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Insufficient memory to load PNM context struct</seg></tuv>
-      <tuv xml:lang="sv"><seg>För lite minne för att läsa in PNM-sammanhangsstruktur</seg></tuv>
+      <tuv xml:lang="sv"><seg>För lite minne för att läsa in PNM-kontextstrukturen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52163,7 +52163,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Input file descriptor is NULL.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Filhandtag för inmatning är NULL.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filbeskrivaren för indata är NULL.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52178,7 +52178,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Failed to allocate QTIF context structure.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Misslyckades med att allokera QTIF-sammanhangsstruktur.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kunde inte allokera QTIF-kontextstrukturen.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52208,7 +52208,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Unexpected bitdepth for colormap entries</seg></tuv>
-      <tuv xml:lang="sv"><seg>Oväntat bitdjup för färgkarteposter</seg></tuv>
+      <tuv xml:lang="sv"><seg>Oväntat bitdjup för poster i färgkartan</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52218,7 +52218,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Cannot allocate TGA header memory</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kan inte allokera TGA-huvudminne</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kan inte allokera minne för TGA-filhuvudet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52233,7 +52233,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Cannot allocate memory for TGA context struct</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kan inte allokera minne för TGA-kontextstruct</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kan inte allokera minne för TGA-kontextstrukturen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52293,7 +52293,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>TIFF compression doesn’t refer to a valid codec.</seg></tuv>
-      <tuv xml:lang="sv"><seg>TIFF-komprimering refererar inte till en giltig kodek.</seg></tuv>
+      <tuv xml:lang="sv"><seg>TIFF-komprimeringen hänvisar inte till en giltig kodek.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52303,7 +52303,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>TIFF bits-per-sample doesn’t contain a supported value.</seg></tuv>
-      <tuv xml:lang="sv"><seg>bits-per-sample för TIFF innehåller inte ett värde som stöds.</seg></tuv>
+      <tuv xml:lang="sv"><seg>TIFF-filen anger ett bitantal per sampel som inte stöds.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52313,17 +52313,17 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>TIFF x-dpi must be greater than zero; value “%s” is not allowed.</seg></tuv>
-      <tuv xml:lang="sv"><seg>x-dpi för TIFF måste vara större än noll; värdet ”%s” är inte tillåtet.</seg></tuv>
+      <tuv xml:lang="sv"><seg>TIFF:s x-dpi måste vara större än noll; värdet ”%s” är inte tillåtet.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>TIFF y-dpi must be greater than zero; value “%s” is not allowed.</seg></tuv>
-      <tuv xml:lang="sv"><seg>y-dpi för TIFF måste vara större än noll; värdet ”%s” är inte tillåtet.</seg></tuv>
+      <tuv xml:lang="sv"><seg>TIFF:s y-dpi måste vara större än noll; värdet ”%s” är inte tillåtet.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Couldn’t write to TIFF file</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte skriva till TIFF-fil</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kunde inte skriva till TIFF-filen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52358,22 +52358,22 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>XPM file has image width &lt;= 0</seg></tuv>
-      <tuv xml:lang="sv"><seg>XPM-filen har bildbredd &lt;= 0</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bildbredden i XPM-filen är 0 eller mindre</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>XPM file has image height &lt;= 0</seg></tuv>
-      <tuv xml:lang="sv"><seg>XPM-filen har bildhöjd &lt;= 0</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bildhöjden i XPM-filen är 0 eller mindre</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>XPM has invalid number of chars per pixel</seg></tuv>
-      <tuv xml:lang="sv"><seg>XPM har ogiltigt antal tecken per bildpunkt</seg></tuv>
+      <tuv xml:lang="sv"><seg>XPM-filen har ett ogiltigt antal tecken per bildpunkt</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>XPM file has invalid number of colors</seg></tuv>
-      <tuv xml:lang="sv"><seg>XPM-filen har ogiltigt antal färger</seg></tuv>
+      <tuv xml:lang="sv"><seg>XPM-filen har ett ogiltigt antal färger</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -52388,7 +52388,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
       <tuv xml:lang="en"><seg>Dimensions do not match data</seg></tuv>
-      <tuv xml:lang="sv"><seg>Dimensioner stämmer inte överens med data</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bildens dimensioner stämmer inte med data</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:xbuf-master.sv</prop>
@@ -586197,6 +586197,81 @@ Försök igen senare / bekräfta att du är ansluten till internet.</seg></tuv>
       <prop type="project">gnome:reviewed/Errands/main</prop>
       <tuv xml:lang="en"><seg>Expand Sub-Tasks</seg></tuv>
       <tuv xml:lang="sv"><seg>Expandera deluppgifter</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>Windows animated cursor</seg></tuv>
+      <tuv xml:lang="sv"><seg>Animerad Windows-muspekare</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>BMP</seg></tuv>
+      <tuv xml:lang="sv"><seg>BMP</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>EMF</seg></tuv>
+      <tuv xml:lang="sv"><seg>EMF</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>GIF</seg></tuv>
+      <tuv xml:lang="sv"><seg>GIF</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>Windows icon</seg></tuv>
+      <tuv xml:lang="sv"><seg>Windows-ikon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>JPEG</seg></tuv>
+      <tuv xml:lang="sv"><seg>JPEG</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>TIFF</seg></tuv>
+      <tuv xml:lang="sv"><seg>TIFF</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>WMF</seg></tuv>
+      <tuv xml:lang="sv"><seg>WMF</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>MacOS X icon</seg></tuv>
+      <tuv xml:lang="sv"><seg>Mac OS X-ikon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>PNG</seg></tuv>
+      <tuv xml:lang="sv"><seg>PNG</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>PNM/PBM/PGM/PPM</seg></tuv>
+      <tuv xml:lang="sv"><seg>PNM/PBM/PGM/PPM</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>QuickTime</seg></tuv>
+      <tuv xml:lang="sv"><seg>QuickTime</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>Targa</seg></tuv>
+      <tuv xml:lang="sv"><seg>Targa</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>XBM</seg></tuv>
+      <tuv xml:lang="sv"><seg>XBM</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gdk-pixbuf/master</prop>
+      <tuv xml:lang="en"><seg>XPM</seg></tuv>
+      <tuv xml:lang="sv"><seg>XPM</seg></tuv>
     </tu>
   </body>
 </tmx>
