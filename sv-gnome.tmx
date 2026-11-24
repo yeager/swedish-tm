@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261124T190945Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261124T191516Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -594339,6 +594339,131 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Function&lt;/guimenuitem&gt; — This menu item opens a dialog to allow the user to enter a mathematical formula into the cell. The function dialog includes the names and a brief explanation of all the available functions.</seg></tuv>
       <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Funktion&lt;/guimenuitem&gt; — Menyobjektet öppnar en dialogruta där du kan skriva in en matematisk formel i cellen. Dialogrutan listar alla tillgängliga funktioner med namn och en kort beskrivning.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Function Wrapper&lt;/guimenuitem&gt; — Selecting an item from the submenu shown in &lt;xref linkend="menu-insert-fw.png"/&gt; replaces every rectangular region in the current selection with an array function in which the appropriate function is wrapped around an array version of the current content. This can be used to create a self-sorting data region.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Tillämpa funktion&lt;/guimenuitem&gt; — När du väljer ett alternativ i undermenyn som visas i &lt;xref linkend="menu-insert-fw.png"/&gt; ersätts varje rektangulärt område i markeringen med en matrisfunktion som tillämpar den valda funktionen på innehållet. På så sätt kan du skapa ett dataområde som sorterar sig självt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guimenu&gt;Function Wrapper&lt;/guimenu&gt; submenu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Undermenyn &lt;guimenu&gt;Tillämpa funktion&lt;/guimenu&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-insert-fw.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the Function Wrapper submenu.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-insert-fw.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av undermenyn Tillämpa funktion.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Name...&lt;/guimenuitem&gt; opens a dialog with a list of all defined names that can be pasted into the current cell. The dialog is similar to the &lt;guimenu&gt;Define Names&lt;/guimenu&gt; dialog opened by choosing &lt;guimenuitem&gt;Modify ▶ Names...&lt;/guimenuitem&gt; from the &lt;xref linkend="Edit-Menu"/&gt;. See &lt;xref linkend="sect-data-formulas-names"/&gt; for details.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Namn…&lt;/guimenuitem&gt; öppnar en dialogruta med en lista över alla definierade namn som kan klistras in i den aktuella cellen. Dialogrutan liknar &lt;guimenu&gt;Definiera namn&lt;/guimenu&gt;, som du öppnar genom att välja &lt;guimenuitem&gt;Ändra ▶ Namn…&lt;/guimenuitem&gt; på menyn &lt;xref linkend="Edit-Menu"/&gt;. Mer information finns i &lt;xref linkend="sect-data-formulas-names"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Comment...&lt;/guimenuitem&gt; opens a dialog where you can enter or edit a comment for the active cell. The dialog is described in &lt;xref linkend="sect-data-comment"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Kommentar…&lt;/guimenuitem&gt; öppnar en dialogruta där du kan skriva eller redigera en kommentar för den aktiva cellen. Dialogrutan beskrivs i &lt;xref linkend="sect-data-comment"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Hyperlink...&lt;/guimenuitem&gt; opens a dialog for entering the location of a link. The dialog is described in &lt;xref linkend="sect-data-link"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Hyperlänk…&lt;/guimenuitem&gt; öppnar en dialogruta där du anger en länkadress. Dialogrutan beskrivs i &lt;xref linkend="sect-data-link"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Special&lt;/guimenuitem&gt; opens a submenu from which you can insert predefined content into a cell. You can insert the current date, the current time, or both.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Special&lt;/guimenuitem&gt; öppnar en undermeny där du kan infoga fördefinierat innehåll i en cell. Du kan infoga dagens datum, aktuell tid eller båda.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guimenu&gt;Format&lt;/guimenu&gt; menu allows users to control the formats of cells, columns, rows, worksheets and the workbook. This menu also gives users access to templates of standard formats.</seg></tuv>
+      <tuv xml:lang="sv"><seg>På menyn &lt;guimenu&gt;Format&lt;/guimenu&gt; kan du styra formateringen av celler, kolumner, rader, kalkylblad och arbetsboken. Menyn ger också tillgång till mallar med standardformat.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guimenu&gt;Format&lt;/guimenu&gt; Menu and Its &lt;guimenu&gt;Cells&lt;/guimenu&gt; Submenu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Menyn &lt;guimenu&gt;Format&lt;/guimenu&gt; och undermenyn &lt;guimenu&gt;Celler&lt;/guimenu&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-format-labelled.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the Format menu and its Cells submenu.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-format-labelled.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av menyn Format och dess undermeny Celler.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenu&gt;The Format Menu&lt;/guimenu&gt; offers these menuitems:</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenu&gt;Menyn Format&lt;/guimenu&gt; innehåller följande menyobjekt:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Cells&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Cells...&lt;/guimenuitem&gt; menu item opens a submenu with choices to allows the user to modify the formatting of the selected cells.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Celler&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Celler…&lt;/guimenuitem&gt; öppnar en undermeny med alternativ för att ändra formateringen av de markerade cellerna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Format...&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Format...&lt;/guimenuitem&gt; menu item opens the cell format dialog. This dialog is used to set cell data types and formats. It is explained in &lt;xref linkend="sect-data-format"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Formatera…&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Formatera…&lt;/guimenuitem&gt; öppnar dialogrutan för cellformatering. Där anger du cellernas datatyper och format. Dialogrutan beskrivs i &lt;xref linkend="sect-data-format"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Conditional Formatting...&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Conditional Formatting...&lt;/guimenuitem&gt; menu item opens the conditional format dialog. This dialog is used to set cell data types and formats that depend on values in the workbook. It is explained in &lt;xref linkend="sect-data-format-conditional"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Villkorlig formatering…&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Villkorlig formatering…&lt;/guimenuitem&gt; öppnar dialogrutan för villkorlig formatering. Där anger du cellernas datatyper och format utifrån värden i arbetsboken. Dialogrutan beskrivs i &lt;xref linkend="sect-data-format-conditional"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Merge&lt;/guimenuitem&gt; — This menu item combines the current selection into a single large cell.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Sammanfoga&lt;/guimenuitem&gt; — Det här menyobjektet sammanfogar den aktuella markeringen till en enda stor cell.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Unmerge&lt;/guimenuitem&gt; — This menu item divides a merged selection into the original cells.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Ångra sammanfogning&lt;/guimenuitem&gt; — Det här menyobjektet delar upp en sammanfogad markering i de ursprungliga cellerna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Auto Fit Height&lt;/guimenuitem&gt; — This menu item makes &lt;application&gt;Gnumeric&lt;/application&gt; automatically choose the optimal row heights to display all of the text in the current selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Autoanpassa höjd&lt;/guimenuitem&gt; — Det här menyobjektet låter &lt;application&gt;Gnumeric&lt;/application&gt; automatiskt välja radhöjder så att all text i den aktuella markeringen visas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Auto Fit Width&lt;/guimenuitem&gt; — This menu item makes &lt;application&gt;Gnumeric&lt;/application&gt; automatically choose the optimal column widths to display all of the text in the current selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Autoanpassa bredd&lt;/guimenuitem&gt; — Det här menyobjektet låter &lt;application&gt;Gnumeric&lt;/application&gt; automatiskt välja kolumnbredder så att all text i den aktuella markeringen visas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Column&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Column&lt;/guimenuitem&gt; menu item opens a submenu with choices to allows the user to modify the view of the selected columns.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Kolumn&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Kolumn&lt;/guimenuitem&gt; öppnar en undermeny med alternativ för att ändra visningen av de markerade kolumnerna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guimenu&gt;Column&lt;/guimenu&gt; Submenu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Undermenyn &lt;guimenu&gt;Kolumn&lt;/guimenu&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-format-column.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the Column submenu.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-format-column.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av undermenyn Kolumn.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Width...&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Width...&lt;/guimenuitem&gt; menu item opens a dialog to enable the user to adjust the size of the columns which hold the current selection. The dialog has a single entry box in which the user can change the current size of the column in points.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Bredd…&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Bredd…&lt;/guimenuitem&gt; öppnar en dialogruta där du kan ändra bredden på kolumnerna med markerade celler. Dialogrutan har ett inmatningsfält där du anger kolumnbredden i punkter.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Auto Fit Width&lt;/guimenuitem&gt; — This menu item makes &lt;application&gt;Gnumeric&lt;/application&gt; automatically choose the optimal column size to display all of the text in the current selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Autoanpassa bredd&lt;/guimenuitem&gt; — Det här menyobjektet låter &lt;application&gt;Gnumeric&lt;/application&gt; automatiskt välja en kolumnbredd så att all text i den aktuella markeringen visas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Hide&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Hide&lt;/guimenuitem&gt; menu item will hide the columns containing the current selection. &lt;application&gt;Gnumeric&lt;/application&gt; still holds these columns in memory and will save them to a file but will not display those columns. The only indication that a user has that columns have been hidden is that the column header names are not sequential.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Dölj&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Dölj&lt;/guimenuitem&gt; döljer kolumnerna med de markerade cellerna. &lt;application&gt;Gnumeric&lt;/application&gt; behåller kolumnerna i minnet och sparar dem i filen, men visar dem inte. Det enda tecknet på att kolumner har dolts är att kolumnrubrikerna inte följer i ordning.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Hide&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Hide&lt;/guimenuitem&gt; menu item will hide the rows in the selection. The workbook still contains the data in the hidden rows but those rows are not shown.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Dölj&lt;/guimenuitem&gt; — Menyobjektet &lt;guimenuitem&gt;Dölj&lt;/guimenuitem&gt; döljer raderna i markeringen. Arbetsboken innehåller fortfarande data i de dolda raderna, men de visas inte.</seg></tuv>
     </tu>
   </body>
 </tmx>
