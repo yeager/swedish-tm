@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261124T073552Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261124T074305Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -117145,7 +117145,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>The number of anchors associated with the AtkHyperlink object</seg></tuv>
-      <tuv xml:lang="sv"><seg>Antalet ankare som är associerat med AtkHyperlink-objektet</seg></tuv>
+      <tuv xml:lang="sv"><seg>Antalet ankare som hör till AtkHyperlink-objektet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117165,7 +117165,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Object instance’s name formatted for assistive technology access</seg></tuv>
-      <tuv xml:lang="sv"><seg>Objektinstansens namn formaterat för åtkomst av hjälpmedelsteknik</seg></tuv>
+      <tuv xml:lang="sv"><seg>Objektinstansens namn, formaterat för användning med hjälpmedel</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117175,17 +117175,17 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Description of an object, formatted for assistive technology access</seg></tuv>
-      <tuv xml:lang="sv"><seg>Beskrivning av ett objekt, formaterat för åtkomst av hjälpmedelsteknik</seg></tuv>
+      <tuv xml:lang="sv"><seg>Beskrivning av objektet, formaterad för användning med hjälpmedel</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Accessible Parent</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tillgänglig förälder</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillgängligt föräldraobjekt</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Parent of the current accessible as returned by atk_object_get_parent()</seg></tuv>
-      <tuv xml:lang="sv"><seg>Förälder för den aktuella tillgängliga som returnerades av atk_object_get_parent()</seg></tuv>
+      <tuv xml:lang="sv"><seg>Föräldern till det aktuella tillgängliga objektet, som returneras av atk_object_get_parent()</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117195,7 +117195,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Is used to notify that the value has changed</seg></tuv>
-      <tuv xml:lang="sv"><seg>Används för att meddela att värdet har ändrats</seg></tuv>
+      <tuv xml:lang="sv"><seg>Används för att signalera att värdet har ändrats</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117205,7 +117205,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>The accessible role of this object</seg></tuv>
-      <tuv xml:lang="sv"><seg>Den tillgängliga rollen för detta objekt</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillgänglighetsrollen för det här objektet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117215,7 +117215,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>The accessible layer of this object</seg></tuv>
-      <tuv xml:lang="sv"><seg>Det tillgängliga lagret för detta objekt</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillgänglighetslagret för det här objektet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117225,7 +117225,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>The accessible MDI value of this object</seg></tuv>
-      <tuv xml:lang="sv"><seg>Det tillgängliga MDI-värdet för detta objekt</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det tillgängliga MDI-värdet för det här objektet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117235,47 +117235,47 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Is used to notify that the table caption has changed; this property should not be used. accessible-table-caption-object should be used instead</seg></tuv>
-      <tuv xml:lang="sv"><seg>Används för att meddela att tabellrubriken har ändrats; denna egenskap ska inte användas. accessible-table-caption-object ska användas i stället</seg></tuv>
+      <tuv xml:lang="sv"><seg>Används för att signalera att tabellrubriken har ändrats. Använd inte den här egenskapen; använd i stället accessible-table-caption-object</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Accessible Table Column Header</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tillgängligt tabellkolumnhuvud</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillgänglig kolumnrubrik i tabellen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Is used to notify that the table column header has changed</seg></tuv>
-      <tuv xml:lang="sv"><seg>Används för att meddela att tabellkolumnrubriken har ändrats</seg></tuv>
+      <tuv xml:lang="sv"><seg>Används för att signalera att kolumnrubriken i tabellen har ändrats</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Accessible Table Column Description</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tillgänglig tabellkolumnbeskrivning</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillgänglig kolumnbeskrivning i tabellen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Is used to notify that the table column description has changed</seg></tuv>
-      <tuv xml:lang="sv"><seg>Används för att meddela att tabellkolumnbeskrivningen har ändrats</seg></tuv>
+      <tuv xml:lang="sv"><seg>Används för att signalera att kolumnbeskrivningen i tabellen har ändrats</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Accessible Table Row Header</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tillgängligt tabellradshuvud</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillgänglig radrubrik i tabellen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Is used to notify that the table row header has changed</seg></tuv>
-      <tuv xml:lang="sv"><seg>Används för att meddela att tabellradshuvudet har ändrats</seg></tuv>
+      <tuv xml:lang="sv"><seg>Används för att signalera att radrubriken i tabellen har ändrats</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Accessible Table Row Description</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tillgänglig tabellradsbeskrivning</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillgänglig radbeskrivning i tabellen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Is used to notify that the table row description has changed</seg></tuv>
-      <tuv xml:lang="sv"><seg>Används för att meddela att tabellradsbeskrivningen har ändrats</seg></tuv>
+      <tuv xml:lang="sv"><seg>Används för att signalera att radbeskrivningen i tabellen har ändrats</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117285,12 +117285,12 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Is used to notify that the table summary has changed</seg></tuv>
-      <tuv xml:lang="sv"><seg>Används för att meddela att tabellsammanfattningen har ändrats</seg></tuv>
+      <tuv xml:lang="sv"><seg>Används för att signalera att tabellsammanfattningen har ändrats</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Accessible Table Caption Object</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tillgängligt tabellrubriksobjekt</seg></tuv>
+      <tuv xml:lang="sv"><seg>Objekt för tillgänglig tabellrubrik</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117315,12 +117315,12 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>ID for the accessible; useful for automated testing</seg></tuv>
-      <tuv xml:lang="sv"><seg>ID för den tillgängliga; användbart för automatisk testning</seg></tuv>
+      <tuv xml:lang="sv"><seg>ID för det tillgängliga objektet; användbart vid automatiserad testning</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>Help text associated with the accessible</seg></tuv>
-      <tuv xml:lang="sv"><seg>Hjälptext som är associerad med den tillgängliga</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hjälptext som hör till det tillgängliga objektet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117440,7 +117440,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>check menu item</seg></tuv>
-      <tuv xml:lang="sv"><seg>kryssmenypost</seg></tuv>
+      <tuv xml:lang="sv"><seg>menyalternativ med kryssruta</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117455,7 +117455,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>combo box</seg></tuv>
-      <tuv xml:lang="sv"><seg>komboruta</seg></tuv>
+      <tuv xml:lang="sv"><seg>kombinationsruta</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117500,7 +117500,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>filler</seg></tuv>
-      <tuv xml:lang="sv"><seg>ifyllare</seg></tuv>
+      <tuv xml:lang="sv"><seg>utfyllnad</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117550,7 +117550,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>list item</seg></tuv>
-      <tuv xml:lang="sv"><seg>listpost</seg></tuv>
+      <tuv xml:lang="sv"><seg>listelement</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117580,7 +117580,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>page tab list</seg></tuv>
-      <tuv xml:lang="sv"><seg>sidflikslist</seg></tuv>
+      <tuv xml:lang="sv"><seg>lista över sidflikar</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117595,7 +117595,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>popup menu</seg></tuv>
-      <tuv xml:lang="sv"><seg>poppuppmeny</seg></tuv>
+      <tuv xml:lang="sv"><seg>snabbmeny</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117615,7 +117615,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>radio menu item</seg></tuv>
-      <tuv xml:lang="sv"><seg>radiomenypost</seg></tuv>
+      <tuv xml:lang="sv"><seg>radiomenyalternativ</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117680,12 +117680,12 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>table column header</seg></tuv>
-      <tuv xml:lang="sv"><seg>tabellkolumnhuvud</seg></tuv>
+      <tuv xml:lang="sv"><seg>kolumnrubrik i tabell</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>table row header</seg></tuv>
-      <tuv xml:lang="sv"><seg>tabellradshuvud</seg></tuv>
+      <tuv xml:lang="sv"><seg>radrubrik i tabell</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117730,7 +117730,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>viewport</seg></tuv>
-      <tuv xml:lang="sv"><seg>skrivbordsvy</seg></tuv>
+      <tuv xml:lang="sv"><seg>visningsområde</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117740,7 +117740,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>header</seg></tuv>
-      <tuv xml:lang="sv"><seg>huvud</seg></tuv>
+      <tuv xml:lang="sv"><seg>rubrik</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117765,7 +117765,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>autocomplete</seg></tuv>
-      <tuv xml:lang="sv"><seg>komplettera automatiskt</seg></tuv>
+      <tuv xml:lang="sv"><seg>automatisk komplettering</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117785,12 +117785,12 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>chart</seg></tuv>
-      <tuv xml:lang="sv"><seg>lista</seg></tuv>
+      <tuv xml:lang="sv"><seg>diagram</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>caption</seg></tuv>
-      <tuv xml:lang="sv"><seg>rubrik</seg></tuv>
+      <tuv xml:lang="sv"><seg>bildtext</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117800,7 +117800,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>heading</seg></tuv>
-      <tuv xml:lang="sv"><seg>huvud</seg></tuv>
+      <tuv xml:lang="sv"><seg>rubrik</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117830,7 +117830,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>input method window</seg></tuv>
-      <tuv xml:lang="sv"><seg>inmatningsmetodfönster</seg></tuv>
+      <tuv xml:lang="sv"><seg>fönster för inmatningsmetod</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117845,27 +117845,27 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>document spreadsheet</seg></tuv>
-      <tuv xml:lang="sv"><seg>dokument kalkylark</seg></tuv>
+      <tuv xml:lang="sv"><seg>kalkylarksdokument</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>document presentation</seg></tuv>
-      <tuv xml:lang="sv"><seg>dokument presentation</seg></tuv>
+      <tuv xml:lang="sv"><seg>presentationsdokument</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>document text</seg></tuv>
-      <tuv xml:lang="sv"><seg>dokument text</seg></tuv>
+      <tuv xml:lang="sv"><seg>textdokument</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>document web</seg></tuv>
-      <tuv xml:lang="sv"><seg>dokument webb</seg></tuv>
+      <tuv xml:lang="sv"><seg>webbdokument</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>document email</seg></tuv>
-      <tuv xml:lang="sv"><seg>dokument e-post</seg></tuv>
+      <tuv xml:lang="sv"><seg>e-postdokument</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117900,7 +117900,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>level bar</seg></tuv>
-      <tuv xml:lang="sv"><seg>nivårad</seg></tuv>
+      <tuv xml:lang="sv"><seg>nivåindikator</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117945,7 +117945,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>marquee</seg></tuv>
-      <tuv xml:lang="sv"><seg>banderoll</seg></tuv>
+      <tuv xml:lang="sv"><seg>rullande text</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
@@ -117955,7 +117955,7 @@ en sändning för %s</seg></tuv>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>
       <tuv xml:lang="en"><seg>rating</seg></tuv>
-      <tuv xml:lang="sv"><seg>gradering</seg></tuv>
+      <tuv xml:lang="sv"><seg>betyg</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:at-spi2-core</prop>

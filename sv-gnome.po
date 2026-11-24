@@ -90392,7 +90392,7 @@ msgstr "Antal ankare"
 
 #. from gnome:at-spi2-core
 msgid "The number of anchors associated with the AtkHyperlink object"
-msgstr "Antalet ankare som är associerat med AtkHyperlink-objektet"
+msgstr "Antalet ankare som hör till AtkHyperlink-objektet"
 
 #. from gnome:at-spi2-core
 msgid "The end index of the AtkHyperlink object"
@@ -90408,7 +90408,7 @@ msgstr "Tillgängligt namn"
 
 #. from gnome:at-spi2-core
 msgid "Object instance’s name formatted for assistive technology access"
-msgstr "Objektinstansens namn formaterat för åtkomst av hjälpmedelsteknik"
+msgstr "Objektinstansens namn, formaterat för användning med hjälpmedel"
 
 #. from gnome:at-spi2-core
 msgid "Accessible Description"
@@ -90416,15 +90416,15 @@ msgstr "Tillgänglig beskrivning"
 
 #. from gnome:at-spi2-core
 msgid "Description of an object, formatted for assistive technology access"
-msgstr "Beskrivning av ett objekt, formaterat för åtkomst av hjälpmedelsteknik"
+msgstr "Beskrivning av objektet, formaterad för användning med hjälpmedel"
 
 #. from gnome:at-spi2-core
 msgid "Accessible Parent"
-msgstr "Tillgänglig förälder"
+msgstr "Tillgängligt föräldraobjekt"
 
 #. from gnome:at-spi2-core
 msgid "Parent of the current accessible as returned by atk_object_get_parent()"
-msgstr "Förälder för den aktuella tillgängliga som returnerades av atk_object_get_parent()"
+msgstr "Föräldern till det aktuella tillgängliga objektet, som returneras av atk_object_get_parent()"
 
 #. from gnome:at-spi2-core
 msgid "Accessible Value"
@@ -90432,7 +90432,7 @@ msgstr "Tillgängligt värde"
 
 #. from gnome:at-spi2-core
 msgid "Is used to notify that the value has changed"
-msgstr "Används för att meddela att värdet har ändrats"
+msgstr "Används för att signalera att värdet har ändrats"
 
 #. from gnome:at-spi2-core
 msgid "Accessible Role"
@@ -90440,7 +90440,7 @@ msgstr "Tillgänglig roll"
 
 #. from gnome:at-spi2-core
 msgid "The accessible role of this object"
-msgstr "Den tillgängliga rollen för detta objekt"
+msgstr "Tillgänglighetsrollen för det här objektet"
 
 #. from gnome:at-spi2-core
 msgid "Accessible Layer"
@@ -90448,7 +90448,7 @@ msgstr "Tillgängligt lager"
 
 #. from gnome:at-spi2-core
 msgid "The accessible layer of this object"
-msgstr "Det tillgängliga lagret för detta objekt"
+msgstr "Tillgänglighetslagret för det här objektet"
 
 #. from gnome:at-spi2-core
 msgid "Accessible MDI Value"
@@ -90456,7 +90456,7 @@ msgstr "Tillgängligt MDI-värde"
 
 #. from gnome:at-spi2-core
 msgid "The accessible MDI value of this object"
-msgstr "Det tillgängliga MDI-värdet för detta objekt"
+msgstr "Det tillgängliga MDI-värdet för det här objektet"
 
 #. from gnome:at-spi2-core
 msgid "Accessible Table Caption"
@@ -90464,39 +90464,39 @@ msgstr "Tillgänglig tabellrubrik"
 
 #. from gnome:at-spi2-core
 msgid "Is used to notify that the table caption has changed; this property should not be used. accessible-table-caption-object should be used instead"
-msgstr "Används för att meddela att tabellrubriken har ändrats; denna egenskap ska inte användas. accessible-table-caption-object ska användas i stället"
+msgstr "Används för att signalera att tabellrubriken har ändrats. Använd inte den här egenskapen; använd i stället accessible-table-caption-object"
 
 #. from gnome:at-spi2-core
 msgid "Accessible Table Column Header"
-msgstr "Tillgängligt tabellkolumnhuvud"
+msgstr "Tillgänglig kolumnrubrik i tabellen"
 
 #. from gnome:at-spi2-core
 msgid "Is used to notify that the table column header has changed"
-msgstr "Används för att meddela att tabellkolumnrubriken har ändrats"
+msgstr "Används för att signalera att kolumnrubriken i tabellen har ändrats"
 
 #. from gnome:at-spi2-core
 msgid "Accessible Table Column Description"
-msgstr "Tillgänglig tabellkolumnbeskrivning"
+msgstr "Tillgänglig kolumnbeskrivning i tabellen"
 
 #. from gnome:at-spi2-core
 msgid "Is used to notify that the table column description has changed"
-msgstr "Används för att meddela att tabellkolumnbeskrivningen har ändrats"
+msgstr "Används för att signalera att kolumnbeskrivningen i tabellen har ändrats"
 
 #. from gnome:at-spi2-core
 msgid "Accessible Table Row Header"
-msgstr "Tillgängligt tabellradshuvud"
+msgstr "Tillgänglig radrubrik i tabellen"
 
 #. from gnome:at-spi2-core
 msgid "Is used to notify that the table row header has changed"
-msgstr "Används för att meddela att tabellradshuvudet har ändrats"
+msgstr "Används för att signalera att radrubriken i tabellen har ändrats"
 
 #. from gnome:at-spi2-core
 msgid "Accessible Table Row Description"
-msgstr "Tillgänglig tabellradsbeskrivning"
+msgstr "Tillgänglig radbeskrivning i tabellen"
 
 #. from gnome:at-spi2-core
 msgid "Is used to notify that the table row description has changed"
-msgstr "Används för att meddela att tabellradsbeskrivningen har ändrats"
+msgstr "Används för att signalera att radbeskrivningen i tabellen har ändrats"
 
 #. from gnome:at-spi2-core
 msgid "Accessible Table Summary"
@@ -90504,11 +90504,11 @@ msgstr "Tillgänglig tabellsammanfattning"
 
 #. from gnome:at-spi2-core
 msgid "Is used to notify that the table summary has changed"
-msgstr "Används för att meddela att tabellsammanfattningen har ändrats"
+msgstr "Används för att signalera att tabellsammanfattningen har ändrats"
 
 #. from gnome:at-spi2-core
 msgid "Accessible Table Caption Object"
-msgstr "Tillgängligt tabellrubriksobjekt"
+msgstr "Objekt för tillgänglig tabellrubrik"
 
 #. from gnome:at-spi2-core
 msgid "Is used to notify that the table caption has changed"
@@ -90528,11 +90528,11 @@ msgstr "Tillgängligt ID"
 
 #. from gnome:at-spi2-core
 msgid "ID for the accessible; useful for automated testing"
-msgstr "ID för den tillgängliga; användbart för automatisk testning"
+msgstr "ID för det tillgängliga objektet; användbart vid automatiserad testning"
 
 #. from gnome:at-spi2-core
 msgid "Help text associated with the accessible"
-msgstr "Hjälptext som är associerad med den tillgängliga"
+msgstr "Hjälptext som hör till det tillgängliga objektet"
 
 #. from gnome:at-spi2-core
 msgid "very weak"
@@ -90628,7 +90628,7 @@ msgstr "kryssruta"
 
 #. from gnome:at-spi2-core
 msgid "check menu item"
-msgstr "kryssmenypost"
+msgstr "menyalternativ med kryssruta"
 
 #. from gnome:at-spi2-core
 msgid "color chooser"
@@ -90640,7 +90640,7 @@ msgstr "kolumnrubrik"
 
 #. from gnome:at-spi2-core
 msgid "combo box"
-msgstr "komboruta"
+msgstr "kombinationsruta"
 
 #. from gnome:at-spi2-core
 msgid "dateeditor"
@@ -90676,7 +90676,7 @@ msgstr "filväljare"
 
 #. from gnome:at-spi2-core
 msgid "filler"
-msgstr "ifyllare"
+msgstr "utfyllnad"
 
 #. from gnome:at-spi2-core
 msgid "fontchooser"
@@ -90716,7 +90716,7 @@ msgstr "lista"
 
 #. from gnome:at-spi2-core
 msgid "list item"
-msgstr "listpost"
+msgstr "listelement"
 
 #. from gnome:at-spi2-core
 msgid "menu bar"
@@ -90740,7 +90740,7 @@ msgstr "sidflik"
 
 #. from gnome:at-spi2-core
 msgid "page tab list"
-msgstr "sidflikslist"
+msgstr "lista över sidflikar"
 
 #. from gnome:at-spi2-core
 msgid "panel"
@@ -90752,7 +90752,7 @@ msgstr "lösenordstext"
 
 #. from gnome:at-spi2-core
 msgid "popup menu"
-msgstr "poppuppmeny"
+msgstr "snabbmeny"
 
 #. from gnome:at-spi2-core
 msgid "progress bar"
@@ -90768,7 +90768,7 @@ msgstr "radioknapp"
 
 #. from gnome:at-spi2-core
 msgid "radio menu item"
-msgstr "radiomenypost"
+msgstr "radiomenyalternativ"
 
 #. from gnome:at-spi2-core
 msgid "root pane"
@@ -90820,11 +90820,11 @@ msgstr "tabellcell"
 
 #. from gnome:at-spi2-core
 msgid "table column header"
-msgstr "tabellkolumnhuvud"
+msgstr "kolumnrubrik i tabell"
 
 #. from gnome:at-spi2-core
 msgid "table row header"
-msgstr "tabellradshuvud"
+msgstr "radrubrik i tabell"
 
 #. from gnome:at-spi2-core
 msgid "tear off menu item"
@@ -90860,7 +90860,7 @@ msgstr "trädtabell"
 
 #. from gnome:at-spi2-core
 msgid "viewport"
-msgstr "skrivbordsvy"
+msgstr "visningsområde"
 
 #. from gnome:at-spi2-core
 msgid "window"
@@ -90868,7 +90868,7 @@ msgstr "fönster"
 
 #. from gnome:at-spi2-core
 msgid "header"
-msgstr "huvud"
+msgstr "rubrik"
 
 #. from gnome:at-spi2-core
 msgid "footer"
@@ -90888,7 +90888,7 @@ msgstr "program"
 
 #. from gnome:at-spi2-core
 msgid "autocomplete"
-msgstr "komplettera automatiskt"
+msgstr "automatisk komplettering"
 
 #. from gnome:at-spi2-core
 msgid "edit bar"
@@ -90904,11 +90904,11 @@ msgstr "post"
 
 #. from gnome:at-spi2-core
 msgid "chart"
-msgstr "lista"
+msgstr "diagram"
 
 #. from gnome:at-spi2-core
 msgid "caption"
-msgstr "rubrik"
+msgstr "bildtext"
 
 #. from gnome:at-spi2-core
 msgid "document frame"
@@ -90916,7 +90916,7 @@ msgstr "dokumentram"
 
 #. from gnome:at-spi2-core
 msgid "heading"
-msgstr "huvud"
+msgstr "rubrik"
 
 #. from gnome:at-spi2-core
 msgid "page"
@@ -90940,7 +90940,7 @@ msgstr "länk"
 
 #. from gnome:at-spi2-core
 msgid "input method window"
-msgstr "inmatningsmetodfönster"
+msgstr "fönster för inmatningsmetod"
 
 #. from gnome:at-spi2-core
 msgid "table row"
@@ -90952,23 +90952,23 @@ msgstr "trädobjekt"
 
 #. from gnome:at-spi2-core
 msgid "document spreadsheet"
-msgstr "dokument kalkylark"
+msgstr "kalkylarksdokument"
 
 #. from gnome:at-spi2-core
 msgid "document presentation"
-msgstr "dokument presentation"
+msgstr "presentationsdokument"
 
 #. from gnome:at-spi2-core
 msgid "document text"
-msgstr "dokument text"
+msgstr "textdokument"
 
 #. from gnome:at-spi2-core
 msgid "document web"
-msgstr "dokument webb"
+msgstr "webbdokument"
 
 #. from gnome:at-spi2-core
 msgid "document email"
-msgstr "dokument e-post"
+msgstr "e-postdokument"
 
 #. from gnome:at-spi2-core
 msgid "comment"
@@ -90996,7 +90996,7 @@ msgstr "informationsrad"
 
 #. from gnome:at-spi2-core
 msgid "level bar"
-msgstr "nivårad"
+msgstr "nivåindikator"
 
 #. from gnome:at-spi2-core
 msgid "title bar"
@@ -91032,7 +91032,7 @@ msgstr "logg"
 
 #. from gnome:at-spi2-core
 msgid "marquee"
-msgstr "banderoll"
+msgstr "rullande text"
 
 #. from gnome:at-spi2-core
 msgid "math"
@@ -91040,7 +91040,7 @@ msgstr "matematik"
 
 #. from gnome:at-spi2-core
 msgid "rating"
-msgstr "gradering"
+msgstr "betyg"
 
 #. from gnome:at-spi2-core
 msgid "timer"
