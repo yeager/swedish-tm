@@ -18,6 +18,7 @@ import polib
 ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = ROOT.parents[1]
 ARCHIVE = WORKSPACE / "translations" / "GNOME-granskning"
+TRANSLATIONS_REPO = WORKSPACE / "translations"
 INDEX = ARCHIVE / "index.json"
 TM_PO = ROOT / "sv-gnome.po"
 TM_TMX = ROOT / "sv-gnome.tmx"
@@ -58,6 +59,28 @@ def git_baseline() -> str:
     return subprocess.check_output(["git", "show", "HEAD:sv-gnome.po"], cwd=ROOT, text=True)
 
 
+def complete_po_header(text: str) -> str:
+    """Keep the generated compendium's gettext header complete on every import."""
+    lines = text.splitlines(keepends=True)
+    start = next(i for i, line in enumerate(lines) if line.strip() == 'msgid ""')
+    end = start + 1
+    while end < len(lines) and lines[end].strip():
+        end += 1
+    fields = [
+        '"Project-Id-Version: GNOME Swedish translation\\n"\n',
+        '"PO-Revision-Date: ' + datetime.now().astimezone().strftime("%Y-%m-%d %H:%M%z") + '\\n"\n',
+        '"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\\n"\n',
+        '"Language-Team: Swedish\\n"\n',
+        '"Language: sv\\n"\n',
+        '"MIME-Version: 1.0\\n"\n',
+        '"Content-Type: text/plain; charset=UTF-8\\n"\n',
+        '"Content-Transfer-Encoding: 8bit\\n"\n',
+        '"Plural-Forms: nplurals=2; plural=(n != 1);\\n"\n',
+    ]
+    lines[start:end] = [lines[start], lines[start + 1], *fields]
+    return "".join(lines)
+
+
 def entry_bounds(lines: list[str], line_number: int) -> tuple[int, int]:
     """Find the complete blank-line separated PO entry around a polib line."""
     start = line_number - 1
@@ -80,7 +103,7 @@ def main() -> None:
         write_tmx(polib.pofile(str(TM_PO), encoding="utf-8"))
         return
     review_index = json.loads(INDEX.read_text(encoding="utf-8"))["reviews"]
-    baseline = git_baseline()
+    baseline = complete_po_header(git_baseline())
     with tempfile.NamedTemporaryFile(
         mode="w", encoding="utf-8", suffix=".po", prefix=".sv-gnome-baseline-",
         dir=ROOT, delete=False,
@@ -93,7 +116,8 @@ def main() -> None:
         baseline_path.unlink(missing_ok=True)
     existing = {(entry.msgctxt, entry.msgid): entry for entry in tm if not entry.msgid_plural}
     appended: list[polib.POEntry] = []
-    added = skipped_plural = conflicts = 0
+    added = overwritten = skipped_plural = conflicts = 0
+    overwritten_entries: dict[tuple[str | None, str], polib.POEntry] = {}
     sources: list[dict[str, object]] = []
     for review in review_index:
         # Blocked inventory entries deliberately have no archived PO pair.
@@ -104,6 +128,19 @@ def main() -> None:
         if not path.is_file():
             raise FileNotFoundError(f"Missing reviewed GNOME catalog: {path}")
         po = polib.pofile(str(path), encoding="utf-8")
+        relative_archive_path = (Path("GNOME-granskning") / review["path"] / review["reviewed"]).as_posix()
+        try:
+            previous_text = subprocess.check_output(
+                ["git", "show", f"HEAD:{relative_archive_path}"],
+                cwd=TRANSLATIONS_REPO, text=True, stderr=subprocess.DEVNULL,
+            )
+            previous_po = polib.pofile(previous_text, encoding="utf-8")
+            previous_pairs = {
+                (entry.msgctxt, entry.msgid): entry
+                for entry in previous_po if not entry.obsolete and not entry.msgid_plural
+            }
+        except subprocess.CalledProcessError:
+            previous_pairs = {}
         singular = plural = 0
         for entry in po:
             if entry.obsolete or entry.fuzzy or not entry.msgid:
@@ -125,14 +162,34 @@ def main() -> None:
                 appended.append(target)
                 added += 1
             elif target.msgstr != entry.msgstr:
-                # This compendium has no project dimension. Do not let a
-                # module-specific UI label overwrite another GNOME context.
-                conflicts += 1
+                previous = previous_pairs.get(key)
+                if previous and previous.msgstr == target.msgstr and previous.msgstr != entry.msgstr:
+                    # A reviewed correction supersedes the exact old pair stored
+                    # in the context-free TM. Unrelated context conflicts remain
+                    # untouched.
+                    target.msgstr = entry.msgstr
+                    provenance = f"from gnome:reviewed/{review['module']}/{review['branch']}"
+                    comments = target.comment.splitlines() if target.comment else []
+                    old_provenance = next((i for i, item in enumerate(comments) if item.startswith("from gnome:")), None)
+                    if old_provenance is None:
+                        comments.insert(0, provenance)
+                    else:
+                        comments[old_provenance] = provenance
+                    target.comment = "\n".join(comments)
+                    overwritten_entries[key] = target
+                    overwritten += 1
+                else:
+                    conflicts += 1
         sources.append({"module": review["module"], "branch": review["branch"], "kind": review["kind"],
                         "path": str(path.relative_to(WORKSPACE)), "sha256": digest(path),
                         "singular_pairs": singular, "plural_pairs_not_in_compendium": plural})
-    if added:
+    if added or overwritten:
         lines = baseline.splitlines(keepends=True)
+        for entry in sorted(overwritten_entries.values(), key=lambda item: item.linenum, reverse=True):
+            start, end = entry_bounds(lines, entry.linenum)
+            lines[start:end] = str(entry).rstrip("\n").splitlines(keepends=True)
+            if end == len(lines) or (end < len(lines) and lines[end].strip()):
+                lines.insert(start + len(str(entry).splitlines()), "\n")
         merged = "".join(lines).replace(f"# Entries: {len(existing) - added}\n", f"# Entries: {len(existing)}\n", 1)
         if appended:
             merged += "\n" + "\n\n".join(str(entry).rstrip("\n") for entry in appended) + "\n"
@@ -143,11 +200,12 @@ def main() -> None:
         write_tmx(polib.pofile(str(TM_PO), encoding="utf-8"))
     MANIFEST.write_text(json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(), "sources": sources,
-        "added_singular_pairs": added, "context_conflicts_not_overwritten": conflicts,
+        "added_singular_pairs": added, "overwritten_reviewed_pairs": overwritten,
+        "context_conflicts_not_overwritten": conflicts,
         "plural_pairs_not_in_context_free_compendium": skipped_plural,
         "note": "Plural pairs remain in their reviewed PO archives; sv-gnome.po is a context-free singular compendium.",
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"added={added} conflicts={conflicts} plural_skipped={skipped_plural} sources={len(sources)}")
+    print(f"added={added} overwritten={overwritten} conflicts={conflicts} plural_skipped={skipped_plural} sources={len(sources)}")
 
 
 if __name__ == "__main__":
