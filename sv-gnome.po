@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 115459
+# Entries: 115473
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -6010,6 +6010,7 @@ msgstr "H_oppa över alla"
 #. from gnome:nautilus
 #. from gnome:reviewed/gnome-initial-setup/main
 #. from gnome:reviewed/nautilus/main
+#. from gnome:reviewed/file-roller/master
 msgid "_Skip"
 msgstr "H_oppa över"
 
@@ -7587,6 +7588,7 @@ msgstr "Öppnar ”%s”."
 #. from gnome:reviewed/gnome-sudoku/main
 #. from gnome:reviewed/frogr/master
 #. from gnome:reviewed/warp/main
+#. from gnome:reviewed/file-roller/master
 msgid "_Close"
 msgstr "_Stäng"
 
@@ -8567,6 +8569,7 @@ msgstr "Klistra in som _länk"
 #. from gnome:reviewed/evolution/master
 #. from gnome:reviewed/gnumeric/master
 #. from gnome:reviewed/epiphany/main
+#. from gnome:reviewed/ptyxis/main
 msgid "Select _All"
 msgstr "Välj _alla"
 
@@ -8618,6 +8621,7 @@ msgstr "_Öppna skriptmapp"
 #. from gnome:reviewed/webkit/main
 #. from gnome:reviewed/evolution/master
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gnome-commander/main
 msgid "Cu_t"
 msgstr "Klipp u_t"
 
@@ -20963,6 +20967,7 @@ msgstr "Återställ kortkommando"
 #. from gnome:reviewed/epiphany/main
 #. from gnome:reviewed/gnome-commander/main
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Shortcut"
 msgstr "Kortkommando"
 
@@ -26503,6 +26508,7 @@ msgstr "Inte registrerad"
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/gitte/main
 #. from gnome:reviewed/gnome-control-center/main
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Registered"
 msgstr "Registrerade"
 
@@ -551622,3 +551628,163 @@ msgstr ""
 "<guimenuitem>Markera</guimenuitem> — Menyobjektet "
 "<guimenuitem>Markera</guimenuitem> låter dig markera olika delar av "
 "kalkylbladet. När du väljer det öppnas en undermeny."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/menu-edit-select.png\"/> "
+"</imageobject> <textobject> <phrase>An image of the Select Submenu.</phrase>"
+" </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/menu-edit-select.png\"/> "
+"</imageobject> <textobject> <phrase>En bild av undermenyn Markera.</phrase> "
+"</textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The <guimenuitem>All</guimenuitem> item provides a quick way to select the "
+"entire worksheet."
+msgstr ""
+"Med <guimenuitem>Allt</guimenuitem> kan du snabbt markera hela kalkylbladet."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The <guimenuitem>Row</guimenuitem> and <guimenuitem>Column </guimenuitem> "
+"items allow the user to select all the rows or columns spanned by the "
+"current selection."
+msgstr ""
+"Med <guimenuitem>Rad</guimenuitem> och <guimenuitem>Kolumn </guimenuitem> "
+"markerar du alla rader eller kolumner som den aktuella markeringen omfattar."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The <guimenuitem>Array</guimenuitem> menu item allows a user to select all "
+"the cells which are part of the same array as the current cell."
+msgstr ""
+"Menyobjektet <guimenuitem>Matris</guimenuitem> markerar alla celler som "
+"ingår i samma matris som den aktuella cellen."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The <guimenuitem>Depends </guimenuitem> menu item selects all the cells "
+"which contain formula that reference data in the current cell."
+msgstr ""
+"Menyobjektet <guimenuitem>Beroenden </guimenuitem> markerar alla celler med "
+"formler som refererar till data i den aktuella cellen."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Similarly, the <guimenuitem>Inputs </guimenuitem> menu item selects all the "
+"cells whose data is referenced by the formula in the current cell."
+msgstr ""
+"På samma sätt markerar menyobjektet <guimenuitem>Indata </guimenuitem> alla "
+"celler vars data refereras av formeln i den aktuella cellen."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The <guimenuitem>Next Object </guimenuitem> menu item selects the next sheet"
+" object on the current sheet. If no object is selected it will select the "
+"object locate at the front."
+msgstr ""
+"Menyobjektet <guimenuitem>Nästa objekt </guimenuitem> markerar nästa objekt "
+"på det aktuella kalkylbladet. Om inget objekt är markerat väljs det objekt "
+"som ligger längst fram."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The <guimenuitem>Go to Top</guimenuitem>, <guimenuitem>Go to "
+"Bottom</guimenuitem>, <guimenuitem>Go to the First</guimenuitem>, "
+"<guimenuitem>Go to the Last</guimenuitem>, menu items move the selection "
+"within a rectangular block of data cells. the front."
+msgstr ""
+"Menyobjekten <guimenuitem>Gå till toppen</guimenuitem>, <guimenuitem>Gå till"
+" botten</guimenuitem>, <guimenuitem>Gå till första</guimenuitem> och "
+"<guimenuitem>Gå till sista</guimenuitem> flyttar markeringen inom ett "
+"rektangulärt block med dataceller."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<guimenuitem>Goto cell...</guimenuitem> — The <guimenuitem>Goto "
+"cell...</guimenuitem> menu item opens up a dialog which allows the user to "
+"type the name or address of a cell in the worksheet. The current view will "
+"then change to ensure that the selected cell is in the current view and the "
+"selection will cover that cell."
+msgstr ""
+"<guimenuitem>Gå till cell…</guimenuitem> — Menyobjektet <guimenuitem>Gå till"
+" cell…</guimenuitem> öppnar en dialogruta där du kan skriva namnet på eller "
+"adressen till en cell i kalkylbladet. Vyn ändras så att cellen visas och "
+"markeringen omfattar den."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<guimenuitem>Recalculate</guimenuitem> — The "
+"<guimenuitem>Recalculate</guimenuitem> menu item forces the workbook to "
+"recalculate its results. This is useful if a formula in the current "
+"worksheet depends on a cell in a different workbook. "
+"<application>Gnumeric</application> will not necessarily know when that data"
+" has been updated so a user can force <application>Gnumeric</application> to"
+" recalculate all the cells in the current workbook."
+msgstr ""
+"<guimenuitem>Räkna om</guimenuitem> — Menyobjektet <guimenuitem>Räkna "
+"om</guimenuitem> tvingar arbetsboken att räkna om resultaten. Det är "
+"användbart om en formel i det aktuella kalkylbladet är beroende av en cell i"
+" en annan arbetsbok. <application>Gnumeric</application> märker inte alltid "
+"när dessa data har uppdaterats, så du kan tvinga "
+"<application>Gnumeric</application> att räkna om alla celler i den aktuella "
+"arbetsboken."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<guimenuitem>Preferences...</guimenuitem> — The "
+"<guimenuitem>Preference...</guimenuitem> menu item calls the "
+"<guilabel><application>Gnumeric</application> Preferences</guilabel> dialog "
+"explained in detail in <xref linkend=\"chapter-configuring\"/>"
+msgstr ""
+"<guimenuitem>Inställningar…</guimenuitem> — Menyobjektet "
+"<guimenuitem>Inställningar…</guimenuitem> öppnar dialogrutan "
+"<guilabel>Inställningar för <application>Gnumeric</application></guilabel>, "
+"som beskrivs närmare i <xref linkend=\"chapter-configuring\"/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/menu-view-labelled.png\"/> "
+"</imageobject> <textobject> <phrase>An image of the View menu.</phrase> "
+"</textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/menu-view-labelled.png\"/> "
+"</imageobject> <textobject> <phrase>En bild av menyn Visa.</phrase> "
+"</textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<guimenuitem>New View...</guimenuitem> — The <guimenuitem>New "
+"View...</guimenuitem> menu item opens up a new window with the current "
+"workbook visible. and where both windows are open to the same section of the"
+" workbook. If the user starts editing a different part of the sheet in one "
+"view, the other view moves automatically to that portion of the worksheet. "
+"Similarly, if the user changes to a different worksheet in one view, the "
+"other view changes also."
+msgstr ""
+"<guimenuitem>Ny vy…</guimenuitem> — Menyobjektet <guimenuitem>Ny "
+"vy…</guimenuitem> öppnar ett nytt fönster med den aktuella arbetsboken. Båda"
+" fönstren visar samma del av arbetsboken. Om du börjar redigera en annan del"
+" av kalkylbladet i den ena vyn flyttas den andra automatiskt till samma del."
+" Om du byter till ett annat kalkylblad i den ena vyn byter även den andra "
+"vyn kalkylblad."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<guimenuitem>Freeze Panes</guimenuitem> — The <guimenuitem>Freeze "
+"Panes</guimenuitem> menu item is used to freeze the top-most and leftmost "
+"visible portion of the worksheet. This is useful to be able to line up "
+"portions of the worksheet which are not usually together. For instance, if a"
+" user had a very large table with the titles of each column of data on row "
+"12, the user could select row 13 and select this menu item. If the user "
+"scrolled through each data row, the data would line up underneath each "
+"header."
+msgstr ""
+"<guimenuitem>Frys paneler</guimenuitem> — Menyobjektet <guimenuitem>Frys "
+"paneler</guimenuitem> låser den översta och vänstra synliga delen av "
+"kalkylbladet. Då kan du hålla ihop delar av kalkylbladet som annars inte "
+"visas samtidigt. Om du till exempel har en stor tabell med kolumnrubriker på"
+" rad 12 kan du markera rad 13 och välja det här menyobjektet. När du sedan "
+"rullar genom raderna ligger data kvar under respektive rubrik."
