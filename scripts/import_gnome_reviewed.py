@@ -57,6 +57,31 @@ def write_tmx(po: polib.POFile) -> None:
     TM_TMX.write_text("\n".join(lines), encoding="utf-8")
 
 
+def progress_sources() -> list[dict[str, object]]:
+    sources = []
+    directory = ROOT / "reviews" / "gnome-progress"
+    for audit_path in sorted(directory.glob("*.json")):
+        audit = json.loads(audit_path.read_text(encoding="utf-8"))
+        source = {
+            "module": audit["module"],
+            "branch": audit["branch"],
+            "component": audit["component"],
+            "path": str(audit_path.relative_to(ROOT)),
+            "sha256": digest(audit_path),
+            "reviewed_pairs": audit["reviewed_entries_included_in_tm"],
+            "new_translations": audit["new_translations_in_batch"],
+            "remaining_untranslated": audit["remaining_untranslated_in_work_catalog"],
+            "pot_sha256": audit["latest_pot_sha256"],
+        }
+        batch_path = audit.get("reviewed_batch_file")
+        if batch_path:
+            batch_file = ROOT / batch_path
+            source["reviewed_batch_file"] = str(batch_file.relative_to(ROOT))
+            source["reviewed_batch_sha256"] = digest(batch_file)
+        sources.append(source)
+    return sources
+
+
 def git_baseline() -> str:
     return subprocess.check_output(["git", "show", "HEAD:sv-gnome.po"], cwd=ROOT, text=True)
 
@@ -82,12 +107,20 @@ def main() -> None:
     if args.rebuild_tmx_only:
         write_tmx(polib.pofile(str(TM_PO), encoding="utf-8"))
         return
-    review_index = json.loads(INDEX.read_text(encoding="utf-8"))["reviews"]
+    all_reviews = json.loads(INDEX.read_text(encoding="utf-8"))["reviews"]
+    eligible_statuses = {"Klar lokalt", "Klar och inskickad", "Klar utan ändringar"}
+    eligible_branches = {"main", "master", "gnome-50"}
+    review_index = [review for review in all_reviews
+                    if review.get("status") in eligible_statuses
+                    and review.get("branch") in eligible_branches]
+    for review in review_index:
+        if not review.get("reviewed"):
+            raise ValueError(f"completed review has no reviewed catalog: {review.get('module')}/{review.get('branch')}")
     baseline = git_baseline()
     tm = polib.pofile(baseline, encoding="utf-8")
     existing = {(entry.msgctxt, entry.msgid): entry for entry in tm if not entry.msgid_plural}
     appended: list[polib.POEntry] = []
-    updated_entries: list[polib.POEntry] = []
+    updated_entries: dict[int, polib.POEntry] = {}
     added = updated = skipped_plural = 0
     sources: list[dict[str, object]] = []
     for review in review_index:
@@ -120,7 +153,8 @@ def main() -> None:
                 source = f"from gnome:reviewed/{review['module']}/{review['branch']}"
                 if source not in target.comment.splitlines():
                     target.comment = f"{target.comment}\n{source}".strip()
-                updated_entries.append(target)
+                if target.linenum is not None:
+                    updated_entries[target.linenum] = target
                 updated += 1
         sources.append({"module": review["module"], "branch": review["branch"], "kind": review["kind"],
                         "path": str(path.relative_to(WORKSPACE)), "sha256": digest(path),
@@ -129,7 +163,7 @@ def main() -> None:
         lines = baseline.splitlines(keepends=True)
         # Replace changed baseline entries in reverse order so original line
         # locations remain valid, while preserving the rest of the file.
-        for entry in sorted(updated_entries, key=lambda item: item.linenum, reverse=True):
+        for entry in sorted(updated_entries.values(), key=lambda item: item.linenum, reverse=True):
             start, end = entry_bounds(lines, entry.linenum)
             lines[start:end] = [str(entry).rstrip("\n") + "\n"]
         merged = "".join(lines)
@@ -144,9 +178,15 @@ def main() -> None:
         write_tmx(polib.pofile(str(TM_PO), encoding="utf-8"))
     MANIFEST.write_text(json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(), "sources": sources,
+        "selection": {
+            "completed_current_branches": len(review_index),
+            "all_index_records": len(all_reviews),
+            "excluded_status_or_branch": len(all_reviews) - len(review_index),
+        },
+        "incremental_sources": progress_sources(),
         "added_singular_pairs": added, "updated_reviewed_pairs": updated,
         "plural_pairs_not_in_context_free_compendium": skipped_plural,
-        "note": "Plural pairs remain in their reviewed PO archives; sv-gnome.po is a context-free singular compendium.",
+        "note": "Plural pairs remain in their reviewed PO archives. sv-gnome.po stores singular entries and available message contexts; TMX retains project provenance but does not store message context.",
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"added={added} updated={updated} plural_skipped={skipped_plural} sources={len(sources)}")
 

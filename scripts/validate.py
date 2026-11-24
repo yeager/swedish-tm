@@ -65,13 +65,11 @@ def validate(root):
         po = polib.pofile(str(path), encoding='utf-8')
         if po.metadata.get('Language') != 'sv':
             raise ValueError(f'{path.name}: expected Language: sv')
-        if any(e.obsolete or e.fuzzy or not e.msgid or not e.msgstr or e.msgid_plural or e.msgctxt for e in po):
-            raise ValueError(f'{path.name}: expected active, translated singular pairs without context')
-        if len({e.msgid for e in po}) != len(po):
-            raise ValueError(f'{path.name}: duplicate source')
+        if any(e.obsolete or e.fuzzy or not e.msgid or not e.msgstr or e.msgid_plural for e in po):
+            raise ValueError(f'{path.name}: expected active, translated singular pairs')
+        if len({(e.msgctxt, e.msgid) for e in po}) != len(po):
+            raise ValueError(f'{path.name}: duplicate source/context key')
         pairs = collections.Counter((e.msgid, e.msgstr) for e in po)
-        if any(n != 1 for n in pairs.values()):
-            raise ValueError(f'{path.name}: duplicate pair')
         all_pairs.update(pairs)
         info = {'po_entries': len(po)}
         tmx = path.with_suffix('.tmx')

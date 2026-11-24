@@ -22,9 +22,10 @@ för rad.
 
 ## English reference
 
-**707 207 unique English–Swedish translation pairs** in 16 ecosystem exports
-(814 318 entries before deduplicating across ecosystems). These counts describe
-the files shipped in this repository  including the Translation Project update of 2026-09-23.
+**741 370 unique English–Swedish translation pairs** in 16 ecosystem exports
+(859 716 entries before deduplicating across ecosystems). These counts describe
+the files currently shipped in this repository, including the latest reviewed
+GNOME and Translation Project updates.
 
 ## Translation Project review update, 2026-09-23
 
@@ -48,7 +49,7 @@ gettext validity, XML safety, format agreement and statistics consistency.
 
 | Ecosystem | Pairs in export | TMX | PO compendium |
 |-----------|------------------:|-----|---------------|
-| GNOME | 70 026 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
+| GNOME | 115 424 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
 | KDE | 35 507 | [sv-kde.tmx](sv-kde.tmx) | [sv-kde.po](sv-kde.po) |
 | Mozilla | 19 293 | [sv-mozilla.tmx](sv-mozilla.tmx) | [sv-mozilla.po](sv-mozilla.po) |
 | Ubuntu | 50 525 | [sv-ubuntu.tmx](sv-ubuntu.tmx) | [sv-ubuntu.po](sv-ubuntu.po) |
@@ -94,22 +95,24 @@ Use a PO compendium with GNU gettext:
 msgmerge --compendium sv-gnome.po --compendium sv-kde.po my-file.po my-file.pot -o filled.po
 ```
 
-Look up a translation with Python:
+Look up a translation with Python. GNOME entries may have a message context, so
+include it in the key when one is available:
 
 ```python
 import polib
 
-tm = {e.msgid: e.msgstr for e in polib.pofile('sv-gnome.po').translated_entries()}
-print(tm.get('Save'))
+tm = {(e.msgctxt, e.msgid): e.msgstr
+      for e in polib.pofile('sv-gnome.po').translated_entries()}
+print(tm.get(('menu', 'Save')))
 ```
 
-TMX files can be imported into CAT tools. All 14 TMX exports contain the same
+TMX files can be imported into CAT tools. All 15 TMX exports contain the same
 source/target pairs as their corresponding PO exports. Transifex is PO-only.
 
-The exports preserve project references, but not the original message contexts
-or plural identities. Treat matches as translation suggestions and review them
-in their destination context. Agreement between export formats is not a
-linguistic quality guarantee.
+The GNOME PO export preserves message contexts. The TMX exports preserve project
+provenance but not message contexts or plural identities. Treat matches as
+translation suggestions and review them in their destination context. Agreement
+between export formats is not a linguistic quality guarantee.
 
 ## Export repairs and control characters
 
