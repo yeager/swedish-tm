@@ -50,3 +50,6 @@ Lokalise kan representera en svensk pluralöversättning som ett JSON-objekt med
 ## Nycklar utan användbart käll-/målpar
 
 `snapshots/core-excluded.jsonl` dokumenterar nycklar som inte kan representeras som svensk-engelska par, med orsak och synlighetsstatus. Därmed faller inte tomma värden eller felaktiga pluralpar bort ur inventeringen. Core-exporten den 24 november 2026 innehåller 75 645 översatta enheter och 32 exkluderade, synliga nycklar: 24 utan text på någotdera språket och 8 utan engelsk källtext, men med svenska platshållarvärden. De 17 nya synliga nycklarna med tom svenska har översatts och flyttats till snapshoten. `scripts/home_assistant_export.py --validate --component core` kontrollerar exkluderingsinventeringen tillsammans med PO- och TMX-snapshoten.
+## Radgranskning 22681–22800, 24 november 2026
+
+Arbetet finns i `Home-Assistant/2026-11-24-reviewed-core-22681-22800.json` och den fullständiga rapporten i yeager/translations. 17 ändringar sparades och lästes tillbaka från Lokalise; en PM2.5-översättning granskades och behölls. Tre sökvägar saknar motsvarighet i aktuell Core-källa och har separat uppföljningsstatus. Den kanoniska manuellt verifierade TMX-filen innehåller nu 16 415 poster.

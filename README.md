@@ -22,8 +22,8 @@ för rad.
 
 ## English reference
 
-**707 207 unique English–Swedish translation pairs** in 16 ecosystem exports
-(814 318 entries before deduplicating across ecosystems). These counts describe
+**737 602 unique English–Swedish translation pairs** in 16 ecosystem exports
+(869 155 entries before deduplicating across ecosystems). These counts describe
 the files shipped in this repository  including the Translation Project update of 2026-09-23.
 
 ## Translation Project review update, 2026-09-23
@@ -52,7 +52,7 @@ gettext validity, XML safety, format agreement and statistics consistency.
 | KDE | 35 507 | [sv-kde.tmx](sv-kde.tmx) | [sv-kde.po](sv-kde.po) |
 | Mozilla | 19 293 | [sv-mozilla.tmx](sv-mozilla.tmx) | [sv-mozilla.po](sv-mozilla.po) |
 | Ubuntu | 50 525 | [sv-ubuntu.tmx](sv-ubuntu.tmx) | [sv-ubuntu.po](sv-ubuntu.po) |
-| Fedora | 14 237 | [sv-fedora.tmx](sv-fedora.tmx) | [sv-fedora.po](sv-fedora.po) |
+| Fedora | 69 074 | [sv-fedora.tmx](sv-fedora.tmx) | [sv-fedora.po](sv-fedora.po) |
 | LibreOffice | 44 495 | [sv-libreoffice.tmx](sv-libreoffice.tmx) | [sv-libreoffice.po](sv-libreoffice.po) |
 | Xfce | 3 182 | [sv-xfce.tmx](sv-xfce.tmx) | [sv-xfce.po](sv-xfce.po) |
 | Translation Project | 117 723 | [sv-tp.tmx](sv-tp.tmx) | [sv-tp.po](sv-tp.po) |
@@ -160,6 +160,25 @@ through the Lokalise API use `lokalise:<translation-id>`. The default command
 reports both styles. Once every older entry has been uniquely reconciled via
 the API, use `--require-lokalise-ids` as the migration gate. Do not replace a
 legacy key with an inferred ID.
+
+### Fedora Weblate export
+
+`scripts/export_fedora_weblate.py` creates `sv-fedora.po` and `sv-fedora.tmx`
+from all translated Swedish units exposed by Fedora Weblate. It reads the API
+token only from the system keyring entry `l10n/weblate` /
+`translate.fedoraproject.org`; neither the token nor HTTP credentials are
+written to the repository. The API is paginated deliberately with a pause and
+stores a resumable checkpoint outside version control while running.
+
+The context-free compendium format accepts one singular English–Swedish pair
+per source. The export therefore excludes plural or variant units and resolves
+conflicting targets deterministically; the generated
+`fedora-weblate-manifest.json` records those counts. Regenerate it with:
+
+```bash
+python3 scripts/export_fedora_weblate.py --delay 1.2
+python3 scripts/validate.py --write-stats
+```
 
 ## Sources and reuse
 
