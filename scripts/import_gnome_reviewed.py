@@ -7,6 +7,7 @@ import hashlib
 import json
 import subprocess
 import argparse
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 from xml.sax.saxutils import escape
@@ -80,15 +81,28 @@ def main() -> None:
         return
     review_index = json.loads(INDEX.read_text(encoding="utf-8"))["reviews"]
     baseline = git_baseline()
-    baseline_path = Path("/tmp/sv-gnome-baseline.po")
-    baseline_path.write_text(baseline, encoding="utf-8")
-    tm = polib.pofile(str(baseline_path), encoding="utf-8")
+    with tempfile.NamedTemporaryFile(
+        mode="w", encoding="utf-8", suffix=".po", prefix=".sv-gnome-baseline-",
+        dir=ROOT, delete=False,
+    ) as baseline_file:
+        baseline_file.write(baseline)
+        baseline_path = Path(baseline_file.name)
+    try:
+        tm = polib.pofile(str(baseline_path), encoding="utf-8")
+    finally:
+        baseline_path.unlink(missing_ok=True)
     existing = {(entry.msgctxt, entry.msgid): entry for entry in tm if not entry.msgid_plural}
     appended: list[polib.POEntry] = []
     added = skipped_plural = conflicts = 0
     sources: list[dict[str, object]] = []
     for review in review_index:
+        # Blocked inventory entries deliberately have no archived PO pair.
+        # They belong in the review report but cannot contribute to the TM.
+        if "path" not in review or "reviewed" not in review:
+            continue
         path = ARCHIVE / review["path"] / review["reviewed"]
+        if not path.is_file():
+            raise FileNotFoundError(f"Missing reviewed GNOME catalog: {path}")
         po = polib.pofile(str(path), encoding="utf-8")
         singular = plural = 0
         for entry in po:
