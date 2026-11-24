@@ -145,6 +145,12 @@ def main() -> None:
         for entry in po:
             if entry.obsolete or entry.fuzzy or not entry.msgid:
                 continue
+            # GNOME game catalogs may store non-prose payloads (keyboard maps,
+            # letter sets and whole word lists) under source keys like
+            # ``data-dictionary``. Keep these in the archived PO, but do not
+            # add them to the reusable, context-free translation memory.
+            if entry.msgid.startswith("data-"):
+                continue
             if entry.msgid_plural:
                 plural += 1
                 skipped_plural += 1
