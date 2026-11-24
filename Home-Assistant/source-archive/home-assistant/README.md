@@ -1,15 +1,15 @@
 # Home Assistant: svensk översättningsminnesexport
 
-Detta är en kontextbevarande ögonblicksbild av samtliga **icke arkiverade** strängar med både engelsk källa och svensk måltext i Lokalises fyra Home Assistant-projekt, hämtad den 24 oktober 2026:
+Detta är en kontextbevarande ögonblicksbild av samtliga **icke arkiverade** strängar med både engelsk källa och svensk måltext i Lokalises fyra Home Assistant-projekt, hämtad den 24 november 2026:
 
 | Komponent | Enheter | Segment |
 |---|---:|---:|
-| Core | 70 104 | 70 105 |
+| Core | 75 645 | 75 647 |
 | Frontend | 11 274 | 11 274 |
 | iOS Companion | 3 572 | 3 572 |
 | Android Companion | 1 668 | 1 673 |
 
-Varje PO-post har Lokalise-nyckel och engelsk respektive svensk översättnings-ID i kommentaren. TMX-filerna bevarar motsvarande metadata, kontext och kontrollsumma för den importerade komponentens råa JSONL-ögonblicksbild. Katalogerna är API-exporter från angivet datum och kompletterar de mindre, individuellt granskade kopiorna i `../../review-archive/catalogs/`. En exporterad post är en översättningsresurs och innebär inte att varje äldre sträng har fått en ny språkgranskning.
+Varje PO-post har Lokalise-nyckel och engelsk respektive svensk översättnings-ID i kommentaren. TMX-filerna bevarar motsvarande metadata, kontext och kontrollsumma för den importerade komponentens råa JSONL-ögonblicksbild. Katalogerna är API-exporter från angivet datum och kompletterar de mindre, individuellt granskade kopiorna i `../../review-archive/catalogs/`. En exporterad post är en översättningsresurs och innebär inte att varje äldre sträng har fått en ny språkgranskning. Den aktuella snapshoten omfattar även de 240 Core-posterna radgranskade 9181–9420 den 24 november 2026.
 
 Kör den reproducerbara exporten med:
 
@@ -40,3 +40,13 @@ De fyra katalogerna har kontrollerats mot sina arkiverade JSONL-underlag: samtli
 En separat livekontroll via Lokalises API den 19 november omfattade samtliga 75 007 Core-nycklar på 151 sidor och fann inga engelska nycklar med tom svensk översättning. Resultatet gäller täckning av fält, inte språklig kvalitet eller en ny fullständig TM-export.
 
 Återställda nyckelreferenser förs inte in som vanliga textpar: referensernas ursprung och mål dokumenteras i ändringsloggarna och måste bedömas i sitt sammanhang.
+
+## Löpande Core-granskning, 24 november 2026
+
+Den aktuella Core-snapshoten innehåller 75 645 Lokalise-nycklar och har 75 647 segment efter de senaste fullständiga API-hämtningarna och de 17 nya översättningarna den 24 november 2026. PO och TMX har genererats från samma JSONL-underlag och validerats mot varandra. Granskningsstatusar och källor sparas i snapshoten; en ny hämtning bevarar status bara när den engelska källan och den svenska måltexten fortfarande är identiska. Ändras ett livevärde efter granskning, markeras posten `needs-review-live-change` i stället för att det gamla godkännandet följer med.
+
+Lokalise kan representera en svensk pluralöversättning som ett JSON-objekt med `one` och `other`. `scripts/update_lokalise_batch.py` accepterar då formen `{"key_id":{"one":"…","other":"…"}}`, skickar rätt pluralpayload och återläser resultatet. Core-exportören tar även pluralformerna från aktuell komponent-`strings.json` när källans `other`-form saknas i API men Core-källan har en annan namngiven form, till exempel `two`. Detta gör att TMX och PO behåller rätt käll-/målpar.
+
+## Nycklar utan användbart käll-/målpar
+
+`snapshots/core-excluded.jsonl` dokumenterar nycklar som inte kan representeras som svensk-engelska par, med orsak och synlighetsstatus. Därmed faller inte tomma värden eller felaktiga pluralpar bort ur inventeringen. Core-exporten den 24 november 2026 innehåller 75 645 översatta enheter och 32 exkluderade, synliga nycklar: 24 utan text på någotdera språket och 8 utan engelsk källtext, men med svenska platshållarvärden. De 17 nya synliga nycklarna med tom svenska har översatts och flyttats till snapshoten. `scripts/home_assistant_export.py --validate --component core` kontrollerar exkluderingsinventeringen tillsammans med PO- och TMX-snapshoten.

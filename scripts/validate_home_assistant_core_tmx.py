@@ -43,7 +43,13 @@ def validate(path: Path, *, require_lokalise_ids: bool = False) -> Counter:
         languages = {item.get("{http://www.w3.org/XML/1998/namespace}lang") for item in variants}
         if source is None or not source.text:
             raise ValueError(f"{tuid}: missing source provenance")
-        valid_statuses = {"saved-and-read-back", "verified-existing"}
+        # Keep unresolved source-path cases in the TMX as traceable review
+        # follow-ups without presenting them as fully source-verified entries.
+        valid_statuses = {
+            "saved-and-read-back",
+            "verified-existing",
+            "source-path-follow-up",
+        }
         if status is None or status.text not in valid_statuses:
             raise ValueError(
                 f"{tuid}: expected one of {', '.join(sorted(valid_statuses))} statuses"

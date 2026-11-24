@@ -26,7 +26,7 @@ def language_translation(key: dict, language: str) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("project_id")
-    parser.add_argument("updates", help="JSON object: key ID -> reviewed translation")
+    parser.add_argument("updates", help="JSON object: key ID -> reviewed string or plural-form object")
     parser.add_argument("--language", default="sv")
     parser.add_argument("--interval", type=float, default=0.13,
                         help="minimum seconds between API calls")
@@ -43,11 +43,19 @@ def main() -> int:
     verified = []
     for key_id, wanted in updates.items():
         key_id = str(key_id)
-        if not isinstance(wanted, str) or not wanted:
-            raise ValueError(f"{key_id}: translation must be non-empty text")
         response = session.get(f"{base}/keys/{key_id}", params={"include_translations": 1}, timeout=30)
         response.raise_for_status()
         key = response.json()["key"]
+        if isinstance(wanted, str):
+            if not wanted:
+                raise ValueError(f"{key_id}: translation must be non-empty text")
+        elif isinstance(wanted, dict):
+            if not wanted or any(not isinstance(form, str) for form in wanted.values()):
+                raise ValueError(f"{key_id}: plural translation must map forms to strings")
+            if not key.get("is_plural"):
+                raise ValueError(f"{key_id}: plural forms supplied for a non-plural key")
+        else:
+            raise ValueError(f"{key_id}: translation must be text or a plural-form object")
         target = language_translation(key, args.language)
         if wanted == "@source":
             wanted = language_translation(key, "en")["translation"]
@@ -61,6 +69,8 @@ def main() -> int:
         response = session.get(f"{base}/translations/{translation_id}", timeout=30)
         response.raise_for_status()
         actual = response.json()["translation"]["translation"]
+        if isinstance(wanted, dict) and isinstance(actual, str):
+            actual = json.loads(actual)
         if actual != wanted:
             raise RuntimeError(f"{key_id}: read-back differed")
         verified.append({"key_id": key_id, "translation_id": str(translation_id)})

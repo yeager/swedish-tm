@@ -7,6 +7,7 @@ English/Swedish pair together with the Lokalise key context.
 """
 from __future__ import annotations
 import argparse, datetime as dt, hashlib, json, os, time, urllib.request
+from collections import Counter
 from pathlib import Path
 import xml.etree.ElementTree as ET
 import polib
@@ -55,8 +56,40 @@ def parse_variant(value: str):
     return ordered[:2]
 
 
+def core_plural_source(key: dict):
+    """Read plural source forms from current Core strings.json when available.
+
+    Some entity states use literal state keys such as ``one`` and ``two``.
+    Lokalise represents those as the language's ``one``/``other`` plural pair,
+    and its source ``other`` can be empty even though Core has a real ``two``
+    string. Prefer the checked out Core source in that case.
+    """
+    context = key.get("key_name", {}).get("other", "")
+    parts = context.split("::")
+    if len(parts) < 4 or parts[0] != "component":
+        return []
+    integration = parts[1]
+    source_path = ROOT.parent.parent / "sources" / "home-assistant-core-current" / "homeassistant" / "components" / integration / "strings.json"
+    if not source_path.is_file():
+        return []
+    try:
+        node = json.loads(source_path.read_text(encoding="utf-8"))
+        for part in parts[2:]:
+            node = node[part]
+    except (KeyError, TypeError, json.JSONDecodeError):
+        return []
+    if not isinstance(node, dict) or not isinstance(node.get("one"), str):
+        return []
+    other = node.get("other")
+    if not isinstance(other, str) or not other:
+        alternatives = [value for name, value in node.items() if name != "one" and isinstance(value, str) and value]
+        other = alternatives[0] if len(alternatives) == 1 else ""
+    return [node["one"], other] if other else []
+
+
 def fetch_component(component: str, title: str, project_id: str, token: str, snapshot_date: str):
     rows = []
+    excluded = []
     page = 1
     while True:
         # Lokalise's paginated key endpoint can otherwise serve a stale cached
@@ -73,7 +106,33 @@ def fetch_component(component: str, title: str, project_id: str, token: str, sna
             swedish = translations.get("sv", {})
             source = parse_variant(english.get("translation", ""))
             target = parse_variant(swedish.get("translation", ""))
+            if key.get("is_plural"):
+                local_source = core_plural_source(key)
+                if len(local_source) == 2:
+                    source = local_source
             if not source or not target:
+                reason = (
+                    "empty-source-and-target" if not source and not target
+                    else "empty-source" if not source
+                    else "empty-target"
+                )
+                excluded.append({
+                    "id": f"home-assistant:{component}:{key['key_id']}",
+                    "project": title,
+                    "component": component,
+                    "unit": str(key["key_id"]),
+                    "context": key.get("key_name", {}).get("other", ""),
+                    "source": source,
+                    "target": target,
+                    "source_translation_raw": english.get("translation", ""),
+                    "target_translation_raw": swedish.get("translation", ""),
+                    "source_translation_id": english.get("translation_id"),
+                    "target_translation_id": swedish.get("translation_id"),
+                    "snapshot_date": snapshot_date,
+                    "is_hidden": bool(key.get("is_hidden")),
+                    "exclusion_reason": reason,
+                    "note": "Lokalise key retained in exclusion inventory; no nonempty source/target pair is available for TMX.",
+                })
                 continue
             if len(source) != len(target):
                 # A one-form source may legitimately have Swedish plural forms.
@@ -82,6 +141,21 @@ def fetch_component(component: str, title: str, project_id: str, token: str, sna
                 elif len(source) == 2 and len(target) == 1:
                     target = [target[0], target[0]]
                 else:
+                    excluded.append({
+                        "id": f"home-assistant:{component}:{key['key_id']}",
+                        "project": title,
+                        "component": component,
+                        "unit": str(key["key_id"]),
+                        "context": key.get("key_name", {}).get("other", ""),
+                        "source": source,
+                        "target": target,
+                        "source_translation_id": english.get("translation_id"),
+                        "target_translation_id": swedish.get("translation_id"),
+                        "snapshot_date": snapshot_date,
+                        "is_hidden": bool(key.get("is_hidden")),
+                        "exclusion_reason": "plural-form-count-mismatch",
+                        "note": "Lokalise key retained in exclusion inventory because source and target plural forms cannot be paired safely.",
+                    })
                     continue
             rows.append({
                 "id": f"home-assistant:{component}:{key['key_id']}",
@@ -106,11 +180,15 @@ def fetch_component(component: str, title: str, project_id: str, token: str, sna
         # without adding enough delay to make a complete Core export stale.
         time.sleep(0.01)
     rows.sort(key=lambda row: int(row["unit"]))
-    return rows
+    return rows, excluded
 
 
 def snapshot_path(component: str) -> Path:
     return OUT / "snapshots" / f"{component}.jsonl"
+
+
+def exclusion_path(component: str) -> Path:
+    return OUT / "snapshots" / f"{component}-excluded.jsonl"
 
 
 def write_snapshot(component: str, rows):
@@ -118,6 +196,27 @@ def write_snapshot(component: str, rows):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("".join(json.dumps(row, ensure_ascii=False, separators=(",", ":")) + "\n" for row in rows), encoding="utf-8")
     return path
+
+
+def write_exclusions(component: str, rows):
+    path = exclusion_path(component)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        "".join(json.dumps(row, ensure_ascii=False, separators=(",", ":")) + "\n" for row in rows),
+        encoding="utf-8",
+    )
+    return path
+
+
+def load_exclusions(component: str):
+    path = exclusion_path(component)
+    if not path.is_file():
+        return []
+    return [
+        json.loads(line)
+        for line in path.read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
 
 
 def load_snapshot(component: str):
@@ -178,6 +277,26 @@ def write_component(component: str, rows):
 
 def validate_component(component: str):
     rows = load_snapshot(component)
+    excluded = load_exclusions(component)
+    row_units = {str(row["unit"]) for row in rows}
+    excluded_units = [str(row["unit"]) for row in excluded]
+    if len(set(excluded_units)) != len(excluded_units):
+        raise ValueError(f"{component}: duplicate key in exclusion inventory")
+    if row_units.intersection(excluded_units):
+        raise ValueError(f"{component}: key occurs in both export and exclusion inventory")
+    valid_exclusion_reasons = {
+        "empty-source-and-target",
+        "empty-source",
+        "empty-target",
+        "plural-form-count-mismatch",
+    }
+    for row in excluded:
+        if row.get("component") != component or not row.get("context") or not row.get("unit"):
+            raise ValueError(f"{component}: malformed exclusion inventory row")
+        if row.get("exclusion_reason") not in valid_exclusion_reasons:
+            raise ValueError(f"{component}: unsupported exclusion reason for {row['unit']}")
+        if not isinstance(row.get("is_hidden"), bool):
+            raise ValueError(f"{component}: missing hidden-key state for excluded key {row['unit']}")
     expected = [(row["source"][index], target) for row in rows for index, target in enumerate(row["target"])]
     path = po_path(component)
     po = polib.pofile(str(path), encoding="utf-8")
@@ -196,7 +315,13 @@ def validate_component(component: str):
         tmx.append((variants["en"], variants["sv"]))
     if tmx != expected:
         raise ValueError(f"{component}: TMX does not match snapshot")
-    return {"units": len(rows), "segments": len(expected), "pairs": len(set(expected))}
+    return {
+        "units": len(rows),
+        "segments": len(expected),
+        "pairs": len(set(expected)),
+        "excluded_keys": len(excluded),
+        "exclusion_reasons": dict(Counter(row["exclusion_reason"] for row in excluded)),
+    }
 
 
 def main():
@@ -221,9 +346,27 @@ def main():
             parser.error("LOKALISE_TOKEN or the secure Lokalise keyring entry is required with --fetch")
         for component in components:
             title, project_id = PROJECTS[component]
-            rows = fetch_component(component, title, project_id, token, today)
+            rows, excluded = fetch_component(component, title, project_id, token, today)
+            previous_path = snapshot_path(component)
+            previous = {}
+            if previous_path.is_file():
+                previous = {row["unit"]: row for row in load_snapshot(component)}
+            for row in rows:
+                old = previous.get(row["unit"])
+                if not old or old.get("review_status") == "live-lokalise-export":
+                    continue
+                if old.get("source") == row["source"] and old.get("target") == row["target"]:
+                    row["review_status"] = old["review_status"]
+                    row["note"] = old.get("note", row["note"])
+                else:
+                    row["review_status"] = "needs-review-live-change"
+                    row["note"] = (
+                        f"Tidigare {old.get('review_status')} post ändrad i livekällan eller Lokalise sedan "
+                        f"{old.get('snapshot_date')}; granskningsstatus måste förnyas."
+                    )
             write_snapshot(component, rows)
-            print(component, "fetched", len(rows))
+            write_exclusions(component, excluded)
+            print(component, "fetched", len(rows), "excluded with reason", len(excluded))
     result = {}
     if args.write:
         for component in components:
