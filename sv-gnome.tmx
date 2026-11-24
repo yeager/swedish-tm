@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261124T193726Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261124T194557Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -594759,6 +594759,81 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;&lt;application&gt;Gnumeric&lt;/application&gt; on the Web&lt;/guimenuitem&gt; — This menu entry allows the user to launch a web browser and explore the web site dedicated to &lt;application&gt;Gnumeric&lt;/application&gt; on the server used by the GNOME project.</seg></tuv>
       <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;&lt;application&gt;Gnumeric&lt;/application&gt; på webben&lt;/guimenuitem&gt; — Menyobjektet öppnar en webbläsare och visar webbplatsen för &lt;application&gt;Gnumeric&lt;/application&gt; på GNOME-projektets server.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>There are 3 ways to determine which rows and/or columns should be frozen.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det finns tre sätt att avgöra vilka rader och/eller kolumner som ska frysas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the selection is at least partially visible and does not include the cell A1, &lt;application&gt;Gnumeric&lt;/application&gt; freezes the portion of the worksheet above or to the left of the current selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om markeringen är åtminstone delvis synlig och inte omfattar cell A1 fryser &lt;application&gt;Gnumeric&lt;/application&gt; den del av kalkylbladet som ligger ovanför eller till vänster om den aktuella markeringen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the selection is at least partially visible, includes cell A1, and does not consist of whole rows or columns, &lt;application&gt;Gnumeric&lt;/application&gt; freezes all rows or columns intersecting the selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om markeringen är åtminstone delvis synlig, omfattar cell A1 och inte består av hela rader eller kolumner fryser &lt;application&gt;Gnumeric&lt;/application&gt; alla rader och kolumner som markeringen skär.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the selection is at least partially visible, includes cell A1, and consists of whole rows or columns, &lt;application&gt;Gnumeric&lt;/application&gt; freezes those rows or columns.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om markeringen är åtminstone delvis synlig, omfattar cell A1 och består av hela rader eller kolumner fryser &lt;application&gt;Gnumeric&lt;/application&gt; dessa rader eller kolumner.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the selection is not visible at all, then &lt;application&gt;Gnumeric&lt;/application&gt; freezes those rows and columns to the left or above the sixth visible column and tenth visible row.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om markeringen inte alls är synlig fryser &lt;application&gt;Gnumeric&lt;/application&gt; raderna och kolumnerna till vänster om den sjätte synliga kolumnen respektive ovanför den tionde synliga raden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In all cases, the region of the worksheet above or to the left of the currently visible region will become inaccessible until the view is unfrozen.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I samtliga fall går det inte att komma åt den del av kalkylbladet som ligger ovanför eller till vänster om det område som visas, förrän frysningen hävs.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Windows&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Windows&lt;/guimenuitem&gt; menu item provides access to a submenu which lists all of the windows which are currently open. This provides an easy way to jump between all the different instances and views of &lt;application&gt;Gnumeric&lt;/application&gt; documents.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Fönster&lt;/guimenuitem&gt; — Menyalternativet &lt;guimenuitem&gt;Fönster&lt;/guimenuitem&gt; öppnar en undermeny med en lista över alla fönster som är öppna. Där kan du enkelt växla mellan olika instanser och vyer av &lt;application&gt;Gnumeric&lt;/application&gt;-dokument.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Toolbars&lt;/guimenuitem&gt; — The &lt;guimenuitem&gt;Toolbars&lt;/guimenuitem&gt; menu item provides a submenu which lists each &lt;application&gt;Gnumeric&lt;/application&gt; toolbar. The toolbars in this submenu which have a check mark in front of their name will be shown. The display status of each toolbar can be changed by selecting the menu item with that toolbar's name.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Verktygsfält&lt;/guimenuitem&gt; — Menyalternativet &lt;guimenuitem&gt;Verktygsfält&lt;/guimenuitem&gt; öppnar en undermeny med en lista över &lt;application&gt;Gnumeric&lt;/application&gt;s verktygsfält. Verktygsfält med en bock framför namnet visas. Du kan ändra om ett verktygsfält ska visas genom att välja menyalternativet med dess namn.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Live Assistance&lt;/guimenuitem&gt; — This menu entry allows the user to launch an Internet Relay Chat (IRC) client to join the GIMPnet network and the #&lt;application&gt;Gnumeric&lt;/application&gt; channel. This channel is used by the &lt;application&gt;Gnumeric&lt;/application&gt; developers. There is generally someone around who will, after a few minutes, notice a nice question and attempt to answer it.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Direkthjälp&lt;/guimenuitem&gt; — Med det här menyalternativet kan du starta en IRC-klient (Internet Relay Chat) och ansluta till nätverket GIMPnet och kanalen #&lt;application&gt;Gnumeric&lt;/application&gt;. Kanalen används av &lt;application&gt;Gnumeric&lt;/application&gt;-utvecklarna. Oftast finns det någon där som efter en liten stund ser en fråga och försöker besvara den.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Live assistance is provided on a purely voluntary basis. There are no guarantees that your question will be answered or that the answer will be correct. We generally try our best to answer questions when they are asked politely and when the user shows that they have at least looked in the User Manual for an answer.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Direkthjälpen sköts helt ideellt. Det finns inga garantier för att din fråga blir besvarad eller att svaret blir korrekt. Vi försöker i regel göra vårt bästa för att besvara frågor som ställs på ett trevligt sätt, särskilt när frågeställaren visar att hen åtminstone har letat efter svaret i användarhandboken.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;Report a Problem&lt;/guimenuitem&gt; — This menu entry allows the user to launch a web browser and open the page on GNOME's GitLab issue/ bug entry system for the &lt;application&gt;Gnumeric&lt;/application&gt; program. This page includes instructions on submitting reports of problems. The first time a user reports a problem, they will be asked to login to the system.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Rapportera ett problem&lt;/guimenuitem&gt; — Med det här menyalternativet kan du öppna &lt;application&gt;Gnumeric&lt;/application&gt;s sida i GNOMEs ärendehanteringssystem på GitLab i en webbläsare. Där finns anvisningar för hur du rapporterar problem. Första gången du rapporterar ett problem behöver du logga in.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;2&lt;/emphasis&gt; The &lt;interface&gt;About &lt;application&gt;Gnumeric&lt;/application&gt;&lt;/interface&gt; dialog.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;2&lt;/emphasis&gt; Dialogrutan &lt;interface&gt;Om &lt;application&gt;Gnumeric&lt;/application&gt;&lt;/interface&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenuitem&gt;About&lt;/guimenuitem&gt; —Shows basic information about &lt;application&gt;Gnumeric&lt;/application&gt;, such as the authors' names and the application version number.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenuitem&gt;Om&lt;/guimenuitem&gt; — Visar grundläggande information om &lt;application&gt;Gnumeric&lt;/application&gt;, till exempel författarnas namn och programmets versionsnummer.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Context menus are menus which open up under the mouse pointer and are therefore detached from the format graphical structure of the application. These menus provide an extra and convenient way to access &lt;application&gt;Gnumeric&lt;/application&gt; commands. All of the commands in context menus are available through the regular menu system. Context menus provide different commands depending on the position of the pointer.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Snabbmenyer öppnas under muspekaren och är därför fristående från programmets grafiska struktur. De ger ett extra och smidigt sätt att komma åt kommandon i &lt;application&gt;Gnumeric&lt;/application&gt;. Alla kommandon i snabbmenyerna finns också i de vanliga menyerna. Vilka kommandon som visas beror på var pekaren befinner sig.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To activate a context menu, a user simply positions the pointer over the appropriate area and clicks one of the buttons on their mouse. Since this button is configurable and users have mice with different buttons, it may be a different button on any given machine or may even require the combination of a keyboard key and a mouse buttons. The user will have to find how to do this themselves.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Öppna en snabbmeny genom att placera pekaren över rätt område och klicka på en av musknapparna. Vilken knapp som används kan variera mellan datorer eftersom musknapparna kan konfigureras och olika möss har olika knappar. I vissa fall kan det krävas att du håller ned en tangent samtidigt som du klickar. Du får själv ta reda på hur det fungerar på din dator.</seg></tuv>
     </tu>
   </body>
 </tmx>
