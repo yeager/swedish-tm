@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T085011Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T085315Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -597614,6 +597614,121 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>In the case of ties, the rank calculated by this tool differs from the value of the RANK function for the same data. This tool calculates the rank as it is normally used in Statistics: If two values are tied, the assigned rank is the average rank for those entries. For example in &lt;xref linkend="rank-example-1"/&gt; the two values 10 are the second and third largest values. Since they are equal each receives the rank of 2.5, the average of 2 and 3. The rank function on the other hand assigns the rank as it is normally used to determine placements. The two values 10 would therefore each receive a rank of 2.</seg></tuv>
       <tuv xml:lang="sv"><seg>Om flera värden är lika skiljer sig rangordningen från verktyget från resultatet av funktionen RANK för samma data. Verktyget använder den statistiska rangordningen: lika värden får medelvärdet av sina rangtal. I &lt;xref linkend="rank-example-1"/&gt; är till exempel de två värdena 10 näst störst respektive tredje störst. Eftersom värdena är lika får båda rangtalet 2,5, medelvärdet av 2 och 3. Funktionen RANK använder i stället den rangordning som brukar användas för placeringar. Därför får båda värdena 10 rangtalet 2.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Sampling Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stickprovsverktyget</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Sampling Tool Dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan för stickprovsverktyget</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-sampling.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the sampling tool.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-sampling.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Stickprovsverktyget.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Use the sampling tool to take a sample of a data set. This tool can take both a random sample of a given size or a periodic sample:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd stickprovsverktyget för att ta ett stickprov ur en datamängd. Verktyget kan ta ett slumpmässigt stickprov av en viss storlek eller ett periodiskt stickprov:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>random sample</seg></tuv>
+      <tuv xml:lang="sv"><seg>slumpmässigt stickprov</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A random sample is a subset of the population such that every subset of that size has the same chance of being picked.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett slumpmässigt stickprov är en delmängd av populationen där varje delmängd av samma storlek har lika stor sannolikhet att väljas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>periodic sample</seg></tuv>
+      <tuv xml:lang="sv"><seg>periodiskt stickprov</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In a periodic sample every &lt;parameter&gt;k&lt;/parameter&gt;th element in the population is selected.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I ett periodiskt stickprov väljs vart &lt;parameter&gt;k&lt;/parameter&gt;:e element i populationen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To use this tool, first specify the data set or data sets by setting the &lt;quote&gt;&lt;guilabel&gt;Input Range:&lt;/guilabel&gt;&lt;/quote&gt; entry. The range or ranges given can be grouped into datasets by rows, by columns, or by areas.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange först vilken eller vilka datamängder som ska användas i fältet &lt;quote&gt;&lt;guilabel&gt;Indataområde:&lt;/guilabel&gt;&lt;/quote&gt;. Området eller områdena kan delas in i datamängder efter rader, kolumner eller områden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the first entry in each data set contains a variable, select the &lt;quote&gt;&lt;guilabel&gt;Labels&lt;/guilabel&gt;&lt;/quote&gt; option.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om den första posten i varje datamängd innehåller ett variabelnamn markerar du &lt;quote&gt;&lt;guilabel&gt;Rubriker&lt;/guilabel&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select the sampling method which can be either periodic or random.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj urvalsmetod: periodisk eller slumpmässig.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the size of the random sample in the &lt;quote&gt;&lt;guilabel&gt;Size of Sample:&lt;/guilabel&gt;&lt;/quote&gt; entry.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange storleken på det slumpmässiga stickprovet i fältet &lt;quote&gt;&lt;guilabel&gt;Storlek på stickprov:&lt;/guilabel&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the period in the &lt;quote&gt;&lt;guilabel&gt;Period:&lt;/guilabel&gt;&lt;/quote&gt; entry.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange perioden i fältet &lt;quote&gt;&lt;guilabel&gt;Period:&lt;/guilabel&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the number of samples you would like to obtain in the &lt;quote&gt;&lt;guilabel&gt; Number of Samples:&lt;/guilabel&gt;&lt;/quote&gt; entry.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange hur många stickprov du vill ta i fältet &lt;quote&gt;&lt;guilabel&gt; Antal stickprov:&lt;/guilabel&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Since the period uniquely determines a periodic sample, if you specify that you would like 2 samples you will be given the identical sample twice.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Eftersom perioden entydigt bestämmer ett periodiskt stickprov får du samma stickprov två gånger om du anger att du vill ta 2 stickprov.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the dataset for a periodic sample is a two dimensional range, &lt;application&gt;Gnumeric&lt;/application&gt; will enumerate the data points by row first.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om datamängden för ett periodiskt stickprov består av ett tvådimensionellt område räknar &lt;application&gt;Gnumeric&lt;/application&gt; datapunkterna radvis först.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Some Example Data for the Sampling Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Exempeldata för stickprovsverktyget</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-sampling-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of example data for use with the sampling tool.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-sampling-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Exempeldata för stickprovsverktyget.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Using the Sampling Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använda stickprovsverktyget</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;xref linkend="sampling-example-1"/&gt; shows some example data and &lt;xref linkend="sampling-example-2"/&gt; the corresponding output.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;xref linkend="sampling-example-1"/&gt; visar exempeldata och &lt;xref linkend="sampling-example-2"/&gt; motsvarande utdata.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Sampling Tool Output</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utdata från stickprovsverktyget</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-sampling-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output from the sampling tool.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-sampling-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Utdata från stickprovsverktyget.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Dependent Observations</seg></tuv>
+      <tuv xml:lang="sv"><seg>Beroende observationer</seg></tuv>
     </tu>
   </body>
 </tmx>
