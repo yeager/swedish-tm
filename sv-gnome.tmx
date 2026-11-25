@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T132932Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T133149Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -603274,6 +603274,36 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The correct line break delimiters can be established by checking or unchecking the alternatives. The preview area will then show the result of the file interpreted with these settings.</seg></tuv>
       <tuv xml:lang="sv"><seg>Välj eller avmarkera alternativen för att hitta rätt tecken för radslut. Förhandsgranskningen visar sedan hur filen tolkas med de inställningarna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Data Structuring Strategies</seg></tuv>
+      <tuv xml:lang="sv"><seg>Metoder för datastrukturering</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The use of text files to store data in a structured fashion for use by spreadsheet programs also requires some scheme to separate each value within every line. Two different approaches are used to separate these values. The first strategy, uses a particular character or character sequence to denote the start and end of each value. Such strategies are called 'Separated Value' or 'Delimited Value' systems. The second strategy places each value stating at a specified position in the line. Such strategies are called 'Fixed Width' strategies because they inherently require that each value have a pre-determined size.</seg></tuv>
+      <tuv xml:lang="sv"><seg>För att lagra data strukturerat i textfiler för kalkylprogram måste värden på varje rad avgränsas. Det finns två metoder. Den ena anger början och slutet på varje värde med ett särskilt tecken eller en teckensekvens. Sådana metoder kallas avgränsade värden. Den andra placerar varje värde vid en viss position på raden. Då har värdena fast bredd och bestämd storlek.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Separated Value structuring systems distinguish the contents of each value using pre-determined characters to separate the values. Certain characters have become common in such schemes, for-example 'Comma Separated Value' files use a comma character to separate values while 'Tab Separated Value' files use a tab character. &lt;application&gt;Gnumeric&lt;/application&gt; allows the user to define the value separator to be any one of several common characters or a specific sequence of characters, either on their own or in combination. For example, a file could use both space characters and tab characters to separate values. Similarly, a file could be read which used the entire word 'STOP' to separate values like the common scheme to separate sentences in a telegram.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Metoder med avgränsade värden skiljer dem åt med bestämda tecken. Vissa tecken är vanliga: kommaseparerade filer använder kommatecken och tabbseparerade filer tabbar. &lt;application&gt;Gnumeric&lt;/application&gt; låter dig välja ett av flera vanliga tecken eller en egen teckensekvens, var för sig eller i kombination. En fil kan till exempel använda både blanksteg och tabbar som avgränsare. Den kan också använda ett helt ord, som ”STOP”, på samma sätt som telegram kan använda ett särskilt ord för att avsluta en mening.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Separate Value structuring systems often also include a method to surround a single text value which may itself contain the character used to separate values. The quote character is often used in this role but &lt;application&gt;Gnumeric&lt;/application&gt; allows users to configure any character in this role. For example, a file which used the comma to separate values could nonetheless contain a value like "Zoe, Sally, Dodji" if this value had appropriate text indicating characters at either end.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Metoder med avgränsade värden använder ofta också tecken runt ett textvärde som själv kan innehålla avgränsningstecknet. Ofta används citattecken, men &lt;application&gt;Gnumeric&lt;/application&gt; låter dig välja vilket tecken som helst. En kommaseparerad fil kan alltså innehålla värdet ”Zoe, Sally, Dodji” om det omges av lämpliga tecken.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Fixed Width structuring systems are common formats for the output of database tables since the contents of these tables have often been defined as variables of a particular size. To import these files, users must specify exactly the start of each column so that the importer can separate the values on each row.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Format med fast bredd används ofta när databastabeller exporteras, eftersom tabellernas innehåll då brukar ha en bestämd storlek. Om du vill importera sådana filer måste du ange exakt var varje kolumn börjar, så att importverktyget kan dela upp värdena på varje rad.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Components of the &lt;interface&gt;Text Import&lt;/interface&gt; Druid</seg></tuv>
+      <tuv xml:lang="sv"><seg>Delarna i guiden &lt;interface&gt;Textimport&lt;/interface&gt;</seg></tuv>
     </tu>
   </body>
 </tmx>

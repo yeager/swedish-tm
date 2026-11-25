@@ -92,3 +92,8 @@ Batch 140:
 Batch 145 technical names:
 
 - **ASCII** — standard character encoding acronym; retained exactly.
+
+
+Batch 146 sample value:
+
+- **Dodji** — personal name in the source example value `Zoe, Sally, Dodji`, retained exactly.

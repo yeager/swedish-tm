@@ -1,0 +1,93 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:422
+msgid "Data Structuring Strategies"
+msgstr "Metoder för datastrukturering"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:424
+msgid ""
+"The use of text files to store data in a structured fashion for use by "
+"spreadsheet programs also requires some scheme to separate each value within"
+" every line. Two different approaches are used to separate these values. The"
+" first strategy, uses a particular character or character sequence to denote"
+" the start and end of each value. Such strategies are called 'Separated "
+"Value' or 'Delimited Value' systems. The second strategy places each value "
+"stating at a specified position in the line. Such strategies are called "
+"'Fixed Width' strategies because they inherently require that each value "
+"have a pre-determined size."
+msgstr ""
+"För att lagra data strukturerat i textfiler för kalkylprogram måste värden "
+"på varje rad avgränsas. Det finns två metoder. Den ena anger början och "
+"slutet på varje värde med ett särskilt tecken eller en teckensekvens. Sådana"
+" metoder kallas avgränsade värden. Den andra placerar varje värde vid en "
+"viss position på raden. Då har värdena fast bredd och bestämd storlek."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:437
+msgid ""
+"Separated Value structuring systems distinguish the contents of each value "
+"using pre-determined characters to separate the values. Certain characters "
+"have become common in such schemes, for-example 'Comma Separated Value' "
+"files use a comma character to separate values while 'Tab Separated Value' "
+"files use a tab character. <application>Gnumeric</application> allows the "
+"user to define the value separator to be any one of several common "
+"characters or a specific sequence of characters, either on their own or in "
+"combination. For example, a file could use both space characters and tab "
+"characters to separate values. Similarly, a file could be read which used "
+"the entire word 'STOP' to separate values like the common scheme to separate"
+" sentences in a telegram."
+msgstr ""
+"Metoder med avgränsade värden skiljer dem åt med bestämda tecken. Vissa "
+"tecken är vanliga: kommaseparerade filer använder kommatecken och "
+"tabbseparerade filer tabbar. <application>Gnumeric</application> låter dig "
+"välja ett av flera vanliga tecken eller en egen teckensekvens, var för sig "
+"eller i kombination. En fil kan till exempel använda både blanksteg och "
+"tabbar som avgränsare. Den kan också använda ett helt ord, som ”STOP”, på "
+"samma sätt som telegram kan använda ett särskilt ord för att avsluta en "
+"mening."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:453
+msgid ""
+"Separate Value structuring systems often also include a method to surround a"
+" single text value which may itself contain the character used to separate "
+"values. The quote character is often used in this role but "
+"<application>Gnumeric</application> allows users to configure any character "
+"in this role. For example, a file which used the comma to separate values "
+"could nonetheless contain a value like \"Zoe, Sally, Dodji\" if this value "
+"had appropriate text indicating characters at either end."
+msgstr ""
+"Metoder med avgränsade värden använder ofta också tecken runt ett textvärde "
+"som själv kan innehålla avgränsningstecknet. Ofta används citattecken, men "
+"<application>Gnumeric</application> låter dig välja vilket tecken som helst."
+" En kommaseparerad fil kan alltså innehålla värdet ”Zoe, Sally, Dodji” om "
+"det omges av lämpliga tecken."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:464
+msgid ""
+"Fixed Width structuring systems are common formats for the output of "
+"database tables since the contents of these tables have often been defined "
+"as variables of a particular size. To import these files, users must specify"
+" exactly the start of each column so that the importer can separate the "
+"values on each row."
+msgstr ""
+"Format med fast bredd används ofta när databastabeller exporteras, eftersom "
+"tabellernas innehåll då brukar ha en bestämd storlek. Om du vill importera "
+"sådana filer måste du ange exakt var varje kolumn börjar, så att "
+"importverktyget kan dela upp värdena på varje rad."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:489
+msgid "The Components of the <interface>Text Import</interface> Druid"
+msgstr "Delarna i guiden <interface>Textimport</interface>"
