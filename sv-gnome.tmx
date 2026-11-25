@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T113514Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T113745Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -601059,6 +601059,51 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Elements which can be saved as images can be output to a file using an entry in the element's context menu. First the context menu must be invoked by placing the mouse pointer over the graphical element and clicking with one of the secondary mouse buttons. Next the &lt;guimenuitem&gt;Save as Image&lt;/guimenuitem&gt; or the &lt;guimenuitem&gt;Save as&lt;/guimenuitem&gt; menu items must be selected by placing the mouse pointer over that item and clicking with the primary mouse pointer. This will open up the &lt;interface&gt;Save As&lt;/interface&gt; dialog which will allow the user to name the file which will be created, select where the file will be created, select the file type to use for the image and then generate the file.</seg></tuv>
       <tuv xml:lang="sv"><seg>Du kan spara element som bilder i en fil med ett alternativ i elementets snabbmeny. Öppna snabbmenyn genom att placera muspekaren över det grafiska elementet och klicka med en sekundär musknapp. Välj sedan &lt;guimenuitem&gt;Spara som bild&lt;/guimenuitem&gt; eller &lt;guimenuitem&gt;Spara som&lt;/guimenuitem&gt; genom att föra pekaren till alternativet och klicka med den primära musknappen. Då öppnas dialogrutan &lt;interface&gt;Spara som&lt;/interface&gt;. Där kan du ange filnamn och plats, välja bildformat och skapa filen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Restacking Graphical Elements</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ändra lagerordning för grafiska element</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Graphical elements can overlap when they are placed over the cell grid area. Conceptually, each graphical element occupies one layer in a stack of all the elements. By default, elements which have been created more recently will overlap in front of elements which were created earlier.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Grafiska element kan överlappa när de placeras ovanpå cellrutnätet. Man kan se varje element som ett lager i en hög. Som standard hamnar element som skapats senare framför dem som skapats tidigare.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Stacked graphical elements.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Grafiska element i lager.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/graphical-elements-stacked.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; An image of &lt;application&gt;Gnumeric&lt;/application&gt; showing stacked graphical element. &lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/graphical-elements-stacked.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av &lt;application&gt;Gnumeric&lt;/application&gt; som visar grafiska element i lager.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The order of each element in the stack can be changed using the four menu items in the context menu. The &lt;guimenuitem&gt;Top&lt;/guimenuitem&gt; will bring the selected element in front of all the other objects. The &lt;guimenuitem&gt;Up&lt;/guimenuitem&gt; menu item will bring the selected element forward one layer. Conversely, the &lt;guimenuitem&gt;Down&lt;/guimenuitem&gt; menu item will move the selected element one layer towards the back, and the &lt;guimenuitem&gt;Bottom&lt;/guimenuitem&gt; menu item will palace the selected element at the very back of the stack of elements. Jointly, these menu items allow the user to specify exactly which order in which the graphical elements should appear.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan ändra elementens ordning i högen med de fyra alternativen i snabbmenyn. &lt;guimenuitem&gt;Överkant&lt;/guimenuitem&gt; placerar det markerade elementet framför alla andra objekt. &lt;guimenuitem&gt;Upp&lt;/guimenuitem&gt; flyttar det ett lager framåt. &lt;guimenuitem&gt;Ner&lt;/guimenuitem&gt; flyttar det ett lager bakåt, och &lt;guimenuitem&gt;Underkant&lt;/guimenuitem&gt; placerar det längst bak i högen. Tillsammans låter alternativen dig bestämma exakt i vilken ordning de grafiska elementen visas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The stacking of graphical elements in &lt;application&gt;Gnumeric&lt;/application&gt; is currently not working correctly. Widget elements are always placed above the other elements and do not honor the same ordering scheme as the rest of the elements. A large amount of work will be required to fix this and a decision has been made to ignore this problem until the developers have the time to fix this problem correctly.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lagerordningen för grafiska element i &lt;application&gt;Gnumeric&lt;/application&gt; fungerar för närvarande inte korrekt. Gränssnittskomponenter placeras alltid ovanpå övriga element och följer inte samma ordning som de andra elementen. Det krävs mycket arbete för att rätta till detta, så problemet lämnas tills utvecklarna har tid att åtgärda det ordentligt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Deleting Graphical Elements</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ta bort grafiska element</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>All of the graphical elements in &lt;application&gt;Gnumeric&lt;/application&gt; can be deleted using the context menu. Deleting a graphical element will never alter the data contents of the cells in the workbooks.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan ta bort alla grafiska element i &lt;application&gt;Gnumeric&lt;/application&gt; via snabbmenyn. När du tar bort ett grafiskt element påverkas inte data i arbetsbokens celler.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Deleting a graphical element requires using the context menu. First the mouse pointer must be placed over the graphical element. Next, the context menu must be invoked by clicking with one of the secondary mouse buttons. Finally, the &lt;guimenuitem&gt;Delete&lt;/guimenuitem&gt; menu item must be selected by placing the mouse pointer over this menu item and clicking with the primary mouse button. When this menu item is selected, the graphical element will disappear from the worksheet and will not be saved as part of the spreadsheet file the next time the file is saved.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du tar bort ett grafiskt element via snabbmenyn. För först muspekaren över elementet och öppna snabbmenyn genom att klicka med en sekundär musknapp. För sedan pekaren till menyalternativet &lt;guimenuitem&gt;Ta bort&lt;/guimenuitem&gt; och klicka med den primära musknappen. Elementet försvinner från kalkylbladet och sparas inte i kalkylbladsfilen nästa gång du sparar den.</seg></tuv>
     </tu>
   </body>
 </tmx>
