@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T110456Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T110754Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -600369,6 +600369,136 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Specify the output options as described above. If the output is printed into a range, it should have at least three columns and ten rows.</seg></tuv>
       <tuv xml:lang="sv"><seg>Ange utdataalternativen enligt beskrivningen ovan. Om resultatet placeras i ett cellområde ska det omfatta minst tre kolumner och tio rader.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>There are up to three possible options that can be selected:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går att välja upp till tre alternativ:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;quote&gt;&lt;guilabel&gt;Paired&lt;/guilabel&gt;&lt;/quote&gt; versus &lt;quote&gt;&lt;guilabel&gt;Unpaired&lt;/guilabel&gt;&lt;/quote&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;quote&gt;&lt;guilabel&gt;Parade&lt;/guilabel&gt;&lt;/quote&gt; eller &lt;quote&gt;&lt;guilabel&gt;Oparade&lt;/guilabel&gt;&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the variables are dependent (or paired) select the &lt;quote&gt;&lt;guilabel&gt;Paired&lt;/guilabel&gt;&lt;/quote&gt; option.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om variablerna är beroende av varandra (parade) väljer du alternativet &lt;quote&gt;&lt;guilabel&gt;Parade&lt;/guilabel&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;quote&gt;&lt;guilabel&gt;Known&lt;/guilabel&gt;&lt;/quote&gt; versus &lt;quote&gt;&lt;guilabel&gt;Unknown&lt;/guilabel&gt;&lt;/quote&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;quote&gt;&lt;guilabel&gt;Kända&lt;/guilabel&gt;&lt;/quote&gt; eller &lt;quote&gt;&lt;guilabel&gt;Okända&lt;/guilabel&gt;&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>For unpaired or independent variables, the population variances may be known or unknown. In the latter case they will be estimated using the sample variances. Select the &lt;quote&gt;&lt;guilabel&gt;Known&lt;/guilabel&gt;&lt;/quote&gt; option if you in fact know the population variances prior to collecting the sample.</seg></tuv>
+      <tuv xml:lang="sv"><seg>För oparade eller oberoende variabler kan populationsvarianserna vara kända eller okända. I det senare fallet skattas de med stickprovsvarianserna. Välj alternativet &lt;quote&gt;&lt;guilabel&gt;Kända&lt;/guilabel&gt;&lt;/quote&gt; om du faktiskt känner till populationsvarianserna innan urvalet samlas in.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;quote&gt;&lt;guilabel&gt;Equal&lt;/guilabel&gt;&lt;/quote&gt; versus &lt;quote&gt;&lt;guilabel&gt;Unequal&lt;/guilabel&gt;&lt;/quote&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;quote&gt;&lt;guilabel&gt;Lika&lt;/guilabel&gt;&lt;/quote&gt; eller &lt;quote&gt;&lt;guilabel&gt;Olika&lt;/guilabel&gt;&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>For paired variables with unknown population variances, we may either assume that the population variances are equal or not. If the population variances are assumed to be equal, &lt;application&gt;Gnumeric&lt;/application&gt; will estimate the common variance by pooling the sample variances. Select the &lt;quote&gt;&lt;guilabel&gt;Equal&lt;/guilabel&gt;&lt;/quote&gt; option to assume that the population variances are equal.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När populationsvarianserna för parade variabler är okända kan vi anta att de är lika eller olika. Om de antas vara lika skattar &lt;application&gt;Gnumeric&lt;/application&gt; den gemensamma variansen genom att slå samman stickprovsvarianserna. Välj alternativet &lt;quote&gt;&lt;guilabel&gt;Lika&lt;/guilabel&gt;&lt;/quote&gt; om du vill anta att populationsvarianserna är lika.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;t&lt;/parameter&gt;-Test: Paired Two Sample for Means Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;t&lt;/parameter&gt;-test: verktyg för medelvärden i två parade urval</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;t&lt;/parameter&gt;-Test (Paired) Tool Dialog Options</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;t&lt;/parameter&gt;-test: alternativ i dialogrutan för parade urval</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ttest-paired.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the options for the t-test.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ttest-paired.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av alternativen för t-testet.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>For paired variables, when you click on &lt;quote&gt;&lt;guibutton&gt;OK&lt;/guibutton&gt;&lt;/quote&gt;, &lt;application&gt;Gnumeric&lt;/application&gt; will test whether the mean of the difference between the paired variables is equal to the given hypothesized mean difference.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När du klickar på &lt;quote&gt;&lt;guibutton&gt;OK&lt;/guibutton&gt;&lt;/quote&gt; testar &lt;application&gt;Gnumeric&lt;/application&gt; om medelvärdet av skillnaderna mellan de parade variablerna är lika med den angivna hypotetiska medelvärdesskillnaden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Using the &lt;parameter&gt;t&lt;/parameter&gt;-Test (Paired) Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använda verktyget för parad &lt;parameter&gt;t&lt;/parameter&gt;-test</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>See &lt;xref linkend="ttest-paired-tool-ex1"/&gt; for an example of a completed dialog and &lt;xref linkend="ttest-paired-tool-ex2"/&gt; for the corresponding output.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Se &lt;xref linkend="ttest-paired-tool-ex1"/&gt; för ett exempel på en ifylld dialogruta och &lt;xref linkend="ttest-paired-tool-ex2"/&gt; för motsvarande resultat.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;t&lt;/parameter&gt;-Test (Paired) Example Data</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;t&lt;/parameter&gt;-test (parat): exempeldata</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ttest-paired-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the example for a t-test.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ttest-paired-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av exemplet för ett t-test.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Output from the &lt;parameter&gt;t&lt;/parameter&gt;-Test (Paired) Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resultat från verktyget för parad &lt;parameter&gt;t&lt;/parameter&gt;-test</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ttest-paired-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output results from a t-test.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ttest-paired-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av resultatet från ett t-test.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;t&lt;/parameter&gt;-Test: Two-Sample Assuming Equal Variances Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;t&lt;/parameter&gt;-test: verktyg för två urval med lika varianser</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;t&lt;/parameter&gt;-Test (Equal Variances) Tool Dialog Options</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;t&lt;/parameter&gt;-test (lika varianser): dialogrutealternativ</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ttest-equal.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the options for a t-test analysis of two samples with equal variances.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ttest-equal.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av alternativen för ett t-test av två urval med lika varianser.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>For unpaired variables with unknown but assumed equal population variances, when you click on &lt;quote&gt;&lt;guibutton&gt;OK&lt;/guibutton&gt;&lt;/quote&gt;, &lt;application&gt;Gnumeric&lt;/application&gt; will test whether the mean of the difference between the paired variables is equal to the given hypothesized mean difference.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När du klickar på &lt;quote&gt;&lt;guibutton&gt;OK&lt;/guibutton&gt;&lt;/quote&gt; testar &lt;application&gt;Gnumeric&lt;/application&gt; om skillnaden mellan de oparade variablernas medelvärden är lika med den angivna hypotetiska medelvärdesskillnaden. Detta gäller när populationsvarianserna är okända men antas vara lika.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Using the &lt;parameter&gt;t&lt;/parameter&gt;-Test (Unknown but Equal Variances) Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använda verktyget för &lt;parameter&gt;t&lt;/parameter&gt;-test med okända men antagna lika varianser</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>See &lt;xref linkend="ttest-equal-tool-ex1"/&gt; for an example of a completed dialog and &lt;xref linkend="ttest-equal-tool-ex2"/&gt; for the corresponding output.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Se &lt;xref linkend="ttest-equal-tool-ex1"/&gt; för ett exempel på en ifylld dialogruta och &lt;xref linkend="ttest-equal-tool-ex2"/&gt; för motsvarande resultat.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;t&lt;/parameter&gt;-Test (Unknown but Equal Variances) Example Data</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;t&lt;/parameter&gt;-test (okända men antagna lika varianser): exempeldata</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ttest-equal-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of example data for use with a t-test with unknown but equal variances.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ttest-equal-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av exempeldata för ett t-test med okända men lika varianser.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Output from the &lt;parameter&gt;t&lt;/parameter&gt;-Test (Unknown but Equal Variances) Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resultat från verktyget för &lt;parameter&gt;t&lt;/parameter&gt;-test med okända men antagna lika varianser</seg></tuv>
     </tu>
   </body>
 </tmx>
