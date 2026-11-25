@@ -347,3 +347,5 @@ Batch 212 (localized date examples): English month/day labels in sample date out
 Batch 213: remaining date sample values `Wed` are translated as lowercase **ons** (l10n-lint capitalization warnings are expected in Swedish date output). `Maximize` in the linear-programming objective is translated as **Maximera** while preserving its mathematical expression and source indentation/newlines.
 
 Batch 214 (formula examples): localized the worksheet dimension label `15R x 6C`, translated explanatory `returns` annotations, and translated the linear-programming comment `non-negativity assumption` as **icke-negativitetsvillkor**. Hunspell reports only negative numeric results and variable `x`; `l10n-lint`'s number-range warning is a false positive on subtraction operators in formulas.
+
+Batch 215 (formula syntax template): localized display-only metavariables `FUNCTION`, `ARGUMENTS`, `num_rows`, `num_cols`, `row`, and `column`, preserving braces, parentheses, brackets, and exact line structure. No Hunspell or l10n-lint findings.
