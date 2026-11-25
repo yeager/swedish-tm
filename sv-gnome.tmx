@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T104400Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T104630Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -599849,6 +599849,66 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The icon for a ring plot with the style of displaying the outermost series separated from the rest.</seg></tuv>
       <tuv xml:lang="sv"><seg>Ikon för ringdiagram där den yttersta serien skiljs från de övriga.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Pie plots</seg></tuv>
+      <tuv xml:lang="sv"><seg>Cirkeldiagram</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Pie plots represent the data values as slices of a circular area, with the central angle of each slice, or wedge, proportional to the size of the value compared to the sum of all the values in the series.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Cirkeldiagram visar datavärden som sektorer i en cirkel. Varje sektors medelpunktsvinkel står i proportion till värdets storlek jämfört med summan av alla värden i serien.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configurable properties of a pie plot.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaper som kan ställas in för cirkeldiagram.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot depicts the properties of a pie plot which can be configured.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar egenskaperna för ett cirkeldiagram som kan ställas in.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Pie plots can be displayed with the slices separated from each other which in certain situations may improve the visual clarity of a pie plot. The second spin button allows the slices to be separated.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sektorerna i ett cirkeldiagram kan visas åtskilda, vilket ibland gör diagrammet tydligare. Den andra stegningsrutan används för att ange avståndet mellan sektorerna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The colors of each slice, by default, are all different to allow the easy visual distinction between each slice. Since pie plots only allow a single series to be plotted, there is no need to use color to associate the values from different series. By unchecking this box, all of the slices in a pie chart can be made to follow the color scheme defined in the plot series &lt;guilabel&gt;Style&lt;/guilabel&gt; tab. However, if this box is unchecked, the outlines of the slices must be styled with a different color for the slices to be distinguishable.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Som standard har sektorerna olika färger så att de lätt kan skiljas åt. Eftersom ett cirkeldiagram bara visar en serie behöver färgerna inte användas för att skilja olika serier åt. Om du avmarkerar rutan får sektorerna i cirkeldiagrammet färgschemat från diagramseriens flik &lt;guilabel&gt;Stil&lt;/guilabel&gt;. Då måste sektorernas konturer ha olika färger för att de ska gå att skilja åt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Ring plots</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ringdiagram</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Ring plots are similar to pie plots but may have an empty center and can be made with multiple series.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ringdiagram liknar cirkeldiagram, men kan ha ett tomt centrum och innehålla flera dataserier.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configurable properties of a ring plot.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaper som kan ställas in för ringdiagram.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot depicts the properties of a ring plot which can be configured.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar egenskaperna för ett ringdiagram som kan ställas in.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Like pie plots, ring plots assign values to the slices of a circular area by representing the magnitude of the value by the central angle of the slice, although for ring plots the center of the circular area is empty. Like pie plots, the first slice is plotted starting clockwise from the vertical and this first option can change the beginning point of the first slice's angle.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Precis som i cirkeldiagram visas värden i ringdiagram som sektorer vars medelpunktsvinkel motsvarar värdets storlek. Ringdiagram har dock ett tomt centrum. Den första sektorn börjar lodrätt uppåt och fortsätter medurs, precis som i ett cirkeldiagram. Den första inställningen ändrar sektorns startvinkel.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The slices of a ring plot can also be separated. The &lt;guilabel&gt;Slice Separation&lt;/guilabel&gt; option allows a user to determine the proportional size of the gap between slices.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sektorerna i ett ringdiagram kan också skiljas åt. Med alternativet &lt;guilabel&gt;Avstånd mellan sektorer&lt;/guilabel&gt; anger du mellanrummets storlek i förhållande till sektorerna.</seg></tuv>
     </tu>
   </body>
 </tmx>
