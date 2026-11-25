@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T075025Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T075455Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596739,6 +596739,31 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>This section needs to be written.</seg></tuv>
       <tuv xml:lang="sv"><seg>Det här avsnittet har ännu inte skrivits.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>With data shuffling tool you can shuffle data in a given cell range. The tool can be started by selecting ``Shuffle'' menu item in ``Data'' menu. In order to use the tool give the input range in which the data to be shuffled is stored. The tool is able to shuffle the contents of the whole cell range, or, also shuffle data according to rows or columns. The shuffling method is selected under the ``Input Range'' entry. For example, if your data is grouped by rows then select ``Shuffle Method'' ``Rows''.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med verktyget Blanda data kan du blanda om data i ett cellområde. Starta verktyget genom att välja menyalternativet Blanda på menyn Data. Ange det cellområde som innehåller data som ska blandas om. Du kan blanda om hela cellområdet eller data efter rader eller kolumner. Välj blandningsmetod under Indataområde. Om data är grupperade efter rader väljer du Rader som blandningsmetod.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The default output method is to shuffle in-place. The shuffled data can also be written into a new sheet, new workbook, or into an existing sheet by giving the output range. If you select the ``Autofit Columns'' option, the width of each output column is automatically fixed according to the size of data in it.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Som standard blandas data om på plats. Du kan också skriva de blandade data till ett nytt blad, en ny arbetsbok eller ett befintligt blad genom att ange utdataintervallet. Om du väljer alternativet Anpassa kolumner automatiskt justeras bredden på varje kolumn efter mängden data i den.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the link location text box is empty when you click on &lt;guibutton&gt;OK&lt;/guibutton&gt;, no hyperlink is created. Instead, if any cells in the selection have existing hyperlinks, those hyperlinks are removed. The distinctive format applied to links is not removed. For that reason it might be preferable to choose &lt;xref linkend="edit-menu-clear-links"/&gt; from the &lt;xref linkend="Edit-Menu"/&gt; to remove existing hyperlinks.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om textrutan för länkmål är tom när du klickar på &lt;guibutton&gt;OK&lt;/guibutton&gt; skapas ingen hyperlänk. Om det i stället finns befintliga hyperlänkar i markeringen tas de bort. Länkarnas särskilda formatering tas inte bort. Därför kan det vara bättre att välja &lt;xref linkend="edit-menu-clear-links"/&gt; på menyn &lt;xref linkend="Edit-Menu"/&gt; om du vill ta bort befintliga länkar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Internal Link: The second element of the dialog is a text box labeled "Target Range". You can enter a single range, with or without a worksheet name. To select the range from the worksheet, click on the button at the end of the "Target Range" line. This collapses the dialog to a single line and makes it possible to interact with the cell grid. Select the desired sheet tab, if necessary, then select the desired cells. When the selection is complete, click on the button at the end of the Target Range input box to open the full &lt;guimenu&gt;HyperLink&lt;/guimenu&gt; dialog again.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Intern länk: Den andra delen av dialogrutan är en textruta med etiketten ”Målområde”. Här kan du ange ett område, med eller utan bladnamn. Om du vill välja området direkt i kalkylbladet klickar du på knappen i slutet av raden Målområde. Dialogrutan fälls då ihop till en rad så att du kan arbeta i cellrutnätet. Välj vid behov rätt bladflik och markera sedan cellerna. När du är klar klickar du på knappen i slutet av inmatningsrutan Målområde för att öppna hela dialogrutan &lt;guimenu&gt;Hyperlänk&lt;/guimenu&gt; igen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>When you move the mouse pointer to a hyperlink in the cell grid, a tool tip appears. The default tip shows the link address and instructions for activating the link or selecting the cell. To define a tip specific to the link, select the radio button next to "Tip", then enter the tip text in the text box. If the link-specific tip is selected and left blank, no tip is displayed when the mouse pointer is on the link.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När du för muspekaren över en hyperlänk i cellrutnätet visas ett verktygstips. Standardtipset visar länkadressen och instruktioner för att öppna länken eller markera cellen. Om du vill ange ett eget tips för länken väljer du alternativknappen bredvid ”Tips” och skriver tipstexten i textrutan. Om det länkspecifika tipset är valt men lämnas tomt visas inget tips när muspekaren är över länken.</seg></tuv>
     </tu>
   </body>
 </tmx>
