@@ -31,6 +31,12 @@ def test_accepts_lokalise_id_and_legacy_key(tmp_path):
     assert validator.validate(path)["legacy-source-key"] == 1
 
 
+def test_accepts_revalidated_prior_review_status(tmp_path):
+    path = tmp_path / "sample.tmx"
+    write_tmx(path, status="revalidated-prior-review")
+    assert validator.validate(path)["lokalise-id"] == 1
+
+
 def test_strict_mode_rejects_legacy_key(tmp_path):
     path = tmp_path / "sample.tmx"
     write_tmx(path, tuid="component::test")

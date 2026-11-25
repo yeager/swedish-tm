@@ -47,6 +47,7 @@ def validate(path: Path, *, require_lokalise_ids: bool = False) -> Counter:
         # follow-ups without presenting them as fully source-verified entries.
         valid_statuses = {
             "saved-and-read-back",
+            "revalidated-prior-review",
             "verified-existing",
             "source-path-follow-up",
         }
