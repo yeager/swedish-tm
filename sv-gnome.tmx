@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T071521Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T071955Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596304,6 +596304,56 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Specify the lambda in the &lt;quote&gt;&lt;guilabel&gt;Lambda&lt;/guilabel&gt;&lt;/quote&gt; entry. Lambda is the average number of events in a unit time interval.</seg></tuv>
       <tuv xml:lang="sv"><seg>Ange lambda i fältet &lt;quote&gt;&lt;guilabel&gt;Lambda&lt;/guilabel&gt;&lt;/quote&gt;. Lambda är det genomsnittliga antalet händelser per tidsenhet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify &lt;parameter&gt;b&lt;/parameter&gt; in the &lt;quote&gt;&lt;guilabel&gt;b Value&lt;/guilabel&gt;&lt;/quote&gt; entry.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange &lt;parameter&gt;b&lt;/parameter&gt; i fältet &lt;quote&gt;&lt;guilabel&gt;b-värde&lt;/guilabel&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the probability of success (&lt;parameter&gt;p&lt;/parameter&gt;) in the &lt;quote&gt;&lt;guilabel&gt;p Value&lt;/guilabel&gt;&lt;/quote&gt; entry and the number of trials (&lt;parameter&gt;n&lt;/parameter&gt;) in the &lt;quote&gt;&lt;guilabel&gt;Number of Trials&lt;/guilabel&gt;&lt;/quote&gt; entry. The Binomial distribution is a discrete distribution in which the experiment consists of &lt;parameter&gt;n&lt;/parameter&gt; identical trials. Each trial is independent of other the trials and has two possible outcomes, a success or a failure. The probability of success &lt;parameter&gt;p&lt;/parameter&gt; is constant from one trial to another. The mean of a random variable that has a Binomial distribution is &lt;parameter&gt;E(X) = np&lt;/parameter&gt;, and the variance is &lt;parameter&gt;var(X) = np(1-p)&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange sannolikheten för framgång (&lt;parameter&gt;p&lt;/parameter&gt;) i fältet &lt;quote&gt;&lt;guilabel&gt;p-värde&lt;/guilabel&gt;&lt;/quote&gt; och antalet försök (&lt;parameter&gt;n&lt;/parameter&gt;) i fältet &lt;quote&gt;&lt;guilabel&gt;Antal försök&lt;/guilabel&gt;&lt;/quote&gt;. Binomialfördelningen är diskret och består av &lt;parameter&gt;n&lt;/parameter&gt; identiska försök. Försöken är oberoende av varandra och vart och ett har två möjliga utfall: framgång eller misslyckande. Sannolikheten &lt;parameter&gt;p&lt;/parameter&gt; för framgång är densamma i varje försök. Medelvärdet för en slumpvariabel med binomialfördelning är &lt;parameter&gt;E(X) = np&lt;/parameter&gt; och variansen är &lt;parameter&gt;var(X) = np(1-p)&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the probability of success &lt;parameter&gt;p&lt;/parameter&gt; in the &lt;quote&gt;&lt;guilabel&gt;p Value&lt;/guilabel&gt;&lt;/quote&gt; entry and the number of failures &lt;parameter&gt;r&lt;/parameter&gt; in the &lt;quote&gt;&lt;guilabel&gt;Number of Failures&lt;/guilabel&gt;&lt;/quote&gt; entry. Negative Binomial distribution is a discrete distribution in which the experiment consists of a sequence of independent trials. Each trial has two possible outcomes, a success or a failure. The probability of success &lt;parameter&gt;p&lt;/parameter&gt; is constant from one trial to another. The experiment continues until &lt;parameter&gt;r&lt;/parameter&gt; failures are observed, where &lt;parameter&gt;r&lt;/parameter&gt; is fixed in advance. The mean of a random variable that has a Negative Binomial distribution is &lt;parameter&gt;E(X) = r(1-p)/p&lt;/parameter&gt;, and the variance is &lt;parameter&gt;var(X) = r(1-p)/p^2&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange sannolikheten för framgång &lt;parameter&gt;p&lt;/parameter&gt; i fältet &lt;quote&gt;&lt;guilabel&gt;p-värde&lt;/guilabel&gt;&lt;/quote&gt; och antalet misslyckanden &lt;parameter&gt;r&lt;/parameter&gt; i fältet &lt;quote&gt;&lt;guilabel&gt;Antal misslyckanden&lt;/guilabel&gt;&lt;/quote&gt;. Den negativa binomialfördelningen är diskret och bygger på en följd av oberoende försök. Varje försök har två möjliga utfall: framgång eller misslyckande. Sannolikheten &lt;parameter&gt;p&lt;/parameter&gt; för framgång är densamma i varje försök. Försöken fortsätter tills &lt;parameter&gt;r&lt;/parameter&gt; misslyckanden har inträffat; värdet på &lt;parameter&gt;r&lt;/parameter&gt; bestäms i förväg. Medelvärdet för en slumpvariabel med negativ binomialfördelning är &lt;parameter&gt;E(X) = r(1-p)/p&lt;/parameter&gt; och variansen är &lt;parameter&gt;var(X) = r(1-p)/p^2&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the probability of success (&lt;parameter&gt;p&lt;/parameter&gt;) in the &lt;quote&gt;&lt;guilabel&gt;p Value&lt;/guilabel&gt;&lt;/quote&gt; entry. &lt;parameter&gt;p&lt;/parameter&gt; is a probability value between 0 and 1. The Bernoulli distribution has two random values 0 and 1, and &lt;parameter&gt;p&lt;/parameter&gt; is the probability to observe value 1. The mean of a random variable that has a Bernoulli distribution is &lt;parameter&gt;E(X) = 1(p) + 0(1-p) = p&lt;/parameter&gt;, and the variance is &lt;parameter&gt;var(X) = p(1-p)&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange sannolikheten för framgång (&lt;parameter&gt;p&lt;/parameter&gt;) i fältet &lt;quote&gt;&lt;guilabel&gt;p-värde&lt;/guilabel&gt;&lt;/quote&gt;. &lt;parameter&gt;p&lt;/parameter&gt; är ett sannolikhetsvärde mellan 0 och 1. Bernoullifördelningen har två möjliga värden, 0 och 1, och &lt;parameter&gt;p&lt;/parameter&gt; är sannolikheten för att värdet 1 ska inträffa. Medelvärdet för en slumpvariabel med Bernoullifördelning är &lt;parameter&gt;E(X) = 1(p) + 0(1-p) = p&lt;/parameter&gt; och variansen är &lt;parameter&gt;var(X) = p(1-p)&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the range of the continuous random variable with the &lt;quote&gt;&lt;guilabel&gt;Between:&lt;/guilabel&gt;&lt;/quote&gt; and &lt;quote&gt;&lt;guilabel&gt;And:&lt;/guilabel&gt;&lt;/quote&gt; entries. The default values for these entries are 0 and 1.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange intervallet för den kontinuerliga slumpvariabeln i fälten &lt;quote&gt;&lt;guilabel&gt;Mellan:&lt;/guilabel&gt;&lt;/quote&gt; och &lt;quote&gt;&lt;guilabel&gt;och:&lt;/guilabel&gt;&lt;/quote&gt;. Standardvärdena är 0 och 1.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the number of variables in the &lt;quote&gt;&lt;guilabel&gt; Number of Variables:&lt;/guilabel&gt;&lt;/quote&gt; entry on the `Options' Page. This determines the number of columns of random values to be produced.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange antalet variabler i fältet &lt;quote&gt;&lt;guilabel&gt; Antal variabler:&lt;/guilabel&gt;&lt;/quote&gt; på sidan Alternativ. Detta avgör hur många kolumner med slumptal som skapas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the number of random numbers for each variable in the &lt;quote&gt;&lt;guilabel&gt;Size of Sample:&lt;/guilabel&gt; &lt;/quote&gt; entry on the same page. This determines the number of rows of random values to be produced.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange antalet slumptal per variabel i fältet &lt;quote&gt;&lt;guilabel&gt;Storlek på stickprov:&lt;/guilabel&gt; &lt;/quote&gt; på samma sida. Detta avgör hur många rader med slumptal som skapas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-random-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of some example data for use with the random number generation tool.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-random-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av exempeldata för verktyget för slumptalsgenerering.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;xref linkend="random-example-1"/&gt; shows some example data and &lt;xref linkend="random-example-2"/&gt; the corresponding output.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;xref linkend="random-example-1"/&gt; visar exempeldata och &lt;xref linkend="random-example-2"/&gt; motsvarande utdata.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-random-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output from the random number generation tool.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-random-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av utdata från slumptalsgeneratorn.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
     </tu>
   </body>
 </tmx>
