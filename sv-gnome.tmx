@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T125703Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T130011Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -602704,6 +602704,56 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The folders listed in this area include the standard folders provided by the system and a number of folders added, as bookmark folders, by the user. The standard folders provided by the system will vary for different machines and system administrators may have disabled access to certain branches of the filesystem. By default, the standard folders provided include the user's 'Home' folder, the user's 'Desktop' folder, a folder pointing to the root of the filesystem tree and folders for each of the removable storage devices attached to the computer. The user's home folder, on GNU and other UNIX like systems, this folder is usually known as &lt;literal&gt;~&lt;/literal&gt; or &lt;literal&gt;~user_account_name&lt;/literal&gt; where the phrase &lt;literal&gt;user_account_name&lt;/literal&gt; represents the account name used by the current user. This folder is often located at &lt;filename&gt;/home/user_account_name/&lt;/filename&gt; in the filesystem. The 'Desktop' folder is the folder which holds the files which are displayed in the background of the user's window. The 'Filesystem' folder is the top of the filesystem tree, which on GNU systems is also known as &lt;filename&gt;/&lt;/filename&gt;. The list also presents peripheral or external devices. Below the standard folders, area &lt;emphasis role="bold"&gt;A&lt;/emphasis&gt; has a separator and the bookmark folders selected by the user. In &lt;xref linkend="fig-file-open-dialog-components"/&gt; the folder &lt;filename&gt;currentWork&lt;/filename&gt; is a folder named by the user and added to the list of bookmark folders.</seg></tuv>
       <tuv xml:lang="sv"><seg>Listan i det här området innehåller systemets standardmappar och mappar som användaren har lagt till som bokmärkesmappar. Vilka standardmappar som visas varierar mellan datorer, och systemadministratören kan ha inaktiverat åtkomsten till vissa delar av filsystemet. Som standard ingår användarens mapp ”Hem”, användarens mapp ”Skrivbord”, en mapp som pekar på filsystemets rot samt mappar för alla flyttbara lagringsenheter som är anslutna till datorn. I GNU och andra UNIX-liknande system brukar användarens hemmapp heta &lt;literal&gt;~&lt;/literal&gt; eller &lt;literal&gt;~user_account_name&lt;/literal&gt;, där &lt;literal&gt;user_account_name&lt;/literal&gt; står för den aktuella användarens kontonamn. Mappen finns ofta på &lt;filename&gt;/home/user_account_name/&lt;/filename&gt; i filsystemet. Mappen ”Skrivbord” innehåller filerna som visas på användarens skrivbord. Mappen ”Filsystem” är filsystemsträdets rot och kallas också &lt;filename&gt;/&lt;/filename&gt; i GNU-system. Listan visar också kringutrustning och externa enheter. Under standardmapparna finns en avdelare i område &lt;emphasis role="bold"&gt;A&lt;/emphasis&gt; och användarens bokmärkesmappar. I &lt;xref linkend="fig-file-open-dialog-components"/&gt; är mappen &lt;filename&gt;currentWork&lt;/filename&gt; en mapp som användaren har namngivit och lagt till i listan över bokmärkesmappar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Understanding the file organization system.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filsystemets struktur.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In order to understand how to change folders, it is first necessary to understand the system by which documents are stored. This system is called the 'filesystem'.</seg></tuv>
+      <tuv xml:lang="sv"><seg>För att förstå hur du byter mapp behöver du först känna till hur dokument lagras. Det kallas för filsystemet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>All documents are stored in a folder. Folders can contain files but can also contain other folders. Any folder therefore can contain several sub-folders, each of which may itself contain several sub-folders; the resulting structure is called a nested 'tree' with the original folder being the 'relative root' of that tree.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alla dokument lagras i mappar. En mapp kan innehålla filer och andra mappar. Den kan alltså ha flera undermappar, som i sin tur kan innehålla fler undermappar. Den här strukturen kallas ett nästlat träd, där den ursprungliga mappen är trädets relativa rot.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In GNU and UNIX systems, all of the files are stored in folders organized in a single, unified filesystem tree with a folder named '&lt;filename&gt;/&lt;/filename&gt;' at the absolute root of the tree. Every file is accessible from this absolute root folder and, by default, this folder is provided as the choice named &lt;filename&gt;Filesystem&lt;/filename&gt; with an icon of a disk drive in area &lt;emphasis role="bold"&gt;A&lt;/emphasis&gt; in the &lt;interface&gt;File Open&lt;/interface&gt; dialog.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I GNU- och UNIX-system lagras alla filer i mappar i ett gemensamt filsystemsträd. Längst upp i trädet finns en mapp med namnet '&lt;filename&gt;/&lt;/filename&gt;', filsystemets absoluta rot. Alla filer går att nå från den här rotmappen. Som standard visas den som alternativet &lt;filename&gt;Filsystem&lt;/filename&gt;, med en hårddiskikon i område &lt;emphasis role="bold"&gt;A&lt;/emphasis&gt; i dialogrutan &lt;interface&gt;Öppna fil&lt;/interface&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Navigating the directory tree from the single root folder would quickly become burdensome and the &lt;interface&gt;File Open&lt;/interface&gt; dialog provides several other starting folders in area &lt;emphasis role="bold"&gt;A&lt;/emphasis&gt;. Two starting folders which are commonly provided are the 'Home' and 'Desktop' folders for the current user.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det skulle snabbt bli omständligt att navigera i katalogträdet från den enda rotmappen. Därför erbjuder dialogrutan &lt;interface&gt;Öppna fil&lt;/interface&gt; flera andra startmappar i område &lt;emphasis role="bold"&gt;A&lt;/emphasis&gt;. Två vanliga startmappar är den aktuella användarens ”Hem” och ”Skrivbord”.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In a complex computer system, the absolute root folder may be hidden from the user and the starting folders accessible to the user may only provide limited access to the filesystem. Jointly, the starting folders provided should allow the users to access all the folders in which the user has permission to store files and to the folders which are designed to be read by the user.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I ett komplext datorsystem kan den absoluta rotmappen vara dold för användaren, och startmapparna kan ge begränsad åtkomst till filsystemet. Tillsammans bör de ge användaren åtkomst till alla mappar där hen får lagra filer och till mappar som är avsedda att kunna läsas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Several starting folders may be provided when files can be opened from different filesystems. This will be the case when filesystem on other machines are accessible over a network or when &lt;application&gt;Gnumeric&lt;/application&gt; is running on operating systems whose filesystems are not unified, such as the proprietary operating systems sold by Microsoft in which each disk drive has its own root named, for example, &lt;filename&gt;C:\&lt;/filename&gt; or &lt;filename&gt;D:\&lt;/filename&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Flera startmappar kan visas om filer kan öppnas från olika filsystem. Så är fallet när andra datorers filsystem nås via ett nätverk eller när &lt;application&gt;Gnumeric&lt;/application&gt; körs på ett operativsystem vars filsystem inte är enhetligt. I vissa proprietära operativsystem från Microsoft har varje diskenhet till exempel en egen rotmapp med namnet &lt;filename&gt;C:\&lt;/filename&gt; eller &lt;filename&gt;D:\&lt;/filename&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Additional starting folders can be added as 'bookmark folders' by the users themselves. These bookmark folders do not provide access to a different set of folders but merely provide efficient access to a folder and its sub-folders. These bookmark folders are easy to change to allow a user to work efficiently. These bookmark folders are listed, in area &lt;emphasis role="bold"&gt;A&lt;/emphasis&gt;, under the thin horizontal separator line. The creation and deletion of these bookmark folders is explained below, in &lt;xref linkend="sect-file-open-dialog-bookmarks"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan själv lägga till fler startmappar som bokmärkesmappar. De ger inte åtkomst till fler mappar, utan bara snabb åtkomst till en mapp och dess undermappar. Bokmärkesmapparna är enkla att ändra så att du kan arbeta effektivt. De visas i område &lt;emphasis role="bold"&gt;A&lt;/emphasis&gt;, under den tunna vågräta avdelaren. I &lt;xref linkend="sect-file-open-dialog-bookmarks"/&gt; beskrivs hur du skapar och tar bort bokmärkesmappar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;B&lt;/emphasis&gt; - The folder hierarchy area.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;B&lt;/emphasis&gt; – Området med mappträdet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This area displays the folder hierarchy starting from the starting folder selected in area &lt;emphasis role="bold"&gt;A&lt;/emphasis&gt; and ending in the current folder, the folder whose contents are displayed in area &lt;emphasis role="bold"&gt;C&lt;/emphasis&gt;, while displaying all the folders between the two. This area changes dynamically as the user changes to new folders. In the case shown in &lt;xref linkend="fig-file-open-dialog-components"/&gt;, the user has selected their 'Home' folder as the starting folder in area &lt;emphasis role="bold"&gt;A&lt;/emphasis&gt; and has not navigated to any sub-folders.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här visas mappträdet från startmappen som valts i område &lt;emphasis role="bold"&gt;A&lt;/emphasis&gt; till den aktuella mappen, vars innehåll visas i område &lt;emphasis role="bold"&gt;C&lt;/emphasis&gt;. Alla mappar däremellan visas också. Området uppdateras när användaren går till en annan mapp. I &lt;xref linkend="fig-file-open-dialog-components"/&gt; har användaren valt ”Hem” som startmapp i område &lt;emphasis role="bold"&gt;A&lt;/emphasis&gt; och inte öppnat någon undermapp.</seg></tuv>
     </tu>
   </body>
 </tmx>
