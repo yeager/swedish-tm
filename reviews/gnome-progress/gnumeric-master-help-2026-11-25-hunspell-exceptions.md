@@ -250,3 +250,10 @@ Batch 188:
 Batch 189:
 
 - **Gnumeric** — application name.
+
+Batch 190:
+
+- **Gnumeric** — application name.
+- **escape-sekvenser** — technical compound for escape sequences used to represent unknown characters.
+- **kalkylbladsval** — compound heading for the worksheet selection area.
+- **talformat / talformaten** — spreadsheet number-format terminology; Hunspell does not recognize these compounds in the extracted text.
