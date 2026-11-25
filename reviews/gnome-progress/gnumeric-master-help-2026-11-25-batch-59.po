@@ -1,0 +1,172 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:424
+msgid ""
+"<application>Gnumeric</application> provides two types of frequencies "
+"tables:"
+msgstr ""
+"<application>Gnumeric</application> har två typer av frekvenstabeller:"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:428
+msgid ""
+"The frequency table tools is primarily useful for non-numeric data (data of "
+"nominal and ordinal level of measurement). It allows to determine "
+"frequencies for given values."
+msgstr ""
+"Verktygen för frekvenstabeller passar främst för icke-numeriska data, där "
+"värdena anger kategorier eller en ordning. De används för att beräkna hur "
+"ofta angivna värden förekommer."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:432
+msgid ""
+"The histogram tool is useful for numeric data that is supposed to be "
+"classified into a certain number of intervals. These intervals can be either"
+" specified or calculated."
+msgstr ""
+"Verktyget Histogram passar för numeriska data som ska delas in i ett visst "
+"antal intervall. Intervallen kan anges i förväg eller beräknas av verktyget."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:439
+msgid "Frequency Tables Tool"
+msgstr "Verktyg för frekvenstabeller"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:444
+msgid ""
+"The frequency tool can be used to create frequency tables for non-numerical "
+"data. It presents this table numerically as well as graphically."
+msgstr ""
+"Frekvensverktyget kan skapa frekvenstabeller för icke-numeriska data. "
+"Tabellen visas både numeriskt och grafiskt."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:449
+msgid ""
+"If your data are numeric and you want to accumulate whole intervals of "
+"values into frequency counts then this tool is not appropriate. In that case"
+" you may want to use the histogram table tool described in section <xref "
+"linkend=\"histogram-tool\"/>."
+msgstr ""
+"Om dina data är numeriska och du vill samla värden i intervall och räkna "
+"förekomster passar det här verktyget inte. Använd i så fall verktyget "
+"Histogram som beskrivs i avsnittet <xref linkend=\"histogram-tool\"/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:456
+msgid "Frequency Tool Dialog"
+msgstr "Dialogrutan för frekvensverktyget"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:458
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-frequency.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of the dialog "
+"to generate various frequency tables open to the \"Input\" tab.</phrase> "
+"</textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-frequency.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Bild av dialogrutan för"
+" att skapa frekvenstabeller, med fliken Indata öppen.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:471
+msgid ""
+"As shown in <xref linkend=\"frequency-tool-dialog\"/>, the frequency table "
+"dialog has four tabs. We will introduce them in sequence."
+msgstr ""
+"Som visas i <xref linkend=\"frequency-tool-dialog\"/> har dialogrutan "
+"Frekvensverktyg fyra flikar. De presenteras i tur och ordning."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:478 C/gnumeric.xml:630 C/gnumeric.xml:2126
+msgid "The <quote><guilabel>Input</guilabel></quote> Tab"
+msgstr "Fliken <quote><guilabel>Indata</guilabel></quote>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:480
+msgid ""
+"The <quote><guilabel>Input</guilabel></quote> tab shown in <xref "
+"linkend=\"frequency-tool-dialog\"/> contains the field specifying the data "
+"to be used for the histogram."
+msgstr ""
+"Fliken <quote><guilabel>Indata</guilabel></quote> i <xref "
+"linkend=\"frequency-tool-dialog\"/> innehåller fältet där du anger vilka "
+"data som ska användas i histogrammet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:484 C/gnumeric.xml:636
+msgid ""
+"The <quote><guilabel>Input Range</guilabel></quote> entry contains a single "
+"range or a list of ranges, that can be grouped into variables by rows, "
+"columns, or areas."
+msgstr ""
+"Fältet <quote><guilabel>Indataområde</guilabel></quote> innehåller ett "
+"cellområde eller en lista med cellområden. Områdena kan delas in i variabler"
+" efter rader, kolumner eller delområden."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:489 C/gnumeric.xml:641
+msgid ""
+"If the first row or column of the given input ranges, or the first field of "
+"each area contains labels, the <quote><guibutton>Labels</guibutton></quote> "
+"option should be selected. If the input is grouped by areas and the top left"
+" cell contains a label, the other cells in the first row are being ignored."
+msgstr ""
+"Om den första raden eller kolumnen i de angivna cellområdena, eller det "
+"första fältet i varje delområde, innehåller rubriker väljer du alternativet "
+"<quote><guibutton>Rubriker</guibutton></quote>. Om indata grupperas i "
+"områden och cellen längst upp till vänster innehåller en rubrik ignoreras de"
+" övriga cellerna på den första raden."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:499
+msgid "The <quote><guilabel>Categories</guilabel></quote> Tab"
+msgstr "Fliken <quote><guilabel>Kategorier</guilabel></quote>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:501
+msgid ""
+"The <quote><guilabel>Categories</guilabel></quote> tab permits the "
+"specification of a range that contains the possible values that are supposed"
+" to be counted in the input range."
+msgstr ""
+"På fliken <quote><guilabel>Kategorier</guilabel></quote> kan du ange ett "
+"cellområde med de värden som ska räknas i indataområdet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:506
+msgid ""
+"The <quote><guilabel>Automatic categories</guilabel></quote> option is "
+"disabled since it is not yet implemented."
+msgstr ""
+"Alternativet <quote><guilabel>Automatiska kategorier</guilabel></quote> är "
+"inaktiverat eftersom funktionen ännu inte har implementerats."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:511
+msgid "Frequency Tool Dialog Categories Tab"
+msgstr "Fliken Kategorier i dialogrutan för frekvensverktyget"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:513
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-frequency-"
+"cats.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of "
+"the dialog to generate various frequency tables open to the \"Categories\" "
+"tab.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-frequency-"
+"cats.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>Bild av "
+"dialogrutan för att skapa frekvenstabeller, med fliken Kategorier "
+"öppen.</phrase> </textobject>"
