@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T082224Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T082509Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596994,6 +596994,61 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The calculated correlations are given in a table with each column and row labeled with the names of the variables. If the names are not given in the input range, &lt;application&gt;Gnumeric&lt;/application&gt; generates them. In our example, the correlation between the variables in column A and B, can be found in the second column and third row of the results table (see &lt;xref linkend="correlation-example-3"/&gt;).</seg></tuv>
       <tuv xml:lang="sv"><seg>De beräknade korrelationerna visas i en tabell med variabelnamnen som rubriker för rader och kolumner. Om variabelnamnen saknas i indataområdet skapar &lt;application&gt;Gnumeric&lt;/application&gt; dem. I exemplet finns korrelationen mellan variablerna i kolumn A och B i resultatets andra kolumn och tredje rad (se &lt;xref linkend="correlation-example-3"/&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Covariance Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kovariansverktyg</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Covariance Tool Dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan för kovariansverktyget</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-covariance.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the covariance analysis dialog.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-covariance.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Bild av dialogrutan för kovariansanalys.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The covariance tool calculates the pairwise covariance coefficients of the given variables. Use this tool to calculate any number of covariance coefficients at the same time. The variables for which the covariances are calculated are specified by the &lt;quote&gt;&lt;guilabel&gt;Input Range:&lt;/guilabel&gt;&lt;/quote&gt; entry. The input range can consist of either a single range or a comma separated list of ranges. The given range or ranges can be grouped by columns, by rows, or by areas.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kovariansverktyget beräknar kovarianskoefficienterna för alla par av angivna variabler. Med verktyget kan du beräkna flera koefficienter samtidigt. Ange variablerna i fältet &lt;quote&gt;&lt;guilabel&gt;Indataområde:&lt;/guilabel&gt;&lt;/quote&gt;. Indataområdet kan bestå av ett cellområde eller en kommaseparerad lista med cellområden. Områdena kan grupperas efter kolumner, rader eller cellområden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-covariance-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image example data for a covariance analysis.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-covariance-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Exempeldata för kovariansanalys.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Using The Covariance Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använda kovariansverktyget</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>For example, you want to calculate the covariance between three variables, one each in columns A, B, and C. Both variables have 10 values in rows 2 to 11 with labels in row 1 (see &lt;xref linkend="covariance-example-1"/&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Säg att du vill beräkna kovariansen mellan tre variabler, en i vardera kolumn A, B och C. Varje variabel har tio värden i raderna 2–11 och en rubrik i rad 1 (se &lt;xref linkend="covariance-example-1"/&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select the &lt;quote&gt;&lt;guibutton&gt;Labels&lt;/guibutton&gt;&lt;/quote&gt; option since the first row contains labels.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj alternativet &lt;quote&gt;&lt;guibutton&gt;Rubriker&lt;/guibutton&gt;&lt;/quote&gt; eftersom den första raden innehåller rubriker.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The calculated covariances are given in a table with each column and row labeled with the names of the variables. If the names are not given in the input range, &lt;application&gt;Gnumeric&lt;/application&gt; generates them. In our example, the covariance between the variables in column A and B, can be found in the second column and third row of the results table (see &lt;xref linkend="covariance-example-2"/&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>De beräknade kovarianserna visas i en tabell med variabelnamnen som rubriker för rader och kolumner. Om variabelnamnen saknas i indataområdet skapar &lt;application&gt;Gnumeric&lt;/application&gt; dem. I exemplet finns kovariansen mellan variablerna i kolumn A och B i resultatets andra kolumn och tredje rad (se &lt;xref linkend="covariance-example-2"/&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Covariance Tool Output</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kovariansverktygets utdata</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-covariance-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output of a covariance analysis.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-covariance-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Bild av utdata från kovariansanalys.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
     </tu>
   </body>
 </tmx>
