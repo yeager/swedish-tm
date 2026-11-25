@@ -19,7 +19,7 @@ from xml.etree import ElementTree as ET
 
 def unit(entry: dict[str, str]) -> str:
     required = {"key", "key_id", "translation_id", "en", "sv"}
-    optional = {"verification_method", "verified_date", "status"}
+    optional = {"verification_method", "verified_date", "status", "source_revision"}
     if not required.issubset(entry) or not set(entry).issubset(required | optional) or any(not entry[name] for name in required):
         raise ValueError("each entry must have non-empty key_id, key, translation_id, en and sv")
     # JSON producers may emit these numeric Lokalise identifiers as JSON
@@ -35,6 +35,7 @@ def unit(entry: dict[str, str]) -> str:
         ("verification-method", entry.get("verification_method", "Lokalise UI readback")),
         ("status", entry.get("status", "saved-and-read-back")),
         ("verified-date", entry.get("verified_date", "2026-11-20")),
+        ("source-revision", entry.get("source_revision", "")),
     )
     props = "".join(f'<prop type="{name}">{escape(value)}</prop>' for name, value in properties)
     return (
