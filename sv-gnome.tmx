@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T143537Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T143823Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -604624,6 +604624,96 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The bubbles in a series are scaled relative to each other with the maximum value having a default, fixed size and the other values being scaled to this maximum bubble. Using this spin button, the default size of the maximum bubble can be altered.</seg></tuv>
       <tuv xml:lang="sv"><seg>Bubblorna i en serie skalas i förhållande till varandra. Det största värdet får en fast standardstorlek och de andra bubblorna skalas i förhållande till det. Du kan ändra standardstorleken för den största bubblan med sifferfältets pilar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The slices by default are plotted clockwise starting from the vertical which is considered 0 degrees. The first option allows the user to set a different starting point for the pie series by changing the value in the spin box. The value will increase to 360 degrees and then reset to zero.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sektorerna ritas som standard medurs från lodräta riktningen, som motsvarar 0 grader. Med det första alternativet anger du en annan startpunkt för cirkeldiagrammets serie i sifferfältet. Värdet ökar till 360 grader och återgår sedan till noll.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Bar and Column plots</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stapeldiagram och kolumndiagram</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Bar and column plots can be displayed with different sized gaps between categories and different overlaps between the values of different series in each category.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan ändra mellanrummet mellan kategorier och överlappningen mellan olika dataseriers värden i stapeldiagram och kolumndiagram.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configurable properties of bar and column plots.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaper som kan ställas in för stapeldiagram och kolumndiagram.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot depicts the properties of bar and column plots which can be configured.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar vilka egenskaper för stapeldiagram och kolumndiagram som kan ställas in.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Gap&lt;/guilabel&gt; describes the separation between the values plotted in each category. By default, the gap between categories is one and half times the width of a bar or a column. This spin button can be used to decrease the gap to zero, so there is no gap between categories, or increase the gap to 500% so the gap is five times the size of a bar or a column.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet för &lt;guilabel&gt;Mellanrum&lt;/guilabel&gt; anger avståndet mellan värdena i varje kategori. Som standard är mellanrummet mellan kategorierna en och en halv gång så stort som stapelns eller kolumnens bredd. Minska värdet till noll om du vill ta bort mellanrummet, eller öka det till 500 %, då blir det fem gånger så stort som stapeln eller kolumnen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Overlap&lt;/guilabel&gt; describes the separation between values of the different series in each category. By default these values will be plotted immediately adjacent to each other. This spin button can be lowered to minus 100% which leaves a gap the size of a bar or column between the values of each series. Alternatively, the values can be made to overlap up to 100%, a complete overlap. When values completely overlap, the latter series are plotted on top of the first series and a value may be completely obscured. In this case it may be possible to use partially transparent colors for the different series to allow both values to be visible.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet för &lt;guilabel&gt;Överlappning&lt;/guilabel&gt; anger avståndet mellan olika dataseriers värden i varje kategori. Som standard ritas värdena intill varandra. Med sifferfältet kan du minska överlappningen till −100 %, så att det blir ett mellanrum stort som en stapel eller kolumn mellan värdena i varje serie. Du kan också öka den till 100 %, så att värdena överlappar helt. Då ritas senare serier ovanpå den första, som kan döljas helt. Använd delvis genomskinliga färger för serierna om du vill se båda värdena.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Center size&lt;/guilabel&gt; option determines the size of the hole in the middle of the rings as a fraction of the total radius. The center size can be altered in 5 percent increments.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativet &lt;guilabel&gt;Hålets storlek&lt;/guilabel&gt; anger hålets storlek i förhållande till ringarnas totala radie. Du kan ändra storleken i steg om 5 procent.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Vary colors by slice&lt;/guilabel&gt; check box allows the user to assign colors either by slices, which is the default, or by series. To use color to distinguish series rather than categories, this button should not be checked.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med kryssrutan &lt;guilabel&gt;Variera färg mellan sektorer&lt;/guilabel&gt; väljer du om färger ska tilldelas per sektor, vilket är standard, eller per serie. Avmarkera rutan om färgerna ska skilja serier åt i stället för kategorier.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Data Series</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dataserier</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Each plot will have one or more 'series' which organize the data values. Each series element has a number of properties. The element will have a &lt;guilabel&gt;Style&lt;/guilabel&gt; tab with which the style of the line and point markers, or the area and outline can be set. Each series element will have a &lt;guilabel&gt;Data&lt;/guilabel&gt; tab in which the name of the series, the values used for the series and any labels associated with these values can be entered. The data values will generally be entered as references to cells on a worksheet which will allow the plots to be automatically altered when the values in the worksheet change. The series may also have one or more &lt;guilabel&gt;Error&lt;/guilabel&gt; tabs in which error values can be associated to the data value of each element in the series.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Varje diagram innehåller en eller flera ”serier” som grupperar datavärden. Varje serie har flera egenskaper. På fliken &lt;guilabel&gt;Stil&lt;/guilabel&gt; ställer du in utseendet på linjer och punktmarkörer, eller på fyllning och kontur. På fliken &lt;guilabel&gt;Data&lt;/guilabel&gt; anger du seriens namn, värden och eventuella etiketter. Värden anges vanligen som referenser till celler i ett kalkylblad, så att diagrammet uppdateras automatiskt när cellerna ändras. Serien kan också ha en eller flera flikar &lt;guilabel&gt;Fel&lt;/guilabel&gt;, där du kopplar felvärden till varje datapunkt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Series line style</seg></tuv>
+      <tuv xml:lang="sv"><seg>Linjestil för en dataserie</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Series in line plots, in some radar plots and in scatter plots will have a style tab in which the graphical style of the lines and point markers can be established.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Serier i linjediagram, vissa radardiagram och spridningsdiagram har en stilflik där du ställer in linjernas utseende och punktmarkörer.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configurable properties of a line style.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaper som kan ställas in för en linjestil.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot depicts the properties of a line style which can be configured.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar vilka egenskaper för en linjestil som kan ställas in.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The properties of a single value data series include an optional name, a required list of values and an optional list of labels. The name, in this case, is a reference to cell D7 in the first worksheet. The values are the contents of the cells in the range E7:I7. The labels are the contents of the cells in the range E6:I6. Note that there are as many cells in the labels range as in the values range.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaperna för en dataserie med enstaka värden omfattar ett valfritt namn, en obligatorisk värdelista och en valfri etikettlista. Här är namnet en referens till cell D7 i det första kalkylbladet. Värdena hämtas från cellerna E7:I7 och etiketterna från E6:I6. Antalet celler i etikettområdet är samma som i värdeområdet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Line&lt;/guilabel&gt; properties include the line color and size. The color can be altered in the standard way using the drop down color chooser. The width of the line can be changed with the spin box. A line size of '-1' means that the line will not be plotted.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Under &lt;guilabel&gt;Linje&lt;/guilabel&gt; ställer du in linjens färg och tjocklek. Välj färg med rullgardinsknappen och ändra tjockleken med sifferfältets pilar. Värdet ’-1’ innebär att linjen inte ritas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Marker&lt;/guilabel&gt; properties determine the style of the graphical symbol which will be plotted for each data value. The first drop down box allows the user to choose between a number of different symbols. The blank symbol indicates that no symbol will be plotted where the data value would be. Each shape will have a fill color, and an outline with both a color and a size. The colors can be changed by clicking on the drop down box and picking one of the given colors or using the color picker to select a new color. The size of the outline can be altered by clicking in the text area and editing the value or by using the spin arrows to increase or decrease the size.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Under &lt;guilabel&gt;Markör&lt;/guilabel&gt; väljer du vilken symbol som ska visas vid varje datavärde. I den första rullgardinsmenyn väljer du symbol. En tom symbol innebär att ingen symbol visas. Varje form har en fyllningsfärg och en kontur med egen färg och storlek. Ändra färg med rullgardinsmenyn eller färgväljaren. Ändra konturens storlek genom att skriva ett nytt värde i textfältet eller använda pilarna.</seg></tuv>
     </tu>
   </body>
 </tmx>

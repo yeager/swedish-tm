@@ -118,3 +118,7 @@ Batch 164 sample code and references:
 Batch 166 formula notation:
 
 - **9N** — part of the source formula expression `9N−1` for allowed minor-tick values; preserved exactly.
+
+Batch 168 worksheet references:
+
+- **D7**, **E7:I7**, **E6:I6** — spreadsheet cell/range references in a source example; preserved exactly.
