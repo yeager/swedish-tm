@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T063502Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T063735Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -595654,6 +595654,76 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Data are recognized as numbers when they are entered, dependent on the format of the sequence of characters entered. &lt;application&gt;Gnumeric&lt;/application&gt; attempts to intelligently guess the subtype of the data and match the data to an existing format for numbered data. If it matches a data format, &lt;application&gt;Gnumeric&lt;/application&gt; will automatically assign the datum to a data type and associate an appropriate display format with the cell. The format recognition of &lt;application&gt;Gnumeric&lt;/application&gt; includes a wide variety of data formats which are discussed in detail in &lt;xref linkend="number-formatting-overview"/&gt;.</seg></tuv>
       <tuv xml:lang="sv"><seg>Inmatade data tolkas som tal beroende på hur tecknen är formaterade. &lt;application&gt;Gnumeric&lt;/application&gt; försöker avgöra vilken undertyp data har och matcha dem mot ett befintligt talformat. Om ett format känns igen tilldelar &lt;application&gt;Gnumeric&lt;/application&gt; automatiskt data en datatyp och kopplar ett lämpligt visningsformat till cellen. &lt;application&gt;Gnumeric&lt;/application&gt; känner igen många olika format, som beskrivs närmare i &lt;xref linkend="number-formatting-overview"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Because &lt;application&gt;Gnumeric&lt;/application&gt; automatically guesses the data type of a number being entered into a cell, this process may have to be over-ridden for certain types of data. For example, postal codes in the United States consist of a sequence of numbers which &lt;application&gt;Gnumeric&lt;/application&gt; interprets as an integer. However, U.S. postal codes can start with a leading zero which &lt;application&gt;Gnumeric&lt;/application&gt; discards by default. In order to override the default format, the number format of the cell must be specified before the entry of the data. This is explained in &lt;xref linkend="number-formatting-overview"/&gt;, below.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Eftersom &lt;application&gt;Gnumeric&lt;/application&gt; automatiskt gissar datatypen för ett tal som matas in kan du behöva åsidosätta den för vissa slags data. Postnummer i USA består till exempel av siffror som &lt;application&gt;Gnumeric&lt;/application&gt; tolkar som heltal. Amerikanska postnummer kan dock börja med noll, som &lt;application&gt;Gnumeric&lt;/application&gt; tar bort som standard. Om du vill behålla nollan måste du ange cellens talformat innan du matar in värdet. Detta beskrivs nedan i &lt;xref linkend="number-formatting-overview"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Cells can contain boolean data elements. These elements arise from Boolean logic which is a branch of mathematics. These elements are useful for manipulation of formulas.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Celler kan innehålla booleska dataelement. De bygger på boolesk logik, en gren av matematiken, och används vid hantering av formler.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Boolean values can be either "TRUE" or "FALSE". If these strings are entered into a cell, &lt;application&gt;Gnumeric&lt;/application&gt; will recognize these as boolean values. These values can then be used in formulas. Certain formulas will also return boolean values.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Booleska värden kan vara ”TRUE” eller ”FALSE”. Om du skriver in någon av dessa strängar i en cell känner &lt;application&gt;Gnumeric&lt;/application&gt; igen den som ett booleskt värde. Värdena kan sedan användas i formler, och vissa formler returnerar också booleska värden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Formulas are the key to making a powerful spreadsheet. A formula instructs &lt;application&gt;Gnumeric&lt;/application&gt; to perform calculations and display the results. These calculations are defined as a formula data elements. The power of these formulas arises because these formulas can include the contents of other cells and the results of the formulas are updated automatically when the contents of any cell included in the formula change. The contents of other cells are included using "cell references" which are explained below.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formler gör kalkylblad kraftfulla. En formel instruerar &lt;application&gt;Gnumeric&lt;/application&gt; att utföra en beräkning och visa resultatet. Formler kan använda innehållet i andra celler, och resultatet uppdateras automatiskt när innehållet i någon av dessa celler ändras. Du hänvisar till andra celler med cellreferenser, som beskrivs nedan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Any formula entered into a cell must follow a specific syntax so that &lt;application&gt;Gnumeric&lt;/application&gt; can interpret the formula correctly. This syntax closely follows mathematical notation but also includes spreadsheet formulas, object names and cell references.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formler som matas in i en cell måste följa en viss syntax för att &lt;application&gt;Gnumeric&lt;/application&gt; ska kunna tolka dem rätt. Syntaxen följer i stort matematisk notation men omfattar också kalkylbladsformler, objektnamn och cellreferenser.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Formulas are distinguished from regular data by starting with an equals sign (=) as the first character. Everything following this equals sign is evaluated as a formula.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formler skiljs från vanliga data genom att börja med ett likhetstecken (=). Allt som följer efter tecknet tolkas som en formel.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To accommodate those more familiar with Lotus spreadsheets, Gnumeric recognizes the commercial at symbol (@) as the beginning of a formula and substitutes an equals sign. The plus and minus characters (+ and -) may also start formulas that involve calculation, but when used in front of a single number only indicate the sign of the number.</seg></tuv>
+      <tuv xml:lang="sv"><seg>För att underlätta för användare som är vana vid Lotus-kalkylblad känner Gnumeric igen snabel-a (@) som början på en formel och byter ut det mot ett likhetstecken. Plus- och minustecknen (+ och -) kan också inleda beräknande formler, men framför ett ensamt tal anger de bara talets tecken.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The simplest formulas just use the standard math operator and symbols. Addition, subtraction, multiplication, and division are represented by +, -, *, and /, just as you would expect. +,- can be placed in front of numbers to indicate sign, as well. &lt;_:example-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>De enklaste formlerna använder vanliga matematiska operatorer och symboler. Addition, subtraktion, multiplikation och division skrivs med +, -, * respektive /. Plus- och minustecken kan också stå framför tal för att ange deras tecken. &lt;_:example-1/&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Formulas can result in error values in several instances. If a formula is entered incorrectly, &lt;application&gt;Gnumeric&lt;/application&gt; will display a warning and allow either the formula to be corrected or will save the formula as text for editing later. If a syntactically correct formula results in a nonsensical calculation (for instance, a division by zero), then an error value will be displayed indicating the error.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formler kan ge felvärden av flera orsaker. Om en formel är felaktigt inmatad visar &lt;application&gt;Gnumeric&lt;/application&gt; en varning och låter dig antingen rätta formeln eller spara den som text för senare redigering. Om en formel har korrekt syntax men ger en orimlig beräkning, till exempel division med noll, visas ett felvärde som anger felet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Formulas can also contain functions which denote the use of standard mathematical, business, statistical, and scientific calculations. These functions take the place of any data element in a formula and can therefore be combined with the standard arithmetic operators described above.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formler kan också innehålla funktioner för vanliga matematiska, ekonomiska, statistiska och naturvetenskapliga beräkningar. Funktioner kan ersätta ett dataelement i en formel och kombineras med de vanliga räkneoperatorerna ovan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>These functions have the form: &lt;_:example-1/&gt; where FUNCTIONNAME indicates the name of a function and ARGUMENTS indicates one or more arguments to the function. The function arguments are separated by commas (&lt;keysym&gt;,&lt;/keysym&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Funktioner skrivs på formen &lt;_:example-1/&gt;, där FUNCTIONNAME är funktionens namn och ARGUMENTS är ett eller flera argument. Funktionsargument avgränsas med kommatecken (&lt;keysym&gt;,&lt;/keysym&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>While the documentation generally refers to functions and to cells in capital letters, their use is not actually case sensitive.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Även om dokumentationen oftast skriver funktionsnamn och cellreferenser med versaler gör Gnumeric ingen skillnad på stora och små bokstäver.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Some examples of the use of functions are: &lt;_:example-1/&gt; The arguments of the functions vary in number from none, as in the PI() function, to an unlimited number, as in the SUM() function, depending on the type of function.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här följer några exempel på funktioner: &lt;_:example-1/&gt; Antalet argument varierar beroende på funktionen: PI() tar inga argument, medan SUM() kan ta hur många som helst.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Formulas can include the displayed data from other cells. These contents are described as `cell references' which are names indicating that the contents of other cells should be used in the calculation.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formler kan använda värden som visas i andra celler. Dessa anges med cellreferenser, alltså namn som talar om att innehållet i andra celler ska ingå i beräkningen.</seg></tuv>
     </tu>
   </body>
 </tmx>
