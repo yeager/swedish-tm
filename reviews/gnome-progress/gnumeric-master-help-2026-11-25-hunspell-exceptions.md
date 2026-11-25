@@ -272,3 +272,11 @@ Batch 193:
 - **dd-mmm-yyyy / hh:mm / DATE:yyyy / TIME:hh:mm:ss** — exact date/time formats and header/footer opcodes.
 - **file.gnumeric** — literal example filename.
 - The lint info about currency localization is a false positive on the exact spreadsheet reference **$A$1**.
+
+Batch 194:
+
+- **Gnumeric / Calc / Evince / OpenOffice.org** — product and application names, including Swedish possessive/compound forms.
+- **GTK / .gtkrc / gtk-print-preview-command** — toolkit and exact configuration-file/command identifiers.
+- **GTK-version / Gnumeric-listan / Gnumeric-användare / Gnumeric-projektet** — technical/product compounds.
+- **Internet Relay Chat (IRC)** — protocol/channel name retained.
+- `l10n-lint` flags translated placeholder content inside `<replaceable>` as protected-markup-content. The placeholders “your GTK version” and “command to your preferred viewer” are human-readable metavariables and are intentionally translated, as requested; tag structure and command key remain unchanged. Re-running with only that rule skipped yields 0 warnings/errors.
