@@ -71,3 +71,9 @@ Batch 130 identifiers flagged by Hunspell:
 Batch 131:
 
 - **Gnumeric** — application name, preserved in the file-opening instructions.
+
+
+Batch 133 identifiers flagged by Hunspell:
+
+- **user_account_name** — literal placeholder in the path example, preserved exactly; Hunspell splits it into `user`, `account` and `name`.
+- **currentWork** — example folder name from the figure, preserved exactly.
