@@ -1,0 +1,64 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:71
+msgid ""
+"To solve optimization problems with Gnumeric you have to type in the problem"
+" into a sheet. A recommended way to start with is to allocate a separate "
+"column in the spreadsheet for each decision variable (in the previous "
+"example the x, y, and z) and a separate row for each constraint (the "
+"constraints #1-#4). The coefficients of these variables should be placed "
+"into the cells corresponding to the allocated row and the column. It is also"
+" recommended that you label the rows and the columns to make the sheet much "
+"more readable. The sheet for our maximization problem would look like this:"
+msgstr ""
+"Om du vill lösa ett optimeringsproblem med Gnumeric skriver du in problemet "
+"i ett blad. Ett bra sätt att börja är att avsätta en kolumn i kalkylbladet "
+"för varje beslutsvariabel (x, y och z i föregående exempel) och en rad för "
+"varje bivillkor (#1–#4). Placera variablernas koefficienter i cellerna där "
+"respektive rad och kolumn möts. Märk gärna rader och kolumner så blir bladet"
+" tydligare. Bladet för maximeringsproblemet skulle se ut så här:"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:102
+msgid ""
+"The constraints are defined in rows seven to ten. Since the coefficients of "
+"these functions are in columns B, C and D we will get the total sum of each "
+"of the constraint using the formula `SUMPRODUCT(B$3:D$3,Bn:Dn)' where n is "
+"the row number of the constraint. For example, in E7 we have "
+"`=SUMPRODUCT(B$3:D$3,B7:D7)', in E8 `=SUMPRODUCT(B$3:D$3,B8:D8)' and so on. "
+"The right hand side (RHS) values of the constraints are typed into cells "
+"G7:G10."
+msgstr ""
+"Bivillkoren anges på raderna 7–10. Eftersom koefficienterna finns i "
+"kolumnerna B, C och D får vi summan för varje bivillkor med formeln "
+"`SUMPRODUCT(B$3:D$3,Bn:Dn)', där n är bivillkorets radnummer. I E7 blir "
+"formeln till exempel `=SUMPRODUCT(B$3:D$3,B7:D7)', i E8 "
+"`=SUMPRODUCT(B$3:D$3,B8:D8)' och så vidare. Bivillkorens högerled (RHS) "
+"anges i cellerna G7:G10."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:119
+msgid ""
+"Now it is time to select `Solver...' from the `Tools' menu. After you have "
+"done it, the following dialog will appear:"
+msgstr ""
+"Välj nu `Problemlösare…` på menyn `Verktyg`. Då öppnas följande dialogruta:"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:192
+msgid ""
+"In this page, you can see all constraints that have been defined in the "
+"`Subject to the Constraints:' window. Since none has been defined, this "
+"window should be empty. Now type in the constraints (#1-#4) one by one."
+msgstr ""
+"På den här fliken visas alla bivillkor som har lagts till under ”Föremål för"
+" bivillkoren:”. Eftersom inga har lagts till än är listan tom. Skriv in "
+"bivillkoren (#1–#4) ett i taget."

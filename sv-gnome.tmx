@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T081411Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T081710Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596914,6 +596914,26 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>As expected, the 95% Confidence interval for Profit is less than 0.05. For the newsvendor example, the next step would be to look at the confidence intervals of the profit for all values of purchase quantity, and verify that this confidence interval is adequate for the decision to be made.</seg></tuv>
       <tuv xml:lang="sv"><seg>Som väntat är det 95 % konfidensintervallet för vinsten mindre än 0,05. Nästa steg i exemplet med tidningsförsäljning är att granska konfidensintervallen för vinsten vid alla inköpsmängder och kontrollera att intervallet ger tillräcklig precision för beslutet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To solve optimization problems with Gnumeric you have to type in the problem into a sheet. A recommended way to start with is to allocate a separate column in the spreadsheet for each decision variable (in the previous example the x, y, and z) and a separate row for each constraint (the constraints #1-#4). The coefficients of these variables should be placed into the cells corresponding to the allocated row and the column. It is also recommended that you label the rows and the columns to make the sheet much more readable. The sheet for our maximization problem would look like this:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du vill lösa ett optimeringsproblem med Gnumeric skriver du in problemet i ett blad. Ett bra sätt att börja är att avsätta en kolumn i kalkylbladet för varje beslutsvariabel (x, y och z i föregående exempel) och en rad för varje bivillkor (#1–#4). Placera variablernas koefficienter i cellerna där respektive rad och kolumn möts. Märk gärna rader och kolumner så blir bladet tydligare. Bladet för maximeringsproblemet skulle se ut så här:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The constraints are defined in rows seven to ten. Since the coefficients of these functions are in columns B, C and D we will get the total sum of each of the constraint using the formula `SUMPRODUCT(B$3:D$3,Bn:Dn)' where n is the row number of the constraint. For example, in E7 we have `=SUMPRODUCT(B$3:D$3,B7:D7)', in E8 `=SUMPRODUCT(B$3:D$3,B8:D8)' and so on. The right hand side (RHS) values of the constraints are typed into cells G7:G10.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bivillkoren anges på raderna 7–10. Eftersom koefficienterna finns i kolumnerna B, C och D får vi summan för varje bivillkor med formeln `SUMPRODUCT(B$3:D$3,Bn:Dn)', där n är bivillkorets radnummer. I E7 blir formeln till exempel `=SUMPRODUCT(B$3:D$3,B7:D7)', i E8 `=SUMPRODUCT(B$3:D$3,B8:D8)' och så vidare. Bivillkorens högerled (RHS) anges i cellerna G7:G10.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Now it is time to select `Solver...' from the `Tools' menu. After you have done it, the following dialog will appear:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj nu `Problemlösare…` på menyn `Verktyg`. Då öppnas följande dialogruta:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In this page, you can see all constraints that have been defined in the `Subject to the Constraints:' window. Since none has been defined, this window should be empty. Now type in the constraints (#1-#4) one by one.</seg></tuv>
+      <tuv xml:lang="sv"><seg>På den här fliken visas alla bivillkor som har lagts till under ”Föremål för bivillkoren:”. Eftersom inga har lagts till än är listan tom. Skriv in bivillkoren (#1–#4) ett i taget.</seg></tuv>
     </tu>
   </body>
 </tmx>
