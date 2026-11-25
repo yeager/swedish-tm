@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T115645Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T115840Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -601479,6 +601479,51 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The other properties can be changed either by typing a new number into the text box or by using the up and down arrows to increment or decrement the width number.</seg></tuv>
       <tuv xml:lang="sv"><seg>Du kan ändra de övriga egenskaperna genom att skriva ett nytt tal i textrutan eller använda uppåt- och nedåtpilarna för att öka eller minska värdet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Spinbuttons.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stegningsrutor.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Spinbuttons, like sliders, are widgets that allow a user to change the numeric value in the cell by interacting with a widget. The value of spinbuttons can be changed either by typing a new number into the text box or by clicking on the arrow buttons. If the buttons are clicked and held, the numeric value will spin, incrementing or decrementing depending on the arrow being held.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stegningsrutor fungerar ungefär som skjutreglage: de låter dig ändra en cells talvärde med en gränssnittskomponent. Du kan ändra värdet genom att skriva ett nytt tal i textrutan eller klicka på pilknapparna. Om du håller en knapp nedtryckt ökar eller minskar värdet kontinuerligt, beroende på vilken pil du håller ned.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A spinbutton widget.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En stegningsruta.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/widget-spinbutton.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; An image of a spinbutton widget. &lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/widget-spinbutton.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av en stegningsruta.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Configuring the properties of the spinbutton</seg></tuv>
+      <tuv xml:lang="sv"><seg>Konfigurera stegningsrutans egenskaper</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The properties of the spinbutton can be altered with the &lt;guimenuitem&gt;Properties&lt;/guimenuitem&gt; menu item in the context menu which appears when the mouse cursor is placed over the spinbutton and one of the secondary mouse buttons is pressed.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan ändra stegningsrutans egenskaper med menyalternativet &lt;guimenuitem&gt;Egenskaper&lt;/guimenuitem&gt; i snabbmenyn. Öppna menyn genom att föra muspekaren över stegningsrutan och trycka på en sekundär musknapp.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Spinbuttons have five properties which can be configured: the worksheet cell whose value will be altered by the spinbutton, the minimum value when the thumb is at the top of its channel, the maximum value reached when the thumb is at the bottom of its channel, the smallest increment of change which is the change caused by clicking on the arrows, and the page increment which is the change which occurs when the channel is clicked.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan konfigurera fem egenskaper för stegningsrutan: cellen vars värde ska ändras, minimivärdet när handtaget är högst upp i spåret, maximivärdet när handtaget är längst ned, det minsta ändringssteget som används när du klickar på pilarna och ändringssteget som används när du klickar i spåret.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configuration dialog for spinbutton properties.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan för stegningsrutans egenskaper.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/dialog-properties-scrollbar.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; An image of the dialog used to configure spinbutton widget elements. &lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/dialog-properties-scrollbar.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av dialogrutan för att konfigurera stegningsrutan.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
     </tu>
   </body>
 </tmx>
