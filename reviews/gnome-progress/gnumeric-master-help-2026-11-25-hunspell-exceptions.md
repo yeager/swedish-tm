@@ -162,3 +162,11 @@ Batch 177:
 - **XML / Extensible Markup Language / gzip / OASIS Open Document Format for Office Applications / ODF / ECMA / IEC / Amd / 2nd Edition / ISO/IEC identifiers** — canonical names and identifiers of formats and standards.
 - **LC_ALL / fr_FR / fr / FR / bash / ssconvert / Nautilus / rm** — environment variable, locale identifier, shell, applications and command-line tool names.
 - The untranslated **LC_ALL=fr_FR gnumeric &** catalog entry is a command example containing no prose; it is intentionally identical to the source.
+
+Batch 178:
+
+- **.as / .db / .dif / .gnm / .gnumeric / .mps / .oleo / .pln / .psisheet / .px / .stc / .sxc / .wk1 / .wks / .xml** — file extensions in the format table.
+- **Applix / GNU Oleo / Lotus 1-2-3 / MOOX / ODF / OpenDocument / OpenOffice.org / PlanPerfect / PostScript / SpreadsheetML / StarOffice** — product names and standardized file-format names.
+- **application/* MIME strings / none** — exact MIME identifiers and a source table sentinel; preserved verbatim.
+- **ECMA376 / ISO29500 / ISO/IEC** — standard identifiers preserved in the table.
+- `l10n-lint` reported two dash warnings for **Lotus 1-2-3** and the matching `vnd.lotus-1-2-3` MIME string. Both hyphenated number sequences are part of the exact product or MIME identifiers and must remain unchanged.
