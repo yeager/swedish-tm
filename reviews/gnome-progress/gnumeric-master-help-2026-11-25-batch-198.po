@@ -1,0 +1,455 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:455
+msgid "Red Hat: <literal>./autogen.sh</literal> and wait while it compiles"
+msgstr ""
+"Red Hat: kör <literal>./autogen.sh</literal> och vänta medan programmet "
+"kompileras"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:459
+msgid ""
+"<emphasis role=\"bold\">Optional:</emphasis> <emphasis>$root</emphasis> "
+"<literal>make install</literal>"
+msgstr ""
+"<emphasis role=\"bold\">Valfritt:</emphasis> <emphasis>$root</emphasis> "
+"<literal>make install</literal>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:460
+msgid ""
+"If you find that this didn't work, try <literal>make clean</literal> and "
+"then repeat from the autogen step. For example, sometimes I've had it not "
+"create the python-loader."
+msgstr ""
+"Om det inte fungerade kan du prova <literal>make clean</literal> och sedan "
+"upprepa stegen från autogen-steget. Ibland har jag till exempel varit med om"
+" att python-loader inte skapades."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:468
+msgid ""
+"OK, you should now have gnumeric! Test it! If you installed the Debianized "
+"version via apt-get, or did \"make install\", it should be installed to "
+"/usr/bin (or /usr/local/bin on Red Hat?) and you can just type "
+"<literal>gnumeric</literal>. Otherwise you will find it in "
+"<literal>gnumeric-head/src/</literal> and you will have to run it from "
+"there."
+msgstr ""
+"Nu bör du ha Gnumeric! Testa programmet. Om du installerade Debianpaketet "
+"med apt-get eller körde ”make install” ska programmet finnas i /usr/bin "
+"(eller /usr/local/bin på Red Hat?). Starta det med kommandot "
+"<literal>gnumeric</literal>. Annars finns programmet i <literal>gnumeric-"
+"head/src/</literal> och måste köras därifrån."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:486
+msgid "The Python Console"
+msgstr "Python-konsolen"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:488
+msgid ""
+"There is an interactive Python console available from inside Gnumeric. This "
+"is a good place to explore things, and if the console is expanded, will be a"
+" nice place for scripting. In the meantime, what I have called "
+"\"Spellbooks\" below are much more useful, but are fixed plugins as of "
+"Gnumeric startup. So right now I putter in the console as I develop plugin "
+"literal in the form of spellbooks. After 1.2.0, Gnumeric will be working on "
+"its scripting API, so the two approaches may merge. Or not."
+msgstr ""
+"Gnumeric har en interaktiv Python-konsol. Där kan du utforska programmet, "
+"och om konsolen byggs ut blir den en bra plats för skript. Än så länge är de"
+" ”magiböcker” jag beskriver nedan mer användbara, men de är fasta "
+"insticksmoduler som laddas när Gnumeric startar. Under tiden experimenterar "
+"jag i konsolen medan jag utvecklar insticksmoduler i form av magiböcker. "
+"Efter version 1.2.0 ska Gnumeric få ett skript-API, så de två sätten kanske "
+"kan slås ihop. Eller inte."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:500
+msgid "Enabling the Python Console"
+msgstr "Aktivera Python-konsolen"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:502
+msgid ""
+"You can run a Python interpreter from inside Gnumeric, but you have to turn "
+"it on. To do this you simply uncomment a line in python-loader/plugins.xml. "
+"Normally, that file lives in "
+"/usr/lib/gnumeric/<emphasis>$version</emphasis>/plugins/python-loader/, or "
+"perhaps <emphasis>/usr/local/lib...</emphasis> on Red Hat. I used to suggest"
+" making a local but you should probably make a local copy, but that was pain"
+" for little gain. So:"
+msgstr ""
+"Du kan köra en Python-tolk inifrån Gnumeric, men först måste du aktivera "
+"den. Ta bort kommentarstecknen framför en rad i python-loader/plugins.xml. "
+"Filen finns vanligtvis i "
+"/usr/lib/gnumeric/<emphasis>$version</emphasis>/plugins/python-loader/ eller"
+" kanske under <emphasis>/usr/local/lib...</emphasis> i Red Hat. Tidigare "
+"föreslog jag att skapa en lokal kopia, men det extra arbetet ger nog inte så"
+" mycket. Gör så här:"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:515
+msgid ""
+"<literal>gnumeric --version</literal> to make sure you get the right version"
+" name for the following. (You'll have to do this for every new version of "
+"Gnumeric!)"
+msgstr ""
+"Kör <literal>gnumeric --version</literal> för att ta reda på rätt "
+"versionsnamn nedan. Du behöver göra detta för varje ny Gnumeric-version"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:523
+msgid ""
+"<literal>cd ~/.gnumeric/</literal> <emphasis>$version</emphasis> "
+"<literal>/plugins/</literal>"
+msgstr ""
+"<literal>cd ~/.gnumeric/</literal> <emphasis>$version</emphasis> "
+"<literal>/plugins/</literal>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:531
+msgid "Edit <literal>python-loader/plugin.xml</literal>."
+msgstr "Redigera <literal>python-loader/plugin.xml</literal>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:537
+msgid ""
+"Uncomment the five lines starting with <literal>ui-console-menu "
+"service</literal> near the bottom (remove the \"&lt;!--\" and \"--&gt;\" "
+"tags around the &lt;service...&gt; and &lt;/service&gt; tags."
+msgstr ""
+"Ta bort kommentaren runt de fem raderna som börjar med <literal>ui-console-"
+"menu service</literal> nära slutet av filen (ta bort taggarna ”&lt;!--” och "
+"”--&gt;” runt taggarna &lt;service...&gt; och &lt;/service&gt;)."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:552
+msgid "Start gnumeric (same version)."
+msgstr "Starta gnumeric (samma version)."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:558
+msgid ""
+"Select from the <guimenu>Tools</guimenu> the <guimenuitem>Python "
+"console</guimenuitem>."
+msgstr ""
+"Välj <guimenu>Verktyg</guimenu> och sedan <guimenuitem>Python-"
+"konsol</guimenuitem>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:565
+msgid "<emphasis>Enjoy!</emphasis>"
+msgstr "<emphasis>Njut!</emphasis>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:575
+msgid "Playing with the Python console"
+msgstr "Utforska Python-konsolen"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:577
+msgid ""
+"At the top there is a drop-down menu <guimenu>Execute in</guimenu>. Right "
+"now your only choice will be <guimenuitem>Default</guimenuitem>. After you "
+"evaluate functions from other plugins, those environments will become "
+"available too (JK says this is called lazy loading). But I'll assume you are"
+" using Default. (The only real difference is that you have to import "
+"Gnumeric first, and you can't see your plugin functions.)"
+msgstr ""
+"Längst upp finns listrutan <guimenu>Exekvera i</guimenu>. Till att börja med"
+" är <guimenuitem>Standard</guimenuitem> det enda alternativet. När du har "
+"kört funktioner från andra insticksmoduler blir även deras miljöer "
+"tillgängliga (JK kallar detta ”lazy loading”). Jag utgår från att du "
+"använder Standard. Den enda egentliga skillnaden är att du måste importera "
+"Gnumeric först och inte kan se funktionerna i dina insticksmoduler"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:588
+msgid ""
+"(Note: older releases required you to type <literal>print dir()</literal> "
+"instead of just <literal>dir()</literal>. Fixed in cvs 16 June 2003, and "
+"certainly in 1.1.20 and higher."
+msgstr ""
+"(Obs! I äldre versioner behövde du skriva <literal>print dir()</literal> i "
+"stället för bara <literal>dir()</literal>. Detta rättades i CVS den 16 juni "
+"2003 och finns definitivt i version 1.1.20 och senare."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:595
+msgid "Let's start by taking a look at the environment."
+msgstr "Vi börjar med att undersöka miljön."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:613
+msgid ""
+"'Gnumeric' is a module that exists only within Gnumeric, and which defines "
+"the Gnumeric Python API."
+msgstr ""
+"”Gnumeric” är en modul som bara finns inifrån Gnumeric och som definierar "
+"Gnumerics Python-API."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:620
+msgid ""
+"Gnumeric.functions is the list of all the Gnumeric functions you would see "
+"in the function browser. You cannot yet do "
+"<literal>dir(Gnumeric.functions)</literal> but maybe someone will bind that "
+"soon."
+msgstr ""
+"Gnumeric.functions är en lista över alla Gnumeric-funktioner som visas i "
+"funktionsbläddraren. Du kan ännu inte köra "
+"<literal>dir(Gnumeric.functions)</literal>, men kanske lägger någon till det"
+" snart."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:627
+msgid ""
+"RangeRef is not listed. That seems to limit us, though later in the tutorial"
+" we'll see how to use regular functions to get inside RangeRefs."
+msgstr ""
+"RangeRef finns inte med i listan. Det verkar begränsa vad vi kan göra, men "
+"senare i handledningen visas hur vanliga funktioner kan användas för att "
+"komma åt RangeRef-objekt."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:636
+msgid ""
+"So do some exploring. First, let's poke around to figure out how to use "
+"CellPos."
+msgstr "Utforska vidare. Börja med att ta reda på hur CellPos fungerar."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:686
+msgid ""
+"If you evaluate in the context of a plugin (rather than in Default), then "
+"<literal>dir(Gnumeric.plugin_info)</literal> will reveal some simple "
+"informational functions you can call for the local plugin(s)."
+msgstr ""
+"Om du kör kommandot i en insticksmoduls miljö i stället för i Standard visar"
+" <literal>dir(Gnumeric.plugin_info)</literal> några enkla "
+"informationsfunktioner för den lokala insticksmodulen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:691
+msgid ""
+"Note: obviously I don't really know what I'm doing, or I wouldn't be poking "
+"around like this."
+msgstr ""
+"Obs! Jag vet uppenbarligen inte riktigt vad jag gör, annars skulle jag inte "
+"utforska på det här sättet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:697
+msgid "More fun with the Python console"
+msgstr "Fler saker att göra i Python-konsolen"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:699
+msgid ""
+"Jon K. Hellan writes, \"Here are some more things you can do from the "
+"console:\""
+msgstr ""
+"Jon K. Hellan skriver: ”Här är några fler saker du kan göra i konsolen:”"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:736
+msgid ""
+"Very, very nice. Note, after setting a value, it won't show up until that "
+"cell is redrawn. That will happen automatically with plugin functions, but "
+"in the console, you may have to click on the cell."
+msgstr ""
+"När du har ändrat ett värde visas det inte förrän cellen ritas om. "
+"Insticksmodulsfunktioner gör detta automatiskt, men i konsolen kan du behöva"
+" klicka på cellen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:745
+msgid "Using the built-in Python functions"
+msgstr "Använd de inbyggda Python-funktionerna"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:747
+msgid "To enable the Python-loader and Python plugins:"
+msgstr "Så här aktiverar du Python-loadern och Python-insticksmodulerna:"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:754
+msgid ""
+"Select the <guimenu>Tools</guimenu> menu and the "
+"<guimenuitem>Plugins</guimenuitem> menuitem."
+msgstr ""
+"Välj menyn <guimenu>Verktyg</guimenu> och menyobjektet "
+"<guimenuitem>Insticksmoduler</guimenuitem>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:761
+msgid "Select \"Python plugin loader\" and \"Python functions\". Restart Gnumeric."
+msgstr ""
+"Markera ”Python-insticksmodulernas inläsare” och ”Python-funktioner”. Starta"
+" om Gnumeric."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:769
+msgid ""
+"The quickest way to test whether you now have Python functions is to type "
+"<literal>=py_capwords(\"fred flintstone\")</literal> in the first cell. "
+"After you hit &lt;Enter&gt;, you should see \"Fred Flintstone\"."
+msgstr ""
+"Det snabbaste sättet att kontrollera om Python-funktionerna är aktiverade är"
+" att skriva <literal>=py_capwords(\"fred flintstone\")</literal> i den "
+"första cellen. Tryck på &lt;Enter&gt;. Då ska resultatet ”Fred Flintstone” "
+"visas."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:774
+msgid ""
+"You can also click on the functions button, and scroll down to the "
+"\"Python\" category. Select that. You should see at least two functions "
+"defined: PY_CAPWORDS and PY_PRINTF. They're not very useful, but they prove "
+"you've got the plugins. Test them either via the GUI or by typing into the "
+"cell."
+msgstr ""
+"Du kan också klicka på funktionsknappen och rulla ned till kategorin "
+"”Python”. Där bör det finnas minst två funktioner: PY_CAPWORDS och "
+"PY_PRINTF. De är inte särskilt användbara, men visar att insticksmodulerna "
+"fungerar. Testa dem i gränssnittet eller genom att skriva i en cell."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:780
+msgid "I'll presume they worked."
+msgstr "Jag utgår från att det fungerade."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:784
+msgid "Writing your own Python functions"
+msgstr "Skriv egna Python-funktioner"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:796
+msgid "Transformations: of obvious value for a spreadsheet"
+msgstr "Förvandlingar: självklart användbart i ett kalkylblad"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:797
+msgid "Illusions: statistical functions, clearly"
+msgstr "Illusioner: statistiska funktioner, förstås"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:798
+msgid "Charms: presentation graphics"
+msgstr "Trolleri: presentationsgrafik"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:799
+msgid "Necromancy: file repair and missing values?"
+msgstr "Nekromanti: filreparation och saknade värden?"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:800
+msgid "Divination: data mining!"
+msgstr "Spådom: datautvinning!"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:786
+msgid ""
+"To scribe new magic you must write your spells in places where Gnumeric will"
+" find them. That place is in folders under: "
+"<literal>~/.gnumeric/&lt;version&gt;/plugins/</literal> Each folder under "
+"here is one \"spellbook\" of new plugin functions. You may put all your "
+"spells in one spellbook, or group them neatly depending on your tastes. Each"
+" spellbook must have two files. We'll create a spellbook called \"myfuncs\"."
+" A pedestrian name for pedestrian spells. When I have more skill, perhaps "
+"I'll make some with better names. Several suggest themselves: "
+"<_:itemizedlist-1/>"
+msgstr ""
+"För att skapa ny magi skriver du dina besvärjelser där Gnumeric hittar dem. "
+"Använd katalogerna under "
+"<literal>~/.gnumeric/&lt;version&gt;/plugins/</literal>. Varje underkatalog "
+"är en ”magibok” med nya insticksmodulsfunktioner. Du kan samla alla "
+"besvärjelser i en bok eller ordna dem som du vill. Varje magibok måste "
+"innehålla två filer. Vi skapar en som heter ”myfuncs” – ett ganska "
+"vardagligt namn för vardagliga besvärjelser. När jag har blivit skickligare "
+"kanske jag hittar på bättre namn. Några förslag finns här: "
+"<_:itemizedlist-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:805
+msgid "Prepare the spellbook"
+msgstr "Förbered magiboken"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:807
+msgid ""
+"In many ways it would be easier to start by copying the py_func spellbook to"
+" your local .gnumeric folder, and just adding a function to that. But in "
+"general it will be more useful to be able to write your own separate "
+"spellbooks, so here we go."
+msgstr ""
+"Det vore på många sätt enklare att kopiera magiboken py_func till din lokala"
+" .gnumeric-katalog och bara lägga till en funktion där. Men i allmänhet är "
+"det mer användbart att kunna skriva egna, fristående magiböcker. Vi kör "
+"igång."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:814
+msgid ""
+"<emphasis role=\"bold\">Make the folder: </emphasis> First we make the "
+"folders and get into the right one. As noted above, we'll call our folder "
+"(spellbook) myfuncs."
+msgstr ""
+"<emphasis role=\"bold\">Skapa katalogen:</emphasis> Börja med att skapa "
+"katalogerna och gå till rätt plats. Som tidigare nämnts kallar vi katalogen "
+"(magiboken) myfuncs."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:820
+msgid "If they don't already exist:"
+msgstr "Om de inte redan finns:"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:823
+msgid "<literal>mkdir ~/.gnumeric/&lt;version&gt;</literal>"
+msgstr "<literal>mkdir ~/.gnumeric/&lt;version&gt;</literal>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:826
+msgid "<literal>mkdir ~/.gnumeric/&lt;version&gt;/plugins/myfuncs/</literal>"
+msgstr "<literal>mkdir ~/.gnumeric/&lt;version&gt;/plugins/myfuncs/</literal>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:827
+msgid "<literal>cd ~/.gnumeric/&lt;version&gt;/plugins/myfuncs/</literal>"
+msgstr "<literal>cd ~/.gnumeric/&lt;version&gt;/plugins/myfuncs/</literal>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:832
+msgid ""
+"<emphasis role=\"bold\">Make the files:</emphasis> A spellbook has two "
+"files. The first is the python file with the functions. The second is the "
+"XML file \"plugin.xml\". The XML file holds that master spells that tell "
+"Gnumeric what functions we've defined, and what the name of the python file "
+"<emphasis>is</emphasis>, and one other important item. We'll create these as"
+" blank files."
+msgstr ""
+"<emphasis role=\"bold\">Skapa filerna:</emphasis> En magibok innehåller två "
+"filer. Den första är Python-filen med funktionerna. Den andra är XML-filen "
+"”plugin.xml”. XML-filen berättar för Gnumeric vilka funktioner som finns, "
+"vad Python-filens namn <emphasis>är</emphasis> och en annan viktig uppgift. "
+"Skapa dessa som tomma filer."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:842
+msgid "<literal>touch my-func.py</literal>"
+msgstr "<literal>touch my-func.py</literal>"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T161730Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T162149Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -609169,6 +609169,261 @@ en användare
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Getting and building gnumeric:</seg></tuv>
       <tuv xml:lang="sv"><seg>Hämta och bygg gnumeric:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Red Hat: &lt;literal&gt;./autogen.sh&lt;/literal&gt; and wait while it compiles</seg></tuv>
+      <tuv xml:lang="sv"><seg>Red Hat: kör &lt;literal&gt;./autogen.sh&lt;/literal&gt; och vänta medan programmet kompileras</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;Optional:&lt;/emphasis&gt; &lt;emphasis&gt;$root&lt;/emphasis&gt; &lt;literal&gt;make install&lt;/literal&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;Valfritt:&lt;/emphasis&gt; &lt;emphasis&gt;$root&lt;/emphasis&gt; &lt;literal&gt;make install&lt;/literal&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If you find that this didn't work, try &lt;literal&gt;make clean&lt;/literal&gt; and then repeat from the autogen step. For example, sometimes I've had it not create the python-loader.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om det inte fungerade kan du prova &lt;literal&gt;make clean&lt;/literal&gt; och sedan upprepa stegen från autogen-steget. Ibland har jag till exempel varit med om att python-loader inte skapades.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>OK, you should now have gnumeric! Test it! If you installed the Debianized version via apt-get, or did "make install", it should be installed to /usr/bin (or /usr/local/bin on Red Hat?) and you can just type &lt;literal&gt;gnumeric&lt;/literal&gt;. Otherwise you will find it in &lt;literal&gt;gnumeric-head/src/&lt;/literal&gt; and you will have to run it from there.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Nu bör du ha Gnumeric! Testa programmet. Om du installerade Debianpaketet med apt-get eller körde ”make install” ska programmet finnas i /usr/bin (eller /usr/local/bin på Red Hat?). Starta det med kommandot &lt;literal&gt;gnumeric&lt;/literal&gt;. Annars finns programmet i &lt;literal&gt;gnumeric-head/src/&lt;/literal&gt; och måste köras därifrån.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Python Console</seg></tuv>
+      <tuv xml:lang="sv"><seg>Python-konsolen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>There is an interactive Python console available from inside Gnumeric. This is a good place to explore things, and if the console is expanded, will be a nice place for scripting. In the meantime, what I have called "Spellbooks" below are much more useful, but are fixed plugins as of Gnumeric startup. So right now I putter in the console as I develop plugin literal in the form of spellbooks. After 1.2.0, Gnumeric will be working on its scripting API, so the two approaches may merge. Or not.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gnumeric har en interaktiv Python-konsol. Där kan du utforska programmet, och om konsolen byggs ut blir den en bra plats för skript. Än så länge är de ”magiböcker” jag beskriver nedan mer användbara, men de är fasta insticksmoduler som laddas när Gnumeric startar. Under tiden experimenterar jag i konsolen medan jag utvecklar insticksmoduler i form av magiböcker. Efter version 1.2.0 ska Gnumeric få ett skript-API, så de två sätten kanske kan slås ihop. Eller inte.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Enabling the Python Console</seg></tuv>
+      <tuv xml:lang="sv"><seg>Aktivera Python-konsolen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>You can run a Python interpreter from inside Gnumeric, but you have to turn it on. To do this you simply uncomment a line in python-loader/plugins.xml. Normally, that file lives in /usr/lib/gnumeric/&lt;emphasis&gt;$version&lt;/emphasis&gt;/plugins/python-loader/, or perhaps &lt;emphasis&gt;/usr/local/lib...&lt;/emphasis&gt; on Red Hat. I used to suggest making a local but you should probably make a local copy, but that was pain for little gain. So:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan köra en Python-tolk inifrån Gnumeric, men först måste du aktivera den. Ta bort kommentarstecknen framför en rad i python-loader/plugins.xml. Filen finns vanligtvis i /usr/lib/gnumeric/&lt;emphasis&gt;$version&lt;/emphasis&gt;/plugins/python-loader/ eller kanske under &lt;emphasis&gt;/usr/local/lib...&lt;/emphasis&gt; i Red Hat. Tidigare föreslog jag att skapa en lokal kopia, men det extra arbetet ger nog inte så mycket. Gör så här:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;literal&gt;gnumeric --version&lt;/literal&gt; to make sure you get the right version name for the following. (You'll have to do this for every new version of Gnumeric!)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kör &lt;literal&gt;gnumeric --version&lt;/literal&gt; för att ta reda på rätt versionsnamn nedan. Du behöver göra detta för varje ny Gnumeric-version</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;literal&gt;cd ~/.gnumeric/&lt;/literal&gt; &lt;emphasis&gt;$version&lt;/emphasis&gt; &lt;literal&gt;/plugins/&lt;/literal&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;literal&gt;cd ~/.gnumeric/&lt;/literal&gt; &lt;emphasis&gt;$version&lt;/emphasis&gt; &lt;literal&gt;/plugins/&lt;/literal&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Edit &lt;literal&gt;python-loader/plugin.xml&lt;/literal&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Redigera &lt;literal&gt;python-loader/plugin.xml&lt;/literal&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Uncomment the five lines starting with &lt;literal&gt;ui-console-menu service&lt;/literal&gt; near the bottom (remove the "&amp;lt;!--" and "--&amp;gt;" tags around the &amp;lt;service...&amp;gt; and &amp;lt;/service&amp;gt; tags.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ta bort kommentaren runt de fem raderna som börjar med &lt;literal&gt;ui-console-menu service&lt;/literal&gt; nära slutet av filen (ta bort taggarna ”&amp;lt;!--” och ”--&amp;gt;” runt taggarna &amp;lt;service...&amp;gt; och &amp;lt;/service&amp;gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Start gnumeric (same version).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Starta gnumeric (samma version).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select from the &lt;guimenu&gt;Tools&lt;/guimenu&gt; the &lt;guimenuitem&gt;Python console&lt;/guimenuitem&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj &lt;guimenu&gt;Verktyg&lt;/guimenu&gt; och sedan &lt;guimenuitem&gt;Python-konsol&lt;/guimenuitem&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis&gt;Enjoy!&lt;/emphasis&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis&gt;Njut!&lt;/emphasis&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Playing with the Python console</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utforska Python-konsolen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>At the top there is a drop-down menu &lt;guimenu&gt;Execute in&lt;/guimenu&gt;. Right now your only choice will be &lt;guimenuitem&gt;Default&lt;/guimenuitem&gt;. After you evaluate functions from other plugins, those environments will become available too (JK says this is called lazy loading). But I'll assume you are using Default. (The only real difference is that you have to import Gnumeric first, and you can't see your plugin functions.)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Längst upp finns listrutan &lt;guimenu&gt;Exekvera i&lt;/guimenu&gt;. Till att börja med är &lt;guimenuitem&gt;Standard&lt;/guimenuitem&gt; det enda alternativet. När du har kört funktioner från andra insticksmoduler blir även deras miljöer tillgängliga (JK kallar detta ”lazy loading”). Jag utgår från att du använder Standard. Den enda egentliga skillnaden är att du måste importera Gnumeric först och inte kan se funktionerna i dina insticksmoduler</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>(Note: older releases required you to type &lt;literal&gt;print dir()&lt;/literal&gt; instead of just &lt;literal&gt;dir()&lt;/literal&gt;. Fixed in cvs 16 June 2003, and certainly in 1.1.20 and higher.</seg></tuv>
+      <tuv xml:lang="sv"><seg>(Obs! I äldre versioner behövde du skriva &lt;literal&gt;print dir()&lt;/literal&gt; i stället för bara &lt;literal&gt;dir()&lt;/literal&gt;. Detta rättades i CVS den 16 juni 2003 och finns definitivt i version 1.1.20 och senare.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Let's start by taking a look at the environment.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Vi börjar med att undersöka miljön.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>'Gnumeric' is a module that exists only within Gnumeric, and which defines the Gnumeric Python API.</seg></tuv>
+      <tuv xml:lang="sv"><seg>”Gnumeric” är en modul som bara finns inifrån Gnumeric och som definierar Gnumerics Python-API.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Gnumeric.functions is the list of all the Gnumeric functions you would see in the function browser. You cannot yet do &lt;literal&gt;dir(Gnumeric.functions)&lt;/literal&gt; but maybe someone will bind that soon.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gnumeric.functions är en lista över alla Gnumeric-funktioner som visas i funktionsbläddraren. Du kan ännu inte köra &lt;literal&gt;dir(Gnumeric.functions)&lt;/literal&gt;, men kanske lägger någon till det snart.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>RangeRef is not listed. That seems to limit us, though later in the tutorial we'll see how to use regular functions to get inside RangeRefs.</seg></tuv>
+      <tuv xml:lang="sv"><seg>RangeRef finns inte med i listan. Det verkar begränsa vad vi kan göra, men senare i handledningen visas hur vanliga funktioner kan användas för att komma åt RangeRef-objekt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>So do some exploring. First, let's poke around to figure out how to use CellPos.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utforska vidare. Börja med att ta reda på hur CellPos fungerar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If you evaluate in the context of a plugin (rather than in Default), then &lt;literal&gt;dir(Gnumeric.plugin_info)&lt;/literal&gt; will reveal some simple informational functions you can call for the local plugin(s).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du kör kommandot i en insticksmoduls miljö i stället för i Standard visar &lt;literal&gt;dir(Gnumeric.plugin_info)&lt;/literal&gt; några enkla informationsfunktioner för den lokala insticksmodulen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Note: obviously I don't really know what I'm doing, or I wouldn't be poking around like this.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Obs! Jag vet uppenbarligen inte riktigt vad jag gör, annars skulle jag inte utforska på det här sättet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>More fun with the Python console</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fler saker att göra i Python-konsolen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Jon K. Hellan writes, "Here are some more things you can do from the console:"</seg></tuv>
+      <tuv xml:lang="sv"><seg>Jon K. Hellan skriver: ”Här är några fler saker du kan göra i konsolen:”</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Very, very nice. Note, after setting a value, it won't show up until that cell is redrawn. That will happen automatically with plugin functions, but in the console, you may have to click on the cell.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När du har ändrat ett värde visas det inte förrän cellen ritas om. Insticksmodulsfunktioner gör detta automatiskt, men i konsolen kan du behöva klicka på cellen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Using the built-in Python functions</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd de inbyggda Python-funktionerna</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To enable the Python-loader and Python plugins:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Så här aktiverar du Python-loadern och Python-insticksmodulerna:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select the &lt;guimenu&gt;Tools&lt;/guimenu&gt; menu and the &lt;guimenuitem&gt;Plugins&lt;/guimenuitem&gt; menuitem.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj menyn &lt;guimenu&gt;Verktyg&lt;/guimenu&gt; och menyobjektet &lt;guimenuitem&gt;Insticksmoduler&lt;/guimenuitem&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select "Python plugin loader" and "Python functions". Restart Gnumeric.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markera ”Python-insticksmodulernas inläsare” och ”Python-funktioner”. Starta om Gnumeric.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The quickest way to test whether you now have Python functions is to type &lt;literal&gt;=py_capwords("fred flintstone")&lt;/literal&gt; in the first cell. After you hit &amp;lt;Enter&amp;gt;, you should see "Fred Flintstone".</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det snabbaste sättet att kontrollera om Python-funktionerna är aktiverade är att skriva &lt;literal&gt;=py_capwords("fred flintstone")&lt;/literal&gt; i den första cellen. Tryck på &amp;lt;Enter&amp;gt;. Då ska resultatet ”Fred Flintstone” visas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>You can also click on the functions button, and scroll down to the "Python" category. Select that. You should see at least two functions defined: PY_CAPWORDS and PY_PRINTF. They're not very useful, but they prove you've got the plugins. Test them either via the GUI or by typing into the cell.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också klicka på funktionsknappen och rulla ned till kategorin ”Python”. Där bör det finnas minst två funktioner: PY_CAPWORDS och PY_PRINTF. De är inte särskilt användbara, men visar att insticksmodulerna fungerar. Testa dem i gränssnittet eller genom att skriva i en cell.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>I'll presume they worked.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Jag utgår från att det fungerade.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Writing your own Python functions</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skriv egna Python-funktioner</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Transformations: of obvious value for a spreadsheet</seg></tuv>
+      <tuv xml:lang="sv"><seg>Förvandlingar: självklart användbart i ett kalkylblad</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Illusions: statistical functions, clearly</seg></tuv>
+      <tuv xml:lang="sv"><seg>Illusioner: statistiska funktioner, förstås</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Charms: presentation graphics</seg></tuv>
+      <tuv xml:lang="sv"><seg>Trolleri: presentationsgrafik</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Necromancy: file repair and missing values?</seg></tuv>
+      <tuv xml:lang="sv"><seg>Nekromanti: filreparation och saknade värden?</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Divination: data mining!</seg></tuv>
+      <tuv xml:lang="sv"><seg>Spådom: datautvinning!</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To scribe new magic you must write your spells in places where Gnumeric will find them. That place is in folders under: &lt;literal&gt;~/.gnumeric/&amp;lt;version&amp;gt;/plugins/&lt;/literal&gt; Each folder under here is one "spellbook" of new plugin functions. You may put all your spells in one spellbook, or group them neatly depending on your tastes. Each spellbook must have two files. We'll create a spellbook called "myfuncs". A pedestrian name for pedestrian spells. When I have more skill, perhaps I'll make some with better names. Several suggest themselves: &lt;_:itemizedlist-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>För att skapa ny magi skriver du dina besvärjelser där Gnumeric hittar dem. Använd katalogerna under &lt;literal&gt;~/.gnumeric/&amp;lt;version&amp;gt;/plugins/&lt;/literal&gt;. Varje underkatalog är en ”magibok” med nya insticksmodulsfunktioner. Du kan samla alla besvärjelser i en bok eller ordna dem som du vill. Varje magibok måste innehålla två filer. Vi skapar en som heter ”myfuncs” – ett ganska vardagligt namn för vardagliga besvärjelser. När jag har blivit skickligare kanske jag hittar på bättre namn. Några förslag finns här: &lt;_:itemizedlist-1/&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Prepare the spellbook</seg></tuv>
+      <tuv xml:lang="sv"><seg>Förbered magiboken</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In many ways it would be easier to start by copying the py_func spellbook to your local .gnumeric folder, and just adding a function to that. But in general it will be more useful to be able to write your own separate spellbooks, so here we go.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det vore på många sätt enklare att kopiera magiboken py_func till din lokala .gnumeric-katalog och bara lägga till en funktion där. Men i allmänhet är det mer användbart att kunna skriva egna, fristående magiböcker. Vi kör igång.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;Make the folder: &lt;/emphasis&gt; First we make the folders and get into the right one. As noted above, we'll call our folder (spellbook) myfuncs.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;Skapa katalogen:&lt;/emphasis&gt; Börja med att skapa katalogerna och gå till rätt plats. Som tidigare nämnts kallar vi katalogen (magiboken) myfuncs.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If they don't already exist:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om de inte redan finns:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;literal&gt;mkdir ~/.gnumeric/&amp;lt;version&amp;gt;&lt;/literal&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;literal&gt;mkdir ~/.gnumeric/&amp;lt;version&amp;gt;&lt;/literal&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;literal&gt;mkdir ~/.gnumeric/&amp;lt;version&amp;gt;/plugins/myfuncs/&lt;/literal&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;literal&gt;mkdir ~/.gnumeric/&amp;lt;version&amp;gt;/plugins/myfuncs/&lt;/literal&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;literal&gt;cd ~/.gnumeric/&amp;lt;version&amp;gt;/plugins/myfuncs/&lt;/literal&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;literal&gt;cd ~/.gnumeric/&amp;lt;version&amp;gt;/plugins/myfuncs/&lt;/literal&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;Make the files:&lt;/emphasis&gt; A spellbook has two files. The first is the python file with the functions. The second is the XML file "plugin.xml". The XML file holds that master spells that tell Gnumeric what functions we've defined, and what the name of the python file &lt;emphasis&gt;is&lt;/emphasis&gt;, and one other important item. We'll create these as blank files.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;Skapa filerna:&lt;/emphasis&gt; En magibok innehåller två filer. Den första är Python-filen med funktionerna. Den andra är XML-filen ”plugin.xml”. XML-filen berättar för Gnumeric vilka funktioner som finns, vad Python-filens namn &lt;emphasis&gt;är&lt;/emphasis&gt; och en annan viktig uppgift. Skapa dessa som tomma filer.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;literal&gt;touch my-func.py&lt;/literal&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;literal&gt;touch my-func.py&lt;/literal&gt;</seg></tuv>
     </tu>
   </body>
 </tmx>

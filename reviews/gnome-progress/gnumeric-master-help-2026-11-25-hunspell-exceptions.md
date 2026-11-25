@@ -306,3 +306,14 @@ Batch 197:
 - **fakeroot / pygtk2 / python-gtk2 / python-gtk2-dev / py-gnumeric.c / python-gnumeric.txt / python-loader / writing-functions.sgml / libgsf / libgal / goffice** — literal commands, package names, library names and source paths preserved.
 - **$root / $version / gnum / .deb / su / dpkg / rm / autogen / cd / make clean** — exact shell variables, command names, package suffixes and build terminology.
 - **Gnumeric-webbplatsen / .deb-paket / GIMPnet-servern / Gnumeric-insticksmodul** — technical Swedish compounds.
+
+Batch 198:
+
+- **Gnumeric / GitLab / Red Hat / Debian / CVS / GIMPnet** — project, platform and version-control names.
+- **Jon K. Hellan** — contributor name.
+- **CellPos / RangeRef / Gnumeric.functions / Gnumeric.plugin / PY_CAPWORDS / PY_PRINTF / capwords / func** — exact API and Python identifiers.
+- **apt-get / autogen.sh / make / make clean / make install / mkdir / cd / install / root / dpkg / rm / gnumeric / gnumeric-head / src / fakeroot** — exact shell commands and path tokens retained.
+- **plugins.xml / plugin.xml / python-loader / python-gnumeric.txt / py-gnumeric.c / my-func.py / myfuncs / .gnumeric / .deb / ui-console-menu / $root / $version** — exact file names, plugin IDs, variables, paths and package suffixes.
+- **lazy loading** — established technical term retained in the explanation of deferred plugin loading.
+- **magibok / magiböcker / besvärjelser** — consistent Swedish rendering of the source's deliberately playful “spellbook/spells” metaphor in the plugin tutorial.
+- **Fred Flintstone / Flintstone** — example data values and character name preserved.
