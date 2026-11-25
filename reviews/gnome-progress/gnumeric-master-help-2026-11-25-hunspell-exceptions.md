@@ -224,3 +224,12 @@ Batch 185:
 - **gPDF / Xpdf / GGV / ghostview / gv / ghostscript / Gnumeric / Corel / QuattroPro** — application and vendor names.
 - **PostScript-språket** — valid Swedish technical compound with the format name.
 - **none** — exact table sentinel retained from the source.
+
+Batch 186:
+
+- **Aston-Tate / Borland / Corel / FoxPro / dBase / XBase / Xbase / xBase / Visual FoxPro / SCO / W3C** — vendor, database and standards names.
+- **TROFF / GROFF / groff / -me / -t / -Tps / -Tascii / PostScript / ASCII** — command names, options and output formats.
+- **myfile.me / myfile.ps / myfile.ascii** — exact filenames in terminal examples.
+- **January / February / March / April / May / June / July / August / September / October / November / December / Sheet / Operating System / DOS / Linux / Totals** — literal labels in the unchanged sample output table.
+- **The dollar amounts and ASCII borders** are fixed sample output; the lint notice about currency localization is not applicable to this verbatim command output.
+- **XHTML / HTML / XML / Extensible Markup Language / Hypertext Markup Language / Transitional / table** — standard names and literal HTML element identifier.
