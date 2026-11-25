@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T063102Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T063502Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -595584,6 +595584,76 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Each cell in a &lt;application&gt;Gnumeric&lt;/application&gt; worksheet can contain only a single data element. These elements will have one of five basic types: text, numbers, booleans, formulas, or errors. During data entry, &lt;application&gt;Gnumeric&lt;/application&gt; assigns a default data type to the cell based on an analysis of the cell contents. This assignment can be changed later if &lt;application&gt;Gnumeric&lt;/application&gt; makes the wrong assignment. For information on how to change the data type of a cell, see &lt;xref linkend="sect-data-format"/&gt;.</seg></tuv>
       <tuv xml:lang="sv"><seg>Varje cell i ett &lt;application&gt;Gnumeric&lt;/application&gt;-kalkylblad kan innehålla ett enda dataelement av en av fem grundtyper: text, tal, booleska värden, formler eller fel. När du matar in data tilldelar &lt;application&gt;Gnumeric&lt;/application&gt; cellen en datatyp utifrån innehållet. Om &lt;application&gt;Gnumeric&lt;/application&gt; väljer fel typ kan du ändra den senare. Se &lt;xref linkend="sect-data-format"/&gt; om hur du ändrar datatyp för en cell.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A text element can contain a series of letters, numbers or other contents. For example, the first cell in a worksheet might contain the characters —This worksheet describes the company's income — which &lt;application&gt;Gnumeric&lt;/application&gt; would interpret to be text. In order to distinguish text elements from number or formula elements, the text element may start with a single quote. For instance, if a cell contained only the three digits 345, &lt;application&gt;Gnumeric&lt;/application&gt; would consider that to be the number three hundred and forty five. If this cell is intended to be a string, &lt;application&gt;Gnumeric&lt;/application&gt; will store the cell as '345. The newline character cannot be entered directly but must be entered as &lt;keycombo&gt; &lt;keycap&gt;Alt&lt;/keycap&gt; &lt;keycap&gt;Enter&lt;/keycap&gt;&lt;/keycombo&gt;. For more information on entering and formatting text elements, see &lt;xref linkend="sect-data-text"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett textelement kan bestå av bokstäver, siffror eller annat innehåll. Den första cellen i ett kalkylblad kan till exempel innehålla texten ”Det här kalkylbladet beskriver företagets intäkter”, som &lt;application&gt;Gnumeric&lt;/application&gt; tolkar som text. För att skilja textelement från tal och formler kan texten inledas med en apostrof. Om en cell till exempel bara innehåller siffrorna 345 tolkar &lt;application&gt;Gnumeric&lt;/application&gt; dem som talet trehundrafyrtiofem. Om cellen i stället ska innehålla text lagrar &lt;application&gt;Gnumeric&lt;/application&gt; den som '345. Radbrytningar kan inte matas in direkt, utan infogas med tangentkombinationen &lt;keycombo&gt; &lt;keycap&gt;Alt&lt;/keycap&gt; &lt;keycap&gt;Enter&lt;/keycap&gt;&lt;/keycombo&gt;. Mer information om hur du matar in och formaterar text finns i &lt;xref linkend="sect-data-text"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A number element can contain a series of digits (425) but may include specific text and formatting characters to indicate negative numbers (-345), decimal separator (34.0567), thousand separators (12,342), currency ($23), dates (21-10-1998), times (10:23) or scientific notation (2.3e12). Dates may include the names of months or their abbreviation. The currency, decimal separator and thousands separator symbols vary depending on the locale (the language and other location specific behaviour) to which &lt;application&gt;Gnumeric&lt;/application&gt; has been set. See &lt;xref linkend="sect-configuration-localization"/&gt; to understand how to change the locale. If you want a number to be displayed as a plain string without any number formatting, you can put a single quote (') before it. For more information on entering and formatting, numeric elements see &lt;xref linkend="sect-data-numbers"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett talelement kan bestå av siffror, som 425, och särskilda tecken för att visa exempelvis negativa tal (-345), decimalavgränsare (34.0567), tusentalsavgränsare (12,342), valuta ($23), datum (1998-10-21), klockslag (10:23) eller vetenskaplig notation (2.3e12). Datum kan innehålla månadsnamn eller förkortningar. Valuta-, decimal- och tusentalsavgränsare varierar beroende på lokalen (språk och andra platsinställningar) som används i &lt;application&gt;Gnumeric&lt;/application&gt;. Se &lt;xref linkend="sect-configuration-localization"/&gt; om hur du ändrar lokalen. Om ett tal ska visas som vanlig text utan talformatering kan du inleda det med en apostrof ('). Mer information om hur du matar in och formaterar tal finns i &lt;xref linkend="sect-data-numbers"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A boolean element can contain one of two values: TRUE and FALSE. These are useful as inputs or outputs from formulas and for boolean algebra. More information on boolean data elements is presented in &lt;xref linkend="sect-data-boolean"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett booleskt element kan ha ett av två värden: TRUE eller FALSE. Dessa värden används som indata eller resultat i formler och inom boolesk algebra. Mer information om booleska dataelement finns i &lt;xref linkend="sect-data-boolean"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A formula is an instruction to &lt;application&gt;Gnumeric&lt;/application&gt; which describes a calculation which should be performed automatically. These formulas can contain standard arithmetic elements but can also contain references to other cells. Calculations which depend on other cells are usually recalculated when the values of another cell changes. Formulas always begin with a special character — the equals sign (=). The commercial at symbol (@) can be used instead of the equals sign during data entry but &lt;application&gt;Gnumeric&lt;/application&gt; will convert this to an equals sign. Alternatively, an entry which describes a calculation and which starts with either the plus (+) or minus symbol (-) will be converted to a formula starting with an equals sign. For a more complete explanation of formulas, see &lt;xref linkend="sect-data-formulas"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En formel är en instruktion som anger vilken beräkning &lt;application&gt;Gnumeric&lt;/application&gt; ska utföra automatiskt. Formler kan innehålla vanliga räkneoperationer och referenser till andra celler. Beräkningar som beror på andra celler räknas vanligen om när värdet i någon av dessa celler ändras. Formler börjar alltid med likhetstecknet (=). Under inmatning kan tecknet @ användas i stället, men &lt;application&gt;Gnumeric&lt;/application&gt; omvandlar det till ett likhetstecken. Även en inmatning som börjar med plus (+) eller minus (-) omvandlas till en formel som börjar med likhetstecken. En utförligare förklaring av formler finns i &lt;xref linkend="sect-data-formulas"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A cell reference is the part of a formula which refers to another cell. For example, in the formula to add two cells =(A4+A1), both A4 and A1 are cell references. These references can be quite complex referring to cells in different worksheets or even in different files. See &lt;xref linkend="sect-data-formulas-references"/&gt; for a complete explanation of references.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En cellreferens är den del av en formel som hänvisar till en annan cell. I formeln =(A4+A1), som summerar två celler, är både A4 och A1 cellreferenser. Referenser kan vara mer komplicerade och peka på celler i andra kalkylblad eller till och med i andra filer. En fullständig förklaring finns i &lt;xref linkend="sect-data-formulas-references"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>An error element describes the failure to calculate the result of a formula. These values are rarely entered directly by a user but usually are the display given when a formula cannot be correctly calculated. See &lt;xref linkend="sect-data-errors"/&gt; for a complete list of error values and their explanation.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett felvärde anger att resultatet av en formel inte kunde beräknas. Användaren skriver sällan in sådana värden direkt; de visas vanligen när en formel inte kan beräknas korrekt. En fullständig lista över felvärden och deras betydelse finns i &lt;xref linkend="sect-data-errors"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The five basic types of data which can be stored in a spreadsheet cell are: &lt;_:variablelist-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>De fem grundläggande datatyper som kan lagras i en kalkylbladscell är: &lt;_:variablelist-1/&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A cell may display a series of hash marks (######). This indicates that the result is too wide to display in the cell given the current font setting and the current column width. When this occurs, the value in the cell can be seen in two ways. If the cell is selected, the value will appear in the data entry area (to the right of the equals button directly above the cell grid). Alternatively, the column containing the cell can be widened until the data contents become visible: select the whole column (by clicking on the column header) and choose &lt;menuchoice&gt; &lt;guimenu&gt;Format&lt;/guimenu&gt; &lt;guisubmenu&gt;Column&lt;/guisubmenu&gt; &lt;guimenuitem&gt;Auto fit selection&lt;/guimenuitem&gt; &lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En cell kan visa flera nummertecken (######). Det betyder att resultatet är för brett för att visas med den aktuella teckenstorleken och kolumnbredden. Du kan se cellens värde på två sätt. Markera cellen så visas värdet i inmatningsfältet, till höger om likhetsteckenknappen ovanför cellrutnätet. Du kan också bredda kolumnen tills innehållet syns: markera hela kolumnen genom att klicka på kolumnrubriken och välj &lt;menuchoice&gt; &lt;guimenu&gt;Format&lt;/guimenu&gt; &lt;guisubmenu&gt;Kolumn&lt;/guisubmenu&gt; &lt;guimenuitem&gt;Autopassa markering&lt;/guimenuitem&gt; &lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Text elements consist of an arbitrary sequence of characters or numbers entered into a cell. Because &lt;application&gt;Gnumeric&lt;/application&gt; automatically recognizes certain sequences as numbers or formulas, certain sequences of characters (such as sequences containing only digits or a text element which starts with an equals sign) must be treated specially to have them considered text. In order to force any sequence to be considered text, the sequence can be started with an apostrophe symbol (&lt;keysym&gt;'&lt;/keysym&gt;). Alternatively, the 'number' format of the cell can be specified to be 'text' before entering the characters, as explained in &lt;xref linkend="number-formatting-overview"/&gt;. Text elements are the simplest elements to enter into spreadsheet cells.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Textelement består av en valfri följd tecken eller siffror som matas in i en cell. Eftersom &lt;application&gt;Gnumeric&lt;/application&gt; automatiskt känner igen vissa följder som tal eller formler måste vissa inmatningar behandlas särskilt för att tolkas som text, till exempel en följd som bara innehåller siffror eller börjar med ett likhetstecken. Inled inmatningen med en apostrof (&lt;keysym&gt;'&lt;/keysym&gt;) för att tvinga den att tolkas som text. Du kan också ändra cellens talformat till ”text” innan du skriver in tecknen, enligt beskrivningen i &lt;xref linkend="number-formatting-overview"/&gt;. Textelement är det enklaste att mata in i kalkylbladsceller.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>An example of a spreadsheet cell grid with cells containing text is given in &lt;xref linkend="fig-cell-with-text"/&gt;. &lt;_:figure-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;xref linkend="fig-cell-with-text"/&gt; visar ett exempel på ett cellrutnät med text i cellerna. &lt;_:figure-1/&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Valid text entries include simple words, whole sentences and even paragraphs.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Text kan bestå av enstaka ord, hela meningar eller till och med stycken.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To include a newline in a cell, a special key combination is required. A newline symbol can be inserted with the key combination of &lt;keycombo&gt;&lt;keysym&gt;Alt&lt;/keysym&gt;&lt;keysym&gt;Enter&lt;/keysym&gt;&lt;/keycombo&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du behöver en särskild tangentkombination för att infoga en radbrytning i en cell. Använd &lt;keycombo&gt;&lt;keysym&gt;Alt&lt;/keysym&gt;&lt;keysym&gt;Enter&lt;/keysym&gt;&lt;/keycombo&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Number data elements include a variety of data all of which are stored and manipulated by &lt;application&gt;Gnumeric&lt;/application&gt; as numbers. This includes integers, decimal fractions, general fractions, numbers in scientific notation, dates, times, and currency values.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Talelement omfattar flera slags värden som &lt;application&gt;Gnumeric&lt;/application&gt; lagrar och bearbetar som tal: heltal, decimaltal, vanliga bråk, tal i vetenskaplig notation, datum, klockslag och valutavärden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Data are recognized as numbers when they are entered, dependent on the format of the sequence of characters entered. &lt;application&gt;Gnumeric&lt;/application&gt; attempts to intelligently guess the subtype of the data and match the data to an existing format for numbered data. If it matches a data format, &lt;application&gt;Gnumeric&lt;/application&gt; will automatically assign the datum to a data type and associate an appropriate display format with the cell. The format recognition of &lt;application&gt;Gnumeric&lt;/application&gt; includes a wide variety of data formats which are discussed in detail in &lt;xref linkend="number-formatting-overview"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Inmatade data tolkas som tal beroende på hur tecknen är formaterade. &lt;application&gt;Gnumeric&lt;/application&gt; försöker avgöra vilken undertyp data har och matcha dem mot ett befintligt talformat. Om ett format känns igen tilldelar &lt;application&gt;Gnumeric&lt;/application&gt; automatiskt data en datatyp och kopplar ett lämpligt visningsformat till cellen. &lt;application&gt;Gnumeric&lt;/application&gt; känner igen många olika format, som beskrivs närmare i &lt;xref linkend="number-formatting-overview"/&gt;.</seg></tuv>
     </tu>
   </body>
 </tmx>
