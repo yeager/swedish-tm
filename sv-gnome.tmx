@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T134310Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T134533Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -603524,6 +603524,56 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>This left most button, named &lt;guibutton&gt;Auto Column Discovery&lt;/guibutton&gt;, will cause &lt;application&gt;Gnumeric&lt;/application&gt; to scan the file an attempt to assign the columns automatically. The example presented in &lt;xref linkend="fig-file-textImport-druid-panel2b"/&gt; shows one result after this button has been pressed: many of the columns were discovered automatically, but the second and third columns were misidentified. Nonetheless, the automatic mechanism provides a useful starting point. The definition of the columns can be refined using the methods described below.</seg></tuv>
       <tuv xml:lang="sv"><seg>Den här knappen längst till vänster, &lt;guibutton&gt;Automatisk kolumnidentifiering&lt;/guibutton&gt;, låter &lt;application&gt;Gnumeric&lt;/application&gt; läsa igenom filen och försöka hitta kolumnerna automatiskt. Exemplet i &lt;xref linkend="fig-file-textImport-druid-panel2b"/&gt; visar ett resultat: många kolumner har hittats, men den andra och tredje har identifierats fel. Funktionen ger ändå en användbar utgångspunkt. Du kan finjustera kolumnerna med metoderna nedan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;2&lt;/emphasis&gt; - The column definition clearing button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;2&lt;/emphasis&gt; – Knappen som rensar kolumnerna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This right most button, named &lt;guibutton&gt;Clear&lt;/guibutton&gt;, will clear all the column definitions and reset the file to a single column. This button should be used cautiously since there is no way to reverse its action and any carefully prepared column definition layout will be irretrievably lost.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Knappen längst till höger, &lt;guibutton&gt;Rensa&lt;/guibutton&gt;, tar bort alla kolumndefinitioner och återställer filen till en enda kolumn. Använd den försiktigt: åtgärden går inte att ångra och alla noggrant inställda kolumner försvinner.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;3&lt;/emphasis&gt; - The preview and column width definition area.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;3&lt;/emphasis&gt; – Området för förhandsgranskning och kolumnbredd.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This area acts as both a preview area and an area where users can define the columns widths.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här förhandsgranskar du filen och anger kolumnernas bredd.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>As a preview area, this area displays a preview of the file as it will be interpreted when the settings that are currently selected in this first panel are applied.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Förhandsgranskningen visar hur filen tolkas med inställningarna som valts i den första panelen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This area can also be used to define column widths. When the panel first appears, a single column will be defined. The automatic column discovery mechanism may split this single column into many more columns. The mouse can then be used to further divide columns or to join previously separate columns.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här kan du också ange kolumnbredder. När panelen öppnas finns en enda kolumn. Automatisk kolumnidentifiering kan dela upp den i flera kolumner. Sedan kan du använda musen för att dela kolumner ytterligare eller slå ihop kolumner som redan har skilts åt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A new column can be defined by placing the mouse pointer where the column should start and double-clicking with the primary mouse button. This will split the column which used to contain this position and add a new column starting at this location.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Placera pekaren där den nya kolumnen ska börja och dubbelklicka med primär musknapp. Den befintliga kolumnen där du klickade delas, och en ny kolumn börjar på den platsen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To remove the definition of a column which already exists or to alter the ending position of a column, the context menu must be used. The context menu appears by clicking with one of the secondary mouse buttons. A column which has already been defined can be merged with the column on the left or right using the &lt;guimenuitem&gt;Delete and Merge Left&lt;/guimenuitem&gt; or &lt;guimenuitem&gt;Delete and Merge right&lt;/guimenuitem&gt; menu items. The size of a column can be increased by placing the mouse pointer inside the column area or header and using the &lt;guimenuitem&gt;Widen&lt;/guimenuitem&gt; or &lt;guimenuitem&gt;Narrow&lt;/guimenuitem&gt; menu items, respectively. Either of these will change the width of the column by changing the right hand end of the column.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du vill ta bort en kolumndefinition eller ändra var kolumnen slutar använder du snabbmenyn. Öppna den genom att klicka med en sekundär musknapp. Du kan slå ihop en definierad kolumn med kolumnen till vänster eller höger med alternativen &lt;guimenuitem&gt;Ta bort och sammanfoga åt vänster&lt;/guimenuitem&gt; eller &lt;guimenuitem&gt;Ta bort och sammanfoga åt höger&lt;/guimenuitem&gt;. Om du vill bredda eller smalna av en kolumn för du pekaren över kolumnen eller dess rubrik och väljer &lt;guimenuitem&gt;Bredda&lt;/guimenuitem&gt; eller &lt;guimenuitem&gt;Smal&lt;/guimenuitem&gt;. Båda alternativen ändrar kolumnens bredd genom att flytta dess högra kant.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The context menu can also be used to define new columns using the &lt;guimenuitem&gt;Split&lt;/guimenuitem&gt; menu item but the double-click approach described above should be easier.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också skapa kolumner med snabbmenyn genom att välja &lt;guimenuitem&gt;Dela&lt;/guimenuitem&gt;, men det är enklare att dubbelklicka enligt beskrivningen ovan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The purpose of each labeled component in &lt;xref linkend="fig-file-textImport-druid-panel2b"/&gt; is explained below: &lt;_:variablelist-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Nedan förklaras syftet med varje märkt del i &lt;xref linkend="fig-file-textImport-druid-panel2b"/&gt;: &lt;_:variablelist-1/&gt;</seg></tuv>
     </tu>
   </body>
 </tmx>
