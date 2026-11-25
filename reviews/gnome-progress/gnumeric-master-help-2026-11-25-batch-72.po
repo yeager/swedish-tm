@@ -1,0 +1,283 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1776
+msgid "Moving Average Tool"
+msgstr "Verktyg för glidande medelvärde"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1779
+msgid "Moving Average Tool Dialog"
+msgstr "Dialogrutan för glidande medelvärde"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1781
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-moving-"
+"average.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>An image "
+"of the dialog for the moving average analysis tool.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-moving-"
+"average.png\" format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>Dialogrutan för analysverktyget Glidande medelvärde.</phrase> "
+"</textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1794
+msgid ""
+"Use the moving average tool to calculate moving averages of one or more data"
+" sets. A moving average provides useful trend information of the data that "
+"is lost in a simple average. In addition, moving averages can be used to "
+"eliminate random variance. For example, use this tool to create a smoother "
+"curve of a stock prize."
+msgstr ""
+"Använd verktyget för glidande medelvärde för att beräkna glidande "
+"medelvärden för en eller flera datamängder. Ett glidande medelvärde visar "
+"trendinformation som ett vanligt medelvärde döljer. Det kan också användas "
+"för att jämna ut slumpmässig variation, till exempel för att få en jämnare "
+"kurva över en aktiekurs."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1810
+msgid ""
+"Choose the type of moving average you would like to calculate. The tool can "
+"determine 4 types of moving averages:"
+msgstr ""
+"Välj vilken typ av glidande medelvärde du vill beräkna. Verktyget kan "
+"beräkna fyra typer:"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1823
+msgid "Spencer's 15 point moving average"
+msgstr "Spencers 15-punkters glidande medelvärde"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1829
+msgid ""
+"Moving Average Tool Dialog: The <quote><guilabel>Options</guilabel></quote> "
+"Tab"
+msgstr ""
+"Dialogrutan för glidande medelvärde: fliken "
+"<quote><guilabel>Alternativ</guilabel></quote>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1834
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-moving-average-"
+"options.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>An image "
+"of the <quote><guilabel>Options</guilabel></quote> tab of the moving average"
+" analysis tool.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-moving-average-"
+"options.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>Fliken "
+"<quote><guilabel>Alternativ</guilabel></quote> i analysverktyget Glidande "
+"medelvärde.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1848
+msgid ""
+"Specify the <quote><guilabel>Interval</guilabel></quote> for the moving "
+"average. The interval <parameter>i</parameter> is the number of consecutive "
+"values to be included in each moving average. This options is only available"
+" for the simple and weighted moving averages."
+msgstr ""
+"Ange <quote><guilabel>Intervall</guilabel></quote> för det glidande "
+"medelvärdet. Intervallet <parameter>i</parameter> anger hur många värden i "
+"följd som ska ingå i varje medelvärde. Alternativet är bara tillgängligt för"
+" enkla och viktade glidande medelvärden."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1855
+msgid ""
+"Check the <quote><guilabel>Standard errors</guilabel></quote> checkbox if "
+"you would also like the standard error to be calculated. Since there is no "
+"general agreement on the denominator for the standard error you can choose "
+"the appropriate radio button."
+msgstr ""
+"Markera <quote><guilabel>Standardfel</guilabel></quote> om standardfelet "
+"också ska beräknas. Eftersom det inte finns någon allmänt vedertagen nämnare"
+" för standardfelet kan du välja en med motsvarande alternativknapp."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1861
+msgid ""
+"In the case of the simple moving average, you can also choose between a "
+"prior moving average and a central moving average, or you may even specify "
+"any other desired offset."
+msgstr ""
+"För ett enkelt glidande medelvärde kan du även välja mellan ett tidigare och"
+" ett centralt glidande medelvärde, eller ange en annan förskjutning."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1866
+msgid ""
+"<quote><guilabel>Prior moving average</guilabel></quote>: Each average takes"
+" into account the current observation and the most recent prior observations"
+" for a total of <parameter>i</parameter> observations."
+msgstr ""
+"<quote><guilabel>Tidigare glidande medelvärde</guilabel></quote>: Varje "
+"medelvärde omfattar den aktuella observationen och de närmast föregående "
+"observationerna, sammanlagt <parameter>i</parameter> observationer."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1871
+msgid ""
+"<quote><guilabel>Central moving average</guilabel></quote> with "
+"<parameter>i</parameter> being odd: Each average takes into account the "
+"current observation and the same number of most recent prior observations "
+"and closest future observations for a total of <parameter>i</parameter> "
+"observations."
+msgstr ""
+"<quote><guilabel>Centralt glidande medelvärde</guilabel></quote> när "
+"<parameter>i</parameter> är udda: Varje medelvärde omfattar den aktuella "
+"observationen, lika många av de närmast föregående observationerna och de "
+"närmast följande observationerna, sammanlagt <parameter>i</parameter> "
+"observationer."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1878
+msgid ""
+"<quote><guilabel>Central moving average</guilabel></quote> with "
+"<parameter>i</parameter> being even: This is calculated according to the "
+"formula given in <xref linkend=\"moving-formula-central\"/>. "
+"<parameter>a<subscript>t</subscript></parameter> is the moving average at "
+"time <parameter>t</parameter> and "
+"<parameter>y<subscript>t</subscript></parameter> is the observation at time "
+"<parameter>t</parameter>."
+msgstr ""
+"<quote><guilabel>Centralt glidande medelvärde</guilabel></quote> när "
+"<parameter>i</parameter> är jämnt: Beräkningen följer formeln i <xref "
+"linkend=\"moving-formula-central\"/>. "
+"<parameter>a<subscript>t</subscript></parameter> är det glidande medelvärdet"
+" vid tidpunkt <parameter>t</parameter> och "
+"<parameter>y<subscript>t</subscript></parameter> observationen vid tidpunkt "
+"<parameter>t</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1888
+msgid ""
+"<quote><guilabel>Other offset</guilabel></quote>: If the offset is 0, this "
+"is just the prior moving average. Otherwise the offset indicates the number "
+"of closest future observations to include in the average. Correspondingly, "
+"the number of most recent past observations is decreased."
+msgstr ""
+"<quote><guilabel>Annan förskjutning</guilabel></quote>: Vid förskjutningen 0"
+" blir resultatet samma som för ett tidigare glidande medelvärde. Annars "
+"anger förskjutningen hur många av de närmast följande observationerna som "
+"ska ingå. Antalet närmast föregående observationer minskas i motsvarande "
+"grad."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1897
+msgid "Formula For The Central Moving Average With Even Interval"
+msgstr "Formel för centralt glidande medelvärde med jämnt intervall"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1899
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-moving-average-"
+"formula-central.png\" format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>The formula for the central moving average if the interval length is"
+" even.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-moving-average-"
+"formula-central.png\" format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>Formeln för centralt glidande medelvärde när intervallängden är "
+"jämn.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1913
+msgid ""
+"The results are given in one column for each dataset (with a second column "
+"added if you have chosen standard errors to be calculated). Each row "
+"represents the moving average of the corresponding row or column in the "
+"input range. Depending on the type of average and the offset, the moving "
+"average cannot be calculated for the first rows in the input range."
+msgstr ""
+"Resultatet visas i en kolumn per datamängd. Om du har valt att beräkna "
+"standardfel läggs en andra kolumn till. Varje rad visar det glidande "
+"medelvärdet för motsvarande rad eller kolumn i indataområdet. Beroende på "
+"medelvärdestyp och förskjutning kan det glidande medelvärdet inte beräknas "
+"för de första raderna i indataområdet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1923
+msgid "Simple Moving Average"
+msgstr "Enkelt glidande medelvärde"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1924
+msgid ""
+"A simple moving average is the unweighted average of a collection of "
+"observations. Exactly which observations are included depends on whether a "
+"prior or central moving average is calculated."
+msgstr ""
+"Ett enkelt glidande medelvärde är ett oviktat medelvärde av flera "
+"observationer. Vilka observationer som ingår beror på om ett tidigare eller "
+"centralt glidande medelvärde beräknas."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1931
+msgid "Cumulative Moving Average"
+msgstr "Kumulativt glidande medelvärde"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1932
+msgid ""
+"A cumulative moving average is a prior moving average in which the current "
+"and all prior observations are included."
+msgstr ""
+"Ett kumulativt glidande medelvärde är ett tidigare glidande medelvärde där "
+"den aktuella observationen och alla föregående observationer ingår."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1936
+msgid "Weighted Moving Average"
+msgstr "Viktat glidande medelvärde"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1937
+msgid ""
+"A weighted moving average with an interval <parameter>i</parameter> is a "
+"prior moving average calculated according to formula <xref linkend=\"moving-"
+"formula-central\"/>. <parameter>a<subscript>t</subscript></parameter> is the"
+" moving average at time <parameter>t</parameter> and "
+"<parameter>y<subscript>t</subscript></parameter> is the observation at time "
+"<parameter>t</parameter>."
+msgstr ""
+"Ett viktat glidande medelvärde med intervallet <parameter>i</parameter> är "
+"ett tidigare glidande medelvärde som beräknas enligt formeln <xref "
+"linkend=\"moving-formula-central\"/>. "
+"<parameter>a<subscript>t</subscript></parameter> är det glidande medelvärdet"
+" vid tidpunkt <parameter>t</parameter> och "
+"<parameter>y<subscript>t</subscript></parameter> observationen vid tidpunkt "
+"<parameter>t</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1947
+msgid ""
+"Formula For The Weighted Moving Average With Interval "
+"<parameter>i</parameter>"
+msgstr ""
+"Formel för viktat glidande medelvärde med intervallet "
+"<parameter>i</parameter>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1950
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-moving-average-"
+"formula-weighted.png\" format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>The formula for the weighted moving average if the interval length "
+"is <parameter>i</parameter>.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-moving-average-"
+"formula-weighted.png\" format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>Formeln för viktat glidande medelvärde med intervallängden "
+"<parameter>i</parameter>.</phrase> </textobject>"
