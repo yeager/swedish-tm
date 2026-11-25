@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T143156Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T143537Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -604524,6 +604524,106 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Details&lt;/guilabel&gt; tab has two small differences compared to category axes. The mapping of the axis can be altered from a linear scale to a logarithmic scale by clicking on the drop down box and dragging to the entry labeled &lt;guimenuitem&gt;Log&lt;/guimenuitem&gt;. The minor ticks, whose size was configured in the &lt;guilabel&gt;Bounds&lt;/guilabel&gt; tab, are displayed for continuous axes unlike for categorical axes.</seg></tuv>
       <tuv xml:lang="sv"><seg>Fliken &lt;guilabel&gt;Detaljer&lt;/guilabel&gt; skiljer sig något från motsvarande flik för kategoriaxlar. Du kan ändra axelns avbildning från linjär till logaritmisk skala genom att öppna rullgardinsmenyn och välja &lt;guimenuitem&gt;Logaritmisk&lt;/guimenuitem&gt;. För kontinuerliga axlar visas även de mindre skalstrecken, vars storlek ställs in på fliken &lt;guilabel&gt;Gränser&lt;/guilabel&gt;. Kategoriaxlar visar inte dessa.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Continuous axis format configuration.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Format för tal på en kontinuerlig axel.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot depicts the 'format' tab for the configuration of a continuous axis.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar fliken ”Format” för inställning av en kontinuerlig axel.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Format&lt;/guilabel&gt; tab allow users to configure the numeric type of the elements on a continuous axis. This configuration parallels the configuration of the numeric type of a worksheet cell as explained in &lt;xref linkend="number-formatting-overview"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>På fliken &lt;guilabel&gt;Format&lt;/guilabel&gt; väljer hur värdena på en kontinuerlig axel ska formateras. Inställningarna fungerar på samma sätt som format för celler i kalkylbladet, vilket beskrivs i &lt;xref linkend="number-formatting-overview"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Grids</seg></tuv>
+      <tuv xml:lang="sv"><seg>Rutnät</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Users can add both major and minor grids to an axis. Grids are lines that are perpendicular to the axis at fixed intervals. An example of major (in blue) and minor (in green) grids attached to a vertical axis are shown in &lt;xref linkend="fig-graphics-plots-axes-grid"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan lägga till både huvudrutnät och mindre rutnät för en axel. Rutnätslinjerna är vinkelräta mot axeln och placeras med fasta intervall. &lt;xref linkend="fig-graphics-plots-axes-grid"/&gt; visar ett exempel med huvudrutnät (blått) och mindre rutnät (grönt) för en lodrät axel.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Major and Minor Grids.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Huvudrutnät och mindre rutnät.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot shows a plot with major (in blue) and minor (in green) grids attached to the vertical axis.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar ett diagram med huvudrutnät (blått) och mindre rutnät (grönt) för den lodräta axeln.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To add either a major or minor grid to an axis, the user selects the appropriate axis in the hierarchy tree of graph components, clicks the &lt;guibutton&gt;Add&lt;/guibutton&gt; button below the hierarchy, and selects either &lt;guimenu&gt;MajorGrid&lt;/guimenu&gt; or &lt;guimenu&gt;MinorGrid&lt;/guimenu&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lägg till ett huvudrutnät eller ett mindre rutnät genom att markera axeln i hierarkiträdet över diagramelement. Klicka på &lt;guibutton&gt;Lägg till&lt;/guibutton&gt; nedanför trädet och välj &lt;guimenu&gt;Huvudrutnät&lt;/guimenu&gt; eller &lt;guimenu&gt;Mindre rutnät&lt;/guimenu&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>When a grid has been added to an axis, it can be selected in the hierarchy tree of graph components and customized in its configuration tab. One can specify the style, color, and thickness (size) of the grid lines as well as specify a fill to be applied to the space between every second pair of consecutive grid lines.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När du har lagt till ett rutnät för en axel kan du markera det i hierarkiträdet över diagramelement och anpassa det på inställningsfliken. Du kan ange rutnätslinjernas stil, färg och tjocklek samt fylla utrymmet mellan vartannat par av intilliggande linjer.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Plots</seg></tuv>
+      <tuv xml:lang="sv"><seg>Diagramtyper</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Certain of the properties of plots are assigned directly to the plot element and are configured when the plot element itself is selected.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Vissa egenskaper hör direkt till diagramtypen och ställs in när du markerar själva elementet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Line plots, Area plots, and XY scatter plots do not have any plot level properties which can be configured.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Linjediagram, ytdiagram och XY-spridningsdiagram har inga inställbara egenskaper för diagramtypen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Bubble plots</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bubbeldiagram</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The bubbles in bubble plots are used to represent a third data component with the size of the bubble representing the value of the third component.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I bubbeldiagram motsvarar bubblans storlek värdet i en tredje datakomponent.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configurable properties of a bubble plot.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaper som kan ställas in för ett bubbeldiagram.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot depicts the properties of a bubble plot which can be configured.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar vilka egenskaper för ett bubbeldiagram som kan ställas in.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The first choice in the bubble plot properties allows the user to represent the bubble value based on the area or the diameter of the bubble. The representation of a bubble using the surface is similar to using a log scale since the area is a squared quantity.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med det första alternativet väljer du om bubbelvärdet ska motsvara bubblans area eller diameter. Att använda arean liknar en logaritmisk skala eftersom arean är en kvadratisk storhet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Show negative values&lt;/guilabel&gt; property, if the check box is checked, will cause negatives values to be shown with the size of the bubble based on the absolute value of the value and the style of the bubble having a white fill.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du markerar &lt;guilabel&gt;Visa negativa värden&lt;/guilabel&gt; visas negativa värden med bubbelstorlek beräknad från värdets absolutbelopp och med vit fyllning.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Vary colors by bubble&lt;/guilabel&gt;, if the check box is checked, will cause each value in a series to be displayed with a different fill color instead of coloring all the values in a single series with the same color.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du markerar &lt;guilabel&gt;Variera färg mellan bubblor&lt;/guilabel&gt; får varje värde i en serie en egen fyllningsfärg i stället för att alla värden i serien visas med samma färg.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The bubbles in a series are scaled relative to each other with the maximum value having a default, fixed size and the other values being scaled to this maximum bubble. Using this spin button, the default size of the maximum bubble can be altered.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bubblorna i en serie skalas i förhållande till varandra. Det största värdet får en fast standardstorlek och de andra bubblorna skalas i förhållande till det. Du kan ändra standardstorleken för den största bubblan med sifferfältets pilar.</seg></tuv>
     </tu>
   </body>
 </tmx>
