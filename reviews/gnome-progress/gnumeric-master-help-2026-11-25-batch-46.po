@@ -1,0 +1,68 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:873
+msgid ""
+"As shown in <xref linkend=\"dmedian-example-1\"/>, instead of using (the "
+"non-existing) function <code>DMEDIAN</code> one can use the alternative "
+"expression <code>median(if(A1:A20=\"AA\",B1:B20))</code> entered as an array"
+" function as described in <xref linkend=\"sect-data-formulas-array\"/>. "
+"Multiple conditions can be combined using multiplication to obtain "
+"<code>AND</code> and addition to obtain <code>OR</code> as in "
+"<code>median(if((A1:A20=\"AA\")+(C1:C20=\"BB\"),B1:B20))</code>. Using "
+"defined names as introduced in <xref linkend=\"sect-data-formulas-names\"/> "
+"for <code>A1:A20</code> and <code>B1:B20</code> can make this code very "
+"flexible and readable."
+msgstr ""
+"Som visas i <xref linkend=\"dmedian-example-1\"/> kan man använda uttrycket "
+"<code>median(if(A1:A20=\"AA\",B1:B20))</code> i stället för den (icke-"
+"existerande) funktionen <code>DMEDIAN</code> och ange det som en "
+"matrisformel, enligt beskrivningen i <xref linkend=\"sect-data-formulas-"
+"array\"/>. Flera villkor kan kombineras med multiplikation för att få "
+"<code>AND</code> och med addition för att få <code>OR</code>, som i "
+"<code>median(if((A1:A20=\"AA\")+(C1:C20=\"BB\"),B1:B20))</code>. Om man "
+"använder definierade namn, enligt <xref linkend=\"sect-data-formulas-"
+"names\"/>, för <code>A1:A20</code> och <code>B1:B20</code> blir formeln "
+"flexibel och lätt att läsa."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:884
+msgid ""
+"In this case we cannot use "
+"<code>if(OR(A1:A20=\"AA\",C1:C20=\"BB\"),...)</code> since the OR function "
+"would be applied to all 40 equality tests rather than each of the 20 pairs "
+"of equality tests."
+msgstr ""
+"I det här fallet kan vi inte använda "
+"<code>if(OR(A1:A20=\"AA\",C1:C20=\"BB\"),...)</code>, eftersom funktionen OR"
+" då tillämpas på alla 40 likhetstester i stället för på vart och ett av de "
+"20 paren."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:892
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/formula-dmedian.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Calculating the MEDIAN "
+"of some data values.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/formula-dmedian.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Beräkning av medianen "
+"för några datavärden.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2
+msgid "Deleting Data"
+msgstr "Ta bort data"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:5 C/gnumeric.xml:6 C/gnumeric.xml:3231 C/gnumeric.xml:3249
+#: C/gnumeric.xml:3255
+msgid "This section needs to be written."
+msgstr "Det här avsnittet har ännu inte skrivits."

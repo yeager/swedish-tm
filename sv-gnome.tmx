@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T074718Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T075025Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596714,6 +596714,31 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>If you are pasting a selection which was &lt;emphasis&gt;cut&lt;/emphasis&gt; to the clipboard buffer, all cell references in all formulas will remain unchanged. The original selection will be removed from the workbook and the clipboard buffer will be cleared.</seg></tuv>
       <tuv xml:lang="sv"><seg>Om du klistrar in en markering som har &lt;emphasis&gt;klippts ut&lt;/emphasis&gt; till urklippet förblir alla cellreferenser i formlerna oförändrade. Den ursprungliga markeringen tas bort från arbetsboken och urklippet töms.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>As shown in &lt;xref linkend="dmedian-example-1"/&gt;, instead of using (the non-existing) function &lt;code&gt;DMEDIAN&lt;/code&gt; one can use the alternative expression &lt;code&gt;median(if(A1:A20="AA",B1:B20))&lt;/code&gt; entered as an array function as described in &lt;xref linkend="sect-data-formulas-array"/&gt;. Multiple conditions can be combined using multiplication to obtain &lt;code&gt;AND&lt;/code&gt; and addition to obtain &lt;code&gt;OR&lt;/code&gt; as in &lt;code&gt;median(if((A1:A20="AA")+(C1:C20="BB"),B1:B20))&lt;/code&gt;. Using defined names as introduced in &lt;xref linkend="sect-data-formulas-names"/&gt; for &lt;code&gt;A1:A20&lt;/code&gt; and &lt;code&gt;B1:B20&lt;/code&gt; can make this code very flexible and readable.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Som visas i &lt;xref linkend="dmedian-example-1"/&gt; kan man använda uttrycket &lt;code&gt;median(if(A1:A20="AA",B1:B20))&lt;/code&gt; i stället för den (icke-existerande) funktionen &lt;code&gt;DMEDIAN&lt;/code&gt; och ange det som en matrisformel, enligt beskrivningen i &lt;xref linkend="sect-data-formulas-array"/&gt;. Flera villkor kan kombineras med multiplikation för att få &lt;code&gt;AND&lt;/code&gt; och med addition för att få &lt;code&gt;OR&lt;/code&gt;, som i &lt;code&gt;median(if((A1:A20="AA")+(C1:C20="BB"),B1:B20))&lt;/code&gt;. Om man använder definierade namn, enligt &lt;xref linkend="sect-data-formulas-names"/&gt;, för &lt;code&gt;A1:A20&lt;/code&gt; och &lt;code&gt;B1:B20&lt;/code&gt; blir formeln flexibel och lätt att läsa.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In this case we cannot use &lt;code&gt;if(OR(A1:A20="AA",C1:C20="BB"),...)&lt;/code&gt; since the OR function would be applied to all 40 equality tests rather than each of the 20 pairs of equality tests.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I det här fallet kan vi inte använda &lt;code&gt;if(OR(A1:A20="AA",C1:C20="BB"),...)&lt;/code&gt;, eftersom funktionen OR då tillämpas på alla 40 likhetstester i stället för på vart och ett av de 20 paren.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/formula-dmedian.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Calculating the MEDIAN of some data values.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/formula-dmedian.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Beräkning av medianen för några datavärden.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Deleting Data</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ta bort data</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This section needs to be written.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det här avsnittet har ännu inte skrivits.</seg></tuv>
     </tu>
   </body>
 </tmx>
