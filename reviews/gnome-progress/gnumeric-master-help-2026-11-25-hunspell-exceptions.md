@@ -110,3 +110,7 @@ Batch 162 surface-plot notation:
 Batch 163 chart terminology:
 
 - **XY-spridningsdiagram** — compound chart-type name retaining the standard XY coordinate designation.
+
+Batch 164 sample code and references:
+
+- **Sheet1**, **A2:B4**, **-1** — worksheet reference and numeric setting from documented examples; retained exactly.
