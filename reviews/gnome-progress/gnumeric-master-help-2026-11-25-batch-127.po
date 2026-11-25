@@ -1,0 +1,142 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1028
+msgid ""
+"Area plot sub-types provide three options for relating the values from "
+"different data series. The first sub-type plots each series independently "
+"with the data value determining the vertical distance between each point and"
+" the horizontal axis. The second sub-type plots the series stacked on each "
+"other in a cumulative fashion with the data value of each series determining"
+" the vertical distance from the point to the sum of the values in all the "
+"previous series. For example, if the first series starts with values "
+"<literal>{3.9, 4.2, ...}</literal>, the second series with values "
+"<literal>{1.2, 3.5, ...}</literal>, and the third series with values "
+"<literal>{3.1, 1.9, ...}</literal>, then the point value for the second "
+"element of the third series will be plotted at 9.6 (since "
+"<literal>9.6=4.2+3.5+1.9</literal>) along the vertical axis. The third sub-"
+"type plots each series based on the proportional contribution of the value "
+"to the total of all values in that category. Using the example above, the "
+"three values would be plotted at 0.4375, 0.8020, and 1 because the intervals"
+" between zero and each of these numbers is "
+"<literal>0.4375=4.2/(4.2+3.5+1.9)</literal> for the first, "
+"<literal>0.3645...=3.5/(4.2+3.5+1.9)</literal> for the second, and "
+"<literal>0.1979...=1.9/(4.2+3.5+1.9)</literal> for the third, although, by "
+"default, these numbers are presented as percentages on the vertical (Y) "
+"axis."
+msgstr ""
+"Ytdiagrammets undertyper erbjuder tre sätt att visa värden från olika "
+"dataserier i förhållande till varandra. Den första undertypen ritar varje "
+"serie separat, där värdet avgör det vertikala avståndet mellan punkten och "
+"den vågräta axeln. Den andra staplar serierna ovanpå varandra kumulativt. "
+"Varje värde avgör då det vertikala avståndet från punkten till summan av "
+"värdena i alla tidigare serier. Om den första serien till exempel börjar med"
+" värdena <literal>{3.9, 4.2, ...}</literal>, den andra med <literal>{1.2, "
+"3.5, ...}</literal> och den tredje med <literal>{3.1, 1.9, ...}</literal>, "
+"placeras den andra punkten i den tredje serien vid 9.6 på den lodräta axeln,"
+" eftersom <literal>9.6=4.2+3.5+1.9</literal>. Den tredje undertypen ritar "
+"varje serie utifrån värdets proportionella andel av summan för kategorin. "
+"Med exemplet ovan ritas värdena ut vid 0.4375, 0.8020 och 1. Avstånden från "
+"noll till dessa värden är <literal>0.4375=4.2/(4.2+3.5+1.9)</literal> för "
+"det första, <literal>0.3645...=3.5/(4.2+3.5+1.9)</literal> för det andra och"
+" <literal>0.1979...=1.9/(4.2+3.5+1.9)</literal> för det tredje. Som standard"
+" visas värdena dock som procenttal på den lodräta (Y) axeln."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1061
+msgid "Area plots do not have any pre-defined styles."
+msgstr "Ytdiagram har inga fördefinierade stilar."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1067
+msgid "An example of area plots"
+msgstr "Exempel på ytdiagram"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1075
+msgid ""
+"A screenshot of a worksheet with a data table and a graph containing an area"
+" plot."
+msgstr ""
+"En skärmbild av ett kalkylblad med en datatabell och en graf med ett "
+"ytdiagram."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1081
+msgid ""
+"This screenshot shows a table of data and three area plots. The data consist"
+" of three series organized by row and starting with the words \"Widgets\", "
+"\"Gadgets\", and \"Lumpets\". Each of these series has values in five "
+"categories. The three graphs illustrate the three sub-types of area plots, "
+"with the series plotted independently in the left plot, stacked in the "
+"middle plot, and proportionately stacked in the right plot."
+msgstr ""
+"Skärmbilden visar en datatabell och tre ytdiagram. Data består av tre "
+"dataserier ordnade i rader, med namnen ”Widgets”, ”Gadgets” och ”Lumpets”. "
+"Varje serie har värden i fem kategorier. De tre graferna visar ytdiagrammets"
+" tre undertyper: till vänster ritas serierna separat, i mitten staplas de "
+"och till höger staplas de proportionellt."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1098
+msgid ""
+"Each series in area plots can include three main elements and two error "
+"elements, although only the value element is necessary. The series can have "
+"a 'Name' element, which is a single text entry used to identify the series, "
+"must have a 'Values' element, which is a sequence of numeric values, and may"
+" have a 'Label' element, which is a sequence of text entries used to "
+"identify the categories. All of these elements can be defined as references "
+"to a region of the worksheet, as literally defined entries, or as formula "
+"expressions which result in the correct type. The 'Label' element is shared "
+"by all of the series. The legend added to an area plot identifies the "
+"different series, by default using the entries of the 'Name' element of each"
+" series. The two error elements include a list for errors in the positive "
+"direction and one for errors in the negative direction."
+msgstr ""
+"Varje dataserie i ett ytdiagram kan innehålla tre huvudelement och två "
+"felvärdeselement, men bara värdeelementet är nödvändigt. Serien kan ha "
+"elementet ”Namn”, ett textvärde som identifierar serien. Den måste ha "
+"elementet ”Värden”, en följd av tal, och kan ha elementet ”Etikett”, en "
+"följd av textvärden som identifierar kategorierna. Elementen kan anges som "
+"referenser till ett område i kalkylbladet, som uttryckliga värden eller som "
+"formler som ger rätt typ av resultat. Alla serier delar på elementet "
+"”Etikett”. Förklaringen som läggs till i ytdiagrammet identifierar serierna "
+"och använder som standard värdena i varje series element ”Namn”. De två "
+"felvärdeselementen innehåller listor med felvärden i positiv respektive "
+"negativ riktning."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1116
+msgid "The data in each area plot series"
+msgstr "Data i varje serie i ytdiagrammet"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1121 C/gnumeric.xml:1362 C/gnumeric.xml:1555
+#: C/gnumeric.xml:1779 C/gnumeric.xml:2027 C/gnumeric.xml:2313
+#: C/gnumeric.xml:2498 C/gnumeric.xml:2722 C/gnumeric.xml:2933
+#: C/gnumeric.xml:2972 C/gnumeric.xml:3127
+msgid "Element"
+msgstr "Element"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1129
+msgid ""
+"A single textual element labeling the data series. These will be used in the"
+" legend which may be displayed with the area plot."
+msgstr ""
+"Ett enskilt textvärde som namnger dataserien. Det används i förklaringen som"
+" kan visas tillsammans med ytdiagrammet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1136 C/gnumeric.xml:1377 C/gnumeric.xml:1794
+#: C/gnumeric.xml:2511 C/gnumeric.xml:2735
+msgid "A series of numeric values."
+msgstr "En serie numeriska värden."

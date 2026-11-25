@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T123452Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T123816Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -602429,6 +602429,56 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Area plots present the numeric values of categorical data with the data values of each series connected by a line and the area below the line shaded. This type is directly analogous to the line plot type. Sequential data values are considered to belong to different categories and are plotted along the horizontal axis at equally spaced intervals. The data values from different series are assigned to these categories based on the position of the value in the series, for example, the second data value taken from each series all share one category. The data values are plotted along the vertical (Y) axis according to their numeric value and the particular sub-type chosen for the area plot.</seg></tuv>
       <tuv xml:lang="sv"><seg>Ytdiagram visar numeriska värden för kategoridata. Värdena i varje dataserie binds samman med en linje och området under linjen fylls med färg. Den här typen fungerar på motsvarande sätt som linjediagram. Värden i följd betraktas som tillhörande olika kategorier och ritas ut med jämna mellanrum längs den vågräta axeln. Värden från olika dataserier kopplas till kategorierna utifrån sin position i serien. Det andra värdet i varje serie tillhör exempelvis samma kategori. Värdena ritas ut längs den lodräta (Y) axeln efter sitt numeriska värde och den valda undertypen för ytdiagrammet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Area plot sub-types provide three options for relating the values from different data series. The first sub-type plots each series independently with the data value determining the vertical distance between each point and the horizontal axis. The second sub-type plots the series stacked on each other in a cumulative fashion with the data value of each series determining the vertical distance from the point to the sum of the values in all the previous series. For example, if the first series starts with values &lt;literal&gt;{3.9, 4.2, ...}&lt;/literal&gt;, the second series with values &lt;literal&gt;{1.2, 3.5, ...}&lt;/literal&gt;, and the third series with values &lt;literal&gt;{3.1, 1.9, ...}&lt;/literal&gt;, then the point value for the second element of the third series will be plotted at 9.6 (since &lt;literal&gt;9.6=4.2+3.5+1.9&lt;/literal&gt;) along the vertical axis. The third sub-type plots each series based on the proportional contribution of the value to the total of all values in that category. Using the example above, the three values would be plotted at 0.4375, 0.8020, and 1 because the intervals between zero and each of these numbers is &lt;literal&gt;0.4375=4.2/(4.2+3.5+1.9)&lt;/literal&gt; for the first, &lt;literal&gt;0.3645...=3.5/(4.2+3.5+1.9)&lt;/literal&gt; for the second, and &lt;literal&gt;0.1979...=1.9/(4.2+3.5+1.9)&lt;/literal&gt; for the third, although, by default, these numbers are presented as percentages on the vertical (Y) axis.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ytdiagrammets undertyper erbjuder tre sätt att visa värden från olika dataserier i förhållande till varandra. Den första undertypen ritar varje serie separat, där värdet avgör det vertikala avståndet mellan punkten och den vågräta axeln. Den andra staplar serierna ovanpå varandra kumulativt. Varje värde avgör då det vertikala avståndet från punkten till summan av värdena i alla tidigare serier. Om den första serien till exempel börjar med värdena &lt;literal&gt;{3.9, 4.2, ...}&lt;/literal&gt;, den andra med &lt;literal&gt;{1.2, 3.5, ...}&lt;/literal&gt; och den tredje med &lt;literal&gt;{3.1, 1.9, ...}&lt;/literal&gt;, placeras den andra punkten i den tredje serien vid 9.6 på den lodräta axeln, eftersom &lt;literal&gt;9.6=4.2+3.5+1.9&lt;/literal&gt;. Den tredje undertypen ritar varje serie utifrån värdets proportionella andel av summan för kategorin. Med exemplet ovan ritas värdena ut vid 0.4375, 0.8020 och 1. Avstånden från noll till dessa värden är &lt;literal&gt;0.4375=4.2/(4.2+3.5+1.9)&lt;/literal&gt; för det första, &lt;literal&gt;0.3645...=3.5/(4.2+3.5+1.9)&lt;/literal&gt; för det andra och &lt;literal&gt;0.1979...=1.9/(4.2+3.5+1.9)&lt;/literal&gt; för det tredje. Som standard visas värdena dock som procenttal på den lodräta (Y) axeln.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Area plots do not have any pre-defined styles.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ytdiagram har inga fördefinierade stilar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>An example of area plots</seg></tuv>
+      <tuv xml:lang="sv"><seg>Exempel på ytdiagram</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A screenshot of a worksheet with a data table and a graph containing an area plot.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En skärmbild av ett kalkylblad med en datatabell och en graf med ett ytdiagram.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot shows a table of data and three area plots. The data consist of three series organized by row and starting with the words "Widgets", "Gadgets", and "Lumpets". Each of these series has values in five categories. The three graphs illustrate the three sub-types of area plots, with the series plotted independently in the left plot, stacked in the middle plot, and proportionately stacked in the right plot.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar en datatabell och tre ytdiagram. Data består av tre dataserier ordnade i rader, med namnen ”Widgets”, ”Gadgets” och ”Lumpets”. Varje serie har värden i fem kategorier. De tre graferna visar ytdiagrammets tre undertyper: till vänster ritas serierna separat, i mitten staplas de och till höger staplas de proportionellt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Each series in area plots can include three main elements and two error elements, although only the value element is necessary. The series can have a 'Name' element, which is a single text entry used to identify the series, must have a 'Values' element, which is a sequence of numeric values, and may have a 'Label' element, which is a sequence of text entries used to identify the categories. All of these elements can be defined as references to a region of the worksheet, as literally defined entries, or as formula expressions which result in the correct type. The 'Label' element is shared by all of the series. The legend added to an area plot identifies the different series, by default using the entries of the 'Name' element of each series. The two error elements include a list for errors in the positive direction and one for errors in the negative direction.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Varje dataserie i ett ytdiagram kan innehålla tre huvudelement och två felvärdeselement, men bara värdeelementet är nödvändigt. Serien kan ha elementet ”Namn”, ett textvärde som identifierar serien. Den måste ha elementet ”Värden”, en följd av tal, och kan ha elementet ”Etikett”, en följd av textvärden som identifierar kategorierna. Elementen kan anges som referenser till ett område i kalkylbladet, som uttryckliga värden eller som formler som ger rätt typ av resultat. Alla serier delar på elementet ”Etikett”. Förklaringen som läggs till i ytdiagrammet identifierar serierna och använder som standard värdena i varje series element ”Namn”. De två felvärdeselementen innehåller listor med felvärden i positiv respektive negativ riktning.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The data in each area plot series</seg></tuv>
+      <tuv xml:lang="sv"><seg>Data i varje serie i ytdiagrammet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Element</seg></tuv>
+      <tuv xml:lang="sv"><seg>Element</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A single textual element labeling the data series. These will be used in the legend which may be displayed with the area plot.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett enskilt textvärde som namnger dataserien. Det används i förklaringen som kan visas tillsammans med ytdiagrammet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A series of numeric values.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En serie numeriska värden.</seg></tuv>
     </tu>
   </body>
 </tmx>

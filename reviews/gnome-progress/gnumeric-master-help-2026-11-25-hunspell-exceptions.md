@@ -60,3 +60,4 @@ Technical names in batch 102:
 - Batch 120 (graph hierarchy): `X-Axis2` is an exact Gnumeric element identifier; `Gnumeric` is the application name; `rittyper` follows the documented graph terminology.
 - Batch 121 (legends and diagram-guide panels): `XY-spridningsdiagram` is the standard plot-type name; `Gnumeric` is the application name.
 - Batch 126 (plot configuration and area plot introduction): `Ytdiagram` is the selected Swedish chart-type term; `Gnumeric` and `rittyp` forms are covered by the existing exceptions above.
+- Batch 127 (area plots): `Ytdiagram` and inflections are the established chart-type term; `Gadgets` and `Lumpets` remain exact sample-data labels matching the screenshot and table values.
