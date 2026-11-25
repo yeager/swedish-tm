@@ -1,0 +1,157 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:234
+msgid ""
+"<application>Gnumeric</application> supports incrementing the date by month,"
+" date, or year."
+msgstr ""
+"<application>Gnumeric</application> kan öka datumet med en månad, en dag "
+"eller ett år."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:238
+msgid ""
+"Note that, While <application>Gnumeric</application> will increment days of "
+"the month, if you do 11/14/2001 and 12/14/2001, it will recognize it as the "
+"same day of the month and increment the month so the next value would be to "
+"1/14/2002 instead of the day difference."
+msgstr ""
+"Observera att <application>Gnumeric</application> tolkar datumen 2001-11-14 "
+"och 2001-12-14 som samma dag i olika månader. Därför blir nästa värde "
+"2002-01-14, alltså samma dag i månaden, i stället för ett datum med lika "
+"stort dagintervall."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:165
+msgid ""
+"<application>Gnumeric</application> is able to increment several types of "
+"data beyond simple integers. The procedure is the same as described above "
+"but involves different starting values. <application>Gnumeric</application> "
+"can increment: <_:variablelist-1/>"
+msgstr ""
+"<application>Gnumeric</application> kan öka flera typer av värden, inte bara"
+" heltal. Tillvägagångssättet är detsamma som ovan, men startvärdena skiljer "
+"sig. <application>Gnumeric</application> kan öka: <_:variablelist-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:251
+msgid ""
+"<application>Gnumeric</application> can be explicitly told the cells to "
+"autofill as in the examples above, but it can also guess the number of cells"
+" to fill based on the length of an adjacent column or row. For example, if "
+"the cells B2 to B10 have information and cell C2 has the integer value "
+"\"1\", then selecting cell C2 and double clicking on the bottom rightmost "
+"box of the selection rectangle will fill the value \"1\" from cell C3 to "
+"cell C10."
+msgstr ""
+"Du kan ange vilka celler <application>Gnumeric</application> ska fylla "
+"automatiskt, som i exemplen ovan. Programmet kan också avgöra hur många "
+"celler som ska fyllas utifrån längden på en intilliggande kolumn eller rad. "
+"Om cellerna B2 till B10 innehåller data och C2 har heltalsvärdet 1 fylls "
+"värdet 1 i cellerna C3 till C10 när du markerar C2 och dubbelklickar på "
+"rutan längst ned till höger på markeringen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:271
+msgid ""
+"The entry of large amounts of data into a spreadsheet is tedious work which "
+"is prone to repeated mistakes. <application>Gnumeric</application> provides "
+"a tool to automatically correct commonly made simple mistakes. The "
+"corrections are configured and activated using the `AutoCorrect' dialog, "
+"available via <guimenuitem>Auto Correct</guimenuitem> in the "
+"<guimenu>Tools</guimenu> menu."
+msgstr ""
+"Det är tidskrävande att mata in stora datamängder och lätt att göra samma "
+"misstag flera gånger. <application>Gnumeric</application> har ett verktyg "
+"som automatiskt rättar vanliga, enkla misstag. Du konfigurerar och aktiverar"
+" rättningarna i dialogrutan ”Autokorrigera”, som öppnas via "
+"<guimenuitem>Autokorrigera</guimenuitem> i menyn <guimenu>Verktyg</guimenu>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:284
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/dialog-auto-correct.png\"/> "
+"</imageobject> <textobject> <phrase>An image of the auto-correct "
+"dialog.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/dialog-auto-correct.png\"/> "
+"</imageobject> <textobject> <phrase>En bild av dialogrutan för "
+"autokorrigering.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:298
+msgid ""
+"If this correction rule is activated, the first letter of a name of a day is"
+" capitalized automatically. For example, if you type `monday', it is "
+"automatically replaced by `Monday'."
+msgstr ""
+"Om den här regeln är aktiverad blir veckodagarnas första bokstav automatiskt"
+" en versal. Om du till exempel skriver ”måndag” ersätts det automatiskt med "
+"”Måndag”."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:307
+msgid ""
+"A common mistake is to hold down the shift key a little bit too long while "
+"typing initial letters. When it happens, you will get two initial capitals "
+"instead of one. If this correction rule is activated, the second letter of "
+"words beginning with two capital letters is automatically lowercased. For "
+"example, if you type `TOtal' into a cell it is replaced by `Total'. Note "
+"that if the word contains two capital letters only, it is not replaced."
+msgstr ""
+"Ett vanligt misstag är att hålla ned Shift-tangenten för länge när du "
+"skriver ett ords första bokstäver. Då blir de två första bokstäverna "
+"versaler. Om regeln är aktiverad ändras den andra bokstaven i ord som börjar"
+" med två versaler automatiskt till en gemen. Skriver du till exempel ”TOtal”"
+" i en cell ersätts det med ”Total”. Ord som bara består av två versaler "
+"ändras inte."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:316
+msgid ""
+"It is possible to specify exceptions to this tool. For example, you do not "
+"want the tool to replace the word `PVbonds' when it is typed. To specify "
+"exceptions, type `PVbonds' into the ``Do not correct'' entry, and press "
+"``Add'' button. Now the word should be included in the list of exceptions. "
+"To remove a word from the list, select the word and press the ``Remove'' "
+"button."
+msgstr ""
+"Du kan ange undantag för verktyget. Om du till exempel inte vill att "
+"”PVbonds” ska ändras skriver du in ”PVbonds” i fältet ”Korrigera inte” och "
+"klickar på ”Lägg till”. Ordet visas då i undantagslistan. Markera ordet och "
+"klicka på ”Ta bort” om du vill ta bort det."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:328
+msgid ""
+"If this correction rule is activated, the first letter of a sentence typed "
+"into a cell is capitalized, if it is a lowercase letter in the first place. "
+"Only text that ends to a dot is considered a sentence."
+msgstr ""
+"Om den här regeln är aktiverad blir den första bokstaven i en mening "
+"automatiskt en versal, om den är en gemen från början. Bara text som "
+"avslutas med punkt räknas som en mening."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:333
+msgid ""
+"It is possible to specify exceptions to this tool. For example, you do not "
+"want the tool to capitalize letters after acronym `i.g.'. To specify "
+"exceptions, type `i.g.' into the ``Do not capitalize after'' entry, and "
+"press ``Add'' button. Now the word should be included in the list of "
+"exceptions. To remove a word from the list, select the word and press the "
+"``Remove'' button."
+msgstr ""
+"Du kan ange undantag för verktyget. Om du till exempel inte vill att text "
+"efter förkortningen ”i.g.” ska ändras skriver du ”i.g.” i fältet ”Inför inte"
+" stor bokstav efter” och klickar på ”Lägg till”. Förkortningen visas då i "
+"undantagslistan. Markera ordet och klicka på ”Ta bort” om du vill ta bort "
+"det."

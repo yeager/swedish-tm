@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T070606Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T071117Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596214,6 +596214,61 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>An alternative to the last step involves using the menus. Once the first two values have been input, the whole range to be filled can be selected using the mouse and then the &lt;guimenuitem&gt;Autofill&lt;/guimenuitem&gt; selection can be made from the &lt;guimenu&gt;Edit&lt;/guimenu&gt; and &lt;guisubmenu&gt;Fill&lt;/guisubmenu&gt;. This will automatically complete the series in the selected region.</seg></tuv>
       <tuv xml:lang="sv"><seg>I stället för det sista steget kan du använda menyerna. När de två första värdena har matats in markerar du hela området som ska fyllas och väljer &lt;guimenuitem&gt;Autofyll&lt;/guimenuitem&gt; under &lt;guimenu&gt;Redigera&lt;/guimenu&gt; → &lt;guisubmenu&gt;Fyll&lt;/guisubmenu&gt;. Då kompletteras serien automatiskt i det markerade området.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; supports incrementing the date by month, date, or year.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; kan öka datumet med en månad, en dag eller ett år.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Note that, While &lt;application&gt;Gnumeric&lt;/application&gt; will increment days of the month, if you do 11/14/2001 and 12/14/2001, it will recognize it as the same day of the month and increment the month so the next value would be to 1/14/2002 instead of the day difference.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Observera att &lt;application&gt;Gnumeric&lt;/application&gt; tolkar datumen 2001-11-14 och 2001-12-14 som samma dag i olika månader. Därför blir nästa värde 2002-01-14, alltså samma dag i månaden, i stället för ett datum med lika stort dagintervall.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; is able to increment several types of data beyond simple integers. The procedure is the same as described above but involves different starting values. &lt;application&gt;Gnumeric&lt;/application&gt; can increment: &lt;_:variablelist-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; kan öka flera typer av värden, inte bara heltal. Tillvägagångssättet är detsamma som ovan, men startvärdena skiljer sig. &lt;application&gt;Gnumeric&lt;/application&gt; kan öka: &lt;_:variablelist-1/&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; can be explicitly told the cells to autofill as in the examples above, but it can also guess the number of cells to fill based on the length of an adjacent column or row. For example, if the cells B2 to B10 have information and cell C2 has the integer value "1", then selecting cell C2 and double clicking on the bottom rightmost box of the selection rectangle will fill the value "1" from cell C3 to cell C10.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan ange vilka celler &lt;application&gt;Gnumeric&lt;/application&gt; ska fylla automatiskt, som i exemplen ovan. Programmet kan också avgöra hur många celler som ska fyllas utifrån längden på en intilliggande kolumn eller rad. Om cellerna B2 till B10 innehåller data och C2 har heltalsvärdet 1 fylls värdet 1 i cellerna C3 till C10 när du markerar C2 och dubbelklickar på rutan längst ned till höger på markeringen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The entry of large amounts of data into a spreadsheet is tedious work which is prone to repeated mistakes. &lt;application&gt;Gnumeric&lt;/application&gt; provides a tool to automatically correct commonly made simple mistakes. The corrections are configured and activated using the `AutoCorrect' dialog, available via &lt;guimenuitem&gt;Auto Correct&lt;/guimenuitem&gt; in the &lt;guimenu&gt;Tools&lt;/guimenu&gt; menu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det är tidskrävande att mata in stora datamängder och lätt att göra samma misstag flera gånger. &lt;application&gt;Gnumeric&lt;/application&gt; har ett verktyg som automatiskt rättar vanliga, enkla misstag. Du konfigurerar och aktiverar rättningarna i dialogrutan ”Autokorrigera”, som öppnas via &lt;guimenuitem&gt;Autokorrigera&lt;/guimenuitem&gt; i menyn &lt;guimenu&gt;Verktyg&lt;/guimenu&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/dialog-auto-correct.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the auto-correct dialog.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/dialog-auto-correct.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av dialogrutan för autokorrigering.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If this correction rule is activated, the first letter of a name of a day is capitalized automatically. For example, if you type `monday', it is automatically replaced by `Monday'.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om den här regeln är aktiverad blir veckodagarnas första bokstav automatiskt en versal. Om du till exempel skriver ”måndag” ersätts det automatiskt med ”Måndag”.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A common mistake is to hold down the shift key a little bit too long while typing initial letters. When it happens, you will get two initial capitals instead of one. If this correction rule is activated, the second letter of words beginning with two capital letters is automatically lowercased. For example, if you type `TOtal' into a cell it is replaced by `Total'. Note that if the word contains two capital letters only, it is not replaced.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett vanligt misstag är att hålla ned Shift-tangenten för länge när du skriver ett ords första bokstäver. Då blir de två första bokstäverna versaler. Om regeln är aktiverad ändras den andra bokstaven i ord som börjar med två versaler automatiskt till en gemen. Skriver du till exempel ”TOtal” i en cell ersätts det med ”Total”. Ord som bara består av två versaler ändras inte.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>It is possible to specify exceptions to this tool. For example, you do not want the tool to replace the word `PVbonds' when it is typed. To specify exceptions, type `PVbonds' into the ``Do not correct'' entry, and press ``Add'' button. Now the word should be included in the list of exceptions. To remove a word from the list, select the word and press the ``Remove'' button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan ange undantag för verktyget. Om du till exempel inte vill att ”PVbonds” ska ändras skriver du in ”PVbonds” i fältet ”Korrigera inte” och klickar på ”Lägg till”. Ordet visas då i undantagslistan. Markera ordet och klicka på ”Ta bort” om du vill ta bort det.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If this correction rule is activated, the first letter of a sentence typed into a cell is capitalized, if it is a lowercase letter in the first place. Only text that ends to a dot is considered a sentence.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om den här regeln är aktiverad blir den första bokstaven i en mening automatiskt en versal, om den är en gemen från början. Bara text som avslutas med punkt räknas som en mening.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>It is possible to specify exceptions to this tool. For example, you do not want the tool to capitalize letters after acronym `i.g.'. To specify exceptions, type `i.g.' into the ``Do not capitalize after'' entry, and press ``Add'' button. Now the word should be included in the list of exceptions. To remove a word from the list, select the word and press the ``Remove'' button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan ange undantag för verktyget. Om du till exempel inte vill att text efter förkortningen ”i.g.” ska ändras skriver du ”i.g.” i fältet ”Inför inte stor bokstav efter” och klickar på ”Lägg till”. Förkortningen visas då i undantagslistan. Markera ordet och klicka på ”Ta bort” om du vill ta bort det.</seg></tuv>
     </tu>
   </body>
 </tmx>
