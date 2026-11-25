@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T071117Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T071521Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596269,6 +596269,41 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>It is possible to specify exceptions to this tool. For example, you do not want the tool to capitalize letters after acronym `i.g.'. To specify exceptions, type `i.g.' into the ``Do not capitalize after'' entry, and press ``Add'' button. Now the word should be included in the list of exceptions. To remove a word from the list, select the word and press the ``Remove'' button.</seg></tuv>
       <tuv xml:lang="sv"><seg>Du kan ange undantag för verktyget. Om du till exempel inte vill att text efter förkortningen ”i.g.” ska ändras skriver du ”i.g.” i fältet ”Inför inte stor bokstav efter” och klickar på ”Lägg till”. Förkortningen visas då i undantagslistan. Markera ordet och klicka på ”Ta bort” om du vill ta bort det.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-random.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the random number generation tool.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-random.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av verktyget för slumptalsgenerering.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Use the random number generation tool to generate random numbers. This tool can generate random numbers from various probability distributions.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd slumptalsgeneratorn för att skapa tal från olika sannolikhetsfördelningar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the random distribution by selecting one of the items from the random distribution list. The following random distributions are supported: Discrete, Normal, Poisson, Exponential, Binomial, Negative Binomial, Bernoulli, and Uniform.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj en sannolikhetsfördelning i listan. Följande fördelningar stöds: diskret, normal, Poisson, exponentiell, binomial, negativ binomial, Bernoulli och likformig.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the value and probability input range in the &lt;quote&gt;&lt;guilabel&gt;Value and Probability Input Range:&lt;/guilabel&gt;&lt;/quote&gt; entry box. The value and probability input range is a table consisting of two columns and any number of rows. The first column specifies the discrete random values and the second column the probabilities for them. The discrete random values do not have to be numbers, for example, strings will do as well. The sum of the probabilities in the second column should be one. For example, if you have the values A, B, C, and D in A1:A4 and values 0.1, 0.4, 0.2, and 0.3 in B1:B4, you would specify the value and probability input range to be A1:B4.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange värdena och sannolikheterna i fältet &lt;quote&gt;&lt;guilabel&gt;Indataområde för värde och sannolikhet:&lt;/guilabel&gt;&lt;/quote&gt;. Området är en tabell med två kolumner och valfritt antal rader. Den första kolumnen innehåller de diskreta slumpvärdena och den andra deras sannolikheter. Slumpvärdena behöver inte vara tal; de kan till exempel vara textsträngar. Sannolikheterna i den andra kolumnen ska tillsammans bli ett. Om A1:A4 innehåller värdena A, B, C och D och B1:B4 innehåller sannolikheterna 0,1; 0,4; 0,2 och 0,3 anger du A1:B4 som indataområde för värden och sannolikheter.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the probabilities do not add to 1, they will be automatically scaled.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om sannolikheterna inte blir 1 tillsammans skalas de automatiskt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the mean and the standard deviation. The default values are 0 for the mean and 1 for the standard deviation.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange medelvärdet och standardavvikelsen. Standardvärdena är 0 för medelvärdet och 1 för standardavvikelsen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the lambda in the &lt;quote&gt;&lt;guilabel&gt;Lambda&lt;/guilabel&gt;&lt;/quote&gt; entry. Lambda is the average number of events in a unit time interval.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange lambda i fältet &lt;quote&gt;&lt;guilabel&gt;Lambda&lt;/guilabel&gt;&lt;/quote&gt;. Lambda är det genomsnittliga antalet händelser per tidsenhet.</seg></tuv>
     </tu>
   </body>
 </tmx>

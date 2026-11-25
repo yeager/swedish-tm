@@ -22,8 +22,8 @@ för rad.
 
 ## English reference
 
-**741 755 unique English–Swedish translation pairs** in 16 ecosystem exports
-(860 172 entries before deduplicating across ecosystems). These counts describe
+**741 762 unique English–Swedish translation pairs** in 16 ecosystem exports
+(860 179 entries before deduplicating across ecosystems). These counts describe
 the files currently shipped in this repository, including the latest reviewed
 GNOME and Translation Project updates.
 
@@ -49,7 +49,7 @@ gettext validity, XML safety, format agreement and statistics consistency.
 
 | Ecosystem | Pairs in export | TMX | PO compendium |
 |-----------|------------------:|-----|---------------|
-| GNOME | 115 880 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
+| GNOME | 115 887 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
 | KDE | 35 507 | [sv-kde.tmx](sv-kde.tmx) | [sv-kde.po](sv-kde.po) |
 | Mozilla | 19 293 | [sv-mozilla.tmx](sv-mozilla.tmx) | [sv-mozilla.po](sv-mozilla.po) |
 | Ubuntu | 50 525 | [sv-ubuntu.tmx](sv-ubuntu.tmx) | [sv-ubuntu.po](sv-ubuntu.po) |
