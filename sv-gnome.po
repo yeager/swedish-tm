@@ -7903,8 +7903,9 @@ msgstr "Alla mappar"
 #. from gnome:reviewed/bazaar/main
 #. from gnome:reviewed/Errands/main
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/eog-plugins/master
 msgid "Cancelled"
-msgstr "Avbrutet"
+msgstr "Avbruten"
 
 #. from gnome:nautilus
 msgid "Preparing"
@@ -24410,6 +24411,7 @@ msgstr "I_ngångsvolym"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/dasher/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Input Device"
 msgstr "Inmatningsenhet"
 
@@ -24859,6 +24861,7 @@ msgstr "Ditt konto"
 #. from gnome:reviewed/gspell/main
 #. from gnome:reviewed/showtime/main
 #. from gnome:reviewed/dasher/master
+#. from gnome:reviewed/crosswords/main
 msgid "_Language"
 msgstr "Språ_k"
 
@@ -37308,8 +37311,9 @@ msgid "Please enter PIN for %s, to authenticate at %s:%d."
 msgstr "Ange PIN-kod för %s för att autentisera mot %s:%d."
 
 #. from gnome:ny-main.sv
+#. from gnome:reviewed/eog-plugins/master
 msgid "_Login"
-msgstr "_Logga in"
+msgstr "Logga _in"
 
 #. from gnome:ny-main.sv
 msgid "Select certificate"
@@ -69204,8 +69208,9 @@ msgid "Zoom ratio:"
 msgstr "Zoomfaktor:"
 
 #. from gnome:GIMP
+#. from gnome:reviewed/eog-plugins/master
 msgid "Zoom:"
-msgstr "Zooma:"
+msgstr "Zoom:"
 
 #. from gnome:GIMP
 msgid "Othe_r (%s)..."
@@ -89312,8 +89317,9 @@ msgid "Hide Details…"
 msgstr "Dölj detaljer…"
 
 #. from gnome:Postr
+#. from gnome:reviewed/eog-plugins/master
 msgid "Flickr Uploader"
-msgstr "Skicka upp till Flickr"
+msgstr "Flickr-uppladdare"
 
 #. from gnome:Postr
 msgid "Upload photos to Flickr"
@@ -119971,8 +119977,9 @@ msgid "Turn left three times and turn right three times"
 msgstr "Vänd åt vänster tre gånger och vänd åt höger tre gånger"
 
 #. from gnome:chronojump
+#. from gnome:reviewed/eog-plugins/master
 msgid "Uploaded"
-msgstr "Uppskickad"
+msgstr "Uppladdningen är klar"
 
 #. from gnome:chronojump
 msgid "Track {0} ({1} m/s) is much faster than track {2} ({3} m/s)."
@@ -129326,8 +129333,9 @@ msgid "Display RGB histogram"
 msgstr "Visa RGB-histogram"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Display camera settings in statusbar"
-msgstr "Visa kamerainställningar i statusrad"
+msgstr "Visa kamerainställningar i statusraden"
 
 #. from gnome:eog-plugins
 msgid "Exif Display"
@@ -129338,8 +129346,9 @@ msgid "Displays camera settings and histogram"
 msgstr "Visar kamerainställningar och histogram"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Displays Exif tags in the side panel and optionally the statusbar"
-msgstr "Visar Exif-taggar i sidopanelen och valfritt även i statusraden"
+msgstr "Visar Exif-taggar i sidopanelen och, om så önskas, även i statusraden"
 
 #. from gnome:eog-plugins
 msgid "ISO speed:"
@@ -129354,8 +129363,9 @@ msgid "Aperture:"
 msgstr "Bländare:"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Metering:"
-msgstr "Mätning:"
+msgstr "Mätmetod:"
 
 #. from gnome:eog-plugins
 msgid "Expo. bias:"
@@ -129374,8 +129384,13 @@ msgid "The folder to export to"
 msgstr "Mappen att exportera till"
 
 #. from gnome:eog-plugins
-msgid "This is the folder the plugin will place the exported files in. Plugin will export to $HOME/exported-images if not set."
-msgstr "Detta är mappen insticksmodulen kommer placera de exporterade filerna i. Om ingen angivits kommer insticksmodulen exportera till $HOME/exported-images."
+#. from gnome:reviewed/eog-plugins/master
+msgid ""
+"This is the folder the plugin will place the exported files in. Plugin will "
+"export to $HOME/exported-images if not set."
+msgstr ""
+"Det här är mappen där insticksmodulen placerar de exporterade filerna. Om "
+"ingen mapp anges exporteras filerna till $HOME/exported-images."
 
 #. from gnome:eog-plugins
 msgid "Export directory:"
@@ -129386,8 +129401,9 @@ msgid "Zoom to Fit Image Width"
 msgstr "Zooma för att passa bildens bredd"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Adjusts the zoom to have the image’s width fit into the window"
-msgstr "Justerar zoomnivån så bildens bredd passar i fönstret"
+msgstr "Justerar zoomnivån så att hela bildens bredd ryms i fönstret"
 
 #. from gnome:eog-plugins
 msgid "Fit to width"
@@ -129410,16 +129426,23 @@ msgid "Use custom background settings"
 msgstr "Använd anpassade bakgrundsinställningar"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Whether the plugin should use global settings or its own."
-msgstr "Huruvida insticksmodulen ska använda allmänna inställningar eller sina egna."
+msgstr ""
+"Om insticksmodulen ska använda de globala inställningarna eller sina egna."
 
 #. from gnome:eog-plugins
 msgid "Background color in fullscreen mode"
 msgstr "Bakgrundsfärg i helskärmsläge"
 
 #. from gnome:eog-plugins
-msgid "The color that is used to fill the area behind the image. This option has effect only if use-custom is enabled."
-msgstr "Färgen som används för att fylla området bakom bilden. Detta alternativ har endast effekt om use-custom är aktiverad."
+#. from gnome:reviewed/eog-plugins/master
+msgid ""
+"The color that is used to fill the area behind the image. This option has "
+"effect only if use-custom is enabled."
+msgstr ""
+"Färgen som fyller området bakom bilden. Den används bara när inställningen "
+"use-custom är aktiverad."
 
 #. from gnome:eog-plugins
 msgid "Use custom color:"
@@ -129434,8 +129457,9 @@ msgid "Disables dark theme"
 msgstr "Inaktiverar mörkt tema"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Disables Eye of GNOME’s preference of dark theme variants"
-msgstr "Inaktiverar inställningen med mörkt tema för Eye of GNOME"
+msgstr "Åsidosätter Eye of GNOME:s inställning för mörka temavarianter"
 
 #. from gnome:eog-plugins
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
@@ -129445,12 +129469,14 @@ msgid "Map"
 msgstr "Karta"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Displays on a map in the side panel where the picture was taken"
-msgstr "Visar var bilden togs på en karta i sidopanelen"
+msgstr "Visar på en karta i sidopanelen var bilden togs"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Jump to current image’s location"
-msgstr "Hoppa till platsen för aktuell bild"
+msgstr "Gå till den aktuella bildens plats"
 
 #. from gnome:eog-plugins
 msgid "Display the geolocation of the image on a map"
@@ -129461,8 +129487,9 @@ msgid "Maximize Windows"
 msgstr "Maximera fönster"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "New windows will open maximized"
-msgstr "Nya fönster kommer öppnas maximerade"
+msgstr "Nya fönster öppnas maximerade"
 
 #. from gnome:eog-plugins
 msgid "Maximize new windows"
@@ -129473,53 +129500,63 @@ msgid "Picasa Web Uploader"
 msgstr "Skicka till Picasa Web"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Supports uploading photos to Google Picasa Web"
-msgstr "Stöder sändning av foton till Google Picasa Web"
+msgstr "Stöder uppladdning av foton till Google Picasa Web"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Uploading…"
-msgstr "Skickar upp…"
+msgstr "Laddar upp…"
 
 #. from gnome:eog-plugins
 msgid "Login failed. %s"
 msgstr "Inloggningen misslyckades. %s"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Logged in successfully."
-msgstr "Loggade in."
+msgstr "Inloggningen lyckades."
 
 #. from gnome:eog-plugins
 msgid "Logging in…"
 msgstr "Loggar in…"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Please log in to continue upload."
-msgstr "Logga in för att fortsätta skicka upp."
+msgstr "Logga in för att fortsätta uppladdningen."
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Upload to PicasaWeb"
-msgstr "Skicka upp till PicasaWeb"
+msgstr "Ladda upp till PicasaWeb"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "PicasaWeb Login"
-msgstr "Inloggningsnamn för PicasaWeb"
+msgstr "Inloggning till PicasaWeb"
 
 #. from gnome:eog-plugins
 #. from gnome:reviewed/gitg/master
+#. from gnome:reviewed/eog-plugins/master
 msgid "_Username:"
-msgstr "_Användarnamn:"
+msgstr "A_nvändarnamn:"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "PicasaWeb Uploader"
-msgstr "Skicka till PicasaWeb"
+msgstr "PicasaWeb-uppladdare"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Upload your pictures to PicasaWeb"
-msgstr "Skicka upp dina bilder till PicasaWeb"
+msgstr "Ladda upp dina bilder till PicasaWeb"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Uploads:"
-msgstr "Sändningar:"
+msgstr "Uppladdningar:"
 
 #. from gnome:eog-plugins
 msgid "Cancel Selected"
@@ -129534,16 +129571,19 @@ msgid "Postr"
 msgstr "Postr"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Supports uploading photos to Flickr"
-msgstr "Stöder sändning av foton till Flickr"
+msgstr "Stöder uppladdning av foton till Flickr"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Upload to Flickr"
-msgstr "Skicka upp till Flickr"
+msgstr "Ladda upp till Flickr"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Upload your pictures to Flickr"
-msgstr "Skicka upp dina bilder till Flickr"
+msgstr "Ladda upp dina bilder till Flickr"
 
 #. from gnome:eog-plugins
 msgid "C_ommand color:"
@@ -129578,20 +129618,30 @@ msgid "The color used for errors."
 msgstr "Färgen som används för fel."
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Whether to use the system font"
-msgstr "Huruvida systemtypsnittet ska användas"
+msgstr "Om systemtypsnittet ska användas"
 
 #. from gnome:eog-plugins
-msgid "If true, the terminal will use the desktop-global standard font if it’s monospace (and the most similar font it can come up with otherwise)."
-msgstr "Om true (sant) så kommer terminalen att använda skrivbordets allmänna typsnitt om det har fast bredd (och det typsnitt som mest liknar det kan visas annars)."
+#. from gnome:reviewed/eog-plugins/master
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+"Om värdet är true (sant) använder terminalen skrivbordets globala "
+"standardtypsnitt om det har fast teckenbredd. Annars väljer den det typsnitt"
+" som bäst motsvarar standardtypsnittet."
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Font used by Python Console"
-msgstr "Typsnitt som används av Python-konsol"
+msgstr "Typsnitt som används av Python-konsolen"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
-msgstr "Ett Pango-typsnittsnamn. Exempel ”Sans 12” eller ”Monospace Bold 14”."
+msgstr ""
+"Ett Pango-typsnittsnamn, till exempel ”Sans 12” eller ”Monospace Bold 14”."
 
 #. from gnome:eog-plugins
 msgid "Python console for Eye of GNOME"
@@ -129602,8 +129652,9 @@ msgid "Send by Mail"
 msgstr "Skicka med e-post"
 
 #. from gnome:eog-plugins
+#. from gnome:reviewed/eog-plugins/master
 msgid "Sends an image attached to a new mail"
-msgstr "Skickar en bild bifogad till ett nytt e-postmeddelande"
+msgstr "Skickar en bild som bilaga i ett nytt e-postmeddelande"
 
 #. from gnome:eog-plugins
 msgid "Send by _Mail"
