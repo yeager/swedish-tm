@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T073834Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T074718Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596609,6 +596609,111 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Another, more flexible, way to copy or move a selection is to use cut, copy, and paste operations. These operations allow the user to copy or move selected cells to the clipboard buffer and then paste the contents of the clipboard buffer to a different location or a different workbook.</seg></tuv>
       <tuv xml:lang="sv"><seg>Ett mer flexibelt sätt att kopiera eller flytta en markering är att använda kommandona Klipp ut, Kopiera och Klistra in. Med dem kan du kopiera eller flytta markerade celler till urklippet och sedan klistra in innehållet på en annan plats eller i en annan arbetsbok.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Cutting a Selection to the Clipboard</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klippa ut en markering till urklippet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Use keyboard shortcut &lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;X&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd kortkommandot &lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;X&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Choose &lt;guimenuitem&gt;Cut&lt;/guimenuitem&gt; from the &lt;guimenu&gt;Edit&lt;/guimenu&gt; menu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj &lt;guimenuitem&gt;Klipp ut&lt;/guimenuitem&gt; i menyn &lt;guimenu&gt;Redigera&lt;/guimenu&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Click on &lt;guiicon&gt;&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/button-cut.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the cut toolbar button.&lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt; Cut &lt;/guiicon&gt; button in the toolbar.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klicka på knappen &lt;guiicon&gt;&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/button-cut.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av knappen Klipp ut i verktygsraden.&lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt; Klipp ut &lt;/guiicon&gt; i verktygsraden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Right-click on the selection and choose &lt;guimenuitem&gt;Cut&lt;/guimenuitem&gt; from the context menu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Högerklicka på markeringen och välj &lt;guimenuitem&gt;Klipp ut&lt;/guimenuitem&gt; i snabbmenyn.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To cut a cell or a selection to the clipboard, you should select a cell or range of cells as described in &lt;xref linkend="sect-data-selections"/&gt; and then use one of the following methods: &lt;_:itemizedlist-1/&gt; The selection will be copied to the clipboard buffer. To remind you of this, the border of the selection will be shown as "marching ants". The selection will be moved to a new location as soon as you choose &lt;guimenuitem&gt;Paste&lt;/guimenuitem&gt; command as described below.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du vill klippa ut en cell eller en markering till urklippet markerar du först en cell eller ett cellområde enligt &lt;xref linkend="sect-data-selections"/&gt; och använder sedan någon av metoderna: &lt;_:itemizedlist-1/&gt; Markeringen kopieras till urklippet. Den rörliga streckade kanten, de så kallade ”vandrande myrorna”, visar att den ligger kvar. Så snart du väljer &lt;guimenuitem&gt;Klistra in&lt;/guimenuitem&gt; flyttas markeringen till den nya platsen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Please note that the selection will remain in its current location until you paste it. If you want to delete a selection without pasting it to a new location, use &lt;guimenuitem&gt;Delete&lt;/guimenuitem&gt; command instead.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markeringen ligger kvar på sin plats tills du klistrar in den. Om du vill ta bort den utan att klistra in den någon annanstans väljer du i stället &lt;guimenuitem&gt;Ta bort&lt;/guimenuitem&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Copying a Selection to the Clipboard</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kopiera en markering till urklippet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Use keyboard shortcut &lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;C&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd kortkommandot &lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;C&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Choose &lt;guimenuitem&gt;Copy&lt;/guimenuitem&gt; from the &lt;guimenu&gt;Edit&lt;/guimenu&gt; menu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj &lt;guimenuitem&gt;Kopiera&lt;/guimenuitem&gt; i menyn &lt;guimenu&gt;Redigera&lt;/guimenu&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Click on &lt;guiicon&gt;&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/button-copy.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the copy toolbar button.&lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt; Copy &lt;/guiicon&gt; button in the toolbar.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klicka på knappen &lt;guiicon&gt;&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/button-copy.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av knappen Kopiera i verktygsraden.&lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt; Kopiera &lt;/guiicon&gt; i verktygsraden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Right-click on the selection and choose &lt;guimenuitem&gt;Copy&lt;/guimenuitem&gt; from the context menu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Högerklicka på markeringen och välj &lt;guimenuitem&gt;Kopiera&lt;/guimenuitem&gt; i snabbmenyn.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To copy a cell or a selection to the clipboard, you should select a cell or range of cells as described in &lt;xref linkend="sect-data-selections"/&gt; and then use one of the following methods: &lt;_:itemizedlist-1/&gt; The selection will be copied to the clipboard buffer. To remind you of this, the selection will outlined by "marching ants" border. The selection will be copied to a new location as soon as you choose &lt;guimenuitem&gt;Paste&lt;/guimenuitem&gt; command as described below.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du vill kopiera en cell eller en markering till urklippet markerar du först en cell eller ett cellområde enligt &lt;xref linkend="sect-data-selections"/&gt; och använder sedan någon av metoderna: &lt;_:itemizedlist-1/&gt; Markeringen kopieras till urklippet och omges av den rörliga streckade kanten, de så kallade ”vandrande myrorna”. Därefter kan du klistra in en kopia på en ny plats genom att välja &lt;guimenuitem&gt;Klistra in&lt;/guimenuitem&gt;, enligt beskrivningen nedan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Pasting the Clipboard</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klistra in från urklippet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Use keyboard shortcut &lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;V&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd kortkommandot &lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;V&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Choose &lt;guimenuitem&gt;Paste&lt;/guimenuitem&gt; from the &lt;guimenu&gt;Edit&lt;/guimenu&gt; menu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj &lt;guimenuitem&gt;Klistra in&lt;/guimenuitem&gt; i menyn &lt;guimenu&gt;Redigera&lt;/guimenu&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Click on &lt;guiicon&gt;&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/button-paste.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the paste toolbar button.&lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt; Paste &lt;/guiicon&gt; button in the toolbar.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klicka på knappen &lt;guiicon&gt;&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/button-paste.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av knappen Klistra in i verktygsraden.&lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt; Klistra in &lt;/guiicon&gt; i verktygsraden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Right-click on the cell and choose &lt;guimenuitem&gt;Paste&lt;/guimenuitem&gt; from the context menu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Högerklicka på cellen och välj &lt;guimenuitem&gt;Klistra in&lt;/guimenuitem&gt; i snabbmenyn.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To paste the contents of the clipboard (i.e., previously cut or copied selection) to a new location, just click on a cell and use one of the following methods: &lt;_:itemizedlist-1/&gt; The contents of the clipboard will be pasted in the spreadsheet so that the selected cell becomes the top left corner of the selection. This will also copy the formatting of the original selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du vill klistra in innehållet i urklippet (det vill säga en tidigare utklippt eller kopierad markering) på en ny plats klickar du på en cell och använder någon av följande metoder: &lt;_:itemizedlist-1/&gt; Innehållet i urklippet klistras in i kalkylbladet så att den markerade cellen blir markeringens övre vänstra hörn. Då kopieras även den ursprungliga markeringens formatering.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If you are pasting a selection which was &lt;emphasis&gt;copied&lt;/emphasis&gt; to the clipboard buffer, all relative cell references in all formulas will change as described in &lt;xref linkend="sect-data-formulas-references"/&gt;. The selection remains in the clipboard buffer so that it can be pasted again. The original selection will remain outlined with "marching ants" border.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du klistrar in en markering som har &lt;emphasis&gt;kopierats&lt;/emphasis&gt; till urklippet ändras alla relativa cellreferenser i formlerna, enligt beskrivningen i &lt;xref linkend="sect-data-formulas-references"/&gt;. Markeringen ligger kvar i urklippet och kan klistras in igen. Den ursprungliga markeringen omges fortfarande av den rörliga streckade kanten, de så kallade ”vandrande myrorna”.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If you are pasting a selection which was &lt;emphasis&gt;cut&lt;/emphasis&gt; to the clipboard buffer, all cell references in all formulas will remain unchanged. The original selection will be removed from the workbook and the clipboard buffer will be cleared.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du klistrar in en markering som har &lt;emphasis&gt;klippts ut&lt;/emphasis&gt; till urklippet förblir alla cellreferenser i formlerna oförändrade. Den ursprungliga markeringen tas bort från arbetsboken och urklippet töms.</seg></tuv>
     </tu>
   </body>
 </tmx>
