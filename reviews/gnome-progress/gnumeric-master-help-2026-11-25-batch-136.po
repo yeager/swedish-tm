@@ -1,0 +1,159 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:426
+msgid ""
+"The filter in area <emphasis role=\"bold\">F</emphasis> can be changed by "
+"clicking on the area to open the drop down list and then selecting the "
+"filter named \"All files\". This filter applies no rules, essentially "
+"disabling any filtering operation, and lists all the files in the currently "
+"selected folder. Note, however, as explained in the warning given in the "
+"section explaining area <emphasis role=\"bold\">C</emphasis> above, that any"
+" files starting with a leading period are not shown. To display such "
+"'hidden' files, the user must use the context menu available in area "
+"<emphasis role=\"bold\">C</emphasis>."
+msgstr ""
+"Du kan ändra filtret i område <emphasis role=\"bold\">F</emphasis> genom att"
+" klicka där, öppna rullgardinsmenyn och välja filtret ”Alla filer”. Det "
+"filtret tillämpar inga regler, så filtreringen stängs i praktiken av och "
+"alla filer i den valda mappen visas. Tänk ändå på att filer vars namn börjar"
+" med en punkt inte visas, som varningen ovan i avsnittet om område <emphasis"
+" role=\"bold\">C</emphasis> förklarar. Om du vill visa sådana dolda filer "
+"öppnar du snabbmenyn i område <emphasis role=\"bold\">C</emphasis>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:445
+msgid ""
+"<emphasis role=\"bold\">G</emphasis> - The file format type selection area."
+msgstr "<emphasis role=\"bold\">G</emphasis> – Området där filformat väljs."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:451 C/gnumeric.xml:291
+msgid ""
+"This area provides a drop down list of all the file formats provided by the "
+"<application>Gnumeric</application> program itself and by all the currently "
+"active plugins."
+msgstr ""
+"Här finns en rullgardinsmeny med alla filformat som tillhandahålls av "
+"<application>Gnumeric</application> och de aktiva insticksmodulerna."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:456
+msgid ""
+"By default, <application>Gnumeric</application> is configured to "
+"automatically recognize the type of each file selected by the user. This "
+"recognition system is sophisticated and generally works. The best strategy "
+"is to try opening the file using this automatic recognition strategy and, "
+"only if the automatic recognition system fails, close the worksheet with the"
+" mangled file and re-try to open the file a second time but manually "
+"selecting the file type in the second attempt."
+msgstr ""
+"Som standard identifierar <application>Gnumeric</application> automatiskt "
+"filtypen. Funktionen är avancerad och fungerar i regel. Prova först att "
+"öppna filen med den automatiska identifieringen. Om den misslyckas stänger "
+"du kalkylbladet med det felaktigt tolkade innehållet och försöker igen genom"
+" att välja filtypen manuellt."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:467
+msgid ""
+"The file formats which can be selected are those listed in <xref "
+"linkend=\"sect-file-open-formats\"/> below. Each of these formats are "
+"explained in detail in <xref linkend=\"sect-file-formats\"/>."
+msgstr ""
+"Du kan välja filformaten som listas i <xref linkend=\"sect-file-open-"
+"formats\"/> nedan. Varje format beskrivs närmare i <xref linkend=\"sect-"
+"file-formats\"/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:474 C/gnumeric.xml:815
+msgid ""
+"If the file format type named \"Text import (configurable)\" is opened, this"
+" will start the text import procedure. <xref linkend=\"sect-file-"
+"textImport\"/> explains this procedure in complete detail."
+msgstr ""
+"Om du väljer filformatet ”Textimport (konfigurerbar)” startar textimporten. "
+"I <xref linkend=\"sect-file-textImport\"/> beskrivs den i detalj."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:487
+msgid ""
+"<emphasis role=\"bold\">H</emphasis> - The character encoding selection "
+"area."
+msgstr "<emphasis role=\"bold\">H</emphasis> – Området där teckenkodning väljs."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:493
+msgid ""
+"This area provides a drop down menu which allows the user to specify the "
+"encoding which <application>Gnumeric</application> must use to interpret the"
+" characters in text files. This menu is only enabled for the two text file "
+"formats: \"Comma or Tab Separated Values (CSV/TSV)\" and \"Text Import "
+"(configurable)\". This menu is disabled for all other file types because "
+"<application>Gnumeric</application> automatically detects the encoding for "
+"those files."
+msgstr ""
+"I det här området finns en rullgardinsmeny där du anger vilken kodning "
+"<application>Gnumeric</application> ska använda för att tolka tecknen i "
+"textfiler. Menyn är bara tillgänglig för de två textformaten: ”Komma- eller "
+"tabbseparerade värden (CSV/TSV)” och ”Textimport (konfigurerbar)”. För andra"
+" filtyper är menyn inaktiverad, eftersom <application>Gnumeric</application>"
+" identifierar kodningen automatiskt."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:505
+msgid ""
+"A character encoding is a system to relate the binary digits contained in a "
+"computer file to the characters of a textual script. All computer files "
+"consist only of binary digits so some system is required to determine this "
+"relationship. Where early computers used simple encoding systems which only "
+"supported the characters commonly used in English, most systems are now "
+"standardizing on the UTF-8 encoding scheme which relates the binary digits "
+"in computer files to characters defined in the Universal Character Set, a "
+"set which is still being defined but will include all the characters in "
+"every language and many other useful symbols for mathematics, science, music"
+" and literature. <xref linkend=\"sect-file-textImport-complex-encoding\"/> "
+"contains a brief explanation of character encoding, and discusses the "
+"encodings available in <application>Gnumeric</application>."
+msgstr ""
+"En teckenkodning kopplar de binära siffrorna i en datorfil till tecknen i "
+"ett skriftsystem. Eftersom alla datorfiler bara består av binära siffror "
+"behövs en kodning för att tolka dem. Tidiga datorer använde enkla kodningar "
+"som bara stödde tecken som ofta används i engelska. I dag standardiserar de "
+"flesta system på UTF-8, som kopplar filernas binära siffror till tecken i "
+"den universella teckenuppsättningen. Den utvecklas fortfarande men ska "
+"omfatta alla språks tecken och många andra användbara symboler för "
+"matematik, naturvetenskap, musik och litteratur. <xref linkend=\"sect-file-"
+"textImport-complex-encoding\"/> ger en kort förklaring av teckenkodning och "
+"beskriver vilka kodningar som finns i <application>Gnumeric</application>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:527
+msgid ""
+"The character encoding can be set using the drop down menu in area <emphasis"
+" role=\"bold\">H</emphasis>. By default, the encoding is set for the locale "
+"of the user. The locale is set by the operating system and defines the "
+"language, time zone and other geographic related preferences of the user. "
+"The character encoding is changed by clicking on the drop down menu button "
+"in area <emphasis role=\"bold\">H</emphasis>, that is by placing the mouse "
+"pointer over this menu and clicking on the primary mouse button, and then "
+"navigating the menu to select the new encoding, that is by moving the mouse "
+"through the menus and clicking on the name of the new encoding. "
+"<application>Gnumeric</application> will then use this encoding to open the "
+"text file."
+msgstr ""
+"Du väljer teckenkodning i rullgardinsmenyn i område <emphasis "
+"role=\"bold\">H</emphasis>. Som standard används kodningen för användarens "
+"systemlokal. Operativsystemet styr lokalen, som anger språk, tidszon och "
+"andra geografiska inställningar. Ändra kodningen genom att klicka på "
+"menyknappen i område <emphasis role=\"bold\">H</emphasis> och sedan välja en"
+" ny kodning i menyn. <application>Gnumeric</application> använder den när "
+"textfilen öppnas."

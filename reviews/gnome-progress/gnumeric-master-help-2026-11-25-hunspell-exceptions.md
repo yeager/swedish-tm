@@ -77,3 +77,8 @@ Batch 133 identifiers flagged by Hunspell:
 
 - **user_account_name** — literal placeholder in the path example, preserved exactly; Hunspell splits it into `user`, `account` and `name`.
 - **currentWork** — example folder name from the figure, preserved exactly.
+
+
+Batch 136 technical terms:
+
+- **CSV/TSV** — standard file-format abbreviations retained in the Gnumeric text import option labels.

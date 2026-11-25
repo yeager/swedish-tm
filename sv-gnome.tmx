@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T130301Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T130601Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -602819,6 +602819,56 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>By default, the &lt;interface&gt;File Open&lt;/interface&gt; dialog starts with a filter named "Spreadsheets" which causes the folder content list to only show files which are recognized as files that &lt;application&gt;Gnumeric&lt;/application&gt; could open.</seg></tuv>
       <tuv xml:lang="sv"><seg>Som standard använder dialogrutan &lt;interface&gt;Öppna fil&lt;/interface&gt; filtret ”Kalkylblad”. Då visar listan över mappinnehåll bara filer som känns igen som sådana &lt;application&gt;Gnumeric&lt;/application&gt; kan öppna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The filter in area &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt; can be changed by clicking on the area to open the drop down list and then selecting the filter named "All files". This filter applies no rules, essentially disabling any filtering operation, and lists all the files in the currently selected folder. Note, however, as explained in the warning given in the section explaining area &lt;emphasis role="bold"&gt;C&lt;/emphasis&gt; above, that any files starting with a leading period are not shown. To display such 'hidden' files, the user must use the context menu available in area &lt;emphasis role="bold"&gt;C&lt;/emphasis&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan ändra filtret i område &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt; genom att klicka där, öppna rullgardinsmenyn och välja filtret ”Alla filer”. Det filtret tillämpar inga regler, så filtreringen stängs i praktiken av och alla filer i den valda mappen visas. Tänk ändå på att filer vars namn börjar med en punkt inte visas, som varningen ovan i avsnittet om område &lt;emphasis role="bold"&gt;C&lt;/emphasis&gt; förklarar. Om du vill visa sådana dolda filer öppnar du snabbmenyn i område &lt;emphasis role="bold"&gt;C&lt;/emphasis&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;G&lt;/emphasis&gt; - The file format type selection area.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;G&lt;/emphasis&gt; – Området där filformat väljs.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This area provides a drop down list of all the file formats provided by the &lt;application&gt;Gnumeric&lt;/application&gt; program itself and by all the currently active plugins.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här finns en rullgardinsmeny med alla filformat som tillhandahålls av &lt;application&gt;Gnumeric&lt;/application&gt; och de aktiva insticksmodulerna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>By default, &lt;application&gt;Gnumeric&lt;/application&gt; is configured to automatically recognize the type of each file selected by the user. This recognition system is sophisticated and generally works. The best strategy is to try opening the file using this automatic recognition strategy and, only if the automatic recognition system fails, close the worksheet with the mangled file and re-try to open the file a second time but manually selecting the file type in the second attempt.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Som standard identifierar &lt;application&gt;Gnumeric&lt;/application&gt; automatiskt filtypen. Funktionen är avancerad och fungerar i regel. Prova först att öppna filen med den automatiska identifieringen. Om den misslyckas stänger du kalkylbladet med det felaktigt tolkade innehållet och försöker igen genom att välja filtypen manuellt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The file formats which can be selected are those listed in &lt;xref linkend="sect-file-open-formats"/&gt; below. Each of these formats are explained in detail in &lt;xref linkend="sect-file-formats"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan välja filformaten som listas i &lt;xref linkend="sect-file-open-formats"/&gt; nedan. Varje format beskrivs närmare i &lt;xref linkend="sect-file-formats"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the file format type named "Text import (configurable)" is opened, this will start the text import procedure. &lt;xref linkend="sect-file-textImport"/&gt; explains this procedure in complete detail.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du väljer filformatet ”Textimport (konfigurerbar)” startar textimporten. I &lt;xref linkend="sect-file-textImport"/&gt; beskrivs den i detalj.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;H&lt;/emphasis&gt; - The character encoding selection area.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;H&lt;/emphasis&gt; – Området där teckenkodning väljs.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This area provides a drop down menu which allows the user to specify the encoding which &lt;application&gt;Gnumeric&lt;/application&gt; must use to interpret the characters in text files. This menu is only enabled for the two text file formats: "Comma or Tab Separated Values (CSV/TSV)" and "Text Import (configurable)". This menu is disabled for all other file types because &lt;application&gt;Gnumeric&lt;/application&gt; automatically detects the encoding for those files.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I det här området finns en rullgardinsmeny där du anger vilken kodning &lt;application&gt;Gnumeric&lt;/application&gt; ska använda för att tolka tecknen i textfiler. Menyn är bara tillgänglig för de två textformaten: ”Komma- eller tabbseparerade värden (CSV/TSV)” och ”Textimport (konfigurerbar)”. För andra filtyper är menyn inaktiverad, eftersom &lt;application&gt;Gnumeric&lt;/application&gt; identifierar kodningen automatiskt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A character encoding is a system to relate the binary digits contained in a computer file to the characters of a textual script. All computer files consist only of binary digits so some system is required to determine this relationship. Where early computers used simple encoding systems which only supported the characters commonly used in English, most systems are now standardizing on the UTF-8 encoding scheme which relates the binary digits in computer files to characters defined in the Universal Character Set, a set which is still being defined but will include all the characters in every language and many other useful symbols for mathematics, science, music and literature. &lt;xref linkend="sect-file-textImport-complex-encoding"/&gt; contains a brief explanation of character encoding, and discusses the encodings available in &lt;application&gt;Gnumeric&lt;/application&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En teckenkodning kopplar de binära siffrorna i en datorfil till tecknen i ett skriftsystem. Eftersom alla datorfiler bara består av binära siffror behövs en kodning för att tolka dem. Tidiga datorer använde enkla kodningar som bara stödde tecken som ofta används i engelska. I dag standardiserar de flesta system på UTF-8, som kopplar filernas binära siffror till tecken i den universella teckenuppsättningen. Den utvecklas fortfarande men ska omfatta alla språks tecken och många andra användbara symboler för matematik, naturvetenskap, musik och litteratur. &lt;xref linkend="sect-file-textImport-complex-encoding"/&gt; ger en kort förklaring av teckenkodning och beskriver vilka kodningar som finns i &lt;application&gt;Gnumeric&lt;/application&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The character encoding can be set using the drop down menu in area &lt;emphasis role="bold"&gt;H&lt;/emphasis&gt;. By default, the encoding is set for the locale of the user. The locale is set by the operating system and defines the language, time zone and other geographic related preferences of the user. The character encoding is changed by clicking on the drop down menu button in area &lt;emphasis role="bold"&gt;H&lt;/emphasis&gt;, that is by placing the mouse pointer over this menu and clicking on the primary mouse button, and then navigating the menu to select the new encoding, that is by moving the mouse through the menus and clicking on the name of the new encoding. &lt;application&gt;Gnumeric&lt;/application&gt; will then use this encoding to open the text file.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du väljer teckenkodning i rullgardinsmenyn i område &lt;emphasis role="bold"&gt;H&lt;/emphasis&gt;. Som standard används kodningen för användarens systemlokal. Operativsystemet styr lokalen, som anger språk, tidszon och andra geografiska inställningar. Ändra kodningen genom att klicka på menyknappen i område &lt;emphasis role="bold"&gt;H&lt;/emphasis&gt; och sedan välja en ny kodning i menyn. &lt;application&gt;Gnumeric&lt;/application&gt; använder den när textfilen öppnas.</seg></tuv>
     </tu>
   </body>
 </tmx>
