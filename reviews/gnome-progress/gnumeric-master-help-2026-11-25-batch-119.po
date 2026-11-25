@@ -1,0 +1,183 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:738
+msgid ""
+"The first section of this chapter starts with an overview of graph creation,"
+" discusses terminology, and presents graph components and their "
+"organization. The next section explains the <interface>\"Chart "
+"Guru\"</interface> which is the tool used to configure graphs. The "
+"subsequent section presents the different types of plots which can be "
+"included in a graph and the final section explains how data can be pre-"
+"selected to speed up the process of graph creation."
+msgstr ""
+"Det första avsnittet i kapitlet ger en översikt över hur du skapar grafer, "
+"förklarar terminologin och beskriver grafens delar och hur de är "
+"organiserade. Nästa avsnitt beskriver "
+"<interface>”Diagramguiden”</interface>, verktyget för att konfigurera "
+"grafer. Därefter presenteras de olika rittyper som kan ingå i en graf. Det "
+"sista avsnittet förklarar hur du kan markera data i förväg för att snabba "
+"upp arbetet med att skapa grafer."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:750
+msgid ""
+"Charts are exceedingly effective communication devices. Unfortunately, this "
+"means that one cannot determine, simply based on the data to be plotted, "
+"what type of plot will be the most effective. Instead users must familiarize"
+" themselves with the various types of plots which are available and decide "
+"for themselves which plot type is the most effective to communicate an idea."
+" <xref linkend=\"sect-graphs-overview\"/> contains a detailed explanation of"
+" the plot types available in <application>Gnumeric</application>."
+msgstr ""
+"Diagram är ett mycket effektivt sätt att förmedla information. Därför går "
+"det inte att avgöra enbart utifrån data vilken rittyp som fungerar bäst. Du "
+"behöver bekanta dig med de tillgängliga typerna och själv avgöra vilken som "
+"tydligast förmedlar budskapet. <xref linkend=\"sect-graphs-overview\"/> "
+"beskriver rittyperna i <application>Gnumeric</application> närmare."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:764
+msgid "This chapter explains how to add graphs to plot worksheet data."
+msgstr ""
+"Det här kapitlet beskriver hur du skapar grafer av data i ett kalkylblad."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2
+msgid "Overview of Graphs"
+msgstr "Översikt över grafer"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:4
+msgid ""
+"This overview will start with a brief summary of the process involved in "
+"creating a graph, then will discuss the terminology used in this document, "
+"will present the components of a graph, and present the hierarchy of the "
+"components used in to configure the graphs."
+msgstr ""
+"Översikten börjar med en kort sammanfattning av hur du skapar en graf. "
+"Därefter förklaras terminologin i dokumentet, grafens delar och hierarkin "
+"som används när du konfigurerar den."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:13 C/gnumeric.xml:666
+msgid "The Graph Creation Process"
+msgstr "Skapa en graf"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:15
+msgid ""
+"The process of graph creation involves several steps each of which requires "
+"the user to understand clearly what they intend to do. This outline is "
+"presented to help users understand the subsequent discussion in this "
+"document."
+msgstr ""
+"När du skapar en graf går du igenom flera steg. För varje steg behöver du "
+"veta vad du vill åstadkomma. Följande översikt hjälper dig att förstå resten"
+" av dokumentet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:24
+msgid "Outline of the procedure to create a graph."
+msgstr "Översikt över hur du skapar en graf."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:95
+msgid "Inserting the graph"
+msgstr "Infoga grafen"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:98
+msgid ""
+"Finally, the graph is inserted into the worksheet like any other graphical "
+"element, as was explained in <xref linkend=\"sect-graphical-overview-"
+"adding\"/>."
+msgstr ""
+"Till sist infogar du grafen i kalkylbladet på samma sätt som andra grafiska "
+"element, enligt beskrivningen i <xref linkend=\"sect-graphical-overview-"
+"adding\"/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:114
+msgid "On Terminology"
+msgstr "Terminologi"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:118
+msgid ""
+"The terminology used for describing the components of data graphs is "
+"confusing because graphs use many components and the words are applied "
+"arbitrarily to each component. For example, the words \"graph\", \"chart\", "
+"and \"plot\" could be used interchangeably but in "
+"<application>Gnumeric</application> these words are used as explained below."
+msgstr ""
+"Terminologin för delarna i datagrafer kan vara förvirrande eftersom grafer "
+"består av många delar och benämningarna används godtyckligt. Orden ”graf”, "
+"”diagram” och ”rittyp” kan till exempel användas om vartannat, men i "
+"<application>Gnumeric</application> har de betydelserna som förklaras nedan."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:127
+msgid ""
+"The term 'graph' will be used, in this documentation, to refer to the entire"
+" graphical element placed on the worksheet. A graph has an outline and a "
+"background, may have one or more titles, and will have at least one 'chart'."
+msgstr ""
+"I den här dokumentationen syftar ”graf” på hela det grafiska objektet i "
+"kalkylbladet. En graf har en kantlinje och en bakgrund, kan ha en eller "
+"flera rubriker och innehåller minst ett ”diagram”."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:134
+msgid ""
+"The term 'chart' will be used to denote an intermediate level element which "
+"has an outline and a background, may have one or more titles, may have a "
+"legend and will have at least one 'plot'. To support the plot, the chart may"
+" have a 'grid' area behind the plotted data, and have one or more axes."
+msgstr ""
+"”Diagram” betecknar en mellanliggande del med kantlinje och bakgrund. Den "
+"kan ha en eller flera rubriker, en förklaring och minst en ”rittyp”. "
+"Diagrammet kan också ha ett rutnätsområde bakom den utritade datan och en "
+"eller flera axlar."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:142
+msgid ""
+"Each 'plot' will be defined to be of a particular type when it is created. "
+"Plots will have one or more 'series' of data values which will define the "
+"magnitude of the values of to be plotted and may define a number of other "
+"related values including errors in the x and y directions."
+msgstr ""
+"Varje ”rittyp” tilldelas en särskild typ när den skapas. Den innehåller en "
+"eller flera dataserier vars värden anger storleken på det som ska ritas ut. "
+"Serierna kan också innehålla andra relaterade värden, till exempel felvärden"
+" i x- och y-led."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:152
+msgid ""
+"This terminology can be used to describe in detail the components of a graph"
+" in <application>Gnumeric</application>. <xref linkend=\"fig-graph-"
+"components\"/> presents the components of a graph."
+msgstr ""
+"Med den här terminologin går det att beskriva delarna i en graf i "
+"<application>Gnumeric</application> i detalj. <xref linkend=\"fig-graph-"
+"components\"/> visar grafens delar."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:164
+msgid "The Components of Graphs"
+msgstr "Grafens delar"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:167
+msgid "The components of <application>Gnumeric</application> graphs"
+msgstr "Delarna i grafer i <application>Gnumeric</application>"
