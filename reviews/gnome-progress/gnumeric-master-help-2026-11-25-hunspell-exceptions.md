@@ -15,3 +15,5 @@ Additional terms in batch 79:
 - **Sheet1** — sheet reference in spreadsheet examples.
 - **Lilliefors** and **Kolmogorov–Smirnov** — names of statistical tests.
 - **principalkomponentanalys / principalkomponentanalysen** — statistical method name; valid Swedish compound.
+
+Batch 80 preserves the sample chart category labels **Gadgets** and **Lumpets** because they name values shown in the figure.

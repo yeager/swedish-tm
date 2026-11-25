@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T103035Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T103622Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -599499,6 +599499,111 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Select the &lt;quote&gt;&lt;guibutton&gt;Labels&lt;/guibutton&gt;&lt;/quote&gt; option since the first row contains a label (see &lt;xref linkend="normality-example-2"/&gt;).</seg></tuv>
       <tuv xml:lang="sv"><seg>Markera alternativet &lt;quote&gt;&lt;guibutton&gt;Rubriker&lt;/guibutton&gt;&lt;/quote&gt; eftersom den första raden innehåller en rubrik (se &lt;xref linkend="normality-example-2"/&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Radar Plots</seg></tuv>
+      <tuv xml:lang="sv"><seg>Radardiagram</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Radar plots</seg></tuv>
+      <tuv xml:lang="sv"><seg>Radardiagram</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Radar plots present the numeric values of categorical data as a set of points plotted along a set of axes radiating from a central point, with as many axes as there are values in the series and with the points connected by a line, possibly with the interior of the shape filled in. Sequential data values are considered to belong to different categories and are plotted on separate axes which are not necessarily orthogonal and radiate from a central point. Sequential points are connected by a line with the final point connected back to the first to form a closed polygon. The data values from different series are assigned to categories based on the position of the value in the series, for example, the second data value taken from each series all share one category and will therefore all be plotted on the same axis. The data values are plotted along the axis of each class according to their numeric value.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Radardiagram visar numeriska värden i kategoridata som punkter längs axlar som strålar ut från en mittpunkt. Det finns en axel per värde i serien. Punkterna förbinds med linjer, och området innanför formen kan fyllas. Värden i följd räknas till olika kategorier och placeras på separata axlar som strålar ut från mittpunkten; axlarna behöver inte vara ortogonala. Punkterna förbinds i ordning, och den sista kopplas till den första så att en sluten polygon bildas. Värden från olika serier kopplas till kategorier utifrån sin position i serien. Det andra värdet i varje serie tillhör till exempel samma kategori och placeras därför på samma axel. Värdena placeras längs respektive kategoriaxel enligt sitt numeriska värde.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Radar plots do not have any sub-types.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Radardiagram har inga undertyper.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>An example of radar plots</seg></tuv>
+      <tuv xml:lang="sv"><seg>Exempel på radardiagram</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot shows a table of data and three radar plots. The data consist of three series organized by row and starting with the words "Widgets", "Gadgets", and "Lumpets". Each of these series has values in five categories. The three graphs illustrate the three sub-types of radar plots, with the top left plot including lines only, the top right plot including both lines and markers on the points, and the bottom middle plot using filled polygons.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bilden visar en datatabell och tre radardiagram. Data består av tre radorienterade serier som börjar med etiketterna ”Widgets”, ”Gadgets” och ”Lumpets”. Varje serie innehåller värden för fem kategorier. Diagrammen visar de tre undertyperna: det övre vänstra innehåller bara linjer, det övre högra har både linjer och punktmarkörer och det nedre i mitten består av fyllda polygoner.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Each series in radar plots can include three main elements and two error elements, although only the value element is necessary. The series can have a 'Name' element, which is a single text entry used to identify the series, must have a 'Values' element, which is a sequence of numeric values, and may have a 'Label' element, which is a sequence of text entries used to identify the categories. All of these elements can be defined as references to a region of the worksheet, as literally defined entries, or as formula expressions which result in the correct type. The 'Label' element is shared by all of the series. The legend added to a radar plot identifies the different series, by default using the entries of the 'Name' element of each series. The two error elements include a list for errors in the positive direction and one for errors in the negative direction.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Varje dataserie i ett radardiagram kan innehålla tre huvudkomponenter och två felkomponenter, men bara värdekomponenten är nödvändig. Serien kan ha komponenten ”Namn”, ett textvärde som identifierar serien. Den måste ha komponenten ”Värden”, en följd av numeriska värden, och kan även ha komponenten ”Etikett”, en följd av textvärden som identifierar kategorierna. Komponenterna kan anges som referenser till ett område i kalkylbladet, som fasta värden eller som formeluttryck som ger rätt datatyp. Alla serier delar på komponenten ”Etikett”. Förklaringen till radardiagrammet identifierar serierna och använder som standard värdena i respektive series komponent ”Namn”. De två felkomponenterna innehåller listor med positiva respektive negativa felvärden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The data in each radar plot series</seg></tuv>
+      <tuv xml:lang="sv"><seg>Data i varje serie i ett radardiagram</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Radar plots provide three icons distinguishing the three different styles.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det finns tre ikoner för de olika stilarna i radardiagram.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Radar plot sub-type and style options.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Undertyp och stil för radardiagram.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/chart_radar_1_1.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; The icon for a radar plot with the style of simple lines only. &lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/chart_radar_1_1.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; Ikon för radardiagram med enbart enkla linjer. &lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The icon for a radar plot with the style displaying simple lines only.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ikon för radardiagram med enbart enkla linjer.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/chart_radar_1_2.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; The icon for a radar plot with the style displaying both lines and point markers on the data values. &lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/chart_radar_1_2.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; Ikon för radardiagram med linjer och markörer vid datapunkterna. &lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The icon for a radar plot with the style displaying both lines and point markers on the data values.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ikon för radardiagram med linjer och markörer vid datapunkterna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/chart_radar_1_3.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; The icon for a radar plot with the style displaying a filled area. &lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/chart_radar_1_3.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; Ikon för radardiagram med fylld yta. &lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The icon for a radar plot with the style displaying a filled area.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ikon för radardiagram med fylld yta.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Radar plots have as many axes as there are categories in each series.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Radardiagram har en axel för varje kategori i serien.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configurable properties of a radar plot.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaper för radardiagram.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot depicts the properties of a radar plot which can be configured.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bilden visar egenskaper som kan ställas in för ett radardiagram.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>By default the axis for the first category is vertical leaving the center point in the upward direction. The first spin box in the radar plot properties allows a user to change this orientation. The spin button can increase from zero degrees to 359 degrees when it will reset to 0.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Som standard är axeln för den första kategorin lodrät och riktad uppåt från mittpunkten. Den första stegningsrutan bland radardiagrammets egenskaper ändrar riktningen. Värdet kan ökas från 0 till 359 grader och återgår sedan till 0.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Vary colors by slice&lt;/guilabel&gt; property is probably a mistake which should not be part of radar plot properties.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskapen &lt;guilabel&gt;Variera färger efter sektor&lt;/guilabel&gt; verkar ha lagts till av misstag och bör inte ingå bland egenskaperna för radardiagram.</seg></tuv>
     </tu>
   </body>
 </tmx>
