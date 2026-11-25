@@ -1,0 +1,203 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1528
+msgid "Additive Holt-Winters Method"
+msgstr "Additiv metod enligt Holt–Winters"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1530
+msgid ""
+"The additive Holt-Winters method of exponential smoothing is appropriate "
+"when a time series with a linear trend has an additive seasonal pattern for "
+"which the level, the growth rate and the seasonal pattern may be changing. "
+"An additive seasonal pattern is a pattern in which the seasonal variation "
+"can be explained by the addition of a seasonal constant (although we allow "
+"for this constant to change slowly.)"
+msgstr ""
+"Additiv exponentiell utjämning enligt Holt–Winters passar när en tidsserie "
+"med linjär trend har ett additivt säsongsmönster där nivån, tillväxttakten "
+"och säsongsmönstret kan förändras. I ett sådant mönster förklaras "
+"säsongsvariationen genom att lägga till en konstant för säsongen (som får "
+"förändras långsamt.)"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1537
+msgid ""
+"<parameter>y<subscript>t</subscript></parameter> is the true value at time "
+"<parameter>t</parameter>, <parameter>l<subscript>t</subscript></parameter> "
+"is the estimated level at time <parameter>t</parameter>, "
+"<parameter>b<subscript>t </subscript></parameter> is the estimated growth "
+"rate at time <parameter>t</parameter> and <parameter>s<subscript>t "
+"</subscript></parameter> is the estimated seasonal adjustment for time "
+"<parameter>t</parameter>. We use the three smoothing equations given in "
+"<xref linkend=\"exp-smoothing-tool-formula-a-holt-winters\"/> to update our "
+"estimates. α is the value given as <quote><guilabel>Damping "
+"factor</guilabel></quote>, γ is the value given as <quote><guilabel>Growth "
+"damping factor</guilabel></quote> and δ is the value given as "
+"<quote><guilabel>Seasonal damping factor</guilabel></quote>. "
+"<parameter>L</parameter> is the value given as <quote><guilabel>Seasonal "
+"period</guilabel></quote>. If your data consist of monthly values, then "
+"<parameter>L</parameter> should be 12, if it consist of quarterly values "
+"then <parameter>L</parameter> should be 4."
+msgstr ""
+"<parameter>y<subscript>t</subscript></parameter> är det verkliga värdet vid "
+"tidpunkt <parameter>t</parameter>, "
+"<parameter>l<subscript>t</subscript></parameter> den uppskattade nivån vid "
+"tidpunkt <parameter>t</parameter>, <parameter>b<subscript>t "
+"</subscript></parameter> den uppskattade tillväxttakten vid tidpunkt "
+"<parameter>t</parameter> och <parameter>s<subscript>t "
+"</subscript></parameter> den uppskattade säsongsjusteringen vid tidpunkt "
+"<parameter>t</parameter>. Uppskattningarna uppdateras med de tre "
+"utjämningsekvationerna i <xref linkend=\"exp-smoothing-tool-formula-a-holt-"
+"winters\"/>. α är värdet i fältet "
+"<quote><guilabel>Dämpningsfaktor</guilabel></quote>, γ värdet i "
+"<quote><guilabel>Tillväxtdämpningsfaktor</guilabel></quote> och δ värdet i "
+"<quote><guilabel>Säsongsdämpningsfaktor</guilabel></quote>. "
+"<parameter>L</parameter> är värdet i "
+"<quote><guilabel>Säsongsperiod</guilabel></quote>. För månadsdata ska "
+"<parameter>L</parameter> vara 12 och för kvartalsdata ska "
+"<parameter>L</parameter> vara 4."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1556
+msgid ""
+"This tool obtains initial (time 0) estimates for the level and growth rate "
+"by performing a linear regression using all data values. It obtains "
+"estimates for the seasonal adjustments by averaging the appropriate seasonal"
+" differences from values predicted by linear regression alone."
+msgstr ""
+"Verktyget uppskattar den ursprungliga nivån och tillväxttakten (vid tidpunkt"
+" 0) genom linjär regression på alla datavärden. Säsongsjusteringarna "
+"uppskattas som medelvärdet av de relevanta säsongsskillnaderna från värden "
+"som förutsagts med enbart linjär regression."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1564
+msgid "Exponential Smoothing Formulae Of The Additive Holt-Winters Method"
+msgstr "Formler för additiv exponentiell utjämning enligt Holt–Winters"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1566
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-exp-smoothing-a-"
+"holt-winters-formula.png\" format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>The formulae used in the additive Holt-Winters Method.</phrase> "
+"</textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-exp-smoothing-a-"
+"holt-winters-formula.png\" format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>Formlerna för additiv exponentiell utjämning enligt "
+"Holt–Winters.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1578 C/gnumeric.xml:1710
+msgid ""
+"If you choose to have the tool enter formulæ rather than values into the "
+"output region, then you can modify the damping factors α, γ and δ as well as"
+" all estimates after executing the tool."
+msgstr ""
+"Om du väljer att verktyget ska skriva in formler i stället för värden i "
+"utdataområdet kan du ändra dämpningsfaktorerna α, γ och δ samt alla "
+"uppskattningar även efter att verktyget har körts."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1585
+msgid ""
+"To have the standard errors output as well, check the "
+"<quote><guilabel>Standard error</guilabel></quote> check box. The formula "
+"used is given in <xref linkend=\"exp-smoothing-tool-formula-a-holt-winters-"
+"stderr\"/>. The denominator can be adjusted by selecting the appropriate "
+"radio button."
+msgstr ""
+"Markera kryssrutan <quote><guilabel>Standardfel</guilabel></quote> om "
+"standardfelen också ska visas. Formeln finns i <xref linkend=\"exp-"
+"smoothing-tool-formula-a-holt-winters-stderr\"/>. Du kan ändra nämnaren med "
+"motsvarande alternativknapp."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1592
+msgid "The Standard Error Formula Of The Additive Holt-Winters Method"
+msgstr ""
+"Formel för standardfel vid additiv exponentiell utjämning enligt "
+"Holt–Winters"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1594
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-exp-smoothing-a-"
+"holt-winters-stderr.png\" format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>The formula used to calculate the standard error in the additive "
+"Holt-Winters Method </phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-exp-smoothing-a-"
+"holt-winters-stderr.png\" format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>Formeln för att beräkna standardfelet vid additiv exponentiell "
+"utjämning enligt Holt–Winters</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1614
+msgid ""
+"<xref linkend=\"smoothing-example-6\"/> shows the options' tab of the "
+"exponential smoothing tool for the additive Holt-Winters method. The data is"
+" expected to have a seasonal period of 4 (this would for example happen if "
+"we have a data value for each quarter of a year). <xref linkend=\"smoothing-"
+"example-7\"/> shows the corresponding example output for the additive Holt-"
+"Winters method. Cell C7 contains the estimated level at time 0, D7 the "
+"estimated growth rate at time 0, and E4 to E7 the initial seasonal "
+"adjustments for each of the 4 seasons preceding our data time period. If you"
+" requested to have formulæ rather than values entered into the sheet, then "
+"changing any of these estimates, the values for α in A2, for γ in B2 and/or "
+"for δ in C2 will result in an immediate change to the estimated values."
+msgstr ""
+"<xref linkend=\"smoothing-example-6\"/> visar fliken Alternativ för "
+"verktyget för additiv exponentiell utjämning enligt Holt–Winters. Data antas"
+" ha en säsongsperiod på 4, vilket till exempel gäller om det finns ett "
+"datavärde för varje kvartal. <xref linkend=\"smoothing-example-7\"/> visar "
+"motsvarande utdata. Cell C7 innehåller den uppskattade nivån vid tidpunkt 0,"
+" D7 den uppskattade tillväxttakten vid tidpunkt 0 och E4–E7 de ursprungliga "
+"säsongsjusteringarna för de fyra säsongerna före dataperioden. Om du valde "
+"att verktyget skulle skriva in formler i stället för värden ändras de "
+"uppskattade värdena direkt när du ändrar någon av dessa uppskattningar, α i "
+"A2, γ i B2 eller δ i C2."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1629
+msgid "Exponential Smoothing Tool Options (Additive Holt-Winters)"
+msgstr ""
+"Alternativ för verktyget för exponentiell utjämning (additiv Holt–Winters)"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1631
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-smoothing-ex6.png\""
+" format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of the "
+"options' tab for the additive Holt-Winters method.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-smoothing-ex6.png\""
+" format=\"PNG\"/> </imageobject> <textobject> <phrase>Fliken Alternativ för "
+"additiv exponentiell utjämning enligt Holt–Winters.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1644
+msgid "Exponential Smoothing Tool Output (Additive Holt-Winters)"
+msgstr ""
+"Utdata från verktyget för exponentiell utjämning (additiv Holt–Winters)"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1646
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-smoothing-ex7.png\""
+" format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of the output"
+" of the additive Holt-Winters method.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-smoothing-ex7.png\""
+" format=\"PNG\"/> </imageobject> <textobject> <phrase>Utdata från additiv "
+"exponentiell utjämning enligt Holt–Winters.</phrase> </textobject>"
