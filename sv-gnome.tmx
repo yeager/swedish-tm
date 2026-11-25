@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T153530Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T154240Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -607317,6 +607317,51 @@ Sheet 0
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>&lt;emphasis role="italic"&gt;See Also:&lt;/emphasis&gt; &lt;link linkend="file-format-html"&gt;HTML Format&lt;/link&gt;</seg></tuv>
       <tuv xml:lang="sv"><seg>&lt;emphasis role="italic"&gt;Se även:&lt;/emphasis&gt; &lt;link linkend="file-format-html"&gt;HTML-format&lt;/link&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/worksheet-managing-dialog.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the Tools menu.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/worksheet-managing-dialog.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av menyn Verktyg.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Locked icon</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ikon för låst kalkylblad</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Unlocked icon</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ikon för olåst kalkylblad</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Visible icon</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ikon för synligt kalkylblad</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The origin of computers led to the invention of a number of different encoding schemes. Due to the limitation of early computer hardware, these encoding schemes all restricted themselves to character sets which contained only the most essential characters of the English language. The desire to support characters which were not in this basic set of characters led to the creation of new encoding schemes, many of which restricted themselves to the characters in specific languages. One encoding scheme, called UTF-8, has now emerged as the best encoding scheme for the future for a multitude of reasons including its ability to co-exist with current operating systems and its ability to encode all of the characters in the largest set of characters which has been consistently defined, the Universal Character Set. However, the existence of the diversity of encoding schemes means that for the foreseeable future, files will be created and distributed using several different schemes. This is especially true for files containing text in languages other than English.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Datorernas framväxt ledde till att flera olika teckenkodningar skapades. Den tidiga maskinvarans begränsningar gjorde att kodningarna bara omfattade de viktigaste tecknen i engelskan. Behovet av att hantera tecken utanför denna grunduppsättning ledde till nya kodningar, ofta begränsade till tecken som används i ett visst språk. UTF-8 har nu blivit den främsta framtida kodningen av flera skäl: den fungerar tillsammans med dagens operativsystem och kan koda alla tecken i den största konsekvent definierade teckenuppsättningen, Universal Character Set. Eftersom det finns många olika kodningar kommer filer under överskådlig tid ändå att skapas och distribueras med flera olika kodningar. Det gäller särskilt filer med text på andra språk än engelska.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This complex situation generally does not impact users. &lt;application&gt;Gnumeric&lt;/application&gt; has been designed to deal with most of the complexity. Many kinds of files, such as the &lt;application&gt;Gnumeric&lt;/application&gt; file format itself, describe their encoding scheme internally in such a way that it can be easily recognized. &lt;application&gt;Gnumeric&lt;/application&gt; also provides an easy approach to changing the encoding scheme in case this proves necessary.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den här komplexiteten påverkar i regel inte användarna. &lt;application&gt;Gnumeric&lt;/application&gt; är utformat för att hantera det mesta av den. Många filtyper, till exempel &lt;application&gt;Gnumeric&lt;/application&gt;s eget filformat, anger sin teckenkodning i filen så att den enkelt kan identifieras. &lt;application&gt;Gnumeric&lt;/application&gt; gör det också enkelt att byta teckenkodning om det behövs.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Encoding schemes merely prove a hindrance to users when opening files. There is no danger that data be lost or that any other serious problem arise by selecting the wrong scheme. If the wrong scheme is selected, either the file will contain characters which are nonsensical and &lt;application&gt;Gnumeric&lt;/application&gt; will open an error dialog asking the user to select a different encoding scheme, or the preview area will display nonsensical characters. These nonsensical characters may simply be characters grouped together which do not occur in any language, such as "åÕÛÛÞ", or may be characters for which a graphical representation (a glyph) does not exist in the font being used and is therefore displayed using a small box with four numbers inside. Each of these errors indicates that the encoding scheme used to read the file was not the same encoding scheme as was used to create the file. The difficulty is then to determine what encoding scheme to use. A simple process of trial and error should lead to picking the right scheme.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Teckenkodningar blir ett hinder först när du öppnar filer. Om du väljer fel kodning riskerar du inte att förlora data eller orsaka något annat allvarligt problem. Antingen innehåller filen då obegripliga tecken och &lt;application&gt;Gnumeric&lt;/application&gt; visar en felruta där du ombeds välja en annan kodning, eller så visas obegripliga tecken i förhandsgranskningen. Det kan vara tecken som inte förekommer tillsammans i något språk, till exempel ”åÕÛÛÞ”, eller tecken som saknar motsvarande bild (glyf) i det aktuella typsnittet och därför visas som en liten ruta med fyra siffror. Båda fallen visar att kodningen som användes för att läsa filen inte är densamma som användes när den skapades. Du behöver då ta reda på vilken kodning som ska användas. Prova dig fram tills du hittar rätt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A basic strategy to find the right encoding for a file being imported into &lt;application&gt;Gnumeric&lt;/application&gt; is, first, to use the scheme proposed by &lt;application&gt;Gnumeric&lt;/application&gt; and, then, to hunt for the correct encoding. The default encoding scheme is the one defined by the locale setting of the user and this is also the default scheme &lt;application&gt;Gnumeric&lt;/application&gt; uses to create text files. If the default encoding is incorrect, the correct encoding must be found by trial and error. One strategy to use is to examine the major western encodings and then the major regional encodings. The major western encoding schemes are ASCII, ISO-8859-1, and UTF-8, but ASCII is a subset of the other two so it does not need to be tried on its own. The major regional encodings are the IS0-8859-x schemes since these have become quite popular in GNU operating systems. Alternatively, the various character sets used by the Microsoft operating systems can be attempted. The encoding schemes are listed under "Western", "Unicode", and the alphabet names.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Börja med att använda den kodning som &lt;application&gt;Gnumeric&lt;/application&gt; föreslår när du importerar en fil i &lt;application&gt;Gnumeric&lt;/application&gt;. Om den inte fungerar får du prova dig fram. Standardkodningen bestäms av användarens språkinställning. Det är också den kodning som &lt;application&gt;Gnumeric&lt;/application&gt; använder när programmet skapar textfiler. Om den är fel behöver du hitta rätt kodning genom att prova olika alternativ. Börja med de vanligaste västerländska kodningarna och gå sedan vidare till regionala kodningar. De vanligaste västerländska är ASCII, ISO-8859-1 och UTF-8. Eftersom ASCII ingår i de två andra behöver du inte prova den separat. Bland de regionala kodningarna är olika ISO-8859-x-varianter vanliga i GNU-system. Du kan också prova de teckenuppsättningar som används i Microsofts operativsystem. Kodningarna finns under kategorierna ”Västerländska”, ”Unicode” och alfabetens namn.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The World Wide Web has many resources dedicated to explaining encoding systems and other related information. One of the best sites discussing UTF-8 and Unicode is the &lt;ulink type="http" url="http://www.cl.cam.ac.uk/~mgk25/unicode.html"&gt;UTF-8 and Unicode FAQ for UNIX/Linux&lt;/ulink&gt; page maintained by Markus Kuhn. The Unicode project has a &lt;ulink type="http" url="http://www.unicode.org"&gt;web site&lt;/ulink&gt; which includes an online copy of their standard character set. A discussion of the ISO-8859 family of encodings can be found at a page titled: "&lt;ulink type="http" url="http://czyborra.com/charsets/iso8859.html"&gt;The ISO-8859 Alphabet Soup&lt;/ulink&gt;", which may alternatively be found &lt;ulink type="http" url="http://www.unicodecharacter.com/charsets/iso8859.html"&gt;here&lt;/ulink&gt;. A similar discussion on Wikipedia, focusing on the western alphabets, can be found &lt;ulink type="http" url="http://en.wikipedia.org/wiki/ISO_8859-1"&gt;here&lt;/ulink&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>På webben finns många resurser om teckenkodningar och närliggande ämnen. En bra webbplats om UTF-8 och Unicode är Markus Kuhns sida &lt;ulink type="http" url="http://www.cl.cam.ac.uk/~mgk25/unicode.html"&gt;UTF-8 and Unicode FAQ for UNIX/Linux&lt;/ulink&gt;. Unicode-projektet har en &lt;ulink type="http" url="http://www.unicode.org"&gt;webbplats&lt;/ulink&gt; med en digital kopia av sin standardiserade teckenuppsättning. En genomgång av ISO-8859-kodningarna finns på sidan &lt;ulink type="http" url="http://czyborra.com/charsets/iso8859.html"&gt;The ISO-8859 Alphabet Soup&lt;/ulink&gt;, som också finns &lt;ulink type="http" url="http://www.unicodecharacter.com/charsets/iso8859.html"&gt;här&lt;/ulink&gt;. En liknande genomgång, med fokus på västerländska alfabet, finns på Wikipedia &lt;ulink type="http" url="http://en.wikipedia.org/wiki/ISO_8859-1"&gt;här&lt;/ulink&gt;.</seg></tuv>
     </tu>
   </body>
 </tmx>

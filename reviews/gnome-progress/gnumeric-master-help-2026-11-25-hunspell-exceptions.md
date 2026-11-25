@@ -233,3 +233,11 @@ Batch 186:
 - **January / February / March / April / May / June / July / August / September / October / November / December / Sheet / Operating System / DOS / Linux / Totals** — literal labels in the unchanged sample output table.
 - **The dollar amounts and ASCII borders** are fixed sample output; the lint notice about currency localization is not applicable to this verbatim command output.
 - **XHTML / HTML / XML / Extensible Markup Language / Hypertext Markup Language / Transitional / table** — standard names and literal HTML element identifier.
+
+Batch 187:
+
+- **ASCII / ISO-8859-1 / ISO-8859-x / UTF-8 / Unicode / GNU / Microsoft** — encoding and platform names kept as identifiers.
+- **FAQ / Gnumeric** — abbreviation and application name.
+- **glyf** — technical term for a glyph representation in a font.
+- **Alphabet / Soup** — words in the proper title “The ISO-8859 Alphabet Soup”, preserved as part of the cited webpage title.
+- **åÕÛÛÞ** — deliberately nonsensical example of mojibake from the source, preserved exactly.
