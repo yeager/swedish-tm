@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T085904Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T090143Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -597889,6 +597889,61 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Exponential Smoothing According to Roberts</seg></tuv>
       <tuv xml:lang="sv"><seg>Exponentiell utjämning enligt Roberts</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The simple exponential smoothing method according to Roberts is used for forecasting a time series without a trend or seasonal pattern, but for which the level is nevertheless slowly changing over time. The predicted values are calculated according to the formula given in &lt;xref linkend="exp-smoothing-tool-formula-roberts"/&gt;. α is the value given as &lt;quote&gt;&lt;guilabel&gt;Damping factor&lt;/guilabel&gt;&lt;/quote&gt;. &lt;parameter&gt;y&lt;subscript&gt;t&lt;/subscript&gt;&lt;/parameter&gt; is the &lt;parameter&gt;t&lt;/parameter&gt;th value in the original data set and &lt;parameter&gt;l&lt;subscript&gt;t&lt;/subscript&gt;&lt;/parameter&gt; the predicted value. &lt;parameter&gt;l&lt;subscript&gt;0&lt;/subscript&gt;&lt;/parameter&gt; is the predicted value at time 0 and must be estimated. This tool uses the average value of the first 5 observations as estimate.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Roberts metod för enkel exponentiell utjämning används för att prognostisera tidsserier utan trend eller säsongsmönster, men där nivån ändå förändras långsamt över tid. De prognostiserade värdena beräknas enligt formeln i &lt;xref linkend="exp-smoothing-tool-formula-roberts"/&gt;. α är värdet i fältet &lt;quote&gt;&lt;guilabel&gt;Dämpningsfaktor&lt;/guilabel&gt;&lt;/quote&gt;. &lt;parameter&gt;y&lt;subscript&gt;t&lt;/subscript&gt;&lt;/parameter&gt; är värdet på plats &lt;parameter&gt;t&lt;/parameter&gt; i den ursprungliga serien, och &lt;parameter&gt;l&lt;subscript&gt;t&lt;/subscript&gt;&lt;/parameter&gt; är det prognostiserade värdet. &lt;parameter&gt;l&lt;subscript&gt;0&lt;/subscript&gt;&lt;/parameter&gt; är det prognostiserade värdet vid tidpunkt 0 och måste uppskattas. Verktyget använder medelvärdet av de första 5 observationerna som uppskattning.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If you choose to have the tool enter formulæ rather than values into the output region, then you can modify the damping factor α and the estimated value at time 0 after executing the tool.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du väljer att verktyget ska skriva in formler i stället för värden i utdataområdet kan du ändra dämpningsfaktorn α och det uppskattade värdet vid tidpunkt 0 även efter att verktyget har körts.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Exponential Smoothing Formula According To Roberts</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formel för exponentiell utjämning enligt Roberts</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-exp-smoothing-roberts-formula.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;The formula used in exponential smoothing according to Roberts.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-exp-smoothing-roberts-formula.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Formeln för exponentiell utjämning enligt Roberts.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To have the standard errors output as well, check the &lt;quote&gt;&lt;guilabel&gt;Standard error&lt;/guilabel&gt;&lt;/quote&gt; check box. The formula used is given in &lt;xref linkend="exp-smoothing-tool-formula-roberts-stderr"/&gt;. The denominator can be adjusted by selecting the appropriate radio button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markera kryssrutan &lt;quote&gt;&lt;guilabel&gt;Standardfel&lt;/guilabel&gt;&lt;/quote&gt; om standardfelen också ska visas. Formeln finns i &lt;xref linkend="exp-smoothing-tool-formula-roberts-stderr"/&gt;. Du kan ändra nämnaren med motsvarande alternativknapp.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Standard Error Formula For Exponential Smoothing According To Roberts</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formel för standardfel vid exponentiell utjämning enligt Roberts</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-exp-smoothing-roberts-stderr.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;The formula used to calculate the standard error of exponential smoothing according to Roberts &lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-exp-smoothing-roberts-stderr.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Formeln för att beräkna standardfelet vid exponentiell utjämning enligt Roberts&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;xref linkend="smoothing-example-4"/&gt; shows example output for the exponential smoothing tool using the formula according to Roberts. Cell A4 contains the estimated level at time 0. If you requested to have formulæ rather than values entered into the sheet, then changing the estimate in A4 and/or the value for α in A2 will result in an immediate change to the predicted values.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;xref linkend="smoothing-example-4"/&gt; visar exempel på utdata från verktyget för exponentiell utjämning med Roberts formel. Cell A4 innehåller den uppskattade nivån vid tidpunkt 0. Om du valde att verktyget skulle skriva in formler i stället för värden i bladet ändras prognosvärdena direkt när du ändrar uppskattningen i A4 och/eller värdet på α i A2.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Exponential Smoothing Tool Output (Roberts)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utdata från verktyget för exponentiell utjämning (Roberts)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-smoothing-ex4.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output of an exponential smoothing analysis according to Roberts.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-smoothing-ex4.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Utdata från en analys med exponentiell utjämning enligt Roberts.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Holt's Trend Corrected Exponential Smoothing</seg></tuv>
+      <tuv xml:lang="sv"><seg>Holts trendkorrigerade exponentiella utjämning</seg></tuv>
     </tu>
   </body>
 </tmx>

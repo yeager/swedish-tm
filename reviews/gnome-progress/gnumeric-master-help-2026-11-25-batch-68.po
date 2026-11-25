@@ -1,0 +1,136 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1333
+msgid ""
+"The simple exponential smoothing method according to Roberts is used for "
+"forecasting a time series without a trend or seasonal pattern, but for which"
+" the level is nevertheless slowly changing over time. The predicted values "
+"are calculated according to the formula given in <xref linkend=\"exp-"
+"smoothing-tool-formula-roberts\"/>. α is the value given as "
+"<quote><guilabel>Damping factor</guilabel></quote>. "
+"<parameter>y<subscript>t</subscript></parameter> is the "
+"<parameter>t</parameter>th value in the original data set and "
+"<parameter>l<subscript>t</subscript></parameter> the predicted value. "
+"<parameter>l<subscript>0</subscript></parameter> is the predicted value at "
+"time 0 and must be estimated. This tool uses the average value of the first "
+"5 observations as estimate."
+msgstr ""
+"Roberts metod för enkel exponentiell utjämning används för att prognostisera"
+" tidsserier utan trend eller säsongsmönster, men där nivån ändå förändras "
+"långsamt över tid. De prognostiserade värdena beräknas enligt formeln i "
+"<xref linkend=\"exp-smoothing-tool-formula-roberts\"/>. α är värdet i fältet"
+" <quote><guilabel>Dämpningsfaktor</guilabel></quote>. "
+"<parameter>y<subscript>t</subscript></parameter> är värdet på plats "
+"<parameter>t</parameter> i den ursprungliga serien, och "
+"<parameter>l<subscript>t</subscript></parameter> är det prognostiserade "
+"värdet. <parameter>l<subscript>0</subscript></parameter> är det "
+"prognostiserade värdet vid tidpunkt 0 och måste uppskattas. Verktyget "
+"använder medelvärdet av de första 5 observationerna som uppskattning."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1346
+msgid ""
+"If you choose to have the tool enter formulæ rather than values into the "
+"output region, then you can modify the damping factor α and the estimated "
+"value at time 0 after executing the tool."
+msgstr ""
+"Om du väljer att verktyget ska skriva in formler i stället för värden i "
+"utdataområdet kan du ändra dämpningsfaktorn α och det uppskattade värdet vid"
+" tidpunkt 0 även efter att verktyget har körts."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1354
+msgid "Exponential Smoothing Formula According To Roberts"
+msgstr "Formel för exponentiell utjämning enligt Roberts"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1356
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-exp-smoothing-"
+"roberts-formula.png\" format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>The formula used in exponential smoothing according to "
+"Roberts.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-exp-smoothing-"
+"roberts-formula.png\" format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>Formeln för exponentiell utjämning enligt Roberts.</phrase> "
+"</textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1368
+msgid ""
+"To have the standard errors output as well, check the "
+"<quote><guilabel>Standard error</guilabel></quote> check box. The formula "
+"used is given in <xref linkend=\"exp-smoothing-tool-formula-roberts-"
+"stderr\"/>. The denominator can be adjusted by selecting the appropriate "
+"radio button."
+msgstr ""
+"Markera kryssrutan <quote><guilabel>Standardfel</guilabel></quote> om "
+"standardfelen också ska visas. Formeln finns i <xref linkend=\"exp-"
+"smoothing-tool-formula-roberts-stderr\"/>. Du kan ändra nämnaren med "
+"motsvarande alternativknapp."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1375
+msgid ""
+"The Standard Error Formula For Exponential Smoothing According To Roberts"
+msgstr "Formel för standardfel vid exponentiell utjämning enligt Roberts"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1377
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-exp-smoothing-"
+"roberts-stderr.png\" format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>The formula used to calculate the standard error of exponential "
+"smoothing according to Roberts </phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-exp-smoothing-"
+"roberts-stderr.png\" format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>Formeln för att beräkna standardfelet vid exponentiell utjämning "
+"enligt Roberts</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1397
+msgid ""
+"<xref linkend=\"smoothing-example-4\"/> shows example output for the "
+"exponential smoothing tool using the formula according to Roberts. Cell A4 "
+"contains the estimated level at time 0. If you requested to have formulæ "
+"rather than values entered into the sheet, then changing the estimate in A4 "
+"and/or the value for α in A2 will result in an immediate change to the "
+"predicted values."
+msgstr ""
+"<xref linkend=\"smoothing-example-4\"/> visar exempel på utdata från "
+"verktyget för exponentiell utjämning med Roberts formel. Cell A4 innehåller "
+"den uppskattade nivån vid tidpunkt 0. Om du valde att verktyget skulle "
+"skriva in formler i stället för värden i bladet ändras prognosvärdena direkt"
+" när du ändrar uppskattningen i A4 och/eller värdet på α i A2."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1408
+msgid "Exponential Smoothing Tool Output (Roberts)"
+msgstr "Utdata från verktyget för exponentiell utjämning (Roberts)"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1410
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-smoothing-ex4.png\""
+" format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of the output"
+" of an exponential smoothing analysis according to Roberts.</phrase> "
+"</textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-smoothing-ex4.png\""
+" format=\"PNG\"/> </imageobject> <textobject> <phrase>Utdata från en analys "
+"med exponentiell utjämning enligt Roberts.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1425
+msgid "Holt's Trend Corrected Exponential Smoothing"
+msgstr "Holts trendkorrigerade exponentiella utjämning"
