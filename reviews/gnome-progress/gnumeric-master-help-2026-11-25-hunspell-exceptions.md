@@ -170,3 +170,11 @@ Batch 178:
 - **application/* MIME strings / none** — exact MIME identifiers and a source table sentinel; preserved verbatim.
 - **ECMA376 / ISO29500 / ISO/IEC** — standard identifiers preserved in the table.
 - `l10n-lint` reported two dash warnings for **Lotus 1-2-3** and the matching `vnd.lotus-1-2-3` MIME string. Both hyphenated number sequences are part of the exact product or MIME identifiers and must remain unchanged.
+
+Batch 179:
+
+- **.gnumeric / .me / .slk / .sylk / .text / .txt / .wb1 / .wb2 / .wb3** — format extensions preserved verbatim.
+- **Quattro Pro / SC / XSpread / SYLK / Xbase / OASIS and XML format names** — canonical file-format, standard and product labels.
+- **Gnumeric-filformatet / Gnumeric-version** — valid compounds containing the product name.
+- **application/*, x-*, vnd.*, dbase, dbf, zz-* / none** — MIME strings and the table's exact no-value sentinel; retained verbatim.
+- **EXPERIMENTAL SAX based XML / SAX / based** — exact plugin label and XML parser terminology; preserved as named in the interface.
