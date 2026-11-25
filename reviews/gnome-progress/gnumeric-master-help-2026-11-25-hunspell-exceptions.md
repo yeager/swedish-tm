@@ -289,3 +289,11 @@ Batch 195:
 - **Internet Relay Chat / IRC / client** — protocol name and English search term retained from the source's search instructions.
 - **Gnumeric-listan / Gnumeric-teamet / Gnumeric-projektet / GitLab-startsida / GNOME-version** — project-name compounds.
 - **kalkylbladsdata / mitt_kalkylblad.gnumeric** — domain term and localized example filename.
+
+Batch 196:
+
+- **Applix / OpenOffice.org / StarOffice / Calc / Gnumeric / GitLab / Cygwin / OOo** — product, project and platform names.
+- **GIT / Git-versionshanteringsarkiv** — exact upstream version-control wording and Swedish compound.
+- **HTML / LaTeX** — format and typesetting names.
+- **Applix-filer / ritobjekt** — technical terms and Swedish compounds.
+- Hunspell does not recognize the expansion **Grafiskt gränssnitt** used for GUI; `l10n-lint` reports only an informational length-ratio notice for that short source label.
