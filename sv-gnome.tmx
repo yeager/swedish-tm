@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T202926Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T203402Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -482987,7 +482987,7 @@ Siffrorna som visas är originalindexen.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Depth Merge</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sammanfoga djup</seg></tuv>
+      <tuv xml:lang="sv"><seg>Djupsammanfogning</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -487991,7 +487991,7 @@ Ogiltig färgkarta</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Filmstrip</seg></tuv>
-      <tuv xml:lang="sv"><seg>Filmrulle</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filmremsa</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -488001,7 +488001,7 @@ Ogiltig färgkarta</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Image Selection</seg></tuv>
-      <tuv xml:lang="sv"><seg>Bildval</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bildurval</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -641603,6 +641603,406 @@ Intervallstart, Värde, Röd, Grön, Blå
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>When enabled details in shadows are boosted at the expense of noise.</seg></tuv>
       <tuv xml:lang="sv"><seg>När alternativet är aktiverat framhävs detaljer i skuggorna, men bruset ökar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Combine filters associate two or more images into a single image.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kombinationsfilter sammanför två eller flera bilder till en enda bild.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>@@image: 'images/filters/examples/combine-taj-filmstrip.jpg'; md5=ce734a6d5150fe130058173cfd85f0a8</seg></tuv>
+      <tuv xml:lang="sv"><seg>@@image: 'images/filters/examples/combine-taj-filmstrip.jpg'; md5=ce734a6d5150fe130058173cfd85f0a8</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>@@image: 'images/filters/combine/film-selection.png'; md5=43ec3ba18d8315b89ccd2c044754f33b</seg></tuv>
+      <tuv xml:lang="sv"><seg>@@image: 'images/filters/combine/film-selection.png'; md5=43ec3ba18d8315b89ccd2c044754f33b</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>@@image: 'images/filters/combine/film-advanced.png'; md5=107f2434463765dc9fcee251e12b5c7e</seg></tuv>
+      <tuv xml:lang="sv"><seg>@@image: 'images/filters/combine/film-advanced.png'; md5=107f2434463765dc9fcee251e12b5c7e</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Applying example for the Filmstrip filter</seg></tuv>
+      <tuv xml:lang="sv"><seg>Exempel på hur filtret Filmremsa används</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Filmstrip filter lets you merge several pictures into a photographic film drawing.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filtret Filmremsa sammanfogar flera bilder till en illustration av en fotografisk filmremsa.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>This filter does not invert colors, so it does not imitate negative film like the ones used to produce prints. Instead you should think of the result as an imitation of slide film or cinema film.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filtret inverterar inte färgerna och efterliknar därför inte ett filmnegativ som används för att framställa papperskopior. Resultatet liknar i stället en diabildsfilm eller biograffilm.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The drawing is a new separate image instance which would need to be saved separately, not a layer in any existing image.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resultatet är en ny, fristående bild som måste sparas separat. Det blir inte ett lager i någon av de befintliga bilderna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>This filter is found in the main menu under &lt;menuchoice&gt;&lt;guimenu&gt;Filters&lt;/guimenu&gt;&lt;guisubmenu&gt;Combine&lt;/guisubmenu&gt;&lt;guimenuitem&gt;Filmstrip…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du hittar filtret i huvudmenyn under &lt;menuchoice&gt;&lt;guimenu&gt;Filter&lt;/guimenu&gt;&lt;guisubmenu&gt;Kombinera&lt;/guisubmenu&gt;&lt;guimenuitem&gt;Filmremsa…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;quote&gt;Filmstrip&lt;/quote&gt; filter options (Selection)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativ för filtret &lt;quote&gt;Filmremsa&lt;/quote&gt; (bildurval)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Fit height to images</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anpassa höjden till bilderna</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Applies the height of original pictures to the resulting one.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anpassar filmremsans höjd efter originalbildernas höjd.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Film height</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filmhöjd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>This option lets you define the height of the resulting picture. If originals have different sizes, they will be scaled to this size.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med det här alternativet anger du höjden på den färdiga bilden. Om originalbilderna har olika mått skalas de till den angivna höjden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Film color</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filmfärg</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>By clicking on the color button you can define the color of the film (around and between pictures).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klicka på färgknappen för att välja filmremsans färg runt bilderna och mellan dem.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Defines the beginning number which will be used for the images.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anger startnumret för bilderna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Number font</seg></tuv>
+      <tuv xml:lang="sv"><seg>Siffertypsnitt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Defines the font of digits.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anger teckensnittet för siffrorna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Number color</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sifferfärg</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>By clicking on the color button, you can define the font color of digits.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klicka på färgknappen för att välja siffrornas färg.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>At top</seg></tuv>
+      <tuv xml:lang="sv"><seg>Överst</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>At bottom</seg></tuv>
+      <tuv xml:lang="sv"><seg>Nederst</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Defines the position of the number.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anger var numret ska placeras.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Available images</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillgängliga bilder</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Shows the pictures which can be used for merging. The pictures are the ones already opened in GIMP.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visar de bilder som kan sammanfogas. Listan innehåller bilder som redan är öppna i GIMP.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>On film</seg></tuv>
+      <tuv xml:lang="sv"><seg>I filmremsan</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Shows the pictures chosen to be merged.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visar bilderna som ska ingå i filmremsan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>This button allows the user to put an available image in the &lt;quote&gt;On film&lt;/quote&gt; section.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med den här knappen lägger du till en tillgänglig bild i avsnittet &lt;quote&gt;I filmremsan&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>This button allows to bring a picture from &lt;quote&gt;On film&lt;/quote&gt; to &lt;quote&gt;Available images&lt;/quote&gt;. After that, the picture will not be used anymore in the resulting document.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med den här knappen flyttar du tillbaka en bild från &lt;quote&gt;I filmremsan&lt;/quote&gt; till &lt;quote&gt;Tillgängliga bilder&lt;/quote&gt;. Bilden tas då bort från resultatet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;quote&gt;Filmstrip&lt;/quote&gt; filter options (Advanced)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativ för filtret &lt;quote&gt;Filmremsa&lt;/quote&gt; (avancerat)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Defines the height of each picture in the resulting image.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anger höjden på varje bild i resultatet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Image spacing</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bildmellanrum</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Defines the space between the pictures as they will be inserted in the future image.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anger avståndet mellan bilderna i resultatet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Hole offset</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hålposition</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Defines the hole position from image border.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anger avståndet från bildkanten till hålen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Hole width</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hålbredd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Defines the width of the holes in the resulting image.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anger hålens bredd i resultatet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Hole height</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hålhöjd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Defines the height of the holes in the resulting image.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anger hålens höjd i resultatet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Hole distance</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hålavstånd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Defines the space between holes.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anger avståndet mellan hålen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Number height</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sifferhöjd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Defines the height of the index number, proportionally to the height of the picture.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anger numrets höjd i förhållande till bildens höjd.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>@@image: 'images/filters/examples/combine-taj-depthmerge.jpg'; md5=d80a0271da996b18f1d208d7b52a0121</seg></tuv>
+      <tuv xml:lang="sv"><seg>@@image: 'images/filters/examples/combine-taj-depthmerge.jpg'; md5=d80a0271da996b18f1d208d7b52a0121</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>@@image: 'images/filters/combine/depthmerge.png'; md5=cab527fbdb772778da634d60accf4e71</seg></tuv>
+      <tuv xml:lang="sv"><seg>@@image: 'images/filters/combine/depthmerge.png'; md5=cab527fbdb772778da634d60accf4e71</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>@@image: 'images/filters/examples/depthmerge-source-image1.png'; md5=529a27bf4852eaf79963f53e9f7119d5</seg></tuv>
+      <tuv xml:lang="sv"><seg>@@image: 'images/filters/examples/depthmerge-source-image1.png'; md5=529a27bf4852eaf79963f53e9f7119d5</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>@@image: 'images/filters/examples/depthmerge-source-image2.png'; md5=34cfbb625ba39c6d025cc77ffd6fb596</seg></tuv>
+      <tuv xml:lang="sv"><seg>@@image: 'images/filters/examples/depthmerge-source-image2.png'; md5=34cfbb625ba39c6d025cc77ffd6fb596</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>@@image: 'images/filters/examples/depthmerge-source-map1.png'; md5=c1561e99654979c1ba0c2d081d32a732</seg></tuv>
+      <tuv xml:lang="sv"><seg>@@image: 'images/filters/examples/depthmerge-source-map1.png'; md5=c1561e99654979c1ba0c2d081d32a732</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>@@image: 'images/filters/examples/depthmerge-source-map2.png'; md5=3ea441c722e529438e34a3b7f5efff05</seg></tuv>
+      <tuv xml:lang="sv"><seg>@@image: 'images/filters/examples/depthmerge-source-map2.png'; md5=3ea441c722e529438e34a3b7f5efff05</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>@@image: 'images/filters/examples/depthmerge-results-none.png'; md5=ec21a9b346ae5c352ba1486867c64a5b</seg></tuv>
+      <tuv xml:lang="sv"><seg>@@image: 'images/filters/examples/depthmerge-results-none.png'; md5=ec21a9b346ae5c352ba1486867c64a5b</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>@@image: 'images/filters/examples/depthmerge-results-offset.png'; md5=282ad69360257b13d9aee8b987679018</seg></tuv>
+      <tuv xml:lang="sv"><seg>@@image: 'images/filters/examples/depthmerge-results-offset.png'; md5=282ad69360257b13d9aee8b987679018</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>@@image: 'images/filters/examples/depthmerge-results-overlap.png'; md5=769f06caa84c20eeb75d5f2509f3b581</seg></tuv>
+      <tuv xml:lang="sv"><seg>@@image: 'images/filters/examples/depthmerge-results-overlap.png'; md5=769f06caa84c20eeb75d5f2509f3b581</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>@@image: 'images/filters/examples/depthmerge-results-scale.png'; md5=b90aea82b9d56b8cd3aa73a6c4fe82db</seg></tuv>
+      <tuv xml:lang="sv"><seg>@@image: 'images/filters/examples/depthmerge-results-scale.png'; md5=b90aea82b9d56b8cd3aa73a6c4fe82db</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Depth Merge is a Combine Filter which is useful to combine two different pictures or layers. You can decide which part of every image or layer will stay visible.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Djupsammanfogning är ett kombinationsfilter som sammanfogar två bilder eller lager. Du kan själv välja vilken del av respektive bild eller lager som ska vara synlig.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Filter example</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filterexempel</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Every image is associated with a map which works as a mask. Simply create this map as a grayscale gradient: when applied onto the image, dark areas of the mask will show the underlying image and bright areas will mask the image.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Varje bild kopplas till en mappning som fungerar som en mask. Skapa mappningen som en gråskaletoning. När den används på bilden visar maskens mörka områden bilden under, medan de ljusa områdena döljer bilden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>To work with this filter, images and maps must have the same size. All images to be selected must be present on screen.</seg></tuv>
+      <tuv xml:lang="sv"><seg>För att filtret ska fungera måste bilderna och mappningarna ha samma mått. Alla bilder som ska kunna väljas måste vara öppna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can also use this filter on an image with several layers. All layers will appear in the drop-down lists used to select images. These layers must have the same size.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också använda filtret på en bild med flera lager. Alla lager visas i rullgardinslistorna där du väljer bilder. Lagren måste ha samma mått.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>This filter is found in the main menu under &lt;menuchoice&gt;&lt;guimenu&gt;Filters&lt;/guimenu&gt;&lt;guisubmenu&gt;Combine&lt;/guisubmenu&gt;&lt;guimenuitem&gt;Depth Merge…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du hittar filtret i huvudmenyn under &lt;menuchoice&gt;&lt;guimenu&gt;Filter&lt;/guimenu&gt;&lt;guisubmenu&gt;Kombinera&lt;/guisubmenu&gt;&lt;guimenuitem&gt;Djupsammanfogning…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;quote&gt;Depth Merge&lt;/quote&gt; filter options</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativ för filtret &lt;quote&gt;Djupsammanfogning&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Defines the source images to use for the blending.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anger vilka källbilder som ska blandas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Define the pictures to use as transformation maps for the sources.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anger vilka bilder som ska användas som mappningar för källbilderna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Creates soft transitions between images.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skapar mjuka övergångar mellan bilderna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>This option shifts the merging limit, giving more or less importance to an image against the other.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det här alternativet flyttar sammanfogningsgränsen och avgör hur stor del av resultatet som kommer från respektive bild.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Scale 1</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skala 1</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Scale 2</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skala 2</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Same as above for Offset, but more sensitive and applied to each map separately. When you scale to a lower value, it will affect the map image's value, making it darker. So, black is more dominant in the merge and you will see more of the image.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fungerar som förskjutning, men är känsligare och påverkar varje mappning separat. Ett lägre skalvärde gör mappningsbilden mörkare. Då dominerar de svarta områdena mer i sammanfogningen och en större del av bilden blir synlig.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Using example</seg></tuv>
+      <tuv xml:lang="sv"><seg>Användningsexempel</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Maps are grayscale gradients created with the &lt;link linkend="gimp-tool-gradient"&gt;Gradient tool&lt;/link&gt; and modified with the &lt;link linkend="gimp-tool-curves"&gt;Curve tool&lt;/link&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Mappningarna är gråskaletoningar som skapas med &lt;link linkend="gimp-tool-gradient"&gt;toningsverktyget&lt;/link&gt; och justeras med &lt;link linkend="gimp-tool-curves"&gt;kurvverktyget&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Source images and their maps</seg></tuv>
+      <tuv xml:lang="sv"><seg>Källbilder och deras mappningar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Source image 1</seg></tuv>
+      <tuv xml:lang="sv"><seg>Källbild 1</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Source image 2</seg></tuv>
+      <tuv xml:lang="sv"><seg>Källbild 2</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Map 1</seg></tuv>
+      <tuv xml:lang="sv"><seg>Mappning 1</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Map 2</seg></tuv>
+      <tuv xml:lang="sv"><seg>Mappning 2</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can understand what's going on. Image-1 is treated by map-1: the red square is masked and the yellow square remains visible. Image-2 is treated by map-2: the red circle is masked and the green circle remains visible. In total, the green circle and the yellow square stay visible.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Så här fungerar det: mappning 1 används på bild 1, så den röda kvadraten döljs och den gula förblir synlig. Mappning 2 används på bild 2, så den röda cirkeln döljs och den gröna förblir synlig. I resultatet syns alltså den gröna cirkeln och den gula kvadraten.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis&gt;No offset and no overlap&lt;/emphasis&gt;. The limit between both images is sharp and is situated in the middle of the mask gradient.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis&gt;Ingen förskjutning och ingen överlappning&lt;/emphasis&gt;. Gränsen mellan bilderna är skarp och ligger mitt i maskens gråskaletoning.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis&gt;Offset&lt;/emphasis&gt; = 0.980 : the limit, sharp, is shifted so that the image-2 area is increased.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis&gt;Förskjutning&lt;/emphasis&gt; = 0,980: den skarpa gränsen flyttas så att området från bild 2 blir större.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis&gt;Overlap&lt;/emphasis&gt; = 0.520 : the limit is blurred.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis&gt;Överlappning&lt;/emphasis&gt; = 0,520: gränsen blir mjuk.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis&gt;Scale 1&lt;/emphasis&gt; reduced to 0.056 : as with Offset, the limit is shifted. Image-1 area is increased.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis&gt;Skala 1&lt;/emphasis&gt; sänks till 0,056: precis som med förskjutning flyttas gränsen och området från bild 1 blir större.</seg></tuv>
     </tu>
   </body>
 </tmx>
