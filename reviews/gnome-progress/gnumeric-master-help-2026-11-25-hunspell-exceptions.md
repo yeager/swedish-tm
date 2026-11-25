@@ -280,3 +280,12 @@ Batch 194:
 - **GTK-version / Gnumeric-listan / Gnumeric-användare / Gnumeric-projektet** — technical/product compounds.
 - **Internet Relay Chat (IRC)** — protocol/channel name retained.
 - `l10n-lint` flags translated placeholder content inside `<replaceable>` as protected-markup-content. The placeholders “your GTK version” and “command to your preferred viewer” are human-readable metavariables and are intentionally translated, as requested; tag structure and command key remain unchanged. Re-running with only that rule skipped yields 0 warnings/errors.
+
+Batch 195:
+
+- **Gnumeric / GitLab / Mozilla / GNOME / GIMP / Calc** — application and project names.
+- **GIMPnet / irc.gimp.org / #gnumeric / /links / gitlab.gnome.org** — exact network, hostname, channel, command and domain identifiers.
+- **Databasinsticksmodul** — Swedish technical compound used as a component name.
+- **Internet Relay Chat / IRC / client** — protocol name and English search term retained from the source's search instructions.
+- **Gnumeric-listan / Gnumeric-teamet / Gnumeric-projektet / GitLab-startsida / GNOME-version** — project-name compounds.
+- **kalkylbladsdata / mitt_kalkylblad.gnumeric** — domain term and localized example filename.
