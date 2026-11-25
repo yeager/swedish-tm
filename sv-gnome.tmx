@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T133347Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T133615Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -603329,6 +603329,71 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The first panel of the &lt;interface&gt;Text Import&lt;/interface&gt; Druid allows users to set the file encoding, to determine the character sequences used to separate lines, configure the type of structuring being used and select the lines of the file to import.</seg></tuv>
       <tuv xml:lang="sv"><seg>I den första panelen i guiden &lt;interface&gt;Textimport&lt;/interface&gt; kan du ange filens teckenkodning, vilka tecken som avgränsar rader, datastrukturen och vilka rader som ska importeras.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The components of the first panel</seg></tuv>
+      <tuv xml:lang="sv"><seg>Delarna i den första panelen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;1&lt;/emphasis&gt; - The file encoding selection menu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;1&lt;/emphasis&gt; – Meny för filens teckenkodning.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This drop down menu provides a list of encoding schemes for the characters in the text file. By default, &lt;application&gt;Gnumeric&lt;/application&gt; selects the encoding scheme used by the locale of the user. See &lt;xref linkend="sect-file-textImport-complex-encoding"/&gt; for more details.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här finns en lista med kodningar för textfilens tecken. Som standard väljer &lt;application&gt;Gnumeric&lt;/application&gt; den kodning som gäller för användarens systemlokal. Mer information finns i &lt;xref linkend="sect-file-textImport-complex-encoding"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;2&lt;/emphasis&gt; - The line break character selector.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;2&lt;/emphasis&gt; – Väljare för tecken vid radslut.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>These three check boxes can be selected individually or together to define the sequences which will be interpreted as line break indicators. Generally, selecting all three boxes will produce the correct results.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markera en, två eller alla tre kryssrutor för att ange vilka tecken som ska tolkas som radslut. Vanligtvis blir resultatet rätt om alla tre är markerade.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The errors produced if the wrong combination of boxes is selected will include the entire file being placed on a single line, empty lines appearing between the lines of the file, or undefined symbols appearing at the beginning or end of almost every line. See &lt;xref linkend="sect-file-textImport-complex-lineBreak"/&gt; for more details.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du markerar fel kombination kan hela filen hamna på en enda rad, tomma rader infogas mellan raderna eller odefinierade symboler visas i början eller slutet av nästan varje rad. Mer information finns i &lt;xref linkend="sect-file-textImport-complex-lineBreak"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;3&lt;/emphasis&gt; - The data structuring system selector.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;3&lt;/emphasis&gt; – Väljare för datastruktur.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>These two push buttons allow the choice between the two different structuring schemes, data structured by placing a separating character between the data values and data organized in fixed width columns. Note that this choice will determine which panel will be shown as the second panel of the druid. See &lt;xref linkend="sect-file-textImport-complex-dataStruct"/&gt; for more details.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med de här två knapparna väljer du mellan två metoder: data där värden skiljs åt av avgränsningstecken och data ordnade i kolumner med fast bredd. Valet avgör vilken panel som visas som den andra i guiden. Mer information finns i &lt;xref linkend="sect-file-textImport-complex-dataStruct"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;4&lt;/emphasis&gt; - The line range spinbuttons.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;4&lt;/emphasis&gt; – Stegningsrutor för radintervall.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>These two spin buttons allow the user to select the start and end rows for the data import. The spin boxes can be used either by typing a new value in the text entry area where the numbers are displayed, or by using the mouse button to click on the up arrow to increase the number and the down arrow to decrease the number.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med de här två stegningsrutorna anger du första och sista raden som ska importeras. Skriv ett värde i fältet eller klicka på uppåtpilen för att öka det och på nedåtpilen för att minska det.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>For instance, if the text file contained a large header area with meta information, this header could be excluded from the data imported to the &lt;application&gt;Gnumeric&lt;/application&gt; worksheet by increasing the number of the starting, "From", line.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om textfilen till exempel innehåller ett långt sidhuvud med metadata kan du hoppa över det genom att öka numret för startraden ”Från” i &lt;application&gt;Gnumeric&lt;/application&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;5&lt;/emphasis&gt; - The preview area.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;5&lt;/emphasis&gt; – Förhandsgranskningen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This area displays a preview of the file as it will be interpreted when the settings that are currently selected in this first panel are applied.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här visas en förhandsgranskning av hur filen tolkas med de inställningar som valts i den första panelen.</seg></tuv>
     </tu>
   </body>
 </tmx>
