@@ -114,3 +114,7 @@ Batch 163 chart terminology:
 Batch 164 sample code and references:
 
 - **Sheet1**, **A2:B4**, **-1** — worksheet reference and numeric setting from documented examples; retained exactly.
+
+Batch 166 formula notation:
+
+- **9N** — part of the source formula expression `9N−1` for allowed minor-tick values; preserved exactly.
