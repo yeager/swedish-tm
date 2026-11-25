@@ -337,3 +337,5 @@ Batch 206 (Python API examples): Hunspell unknowns come from preserved Python id
 Batch 207 (Python plug-in code documentation): Hunspell output consists of preserved API/code identifiers, metadata keys (`@FUNCTION`, `@DESCRIPTION`, etc.), function names and parameters, Python syntax, spreadsheet formula examples, and **RangeRef**. Valid Swedish technical compounds include **tupler** and **range(begin, end)-konvention**. Code comments and human-readable function metadata values were translated while syntax and identifiers stayed unchanged.
 
 Batch 208 (bookmark folders): Hunspell flagged `currentWork`, the example bookmark name, and valid Swedish compounds **mappikon** and **mappnamnet**.
+
+Batch 209 (function argument metavariables): **HLOOKUP**, **HYPERLINK**, **VLOOKUP**, **RANDDISCRETE**, and **SUBTOTAL** are exact function identifiers. The display-only `<parameter>` names are translated (`cond` → `villkor`, `value` → `sökvärde`, etc.) while function names and DocBook markup remain exact. **referens1/referens2** are Swedish compounds with numeric suffixes; Hunspell does not accept the suffix form.

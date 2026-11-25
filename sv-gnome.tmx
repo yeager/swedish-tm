@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T165139Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T165338Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -610783,6 +610783,36 @@ def range_ref_to_tuples(range_ref):
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Any bookmark folder can also be removed from the 'relative root' folders presented in area &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt; (or in the drop down list labeled &lt;emphasis role="bold"&gt;B&lt;/emphasis&gt;). A bookmark folder can be removed by clicking on the folder name in area &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt; and then clicking on the &lt;guibutton&gt;Remove&lt;/guibutton&gt; in area &lt;emphasis role="bold"&gt;K&lt;/emphasis&gt;.</seg></tuv>
       <tuv xml:lang="sv"><seg>Du kan även ta bort bokmärkesmappar från listan med ”relativa rötter” i område &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt; (eller från rullgardinslistan i område &lt;emphasis role="bold"&gt;B&lt;/emphasis&gt;). Klicka på mappnamnet i område &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt; och sedan på &lt;guibutton&gt;Ta bort&lt;/guibutton&gt; i område &lt;emphasis role="bold"&gt;K&lt;/emphasis&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;IF&lt;/function&gt;(&lt;parameter&gt;cond&lt;/parameter&gt;,&lt;parameter&gt;trueval&lt;/parameter&gt;,&lt;parameter&gt;falseval&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;IF&lt;/function&gt;(&lt;parameter&gt;villkor&lt;/parameter&gt;,&lt;parameter&gt;värde_om_sant&lt;/parameter&gt;,&lt;parameter&gt;värde_om_falskt&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;HLOOKUP&lt;/function&gt;(&lt;parameter&gt;value&lt;/parameter&gt;,&lt;parameter&gt;range&lt;/parameter&gt;,&lt;parameter&gt;row&lt;/parameter&gt;,&lt;parameter&gt;approximate&lt;/parameter&gt;,&lt;parameter&gt;as_index&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;HLOOKUP&lt;/function&gt;(&lt;parameter&gt;sökvärde&lt;/parameter&gt;,&lt;parameter&gt;område&lt;/parameter&gt;,&lt;parameter&gt;rad&lt;/parameter&gt;,&lt;parameter&gt;ungefärlig&lt;/parameter&gt;,&lt;parameter&gt;som_index&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;HYPERLINK&lt;/function&gt;(&lt;parameter&gt;link_location&lt;/parameter&gt;,&lt;parameter&gt;label&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;HYPERLINK&lt;/function&gt;(&lt;parameter&gt;länkadress&lt;/parameter&gt;,&lt;parameter&gt;etikett&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;VLOOKUP&lt;/function&gt;(&lt;parameter&gt;value&lt;/parameter&gt;,&lt;parameter&gt;range&lt;/parameter&gt;,&lt;parameter&gt;column&lt;/parameter&gt;,&lt;parameter&gt;approximate&lt;/parameter&gt;,&lt;parameter&gt;as_index&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;VLOOKUP&lt;/function&gt;(&lt;parameter&gt;sökvärde&lt;/parameter&gt;,&lt;parameter&gt;område&lt;/parameter&gt;,&lt;parameter&gt;kolumn&lt;/parameter&gt;,&lt;parameter&gt;ungefärlig&lt;/parameter&gt;,&lt;parameter&gt;som_index&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;RANDDISCRETE&lt;/function&gt;(&lt;parameter&gt;val_range&lt;/parameter&gt;,&lt;parameter&gt;prob_range&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;RANDDISCRETE&lt;/function&gt;(&lt;parameter&gt;värdeintervall&lt;/parameter&gt;,&lt;parameter&gt;sannolikhetsintervall&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;SUBTOTAL&lt;/function&gt;(&lt;parameter&gt;function_nbr&lt;/parameter&gt;,&lt;parameter&gt;ref1&lt;/parameter&gt;,&lt;parameter&gt;ref2&lt;/parameter&gt;,&lt;parameter/&gt;…)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;SUBTOTAL&lt;/function&gt;(&lt;parameter&gt;funktionsnummer&lt;/parameter&gt;,&lt;parameter&gt;referens1&lt;/parameter&gt;,&lt;parameter&gt;referens2&lt;/parameter&gt;,&lt;parameter/&gt;…)</seg></tuv>
     </tu>
   </body>
 </tmx>
