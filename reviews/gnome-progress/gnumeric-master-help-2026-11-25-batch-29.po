@@ -1,0 +1,196 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:452
+msgid ""
+"Each cell in a spreadsheet is named by its column and row labels. By "
+"default, the column labels are letters and the row labels are numbers. The "
+"first cell, therefore, is called A1. One column over and two rows down from "
+"cell A1 is the cell B3. In a worksheet of the default size, the right most "
+"and bottom most cell is cell IV65536 which is the cell in column IV and in "
+"row 65536. An alternative cell reference notation uses numbers for both row "
+"and column identification. See <xref linkend=\"sect-data-formulas-"
+"references-r1c1\"/> below for details."
+msgstr ""
+"Varje cell i ett kalkylblad identifieras med kolumn- och radrubriken. "
+"Kolumner betecknas som standard med bokstäver och rader med siffror. Den "
+"första cellen heter därför A1. Cellen en kolumn åt höger och två rader ned "
+"från A1 är B3. I ett kalkylblad med standardstorlek är den nedersta cellen "
+"längst till höger IV65536, i kolumn IV och rad 65536. Det finns också en "
+"referensnotation där både kolumn och rad anges med siffror. Mer information "
+"finns nedan i <xref linkend=\"sect-data-formulas-references-r1c1\"/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:465
+msgid ""
+"The value of a cell can be used in a formula simply by entering its name "
+"where a number value would otherwise occur. For example, to have the data in"
+" cell B1 appear in another cell, enter =B1 into that cell. Other more "
+"complex examples include: <_:example-1/>"
+msgstr ""
+"Du kan använda en cells värde i en formel genom att skriva cellens namn där "
+"ett tal annars skulle stå. Om du till exempel vill visa innehållet i B1 i en"
+" annan cell skriver du =B1 där. Här följer några mer avancerade exempel: "
+"<_:example-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:485
+msgid ""
+"Cells can be referenced in the default way (relative referencing), or by "
+"using absolute referencing. Absolute referencing means that when the cell is"
+" copied, the cell reference does not change. Normally, auto-filling a cell "
+"range or moving a cell will change its cell reference so that it maintains a"
+" relation to the original cell. Absolute referencing prevents these changes."
+msgstr ""
+"Celler kan refereras relativt, vilket är standard, eller absolut. En absolut"
+" referens ändras inte när cellen kopieras. Normalt ändras cellreferenser när"
+" du autofyller ett cellområde eller flyttar en cell, så att de behåller "
+"relationen till ursprungscellen. Absoluta referenser förhindrar detta."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:497
+msgid ""
+"The difference between absolute and relative cell references only matters if"
+" you are copying or moving cells that contain cell references. For cells "
+"that are going to remain in place, both the relative and absolute references"
+" have the same result."
+msgstr ""
+"Skillnaden mellan absoluta och relativa cellreferenser spelar bara roll när "
+"du kopierar eller flyttar celler som innehåller referenser. Om cellerna står"
+" kvar på samma plats ger båda typerna samma resultat."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:508
+msgid ""
+"For example, if =A1 is the formula entered into cell B2, cell B2 will "
+"display the data in cell A1, which is one row up and one column left. Then, "
+"if you copy the contents of B2 to cell F6, cell F6 will contain the value "
+"from E5, which is also one row up and one column left."
+msgstr ""
+"Om formeln =A1 till exempel matas in i B2 visar cellen innehållet i A1, som "
+"ligger en rad upp och en kolumn till vänster. Om du sedan kopierar "
+"innehållet i B2 till F6 hämtar F6 värdet från E5, som också ligger en rad "
+"upp och en kolumn till vänster."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:516
+msgid ""
+"For the copied cell to still refer to A1, specify absolute references using "
+"the $ character: $A$1 refers to cell A1, no matter where it is copied."
+msgstr ""
+"Om den kopierade cellen fortfarande ska hänvisa till A1 anger du en absolut "
+"referens med dollartecknet: $A$1 hänvisar till A1 oavsett var formeln "
+"kopieras."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:523
+msgid ""
+"The format for absolute cell referencing is to use a '$' in front of the "
+"cell coordinate that you want to stay constant. The column, the row, or both"
+" can be held constant."
+msgstr ""
+"Du anger en absolut cellreferens genom att sätta ett ”$” framför den del av "
+"cellkoordinaten som ska vara konstant. Du kan låsa kolumnen, raden eller "
+"båda."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:539
+msgid ""
+"=A1 is a normal, or relative, cell reference function. When =A1 is entered "
+"into cell B2, it refers to the value of data one cell up and one cell left "
+"from the cell with the reference. Therefore, if this formula were copied "
+"from cell B2 to cell C2, the value displayed in cell C2 will be the value of"
+" data in cell B1. Copied to cell R19, the formula will display the data in "
+"cell Q18."
+msgstr ""
+"=A1 är en vanlig, relativ cellreferens. Om du skriver =A1 i B2 hämtas värdet"
+" från cellen en rad upp och en kolumn till vänster. Om formeln kopieras från"
+" B2 till C2 visar C2 därför värdet från B1. Om den kopieras till R19 visas "
+"värdet från Q18."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:555
+msgid ""
+"In this case, the column value is absolute, but the row value is relative. "
+"Therefore, if =$A1 is entered into cell B2, the formula refers to the data "
+"in column A that is one row up from the current location. Copied to cell C2,"
+" the formula will refer to the data in cell A1. Copied to cell R19, it will "
+"refer to the data in A18."
+msgstr ""
+"Här är kolumnen absolut, men raden relativ. Om du skriver =$A1 i B2 hänvisar"
+" formeln till data i kolumn A, en rad ovanför den aktuella platsen. Kopierar"
+" du formeln till C2 hänvisar den till A1. Kopierar du den till R19 hänvisar "
+"den till A18."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:570
+msgid ""
+"This formula uses a relative column value and an absolute row value. In cell"
+" B2, it refers to cell A1 as the data in the cell one column left and in row"
+" 1. Copied to cell C3, the formula will display the data in cell B1."
+msgstr ""
+"Den här formeln har en relativ kolumn och en absolut rad. I B2 hänvisar den "
+"till A1, alltså cellen en kolumn till vänster på rad 1. Om formeln kopieras "
+"till C3 visar den innehållet i B1."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:583
+msgid ""
+"No matter where this formula is copied, it will always refer to the data in "
+"cell A1."
+msgstr "Oavsett var formeln kopieras hänvisar den alltid till data i A1."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:532
+msgid ""
+"What happens when a given formula is entered into cell B2, then copied to "
+"other cells? <_:variablelist-1/>"
+msgstr ""
+"Vad händer när en formel skrivs in i B2 och sedan kopieras till andra "
+"celler? <_:variablelist-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:596
+msgid ""
+"From the <guimenuitem>Format ▶ Sheet</guimenuitem> submenu you can select "
+"R1C1 notation for a worksheet. This causes all cell references on the sheet "
+"to be shown as “R<emphasis role=\"italic\">r</emphasis>C<emphasis "
+"role=\"italic\">c</emphasis>”, where <emphasis role=\"italic\">r</emphasis> "
+"is the row number and <emphasis role=\"italic\">c</emphasis> is the column "
+"number. When R1C1 notation is selected, the column headers show numbers "
+"rather than letters."
+msgstr ""
+"I undermenyn <guimenuitem>Format ▶ Blad</guimenuitem> kan du välja "
+"R1C1-notation för ett kalkylblad. Då visas alla cellreferenser på bladet som"
+" ”R<emphasis role=\"italic\">r</emphasis>C<emphasis "
+"role=\"italic\">c</emphasis>”, där <emphasis role=\"italic\">r</emphasis> är"
+" radnumret och <emphasis role=\"italic\">c</emphasis> kolumnnumret. Med "
+"R1C1-notation visas kolumnrubrikerna som siffror i stället för bokstäver."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:605
+msgid ""
+"When <emphasis role=\"italic\">r</emphasis> and <emphasis "
+"role=\"italic\">c</emphasis> are positive integers, as in “R1C1”, the "
+"reference is absolute. To produce a relative reference, enclose a number in "
+"square brackets; if the number is zero, it can be omitted along with the "
+"brackets. For example, “RC[-2]” refers to the cell two columns to the left "
+"in the current row, while “R[1]C1” refers to the cell in the first column of"
+" the next row down from the referencing cell. The second example combines a "
+"relative row reference with an absolute column reference."
+msgstr ""
+"När <emphasis role=\"italic\">r</emphasis> och <emphasis "
+"role=\"italic\">c</emphasis> är positiva heltal, som i ”R1C1”, är referensen"
+" absolut. Skapa en relativ referens genom att sätta ett tal inom "
+"hakparenteser. Om talet är noll kan det och hakparenteserna utelämnas. "
+"”RC[-2]” hänvisar till cellen två kolumner till vänster på den aktuella "
+"raden, medan ”R[1]C1” hänvisar till cellen i den första kolumnen på raden "
+"under referenscellen. Det senare exemplet kombinerar en relativ radreferens "
+"med en absolut kolumnreferens."
