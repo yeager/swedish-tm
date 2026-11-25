@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 116215
+# Entries: 116228
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -560090,3 +560090,144 @@ msgstr ""
 #. from gnome:reviewed/gnumeric/master/help
 msgid "Holt's Trend Corrected Exponential Smoothing"
 msgstr "Holts trendkorrigerade exponentiella utjämning"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Holt's trend corrected exponential smoothing is appropriate when both the "
+"level and the growth rate of a time series are changing. (If the time series"
+" has a fixed growth rate and therefore exhibits a linear trend, a linear "
+"regression model is more appropriate.)"
+msgstr ""
+"Holts trendkorrigerade exponentiella utjämning passar när både nivån och "
+"tillväxttakten i en tidsserie förändras. (Om tidsserien har en fast "
+"tillväxttakt och därmed en linjär trend passar en linjär regressionsmodell "
+"bättre.)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>y<subscript>t</subscript></parameter> is the true value at time "
+"<parameter>t</parameter>, <parameter>l<subscript>t</subscript></parameter> "
+"is the estimated level at time <parameter>t</parameter> and "
+"<parameter>b<subscript>t </subscript></parameter> is the estimated growth "
+"rate at time <parameter>t</parameter>. We use the two smoothing equations "
+"given in <xref linkend=\"exp-smoothing-tool-formula-holt\"/> to update our "
+"estimates. α is the value given as <quote><guilabel>Damping "
+"factor</guilabel></quote> and γ is the value given as "
+"<quote><guilabel>Growth damping factor</guilabel></quote>."
+msgstr ""
+"<parameter>y<subscript>t</subscript></parameter> är det verkliga värdet vid "
+"tidpunkt <parameter>t</parameter>, "
+"<parameter>l<subscript>t</subscript></parameter> är den uppskattade nivån "
+"vid tidpunkt <parameter>t</parameter> och <parameter>b<subscript>t "
+"</subscript></parameter> är den uppskattade tillväxttakten vid tidpunkt "
+"<parameter>t</parameter>. Uppskattningarna uppdateras med de två "
+"utjämningsekvationerna i <xref linkend=\"exp-smoothing-tool-formula-"
+"holt\"/>. α är värdet i fältet "
+"<quote><guilabel>Dämpningsfaktor</guilabel></quote> och γ värdet i fältet "
+"<quote><guilabel>Dämpningsfaktor för tillväxt</guilabel></quote>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"This tool obtains initial (time 0) estimates for the level and growth rate "
+"by performing a linear regression using the first 5 data values."
+msgstr ""
+"Verktyget uppskattar den ursprungliga nivån och tillväxttakten (vid tidpunkt"
+" 0) genom linjär regression på de första 5 datavärdena."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Formulae Of Holt's Trend Corrected Exponential Smoothing"
+msgstr "Formler för Holts trendkorrigerade exponentiella utjämning"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-exp-smoothing-holt-"
+"formula.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>The "
+"formulae used in Holt's trend corrected exponential smoothing.</phrase> "
+"</textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-exp-smoothing-holt-"
+"formula.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>Formlerna"
+" för Holts trendkorrigerade exponentiella utjämning.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"If you choose to have the tool enter formulæ rather than values into the "
+"output region, then you can modify the damping factors α and γ as well as "
+"the estimated level and growth rate at time 0 after executing the tool."
+msgstr ""
+"Om du väljer att verktyget ska skriva in formler i stället för värden i "
+"utdataområdet kan du ändra dämpningsfaktorerna α och γ samt den uppskattade "
+"nivån och tillväxttakten vid tidpunkt 0 även efter att verktyget har körts."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"To have the standard errors output as well, check the "
+"<quote><guilabel>Standard error</guilabel></quote> check box. The formula "
+"used is given in <xref linkend=\"exp-smoothing-tool-formula-holt-stderr\"/>."
+" The denominator can be adjusted by selecting the appropriate radio button."
+msgstr ""
+"Markera kryssrutan <quote><guilabel>Standardfel</guilabel></quote> om "
+"standardfelen också ska visas. Formeln finns i <xref linkend=\"exp-"
+"smoothing-tool-formula-holt-stderr\"/>. Du kan ändra nämnaren med "
+"motsvarande alternativknapp."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The Standard Error Formula For Holt's Trend Corrected Exponential Smoothing"
+msgstr ""
+"Formel för standardfel vid Holts trendkorrigerade exponentiella utjämning"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-exp-smoothing-holt-"
+"stderr.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>The "
+"formula used to calculate the standard error for Holt's trend corrected "
+"exponential smoothing. </phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-exp-smoothing-holt-"
+"stderr.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>Formeln "
+"för att beräkna standardfelet vid Holts trendkorrigerade exponentiella "
+"utjämning.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"If you check the <quote><guilabel>Include chart</guilabel></quote> check "
+"box, a line graph showing the observations "
+"<parameter>y<subscript>t</subscript></parameter> and the estimated level "
+"values <parameter>l<subscript>t</subscript></parameter> will also be "
+"created."
+msgstr ""
+"Om du markerar kryssrutan <quote><guilabel>Inkludera "
+"diagram</guilabel></quote> skapas även ett linjediagram som visar "
+"observationerna <parameter>y<subscript>t</subscript></parameter> och de "
+"uppskattade nivåerna <parameter>l<subscript>t</subscript></parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<xref linkend=\"smoothing-example-5\"/> shows example output for Holt's "
+"trend corrected exponential smoothing. Cell A4 contains the estimated level "
+"at time 0 and B4 the estimated growth rate at time 0. If you requested to "
+"have formulæ rather than values entered into the sheet, then changing the "
+"estimates in A4, B4, the values for α in A2 and/or for γ in B2 will result "
+"in an immediate change to the predicted values."
+msgstr ""
+"<xref linkend=\"smoothing-example-5\"/> visar exempelresultat för Holts "
+"trendkorrigerade exponentiella utjämning. Cell A4 innehåller den uppskattade"
+" nivån vid tidpunkt 0 och B4 den uppskattade tillväxttakten vid tidpunkt 0. "
+"Om du valde att formler skulle skrivas in i stället för värden ändras "
+"prognosvärdena direkt när du ändrar uppskattningarna i A4 eller B4, värdet "
+"på α i A2 eller värdet på γ i B2."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Exponential Smoothing Tool Output (Holt's)"
+msgstr "Utdata från verktyget för exponentiell utjämning (Holt)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-smoothing-ex5.png\""
+" format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of the output"
+" of Holt's trend corrected exponential smoothing.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-smoothing-ex5.png\""
+" format=\"PNG\"/> </imageobject> <textobject> <phrase>Utdata från Holts "
+"trendkorrigerade exponentiella utjämning.</phrase> </textobject>"
