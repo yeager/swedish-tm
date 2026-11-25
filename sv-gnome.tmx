@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T164556Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T164744Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -610428,6 +610428,133 @@ en användare
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The file formats which &lt;application&gt;Gnumeric&lt;/application&gt; can create.</seg></tuv>
       <tuv xml:lang="sv"><seg>Filformat som &lt;application&gt;Gnumeric&lt;/application&gt; kan skapa.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>
+# I wonder how to use CellPos (I've glanced at the source, but...)
+
+&amp;gt;&amp;gt;&amp;gt; dir(Gnumeric.CellPos)                 # shows nothing useful
+
+&amp;gt;&amp;gt;&amp;gt; Gnumeric.CellPos()                    
+TypeError: CellPos() takes exactly 2 arguments (0 given)  
+
+&amp;gt;&amp;gt;&amp;gt; Gnumeric.CellPos("a1","a2") 
+TypeError: an integer is required.        # Right. 
+
+&amp;gt;&amp;gt;&amp;gt; a=Gnumeric.CellPos(1,2)               # It worked!
+&amp;gt;&amp;gt;&amp;gt; a
+&amp;lt;CellPos object at 0x106b6eb8&amp;gt;      # Yeah, I know...
+
+&amp;gt;&amp;gt;&amp;gt; dir(a)
+['get_tuple']
+
+&amp;gt;&amp;gt;&amp;gt; a.get_tuple()
+(1,2)                                     # Cool. That's (col,row)
+
+&amp;gt;&amp;gt;&amp;gt; str(a)                                # Super cool.
+'B3'                                      # JK hasn't implemented this for tuples yet
+       </seg></tuv>
+      <tuv xml:lang="sv"><seg>
+# Jag undrar hur CellPos används (jag har tittat lite i källkoden, men...)
+
+&amp;gt;&amp;gt;&amp;gt; dir(Gnumeric.CellPos)                 # visar inget användbart
+
+&amp;gt;&amp;gt;&amp;gt; Gnumeric.CellPos()                    
+TypeError: CellPos() takes exactly 2 arguments (0 given)  
+
+&amp;gt;&amp;gt;&amp;gt; Gnumeric.CellPos("a1","a2") 
+TypeError: an integer is required.        # Just det. 
+
+&amp;gt;&amp;gt;&amp;gt; a=Gnumeric.CellPos(1,2)               # Det fungerade!
+&amp;gt;&amp;gt;&amp;gt; a
+&amp;lt;CellPos object at 0x106b6eb8&amp;gt;      # Jo, jag vet...
+
+&amp;gt;&amp;gt;&amp;gt; dir(a)
+['get_tuple']
+
+&amp;gt;&amp;gt;&amp;gt; a.get_tuple()
+(1,2)                                     # Det är (kolumn, rad)
+
+&amp;gt;&amp;gt;&amp;gt; str(a)                                # Ännu bättre.
+'B3'                                      # JK har inte implementerat detta för tupler ännu
+       </seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Similarly, we can explore Gnumeric.Range:</seg></tuv>
+      <tuv xml:lang="sv"><seg>På samma sätt kan vi undersöka Gnumeric.Range:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>
+# Get a workbook
+&amp;gt;&amp;gt;&amp;gt; wb=Gnumeric.workbooks()[0]
+&amp;gt;&amp;gt;&amp;gt; wb
+&amp;lt;Workbook object at 0x862a490&amp;gt;
+&amp;gt;&amp;gt;&amp;gt; dir(wb)
+&amp;gt;&amp;gt;&amp;gt; ['gui_add', 'sheet_add', 'sheets']
+
+# Get a sheet
+&amp;gt;&amp;gt;&amp;gt; s=wb.sheets()[0]
+&amp;gt;&amp;gt;&amp;gt; s
+&amp;lt;Sheet object at 0x863e8d0&amp;gt;
+&amp;gt;&amp;gt;&amp;gt; dir(s)
+['cell_fetch', 'get_extent', 'get_name_unquoted', 'rename',
+'style_apply_range', 'style_get', 'style_set_pos', 'style_set_range']
+
+# Get a cell. s.cell_fetch(0,0) and s[0,0] are synonyms. First
+# coordinate is columns, i.e. s[1,0] is B1.
+&amp;gt;&amp;gt;&amp;gt; c=s[0,0]
+&amp;gt;&amp;gt;&amp;gt; c
+&amp;lt;Cell object at 0x863d810&amp;gt;
+&amp;gt;&amp;gt;&amp;gt; dir(c)
+['get_entered_text', 'get_mstyle', 'get_rendered_text', 'get_value',
+'get_value_as_string', 'set_text']
+
+# Change the cell - it changes in the grid
+&amp;gt;&amp;gt;&amp;gt; c.set_text('foo')
+
+# Retrieve the cell - both ways.
+&amp;gt;&amp;gt;&amp;gt; c.get_value()
+foo
+&amp;gt;&amp;gt;&amp;gt; s.cell_fetch(0,0).get_value()
+foo
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>
+# Hämta en arbetsbok
+&amp;gt;&amp;gt;&amp;gt; wb=Gnumeric.workbooks()[0]
+&amp;gt;&amp;gt;&amp;gt; wb
+&amp;lt;Workbook object at 0x862a490&amp;gt;
+&amp;gt;&amp;gt;&amp;gt; dir(wb)
+&amp;gt;&amp;gt;&amp;gt; ['gui_add', 'sheet_add', 'sheets']
+
+# Hämta ett blad
+&amp;gt;&amp;gt;&amp;gt; s=wb.sheets()[0]
+&amp;gt;&amp;gt;&amp;gt; s
+&amp;lt;Sheet object at 0x863e8d0&amp;gt;
+&amp;gt;&amp;gt;&amp;gt; dir(s)
+['cell_fetch', 'get_extent', 'get_name_unquoted', 'rename',
+'style_apply_range', 'style_get', 'style_set_pos', 'style_set_range']
+
+# Hämta en cell. s.cell_fetch(0,0) och s[0,0] är likvärdiga. Den första
+# koordinaten är kolumnen, så s[1,0] är B1.
+&amp;gt;&amp;gt;&amp;gt; c=s[0,0]
+&amp;gt;&amp;gt;&amp;gt; c
+&amp;lt;Cell object at 0x863d810&amp;gt;
+&amp;gt;&amp;gt;&amp;gt; dir(c)
+['get_entered_text', 'get_mstyle', 'get_rendered_text', 'get_value',
+'get_value_as_string', 'set_text']
+
+# Ändra cellen – ändringen syns i rutnätet
+&amp;gt;&amp;gt;&amp;gt; c.set_text('foo')
+
+# Hämta cellen igen, på båda sätten.
+&amp;gt;&amp;gt;&amp;gt; c.get_value()
+foo
+&amp;gt;&amp;gt;&amp;gt; s.cell_fetch(0,0).get_value()
+foo
+</seg></tuv>
     </tu>
   </body>
 </tmx>
