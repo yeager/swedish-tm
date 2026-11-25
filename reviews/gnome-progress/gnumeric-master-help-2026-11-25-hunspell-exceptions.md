@@ -210,3 +210,10 @@ Batch 183:
 - **Open Specification Promise / ECMA / IEC / ISO/IEC** — exact standard and legal-program names.
 - **Symbolic Link Interchange** — expansion of the SYLK format name.
 - **.slk / none** — exact extension and table sentinel.
+
+Batch 184:
+
+- **Organization for the Advancement of Structured Information Standards (OASIS)** — official organization name kept verbatim.
+- **MIME / ODF / IEC / ZIP / content.xml / mimetype / unzip** — MIME terminology, file names, standards and command name.
+- **OpenOffice.org / Calc / LibreOffice Calc / PlanPerfect / StarCalc / StarOffice / Gnumeric** — product names and branded compounds.
+- **PostScript / GGV / ghostview / gv / ghostscript / PDF** — format and program names; PostScript compounds are valid Swedish technical terms.
