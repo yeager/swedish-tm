@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T122326Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T122630Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -602159,6 +602159,86 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The &lt;guibutton&gt;Insert&lt;/guibutton&gt; button will dismiss the &lt;interface&gt;Graph Guru&lt;/interface&gt; and allow users to insert the graph, as it is currently defined, into the worksheet. The resulting graph may not include any plots or data but it can be modified subsequently using the context menu's &lt;guimenuitem&gt;Properties&lt;/guimenuitem&gt; menu entry.</seg></tuv>
       <tuv xml:lang="sv"><seg>Knappen &lt;guibutton&gt;Infoga&lt;/guibutton&gt; stänger &lt;interface&gt;Diagramguiden&lt;/interface&gt; och infogar den aktuella grafen i kalkylbladet. Grafen kanske inte innehåller några rittyper eller data, men du kan ändra den senare via snabbmenyns alternativ &lt;guimenuitem&gt;Egenskaper&lt;/guimenuitem&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenu&gt;E&lt;/guimenu&gt; - The hierarchy tree of graph components</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenu&gt;E&lt;/guimenu&gt; – hierarkiträdet med grafens delar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This area allows the user to navigate the hierarchy of graph components. The components are arranged in a tree with nodes indicated by arrowheads. Components can be selected by clicking on the component name with the mouse pointer and nodes can be expanded or collapsed by clicking on the arrowheads. The selection of different components in this area will cause different property options to be displayed in area &lt;guimenu&gt;J&lt;/guimenu&gt; since each component in the hierarchy has its own specific properties.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här kan du navigera i hierarkin över grafens delar. Delarna ordnas i ett träd där noderna markeras med pilspetsar. Klicka på en dels namn för att markera den och på en pilspets för att expandera eller fälla ihop en nod. När du väljer olika delar här visas motsvarande egenskaper i området &lt;guimenu&gt;J&lt;/guimenu&gt;, eftersom varje del i hierarkin har egna egenskaper.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Immediately below the hierarchy are buttons that allow a user to modify the hierarchy of components by adding components with the &lt;guibutton&gt;Add&lt;/guibutton&gt; button or by removing components with the &lt;guibutton&gt;Delete&lt;/guibutton&gt; button. The &lt;guibutton&gt;Order&lt;/guibutton&gt; allows the user to change the stacking order of charts, moving them up or down, or of data series, moving them toward the front or back.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Direkt under hierarkin finns knappar för att ändra delarnas ordning och innehåll. Lägg till delar med knappen &lt;guibutton&gt;Lägg till&lt;/guibutton&gt; och ta bort dem med &lt;guibutton&gt;Ta bort&lt;/guibutton&gt;. Med &lt;guibutton&gt;Ordning&lt;/guibutton&gt; ändrar du diagrammens lagerordning genom att flytta dem uppåt eller nedåt, eller dataseriernas ordning genom att flytta dem framåt eller bakåt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenu&gt;F&lt;/guimenu&gt; - The preview area</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenu&gt;F&lt;/guimenu&gt; – förhandsvisningsområdet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This area shows a preview of the graph as it will look if the user clicks on the &lt;guibutton&gt;Insert&lt;/guibutton&gt; or &lt;guibutton&gt;Apply&lt;/guibutton&gt; at the bottom of the panel, in area &lt;guimenu&gt;H&lt;/guimenu&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här visas en förhandsgranskning av grafen så som den kommer att se ut om du klickar på &lt;guibutton&gt;Infoga&lt;/guibutton&gt; eller &lt;guibutton&gt;Tillämpa&lt;/guibutton&gt; längst ned i panelen, i området &lt;guimenu&gt;H&lt;/guimenu&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenu&gt;G&lt;/guimenu&gt; - The component properties selection area.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenu&gt;G&lt;/guimenu&gt; – området för val av egenskaper för delarna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This area allows the user to change the graph by modifying the properties of the component that is selected (highlighted in blue) in area &lt;guimenu&gt;E&lt;/guimenu&gt;. For components which have multiple properties these may be grouped into related sets and placed on different tabs. By clicking on the tabs at the upper left, a user can access the properties in each set.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här kan du ändra grafen genom att justera egenskaperna för den del som är markerad i blått i området &lt;guimenu&gt;E&lt;/guimenu&gt;. Om delen har flera egenskaper kan de grupperas efter ämne på olika flikar. Klicka på flikarna längst upp till vänster för att visa egenskaperna i respektive grupp.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenu&gt;H&lt;/guimenu&gt; - The second panel navigation buttons</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenu&gt;H&lt;/guimenu&gt; – navigeringsknapparna i den andra panelen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the guru is opened to create a new graph the buttons in this are act in the same way as the buttons in the first panel, in area &lt;guimenu&gt;D&lt;/guimenu&gt; except that the &lt;guibutton&gt;Forward&lt;/guibutton&gt; is now a &lt;guibutton&gt;Back&lt;/guibutton&gt; and takes the user back to the first panel.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du öppnar guiden för att skapa en ny graf fungerar knapparna här på samma sätt som i den första panelens område &lt;guimenu&gt;D&lt;/guimenu&gt;, men &lt;guibutton&gt;Framåt&lt;/guibutton&gt; ersätts av &lt;guibutton&gt;Tillbaka&lt;/guibutton&gt; som återgår till den första panelen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the guru is opened to modify an existing graph the following buttons are shown (as in the screenshot &lt;xref linkend="fig-graphguru-panels"/&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du öppnar guiden för att ändra en befintlig graf visas följande knappar (se skärmbilden &lt;xref linkend="fig-graphguru-panels"/&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guibutton&gt;Cancel&lt;/guibutton&gt; button will dismiss the &lt;interface&gt;Graph Guru&lt;/interface&gt; and return the user to the &lt;application&gt;Gnumeric&lt;/application&gt; worksheet, leaving the graph unchanged.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Knappen &lt;guibutton&gt;Avbryt&lt;/guibutton&gt; stänger &lt;interface&gt;Diagramguiden&lt;/interface&gt; och återgår till kalkylbladet i &lt;application&gt;Gnumeric&lt;/application&gt; utan att ändra grafen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guibutton&gt;Apply&lt;/guibutton&gt; Button</seg></tuv>
+      <tuv xml:lang="sv"><seg>Knappen &lt;guibutton&gt;Tillämpa&lt;/guibutton&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guibutton&gt;Apply&lt;/guibutton&gt; button will dismiss the &lt;interface&gt;Graph Guru&lt;/interface&gt; and apply the changes to the current graph.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Knappen &lt;guibutton&gt;Tillämpa&lt;/guibutton&gt; stänger &lt;interface&gt;Diagramguiden&lt;/interface&gt; och tillämpar ändringarna på den aktuella grafen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;guimenu&gt;K&lt;/guimenu&gt; - The panel rearrangement handles</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;guimenu&gt;K&lt;/guimenu&gt; – handtagen för att ändra panelernas storlek</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>These triple dots in various places of the two panels of the graph guru indicate that the mouse can be used to change the size of the different areas. These handles can be used by placing the mouse pointer above a handle, clicking and holding with the primary mouse button, then dragging the handle to a new position, and then releasing the mouse button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>De här tre punkterna på olika ställen i diagramguidens två paneler visar var du kan ändra storlek på områdena med musen. Placera pekaren över ett sådant handtag, klicka och håll ned den primära musknappen, dra handtaget till önskad position och släpp sedan musknappen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The different parts of each panel of the &lt;interface&gt;Graph Guru&lt;/interface&gt; have been shaded with boxes of different colors and labeled with a letter in &lt;xref linkend="fig-graphguru-panels"/&gt;. The purpose of each of these sections will be explained below: &lt;_:variablelist-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>De olika delarna av varje panel i &lt;interface&gt;Diagramguiden&lt;/interface&gt; har markerats med färgade rutor och bokstäver i &lt;xref linkend="fig-graphguru-panels"/&gt;. Nedan förklaras syftet med varje område: &lt;_:variablelist-1/&gt;</seg></tuv>
     </tu>
   </body>
 </tmx>
