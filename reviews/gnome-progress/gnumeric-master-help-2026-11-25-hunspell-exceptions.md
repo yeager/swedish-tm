@@ -143,3 +143,9 @@ Batch 172:
 Batch 173:
 
 - **Shift** — exact keycap name in the help text; retained as the key label.
+
+Batch 174:
+
+- **Sheet1 / Sheet3** — literal worksheet names in the copy-and-paste example; preserved exactly.
+- **Autospara / autosparandefunktionen** — Swedish UI term and its compound form for the AutoSave feature.
+- **kalkylbladsflikarna / kalkylbladsflikens / textfärgsknappen** — regular Swedish compounds for the controls described in this passage.
