@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 118447
+# Entries: 118514
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -580099,3 +580099,657 @@ msgstr ""
 #. from gnome:reviewed/gnumeric/master/help
 msgid "<literal>touch my-func.py</literal>"
 msgstr "<literal>touch my-func.py</literal>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<emphasis role=\"bold\">Write the master spells</emphasis> The good news is "
+"that you only need to do this once per spellbook. After that you just add "
+"spells to it."
+msgstr ""
+"<emphasis role=\"bold\">Skriv magibokens grundfiler</emphasis> Det goda är "
+"att du bara behöver göra detta en gång per magibok. Därefter lägger du bara "
+"till fler besvärjelser."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Your XML file must tell Gnumeric about your plugin. Here is a simple "
+"template. (If you want to learn about internationalization, see the example "
+"in the system's py-func spellbook.) Open up plugin.xml and insert the "
+"following lines:"
+msgstr ""
+"XML-filen måste berätta för Gnumeric om insticksmodulen. Här är en enkel "
+"mall. (Om du vill lära dig mer om internationalisering kan du läsa exemplet "
+"i systemets py-func-magibok.) Öppna plugin.xml och lägg till följande rader:"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"\n"
+"&lt;?xml version=\"1.0\"?&gt;\n"
+"&lt;plugin id=\"Gnumeric_MyFuncPlugin\"&gt;\n"
+"\t&lt;information&gt;\n"
+"\t\t&lt;name&gt;Other Python functions from HOWTO&lt;/name&gt;\n"
+"\t\t&lt;description&gt;A few extra python functions demonstrating the API.&lt;/description&gt;\n"
+"\t&lt;/information&gt;\n"
+"\t&lt;loader type=\"Gnumeric_PythonLoader:python\"&gt;\n"
+"\t\t&lt;attribute name=\"module_name\" value=\"<emphasis role=\"bold\">my-func</emphasis>\"/&gt; <co id=\"my-func\"/>\n"
+"\t&lt;/loader&gt;\n"
+"\t&lt;services&gt;\n"
+"\t\t&lt;service type=\"function_group\" id=\"<emphasis role=\"bold\">example</emphasis>\"&gt; <co id=\"example\"/>\n"
+"\t\t\t&lt;category&gt;Local Python&lt;/category&gt;\n"
+"\t\t\t&lt;functions&gt;\n"
+"\t\t\t&lt;/functions&gt;\n"
+"\t\t&lt;/service&gt;\n"
+"\t&lt;/services&gt;\n"
+"&lt;/plugin&gt;\n"
+"\t\t  "
+msgstr ""
+"\n"
+"&lt;?xml version=\"1.0\"?&gt;\n"
+"&lt;plugin id=\"Gnumeric_MyFuncPlugin\"&gt;\n"
+"\t&lt;information&gt;\n"
+"\t\t&lt;name&gt;Andra Python-funktioner från HOWTO&lt;/name&gt;\n"
+"\t\t&lt;description&gt;Några extra Python-funktioner som visar API:et.&lt;/description&gt;\n"
+"\t&lt;/information&gt;\n"
+"\t&lt;loader type=\"Gnumeric_PythonLoader:python\"&gt;\n"
+"\t\t&lt;attribute name=\"module_name\" value=\"<emphasis role=\"bold\">my-func</emphasis>\"/&gt; <co id=\"my-func\"/>\n"
+"\t&lt;/loader&gt;\n"
+"\t&lt;services&gt;\n"
+"\t\t&lt;service type=\"function_group\" id=\"<emphasis role=\"bold\">example</emphasis>\"&gt; <co id=\"example\"/>\n"
+"\t\t\t&lt;category&gt;Lokal Python&lt;/category&gt;\n"
+"\t\t\t&lt;functions&gt;\n"
+"\t\t\t&lt;/functions&gt;\n"
+"\t\t&lt;/service&gt;\n"
+"\t&lt;/services&gt;\n"
+"&lt;/plugin&gt;\n"
+"\t\t  "
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The value of \"name\" determines the name of your python script (file). In "
+"this case, it must be \"my-func.py\""
+msgstr ""
+"Värdet för ”name” bestämmer namnet på Python-skriptet (filen). I det här "
+"fallet måste det vara ”my-func.py”."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The value of \"id\" here determines the name of the function dictionary in "
+"your python script. In this case, it must be \"example_functions\" because "
+"here the value is \"example\"."
+msgstr ""
+"Värdet för ”id” bestämmer namnet på funktionsordlistan i Python-skriptet. I "
+"det här fallet måste det vara ”example_functions”, eftersom värdet är "
+"”example”."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<emphasis role=\"bold\">Prepare to write the spells:</emphasis> Next we'll "
+"create a minimal python file. As noted above, we must name the file "
+"<emphasis role=\"bold\">my-func</emphasis>.py and it must have a dictionary "
+"called <emphasis role=\"bold\">example</emphasis>_functions. So open up my-"
+"func.py and insert the following lines."
+msgstr ""
+"<emphasis role=\"bold\">Förbered dig på att skriva besvärjelser:</emphasis> "
+"Nu skapar vi en minimal Python-fil. Som tidigare nämnts ska filen heta "
+"<emphasis role=\"bold\">my-func</emphasis>.py och innehålla en ordlista med "
+"namnet <emphasis role=\"bold\">example</emphasis>_functions. Öppna my-"
+"func.py och lägg till följande rader."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Writing new spells"
+msgstr "Skriv nya besvärjelser"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"To add new functions to Python, you now must do five things (three sir!):"
+msgstr ""
+"För att lägga till Python-funktioner behöver du nu göra fem saker (tre, ers "
+"nåd!):"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Write the python function in your copy of <literal>my-func.py</literal>."
+msgstr "Skriv Python-funktionen i din kopia av <literal>my-func.py</literal>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Insert the function info into the <literal>example_functions</literal> "
+"dictionary at the end of <literal>my_func.py</literal>"
+msgstr ""
+"Lägg till information om funktionen i ordlistan "
+"<literal>example_functions</literal> i slutet av "
+"<literal>my_func.py</literal>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Insert the function name into the functions list at the end of "
+"<literal>plugin.xml</literal>."
+msgstr ""
+"Lägg till funktionsnamnet i funktionslistan i slutet av "
+"<literal>plugin.xml</literal>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<emphasis role=\"bold\">Writing a simple script:</emphasis> Let's do "
+"something very simple: add two numbers together. First, edit my-func.py."
+msgstr ""
+"<emphasis role=\"bold\">Skriv ett enkelt skript:</emphasis> Vi börjar enkelt"
+" och adderar två tal. Redigera först my-func.py."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"\n"
+"\t<emphasis># Add two numbers together</emphasis>\n"
+"    def func_add(num1, num2):\n"
+"        return num1 + num2\n"
+"\n"
+"    <emphasis># Translate the func_add python function to a gnumeric function and register it</emphasis>\n"
+"    example_functions = {\n"
+"        'py_add': func_add\n"
+"    }\n"
+"\t  "
+msgstr ""
+"\n"
+"\t<emphasis># Addera två tal</emphasis>\n"
+"    def func_add(num1, num2):\n"
+"        return num1 + num2\n"
+"\n"
+"    <emphasis># Gör om Python-funktionen func_add till en Gnumeric-funktion och registrera den</emphasis>\n"
+"    example_functions = {\n"
+"        'py_add': func_add\n"
+"    }\n"
+"\t  "
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Then let the plugin-loader(?) know about your function. Add the following "
+"line near the end of plugin.xml (between &lt;functions&gt; and "
+"&lt;/functions&gt;)."
+msgstr ""
+"Berätta sedan för plugin-loadern(?) om funktionen. Lägg till följande rad "
+"nära slutet av plugin.xml (mellan &lt;functions&gt; och &lt;/functions&gt;)."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Now start Gnumeric and type <literal>py_add(2,3)</literal> into a cell. You "
+"should get \"5\". You can also use cell references. If that was in cell A1, "
+"go to cell A2 and type <literal>py_add(A1,3)</literal> and you will get "
+"\"8\". But your function won't show up in the GUI list yet."
+msgstr ""
+"Starta nu Gnumeric och skriv <literal>py_add(2,3)</literal> i en cell. "
+"Resultatet ska bli ”5”. Du kan också använda cellreferenser. Om formeln står"
+" i A1 skriver du <literal>py_add(A1,3)</literal> i A2 och får ”8”. "
+"Funktionen visas dock ännu inte i GUI-listan."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<emphasis role=\"bold\">Tell the GUI:</emphasis> To make your function show "
+"up in the GUI, you have to tell Gnumeric some things about it via a standard"
+" header, like this:"
+msgstr ""
+"<emphasis role=\"bold\">Visa funktionen i gränssnittet:</emphasis> Om "
+"funktionen ska visas i gränssnittet måste du beskriva den för Gnumeric med "
+"en standardiserad deklaration, som i det här exemplet:"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The text after '@DESCRIPTION=' is the description that shows up in the "
+"function GUI. You can make it as simple or detailed as you want. I'm not "
+"sure how many other fields get used right now, as I haven't seen the "
+"EXAMPLES show up anywhere."
+msgstr ""
+"Texten efter ”@DESCRIPTION=” visas i funktionsgränssnittet. Beskrivningen "
+"kan vara kort eller detaljerad. Jag vet inte om de andra fälten används just"
+" nu; jag har till exempel inte sett fältet EXAMPLES någonstans."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"But this still isn't quite right. Gnumeric doesn't know how many arguments "
+"the function can handle, nor of what type. So the function GUI will prompt "
+"for the two values it knows about (as type \"Any\") and then keep prompting "
+"for more. But py_add cannot accept all types, nor can it handle more than "
+"two arguments, so unless you give it precisely 2 numbers, you will get an "
+"error when you click \"OK\"."
+msgstr ""
+"Det här räcker ändå inte riktigt. Gnumeric vet inte hur många argument "
+"funktionen tar eller vilken typ de har. Därför ber funktionsgränssnittet om "
+"de två värden det känner till (av typen ”Any”) och fortsätter sedan att "
+"fråga efter fler. Men py_add kan inte hantera alla typer eller fler än två "
+"argument. Om du inte anger exakt två tal får du därför ett fel när du "
+"klickar på ”OK”."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<emphasis role=\"bold\">Know your limits...</emphasis> We got away last time"
+" just because Gnumeric was forgiving. Now we need to say that we can accept "
+"only 2 values, of type floating-point (which will also handle ints)."
+msgstr ""
+"<emphasis role=\"bold\">Känn dina gränser...</emphasis> Förra gången "
+"fungerade det eftersom Gnumeric var förlåtande. Nu måste vi ange att "
+"funktionen bara tar två värden av flyttalstyp (vilket även hanterar heltal)."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Where before we had: <literal>'py_add': func_add</literal>, we should now "
+"put: <literal>'py_add': ('ff','num1,num2',func_add)</literal> This says that"
+" Gnumeric should expect two floating-point numbers ('ff') with names 'num1' "
+"and 'num2', and pass them to func_add."
+msgstr ""
+"Där vi tidigare hade <literal>'py_add': func_add</literal> ska vi nu skriva "
+"<literal>'py_add': ('ff','num1,num2',func_add)</literal>. Det anger att "
+"Gnumeric ska skicka två flyttal (”ff”) med namnen ”num1” och ”num2” till "
+"func_add."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<emphasis role=\"bold\">...and surpass them</emphasis> Of course, there is "
+"no reason an add function shouldn't be able to handle a range. The simplest "
+"way to do that is to accept a range, and then call Gnumeric's own SUM "
+"function on it! All of Gnumeric's functions are available to you in the "
+"dictionary Gnumeric.functions, keyed by name. So here is how to write "
+"py_sum."
+msgstr ""
+"<emphasis role=\"bold\">...och tänj på gränserna</emphasis> Det finns "
+"förstås ingen anledning till att en additionsfunktion inte ska kunna hantera"
+" ett intervall. Enklast är att ta emot ett intervall och sedan anropa "
+"Gnumerics egen SUM-funktion. Alla Gnumeric-funktioner finns tillgängliga i "
+"ordlistan Gnumeric.functions, sorterade efter namn. Så här skriver du "
+"py_sum."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "First, define func_sum (in my-func.py):"
+msgstr "Definiera först func_sum (i my-func.py):"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Then insert it into your functions dictionary. That dictionary now looks "
+"like this (with 'r' denoting a range type):"
+msgstr ""
+"Lägg sedan till funktionen i ordlistan. Den ser nu ut så här (där ”r” anger "
+"en intervalltyp):"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Finally, make an entry in the XML list, so that it now looks like:"
+msgstr "Lägg till slut till en post i XML-listan, så här:"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"I told you this was the easy way to do it. Obviously it's not very useful to"
+" just duplicate Gnumeric functions. But that's as far as I've made it. From "
+"what can tell, range objects are packaged as opaque pointers of type "
+"RangeRefObject. There seems to be no way to work with them from within "
+"Python, so we must rely on the Gnumeric functions."
+msgstr ""
+"Det här var den enkla metoden. Det är förstås inte särskilt användbart att "
+"bara duplicera Gnumeric-funktioner. Men längre än så har jag inte kommit. "
+"Som jag förstår det lagras intervallobjekt som ogenomskinliga pekare av "
+"typen RangeRefObject. Det verkar inte gå att arbeta med dem direkt från "
+"Python, så vi får använda Gnumeric-funktionerna."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Do it yourself (mostly)"
+msgstr "Gör det själv (för det mesta)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"All is not lost, despite the opaque pointers. For in Gnumeric we can read "
+"about all the functions that have been defined. Some of those take "
+"references (including RangeRefs) and return useful information. For example,"
+" under \"Lookup\" we find \"Column\" and \"Row\" which return arrays of all "
+"the column (or row) indices in the range. So we can redo the sum function."
+msgstr ""
+"Allt är inte förlorat trots de ogenomskinliga pekarna. I Gnumeric kan vi "
+"läsa om de funktioner som har definierats. Vissa tar referenser (bland annat"
+" RangeRef) och returnerar användbar information. Under ”Lookup” finns till "
+"exempel ”Column” och ”Row”, som returnerar matriser med alla kolumn- "
+"respektive radindex i intervallet. Då kan vi skriva om summationsfunktionen."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Presume we can convert our RangeRef to a start tuple and end tuple. Then we "
+"can write sum2: <_:programlisting-1/>"
+msgstr ""
+"Anta att vi kan omvandla RangeRef till en starttuple och en sluttuple. Då "
+"kan vi skriva sum2: <_:programlisting-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"That's fine as far as it goes, but we need to define the helper function "
+"\"range_ref_to_tuples\". Although I'm rather ashamed to show this ugly "
+"literal, here's how I did it (someone suggest a better way, please!): "
+"<_:programlisting-1/>"
+msgstr ""
+"Det räcker så här långt, men vi måste också definiera hjälpfunktionen "
+"”range_ref_to_tuples”. Jag skäms lite för att visa den här klumpiga "
+"lösningen, men så här gjorde jag (kom gärna med ett bättre förslag!): "
+"<_:programlisting-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"From there, insert the function into the dictionary, and insert its name "
+"into <literal>plugin.xml</literal>. I leave these as exercises to the reader"
+" (answers in the sample files -- no peeking!). Restart Gnumeric and you "
+"should be able to use py_sum2!"
+msgstr ""
+"Lägg därefter till funktionen i ordlistan och dess namn i "
+"<literal>plugin.xml</literal>. Det överlåter jag åt läsaren (svaren finns i "
+"exempelfilerna – tjuvkika inte!). Starta om Gnumeric. Då ska du kunna "
+"använda py_sum2!"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "There are a couple of glitches:"
+msgstr "Det finns några problem:"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"It fails the first time with \"could not import gobject\". Just run again, I"
+" don't know what that's about."
+msgstr ""
+"Det fungerar inte första gången och visar ”could not import gobject”. Kör "
+"igen. Jag vet inte varför det händer."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"It will only work for Workbook 1 and Sheet 1. JK thinks that there may be no"
+" way to get the current Workbook/Sheet in the Python API. Hrm...."
+msgstr ""
+"Det fungerar bara med arbetsbok 1 och blad 1. JK tror att det kanske inte "
+"går att hämta den aktuella arbetsboken eller det aktuella bladet via Python-"
+"API:et. Hmm..."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"As noted, it should do some simple trapping to skip blank or text-filled "
+"cells. That <emphasis>can</emphasis> be done! I just didn't. It's late."
+msgstr ""
+"Som sagt borde funktionen hoppa över tomma celler och celler med text. Det "
+"<emphasis>går</emphasis> att göra! Jag gjorde det bara inte. Det är sent."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Relative to the source tree:"
+msgstr "I källkodsträdet:"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The Python interface is defined in: <literal>plugins/python-loader/py-"
+"gnumeric.c</literal> That file also has good notes at the beginning."
+msgstr ""
+"Python-gränssnittet definieras i <literal>plugins/python-loader/py-"
+"gnumeric.c</literal>. Filen har också bra kommentarer i början."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"There are interesting things about the way it used to be in: "
+"<literal>doc/developer/python-gnumeric.txt</literal>."
+msgstr ""
+"Det finns intressant information om hur det fungerade tidigare i "
+"<literal>doc/developer/python-gnumeric.txt</literal>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Program Listings"
+msgstr "Kodexempel"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"You can see my examples in full, with more comments: <_:itemizedlist-1/>"
+msgstr ""
+"Här finns mina fullständiga exempel med fler kommentarer: "
+"<_:itemizedlist-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Upgrading"
+msgstr "Uppgradera"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"To upgrade, first choose any method from the installation section above. But"
+" note: when you upgrade your Gnumeric version, it will look for your Python "
+"scripts in the corresponding version-named subdirectories. For example, if "
+"your scripts are in \"~/.gnumeric/1.1.17/plugins\", but you just upgraded to"
+" 1.1.18, you may need to rename that to \"~/.gnumeric/1.1.18/plugins\". If "
+"you want to keep and run several versions of Gnumeric, you'll have to copy "
+"or symlink them."
+msgstr ""
+"Uppgradera genom att först välja någon av metoderna i installationsavsnittet"
+" ovan. Tänk på att Gnumeric letar efter Python-skripten i kataloger som "
+"motsvarar den installerade versionen. Om skripten till exempel finns i "
+"”~/.gnumeric/1.1.17/plugins” och du uppgraderar till 1.1.18 kan du behöva "
+"byta namn på katalogen till ”~/.gnumeric/1.1.18/plugins”. Om du vill behålla"
+" och köra flera versioner av Gnumeric måste du kopiera skripten eller skapa "
+"symboliska länkar till dem."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"If you want the Python console, you'll also have to re-enable it, following "
+"the directions above. If you had made a local copy of the old one, make sure"
+" you <emphasis>don't</emphasis> copy or link that to the new directory. It "
+"won't work."
+msgstr ""
+"Om du vill använda Python-konsolen måste du aktivera den igen enligt "
+"anvisningarna ovan. Om du har en lokal kopia av den gamla konfigurationen "
+"ska du <emphasis>inte</emphasis> kopiera eller länka den till den nya "
+"katalogen. Den fungerar inte."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Find the new version with <literal>gnumeric --version</literal>, making sure"
+" to invoke the proper gnumeric."
+msgstr ""
+"Ta reda på den nya versionen med <literal>gnumeric --version</literal>. "
+"Kontrollera att du kör rätt gnumeric."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Fancy tricks"
+msgstr "Avancerade knep"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "To be written...."
+msgstr "Ska skrivas..."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Swapping ranges (not a normal cell function, but I wrote one) that did this."
+" But now I can rewrite it using the GUI, which will make a lot more sense."
+msgstr ""
+"Byta plats på intervall (inte en vanlig cellfunktion, men jag skrev en "
+"sådan). Nu kan jag göra det i gränssnittet i stället, vilket är mycket "
+"enklare."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "JK's python-only transpose function"
+msgstr "JK:s Python-funktion för att transponera matriser"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"A Gnumeric interface to the Snob clustering algorithm. Coming soon to a "
+"spreadsheet near you!"
+msgstr ""
+"Ett Gnumeric-gränssnitt till klustringsalgoritmen Snob. Kommer snart till "
+"ett kalkylblad nära dig!"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Features wanted, and Questions"
+msgstr "Önskade funktioner och frågor"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Is it really impossible to determine the current workbook/sheet from Python?"
+" That's a bummer. [JK writes: \"Not yet fixed, but now fixable.\"]"
+msgstr ""
+"Är det verkligen omöjligt att hitta den aktuella arbetsboken eller det "
+"aktuella bladet från Python? Det är tråkigt. [JK skriver: ”Inte fixat ännu, "
+"men nu går det att fixa.”]"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Several previous items are no longer on this list, due to the diligence of "
+"the Gnumeric hackers."
+msgstr ""
+"Flera tidigare punkter har tagits bort från listan tack vare Gnumeric-"
+"utvecklarnas arbete."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Writing New Plugins"
+msgstr "Skriva nya insticksmoduler"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>DATEDIF</function> returns the distance from "
+"<parameter>start_date</parameter> to <parameter>end_date</parameter> "
+"according to the unit specified by <parameter>interval</parameter>. This "
+"function exists primarly for compatibility reasons and the semantics is "
+"somewhat peculiar. In particular, the concept of \"whole month\" is based on"
+" whether the ending day is larger than or equal to the beginning day and not"
+" on whether a whole calendar month in contained in the interval. A similar "
+"treatment is given to \"whole year\"."
+msgstr ""
+"<function>DATEDIF</function> returnerar avståndet från "
+"<parameter>start_date</parameter> till <parameter>end_date</parameter> "
+"enligt enheten som anges av <parameter>interval</parameter>. Funktionen "
+"finns främst av kompatibilitetsskäl och dess semantik är något speciell. "
+"Begreppet ”hela månader” baseras särskilt på om slutdagen är större än eller"
+" lika med startdagen, inte på om intervallet innehåller en hel "
+"kalendermånad. En liknande hantering används för år."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "return the largest positive floating point number"
+msgstr "returnerar det största positiva flyttal som kan representeras"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "return the smallest positive floating point number"
+msgstr "returnerar det minsta positiva flyttal som kan representeras"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>falseval</parameter>: value to use if condition is false"
+msgstr ""
+"<parameter>falseval</parameter>: värdet som används om villkoret är falskt"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "unique values in a range or array"
+msgstr "unika värden i ett intervall eller en matris"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>CEILING</function>(<parameter>x</parameter>) is exported to ODF as"
+" "
+"<function>CEILING</function>(<parameter>x</parameter>,SIGN(<parameter>x</parameter>),1)."
+" "
+"<function>CEILING</function>(<parameter>x</parameter>,<parameter>significance</parameter>)"
+" is the OpenFormula function "
+"<function>CEILING</function>(<parameter>x</parameter>,<parameter>significance</parameter>,1)."
+msgstr ""
+"<function>CEILING</function>(<parameter>x</parameter>) exporteras till ODF "
+"som "
+"<function>CEILING</function>(<parameter>x</parameter>,SIGN(<parameter>x</parameter>),1)."
+" "
+"<function>CEILING</function>(<parameter>x</parameter>,<parameter>significance</parameter>)"
+" är OpenFormula-funktionen "
+"<function>CEILING</function>(<parameter>x</parameter>,<parameter>significance</parameter>,1)."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>FLOOR</function>(<parameter>x</parameter>) is exported to ODF as "
+"<function>FLOOR</function>(<parameter>x</parameter>,SIGN(<parameter>x</parameter>),1)."
+" "
+"<function>FLOOR</function>(<parameter>x</parameter>,<parameter>significance</parameter>)"
+" is the OpenFormula function "
+"<function>FLOOR</function>(<parameter>x</parameter>,<parameter>significance</parameter>,1)."
+msgstr ""
+"<function>FLOOR</function>(<parameter>x</parameter>) exporteras till ODF som"
+" "
+"<function>FLOOR</function>(<parameter>x</parameter>,SIGN(<parameter>x</parameter>),1)."
+" "
+"<function>FLOOR</function>(<parameter>x</parameter>,<parameter>significance</parameter>)"
+" är OpenFormula-funktionen "
+"<function>FLOOR</function>(<parameter>x</parameter>,<parameter>significance</parameter>,1)."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>base</parameter> must be positive and not equal to 1. If "
+"<parameter>x</parameter> ≤ 0, LOG returns #NUM! error. This function returns"
+" the logarithm of <parameter>x</parameter> using <parameter>base</parameter>"
+" rounded down to nearest integer. Unlike "
+"FLOOR(LOG(<parameter>x</parameter>,<parameter>base</parameter>)), this "
+"function is not subject error of representation of the intermediate result. "
+"This function is not implemented for all possible value. #VALUE! will be "
+"returned for such arguments."
+msgstr ""
+"<parameter>base</parameter> måste vara positivt och får inte vara lika med "
+"1. Om <parameter>x</parameter> ≤ 0 returnerar LOG felet #NUM!. Funktionen "
+"returnerar logaritmen av <parameter>x</parameter> med "
+"<parameter>base</parameter> avrundad nedåt till närmaste heltal. Till "
+"skillnad från "
+"FLOOR(LOG(<parameter>x</parameter>,<parameter>base</parameter>)) påverkas "
+"funktionen inte av representationsfel i mellanresultatet. Funktionen är inte"
+" implementerad för alla möjliga värden. För sådana värden returneras "
+"#VALUE!."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The Lambert W function is the inverse function of x=W*exp(W). There are two "
+"(real-valued) branches: k=0 which maps [-1/e;inf) onto [-1,inf); and k=-1 "
+"which maps [-1/e;0) unto (-inf;-1]."
+msgstr ""
+"Lambert W-funktionen är inversen till funktionen x=W*exp(W). Det finns två "
+"reella grenar: k=0 avbildar [-1/e;inf) på [-1,inf), och k=-1 avbildar "
+"[-1/e;0) på (-inf;-1]."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"If the sum of all values in <parameter>prob_range</parameter> is not one, "
+"<function>RANDDISCRETE</function> returns #NUM! If "
+"<parameter>val_range</parameter> and <parameter>prob_range</parameter> are "
+"not the same size, <function>RANDDISCRETE</function> returns #NUM! If "
+"<parameter>val_range</parameter> or <parameter>prob_range</parameter> is not"
+" a range, <function>RANDDISCRETE</function> returns #VALUE!"
+msgstr ""
+"Om summan av alla värden i <parameter>prob_range</parameter> inte är 1 "
+"returnerar <function>RANDDISCRETE</function> #NUM!. Om "
+"<parameter>val_range</parameter> och <parameter>prob_range</parameter> har "
+"olika storlek returnerar <function>RANDDISCRETE</function> #NUM!. Om "
+"<parameter>val_range</parameter> eller <parameter>prob_range</parameter> "
+"inte är ett intervall returnerar <function>RANDDISCRETE</function> #VALUE!"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>CHIDIST</function>(<parameter>x</parameter>,<parameter>dof</parameter>)"
+" is the OpenFormula function "
+"LEGACY.<function>CHIDIST</function>(<parameter>x</parameter>,<parameter>dof</parameter>)."
+msgstr ""
+"<function>CHIDIST</function>(<parameter>x</parameter>,<parameter>dof</parameter>)"
+" är OpenFormula-funktionen "
+"LEGACY.<function>CHIDIST</function>(<parameter>x</parameter>,<parameter>dof</parameter>)."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>CHIINV</function>(<parameter>p</parameter>,<parameter>dof</parameter>)"
+" is the OpenFormula function "
+"LEGACY.CHIDIST(<parameter>p</parameter>,<parameter>dof</parameter>)."
+msgstr ""
+"<function>CHIINV</function>(<parameter>p</parameter>,<parameter>dof</parameter>)"
+" är OpenFormula-funktionen "
+"LEGACY.CHIDIST(<parameter>p</parameter>,<parameter>dof</parameter>)."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "encode a string for use in a URL"
+msgstr "kodar en sträng så att den kan användas i en URL"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"string <parameter>old</parameter> with <parameter>num</parameter> characters"
+" starting at <parameter>start</parameter> replaced by "
+"<parameter>new</parameter>"
+msgstr ""
+"strängen <parameter>old</parameter> där <parameter>num</parameter> tecken "
+"från och med <parameter>start</parameter> har ersatts med "
+"<parameter>new</parameter>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"string <parameter>old</parameter> with up to <parameter>num</parameter> "
+"bytes starting at <parameter>start</parameter> replaced by "
+"<parameter>new</parameter>"
+msgstr ""
+"strängen <parameter>old</parameter> där upp till <parameter>num</parameter> "
+"byte från och med <parameter>start</parameter> har ersatts med "
+"<parameter>new</parameter>"

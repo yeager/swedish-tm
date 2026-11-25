@@ -1,0 +1,191 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2
+msgid "Writing New Plugins"
+msgstr "Skriva nya insticksmoduler"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2420
+msgid ""
+"<function>DATEDIF</function> returns the distance from "
+"<parameter>start_date</parameter> to <parameter>end_date</parameter> "
+"according to the unit specified by <parameter>interval</parameter>. This "
+"function exists primarly for compatibility reasons and the semantics is "
+"somewhat peculiar. In particular, the concept of \"whole month\" is based on"
+" whether the ending day is larger than or equal to the beginning day and not"
+" on whether a whole calendar month in contained in the interval. A similar "
+"treatment is given to \"whole year\"."
+msgstr ""
+"<function>DATEDIF</function> returnerar avståndet från "
+"<parameter>start_date</parameter> till <parameter>end_date</parameter> "
+"enligt enheten som anges av <parameter>interval</parameter>. Funktionen "
+"finns främst av kompatibilitetsskäl och dess semantik är något speciell. "
+"Begreppet ”hela månader” baseras särskilt på om slutdagen är större än eller"
+" lika med startdagen, inte på om intervallet innehåller en hel "
+"kalendermånad. En liknande hantering används för år."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:8325
+msgid "return the largest positive floating point number"
+msgstr "returnerar det största positiva flyttal som kan representeras"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:8353
+msgid "return the smallest positive floating point number"
+msgstr "returnerar det minsta positiva flyttal som kan representeras"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:9341
+msgid "<parameter>falseval</parameter>: value to use if condition is false"
+msgstr ""
+"<parameter>falseval</parameter>: värdet som används om villkoret är falskt"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:10365
+msgid "unique values in a range or array"
+msgstr "unika värden i ett intervall eller en matris"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:11084
+msgid ""
+"<function>CEILING</function>(<parameter>x</parameter>) is exported to ODF as"
+" "
+"<function>CEILING</function>(<parameter>x</parameter>,SIGN(<parameter>x</parameter>),1)."
+" "
+"<function>CEILING</function>(<parameter>x</parameter>,<parameter>significance</parameter>)"
+" is the OpenFormula function "
+"<function>CEILING</function>(<parameter>x</parameter>,<parameter>significance</parameter>,1)."
+msgstr ""
+"<function>CEILING</function>(<parameter>x</parameter>) exporteras till ODF "
+"som "
+"<function>CEILING</function>(<parameter>x</parameter>,SIGN(<parameter>x</parameter>),1)."
+" "
+"<function>CEILING</function>(<parameter>x</parameter>,<parameter>significance</parameter>)"
+" är OpenFormula-funktionen "
+"<function>CEILING</function>(<parameter>x</parameter>,<parameter>significance</parameter>,1)."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:11852
+msgid ""
+"<function>FLOOR</function>(<parameter>x</parameter>) is exported to ODF as "
+"<function>FLOOR</function>(<parameter>x</parameter>,SIGN(<parameter>x</parameter>),1)."
+" "
+"<function>FLOOR</function>(<parameter>x</parameter>,<parameter>significance</parameter>)"
+" is the OpenFormula function "
+"<function>FLOOR</function>(<parameter>x</parameter>,<parameter>significance</parameter>,1)."
+msgstr ""
+"<function>FLOOR</function>(<parameter>x</parameter>) exporteras till ODF som"
+" "
+"<function>FLOOR</function>(<parameter>x</parameter>,SIGN(<parameter>x</parameter>),1)."
+" "
+"<function>FLOOR</function>(<parameter>x</parameter>,<parameter>significance</parameter>)"
+" är OpenFormula-funktionen "
+"<function>FLOOR</function>(<parameter>x</parameter>,<parameter>significance</parameter>,1)."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:12112
+msgid ""
+"<parameter>base</parameter> must be positive and not equal to 1. If "
+"<parameter>x</parameter> ≤ 0, LOG returns #NUM! error. This function returns"
+" the logarithm of <parameter>x</parameter> using <parameter>base</parameter>"
+" rounded down to nearest integer. Unlike "
+"FLOOR(LOG(<parameter>x</parameter>,<parameter>base</parameter>)), this "
+"function is not subject error of representation of the intermediate result. "
+"This function is not implemented for all possible value. #VALUE! will be "
+"returned for such arguments."
+msgstr ""
+"<parameter>base</parameter> måste vara positivt och får inte vara lika med "
+"1. Om <parameter>x</parameter> ≤ 0 returnerar LOG felet #NUM!. Funktionen "
+"returnerar logaritmen av <parameter>x</parameter> med "
+"<parameter>base</parameter> avrundad nedåt till närmaste heltal. Till "
+"skillnad från "
+"FLOOR(LOG(<parameter>x</parameter>,<parameter>base</parameter>)) påverkas "
+"funktionen inte av representationsfel i mellanresultatet. Funktionen är inte"
+" implementerad för alla möjliga värden. För sådana värden returneras "
+"#VALUE!."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:12179
+msgid ""
+"The Lambert W function is the inverse function of x=W*exp(W). There are two "
+"(real-valued) branches: k=0 which maps [-1/e;inf) onto [-1,inf); and k=-1 "
+"which maps [-1/e;0) unto (-inf;-1]."
+msgstr ""
+"Lambert W-funktionen är inversen till funktionen x=W*exp(W). Det finns två "
+"reella grenar: k=0 avbildar [-1/e;inf) på [-1,inf), och k=-1 avbildar "
+"[-1/e;0) på (-inf;-1]."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:14650
+msgid ""
+"If the sum of all values in <parameter>prob_range</parameter> is not one, "
+"<function>RANDDISCRETE</function> returns #NUM! If "
+"<parameter>val_range</parameter> and <parameter>prob_range</parameter> are "
+"not the same size, <function>RANDDISCRETE</function> returns #NUM! If "
+"<parameter>val_range</parameter> or <parameter>prob_range</parameter> is not"
+" a range, <function>RANDDISCRETE</function> returns #VALUE!"
+msgstr ""
+"Om summan av alla värden i <parameter>prob_range</parameter> inte är 1 "
+"returnerar <function>RANDDISCRETE</function> #NUM!. Om "
+"<parameter>val_range</parameter> och <parameter>prob_range</parameter> har "
+"olika storlek returnerar <function>RANDDISCRETE</function> #NUM!. Om "
+"<parameter>val_range</parameter> eller <parameter>prob_range</parameter> "
+"inte är ett intervall returnerar <function>RANDDISCRETE</function> #VALUE!"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:15894
+msgid ""
+"<function>CHIDIST</function>(<parameter>x</parameter>,<parameter>dof</parameter>)"
+" is the OpenFormula function "
+"LEGACY.<function>CHIDIST</function>(<parameter>x</parameter>,<parameter>dof</parameter>)."
+msgstr ""
+"<function>CHIDIST</function>(<parameter>x</parameter>,<parameter>dof</parameter>)"
+" är OpenFormula-funktionen "
+"LEGACY.<function>CHIDIST</function>(<parameter>x</parameter>,<parameter>dof</parameter>)."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:15939
+msgid ""
+"<function>CHIINV</function>(<parameter>p</parameter>,<parameter>dof</parameter>)"
+" is the OpenFormula function "
+"LEGACY.CHIDIST(<parameter>p</parameter>,<parameter>dof</parameter>)."
+msgstr ""
+"<function>CHIINV</function>(<parameter>p</parameter>,<parameter>dof</parameter>)"
+" är OpenFormula-funktionen "
+"LEGACY.CHIDIST(<parameter>p</parameter>,<parameter>dof</parameter>)."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:22040
+msgid "encode a string for use in a URL"
+msgstr "kodar en sträng så att den kan användas i en URL"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:22612
+msgid ""
+"string <parameter>old</parameter> with <parameter>num</parameter> characters"
+" starting at <parameter>start</parameter> replaced by "
+"<parameter>new</parameter>"
+msgstr ""
+"strängen <parameter>old</parameter> där <parameter>num</parameter> tecken "
+"från och med <parameter>start</parameter> har ersatts med "
+"<parameter>new</parameter>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:22649
+msgid ""
+"string <parameter>old</parameter> with up to <parameter>num</parameter> "
+"bytes starting at <parameter>start</parameter> replaced by "
+"<parameter>new</parameter>"
+msgstr ""
+"strängen <parameter>old</parameter> där upp till <parameter>num</parameter> "
+"byte från och med <parameter>start</parameter> har ersatts med "
+"<parameter>new</parameter>"

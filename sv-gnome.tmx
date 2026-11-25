@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T162149Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T162951Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -609424,6 +609424,395 @@ en användare
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>&lt;literal&gt;touch my-func.py&lt;/literal&gt;</seg></tuv>
       <tuv xml:lang="sv"><seg>&lt;literal&gt;touch my-func.py&lt;/literal&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;Write the master spells&lt;/emphasis&gt; The good news is that you only need to do this once per spellbook. After that you just add spells to it.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;Skriv magibokens grundfiler&lt;/emphasis&gt; Det goda är att du bara behöver göra detta en gång per magibok. Därefter lägger du bara till fler besvärjelser.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Your XML file must tell Gnumeric about your plugin. Here is a simple template. (If you want to learn about internationalization, see the example in the system's py-func spellbook.) Open up plugin.xml and insert the following lines:</seg></tuv>
+      <tuv xml:lang="sv"><seg>XML-filen måste berätta för Gnumeric om insticksmodulen. Här är en enkel mall. (Om du vill lära dig mer om internationalisering kan du läsa exemplet i systemets py-func-magibok.) Öppna plugin.xml och lägg till följande rader:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>
+&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;plugin id="Gnumeric_MyFuncPlugin"&amp;gt;
+	&amp;lt;information&amp;gt;
+		&amp;lt;name&amp;gt;Other Python functions from HOWTO&amp;lt;/name&amp;gt;
+		&amp;lt;description&amp;gt;A few extra python functions demonstrating the API.&amp;lt;/description&amp;gt;
+	&amp;lt;/information&amp;gt;
+	&amp;lt;loader type="Gnumeric_PythonLoader:python"&amp;gt;
+		&amp;lt;attribute name="module_name" value="&lt;emphasis role="bold"&gt;my-func&lt;/emphasis&gt;"/&amp;gt; &lt;co id="my-func"/&gt;
+	&amp;lt;/loader&amp;gt;
+	&amp;lt;services&amp;gt;
+		&amp;lt;service type="function_group" id="&lt;emphasis role="bold"&gt;example&lt;/emphasis&gt;"&amp;gt; &lt;co id="example"/&gt;
+			&amp;lt;category&amp;gt;Local Python&amp;lt;/category&amp;gt;
+			&amp;lt;functions&amp;gt;
+			&amp;lt;/functions&amp;gt;
+		&amp;lt;/service&amp;gt;
+	&amp;lt;/services&amp;gt;
+&amp;lt;/plugin&amp;gt;
+		  </seg></tuv>
+      <tuv xml:lang="sv"><seg>
+&amp;lt;?xml version="1.0"?&amp;gt;
+&amp;lt;plugin id="Gnumeric_MyFuncPlugin"&amp;gt;
+	&amp;lt;information&amp;gt;
+		&amp;lt;name&amp;gt;Andra Python-funktioner från HOWTO&amp;lt;/name&amp;gt;
+		&amp;lt;description&amp;gt;Några extra Python-funktioner som visar API:et.&amp;lt;/description&amp;gt;
+	&amp;lt;/information&amp;gt;
+	&amp;lt;loader type="Gnumeric_PythonLoader:python"&amp;gt;
+		&amp;lt;attribute name="module_name" value="&lt;emphasis role="bold"&gt;my-func&lt;/emphasis&gt;"/&amp;gt; &lt;co id="my-func"/&gt;
+	&amp;lt;/loader&amp;gt;
+	&amp;lt;services&amp;gt;
+		&amp;lt;service type="function_group" id="&lt;emphasis role="bold"&gt;example&lt;/emphasis&gt;"&amp;gt; &lt;co id="example"/&gt;
+			&amp;lt;category&amp;gt;Lokal Python&amp;lt;/category&amp;gt;
+			&amp;lt;functions&amp;gt;
+			&amp;lt;/functions&amp;gt;
+		&amp;lt;/service&amp;gt;
+	&amp;lt;/services&amp;gt;
+&amp;lt;/plugin&amp;gt;
+		  </seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The value of "name" determines the name of your python script (file). In this case, it must be "my-func.py"</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet för ”name” bestämmer namnet på Python-skriptet (filen). I det här fallet måste det vara ”my-func.py”.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The value of "id" here determines the name of the function dictionary in your python script. In this case, it must be "example_functions" because here the value is "example".</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet för ”id” bestämmer namnet på funktionsordlistan i Python-skriptet. I det här fallet måste det vara ”example_functions”, eftersom värdet är ”example”.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;Prepare to write the spells:&lt;/emphasis&gt; Next we'll create a minimal python file. As noted above, we must name the file &lt;emphasis role="bold"&gt;my-func&lt;/emphasis&gt;.py and it must have a dictionary called &lt;emphasis role="bold"&gt;example&lt;/emphasis&gt;_functions. So open up my-func.py and insert the following lines.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;Förbered dig på att skriva besvärjelser:&lt;/emphasis&gt; Nu skapar vi en minimal Python-fil. Som tidigare nämnts ska filen heta &lt;emphasis role="bold"&gt;my-func&lt;/emphasis&gt;.py och innehålla en ordlista med namnet &lt;emphasis role="bold"&gt;example&lt;/emphasis&gt;_functions. Öppna my-func.py och lägg till följande rader.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Writing new spells</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skriv nya besvärjelser</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To add new functions to Python, you now must do five things (three sir!):</seg></tuv>
+      <tuv xml:lang="sv"><seg>För att lägga till Python-funktioner behöver du nu göra fem saker (tre, ers nåd!):</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Write the python function in your copy of &lt;literal&gt;my-func.py&lt;/literal&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skriv Python-funktionen i din kopia av &lt;literal&gt;my-func.py&lt;/literal&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Insert the function info into the &lt;literal&gt;example_functions&lt;/literal&gt; dictionary at the end of &lt;literal&gt;my_func.py&lt;/literal&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lägg till information om funktionen i ordlistan &lt;literal&gt;example_functions&lt;/literal&gt; i slutet av &lt;literal&gt;my_func.py&lt;/literal&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Insert the function name into the functions list at the end of &lt;literal&gt;plugin.xml&lt;/literal&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lägg till funktionsnamnet i funktionslistan i slutet av &lt;literal&gt;plugin.xml&lt;/literal&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;Writing a simple script:&lt;/emphasis&gt; Let's do something very simple: add two numbers together. First, edit my-func.py.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;Skriv ett enkelt skript:&lt;/emphasis&gt; Vi börjar enkelt och adderar två tal. Redigera först my-func.py.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>
+	&lt;emphasis&gt;# Add two numbers together&lt;/emphasis&gt;
+    def func_add(num1, num2):
+        return num1 + num2
+
+    &lt;emphasis&gt;# Translate the func_add python function to a gnumeric function and register it&lt;/emphasis&gt;
+    example_functions = {
+        'py_add': func_add
+    }
+	  </seg></tuv>
+      <tuv xml:lang="sv"><seg>
+	&lt;emphasis&gt;# Addera två tal&lt;/emphasis&gt;
+    def func_add(num1, num2):
+        return num1 + num2
+
+    &lt;emphasis&gt;# Gör om Python-funktionen func_add till en Gnumeric-funktion och registrera den&lt;/emphasis&gt;
+    example_functions = {
+        'py_add': func_add
+    }
+	  </seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Then let the plugin-loader(?) know about your function. Add the following line near the end of plugin.xml (between &amp;lt;functions&amp;gt; and &amp;lt;/functions&amp;gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Berätta sedan för plugin-loadern(?) om funktionen. Lägg till följande rad nära slutet av plugin.xml (mellan &amp;lt;functions&amp;gt; och &amp;lt;/functions&amp;gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Now start Gnumeric and type &lt;literal&gt;py_add(2,3)&lt;/literal&gt; into a cell. You should get "5". You can also use cell references. If that was in cell A1, go to cell A2 and type &lt;literal&gt;py_add(A1,3)&lt;/literal&gt; and you will get "8". But your function won't show up in the GUI list yet.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Starta nu Gnumeric och skriv &lt;literal&gt;py_add(2,3)&lt;/literal&gt; i en cell. Resultatet ska bli ”5”. Du kan också använda cellreferenser. Om formeln står i A1 skriver du &lt;literal&gt;py_add(A1,3)&lt;/literal&gt; i A2 och får ”8”. Funktionen visas dock ännu inte i GUI-listan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;Tell the GUI:&lt;/emphasis&gt; To make your function show up in the GUI, you have to tell Gnumeric some things about it via a standard header, like this:</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;Visa funktionen i gränssnittet:&lt;/emphasis&gt; Om funktionen ska visas i gränssnittet måste du beskriva den för Gnumeric med en standardiserad deklaration, som i det här exemplet:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The text after '@DESCRIPTION=' is the description that shows up in the function GUI. You can make it as simple or detailed as you want. I'm not sure how many other fields get used right now, as I haven't seen the EXAMPLES show up anywhere.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Texten efter ”@DESCRIPTION=” visas i funktionsgränssnittet. Beskrivningen kan vara kort eller detaljerad. Jag vet inte om de andra fälten används just nu; jag har till exempel inte sett fältet EXAMPLES någonstans.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>But this still isn't quite right. Gnumeric doesn't know how many arguments the function can handle, nor of what type. So the function GUI will prompt for the two values it knows about (as type "Any") and then keep prompting for more. But py_add cannot accept all types, nor can it handle more than two arguments, so unless you give it precisely 2 numbers, you will get an error when you click "OK".</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det här räcker ändå inte riktigt. Gnumeric vet inte hur många argument funktionen tar eller vilken typ de har. Därför ber funktionsgränssnittet om de två värden det känner till (av typen ”Any”) och fortsätter sedan att fråga efter fler. Men py_add kan inte hantera alla typer eller fler än två argument. Om du inte anger exakt två tal får du därför ett fel när du klickar på ”OK”.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;Know your limits...&lt;/emphasis&gt; We got away last time just because Gnumeric was forgiving. Now we need to say that we can accept only 2 values, of type floating-point (which will also handle ints).</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;Känn dina gränser...&lt;/emphasis&gt; Förra gången fungerade det eftersom Gnumeric var förlåtande. Nu måste vi ange att funktionen bara tar två värden av flyttalstyp (vilket även hanterar heltal).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Where before we had: &lt;literal&gt;'py_add': func_add&lt;/literal&gt;, we should now put: &lt;literal&gt;'py_add': ('ff','num1,num2',func_add)&lt;/literal&gt; This says that Gnumeric should expect two floating-point numbers ('ff') with names 'num1' and 'num2', and pass them to func_add.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Där vi tidigare hade &lt;literal&gt;'py_add': func_add&lt;/literal&gt; ska vi nu skriva &lt;literal&gt;'py_add': ('ff','num1,num2',func_add)&lt;/literal&gt;. Det anger att Gnumeric ska skicka två flyttal (”ff”) med namnen ”num1” och ”num2” till func_add.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;...and surpass them&lt;/emphasis&gt; Of course, there is no reason an add function shouldn't be able to handle a range. The simplest way to do that is to accept a range, and then call Gnumeric's own SUM function on it! All of Gnumeric's functions are available to you in the dictionary Gnumeric.functions, keyed by name. So here is how to write py_sum.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;...och tänj på gränserna&lt;/emphasis&gt; Det finns förstås ingen anledning till att en additionsfunktion inte ska kunna hantera ett intervall. Enklast är att ta emot ett intervall och sedan anropa Gnumerics egen SUM-funktion. Alla Gnumeric-funktioner finns tillgängliga i ordlistan Gnumeric.functions, sorterade efter namn. Så här skriver du py_sum.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>First, define func_sum (in my-func.py):</seg></tuv>
+      <tuv xml:lang="sv"><seg>Definiera först func_sum (i my-func.py):</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Then insert it into your functions dictionary. That dictionary now looks like this (with 'r' denoting a range type):</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lägg sedan till funktionen i ordlistan. Den ser nu ut så här (där ”r” anger en intervalltyp):</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Finally, make an entry in the XML list, so that it now looks like:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lägg till slut till en post i XML-listan, så här:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>I told you this was the easy way to do it. Obviously it's not very useful to just duplicate Gnumeric functions. But that's as far as I've made it. From what can tell, range objects are packaged as opaque pointers of type RangeRefObject. There seems to be no way to work with them from within Python, so we must rely on the Gnumeric functions.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det här var den enkla metoden. Det är förstås inte särskilt användbart att bara duplicera Gnumeric-funktioner. Men längre än så har jag inte kommit. Som jag förstår det lagras intervallobjekt som ogenomskinliga pekare av typen RangeRefObject. Det verkar inte gå att arbeta med dem direkt från Python, så vi får använda Gnumeric-funktionerna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Do it yourself (mostly)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gör det själv (för det mesta)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>All is not lost, despite the opaque pointers. For in Gnumeric we can read about all the functions that have been defined. Some of those take references (including RangeRefs) and return useful information. For example, under "Lookup" we find "Column" and "Row" which return arrays of all the column (or row) indices in the range. So we can redo the sum function.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Allt är inte förlorat trots de ogenomskinliga pekarna. I Gnumeric kan vi läsa om de funktioner som har definierats. Vissa tar referenser (bland annat RangeRef) och returnerar användbar information. Under ”Lookup” finns till exempel ”Column” och ”Row”, som returnerar matriser med alla kolumn- respektive radindex i intervallet. Då kan vi skriva om summationsfunktionen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Presume we can convert our RangeRef to a start tuple and end tuple. Then we can write sum2: &lt;_:programlisting-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anta att vi kan omvandla RangeRef till en starttuple och en sluttuple. Då kan vi skriva sum2: &lt;_:programlisting-1/&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>That's fine as far as it goes, but we need to define the helper function "range_ref_to_tuples". Although I'm rather ashamed to show this ugly literal, here's how I did it (someone suggest a better way, please!): &lt;_:programlisting-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det räcker så här långt, men vi måste också definiera hjälpfunktionen ”range_ref_to_tuples”. Jag skäms lite för att visa den här klumpiga lösningen, men så här gjorde jag (kom gärna med ett bättre förslag!): &lt;_:programlisting-1/&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>From there, insert the function into the dictionary, and insert its name into &lt;literal&gt;plugin.xml&lt;/literal&gt;. I leave these as exercises to the reader (answers in the sample files -- no peeking!). Restart Gnumeric and you should be able to use py_sum2!</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lägg därefter till funktionen i ordlistan och dess namn i &lt;literal&gt;plugin.xml&lt;/literal&gt;. Det överlåter jag åt läsaren (svaren finns i exempelfilerna – tjuvkika inte!). Starta om Gnumeric. Då ska du kunna använda py_sum2!</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>There are a couple of glitches:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det finns några problem:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>It fails the first time with "could not import gobject". Just run again, I don't know what that's about.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det fungerar inte första gången och visar ”could not import gobject”. Kör igen. Jag vet inte varför det händer.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>It will only work for Workbook 1 and Sheet 1. JK thinks that there may be no way to get the current Workbook/Sheet in the Python API. Hrm....</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det fungerar bara med arbetsbok 1 och blad 1. JK tror att det kanske inte går att hämta den aktuella arbetsboken eller det aktuella bladet via Python-API:et. Hmm...</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>As noted, it should do some simple trapping to skip blank or text-filled cells. That &lt;emphasis&gt;can&lt;/emphasis&gt; be done! I just didn't. It's late.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Som sagt borde funktionen hoppa över tomma celler och celler med text. Det &lt;emphasis&gt;går&lt;/emphasis&gt; att göra! Jag gjorde det bara inte. Det är sent.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Relative to the source tree:</seg></tuv>
+      <tuv xml:lang="sv"><seg>I källkodsträdet:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Python interface is defined in: &lt;literal&gt;plugins/python-loader/py-gnumeric.c&lt;/literal&gt; That file also has good notes at the beginning.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Python-gränssnittet definieras i &lt;literal&gt;plugins/python-loader/py-gnumeric.c&lt;/literal&gt;. Filen har också bra kommentarer i början.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>There are interesting things about the way it used to be in: &lt;literal&gt;doc/developer/python-gnumeric.txt&lt;/literal&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det finns intressant information om hur det fungerade tidigare i &lt;literal&gt;doc/developer/python-gnumeric.txt&lt;/literal&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Program Listings</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kodexempel</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>You can see my examples in full, with more comments: &lt;_:itemizedlist-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här finns mina fullständiga exempel med fler kommentarer: &lt;_:itemizedlist-1/&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Upgrading</seg></tuv>
+      <tuv xml:lang="sv"><seg>Uppgradera</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To upgrade, first choose any method from the installation section above. But note: when you upgrade your Gnumeric version, it will look for your Python scripts in the corresponding version-named subdirectories. For example, if your scripts are in "~/.gnumeric/1.1.17/plugins", but you just upgraded to 1.1.18, you may need to rename that to "~/.gnumeric/1.1.18/plugins". If you want to keep and run several versions of Gnumeric, you'll have to copy or symlink them.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Uppgradera genom att först välja någon av metoderna i installationsavsnittet ovan. Tänk på att Gnumeric letar efter Python-skripten i kataloger som motsvarar den installerade versionen. Om skripten till exempel finns i ”~/.gnumeric/1.1.17/plugins” och du uppgraderar till 1.1.18 kan du behöva byta namn på katalogen till ”~/.gnumeric/1.1.18/plugins”. Om du vill behålla och köra flera versioner av Gnumeric måste du kopiera skripten eller skapa symboliska länkar till dem.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If you want the Python console, you'll also have to re-enable it, following the directions above. If you had made a local copy of the old one, make sure you &lt;emphasis&gt;don't&lt;/emphasis&gt; copy or link that to the new directory. It won't work.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du vill använda Python-konsolen måste du aktivera den igen enligt anvisningarna ovan. Om du har en lokal kopia av den gamla konfigurationen ska du &lt;emphasis&gt;inte&lt;/emphasis&gt; kopiera eller länka den till den nya katalogen. Den fungerar inte.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Find the new version with &lt;literal&gt;gnumeric --version&lt;/literal&gt;, making sure to invoke the proper gnumeric.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ta reda på den nya versionen med &lt;literal&gt;gnumeric --version&lt;/literal&gt;. Kontrollera att du kör rätt gnumeric.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Fancy tricks</seg></tuv>
+      <tuv xml:lang="sv"><seg>Avancerade knep</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To be written....</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ska skrivas...</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Swapping ranges (not a normal cell function, but I wrote one) that did this. But now I can rewrite it using the GUI, which will make a lot more sense.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Byta plats på intervall (inte en vanlig cellfunktion, men jag skrev en sådan). Nu kan jag göra det i gränssnittet i stället, vilket är mycket enklare.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>JK's python-only transpose function</seg></tuv>
+      <tuv xml:lang="sv"><seg>JK:s Python-funktion för att transponera matriser</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A Gnumeric interface to the Snob clustering algorithm. Coming soon to a spreadsheet near you!</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett Gnumeric-gränssnitt till klustringsalgoritmen Snob. Kommer snart till ett kalkylblad nära dig!</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Features wanted, and Questions</seg></tuv>
+      <tuv xml:lang="sv"><seg>Önskade funktioner och frågor</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Is it really impossible to determine the current workbook/sheet from Python? That's a bummer. [JK writes: "Not yet fixed, but now fixable."]</seg></tuv>
+      <tuv xml:lang="sv"><seg>Är det verkligen omöjligt att hitta den aktuella arbetsboken eller det aktuella bladet från Python? Det är tråkigt. [JK skriver: ”Inte fixat ännu, men nu går det att fixa.”]</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Several previous items are no longer on this list, due to the diligence of the Gnumeric hackers.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Flera tidigare punkter har tagits bort från listan tack vare Gnumeric-utvecklarnas arbete.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Writing New Plugins</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skriva nya insticksmoduler</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;DATEDIF&lt;/function&gt; returns the distance from &lt;parameter&gt;start_date&lt;/parameter&gt; to &lt;parameter&gt;end_date&lt;/parameter&gt; according to the unit specified by &lt;parameter&gt;interval&lt;/parameter&gt;. This function exists primarly for compatibility reasons and the semantics is somewhat peculiar. In particular, the concept of "whole month" is based on whether the ending day is larger than or equal to the beginning day and not on whether a whole calendar month in contained in the interval. A similar treatment is given to "whole year".</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;DATEDIF&lt;/function&gt; returnerar avståndet från &lt;parameter&gt;start_date&lt;/parameter&gt; till &lt;parameter&gt;end_date&lt;/parameter&gt; enligt enheten som anges av &lt;parameter&gt;interval&lt;/parameter&gt;. Funktionen finns främst av kompatibilitetsskäl och dess semantik är något speciell. Begreppet ”hela månader” baseras särskilt på om slutdagen är större än eller lika med startdagen, inte på om intervallet innehåller en hel kalendermånad. En liknande hantering används för år.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>return the largest positive floating point number</seg></tuv>
+      <tuv xml:lang="sv"><seg>returnerar det största positiva flyttal som kan representeras</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>return the smallest positive floating point number</seg></tuv>
+      <tuv xml:lang="sv"><seg>returnerar det minsta positiva flyttal som kan representeras</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;falseval&lt;/parameter&gt;: value to use if condition is false</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;falseval&lt;/parameter&gt;: värdet som används om villkoret är falskt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>unique values in a range or array</seg></tuv>
+      <tuv xml:lang="sv"><seg>unika värden i ett intervall eller en matris</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;CEILING&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;) is exported to ODF as &lt;function&gt;CEILING&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,SIGN(&lt;parameter&gt;x&lt;/parameter&gt;),1). &lt;function&gt;CEILING&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;significance&lt;/parameter&gt;) is the OpenFormula function &lt;function&gt;CEILING&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;significance&lt;/parameter&gt;,1).</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;CEILING&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;) exporteras till ODF som &lt;function&gt;CEILING&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,SIGN(&lt;parameter&gt;x&lt;/parameter&gt;),1). &lt;function&gt;CEILING&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;significance&lt;/parameter&gt;) är OpenFormula-funktionen &lt;function&gt;CEILING&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;significance&lt;/parameter&gt;,1).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;FLOOR&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;) is exported to ODF as &lt;function&gt;FLOOR&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,SIGN(&lt;parameter&gt;x&lt;/parameter&gt;),1). &lt;function&gt;FLOOR&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;significance&lt;/parameter&gt;) is the OpenFormula function &lt;function&gt;FLOOR&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;significance&lt;/parameter&gt;,1).</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;FLOOR&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;) exporteras till ODF som &lt;function&gt;FLOOR&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,SIGN(&lt;parameter&gt;x&lt;/parameter&gt;),1). &lt;function&gt;FLOOR&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;significance&lt;/parameter&gt;) är OpenFormula-funktionen &lt;function&gt;FLOOR&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;significance&lt;/parameter&gt;,1).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;base&lt;/parameter&gt; must be positive and not equal to 1. If &lt;parameter&gt;x&lt;/parameter&gt; ≤ 0, LOG returns #NUM! error. This function returns the logarithm of &lt;parameter&gt;x&lt;/parameter&gt; using &lt;parameter&gt;base&lt;/parameter&gt; rounded down to nearest integer. Unlike FLOOR(LOG(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;base&lt;/parameter&gt;)), this function is not subject error of representation of the intermediate result. This function is not implemented for all possible value. #VALUE! will be returned for such arguments.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;base&lt;/parameter&gt; måste vara positivt och får inte vara lika med 1. Om &lt;parameter&gt;x&lt;/parameter&gt; ≤ 0 returnerar LOG felet #NUM!. Funktionen returnerar logaritmen av &lt;parameter&gt;x&lt;/parameter&gt; med &lt;parameter&gt;base&lt;/parameter&gt; avrundad nedåt till närmaste heltal. Till skillnad från FLOOR(LOG(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;base&lt;/parameter&gt;)) påverkas funktionen inte av representationsfel i mellanresultatet. Funktionen är inte implementerad för alla möjliga värden. För sådana värden returneras #VALUE!.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Lambert W function is the inverse function of x=W*exp(W). There are two (real-valued) branches: k=0 which maps [-1/e;inf) onto [-1,inf); and k=-1 which maps [-1/e;0) unto (-inf;-1].</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lambert W-funktionen är inversen till funktionen x=W*exp(W). Det finns två reella grenar: k=0 avbildar [-1/e;inf) på [-1,inf), och k=-1 avbildar [-1/e;0) på (-inf;-1].</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the sum of all values in &lt;parameter&gt;prob_range&lt;/parameter&gt; is not one, &lt;function&gt;RANDDISCRETE&lt;/function&gt; returns #NUM! If &lt;parameter&gt;val_range&lt;/parameter&gt; and &lt;parameter&gt;prob_range&lt;/parameter&gt; are not the same size, &lt;function&gt;RANDDISCRETE&lt;/function&gt; returns #NUM! If &lt;parameter&gt;val_range&lt;/parameter&gt; or &lt;parameter&gt;prob_range&lt;/parameter&gt; is not a range, &lt;function&gt;RANDDISCRETE&lt;/function&gt; returns #VALUE!</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om summan av alla värden i &lt;parameter&gt;prob_range&lt;/parameter&gt; inte är 1 returnerar &lt;function&gt;RANDDISCRETE&lt;/function&gt; #NUM!. Om &lt;parameter&gt;val_range&lt;/parameter&gt; och &lt;parameter&gt;prob_range&lt;/parameter&gt; har olika storlek returnerar &lt;function&gt;RANDDISCRETE&lt;/function&gt; #NUM!. Om &lt;parameter&gt;val_range&lt;/parameter&gt; eller &lt;parameter&gt;prob_range&lt;/parameter&gt; inte är ett intervall returnerar &lt;function&gt;RANDDISCRETE&lt;/function&gt; #VALUE!</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;CHIDIST&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;dof&lt;/parameter&gt;) is the OpenFormula function LEGACY.&lt;function&gt;CHIDIST&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;dof&lt;/parameter&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;CHIDIST&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;dof&lt;/parameter&gt;) är OpenFormula-funktionen LEGACY.&lt;function&gt;CHIDIST&lt;/function&gt;(&lt;parameter&gt;x&lt;/parameter&gt;,&lt;parameter&gt;dof&lt;/parameter&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;CHIINV&lt;/function&gt;(&lt;parameter&gt;p&lt;/parameter&gt;,&lt;parameter&gt;dof&lt;/parameter&gt;) is the OpenFormula function LEGACY.CHIDIST(&lt;parameter&gt;p&lt;/parameter&gt;,&lt;parameter&gt;dof&lt;/parameter&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;CHIINV&lt;/function&gt;(&lt;parameter&gt;p&lt;/parameter&gt;,&lt;parameter&gt;dof&lt;/parameter&gt;) är OpenFormula-funktionen LEGACY.CHIDIST(&lt;parameter&gt;p&lt;/parameter&gt;,&lt;parameter&gt;dof&lt;/parameter&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>encode a string for use in a URL</seg></tuv>
+      <tuv xml:lang="sv"><seg>kodar en sträng så att den kan användas i en URL</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>string &lt;parameter&gt;old&lt;/parameter&gt; with &lt;parameter&gt;num&lt;/parameter&gt; characters starting at &lt;parameter&gt;start&lt;/parameter&gt; replaced by &lt;parameter&gt;new&lt;/parameter&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>strängen &lt;parameter&gt;old&lt;/parameter&gt; där &lt;parameter&gt;num&lt;/parameter&gt; tecken från och med &lt;parameter&gt;start&lt;/parameter&gt; har ersatts med &lt;parameter&gt;new&lt;/parameter&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>string &lt;parameter&gt;old&lt;/parameter&gt; with up to &lt;parameter&gt;num&lt;/parameter&gt; bytes starting at &lt;parameter&gt;start&lt;/parameter&gt; replaced by &lt;parameter&gt;new&lt;/parameter&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>strängen &lt;parameter&gt;old&lt;/parameter&gt; där upp till &lt;parameter&gt;num&lt;/parameter&gt; byte från och med &lt;parameter&gt;start&lt;/parameter&gt; har ersatts med &lt;parameter&gt;new&lt;/parameter&gt;</seg></tuv>
     </tu>
   </body>
 </tmx>

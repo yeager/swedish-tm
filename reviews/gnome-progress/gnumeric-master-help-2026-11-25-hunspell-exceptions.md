@@ -317,3 +317,7 @@ Batch 198:
 - **lazy loading** — established technical term retained in the explanation of deferred plugin loading.
 - **magibok / magiböcker / besvärjelser** — consistent Swedish rendering of the source's deliberately playful “spellbook/spells” metaphor in the plugin tutorial.
 - **Fred Flintstone / Flintstone** — example data values and character name preserved.
+
+Batch 199 (Python plug-in tutorial): Python, Gnumeric, PythonLoader, Gnumeric_MyFuncPlugin, MyFuncPlugin, HOWTO, RangeRef, RangeRefObject, Gnumeric.functions, Snob, gobject, `plugin.xml`, Python module/function names, script paths and code identifiers remain exact. `plugin-loadern`, `starttuple` and `sluttuple` are technical compounds; translated prose tokens in XML and code comments are not dictionary exceptions.
+
+Batch 200 (function reference): function names, parameter identifiers, ODF/OpenFormula terminology and mathematical notation retained exactly. Unknown spell-check tokens are source identifiers (`base`, `dof`, `falseval`, `interval`, `new`, `old`, `prob`, `range`, `significance`), function names (`DATEDIF`, `CEILING`, `FLOOR`, `RANDDISCRETE`, `CHIDIST`, `CHIINV`, `SIGN`), output error constants (`#NUM!`, `#VALUE!`) and mathematical values (`-1/e`, `-inf`, `inf`).
