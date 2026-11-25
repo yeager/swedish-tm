@@ -149,3 +149,8 @@ Batch 174:
 - **Sheet1 / Sheet3** — literal worksheet names in the copy-and-paste example; preserved exactly.
 - **Autospara / autosparandefunktionen** — Swedish UI term and its compound form for the AutoSave feature.
 - **kalkylbladsflikarna / kalkylbladsflikens / textfärgsknappen** — regular Swedish compounds for the controls described in this passage.
+
+Batch 176:
+
+- **Gnumeric-gränssnittet** — Swedish compound with the application name.
+- **ångrahistorik / ångrahistoriken** — Swedish terminology and inflection for the undo history feature.
