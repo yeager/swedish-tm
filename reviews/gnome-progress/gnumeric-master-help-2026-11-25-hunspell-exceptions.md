@@ -19,3 +19,5 @@ Additional terms in batch 79:
 Batch 80 preserves the sample chart category labels **Gadgets** and **Lumpets** because they name values shown in the figure.
 
 Batch 81 preserves the example category labels **Gadgets** and **Lumpets** used in the bar-chart screenshot.
+
+Batch 82 preserves the example category labels **Gadgets** and **Lumpets** in the pie/ring chart descriptions. The source ring-chart caption itself says first that the example uses one series and then that it uses three; the Swedish text preserves both source statements.
