@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 126324
+# Entries: 126494
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -71150,7 +71150,7 @@ msgstr "Posterisera"
 #. from gnome:reviewed/gimp-help/master
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Threshold"
-msgstr "Tröskel"
+msgstr "Tröskelvärde"
 
 #. from gnome:GIMP
 msgid "All specified drawables must belong to the same image."
@@ -72948,7 +72948,7 @@ msgstr "Redigera filter"
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/gimp/master
 msgid "Blending Options"
-msgstr "Blandningsalternativ"
+msgstr "Toningsalternativ"
 
 #. from gnome:GIMP
 msgid "Import '%s' Settings"
@@ -164350,8 +164350,9 @@ msgid "Allow to load raw format images."
 msgstr "Tillåter inläsning av bilder i råformat."
 
 #. from gnome:gThumb
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Red Eye Removal"
-msgstr "Ta bort röda ögon"
+msgstr "Borttagning av röda ögon"
 
 #. from gnome:gThumb
 msgid "Remove the red eye effect caused by camera flashes"
@@ -205585,8 +205586,9 @@ msgid "Mean"
 msgstr "Medelvärde"
 
 #. from gnome:gnumeric
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Std. Dev."
-msgstr "Std. Av."
+msgstr "Standardavvikelse"
 
 #. from gnome:gnumeric
 msgid "Variance"
@@ -373016,7 +373018,7 @@ msgstr ""
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/gimp-help/master
 msgid "This category describes the following filters:"
-msgstr "I den här kategorin beskrivs följande filter:"
+msgstr "Denna kategori beskriver följande filter:"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "IFS Fractal"
@@ -623709,7 +623711,7 @@ msgstr ""
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "If the image is in grayscale mode, this menu entry is disabled."
-msgstr "Menyalternativet är inaktiverat om bilden är i gråskala."
+msgstr "Om bilden är i gråskaleläge är detta menyobjekt inaktiverat."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid ""
@@ -630719,3 +630721,1429 @@ msgstr "Installera _om…"
 #. from gnome:reviewed/gnome-firmware/master
 msgid "Cannot perform action as the device has a problem"
 msgstr "Kan inte utföra åtgärden då enheten har ett problem"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/wavelet-ex-1.png'; "
+"md5=a4a4bea9b2a6ca006cf6c4e41f76c583"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/wavelet-ex-1.png'; "
+"md5=a4a4bea9b2a6ca006cf6c4e41f76c583"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/wavelet-ex-2.png'; "
+"md5=40a1f5c5055fe2ca69a5025f5bdea3ce"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/wavelet-ex-2.png'; "
+"md5=40a1f5c5055fe2ca69a5025f5bdea3ce"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/enhance/wavelets-options.png'; "
+"md5=1bcf06dc65b88690228486dee9a235a9"
+msgstr ""
+"@@image: 'images/filters/enhance/wavelets-options.png'; "
+"md5=1bcf06dc65b88690228486dee9a235a9"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Wavelet-decompose"
+msgstr "Wavelet-separera"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Explanations are mostly inspired from the Pat David's tutorials <ulink "
+"url=\"https://patdavid.net/2011/12/getting-around-in-gimp-skin-"
+"retouching.html\"/> and <ulink url=\"https://patdavid.net/2014/07/wavelet-"
+"decompose-again.html\"/>."
+msgstr ""
+"Förklaringar är till största delen inspirerade av Pat Davids handledningar "
+"<ulink url=\"https://patdavid.net/2011/12/getting-around-in-gimp-skin-"
+"retouching.html\"/> och <ulink url=\"https://patdavid.net/2014/07/wavelet-"
+"decompose-again.html\"/>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Example for <quote>Wavelet decompose</quote> filter"
+msgstr "Exempel för filtret <quote>Wavelet-separera</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<quote>Wavelet Decompose</quote> applied. Only scale 2 is made visible in "
+"the layer group."
+msgstr ""
+"<quote>Wavelet-separera</quote> tillämpat. Endast skala 2 har gjorts synlig "
+"i lagergruppen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter decomposes the active layer or selection into several layers, "
+"named <quote>scales</quote>, each of them containing a particular set of "
+"details. The finest details are in the first layer, each layer below it has "
+"less details until you get to the last one, at bottom. This last layer is "
+"called <quote>residual</quote> and holds what is left after all detail "
+"layers have been removed; it represents the global contrast and colors of "
+"the image."
+msgstr ""
+"Filtret delar upp det aktiva lagret eller markeringen i flera lager, så "
+"kallade <quote>skalor</quote>. Varje lager innehåller en viss typ av "
+"detaljer. De finaste detaljerna finns i det första lagret. Ju längre ned i "
+"gruppen lagren ligger, desto färre detaljer innehåller de. Det nedersta "
+"lagret kallas <quote>Resterande</quote> och innehåller det som återstår när "
+"alla detaljlager har tagits bort. Det återger bildens övergripande kontrast "
+"och färger."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Each of the scale layers are set to be combined using the Grain Merge layer "
+"mode. This means that pixels that have a 50% value will not affect the final"
+" result. So, painting a wavelet scale with neutral gray (R:50% G:50% B:50%) "
+"will erase details."
+msgstr ""
+"Skalningslagren kombineras med lagerläget Grynsammanfogning. Bildpunkter med"
+" värdet 50 % påverkar därför inte slutresultatet. Om du målar på en wavelet-"
+"skala med neutralt grått (R:50 % G:50 % B:50 %) försvinner detaljerna."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Note that for images using integer <link linkend=\"gimp-image-"
+"precision\">precision</link>, the <link linkend=\"gimp-concepts-layer-modes-"
+"legacy\">legacy</link> grain merge mode is used. This avoids imperfect "
+"reconstruction of the image when using integer precision. When using "
+"floating point precision, the regular grain merge mode is used."
+msgstr ""
+"För bilder med heltal<link linkend=\"gimp-image-precision\">precision</link>"
+" används det <link linkend=\"gimp-concepts-layer-modes-legacy\">äldre</link>"
+" grynsammanfogningsläget. Det undviker att bilden återskapas ofullständigt "
+"vid heltalsprecision. Bilder med flyttalsprecision använder det vanliga "
+"grynsammanfogningsläget."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Wavelet-decompose is a wonderful filter for skin smoothing and retouching, "
+"removing blemishes, wrinkles, or spots from your photos. It can also be used"
+" for sharpening and local contrast enhancement and for removing stains, "
+"colors, or tones. All this is well explained in the tutorials mentioned "
+"above."
+msgstr ""
+"Wavelet-separera är användbart för att jämna ut och retuschera hud, till "
+"exempel genom att ta bort blemmor, rynkor och fläckar. Filtret kan också "
+"användas för att öka skärpan och den lokala kontrasten samt för att ta bort "
+"missfärgningar och tonavvikelser. Handledningarna ovan beskriver "
+"användningen närmare."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Enhance</guisubmenu><guimenuitem>Wavelet"
+" decompose</guimenuitem></menuchoice>."
+msgstr ""
+"Detta filter hittas i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Förbättra</guisubmenu><guimenuitem>Wavelet-"
+"separera</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<quote>Wavelet decompose</quote> options"
+msgstr "Alternativ för <quote>Wavelet-separera</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Default scales number is 5. You can increase it to increase scale fineness."
+msgstr ""
+"Som standard skapas fem skalor. Du kan öka antalet för att få finare "
+"detaljnivåer."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Layer groups are treated in <xref linkend=\"gimp-layer-groups\"/>."
+msgstr "Lagergrupper behandlas i <xref linkend=\"gimp-layer-groups\"/>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Add a layer mask to each scale layer"
+msgstr "Lägg till en lagermask till varje skallager"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Layer masks are treated in <xref linkend=\"gimp-layer-mask\"/>."
+msgstr "Lagermasker behandlas i <xref linkend=\"gimp-layer-mask\"/>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance-taj-unsharp-mask.jpg'; "
+"md5=989354ca429259f2fb4aeedf01ac1f7e"
+msgstr ""
+"@@image: 'images/filters/examples/enhance-taj-unsharp-mask.jpg'; "
+"md5=989354ca429259f2fb4aeedf01ac1f7e"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/enhance/sharpen-dialog.png'; "
+"md5=75a1dc35c2034f5d17107b2c95cf32c3"
+msgstr ""
+"@@image: 'images/filters/enhance/sharpen-dialog.png'; "
+"md5=75a1dc35c2034f5d17107b2c95cf32c3"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/unsharp-mask-1.png'; "
+"md5=76c484b8bb5526888bde646dff85ae0b"
+msgstr ""
+"@@image: 'images/filters/examples/unsharp-mask-1.png'; "
+"md5=76c484b8bb5526888bde646dff85ae0b"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/unsharp-mask-2.png'; "
+"md5=63ce5c1688ed119bf43fe9f1c152eb7b"
+msgstr ""
+"@@image: 'images/filters/examples/unsharp-mask-2.png'; "
+"md5=63ce5c1688ed119bf43fe9f1c152eb7b"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/unsharp-mask-3.png'; "
+"md5=c4a27741e6d1e3142f8de152a2f1fc19"
+msgstr ""
+"@@image: 'images/filters/examples/unsharp-mask-3.png'; "
+"md5=c4a27741e6d1e3142f8de152a2f1fc19"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Sharpen (Unsharp mask)"
+msgstr "Gör skarpare (Oskarp mask)"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Applying example for the Sharpen filter"
+msgstr "Exempel på tillämpning av filtret Gör skarpare"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Out-of-focus photographs and most digitized images often need a sharpness "
+"correction. This is due to the digitizing process that has to divide a color"
+" continuum in points with slightly different colors. Elements smaller than "
+"the sampling frequency will be averaged into a uniform color. So sharp "
+"borders will be rendered a little blurred. The same phenomenon appears when "
+"printing color dots on paper."
+msgstr ""
+"Ofokuserade fotografier och de flesta digitaliserade bilder behöver ofta "
+"skärpas. Vid digitalisering delas ett sammanhängande färgspektrum upp i "
+"bildpunkter med något olika färger. Detaljer som är mindre än "
+"samplingsfrekvensen jämnas ut till en enhetlig färg. Därför återges skarpa "
+"kanter något oskarpt. Samma sak händer när färgpunkter trycks på papper."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The Sharpen filter (previously called Unsharp Mask) sharpens edges of the "
+"elements without increasing noise or blemish."
+msgstr ""
+"Filtret Gör skarpare (tidigare Oskarp mask) skärper kanter utan att "
+"förstärka bruset eller skapa fläckar."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Some imaging devices like digital cameras or scanners offer to sharpen the "
+"created images for you. We strongly recommend you disable this means of "
+"sharpening and use <acronym>GIMP</acronym> filters instead. This way you "
+"regain the full control over the sharpening of your images."
+msgstr ""
+"Vissa enheter, till exempel digitalkameror och skannrar, kan automatiskt "
+"skärpa bilderna åt dig. Vi rekommenderar att du stänger av den funktionen "
+"och använder <acronym>GIMP</acronym>-filter i stället. Då har du full "
+"kontroll över bildens skärpa."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"To prevent color distortion while sharpening, you can <link linkend=\"plug-"
+"in-decompose\">Decompose</link> your image to <guilabel>HSV</guilabel> and "
+"work only on <guilabel>Value</guilabel>. Go to "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Components</guisubmenu><guimenuitem>Decompose…</guimenuitem></menuchoice>."
+" Make sure the <guilabel>Decompose to layers</guilabel> box is checked. "
+"Choose HSV and click OK. You will get a new gray-level image with three "
+"layers, one for Hue, one for Saturation, and one for Value. (Close the "
+"original image so you won't get confused). Select the Value layer and apply "
+"your sharpening to it. When you are done, with that same layer selected, "
+"reverse the process by using <link linkend=\"plug-in-"
+"compose\">Compose</link>. Go to "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Components</guisubmenu><guimenuitem>Compose…</guimenuitem></menuchoice>."
+" Again choose HSV and click OK. You will get back your original image except"
+" that it will have been sharpened in the Value component."
+msgstr ""
+"Om du vill undvika färgförvrängning när du skärper bilden kan du <link "
+"linkend=\"plug-in-decompose\">separera</link> den till "
+"<guilabel>NMI</guilabel> och bara arbeta med "
+"<guilabel>Intensitet</guilabel>. Öppna "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</guisubmenu><guimenuitem>Separera…</guimenuitem></menuchoice>."
+" Markera <guilabel>Separera till lager</guilabel>, välj NMI och klicka på "
+"OK. Då skapas en gråskalebild med tre lager: ett för nyans, ett för mättnad "
+"och ett för intensitet. Stäng originalbilden så att du inte blandar ihop "
+"bilderna. Markera intensitetslagret och skärp det. När du är klar markerar "
+"du samma lager och återställer bilden med <link linkend=\"plug-in-"
+"compose\">komponera</link>. Öppna "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</guisubmenu><guimenuitem>Komponera…</guimenuitem></menuchoice>,"
+" välj NMI och klicka på OK. Då får du tillbaka originalbilden, nu med ökad "
+"skärpa i intensitetskomponenten."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Enhance</guisubmenu><guimenuitem>Sharpen"
+" (Unsharp Mask)…</guimenuitem></menuchoice>."
+msgstr ""
+"Detta filter hittas i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Förbättra</guisubmenu><guimenuitem>Gör"
+" skarpare (Oskarp mask)…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<quote>Sharpen</quote> filter options"
+msgstr "Alternativ för filtret <quote>Gör skarpare</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The slider and input boxes (0.0-1500.0) allow you to set how many pixels on "
+"either side of an edge will be affected by sharpening. It is better to "
+"always sharpen an image at its final resolution."
+msgstr ""
+"Med skjutreglaget och inmatningsfälten (0,0–1500,0) ställer du in hur många "
+"bildpunkter på vardera sidan om en kant som ska påverkas av skärpningen. "
+"Skärp helst bilden i dess slutliga upplösning."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This slider and input boxes (0.0-300.0) allow you to set the strength of "
+"sharpening."
+msgstr ""
+"Med skjutreglaget och inmatningsfälten (0,0–300,0) ställer du in "
+"skärpningens styrka."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This slider and input boxes (0.0-1.0) allow you to set the minimum "
+"difference in pixel values that indicates an edge where sharpen must be "
+"applied. So you can protect areas of smooth tonal transition from "
+"sharpening, and avoid creation of blemishes in face, sky or water surface."
+msgstr ""
+"Med skjutreglaget och inmatningsfälten (0,0–1,0) anger du den minsta "
+"skillnaden mellan bildpunktsvärden som räknas som en kant och därmed ska "
+"skärpas. Då kan du skydda jämna tonövergångar från skärpning och undvika "
+"fläckar i ansikten, på himlen eller på vattenytor."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "How does an unsharp mask work?"
+msgstr "Hur fungerar en oskarp mask?"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Using an unsharp mask to sharpen an image can seem rather weird. Here is the"
+" explanation:"
+msgstr ""
+"Att använda en oskarp mask för att göra en bild skarpare kan verka konstigt."
+" Här är förklaringen:"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Think of an image with a contrast in some place. The intensity curve of the "
+"pixels on a line going through this contrast will show an abrupt increase of"
+" intensity: like a stair if contrast is perfectly sharp (blue), like an S if"
+" there is some blur (yellow)."
+msgstr ""
+"Tänk dig en bild med en kontrastkant. Intensitetskurvan för bildpunkterna "
+"längs en linje genom kanten visar en plötslig intensitetsökning: den liknar "
+"en trappa om kanten är helt skarp (blå) och ett S om kanten är oskarp (gul)."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Now, we have an original image with some blur (black curve) we want to "
+"sharpen. We apply some more blur: the intensity variation will be more "
+"gradual (green curve)."
+msgstr ""
+"Utgå från en originalbild med viss oskärpa (svart kurva) som du vill skärpa."
+" Lägg till mer oskärpa: intensiteten förändras då jämnare (grön kurva)."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Let us subtract the difference between blurredness intensity (green curve) "
+"and the intensity of the original image (black curve) to the intensity of "
+"the original image (black curve). We get the red curve, which is more "
+"abrupt: contrast and sharpness are increased. QED."
+msgstr ""
+"Subtrahera skillnaden mellan den oskarpa bildens intensitet (grön kurva) och"
+" originalbildens intensitet (svart kurva) från originalbildens intensitet. "
+"Då får vi den röda kurvan med den brantare övergången: kontrasten och "
+"skärpan ökar. Detta är vad vi ville visa."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Unsharp mask was first used in silver photography. The photographer first "
+"creates a copy of the original negative by contact, on a film, placing a "
+"thin glass plate between both; that will produce a blurred copy because of "
+"light diffusion. Then both films are placed in a photo enlarger, to "
+"reproduce them on paper. The dark areas of the positive blurred film, "
+"opposed to the clear areas of the original negative will prevent light to go"
+" through and so will be subtracted from the light going through the original"
+" film."
+msgstr ""
+"Oskarp mask användes först inom analog fotografering. Fotografen gjorde en "
+"kontaktkopia av originalnegativet på film, med en tunn glasskiva mellan "
+"negativet och filmen. Ljusspridningen gav en oskarp kopia. Därefter "
+"placerades filmerna i en förstoringsapparat och kopierades till papper. De "
+"mörka partierna i den oskarpa positiva kopian, som låg framför negativets "
+"ljusa partier, hindrade ljuset från att nå papperet. På så sätt drogs det "
+"ljuset bort från det ljus som passerade genom originalfilmen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"In digital photography, with GIMP, you will go through the following steps:"
+msgstr "I digitalfotografering med GIMP gör du så här:"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Open your image and duplicate it "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Duplicate</guimenuitem></menuchoice>"
+msgstr ""
+"Öppna din bild och duplicera den "
+"<menuchoice><guimenu>Bild</guimenu><guimenuitem>Duplicera</guimenuitem></menuchoice>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"In the copy, duplicate the layer "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>Duplicate "
+"layers</guimenuitem></menuchoice>, then from the Filters menu apply "
+"<menuchoice><guimenu>Blur</guimenu><guimenuitem>Gaussian "
+"Blur</guimenuitem></menuchoice> to the duplicated layer with the default IIR"
+" option and radius 5."
+msgstr ""
+"Duplicera i kopian lagret "
+"<menuchoice><guimenu>Lager</guimenu><guimenuitem>Duplicera "
+"lager</guimenuitem></menuchoice>, tillämpa sedan från menyn Filter "
+"<menuchoice><guimenu>Oskärpa</guimenu><guimenuitem>Gaussisk "
+"oskärpa</guimenuitem></menuchoice> till det duplicerade lagret med IIR-"
+"standardalternativet och radie 5."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"In the Layers dialog of the duplicated image, change Mode to "
+"<quote>Subtract</quote>, and in the right-click menu, select <quote>Merge "
+"down</quote>."
+msgstr ""
+"Ändra läget till <quote>Subtraktion</quote> i lagerdialogen för den "
+"duplicerade bilden. Välj sedan <quote>Sammanfoga nedåt</quote> i snabbmenyn."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Click and drag the only layer you got into the original image, where it "
+"appears as a new layer."
+msgstr ""
+"Klicka och dra det enda lagret du har kvar till den ursprungliga bilden, där"
+" det dyker upp som ett nytt lager."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Change the Mode in this Layers dialog to <quote>Addition</quote>."
+msgstr "Ändra i denna lagerdialog Läge till <quote>Addition</quote>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Voilà. The <quote>Sharpen (Unsharp Mask)</quote> filter does the same for "
+"you."
+msgstr ""
+"Voilà. Filtret <quote>Gör skarpare (Oskarp mask)</quote> gör samma sak åt "
+"dig."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"At the beginning of the curve, you can see a dip. If blurring is important, "
+"this dip is very deep; the result of the subtraction can be negative, and a "
+"complementary color stripe will appear along the contrast, or a black halo "
+"around a star on the light background of a nebula (black eye effect)."
+msgstr ""
+"I början av kurvan finns en svacka. Ju större oskärpa, desto djupare blir "
+"svackan. Subtraktionen kan då ge ett negativt resultat, så att en remsa i "
+"komplementfärgen syns längs kanten eller en svart gloria bildas runt en "
+"stjärna mot nebulosans ljusa bakgrund (svartögoneffekten)."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Black eye effect"
+msgstr "Svartögoneffekt"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/snn-ex-denoise.jpg'; "
+"md5=30b42aab5dde1c7889ea423dcfb10a0b"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/snn-ex-denoise.jpg'; "
+"md5=30b42aab5dde1c7889ea423dcfb10a0b"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/snn-pairs.jpg'; "
+"md5=d36ce87ad8551c383d8ad52303fe7585"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/snn-pairs.jpg'; "
+"md5=d36ce87ad8551c383d8ad52303fe7585"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/enhance/snn-dialog.png'; "
+"md5=8e75ee71e7a48b7d7324e33f3994b02a"
+msgstr ""
+"@@image: 'images/filters/enhance/snn-dialog.png'; "
+"md5=8e75ee71e7a48b7d7324e33f3994b02a"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/snn-radius.jpg'; "
+"md5=2cb2fba742f7c2854b26487d680c2c87"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/snn-radius.jpg'; "
+"md5=2cb2fba742f7c2854b26487d680c2c87"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Symmetric Nearest Neighbor"
+msgstr "Symmetrisk närmaste granne"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Example for the <quote>Symmetric Nearest Neighbor</quote> filter"
+msgstr "Exempel på filtret <quote>Symmetrisk närmaste granne</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Left: original image. Right: filter applied."
+msgstr "Vänster: ursprunglig bild. Höger: filtret tillämpat."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter blurs the image preserving edges. It is very effective in noise "
+"reduction maintaining sharp edges."
+msgstr ""
+"Filtret gör bilden oskarp men bevarar kanterna. Det reducerar brus effektivt"
+" utan att göra kanterna oskarpa."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "4 symmetric pairs"
+msgstr "Fyra par av symmetriska bildpunkter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"It works comparing each pixel to its neighboring pixels and to 1 or 2 "
+"<emphasis>pairs</emphasis> of symmetric pixels around the center. "
+"<placeholder-1/>"
+msgstr ""
+"Filtret jämför varje bildpunkt med de närmaste grannarna och med ett eller "
+"två <emphasis>par</emphasis> bildpunkter som ligger symmetriskt på varsin "
+"sida om mittpunkten. <placeholder-1/>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Enhance</guisubmenu><guimenuitem>Symmetric"
+" Nearest Neighbor…</guimenuitem></menuchoice>."
+msgstr ""
+"Detta filter hittas i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Förbättra</guisubmenu><guimenuitem>Symmetriskt"
+" närmaste grannar…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<quote>Symmetric Nearest neighbor</quote> filter options"
+msgstr "Alternativ för filtret <quote>Symmetrisk närmaste granne</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Radius, in pixels, of square pixel region. Width and height of this region "
+"are <emphasis>radius*2+1</emphasis>: <placeholder-1/>"
+msgstr ""
+"Radien för den kvadratiska bildpunktsregionen, angiven i bildpunkter. "
+"Regionens bredd och höjd är <emphasis>radie*2+1</emphasis>: <placeholder-1/>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Pairs"
+msgstr "Par"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"You can select 1 or 2 pairs: higher number preserves more acute features."
+msgstr ""
+"Du kan välja ett eller två par: med fler par bevaras fler skarpa detaljer."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance-red-eye-before.jpg'; "
+"md5=5693536ac3651a6548efce4e018eeba4"
+msgstr ""
+"@@image: 'images/filters/examples/enhance-red-eye-before.jpg'; "
+"md5=5693536ac3651a6548efce4e018eeba4"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance-red-eye-after.jpg'; "
+"md5=01c4aad780b51f7c111b74194cb18ea2"
+msgstr ""
+"@@image: 'images/filters/examples/enhance-red-eye-after.jpg'; "
+"md5=01c4aad780b51f7c111b74194cb18ea2"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/enhance/red-eye-removal-dialog.png'; "
+"md5=40f1a97f29d08bc0a1c0dd68463a3f42"
+msgstr ""
+"@@image: 'images/filters/enhance/red-eye-removal-dialog.png'; "
+"md5=40f1a97f29d08bc0a1c0dd68463a3f42"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Example for the <quote>Red Eye Removal</quote> filter"
+msgstr "Exempel för filtret <quote>Borttagning av röda ögon</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The aim of this filter is to remove red eyes from an image. For best "
+"results, you should first select the red parts of the eyes before applying "
+"this filter, or else all red areas in your image will be affected."
+msgstr ""
+"Målet med detta filter är att ta bort röda ögon från en bild. För bästa "
+"resultat bör du först markera ögonens röda delar innan du tillämpar filtret,"
+" annars kommer alla röda områden i din bild att påverkas."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Enhance</guisubmenu><guimenuitem>Red"
+" Eye Removal…</guimenuitem></menuchoice>."
+msgstr ""
+"Detta filter hittas i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Förbättra</guisubmenu><guimenuitem>Borttagning"
+" av röda ögon…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<quote>Red Eye Removal</quote> options"
+msgstr "Alternativ för filtret <quote>Borttagning av röda ögon</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This setting allows you to adjust the amount of red needed to change the "
+"color. The red value in each pixel is replaced by a combination of the green"
+" and almost 20% of the blue in the same pixel."
+msgstr ""
+"Med den här inställningen justerar du hur mycket rött som ska ersättas. Det "
+"röda kanalvärdet i varje bildpunkt ersätts av en kombination av dess gröna "
+"kanalvärde och nästan 20 % av dess blå kanalvärde."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/noise-reduction-ex1.png'; "
+"md5=67cda93dfb4a5635f2b2c1e280fe2b9e"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/noise-reduction-ex1.png'; "
+"md5=67cda93dfb4a5635f2b2c1e280fe2b9e"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/noise-reduction-ex2.png'; "
+"md5=84b49fd408014b0750846819cb4c81f0"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/noise-reduction-ex2.png'; "
+"md5=84b49fd408014b0750846819cb4c81f0"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/enhance/noise-reduction-dialog.png'; "
+"md5=f9cc81e2b19e8fcd3db12b5af47df693"
+msgstr ""
+"@@image: 'images/filters/enhance/noise-reduction-dialog.png'; "
+"md5=f9cc81e2b19e8fcd3db12b5af47df693"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Noise Reduction"
+msgstr "Brusreducering"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Example for the <quote>Noise Reduction</quote> filter"
+msgstr "Exempel för filtret <quote>Brusreducering</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<quote>Noise Reduction</quote> applied. Strength = 5"
+msgstr "<quote>Brusreducering</quote> tillämpat. Styrka = 5"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "A simple GEGL filter to reduce noise."
+msgstr "Ett enkelt GEGL-filter för att reducera brus."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Enhance</guisubmenu><guimenuitem>Noise"
+" Reduction…</guimenuitem></menuchoice>."
+msgstr ""
+"Detta filter hittas i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Förbättra</guisubmenu><guimenuitem>Brusreducering…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Noise Reduction filter options"
+msgstr "Alternativ för filtret Brusreducering"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Increasing Strength lessens noise, and increases blur: find compromise using"
+" the on-canvas preview."
+msgstr ""
+"Om du ökar styrkan minskar bruset, men bilden blir oskarpare: hitta en "
+"kompromiss med förhandsvisningen på ritytan."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance-taj-nl-filter.jpg'; "
+"md5=6fcab2e46ddc01efa76bd1398d7e0a72"
+msgstr ""
+"@@image: 'images/filters/examples/enhance-taj-nl-filter.jpg'; "
+"md5=6fcab2e46ddc01efa76bd1398d7e0a72"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/enhance/nl-filter.png'; "
+"md5=49903056a34914cc11770504e7229e04"
+msgstr ""
+"@@image: 'images/filters/enhance/nl-filter.png'; "
+"md5=49903056a34914cc11770504e7229e04"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "NL filter"
+msgstr "NL-filter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Nonlinear filter"
+msgstr "Ickelinjärt filter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Example for the NL-Filter"
+msgstr "Exempel för NL-Filtret"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"NL means <quote>Non Linear</quote>. Derived from the Unix "
+"<command>pnmnlfilt</command> program, it joins smoothing, despeckle and "
+"sharpen enhancement functions. It works on the whole layer, not on the "
+"selection."
+msgstr ""
+"NL står för <quote>Non Linear</quote> (icke-linjär). Filtret bygger på Unix-"
+"programmet <command>pnmnlfilt</command> och kombinerar funktioner för "
+"utjämning, borttagning av damm och repor samt skärpning. Det påverkar hela "
+"lagret, inte bara markeringen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This is something of a swiss army knife filter. It has 3 distinct operating "
+"modes. In all of the modes each pixel in the image is examined and processed"
+" according to it and its surrounding pixels values. Rather than using 9 "
+"pixels in a 3×3 block, it uses a hexagonal block whose size can be set with "
+"the Radius option."
+msgstr ""
+"Filtret är mångsidigt och har tre olika funktionslägen. I varje läge "
+"undersöks och bearbetas bildpunkterna utifrån sina egna och de omgivande "
+"bildpunkternas värden. I stället för nio bildpunkter i ett 3×3-rutnät "
+"använder filtret ett sexkantigt område vars storlek du ställer in med "
+"alternativet Radie."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The filter does not work if the image is in indexed mode, or if the active "
+"layer has an alpha channel. Then the menu entry is disabled."
+msgstr ""
+"Filtret fungerar inte om bilden är indexerad eller om det aktiva lagret har "
+"en alfakanal. Då är menyobjektet inaktiverat."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Enhance</guisubmenu><guimenuitem>NL"
+" Filter…</guimenuitem></menuchoice>."
+msgstr ""
+"Detta filter hittas i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Förbättra</guisubmenu><guimenuitem>NL-"
+"filter…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<quote>NL Filter</quote> options"
+msgstr "Alternativ för <quote>NL-filter</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"When checked, parameter setting results are interactively displayed in "
+"preview."
+msgstr ""
+"Om ikryssad visas resultat för parameterinställningar interaktivt i "
+"förhandsvisningen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The <link linkend=\"plug-in-nl-filter-mode\">Operating Mode</link> is "
+"described below."
+msgstr "<link linkend=\"plug-in-nl-filter-mode\">Körläget</link> beskrivs nedan."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Controls the amount of the filter to apply. Valid range is 0.00-1.00. The "
+"exact meaning of this value depends on the selected operating mode. Note "
+"that this parameter is related to but not the same as the "
+"<parameter>alpha</parameter> parameter used in the "
+"<command>pnmnlfilt</command> program."
+msgstr ""
+"Anger hur starkt filtret ska tillämpas. Giltigt intervall är 0,00–1,00. Det "
+"här värdet har olika betydelse beroende på valt funktionsläge. Parametern "
+"hänger ihop med, men är inte samma sak som, parametern "
+"<parameter>alpha</parameter> i programmet <command>pnmnlfilt</command>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Controls the size of the effective sampling region around each pixel. The "
+"range of this value is 0.33-1.00, where 0.33 means just the pixel itself "
+"(and thus the filter will have no effect), and 1.00 means all pixels in the "
+"3×3 grid are sampled."
+msgstr ""
+"Anger storleken på det effektiva området som samplas runt varje bildpunkt. "
+"Värdet ligger mellan 0,33 och 1,00. Vid 0,33 används bara själva "
+"bildpunkten, så filtret inte får någon effekt. Vid 1,00 samplas alla "
+"bildpunkter i rutnätet 3×3."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Operating Modes"
+msgstr "Körlägen"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "This filter can perform several distinct functions:"
+msgstr "Detta filter kan utföra flera olika funktioner:"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The value of the center pixel will be replaced by the mean of the 7 hexagon "
+"values, but the 7 values are sorted by size and the top and bottom "
+"<parameter>Alpha</parameter> portion of the 7 are excluded from the mean. "
+"This implies that an <parameter>Alpha</parameter> value of 0.0 gives the "
+"same sort of output as a normal convolution (i.e. averaging or smoothing "
+"filter), where <parameter>Radius</parameter> will determine the "
+"<quote>strength</quote> of the filter. A good value to start from for subtle"
+" filtering is <parameter>Alpha</parameter> = 0.0, "
+"<parameter>Radius</parameter> = 0.55. For a more blatant effect, try "
+"<parameter>Alpha</parameter> = 0.0 and <parameter>Radius</parameter> = 1.0."
+msgstr ""
+"Mittbildpunktens värde ersätts med medelvärdet av de sju värdena i "
+"sexkanten. Värdena sorteras efter storlek, och den översta respektive "
+"nedersta andelen som anges av <parameter>Alfa</parameter> utesluts från "
+"medelvärdet. Med <parameter>Alfa</parameter> = 0,0 blir resultatet detsamma "
+"som vid vanlig faltning, till exempel med ett medelvärdes- eller "
+"utjämningsfilter. <parameter>Radie</parameter> styr då filtrets "
+"<quote>styrka</quote>. Börja med <parameter>Alfa</parameter> = 0,0 och "
+"<parameter>Radie</parameter> = 0,55 för en diskret effekt. Prova "
+"<parameter>Alfa</parameter> = 0,0 och <parameter>Radie</parameter> = 1,0 för"
+" en tydligare effekt."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"An <parameter>Alpha</parameter> value of 1.0 will cause the median value of "
+"the 7 hexagons to be used to replace the center pixel value. This sort of "
+"filter is good for eliminating <quote>pop</quote> or single pixel noise from"
+" an image without spreading the noise out or smudging features on the image."
+" Judicious use of the <parameter>Radius</parameter> parameter will fine tune"
+" the filtering."
+msgstr ""
+"Med <parameter>Alfa</parameter> = 1,0 ersätts mittbildpunktens värde med "
+"medianvärdet av de sju bildpunkterna i sexkanten. Filtret tar bort enstaka "
+"avvikande bildpunkter (<quote>pop</quote>-brus) utan att sprida ut bruset "
+"eller sudda ut bildens detaljer. Justera parametern "
+"<parameter>Radie</parameter> för att finjustera filtreringen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Intermediate values of <parameter>Alpha</parameter> give effects somewhere "
+"between smoothing and \"pop\" noise reduction. For subtle filtering try "
+"starting with values of <parameter>Alpha</parameter> = 0.8, "
+"<parameter>Radius</parameter> = 0.6. For a more blatant effect try "
+"<parameter>Alpha</parameter> = 1.0, <parameter>Radius</parameter> = 1.0 ."
+msgstr ""
+"Mellanvärden på <parameter>Alfa</parameter> ger en effekt mellan utjämning "
+"och borttagning av enstaka brusbildpunkter. Prova "
+"<parameter>Alfa</parameter> = 0,8 och <parameter>Radie</parameter> = 0,6 för"
+" en diskret effekt. Prova <parameter>Alfa</parameter> = 1,0 och "
+"<parameter>Radie</parameter> = 1,0 för en mer markant effekt."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This type of filter applies a smoothing filter adaptively over the image. "
+"For each pixel the variance of the surrounding hexagon values is calculated,"
+" and the amount of smoothing is made inversely proportional to it. The idea "
+"is that if the variance is small then it is due to noise in the image, while"
+" if the variance is large, it is because of <quote>wanted</quote> image "
+"features. As usual the <parameter>Radius</parameter> parameter controls the "
+"effective radius, but it probably advisable to leave the radius between 0.8 "
+"and 1.0 for the variance calculation to be meaningful. The "
+"<parameter>Alpha</parameter> parameter sets the noise threshold, over which "
+"less smoothing will be done. This means that small values of "
+"<parameter>Alpha</parameter> will give the most subtle filtering effect, "
+"while large values will tend to smooth all parts of the image. You could "
+"start with values like <parameter>Alpha</parameter> = 0.2, "
+"<parameter>Radius</parameter> = 1.0, and try increasing or decreasing the "
+"<parameter>Alpha</parameter> parameter to get the desired effect. This type "
+"of filter is best for filtering out dithering noise in both bitmap and color"
+" images."
+msgstr ""
+"Den här filtertypen jämnar ut bilden adaptivt. För varje bildpunkt beräknas "
+"spridningen i värdena för den omgivande sexkanten, och utjämningen görs "
+"omvänt proportionell mot spridningen. Liten spridning tyder på brus, medan "
+"stor spridning tyder på <quote>önskade</quote> bilddetaljer. Som vanligt "
+"styr parametern <parameter>Radie</parameter> den effektiva radien. Låt den "
+"helst ligga mellan 0,8 och 1,0 så att spridningsberäkningen blir "
+"meningsfull. Parametern <parameter>Alfa</parameter> anger bruströskeln; över"
+" den tröskeln görs mindre utjämning. Låga värden på "
+"<parameter>Alfa</parameter> ger en diskret effekt, medan höga värden jämnar "
+"ut större delar av bilden. Börja exempelvis med <parameter>Alfa</parameter> "
+"= 0,2 och <parameter>Radie</parameter> = 1,0 och justera sedan "
+"<parameter>Alfa</parameter> efter önskat resultat. Filtret passar särskilt "
+"bra för att ta bort rastreringsbrus i bitmapps- och färgbilder."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This is the opposite type of filter to the smoothing filter. It enhances "
+"edges. The <parameter>Alpha</parameter> parameter controls the amount of "
+"edge enhancement, from subtle (0.1) to blatant (0.9). The "
+"<parameter>Radius</parameter> parameter controls the effective radius as "
+"usual, but useful values are between 0.5 and 0.9. Try starting with values "
+"of <parameter>Alpha</parameter> = 0.3, <parameter>Radius</parameter> = 0.8."
+msgstr ""
+"Det här filtret gör motsatsen till utjämningsfiltret: det förstärker kanter."
+" Parametern <parameter>Alfa</parameter> styr förstärkningen, från diskret "
+"(0,1) till kraftig (0,9). Parametern <parameter>Radie</parameter> styr den "
+"effektiva radien. Användbara värden ligger mellan 0,5 och 0,9. Börja gärna "
+"med <parameter>Alfa</parameter> = 0,3 och <parameter>Radie</parameter> = "
+"0,8."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Combination use"
+msgstr "Kombinerad användning"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The various operating modes can be used one after the other to get the "
+"desired result. For instance to turn a monochrome dithered image into "
+"grayscale image you could try one or two passes of the smoothing filter, "
+"followed by a pass of the optimal estimation filter, then some subtle edge "
+"enhancement. Note that using edge enhancement is only likely to be useful "
+"after one of the non-linear filters (alpha trimmed mean or optimal "
+"estimation filter), as edge enhancement is the direct opposite of smoothing."
+msgstr ""
+"Du kan kombinera funktionslägena för att få önskat resultat. Om du till "
+"exempel vill omvandla en monokrom, rastrerad bild till gråskala kan du först"
+" köra utjämningsfiltret en eller två gånger, sedan filtret för optimal "
+"skattning och till sist kantförbättring med låg styrka. Kantförbättring är "
+"främst användbar efter ett av de icke-linjära filtren (alfa-trimmat "
+"medelvärde eller optimal skattning), eftersom den gör motsatsen till "
+"utjämning."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"For reducing color quantization noise in images (i.e. turning .gif files "
+"back into 24 bit files) you could try a pass of the optimal estimation "
+"filter (<parameter>Alpha</parameter> = 0.2, <parameter>Radius</parameter> = "
+"1.0), a pass of the median filter (<parameter>Alpha</parameter> = 1.0, "
+"<parameter>Radius</parameter> = 0.55), and possibly a pass of the edge "
+"enhancement filter. Several passes of the optimal estimation filter with "
+"declining <parameter>Alpha</parameter> values are more effective than a "
+"single pass with a large <parameter>Alpha</parameter> value. As usual, there"
+" is a trade-off between filtering effectiveness and losing detail. "
+"Experimentation is encouraged."
+msgstr ""
+"Om du vill minska färgkvantiseringsbrus, till exempel genom att omvandla "
+".gif-filer till 24-bitarsbilder, kan du köra filtret för optimal skattning "
+"en gång (<parameter>Alfa</parameter> = 0,2, <parameter>Radie</parameter> = "
+"1,0), medianfiltret en gång (<parameter>Alfa</parameter> = 1,0, "
+"<parameter>Radie</parameter> = 0,55) och eventuellt kantförbättringsfiltret "
+"en gång. Flera körningar av filtret för optimal skattning med successivt "
+"lägre värden på <parameter>Alfa</parameter> ger bättre resultat än en enda "
+"körning med ett högt <parameter>Alfa</parameter>-värde. Som vanligt innebär "
+"effektivare filtrering en risk att detaljer går förlorade. Prova dig fram."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Enhance filters compensate for image imperfections. Such imperfections "
+"include dust particles, noise, interlaced frames (coming usually from a TV "
+"frame-grabber) and insufficient sharpness."
+msgstr ""
+"Förbättringsfiltren kompenserar för brister i bilder, till exempel damm, "
+"brus, sammanflätade bildrutor (ofta från ett videoinspelningskort) och "
+"otillräcklig skärpa."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/enhance/high-pass-dialog.png'; "
+"md5=84593252bbd424c9d3d4267cbb6752cf"
+msgstr ""
+"@@image: 'images/filters/enhance/high-pass-dialog.png'; "
+"md5=84593252bbd424c9d3d4267cbb6752cf"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/high-pass-origin.png'; "
+"md5=7666d1933165da4eb9edbbb01e004e76"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/high-pass-origin.png'; "
+"md5=7666d1933165da4eb9edbbb01e004e76"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/high-pass-duplicate.png'; "
+"md5=ab6f16d3e4737f72b9365778f65af544"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/high-pass-duplicate.png'; "
+"md5=ab6f16d3e4737f72b9365778f65af544"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/high-pass-open.png'; "
+"md5=d8aafe7d21a8a9d5cf53ad809c62b164"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/high-pass-open.png'; "
+"md5=d8aafe7d21a8a9d5cf53ad809c62b164"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/high-pass-mode-example.png'; "
+"md5=64905ea849761f8b2fd5ba4f10162b65"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/high-pass-mode-example.png'; "
+"md5=64905ea849761f8b2fd5ba4f10162b65"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/high-pass-mode-dialog.png'; "
+"md5=2ba6737b4942d59b1e54fbb548a9d9dd"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/high-pass-mode-dialog.png'; "
+"md5=2ba6737b4942d59b1e54fbb548a9d9dd"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/high-pass-setting-example.png'; "
+"md5=8c513765d1e495403c3106c47b27144c"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/high-pass-setting-example.png'; "
+"md5=8c513765d1e495403c3106c47b27144c"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/enhance/high-pass-setting-dialog.png'; "
+"md5=c3db6590b439a91f14da6705da44a193"
+msgstr ""
+"@@image: 'images/filters/examples/enhance/high-pass-setting-dialog.png'; "
+"md5=c3db6590b439a91f14da6705da44a193"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "High Pass"
+msgstr "Högpass"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"In sound processing, a high-pass filter filters high frequencies above a "
+"threshold. In digital images, frequency refers to sudden changes in "
+"brightness or color in neighboring pixels. The High Pass filter filters high"
+" essential details, and larger scale gradients are removed. This result, "
+"combined with the original image and \"Soft Light\" or \"Hard Light\" merge "
+"mode, is used to sharpen images. It enhances fine details."
+msgstr ""
+"Inom ljudbehandling släpper ett högpassfilter igenom frekvenser över en viss"
+" gräns. I digitala bilder motsvarar frekvens plötsliga förändringar i "
+"ljusstyrka eller färg mellan intilliggande bildpunkter. Högpassfiltret "
+"framhäver viktiga högfrekventa detaljer och tar bort större tonövergångar. "
+"Tillsammans med originalbilden och blandningsläget ”Mjukt ljus” eller ”Hårt "
+"ljus” kan resultatet användas för att skärpa bilden och framhäva fina "
+"detaljer."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Enhance</guisubmenu><guimenuitem>High"
+" Pass…</guimenuitem></menuchoice>."
+msgstr ""
+"Detta filter hittas i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Förbättra</guisubmenu><guimenuitem>Högpass…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<quote>High Pass</quote> filter options"
+msgstr "Alternativ för filtret <quote>Högpass</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Increasing this Standard Deviation lowers the filter threshold and more "
+"image details are taken in account for treatment."
+msgstr ""
+"När du ökar standardavvikelsen sänks filtrets tröskelvärde, så att fler "
+"bilddetaljer tas med i behandlingen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Increase/Decrease contrast of treated details."
+msgstr "Öka eller minska kontrasten i de behandlade detaljerna."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Using High Pass Filter"
+msgstr "Använda filtret Högpass"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Sharpening"
+msgstr "Öka skärpa"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Open your image: <placeholder-1/>"
+msgstr "Öppna din bild: <placeholder-1/>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Use the <link linkend=\"gimp-layer-duplicate\">Duplicate layers</link> "
+"command to duplicate your image: <placeholder-1/> This duplicate layer "
+"becomes the active layer."
+msgstr ""
+"Använd kommandot <link linkend=\"gimp-layer-duplicate\">Duplicera "
+"lager</link> för att duplicera din bild: <placeholder-1/> Detta duplicerade "
+"lager blir det aktiva lagret."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Open High Pass filter. <placeholder-1/>"
+msgstr "Öppna filtret Högpass. <placeholder-1/>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Change mode to Soft light (try Hard light also). "
+"<placeholder-1/><placeholder-2/>"
+msgstr ""
+"Ändra läge till Mjukt ljus (pröva även Hårt ljus). "
+"<placeholder-1/><placeholder-2/>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Settings and on-canvas view <placeholder-1/><placeholder-2/>"
+msgstr "Inställningar och vy över ritytan <placeholder-1/><placeholder-2/>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/enhance/despeckle.png'; "
+"md5=2277f0b7c57ae9a9560182ec770b8780"
+msgstr ""
+"@@image: 'images/filters/enhance/despeckle.png'; "
+"md5=2277f0b7c57ae9a9560182ec770b8780"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter is used to remove small defects due to dust, or scratches, on a "
+"scanned image, and also moiré effects on images scanned from a magazine. You"
+" should select isolated defects before applying this filter, in order to "
+"avoid unwanted changes in other areas of your image. The filter replaces "
+"each pixel with the median value of the pixels within the specified radius."
+msgstr ""
+"Använd filtret för att ta bort små dammfläckar och repor i inskannade bilder"
+" samt moirémönster i bilder som skannats från tidningar. Markera enskilda "
+"defekter innan du använder filtret, så påverkas inte andra delar av bilden. "
+"Filtret ersätter varje bildpunkt med medianvärdet för bildpunkterna inom den"
+" angivna radien."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Enhance</guisubmenu><guimenuitem>Despeckle…</guimenuitem></menuchoice>."
+msgstr ""
+"Detta filter hittas i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Förbättra</guisubmenu><guimenuitem>Damm"
+" och repor…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<quote>Despeckle</quote> filter options"
+msgstr "Alternativ för filtret <quote>Damm och repor</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"If checked, parameter setting results are interactively displayed in "
+"preview."
+msgstr ""
+"Om alternativet är markerat visas resultatet av parameterändringar löpande i"
+" förhandsvisningen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Filter Type"
+msgstr "Filtertyp"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The median value of the pixels within the set <guilabel>Radius</guilabel> "
+"around the target pixel is used to replace the target pixel value."
+msgstr ""
+"Medianvärdet av bildpunkterna inom angiven <guilabel>Radie</guilabel> runt "
+"målbildpunkten används för att ersätta målbildpunktens värde."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Adapts the radius to image or selection content by analyzing the histogram "
+"of the region around the target pixel. The adapted radius will always be "
+"equal to or smaller than the specified radius."
+msgstr ""
+"Anpassar radien efter bildens eller markeringens innehåll genom att "
+"analysera histogrammet runt målbildpunkten. Den beräknade radien blir aldrig"
+" större än den angivna radien."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Repeats the Median filter action to get a stronger effect."
+msgstr "Upprepar filteråtgärden Median för att få en starkare effekt."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Repeats the Adaptive filter action to get a stronger effect."
+msgstr "Upprepar filteråtgärden Adaptivt för att få en starkare effekt."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Sets size of action window from 1 (3×3 pixels) to 20 (41×41). This window "
+"moves over the image, and the color in it is smoothed, so imperfections are "
+"removed."
+msgstr ""
+"Ställer in storleken på filterområdet från 1 (3×3 bildpunkter) till 20 "
+"(41×41 bildpunkter). Området flyttas över bilden och jämnar ut färgerna, så "
+"att ojämnheter tas bort."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Only include pixels brighter than the set value in the histogram (-1-255)."
+msgstr ""
+"Inkludera bara bildpunkter som är ljusare än det inställda värdet i "
+"histogrammet (-1–255)."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Only include pixels darker than the set value in the histogram (0-256)."
+msgstr ""
+"Inkludera bara bildpunkter som är mörkare än det inställda värdet i "
+"histogrammet (0–256)."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/enhance/deinterlace-dialog.png'; "
+"md5=2976e8a23f6a960e888e48003e20e508"
+msgstr ""
+"@@image: 'images/filters/enhance/deinterlace-dialog.png'; "
+"md5=2976e8a23f6a960e888e48003e20e508"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/interlaced.png'; "
+"md5=897e555315620edc0b42d47fe8abe103"
+msgstr ""
+"@@image: 'images/filters/examples/interlaced.png'; "
+"md5=897e555315620edc0b42d47fe8abe103"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/deinterlaced-1.png'; "
+"md5=a980b68f7fa9731d709cce755ef17595"
+msgstr ""
+"@@image: 'images/filters/examples/deinterlaced-1.png'; "
+"md5=a980b68f7fa9731d709cce755ef17595"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/examples/deinterlaced-2.png'; "
+"md5=968d2a10f51b22eaa4cb6336b6c98491"
+msgstr ""
+"@@image: 'images/filters/examples/deinterlaced-2.png'; "
+"md5=968d2a10f51b22eaa4cb6336b6c98491"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Images captured by videocards, especially when fast movement is recorded, "
+"may look blurred and striped, with split objects. This is due to how cameras"
+" work. They don't record 25 images per second, but 50, with half vertical "
+"resolution. There are two interlaced images in one frame. First line of "
+"first image is followed by first line of second image followed by second "
+"line of first image, etc. So, if there have been an important move between "
+"the two images, objects will appear split, shifted, striped."
+msgstr ""
+"Videobilder med snabba rörelser kan bli oskarpa och randiga, och objekten "
+"kan se delade ut. Det beror på hur sammanflätad video spelas in: inte som 25"
+" hela bildrutor per sekund, utan som 50 halvbilder med halva den vertikala "
+"upplösningen. Varje bildruta innehåller alltså två sammanflätade halvbilder."
+" Den första raden i den ena halvbilden följs av den första raden i den "
+"andra, sedan av den andra raden i den första och så vidare. Om något hinner "
+"röra sig mycket mellan halvbilderna ser objekten delade, förskjutna och "
+"randiga ut."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The Deinterlace filter keeps only one of both images and replaces missing "
+"lines by a gradient between previous and following lines. The resulting "
+"image, or selection, will be somewhat blurred, but can be improved by "
+"enhance filters."
+msgstr ""
+"Filtret Avflätning behåller bara den ena halvbilden och fyller de saknade "
+"raderna med värden som interpoleras mellan föregående och efterföljande "
+"rader. Resultatet blir något oskarpare, men kan förbättras med "
+"förbättringsfilter."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"You can find interlaced images at <xref linkend=\"bibliography-online-wkpd-"
+"deinterlace\"/>."
+msgstr ""
+"Mer information om sammanflätade bilder finns i <xref "
+"linkend=\"bibliography-online-wkpd-deinterlace\"/>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Enhance</guisubmenu><guimenuitem>Deinterlace…</guimenuitem></menuchoice>."
+msgstr ""
+"Detta filter hittas i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Förbättra</guisubmenu><guimenuitem>Avflätning…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Deinterlace filter options"
+msgstr "Alternativ för filtret Avflätning"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Keep"
+msgstr "Behåll"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This setting lets you choose between <guilabel>Keep even fields</guilabel> "
+"and <guilabel>Keep odd fields</guilabel>. It determines which pixels are "
+"kept and which are removed. Try both options to see which gives the best "
+"results for your image."
+msgstr ""
+"Här väljer du mellan <guilabel>Behåll jämna fält</guilabel> och "
+"<guilabel>Behåll udda fält</guilabel>. Valet avgör vilka bildpunkter som "
+"behålls och vilka som tas bort. Prova båda alternativen och se vilket som "
+"ger bäst resultat för bilden."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This setting lets you choose between deinterlacing "
+"<guilabel>Horizontal</guilabel> or <guilabel>Vertical</guilabel> lines."
+msgstr ""
+"Här väljer du om avflätningen ska gälla <guilabel>Horisontell</guilabel> "
+"eller <guilabel>Vertikal</guilabel> riktning."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Block size"
+msgstr "Blockstorlek"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "This option lets you set the size of the deinterlaced rows or columns."
+msgstr ""
+"Detta alternativ låter dig välja storleken på de avflätade raderna eller "
+"kolumnerna."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Simple applying example for the Deinterlace filter"
+msgstr "Enkelt exempel på hur filtret Avflätning används"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Top: even lines pixels are shifted by one pixel to the right. Bottom: one "
+"line is missing. These images are zoomed to show pixels."
+msgstr ""
+"Överst: bildpunkterna i de jämna raderna har förskjutits en bildpunkt åt "
+"höger. Nederst: en rad saknas. Bilderna är förstorade så att bildpunkterna "
+"syns."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<quote>Keep even fields</quote> selected. Top: odd lines have been shifted "
+"to the right, to align themselves with the even lines. Bottom: the empty "
+"line has been filled with red."
+msgstr ""
+"<quote>Behåll jämna fält</quote> valt. Överst: udda rader har skiftats till "
+"höger så att de justerats mot de jämna raderna. Nederst: den tomma raden har"
+" fyllts i med rött."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<quote>Keep odd fields</quote> selected. Top: even lines have been shifted "
+"to the left, to align themselves with the odd lines. Bottom: the empty line "
+"persists, but joins up and down through a gradient."
+msgstr ""
+"<quote>Behåll udda fält</quote> är valt. Överst: de jämna raderna har "
+"förskjutits åt vänster så att de ligger i linje med de udda raderna. "
+"Nederst: den tomma raden finns kvar, men kopplas samman med raderna ovanför "
+"och nedanför genom en toning."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/enhance/antialias-orig.png'; "
+"md5=f689b9ee7fda4ef31c86eca64ad2db90"
+msgstr ""
+"@@image: 'images/filters/enhance/antialias-orig.png'; "
+"md5=f689b9ee7fda4ef31c86eca64ad2db90"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/enhance/antialias-applied.png'; "
+"md5=fe250d798a78a29d5f87118a13dde56a"
+msgstr ""
+"@@image: 'images/filters/enhance/antialias-applied.png'; "
+"md5=fe250d798a78a29d5f87118a13dde56a"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Anti-alias"
+msgstr "Kantutjämning"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter reduces alias effects (see <link linkend=\"glossary-"
+"antialiasing\">Anti-aliasing</link>) using the Scale3X edge-extrapolation "
+"algorithm."
+msgstr ""
+"Filtret minskar aliasfenomen (se <link linkend=\"glossary-"
+"antialiasing\">kantutjämning</link>) med kantextrapoleringsalgoritmen "
+"Scale3X."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<xref linkend=\"bibliography-online-scale2x\"/>."
+msgstr "<xref linkend=\"bibliography-online-scale2x\"/>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<xref linkend=\"bibliography-online-advancemame\"/>."
+msgstr "<xref linkend=\"bibliography-online-advancemame\"/>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Scale3X is derived from Scale2X, which is a graphics effect to increase the "
+"size of small bitmaps guessing the missing pixels without interpolating "
+"pixels and blurring the images.<placeholder-1/> Scale2X was originally "
+"developed to improve the quality of old Arcade and PC games with a low video"
+" resolution played with video hardware like TVs, Arcade monitors, PC "
+"monitors and LCD screens.<placeholder-2/>"
+msgstr ""
+"Scale3X bygger på Scale2X, en grafikeffekt som förstorar små bitmapbilder "
+"genom att räkna ut saknade bildpunkter utan att interpolera dem och göra "
+"bilden oskarp.<placeholder-1/> Scale2X utvecklades ursprungligen för att "
+"förbättra grafiken i äldre arkad- och PC-spel med låg upplösning, som "
+"visades på tv-apparater, arkadskärmar, datorskärmar och LCD-"
+"skärmar.<placeholder-2/>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The Antialias filter works as follows: for every pixel, the filter expands "
+"the original pixel in 9 (3×3) new pixels according to the Scale3X algorithm,"
+" using the colors of the pixel and its 8 adjacent pixels (extrapolation); "
+"then it subsamples the new pixels to a weighted average pixel."
+msgstr ""
+"Filtret Kantutjämning fungerar så här: för varje bildpunkt skapar det ett "
+"3×3-block med nio bildpunkter enligt Scale3X-algoritmen, baserat på "
+"originalbildpunkten och dess åtta grannar (extrapolering). Därefter minskar "
+"filtret blocket till en bildpunkt genom att beräkna ett viktat medelvärde."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Enhance</guisubmenu><guimenuitem>Antialias</guimenuitem></menuchoice>."
+msgstr ""
+"Detta filter hittas i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Förbättra</guisubmenu><guimenuitem>Kantutjämning</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The following examples illustrate the effect on some patterns. The small "
+"squares are one pixel in size (zoom 16:1)."
+msgstr ""
+"Följande exempel illustrerar effekten på några mönster. De små kvadraterna "
+"är en bildpunkt stora (zoom 16:1)."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Original image (zoom 16:1)"
+msgstr "Ursprunglig bild (zoom 16:1)"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<quote>Antialias</quote> applied (zoom 16:1)"
+msgstr "<quote>Kantutjämning</quote> tillämpat (zoom 16:1)"
