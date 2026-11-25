@@ -52,3 +52,4 @@ Technical names in batch 102:
 - **Sun raster**, **Scalable Vector Graphics**, and the listed image-format abbreviations — standard format names and identifiers retained in the help text.
 - Batch 104 (Gnumeric image saving): `Gnumeric` is the application name; `PNG` is a standard image format.
 - Batch 105 (deleting images and GUI components): `Gnumeric` is the application name.
+- Batch 108 (checkboxes): `TRUE` and `FALSE` are Gnumeric Boolean literals kept exactly as source identifiers; `Gnumeric` is the application name.

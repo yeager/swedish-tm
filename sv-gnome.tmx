@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T115236Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T115441Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -601374,6 +601374,56 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The word displayed in the frame can be altered by typing new text in the textbox next to the word "Label".</seg></tuv>
       <tuv xml:lang="sv"><seg>Du kan ändra texten som visas i ramen genom att skriva ny text i textrutan bredvid ordet ”Etikett”.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Checkboxes.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kryssrutor.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Checkboxes are widgets which allow a user to visually see the state of an entity, whether it is checked or not, and tie this state to the truth value of a Boolean cell, "TRUE" if the checkbox is checked and "FALSE" the checkbox is not. The check box can be used to alter the value of a cell, which will alter any other cells whose values are computed based on the dependent cell. This provides a simple way to alter a whole series of computations.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kryssrutor är gränssnittskomponenter som visar om ett objekt är markerat och kopplar detta till det logiska värdet i en boolesk cell: ”TRUE” om rutan är markerad och ”FALSE” om den inte är det. Du kan använda kryssrutan för att ändra cellens värde, vilket i sin tur påverkar andra celler vars värden beräknas utifrån den. På så sätt kan du enkelt ändra en hel serie beräkningar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A checkbox widget.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En kryssruta.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/widget-checkbox.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; An image of a checkbox widget. &lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/widget-checkbox.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av en kryssruta.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The properties of the checkbox can be altered with the &lt;guimenuitem&gt;Properties&lt;/guimenuitem&gt; menu item in the context menu which appears when the mouse cursor is placed over the checkbox and one of the secondary mouse buttons is pressed.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan ändra kryssrutans egenskaper med menyalternativet &lt;guimenuitem&gt;Egenskaper&lt;/guimenuitem&gt; i snabbmenyn. Öppna menyn genom att föra muspekaren över kryssrutan och trycka på en sekundär musknapp.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Checkboxes have two properties which can be configured: the worksheet cell whose value will be altered by clicking in the checkbox and the text displayed on the checkbox.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kryssrutor har två inställningar: cellen i kalkylbladet vars värde ändras när du klickar på rutan och texten som visas bredvid den.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configuration dialog for checkbox properties.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan för kryssrutans egenskaper.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/dialog-properties-checkbox.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; An image of the dialog used to configure checkbox widget elements. &lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/dialog-properties-checkbox.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av dialogrutan för att konfigurera kryssrutor.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The "Link to:" field allows the user to select a cell that will be changed in response to changes in the state of the widget. A user can type the name of a cell in the text box or may click in the text box to activate it and then click on the worksheet to select the desired cell and &lt;application&gt;Gnumeric&lt;/application&gt; will automatically add a reference to the cell.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I fältet ”Länka till:” väljer du en cell vars värde ska ändras när komponentens tillstånd ändras. Skriv cellens namn i textrutan eller klicka i den och välj sedan cellen i kalkylbladet. &lt;application&gt;Gnumeric&lt;/application&gt; lägger då automatiskt till en referens till cellen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The "Label" field accepts a text value which will appear next to the checkbox. This text can indicate what the checkbox field alters, for instance in &lt;xref linkend="fig-gnumeric-graphics-widgets-checkbox-example"/&gt; the checkbox could be used to alter a series of calculations, between including interest or excluding it, from the computation.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I fältet ”Etikett” skriver du texten som ska visas bredvid kryssrutan. Texten kan ange vad rutan ändrar. I &lt;xref linkend="fig-gnumeric-graphics-widgets-checkbox-example"/&gt; kan kryssrutan till exempel styra om en serie beräkningar ska inkludera ränta eller inte.</seg></tuv>
     </tu>
   </body>
 </tmx>
