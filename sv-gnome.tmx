@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T132216Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T132418Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -603204,6 +603204,26 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Click on the &lt;guibutton&gt;Finish&lt;/guibutton&gt; button.</seg></tuv>
       <tuv xml:lang="sv"><seg>Klicka på knappen &lt;guibutton&gt;Slutför&lt;/guibutton&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This explanation of the &lt;interface&gt;Text Import&lt;/interface&gt; druid will first start with a discussion of text files including character encodings and line break delimiters. The explanation will then cover the various strategies used to structure numeric data in text files. Following these discussions, the components of the druid will be presented and, finally, a detailed explanation of each step in the use of the druid will be presented.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Avsnittet börjar med en genomgång av textfiler, teckenkodningar och radbrytningar. Därefter beskrivs olika sätt att strukturera numeriska data i textfiler. Sedan presenteras delarna i guiden &lt;interface&gt;Textimport&lt;/interface&gt; och till sist förklaras varje steg i detalj.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The complexities of text format files</seg></tuv>
+      <tuv xml:lang="sv"><seg>Textfilernas komplexitet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The use of text format files to store and transmit data for use in a spreadsheet involves three somewhat complex decisions which determine how the file expresses and separates each data value. These complexities must be understood for a user to be able to use the &lt;interface&gt;Text Import&lt;/interface&gt; druid effectively. These complexities exist because of the limitations of early computers and because or the historical development of computer systems by different manufacturers and programmers, in different countries, targeting different types of users, speaking different languages.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När textfiler används för att lagra och överföra data till kalkylblad behöver tre ganska komplicerade val göras. De avgör hur varje datavärde skrivs och avgränsas. Du behöver förstå dessa delar för att kunna använda guiden &lt;interface&gt;Textimport&lt;/interface&gt; effektivt. Komplexiteten beror dels på begränsningarna hos tidiga datorer, dels på att datorsystem har utvecklats på olika sätt av olika tillverkare och programmerare, i olika länder och för användare med olika språk.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The first complexity involves the different systems which relate the contents of a computer file to the characters in a written language. All text files on a computer consist of a long sequence of binary digits. Text files are files in which these digits are used to indicate different textual characters. Character 'encodings' are standardized systems which relate the binary digits in a computer file to a formal system of characters which includes both text glyphs (shapes) and formatting indicators. Each encoding defines a way to interpret the binary digits and uses the characters from a particular character set. The alternative character encoding strategies are explained in greater detail in &lt;xref linkend="sect-file-textImport-complex-encoding"/&gt;, below.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den första utmaningen är hur olika system kopplar innehållet i en datorfil till tecknen i ett skriftspråk. Alla textfiler består av långa följder av binära siffror, som används för att representera olika tecken. Teckenkodningar är standardiserade system som kopplar siffrorna i filen till en formell teckenuppsättning med både texttecken och formateringstecken. Varje kodning anger hur siffrorna ska tolkas och bygger på en viss teckenuppsättning. Olika sätt att koda tecken förklaras närmare i &lt;xref linkend="sect-file-textImport-complex-encoding"/&gt; nedan.</seg></tuv>
     </tu>
   </body>
 </tmx>
