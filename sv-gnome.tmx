@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T070107Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T070606Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596139,6 +596139,81 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>In an unusual case where it is needed, an error can be entered by hand like the entry of other elements. First the cell must be selected, then the error must be entered (e.g. #DIV/0!) and finally the &lt;keysym&gt;Enter&lt;/keysym&gt; key must be pressed.</seg></tuv>
       <tuv xml:lang="sv"><seg>I ovanliga fall kan du behöva mata in ett fel manuellt, på samma sätt som andra värden. Markera cellen, skriv felet (till exempel #DIV/0!) och tryck på &lt;keysym&gt;Enter&lt;/keysym&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This section describes advanced methods for data entry in &lt;application&gt;Gnumeric&lt;/application&gt;. This includes techniques useful when adding large amounts of data, methods to automatically catch mistakes during data entry, using pre-defined templates to format data input, obtaining data from external sources and generating sequences of random numbers with defined distributions.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I det här avsnittet beskrivs avancerade metoder för att mata in data i &lt;application&gt;Gnumeric&lt;/application&gt;. Här ingår tekniker för att lägga till stora datamängder, automatiskt upptäcka inmatningsfel, formatera data med fördefinierade mallar, hämta data från externa källor och skapa slumpmässiga talserier med angivna fördelningar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>It is sometimes necessary to enter large amounts of data by hand into a spreadsheet. To facilitate this work, &lt;application&gt;Gnumeric&lt;/application&gt; provides several techniques to facilitate the entry of large amounts of data.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ibland behöver stora datamängder matas in manuellt i ett kalkylblad. &lt;application&gt;Gnumeric&lt;/application&gt; har flera tekniker som underlättar sådan inmatning.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If data are to be entered into a series of rows or columns, this region can be selected ahead of time thereby modifying the behaviour of the data entry keys (the &lt;keysym&gt;Enter&lt;/keysym&gt;, &lt;keysym&gt;Tab&lt;/keysym&gt; and arrow keys).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du ska mata in data i en serie rader eller kolumner kan du markera området i förväg. Då ändras beteendet hos tangenterna för datainmatning (&lt;keysym&gt;Enter&lt;/keysym&gt;, &lt;keysym&gt;Tab&lt;/keysym&gt; och piltangenterna).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select the region with the mouse. For example, the region from cell C4 to cell E8 can be selected by clicking with the left mouse button on cell C4 and dragging the mouse cursor to cell E8. (More information on complex selections is presented below.)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markera området med musen. Till exempel kan området från cell C4 till cell E8 markeras genom att klicka med vänster musknapp på cell C4 och dra muspekaren till cell E8. (Mer information om komplicerade markeringar finns nedan.)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Enter data by typing the data and the &lt;keysym&gt;Enter&lt;/keysym&gt; key. If this is done repeatedly, the fifth time the &lt;keysym&gt;Enter&lt;/keysym&gt; key is pressed, the selection will not move to cell C9 but will jump up to cell D4.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skriv in data och tryck på &lt;keysym&gt;Enter&lt;/keysym&gt;. Om du upprepar detta flyttas markeringen, när du trycker på &lt;keysym&gt;Enter&lt;/keysym&gt; femte gången, inte till cell C9 utan tillbaka till cell D4.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;keysym&gt;Tab&lt;/keysym&gt; key can also be used instead of the &lt;keysym&gt;Enter&lt;/keysym&gt; key to move sequentially through the selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också använda &lt;keysym&gt;Tab&lt;/keysym&gt; i stället för &lt;keysym&gt;Enter&lt;/keysym&gt; för att flytta stegvis genom markeringen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>It is often necessary to enter a regular sequence of numbers or a repeated sequence of text. &lt;application&gt;Gnumeric&lt;/application&gt; provides several ways to input series and sequences of this kind.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan behöva mata in en regelbunden talföljd eller upprepa samma text flera gånger. &lt;application&gt;Gnumeric&lt;/application&gt; erbjuder flera sätt att mata in sådana serier och följder.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The simplest way to fill a series with the same element repeated involves entering the element once and dragging the selection box to fill that element repeatedly. For example, the text "employee:" could be input into cell C2. That cell could then be selected. The selection box is a thick white rectangle which surrounds the cell. This selection box has a small white square at the bottom right hand corner. If the mouse cursor is placed above this square box, it changes to a thin cross. If the left hand mouse button is clicked and held, and the mouse dragged to cell C10, &lt;application&gt;Gnumeric&lt;/application&gt; will automatically fill all of the cells with the identical string.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det enklaste sättet att fylla en serie med samma värde är att mata in värdet en gång och dra markeringsrutan för att upprepa det. Skriv till exempel texten ”employee:” i cell C2 och markera sedan cellen. Markeringsrutan är en tjock vit rektangel runt cellen med en liten vit ruta i det nedre högra hörnet. När du för muspekaren över den lilla rutan ändras pekaren till ett tunt kors. Håll ned vänster musknapp och dra till cell C10. Då fyller &lt;application&gt;Gnumeric&lt;/application&gt; automatiskt cellerna med samma text.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>An alternative way to enter data into a region involves first selecting the region, then typing the value and finally typing the &lt;keycombo&gt;&lt;keysym&gt;Ctrl&lt;/keysym&gt;&lt;keysym&gt;Enter&lt;/keysym&gt;&lt;/keycombo&gt; key combination. This will fill the whole region with the identical value which was originally entered.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också markera området först, skriva värdet och sedan trycka på &lt;keycombo&gt;&lt;keysym&gt;Ctrl&lt;/keysym&gt;&lt;keysym&gt;Enter&lt;/keysym&gt;&lt;/keycombo&gt;. Då fylls hela området med det angivna värdet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A similar method is available to fill sequences of integers. If the example just given was altered so that cell C2 had the number 14 and the &lt;keysym&gt;Ctrl&lt;/keysym&gt; key was held during the dragging of the selection, &lt;application&gt;Gnumeric&lt;/application&gt; will automatically fill the cells C2 to C10 with the series 14,15,16,...,22.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan på liknande sätt fylla en talserie med heltal. Om du i exemplet ovan skriver 14 i C2 och håller ned &lt;keysym&gt;Ctrl&lt;/keysym&gt; medan du drar markeringen, fyller &lt;application&gt;Gnumeric&lt;/application&gt; automatiskt cellerna C2 till C10 med serien 14, 15, 16, …, 22.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>More complex series and sequences of data can be entered with a similar mechanism.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan även mata in mer komplicerade serier och följder på liknande sätt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Enter a value into the first cell you wish to autofill. For example, the cell C2 could have the number "24" entered.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange ett värde i den första cellen som ska fyllas automatiskt. Skriv till exempel talet 24 i C2.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Enter a second value into the second cell you wish to autofill. This must be adjacent to the first cell. This sets the increment to use when autofilling the rest of your cells. For example, the cell D2 could have the number "28" entered.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange ett andra värde i cellen intill den första. Det anger steglängden som används när de återstående cellerna fylls automatiskt. Skriv till exempel talet 28 i D2.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select both the cells just entered. At the bottom-right of the selection should be a small box. Your mouse cursor will change to a cross-hair when placed over the box. Press and hold on the box. Drag in the direction, either vertical or horizontal, you wish to increment and release when all the cells are filled. For example, selecting cells C2 and D2, then dragging the bottom right of the selection to cell I2 will fill the cells with the sequence from 24 to 48 with each increment being 4.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markera båda cellerna. Längst ned till höger på markeringen finns en liten ruta. När du för muspekaren över rutan ändras den till ett hårkors. Håll musknappen nedtryckt på rutan, dra lodrätt eller vågrätt för att utöka serien och släpp när alla celler har fyllts. Om du markerar C2 och D2 och drar markeringens nedre högra hörn till I2 fylls cellerna med värdena 24 till 48 i steg om 4.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>An alternative to the last step involves using the menus. Once the first two values have been input, the whole range to be filled can be selected using the mouse and then the &lt;guimenuitem&gt;Autofill&lt;/guimenuitem&gt; selection can be made from the &lt;guimenu&gt;Edit&lt;/guimenu&gt; and &lt;guisubmenu&gt;Fill&lt;/guisubmenu&gt;. This will automatically complete the series in the selected region.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I stället för det sista steget kan du använda menyerna. När de två första värdena har matats in markerar du hela området som ska fyllas och väljer &lt;guimenuitem&gt;Autofyll&lt;/guimenuitem&gt; under &lt;guimenu&gt;Redigera&lt;/guimenu&gt; → &lt;guisubmenu&gt;Fyll&lt;/guisubmenu&gt;. Då kompletteras serien automatiskt i det markerade området.</seg></tuv>
     </tu>
   </body>
 </tmx>

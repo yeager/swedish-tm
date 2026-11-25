@@ -1,0 +1,202 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:4
+msgid ""
+"This section describes advanced methods for data entry in "
+"<application>Gnumeric</application>. This includes techniques useful when "
+"adding large amounts of data, methods to automatically catch mistakes during"
+" data entry, using pre-defined templates to format data input, obtaining "
+"data from external sources and generating sequences of random numbers with "
+"defined distributions."
+msgstr ""
+"I det här avsnittet beskrivs avancerade metoder för att mata in data i "
+"<application>Gnumeric</application>. Här ingår tekniker för att lägga till "
+"stora datamängder, automatiskt upptäcka inmatningsfel, formatera data med "
+"fördefinierade mallar, hämta data från externa källor och skapa slumpmässiga"
+" talserier med angivna fördelningar."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:16
+msgid ""
+"It is sometimes necessary to enter large amounts of data by hand into a "
+"spreadsheet. To facilitate this work, <application>Gnumeric</application> "
+"provides several techniques to facilitate the entry of large amounts of "
+"data."
+msgstr ""
+"Ibland behöver stora datamängder matas in manuellt i ett kalkylblad. "
+"<application>Gnumeric</application> har flera tekniker som underlättar sådan"
+" inmatning."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:23
+msgid ""
+"If data are to be entered into a series of rows or columns, this region can "
+"be selected ahead of time thereby modifying the behaviour of the data entry "
+"keys (the <keysym>Enter</keysym>, <keysym>Tab</keysym> and arrow keys)."
+msgstr ""
+"Om du ska mata in data i en serie rader eller kolumner kan du markera "
+"området i förväg. Då ändras beteendet hos tangenterna för datainmatning "
+"(<keysym>Enter</keysym>, <keysym>Tab</keysym> och piltangenterna)."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:34
+msgid ""
+"Select the region with the mouse. For example, the region from cell C4 to "
+"cell E8 can be selected by clicking with the left mouse button on cell C4 "
+"and dragging the mouse cursor to cell E8. (More information on complex "
+"selections is presented below.)"
+msgstr ""
+"Markera området med musen. Till exempel kan området från cell C4 till cell "
+"E8 markeras genom att klicka med vänster musknapp på cell C4 och dra "
+"muspekaren till cell E8. (Mer information om komplicerade markeringar finns "
+"nedan.)"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:44
+msgid ""
+"Enter data by typing the data and the <keysym>Enter</keysym> key. If this is"
+" done repeatedly, the fifth time the <keysym>Enter</keysym> key is pressed, "
+"the selection will not move to cell C9 but will jump up to cell D4."
+msgstr ""
+"Skriv in data och tryck på <keysym>Enter</keysym>. Om du upprepar detta "
+"flyttas markeringen, när du trycker på <keysym>Enter</keysym> femte gången, "
+"inte till cell C9 utan tillbaka till cell D4."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:56
+msgid ""
+"The <keysym>Tab</keysym> key can also be used instead of the "
+"<keysym>Enter</keysym> key to move sequentially through the selection."
+msgstr ""
+"Du kan också använda <keysym>Tab</keysym> i stället för "
+"<keysym>Enter</keysym> för att flytta stegvis genom markeringen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:71
+msgid ""
+"It is often necessary to enter a regular sequence of numbers or a repeated "
+"sequence of text. <application>Gnumeric</application> provides several ways "
+"to input series and sequences of this kind."
+msgstr ""
+"Du kan behöva mata in en regelbunden talföljd eller upprepa samma text flera"
+" gånger. <application>Gnumeric</application> erbjuder flera sätt att mata in"
+" sådana serier och följder."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:78
+msgid ""
+"The simplest way to fill a series with the same element repeated involves "
+"entering the element once and dragging the selection box to fill that "
+"element repeatedly. For example, the text \"employee:\" could be input into "
+"cell C2. That cell could then be selected. The selection box is a thick "
+"white rectangle which surrounds the cell. This selection box has a small "
+"white square at the bottom right hand corner. If the mouse cursor is placed "
+"above this square box, it changes to a thin cross. If the left hand mouse "
+"button is clicked and held, and the mouse dragged to cell C10, "
+"<application>Gnumeric</application> will automatically fill all of the cells"
+" with the identical string."
+msgstr ""
+"Det enklaste sättet att fylla en serie med samma värde är att mata in värdet"
+" en gång och dra markeringsrutan för att upprepa det. Skriv till exempel "
+"texten ”employee:” i cell C2 och markera sedan cellen. Markeringsrutan är en"
+" tjock vit rektangel runt cellen med en liten vit ruta i det nedre högra "
+"hörnet. När du för muspekaren över den lilla rutan ändras pekaren till ett "
+"tunt kors. Håll ned vänster musknapp och dra till cell C10. Då fyller "
+"<application>Gnumeric</application> automatiskt cellerna med samma text."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:93
+msgid ""
+"An alternative way to enter data into a region involves first selecting the "
+"region, then typing the value and finally typing the "
+"<keycombo><keysym>Ctrl</keysym><keysym>Enter</keysym></keycombo> key "
+"combination. This will fill the whole region with the identical value which "
+"was originally entered."
+msgstr ""
+"Du kan också markera området först, skriva värdet och sedan trycka på "
+"<keycombo><keysym>Ctrl</keysym><keysym>Enter</keysym></keycombo>. Då fylls "
+"hela området med det angivna värdet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:102
+msgid ""
+"A similar method is available to fill sequences of integers. If the example "
+"just given was altered so that cell C2 had the number 14 and the "
+"<keysym>Ctrl</keysym> key was held during the dragging of the selection, "
+"<application>Gnumeric</application> will automatically fill the cells C2 to "
+"C10 with the series 14,15,16,...,22."
+msgstr ""
+"Du kan på liknande sätt fylla en talserie med heltal. Om du i exemplet ovan "
+"skriver 14 i C2 och håller ned <keysym>Ctrl</keysym> medan du drar "
+"markeringen, fyller <application>Gnumeric</application> automatiskt cellerna"
+" C2 till C10 med serien 14, 15, 16, …, 22."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:111
+msgid ""
+"More complex series and sequences of data can be entered with a similar "
+"mechanism."
+msgstr ""
+"Du kan även mata in mer komplicerade serier och följder på liknande sätt."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:122
+msgid ""
+"Enter a value into the first cell you wish to autofill. For example, the "
+"cell C2 could have the number \"24\" entered."
+msgstr ""
+"Ange ett värde i den första cellen som ska fyllas automatiskt. Skriv till "
+"exempel talet 24 i C2."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:130
+msgid ""
+"Enter a second value into the second cell you wish to autofill. This must be"
+" adjacent to the first cell. This sets the increment to use when autofilling"
+" the rest of your cells. For example, the cell D2 could have the number "
+"\"28\" entered."
+msgstr ""
+"Ange ett andra värde i cellen intill den första. Det anger steglängden som "
+"används när de återstående cellerna fylls automatiskt. Skriv till exempel "
+"talet 28 i D2."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:140
+msgid ""
+"Select both the cells just entered. At the bottom-right of the selection "
+"should be a small box. Your mouse cursor will change to a cross-hair when "
+"placed over the box. Press and hold on the box. Drag in the direction, "
+"either vertical or horizontal, you wish to increment and release when all "
+"the cells are filled. For example, selecting cells C2 and D2, then dragging "
+"the bottom right of the selection to cell I2 will fill the cells with the "
+"sequence from 24 to 48 with each increment being 4."
+msgstr ""
+"Markera båda cellerna. Längst ned till höger på markeringen finns en liten "
+"ruta. När du för muspekaren över rutan ändras den till ett hårkors. Håll "
+"musknappen nedtryckt på rutan, dra lodrätt eller vågrätt för att utöka "
+"serien och släpp när alla celler har fyllts. Om du markerar C2 och D2 och "
+"drar markeringens nedre högra hörn till I2 fylls cellerna med värdena 24 "
+"till 48 i steg om 4."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:154
+msgid ""
+"An alternative to the last step involves using the menus. Once the first two"
+" values have been input, the whole range to be filled can be selected using "
+"the mouse and then the <guimenuitem>Autofill</guimenuitem> selection can be "
+"made from the <guimenu>Edit</guimenu> and <guisubmenu>Fill</guisubmenu>. "
+"This will automatically complete the series in the selected region."
+msgstr ""
+"I stället för det sista steget kan du använda menyerna. När de två första "
+"värdena har matats in markerar du hela området som ska fyllas och väljer "
+"<guimenuitem>Autofyll</guimenuitem> under <guimenu>Redigera</guimenu> → "
+"<guisubmenu>Fyll</guisubmenu>. Då kompletteras serien automatiskt i det "
+"markerade området."
