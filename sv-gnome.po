@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 124559
+# Entries: 124612
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -48133,6 +48133,7 @@ msgstr "Ansträng"
 #. from gnome:reviewed/chronojump/master
 #. from gnome:reviewed/gfeeds/master
 #. from gnome:reviewed/gnome-commander/main
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Filter"
 msgstr "Filter"
 
@@ -287085,6 +287086,7 @@ msgid "<primary>Character Map</primary>"
 msgstr "<primary>Teckentabell</primary>"
 
 #. from gnome:reviewed/gucharmap/unicode-11
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Introduction"
 msgstr "Introduktion"
 
@@ -366685,7 +366687,7 @@ msgstr "Alternativ för animerad GIF"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Animation"
-msgstr "Animering"
+msgstr "Animation"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Animated GIF options"
@@ -442385,8 +442387,8 @@ msgid ""
 "See <link linkend=\"gimp-using-layer-effects\">Using Layer Effects</link> "
 "for more details."
 msgstr ""
-"Se <link linkend=\"gimp-using-layer-effects\">Använda lagereffekter</link> "
-"för mer detaljer."
+"Mer information finns i <link linkend=\"gimp-using-layer-effects\">Använda "
+"lagereffekter</link>."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Size and boundaries"
@@ -620495,3 +620497,362 @@ msgstr ""
 "Det aktiva lagret och dess röda, gröna och blå histogram efter "
 "<quote>Förbättra färger</quote>. Resultatet blir kanske inte alltid som "
 "väntat."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Web Filters"
+msgstr "Webbfilter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Web filters are mostly used on images intended for web sites. The filter "
+"<link linkend=\"plug-in-imagemap\">Image Map</link> is used to add clickable"
+" <quote>hot spots</quote> on the image. The filter <link linkend=\"gimp-"
+"filter-semi-flatten\">Semi-Flatten</link> is used to simulate semi-"
+"transparency in image formats without alpha channel."
+msgstr ""
+"Webbfilter används oftast för bilder som ska visas på webbplatser. Filtret "
+"<link linkend=\"plug-in-imagemap\">Bildkarta</link> lägger till klickbara "
+"<quote>aktiva områden</quote> i bilden. Filtret <link linkend=\"gimp-filter-"
+"semi-flatten\">Halvutplattning</link> simulerar halvgenomskinlighet i "
+"bildformat som saknar alfakanal."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Rendering Filters"
+msgstr "Renderingsfilter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Noise Filters"
+msgstr "Brusfilter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Map Filters"
+msgstr "Mappningsfilter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Light and Shadow Filters"
+msgstr "Ljus- och skuggfilter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"A filter is a special kind of tool designed to take an input layer or image,"
+" apply a mathematical algorithm to it, and return the input layer or image "
+"in a modified format. <acronym>GIMP</acronym> uses filters to achieve a "
+"variety of effects and those effects are discussed here."
+msgstr ""
+"Ett filter är ett särskilt slags verktyg som tar ett lager eller en bild som"
+" indata, tillämpar en matematisk algoritm och lämnar tillbaka lagret eller "
+"bilden i ändrat skick. <acronym>GIMP</acronym> använder filter för många "
+"olika effekter, som beskrivs här."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "The filters are divided into several categories:"
+msgstr "Filtren är indelade i flera kategorier:"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Euclidean"
+msgstr "Euklidisk"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "The distance is a straight line."
+msgstr "Avståndet är en rät linje."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The distance is the sum of the one-dimensional distances along the X and Y "
+"axes."
+msgstr ""
+"Avståndet är summan av de endimensionella avstånden längs X- och Y-axlarna."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Chebyshev"
+msgstr "Tjebysjov"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The distance is the maximum of the one-dimensional distances along the X and"
+" Y axes."
+msgstr ""
+"Avståndet är det största av de endimensionella avstånden längs X- och "
+"Y-axlarna."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Generic Filters"
+msgstr "Allmänna filter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Enhance Filters"
+msgstr "Förbättringsfilter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Edge-Detect Filters"
+msgstr "Kantdetekteringsfilter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Distort Filters"
+msgstr "Förvrängningsfilter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Decor Filters"
+msgstr "Dekorationsfilter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/common/filter-options-common.png'; "
+"md5=612c6ba884c13c30acb7c4aa175219b8"
+msgstr ""
+"@@image: 'images/filters/common/filter-options-common.png'; "
+"md5=612c6ba884c13c30acb7c4aa175219b8"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/common/filter-options-common-clipping.png'; "
+"md5=839aadb483a421ad894a346ec394428f"
+msgstr ""
+"@@image: 'images/filters/common/filter-options-common-clipping.png'; "
+"md5=839aadb483a421ad894a346ec394428f"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/stock-icons/list-add.svg'; "
+"md5=a6b02423b2bdb765e759b91c2ee4f304"
+msgstr ""
+"@@image: 'images/stock-icons/list-add.svg'; "
+"md5=a6b02423b2bdb765e759b91c2ee4f304"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/use_selection_only.jpg'; "
+"md5=1169bd72569d30d1005c03fe3821b908"
+msgstr ""
+"@@image: 'images/filters/use_selection_only.jpg'; "
+"md5=1169bd72569d30d1005c03fe3821b908"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"@@image: 'images/filters/use_entire_layer.jpg'; "
+"md5=1251cb22b4609bd1ce8570f79dd81c1e"
+msgstr ""
+"@@image: 'images/filters/use_entire_layer.jpg'; "
+"md5=1251cb22b4609bd1ce8570f79dd81c1e"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Most filters are <acronym>GEGL</acronym> filters. <acronym>GEGL</acronym> is"
+" the image processing library used by <acronym>GIMP</acronym>. These filters"
+" have several options in common, some of which are only shown under certain "
+"conditions."
+msgstr ""
+"De flesta filter använder <acronym>GEGL</acronym>. <acronym>GEGL</acronym> "
+"är bildbehandlingsbiblioteket som används av <acronym>GIMP</acronym>. "
+"Filtren har flera gemensamma alternativ, varav några bara visas under vissa "
+"förutsättningar."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Common Options of GEGL Filters"
+msgstr "Gemensamma alternativ för GEGL-filter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "When a selection is active"
+msgstr "När en markering är aktiv"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"(Note that <guilabel>Strength</guilabel> is not a common option but an "
+"option of the depicted <guilabel>Noise Reduction</guilabel> filter.)"
+msgstr ""
+"(Observera att <guilabel>Styrka</guilabel> inte är ett gemensamt alternativ,"
+" utan hör till det visade filtret <guilabel>Brusreducering</guilabel>.)"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "When the active layer has an alpha channel and no selection is active"
+msgstr "När det aktiva lagret har en alfakanal och ingen markering är aktiv"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Filter presets are similar to tool presets, in that you can save your "
+"favorite settings and recall them when needed. They consist of:"
+msgstr ""
+"Filterförinställningar fungerar ungefär som verktygsförinställningar: du kan"
+" spara inställningar du använder ofta och välja dem igen vid behov. De "
+"består av följande:"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"A <emphasis role=\"bold\">drop-down list</emphasis> that shows the current "
+"preset and lets you choose a different one."
+msgstr ""
+"En <emphasis role=\"bold\">rullgardinslista</emphasis> som visar den "
+"aktuella förinställningen och låter dig välja en annan."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<placeholder-1/> An icon to save the current settings as a named preset."
+msgstr ""
+"<placeholder-1/> En ikon för att spara de aktuella inställningarna som en "
+"namngiven förinställning."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<placeholder-1/> An icon that opens a menu with options to import presets "
+"from a file, export the current presets to a file, and manage presets."
+msgstr ""
+"<placeholder-1/> En ikon som öppnar en meny där du kan importera "
+"förinställningar från en fil, exportera de aktuella förinställningarna till "
+"en fil och hantera förinställningarna."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The input type drop-down list is only visible when a selection is active."
+msgstr ""
+"Rullgardinslistan för indatatyp visas bara när det finns en aktiv markering."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<guilabel>Use the selection as input</guilabel> If this option is selected, "
+"the filter only uses pixels inside the selection as input for the filter."
+msgstr ""
+"<guilabel>Använd markeringen som indata</guilabel> Om du väljer det här "
+"alternativet använder filtret bara bildpunkterna i markeringen som indata."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<guilabel>Use the entire layer as input</guilabel> If this option is "
+"selected, the input of the filter is the entire layer. The output will only "
+"affect the selection. The layer outside the selection remains unchanged."
+msgstr ""
+"<guilabel>Använd hela lagret som indata</guilabel> Om du väljer det här "
+"alternativet använder filtret hela lagret som indata. Resultatet påverkar "
+"bara markeringen; lagret utanför den förblir oförändrat."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The clipping drop-down list is only visible when the current layer has an "
+"alpha channel, and no selection is active."
+msgstr ""
+"Rullgardinslistan för klippning är endast synlig när det aktuella lagret har"
+" en alfakanal och ingen markering är aktiv."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This setting determines what to do when the result of this filter is larger "
+"than the original layer."
+msgstr ""
+"Den här inställningen avgör vad som händer om filterresultatet är större än "
+"det ursprungliga lagret."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<guilabel>Adjust</guilabel> The layer will be automatically resized as "
+"necessary when the filter is applied. This is the default."
+msgstr ""
+"<guilabel>Justera</guilabel> Lagret ändrar automatiskt storlek efter behov "
+"när filtret tillämpas. Det här är standardinställningen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<guilabel>Clip</guilabel> The result will be clipped to the layer boundary."
+msgstr "<guilabel>Klipp</guilabel> Resultatet beskärs vid lagergränsen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"When you expand this option by clicking <placeholder-1/>, you can choose the"
+" blend <guilabel>Mode</guilabel> to be used when applying the filter, and "
+"the <guilabel>Opacity</guilabel>. These work the same as the <link "
+"linkend=\"gimp-layer-dialog-paint-mode-menu\">layer blending options</link>."
+msgstr ""
+"När du fäller ut det här alternativet genom att klicka på <placeholder-1/> "
+"kan du välja vilket blandnings<guilabel>läge</guilabel> och vilken "
+"<guilabel>opacitet</guilabel> filtret ska använda. De fungerar på samma sätt"
+" som <link linkend=\"gimp-layer-dialog-paint-mode-menu\">lagrets "
+"blandningsalternativ</link>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"When this option is enabled (default), changes in the filter settings are "
+"directly displayed on canvas. They are not applied to the image until you "
+"click the <guibutton>OK</guibutton> button."
+msgstr ""
+"När det här alternativet är aktiverat (standard) visas ändringar av "
+"filterinställningarna direkt på ritytan. De påverkar inte bilden förrän du "
+"klickar på <guibutton>OK</guibutton>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Merge Filter"
+msgstr "Sammanfoga filter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"By default, <acronym>GEGL</acronym> filters are applied non-destructively as"
+" <link linkend=\"gimp-layer-effects\">layer effects</link>, which means they"
+" can still be changed at a later time. When you want to apply the filter "
+"immediately to the layer itself, you can enable this option."
+msgstr ""
+"Som standard tillämpas <acronym>GEGL</acronym>-filter icke-destruktivt som "
+"<link linkend=\"gimp-layer-effects\">lagereffekter</link>, vilket innebär "
+"att de kan ändras senare. Aktivera det här alternativet om du vill tillämpa "
+"filtret direkt på själva lagret."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This option is remembered, so you only need to change it once if you prefer "
+"to always use filters destructively."
+msgstr ""
+"Inställningen sparas. Du behöver därför bara ändra den en gång om du alltid "
+"vill tillämpa filter destruktivt."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"When this option is enabled, the view of the image is divided in two parts. "
+"On the left side it shows the effect of the filter applied, and on the right"
+" side it shows the image without filter."
+msgstr ""
+"När det här alternativet är aktiverat delas bilden i två delar. Den vänstra "
+"sidan visar filtereffekten och den högra bilden utan filtret."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"You can click-and-drag the line that divides the preview to move it, and "
+"<keycap>Ctrl</keycap>-click to make the line horizontal, or to switch it "
+"back to vertical."
+msgstr ""
+"Du kan klicka på och dra linjen som delar förhandsvisningen för att flytta "
+"den. Klicka på linjen samtidigt som du håller ned <keycap>Ctrl</keycap> för "
+"att göra den vågrät eller växla tillbaka till lodrätt läge."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Combine Filters"
+msgstr "Kombineringsfilter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Blur Filters"
+msgstr "Oskärpefilter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Artistic Filters"
+msgstr "Artistiska filter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Animation Filters"
+msgstr "Animationsfilter"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Animation filters let you view and optimize your animations (by reducing "
+"their size)."
+msgstr ""
+"Animationsfilter låter dig visa och optimera animationer genom att minska "
+"deras filstorlek."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<quote>Optimize (Difference)</quote>, <quote>Optimize (for GIF)</quote> and "
+"<quote>Unoptimize</quote> filters are gathered together because they are not"
+" much different."
+msgstr ""
+"Filtren <quote>Optimera (skillnad)</quote>, <quote>Optimera (för "
+"GIF)</quote> och <quote>Avoptimera</quote> har samlats i samma kategori "
+"eftersom de fungerar på liknande sätt."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "These options are described in <xref linkend=\"gimp-filters-common\"/>."
+msgstr "Dessa alternativ beskrivs i <xref linkend=\"gimp-filters-common\"/>."
