@@ -66,3 +66,8 @@ Technical names in batch 102:
 Batch 130 identifiers flagged by Hunspell:
 
 - **myCellRange** and **my_E_Constant** — example named range and constant from the Gnumeric help; preserved as exact identifiers. Hunspell splits the underscore identifier into `my` and `Constant`.
+
+
+Batch 131:
+
+- **Gnumeric** — application name, preserved in the file-opening instructions.
