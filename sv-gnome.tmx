@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T164744Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T165001Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -610555,6 +610555,214 @@ foo
 &amp;gt;&amp;gt;&amp;gt; s.cell_fetch(0,0).get_value()
 foo
 </seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>
+	&lt;emphasis&gt;# Add two numbers together&lt;/emphasis&gt;
+	def func_add(num1, num2):
+        '@FUNCTION=PY_ADD\n'\
+        '@SYNTAX=py_add(num1, num2)\n'\
+        '@DESCRIPTION=Adds two numbers together.\n'\
+        'Look, the description can go onto other lines.\n\n'\
+        '@EXAMPLES=To add two constants, just type them in: py_add(2,3)\n'\
+        'To add two cells, use the cell addresses: py_add(A1,A2)\n\n'\
+        '@SEEALSO='
+
+        return num1 + num2
+	  </seg></tuv>
+      <tuv xml:lang="sv"><seg>
+	&lt;emphasis&gt;# Addera två tal&lt;/emphasis&gt;
+	def func_add(num1, num2):
+        '@FUNCTION=PY_ADD\n'\
+        '@SYNTAX=py_add(num1, num2)\n'\
+        '@DESCRIPTION=Addera två tal.\n'\
+        'Beskrivningen kan fortsätta på flera rader.\n\n'\
+        '@EXAMPLES=Addera två konstanter genom att skriva: py_add(2,3)\n'\
+        'Addera två celler genom att ange cellreferenserna: py_add(A1,A2)\n\n'\
+        '@SEEALSO='
+
+        return num1 + num2
+	  </seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>
+def func_sum(gRange):
+	'@FUNCTION=PY_SUM\n'\
+	'@SYNTAX=PY_SUM(range)\n'\
+	'@DESCRIPTION=Adds a range of numbers together.'\
+	'Just like built-in SUM.\n\n'\
+	'@EXAMPLES=To add values in A1 to A5, just type them in:\n'\
+	'    py_sum(a1:a5)\n'\
+	'@SEEALSO='
+	try:
+		sum = Gnumeric.functions['sum']
+		val = sum(gRange)
+		#  val = reduce(lambda a,b: a+b, vals)
+	except TypeError:
+		raise GnumericError, GnumericErrorVALUE
+	else:
+		return val
+		  </seg></tuv>
+      <tuv xml:lang="sv"><seg>
+def func_sum(gRange):
+	'@FUNCTION=PY_SUM\n'\
+	'@SYNTAX=PY_SUM(range)\n'\
+	'@DESCRIPTION=Addera talen i ett intervall.'\
+	'Precis som den inbyggda SUM-funktionen.\n\n'\
+	'@EXAMPLES=Addera värdena i A1 till A5 genom att skriva:\n'\
+	'    py_sum(a1:a5)\n'\
+	'@SEEALSO='
+	try:
+		sum = Gnumeric.functions['sum']
+		val = sum(gRange)
+		#  val = reduce(lambda a,b: a+b, vals)
+	except TypeError:
+		raise GnumericError, GnumericErrorVALUE
+	else:
+		return val
+		  </seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>
+def func_sum2(gRange):
+	'@FUNCTION=PY_SUM2\n'\
+	'@SYNTAX=PY_SUM2(range)\n'\
+	'@DESCRIPTION=Adds a range of numbers together,'\
+	'without calling built-in SUM.\n\n'\
+	'@EXAMPLES=To add values in A1 to A5, just type them in:\n'\
+	'    py_sum(a1:a5)\n'\
+	'@SEEALSO='
+	try:
+		[r_begin, r_end] = range_ref_to_tuples(gRange)
+		wb=Gnumeric.Workbooks()[0]   # Careful! This is WRONG! It doesn't
+		s=wb.sheets()[0]             # use the ACTUAL workbook or sheet.
+
+		val = 0
+		for col in range(r_begin[0], r_end[0]):
+			for row in range(r_begin[1], r_end[1]):
+				cell = s[col, row]
+				val = val + cell.get_value()
+				# Note: this doesn't skip blank cells etc.
+
+	except TypeError:
+		raise GnumericError,GnumericErrorVALUE
+	else:
+		return val
+		</seg></tuv>
+      <tuv xml:lang="sv"><seg>
+def func_sum2(gRange):
+	'@FUNCTION=PY_SUM2\n'\
+	'@SYNTAX=PY_SUM2(range)\n'\
+	'@DESCRIPTION=Addera talen i ett intervall,'\
+	'utan att anropa den inbyggda SUM-funktionen.\n\n'\
+	'@EXAMPLES=Addera värdena i A1 till A5 genom att skriva:\n'\
+	'    py_sum(a1:a5)\n'\
+	'@SEEALSO='
+	try:
+		[r_begin, r_end] = range_ref_to_tuples(gRange)
+		wb=Gnumeric.Workbooks()[0]   # Obs! Det här är FEL! Det använder inte
+		s=wb.sheets()[0]             # den VERKLIGA arbetsboken eller bladet.
+
+		val = 0
+		for col in range(r_begin[0], r_end[0]):
+			for row in range(r_begin[1], r_end[1]):
+				cell = s[col, row]
+				val = val + cell.get_value()
+				# Obs: tomma celler hoppas inte över.
+
+	except TypeError:
+		raise GnumericError,GnumericErrorVALUE
+	else:
+		return val
+		</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>
+def range_ref_to_tuples(range_ref):
+	'''I need a function to find the bounds of a RangeRef. This one
+	extracts them from the Gnumeric "column" and "row" commands, and
+	returns them as a pair of tuples. Surely there is a better way?
+	For example, return a list of cells??'''
+
+	col  = Gnumeric.functions['column']   
+	row  = Gnumeric.functions['row']
+
+	# "column" and "row" take references and return an array of col or row
+	# nums for each cell in the reference. For example, [[1, 1, 1], [2, 2, 2]]
+	# for columns and [[2, 3, 4], [2, 3, 4]] for rows.
+
+	try:
+		columns = col(range_ref)
+		rows    = row(range_ref)
+
+		begin_col = columns[0][0] - 1  
+		begin_row = rows[0][0] - 1     
+
+		end_col = columns[-1][-1]
+		end_row = rows[-1][-1]
+
+		# We subtracted 1 from the begin values because in the API,
+		# indexing begins at 0, while "column" and "row" begin at 1.
+		# We did NOT subtract 1 from the end values, in order to make
+		# them suitable for Python's range(begin, end) paradigm.
+		
+	except TypeError:
+		raise GnumericError,GnumericErrorVALUE
+	except NameError:                     # right name?
+		raise GnumericError,Gnumeric.GnumericErrorNAME
+	except RefError:                     # right name?
+		raise GnumericError,Gnumeric.GnumericErrorREF
+	except NumError:                     # right name?
+		raise GnumericError,Gnumeric.GnumericErrorNUM
+
+
+	return [ (begin_col, begin_row), (end_col, end_row) ]
+		</seg></tuv>
+      <tuv xml:lang="sv"><seg>
+def range_ref_to_tuples(range_ref):
+	'''Jag behöver en funktion som hittar gränserna för ett RangeRef. Den här
+	hämtar dem från Gnumerics kommandon ”column” och ”row” och
+	returnerar dem som ett par tupler. Det måste finnas ett bättre sätt!
+	Till exempel genom att returnera en lista med celler?'''
+
+	col  = Gnumeric.functions['column']   
+	row  = Gnumeric.functions['row']
+
+	# ”column” och ”row” tar referenser och returnerar en matris med kolumn- eller rad
+	# nummer för varje cell i referensen. Exempel: [[1, 1, 1], [2, 2, 2]]
+	# för kolumner och [[2, 3, 4], [2, 3, 4]] för rader.
+
+	try:
+		columns = col(range_ref)
+		rows    = row(range_ref)
+
+		begin_col = columns[0][0] - 1  
+		begin_row = rows[0][0] - 1     
+
+		end_col = columns[-1][-1]
+		end_row = rows[-1][-1]
+
+		# Vi drog bort 1 från startvärdena eftersom API:et
+		# börjar indexeringen vid 0, medan ”column” och ”row” börjar vid 1.
+		# Vi drog INTE bort 1 från slutvärdena, så att de passar
+		# Pythons range(begin, end)-konvention.
+		
+	except TypeError:
+		raise GnumericError,GnumericErrorVALUE
+	except NameError:                     # rätt namn?
+		raise GnumericError,Gnumeric.GnumericErrorNAME
+	except RefError:                     # rätt namn?
+		raise GnumericError,Gnumeric.GnumericErrorREF
+	except NumError:                     # rätt namn?
+		raise GnumericError,Gnumeric.GnumericErrorNUM
+
+
+	return [ (begin_col, begin_row), (end_col, end_row) ]
+		</seg></tuv>
     </tu>
   </body>
 </tmx>
