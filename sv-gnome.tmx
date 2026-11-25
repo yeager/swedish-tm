@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T084715Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T085011Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -597529,6 +597529,91 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-histogram-ex5.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output from the histogram analysis tool.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
       <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-histogram-ex5.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Utdata från histogramanalysverktyget.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Rank and Percentile Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Verktyget Rang och percentil</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Rank and Percentile Tool Dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan Rang och percentil</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-rank.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the rank and percentile analysis tool.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-rank.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Analysverktyget Rang och percentil.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Use this tool to rank given data and to calculate the percentiles of each data point.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd verktyget för att rangordna data och beräkna percentilen för varje datapunkt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the datasets to use in the &lt;quote&gt;&lt;guilabel&gt;Input Range:&lt;/guilabel&gt;&lt;/quote&gt; entry. The given range can be grouped into datasets by columns, by rows, or by areas.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange vilka data som ska användas i fältet &lt;quote&gt;&lt;guilabel&gt;Indataområde:&lt;/guilabel&gt;&lt;/quote&gt;. Området kan delas in i datamängder efter kolumner, rader eller områden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>For each dataset, the tool creates three columns in the output table:</seg></tuv>
+      <tuv xml:lang="sv"><seg>För varje datamängd skapar verktyget tre kolumner i utdatatabellen:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The first column gives the indices of the ordered data from largest to smallest data value.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den första kolumnen visar positionerna för värdena, sorterade från störst till minst.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The second column gives data values corresponding to the indices in the first column.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den andra kolumnen visar de värden som motsvarar positionerna i den första kolumnen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The third column indicates the percentile of the data value in the second column.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den tredje kolumnen visar percentilen för värdet i den andra kolumnen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If you have labels in the first cell of each data set, select the &lt;quote&gt;&lt;guilabel&gt;Labels&lt;/guilabel&gt;&lt;/quote&gt; option.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om den första cellen i varje datamängd innehåller en rubrik markerar du &lt;quote&gt;&lt;guilabel&gt;Rubriker&lt;/guilabel&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Some Example Data for the Rank and Percentile Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Exempeldata för verktyget Rang och percentil</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-rank-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of example data for use with the rank and percentile analysis tool.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-rank-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Exempeldata för analysverktyget Rang och percentil.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Using the Rank and Percentile Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använda verktyget Rang och percentil</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;xref linkend="rank-example-1"/&gt; shows some example data and &lt;xref linkend="rank-example-2"/&gt; the corresponding output.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;xref linkend="rank-example-1"/&gt; visar exempeldata och &lt;xref linkend="rank-example-2"/&gt; motsvarande utdata.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Rank and Percentile Tool Output</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utdata från verktyget Rang och percentil</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-rank-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output from a rank and percentile analysis.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-rank-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Utdata från en rang- och percentilanalys.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In the case of ties, the rank calculated by this tool differs from the value of the RANK function for the same data. This tool calculates the rank as it is normally used in Statistics: If two values are tied, the assigned rank is the average rank for those entries. For example in &lt;xref linkend="rank-example-1"/&gt; the two values 10 are the second and third largest values. Since they are equal each receives the rank of 2.5, the average of 2 and 3. The rank function on the other hand assigns the rank as it is normally used to determine placements. The two values 10 would therefore each receive a rank of 2.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om flera värden är lika skiljer sig rangordningen från verktyget från resultatet av funktionen RANK för samma data. Verktyget använder den statistiska rangordningen: lika värden får medelvärdet av sina rangtal. I &lt;xref linkend="rank-example-1"/&gt; är till exempel de två värdena 10 näst störst respektive tredje störst. Eftersom värdena är lika får båda rangtalet 2,5, medelvärdet av 2 och 3. Funktionen RANK använder i stället den rangordning som brukar användas för placeringar. Därför får båda värdena 10 rangtalet 2.</seg></tuv>
     </tu>
   </body>
 </tmx>

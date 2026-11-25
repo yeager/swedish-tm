@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 116132
+# Entries: 116149
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -559430,3 +559430,136 @@ msgstr ""
 "<imageobject> <imagedata fileref=\"figures/analysistools-histogram-ex5.png\""
 " format=\"PNG\"/> </imageobject> <textobject> <phrase>Utdata från "
 "histogramanalysverktyget.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Rank and Percentile Tool"
+msgstr "Verktyget Rang och percentil"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Rank and Percentile Tool Dialog"
+msgstr "Dialogrutan Rang och percentil"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-rank.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of the rank "
+"and percentile analysis tool.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-rank.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Analysverktyget Rang "
+"och percentil.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Use this tool to rank given data and to calculate the percentiles of each "
+"data point."
+msgstr ""
+"Använd verktyget för att rangordna data och beräkna percentilen för varje "
+"datapunkt."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Specify the datasets to use in the <quote><guilabel>Input "
+"Range:</guilabel></quote> entry. The given range can be grouped into "
+"datasets by columns, by rows, or by areas."
+msgstr ""
+"Ange vilka data som ska användas i fältet "
+"<quote><guilabel>Indataområde:</guilabel></quote>. Området kan delas in i "
+"datamängder efter kolumner, rader eller områden."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "For each dataset, the tool creates three columns in the output table:"
+msgstr "För varje datamängd skapar verktyget tre kolumner i utdatatabellen:"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The first column gives the indices of the ordered data from largest to "
+"smallest data value."
+msgstr ""
+"Den första kolumnen visar positionerna för värdena, sorterade från störst "
+"till minst."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The second column gives data values corresponding to the indices in the "
+"first column."
+msgstr ""
+"Den andra kolumnen visar de värden som motsvarar positionerna i den första "
+"kolumnen."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The third column indicates the percentile of the data value in the second "
+"column."
+msgstr ""
+"Den tredje kolumnen visar percentilen för värdet i den andra kolumnen."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"If you have labels in the first cell of each data set, select the "
+"<quote><guilabel>Labels</guilabel></quote> option."
+msgstr ""
+"Om den första cellen i varje datamängd innehåller en rubrik markerar du "
+"<quote><guilabel>Rubriker</guilabel></quote>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Some Example Data for the Rank and Percentile Tool"
+msgstr "Exempeldata för verktyget Rang och percentil"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-rank-ex1.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of example "
+"data for use with the rank and percentile analysis tool.</phrase> "
+"</textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-rank-ex1.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Exempeldata för "
+"analysverktyget Rang och percentil.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Using the Rank and Percentile Tool"
+msgstr "Använda verktyget Rang och percentil"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<xref linkend=\"rank-example-1\"/> shows some example data and <xref "
+"linkend=\"rank-example-2\"/> the corresponding output."
+msgstr ""
+"<xref linkend=\"rank-example-1\"/> visar exempeldata och <xref "
+"linkend=\"rank-example-2\"/> motsvarande utdata."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Rank and Percentile Tool Output"
+msgstr "Utdata från verktyget Rang och percentil"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-rank-ex2.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of the output "
+"from a rank and percentile analysis.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-rank-ex2.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Utdata från en rang- "
+"och percentilanalys.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"In the case of ties, the rank calculated by this tool differs from the value"
+" of the RANK function for the same data. This tool calculates the rank as it"
+" is normally used in Statistics: If two values are tied, the assigned rank "
+"is the average rank for those entries. For example in <xref linkend=\"rank-"
+"example-1\"/> the two values 10 are the second and third largest values. "
+"Since they are equal each receives the rank of 2.5, the average of 2 and 3. "
+"The rank function on the other hand assigns the rank as it is normally used "
+"to determine placements. The two values 10 would therefore each receive a "
+"rank of 2."
+msgstr ""
+"Om flera värden är lika skiljer sig rangordningen från verktyget från "
+"resultatet av funktionen RANK för samma data. Verktyget använder den "
+"statistiska rangordningen: lika värden får medelvärdet av sina rangtal. I "
+"<xref linkend=\"rank-example-1\"/> är till exempel de två värdena 10 näst "
+"störst respektive tredje störst. Eftersom värdena är lika får båda rangtalet"
+" 2,5, medelvärdet av 2 och 3. Funktionen RANK använder i stället den "
+"rangordning som brukar användas för placeringar. Därför får båda värdena 10 "
+"rangtalet 2."
