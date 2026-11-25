@@ -80,4 +80,8 @@ Core-intervallet 24121–24240 granskades 24 november 2026. Sjutton ändringar s
 
 Core-intervallet 24241–24360 granskades 25 november 2026. Åtta poster ändrades och återlästes. Dessutom korrigerades den tidigare Home Connect-referensuppföljningen efter att källan bekräftat fördröjningsvärde i sekunder. Rapport och manifest finns i yeager/translations och `Home-Assistant/2026-11-25-reviewed-core-24241-24360.json`. Core-TMX innehåller 16 538 poster.
 
-Core-intervallet 24451–24570 granskades 25 november 2026. Åtta ändringar sparades och lästes tillbaka; alla sökvägar kontrollerades, inklusive IntelliFire-valet Moln. Rapport/manifest finns i yeager/translations och `Home-Assistant/2026-11-25-reviewed-core-24451-24570.json`. Core-TMX innehåller 16 551 poster.
+Core-intervallet 24451–24570 granskades 25 november 2026. Åtta ändringar sparades och lästes tillbaka; alla sökvägar kontrollerades, inklusive IntelliFire-valet Moln. Rapport/manifest finns i yeager/translations och `Home-Assistant/2026-11-25-reviewed-core-24451-24570.json`. Core-TMX innehåller 16 565 poster.
+
+Core-intervallet 24571–24690 granskades 25 november 2026. Fjorton ändringar sparades och återlästes; fem nycklar har källvägsuppföljning. Granskningen ledde även till en retroaktiv korrigering av jalusiöversättningarnas genus i intervallet 24001–24120. Rapporter och manifest finns i yeager/translations; TMX innehåller 16 565 poster.
+
+Retroaktiv terminologikorrigering 25 november 2026: de två shutter-condition-översättningarna i intervallet 24001–24120 ändrades från felaktigt neutrum `Jalusiet` till korrekt utrum `Jalusin är öppen/stängd`, verifierat mot Svensk ordbok. Alla filer i snapshot och kanonisk TMX har den nya live-texten.
