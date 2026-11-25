@@ -37,6 +37,12 @@ def test_accepts_revalidated_prior_review_status(tmp_path):
     assert validator.validate(path)["lokalise-id"] == 1
 
 
+def test_accepts_reference_target_updated_alias_status(tmp_path):
+    path = tmp_path / "sample.tmx"
+    write_tmx(path, status="reference-target-updated-and-read-back")
+    assert validator.validate(path)["lokalise-id"] == 1
+
+
 def test_strict_mode_rejects_legacy_key(tmp_path):
     path = tmp_path / "sample.tmx"
     write_tmx(path, tuid="component::test")

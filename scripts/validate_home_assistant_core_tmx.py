@@ -50,6 +50,7 @@ def validate(path: Path, *, require_lokalise_ids: bool = False) -> Counter:
             "revalidated-prior-review",
             "verified-existing",
             "source-path-follow-up",
+            "reference-target-updated-and-read-back",
         }
         if status is None or status.text not in valid_statuses:
             raise ValueError(
