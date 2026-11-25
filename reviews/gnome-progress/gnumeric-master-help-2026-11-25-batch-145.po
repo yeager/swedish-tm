@@ -1,0 +1,88 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:356
+msgid "Line break delimiters"
+msgstr "Tecken för radslut"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:358
+msgid ""
+"The use of text files to store data in a structured fashion for use by "
+"spreadsheet programs requires a scheme to separate each line of the file. "
+"Structured text files rely on the files having explicitly defined rows "
+"within the file as one component in the structuring system. Each of these "
+"rows is defined by a character sequence indicating the end of a row."
+msgstr ""
+"När textfiler används för att lagra strukturerade data i kalkylprogram måste"
+" varje rad avgränsas. Raderna markeras uttryckligen i filen, och varje rad "
+"avslutas med ett visst tecken eller en teckensekvens."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:367
+msgid ""
+"Two characters that are part of the ASCII code, an early encoding that "
+"became a widely followed standard, were included to help define the end of "
+"the line. These are the 'linefeed' character and the 'carriage return' "
+"character, named after the two processes which occur when a typewriter "
+"starts a new line: first the typewriter barrel rolls - the linefeed - then "
+"the whole carriage with the sheet of paper moves back to the starting point "
+"-the carriage return. In the same way that different computing systems have "
+"used different encoding schemes, three different approaches became common "
+"for defining the end of the line."
+msgstr ""
+"I ASCII, en tidig kodning som blev en vanlig standard, finns två tecken för "
+"att markera radslut: tecknet för radmatning och tecknet för vagnretur. "
+"Namnen kommer från två moment när en skrivmaskin börjar på en ny rad: först "
+"matas valsen fram ett radsteg, sedan förs den tillbaka till utgångsläget "
+"tillsammans med papperet. Precis som olika datorsystem använder olika "
+"kodningar blev tre konventioner för radslut vanliga."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:381
+msgid ""
+"In GNU operating systems and other systems that inherit from the UNIX "
+"legacy, the end of a line was defined simply using the 'linefeed' character."
+" The pre-OSX Macintosh operating system chose instead to use only the "
+"'carriage return' character. The Windows operating system uses both "
+"characters in the sequence 'carriage return' then 'linefeed'."
+msgstr ""
+"I GNU-system och andra system med UNIX-arv markeras radslut med "
+"radmatningstecknet. Macintosh-system före OS X använde i stället bara "
+"tecknet för vagnretur. Windows använder båda tecknen i ordningen vagnretur "
+"följt av radmatning."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:390
+msgid ""
+"A user opening a file into <application>Gnumeric</application> will see, in "
+"the preview area of the <interface>Text Import</interface> druid, whether or"
+" not the line breaks have been recognized correctly and will be able to "
+"alter the recognition settings. An incompatible setup will either yield a "
+"single unbroken line of text, lines of text with extra, empty rows between "
+"them, or lines of text with extra symbols at the start or end of each line."
+msgstr ""
+"När du öppnar en fil i <application>Gnumeric</application> ser du i "
+"förhandsgranskningen i guiden <interface>Textimport</interface> om "
+"radbrytningarna har identifierats rätt. Du kan ändra inställningarna vid "
+"behov. Om de inte passar kan texten visas som en enda lång rad, med tomma "
+"rader mellan raderna eller med extra tecken i början eller slutet av varje "
+"rad."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:401
+msgid ""
+"The correct line break delimiters can be established by checking or "
+"unchecking the alternatives. The preview area will then show the result of "
+"the file interpreted with these settings."
+msgstr ""
+"Välj eller avmarkera alternativen för att hitta rätt tecken för radslut. "
+"Förhandsgranskningen visar sedan hur filen tolkas med de inställningarna."

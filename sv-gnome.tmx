@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T132636Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T132932Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -603244,6 +603244,36 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The use of text files to store data in a structured fashion for use by spreadsheet programs, and more generally all text files, require some scheme to relate the binary number in the computer file itself to the characters of a written language. Such schemes are called &lt;wordasword&gt;'encodings'&lt;/wordasword&gt;.</seg></tuv>
       <tuv xml:lang="sv"><seg>Textfiler som lagrar strukturerade data för kalkylprogram, och textfiler i allmänhet, behöver en metod för att koppla filens binära tal till tecknen i ett skriftspråk. Sådana metoder kallas &lt;wordasword&gt;”kodningar”&lt;/wordasword&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Line break delimiters</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tecken för radslut</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The use of text files to store data in a structured fashion for use by spreadsheet programs requires a scheme to separate each line of the file. Structured text files rely on the files having explicitly defined rows within the file as one component in the structuring system. Each of these rows is defined by a character sequence indicating the end of a row.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När textfiler används för att lagra strukturerade data i kalkylprogram måste varje rad avgränsas. Raderna markeras uttryckligen i filen, och varje rad avslutas med ett visst tecken eller en teckensekvens.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Two characters that are part of the ASCII code, an early encoding that became a widely followed standard, were included to help define the end of the line. These are the 'linefeed' character and the 'carriage return' character, named after the two processes which occur when a typewriter starts a new line: first the typewriter barrel rolls - the linefeed - then the whole carriage with the sheet of paper moves back to the starting point -the carriage return. In the same way that different computing systems have used different encoding schemes, three different approaches became common for defining the end of the line.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I ASCII, en tidig kodning som blev en vanlig standard, finns två tecken för att markera radslut: tecknet för radmatning och tecknet för vagnretur. Namnen kommer från två moment när en skrivmaskin börjar på en ny rad: först matas valsen fram ett radsteg, sedan förs den tillbaka till utgångsläget tillsammans med papperet. Precis som olika datorsystem använder olika kodningar blev tre konventioner för radslut vanliga.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In GNU operating systems and other systems that inherit from the UNIX legacy, the end of a line was defined simply using the 'linefeed' character. The pre-OSX Macintosh operating system chose instead to use only the 'carriage return' character. The Windows operating system uses both characters in the sequence 'carriage return' then 'linefeed'.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I GNU-system och andra system med UNIX-arv markeras radslut med radmatningstecknet. Macintosh-system före OS X använde i stället bara tecknet för vagnretur. Windows använder båda tecknen i ordningen vagnretur följt av radmatning.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A user opening a file into &lt;application&gt;Gnumeric&lt;/application&gt; will see, in the preview area of the &lt;interface&gt;Text Import&lt;/interface&gt; druid, whether or not the line breaks have been recognized correctly and will be able to alter the recognition settings. An incompatible setup will either yield a single unbroken line of text, lines of text with extra, empty rows between them, or lines of text with extra symbols at the start or end of each line.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När du öppnar en fil i &lt;application&gt;Gnumeric&lt;/application&gt; ser du i förhandsgranskningen i guiden &lt;interface&gt;Textimport&lt;/interface&gt; om radbrytningarna har identifierats rätt. Du kan ändra inställningarna vid behov. Om de inte passar kan texten visas som en enda lång rad, med tomma rader mellan raderna eller med extra tecken i början eller slutet av varje rad.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The correct line break delimiters can be established by checking or unchecking the alternatives. The preview area will then show the result of the file interpreted with these settings.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj eller avmarkera alternativen för att hitta rätt tecken för radslut. Förhandsgranskningen visar sedan hur filen tolkas med de inställningarna.</seg></tuv>
     </tu>
   </body>
 </tmx>

@@ -87,3 +87,8 @@ Batch 136 technical terms:
 Batch 140:
 
 - **Insticksmodulhanteraren** — established Swedish UI name used in the GNOME TM for Plugin Manager; retained consistently although Hunspell does not recognize the compound.
+
+
+Batch 145 technical names:
+
+- **ASCII** — standard character encoding acronym; retained exactly.
