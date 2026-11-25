@@ -45,3 +45,8 @@ Additional help compounds in batch 95:
 
 - **kontingenstabell** — standard Swedish statistical term for a contingency table.
 - **cirkeldiagram / stapeldiagram / kolumndiagram** — established Swedish chart names; Hunspell splits these compounds when adjacent markup is stripped.
+
+Technical names in batch 102:
+
+- **gdk-pixbuf** — library name and filename, preserved as a technical identifier.
+- **Sun raster**, **Scalable Vector Graphics**, and the listed image-format abbreviations — standard format names and identifiers retained in the help text.
