@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T085613Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T085904Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -597814,6 +597814,81 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-exp-smoothing-hunter-formula.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;The formula used in exponential smoothing according to Hunter.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
       <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-exp-smoothing-hunter-formula.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Formeln för exponentiell utjämning enligt Hunter.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>For example, a value for α between 0.2 and 0.3 represents 20 to 30 percent error adjustment in the prior forecast.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett värde på α mellan 0,2 och 0,3 innebär till exempel att föregående prognosfel korrigeras med 20–30 procent.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If you choose to have the tool enter formulæ rather than values into the output region, then you can modify the damping factor α even after you executed the tool.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du väljer att verktyget ska skriva in formler i stället för värden i utdataområdet kan du ändra dämpningsfaktorn α även efter att verktyget har körts.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To have the standard errors output as well, check the &lt;quote&gt;&lt;guilabel&gt;Standard error&lt;/guilabel&gt;&lt;/quote&gt; check box. The formula used is given in &lt;xref linkend="exp-smoothing-tool-formula-hunter-stderr"/&gt;. The denominator can be adjusted by selecting the appropriate radio button. Since there are &lt;parameter&gt;t−1&lt;/parameter&gt; terms in the sum of the denominator, selecting &lt;quote&gt;&lt;guilabel&gt;n−1&lt;/guilabel&gt;&lt;/quote&gt; means that the denominator will be &lt;parameter&gt;t−2&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markera kryssrutan &lt;quote&gt;&lt;guilabel&gt;Standardfel&lt;/guilabel&gt;&lt;/quote&gt; om standardfelen också ska visas. Formeln finns i &lt;xref linkend="exp-smoothing-tool-formula-hunter-stderr"/&gt;. Du kan ändra nämnaren med motsvarande alternativknapp. Eftersom summan i nämnaren innehåller &lt;parameter&gt;t−1&lt;/parameter&gt; termer innebär valet &lt;quote&gt;&lt;guilabel&gt;n−1&lt;/guilabel&gt;&lt;/quote&gt; att nämnaren blir &lt;parameter&gt;t−2&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Standard Error Formula For Exponential Smoothing According To Hunter</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formel för standardfel vid exponentiell utjämning enligt Hunter</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-exp-smoothing-hunter-stderr.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;The formula used to calculate the standard error of exponential smoothing according to Hunter &lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-exp-smoothing-hunter-stderr.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Formeln för att beräkna standardfelet vid exponentiell utjämning enligt Hunter&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If you check the &lt;quote&gt;&lt;guilabel&gt;Include chart&lt;/guilabel&gt;&lt;/quote&gt; check box, a line graph showing the observations &lt;parameter&gt;y&lt;subscript&gt;t&lt;/subscript&gt;&lt;/parameter&gt; and the predicted values &lt;parameter&gt;l&lt;subscript&gt;t&lt;/subscript&gt;&lt;/parameter&gt; will also be created.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du markerar kryssrutan &lt;quote&gt;&lt;guilabel&gt;Inkludera diagram&lt;/guilabel&gt;&lt;/quote&gt; skapas även ett linjediagram som visar observationerna &lt;parameter&gt;y&lt;subscript&gt;t&lt;/subscript&gt;&lt;/parameter&gt; och de prognostiserade värdena &lt;parameter&gt;l&lt;subscript&gt;t&lt;/subscript&gt;&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Using the Exponential Smoothing Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använda verktyget för exponentiell utjämning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;xref linkend="smoothing-example-1"/&gt; shows some example data, &lt;xref linkend="smoothing-example-2"/&gt; the selected options and &lt;xref linkend="smoothing-example-3"/&gt; the corresponding output.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;xref linkend="smoothing-example-1"/&gt; visar exempeldata, &lt;xref linkend="smoothing-example-2"/&gt; de valda alternativen och &lt;xref linkend="smoothing-example-3"/&gt; motsvarande utdata.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Some Example Data for the Exponential Smoothing Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Exempeldata för verktyget för exponentiell utjämning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-smoothing-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of example data for exponential smoothing.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-smoothing-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Exempeldata för exponentiell utjämning.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Options for the Exponential Smoothing Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativ för verktyget för exponentiell utjämning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-smoothing-ex3.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the options tab of the exponential smoothing tool.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-smoothing-ex3.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Fliken med alternativ för verktyget för exponentiell utjämning.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Exponential Smoothing Tool Output (Hunter)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utdata från verktyget för exponentiell utjämning (Hunter)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-smoothing-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output of an exponential smoothing analysis according to Hunter.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-smoothing-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Utdata från en analys med exponentiell utjämning enligt Hunter.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Exponential Smoothing According to Roberts</seg></tuv>
+      <tuv xml:lang="sv"><seg>Exponentiell utjämning enligt Roberts</seg></tuv>
     </tu>
   </body>
 </tmx>
