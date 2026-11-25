@@ -79,3 +79,5 @@ Core-intervallet 24001–24120 granskades 24 november 2026. Sexton ändringar sp
 Core-intervallet 24121–24240 granskades 24 november 2026. Sjutton ändringar sparades och lästes tillbaka; nyckelsökvägar och platshållare verifierades och svlang natural gav 10/10 på samtliga strängar. Rapport/manifest finns i yeager/translations och `Home-Assistant/2026-11-24-reviewed-core-24121-24240.json`. Core-TMX innehåller 16 538 poster.
 
 Core-intervallet 24241–24360 granskades 25 november 2026. Åtta poster ändrades och återlästes. Dessutom korrigerades den tidigare Home Connect-referensuppföljningen efter att källan bekräftat fördröjningsvärde i sekunder. Rapport och manifest finns i yeager/translations och `Home-Assistant/2026-11-25-reviewed-core-24241-24360.json`. Core-TMX innehåller 16 538 poster.
+
+Core-intervallet 24451–24570 granskades 25 november 2026. Åtta ändringar sparades och lästes tillbaka; alla sökvägar kontrollerades, inklusive IntelliFire-valet Moln. Rapport/manifest finns i yeager/translations och `Home-Assistant/2026-11-25-reviewed-core-24451-24570.json`. Core-TMX innehåller 16 551 poster.
