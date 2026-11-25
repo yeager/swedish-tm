@@ -154,3 +154,11 @@ Batch 176:
 
 - **Gnumeric-gränssnittet** — Swedish compound with the application name.
 - **ångrahistorik / ångrahistoriken** — Swedish terminology and inflection for the undo history feature.
+
+Batch 177:
+
+- **Gnumeric / gnumeric** — application name and command-line invocation.
+- **.gnumeric / .gnum / .gnm** — file extensions named in the format documentation.
+- **XML / Extensible Markup Language / gzip / OASIS Open Document Format for Office Applications / ODF / ECMA / IEC / Amd / 2nd Edition / ISO/IEC identifiers** — canonical names and identifiers of formats and standards.
+- **LC_ALL / fr_FR / fr / FR / bash / ssconvert / Nautilus / rm** — environment variable, locale identifier, shell, applications and command-line tool names.
+- The untranslated **LC_ALL=fr_FR gnumeric &** catalog entry is a command example containing no prose; it is intentionally identical to the source.
