@@ -246,3 +246,7 @@ Batch 188:
 
 - **Ctrl- / Ctrl-F3 / F2 / F4 / Shift-Ctrl-G** — literal keyboard shortcut labels; preserved exactly.
 - **Gnumeric** — application name.
+
+Batch 189:
+
+- **Gnumeric** — application name.
