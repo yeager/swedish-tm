@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T080141Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T080350Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596814,6 +596814,31 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>To run the simulation, from the Gnumeric toolbar, select Tools → Simulation. In the Risk Simulation dialog box that appears, the first tab is the Variables tab. There are two entries in the Variables tab: Input variables and Output variables (&lt;xref linkend="analysis-simulation-variables-dialog"/&gt;).</seg></tuv>
       <tuv xml:lang="sv"><seg>Starta simuleringen genom att välja Verktyg → Simulering i Gnumeric. I dialogrutan Risksimulering som öppnas är den första fliken Variabler. Där finns två fält: variabler för indata och variabler för utdata (&lt;xref linkend="analysis-simulation-variables-dialog"/&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Input variables are the cells which hold the functions based on random numbers of the type described in Section A.14. In this case, they are the cells B17 and B18 in the Profit worksheet, which hold the rand() function. Later, when the quantity purchased is a parameter set by the &lt;function&gt;SIMTABLE&lt;/function&gt; function, cell B16 which holds the purchase quantity will be added to the range of input variables.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Variabler för indata är cellerna som innehåller funktioner baserade på slumptal av den typ som beskrivs i avsnitt A.14. Här är det cellerna B17 och B18 i bladet Vinst, som innehåller funktionen rand(). Senare, när inköpsmängden anges som en parameter med funktionen &lt;function&gt;SIMTABLE&lt;/function&gt;, läggs cell B16, som innehåller inköpsmängden, till indataområdet för variabler.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Output variables are the results of interest, or the dependent variable. In this case, the dependent variables are the demand and the profit, which are in cells B20 and B21.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Variabler för utdata är de resultat man är intresserad av, det vill säga de beroende variablerna. Här är efterfrågan och vinsten beroende variabler, i cellerna B20 och B21.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The next tab is the Options tab . There are four settings in the options as shown in &lt;xref linkend="fig-analysis-simulation-options-dialog"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Nästa flik är Alternativ. Där finns fyra inställningar, som visas i &lt;xref linkend="fig-analysis-simulation-options-dialog"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The second pair of options are the number of iterations and the Max time. In a simulation, each iteration is the equivalent of a sample. A sample from a random distribution is taken for each of the input values (as specified in the Variables tab) and the resulting output value(s). The more iterations, the better the estimate of the output value. However, this also takes more time to run. A Max time value is specified in seconds where the simulation will end without output if an individual simulation takes longer than the Max time allotted. If this occurs (see &lt;xref linkend="fig-analysis-simulation-maximumtime-dialog"/&gt;), the options are to either increase the Max time value, or decrease the number of iterations. A more drastic option is to change the model so that fewer calculations or samples of random numbers need to be made.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det andra paret inställningar gäller antalet iterationer och maxtiden. Varje iteration i en simulering motsvarar ett stickprov. För varje indatavärde (enligt fliken Variabler) hämtas ett stickprov från en slumpfördelning och motsvarande utdatavärden beräknas. Ju fler iterationer, desto bättre uppskattning av utdatavärdet, men simuleringen tar också längre tid. Maxtiden anges i sekunder. Om en enskild simulering tar längre tid än den angivna maxtiden avbryts den utan att något resultat visas. Om det inträffar (se &lt;xref linkend="fig-analysis-simulation-maximumtime-dialog"/&gt;), kan du antingen öka maxtiden eller minska antalet iterationer. Ett mer genomgripande alternativ är att ändra modellen så att färre beräkningar eller färre slumptal behöver tas fram.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The next tab is the Summary. There are two boxes in this tab, the Simulation Summary and the Summary of results (see &lt;xref linkend="fig-analysis-simulation-summary-dialog"/&gt;). In simulation summary, there is a description of the simulation parameters.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Nästa flik är Sammanfattning. Där finns två rutor: Simuleringssammanfattning och Sammanfattning av resultat (se &lt;xref linkend="fig-analysis-simulation-summary-dialog"/&gt;). Simuleringssammanfattningen beskriver parametrarna för simuleringen.</seg></tuv>
     </tu>
   </body>
 </tmx>

@@ -1,0 +1,86 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:615
+msgid ""
+"Input variables are the cells which hold the functions based on random "
+"numbers of the type described in Section A.14. In this case, they are the "
+"cells B17 and B18 in the Profit worksheet, which hold the rand() function. "
+"Later, when the quantity purchased is a parameter set by the "
+"<function>SIMTABLE</function> function, cell B16 which holds the purchase "
+"quantity will be added to the range of input variables."
+msgstr ""
+"Variabler för indata är cellerna som innehåller funktioner baserade på "
+"slumptal av den typ som beskrivs i avsnitt A.14. Här är det cellerna B17 och"
+" B18 i bladet Vinst, som innehåller funktionen rand(). Senare, när "
+"inköpsmängden anges som en parameter med funktionen "
+"<function>SIMTABLE</function>, läggs cell B16, som innehåller inköpsmängden,"
+" till indataområdet för variabler."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:617
+msgid ""
+"Output variables are the results of interest, or the dependent variable. In "
+"this case, the dependent variables are the demand and the profit, which are "
+"in cells B20 and B21."
+msgstr ""
+"Variabler för utdata är de resultat man är intresserad av, det vill säga de "
+"beroende variablerna. Här är efterfrågan och vinsten beroende variabler, i "
+"cellerna B20 och B21."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:619
+msgid ""
+"The next tab is the Options tab . There are four settings in the options as "
+"shown in <xref linkend=\"fig-analysis-simulation-options-dialog\"/>."
+msgstr ""
+"Nästa flik är Alternativ. Där finns fyra inställningar, som visas i <xref "
+"linkend=\"fig-analysis-simulation-options-dialog\"/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:637
+msgid ""
+"The second pair of options are the number of iterations and the Max time. In"
+" a simulation, each iteration is the equivalent of a sample. A sample from a"
+" random distribution is taken for each of the input values (as specified in "
+"the Variables tab) and the resulting output value(s). The more iterations, "
+"the better the estimate of the output value. However, this also takes more "
+"time to run. A Max time value is specified in seconds where the simulation "
+"will end without output if an individual simulation takes longer than the "
+"Max time allotted. If this occurs (see <xref linkend=\"fig-analysis-"
+"simulation-maximumtime-dialog\"/>), the options are to either increase the "
+"Max time value, or decrease the number of iterations. A more drastic option "
+"is to change the model so that fewer calculations or samples of random "
+"numbers need to be made."
+msgstr ""
+"Det andra paret inställningar gäller antalet iterationer och maxtiden. Varje"
+" iteration i en simulering motsvarar ett stickprov. För varje indatavärde "
+"(enligt fliken Variabler) hämtas ett stickprov från en slumpfördelning och "
+"motsvarande utdatavärden beräknas. Ju fler iterationer, desto bättre "
+"uppskattning av utdatavärdet, men simuleringen tar också längre tid. "
+"Maxtiden anges i sekunder. Om en enskild simulering tar längre tid än den "
+"angivna maxtiden avbryts den utan att något resultat visas. Om det inträffar"
+" (se <xref linkend=\"fig-analysis-simulation-maximumtime-dialog\"/>), kan du"
+" antingen öka maxtiden eller minska antalet iterationer. Ett mer "
+"genomgripande alternativ är att ändra modellen så att färre beräkningar "
+"eller färre slumptal behöver tas fram."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:655
+msgid ""
+"The next tab is the Summary. There are two boxes in this tab, the Simulation"
+" Summary and the Summary of results (see <xref linkend=\"fig-analysis-"
+"simulation-summary-dialog\"/>). In simulation summary, there is a "
+"description of the simulation parameters."
+msgstr ""
+"Nästa flik är Sammanfattning. Där finns två rutor: Simuleringssammanfattning"
+" och Sammanfattning av resultat (se <xref linkend=\"fig-analysis-simulation-"
+"summary-dialog\"/>). Simuleringssammanfattningen beskriver parametrarna för "
+"simuleringen."
