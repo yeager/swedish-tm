@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T111914Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T112151Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -600764,6 +600764,106 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA1-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output from a multilevel single factor ANOVA analysis.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
       <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA1-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av resultatet från en enkelfaktors-ANOVA med flera nivåer.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>ANOVA: Two-Factor Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>ANOVA: verktyg med två faktorer</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; can perform two factor fixed effects ANOVAs with and without replication. The same dialog is used and the appropriate tool is selected depending on whether the number of rows per sample is 1 or larger than 1.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; kan utföra tvåfaktors-ANOVA med fasta effekter, både med och utan upprepning. Samma dialogruta används; rätt verktyg väljs beroende på om antalet rader per urval är 1 eller fler.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>ANOVA: Two-Factor Without Replication Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>ANOVA: verktyg med två faktorer utan upprepning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the number of rows per sample is given as 1, &lt;application&gt;Gnumeric&lt;/application&gt; performs a two factor fixed effects ANOVA without replication. Each column of the input range is interpreted as a level of the first factor while each row is interpreted as a level of the second factor.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om antalet rader per urval är 1 utför &lt;application&gt;Gnumeric&lt;/application&gt; en tvåfaktors-ANOVA med fasta effekter utan upprepning. Varje kolumn i indataområdet motsvarar en nivå av den första faktorn och varje rad en nivå av den andra faktorn.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The first row and column of the range may contain labels for these levels. In this case the &lt;quote&gt;&lt;guibutton&gt;Labels&lt;/guibutton&gt;&lt;/quote&gt; option should be selected.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den första raden och kolumnen i området kan innehålla etiketter för nivåerna. Välj i så fall alternativet &lt;quote&gt;&lt;guibutton&gt;Etiketter&lt;/guibutton&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;&lt;guilabel&gt;Alpha:&lt;/guilabel&gt;&lt;/quote&gt; entry specifies the significance level which is by default 5%.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fältet &lt;quote&gt;&lt;guilabel&gt;Alfa:&lt;/guilabel&gt;&lt;/quote&gt; anger signifikansnivån, som standard 5 %.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Using the 2-factor ANOVA Without Replication Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använda verktyget för 2-faktors-ANOVA utan upprepning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>See &lt;xref linkend="anova-two-factor-without-tool-ex1"/&gt; for an example of a completed dialog and &lt;xref linkend="anova-two-factor-without-tool-ex2"/&gt; for the corresponding output.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Se &lt;xref linkend="anova-two-factor-without-tool-ex1"/&gt; för ett exempel på en ifylld dialogruta och &lt;xref linkend="anova-two-factor-without-tool-ex2"/&gt; för motsvarande resultat.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>2-factor ANOVA Without Replication Dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogruta för 2-faktors-ANOVA utan upprepning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA2wo-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of a two factor ANOVA without replication analysis.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA2wo-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av en tvåfaktors-ANOVA utan upprepning.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Output From a 2-factor ANOVA Without Replication</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resultat från 2-faktors-ANOVA utan upprepning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA2wo-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output from a two factor ANOVA without replication analysis.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA2wo-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av resultatet från en tvåfaktors-ANOVA utan upprepning.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>ANOVA: Two-Factor With Replication Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>ANOVA: verktyg med två faktorer och upprepning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the number of rows per sample is larger than 1, &lt;application&gt;Gnumeric&lt;/application&gt; performs a two factor fixed effects ANOVA with replication. Each column of the input range is interpreted as a level of the first factor while groups of rows (the number of rows in each group given by the &lt;quote&gt;&lt;guilabel&gt;number of rows per sample&lt;/guilabel&gt;&lt;/quote&gt; value) are interpreted as levels of the second factor.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om antalet rader per urval är större än 1 utför &lt;application&gt;Gnumeric&lt;/application&gt; en tvåfaktors-ANOVA med fasta effekter och upprepning. Varje kolumn i indataområdet motsvarar en nivå av den första faktorn. Grupper av rader motsvarar nivåer av den andra faktorn; antalet rader i varje grupp anges i fältet &lt;quote&gt;&lt;guilabel&gt;Antal rader per urval&lt;/guilabel&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>See &lt;xref linkend="anova-two-factor-with-tool-ex1"/&gt; for an example of a completed dialog and &lt;xref linkend="anova-two-factor-with-tool-ex2"/&gt; for the corresponding output.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Se &lt;xref linkend="anova-two-factor-with-tool-ex1"/&gt; för ett exempel på en ifylld dialogruta och &lt;xref linkend="anova-two-factor-with-tool-ex2"/&gt; för motsvarande resultat.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>2-factor ANOVA With Replication Dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogruta för 2-faktors-ANOVA med upprepning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA2w-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of a two factor ANOVA with replication analysis.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA2w-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av en tvåfaktors-ANOVA med upprepning.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Output From a 2-factor ANOVA With Replication</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resultat från 2-faktors-ANOVA med upprepning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA2w-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output from a two factor ANOVA with replication analysis.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA2w-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av resultatet från en tvåfaktors-ANOVA med upprepning.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; will estimate missing values for each level combination as the mean of the existing values in that combination. The degrees of freedom are adjusted appropriately.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; skattar saknade värden för varje nivåkombination som medelvärdet av de befintliga värdena i kombinationen. Frihetsgraderna justeras därefter.</seg></tuv>
     </tu>
   </body>
 </tmx>

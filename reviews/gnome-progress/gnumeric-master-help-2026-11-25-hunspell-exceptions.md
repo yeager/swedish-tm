@@ -36,3 +36,7 @@ Additional statistical terms in batch 93:
 - **F-värde / F-kritiskt-värde** — statistical F-value terminology; Hunspell flags the letter-plus-hyphen compounds.
 - **F-testverktyget / t-testet** — names of the statistical tools and tests.
 - **1-faktors-ANOVA** — compact statistical heading with the number and technical acronym.
+
+Additional statistical compounds in batch 94:
+
+- **tvåfaktors-ANOVA / 2-faktors-ANOVA** — standard compound for two-factor analysis of variance; Hunspell splits the hyphenated form.
