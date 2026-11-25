@@ -202,3 +202,11 @@ Batch 182:
 - **NAME / ROWS / COLUMNS / RHS / RANGES / BOUNDS / ENDATA / Field / Columns / type / bound / value / row / name / range** — MPS syntax and column labels in the verbatim template.
 - **Lotus 1-2-3 / Lotus SmartSuite / SpreadsheetML / ZIP** — product and format names. `l10n-lint`'s two dash warnings for Lotus 1-2-3 are retained as required by the product name.
 - `l10n-lint` also reports one repeated `RHS` and one numeric-range dash warning in the exact MPS syntax block; both are part of the required sample and remain unchanged.
+
+Batch 183:
+
+- **ODF / OpenDocument-format / ODF-kalkylblad / ODF-filer / SpreadsheetML / XML / SYLK / ZIP** — standardized formats, markup languages and file types.
+- **OpenOffice.org / Microsoft Office / Microsoft Excel / Gnumeric / Multiplan / SmartSuite** — product names and branded compounds.
+- **Open Specification Promise / ECMA / IEC / ISO/IEC** — exact standard and legal-program names.
+- **Symbolic Link Interchange** — expansion of the SYLK format name.
+- **.slk / none** — exact extension and table sentinel.
