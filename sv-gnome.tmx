@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T134753Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T135321Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -603624,6 +603624,21 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>This button provides a list of locales which can be set. The chosen locale will affect how numeric values are interpreted when then are imported. For instance, the locale will define the character expected as the decimal separator which is the period character (.) in some locales, and the comma character (,) in others. These locales generally then use the other character as the spacer grouping the digits in thousands.</seg></tuv>
       <tuv xml:lang="sv"><seg>Menyn visar de regionala inställningar som du kan välja mellan. Valet påverkar hur numeriska värden tolkas vid import. Inställningarna avgör till exempel vilket tecken som används som decimaltecken: punkt (.) i vissa regioner och komma (,) i andra. Då används vanligtvis det andra tecknet som tusentalsavgränsare.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The various graphical elements which can be added to a &lt;application&gt;Gnumeric&lt;/application&gt; worksheet all behave in similar ways. The graphical elements all "float" above the cells in the cell grid and may obscure the contents of the cells behind, without affecting the contents of these hidden cells. All graphical elements are added in essentially the same way by selecting the element to add and then using the mouse, either with a simple click to place the element with a default size or with a click and drag to select the area of the worksheet to be covered by the element. These objects are moved or re-sized by clicking on the object with the primary mouse button and using the object body, border and "handles" (the small circles which appear at the corners and in the middle of each side) to manipulate the object. All of these objects will present a context menu through which to change the properties of the object, to save the object as an image, to change the stacking order (which graphical elements are in front of others), or to delete the object. Each of these operations will be summarized below and then explained in greater detail in the sections which follow.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alla grafiska element som kan läggas till i ett kalkylblad i &lt;application&gt;Gnumeric&lt;/application&gt; fungerar på liknande sätt. De ”svävar” ovanför cellrutnätet och kan skymma innehållet i cellerna bakom dem utan att påverka det. Du lägger till dem på ungefär samma sätt: välj element och klicka för att infoga det i standardstorlek, eller klicka och dra för att bestämma vilket område det ska täcka. Flytta eller ändra storlek på elementen genom att klicka på dem med primär musknapp och dra i själva elementet, kanten eller handtagen. Handtagen är små cirklar vid hörnen och mitt på sidorna. Via elementens snabbmeny kan du ändra egenskaper, spara dem som bilder, ändra lagerordning eller ta bort dem. Varje åtgärd sammanfattas nedan och beskrivs närmare i de följande avsnitten.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Some elements, such as the widget scrollbars, may be difficult to select because they interact themselves with the primary mouse button. An alternative selection process, which involves first invoking the context menu and then dismissing it, can be used for these elements and will work with any graphical element. When the mouse pointer is anywhere over the graphical element, clicking with one of the secondary mouse buttons will cause the element to be selected and a context menu to appear. If the primary mouse button is then pressed while the pointer is anywhere over the desktop other than over the menu, the context menu will be dismissed but the element will stay selected.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Vissa element, till exempel rullningslisterna i gränssnittskomponenter, kan vara svåra att markera eftersom de själva reagerar på primär musknapp. Då kan du först öppna snabbmenyn och sedan stänga den. Metoden fungerar för alla grafiska element. Klicka med en sekundär musknapp någonstans på elementet för att markera det och öppna snabbmenyn. Klicka sedan med primär musknapp någon annanstans på skrivbordet än på menyn. Menyn stängs och elementet förblir markerat.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-context-graph-order.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; An image of the order sub-menu in the context menu of graph elements. &lt;/phrase&gt; &lt;/textobject&gt; &lt;_:caption-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/menu-context-graph-order.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av undermenyn Ordning i snabbmenyn för diagramelement.&lt;/phrase&gt; &lt;/textobject&gt; &lt;_:caption-1/&gt;</seg></tuv>
     </tu>
   </body>
 </tmx>
