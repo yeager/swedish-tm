@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T110201Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T110456Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -600279,6 +600279,96 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-signtest-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output of a Sign Test.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
       <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-signtest-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av resultatet från ett teckentest.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This section describes the one sample Wilcoxon signed rank test to test the null hypothesis that the sample comes from a population with the given median. The tool to perform a Wilcoxon signed rank test to test the null hypothesis that two paired samples come from populations with the same median is in section &lt;xref linkend="two-median-wilcoxon-sign-test-tool"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I det här avsnittet beskrivs Wilcoxons teckenrangtest för ett urval, som prövar nollhypotesen att urvalet kommer från en population med den angivna medianen. Verktyget för Wilcoxons teckenrangtest av nollhypotesen att två parade urval kommer från populationer med samma median beskrivs i avsnittet &lt;xref linkend="two-median-wilcoxon-sign-test-tool"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Wilcoxon Signed Rank TTest tool performs a one-sample sign test whether the sample comes from a population with a given median.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Verktyget Wilcoxon teckenrangtest prövar med ett urval om det kommer från en population med en viss median.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The p-values given by this tool are determined using a normal approximation. This approximation is only valid if the sample size is at least 12.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Verktyget beräknar p-värden med en normalapproximation. Approximationen är bara giltig om urvalsstorleken är minst 12.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Using the Wilcoxon Signed Rank Test Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använda Wilcoxons teckenrangtest</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Suppose you want to perform a Wilcoxon Signed Rank Test on the data given in &lt;xref linkend="one-median-tool-dialog"/&gt; to determine whether the sample comes from a population of mean 3.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anta att du vill utföra Wilcoxons teckenrangtest på data i &lt;xref linkend="one-median-tool-dialog"/&gt; för att avgöra om urvalet kommer från en population med medianen 3.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>On the &lt;quote&gt;&lt;guibutton&gt;Test&lt;/guibutton&gt;&lt;/quote&gt; tab of the dialog (see &lt;xref linkend="one-median-tool-dialog-test-tab"/&gt;) select the Wilcoxon Signed Rank Test.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj Wilcoxons teckenrangtest på fliken &lt;quote&gt;&lt;guibutton&gt;Test&lt;/guibutton&gt;&lt;/quote&gt; i dialogrutan (se &lt;xref linkend="one-median-tool-dialog-test-tab"/&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The output of this sign test is shown in &lt;xref linkend="wilcoxon-sign-test-dialog-output"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resultatet från teckenrangtestet visas i &lt;xref linkend="wilcoxon-sign-test-dialog-output"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Output of a Wilcoxon Signed Rank Test</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resultat från Wilcoxons teckenrangtest</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-signtest-ex3.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output of a Wilcoxon Signed Rank Test.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-signtest-ex3.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av resultatet från Wilcoxons teckenrangtest.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Two Sample Tests</seg></tuv>
+      <tuv xml:lang="sv"><seg>Test för två urval</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Comparing Means of Two Populations</seg></tuv>
+      <tuv xml:lang="sv"><seg>Jämförelse av medelvärden för två populationer</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; provides four similar tools to test whether the difference of two population means is equal to a hypothesized value. These four tools use the same dialog (see &lt;xref linkend="ttest-dialog"/&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; har fyra liknande verktyg för att testa om skillnaden mellan två populationsmedelvärden är lika med ett hypotetiskt värde. Alla fyra verktygen använder samma dialogruta (se &lt;xref linkend="ttest-dialog"/&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;t&lt;/parameter&gt;- and &lt;parameter&gt;z&lt;/parameter&gt;-Test Tool Dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;t&lt;/parameter&gt;- och &lt;parameter&gt;z&lt;/parameter&gt;-testverktygens dialogruta</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ttest.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the t-test and z-test dialog.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ttest.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av dialogrutan för t-test och z-test.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Depending on the options settings, the appropriate test will be performed. The entries in the &lt;quote&gt;&lt;guilabel&gt;Input&lt;/guilabel&gt;&lt;/quote&gt;, &lt;quote&gt;&lt;guilabel&gt;Test&lt;/guilabel&gt;&lt;/quote&gt;, and &lt;quote&gt;&lt;guilabel&gt;Output&lt;/guilabel&gt;&lt;/quote&gt; frames are independent from the specific test.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Beroende på inställningarna utförs det test som passar. Fälten i rutorna &lt;quote&gt;&lt;guilabel&gt;Inmatning&lt;/guilabel&gt;&lt;/quote&gt;, &lt;quote&gt;&lt;guilabel&gt;Test&lt;/guilabel&gt;&lt;/quote&gt; och &lt;quote&gt;&lt;guilabel&gt;Utdata&lt;/guilabel&gt;&lt;/quote&gt; är desamma för alla test.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Enter the first variable in the &lt;quote&gt;&lt;guilabel&gt;Variable 1 Range&lt;/guilabel&gt;&lt;/quote&gt; entry and the second variable in the &lt;quote&gt;&lt;guilabel&gt;Variable 2 Range&lt;/guilabel&gt;&lt;/quote&gt; entry.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange den första variabelns område i fältet &lt;quote&gt;&lt;guilabel&gt;Område för variabel 1&lt;/guilabel&gt;&lt;/quote&gt; och den andra variabelns område i fältet &lt;quote&gt;&lt;guilabel&gt;Område för variabel 2&lt;/guilabel&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Enter the hypothesized difference between the population means in the &lt;quote&gt;&lt;guilabel&gt;Hypothesized Mean Difference&lt;/guilabel&gt;&lt;/quote&gt; entry, which has a default of 0. Enter the significance level in the &lt;quote&gt;&lt;guilabel&gt;Alpha&lt;/guilabel&gt;&lt;/quote&gt; entry, which has a default of 5 %.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange den hypotetiska skillnaden mellan populationsmedelvärdena i fältet &lt;quote&gt;&lt;guilabel&gt;Hypotetisk skillnad mellan medelvärden&lt;/guilabel&gt;&lt;/quote&gt;. Standardvärdet är 0. Ange signifikansnivån i fältet &lt;quote&gt;&lt;guilabel&gt;Alfa&lt;/guilabel&gt;&lt;/quote&gt;. Standardvärdet är 5 %.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the output options as described above. If the output is printed into a range, it should have at least three columns and ten rows.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange utdataalternativen enligt beskrivningen ovan. Om resultatet placeras i ett cellområde ska det omfatta minst tre kolumner och tio rader.</seg></tuv>
     </tu>
   </body>
 </tmx>
