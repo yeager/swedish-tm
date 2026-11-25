@@ -339,3 +339,5 @@ Batch 207 (Python plug-in code documentation): Hunspell output consists of prese
 Batch 208 (bookmark folders): Hunspell flagged `currentWork`, the example bookmark name, and valid Swedish compounds **mappikon** and **mappnamnet**.
 
 Batch 209 (function argument metavariables): **HLOOKUP**, **HYPERLINK**, **VLOOKUP**, **RANDDISCRETE**, and **SUBTOTAL** are exact function identifiers. The display-only `<parameter>` names are translated (`cond` → `villkor`, `value` → `sökvärde`, etc.) while function names and DocBook markup remain exact. **referens1/referens2** are Swedish compounds with numeric suffixes; Hunspell does not accept the suffix form.
+
+Batch 211 (formula examples): translated the metavariable template `FUNCTIONNAME(ARGUMENTS)` to `FUNKTIONSNAMN(ARGUMENTLISTA)` and localized the displayed formula result categories `Good/Fair/Poor` to `Bra/Medel/Dålig`. Formula syntax, cell references, `Demand Tables` sheet name and code structure were preserved. Hunspell exceptions: sheet name and formula/cell identifiers.
