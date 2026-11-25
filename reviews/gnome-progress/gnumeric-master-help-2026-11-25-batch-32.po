@@ -1,0 +1,213 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:90
+msgid ""
+"Instead of the <keysym>Enter</keysym> key, other keys can be used to input "
+"the data in the current cell. These other keys will move the selection box "
+"to other locations than does the <keysym>Enter</keysym> key. The "
+"<keysym>Tab</keysym> key inputs the entry in the currently selected cell and"
+" then moves the selection box one cell to the right of the current cell. The"
+" arrow keys input the entry into the currently selected cell and move one "
+"cell in the direction of the arrow. The <keysym>Enter</keysym> key can also "
+"be used in conjunction with other keys. Typing the "
+"<keycombo><keysym>Shift</keysym><keysym>Enter</keysym></keycombo> "
+"combination will move the selection upwards after entry. Typing the "
+"<keycombo><keysym>Ctrl</keysym><keysym>Enter</keysym></keycombo> combination"
+" will re-select the currently selected cell."
+msgstr ""
+"Du kan använda andra tangenter än <keysym>Enter</keysym> för att mata in "
+"data i den aktuella cellen och flytta markeringen på andra sätt än med "
+"<keysym>Enter</keysym>. <keysym>Tab</keysym> matar in värdet i den markerade"
+" cellen och flyttar markeringen en cell åt höger. Piltangenterna matar in "
+"värdet och flyttar markeringen en cell i pilens riktning. Du kan också "
+"kombinera <keysym>Enter</keysym> med andra tangenter. "
+"<keycombo><keysym>Shift</keysym><keysym>Enter</keysym></keycombo> flyttar "
+"markeringen uppåt efter inmatningen. "
+"<keycombo><keysym>Ctrl</keysym><keysym>Enter</keysym></keycombo> markerar "
+"den aktuella cellen igen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:113
+msgid ""
+"After selecting the cell and initially entering the data, the user is in a "
+"limited editing mode. The main key for editing mistakes in this mode is the "
+"backspace key."
+msgstr ""
+"När du har markerat cellen och börjat mata in data är du i ett begränsat "
+"redigeringsläge. I det läget använder du främst Backsteg för att rätta "
+"misstag."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:119
+msgid ""
+"For a more complete set of editing options, especially for longer entries, "
+"there is an advanced editing mode. To enter the advanced editing mode, press"
+" the <keycap>F2</keycap> function key or click on the editing region. The "
+"keyboard focus will then shift from the current cell to the editing region "
+"at the top of the worksheet. There, you can use cursor keys to position the "
+"cursor within the data in the cell, and have all of the capabilities of the "
+"data entry area available."
+msgstr ""
+"För fler redigeringsalternativ, särskilt vid längre inmatningar, kan du "
+"använda det avancerade redigeringsläget. Tryck på funktionstangenten "
+"<keycap>F2</keycap> eller klicka i redigeringsområdet för att öppna det. "
+"Tangentbordsfokus flyttas då från den aktuella cellen till "
+"redigeringsområdet högst upp i kalkylbladet. Där kan du använda "
+"piltangenterna för att flytta markören i cellens innehåll och använda alla "
+"funktioner i inmatningsfältet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:130
+msgid ""
+"For example, you can use: <_:variablelist-1/> See <xref linkend=\"sect-data-"
+"entry\"/> For more info on the data entry area."
+msgstr ""
+"Du kan till exempel använda: <_:variablelist-1/> Mer information om "
+"inmatningsfältet finns i <xref linkend=\"sect-data-entry\"/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:152
+msgid ""
+"All the normal key bindings for GNOME application entry boxes also apply in "
+"the data entry box."
+msgstr ""
+"Alla vanliga tangentbordsgenvägar för GNOME-programmens inmatningsfält "
+"fungerar även i inmatningsfältet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:158
+msgid ""
+"After finishing the data entry, pressing the <keycap>Enter</keycap> key will"
+" input the data entry and move the selection box downward just like for the "
+"simple editing mode."
+msgstr ""
+"När du har matat in data trycker du på <keycap>Enter</keycap> för att "
+"slutföra inmatningen och flytta markeringen nedåt, precis som i det enkla "
+"redigeringsläget."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:174
+msgid ""
+"Text can be entered by selecting a cell, typing the text and then typing the"
+" <keysym>Enter</keysym> key. Anything that is not interpreted to be a "
+"number, boolean, formula or error will be treated as a text field. To "
+"prevent <application>Gnumeric</application> from interpreting an entry as "
+"one of these other elements, a leading apostrophe can be added to force the "
+"entry to be text. Any entry, no matter what the contents, which starts with "
+"a leading apostrophe (') will be considered to be text."
+msgstr ""
+"Markera en cell, skriv texten och tryck på <keysym>Enter</keysym> för att "
+"mata in text. Allt som inte tolkas som ett tal, ett booleskt värde, en "
+"formel eller ett fel behandlas som text. Om du vill hindra "
+"<application>Gnumeric</application> från att tolka inmatningen som någon av "
+"dessa andra typer kan du inleda den med en apostrof. All inmatning som "
+"börjar med apostrof (') betraktas som text, oavsett innehåll."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:187
+msgid ""
+"Postal codes in the United States are series of five integers. By default, "
+"<application>Gnumeric</application> interprets these to be numbers. This "
+"interpretation means that the leading zeros used in the postal codes of the "
+"northeastern region will be lost by default. To retain these leading zeros, "
+"either the code should be entered with a leading apostrophe (e.g. '02917) or"
+" the cells should be formatted as text before data entry (see <xref "
+"linkend=\"sect-data-format\"/> for an explanation of formatting)."
+msgstr ""
+"Postnummer i USA består av fem siffror. Som standard tolkar "
+"<application>Gnumeric</application> dem som tal, vilket gör att inledande "
+"nollor, som används i nordöstra USA, försvinner. Behåll nollorna genom att "
+"inleda koden med en apostrof (till exempel '02917) eller formatera cellerna "
+"som text innan du matar in data. Se <xref linkend=\"sect-data-format\"/> om "
+"cellformatering."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:206
+msgid ""
+"Numbers can be entered like other items. First the cell in which the number "
+"should be entered must be selected, then a valid number must be typed in and"
+" finally the entry must be inserted using the <keysym>Enter</keysym> key. "
+"The valid formats for numbers are presented in <xref linkend=\"sect-data-"
+"numbers\"/>."
+msgstr ""
+"Tal matas in på samma sätt som andra värden. Markera först cellen, skriv ett"
+" giltigt tal och tryck sedan på <keysym>Enter</keysym>. Giltiga talformat "
+"beskrivs i <xref linkend=\"sect-data-numbers\"/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:224
+msgid ""
+"A boolean can be entered by selecting the cell, typing the boolean (either "
+"TRUE or FALSE) and then typing the <keysym>Enter</keysym> key."
+msgstr ""
+"Mata in ett booleskt värde genom att markera cellen, skriva TRUE eller FALSE"
+" och trycka på <keysym>Enter</keysym>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:236
+msgid ""
+"Formulas can be entered simply by typing a syntactically correct formula in "
+"a cell. The correct syntax for formulas is explained in detail in <xref "
+"linkend=\"sect-data-formulas\"/>. Formulas begin with an equals sign (=) and"
+" contain arithmetic symbols, functions with their arguments and cell "
+"references."
+msgstr ""
+"Formler matas in genom att skriva en formel med korrekt syntax i en cell. "
+"Syntaxen förklaras närmare i <xref linkend=\"sect-data-formulas\"/>. Formler"
+" börjar med likhetstecknet (=) och kan innehålla räknesymboler, funktioner "
+"med argument och cellreferenser."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:244
+msgid ""
+"To enter a formula, first the cell must be selected, then the correct "
+"formula must be typed, and finally the <keysym>Enter</keysym> key must be "
+"typed."
+msgstr ""
+"Markera först cellen där formeln ska stå, skriv formeln korrekt och tryck "
+"sedan på <keysym>Enter</keysym>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:251
+msgid ""
+"If the formula entered into <application>Gnumeric</application> cannot be "
+"interpreted correctly, <application>Gnumeric</application> will display an "
+"error message giving the user the choice of re-editing the formula or saving"
+" the formula as a text field to be edited later. For example, a formula may "
+"be mathematically incorrect if the user has two operators in a row (e.g. "
+"=3+*4). If the formula is saved as text, when the formula is corrected the "
+"leading apostrophe must be removed. <application>Gnumeric</application> will"
+" then re-interpret the entry as a formula."
+msgstr ""
+"Om <application>Gnumeric</application> inte kan tolka en inmatad formel "
+"korrekt visar <application>Gnumeric</application> ett felmeddelande med "
+"möjlighet att redigera formeln igen eller spara den som text för senare "
+"redigering. Formeln kan till exempel vara matematiskt felaktig om två "
+"operatorer står efter varandra (till exempel =3+*4). Om formeln sparas som "
+"text måste den inledande apostrofen tas bort när den har rättats. Då tolkar "
+"<application>Gnumeric</application> inmatningen som en formel igen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:270
+msgid ""
+"Formulas often include cell references or references to ranges of cells as "
+"arguments to functions. These references and ranges can be entered into a "
+"formula simply by typing in the proper syntax (see <xref linkend=\"sect-"
+"data-formulas-references\"/> for more details). But manually entering in "
+"cell ranges is slow and cumbersome. In order to speed up the entry of these "
+"cell ranges, the mouse and the keyboard arrow keys can be used to select "
+"these cell ranges quickly."
+msgstr ""
+"Formler innehåller ofta cellreferenser eller cellområden som "
+"funktionsargument. Du kan skriva in referenser och områden direkt i formeln "
+"med rätt syntax; se <xref linkend=\"sect-data-formulas-references\"/>. Det "
+"kan dock vara långsamt och omständligt att skriva in cellområden för hand. "
+"Använd musen eller piltangenterna för att välja områden snabbare."
