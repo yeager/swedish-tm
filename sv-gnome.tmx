@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T080350Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T080831Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596839,6 +596839,31 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The next tab is the Summary. There are two boxes in this tab, the Simulation Summary and the Summary of results (see &lt;xref linkend="fig-analysis-simulation-summary-dialog"/&gt;). In simulation summary, there is a description of the simulation parameters.</seg></tuv>
       <tuv xml:lang="sv"><seg>Nästa flik är Sammanfattning. Där finns två rutor: Simuleringssammanfattning och Sammanfattning av resultat (se &lt;xref linkend="fig-analysis-simulation-summary-dialog"/&gt;). Simuleringssammanfattningen beskriver parametrarna för simuleringen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In the summary of results window, there are summary statistics for each round of the simulation. If multiple rounds were done, the results of each round can be browsed by using the 'Prev. Sim.' and 'Next Sim.' buttons below the Summary of results box. For each output and input variable, the summary shows the Min, Average and the Max value across the iterations for that round of the simulation. Note that for the input variables, this shows the random number that is the average, max and min. If the statistics on intermediate values, such as a cost distribution, was desired, these intermediate values should be added to the list of output variables.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I fönstret Sammanfattning av resultat visas sammanfattande statistik för varje simuleringsomgång. Om simuleringen körts i flera omgångar kan du bläddra bland resultaten med knapparna Föreg. sim. och Nästa sim. under rutan Sammanfattning av resultat. För varje variabel för utdata och indata visas det minsta, genomsnittliga och största värdet under omgångens iterationer. För variablerna för indata är detta de slumpmässiga värdenas minsta, genomsnittliga och största värde. Om du även vill se statistik för mellanvärden, till exempel en kostnadsfördelning, lägger du till dessa värden i listan över variabler för utdata.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The last tab is labeled 'Output'. This tab identifies the location where the output table will be generated. There are two sets of options, first the Output Placement then Output Formatting as shown in &lt;xref linkend="fig-analysis-simulation-output-dialog"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den sista fliken heter Utdata. Här väljer du var utdatatabellen ska skapas. Det finns två grupper med inställningar: Utdataplacering och Utdataformatering, som visas i &lt;xref linkend="fig-analysis-simulation-output-dialog"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The default output placement is 'New sheet'. This will create a new sheet in the Gnumeric workbook labeled 'Simulation Report (1)', where '1' can be replaced with another number if a tab labeled 'Simulation Report (1)' already exists. The option 'New workbook' creates a Gnumeric workbook named 'Book2.gnumeric' with a tab labeled 'Simulation Report.'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Standardvalet för utdataplacering är Nytt blad. Då skapas ett nytt blad i arbetsboken i Gnumeric med namnet Simulationsrapport (1). Siffran kan ändras om det redan finns en flik med samma namn. Alternativet Ny arbetsbok skapar en ny arbetsbok i Gnumeric med filnamnet Book2.gnumeric och en flik med namnet Simulationsrapport.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>'Autofit columns' automatically makes each column long enough to include the largest entry in that column. Note that column 'A' in the resulting spreadsheet used to save run information such as date and time and is kept narrow.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativet Anpassa kolumner automatiskt gör varje kolumn tillräckligt bred för den längsta posten. Observera att kolumn A i kalkylbladet används för att spara information om körningen, till exempel datum och tid, och därför hålls smal.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The output will include a heading, then a table for each round of the simulation. Judicious choice of output variables will also include any intermediate values of interest in the simulation in this table. Each row of the output table has statistics of the values of a variable over the iterations of the simulation as shown in &lt;xref linkend="fig-analysis-simulation-report-screen"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utdata innehåller först en rubrik och därefter en tabell för varje simuleringsomgång. Om du väljer lämpliga variabler för utdata kan tabellen även innehålla mellanvärden som är intressanta för simuleringen. Varje rad i utdatatabellen visar statistik för en variabel under simuleringens iterationer, som i &lt;xref linkend="fig-analysis-simulation-report-screen"/&gt;.</seg></tuv>
     </tu>
   </body>
 </tmx>
