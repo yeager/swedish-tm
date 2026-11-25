@@ -25,3 +25,7 @@ Batch 82 preserves the example category labels **Gadgets** and **Lumpets** in th
 Additional term in batch 90:
 
 - **t-test / t-testet** — standard Swedish label for Student's t-test; Hunspell does not recognize the letter-plus-hyphen compound.
+
+Additional compound form in batch 91:
+
+- **z-testverktyget** — Swedish compound for the z-test tool; Hunspell reports the hyphen boundary as a spelling error.
