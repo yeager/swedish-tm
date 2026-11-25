@@ -139,3 +139,7 @@ Batch 172:
 
 - **Gnumeric-inställningar** — Swedish compound containing the application name.
 - **kalkylbladsflik / kalkylbladsflikens** — regular Swedish compounds for a worksheet tab and its possessive form.
+
+Batch 173:
+
+- **Shift** — exact keycap name in the help text; retained as the key label.
