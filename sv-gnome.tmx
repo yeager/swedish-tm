@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T131934Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T132216Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -603124,6 +603124,86 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; can import data which is organized as text fields structured in some systematic fashion either from a file or from the clipboard. Importing structured text may require extensive intervention on the part of the user so &lt;application&gt;Gnumeric&lt;/application&gt; provides a &lt;interface&gt;Text Import&lt;/interface&gt; druid, which is a three paneled dialog with configuration options. For text imported from files, this druid appears after the file has been imported, using the &lt;guimenuitem&gt;Import Text File...&lt;/guimenuitem&gt; menu item in the &lt;guimenuitem&gt;Import Data&lt;/guimenuitem&gt; submenu of the &lt;guimenuitem&gt;Data&lt;/guimenuitem&gt; menu as described in &lt;xref linkend="Data-Menu"/&gt;. For text imported from the clipboard, the druid appears when a user attempts to paste the text into a worksheet, as is explained in &lt;xref linkend="sect-movecopy-xclipboard"/&gt;.</seg></tuv>
       <tuv xml:lang="sv"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; kan importera data från en fil eller urklippet när de har ordnats i textfält enligt en viss struktur. Import av sådan text kan kräva en hel del inställningar, så &lt;application&gt;Gnumeric&lt;/application&gt; har guiden &lt;interface&gt;Textimport&lt;/interface&gt;, en dialogruta med tre paneler och olika alternativ. När du importerar från en fil visas guiden efter att filen har öppnats, när du väljer &lt;guimenuitem&gt;Importera textfil…&lt;/guimenuitem&gt; i undermenyn &lt;guimenuitem&gt;Importera data&lt;/guimenuitem&gt; under menyalternativet &lt;guimenuitem&gt;Data&lt;/guimenuitem&gt;, enligt &lt;xref linkend="Data-Menu"/&gt;. När du importerar från urklippet visas guiden när du försöker klistra in texten i ett kalkylblad, enligt &lt;xref linkend="sect-movecopy-xclipboard"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The text import druid contains three panels but the middle panel differs depending on the structuring system used, either with data fields separated by a special character or with data fields occurring at equally spaced intervals in each line. The first panel allows the user to configure the character encoding, line break characters, structuring system, and line range. The second panel allows the user to define the columns by either, for separated data, setting the separating character and text delimiting character, or, for fixed space data, by setting the column spacing. The third panel allows the user to select which columns to import and define their data types.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Textimportguiden består av tre paneler. Den mittersta panelen varierar beroende på hur data är strukturerade: fält kan avgränsas med ett särskilt tecken eller ligga med jämna mellanrum på varje rad. I den första panelen ställer du in teckenkodning, radbrytningstecken, strukturmetod och radintervall. I den andra definierar du kolumnerna: för avgränsade data väljer du avgränsningstecken och tecken som omsluter textfält, och för data med fast bredd anger du kolumnbredd. I den tredje väljer du vilka kolumner som ska importeras och deras datatyper.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The steps involved in the text import druid.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stegen i textimportguiden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Launch the &lt;interface&gt;Text Import&lt;/interface&gt; druid using, in the &lt;guimenu&gt;File&lt;/guimenu&gt;, the &lt;guimenuitem&gt;Open&lt;/guimenuitem&gt; and selecting the "Text import (configurable)" file format type.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Öppna guiden &lt;interface&gt;Textimport&lt;/interface&gt; genom att gå till menyn &lt;guimenu&gt;Arkiv&lt;/guimenu&gt;, välja &lt;guimenuitem&gt;Öppna&lt;/guimenuitem&gt; och sedan välja filformatet ”Textimport (konfigurerbar)”.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Define the character encoding of the text block.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange teckenkodningen för textblocket.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Define the characters indicating the breaks between the lines.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange tecknen som markerar radbrytningar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select the line range from the text block to be imported.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj vilka rader i textblocket som ska importeras.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Go to the second panel, which will be different for data structured by separating characters and data structured by fixed spacing.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gå till den andra panelen. Den ser olika ut för data som avgränsas med tecken och data med fasta avstånd.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>(For separated data) Define the separating character.</seg></tuv>
+      <tuv xml:lang="sv"><seg>(För avgränsade data) Ange avgränsningstecknet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>(For separated data) Define the character grouping a text field.</seg></tuv>
+      <tuv xml:lang="sv"><seg>(För avgränsade data) Ange tecknet som omsluter textfält.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>(For fixed width data) Define the field widths.</seg></tuv>
+      <tuv xml:lang="sv"><seg>(För data med fast bredd) Ange fältens bredd.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Go to the third panel.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gå till den tredje panelen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Configure the inclusion of empty outside columns.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj om tomma kolumner utanför dataområdet ska tas med.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select the locale that will influence the formatting of the numerical elements in each column.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj de regionala inställningar som ska styra hur tal i varje kolumn formateras.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select the numerical formats for the data in each columns.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj hur data i varje kolumn ska formateras.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select the columns to be included in the imported block.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj vilka kolumner som ska ingå i det importerade dataområdet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Click on the &lt;guibutton&gt;Finish&lt;/guibutton&gt; button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klicka på knappen &lt;guibutton&gt;Slutför&lt;/guibutton&gt;.</seg></tuv>
     </tu>
   </body>
 </tmx>
