@@ -241,3 +241,8 @@ Batch 187:
 - **glyf** — technical term for a glyph representation in a font.
 - **Alphabet / Soup** — words in the proper title “The ISO-8859 Alphabet Soup”, preserved as part of the cited webpage title.
 - **åÕÛÛÞ** — deliberately nonsensical example of mojibake from the source, preserved exactly.
+
+Batch 188:
+
+- **Ctrl- / Ctrl-F3 / F2 / F4 / Shift-Ctrl-G** — literal keyboard shortcut labels; preserved exactly.
+- **Gnumeric** — application name.
