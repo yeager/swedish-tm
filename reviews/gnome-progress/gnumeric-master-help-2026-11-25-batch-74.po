@@ -1,0 +1,118 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2050
+msgid "Fourier Analysis Tool"
+msgstr "Verktyg för Fourieranalys"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2053
+msgid "Fourier Analysis Tool Dialog"
+msgstr "Dialogrutan för Fourieranalys"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2055
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-fourier.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of the fourier"
+" analysis dialog.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-fourier.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Dialogrutan för "
+"Fourieranalys.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2068
+msgid ""
+"The Fourier Analysis tool normally performs a Fast Fourier Transform to "
+"obtain the discrete fourier transform F<subscript>s</subscript> of the given"
+" sequence f<subscript>t</subscript> of real numbers according to the formula"
+" given in <xref linkend=\"fourier-tool-formula\"/>."
+msgstr ""
+"Verktyget Fourieranalys utför normalt en snabb Fouriertransform för att "
+"beräkna den diskreta Fouriertransformen F<subscript>s</subscript> av den "
+"givna följden f<subscript>t</subscript> av reella tal enligt formeln i <xref"
+" linkend=\"fourier-tool-formula\"/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2074
+msgid ""
+"Select the <quote><guilabel>Inverse</guilabel></quote> option to calculate "
+"the inverse discrete fourier transform f<subscript>t</subscript> of the "
+"given sequence F<subscript>s</subscript> of real numbers"
+msgstr ""
+"Välj <quote><guilabel>Invers</guilabel></quote> om du vill beräkna den "
+"inversa diskreta Fouriertransformen f<subscript>t</subscript> av den givna "
+"följden F<subscript>s</subscript> av reella tal"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2078
+msgid ""
+"If the number of terms in the given sequence is not a power of 2 (i.e. 2, 4,"
+" 8, 16, 32, 64, 128, etc.), this tool will append zeros to reach such a "
+"power of 2!"
+msgstr ""
+"Om antalet termer i följden inte är en tvåpotens (det vill säga 2, 4, 8, 16,"
+" 32, 64, 128 och så vidare) lägger verktyget till nollor tills antalet blir "
+"en sådan tvåpotens!"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2083
+msgid ""
+"Specify the cells containing the datasets in the <quote><guilabel>Input "
+"Range</guilabel></quote> entry. The entered range or ranges are grouped into"
+" sequences either by rows or by columns."
+msgstr ""
+"Ange cellerna med datamängderna i fältet "
+"<quote><guilabel>Indataområde</guilabel></quote>. Området eller områdena "
+"delas in i följder efter rader eller kolumner."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2093
+msgid "Fourier Analysis Formulae"
+msgstr "Formler för Fourieranalys"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2095
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-fourier-"
+"formula.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>The "
+"formulae used in a fourier analysis.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-fourier-"
+"formula.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>Formlerna"
+" för Fourieranalys.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2108
+msgid ""
+"Before using the numbers obtained by this tool, ensure that these are in "
+"fact the correct formulae for your discipline. In the physical sciences this"
+" fourier transform tends to be called the inverse fourier transform and vice"
+" versa. Moreover, frequently the scaling factor varies."
+msgstr ""
+"Kontrollera att formlerna passar ditt ämnesområde innan du använder "
+"resultaten från verktyget. Inom fysik kallas den här Fouriertransformen ofta"
+" för invers Fouriertransform, och tvärtom. Även skalningsfaktorn varierar "
+"ofta."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2113
+msgid ""
+"For example <application>Mathematica</application> uses the terms fourier "
+"transform and inverse fourier transform with the reversed meaning than "
+"<application>Gnumeric</application> and it uses a scaling factor of "
+"<parameter>1/SQRT(N)</parameter> rather than <parameter>1/N</parameter>."
+msgstr ""
+"<application>Mathematica</application> använder till exempel termerna "
+"Fouriertransform och invers Fouriertransform med omvänd betydelse jämfört "
+"med <application>Gnumeric</application>. Programmet använder också "
+"skalningsfaktorn <parameter>1/SQRT(N)</parameter> i stället för "
+"<parameter>1/N</parameter>."
