@@ -1,0 +1,331 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:578
+msgid ""
+"This basic procedure does not allow a user to save the file into folder "
+"other than one already provided. An expanded procedure is needed to explain "
+"how to save a file into other folders in the file system. The next section "
+"explains the extra elements provided when the <interface>File "
+"Save</interface> dialog is expanded and that section is followed by a step-"
+"by-step procedure explaining how to use this expanded dialog."
+msgstr ""
+"Med den här grundmetoden kan du bara spara filen i en av mapparna som redan "
+"visas. För att spara i en annan mapp behöver du följa den utförligare "
+"metoden. Nästa avsnitt beskriver de extra delarna som visas när dialogrutan "
+"<interface>Spara fil</interface> fälls ut. Därefter följer stegvisa "
+"instruktioner för det utfällda läget."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:599
+msgid ""
+"The extra components in the expanded <interface>File Save</interface> "
+"dialog."
+msgstr ""
+"De extra komponenterna i den utfällda dialogrutan <interface>Spara "
+"fil</interface>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:604
+msgid ""
+"In order to select folders other than those provided in the drop down list "
+"shown as area <emphasis role=\"bold\">B</emphasis> in <xref linkend=\"fig-"
+"file-save-dialog-compact-components\"/>, the <interface>File "
+"Save</interface> dialog must be expanded by clicking in the area labeled "
+"<emphasis role=\"bold\">D</emphasis>. In the expanded form, the "
+"<interface>File Save</interface> dialog allows a user to select a new folder"
+" in which to save a file, to create new folders, and to add bookmark folders"
+" to the list provided in the area labeled <emphasis "
+"role=\"bold\">C</emphasis>."
+msgstr ""
+"Om du vill välja en annan mapp än dem i listan i område <emphasis "
+"role=\"bold\">B</emphasis> i <xref linkend=\"fig-file-save-dialog-compact-"
+"components\"/> måste du fälla ut dialogrutan <interface>Spara "
+"fil</interface> genom att klicka i område <emphasis "
+"role=\"bold\">D</emphasis> i dialogrutan <interface>Spara fil</interface>. I"
+" utfällt läge kan du välja en annan mapp att spara filen i, skapa mappar och"
+" lägga till bokmärkesmappar i listan i område <emphasis "
+"role=\"bold\">C</emphasis>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:619
+msgid ""
+"This section will explain the extra components of the <interface>File "
+"Save</interface> dialog which are provided when the dialog is expanded. "
+"<xref linkend=\"fig-file-save-dialog-expanded-components\"/> shows these "
+"different areas and adds a label to each."
+msgstr ""
+"I det här avsnittet beskrivs de extra komponenter som visas när dialogrutan "
+"<interface>Spara fil</interface> fälls ut. I <xref linkend=\"fig-file-save-"
+"dialog-expanded-components\"/> visas områdena med varsin etikett."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:629
+msgid "The expanded form of the <interface>File Save</interface> dialog."
+msgstr "Den utfällda dialogrutan <interface>Spara fil</interface>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:640
+msgid ""
+"This screenshot depicts the 'File Save' dialog in its expanded form with the"
+" different areas labeled."
+msgstr ""
+"Den här skärmbilden visar dialogrutan ”Spara fil” i utfällt läge, med de "
+"olika områdena utmärkta."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:661
+msgid ""
+"The extra components in the expanded version of the <interface>File "
+"Save</interface> dialog"
+msgstr ""
+"De extra komponenterna i den utfällda dialogrutan <interface>Spara "
+"fil</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:665
+msgid "<emphasis role=\"bold\">F</emphasis> - The 'relative root' selection area."
+msgstr "<emphasis role=\"bold\">F</emphasis> – Område för val av ”relativ rot”."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:671
+msgid ""
+"This area allows the user to select the starting folder from which to "
+"navigate the folder hierarchy. The navigation system only allows users to "
+"select sub-folders of the currently selected 'relative root' folder so the "
+"root folder selected in area <emphasis role=\"bold\">F</emphasis> must "
+"contain the desired folder as a sub-folder."
+msgstr ""
+"Här väljer du startmappen för navigering i mapphierarkin. Du kan bara välja "
+"undermappar till den valda ”relativa roten”. Därför måste mappen som väljs i"
+" område <emphasis role=\"bold\">F</emphasis> innehålla den önskade mappen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:681
+msgid ""
+"The folders listed in this area include the standard folders provided by the"
+" system and a number of folders added, as bookmark folders, by the user. The"
+" standard folders provided by the system will vary for different machines "
+"and system administrators may have disabled access to certain areas. By "
+"default, the standard folders provided include the user's 'Home' folder, the"
+" user's 'Desktop' folder, a folder pointing to the root of the filesystem "
+"tree and folders for each of the removable storage devices attached to the "
+"computer. The user's home folder, on GNU and other UNIX like systems, this "
+"folder is usually known as <literal>~</literal> or "
+"<literal>~user_account_name</literal> where the phrase "
+"<literal>user_account_name</literal> represents the account name used by the"
+" current user. This folder is often located at "
+"<filename>/home/user_account_name/</filename> in the filesystem. The "
+"'Desktop' folder is the folder which holds the files which are displayed in "
+"the background of the user's window. The 'Filesystem' folder is the top of "
+"the filesystem tree, which on GNU systems is also known as "
+"<filename>/</filename>. The list also presents peripheral or external "
+"devices. Below the standard folders, area <emphasis "
+"role=\"bold\">F</emphasis> has a separator and the bookmark folders selected"
+" by the user. In <xref linkend=\"fig-file-save-dialog-expanded-"
+"components\"/> the folder <filename>currentWork</filename> is a folder named"
+" by the user and added to the list of bookmark folders."
+msgstr ""
+"Listan innehåller systemets standardmappar och eventuella mappar som "
+"användaren har lagt till som bokmärken. Standardmapparna kan variera mellan "
+"datorer, och systemadministratören kan ha begränsat åtkomsten till vissa "
+"platser. Som standard visas användarens hemmapp ”Hem”, skrivbordsmappen "
+"”Skrivbord”, en mapp till filsystemets rot och mappar för anslutna flyttbara"
+" lagringsenheter. I GNU och andra Unix-liknande system skrivs hemmappen "
+"vanligtvis som <literal>~</literal> eller "
+"<literal>~user_account_name</literal>, där "
+"<literal>user_account_name</literal> står för den aktuella användarens "
+"kontonamn. Mappen finns ofta på "
+"<filename>/home/user_account_name/</filename> i filsystemet. "
+"Skrivbordsmappen innehåller filerna som visas på skrivbordets bakgrund. "
+"Mappen ”Filsystem” är filsystemets översta nivå, även kallad "
+"<filename>/</filename> på GNU-system. Listan visar också kringutrustning och"
+" externa enheter. Under standardmapparna i område <emphasis "
+"role=\"bold\">F</emphasis> finns en avdelare och användarens "
+"bokmärkesmappar. I <xref linkend=\"fig-file-save-dialog-expanded-"
+"components\"/> är <filename>currentWork</filename> en användarskapad mapp "
+"som lagts till bland bokmärkena."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:718
+msgid "<emphasis role=\"bold\">G</emphasis> - The folder hierarchy area."
+msgstr "<emphasis role=\"bold\">G</emphasis> – Mapphierarkin."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:722
+msgid ""
+"This area displays the folder hierarchy starting from the starting folder "
+"selected in area <emphasis role=\"bold\">F</emphasis> and ending in the "
+"current folder, the folder whose contents are displayed in area <emphasis "
+"role=\"bold\">I</emphasis>, while displaying all the folders between the "
+"two. This area changes dynamically as the user changes to new folders. In "
+"the case shown in <xref linkend=\"fig-file-save-dialog-expanded-"
+"components\"/>, the user has selected the 'Home' folder as the starting "
+"folder in area <emphasis role=\"bold\">F</emphasis> and has not navigated to"
+" any sub-folders."
+msgstr ""
+"Här visas mapphierarkin från startmappen i område <emphasis "
+"role=\"bold\">F</emphasis> till den aktuella mappen, vars innehåll visas i "
+"område <emphasis role=\"bold\">I</emphasis>, samt alla mappar däremellan. "
+"Visningen ändras när du navigerar till andra mappar. I exemplet i <xref "
+"linkend=\"fig-file-save-dialog-expanded-components\"/> har användaren valt "
+"”Home” som startmapp i område <emphasis role=\"bold\">F</emphasis> och ännu "
+"inte navigerat till någon undermapp."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:741
+msgid "<emphasis role=\"bold\">H</emphasis> - The Folder Creation button."
+msgstr "<emphasis role=\"bold\">H</emphasis> – Knappen Skapa mapp."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:745
+msgid ""
+"This button allows the user to create a folder in the directory listed in "
+"the rightmost part of the file component area, area <emphasis "
+"role=\"bold\">G</emphasis>. When this button is clicked, by placing the "
+"mouse pointer over the button and clicking with the primary mouse button, a "
+"new folder is added to the list in area <emphasis role=\"bold\">I</emphasis>"
+" with a temporary name of '<filename>Type name of New Folder</filename>' "
+"pre-selected and therefore ready to be edited into a new name."
+msgstr ""
+"Med knappen skapar du en mapp i katalogen som visas längst till höger i "
+"mapphierarkin, område <emphasis role=\"bold\">G</emphasis>. Klicka på "
+"knappen med primär musknapp. En ny mapp läggs till i listan i område "
+"<emphasis role=\"bold\">I</emphasis> med det tillfälliga namnet "
+"<filename>Type name of New Folder</filename> markerat, så att du kan skriva "
+"ett nytt namn direkt."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:762
+msgid "<emphasis role=\"bold\">I</emphasis> - The folder content area."
+msgstr "<emphasis role=\"bold\">I</emphasis> – Mappinnehållet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:778
+msgid ""
+"Firstly, hidden folders and files, those that start with a leading period, "
+"are not displayed by default. These can be shown by placing the mouse "
+"pointer over area <emphasis role=\"bold\">I</emphasis>, clicking with one of"
+" the secondary mouse buttons to raise the context menu, moving the pointer "
+"onto the <guimenuitem>Show hidden files</guimenuitem> menu entry, and "
+"clicking with the primary mouse button. This step will ensure that all the "
+"folders are displayed."
+msgstr ""
+"Dolda mappar och filer, vars namn börjar med en punkt, visas inte som "
+"standard. Visa dem genom att öppna snabbmenyn i område <emphasis "
+"role=\"bold\">I</emphasis>, välja <guimenuitem>Visa dolda "
+"filer</guimenuitem> och klicka med primär musknapp. Då visas alla mappar."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:791
+msgid ""
+"Secondly, the filtering rule defined in area <emphasis "
+"role=\"bold\">L</emphasis> will limit the files displayed based on the "
+"characteristics of these files. By default, a filtering rule is applied "
+"which causes only those files present that have an extension commonly used "
+"for spreadsheet files. The rule can be changed to display all the files "
+"regardless of their extension, except possibly for the hidden files."
+msgstr ""
+"Filtreringsregeln i område <emphasis role=\"bold\">L</emphasis> begränsar "
+"också vilka filer som visas. Som standard visas bara filer med en filändelse"
+" som vanligtvis används för kalkylblad. Du kan ändra regeln så att alla "
+"filer visas oavsett filändelse, eventuellt med undantag för dolda filer."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:767
+msgid ""
+"This area displays the contents of the currently selected folder which is "
+"the rightmost folder shown in area <emphasis role=\"bold\">G</emphasis>. "
+"<_:warning-1/>"
+msgstr ""
+"Här visas innehållet i den valda mappen, alltså mappen längst till höger i "
+"område <emphasis role=\"bold\">G</emphasis>. <_:warning-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:809
+msgid "<emphasis role=\"bold\">J</emphasis> - The panel rearrangement handles."
+msgstr ""
+"<emphasis role=\"bold\">J</emphasis> – Handtag för att ändra panelernas "
+"storlek."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:828
+msgid ""
+"<emphasis role=\"bold\">K</emphasis> - The bookmark folder list modification"
+" buttons."
+msgstr ""
+"<emphasis role=\"bold\">K</emphasis> – Knappar för att ändra listan med "
+"bokmärkesmappar."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:834
+msgid ""
+"These buttons will add or remove folders to or from the list of bookmark "
+"folders in area <emphasis role=\"bold\">F</emphasis>. The "
+"<guibutton>Add</guibutton> button will add the folder currently selected in "
+"area <emphasis role=\"bold\">G</emphasis>. The <guibutton>Remove</guibutton>"
+" button will remove any bookmark folder that is selected in area <emphasis "
+"role=\"bold\">F</emphasis>."
+msgstr ""
+"Med knapparna lägger du till eller tar bort mappar i listan med "
+"bokmärkesmappar i område <emphasis role=\"bold\">F</emphasis>. "
+"<guibutton>Lägg till</guibutton> lägger till mappen som är vald i område "
+"<emphasis role=\"bold\">G</emphasis>. <guibutton>Ta bort</guibutton> tar "
+"bort den bokmärkesmapp som är vald i område <emphasis "
+"role=\"bold\">F</emphasis>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:849
+msgid "<emphasis role=\"bold\">L</emphasis> - The filter definition area."
+msgstr "<emphasis role=\"bold\">L</emphasis> – Filterinställningar."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:854
+msgid ""
+"This area contains a drop down menu with the different filters defined by "
+"the application. <application>Gnumeric</application> currently defines two "
+"filters. The first filters out all files that do not have an extension used "
+"by the spreadsheet formats supported by gnumeric. The second filter, labeled"
+" \"All files\", essentially disables any filtering operation, and lists all "
+"the files in the currently selected folder, except that files starting with "
+"a leading period are not shown."
+msgstr ""
+"Här finns en lista med programmets filter. "
+"<application>Gnumeric</application> har för närvarande två filter. Det "
+"första döljer filer vars filändelser inte används av kalkylbladsformat som "
+"stöds av Gnumeric. Det andra, ”Alla filer”, stänger i praktiken av "
+"filtreringen och visar alla filer i den valda mappen, utom filer vars namn "
+"börjar med en punkt."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:650
+msgid ""
+"The different parts of each panel of the <interface>File Save</interface> "
+"dialog after it has been expanded have been shaded with boxes of different "
+"colors and labeled with a letter in <xref linkend=\"fig-file-save-dialog-"
+"expanded-components\"/>. Five of the labeled areas are the same as the areas"
+" in the dialog when it is in a compact form; these areas were explained "
+"above. The remaining areas are explained below: <_:variablelist-1/>"
+msgstr ""
+"De olika delarna av varje panel i den utfällda dialogrutan <interface>Spara "
+"fil</interface> är skuggade i olika färger och märkta med bokstäver i <xref "
+"linkend=\"fig-file-save-dialog-expanded-components\"/>. Fem av områdena är "
+"desamma som i den kompakta dialogrutan och beskrevs ovan. De övriga "
+"förklaras här: <_:variablelist-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:874
+msgid ""
+"The uses of the <interface>File Save</interface> dialog in its expanded form"
+" is explained below."
+msgstr ""
+"Nedan beskrivs hur den utfällda dialogrutan <interface>Spara fil</interface>"
+" används."
