@@ -1,0 +1,271 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:4780
+msgid "Pre-Selecting Data"
+msgstr "Välja data i förväg"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:772
+msgid "Using Worksheets"
+msgstr "Arbeta med kalkylblad"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2
+msgid "Worksheet Overview"
+msgstr "Översikt över kalkylblad"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:4
+msgid ""
+"Worksheets contain the elements, such as the cell grid area, which provide "
+"the principal work entities for <application>Gnumeric</application> users. "
+"The worksheet grid area allows users to enter data, develop analyses of "
+"these data, and display both data and results. Worksheets also contain "
+"graphical elements such as graphs and widgets. Worksheets are grouped into a"
+" workbook which is stored in a <application>Gnumeric</application> file. The"
+" manipulation of workbooks is explained in <xref linkend=\"sect-"
+"workbooks\"/> while the material below explains the manipulation of "
+"worksheets."
+msgstr ""
+"Kalkylblad innehåller de delar som "
+"<application>Gnumeric</application>-användare främst arbetar med, till "
+"exempel cellrutnätet. Där kan du mata in data, analysera dem och visa både "
+"data och resultat. Kalkylblad innehåller även grafiska element som diagram "
+"och widgetar. Flera kalkylblad samlas i en arbetsbok som sparas i en "
+"<application>Gnumeric</application>-fil. Mer information om hur du arbetar "
+"med arbetsböcker finns i <xref linkend=\"sect-workbooks\"/>. Avsnitten nedan"
+" beskriver hur du arbetar med kalkylblad."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:16
+msgid ""
+"Worksheets contain both working elements and metadata elements. The working "
+"elements include the data contents of cells in the grid area, cell comments,"
+" cell formatting, and sheet objects, such as graphical plots. The metadata "
+"include the worksheet name and worksheet settings controlling the visual "
+"appearance of the worksheet or the display of the worksheet."
+msgstr ""
+"Kalkylblad innehåller både arbetsdata och metadata. Arbetsdata omfattar "
+"cellernas innehåll i rutnätet, cellkommentarer, cellformatering och "
+"bladobjekt som diagram. Metadata omfattar kalkylbladets namn och "
+"inställningar som styr kalkylbladets utseende eller visning."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:25
+msgid ""
+"This section explains the main ways to manipulate "
+"<application>Gnumeric</application> worksheets. <xref linkend=\"sect-"
+"worksheets-navigation\"/> explains how to navigate the worksheet to change "
+"the area which is displayed and change the currently selected area. <xref "
+"linkend=\"sect-worksheets-display\"/> presents several alternative settings "
+"which alter the display of cell contents, of the grid area, of the worksheet"
+" as a whole or of <application>Gnumeric</application> itself. <xref "
+"linkend=\"sect-worksheets-settings\"/> explains how to alter settings which "
+"affect all the contents of the worksheet such as the status of the content "
+"protection mechanism. <xref linkend=\"sect-worksheets-printSettings\"/> "
+"gives a brief explanation of the print settings which apply specifically to "
+"each worksheet; a more complete explanation of the print settings is given "
+"in <xref linkend=\"chapter-printing\"/>. Finally, <xref linkend=\"sect-"
+"worksheets-managing\"/> explains how the entire collection of worksheets can"
+" be manipulated so as to add, duplicate, delete or re-order the worksheets "
+"within a workbook."
+msgstr ""
+"Det här avsnittet beskriver de viktigaste sätten att arbeta med kalkylblad i"
+" <application>Gnumeric</application>. I <xref linkend=\"sect-worksheets-"
+"navigation\"/> förklaras hur du navigerar i kalkylbladet för att ändra den "
+"visade delen och markera ett annat område. <xref linkend=\"sect-worksheets-"
+"display\"/> beskriver inställningar för visning av cellinnehåll, "
+"cellrutnätet, hela kalkylbladet eller själva "
+"<application>Gnumeric</application>. I <xref linkend=\"sect-worksheets-"
+"settings\"/> förklaras inställningar som påverkar kalkylbladets innehåll, "
+"till exempel innehållsskydd. <xref linkend=\"sect-worksheets-"
+"printSettings\"/> ger en kort översikt över utskriftsinställningarna för "
+"varje kalkylblad. En mer utförlig beskrivning finns i <xref "
+"linkend=\"chapter-printing\"/>. Slutligen beskrivs i <xref linkend=\"sect-"
+"worksheets-managing\"/> hur du hanterar kalkylblad i en arbetsbok genom att "
+"lägga till, duplicera, ta bort eller ordna om dem."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:61
+msgid "Worksheet Navigation"
+msgstr "Navigera i kalkylblad"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:63
+msgid ""
+"<application>Gnumeric</application> worksheets can be conceived of as a "
+"single, continuous, two-dimensional grid of cells. However, "
+"<application>Gnumeric</application> cannot display the entire grid at once "
+"but only shows a portion of the worksheet. Since only a portion of the "
+"worksheet can be seen at any particular time, "
+"<application>Gnumeric</application> provides users with several ways to "
+"change the portion of the worksheet that is displayed. <xref linkend=\"sect-"
+"worksheets-navigation-selection\"/> explains the various ways that the "
+"display window can be moved to a different section of the worksheet grid, "
+"while <xref linkend=\"sect-worksheets-display\"/> , further below, explains "
+"more powerful methods to re-organize the display of the cell grid area."
+msgstr ""
+"<application>Gnumeric</application>-kalkylblad kan ses som ett enda "
+"sammanhängande 2D-rutnät av celler. Eftersom "
+"<application>Gnumeric</application> bara visar en del av rutnätet åt gången "
+"erbjuder <application>Gnumeric</application> flera sätt att ändra vilken del"
+" som visas. I <xref linkend=\"sect-worksheets-navigation-selection\"/> "
+"beskrivs hur du flyttar visningsfönstret till en annan del av cellrutnätet. "
+"Längre fram i <xref linkend=\"sect-worksheets-display\"/> beskrivs fler sätt"
+" att ordna om visningen av cellrutnätet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:84
+msgid "Moving Around a Worksheet"
+msgstr "Flytta runt i ett kalkylblad"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:93
+msgid "Moving the Selection"
+msgstr "Flytta markeringen"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:109
+msgid "Worksheet Display"
+msgstr "Visning av kalkylblad"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:111
+msgid ""
+"The display of each worksheet can be controlled by several settings and "
+"configurations. The worksheet, conceptually, consists of a single continuous"
+" two dimensional grid of cells arranged in rows by columns, and "
+"<application>Gnumeric</application>, by default, displays a small portion of"
+" the worksheet area as a continuous region."
+msgstr ""
+"Visningen av varje kalkylblad kan styras med flera inställningar. "
+"Kalkylbladet består i princip av ett enda sammanhängande tvådimensionellt "
+"rutnät med rader och kolumner. Som standard visar "
+"<application>Gnumeric</application> en mindre sammanhängande del av "
+"kalkylbladet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:118
+msgid ""
+"A worksheet is created with the number of rows and columns specified by the "
+"preference setting that can be adjusted on the <guilabel>Windows </guilabel>"
+" tab of the Preference Dialog (see <xref linkend=\"sect-configuration-"
+"preferences-windows\"/>)."
+msgstr ""
+"Kalkylblad skapas med det antal rader och kolumner som anges i inställningen"
+" på fliken <guilabel>Fönster </guilabel> i dialogrutan Inställningar (se "
+"<xref linkend=\"sect-configuration-preferences-windows\"/>)."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:125
+msgid ""
+"The maximum number of rows in a sheet is 16,777,216 and the maximum number "
+"of columns is 16384. The dimensions of a sheet can only be set to powers of "
+"2."
+msgstr ""
+"Ett blad kan innehålla högst 16 777 216 rader och 16 384 kolumner. Bladets "
+"mått kan endast ställas in till potenser av 2."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:131
+msgid ""
+"The size of an existing sheet can be increased through the <guilabel> Resize"
+" Sheet</guilabel> dialog accessible through the sheet tab context menu (see "
+"<xref linkend=\"menu-context-tabs\"/>) or the <guilabel>Sheet </guilabel> "
+"submenu of the <guilabel>Edit</guilabel> menu (see <xref linkend=\"Edit-"
+"Menu\"/>)."
+msgstr ""
+"Du kan utöka ett befintligt blad i dialogrutan <guilabel>Ändra storlek på "
+"blad</guilabel>. Öppna dialogrutan via bladflikens snabbmeny (se <xref "
+"linkend=\"menu-context-tabs\"/>) eller undermenyn <guilabel>Blad </guilabel>"
+" i menyn <guilabel>Redigera</guilabel> (se <xref linkend=\"Edit-Menu\"/>)."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:142
+msgid "Worksheet Appearance"
+msgstr "Kalkylbladets utseende"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:144
+msgid ""
+"A number of aspects of how a worksheet is displayed in the cell grid can be "
+"modified. To adjust the display of formulas or results, A1 or R1C1 notation "
+"for cell references, how cells with a value of zero are displayed, the "
+"presence or absence of grid lines or row or column headers, or whether "
+"columns are ordered left to right or right to left, see the description of "
+"the <xref linkend=\"format-menu-sheet\"/> submenu."
+msgstr ""
+"Du kan ändra flera aspekter av hur kalkylbladet visas i cellrutnätet. Om du "
+"vill justera visningen av formler eller resultat, A1- eller R1C1-notation "
+"för cellreferenser, nollvärden, rutnät, rubriker för rader och kolumner "
+"eller kolumnernas ordning från vänster till höger eller höger till vänster "
+"kan du läsa beskrivningen av undermenyn <xref linkend=\"format-menu-"
+"sheet\"/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:157
+msgid "Workbook Appearance"
+msgstr "Arbetsbokens utseende"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:165
+msgid "Zoom: Changing the Scale of a Sheet"
+msgstr "Zooma: ändra kalkylbladets skala"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:174
+msgid "Full Screen Mode"
+msgstr "Helskärmsläge"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:183
+msgid "Displaying Workbook Tabs"
+msgstr "Visa arbetsbokens flikar"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:192
+msgid "Displaying Grid Area Scrollbars"
+msgstr "Visa rullningslister för cellrutnätet"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:205
+msgid "Grouping Rows and Columns"
+msgstr "Gruppera rader och kolumner"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:215
+msgid "Display Panes"
+msgstr "Visningsrutor"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:243
+msgid "Content Protection"
+msgstr "Innehållsskydd"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:264
+msgid "Print Settings"
+msgstr "Utskriftsinställningar"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:283
+msgid "Managing Worksheets"
+msgstr "Hantera kalkylblad"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:285
+msgid ""
+"This section discusses functions that manipulate worksheets as a whole, "
+"rather than their contents."
+msgstr ""
+"Det här avsnittet handlar om funktioner som ändrar kalkylblad som helhet, "
+"inte deras innehåll."

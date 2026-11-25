@@ -129,3 +129,8 @@ Batch 170 documents the following Hunspell exceptions, checked in context:
 - **XY-serie / XY-spridningsdiagram** — Gnumeric's technical XY chart type and its Swedish compound form.
 - **ytdiagram** — established Swedish chart type.
 - **none / percent** — exact option values quoted from the Gnumeric error-category control; retained as displayed source values.
+
+Batch 171:
+
+- **Gnumeric** — application name; retained in branded compounds such as *Gnumeric-användare* and *Gnumeric-kalkylblad*.
+- **A1- / R1C1-notation** — standard spreadsheet cell-reference notations; the letter-number identifiers are fixed technical terms.
