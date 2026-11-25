@@ -101,3 +101,8 @@ Batch 146 sample value:
 Batch 158 example labels:
 
 - **Gadgets**, **Lumpets** — sample category labels visible in the source screenshot; retained so the caption matches the image.
+
+Batch 162 surface-plot notation:
+
+- **Ytdiagram** — Swedish compound used for Gnumeric's surface chart type.
+- **xy**, **xyz** — coordinate-plane and coordinate-series notation retained from the technical examples.
