@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 116087
+# Entries: 116099
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -559008,3 +559008,136 @@ msgid ""
 msgstr ""
 "Som visas i <xref linkend=\"histogram-tool-dialog\"/> har "
 "histogramdialogrutan fem flikar. De presenteras i tur och ordning."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The <quote><guilabel>Input</guilabel></quote> tab shown in <xref "
+"linkend=\"histogram-tool-dialog\"/> contains the field specifying the data "
+"to be used for the histogram."
+msgstr ""
+"Fliken <quote><guilabel>Indata</guilabel></quote> i <xref "
+"linkend=\"histogram-tool-dialog\"/> innehåller fältet där du anger vilka "
+"data som ska användas i histogrammet."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "The <quote><guilabel>Cutoffs</guilabel></quote> Tab"
+msgstr "Fliken <quote><guilabel>Gränsvärden</guilabel></quote>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Histogram Tool Dialog <quote><guilabel>Cutoffs</guilabel></quote> Tab"
+msgstr ""
+"Histogramverktygets dialogruta – fliken "
+"<quote><guilabel>Gränsvärden</guilabel></quote>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-histogram-"
+"cutoffs.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>An image "
+"of the dialog to generate various histograms open to the \"Cutoffs\" "
+"tab.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-histogram-"
+"cutoffs.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>Bild av "
+"histogramdialogrutan med fliken Gränsvärden öppen.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The cutoffs for the histogram can either be predetermined by data contained "
+"in your workbook or calculated by the histogram tool. These cutoffs "
+"determine bins as defined by the selection on the "
+"<quote><guilabel>Bins</guilabel></quote> tab."
+msgstr ""
+"Histogrammets gränsvärden kan hämtas från data i arbetsboken eller beräknas "
+"av histogramverktyget. Gränsvärdena avgör klassindelningen enligt "
+"inställningarna på fliken <quote><guilabel>Grupper</guilabel></quote>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Select the <quote><guilabel>Predetermined Cutoffs</guilabel></quote> option "
+"to specify data on your worksheet in the <quote><guilabel>Cutoff "
+"Range:</guilabel></quote> entry. The values in this range will be used as "
+"cutoffs <parameter>c<subscript>1</subscript></parameter>, "
+"<parameter>c<subscript>2</subscript></parameter>, and so on to "
+"<parameter>c<subscript>n</subscript></parameter>."
+msgstr ""
+"Välj <quote><guilabel>Förutbestämda gränsvärden</guilabel></quote> om du "
+"vill ange värden från kalkylbladet i fältet "
+"<quote><guilabel>Gränsvärdesområde:</guilabel></quote>. Värdena i området "
+"används som gränsvärden <parameter>c<subscript>1</subscript></parameter>, "
+"<parameter>c<subscript>2</subscript></parameter> och så vidare upp till "
+"<parameter>c<subscript>n</subscript></parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Select the <quote><guilabel>Calculated Cutoffs</guilabel></quote> option to "
+"have the cutoffs determined by the tool. Enter the desired number of cutoffs"
+" in the <quote><guilabel>Number of Cutoffs</guilabel></quote> entry. It is "
+"strongly recommended (but optional) that you specify the minimum and maximum"
+" cutoffs in the <quote><guilabel>Minimum cutoff</guilabel></quote> and "
+"<quote><guilabel>Maximum cutoff</guilabel></quote> entries. If the minimum "
+"or maximum cutoff is not specified, the tool will use the minimum and/or "
+"maximum of the current data."
+msgstr ""
+"Välj <quote><guilabel>Beräknade gränsvärden</guilabel></quote> om verktyget "
+"ska beräkna gränsvärdena. Ange önskat antal i fältet <quote><guilabel>Antal "
+"gränsvärden</guilabel></quote>. Vi rekommenderar starkt, men det är "
+"valfritt, att du anger lägsta och högsta gränsvärde i fälten "
+"<quote><guilabel>Minsta gränsvärde</guilabel></quote> och "
+"<quote><guilabel>Största gränsvärde</guilabel></quote>. Om du inte anger ett"
+" lägsta eller högsta gränsvärde använder verktyget det minsta respektive "
+"största värdet i de aktuella data."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "The <quote><guilabel>Bins</guilabel></quote> Tab"
+msgstr "Fliken <quote><guilabel>Grupper</guilabel></quote>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Histogram Tool Dialog <quote><guilabel>Bins Tab</guilabel></quote>"
+msgstr ""
+"Histogramverktygets dialogruta – fliken "
+"<quote><guilabel>Grupper</guilabel></quote>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-histogram-"
+"bins.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of "
+"the dialog to generate various histograms open to the \"Bins\" tab.</phrase>"
+" </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-histogram-"
+"bins.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>Bild av "
+"histogramdialogrutan med fliken Grupper öppen.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The bins tab is used to determine how the cutoffs "
+"<parameter>c<subscript>1</subscript></parameter>, "
+"<parameter>c<subscript>2</subscript></parameter>, and so on to "
+"<parameter>c<subscript>n</subscript></parameter> are translated into bins. "
+"Specifically, it has to be determined whether first and/or last bins "
+"reaching from −∞ to <parameter>c<subscript>1</subscript></parameter> and "
+"from <parameter>c<subscript>n</subscript></parameter> to ∞ are added and "
+"whether data points that much cutoffs exactly are included in the bin to the"
+" right or the left."
+msgstr ""
+"På fliken Grupper anger du hur gränsvärdena "
+"<parameter>c<subscript>1</subscript></parameter>, "
+"<parameter>c<subscript>2</subscript></parameter> och så vidare upp till "
+"<parameter>c<subscript>n</subscript></parameter> ska delas in i klasser. Du "
+"väljer bland annat om en första klass från −∞ till "
+"<parameter>c<subscript>1</subscript></parameter> och/eller en sista klass "
+"från <parameter>c<subscript>n</subscript></parameter> till ∞ ska läggas "
+"till, samt om datapunkter som exakt motsvarar ett gränsvärde ska räknas till"
+" klassen till höger eller vänster."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"For example the option <quote><guilabel>[∙,∙),[∙,∙),⋯, [∙,∙),[∙,∞) "
+"</guilabel></quote> indicates that the first bin starts at the first cutoff "
+"while the last bin ends at ∞. Moreover, each cutoff value belongs to the bin"
+" on its right."
+msgstr ""
+"Alternativet <quote><guilabel>[∙,∙),[∙,∙),⋯, [∙,∙),[∙,∞) </guilabel></quote>"
+" innebär till exempel att den första klassen börjar vid det första "
+"gränsvärdet och att den sista slutar vid ∞. Varje gränsvärde räknas dessutom"
+" till klassen till höger."

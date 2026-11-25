@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T083710Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T084045Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -597304,6 +597304,66 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>As shown in &lt;xref linkend="histogram-tool-dialog"/&gt;, the histogram dialog has five tabs. We will introduce them in sequence.</seg></tuv>
       <tuv xml:lang="sv"><seg>Som visas i &lt;xref linkend="histogram-tool-dialog"/&gt; har histogramdialogrutan fem flikar. De presenteras i tur och ordning.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;&lt;guilabel&gt;Input&lt;/guilabel&gt;&lt;/quote&gt; tab shown in &lt;xref linkend="histogram-tool-dialog"/&gt; contains the field specifying the data to be used for the histogram.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fliken &lt;quote&gt;&lt;guilabel&gt;Indata&lt;/guilabel&gt;&lt;/quote&gt; i &lt;xref linkend="histogram-tool-dialog"/&gt; innehåller fältet där du anger vilka data som ska användas i histogrammet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;&lt;guilabel&gt;Cutoffs&lt;/guilabel&gt;&lt;/quote&gt; Tab</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fliken &lt;quote&gt;&lt;guilabel&gt;Gränsvärden&lt;/guilabel&gt;&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Histogram Tool Dialog &lt;quote&gt;&lt;guilabel&gt;Cutoffs&lt;/guilabel&gt;&lt;/quote&gt; Tab</seg></tuv>
+      <tuv xml:lang="sv"><seg>Histogramverktygets dialogruta – fliken &lt;quote&gt;&lt;guilabel&gt;Gränsvärden&lt;/guilabel&gt;&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-histogram-cutoffs.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the dialog to generate various histograms open to the "Cutoffs" tab.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-histogram-cutoffs.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Bild av histogramdialogrutan med fliken Gränsvärden öppen.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The cutoffs for the histogram can either be predetermined by data contained in your workbook or calculated by the histogram tool. These cutoffs determine bins as defined by the selection on the &lt;quote&gt;&lt;guilabel&gt;Bins&lt;/guilabel&gt;&lt;/quote&gt; tab.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Histogrammets gränsvärden kan hämtas från data i arbetsboken eller beräknas av histogramverktyget. Gränsvärdena avgör klassindelningen enligt inställningarna på fliken &lt;quote&gt;&lt;guilabel&gt;Grupper&lt;/guilabel&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select the &lt;quote&gt;&lt;guilabel&gt;Predetermined Cutoffs&lt;/guilabel&gt;&lt;/quote&gt; option to specify data on your worksheet in the &lt;quote&gt;&lt;guilabel&gt;Cutoff Range:&lt;/guilabel&gt;&lt;/quote&gt; entry. The values in this range will be used as cutoffs &lt;parameter&gt;c&lt;subscript&gt;1&lt;/subscript&gt;&lt;/parameter&gt;, &lt;parameter&gt;c&lt;subscript&gt;2&lt;/subscript&gt;&lt;/parameter&gt;, and so on to &lt;parameter&gt;c&lt;subscript&gt;n&lt;/subscript&gt;&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj &lt;quote&gt;&lt;guilabel&gt;Förutbestämda gränsvärden&lt;/guilabel&gt;&lt;/quote&gt; om du vill ange värden från kalkylbladet i fältet &lt;quote&gt;&lt;guilabel&gt;Gränsvärdesområde:&lt;/guilabel&gt;&lt;/quote&gt;. Värdena i området används som gränsvärden &lt;parameter&gt;c&lt;subscript&gt;1&lt;/subscript&gt;&lt;/parameter&gt;, &lt;parameter&gt;c&lt;subscript&gt;2&lt;/subscript&gt;&lt;/parameter&gt; och så vidare upp till &lt;parameter&gt;c&lt;subscript&gt;n&lt;/subscript&gt;&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select the &lt;quote&gt;&lt;guilabel&gt;Calculated Cutoffs&lt;/guilabel&gt;&lt;/quote&gt; option to have the cutoffs determined by the tool. Enter the desired number of cutoffs in the &lt;quote&gt;&lt;guilabel&gt;Number of Cutoffs&lt;/guilabel&gt;&lt;/quote&gt; entry. It is strongly recommended (but optional) that you specify the minimum and maximum cutoffs in the &lt;quote&gt;&lt;guilabel&gt;Minimum cutoff&lt;/guilabel&gt;&lt;/quote&gt; and &lt;quote&gt;&lt;guilabel&gt;Maximum cutoff&lt;/guilabel&gt;&lt;/quote&gt; entries. If the minimum or maximum cutoff is not specified, the tool will use the minimum and/or maximum of the current data.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj &lt;quote&gt;&lt;guilabel&gt;Beräknade gränsvärden&lt;/guilabel&gt;&lt;/quote&gt; om verktyget ska beräkna gränsvärdena. Ange önskat antal i fältet &lt;quote&gt;&lt;guilabel&gt;Antal gränsvärden&lt;/guilabel&gt;&lt;/quote&gt;. Vi rekommenderar starkt, men det är valfritt, att du anger lägsta och högsta gränsvärde i fälten &lt;quote&gt;&lt;guilabel&gt;Minsta gränsvärde&lt;/guilabel&gt;&lt;/quote&gt; och &lt;quote&gt;&lt;guilabel&gt;Största gränsvärde&lt;/guilabel&gt;&lt;/quote&gt;. Om du inte anger ett lägsta eller högsta gränsvärde använder verktyget det minsta respektive största värdet i de aktuella data.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;&lt;guilabel&gt;Bins&lt;/guilabel&gt;&lt;/quote&gt; Tab</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fliken &lt;quote&gt;&lt;guilabel&gt;Grupper&lt;/guilabel&gt;&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Histogram Tool Dialog &lt;quote&gt;&lt;guilabel&gt;Bins Tab&lt;/guilabel&gt;&lt;/quote&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Histogramverktygets dialogruta – fliken &lt;quote&gt;&lt;guilabel&gt;Grupper&lt;/guilabel&gt;&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-histogram-bins.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the dialog to generate various histograms open to the "Bins" tab.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-histogram-bins.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Bild av histogramdialogrutan med fliken Grupper öppen.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The bins tab is used to determine how the cutoffs &lt;parameter&gt;c&lt;subscript&gt;1&lt;/subscript&gt;&lt;/parameter&gt;, &lt;parameter&gt;c&lt;subscript&gt;2&lt;/subscript&gt;&lt;/parameter&gt;, and so on to &lt;parameter&gt;c&lt;subscript&gt;n&lt;/subscript&gt;&lt;/parameter&gt; are translated into bins. Specifically, it has to be determined whether first and/or last bins reaching from −∞ to &lt;parameter&gt;c&lt;subscript&gt;1&lt;/subscript&gt;&lt;/parameter&gt; and from &lt;parameter&gt;c&lt;subscript&gt;n&lt;/subscript&gt;&lt;/parameter&gt; to ∞ are added and whether data points that much cutoffs exactly are included in the bin to the right or the left.</seg></tuv>
+      <tuv xml:lang="sv"><seg>På fliken Grupper anger du hur gränsvärdena &lt;parameter&gt;c&lt;subscript&gt;1&lt;/subscript&gt;&lt;/parameter&gt;, &lt;parameter&gt;c&lt;subscript&gt;2&lt;/subscript&gt;&lt;/parameter&gt; och så vidare upp till &lt;parameter&gt;c&lt;subscript&gt;n&lt;/subscript&gt;&lt;/parameter&gt; ska delas in i klasser. Du väljer bland annat om en första klass från −∞ till &lt;parameter&gt;c&lt;subscript&gt;1&lt;/subscript&gt;&lt;/parameter&gt; och/eller en sista klass från &lt;parameter&gt;c&lt;subscript&gt;n&lt;/subscript&gt;&lt;/parameter&gt; till ∞ ska läggas till, samt om datapunkter som exakt motsvarar ett gränsvärde ska räknas till klassen till höger eller vänster.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>For example the option &lt;quote&gt;&lt;guilabel&gt;[∙,∙),[∙,∙),⋯, [∙,∙),[∙,∞) &lt;/guilabel&gt;&lt;/quote&gt; indicates that the first bin starts at the first cutoff while the last bin ends at ∞. Moreover, each cutoff value belongs to the bin on its right.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativet &lt;quote&gt;&lt;guilabel&gt;[∙,∙),[∙,∙),⋯, [∙,∙),[∙,∞) &lt;/guilabel&gt;&lt;/quote&gt; innebär till exempel att den första klassen börjar vid det första gränsvärdet och att den sista slutar vid ∞. Varje gränsvärde räknas dessutom till klassen till höger.</seg></tuv>
     </tu>
   </body>
 </tmx>
