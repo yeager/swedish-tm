@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T115441Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T115645Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -601424,6 +601424,61 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The "Label" field accepts a text value which will appear next to the checkbox. This text can indicate what the checkbox field alters, for instance in &lt;xref linkend="fig-gnumeric-graphics-widgets-checkbox-example"/&gt; the checkbox could be used to alter a series of calculations, between including interest or excluding it, from the computation.</seg></tuv>
       <tuv xml:lang="sv"><seg>I fältet ”Etikett” skriver du texten som ska visas bredvid kryssrutan. Texten kan ange vad rutan ändrar. I &lt;xref linkend="fig-gnumeric-graphics-widgets-checkbox-example"/&gt; kan kryssrutan till exempel styra om en serie beräkningar ska inkludera ränta eller inte.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Scrollbars.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Rullningslister.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Scrollbars are widgets that allow the changing of a numeric value by click-dragging with the mouse.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Rullningslister är gränssnittskomponenter där du kan ändra ett talvärde genom att klicka och dra med musen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A scrollbar widget.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En rullningslist.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/widget-scrollbar.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; An image of a scrollbar widget. &lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/widget-scrollbar.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av en rullningslist.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The scrollbar widget can be used in three ways: by dragging the 'thumb', by clicking on the arrows, or by clicking in the 'channel'. The 'thumb' is the small rectangular element between the two arrow buttons. The 'thumb' can be dragged by placing the mouse pointer over the thumb, clicking and holding with the primary mouse button and then dragging the mouse pointer up or down. Clicking on the arrow buttons will scroll the thumb in the direction of the arrow. The 'channel' is the area between the arrows that is not the 'thumb'. A mouse click with the primary mouse button when the mouse pointer is over the 'channel' will cause the scrollbar to move a 'page'. The motion of the 'thumb' will cause a numeric value to change based on the configuration of the widget, as is explained below.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan använda rullningslisten på tre sätt: dra handtaget, klicka på pilarna eller klicka i spåret. Handtaget är den lilla rektangeln mellan de två pilknapparna. Dra handtaget genom att placera muspekaren över det, hålla ned den primära musknappen och dra pekaren uppåt eller nedåt. Om du klickar på en pilknapp flyttas handtaget i pilens riktning. Spåret är området mellan pilarna, utanför handtaget. Om du klickar i spåret med den primära musknappen flyttas rullningslisten en sida. När handtaget flyttas ändras ett talvärde enligt komponentens inställningar, som beskrivs nedan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Configuring the properties of the scrollbar</seg></tuv>
+      <tuv xml:lang="sv"><seg>Konfigurera rullningslistens egenskaper</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The properties of the scrollbar can be altered with the &lt;guimenuitem&gt;Properties&lt;/guimenuitem&gt; menu item in the context menu which appears when the mouse cursor is placed over the scrollbar and one of the secondary mouse buttons is pressed.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan ändra rullningslistens egenskaper med menyalternativet &lt;guimenuitem&gt;Egenskaper&lt;/guimenuitem&gt; i snabbmenyn. Öppna menyn genom att föra muspekaren över rullningslisten och trycka på en sekundär musknapp.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Scrollbars have five properties which can be configured: the worksheet cell whose value will be altered by movement of the scrollbar 'thumb', the minimum value when the thumb is at the top of its channel, the maximum value reached when the thumb is at the bottom of its channel, the smallest increment of change which is the change caused by clicking on the arrows, and the page increment which is the change which occurs when the channel is clicked.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan konfigurera fem egenskaper för rullningslisten: cellen vars värde ska ändras när handtaget flyttas, det lägsta värdet när handtaget är högst upp i spåret, det högsta värdet när det är längst ned, det minsta ändringssteget som används när du klickar på pilarna och hur mycket värdet ändras när du klickar i spåret.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configuration dialog for scrollbar properties.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan för rullningslistens egenskaper.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/dialog-properties-scrollbar.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; An image of the dialog used to configure scrollbar widget elements. &lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/dialog-properties-scrollbar.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av dialogrutan för att konfigurera rullningslisten.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The other properties can be changed either by typing a new number into the text box or by using the up and down arrows to increment or decrement the width number.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan ändra de övriga egenskaperna genom att skriva ett nytt tal i textrutan eller använda uppåt- och nedåtpilarna för att öka eller minska värdet.</seg></tuv>
     </tu>
   </body>
 </tmx>
