@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T114643Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T114832Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -601214,6 +601214,56 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The &lt;interface&gt;Save As&lt;/interface&gt; dialog which opens will depend on the platform that the user is using but should be standard for that platform. The dialog should allow a user to define a name for the file, to select the folder (directory) in which a file will be saved, and to select the format for the saved file. When all these selections have been made, the &lt;guibutton&gt;Save&lt;/guibutton&gt; can be pressed which will dismiss the dialog and save the file.</seg></tuv>
       <tuv xml:lang="sv"><seg>Den öppnade dialogrutan &lt;interface&gt;Spara som&lt;/interface&gt; beror på operativsystemet, men följer dess vanliga utformning. Där kan du ange filnamn, välja mappen (katalogen) där filen ska sparas och välja filformat. När du har gjort dina val klickar du på &lt;guibutton&gt;Spara&lt;/guibutton&gt;. Dialogrutan stängs och filen sparas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Deleting Images</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ta bort bilder</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>An image element, floating above a worksheet, can be deleted from the worksheet and from the &lt;application&gt;Gnumeric&lt;/application&gt; file using the context menu. The procedure for deleting all graphical elements is the same; this procedure is explained in &lt;xref linkend="sect-graphical-overview-deleting"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan ta bort en bild som flyter ovanför kalkylbladet från både kalkylbladet och &lt;application&gt;Gnumeric&lt;/application&gt;-filen via snabbmenyn. Samma metod används för att ta bort alla grafiska element; den beskrivs i &lt;xref linkend="sect-graphical-overview-deleting"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>GUI Widgets</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gränssnittskomponenter</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A &lt;application&gt;Gnumeric&lt;/application&gt; worksheet can graphical user interface (GUI) elements, commonly called 'widgets', which can be tied to the data contents of worksheet cells. For example, users can add a slider widget which, when the position of the slider moves, alters the numeric value in a worksheet cell.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett kalkylblad i &lt;application&gt;Gnumeric&lt;/application&gt; kan innehålla grafiska gränssnittskomponenter som är kopplade till cellernas data. Du kan till exempel lägga till ett skjutreglage som ändrar talvärdet i en cell när du flyttar reglaget.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Widgets are currently experimental!</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gränssnittskomponenterna är fortfarande experimentella!</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The current implementation of these widgets is incomplete. Some of the obvious configuration settings for these widgets do not exist and much of the functionality that these widgets should exhibit has not been implemented. Future versions of &lt;application&gt;Gnumeric&lt;/application&gt; will complete these widgets and make them functional.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den nuvarande implementationen av gränssnittskomponenterna är ofullständig. Vissa självklara inställningar saknas och mycket av den avsedda funktionaliteten har ännu inte implementerats. Framtida versioner av &lt;application&gt;Gnumeric&lt;/application&gt; ska färdigställa komponenterna och göra dem fullt användbara.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Widgets do not currently stack properly on the worksheet</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gränssnittskomponenterna staplas för närvarande inte korrekt i kalkylbladet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Widgets currently stay above all the other graphical elements because they use a different system to calculate their positions than the other graphical elements do. This will also be fixed in future updates.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gränssnittskomponenterna ligger alltid ovanför de andra grafiska elementen eftersom deras positioner beräknas med ett annat system. Även detta kommer att rättas i framtida uppdateringar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Each of these elements can be added by selecting the appropriate icon on the object toolbar and using the thin cross-hair mouse pointer to place the element on the worksheet by clicking or by click-dragging with the primary mouse button. This process is explained in greater detail in &lt;xref linkend="sect-graphical-overview-adding"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan lägga till varje sådan komponent genom att välja motsvarande ikon i objektverktygsfältet och placera den i kalkylbladet med det tunna hårkorset. Klicka eller klicka och dra med den primära musknappen. Processen beskrivs utförligare i &lt;xref linkend="sect-graphical-overview-adding"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Each of these elements can be configured using the context menu and its &lt;guimenuitem&gt;Properties&lt;/guimenuitem&gt; menu item, as explained in &lt;xref linkend="sect-graphical-overview-modifing"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan konfigurera varje komponent via snabbmenyns menyalternativ &lt;guimenuitem&gt;Egenskaper&lt;/guimenuitem&gt;, enligt beskrivningen i &lt;xref linkend="sect-graphical-overview-modifing"/&gt;.</seg></tuv>
     </tu>
   </body>
 </tmx>

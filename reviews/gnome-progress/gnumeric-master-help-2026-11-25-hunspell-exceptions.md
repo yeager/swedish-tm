@@ -51,3 +51,4 @@ Technical names in batch 102:
 - **gdk-pixbuf** — library name and filename, preserved as a technical identifier.
 - **Sun raster**, **Scalable Vector Graphics**, and the listed image-format abbreviations — standard format names and identifiers retained in the help text.
 - Batch 104 (Gnumeric image saving): `Gnumeric` is the application name; `PNG` is a standard image format.
+- Batch 105 (deleting images and GUI components): `Gnumeric` is the application name.
