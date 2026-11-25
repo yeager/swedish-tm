@@ -217,3 +217,10 @@ Batch 184:
 - **MIME / ODF / IEC / ZIP / content.xml / mimetype / unzip** — MIME terminology, file names, standards and command name.
 - **OpenOffice.org / Calc / LibreOffice Calc / PlanPerfect / StarCalc / StarOffice / Gnumeric** — product names and branded compounds.
 - **PostScript / GGV / ghostview / gv / ghostscript / PDF** — format and program names; PostScript compounds are valid Swedish technical terms.
+
+Batch 185:
+
+- **.text / .txt / ASCII / TROFF / GROFF / SC / XSpread / Xspread / sc** — file extensions, encodings, commands and historical program names.
+- **gPDF / Xpdf / GGV / ghostview / gv / ghostscript / Gnumeric / Corel / QuattroPro** — application and vendor names.
+- **PostScript-språket** — valid Swedish technical compound with the format name.
+- **none** — exact table sentinel retained from the source.
