@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T064217Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T064516Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -595864,6 +595864,71 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Cells can display error values if the formula contained in the cell cannot be solved or if other anomalous conditions occur.</seg></tuv>
       <tuv xml:lang="sv"><seg>Celler kan visa felvärden om formeln i cellen inte går att beräkna eller om andra avvikande förhållanden uppstår.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In &lt;application&gt;Gnumeric&lt;/application&gt; all error values have names that start with &lt;code&gt;#&lt;/code&gt;. 8 error values are standardized:</seg></tuv>
+      <tuv xml:lang="sv"><seg>I &lt;application&gt;Gnumeric&lt;/application&gt; börjar alla felvärden med &lt;code&gt;#&lt;/code&gt;. Åtta felvärden är standardiserade:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The result of specifying an intersecting range that in fact does &lt;emphasis&gt;not&lt;/emphasis&gt; intersect.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resultatet när ett angivet skärningsområde i själva verket &lt;emphasis&gt;inte&lt;/emphasis&gt; skär varandra.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A formula could not be evaluated because an invalid number was used as argument, for example &lt;code&gt;=SQRT(-1)&lt;/code&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formeln kunde inte beräknas eftersom ett ogiltigt tal användes som argument, till exempel &lt;code&gt;=SQRT(-1)&lt;/code&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Usually the result of importing an unrecognized error from a different file format.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visas vanligtvis när ett okänt fel importeras från ett annat filformat.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A formula could not be evaluated because the wrong type of argument was used.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formeln kunde inte beräknas eftersom ett argument av fel typ användes.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>There are several ways to add data into a spreadsheet. The simplest data entry technique involves typing the data into a spreadsheet by hand. This is usually necessary the first time that data are introduced into a computer. If the data already exist in a computer file of some kind, a simple way might exist to insert these data into a &lt;application&gt;Gnumeric&lt;/application&gt; worksheet. If the data are in a text file, they can be inserted into a worksheet rapidly using the text conversion facilities. If data exist in a spreadsheet file of a different format, &lt;application&gt;Gnumeric&lt;/application&gt; may be able to open the file and the data can then be copied where they are wanted.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det finns flera sätt att lägga in data i ett kalkylblad. Det enklaste är att skriva in dem för hand, vilket oftast behövs när data matas in i en dator för första gången. Om data redan finns i en fil kan det finnas ett enkelt sätt att föra in dem i ett &lt;application&gt;Gnumeric&lt;/application&gt;-kalkylblad. Textfiler kan snabbt importeras med verktygen för textkonvertering. Om data finns i ett kalkylblad med ett annat filformat kan &lt;application&gt;Gnumeric&lt;/application&gt; kanske öppna filen, så att du sedan kan kopiera data dit de behövs.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This section explains how to enter data by hand into a spreadsheet. The techniques necessary to obtain data from other computer sources are explained in &lt;xref linkend="chapter-files"/&gt; which deals with external data sources.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det här avsnittet beskriver hur du matar in data för hand i ett kalkylblad. Hur du hämtar data från andra källor beskrivs i &lt;xref linkend="chapter-files"/&gt;, som handlar om externa datakällor.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the information being entered into &lt;application&gt;Gnumeric&lt;/application&gt; cannot be interpreted correctly, &lt;application&gt;Gnumeric&lt;/application&gt; will display an error message. The user may then be forced to edit the data before continuing. For example, a formula may be mathematically incorrect if the user has two operators in a row (e.g. =3+*4) and the dialog will give the user the chance to re-edit the entry or accept the entry as text rather than as a formula. When the formula is corrected, the leading apostrophe can be removed and &lt;application&gt;Gnumeric&lt;/application&gt; will re-interpret the entry as a formula.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om &lt;application&gt;Gnumeric&lt;/application&gt; inte kan tolka inmatad information korrekt visar &lt;application&gt;Gnumeric&lt;/application&gt; ett felmeddelande. Du kan behöva redigera data innan du fortsätter. En formel blir till exempel matematiskt felaktig om två operatorer står efter varandra (till exempel =3+*4). Dialogrutan låter dig då redigera inmatningen eller godta den som text i stället för som formel. När formeln har rättats kan du ta bort den inledande apostrofen, så tolkar &lt;application&gt;Gnumeric&lt;/application&gt; inmatningen som en formel igen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The simplest method to place data in a spreadsheet involves selecting the location for the data, typing the data on a keyboard and then typing the &lt;keysym&gt;Enter&lt;/keysym&gt; key to finish the input.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det enklaste sättet att lägga in data är att markera en cell, skriva in data med tangentbordet och trycka på &lt;keysym&gt;Enter&lt;/keysym&gt; för att avsluta inmatningen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select the cell where you want to enter data by clicking on it with the white cross cursor. This will place the thick `selection' box around that cell.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klicka med den vita korspekaren på cellen där du vill mata in data. En tjock markeringsram visas runt cellen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Type in the data or formula. The details of this step are presented below for each of the five types of data which can be entered.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skriv in data eller en formel. Nedan beskrivs hur du gör för var och en av de fem datatyperna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Press the &lt;keysym&gt;Enter&lt;/keysym&gt; key. This will complete the input and move the selection box down one cell which will then be able to receive further input.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tryck på &lt;keysym&gt;Enter&lt;/keysym&gt;. Då avslutas inmatningen och markeringen flyttas ned en cell, så att du kan fortsätta mata in data.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>At any time while entering the data and before the &lt;keysym&gt;Enter&lt;/keysym&gt; is pressed, the user can cancel the data entry by typing the &lt;keysym&gt;Esc&lt;/keysym&gt; key. This will return the spreadsheet to the selection mode and restore the contents previously in the selected cell.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan när som helst innan du trycker på &lt;keysym&gt;Enter&lt;/keysym&gt; avbryta inmatningen genom att trycka på &lt;keysym&gt;Esc&lt;/keysym&gt;. Då återgår kalkylbladet till markeringsläget och cellens tidigare innehåll återställs.</seg></tuv>
     </tu>
   </body>
 </tmx>
