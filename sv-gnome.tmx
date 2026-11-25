@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T081934Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T082224Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596959,6 +596959,41 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Some entry fields accept lists of ranges. To enter these lists, select one range, type a comma, and then select the next range. At any time, you may switch to another sheet of the workbook.</seg></tuv>
       <tuv xml:lang="sv"><seg>Vissa inmatningsfält kan innehålla listor med cellområden. Välj ett område, skriv ett kommatecken och välj sedan nästa. Du kan när som helst byta till ett annat blad i arbetsboken.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The correlation tool calculates the pairwise Pearson correlation coefficients of the given variables. Use this tool to calculate any number of correlation coefficients at the same time. The variables for which the correlations are calculated are specified by the &lt;quote&gt;&lt;guilabel&gt;Input Range:&lt;/guilabel&gt;&lt;/quote&gt; entry. The input range can consist of either a single range or a comma separated list of ranges. The given range or ranges can be grouped by columns, by rows, or by areas.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Korrelationsverktyget beräknar Pearsons korrelationskoefficienter parvis för de angivna variablerna. Med verktyget kan du beräkna flera koefficienter samtidigt. Ange variablerna vars korrelationer ska beräknas i fältet &lt;quote&gt;&lt;guilabel&gt;Indataområde:&lt;/guilabel&gt;&lt;/quote&gt;. Indataområdet kan bestå av ett cellområde eller en kommaseparerad lista med cellområden. Områdena kan grupperas efter kolumner, rader eller cellområden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the first row or column of the given ranges, or the first field of each area contains labels, the &lt;quote&gt;&lt;guibutton&gt;Labels&lt;/guibutton&gt;&lt;/quote&gt; option should be selected.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om den första raden eller kolumnen i ett område, eller det första fältet i varje område, innehåller rubriker väljer du alternativet &lt;quote&gt;&lt;guibutton&gt;Rubriker&lt;/guibutton&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>For example, you want to calculate the correlation between three variables, one each in columns A, B, and C. Both variables have 10 values in rows 2 to 11 with labels in row 1 (see &lt;xref linkend="correlation-example-1"/&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Säg att du vill beräkna korrelationen mellan tre variabler, en i vardera kolumn A, B och C. Varje variabel har tio värden i raderna 2–11 och en rubrik i rad 1 (se &lt;xref linkend="correlation-example-1"/&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Enter A1:B11 in the &lt;quote&gt;&lt;guilabel&gt;Input Range:&lt;/guilabel&gt;&lt;/quote&gt; entry by typing this directly into the entry or clicking in the entry field and then selecting that range on the sheet. In the latter case the entry will also contain the sheet name.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange A1:B11 i fältet &lt;quote&gt;&lt;guilabel&gt;Indataområde:&lt;/guilabel&gt;&lt;/quote&gt; genom att skriva det direkt eller klicka i fältet och markera området i bladet. I det senare fallet läggs även bladnamnet till i fältet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select the &lt;quote&gt;&lt;guibutton&gt;Columns&lt;/guibutton&gt;&lt;/quote&gt; radio button next to &lt;quote&gt;&lt;guilabel&gt;Grouped By:&lt;/guilabel&gt;&lt;/quote&gt;, since each variable is in its own column.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Eftersom varje variabel finns i en egen kolumn väljer du alternativknappen &lt;quote&gt;&lt;guibutton&gt;Kolumner&lt;/guibutton&gt;&lt;/quote&gt; bredvid &lt;quote&gt;&lt;guilabel&gt;Grupperad efter:&lt;/guilabel&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select the &lt;quote&gt;&lt;guibutton&gt;Labels&lt;/guibutton&gt;&lt;/quote&gt; option since the first row contains labels. (see &lt;xref linkend="correlation-example-2"/&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj alternativet &lt;quote&gt;&lt;guibutton&gt;Rubriker&lt;/guibutton&gt;&lt;/quote&gt; eftersom den första raden innehåller rubriker (se &lt;xref linkend="correlation-example-2"/&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The calculated correlations are given in a table with each column and row labeled with the names of the variables. If the names are not given in the input range, &lt;application&gt;Gnumeric&lt;/application&gt; generates them. In our example, the correlation between the variables in column A and B, can be found in the second column and third row of the results table (see &lt;xref linkend="correlation-example-3"/&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>De beräknade korrelationerna visas i en tabell med variabelnamnen som rubriker för rader och kolumner. Om variabelnamnen saknas i indataområdet skapar &lt;application&gt;Gnumeric&lt;/application&gt; dem. I exemplet finns korrelationen mellan variablerna i kolumn A och B i resultatets andra kolumn och tredje rad (se &lt;xref linkend="correlation-example-3"/&gt;).</seg></tuv>
     </tu>
   </body>
 </tmx>
