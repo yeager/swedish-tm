@@ -106,3 +106,7 @@ Batch 162 surface-plot notation:
 
 - **Ytdiagram** — Swedish compound used for Gnumeric's surface chart type.
 - **xy**, **xyz** — coordinate-plane and coordinate-series notation retained from the technical examples.
+
+Batch 163 chart terminology:
+
+- **XY-spridningsdiagram** — compound chart-type name retaining the standard XY coordinate designation.
