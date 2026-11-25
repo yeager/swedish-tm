@@ -53,3 +53,4 @@ Technical names in batch 102:
 - Batch 104 (Gnumeric image saving): `Gnumeric` is the application name; `PNG` is a standard image format.
 - Batch 105 (deleting images and GUI components): `Gnumeric` is the application name.
 - Batch 108 (checkboxes): `TRUE` and `FALSE` are Gnumeric Boolean literals kept exactly as source identifiers; `Gnumeric` is the application name.
+- Batch 113 (drawing elements): `ritobjekt` and inflected forms are the chosen term for Gnumeric's simple graphical drawing objects; `Gnumeric` and `SVG` are application/format identifiers.
