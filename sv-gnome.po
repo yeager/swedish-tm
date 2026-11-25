@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 117395
+# Entries: 117409
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -570729,3 +570729,165 @@ msgstr ""
 #. from gnome:reviewed/gnumeric/master/help
 msgid "The icon for pie plot of style with joint slices."
 msgstr "Ikon för kolumndiagram."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Line Plots"
+msgstr "Linjediagram"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Line plots present the numeric values of categorical data with the data "
+"values of each series connected by a line. Sequential data values are "
+"considered to belong to different categories and are plotted along the "
+"horizontal (X) axis at equally spaced intervals. The data values from "
+"different series are assigned to these categories based on the position of "
+"the value in the series, for example, the second data value taken from each "
+"series all share one category. The data values are plotted along the "
+"vertical (Y) axis according to their numeric value and the particular sub-"
+"type chosen for the line plot."
+msgstr ""
+"Linjediagram visar talvärden för kategoridata med en linje mellan värdena i "
+"varje serie. Värdena i följd tillhör olika kategorier och placeras med jämna"
+" mellanrum längs den vågräta (X-)axeln. Värden från olika serier kopplas "
+"till kategorierna utifrån sin position i serien. Det andra värdet från varje"
+" serie hamnar till exempel i samma kategori. Värdena placeras längs den "
+"lodräta (Y-)axeln efter sitt talvärde och den valda undertypen."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Line plot sub-types provide three options for relating the values from "
+"different data series. The first sub-type plots each series independently "
+"with the data value determining the vertical distance between each point and"
+" the horizontal axis. The second sub-type plots the series stacked on each "
+"other in a cumulative fashion with the data value of each series determining"
+" the vertical distance from the point to the sum of the values in all the "
+"previous series. For example, if the first series starts with values "
+"<literal>{3.9, 4.2, ...}</literal>, the second series with values "
+"<literal>{1.2, 3.5, ...}</literal>, and the third series with values "
+"<literal>{3.1, 1.9, ...}</literal>, then the point value for the second "
+"element of the third series will be plotted at 9.6 "
+"(<literal>9.6=4.2+3.5+1.9</literal>) along the vertical axis. The third sub-"
+"type plots each series based on the proportional contribution of the value "
+"to the total of all values in that category. Using the example above, the "
+"three values would be plotted at 0.4375, 0.8020, and 1 because the intervals"
+" between zero and each of these numbers is "
+"<literal>0.4375=4.2/(4.2+3.5+1.9)</literal> for the first, "
+"<literal>0.3645...=3.5/(4.2+3.5+1.9)</literal> for the second, and "
+"<literal>0.1979...=1.9/(4.2+3.5+1.9)</literal> for the third, although, by "
+"default, these numbers are presented as percentages on the vertical (Y) "
+"axis."
+msgstr ""
+"Undertyperna för linjediagram erbjuder tre sätt att visa värden från olika "
+"dataserier. Den första visar varje serie för sig, där värdet avgör avståndet"
+" mellan varje punkt och den vågräta axeln. Den andra staplar serierna "
+"kumulativt: värdet i varje serie bestämmer punktens höjd ovanför summan av "
+"värdena i de föregående serierna. Om den första serien börjar med värdena "
+"<literal>{3.9, 4.2, ...}</literal>, den andra med <literal>{1.2, 3.5, "
+"...}</literal> och den tredje med <literal>{3.1, 1.9, ...}</literal>, "
+"placeras den andra punkten i den tredje serien till exempel vid 9.6 på den "
+"lodräta axeln (<literal>9.6=4.2+3.5+1.9</literal>). Den tredje undertypen "
+"visar varje serie efter värdets andel av summan i kategorin. I exemplet ovan"
+" placeras värdena vid 0.4375, 0.8020 och 1. Avstånden från noll motsvarar "
+"varje värdes andel: <literal>0.4375=4.2/(4.2+3.5+1.9)</literal> för den "
+"första serien, <literal>0.3645...=3.5/(4.2+3.5+1.9)</literal> för den andra "
+"och <literal>0.1979...=1.9/(4.2+3.5+1.9)</literal> för den tredje. Som "
+"standard visas värdena ändå som procent längs den lodräta (Y-)axeln."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Two styles are available by default for line plots. In the first no markers "
+"are placed on the value of the point whereas in the second a point marker is"
+" added wherever the points are plotted."
+msgstr ""
+"Som standard finns två stilar för linjediagram. I den första visas inga "
+"markörer vid datapunkterna; i den andra visas en markör vid varje punkt."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "An example of line plots"
+msgstr "Exempel på linjediagram"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"A screenshot of a line plot and the data necessary to generate the plot."
+msgstr ""
+"En skärmbild av ett linjediagram och data som behövs för att skapa det."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"This screenshot shows a table of data and three line plots. The data consist"
+" of three series organized by row and starting with the words \"Widgets\", "
+"\"Gadgets\", and \"Lumpets\". Each of these series has values in five "
+"categories. The three graphs illustrate the three sub-types of line plots, "
+"with the series plotted independently in the left plot, stacked in the "
+"middle plot, and proportionately stacked in the right plot."
+msgstr ""
+"Skärmbilden visar en datatabell och tre linjediagram. Data består av tre "
+"serier, en per rad, med etiketterna ”Widgets”, ”Gadgets” och ”Lumpets”. "
+"Varje serie innehåller värden för fem kategorier. Diagrammen visar de tre "
+"undertyperna: serierna visas var för sig i det vänstra diagrammet, staplas i"
+" det mittersta och staplas proportionellt i det högra."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Each series in line plots can include three main elements and two error "
+"elements, although only the value element is necessary. The series can have "
+"a 'Name' element, which is a single text entry used to identify the series, "
+"must have a 'Values' element, which is a sequence of numeric values, and may"
+" have a 'Label' element, which is a sequence of text entries used to "
+"identify the categories. All of these elements can be defined as references "
+"to a region of the worksheet, as literally defined entries, or as formula "
+"expressions which result in the correct type. The 'Label' element is shared "
+"by all of the series. The legend added to a line plot identifies the "
+"different series, by default using the entries of the 'Name' element of each"
+" series. The two error elements include a list for errors in the positive "
+"direction and one for errors in the negative direction."
+msgstr ""
+"Varje serie i ett linjediagram kan innehålla tre huvudkomponenter och två "
+"felkomponenter, men värdekomponenten är den enda som krävs. Serien kan ha "
+"komponenten ”Namn”, ett enda textvärde som identifierar serien. Den måste ha"
+" komponenten ”Värden”, en följd av talvärden, och kan ha komponenten "
+"”Etikett”, en följd av textvärden som anger kategorierna. Komponenterna kan "
+"definieras som referenser till ett område i kalkylbladet, som uttryckliga "
+"värden eller som formler som ger rätt typ av värde. Alla serier delar på "
+"komponenten ”Etikett”. Förklaringen till ett linjediagram visar de olika "
+"serierna och använder som standard värdena i varje series komponent ”Namn”. "
+"De två felkomponenterna innehåller var sin lista med positiva respektive "
+"negativa felvärden."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "The data in each line plot series"
+msgstr "Data för varje serie i ett linjediagram"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"A single textual entry labeling the data series. These will be used in the "
+"legend which may be displayed with the line plot."
+msgstr ""
+"Ett textvärde som namnger dataserien. Det visas i förklaringen som kan "
+"läggas till diagrammet."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "A list of numeric values."
+msgstr "En lista med talvärden."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"A list of textual entries labeling each value. Generally, this series will "
+"have as many entries as there were in the 'Value' series. These entries are "
+"shared by all the series in the line plot."
+msgstr ""
+"En lista med textvärden som namnger varje värde. Vanligtvis har serien lika "
+"många poster som värdeserien. Alla dataserier i linjediagrammet delar dessa "
+"etiketter."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Line plots provide six icons to choose between three plot sub-types each "
+"with two different styles."
+msgstr ""
+"Linjediagram har sex ikoner för val mellan tre undertyper, var och en med "
+"två olika stilar."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Line plot sub-type and style options."
+msgstr "Alternativ för undertyp och stil i linjediagram."
