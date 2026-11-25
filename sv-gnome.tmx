@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T092514Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T102514Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -598514,6 +598514,781 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>On the output tab we choose where we would like the output to be placed. For the purposes of this example we retain the &lt;guilabel&gt;New Sheet&lt;/guilabel&gt; target. After clicking &lt;guilabel&gt;OK&lt;/guilabel&gt; we get the output shown in &lt;xref linkend="kaplan-meier-tool-example-2"/&gt;. Note that the graph initially always appears on top of the numerical result and was moved for the screen shot.</seg></tuv>
       <tuv xml:lang="sv"><seg>På fliken Utdata väljer vi var resultatet ska placeras. I det här exemplet behåller vi målet &lt;guilabel&gt;Nytt blad&lt;/guilabel&gt;. När vi klickar på &lt;guilabel&gt;OK&lt;/guilabel&gt; visas resultatet i &lt;xref linkend="kaplan-meier-tool-example-2"/&gt;. Diagrammet placeras först ovanpå sifferresultatet; i skärmbilden har det flyttats.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>B1:F17 shows the results of the first group, G1 to K17 the results of the second group. The graph shows the Kaplan-Meier survival curves for both groups.</seg></tuv>
+      <tuv xml:lang="sv"><seg>B1:F17 visar resultaten för den första gruppen och G1:K17 resultaten för den andra. Diagrammet visar Kaplan-Meier-kurvorna för överlevnad i båda grupperna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>M4:N7 shows the result of the Mantel-Haenszel Log-Rank Test. In this case the p-value is larger than 0.3 and we would fail to reject the Null hypothesis. There is no evidence that the survival times differ.</seg></tuv>
+      <tuv xml:lang="sv"><seg>M4:N7 visar resultatet av Mantel–Haenszels log-ranktest. Här är p-värdet större än 0,3, så nollhypotesen kan inte förkastas. Det finns inga belägg för att överlevnadstiderna skiljer sig åt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Kaplan-Meier Tool Example Output</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resultat från Kaplan-Meier-exemplet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-kaplan-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output of the Kaplan-Meier analysis tool.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-kaplan-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Resultat från Kaplan-Meier-analysverktyget.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Principal Component Analysis</seg></tuv>
+      <tuv xml:lang="sv"><seg>Principalkomponentanalys</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Principal Component Analysis Tool Dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan för principalkomponentanalys</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-pcanalysis.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the principal component analysis tool dialog.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-pcanalysis.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Dialogrutan för principalkomponentanalys.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Principal Component Analysis Tool performs a principal component analysis (PCA). PCA is a useful statistical technique with application in fields such as face recognition and image compression. It is a common technique for finding patterns in data of high dimension.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Verktyget Principalkomponentanalys utför en principalkomponentanalys (PCA). PCA är en användbar statistisk metod inom bland annat ansiktsigenkänning och bildkomprimering. Den används ofta för att hitta mönster i högdimensionella data.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Specify the cells containing the datasets in the &lt;quote&gt;&lt;guilabel&gt;Input Range&lt;/guilabel&gt;&lt;/quote&gt; entry. The entered range or ranges are grouped into the factors either by rows or by columns.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange cellerna med datamängderna i fältet &lt;quote&gt;&lt;guilabel&gt;Indataområde&lt;/guilabel&gt;&lt;/quote&gt;. Området eller områdena delas in i faktorer efter rader eller kolumner.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If you have labels in the first cell of each factor, select the &lt;quote&gt;&lt;guilabel&gt;Labels&lt;/guilabel&gt;&lt;/quote&gt; option.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om den första cellen i varje faktor innehåller en rubrik markerar du &lt;quote&gt;&lt;guilabel&gt;Rubriker&lt;/guilabel&gt;&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Principal Component Analysis Example Data</seg></tuv>
+      <tuv xml:lang="sv"><seg>Exempeldata för principalkomponentanalys</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-pcanalysis-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of example data for use with the principal component analysis tool.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-pcanalysis-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Exempeldata för verktyget Principalkomponentanalys.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Using the Principal Component Analysis Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använda verktyget Principalkomponentanalys</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If &lt;parameter&gt;method&lt;/parameter&gt; is 1, then weeks start on Sundays and January 1 is in week 1. If &lt;parameter&gt;method&lt;/parameter&gt; is 2, then weeks start on Mondays and January 1 is in week 1. If &lt;parameter&gt;method&lt;/parameter&gt; is 150, then the ISO 8601 numbering is used.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om &lt;parameter&gt;metod&lt;/parameter&gt; är 1 startar veckor på söndagar och 1 januari hör till vecka 1. Om &lt;parameter&gt;metod&lt;/parameter&gt; är 2 startar veckor på måndagar och 1 januari hör till vecka 1. Om &lt;parameter&gt;metod&lt;/parameter&gt; är 150 används ISO 8601-numrering.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_2_ASSET_CORRELATION&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot1&lt;/parameter&gt;,&lt;parameter&gt;spot2&lt;/parameter&gt;,&lt;parameter&gt;strike1&lt;/parameter&gt;,&lt;parameter&gt;strike2&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry1&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry2&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility1&lt;/parameter&gt;,&lt;parameter&gt;volatility2&lt;/parameter&gt;,&lt;parameter&gt;rho&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_2_ASSET_CORRELATION&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris1&lt;/parameter&gt;;&lt;parameter&gt;spotpris2&lt;/parameter&gt;;&lt;parameter&gt;lösenpris1&lt;/parameter&gt;;&lt;parameter&gt;lösenpris2&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad1&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad2&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet1&lt;/parameter&gt;;&lt;parameter&gt;volatilitet2&lt;/parameter&gt;;&lt;parameter&gt;rho&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BAW_AMER&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BAW_AMER&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BINOMIAL&lt;/function&gt;(&lt;parameter&gt;amer_euro_flag&lt;/parameter&gt;,&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;num_time_steps&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BINOMIAL&lt;/function&gt;(&lt;parameter&gt;amerikansk_europeisk_flagga&lt;/parameter&gt;;&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;antal_tidssteg&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BJER_STENS&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BJER_STENS&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS_CARRYCOST&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS_CARRYCOST&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS_DELTA&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS_DELTA&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS_RHO&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS_RHO&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS_THETA&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS_THETA&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_EXEC&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;,&lt;parameter&gt;lambda&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_EXEC&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;;&lt;parameter&gt;lambda&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_EXTENDIBLE_WRITER&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike1&lt;/parameter&gt;,&lt;parameter&gt;strike2&lt;/parameter&gt;,&lt;parameter&gt;time1&lt;/parameter&gt;,&lt;parameter&gt;time2&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_EXTENDIBLE_WRITER&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris1&lt;/parameter&gt;;&lt;parameter&gt;lösenpris2&lt;/parameter&gt;;&lt;parameter&gt;tid1&lt;/parameter&gt;;&lt;parameter&gt;tid2&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_FIXED_STRK_LKBK&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;spot_min&lt;/parameter&gt;,&lt;parameter&gt;spot_max&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_FIXED_STRK_LKBK&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;minsta_spotpris&lt;/parameter&gt;;&lt;parameter&gt;högsta_spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_FLOAT_STRK_LKBK&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;spot_min&lt;/parameter&gt;,&lt;parameter&gt;spot_max&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_FLOAT_STRK_LKBK&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;minsta_spotpris&lt;/parameter&gt;;&lt;parameter&gt;högsta_spotpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_FORWARD_START&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;alpha&lt;/parameter&gt;,&lt;parameter&gt;time_start&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_FORWARD_START&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;alfa&lt;/parameter&gt;;&lt;parameter&gt;starttid&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_FRENCH&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;ttime&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_FRENCH&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ttid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_GARMAN_KOHLHAGEN&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;domestic_rate&lt;/parameter&gt;,&lt;parameter&gt;foreign_rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_GARMAN_KOHLHAGEN&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;nationell_räntesats&lt;/parameter&gt;;&lt;parameter&gt;utländsk_räntesats&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_JUMP_DIFF&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;,&lt;parameter&gt;lambda&lt;/parameter&gt;,&lt;parameter&gt;gamma&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_JUMP_DIFF&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;;&lt;parameter&gt;lambda&lt;/parameter&gt;;&lt;parameter&gt;gamma&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_MILTERSEN_SCHWARTZ&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;p_t&lt;/parameter&gt;,&lt;parameter&gt;f_t&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;t1&lt;/parameter&gt;,&lt;parameter&gt;t2&lt;/parameter&gt;,&lt;parameter&gt;v_s&lt;/parameter&gt;,&lt;parameter&gt;v_e&lt;/parameter&gt;,&lt;parameter&gt;v_f&lt;/parameter&gt;,&lt;parameter&gt;rho_se&lt;/parameter&gt;,&lt;parameter&gt;rho_sf&lt;/parameter&gt;,&lt;parameter&gt;rho_ef&lt;/parameter&gt;,&lt;parameter&gt;kappa_e&lt;/parameter&gt;,&lt;parameter&gt;kappa_f&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_MILTERSEN_SCHWARTZ&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;p_t&lt;/parameter&gt;;&lt;parameter&gt;f_t&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;t1&lt;/parameter&gt;;&lt;parameter&gt;t2&lt;/parameter&gt;;&lt;parameter&gt;v_s&lt;/parameter&gt;;&lt;parameter&gt;v_e&lt;/parameter&gt;;&lt;parameter&gt;v_f&lt;/parameter&gt;;&lt;parameter&gt;rho_se&lt;/parameter&gt;;&lt;parameter&gt;rho_sf&lt;/parameter&gt;;&lt;parameter&gt;rho_ef&lt;/parameter&gt;;&lt;parameter&gt;kappa_e&lt;/parameter&gt;;&lt;parameter&gt;kappa_f&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_SIMPLE_CHOOSER&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time1&lt;/parameter&gt;,&lt;parameter&gt;time2&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_SIMPLE_CHOOSER&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid1&lt;/parameter&gt;;&lt;parameter&gt;tid2&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_SPREAD_APPROX&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;fut_price1&lt;/parameter&gt;,&lt;parameter&gt;fut_price2&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility1&lt;/parameter&gt;,&lt;parameter&gt;volatility2&lt;/parameter&gt;,&lt;parameter&gt;rho&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_SPREAD_APPROX&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;termpris1&lt;/parameter&gt;;&lt;parameter&gt;termpris2&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet1&lt;/parameter&gt;;&lt;parameter&gt;volatilitet2&lt;/parameter&gt;;&lt;parameter&gt;rho&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_TIME_SWITCH&lt;/function&gt;(&lt;parameter&gt;call_put_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;a&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;m&lt;/parameter&gt;,&lt;parameter&gt;dt&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_TIME_SWITCH&lt;/function&gt;(&lt;parameter&gt;köp_sälj_flagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;a&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;m&lt;/parameter&gt;;&lt;parameter&gt;dt&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>TRUE if &lt;parameter&gt;value&lt;/parameter&gt; is the #N/A error value</seg></tuv>
+      <tuv xml:lang="sv"><seg>SANT om &lt;parameter&gt;värde&lt;/parameter&gt; är felvärdet #-</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This function compares the reference value, &lt;parameter&gt;ref&lt;/parameter&gt;, against the choice values, &lt;parameter&gt;choice1&lt;/parameter&gt; etc., and returns the corresponding result value when it finds a match. The choices may be followed by a default value to use. If there are no choices that match and no default value, #N/A is return.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Denna funktion jämför referensvärdet &lt;parameter&gt;ref&lt;/parameter&gt; mot valvärdena &lt;parameter&gt;val1&lt;/parameter&gt; o.s.v. och returnerar motsvarande resultatvärde då det hittar en matchning. Valen kan följas av ett standardvärde att använda. Om det inte finns några val som matchar och inget standardvärde returneras #-.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;SUMX2PY2&lt;/function&gt;(&lt;parameter&gt;array0&lt;/parameter&gt;,&lt;parameter&gt;array1&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;SUMX2PY2&lt;/function&gt;(&lt;parameter&gt;vektor0&lt;/parameter&gt;;&lt;parameter&gt;vektor1&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;SUMXMY2&lt;/function&gt;(&lt;parameter&gt;array0&lt;/parameter&gt;,&lt;parameter&gt;array1&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;SUMXMY2&lt;/function&gt;(&lt;parameter&gt;vektor0&lt;/parameter&gt;;&lt;parameter&gt;vektor1&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;prob_range&lt;/parameter&gt;: probabilities of the corresponding values in &lt;parameter&gt;val_range&lt;/parameter&gt;, defaults to equal probabilities</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;sann_intervall&lt;/parameter&gt;: sannolikheter för motsvarande värden i &lt;parameter&gt;val_range&lt;/parameter&gt;; standardvärdet är lika sannolikheter</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;RANDDISCRETE&lt;/function&gt; returns one of the values in the &lt;parameter&gt;val_range&lt;/parameter&gt;. The probabilities for each value are given in the &lt;parameter&gt;prob_range&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;RANDDISCRETE&lt;/function&gt; returnerar ett av värdena i &lt;parameter&gt;val_range&lt;/parameter&gt;. Sannolikheten för varje värde anges i &lt;parameter&gt;sann_intervall&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>the &lt;parameter&gt;quart&lt;/parameter&gt;-th quartile of the data points (Hyndman-Fan method 7: N-1 basis)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;kvart&lt;/parameter&gt;:e kvartilen för datapunkterna (Hyndman-Fan-metod 7: N-1 bas)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>the &lt;parameter&gt;quart&lt;/parameter&gt;-th quartile of the data points (Hyndman-Fan method 6: N+1 basis)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;kvart&lt;/parameter&gt;:e kvartilen för datapunkterna (Hyndman-Fan-metod 6: N+1 bas)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;ACCRINT&lt;/function&gt;(&lt;parameter&gt;issue&lt;/parameter&gt;,&lt;parameter&gt;first_interest&lt;/parameter&gt;,&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;par&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;,&lt;parameter&gt;calc_method&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;ACCRINT&lt;/function&gt;(&lt;parameter&gt;start&lt;/parameter&gt;;&lt;parameter&gt;första_ränta&lt;/parameter&gt;;&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;parvärde&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;;&lt;parameter&gt;beräknmetod&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;par&lt;/parameter&gt;: par value, defaults to $1000</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;parvärde&lt;/parameter&gt;: nominellt värde, standardvärde $1000</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;ACCRINTM&lt;/function&gt;(&lt;parameter&gt;issue&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;par&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;ACCRINTM&lt;/function&gt;(&lt;parameter&gt;start&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;parvärde&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;maturity&lt;/parameter&gt;: maturity date</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;förfallodatum&lt;/parameter&gt;: förfallodatum</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;par&lt;/parameter&gt;: par value</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;parvärde&lt;/parameter&gt;: nominellt värde</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;ACCRINTM&lt;/function&gt; calculates the accrued interest from &lt;parameter&gt;issue&lt;/parameter&gt; to &lt;parameter&gt;maturity&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;ACCRINTM&lt;/function&gt; beräknar den upplupna räntan för en säkerhet från &lt;parameter&gt;start&lt;/parameter&gt; till &lt;parameter&gt;förfallodatum&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;par&lt;/parameter&gt; defaults to $1000. If &lt;parameter&gt;basis&lt;/parameter&gt; is 0, then the US 30/360 method is used. If &lt;parameter&gt;basis&lt;/parameter&gt; is 1, then actual number of days is used. If &lt;parameter&gt;basis&lt;/parameter&gt; is 2, then actual number of days is used within a month, but years are considered only 360 days. If &lt;parameter&gt;basis&lt;/parameter&gt; is 3, then actual number of days is used within a month, but years are always considered 365 days. If &lt;parameter&gt;basis&lt;/parameter&gt; is 4, then the European 30/360 method is used.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;parvärde&lt;/parameter&gt; är som standard $1000. Om &lt;parameter&gt;bas&lt;/parameter&gt; är 0 används det amerikanska 30/360-systemet. Om &lt;parameter&gt;bas&lt;/parameter&gt; är 1 används det faktiska antalet dagar. Om &lt;parameter&gt;bas&lt;/parameter&gt; är 2 används det faktiska antalet dagar i en månad, men år anses ha bara 360 dagar. Om &lt;parameter&gt;bas&lt;/parameter&gt; är 3 används det faktiska antalet dagar i en månad, men år anses alltid ha 365 dagar. Om &lt;parameter&gt;bas&lt;/parameter&gt; är 4 används den europeiska 30/360-metoden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;AMORDEGRC&lt;/function&gt;(&lt;parameter&gt;cost&lt;/parameter&gt;,&lt;parameter&gt;purchase_date&lt;/parameter&gt;,&lt;parameter&gt;first_period&lt;/parameter&gt;,&lt;parameter&gt;salvage&lt;/parameter&gt;,&lt;parameter&gt;period&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;AMORDEGRC&lt;/function&gt;(&lt;parameter&gt;kostnad&lt;/parameter&gt;;&lt;parameter&gt;köpdatum&lt;/parameter&gt;;&lt;parameter&gt;första_period&lt;/parameter&gt;;&lt;parameter&gt;restvärde&lt;/parameter&gt;;&lt;parameter&gt;period&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;salvage&lt;/parameter&gt;: value after depreciation</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;restvärde&lt;/parameter&gt;: värde efter avskrivning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Special depreciation rules are applied for the last two periods resulting in a possible total depreciation exceeding the difference of &lt;parameter&gt;cost&lt;/parameter&gt; - &lt;parameter&gt;salvage&lt;/parameter&gt;. Named for AMORtissement DEGRessif Comptabilite. If &lt;parameter&gt;basis&lt;/parameter&gt; is 0, then the US 30/360 method is used. If &lt;parameter&gt;basis&lt;/parameter&gt; is 1, then actual number of days is used. If &lt;parameter&gt;basis&lt;/parameter&gt; is 2, then actual number of days is used within a month, but years are considered only 360 days. If &lt;parameter&gt;basis&lt;/parameter&gt; is 3, then actual number of days is used within a month, but years are always considered 365 days. If &lt;parameter&gt;basis&lt;/parameter&gt; is 4, then the European 30/360 method is used.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Speciella avskrivningsregler tillämpas för de sista två perioderna resulterande i en möjlig total avskrivning överskridande skillnaden mellan &lt;parameter&gt;kostnad&lt;/parameter&gt; - &lt;parameter&gt;restvärde&lt;/parameter&gt;. Namngiven efter AMORtissement DEGRessif Comptabilite. Om &lt;parameter&gt;bas&lt;/parameter&gt; är 0 används det amerikanska 30/360-systemet. Om &lt;parameter&gt;bas&lt;/parameter&gt; är 1 används det faktiska antalet dagar. Om &lt;parameter&gt;bas&lt;/parameter&gt; är 2 används det faktiska antalet dagar i en månad, men år anses ha bara 360 dagar. Om &lt;parameter&gt;bas&lt;/parameter&gt; är 3 används det faktiska antalet dagar i en månad, men år anses alltid ha 365 dagar. Om &lt;parameter&gt;bas&lt;/parameter&gt; är 4 används den europeiska 30/360-metoden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;AMORLINC&lt;/function&gt;(&lt;parameter&gt;cost&lt;/parameter&gt;,&lt;parameter&gt;purchase_date&lt;/parameter&gt;,&lt;parameter&gt;first_period&lt;/parameter&gt;,&lt;parameter&gt;salvage&lt;/parameter&gt;,&lt;parameter&gt;period&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;AMORLINC&lt;/function&gt;(&lt;parameter&gt;kostnad&lt;/parameter&gt;;&lt;parameter&gt;köpdatum&lt;/parameter&gt;;&lt;parameter&gt;första_period&lt;/parameter&gt;;&lt;parameter&gt;restvärde&lt;/parameter&gt;;&lt;parameter&gt;period&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;COUPDAYBS&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;,&lt;parameter&gt;eom&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;COUPDAYBS&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;;&lt;parameter&gt;månadsslut&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;eom&lt;/parameter&gt;: end-of-month flag</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;månadsslut&lt;/parameter&gt;: flagga för förfallodagsdatum i slutet på månad</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;COUPDAYS&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;,&lt;parameter&gt;eom&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;COUPDAYS&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;;&lt;parameter&gt;månadsslut&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;COUPDAYSNC&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;,&lt;parameter&gt;eom&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;COUPDAYNS&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;;&lt;parameter&gt;månadsslut&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;COUPNCD&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;,&lt;parameter&gt;eom&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;COUPNCD&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;;&lt;parameter&gt;månadsslut&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;COUPNUM&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;,&lt;parameter&gt;eom&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;COUPNUM&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;;&lt;parameter&gt;månadsslut&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;COUPPCD&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;,&lt;parameter&gt;eom&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;COUPPCD&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;;&lt;parameter&gt;månadsslut&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;CUMIPMT&lt;/function&gt;(&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;nper&lt;/parameter&gt;,&lt;parameter&gt;pv&lt;/parameter&gt;,&lt;parameter&gt;start_period&lt;/parameter&gt;,&lt;parameter&gt;end_period&lt;/parameter&gt;,&lt;parameter&gt;type&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;CUMIPMT&lt;/function&gt;(&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;antal_perioder&lt;/parameter&gt;;&lt;parameter&gt;nv&lt;/parameter&gt;;&lt;parameter&gt;startperiod&lt;/parameter&gt;;&lt;parameter&gt;slutperiod&lt;/parameter&gt;;&lt;parameter&gt;typ&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;nper&lt;/parameter&gt;: number of periods</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;antal_perioder&lt;/parameter&gt;: antal perioder</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;CUMPRINC&lt;/function&gt;(&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;nper&lt;/parameter&gt;,&lt;parameter&gt;pv&lt;/parameter&gt;,&lt;parameter&gt;start_period&lt;/parameter&gt;,&lt;parameter&gt;end_period&lt;/parameter&gt;,&lt;parameter&gt;type&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;CUMPRINC&lt;/function&gt;(&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;antal_perioder&lt;/parameter&gt;;&lt;parameter&gt;nv&lt;/parameter&gt;;&lt;parameter&gt;startperiod&lt;/parameter&gt;;&lt;parameter&gt;slutperiod&lt;/parameter&gt;;&lt;parameter&gt;typ&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;DB&lt;/function&gt;(&lt;parameter&gt;cost&lt;/parameter&gt;,&lt;parameter&gt;salvage&lt;/parameter&gt;,&lt;parameter&gt;life&lt;/parameter&gt;,&lt;parameter&gt;period&lt;/parameter&gt;,&lt;parameter&gt;month&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;DB&lt;/function&gt;(&lt;parameter&gt;kostnad&lt;/parameter&gt;;&lt;parameter&gt;restvärde&lt;/parameter&gt;;&lt;parameter&gt;livstid&lt;/parameter&gt;;&lt;parameter&gt;period&lt;/parameter&gt;;&lt;parameter&gt;månad&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;DDB&lt;/function&gt;(&lt;parameter&gt;cost&lt;/parameter&gt;,&lt;parameter&gt;salvage&lt;/parameter&gt;,&lt;parameter&gt;life&lt;/parameter&gt;,&lt;parameter&gt;period&lt;/parameter&gt;,&lt;parameter&gt;factor&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;DDB&lt;/function&gt;(&lt;parameter&gt;kostnad&lt;/parameter&gt;;&lt;parameter&gt;restvärde&lt;/parameter&gt;;&lt;parameter&gt;livstid&lt;/parameter&gt;;&lt;parameter&gt;period&lt;/parameter&gt;;&lt;parameter&gt;faktor&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;DISC&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;par&lt;/parameter&gt;,&lt;parameter&gt;redemption&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;DISC&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;parvärde&lt;/parameter&gt;;&lt;parameter&gt;inlösen&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;par&lt;/parameter&gt;: price per $100 face value</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;parvärde&lt;/parameter&gt;: pris per $100 nominellt belopp</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;DURATION&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;coupon&lt;/parameter&gt;,&lt;parameter&gt;yield&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;DURATION&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;kupong&lt;/parameter&gt;;&lt;parameter&gt;avkastning&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;EFFECT&lt;/function&gt;(&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;nper&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;EFFECT&lt;/function&gt;(&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;antal_perioder&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;nper&lt;/parameter&gt;: number of periods used for compounding</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;antal_perioder&lt;/parameter&gt;: antal perioder använda för sammanräkning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;EFFECT&lt;/function&gt; calculates the effective interest rate using the formula (1+&lt;parameter&gt;rate&lt;/parameter&gt;/&lt;parameter&gt;nper&lt;/parameter&gt;)^&lt;parameter&gt;nper&lt;/parameter&gt;-1.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;EFFECT&lt;/function&gt; beräknar den effektiva räntesatsen med formeln (1+&lt;parameter&gt;ränta&lt;/parameter&gt;/&lt;parameter&gt;antal_perioder&lt;/parameter&gt;)^&lt;parameter&gt;antal_perioder&lt;/parameter&gt;-1.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;FV&lt;/function&gt;(&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;nper&lt;/parameter&gt;,&lt;parameter&gt;pmt&lt;/parameter&gt;,&lt;parameter&gt;pv&lt;/parameter&gt;,&lt;parameter&gt;type&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;FV&lt;/function&gt;(&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;antal_perioder&lt;/parameter&gt;;&lt;parameter&gt;bet&lt;/parameter&gt;;&lt;parameter&gt;nv&lt;/parameter&gt;;&lt;parameter&gt;typ&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;FV&lt;/function&gt; calculates the future value of &lt;parameter&gt;pv&lt;/parameter&gt; moved &lt;parameter&gt;nper&lt;/parameter&gt; periods into the future, assuming a periodic payment of &lt;parameter&gt;pmt&lt;/parameter&gt; and an interest rate of &lt;parameter&gt;rate&lt;/parameter&gt; per period.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;FV&lt;/function&gt; beräknar det framtida värdet av &lt;parameter&gt;pv&lt;/parameter&gt; flyttad &lt;parameter&gt;antal_perioder&lt;/parameter&gt; perioder till framtiden, antagande en periodisk betalning av &lt;parameter&gt;bet&lt;/parameter&gt; och en räntesats &lt;parameter&gt;ränta&lt;/parameter&gt; per period.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;FVSCHEDULE&lt;/function&gt;(&lt;parameter&gt;principal&lt;/parameter&gt;,&lt;parameter&gt;schedule&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;FVSCHEDULE&lt;/function&gt;(&lt;parameter&gt;kapital&lt;/parameter&gt;;&lt;parameter&gt;ränteschema&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;schedule&lt;/parameter&gt;: range of interest rates</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;ränteschema&lt;/parameter&gt;: intervall för ränta</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;INTRATE&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;investment&lt;/parameter&gt;,&lt;parameter&gt;redemption&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;INTRATE&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;investering&lt;/parameter&gt;;&lt;parameter&gt;inlösen&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;IPMT&lt;/function&gt;(&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;per&lt;/parameter&gt;,&lt;parameter&gt;nper&lt;/parameter&gt;,&lt;parameter&gt;pv&lt;/parameter&gt;,&lt;parameter&gt;fv&lt;/parameter&gt;,&lt;parameter&gt;type&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;IPMT&lt;/function&gt;(&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;periodnummer&lt;/parameter&gt;;&lt;parameter&gt;antal_perioder&lt;/parameter&gt;;&lt;parameter&gt;nv&lt;/parameter&gt;;&lt;parameter&gt;fv&lt;/parameter&gt;;&lt;parameter&gt;typ&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;per&lt;/parameter&gt;: period number</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;periodnummer&lt;/parameter&gt;: periodens ordningsnummer</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;IPMT&lt;/function&gt; calculates the interest part of an annuity's payment for period number &lt;parameter&gt;per&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;IPMT&lt;/function&gt; (räntebetalning för perioden) beräknar räntebeloppet i annuitetsbetalningen för period &lt;parameter&gt;periodnummer&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;ISPMT&lt;/function&gt;(&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;per&lt;/parameter&gt;,&lt;parameter&gt;nper&lt;/parameter&gt;,&lt;parameter&gt;pv&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;ISPMT&lt;/function&gt;(&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;periodnummer&lt;/parameter&gt;;&lt;parameter&gt;antal_perioder&lt;/parameter&gt;;&lt;parameter&gt;nv&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;ISPMT&lt;/function&gt; calculates the interest payment for period number &lt;parameter&gt;per&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;ISPMT&lt;/function&gt; beräknar räntebeloppet i annuitetsbetalningen för period &lt;parameter&gt;periodnummer&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;MDURATION&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;coupon&lt;/parameter&gt;,&lt;parameter&gt;yield&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;MDURATION&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;kupong&lt;/parameter&gt;;&lt;parameter&gt;avkastning&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;NOMINAL&lt;/function&gt;(&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;nper&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;NOMINAL&lt;/function&gt;(&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;antal_perioder&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;ODDFPRICE&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;issue&lt;/parameter&gt;,&lt;parameter&gt;first_interest&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;yield&lt;/parameter&gt;,&lt;parameter&gt;redemption&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;ODDFPRICE&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;start&lt;/parameter&gt;;&lt;parameter&gt;första_ränta&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;avkastning&lt;/parameter&gt;;&lt;parameter&gt;inlösen&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;ODDFYIELD&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;issue&lt;/parameter&gt;,&lt;parameter&gt;first_interest&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;price&lt;/parameter&gt;,&lt;parameter&gt;redemption&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;ODDFYIELD&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;start&lt;/parameter&gt;;&lt;parameter&gt;första_ränta&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;pris&lt;/parameter&gt;;&lt;parameter&gt;inlösen&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;ODDLPRICE&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;last_interest&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;yield&lt;/parameter&gt;,&lt;parameter&gt;redemption&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;ODDLPRICE&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;sista_ränta&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;avkastning&lt;/parameter&gt;;&lt;parameter&gt;inlösen&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;ODDLYIELD&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;last_interest&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;price&lt;/parameter&gt;,&lt;parameter&gt;redemption&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;ODDLYIELD&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;sista_ränta&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;pris&lt;/parameter&gt;;&lt;parameter&gt;inlösen&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;spot1&lt;/parameter&gt;: spot price of the underlying asset of the first option</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;spotpris1&lt;/parameter&gt;: spotpris för den underliggande tillgången för den första optionen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;spot2&lt;/parameter&gt;: spot price of the underlying asset of the second option</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;spotpris2&lt;/parameter&gt;: spotpriset för den underliggande tillgången för den andra optionen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;strike1&lt;/parameter&gt;: strike prices of the first option</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;lösenpris1&lt;/parameter&gt;: lösenpriserna för den första optionen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;strike2&lt;/parameter&gt;: strike prices of the second option</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;lösenpris2&lt;/parameter&gt;: lösenpriserna för den andra optionen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;cost_of_carry1&lt;/parameter&gt;: net cost of holding the underlying asset of the first option (for common stocks, the risk free rate less the dividend yield)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;innehavskostnad1&lt;/parameter&gt;: nettokostnaden för att hålla den underliggande tillgången för den första optionen (för vanliga aktier, den riskfria räntan minus direktavkastningen)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;cost_of_carry2&lt;/parameter&gt;: net cost of holding the underlying asset of the second option (for common stocks, the risk free rate less the dividend yield)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;innehavskostnad2&lt;/parameter&gt;: nettokostnaden för att hålla den underliggande tillgången för den andra optionen (för vanliga aktier, den riskfria räntan minus direktavkastningen)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_2_ASSET_CORRELATION&lt;/function&gt; models the theoretical price of options on 2 assets with correlation &lt;parameter&gt;rho&lt;/parameter&gt;. The payoff for a call is max(&lt;parameter&gt;spot2&lt;/parameter&gt; - &lt;parameter&gt;strike2&lt;/parameter&gt;,0) if &lt;parameter&gt;spot1&lt;/parameter&gt; &amp;gt; &lt;parameter&gt;strike1&lt;/parameter&gt; or 0 otherwise. The payoff for a put is max (&lt;parameter&gt;strike2&lt;/parameter&gt; - &lt;parameter&gt;spot2&lt;/parameter&gt;, 0) if &lt;parameter&gt;spot1&lt;/parameter&gt; &amp;lt; &lt;parameter&gt;strike1&lt;/parameter&gt; or 0 otherwise.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_2_ASSET_CORRELATION&lt;/function&gt; modellerar det teoretiska priset på optioner med två tillgångar med korrelation &lt;parameter&gt;rho&lt;/parameter&gt;. Utbetalningen för ett köp är max(&lt;parameter&gt;spotpris2&lt;/parameter&gt; - &lt;parameter&gt;lösenpris2&lt;/parameter&gt;,0) om &lt;parameter&gt;spotpris1&lt;/parameter&gt; &amp;gt; &lt;parameter&gt;lösenpris1&lt;/parameter&gt;, annars 0. Utbetalningen för sälj är max(&lt;parameter&gt;lösenpris2&lt;/parameter&gt; - &lt;parameter&gt;spotpris2&lt;/parameter&gt;, 0) om &lt;parameter&gt;spotpris1&lt;/parameter&gt; &amp;lt; &lt;parameter&gt;lösenpris1&lt;/parameter&gt;, annars 0.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_AMER_EXCHANGE&lt;/function&gt;(&lt;parameter&gt;spot1&lt;/parameter&gt;,&lt;parameter&gt;spot2&lt;/parameter&gt;,&lt;parameter&gt;qty1&lt;/parameter&gt;,&lt;parameter&gt;qty2&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry1&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry2&lt;/parameter&gt;,&lt;parameter&gt;volatility1&lt;/parameter&gt;,&lt;parameter&gt;volatility2&lt;/parameter&gt;,&lt;parameter&gt;rho&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_AMER_EXCHANGE&lt;/function&gt;(&lt;parameter&gt;spotpris1&lt;/parameter&gt;;&lt;parameter&gt;spotpris2&lt;/parameter&gt;;&lt;parameter&gt;kvnt1&lt;/parameter&gt;;&lt;parameter&gt;kvnt2&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad1&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad2&lt;/parameter&gt;;&lt;parameter&gt;volatilitet1&lt;/parameter&gt;;&lt;parameter&gt;volatilitet2&lt;/parameter&gt;;&lt;parameter&gt;rho&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;spot1&lt;/parameter&gt;: spot price of asset 1</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;spotpris1&lt;/parameter&gt;: spotpris för tillgång 1</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;spot2&lt;/parameter&gt;: spot price of asset 2</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;spotpris2&lt;/parameter&gt;: spotpris för tillgång 2</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;cost_of_carry1&lt;/parameter&gt;: net cost of holding asset 1 (for common stocks, the risk free rate less the dividend yield)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;innehavskostnad1&lt;/parameter&gt;: nettokostnaden för att hålla tillgång 1 (för vanliga aktier, den riskfria räntan minus direktavkastningen)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;cost_of_carry2&lt;/parameter&gt;: net cost of holding asset 2 (for common stocks, the risk free rate less the dividend yield)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;innehavskostnad2&lt;/parameter&gt;: nettokostnaden för att hålla tillgång 2 (för vanliga aktier, den riskfria räntan minus direktavkastningen)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_AMER_EXCHANGE&lt;/function&gt; models the theoretical price of an American option to exchange one asset with quantity &lt;parameter&gt;qty2&lt;/parameter&gt; and spot price &lt;parameter&gt;spot2&lt;/parameter&gt; for another with quantity &lt;parameter&gt;qty1&lt;/parameter&gt; and spot price &lt;parameter&gt;spot1&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_AMER_EXCHANGE&lt;/function&gt; modellerar det teoretiska priset på en amerikansk option för att växla en tillgång med kvantitet &lt;parameter&gt;kvnt2&lt;/parameter&gt; och spotpris &lt;parameter&gt;spotpris2&lt;/parameter&gt; för en annan med kvantitet &lt;parameter&gt;kvnt1&lt;/parameter&gt; och spotpris &lt;parameter&gt;spotpris1&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;spot&lt;/parameter&gt;: spot price</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;spotpris&lt;/parameter&gt;: spotpris</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;strike&lt;/parameter&gt;: strike price</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;lösenpris&lt;/parameter&gt;: lösenpris</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;: net cost of holding the underlying asset</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;: nettokostnaden för att inneha den underliggande tillgången</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;amer_euro_flag&lt;/parameter&gt;: 'a' for an American style option or 'e' for a European style option</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;amerikansk_europeisk_flagga&lt;/parameter&gt;: är antingen "a" eller "e" för att indikera om optionen är amerikansk eller europeisk</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;: net cost of holding the underlying asset (for common stocks, the risk free rate less the dividend yield), defaults to 0</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;: nettokostnaden för att inneha den underliggande tillgången (för vanliga aktier, den riskfria räntan minus direktavkastningen), standard är 0</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS&lt;/function&gt; uses the Black-Scholes model to calculate the price of a European option struck at &lt;parameter&gt;strike&lt;/parameter&gt; on an asset with spot price &lt;parameter&gt;spot&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS&lt;/function&gt; använder Black-Scholes-modellen för att beräkna priset på en europeisk option med lösenpris satt till &lt;parameter&gt;lösenpris&lt;/parameter&gt; på en tillgång med spotpris &lt;parameter&gt;spotpris&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The returned value will be expressed in the same units as &lt;parameter&gt;strike&lt;/parameter&gt; and &lt;parameter&gt;spot&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det returnerade värdet kommer att uttryckas i samma enhet som &lt;parameter&gt;lösenpris&lt;/parameter&gt; och &lt;parameter&gt;spotpris&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS_CARRYCOST&lt;/function&gt; uses the Black-Scholes model to calculate the 'elasticity' of a European option struck at &lt;parameter&gt;strike&lt;/parameter&gt; on an asset with spot price &lt;parameter&gt;spot&lt;/parameter&gt;. The elasticity of an option is the rate of change of its price with respect to its &lt;parameter&gt;cost_of_carry&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS_CARRYCOST&lt;/function&gt; använder Black-Scholes-modellen för att beräkna ”elasticitet” för en europeisk option med lösenpris satt till &lt;parameter&gt;lösenpris&lt;/parameter&gt; på en tillgång med spotpris &lt;parameter&gt;spotpris&lt;/parameter&gt;. Elasticitet för en option är förändringstakten av dess pris med avseende på dess &lt;parameter&gt;innehavskostnad&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS_DELTA&lt;/function&gt; uses the Black-Scholes model to calculate the 'delta' of a European option struck at &lt;parameter&gt;strike&lt;/parameter&gt; on an asset with spot price &lt;parameter&gt;spot&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS_DELTA&lt;/function&gt; använder Black-Scholes-modellen för att beräkna ”delta” på en europeisk option med lösenpris satt till &lt;parameter&gt;lösenpris&lt;/parameter&gt; på en tillgång med spotpris &lt;parameter&gt;spotpris&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS_GAMMA&lt;/function&gt;(&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS_GAMMA&lt;/function&gt;(&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS_GAMMA&lt;/function&gt; uses the Black-Scholes model to calculate the 'gamma' of a European option struck at &lt;parameter&gt;strike&lt;/parameter&gt; on an asset with spot price &lt;parameter&gt;spot&lt;/parameter&gt;. The gamma of an option is the second derivative of its price with respect to the price of the underlying asset.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS_GAMMA&lt;/function&gt; använder Black-Scholes-modellen för att beräkna ”gamma” på en europeisk option med lösenpris satt till &lt;parameter&gt;lösenpris&lt;/parameter&gt; på en tillgång med spotpris &lt;parameter&gt;spotpris&lt;/parameter&gt;. Gamma för en option är andraderivatan av dess pris med avseende på priset på underliggande tillgång.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Gamma is expressed as the rate of change of delta per unit change in &lt;parameter&gt;spot&lt;/parameter&gt;. Gamma is the same for calls and puts.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gamma uttrycks som hastigheten för förändring för delta per enhetsändring i &lt;parameter&gt;spotpris&lt;/parameter&gt;. Gamma är densamma för köp och sälj.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS_RHO&lt;/function&gt; uses the Black-Scholes model to calculate the 'rho' of a European option struck at &lt;parameter&gt;strike&lt;/parameter&gt; on an asset with spot price &lt;parameter&gt;spot&lt;/parameter&gt;. The rho of an option is the rate of change of its price with respect to the risk free interest rate.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS_RHO&lt;/function&gt; använder Black-Scholes-modellen för att beräkna ”rho” för en europeisk option med lösenpris satt till &lt;parameter&gt;lösenpris&lt;/parameter&gt; på en tillgång med spotpris &lt;parameter&gt;spotpris&lt;/parameter&gt;. rho för en option är förändringstakten av dess pris med avseende på dess riskfria ränta.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS_THETA&lt;/function&gt; uses the Black-Scholes model to calculate the 'theta' of a European option struck at &lt;parameter&gt;strike&lt;/parameter&gt; on an asset with spot price &lt;parameter&gt;spot&lt;/parameter&gt;. The theta of an option is the rate of change of its price with respect to time to expiry.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS_THETA&lt;/function&gt; använder Black-Scholes-modellen för att beräkna ”theta” för en europeisk option med lösenpris satt till &lt;parameter&gt;lösenpris&lt;/parameter&gt; på en tillgång med spotpris &lt;parameter&gt;spotpris&lt;/parameter&gt;. Theta för en option är förändringstakten av dess pris med avseende på dess utgångsdatum.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS_VEGA&lt;/function&gt;(&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS_VEGA&lt;/function&gt;(&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_BS_VEGA&lt;/function&gt; uses the Black-Scholes model to calculate the 'vega' of a European option struck at &lt;parameter&gt;strike&lt;/parameter&gt; on an asset with spot price &lt;parameter&gt;spot&lt;/parameter&gt;. The vega of an option is the rate of change of its price with respect to volatility.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_BS_VEGA&lt;/function&gt; använder Black-Scholes-modellen för att beräkna ”vega” för en europeisk option med lösenpris satt till &lt;parameter&gt;lösenpris&lt;/parameter&gt; på en tillgång med spotpris &lt;parameter&gt;spotpris&lt;/parameter&gt;. Vega för en option är förändringstakten av dess pris med avseende på dess volatilitet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_COMPLEX_CHOOSER&lt;/function&gt;(&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike_call&lt;/parameter&gt;,&lt;parameter&gt;strike_put&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;time_call&lt;/parameter&gt;,&lt;parameter&gt;time_put&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_COMPLEX_CHOOSER&lt;/function&gt;(&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris_köp&lt;/parameter&gt;;&lt;parameter&gt;lösenpris_sälj&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;time_call&lt;/parameter&gt;;&lt;parameter&gt;time_put&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;strike_call&lt;/parameter&gt;: strike price, if exercised as a call option</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;lösenpris_köp&lt;/parameter&gt;: lösenpris om inlöst som en köpoption</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;strike_put&lt;/parameter&gt;: strike price, if exercised as a put option</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;lösenpris_sälj&lt;/parameter&gt;: lösenpris om inlöst som en säljoption</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_EURO_EXCHANGE&lt;/function&gt;(&lt;parameter&gt;spot1&lt;/parameter&gt;,&lt;parameter&gt;spot2&lt;/parameter&gt;,&lt;parameter&gt;qty1&lt;/parameter&gt;,&lt;parameter&gt;qty2&lt;/parameter&gt;,&lt;parameter&gt;time&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry1&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry2&lt;/parameter&gt;,&lt;parameter&gt;volatility1&lt;/parameter&gt;,&lt;parameter&gt;volatility2&lt;/parameter&gt;,&lt;parameter&gt;rho&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_EURO_EXCHANGE&lt;/function&gt;(&lt;parameter&gt;spotpris1&lt;/parameter&gt;;&lt;parameter&gt;spotpris2&lt;/parameter&gt;;&lt;parameter&gt;kvnt1&lt;/parameter&gt;;&lt;parameter&gt;kvnt2&lt;/parameter&gt;;&lt;parameter&gt;tid&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad1&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad2&lt;/parameter&gt;;&lt;parameter&gt;volatilitet1&lt;/parameter&gt;;&lt;parameter&gt;volatilitet2&lt;/parameter&gt;;&lt;parameter&gt;rho&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_EURO_EXCHANGE&lt;/function&gt; models the theoretical price of a European option to exchange one asset with quantity &lt;parameter&gt;qty2&lt;/parameter&gt; and spot price &lt;parameter&gt;spot2&lt;/parameter&gt; for another with quantity &lt;parameter&gt;qty1&lt;/parameter&gt; and spot price &lt;parameter&gt;spot1&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_EURO_EXCHANGE&lt;/function&gt; modellerar det teoretiska priset på en europeisk option för att växla en tillgång med kvantitet &lt;parameter&gt;kvnt2&lt;/parameter&gt; och &lt;parameter&gt;spotpris2&lt;/parameter&gt; för en annan, med kvantitet &lt;parameter&gt;kvnt1&lt;/parameter&gt; och spotpris &lt;parameter&gt;spotpris1&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;strike1&lt;/parameter&gt;: strike price at which the option is struck</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;lösenpris1&lt;/parameter&gt;: lösenpriset som satts för optionen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;strike2&lt;/parameter&gt;: strike price at which the option is re-struck if out of the money at &lt;parameter&gt;time1&lt;/parameter&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;lösenpris2&lt;/parameter&gt;: lösenpris som sätts på nytt om optionen saknar realvärde vid &lt;parameter&gt;tid1&lt;/parameter&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;spot_min&lt;/parameter&gt;: minimum spot price of the underlying asset so far observed</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;minsta_spotpris&lt;/parameter&gt;: är minsta spotpris så här långt för den underliggande tillgången</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;spot_max&lt;/parameter&gt;: maximum spot price of the underlying asset so far observed</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;högsta_spotpris&lt;/parameter&gt;: är högsta spotpris så här långt för den underliggande tillgången</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_FRENCH&lt;/function&gt; values the theoretical price of a European option adjusted for trading day volatility, struck at &lt;parameter&gt;strike&lt;/parameter&gt; on an asset with spot price &lt;parameter&gt;spot&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_FRENCH&lt;/function&gt; beräknar det teoretiska priset på en europeisk option, korrigerat för volatiliteten under handelsdagar, med lösenpris &lt;parameter&gt;lösenpris&lt;/parameter&gt; och spotpris &lt;parameter&gt;spotpris&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_GARMAN_KOHLHAGEN&lt;/function&gt; values the theoretical price of a European currency option struck at &lt;parameter&gt;strike&lt;/parameter&gt; on an asset with spot price &lt;parameter&gt;spot&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_GARMAN_KOHLHAGEN&lt;/function&gt; beräknar det teoretiska priset på en europeisk valutaoption med lösenpris &lt;parameter&gt;lösenpris&lt;/parameter&gt; och spotpris &lt;parameter&gt;spotpris&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_ON_OPTIONS&lt;/function&gt;(&lt;parameter&gt;type_flag&lt;/parameter&gt;,&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike1&lt;/parameter&gt;,&lt;parameter&gt;strike2&lt;/parameter&gt;,&lt;parameter&gt;time1&lt;/parameter&gt;,&lt;parameter&gt;time2&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_ON_OPTIONS&lt;/function&gt;(&lt;parameter&gt;typflagga&lt;/parameter&gt;;&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris1&lt;/parameter&gt;;&lt;parameter&gt;lösenpris2&lt;/parameter&gt;;&lt;parameter&gt;tid1&lt;/parameter&gt;;&lt;parameter&gt;tid2&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;strike1&lt;/parameter&gt;: strike price at which the option being valued is struck</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;lösenpris1&lt;/parameter&gt;: lösenpriset som satts för optionen som värderas</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;strike2&lt;/parameter&gt;: strike price at which the underlying option is struck</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;lösenpris2&lt;/parameter&gt;: lösenpriset som satts för den underliggande optionen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;cost_of_carry&lt;/parameter&gt;: net cost of holding the underlying asset of the underlying option</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;innehavskostnad&lt;/parameter&gt;: nettokostnaden för att inneha den underliggande tillgången för den underliggande optionen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>For common stocks, &lt;parameter&gt;cost_of_carry&lt;/parameter&gt; is the risk free rate less the dividend yield. &lt;parameter&gt;time2&lt;/parameter&gt; ≥ &lt;parameter&gt;time1&lt;/parameter&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>För vanliga aktier är &lt;parameter&gt;innehavskostnad&lt;/parameter&gt; den riskfria räntan minus direktavkastningen. &lt;parameter&gt;tid2&lt;/parameter&gt; ≥ &lt;parameter&gt;tid1&lt;/parameter&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_RGW&lt;/function&gt;(&lt;parameter&gt;spot&lt;/parameter&gt;,&lt;parameter&gt;strike&lt;/parameter&gt;,&lt;parameter&gt;time_payout&lt;/parameter&gt;,&lt;parameter&gt;time_exp&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;d&lt;/parameter&gt;,&lt;parameter&gt;volatility&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_RGW&lt;/function&gt;(&lt;parameter&gt;spotpris&lt;/parameter&gt;;&lt;parameter&gt;lösenpris&lt;/parameter&gt;;&lt;parameter&gt;tid_utdelning&lt;/parameter&gt;;&lt;parameter&gt;tid_utg&lt;/parameter&gt;;&lt;parameter&gt;räntesats&lt;/parameter&gt;;&lt;parameter&gt;d&lt;/parameter&gt;;&lt;parameter&gt;volatilitet&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;OPT_TIME_SWITCH&lt;/function&gt; models the theoretical price of time switch options. (Pechtl 1995). The holder receives &lt;parameter&gt;a&lt;/parameter&gt; * &lt;parameter&gt;dt&lt;/parameter&gt; for each period that the asset price was greater than &lt;parameter&gt;strike&lt;/parameter&gt; (for a call) or below it (for a put).</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;OPT_TIME_SWITCH&lt;/function&gt; modellerar det teoretiska priset på optioner med tidsvillkor (Pechtl 1995). Ägaren får &lt;parameter&gt;a&lt;/parameter&gt; * &lt;parameter&gt;dt&lt;/parameter&gt; för varje period som tillgångens pris var högre än &lt;parameter&gt;lösenpris&lt;/parameter&gt; (för köp) eller lägre än det (för sälj).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;PMT&lt;/function&gt;(&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;nper&lt;/parameter&gt;,&lt;parameter&gt;pv&lt;/parameter&gt;,&lt;parameter&gt;fv&lt;/parameter&gt;,&lt;parameter&gt;type&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;PMT&lt;/function&gt;(&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;antal_perioder&lt;/parameter&gt;;&lt;parameter&gt;nv&lt;/parameter&gt;;&lt;parameter&gt;fv&lt;/parameter&gt;;&lt;parameter&gt;typ&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;PPMT&lt;/function&gt;(&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;per&lt;/parameter&gt;,&lt;parameter&gt;nper&lt;/parameter&gt;,&lt;parameter&gt;pv&lt;/parameter&gt;,&lt;parameter&gt;fv&lt;/parameter&gt;,&lt;parameter&gt;type&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;PPMT&lt;/function&gt;(&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;periodnummer&lt;/parameter&gt;;&lt;parameter&gt;antal_perioder&lt;/parameter&gt;;&lt;parameter&gt;nv&lt;/parameter&gt;;&lt;parameter&gt;fv&lt;/parameter&gt;;&lt;parameter&gt;typ&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;PPMT&lt;/function&gt; calculates the principal part of an annuity's payment for period number &lt;parameter&gt;per&lt;/parameter&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;PPMT&lt;/function&gt; beräknar den del av annuitetsbetalningen som avser amortering under period &lt;parameter&gt;periodnummer&lt;/parameter&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;PRICE&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;yield&lt;/parameter&gt;,&lt;parameter&gt;redemption&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;PRICE&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;avkastning&lt;/parameter&gt;;&lt;parameter&gt;inlösen&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;PRICEDISC&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;discount&lt;/parameter&gt;,&lt;parameter&gt;redemption&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;PRICEDISC&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;diskontering&lt;/parameter&gt;;&lt;parameter&gt;inlösen&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;PRICEMAT&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;issue&lt;/parameter&gt;,&lt;parameter&gt;discount&lt;/parameter&gt;,&lt;parameter&gt;yield&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;PRICEMAT&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;start&lt;/parameter&gt;;&lt;parameter&gt;diskontering&lt;/parameter&gt;;&lt;parameter&gt;avkastning&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;PV&lt;/function&gt;(&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;nper&lt;/parameter&gt;,&lt;parameter&gt;pmt&lt;/parameter&gt;,&lt;parameter&gt;fv&lt;/parameter&gt;,&lt;parameter&gt;type&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;PV&lt;/function&gt;(&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;antal_perioder&lt;/parameter&gt;;&lt;parameter&gt;bet&lt;/parameter&gt;;&lt;parameter&gt;fv&lt;/parameter&gt;;&lt;parameter&gt;typ&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;PV&lt;/function&gt; calculates the present value of &lt;parameter&gt;fv&lt;/parameter&gt; which is &lt;parameter&gt;nper&lt;/parameter&gt; periods into the future, assuming a periodic payment of &lt;parameter&gt;pmt&lt;/parameter&gt; and an interest rate of &lt;parameter&gt;rate&lt;/parameter&gt; per period.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;PV&lt;/function&gt; beräknar aktuellt värde för &lt;parameter&gt;fv&lt;/parameter&gt; vilka är &lt;parameter&gt;antal_perioder&lt;/parameter&gt; perioder in i framtiden antagande periodisk betalning för &lt;parameter&gt;bet&lt;/parameter&gt; och en räntesats på &lt;parameter&gt;ränta&lt;/parameter&gt; per period.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;RATE&lt;/function&gt;(&lt;parameter&gt;nper&lt;/parameter&gt;,&lt;parameter&gt;pmt&lt;/parameter&gt;,&lt;parameter&gt;pv&lt;/parameter&gt;,&lt;parameter&gt;fv&lt;/parameter&gt;,&lt;parameter&gt;type&lt;/parameter&gt;,&lt;parameter&gt;guess&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;RATE&lt;/function&gt;(&lt;parameter&gt;antal_perioder&lt;/parameter&gt;;&lt;parameter&gt;bet&lt;/parameter&gt;;&lt;parameter&gt;nv&lt;/parameter&gt;;&lt;parameter&gt;fv&lt;/parameter&gt;;&lt;parameter&gt;typ&lt;/parameter&gt;;&lt;parameter&gt;gissning&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;RECEIVED&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;investment&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;RECEIVED&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;investering&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;SLN&lt;/function&gt;(&lt;parameter&gt;cost&lt;/parameter&gt;,&lt;parameter&gt;salvage&lt;/parameter&gt;,&lt;parameter&gt;life&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;SLN&lt;/function&gt;(&lt;parameter&gt;kostnad&lt;/parameter&gt;;&lt;parameter&gt;restvärde&lt;/parameter&gt;;&lt;parameter&gt;livstid&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;SYD&lt;/function&gt;(&lt;parameter&gt;cost&lt;/parameter&gt;,&lt;parameter&gt;salvage&lt;/parameter&gt;,&lt;parameter&gt;life&lt;/parameter&gt;,&lt;parameter&gt;period&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;SYD&lt;/function&gt;(&lt;parameter&gt;kostnad&lt;/parameter&gt;;&lt;parameter&gt;restvärde&lt;/parameter&gt;;&lt;parameter&gt;livstid&lt;/parameter&gt;;&lt;parameter&gt;period&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;TBILLEQ&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;discount&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;TBILLEQ&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;diskontering&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;TBILLPRICE&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;discount&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;TBILLPRICE&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;diskontering&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;TBILLYIELD&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;price&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;TBILLYIELD&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;pris&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;VDB&lt;/function&gt;(&lt;parameter&gt;cost&lt;/parameter&gt;,&lt;parameter&gt;salvage&lt;/parameter&gt;,&lt;parameter&gt;life&lt;/parameter&gt;,&lt;parameter&gt;start_period&lt;/parameter&gt;,&lt;parameter&gt;end_period&lt;/parameter&gt;,&lt;parameter&gt;factor&lt;/parameter&gt;,&lt;parameter&gt;no_switch&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;VDB&lt;/function&gt;(&lt;parameter&gt;kostnad&lt;/parameter&gt;;&lt;parameter&gt;restvärde&lt;/parameter&gt;;&lt;parameter&gt;livstid&lt;/parameter&gt;;&lt;parameter&gt;startperiod&lt;/parameter&gt;;&lt;parameter&gt;slutperiod&lt;/parameter&gt;;&lt;parameter&gt;faktor&lt;/parameter&gt;;&lt;parameter&gt;växla_ej&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;YIELD&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;price&lt;/parameter&gt;,&lt;parameter&gt;redemption&lt;/parameter&gt;,&lt;parameter&gt;frequency&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;YIELD&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;pris&lt;/parameter&gt;;&lt;parameter&gt;inlösen&lt;/parameter&gt;;&lt;parameter&gt;frekvens&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;YIELDDISC&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;price&lt;/parameter&gt;,&lt;parameter&gt;redemption&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;YIELDDISC&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;pris&lt;/parameter&gt;;&lt;parameter&gt;inlösen&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;function&gt;YIELDMAT&lt;/function&gt;(&lt;parameter&gt;settlement&lt;/parameter&gt;,&lt;parameter&gt;maturity&lt;/parameter&gt;,&lt;parameter&gt;issue&lt;/parameter&gt;,&lt;parameter&gt;rate&lt;/parameter&gt;,&lt;parameter&gt;price&lt;/parameter&gt;,&lt;parameter&gt;basis&lt;/parameter&gt;)</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;function&gt;YIELDMAT&lt;/function&gt;(&lt;parameter&gt;avräkning&lt;/parameter&gt;;&lt;parameter&gt;förfallodatum&lt;/parameter&gt;;&lt;parameter&gt;start&lt;/parameter&gt;;&lt;parameter&gt;ränta&lt;/parameter&gt;;&lt;parameter&gt;pris&lt;/parameter&gt;;&lt;parameter&gt;bas&lt;/parameter&gt;)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;link_location&lt;/parameter&gt;: string</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;länkadress&lt;/parameter&gt;: sträng</seg></tuv>
     </tu>
   </body>
 </tmx>

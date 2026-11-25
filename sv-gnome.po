@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 116329
+# Entries: 116484
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -561210,3 +561210,1150 @@ msgstr ""
 "<guilabel>OK</guilabel> visas resultatet i <xref linkend=\"kaplan-meier-"
 "tool-example-2\"/>. Diagrammet placeras först ovanpå sifferresultatet; i "
 "skärmbilden har det flyttats."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"B1:F17 shows the results of the first group, G1 to K17 the results of the "
+"second group. The graph shows the Kaplan-Meier survival curves for both "
+"groups."
+msgstr ""
+"B1:F17 visar resultaten för den första gruppen och G1:K17 resultaten för den"
+" andra. Diagrammet visar Kaplan-Meier-kurvorna för överlevnad i båda "
+"grupperna."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"M4:N7 shows the result of the Mantel-Haenszel Log-Rank Test. In this case "
+"the p-value is larger than 0.3 and we would fail to reject the Null "
+"hypothesis. There is no evidence that the survival times differ."
+msgstr ""
+"M4:N7 visar resultatet av Mantel–Haenszels log-ranktest. Här är p-värdet "
+"större än 0,3, så nollhypotesen kan inte förkastas. Det finns inga belägg "
+"för att överlevnadstiderna skiljer sig åt."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Kaplan-Meier Tool Example Output"
+msgstr "Resultat från Kaplan-Meier-exemplet"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-kaplan-ex2.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of the output "
+"of the Kaplan-Meier analysis tool.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-kaplan-ex2.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Resultat från Kaplan-"
+"Meier-analysverktyget.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Principal Component Analysis"
+msgstr "Principalkomponentanalys"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Principal Component Analysis Tool Dialog"
+msgstr "Dialogrutan för principalkomponentanalys"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-pcanalysis.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of the "
+"principal component analysis tool dialog.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-pcanalysis.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Dialogrutan för "
+"principalkomponentanalys.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Principal Component Analysis Tool performs a principal component analysis "
+"(PCA). PCA is a useful statistical technique with application in fields such"
+" as face recognition and image compression. It is a common technique for "
+"finding patterns in data of high dimension."
+msgstr ""
+"Verktyget Principalkomponentanalys utför en principalkomponentanalys (PCA). "
+"PCA är en användbar statistisk metod inom bland annat ansiktsigenkänning och"
+" bildkomprimering. Den används ofta för att hitta mönster i högdimensionella"
+" data."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Specify the cells containing the datasets in the <quote><guilabel>Input "
+"Range</guilabel></quote> entry. The entered range or ranges are grouped into"
+" the factors either by rows or by columns."
+msgstr ""
+"Ange cellerna med datamängderna i fältet "
+"<quote><guilabel>Indataområde</guilabel></quote>. Området eller områdena "
+"delas in i faktorer efter rader eller kolumner."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"If you have labels in the first cell of each factor, select the "
+"<quote><guilabel>Labels</guilabel></quote> option."
+msgstr ""
+"Om den första cellen i varje faktor innehåller en rubrik markerar du "
+"<quote><guilabel>Rubriker</guilabel></quote>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Principal Component Analysis Example Data"
+msgstr "Exempeldata för principalkomponentanalys"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-pcanalysis-"
+"ex1.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of "
+"example data for use with the principal component analysis tool.</phrase> "
+"</textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-pcanalysis-"
+"ex1.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>Exempeldata "
+"för verktyget Principalkomponentanalys.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Using the Principal Component Analysis Tool"
+msgstr "Använda verktyget Principalkomponentanalys"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"If <parameter>method</parameter> is 1, then weeks start on Sundays and "
+"January 1 is in week 1. If <parameter>method</parameter> is 2, then weeks "
+"start on Mondays and January 1 is in week 1. If "
+"<parameter>method</parameter> is 150, then the ISO 8601 numbering is used."
+msgstr ""
+"Om <parameter>metod</parameter> är 1 startar veckor på söndagar och 1 "
+"januari hör till vecka 1. Om <parameter>metod</parameter> är 2 startar "
+"veckor på måndagar och 1 januari hör till vecka 1. Om "
+"<parameter>metod</parameter> är 150 används ISO 8601-numrering."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_2_ASSET_CORRELATION</function>(<parameter>call_put_flag</parameter>,<parameter>spot1</parameter>,<parameter>spot2</parameter>,<parameter>strike1</parameter>,<parameter>strike2</parameter>,<parameter>time</parameter>,<parameter>cost_of_carry1</parameter>,<parameter>cost_of_carry2</parameter>,<parameter>rate</parameter>,<parameter>volatility1</parameter>,<parameter>volatility2</parameter>,<parameter>rho</parameter>)"
+msgstr ""
+"<function>OPT_2_ASSET_CORRELATION</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris1</parameter>;<parameter>spotpris2</parameter>;<parameter>lösenpris1</parameter>;<parameter>lösenpris2</parameter>;<parameter>tid</parameter>;<parameter>innehavskostnad1</parameter>;<parameter>innehavskostnad2</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet1</parameter>;<parameter>volatilitet2</parameter>;<parameter>rho</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BAW_AMER</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>cost_of_carry</parameter>,<parameter>volatility</parameter>)"
+msgstr ""
+"<function>OPT_BAW_AMER</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>innehavskostnad</parameter>;<parameter>volatilitet</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BINOMIAL</function>(<parameter>amer_euro_flag</parameter>,<parameter>call_put_flag</parameter>,<parameter>num_time_steps</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>volatility</parameter>,<parameter>cost_of_carry</parameter>)"
+msgstr ""
+"<function>OPT_BINOMIAL</function>(<parameter>amerikansk_europeisk_flagga</parameter>;<parameter>köp_sälj_flagga</parameter>;<parameter>antal_tidssteg</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet</parameter>;<parameter>innehavskostnad</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BJER_STENS</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>volatility</parameter>,<parameter>cost_of_carry</parameter>)"
+msgstr ""
+"<function>OPT_BJER_STENS</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet</parameter>;<parameter>innehavskostnad</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>volatility</parameter>,<parameter>cost_of_carry</parameter>)"
+msgstr ""
+"<function>OPT_BS</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet</parameter>;<parameter>innehavskostnad</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS_CARRYCOST</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>volatility</parameter>,<parameter>cost_of_carry</parameter>)"
+msgstr ""
+"<function>OPT_BS_CARRYCOST</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet</parameter>;<parameter>innehavskostnad</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS_DELTA</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>volatility</parameter>,<parameter>cost_of_carry</parameter>)"
+msgstr ""
+"<function>OPT_BS_DELTA</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet</parameter>;<parameter>innehavskostnad</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS_RHO</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>volatility</parameter>,<parameter>cost_of_carry</parameter>)"
+msgstr ""
+"<function>OPT_BS_RHO</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet</parameter>;<parameter>innehavskostnad</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS_THETA</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>volatility</parameter>,<parameter>cost_of_carry</parameter>)"
+msgstr ""
+"<function>OPT_BS_THETA</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet</parameter>;<parameter>innehavskostnad</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_EXEC</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>volatility</parameter>,<parameter>cost_of_carry</parameter>,<parameter>lambda</parameter>)"
+msgstr ""
+"<function>OPT_EXEC</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet</parameter>;<parameter>innehavskostnad</parameter>;<parameter>lambda</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_EXTENDIBLE_WRITER</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike1</parameter>,<parameter>strike2</parameter>,<parameter>time1</parameter>,<parameter>time2</parameter>,<parameter>rate</parameter>,<parameter>cost_of_carry</parameter>,<parameter>volatility</parameter>)"
+msgstr ""
+"<function>OPT_EXTENDIBLE_WRITER</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris1</parameter>;<parameter>lösenpris2</parameter>;<parameter>tid1</parameter>;<parameter>tid2</parameter>;<parameter>ränta</parameter>;<parameter>innehavskostnad</parameter>;<parameter>volatilitet</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_FIXED_STRK_LKBK</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>spot_min</parameter>,<parameter>spot_max</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>cost_of_carry</parameter>,<parameter>volatility</parameter>)"
+msgstr ""
+"<function>OPT_FIXED_STRK_LKBK</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>minsta_spotpris</parameter>;<parameter>högsta_spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>innehavskostnad</parameter>;<parameter>volatilitet</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_FLOAT_STRK_LKBK</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>spot_min</parameter>,<parameter>spot_max</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>cost_of_carry</parameter>,<parameter>volatility</parameter>)"
+msgstr ""
+"<function>OPT_FLOAT_STRK_LKBK</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>minsta_spotpris</parameter>;<parameter>högsta_spotpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>innehavskostnad</parameter>;<parameter>volatilitet</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_FORWARD_START</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>alpha</parameter>,<parameter>time_start</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>volatility</parameter>,<parameter>cost_of_carry</parameter>)"
+msgstr ""
+"<function>OPT_FORWARD_START</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>alfa</parameter>;<parameter>starttid</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet</parameter>;<parameter>innehavskostnad</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_FRENCH</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>ttime</parameter>,<parameter>rate</parameter>,<parameter>volatility</parameter>,<parameter>cost_of_carry</parameter>)"
+msgstr ""
+"<function>OPT_FRENCH</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ttid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet</parameter>;<parameter>innehavskostnad</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_GARMAN_KOHLHAGEN</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>domestic_rate</parameter>,<parameter>foreign_rate</parameter>,<parameter>volatility</parameter>)"
+msgstr ""
+"<function>OPT_GARMAN_KOHLHAGEN</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>nationell_räntesats</parameter>;<parameter>utländsk_räntesats</parameter>;<parameter>volatilitet</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_JUMP_DIFF</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>volatility</parameter>,<parameter>lambda</parameter>,<parameter>gamma</parameter>)"
+msgstr ""
+"<function>OPT_JUMP_DIFF</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet</parameter>;<parameter>lambda</parameter>;<parameter>gamma</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_MILTERSEN_SCHWARTZ</function>(<parameter>call_put_flag</parameter>,<parameter>p_t</parameter>,<parameter>f_t</parameter>,<parameter>strike</parameter>,<parameter>t1</parameter>,<parameter>t2</parameter>,<parameter>v_s</parameter>,<parameter>v_e</parameter>,<parameter>v_f</parameter>,<parameter>rho_se</parameter>,<parameter>rho_sf</parameter>,<parameter>rho_ef</parameter>,<parameter>kappa_e</parameter>,<parameter>kappa_f</parameter>)"
+msgstr ""
+"<function>OPT_MILTERSEN_SCHWARTZ</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>p_t</parameter>;<parameter>f_t</parameter>;<parameter>lösenpris</parameter>;<parameter>t1</parameter>;<parameter>t2</parameter>;<parameter>v_s</parameter>;<parameter>v_e</parameter>;<parameter>v_f</parameter>;<parameter>rho_se</parameter>;<parameter>rho_sf</parameter>;<parameter>rho_ef</parameter>;<parameter>kappa_e</parameter>;<parameter>kappa_f</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_SIMPLE_CHOOSER</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time1</parameter>,<parameter>time2</parameter>,<parameter>cost_of_carry</parameter>,<parameter>volatility</parameter>)"
+msgstr ""
+"<function>OPT_SIMPLE_CHOOSER</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid1</parameter>;<parameter>tid2</parameter>;<parameter>innehavskostnad</parameter>;<parameter>volatilitet</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_SPREAD_APPROX</function>(<parameter>call_put_flag</parameter>,<parameter>fut_price1</parameter>,<parameter>fut_price2</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>volatility1</parameter>,<parameter>volatility2</parameter>,<parameter>rho</parameter>)"
+msgstr ""
+"<function>OPT_SPREAD_APPROX</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>termpris1</parameter>;<parameter>termpris2</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet1</parameter>;<parameter>volatilitet2</parameter>;<parameter>rho</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_TIME_SWITCH</function>(<parameter>call_put_flag</parameter>,<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>a</parameter>,<parameter>time</parameter>,<parameter>m</parameter>,<parameter>dt</parameter>,<parameter>rate</parameter>,<parameter>cost_of_carry</parameter>,<parameter>volatility</parameter>)"
+msgstr ""
+"<function>OPT_TIME_SWITCH</function>(<parameter>köp_sälj_flagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>a</parameter>;<parameter>tid</parameter>;<parameter>m</parameter>;<parameter>dt</parameter>;<parameter>ränta</parameter>;<parameter>innehavskostnad</parameter>;<parameter>volatilitet</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "TRUE if <parameter>value</parameter> is the #N/A error value"
+msgstr "SANT om <parameter>värde</parameter> är felvärdet #-"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"This function compares the reference value, <parameter>ref</parameter>, "
+"against the choice values, <parameter>choice1</parameter> etc., and returns "
+"the corresponding result value when it finds a match. The choices may be "
+"followed by a default value to use. If there are no choices that match and "
+"no default value, #N/A is return."
+msgstr ""
+"Denna funktion jämför referensvärdet <parameter>ref</parameter> mot "
+"valvärdena <parameter>val1</parameter> o.s.v. och returnerar motsvarande "
+"resultatvärde då det hittar en matchning. Valen kan följas av ett "
+"standardvärde att använda. Om det inte finns några val som matchar och inget"
+" standardvärde returneras #-."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>SUMX2PY2</function>(<parameter>array0</parameter>,<parameter>array1</parameter>)"
+msgstr ""
+"<function>SUMX2PY2</function>(<parameter>vektor0</parameter>;<parameter>vektor1</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>SUMXMY2</function>(<parameter>array0</parameter>,<parameter>array1</parameter>)"
+msgstr ""
+"<function>SUMXMY2</function>(<parameter>vektor0</parameter>;<parameter>vektor1</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>prob_range</parameter>: probabilities of the corresponding values"
+" in <parameter>val_range</parameter>, defaults to equal probabilities"
+msgstr ""
+"<parameter>sann_intervall</parameter>: sannolikheter för motsvarande värden "
+"i <parameter>val_range</parameter>; standardvärdet är lika sannolikheter"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>RANDDISCRETE</function> returns one of the values in the "
+"<parameter>val_range</parameter>. The probabilities for each value are given"
+" in the <parameter>prob_range</parameter>."
+msgstr ""
+"<function>RANDDISCRETE</function> returnerar ett av värdena i "
+"<parameter>val_range</parameter>. Sannolikheten för varje värde anges i "
+"<parameter>sann_intervall</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"the <parameter>quart</parameter>-th quartile of the data points (Hyndman-Fan"
+" method 7: N-1 basis)"
+msgstr ""
+"<parameter>kvart</parameter>:e kvartilen för datapunkterna (Hyndman-Fan-"
+"metod 7: N-1 bas)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"the <parameter>quart</parameter>-th quartile of the data points (Hyndman-Fan"
+" method 6: N+1 basis)"
+msgstr ""
+"<parameter>kvart</parameter>:e kvartilen för datapunkterna (Hyndman-Fan-"
+"metod 6: N+1 bas)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>ACCRINT</function>(<parameter>issue</parameter>,<parameter>first_interest</parameter>,<parameter>settlement</parameter>,<parameter>rate</parameter>,<parameter>par</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>,<parameter>calc_method</parameter>)"
+msgstr ""
+"<function>ACCRINT</function>(<parameter>start</parameter>;<parameter>första_ränta</parameter>;<parameter>avräkning</parameter>;<parameter>ränta</parameter>;<parameter>parvärde</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>;<parameter>beräknmetod</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>par</parameter>: par value, defaults to $1000"
+msgstr "<parameter>parvärde</parameter>: nominellt värde, standardvärde $1000"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>ACCRINTM</function>(<parameter>issue</parameter>,<parameter>maturity</parameter>,<parameter>rate</parameter>,<parameter>par</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>ACCRINTM</function>(<parameter>start</parameter>;<parameter>förfallodatum</parameter>;<parameter>ränta</parameter>;<parameter>parvärde</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>maturity</parameter>: maturity date"
+msgstr "<parameter>förfallodatum</parameter>: förfallodatum"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>par</parameter>: par value"
+msgstr "<parameter>parvärde</parameter>: nominellt värde"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>ACCRINTM</function> calculates the accrued interest from "
+"<parameter>issue</parameter> to <parameter>maturity</parameter>."
+msgstr ""
+"<function>ACCRINTM</function> beräknar den upplupna räntan för en säkerhet "
+"från <parameter>start</parameter> till <parameter>förfallodatum</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>par</parameter> defaults to $1000. If "
+"<parameter>basis</parameter> is 0, then the US 30/360 method is used. If "
+"<parameter>basis</parameter> is 1, then actual number of days is used. If "
+"<parameter>basis</parameter> is 2, then actual number of days is used within"
+" a month, but years are considered only 360 days. If "
+"<parameter>basis</parameter> is 3, then actual number of days is used within"
+" a month, but years are always considered 365 days. If "
+"<parameter>basis</parameter> is 4, then the European 30/360 method is used."
+msgstr ""
+"<parameter>parvärde</parameter> är som standard $1000. Om "
+"<parameter>bas</parameter> är 0 används det amerikanska 30/360-systemet. Om "
+"<parameter>bas</parameter> är 1 används det faktiska antalet dagar. Om "
+"<parameter>bas</parameter> är 2 används det faktiska antalet dagar i en "
+"månad, men år anses ha bara 360 dagar. Om <parameter>bas</parameter> är 3 "
+"används det faktiska antalet dagar i en månad, men år anses alltid ha 365 "
+"dagar. Om <parameter>bas</parameter> är 4 används den europeiska "
+"30/360-metoden."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>AMORDEGRC</function>(<parameter>cost</parameter>,<parameter>purchase_date</parameter>,<parameter>first_period</parameter>,<parameter>salvage</parameter>,<parameter>period</parameter>,<parameter>rate</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>AMORDEGRC</function>(<parameter>kostnad</parameter>;<parameter>köpdatum</parameter>;<parameter>första_period</parameter>;<parameter>restvärde</parameter>;<parameter>period</parameter>;<parameter>ränta</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>salvage</parameter>: value after depreciation"
+msgstr "<parameter>restvärde</parameter>: värde efter avskrivning"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Special depreciation rules are applied for the last two periods resulting in"
+" a possible total depreciation exceeding the difference of "
+"<parameter>cost</parameter> - <parameter>salvage</parameter>. Named for "
+"AMORtissement DEGRessif Comptabilite. If <parameter>basis</parameter> is 0, "
+"then the US 30/360 method is used. If <parameter>basis</parameter> is 1, "
+"then actual number of days is used. If <parameter>basis</parameter> is 2, "
+"then actual number of days is used within a month, but years are considered "
+"only 360 days. If <parameter>basis</parameter> is 3, then actual number of "
+"days is used within a month, but years are always considered 365 days. If "
+"<parameter>basis</parameter> is 4, then the European 30/360 method is used."
+msgstr ""
+"Speciella avskrivningsregler tillämpas för de sista två perioderna "
+"resulterande i en möjlig total avskrivning överskridande skillnaden mellan "
+"<parameter>kostnad</parameter> - <parameter>restvärde</parameter>. Namngiven"
+" efter AMORtissement DEGRessif Comptabilite. Om <parameter>bas</parameter> "
+"är 0 används det amerikanska 30/360-systemet. Om <parameter>bas</parameter> "
+"är 1 används det faktiska antalet dagar. Om <parameter>bas</parameter> är 2 "
+"används det faktiska antalet dagar i en månad, men år anses ha bara 360 "
+"dagar. Om <parameter>bas</parameter> är 3 används det faktiska antalet dagar"
+" i en månad, men år anses alltid ha 365 dagar. Om <parameter>bas</parameter>"
+" är 4 används den europeiska 30/360-metoden."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>AMORLINC</function>(<parameter>cost</parameter>,<parameter>purchase_date</parameter>,<parameter>first_period</parameter>,<parameter>salvage</parameter>,<parameter>period</parameter>,<parameter>rate</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>AMORLINC</function>(<parameter>kostnad</parameter>;<parameter>köpdatum</parameter>;<parameter>första_period</parameter>;<parameter>restvärde</parameter>;<parameter>period</parameter>;<parameter>ränta</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>COUPDAYBS</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>,<parameter>eom</parameter>)"
+msgstr ""
+"<function>COUPDAYBS</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>;<parameter>månadsslut</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>eom</parameter>: end-of-month flag"
+msgstr ""
+"<parameter>månadsslut</parameter>: flagga för förfallodagsdatum i slutet på "
+"månad"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>COUPDAYS</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>,<parameter>eom</parameter>)"
+msgstr ""
+"<function>COUPDAYS</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>;<parameter>månadsslut</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>COUPDAYSNC</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>,<parameter>eom</parameter>)"
+msgstr ""
+"<function>COUPDAYNS</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>;<parameter>månadsslut</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>COUPNCD</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>,<parameter>eom</parameter>)"
+msgstr ""
+"<function>COUPNCD</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>;<parameter>månadsslut</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>COUPNUM</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>,<parameter>eom</parameter>)"
+msgstr ""
+"<function>COUPNUM</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>;<parameter>månadsslut</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>COUPPCD</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>,<parameter>eom</parameter>)"
+msgstr ""
+"<function>COUPPCD</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>;<parameter>månadsslut</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>CUMIPMT</function>(<parameter>rate</parameter>,<parameter>nper</parameter>,<parameter>pv</parameter>,<parameter>start_period</parameter>,<parameter>end_period</parameter>,<parameter>type</parameter>)"
+msgstr ""
+"<function>CUMIPMT</function>(<parameter>ränta</parameter>;<parameter>antal_perioder</parameter>;<parameter>nv</parameter>;<parameter>startperiod</parameter>;<parameter>slutperiod</parameter>;<parameter>typ</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>nper</parameter>: number of periods"
+msgstr "<parameter>antal_perioder</parameter>: antal perioder"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>CUMPRINC</function>(<parameter>rate</parameter>,<parameter>nper</parameter>,<parameter>pv</parameter>,<parameter>start_period</parameter>,<parameter>end_period</parameter>,<parameter>type</parameter>)"
+msgstr ""
+"<function>CUMPRINC</function>(<parameter>ränta</parameter>;<parameter>antal_perioder</parameter>;<parameter>nv</parameter>;<parameter>startperiod</parameter>;<parameter>slutperiod</parameter>;<parameter>typ</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>DB</function>(<parameter>cost</parameter>,<parameter>salvage</parameter>,<parameter>life</parameter>,<parameter>period</parameter>,<parameter>month</parameter>)"
+msgstr ""
+"<function>DB</function>(<parameter>kostnad</parameter>;<parameter>restvärde</parameter>;<parameter>livstid</parameter>;<parameter>period</parameter>;<parameter>månad</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>DDB</function>(<parameter>cost</parameter>,<parameter>salvage</parameter>,<parameter>life</parameter>,<parameter>period</parameter>,<parameter>factor</parameter>)"
+msgstr ""
+"<function>DDB</function>(<parameter>kostnad</parameter>;<parameter>restvärde</parameter>;<parameter>livstid</parameter>;<parameter>period</parameter>;<parameter>faktor</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>DISC</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>par</parameter>,<parameter>redemption</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>DISC</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>parvärde</parameter>;<parameter>inlösen</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>par</parameter>: price per $100 face value"
+msgstr "<parameter>parvärde</parameter>: pris per $100 nominellt belopp"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>DURATION</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>coupon</parameter>,<parameter>yield</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>DURATION</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>kupong</parameter>;<parameter>avkastning</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>EFFECT</function>(<parameter>rate</parameter>,<parameter>nper</parameter>)"
+msgstr ""
+"<function>EFFECT</function>(<parameter>ränta</parameter>;<parameter>antal_perioder</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>nper</parameter>: number of periods used for compounding"
+msgstr ""
+"<parameter>antal_perioder</parameter>: antal perioder använda för "
+"sammanräkning"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>EFFECT</function> calculates the effective interest rate using the"
+" formula "
+"(1+<parameter>rate</parameter>/<parameter>nper</parameter>)^<parameter>nper</parameter>-1."
+msgstr ""
+"<function>EFFECT</function> beräknar den effektiva räntesatsen med formeln "
+"(1+<parameter>ränta</parameter>/<parameter>antal_perioder</parameter>)^<parameter>antal_perioder</parameter>-1."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>FV</function>(<parameter>rate</parameter>,<parameter>nper</parameter>,<parameter>pmt</parameter>,<parameter>pv</parameter>,<parameter>type</parameter>)"
+msgstr ""
+"<function>FV</function>(<parameter>ränta</parameter>;<parameter>antal_perioder</parameter>;<parameter>bet</parameter>;<parameter>nv</parameter>;<parameter>typ</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>FV</function> calculates the future value of "
+"<parameter>pv</parameter> moved <parameter>nper</parameter> periods into the"
+" future, assuming a periodic payment of <parameter>pmt</parameter> and an "
+"interest rate of <parameter>rate</parameter> per period."
+msgstr ""
+"<function>FV</function> beräknar det framtida värdet av "
+"<parameter>pv</parameter> flyttad <parameter>antal_perioder</parameter> "
+"perioder till framtiden, antagande en periodisk betalning av "
+"<parameter>bet</parameter> och en räntesats <parameter>ränta</parameter> per"
+" period."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>FVSCHEDULE</function>(<parameter>principal</parameter>,<parameter>schedule</parameter>)"
+msgstr ""
+"<function>FVSCHEDULE</function>(<parameter>kapital</parameter>;<parameter>ränteschema</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>schedule</parameter>: range of interest rates"
+msgstr "<parameter>ränteschema</parameter>: intervall för ränta"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>INTRATE</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>investment</parameter>,<parameter>redemption</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>INTRATE</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>investering</parameter>;<parameter>inlösen</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>IPMT</function>(<parameter>rate</parameter>,<parameter>per</parameter>,<parameter>nper</parameter>,<parameter>pv</parameter>,<parameter>fv</parameter>,<parameter>type</parameter>)"
+msgstr ""
+"<function>IPMT</function>(<parameter>ränta</parameter>;<parameter>periodnummer</parameter>;<parameter>antal_perioder</parameter>;<parameter>nv</parameter>;<parameter>fv</parameter>;<parameter>typ</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>per</parameter>: period number"
+msgstr "<parameter>periodnummer</parameter>: periodens ordningsnummer"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>IPMT</function> calculates the interest part of an annuity's "
+"payment for period number <parameter>per</parameter>."
+msgstr ""
+"<function>IPMT</function> (räntebetalning för perioden) beräknar "
+"räntebeloppet i annuitetsbetalningen för period "
+"<parameter>periodnummer</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>ISPMT</function>(<parameter>rate</parameter>,<parameter>per</parameter>,<parameter>nper</parameter>,<parameter>pv</parameter>)"
+msgstr ""
+"<function>ISPMT</function>(<parameter>ränta</parameter>;<parameter>periodnummer</parameter>;<parameter>antal_perioder</parameter>;<parameter>nv</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>ISPMT</function> calculates the interest payment for period number"
+" <parameter>per</parameter>."
+msgstr ""
+"<function>ISPMT</function> beräknar räntebeloppet i annuitetsbetalningen för"
+" period <parameter>periodnummer</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>MDURATION</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>coupon</parameter>,<parameter>yield</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>MDURATION</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>kupong</parameter>;<parameter>avkastning</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>NOMINAL</function>(<parameter>rate</parameter>,<parameter>nper</parameter>)"
+msgstr ""
+"<function>NOMINAL</function>(<parameter>ränta</parameter>;<parameter>antal_perioder</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>ODDFPRICE</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>issue</parameter>,<parameter>first_interest</parameter>,<parameter>rate</parameter>,<parameter>yield</parameter>,<parameter>redemption</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>ODDFPRICE</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>start</parameter>;<parameter>första_ränta</parameter>;<parameter>ränta</parameter>;<parameter>avkastning</parameter>;<parameter>inlösen</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>ODDFYIELD</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>issue</parameter>,<parameter>first_interest</parameter>,<parameter>rate</parameter>,<parameter>price</parameter>,<parameter>redemption</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>ODDFYIELD</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>start</parameter>;<parameter>första_ränta</parameter>;<parameter>ränta</parameter>;<parameter>pris</parameter>;<parameter>inlösen</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>ODDLPRICE</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>last_interest</parameter>,<parameter>rate</parameter>,<parameter>yield</parameter>,<parameter>redemption</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>ODDLPRICE</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>sista_ränta</parameter>;<parameter>ränta</parameter>;<parameter>avkastning</parameter>;<parameter>inlösen</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>ODDLYIELD</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>last_interest</parameter>,<parameter>rate</parameter>,<parameter>price</parameter>,<parameter>redemption</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>ODDLYIELD</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>sista_ränta</parameter>;<parameter>ränta</parameter>;<parameter>pris</parameter>;<parameter>inlösen</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>spot1</parameter>: spot price of the underlying asset of the "
+"first option"
+msgstr ""
+"<parameter>spotpris1</parameter>: spotpris för den underliggande tillgången "
+"för den första optionen"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>spot2</parameter>: spot price of the underlying asset of the "
+"second option"
+msgstr ""
+"<parameter>spotpris2</parameter>: spotpriset för den underliggande "
+"tillgången för den andra optionen"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>strike1</parameter>: strike prices of the first option"
+msgstr ""
+"<parameter>lösenpris1</parameter>: lösenpriserna för den första optionen"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>strike2</parameter>: strike prices of the second option"
+msgstr ""
+"<parameter>lösenpris2</parameter>: lösenpriserna för den andra optionen"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>cost_of_carry1</parameter>: net cost of holding the underlying "
+"asset of the first option (for common stocks, the risk free rate less the "
+"dividend yield)"
+msgstr ""
+"<parameter>innehavskostnad1</parameter>: nettokostnaden för att hålla den "
+"underliggande tillgången för den första optionen (för vanliga aktier, den "
+"riskfria räntan minus direktavkastningen)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>cost_of_carry2</parameter>: net cost of holding the underlying "
+"asset of the second option (for common stocks, the risk free rate less the "
+"dividend yield)"
+msgstr ""
+"<parameter>innehavskostnad2</parameter>: nettokostnaden för att hålla den "
+"underliggande tillgången för den andra optionen (för vanliga aktier, den "
+"riskfria räntan minus direktavkastningen)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_2_ASSET_CORRELATION</function> models the theoretical price of"
+" options on 2 assets with correlation <parameter>rho</parameter>. The payoff"
+" for a call is max(<parameter>spot2</parameter> - "
+"<parameter>strike2</parameter>,0) if <parameter>spot1</parameter> &gt; "
+"<parameter>strike1</parameter> or 0 otherwise. The payoff for a put is max "
+"(<parameter>strike2</parameter> - <parameter>spot2</parameter>, 0) if "
+"<parameter>spot1</parameter> &lt; <parameter>strike1</parameter> or 0 "
+"otherwise."
+msgstr ""
+"<function>OPT_2_ASSET_CORRELATION</function> modellerar det teoretiska "
+"priset på optioner med två tillgångar med korrelation "
+"<parameter>rho</parameter>. Utbetalningen för ett köp är "
+"max(<parameter>spotpris2</parameter> - <parameter>lösenpris2</parameter>,0) "
+"om <parameter>spotpris1</parameter> &gt; <parameter>lösenpris1</parameter>, "
+"annars 0. Utbetalningen för sälj är max(<parameter>lösenpris2</parameter> - "
+"<parameter>spotpris2</parameter>, 0) om <parameter>spotpris1</parameter> "
+"&lt; <parameter>lösenpris1</parameter>, annars 0."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_AMER_EXCHANGE</function>(<parameter>spot1</parameter>,<parameter>spot2</parameter>,<parameter>qty1</parameter>,<parameter>qty2</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>cost_of_carry1</parameter>,<parameter>cost_of_carry2</parameter>,<parameter>volatility1</parameter>,<parameter>volatility2</parameter>,<parameter>rho</parameter>)"
+msgstr ""
+"<function>OPT_AMER_EXCHANGE</function>(<parameter>spotpris1</parameter>;<parameter>spotpris2</parameter>;<parameter>kvnt1</parameter>;<parameter>kvnt2</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>innehavskostnad1</parameter>;<parameter>innehavskostnad2</parameter>;<parameter>volatilitet1</parameter>;<parameter>volatilitet2</parameter>;<parameter>rho</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>spot1</parameter>: spot price of asset 1"
+msgstr "<parameter>spotpris1</parameter>: spotpris för tillgång 1"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>spot2</parameter>: spot price of asset 2"
+msgstr "<parameter>spotpris2</parameter>: spotpris för tillgång 2"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>cost_of_carry1</parameter>: net cost of holding asset 1 (for "
+"common stocks, the risk free rate less the dividend yield)"
+msgstr ""
+"<parameter>innehavskostnad1</parameter>: nettokostnaden för att hålla "
+"tillgång 1 (för vanliga aktier, den riskfria räntan minus "
+"direktavkastningen)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>cost_of_carry2</parameter>: net cost of holding asset 2 (for "
+"common stocks, the risk free rate less the dividend yield)"
+msgstr ""
+"<parameter>innehavskostnad2</parameter>: nettokostnaden för att hålla "
+"tillgång 2 (för vanliga aktier, den riskfria räntan minus "
+"direktavkastningen)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_AMER_EXCHANGE</function> models the theoretical price of an "
+"American option to exchange one asset with quantity "
+"<parameter>qty2</parameter> and spot price <parameter>spot2</parameter> for "
+"another with quantity <parameter>qty1</parameter> and spot price "
+"<parameter>spot1</parameter>."
+msgstr ""
+"<function>OPT_AMER_EXCHANGE</function> modellerar det teoretiska priset på "
+"en amerikansk option för att växla en tillgång med kvantitet "
+"<parameter>kvnt2</parameter> och spotpris <parameter>spotpris2</parameter> "
+"för en annan med kvantitet <parameter>kvnt1</parameter> och spotpris "
+"<parameter>spotpris1</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>spot</parameter>: spot price"
+msgstr "<parameter>spotpris</parameter>: spotpris"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>strike</parameter>: strike price"
+msgstr "<parameter>lösenpris</parameter>: lösenpris"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>cost_of_carry</parameter>: net cost of holding the underlying "
+"asset"
+msgstr ""
+"<parameter>innehavskostnad</parameter>: nettokostnaden för att inneha den "
+"underliggande tillgången"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>amer_euro_flag</parameter>: 'a' for an American style option or "
+"'e' for a European style option"
+msgstr ""
+"<parameter>amerikansk_europeisk_flagga</parameter>: är antingen \"a\" eller "
+"\"e\" för att indikera om optionen är amerikansk eller europeisk"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>cost_of_carry</parameter>: net cost of holding the underlying "
+"asset (for common stocks, the risk free rate less the dividend yield), "
+"defaults to 0"
+msgstr ""
+"<parameter>innehavskostnad</parameter>: nettokostnaden för att inneha den "
+"underliggande tillgången (för vanliga aktier, den riskfria räntan minus "
+"direktavkastningen), standard är 0"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS</function> uses the Black-Scholes model to calculate the "
+"price of a European option struck at <parameter>strike</parameter> on an "
+"asset with spot price <parameter>spot</parameter>."
+msgstr ""
+"<function>OPT_BS</function> använder Black-Scholes-modellen för att beräkna "
+"priset på en europeisk option med lösenpris satt till "
+"<parameter>lösenpris</parameter> på en tillgång med spotpris "
+"<parameter>spotpris</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The returned value will be expressed in the same units as "
+"<parameter>strike</parameter> and <parameter>spot</parameter>."
+msgstr ""
+"Det returnerade värdet kommer att uttryckas i samma enhet som "
+"<parameter>lösenpris</parameter> och <parameter>spotpris</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS_CARRYCOST</function> uses the Black-Scholes model to "
+"calculate the 'elasticity' of a European option struck at "
+"<parameter>strike</parameter> on an asset with spot price "
+"<parameter>spot</parameter>. The elasticity of an option is the rate of "
+"change of its price with respect to its "
+"<parameter>cost_of_carry</parameter>."
+msgstr ""
+"<function>OPT_BS_CARRYCOST</function> använder Black-Scholes-modellen för "
+"att beräkna ”elasticitet” för en europeisk option med lösenpris satt till "
+"<parameter>lösenpris</parameter> på en tillgång med spotpris "
+"<parameter>spotpris</parameter>. Elasticitet för en option är "
+"förändringstakten av dess pris med avseende på dess "
+"<parameter>innehavskostnad</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS_DELTA</function> uses the Black-Scholes model to calculate "
+"the 'delta' of a European option struck at <parameter>strike</parameter> on "
+"an asset with spot price <parameter>spot</parameter>."
+msgstr ""
+"<function>OPT_BS_DELTA</function> använder Black-Scholes-modellen för att "
+"beräkna ”delta” på en europeisk option med lösenpris satt till "
+"<parameter>lösenpris</parameter> på en tillgång med spotpris "
+"<parameter>spotpris</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS_GAMMA</function>(<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>volatility</parameter>,<parameter>cost_of_carry</parameter>)"
+msgstr ""
+"<function>OPT_BS_GAMMA</function>(<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet</parameter>;<parameter>innehavskostnad</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS_GAMMA</function> uses the Black-Scholes model to calculate "
+"the 'gamma' of a European option struck at <parameter>strike</parameter> on "
+"an asset with spot price <parameter>spot</parameter>. The gamma of an option"
+" is the second derivative of its price with respect to the price of the "
+"underlying asset."
+msgstr ""
+"<function>OPT_BS_GAMMA</function> använder Black-Scholes-modellen för att "
+"beräkna ”gamma” på en europeisk option med lösenpris satt till "
+"<parameter>lösenpris</parameter> på en tillgång med spotpris "
+"<parameter>spotpris</parameter>. Gamma för en option är andraderivatan av "
+"dess pris med avseende på priset på underliggande tillgång."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Gamma is expressed as the rate of change of delta per unit change in "
+"<parameter>spot</parameter>. Gamma is the same for calls and puts."
+msgstr ""
+"Gamma uttrycks som hastigheten för förändring för delta per enhetsändring i "
+"<parameter>spotpris</parameter>. Gamma är densamma för köp och sälj."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS_RHO</function> uses the Black-Scholes model to calculate "
+"the 'rho' of a European option struck at <parameter>strike</parameter> on an"
+" asset with spot price <parameter>spot</parameter>. The rho of an option is "
+"the rate of change of its price with respect to the risk free interest rate."
+msgstr ""
+"<function>OPT_BS_RHO</function> använder Black-Scholes-modellen för att "
+"beräkna ”rho” för en europeisk option med lösenpris satt till "
+"<parameter>lösenpris</parameter> på en tillgång med spotpris "
+"<parameter>spotpris</parameter>. rho för en option är förändringstakten av "
+"dess pris med avseende på dess riskfria ränta."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS_THETA</function> uses the Black-Scholes model to calculate "
+"the 'theta' of a European option struck at <parameter>strike</parameter> on "
+"an asset with spot price <parameter>spot</parameter>. The theta of an option"
+" is the rate of change of its price with respect to time to expiry."
+msgstr ""
+"<function>OPT_BS_THETA</function> använder Black-Scholes-modellen för att "
+"beräkna ”theta” för en europeisk option med lösenpris satt till "
+"<parameter>lösenpris</parameter> på en tillgång med spotpris "
+"<parameter>spotpris</parameter>. Theta för en option är förändringstakten av"
+" dess pris med avseende på dess utgångsdatum."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS_VEGA</function>(<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>volatility</parameter>,<parameter>cost_of_carry</parameter>)"
+msgstr ""
+"<function>OPT_BS_VEGA</function>(<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>volatilitet</parameter>;<parameter>innehavskostnad</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_BS_VEGA</function> uses the Black-Scholes model to calculate "
+"the 'vega' of a European option struck at <parameter>strike</parameter> on "
+"an asset with spot price <parameter>spot</parameter>. The vega of an option "
+"is the rate of change of its price with respect to volatility."
+msgstr ""
+"<function>OPT_BS_VEGA</function> använder Black-Scholes-modellen för att "
+"beräkna ”vega” för en europeisk option med lösenpris satt till "
+"<parameter>lösenpris</parameter> på en tillgång med spotpris "
+"<parameter>spotpris</parameter>. Vega för en option är förändringstakten av "
+"dess pris med avseende på dess volatilitet."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_COMPLEX_CHOOSER</function>(<parameter>spot</parameter>,<parameter>strike_call</parameter>,<parameter>strike_put</parameter>,<parameter>time</parameter>,<parameter>time_call</parameter>,<parameter>time_put</parameter>,<parameter>rate</parameter>,<parameter>cost_of_carry</parameter>,<parameter>volatility</parameter>)"
+msgstr ""
+"<function>OPT_COMPLEX_CHOOSER</function>(<parameter>spotpris</parameter>;<parameter>lösenpris_köp</parameter>;<parameter>lösenpris_sälj</parameter>;<parameter>tid</parameter>;<parameter>time_call</parameter>;<parameter>time_put</parameter>;<parameter>ränta</parameter>;<parameter>innehavskostnad</parameter>;<parameter>volatilitet</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>strike_call</parameter>: strike price, if exercised as a call "
+"option"
+msgstr ""
+"<parameter>lösenpris_köp</parameter>: lösenpris om inlöst som en köpoption"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>strike_put</parameter>: strike price, if exercised as a put "
+"option"
+msgstr ""
+"<parameter>lösenpris_sälj</parameter>: lösenpris om inlöst som en säljoption"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_EURO_EXCHANGE</function>(<parameter>spot1</parameter>,<parameter>spot2</parameter>,<parameter>qty1</parameter>,<parameter>qty2</parameter>,<parameter>time</parameter>,<parameter>rate</parameter>,<parameter>cost_of_carry1</parameter>,<parameter>cost_of_carry2</parameter>,<parameter>volatility1</parameter>,<parameter>volatility2</parameter>,<parameter>rho</parameter>)"
+msgstr ""
+"<function>OPT_EURO_EXCHANGE</function>(<parameter>spotpris1</parameter>;<parameter>spotpris2</parameter>;<parameter>kvnt1</parameter>;<parameter>kvnt2</parameter>;<parameter>tid</parameter>;<parameter>ränta</parameter>;<parameter>innehavskostnad1</parameter>;<parameter>innehavskostnad2</parameter>;<parameter>volatilitet1</parameter>;<parameter>volatilitet2</parameter>;<parameter>rho</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_EURO_EXCHANGE</function> models the theoretical price of a "
+"European option to exchange one asset with quantity "
+"<parameter>qty2</parameter> and spot price <parameter>spot2</parameter> for "
+"another with quantity <parameter>qty1</parameter> and spot price "
+"<parameter>spot1</parameter>."
+msgstr ""
+"<function>OPT_EURO_EXCHANGE</function> modellerar det teoretiska priset på "
+"en europeisk option för att växla en tillgång med kvantitet "
+"<parameter>kvnt2</parameter> och <parameter>spotpris2</parameter> för en "
+"annan, med kvantitet <parameter>kvnt1</parameter> och spotpris "
+"<parameter>spotpris1</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>strike1</parameter>: strike price at which the option is struck"
+msgstr "<parameter>lösenpris1</parameter>: lösenpriset som satts för optionen"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>strike2</parameter>: strike price at which the option is re-"
+"struck if out of the money at <parameter>time1</parameter>"
+msgstr ""
+"<parameter>lösenpris2</parameter>: lösenpris som sätts på nytt om optionen "
+"saknar realvärde vid <parameter>tid1</parameter>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>spot_min</parameter>: minimum spot price of the underlying asset "
+"so far observed"
+msgstr ""
+"<parameter>minsta_spotpris</parameter>: är minsta spotpris så här långt för "
+"den underliggande tillgången"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>spot_max</parameter>: maximum spot price of the underlying asset "
+"so far observed"
+msgstr ""
+"<parameter>högsta_spotpris</parameter>: är högsta spotpris så här långt för "
+"den underliggande tillgången"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_FRENCH</function> values the theoretical price of a European "
+"option adjusted for trading day volatility, struck at "
+"<parameter>strike</parameter> on an asset with spot price "
+"<parameter>spot</parameter>."
+msgstr ""
+"<function>OPT_FRENCH</function> beräknar det teoretiska priset på en "
+"europeisk option, korrigerat för volatiliteten under handelsdagar, med "
+"lösenpris <parameter>lösenpris</parameter> och spotpris "
+"<parameter>spotpris</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_GARMAN_KOHLHAGEN</function> values the theoretical price of a "
+"European currency option struck at <parameter>strike</parameter> on an asset"
+" with spot price <parameter>spot</parameter>."
+msgstr ""
+"<function>OPT_GARMAN_KOHLHAGEN</function> beräknar det teoretiska priset på "
+"en europeisk valutaoption med lösenpris <parameter>lösenpris</parameter> och"
+" spotpris <parameter>spotpris</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_ON_OPTIONS</function>(<parameter>type_flag</parameter>,<parameter>spot</parameter>,<parameter>strike1</parameter>,<parameter>strike2</parameter>,<parameter>time1</parameter>,<parameter>time2</parameter>,<parameter>rate</parameter>,<parameter>cost_of_carry</parameter>,<parameter>volatility</parameter>)"
+msgstr ""
+"<function>OPT_ON_OPTIONS</function>(<parameter>typflagga</parameter>;<parameter>spotpris</parameter>;<parameter>lösenpris1</parameter>;<parameter>lösenpris2</parameter>;<parameter>tid1</parameter>;<parameter>tid2</parameter>;<parameter>ränta</parameter>;<parameter>innehavskostnad</parameter>;<parameter>volatilitet</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>strike1</parameter>: strike price at which the option being "
+"valued is struck"
+msgstr ""
+"<parameter>lösenpris1</parameter>: lösenpriset som satts för optionen som "
+"värderas"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>strike2</parameter>: strike price at which the underlying option "
+"is struck"
+msgstr ""
+"<parameter>lösenpris2</parameter>: lösenpriset som satts för den "
+"underliggande optionen"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<parameter>cost_of_carry</parameter>: net cost of holding the underlying "
+"asset of the underlying option"
+msgstr ""
+"<parameter>innehavskostnad</parameter>: nettokostnaden för att inneha den "
+"underliggande tillgången för den underliggande optionen"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"For common stocks, <parameter>cost_of_carry</parameter> is the risk free "
+"rate less the dividend yield. <parameter>time2</parameter> ≥ "
+"<parameter>time1</parameter>"
+msgstr ""
+"För vanliga aktier är <parameter>innehavskostnad</parameter> den riskfria "
+"räntan minus direktavkastningen. <parameter>tid2</parameter> ≥ "
+"<parameter>tid1</parameter>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_RGW</function>(<parameter>spot</parameter>,<parameter>strike</parameter>,<parameter>time_payout</parameter>,<parameter>time_exp</parameter>,<parameter>rate</parameter>,<parameter>d</parameter>,<parameter>volatility</parameter>)"
+msgstr ""
+"<function>OPT_RGW</function>(<parameter>spotpris</parameter>;<parameter>lösenpris</parameter>;<parameter>tid_utdelning</parameter>;<parameter>tid_utg</parameter>;<parameter>räntesats</parameter>;<parameter>d</parameter>;<parameter>volatilitet</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>OPT_TIME_SWITCH</function> models the theoretical price of time "
+"switch options. (Pechtl 1995). The holder receives <parameter>a</parameter> "
+"* <parameter>dt</parameter> for each period that the asset price was greater"
+" than <parameter>strike</parameter> (for a call) or below it (for a put)."
+msgstr ""
+"<function>OPT_TIME_SWITCH</function> modellerar det teoretiska priset på "
+"optioner med tidsvillkor (Pechtl 1995). Ägaren får <parameter>a</parameter> "
+"* <parameter>dt</parameter> för varje period som tillgångens pris var högre "
+"än <parameter>lösenpris</parameter> (för köp) eller lägre än det (för sälj)."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>PMT</function>(<parameter>rate</parameter>,<parameter>nper</parameter>,<parameter>pv</parameter>,<parameter>fv</parameter>,<parameter>type</parameter>)"
+msgstr ""
+"<function>PMT</function>(<parameter>ränta</parameter>;<parameter>antal_perioder</parameter>;<parameter>nv</parameter>;<parameter>fv</parameter>;<parameter>typ</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>PPMT</function>(<parameter>rate</parameter>,<parameter>per</parameter>,<parameter>nper</parameter>,<parameter>pv</parameter>,<parameter>fv</parameter>,<parameter>type</parameter>)"
+msgstr ""
+"<function>PPMT</function>(<parameter>ränta</parameter>;<parameter>periodnummer</parameter>;<parameter>antal_perioder</parameter>;<parameter>nv</parameter>;<parameter>fv</parameter>;<parameter>typ</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>PPMT</function> calculates the principal part of an annuity's "
+"payment for period number <parameter>per</parameter>."
+msgstr ""
+"<function>PPMT</function> beräknar den del av annuitetsbetalningen som avser"
+" amortering under period <parameter>periodnummer</parameter>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>PRICE</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>rate</parameter>,<parameter>yield</parameter>,<parameter>redemption</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>PRICE</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>ränta</parameter>;<parameter>avkastning</parameter>;<parameter>inlösen</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>PRICEDISC</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>discount</parameter>,<parameter>redemption</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>PRICEDISC</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>diskontering</parameter>;<parameter>inlösen</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>PRICEMAT</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>issue</parameter>,<parameter>discount</parameter>,<parameter>yield</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>PRICEMAT</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>start</parameter>;<parameter>diskontering</parameter>;<parameter>avkastning</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>PV</function>(<parameter>rate</parameter>,<parameter>nper</parameter>,<parameter>pmt</parameter>,<parameter>fv</parameter>,<parameter>type</parameter>)"
+msgstr ""
+"<function>PV</function>(<parameter>ränta</parameter>;<parameter>antal_perioder</parameter>;<parameter>bet</parameter>;<parameter>fv</parameter>;<parameter>typ</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>PV</function> calculates the present value of "
+"<parameter>fv</parameter> which is <parameter>nper</parameter> periods into "
+"the future, assuming a periodic payment of <parameter>pmt</parameter> and an"
+" interest rate of <parameter>rate</parameter> per period."
+msgstr ""
+"<function>PV</function> beräknar aktuellt värde för "
+"<parameter>fv</parameter> vilka är <parameter>antal_perioder</parameter> "
+"perioder in i framtiden antagande periodisk betalning för "
+"<parameter>bet</parameter> och en räntesats på <parameter>ränta</parameter> "
+"per period."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>RATE</function>(<parameter>nper</parameter>,<parameter>pmt</parameter>,<parameter>pv</parameter>,<parameter>fv</parameter>,<parameter>type</parameter>,<parameter>guess</parameter>)"
+msgstr ""
+"<function>RATE</function>(<parameter>antal_perioder</parameter>;<parameter>bet</parameter>;<parameter>nv</parameter>;<parameter>fv</parameter>;<parameter>typ</parameter>;<parameter>gissning</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>RECEIVED</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>investment</parameter>,<parameter>rate</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>RECEIVED</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>investering</parameter>;<parameter>ränta</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>SLN</function>(<parameter>cost</parameter>,<parameter>salvage</parameter>,<parameter>life</parameter>)"
+msgstr ""
+"<function>SLN</function>(<parameter>kostnad</parameter>;<parameter>restvärde</parameter>;<parameter>livstid</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>SYD</function>(<parameter>cost</parameter>,<parameter>salvage</parameter>,<parameter>life</parameter>,<parameter>period</parameter>)"
+msgstr ""
+"<function>SYD</function>(<parameter>kostnad</parameter>;<parameter>restvärde</parameter>;<parameter>livstid</parameter>;<parameter>period</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>TBILLEQ</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>discount</parameter>)"
+msgstr ""
+"<function>TBILLEQ</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>diskontering</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>TBILLPRICE</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>discount</parameter>)"
+msgstr ""
+"<function>TBILLPRICE</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>diskontering</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>TBILLYIELD</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>price</parameter>)"
+msgstr ""
+"<function>TBILLYIELD</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>pris</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>VDB</function>(<parameter>cost</parameter>,<parameter>salvage</parameter>,<parameter>life</parameter>,<parameter>start_period</parameter>,<parameter>end_period</parameter>,<parameter>factor</parameter>,<parameter>no_switch</parameter>)"
+msgstr ""
+"<function>VDB</function>(<parameter>kostnad</parameter>;<parameter>restvärde</parameter>;<parameter>livstid</parameter>;<parameter>startperiod</parameter>;<parameter>slutperiod</parameter>;<parameter>faktor</parameter>;<parameter>växla_ej</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>YIELD</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>rate</parameter>,<parameter>price</parameter>,<parameter>redemption</parameter>,<parameter>frequency</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>YIELD</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>ränta</parameter>;<parameter>pris</parameter>;<parameter>inlösen</parameter>;<parameter>frekvens</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>YIELDDISC</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>price</parameter>,<parameter>redemption</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>YIELDDISC</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>pris</parameter>;<parameter>inlösen</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<function>YIELDMAT</function>(<parameter>settlement</parameter>,<parameter>maturity</parameter>,<parameter>issue</parameter>,<parameter>rate</parameter>,<parameter>price</parameter>,<parameter>basis</parameter>)"
+msgstr ""
+"<function>YIELDMAT</function>(<parameter>avräkning</parameter>;<parameter>förfallodatum</parameter>;<parameter>start</parameter>;<parameter>ränta</parameter>;<parameter>pris</parameter>;<parameter>bas</parameter>)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<parameter>link_location</parameter>: string"
+msgstr "<parameter>länkadress</parameter>: sträng"
