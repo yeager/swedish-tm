@@ -122,3 +122,10 @@ Batch 166 formula notation:
 Batch 168 worksheet references:
 
 - **D7**, **E7:I7**, **E6:I6** — spreadsheet cell/range references in a source example; preserved exactly.
+
+Batch 170 documents the following Hunspell exceptions, checked in context:
+
+- **SeriesName** — literal example string in the manual; retained exactly as sample data.
+- **XY-serie / XY-spridningsdiagram** — Gnumeric's technical XY chart type and its Swedish compound form.
+- **ytdiagram** — established Swedish chart type.
+- **none / percent** — exact option values quoted from the Gnumeric error-category control; retained as displayed source values.

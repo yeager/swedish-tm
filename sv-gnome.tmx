@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T143823Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T144539Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -604714,6 +604714,186 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Marker&lt;/guilabel&gt; properties determine the style of the graphical symbol which will be plotted for each data value. The first drop down box allows the user to choose between a number of different symbols. The blank symbol indicates that no symbol will be plotted where the data value would be. Each shape will have a fill color, and an outline with both a color and a size. The colors can be changed by clicking on the drop down box and picking one of the given colors or using the color picker to select a new color. The size of the outline can be altered by clicking in the text area and editing the value or by using the spin arrows to increase or decrease the size.</seg></tuv>
       <tuv xml:lang="sv"><seg>Under &lt;guilabel&gt;Markör&lt;/guilabel&gt; väljer du vilken symbol som ska visas vid varje datavärde. I den första rullgardinsmenyn väljer du symbol. En tom symbol innebär att ingen symbol visas. Varje form har en fyllningsfärg och en kontur med egen färg och storlek. Ändra färg med rullgardinsmenyn eller färgväljaren. Ändra konturens storlek genom att skriva ett nytt värde i textfältet eller använda pilarna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Series filled style</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fyllningsstil för dataserier</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Series in bubble plots, area plots, bar plots, column plots, filled radar plots, and ring plots will have a &lt;guilabel&gt;Style&lt;/guilabel&gt; with fill and outline properties. These properties are the same as those presented for background panels in &lt;xref linkend="sect-graphs-elementProperties-backPanels"/&gt; and are changed in the same way.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Serier i diagram med bubblor, ytdiagram, stapeldiagram, kolumndiagram, fyllda radardiagram och ringdiagram har en flik för &lt;guilabel&gt;Stil&lt;/guilabel&gt; med egenskaper för fyllning och kontur. Egenskaperna är desamma som för bakgrundspanelerna i &lt;xref linkend="sect-graphs-elementProperties-backPanels"/&gt; och ändras på samma sätt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configurable properties of a filled style.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaper som kan ställas in för en fyllningsstil.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot depicts the properties of a filled style which can be configured.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar vilka egenskaper för en fyllningsstil som kan ställas in.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Fill&lt;/guilabel&gt; properties will determine the character of the inside of the area. The fill type can be none, pattern, gradient, or image, in the same way as the fill of background panels. If images are used for the background, the whole image will be shown and it will be scaled to the size of the area.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med egenskaperna under &lt;guilabel&gt;Fyllning&lt;/guilabel&gt; bestämmer du hur området ska fyllas. Du kan välja ingen fyllning, mönster, toning eller bild, på samma sätt som för bakgrundspaneler. Om du använder en bild som bakgrund visas hela bilden, skalad till områdets storlek.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Outline&lt;/guilabel&gt; properties will determine the size of the linear element that surrounds the area. The color and size of this outline element can be altered.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med egenskaperna under &lt;guilabel&gt;Kontur&lt;/guilabel&gt; bestämmer du tjockleken på linjen runt området. Du kan ändra linjens färg och tjocklek.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Series data: single values</seg></tuv>
+      <tuv xml:lang="sv"><seg>Seriedata: enstaka värden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Data&lt;/guilabel&gt; tab allows the user to configure the data contents of the series. Some of these data contents are optional, as is indicated by the parentheses around the label. At the minimum one set of numerical quantities will be required.</seg></tuv>
+      <tuv xml:lang="sv"><seg>På fliken &lt;guilabel&gt;Data&lt;/guilabel&gt; anger du seriens data. Vissa värden är valfria, vilket visas med parenteser runt deras etiketter. Minst en uppsättning numeriska värden krävs.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The entry boxes in the &lt;guilabel&gt;Data&lt;/guilabel&gt; tab can be filled in several ways. The data can be a static value or array such as a sting literal, "SeriesName", or a group of values, &lt;literal&gt;{12.05, 73.02, 128.89}&lt;/literal&gt;. Note that the separator between elements in the array will depend on the locale since the glyph between whole numbers and decimal fractions differs around the world. Alternatively, the value of an entry box can be the reference to a cell or to a range. This reference can either be typed into the entry box or can be entered by clicking in the entry box text area and then selecting the range on the worksheet. Finally, the value in the entry box can be an expression, such as &lt;literal&gt;sin({120, 982, 140})&lt;/literal&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fälten på fliken &lt;guilabel&gt;Data&lt;/guilabel&gt; kan fyllas i på flera sätt. Du kan ange ett statiskt värde eller en matris, till exempel en strängliteral som "SeriesName" eller en grupp värden som &lt;literal&gt;{12.05, 73.02, 128.89}&lt;/literal&gt;. Avgränsaren mellan matriselement beror på inställningarna för språk och region, eftersom tecknet mellan heltal och decimaler varierar mellan olika länder. Du kan också ange en referens till en cell eller ett område. Skriv referensen i fältet, eller klicka i fältet och markera området i kalkylbladet. Slutligen kan fältet innehålla ett uttryck, till exempel &lt;literal&gt;sin({120, 982, 140})&lt;/literal&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Single series involve the simplest data. They may have an overall name, must have a list of values, and may have a list of names, with as many names as there are numbers in the values list, which will act as category names. For plot types with more than one single list series, the label names will be shared between all the series.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En enkel dataserie kan ha ett namn, måste ha en värdelista och kan även ha en namnlista. Namnlistan kan användas som kategorietiketter och ska då innehålla lika många namn som värdelistan innehåller tal. I diagramtyper med flera sådana serier delas etiketterna mellan serierna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configurable properties of single value data series.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaper som kan ställas in för dataserier med enstaka värden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot depicts the properties of a single value data series which can be configured.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar vilka egenskaper för en dataserie med enstaka värden som kan ställas in.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Name&lt;/guilabel&gt; property is a single string which will give a tag to the series itself. A name is not required. This name will be used in the Graph Guru to name the series and may be used in a chart legend to describe the series.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskapen &lt;guilabel&gt;Namn&lt;/guilabel&gt; är en textsträng som namnger själva serien. Namnet är valfritt och används i Diagramguiden samt eventuellt i diagrammets förklaring.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Values&lt;/guilabel&gt; property must contain a list of numeric quantities. A list of values is required. The values can be described either directly as a static array, described through a reference to a cell range with numeric values, or described through an expression which results in the list of quantities.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskapen &lt;guilabel&gt;Värden&lt;/guilabel&gt; måste innehålla en lista med tal. Listan kan anges direkt som en statisk matris, som en referens till ett cellområde med numeriska värden eller som ett uttryck som ger en lista med tal.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Labels&lt;/guilabel&gt; property describes the names of the categories. This property is not required. must be a list of text elements, with as many elements as there are quantities in the list of values. These elements will provide the elements in the legend for pie and ring plots. For line, area, bar and column plots, the labels will provide the category names for the axis with categories.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskapen &lt;guilabel&gt;Etiketter&lt;/guilabel&gt; anger kategoriernas namn och är valfri. Om du använder den ska den innehålla lika många textelement som värdelistan innehåller tal. I cirkeldiagram och ringdiagram visas elementen i förklaringen. I linjediagram, ytdiagram, stapeldiagram och kolumndiagram används etiketterna som kategorinamn på axeln.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Show in Legend&lt;/guilabel&gt; property determines if this series will be shown in the legend if a legend is added to the chart. It is sometimes useful to exclude certain series from the legend. If the box is checked, the series will be included in any legend displayed in the chart; if the box is not checked, the series will not be displayed in the legend. The box can be unchecked by placing the mouse pointer over the box and clicking with the primary mouse button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med egenskapen &lt;guilabel&gt;Visa i förklaring&lt;/guilabel&gt; väljer du om serien ska visas i diagrammets förklaring. Det kan vara praktiskt att utesluta vissa serier. Om rutan är markerad tas serien med i förklaringen; annars visas den inte där. Avmarkera rutan genom att klicka på den med musens primärknapp.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Series data: X and Y values</seg></tuv>
+      <tuv xml:lang="sv"><seg>Seriedata: X- och Y-värden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Series with dual data values allow plots to be constructed in which one value is plotted against the other. XY scatter plots require this type of data.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Serier med två datavärden gör det möjligt att rita diagram där det ena värdet ställs mot det andra. XY-spridningsdiagram kräver den här typen av data.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configurable properties of dual value data series.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaper som kan ställas in för dataserier med två värden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot depicts the properties of data series with two values, an x and a y, which can be configured.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar vilka egenskaper som kan ställas in för en dataserie med två värden: X och Y.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Dual data series require two sets of values, an X list and a Y list.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En dataserie med två värden kräver två värdelistor: en X-lista och en Y-lista.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Name&lt;/guilabel&gt; property is a single text element that will name the series in the graph guru and in any legend in the chart.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskapen &lt;guilabel&gt;Namn&lt;/guilabel&gt; är ett textelement som namnger serien i Diagramguiden och i diagrammets eventuella förklaring.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;X&lt;/guilabel&gt; property is a list of quantitative values that will provide the horizontal positioning of each element. This list is required.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskapen &lt;guilabel&gt;X&lt;/guilabel&gt; är en obligatorisk lista med tal som anger varje elements horisontella position.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Y&lt;/guilabel&gt; property is a list of quantitative values that will provide the vertical positioning of each element. This list is required and must have the same number of elements as the list of X values.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskapen &lt;guilabel&gt;Y&lt;/guilabel&gt; är en obligatorisk lista med tal som anger varje elements vertikala position. Listan måste innehålla lika många element som X-listan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Series data: bubble values</seg></tuv>
+      <tuv xml:lang="sv"><seg>Seriedata: bubbelvärden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Bubble series are simple extensions of the XY series to include a third data value, often called W, which will determine the size of the bubble.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En serie med bubblor är en utökning av en XY-serie med ett tredje datavärde, ofta kallat W, som bestämmer bubblans storlek.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configurable properties of bubble data series.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaper som kan ställas in för serier med bubblor.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot depicts the properties of a bubble data series with three values which can be configured.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar vilka egenskaper som kan ställas in för en serie med bubblor med tre värden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Bubble&lt;/guilabel&gt; property is a list of quantitative values that will provide the size of the bubbles associated to each element. This list is required and must have the same number of elements as the lists of X and of Y values.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskapen &lt;guilabel&gt;Bubbla&lt;/guilabel&gt; är en lista med tal som anger storleken på bubblan för varje element. Listan krävs och måste innehålla lika många element som X- och Y-listorna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Series error values</seg></tuv>
+      <tuv xml:lang="sv"><seg>Seriens felvärden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Several plot types allow the plotting of error values using whisker plots. The series in these plot types will have extra tabs allowing the whisker positions to be listed. Line, bar, column and area plots allow an error plot to bracket the plotted quantitative value in the direction of the quantitative axis. XY scatter plots and bubble plots allow whiskers in both directions.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I flera diagramtyper kan felvärden visas med felstaplar. Serierna i dessa diagram har extra flikar där felstaplarnas positioner anges. I linjediagram, stapeldiagram, kolumndiagram och ytdiagram kan felstaplar visa felintervallet längs den kvantitativa axeln. I XY-spridnings- och diagram med bubblor kan felstaplar visas i båda riktningarna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The configurable properties of data series error values.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaper som kan ställas in för dataseriers felvärden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Error Category&lt;/guilabel&gt; includes several different categories which can be selected by clicking on the drop down box and dragging the mouse pointer onto the appropriate entry. If the error category is set to "none", no error bars will be plotted. If the category is set to "absolute" the values in the error lists will be considered to be in the same units as the axis. If the category is set to "relative", the values in the error list are assumed to be a fraction of the total of each value. If the category is set to "percent", the values in the error list are assumed to be 1/100 th of the fraction of the total of each value. Note that if the cells in the worksheet are already set to the percent format, they should be incorporated as "relative" errors.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I &lt;guilabel&gt;Felkategori&lt;/guilabel&gt; väljer du kategori i rullgardinsmenyn. Om du väljer "none" ritas inga felstaplar. Med "absolute" tolkas värdena i fellistorna i samma enheter som axeln. Med "relative" tolkas värdena som en andel av respektive värde. Med "percent" tolkas de som 1/100 av andelen av respektive värde. Om cellerna i kalkylbladet redan har procentformat ska felen anges som "relative".</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot depicts the properties of the error values in a data series which can be configured.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar vilka egenskaper för felvärden i en dataserie som kan ställas in.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Style&lt;/guilabel&gt; properties alter the appearance of the error whiskers. The &lt;guilabel&gt;Display&lt;/guilabel&gt; property can be used to prevent the display of any whiskers, to allow only upper or lower whiskers, or to display both. The &lt;guilabel&gt;Width&lt;/guilabel&gt; property alters the width of the outer marker of the whisker. The &lt;guilabel&gt;Line width&lt;/guilabel&gt; property alters the size of the whiskers. The color box selects the color of the line used to draw the whiskers.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaperna under &lt;guilabel&gt;Stil&lt;/guilabel&gt; ändrar felstaplarnas utseende. Med &lt;guilabel&gt;Visning&lt;/guilabel&gt; döljer du felstaplarna eller visar den övre, nedre eller båda. &lt;guilabel&gt;Bredd&lt;/guilabel&gt; ändrar bredden på felstapelns yttre markör, och &lt;guilabel&gt;Linjetjocklek&lt;/guilabel&gt; ändrar själva felstapelns tjocklek. I färgrutan väljer du linjens färg.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Values&lt;/guilabel&gt; properties describe the lists of quantitative values which will be used for the whiskers. These lists are required if an error is to be displayed and the lists must have as many elements as were in the list of data "Values". The positive (+) list quantifies either only the upper error values if the lower values are not displayed or the negative list is defined. The positive list can also be used for both error values if the errors are symmetrical. The negative (-) list quantifies the lower whisker.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskaperna under &lt;guilabel&gt;Värden&lt;/guilabel&gt; anger listorna med tal som används för felstaplarna. Listorna krävs om fel ska visas och måste innehålla lika många element som listan med datavärden. Den positiva listan (+) anger de övre felvärdena om de nedre inte visas eller om en negativ lista har angetts. Vid symmetriska fel kan den positiva listan användas för både övre och nedre värden. Den negativa listan (-) anger den nedre felstapeln.</seg></tuv>
     </tu>
   </body>
 </tmx>
