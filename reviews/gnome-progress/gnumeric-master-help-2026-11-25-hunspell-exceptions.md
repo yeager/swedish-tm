@@ -9,3 +9,9 @@ The Swedish dictionary reported these terms in reviewed help batches 77–78. Ea
 - **vega** — established name of an option sensitivity, also a Greek letter.
 
 XML entity fragments such as `&gt;` and `&lt;` were excluded from spelling checks. No other unknown prose words remain in these two batches.
+
+Additional terms in batch 79:
+
+- **Sheet1** — sheet reference in spreadsheet examples.
+- **Lilliefors** and **Kolmogorov–Smirnov** — names of statistical tests.
+- **principalkomponentanalys / principalkomponentanalysen** — statistical method name; valid Swedish compound.
