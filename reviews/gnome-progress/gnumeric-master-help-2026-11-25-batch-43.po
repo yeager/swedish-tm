@@ -1,0 +1,144 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2
+msgid "Moving and Copying Data"
+msgstr "Flytta och kopiera data"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:4
+msgid ""
+"Data which have been entered once into a spreadsheet can be moved to new "
+"locations and possibly duplicated. The simplest way to do this involves "
+"dragging the selection box. A more advanced way involves a formal cut or "
+"copy operation and then a paste operation in the new location. The latter "
+"approach allows the data to be modified as they are pasted which can be "
+"extremely important."
+msgstr ""
+"Data som redan har matats in i ett kalkylblad kan flyttas till nya platser "
+"eller kopieras. Enklast gör du det genom att dra markeringen. En mer "
+"avancerad metod är att klippa ut eller kopiera data och sedan klistra in dem"
+" på den nya platsen. Då kan du även ändra data medan du klistrar in dem, "
+"vilket ibland är viktigt."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:14 C/gnumeric.xml:141
+msgid "NOTE"
+msgstr "OBS!"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:15
+msgid ""
+"Currently <application>Gnumeric</application> only supports copying, cutting"
+" and pasting of simple selections or continuous selections as described in "
+"<xref linkend=\"sect-data-selections\"/>. You cannot copy, cut or paste "
+"discontinuous selections."
+msgstr ""
+"För närvarande går det bara att kopiera, klippa ut och klistra in enskilda "
+"eller sammanhängande markeringar i <application>Gnumeric</application>, "
+"enligt beskrivningen i <xref linkend=\"sect-data-selections\"/>. Det går "
+"inte att kopiera, klippa ut eller klistra in icke-sammanhängande "
+"markeringar."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:24
+msgid ""
+"It is frequently necessary to copy the results of complex calculations into "
+"a new location. This is done by selecting the data and using the "
+"<guimenuitem>As Value</guimenuitem> command from the <guimenuitem>Paste "
+"Special...</guimenuitem> dialog. This is explained in <xref linkend=\"sect-"
+"movecopy-pastespecial\"/> below."
+msgstr ""
+"Ofta behöver du kopiera resultatet av komplicerade beräkningar till en annan"
+" plats. Markera data och välj <guimenuitem>Som värde</guimenuitem> i "
+"dialogrutan <guimenuitem>Klistra in special…</guimenuitem>. Detta beskrivs "
+"nedan i <xref linkend=\"sect-movecopy-pastespecial\"/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:35
+msgid "Simple Copy and Move"
+msgstr "Enkel kopiering och flytt"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:37
+msgid ""
+"The easiest way to move or copy a cell or a group of cells is by selecting "
+"the cell or cells to be moved or copied, then using the mouse to drag the "
+"selection box to a new location."
+msgstr ""
+"Enklast flyttar eller kopierar du en cell eller ett cellområde genom att "
+"markera det och dra markeringen till den nya platsen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:45
+msgid ""
+"Select a cell to move by clicking in it. You can also select a range of "
+"cells as described in <xref linkend=\"sect-data-selections\"/>."
+msgstr ""
+"Klicka på cellen som ska flyttas. Du kan också markera ett cellområde enligt"
+" beskrivningen i <xref linkend=\"sect-data-selections\"/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:52
+msgid ""
+"Click <mousebutton>left</mousebutton> mouse button on the border of the "
+"selection (anywhere except the autofill square in the bottom right corner). "
+"Use <mousebutton>left</mousebutton> mouse button to move cells or "
+"<keycap>Ctrl</keycap>+<mousebutton>left</mousebutton> mouse button to copy "
+"cells."
+msgstr ""
+"Klicka med <mousebutton>vänster</mousebutton> musknapp på markeringens kant,"
+" men inte på den lilla rutan för automatisk ifyllning längst ned till höger."
+" Dra med <mousebutton>vänster</mousebutton> musknapp för att flytta "
+"cellerna. Håll ned <keycap>Ctrl</keycap> och klicka med "
+"<mousebutton>vänster</mousebutton> musknapp för att kopiera dem."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:62
+msgid "Drag the selection to the new location."
+msgstr "Dra markeringen till den nya platsen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:66
+msgid "Release the mouse button."
+msgstr "Släpp musknappen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:70
+msgid ""
+"The selected cells will be copied or moved to the new location. This will "
+"move both cells' content and formatting. When copying, relative cell "
+"references in all formulas will change as described in <xref linkend=\"sect-"
+"data-formulas-references\"/>; when moving, relative cell references will "
+"remain unchanged."
+msgstr ""
+"De markerade cellerna kopieras eller flyttas till den nya platsen, "
+"tillsammans med innehåll och formatering. När du kopierar ändras relativa "
+"cellreferenser i formler, enligt beskrivningen i <xref linkend=\"sect-data-"
+"formulas-references\"/>. När du flyttar celler förblir de relativa "
+"cellreferenserna oförändrade."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:82
+msgid "Cut, Copy and Paste"
+msgstr "Klipp ut, kopiera och klistra in"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:84
+msgid ""
+"Another, more flexible, way to copy or move a selection is to use cut, copy,"
+" and paste operations. These operations allow the user to copy or move "
+"selected cells to the clipboard buffer and then paste the contents of the "
+"clipboard buffer to a different location or a different workbook."
+msgstr ""
+"Ett mer flexibelt sätt att kopiera eller flytta en markering är att använda "
+"kommandona Klipp ut, Kopiera och Klistra in. Med dem kan du kopiera eller "
+"flytta markerade celler till urklippet och sedan klistra in innehållet på en"
+" annan plats eller i en annan arbetsbok."

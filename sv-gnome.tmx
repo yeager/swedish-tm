@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T073422Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T073834Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596539,6 +596539,76 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>&lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;/&lt;/keycap&gt;&lt;/keycombo&gt; : Select the array formula around the current edit position.</seg></tuv>
       <tuv xml:lang="sv"><seg>&lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;/&lt;/keycap&gt;&lt;/keycombo&gt; : Markera matrisformeln runt den aktuella redigeringspositionen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Moving and Copying Data</seg></tuv>
+      <tuv xml:lang="sv"><seg>Flytta och kopiera data</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Data which have been entered once into a spreadsheet can be moved to new locations and possibly duplicated. The simplest way to do this involves dragging the selection box. A more advanced way involves a formal cut or copy operation and then a paste operation in the new location. The latter approach allows the data to be modified as they are pasted which can be extremely important.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Data som redan har matats in i ett kalkylblad kan flyttas till nya platser eller kopieras. Enklast gör du det genom att dra markeringen. En mer avancerad metod är att klippa ut eller kopiera data och sedan klistra in dem på den nya platsen. Då kan du även ändra data medan du klistrar in dem, vilket ibland är viktigt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>NOTE</seg></tuv>
+      <tuv xml:lang="sv"><seg>OBS!</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Currently &lt;application&gt;Gnumeric&lt;/application&gt; only supports copying, cutting and pasting of simple selections or continuous selections as described in &lt;xref linkend="sect-data-selections"/&gt;. You cannot copy, cut or paste discontinuous selections.</seg></tuv>
+      <tuv xml:lang="sv"><seg>För närvarande går det bara att kopiera, klippa ut och klistra in enskilda eller sammanhängande markeringar i &lt;application&gt;Gnumeric&lt;/application&gt;, enligt beskrivningen i &lt;xref linkend="sect-data-selections"/&gt;. Det går inte att kopiera, klippa ut eller klistra in icke-sammanhängande markeringar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>It is frequently necessary to copy the results of complex calculations into a new location. This is done by selecting the data and using the &lt;guimenuitem&gt;As Value&lt;/guimenuitem&gt; command from the &lt;guimenuitem&gt;Paste Special...&lt;/guimenuitem&gt; dialog. This is explained in &lt;xref linkend="sect-movecopy-pastespecial"/&gt; below.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ofta behöver du kopiera resultatet av komplicerade beräkningar till en annan plats. Markera data och välj &lt;guimenuitem&gt;Som värde&lt;/guimenuitem&gt; i dialogrutan &lt;guimenuitem&gt;Klistra in special…&lt;/guimenuitem&gt;. Detta beskrivs nedan i &lt;xref linkend="sect-movecopy-pastespecial"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Simple Copy and Move</seg></tuv>
+      <tuv xml:lang="sv"><seg>Enkel kopiering och flytt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The easiest way to move or copy a cell or a group of cells is by selecting the cell or cells to be moved or copied, then using the mouse to drag the selection box to a new location.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Enklast flyttar eller kopierar du en cell eller ett cellområde genom att markera det och dra markeringen till den nya platsen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select a cell to move by clicking in it. You can also select a range of cells as described in &lt;xref linkend="sect-data-selections"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klicka på cellen som ska flyttas. Du kan också markera ett cellområde enligt beskrivningen i &lt;xref linkend="sect-data-selections"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Click &lt;mousebutton&gt;left&lt;/mousebutton&gt; mouse button on the border of the selection (anywhere except the autofill square in the bottom right corner). Use &lt;mousebutton&gt;left&lt;/mousebutton&gt; mouse button to move cells or &lt;keycap&gt;Ctrl&lt;/keycap&gt;+&lt;mousebutton&gt;left&lt;/mousebutton&gt; mouse button to copy cells.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klicka med &lt;mousebutton&gt;vänster&lt;/mousebutton&gt; musknapp på markeringens kant, men inte på den lilla rutan för automatisk ifyllning längst ned till höger. Dra med &lt;mousebutton&gt;vänster&lt;/mousebutton&gt; musknapp för att flytta cellerna. Håll ned &lt;keycap&gt;Ctrl&lt;/keycap&gt; och klicka med &lt;mousebutton&gt;vänster&lt;/mousebutton&gt; musknapp för att kopiera dem.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Drag the selection to the new location.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dra markeringen till den nya platsen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Release the mouse button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Släpp musknappen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The selected cells will be copied or moved to the new location. This will move both cells' content and formatting. When copying, relative cell references in all formulas will change as described in &lt;xref linkend="sect-data-formulas-references"/&gt;; when moving, relative cell references will remain unchanged.</seg></tuv>
+      <tuv xml:lang="sv"><seg>De markerade cellerna kopieras eller flyttas till den nya platsen, tillsammans med innehåll och formatering. När du kopierar ändras relativa cellreferenser i formler, enligt beskrivningen i &lt;xref linkend="sect-data-formulas-references"/&gt;. När du flyttar celler förblir de relativa cellreferenserna oförändrade.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Cut, Copy and Paste</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klipp ut, kopiera och klistra in</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Another, more flexible, way to copy or move a selection is to use cut, copy, and paste operations. These operations allow the user to copy or move selected cells to the clipboard buffer and then paste the contents of the clipboard buffer to a different location or a different workbook.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett mer flexibelt sätt att kopiera eller flytta en markering är att använda kommandona Klipp ut, Kopiera och Klistra in. Med dem kan du kopiera eller flytta markerade celler till urklippet och sedan klistra in innehållet på en annan plats eller i en annan arbetsbok.</seg></tuv>
     </tu>
   </body>
 </tmx>
