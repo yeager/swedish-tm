@@ -335,3 +335,5 @@ Batch 205 (file formats): **Gnumeric**, **HTML**, **XHTML**, **PostScript**, **P
 Batch 206 (Python API examples): Hunspell unknowns come from preserved Python identifiers and method names (`CellPos`, `Workbook`, `Gnumeric.Range`, `get_tuple`, `get_value`, etc.), exact interpreter error output and object memory addresses, example literals (`a1`, `foo`, `B1`), and dictionary-unrecognized but valid Swedish **tupler**. Only explanatory Python comments and the prose lead-in were translated; executable code and output stayed unchanged.
 
 Batch 207 (Python plug-in code documentation): Hunspell output consists of preserved API/code identifiers, metadata keys (`@FUNCTION`, `@DESCRIPTION`, etc.), function names and parameters, Python syntax, spreadsheet formula examples, and **RangeRef**. Valid Swedish technical compounds include **tupler** and **range(begin, end)-konvention**. Code comments and human-readable function metadata values were translated while syntax and identifiers stayed unchanged.
+
+Batch 208 (bookmark folders): Hunspell flagged `currentWork`, the example bookmark name, and valid Swedish compounds **mappikon** and **mappnamnet**.
