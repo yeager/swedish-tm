@@ -1,0 +1,450 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:612
+msgid "Bookmarking a template"
+msgstr "Bokmärk en mall"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:614
+msgid ""
+"A version of the bug entry page with most of the fields already filled out "
+"can be saved as a link and bookmarked for future use. This ability is only "
+"of use for developers or for users who have found a large number of bugs in "
+"one particular component of <application>Gnumeric</application>."
+msgstr ""
+"Du kan spara en länk till en felrapportsida där de flesta fälten redan är "
+"ifyllda och bokmärka den för framtida bruk. Det är främst användbart för "
+"utvecklare eller för användare som har hittat många fel i en viss komponent "
+"i <application>Gnumeric</application>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:622
+msgid ""
+"To use this shortcut, first open a new bug report, then fill out only the "
+"fields that will apply to all the future bugs being reported and then click "
+"on the button labelled \"Bookmark these values\". "
+"<application>GitLab</application> will then construct a template and will "
+"provide a link which can be saved for future use just as any other page on "
+"the web can be saved as a bookmark. To use these values, simply clicking on "
+"the bookmark will open the <application>Gnumeric</application> page of "
+"<application>GitLab</application> with the common fields already filled out."
+msgstr ""
+"Öppna en ny felrapport och fyll i de fält som ska vara gemensamma för "
+"framtida rapporter. Klicka sedan på knappen ”Bokmärk dessa värden”. "
+"<application>GitLab</application> skapar en mall och en länk som du kan "
+"spara som bokmärke, precis som vilken annan webbsida som helst. Klicka på "
+"bokmärket när du vill använda värdena. Då öppnas "
+"<application>Gnumeric</application>s sida i "
+"<application>GitLab</application> med de gemensamma fälten ifyllda."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:949
+msgid "Extending Gnumeric"
+msgstr "Utöka Gnumeric"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2
+msgid "The Approaches to Extending Gnumeric"
+msgstr "Sätt att utöka Gnumeric"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:4
+msgid ""
+"There are several ways that <application>Gnumeric</application> can be "
+"extended to add functionality."
+msgstr ""
+"Du kan utöka <application>Gnumeric</application> på flera sätt för att lägga"
+" till funktioner."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2
+msgid "Defining New Functions"
+msgstr "Definiera nya funktioner"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2
+msgid "Programming Gnumeric using Python"
+msgstr "Programmera Gnumeric med Python"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:4
+msgid ""
+"A powerful way to access and manipulate data in "
+"<application>Gnumeric</application> involves using the Python programming "
+"language. As <application>Gnumeric</application> develops from version 1.2, "
+"the scripting methods will become increasingly powerful. Since "
+"<application>Gnumeric</application> is free software, you could extend it "
+"directly using the source code and adding C language functions to the code. "
+"Python offers a higher level abstraction through which to interact with the "
+"spreadsheet."
+msgstr ""
+"Ett kraftfullt sätt att komma åt och ändra data i "
+"<application>Gnumeric</application> är att använda programspråket Python. I "
+"takt med att <application>Gnumeric</application> utvecklas från version 1.2 "
+"blir skriptfunktionerna allt mer kraftfulla. Eftersom "
+"<application>Gnumeric</application> är fri programvara kan du också utöka "
+"det direkt genom att lägga till funktioner i C-källkoden. Python ger ett mer"
+" abstrakt sätt att arbeta med kalkylbladet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:16
+msgid ""
+"Python and <application>Gnumeric</application> can be used in several ways. "
+"This section will describe how to obtain "
+"<application>Gnumeric</application>, install it and get things configured "
+"correctly for access with Python. If you already have the pieces in place, "
+"you can skip the section <xref linkend=\"sect-extending-python-install\"/>."
+msgstr ""
+"Du kan använda Python tillsammans med <application>Gnumeric</application> på"
+" flera sätt. I det här avsnittet beskrivs hur du hämtar och installerar "
+"<application>Gnumeric</application> och konfigurerar det för Python. Om allt"
+" redan är på plats kan du hoppa över avsnittet <xref linkend=\"sect-"
+"extending-python-install\"/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:26
+msgid ""
+"This section was written by Charles Twardy. It owes a great deal to the nice"
+" guide Travis Whitton wrote: <ulink type=\"http\" "
+"url=\"http://grub.ath.cx/gnumeric-python/\">Python/Gnumeric guide for the "
+"old API in Gnumeric 1.0.</ulink> Jon Käre Hellan contributed most of the "
+"code to enable Python in <application>Gnumeric</application> and wrote the "
+"file <literal>python-gnumeric.txt</literal> in the source tree. Nathan Hurst"
+" provided the idea and support."
+msgstr ""
+"Charles Twardy skrev det här avsnittet. Det bygger till stor del på Travis "
+"Whittons guide: <ulink type=\"http\" url=\"http://grub.ath.cx/gnumeric-"
+"python/\">Python/Gnumeric guide for the old API in Gnumeric 1.0</ulink>. Jon"
+" Käre Hellan bidrog med större delen av koden för Python-stödet i "
+"<application>Gnumeric</application> och skrev filen <literal>python-"
+"gnumeric.txt</literal> i källkodsträdet. Nathan Hurst bidrog med idén och "
+"hjälpte till."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:38
+msgid ""
+"The Python API, that is the list of methods available in Python, is still "
+"experimental and may change!"
+msgstr ""
+"Python-API:et, det vill säga listan över metoder som är tillgängliga i "
+"Python, är fortfarande experimentellt och kan ändras!"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:44
+msgid ""
+"For further information, the web page maintained by Jon Käre Hellan's has "
+"some python plugins and other useful information. That page can be found "
+"through <ulink type=\"http\" "
+"url=\"http://domen.uninett.no/~jk/gnumeric/\">this link</ulink>. The main "
+"<ulink type=\"http\" url=\"https://www.gnumeric.org/\">Gnumeric page</ulink>"
+" may also have useful information."
+msgstr ""
+"Jon Käre Hellans webbplats har Python-insticksmoduler och annan användbar "
+"information. Du hittar den via den här <ulink type=\"http\" "
+"url=\"http://domen.uninett.no/~jk/gnumeric/\">länken</ulink>. Även <ulink "
+"type=\"http\" url=\"https://www.gnumeric.org/\">Gnumeric-webbplatsen</ulink>"
+" kan innehålla användbar information."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:60
+msgid ""
+"The Gnumeric Function-Writer's Guide. Until I write one for Python, you'll "
+"have to settle for <literal>doc/developer/writing-functions.sgml</literal> "
+"in the Gnumeric source tree."
+msgstr ""
+"Handbok för att skriva funktioner i Gnumeric. Tills det finns en för Python "
+"får du använda <literal>doc/developer/writing-functions.sgml</literal> i "
+"Gnumerics källkodsträd."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:69
+msgid ""
+"The files that actually define the Python interface. In particular, "
+"<literal>plugins/python-loader/py-gnumeric.c</literal> has good comments at "
+"the beginning."
+msgstr ""
+"Filerna som definierar Python-gränssnittet. Särskilt "
+"<literal>plugins/python-loader/py-gnumeric.c</literal> har bra kommentarer i"
+" början."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:78
+msgid ""
+"The instructions on how to use GNOME Git can be found <ulink "
+"url=\"http://live.gnome.org/Git\">here</ulink>."
+msgstr ""
+"Anvisningar för att använda GNOME Git finns <ulink "
+"url=\"http://live.gnome.org/Git\">här</ulink>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:85
+msgid ""
+"The gnumeric discussion list: <literal>&lt;gnumeric-"
+"list@gnome.org&gt;</literal>"
+msgstr "E-postlista: <literal>&lt;gnumeric-list@gnome.org&gt;</literal>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:92
+msgid ""
+"The IRC channel #gnumeric on the GIMPnet server. Right now, the project "
+"leader is Jody Goldberg (jody) and the Debianizer is: J.H.M. Dassen (jhm). "
+"Jody, Jon K. Hellan, and Zbigniew Chyla appear prominently in the Python "
+"ChangeLog."
+msgstr ""
+"IRC-kanalen #gnumeric på GIMPnet-servern: projektledaren är för närvarande "
+"Jody Goldberg (jody) och Debianansvarig är J.H.M. Dassen (jhm). Jody, Jon K."
+" Hellan och Zbigniew Chyla nämns ofta i ändringsloggen för Python."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:54
+msgid ""
+"If you need help online, you may want to check out: <_:itemizedlist-1/>"
+msgstr "Om du behöver hjälp på nätet kan du titta här: <_:itemizedlist-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:106
+msgid "Installing and Building Gnumeric for Python"
+msgstr "Installera och bygga Gnumeric för Python"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:108
+msgid ""
+"This section describes how to obtain the <application>Gnumeric</application>"
+" source code, configure it for Python and build it. This section will "
+"eventually be removed as Python becomes supported by default."
+msgstr ""
+"I det här avsnittet beskrivs hur du hämtar källkoden till "
+"<application>Gnumeric</application>, konfigurerar den för Python och bygger "
+"programmet. Avsnittet kommer så småningom att tas bort när Python stöds som "
+"standard."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:116
+msgid "Preliminaries"
+msgstr "Förberedelser"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:118
+msgid ""
+"I'm going to define some variables here so that you can insert the "
+"appropriate command or item for your system when they occur. I'll prefix "
+"them all with '$'."
+msgstr ""
+"Här definierar jag några variabler som du kan ersätta med lämpliga kommandon"
+" eller värden för ditt system. Alla har prefixet ”$”."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:134
+msgid "<literal>su -</literal> and hit <keycap>Enter</keycap>"
+msgstr "Skriv <literal>su -</literal> och tryck på <keycap>Retur</keycap>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:146
+msgid "<literal>fakeroot</literal> (works in some situations, but not all)"
+msgstr ""
+"<literal>fakeroot</literal> (fungerar i vissa situationer, men inte i alla)"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:127
+msgid ""
+"<emphasis>$root</emphasis>: Do whatever you do to become root. The usual "
+"options are: <_:itemizedlist-1/>"
+msgstr ""
+"<emphasis>$root</emphasis>: Använd valfri metod för att bli root. Vanliga "
+"alternativ är: <_:itemizedlist-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:157
+msgid ""
+"<emphasis>$version</emphasis>: Whatever your current Gnumeric version is. "
+"Some examples: <_:itemizedlist-1/>"
+msgstr ""
+"<emphasis>$version</emphasis>: Den version av Gnumeric som du använder. "
+"Några exempel: <_:itemizedlist-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:173
+msgid "In the Beginning (Installing and Building)"
+msgstr "Börja här (installation och bygge)"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:175
+msgid ""
+"You need to get Python and Gnumeric, and the Python plugin for Gnumeric. You"
+" can get the binaries, the packaged source, or the developing edge sources "
+"from Git."
+msgstr ""
+"Du behöver Python, Gnumeric och Python-insticksmodulen för Gnumeric. Du kan "
+"hämta färdiga paket, paketerad källkod eller den senaste "
+"utvecklingsversionen från Git."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:182
+msgid "Getting the binaries (Debian)"
+msgstr "Hämta binärpaketen (Debian)"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:184
+msgid ""
+"I've only tested this on sid (unstable). The version you get from stable "
+"(woody) may not act quite the same."
+msgstr ""
+"Jag har bara testat detta med sid (unstable). Versionen i stable (woody) "
+"kanske inte fungerar på samma sätt."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:200
+msgid "Getting and building the current Debianized source"
+msgstr "Hämta och bygg den aktuella Debian-källkoden"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:204
+msgid ""
+"If you have Debian, and don't need the bleeding edge, this is <emphasis>by "
+"far</emphasis> the easiest way to get and build the source."
+msgstr ""
+"Om du använder Debian och inte behöver den allra senaste "
+"utvecklingsversionen är detta <emphasis>utan tvekan</emphasis> det enklaste "
+"sättet att hämta och bygga källkoden."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:213
+msgid "Change to a directory where you want to hang the source directory."
+msgstr "Gå till katalogen där du vill placera källkodskatalogen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:239
+msgid "<literal>debian/rules build</literal>"
+msgstr "<literal>debian/rules build</literal>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:245
+msgid ""
+"To make the .deb packages: <emphasis>$root</emphasis> "
+"<literal>./debian/rules binary</literal>"
+msgstr ""
+"Skapa .deb-paketen med: <emphasis>$root</emphasis> <literal>./debian/rules "
+"binary</literal>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:252
+msgid "To install those .deb packages:"
+msgstr "Installera .deb-paketen:"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:258
+msgid "<literal>cd ..</literal> to change to that directory."
+msgstr "Skriv <literal>cd ..</literal> för att gå till den katalogen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:264
+msgid ""
+"<emphasis>$root</emphasis> <literal>dpkg -i gnum*deb</literal> (presuming "
+"you don't have other .deb packages beginning with \"gnum\" lying around "
+"here)."
+msgstr ""
+"<emphasis>$root</emphasis> <literal>dpkg -i gnum*deb</literal> (förutsatt "
+"att det inte finns andra .deb-paket som börjar med ”gnum” i katalogen)."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:276
+msgid ""
+"You may or may not want to remove those .deb files now: "
+"<emphasis>$root</emphasis> <literal>rm gnum*deb</literal>"
+msgstr ""
+"Du kan nu ta bort .deb-filerna om du vill: <emphasis>$root</emphasis> "
+"<literal>rm gnum*deb</literal>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:286
+msgid "Getting and building the source from Git"
+msgstr "Hämta och bygg källkoden från Git"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:288
+msgid ""
+"Remember that this is the developing edge. Things may not work. Generally "
+"don't do this unless you are subscribed to the mail list and possibly also "
+"on the IRC channel."
+msgstr ""
+"Tänk på att detta är den senaste utvecklingsversionen och att saker kan vara"
+" trasiga. Gör i regel inte detta om du inte prenumererar på e-postlistan och"
+" kanske även deltar i IRC-kanalen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:294
+msgid "You will need a few things for this to work at all:"
+msgstr "Du behöver några saker för att detta ska fungera:"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:305
+msgid "pygtk2 (On Debian, make sure to get python-gtk2 and python-gtk2-dev)"
+msgstr ""
+"pygtk2 (i Debian installerar du paketen python-gtk2 och python-gtk2-dev)"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:311
+msgid "gnumeric (see below, obviously)"
+msgstr "gnumeric (se nedan)"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:315
+msgid ""
+"And although the following will build in the main build space, it's probably"
+" better to build in a temporary space. But I can't be bothered to learn how "
+"to fiddle the build pathways."
+msgstr ""
+"Även om följande går att bygga i huvudkatalogen är det förmodligen bättre "
+"att bygga i en separat katalog. Jag har dock inte orkat ta reda på hur man "
+"ändrar byggsökvägarna."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:323
+msgid ""
+"Change to a directory where you want to hang the source directory for "
+"Gnumeric and a few other GNOME things."
+msgstr ""
+"Gå till katalogen där du vill placera källkoden för Gnumeric och några andra"
+" GNOME-program."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:330
+msgid "Getting and building libgsf:"
+msgstr "Hämta och bygg libgsf:"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:374 C/gnumeric.xml:437
+msgid ""
+"If you find that this didn't work, try <literal>make clean</literal> and "
+"then repeat from the autogen step."
+msgstr ""
+"Om det inte fungerade kan du prova <literal>make clean</literal> och sedan "
+"upprepa stegen från autogen-steget."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:385
+msgid ""
+"Getting and building libgal <emphasis role=\"bold\">No longer necessary! (13"
+" June 2003)</emphasis>"
+msgstr ""
+"Hämta och bygg libgal <emphasis role=\"bold\">behövs inte längre! (13 juni "
+"2003)</emphasis>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:393
+msgid "Getting and building goffice:"
+msgstr "Hämta och bygg goffice:"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:448
+msgid "Getting and building gnumeric:"
+msgstr "Hämta och bygg gnumeric:"

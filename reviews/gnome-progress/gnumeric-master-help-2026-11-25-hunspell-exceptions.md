@@ -297,3 +297,12 @@ Batch 196:
 - **HTML / LaTeX** — format and typesetting names.
 - **Applix-filer / ritobjekt** — technical terms and Swedish compounds.
 - Hunspell does not recognize the expansion **Grafiskt gränssnitt** used for GUI; `l10n-lint` reports only an informational length-ratio notice for that short source label.
+
+Batch 197:
+
+- **Gnumeric / GitLab / Git / GIMPnet / GNOME** — project and service names.
+- **Applix / Cygwin / Debian / Debian sid / woody / stable / unstable** — product, platform and distribution names.
+- **Charles Twardy / Travis Whitton / Jon Käre Hellan / Nathan Hurst / Jody Goldberg / J.H.M. Dassen / Zbigniew Chyla** — contributor names.
+- **fakeroot / pygtk2 / python-gtk2 / python-gtk2-dev / py-gnumeric.c / python-gnumeric.txt / python-loader / writing-functions.sgml / libgsf / libgal / goffice** — literal commands, package names, library names and source paths preserved.
+- **$root / $version / gnum / .deb / su / dpkg / rm / autogen / cd / make clean** — exact shell variables, command names, package suffixes and build terminology.
+- **Gnumeric-webbplatsen / .deb-paket / GIMPnet-servern / Gnumeric-insticksmodul** — technical Swedish compounds.
