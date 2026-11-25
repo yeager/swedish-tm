@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T155727Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T160042Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -608032,6 +608032,171 @@ Sheet 0
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Headers and footers are divided into left, center and right area. Select the area you want to change. Insert a user-defined text or just select one or several of the given options. When selecting &lt;guibutton&gt;time&lt;/guibutton&gt; and/or &lt;guibutton&gt;date&lt;/guibutton&gt; you may choose the format by clicking on the arrow next to the symbol and click on the preferred option. Beside the according &lt;guibutton&gt;page&lt;/guibutton&gt; number, the number of total &lt;guibutton&gt; pages&lt;/guibutton&gt; and the name of the according worksheet, you may also insert the &lt;guibutton&gt;file&lt;/guibutton&gt; name and/or &lt;guibutton&gt;path&lt;/guibutton&gt;. Finally you can select a defined &lt;guibutton&gt;cell&lt;/guibutton&gt; to appear in the header/footer. Additionally there are a number of special &lt;keycap&gt;opcodes&lt;/keycap&gt; for common options. These are:</seg></tuv>
       <tuv xml:lang="sv"><seg>Sidhuvuden och sidfötter delas in i tre områden: vänster, mitten och höger. Välj det område du vill ändra. Skriv in egen text eller välj ett eller flera av alternativen. När du väljer &lt;guibutton&gt;tid&lt;/guibutton&gt; och/eller &lt;guibutton&gt;datum&lt;/guibutton&gt; kan du välja format genom att klicka på pilen bredvid symbolen och sedan välja ett alternativ. Förutom &lt;guibutton&gt;sidnummer&lt;/guibutton&gt;, det totala antalet &lt;guibutton&gt;sidor&lt;/guibutton&gt; och namnet på kalkylbladet kan du infoga &lt;guibutton&gt;filnamn&lt;/guibutton&gt; och/eller &lt;guibutton&gt;sökväg&lt;/guibutton&gt;. Du kan även visa en angiven &lt;guibutton&gt;cell&lt;/guibutton&gt; i sidhuvudet eller sidfoten. Dessutom finns särskilda &lt;keycap&gt;opcodes&lt;/keycap&gt; för vanliga alternativ:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Name of the worksheet.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kalkylbladets namn.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Page number in the printing.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sidnummer i utskriften.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Total number of pages in the printout.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utskriftens totala antal sidor.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Current date in format dd-mmm-yyyy. The format can be changed by specifying the desired format in the opcode: &lt;literal&gt;&amp;amp;[DATE:yyyy/mm/dd]&lt;/literal&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dagens datum i formatet dd-mmm-yyyy. Du kan ändra formatet genom att ange önskat format i koden: &lt;literal&gt;&amp;amp;[DATE:yyyy/mm/dd]&lt;/literal&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Current time in format hh:mm. The format can be changed by specifying the desired format in the opcode: &lt;literal&gt;&amp;amp;[TIME:hh:mm:ss]&lt;/literal&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Aktuell tid i formatet hh:mm. Du kan ändra formatet genom att ange önskat format i koden: &lt;literal&gt;&amp;amp;[TIME:hh:mm:ss]&lt;/literal&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The basename of the file. For the file &lt;literal&gt;/home/jdoe/file.gnumeric&lt;/literal&gt;, this opcode prints &lt;literal&gt;file.gnumeric&lt;/literal&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filens basnamn. För filen &lt;literal&gt;/home/jdoe/file.gnumeric&lt;/literal&gt; skriver den här koden ut &lt;literal&gt;file.gnumeric&lt;/literal&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The path of the file excluding the basename. For the file &lt;literal&gt;/home/jdoe/file.gnumeric&lt;/literal&gt;, this opcode prints &lt;literal&gt;/home/jdoe/&lt;/literal&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sökvägen till filen utan basnamnet. För filen &lt;literal&gt;/home/jdoe/file.gnumeric&lt;/literal&gt; skriver den här koden ut &lt;literal&gt;/home/jdoe/&lt;/literal&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The content of the cell &lt;literal&gt;$A$1&lt;/literal&gt; on the sheet being printed. Instead of &lt;literal&gt;$A$1&lt;/literal&gt; any other absolutely addressed cell may be used.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Innehållet i cellen &lt;literal&gt;$A$1&lt;/literal&gt; på kalkylbladet som skrivs ut. Du kan använda en annan absolut cellreferens i stället för &lt;literal&gt;$A$1&lt;/literal&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The content of the top left cell on the current page. Instead of &lt;literal&gt;A1&lt;/literal&gt; any other relative cell address may be used. This relative address is interpreted with respect to the top left cell on the current page. Any repeating rows or columns are ignored.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Innehållet i den översta vänstra cellen på den aktuella sidan. Du kan använda en annan relativ cellreferens i stället för &lt;literal&gt;A1&lt;/literal&gt;. Referensen tolkas i förhållande till den översta vänstra cellen på den aktuella sidan. Upprepade rader och kolumner ignoreras.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The content of the top left cell on the current page. Instead of &lt;literal&gt;A1&lt;/literal&gt; any other relative cell address may be used. This relative address is interpreted with respect to the top left cell on the current page. Repeating rows or columns are not ignored. So if the top left cell is in a repeating row or column then the relative address is interpreted with respect to that cell.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Innehållet i den översta vänstra cellen på den aktuella sidan. Du kan använda en annan relativ cellreferens i stället för &lt;literal&gt;A1&lt;/literal&gt;. Referensen tolkas i förhållande till den översta vänstra cellen på den aktuella sidan. Upprepade rader och kolumner ignoreras inte. Om den översta vänstra cellen till exempel ligger i en upprepad rad eller kolumn tolkas referensen i förhållande till den cellen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>You can choose the font in which the header and footer is printed by selecting a default header/footer font in the preferences (see in &lt;xref linkend="sect-configuration-preferences"/&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj vilket typsnitt som ska användas för sidhuvud och sidfot genom att ange ett standardtypsnitt för dem i inställningarna. Se &lt;xref linkend="sect-configuration-preferences"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Double clicking on the header or footer preview will quickly allow you to customize that header or footer.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dubbelklicka på förhandsgranskningen av sidhuvudet eller sidfoten för att snabbt anpassa den.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Page Setup Dialog - Print Area</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sidinställningar – Utskriftsområde</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;interface&gt;Print Setup Print Area Tab&lt;/interface&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;interface&gt;Fliken Utskriftsområde i utskriftsinställningarna&lt;/interface&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>You can select rows or columns to be printed on every page of the output. This is commonly used for printing column or row names. To enable this, enter the range of cells to be repeated in &lt;guilabel&gt;Rows to repeat...&lt;/guilabel&gt; or &lt;guilabel&gt;Columns to repeat...&lt;/guilabel&gt; field. Instead of entering them manually, you can also select columns or rows to be repeated using the mouse.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan välja rader eller kolumner som ska skrivas ut på varje sida. Det används ofta för att upprepa namn på rader eller kolumner. Ange cellintervallet som ska upprepas i fältet &lt;guilabel&gt;Rader att upprepa...&lt;/guilabel&gt; eller &lt;guilabel&gt;Kolumner att upprepa...&lt;/guilabel&gt;. Du kan också markera rader eller kolumner med musen i stället för att skriva in intervallet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Note that the rows and columns must be entered as ranges. That is, if you want to have first row repeated, you must enter &lt;literal&gt;1:1&lt;/literal&gt;, not just &lt;literal&gt;1&lt;/literal&gt;. Similarly, to have column &lt;literal&gt;A&lt;/literal&gt; repeated, you must enter &lt;literal&gt;A:A&lt;/literal&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Observera att rader och kolumner måste anges som intervall. Om du till exempel vill upprepa den första raden måste du ange &lt;literal&gt;1:1&lt;/literal&gt;, inte bara &lt;literal&gt;1&lt;/literal&gt;. På samma sätt anger du &lt;literal&gt;A:A&lt;/literal&gt; om du vill upprepa kolumn &lt;literal&gt;A&lt;/literal&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Page Setup Dialog - Sheet</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sidinställningar – Kalkylblad</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;interface&gt;Print Setup Sheet Tab&lt;/interface&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;interface&gt;Fliken Kalkylblad i utskriftsinställningarna&lt;/interface&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select &lt;guilabel&gt;Grid lines&lt;/guilabel&gt; to print the cell grid lines with your document. Unselect the button to hide the grid lines from your print output.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markera &lt;guilabel&gt;Rutnät&lt;/guilabel&gt; om du vill skriva ut cellernas rutnätslinjer. Avmarkera alternativet om du vill dölja dem i utskriften.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select &lt;guilabel&gt;Black and white&lt;/guilabel&gt; to convert the colours in your document to a greyscale range.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markera &lt;guilabel&gt;Svartvitt&lt;/guilabel&gt; om du vill skriva ut dokumentets färger i gråskala.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select &lt;guilabel&gt;Do not print with all sheets&lt;/guilabel&gt; if you want to avoid printing this sheet whenever you choose to print &lt;guilabel&gt;all sheets&lt;/guilabel&gt;. If this item is checked then this sheet will only be printed as the active sheet or as part of a range of sheets. This is useful if you have a non-hidden sheet that contains only auxillary information and should normally not be printed.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markera &lt;guilabel&gt;Skriv inte ut tillsammans med alla blad&lt;/guilabel&gt; om kalkylbladet inte ska skrivas ut när du väljer &lt;guilabel&gt;alla kalkylblad&lt;/guilabel&gt;. Då skrivs bladet bara ut om det är aktivt eller ingår i ett intervall av kalkylblad. Det är användbart om ett synligt blad bara innehåller kompletterande information som normalt inte ska skrivas ut.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select &lt;guilabel&gt;Row and column headings&lt;/guilabel&gt; to print the row and column headings (1,2,3,... and A,B,C,...).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markera &lt;guilabel&gt;Rubriker för rader och kolumner&lt;/guilabel&gt; om du vill skriva ut dessa (1,2,3,... och A,B,C,...).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select &lt;guilabel&gt;Styles with no content&lt;/guilabel&gt; to ensure cells with style changes will be printed, even if they are empty. For example, if you have a number of cells with the background color changed but no data in them, you can select this option to ensure they are in the printed output.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markera &lt;guilabel&gt;Formatmallar utan innehåll&lt;/guilabel&gt; om celler med ändrade format ska skrivas ut även när de är tomma. Om du till exempel har ändrat bakgrundsfärgen på tomma celler kan du markera det här alternativet så att färgen kommer med i utskriften.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Every error value is printed just as shown on the worksheet.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alla felvärden skrivs ut precis som de visas i kalkylbladet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>No error values are printed.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Felvärden skrivs inte ut.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Every error value is replaced by two m-dashes (separated by a thin space): "— —".</seg></tuv>
+      <tuv xml:lang="sv"><seg>Varje felvärde ersätts med två tankstreck med ett tunt blanksteg emellan: ”— —”.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Print as NA</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skriv ut som #N/A</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Every error value is printed as an #N/A error.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Varje felvärde skrivs ut som felet #N/A.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;guilabel&gt;Errors&lt;/guilabel&gt; selection box allows you to choose how to print error values: &lt;_:variablelist-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>I listrutan &lt;guilabel&gt;Fel&lt;/guilabel&gt; väljer du hur felvärden ska skrivas ut: &lt;_:variablelist-1/&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Finally you can decide about the direction in which the workbook will be printed (Down, then right or Right, then down).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Slutligen kan du välja i vilken ordning arbetsboken ska skrivas ut: nedåt och sedan åt höger, eller åt höger och sedan nedåt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;interface&gt;Print Preview Dialog&lt;/interface&gt; is used to display what the printed output will look like. The &lt;interface&gt;Print Preview dialog&lt;/interface&gt; can be used to check whether you have the desired formatting and layout before you print out the workbook. &lt;application&gt;Evince&lt;/application&gt; is set up to be the default viewer.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan &lt;interface&gt;Förhandsgranska utskrift&lt;/interface&gt; visar hur utskriften kommer att se ut. Använd dialogrutan &lt;interface&gt;Förhandsgranska utskrift&lt;/interface&gt; för att kontrollera att formatering och layout är rätt innan du skriver ut arbetsboken. &lt;application&gt;Evince&lt;/application&gt; är standardvisare.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Customizing the preview application</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anpassa förhandsgranskningsprogrammet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Please make sure you have only one line defining your preview application.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Se till att det bara finns en rad som definierar förhandsgranskningsprogrammet.</seg></tuv>
     </tu>
   </body>
 </tmx>

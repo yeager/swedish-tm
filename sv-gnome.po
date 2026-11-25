@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 118175
+# Entries: 118208
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -577787,3 +577787,268 @@ msgstr ""
 "kan även visa en angiven <guibutton>cell</guibutton> i sidhuvudet eller "
 "sidfoten. Dessutom finns särskilda <keycap>opcodes</keycap> för vanliga "
 "alternativ:"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Name of the worksheet."
+msgstr "Kalkylbladets namn."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Page number in the printing."
+msgstr "Sidnummer i utskriften."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Total number of pages in the printout."
+msgstr "Utskriftens totala antal sidor."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Current date in format dd-mmm-yyyy. The format can be changed by specifying "
+"the desired format in the opcode: <literal>&amp;[DATE:yyyy/mm/dd]</literal>."
+msgstr ""
+"Dagens datum i formatet dd-mmm-yyyy. Du kan ändra formatet genom att ange "
+"önskat format i koden: <literal>&amp;[DATE:yyyy/mm/dd]</literal>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Current time in format hh:mm. The format can be changed by specifying the "
+"desired format in the opcode: <literal>&amp;[TIME:hh:mm:ss]</literal>."
+msgstr ""
+"Aktuell tid i formatet hh:mm. Du kan ändra formatet genom att ange önskat "
+"format i koden: <literal>&amp;[TIME:hh:mm:ss]</literal>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The basename of the file. For the file "
+"<literal>/home/jdoe/file.gnumeric</literal>, this opcode prints "
+"<literal>file.gnumeric</literal>."
+msgstr ""
+"Filens basnamn. För filen <literal>/home/jdoe/file.gnumeric</literal> "
+"skriver den här koden ut <literal>file.gnumeric</literal>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The path of the file excluding the basename. For the file "
+"<literal>/home/jdoe/file.gnumeric</literal>, this opcode prints "
+"<literal>/home/jdoe/</literal>."
+msgstr ""
+"Sökvägen till filen utan basnamnet. För filen "
+"<literal>/home/jdoe/file.gnumeric</literal> skriver den här koden ut "
+"<literal>/home/jdoe/</literal>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The content of the cell <literal>$A$1</literal> on the sheet being printed. "
+"Instead of <literal>$A$1</literal> any other absolutely addressed cell may "
+"be used."
+msgstr ""
+"Innehållet i cellen <literal>$A$1</literal> på kalkylbladet som skrivs ut. "
+"Du kan använda en annan absolut cellreferens i stället för "
+"<literal>$A$1</literal>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The content of the top left cell on the current page. Instead of "
+"<literal>A1</literal> any other relative cell address may be used. This "
+"relative address is interpreted with respect to the top left cell on the "
+"current page. Any repeating rows or columns are ignored."
+msgstr ""
+"Innehållet i den översta vänstra cellen på den aktuella sidan. Du kan "
+"använda en annan relativ cellreferens i stället för <literal>A1</literal>. "
+"Referensen tolkas i förhållande till den översta vänstra cellen på den "
+"aktuella sidan. Upprepade rader och kolumner ignoreras."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The content of the top left cell on the current page. Instead of "
+"<literal>A1</literal> any other relative cell address may be used. This "
+"relative address is interpreted with respect to the top left cell on the "
+"current page. Repeating rows or columns are not ignored. So if the top left "
+"cell is in a repeating row or column then the relative address is "
+"interpreted with respect to that cell."
+msgstr ""
+"Innehållet i den översta vänstra cellen på den aktuella sidan. Du kan "
+"använda en annan relativ cellreferens i stället för <literal>A1</literal>. "
+"Referensen tolkas i förhållande till den översta vänstra cellen på den "
+"aktuella sidan. Upprepade rader och kolumner ignoreras inte. Om den översta "
+"vänstra cellen till exempel ligger i en upprepad rad eller kolumn tolkas "
+"referensen i förhållande till den cellen."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"You can choose the font in which the header and footer is printed by "
+"selecting a default header/footer font in the preferences (see in <xref "
+"linkend=\"sect-configuration-preferences\"/>)."
+msgstr ""
+"Välj vilket typsnitt som ska användas för sidhuvud och sidfot genom att ange"
+" ett standardtypsnitt för dem i inställningarna. Se <xref linkend=\"sect-"
+"configuration-preferences\"/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Double clicking on the header or footer preview will quickly allow you to "
+"customize that header or footer."
+msgstr ""
+"Dubbelklicka på förhandsgranskningen av sidhuvudet eller sidfoten för att "
+"snabbt anpassa den."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Page Setup Dialog - Print Area"
+msgstr "Sidinställningar – Utskriftsområde"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<interface>Print Setup Print Area Tab</interface>"
+msgstr ""
+"<interface>Fliken Utskriftsområde i utskriftsinställningarna</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"You can select rows or columns to be printed on every page of the output. "
+"This is commonly used for printing column or row names. To enable this, "
+"enter the range of cells to be repeated in <guilabel>Rows to "
+"repeat...</guilabel> or <guilabel>Columns to repeat...</guilabel> field. "
+"Instead of entering them manually, you can also select columns or rows to be"
+" repeated using the mouse."
+msgstr ""
+"Du kan välja rader eller kolumner som ska skrivas ut på varje sida. Det "
+"används ofta för att upprepa namn på rader eller kolumner. Ange "
+"cellintervallet som ska upprepas i fältet <guilabel>Rader att "
+"upprepa...</guilabel> eller <guilabel>Kolumner att upprepa...</guilabel>. Du"
+" kan också markera rader eller kolumner med musen i stället för att skriva "
+"in intervallet."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Note that the rows and columns must be entered as ranges. That is, if you "
+"want to have first row repeated, you must enter <literal>1:1</literal>, not "
+"just <literal>1</literal>. Similarly, to have column <literal>A</literal> "
+"repeated, you must enter <literal>A:A</literal>."
+msgstr ""
+"Observera att rader och kolumner måste anges som intervall. Om du till "
+"exempel vill upprepa den första raden måste du ange <literal>1:1</literal>, "
+"inte bara <literal>1</literal>. På samma sätt anger du "
+"<literal>A:A</literal> om du vill upprepa kolumn <literal>A</literal>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Page Setup Dialog - Sheet"
+msgstr "Sidinställningar – Kalkylblad"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<interface>Print Setup Sheet Tab</interface>"
+msgstr "<interface>Fliken Kalkylblad i utskriftsinställningarna</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Select <guilabel>Grid lines</guilabel> to print the cell grid lines with "
+"your document. Unselect the button to hide the grid lines from your print "
+"output."
+msgstr ""
+"Markera <guilabel>Rutnät</guilabel> om du vill skriva ut cellernas "
+"rutnätslinjer. Avmarkera alternativet om du vill dölja dem i utskriften."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Select <guilabel>Black and white</guilabel> to convert the colours in your "
+"document to a greyscale range."
+msgstr ""
+"Markera <guilabel>Svartvitt</guilabel> om du vill skriva ut dokumentets "
+"färger i gråskala."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Select <guilabel>Do not print with all sheets</guilabel> if you want to "
+"avoid printing this sheet whenever you choose to print <guilabel>all "
+"sheets</guilabel>. If this item is checked then this sheet will only be "
+"printed as the active sheet or as part of a range of sheets. This is useful "
+"if you have a non-hidden sheet that contains only auxillary information and "
+"should normally not be printed."
+msgstr ""
+"Markera <guilabel>Skriv inte ut tillsammans med alla blad</guilabel> om "
+"kalkylbladet inte ska skrivas ut när du väljer <guilabel>alla "
+"kalkylblad</guilabel>. Då skrivs bladet bara ut om det är aktivt eller ingår"
+" i ett intervall av kalkylblad. Det är användbart om ett synligt blad bara "
+"innehåller kompletterande information som normalt inte ska skrivas ut."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Select <guilabel>Row and column headings</guilabel> to print the row and "
+"column headings (1,2,3,... and A,B,C,...)."
+msgstr ""
+"Markera <guilabel>Rubriker för rader och kolumner</guilabel> om du vill "
+"skriva ut dessa (1,2,3,... och A,B,C,...)."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Select <guilabel>Styles with no content</guilabel> to ensure cells with "
+"style changes will be printed, even if they are empty. For example, if you "
+"have a number of cells with the background color changed but no data in "
+"them, you can select this option to ensure they are in the printed output."
+msgstr ""
+"Markera <guilabel>Formatmallar utan innehåll</guilabel> om celler med "
+"ändrade format ska skrivas ut även när de är tomma. Om du till exempel har "
+"ändrat bakgrundsfärgen på tomma celler kan du markera det här alternativet "
+"så att färgen kommer med i utskriften."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Every error value is printed just as shown on the worksheet."
+msgstr "Alla felvärden skrivs ut precis som de visas i kalkylbladet."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "No error values are printed."
+msgstr "Felvärden skrivs inte ut."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Every error value is replaced by two m-dashes (separated by a thin space): "
+"\"— —\"."
+msgstr ""
+"Varje felvärde ersätts med två tankstreck med ett tunt blanksteg emellan: ”—"
+" —”."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Print as NA"
+msgstr "Skriv ut som #N/A"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Every error value is printed as an #N/A error."
+msgstr "Varje felvärde skrivs ut som felet #N/A."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The <guilabel>Errors</guilabel> selection box allows you to choose how to "
+"print error values: <_:variablelist-1/>"
+msgstr ""
+"I listrutan <guilabel>Fel</guilabel> väljer du hur felvärden ska skrivas ut:"
+" <_:variablelist-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Finally you can decide about the direction in which the workbook will be "
+"printed (Down, then right or Right, then down)."
+msgstr ""
+"Slutligen kan du välja i vilken ordning arbetsboken ska skrivas ut: nedåt "
+"och sedan åt höger, eller åt höger och sedan nedåt."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The <interface>Print Preview Dialog</interface> is used to display what the "
+"printed output will look like. The <interface>Print Preview "
+"dialog</interface> can be used to check whether you have the desired "
+"formatting and layout before you print out the workbook. "
+"<application>Evince</application> is set up to be the default viewer."
+msgstr ""
+"Dialogrutan <interface>Förhandsgranska utskrift</interface> visar hur "
+"utskriften kommer att se ut. Använd dialogrutan <interface>Förhandsgranska "
+"utskrift</interface> för att kontrollera att formatering och layout är rätt "
+"innan du skriver ut arbetsboken. <application>Evince</application> är "
+"standardvisare."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Customizing the preview application"
+msgstr "Anpassa förhandsgranskningsprogrammet"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Please make sure you have only one line defining your preview application."
+msgstr ""
+"Se till att det bara finns en rad som definierar "
+"förhandsgranskningsprogrammet."

@@ -265,3 +265,10 @@ Batch 192:
 - **Page Up** — keyboard key label in the manual-page instructions.
 - **opcodes** — technical term for the special codes inserted in headers and footers.
 - **sidorientering** — compound for page orientation.
+
+Batch 193:
+
+- **Evince** — viewer application name.
+- **dd-mmm-yyyy / hh:mm / DATE:yyyy / TIME:hh:mm:ss** — exact date/time formats and header/footer opcodes.
+- **file.gnumeric** — literal example filename.
+- The lint info about currency localization is a false positive on the exact spreadsheet reference **$A$1**.
