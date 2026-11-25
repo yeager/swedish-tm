@@ -134,3 +134,8 @@ Batch 171:
 
 - **Gnumeric** — application name; retained in branded compounds such as *Gnumeric-användare* and *Gnumeric-kalkylblad*.
 - **A1- / R1C1-notation** — standard spreadsheet cell-reference notations; the letter-number identifiers are fixed technical terms.
+
+Batch 172:
+
+- **Gnumeric-inställningar** — Swedish compound containing the application name.
+- **kalkylbladsflik / kalkylbladsflikens** — regular Swedish compounds for a worksheet tab and its possessive form.
