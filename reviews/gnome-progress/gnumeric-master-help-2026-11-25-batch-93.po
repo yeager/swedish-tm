@@ -1,0 +1,205 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3292
+msgid ""
+"The results are given in a table. This table contains the mean, variance, "
+"count of observations and the degree of freedom for both variables. The "
+"output table also includes the F-value, the one-tailed probability for the "
+"F-value, and the F Critical value for one-tailed test and the corresponding "
+"values for a two tailed test. The one-tailed probability for the F-value "
+"(<quote><inlineequation><_:mathphrase-1/></inlineequation> one-tail</quote> "
+"row) is the probability of making a Type I error in the one-tailed test. "
+"Similarly, the two-tailed probability for the F-value (<quote><guilabel>P "
+"two-tail</guilabel></quote> row) is the probability of making a Type I error"
+" in the two-tailed test. Since in the two-tailed F-Test both critical values"
+" are positive, the <quote><guilabel>F Critical two-tail</guilabel></quote> "
+"row contains two numbers."
+msgstr ""
+"Resultaten visas i en tabell med medelvärde, varians, antal observationer "
+"och frihetsgrader för båda variablerna. Resultattabellen innehåller även "
+"F-värdet, dess ensvansade sannolikhet och det kritiska F-värdet för ett "
+"ensvansat test, samt motsvarande värden för ett tvåsvansat test. Den "
+"ensvansade sannolikheten för F-värdet (raden "
+"<quote><inlineequation><_:mathphrase-1/></inlineequation> ensvansad</quote>)"
+" är sannolikheten att begå ett typ I-fel i det ensvansade testet. På samma "
+"sätt är den tvåsvansade sannolikheten för F-värdet (raden <quote><guilabel>P"
+" tvåsvansad</guilabel></quote>) sannolikheten att begå ett typ I-fel i det "
+"tvåsvansade testet. Eftersom båda kritiska värdena är positiva i det "
+"tvåsvansade F-testet innehåller raden <quote><guilabel>F kritiskt "
+"tvåsvansat</guilabel></quote> två tal."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3305
+msgid ""
+"If the output is directed into a specific output range, that range should "
+"contain at least three columns and eight rows."
+msgstr ""
+"Om resultatet placeras i ett särskilt cellområde bör området omfatta minst "
+"tre kolumner och åtta rader."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3311
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-ftest-ex1.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of some "
+"example data for an F-test of the equality of two variances.</phrase> "
+"</textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-ftest-ex1.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>En bild av exempeldata "
+"för ett F-test av om två varianser är lika.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3323
+msgid "Using the F-Test Tool"
+msgstr "Använda F-testverktyget"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3324
+msgid ""
+"<xref linkend=\"ftest-example-1\"/> shows some example data and <xref "
+"linkend=\"ftest-example-2\"/> the corresponding output."
+msgstr ""
+"<xref linkend=\"ftest-example-1\"/> visar exempeldata och <xref "
+"linkend=\"ftest-example-2\"/> motsvarande resultat."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3329
+msgid "F-Test Tool Output"
+msgstr "Resultat från F-testverktyget"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3331
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-ftest-ex2.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of the output "
+"of an F-test analysis of the equality of two variances.</phrase> "
+"</textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-ftest-ex2.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>En bild av resultatet "
+"från ett F-test av om två varianser är lika.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3349
+msgid "Multiple Sample Tests"
+msgstr "Test med flera urval"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3351
+msgid "Analysis of Variance"
+msgstr "Variansanalys"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3354
+msgid "ANOVA: Single Factor Tool"
+msgstr "ANOVA: verktyg med en faktor"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3356
+msgid ""
+"Use this tool to perform a single factor analysis of the variances of given "
+"variables. The variables are specified by the <quote><guilabel>Input "
+"Range:</guilabel></quote> entry. The given range can be grouped into the "
+"variables either by columns, by rows or by areas. The "
+"<quote><guilabel>Alpha:</guilabel></quote> entry specifies the significance "
+"level which is by default 5%."
+msgstr ""
+"Använd verktyget för att utföra en enkelfaktors-ANOVA på de angivna "
+"variablerna. Ange dem i fältet "
+"<quote><guilabel>Indataområde:</guilabel></quote>. Dela in området i "
+"variabler efter kolumner, rader eller områden. Fältet "
+"<quote><guilabel>Alfa:</guilabel></quote> anger signifikansnivån, som "
+"standard är 5 %."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3366
+msgid ""
+"If the first row or first column of the given range, or the first field of "
+"each area contains labels, select the <quote><guibutton>Labels "
+"</guibutton></quote> option. The names of the variables will be included in "
+"the output table."
+msgstr ""
+"Om den första raden eller kolumnen i området, eller det första fältet i "
+"varje delområde, innehåller etiketter väljer du alternativet "
+"<quote><guibutton>Etiketter </guibutton></quote>. Variabelnamnen tas då med "
+"i resultattabellen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3371
+msgid ""
+"The results of this analysis of variance are presented in a standard ANOVA "
+"table. The <quote><guilabel>F critical</guilabel></quote> value is the "
+"largest value of F that is statistically significant using the given "
+"significance level (<quote><guilabel>Alpha</guilabel></quote>)."
+msgstr ""
+"Resultaten från variansanalysen visas i en standardiserad ANOVA-tabell. "
+"Värdet <quote><guilabel>F kritiskt</guilabel></quote> är det största F-värde"
+" som är statistiskt signifikant vid den angivna signifikansnivån "
+"(<quote><guilabel>Alfa</guilabel></quote>)."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3376
+msgid ""
+"This tool also calculates the count, sum, average, and the variance of each "
+"variable."
+msgstr ""
+"Verktyget beräknar även antal, summa, medelvärde och varians för varje "
+"variabel."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3380
+msgid "1-factor ANOVA Dialog and Example Data"
+msgstr "Dialogruta och exempeldata för 1-faktors-ANOVA"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3382
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-ANOVA1-ex1.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of a "
+"multilevel single factor ANOVA analysis.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-ANOVA1-ex1.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>En bild av en "
+"enkelfaktors-ANOVA med flera nivåer.</phrase> </textobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3395
+msgid "Using the single factor ANOVA"
+msgstr "Använda enkelfaktors-ANOVA"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3396
+msgid ""
+"See <xref linkend=\"anova-one-factor-tool-ex1\"/> for an example of a "
+"completed dialog and <xref linkend=\"anova-one-factor-tool-ex2\"/> for the "
+"corresponding output."
+msgstr ""
+"Se <xref linkend=\"anova-one-factor-tool-ex1\"/> för ett exempel på en "
+"ifylld dialogruta och <xref linkend=\"anova-one-factor-tool-ex2\"/> för "
+"motsvarande resultat."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3403
+msgid "Output From a 1-factor ANOVA"
+msgstr "Resultat från 1-faktors-ANOVA"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:3405
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-ANOVA1-ex2.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>An image of the output "
+"from a multilevel single factor ANOVA analysis.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/analysistools-ANOVA1-ex2.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>En bild av resultatet "
+"från en enkelfaktors-ANOVA med flera nivåer.</phrase> </textobject>"

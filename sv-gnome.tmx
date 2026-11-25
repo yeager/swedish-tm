@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T111548Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T111914Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -600664,6 +600664,106 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>If the first field of each range contains labels, select the &lt;quote&gt;&lt;guibutton&gt;Labels&lt;/guibutton&gt;&lt;/quote&gt; option. The names of the variables will be included in the output table.</seg></tuv>
       <tuv xml:lang="sv"><seg>Om det första fältet i varje område innehåller etiketter väljer du alternativet &lt;quote&gt;&lt;guibutton&gt;Etiketter&lt;/guibutton&gt;&lt;/quote&gt;. Variabelnamnen tas då med i resultattabellen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The results are given in a table. This table contains the mean, variance, count of observations and the degree of freedom for both variables. The output table also includes the F-value, the one-tailed probability for the F-value, and the F Critical value for one-tailed test and the corresponding values for a two tailed test. The one-tailed probability for the F-value (&lt;quote&gt;&lt;inlineequation&gt;&lt;_:mathphrase-1/&gt;&lt;/inlineequation&gt; one-tail&lt;/quote&gt; row) is the probability of making a Type I error in the one-tailed test. Similarly, the two-tailed probability for the F-value (&lt;quote&gt;&lt;guilabel&gt;P two-tail&lt;/guilabel&gt;&lt;/quote&gt; row) is the probability of making a Type I error in the two-tailed test. Since in the two-tailed F-Test both critical values are positive, the &lt;quote&gt;&lt;guilabel&gt;F Critical two-tail&lt;/guilabel&gt;&lt;/quote&gt; row contains two numbers.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resultaten visas i en tabell med medelvärde, varians, antal observationer och frihetsgrader för båda variablerna. Resultattabellen innehåller även F-värdet, dess ensvansade sannolikhet och det kritiska F-värdet för ett ensvansat test, samt motsvarande värden för ett tvåsvansat test. Den ensvansade sannolikheten för F-värdet (raden &lt;quote&gt;&lt;inlineequation&gt;&lt;_:mathphrase-1/&gt;&lt;/inlineequation&gt; ensvansad&lt;/quote&gt;) är sannolikheten att begå ett typ I-fel i det ensvansade testet. På samma sätt är den tvåsvansade sannolikheten för F-värdet (raden &lt;quote&gt;&lt;guilabel&gt;P tvåsvansad&lt;/guilabel&gt;&lt;/quote&gt;) sannolikheten att begå ett typ I-fel i det tvåsvansade testet. Eftersom båda kritiska värdena är positiva i det tvåsvansade F-testet innehåller raden &lt;quote&gt;&lt;guilabel&gt;F kritiskt tvåsvansat&lt;/guilabel&gt;&lt;/quote&gt; två tal.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the output is directed into a specific output range, that range should contain at least three columns and eight rows.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om resultatet placeras i ett särskilt cellområde bör området omfatta minst tre kolumner och åtta rader.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ftest-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of some example data for an F-test of the equality of two variances.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ftest-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av exempeldata för ett F-test av om två varianser är lika.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Using the F-Test Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använda F-testverktyget</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;xref linkend="ftest-example-1"/&gt; shows some example data and &lt;xref linkend="ftest-example-2"/&gt; the corresponding output.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;xref linkend="ftest-example-1"/&gt; visar exempeldata och &lt;xref linkend="ftest-example-2"/&gt; motsvarande resultat.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>F-Test Tool Output</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resultat från F-testverktyget</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ftest-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output of an F-test analysis of the equality of two variances.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ftest-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av resultatet från ett F-test av om två varianser är lika.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Multiple Sample Tests</seg></tuv>
+      <tuv xml:lang="sv"><seg>Test med flera urval</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Analysis of Variance</seg></tuv>
+      <tuv xml:lang="sv"><seg>Variansanalys</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>ANOVA: Single Factor Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>ANOVA: verktyg med en faktor</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Use this tool to perform a single factor analysis of the variances of given variables. The variables are specified by the &lt;quote&gt;&lt;guilabel&gt;Input Range:&lt;/guilabel&gt;&lt;/quote&gt; entry. The given range can be grouped into the variables either by columns, by rows or by areas. The &lt;quote&gt;&lt;guilabel&gt;Alpha:&lt;/guilabel&gt;&lt;/quote&gt; entry specifies the significance level which is by default 5%.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd verktyget för att utföra en enkelfaktors-ANOVA på de angivna variablerna. Ange dem i fältet &lt;quote&gt;&lt;guilabel&gt;Indataområde:&lt;/guilabel&gt;&lt;/quote&gt;. Dela in området i variabler efter kolumner, rader eller områden. Fältet &lt;quote&gt;&lt;guilabel&gt;Alfa:&lt;/guilabel&gt;&lt;/quote&gt; anger signifikansnivån, som standard är 5 %.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the first row or first column of the given range, or the first field of each area contains labels, select the &lt;quote&gt;&lt;guibutton&gt;Labels &lt;/guibutton&gt;&lt;/quote&gt; option. The names of the variables will be included in the output table.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om den första raden eller kolumnen i området, eller det första fältet i varje delområde, innehåller etiketter väljer du alternativet &lt;quote&gt;&lt;guibutton&gt;Etiketter &lt;/guibutton&gt;&lt;/quote&gt;. Variabelnamnen tas då med i resultattabellen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The results of this analysis of variance are presented in a standard ANOVA table. The &lt;quote&gt;&lt;guilabel&gt;F critical&lt;/guilabel&gt;&lt;/quote&gt; value is the largest value of F that is statistically significant using the given significance level (&lt;quote&gt;&lt;guilabel&gt;Alpha&lt;/guilabel&gt;&lt;/quote&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resultaten från variansanalysen visas i en standardiserad ANOVA-tabell. Värdet &lt;quote&gt;&lt;guilabel&gt;F kritiskt&lt;/guilabel&gt;&lt;/quote&gt; är det största F-värde som är statistiskt signifikant vid den angivna signifikansnivån (&lt;quote&gt;&lt;guilabel&gt;Alfa&lt;/guilabel&gt;&lt;/quote&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This tool also calculates the count, sum, average, and the variance of each variable.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Verktyget beräknar även antal, summa, medelvärde och varians för varje variabel.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>1-factor ANOVA Dialog and Example Data</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogruta och exempeldata för 1-faktors-ANOVA</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA1-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of a multilevel single factor ANOVA analysis.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA1-ex1.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av en enkelfaktors-ANOVA med flera nivåer.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Using the single factor ANOVA</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använda enkelfaktors-ANOVA</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>See &lt;xref linkend="anova-one-factor-tool-ex1"/&gt; for an example of a completed dialog and &lt;xref linkend="anova-one-factor-tool-ex2"/&gt; for the corresponding output.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Se &lt;xref linkend="anova-one-factor-tool-ex1"/&gt; för ett exempel på en ifylld dialogruta och &lt;xref linkend="anova-one-factor-tool-ex2"/&gt; för motsvarande resultat.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Output From a 1-factor ANOVA</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resultat från 1-faktors-ANOVA</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA1-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output from a multilevel single factor ANOVA analysis.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-ANOVA1-ex2.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;En bild av resultatet från en enkelfaktors-ANOVA med flera nivåer.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
     </tu>
   </body>
 </tmx>

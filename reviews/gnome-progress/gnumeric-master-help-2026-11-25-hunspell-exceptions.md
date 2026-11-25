@@ -29,3 +29,10 @@ Additional term in batch 90:
 Additional compound form in batch 91:
 
 - **z-testverktyget** — Swedish compound for the z-test tool; Hunspell reports the hyphen boundary as a spelling error.
+
+Additional statistical terms in batch 93:
+
+- **ensvansad / ensvansat / ensvansade** and **tvåsvansat / tvåsvansade** — standard Swedish statistical terms used in existing GNOME TM table headings for one-tailed and two-tailed tests.
+- **F-värde / F-kritiskt-värde** — statistical F-value terminology; Hunspell flags the letter-plus-hyphen compounds.
+- **F-testverktyget / t-testet** — names of the statistical tools and tests.
+- **1-faktors-ANOVA** — compact statistical heading with the number and technical acronym.
