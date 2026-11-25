@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T134533Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T134753Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -603574,6 +603574,56 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The purpose of each labeled component in &lt;xref linkend="fig-file-textImport-druid-panel2b"/&gt; is explained below: &lt;_:variablelist-1/&gt;</seg></tuv>
       <tuv xml:lang="sv"><seg>Nedan förklaras syftet med varje märkt del i &lt;xref linkend="fig-file-textImport-druid-panel2b"/&gt;: &lt;_:variablelist-1/&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The third panel of the &lt;interface&gt;Text Import&lt;/interface&gt; Druid</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tredje panelen i guiden &lt;interface&gt;Textimport&lt;/interface&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This panel allows users to select and format the columns to be imported to the &lt;application&gt;Gnumeric&lt;/application&gt; workbook. The first button allows the exclusion of empty columns on either of the outer sides of the columns with data. The second button allows the user to define the locale used to interpret the values in the file. The remaining area allows the user to predefine the data format to be used for all the values in each column. This area also allows the users to select which columns in the file will be imported to the &lt;application&gt;Gnumeric&lt;/application&gt; worksheet. Finally, this panel provides the &lt;guibutton&gt;Finish&lt;/guibutton&gt; which is used to dismiss the dialog and import the file.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här väljer och formaterar du kolumnerna som ska importeras till en arbetsbok i &lt;application&gt;Gnumeric&lt;/application&gt;. Den första knappen låter dig ta bort tomma kolumner vid kanterna. Med den andra väljer du vilka regionala inställningar som ska användas när filens värden tolkas. I resten av panelen anger du dataformat för varje kolumn och väljer vilka kolumner som ska importeras till kalkylbladet i &lt;application&gt;Gnumeric&lt;/application&gt;. Klicka till sist på &lt;guibutton&gt;Slutför&lt;/guibutton&gt; för att stänga dialogrutan och importera filen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The third panel of the &lt;interface&gt;Text Import&lt;/interface&gt; druid with the component areas labeled with callouts.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den tredje panelen i guiden &lt;interface&gt;Textimport&lt;/interface&gt;, med delarna märkta.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot depicts the third panel 'Text Import' druid with callouts labeling the different areas.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar den tredje panelen i textimportguiden med de olika områdena märkta.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The different components of the third panel of the &lt;interface&gt;Text Import&lt;/interface&gt; druid with each component labeled with a callout.</seg></tuv>
+      <tuv xml:lang="sv"><seg>De olika delarna i den tredje panelen i guiden &lt;interface&gt;Textimport&lt;/interface&gt;, alla märkta.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The components of the third panel</seg></tuv>
+      <tuv xml:lang="sv"><seg>Delarna i den tredje panelen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;1&lt;/emphasis&gt; - The trim of empty outer columns drop down list button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;1&lt;/emphasis&gt; – Rullgardinsmeny för tomma kantkolumner.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This button provides a list allowing the user to select whether to trim any outer columns which are completely empty. The choices are to delete the columns on both sides, on neither side, or on one side only. This will only affect columns which have been previously defined but which contain no data values at all.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med knappen väljer du om helt tomma ytterkolumner ska tas bort: på båda sidor, på ingen sida eller bara på ena sidan. Det gäller bara kolumner som redan har definierats men saknar värden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;2&lt;/emphasis&gt; - Locale definition for import drop down menu button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;2&lt;/emphasis&gt; – Rullgardinsmeny för regionala inställningar vid import.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This button provides a list of locales which can be set. The chosen locale will affect how numeric values are interpreted when then are imported. For instance, the locale will define the character expected as the decimal separator which is the period character (.) in some locales, and the comma character (,) in others. These locales generally then use the other character as the spacer grouping the digits in thousands.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Menyn visar de regionala inställningar som du kan välja mellan. Valet påverkar hur numeriska värden tolkas vid import. Inställningarna avgör till exempel vilket tecken som används som decimaltecken: punkt (.) i vissa regioner och komma (,) i andra. Då används vanligtvis det andra tecknet som tusentalsavgränsare.</seg></tuv>
     </tu>
   </body>
 </tmx>
