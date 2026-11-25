@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T182811Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T184854Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -92037,7 +92037,7 @@ Uppdatering rekommenderas.</seg></tuv>
     <tu>
       <prop type="project">gnome:GIMP</prop>
       <tuv xml:lang="en"><seg>Misc</seg></tuv>
-      <tuv xml:lang="sv"><seg>Diverse</seg></tuv>
+      <tuv xml:lang="sv"><seg>Övrigt</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:GIMP</prop>
@@ -97717,7 +97717,7 @@ Att bygga om databasen medför att alla lokala e-postmeddelanden och bifogade fi
     <tu>
       <prop type="project">gnome:NetworkManager-fortisslvpn</prop>
       <tuv xml:lang="en"><seg>The NetworkManager Developers</seg></tuv>
-      <tuv xml:lang="sv"><seg>Utvecklarna av Nätverkshanteraren</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utvecklarna av NetworkManager</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-fortisslvpn</prop>
@@ -97956,7 +97956,7 @@ konfig: user &lt;name&gt;</seg></tuv>
     <tu>
       <prop type="project">gnome:NetworkManager-fortisslvpn</prop>
       <tuv xml:lang="en"><seg>_Gateway</seg></tuv>
-      <tuv xml:lang="sv"><seg>_Gateway</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Fjärrgateway</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-fortisslvpn</prop>
@@ -109286,12 +109286,12 @@ Se %s för mer information
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Client for OpenVPN virtual private networks</seg></tuv>
-      <tuv xml:lang="sv"><seg>Klient för OpenVPN virtuella privata nätverk</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klient för virtuella privata nätverk med OpenVPN</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Support for configuring OpenVPN virtual private network connections.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Stöd för att konfigurera OpenVPN virtuella privata nätverksanslutningar.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stöd för att konfigurera OpenVPN-anslutningar till virtuella privata nätverk.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
@@ -109627,7 +109627,7 @@ Se %s för mer information
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Remote gateway(s), with optional port and protocol (e.g. ovpn.corp.com:1234:tcp). You can specify multiple hosts for redundancy (use commas or spaces as delimiters).
 config: remote</seg></tuv>
-      <tuv xml:lang="sv"><seg>Fjärrgateway med valfri port och protokoll (till exempel ovpn.corp.com:1234:tcp). Du kan ange flera värdar för redundans (använd komma eller blanksteg som avgränsare).
+      <tuv xml:lang="sv"><seg>Fjärrgateway (en eller flera), med valfri port och protokoll (till exempel ovpn.corp.com:1234:tcp). Du kan ange flera värdar för redundans och avgränsa dem med kommatecken eller mellanslag.
 konfig: remote</seg></tuv>
     </tu>
     <tu>
@@ -109646,7 +109646,7 @@ konfig: auth-user-pass</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Username passed to OpenVPN when prompted for it. If omitted, use the name of the system user that activates the connection.
 config: auth-user-pass</seg></tuv>
-      <tuv xml:lang="sv"><seg>Användarnamn skickas till OpenVPN när det efterfrågas. Om det utelämnas används namnet för systemanvändaren som aktiverar anslutningen.
+      <tuv xml:lang="sv"><seg>Användarnamnet skickas till OpenVPN när det efterfrågas. Om du inte anger ett användarnamn används namnet på systemanvändaren som aktiverar anslutningen.
 konfig: auth-user-pass</seg></tuv>
     </tu>
     <tu>
@@ -109673,7 +109673,7 @@ konfig: auth-user-pass</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Pre-shared file for Static Key encryption mode (non-TLS).
 config: static &lt;file&gt;</seg></tuv>
-      <tuv xml:lang="sv"><seg>Förutdelad fil för krypteringsläge med statisk nyckel (icke-TLS).
+      <tuv xml:lang="sv"><seg>Fil med fördelad nyckel för krypteringsläget med statisk nyckel (utan TLS).
 konfig: static &lt;fil&gt;</seg></tuv>
     </tu>
     <tu>
@@ -109695,8 +109695,8 @@ konfig: ifconfig &lt;l&gt; &lt;rn&gt;</seg></tuv>
       <tuv xml:lang="en"><seg>Direction for Static Key encryption mode (non-TLS).
 If key direction is used, it must be the opposite of that used on the VPN peer. For example, if the peer uses “1”, this connection must use “0”. If you are unsure what value to use, contact your system administrator.
 config: static &lt;file&gt; [direction]</seg></tuv>
-      <tuv xml:lang="sv"><seg>Riktning för krypteringsläge med statisk nyckel (icke-TLS).
-Om nyckelriktning används så måste den vara motsatsen till den som används på VPN-motparten. Om exempelvis motparten använder ”1” måste denna anslutning vara ”0”. Om du är osäker vilket värde du ska använda kan du kontakta din systemadministratör.
+      <tuv xml:lang="sv"><seg>Riktning för krypteringsläget med statisk nyckel (utan TLS).
+Om en nyckelriktning används måste den vara motsatt den som används av VPN-motparten. Om motparten till exempel använder ”1” måste den här anslutningen använda ”0”. Kontakta systemadministratören om du är osäker på vilket värde du ska använda.
 konfig: static &lt;fil&gt; [riktning]</seg></tuv>
     </tu>
     <tu>
@@ -109722,13 +109722,13 @@ konfig: static &lt;fil&gt; [riktning]</seg></tuv>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Use custom gateway p_ort</seg></tuv>
-      <tuv xml:lang="sv"><seg>Använd anpassad gatewayp_ort</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd en anpassad gatewayp_ort</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>TCP/UDP port number for peer. (Default value when there is no port for gateway).
 config: port</seg></tuv>
-      <tuv xml:lang="sv"><seg>TCP/UDP-portnummer för motpart. (Standardvärde för när det inte finns en port för gateway).
+      <tuv xml:lang="sv"><seg>TCP/UDP-portnummer för motparten. (Standardvärde när ingen port har angetts för gatewayen.)
 konfig: port</seg></tuv>
     </tu>
     <tu>
@@ -109740,13 +109740,13 @@ konfig: port</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Renegotiate data channel key after the specified number of seconds.
 config: reneg-sec</seg></tuv>
-      <tuv xml:lang="sv"><seg>Omförhandla nyckel för datakanal efter angivet antal sekunder.
+      <tuv xml:lang="sv"><seg>Omförhandla nyckeln för datakanalen efter angivet antal sekunder.
 konfig: reneg-sec</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>_Data compression</seg></tuv>
-      <tuv xml:lang="sv"><seg>Data_komprimering</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Datakomprimering</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
@@ -109772,8 +109772,8 @@ konfig: allow-compression asym|yes</seg></tuv>
       <tuv xml:lang="en"><seg>Use TCP for communicating with remote host.
 (This is a default setting only used when no protocol is specified for the gateway.)
 config: proto tcp-client | udp</seg></tuv>
-      <tuv xml:lang="sv"><seg>Använd TCP för kommunikation med fjärrvärd.
-(Standardinställning som endast används när inget protokoll är angivet för gateway.)
+      <tuv xml:lang="sv"><seg>Använd TCP för kommunikation med fjärrvärden.
+(Används som standard bara när gatewayen saknar angivet protokoll.)
 konfig: proto tcp-client | udp</seg></tuv>
     </tu>
     <tu>
@@ -109784,13 +109784,13 @@ konfig: proto tcp-client | udp</seg></tuv>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Explicitly set virtual device type and name (TUN/TAP).</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sätt explicit virtuell enhetstyp och namn (TUN/TAP).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange uttryckligen typ och namn på den virtuella enheten (TUN/TAP).</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Explicitly set virtual device type (TUN/TAP).
 config: dev-type tun | tap</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sätt explicit virtuell enhetstyp (TUN/TAP).
+      <tuv xml:lang="sv"><seg>Ange uttryckligen typ av virtuell enhet (TUN/TAP).
 konfig: dev-type tun | tap</seg></tuv>
     </tu>
     <tu>
@@ -109802,19 +109802,19 @@ konfig: dev-type tun | tap</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Use custom name for TUN/TAP virtual device (instead of default “tun” or “tap”).
 config: dev &lt;name&gt;</seg></tuv>
-      <tuv xml:lang="sv"><seg>Använd anpassat namn för virtuell TUN/TAP-enhet (istället för standard ”tun” eller ”tap”).
+      <tuv xml:lang="sv"><seg>Använd ett anpassat namn på den virtuella TUN/TAP-enheten i stället för standardnamnet ”tun” eller ”tap”.
 konfig: dev &lt;namn&gt;</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Use custom tunnel Maximum Transmission _Unit (MTU)</seg></tuv>
-      <tuv xml:lang="sv"><seg>Använd anpassad Maximum Transmission Unit (MTU) för _tunneln</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd anpassad maximal överföringsenhet (MTU) för _tunneln</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Take the TUN device MTU to be the specified value and derive the link MTU from it.
 config: tun-mtu</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sätt TUN-enhetens MTU till det specificerade värdet och härled länk-MTU från det.
+      <tuv xml:lang="sv"><seg>Sätt TUN-enhetens MTU till det angivna värdet och härled länkens MTU från det.
 konfig: tun-mtu</seg></tuv>
     </tu>
     <tu>
@@ -109826,19 +109826,19 @@ konfig: tun-mtu</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Enable internal datagram fragmentation with this maximum size.
 config: fragment</seg></tuv>
-      <tuv xml:lang="sv"><seg>Aktivera intern datagramfragmentering med denna maximala storlek.
+      <tuv xml:lang="sv"><seg>Aktivera intern datagramfragmentering med den här maximala storleken.
 konfig: fragment</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Restrict tunnel TCP Maximum _Segment Size (MSS)</seg></tuv>
-      <tuv xml:lang="sv"><seg>Begränsa TCP Maximum _Segment Size (MSS) för tunneln</seg></tuv>
+      <tuv xml:lang="sv"><seg>Begränsa TCP:s maximala _segmentstorlek (MSS) för tunneln</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Restrict tunnel TCP MSS.
 config: mssfix</seg></tuv>
-      <tuv xml:lang="sv"><seg>Begränsa tunnel TCP MSS.
+      <tuv xml:lang="sv"><seg>Begränsa TCP-MSS för tunneln.
 konfig: mssfix</seg></tuv>
     </tu>
     <tu>
@@ -109850,19 +109850,19 @@ konfig: mssfix</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Randomize the order of gateways list (remote) as a kind of basic load-balancing measure.
 config: remote-random</seg></tuv>
-      <tuv xml:lang="sv"><seg>Gör sorteringen för listan över (fjärr)gateways slumpmässiga som en typ av grundläggande lastbalanseringsåtgärd.
+      <tuv xml:lang="sv"><seg>Slumpa ordningen på fjärrvärdarna som en enkel form av lastbalansering.
 konfig: remote-random</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Allo_w Pull FQDN</seg></tuv>
-      <tuv xml:lang="sv"><seg>_Tillåt dragning av FQDN</seg></tuv>
+      <tuv xml:lang="sv"><seg>_Tillåt hämtning av FQDN</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Allow client to pull DNS names from server
 config: allow-pull-fqdn</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tillåt klient att dra DNS-namn från server
+      <tuv xml:lang="sv"><seg>Tillåt klienten att hämta DNS-namn från servern
 konfig: allow-pull-fqdn</seg></tuv>
     </tu>
     <tu>
@@ -109874,7 +109874,7 @@ konfig: allow-pull-fqdn</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Adds a random string to remote DNS name to avoid DNS caching.
 config: remote-random-hostname</seg></tuv>
-      <tuv xml:lang="sv"><seg>Lägger till en slumpmässig sträng till fjärr-DNS-namn för att undvika DNS-cachning.
+      <tuv xml:lang="sv"><seg>Lägger till en slumpmässig sträng framför fjärrvärdens DNS-namn för att undvika DNS-cachelagring.
 konfig: remote-random-hostname</seg></tuv>
     </tu>
     <tu>
@@ -109886,31 +109886,31 @@ konfig: remote-random-hostname</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Build a tun link capable of forwarding IPv6 traffic
 config: tun-ipv6</seg></tuv>
-      <tuv xml:lang="sv"><seg>Bygg en tun-länk kapabel att vidarebefordra IPv6-trafik
+      <tuv xml:lang="sv"><seg>Skapa en tun-länk som kan vidarebefordra IPv6-trafik
 konfig: tun-ipv6</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Specify pin_g interval</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ange pin_g-intervall</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange pin_gintervall</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Ping remote over the TCP/UDP control channel if no packets have been sent for at least n seconds.
 config: ping &lt;n&gt;</seg></tuv>
-      <tuv xml:lang="sv"><seg>Skicka ping till mottagaren över TCP/UDP-kontrollkanalen om inga paket har skickats under minst de senaste n sekunderna.
+      <tuv xml:lang="sv"><seg>Skicka ping till fjärrmotparten via TCP/UDP-kontrollkanalen om inga paket har skickats på minst n sekunder.
 konfig: ping &lt;n&gt;</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Specify _exit or restart ping</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ange _exit eller starta om ping</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange _avslut eller omstart vid utebliven ping</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Exit or restart after n seconds pass without reception of a ping or other packet from remote.
 config: ping-exit | ping-restart &lt;n&gt;</seg></tuv>
-      <tuv xml:lang="sv"><seg>Avsluta eller starta om efter att n sekunder passerat utan att ha tagit emot en ping eller ett annat paket från fjärr.
+      <tuv xml:lang="sv"><seg>Avsluta eller starta om efter n sekunder utan att ta emot ping eller andra paket från fjärrmotparten.
 konfig: ping-exit | ping-restart &lt;n&gt;</seg></tuv>
     </tu>
     <tu>
@@ -109925,9 +109925,9 @@ konfig: ping-exit | ping-restart &lt;n&gt;</seg></tuv>
 Essentially, --float tells OpenVPN to accept authenticated packets from any address, not only the address which was specified in the --remote option.
 
 config: float</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tillåt fjärrmotpart att ändra dess IP-adress och/eller portnummer, som till exempel beroende på DHCP (standard om inte --remote används). Då --float anges med --remote möjliggörs för en OpenVPN-session att initialt ansluta till en motpart på en känd adress, men om paket inkommer från en ny adress och klarar alla autentiseringstester kommer den nya adressen att ta kontroll över sessionen. Detta är användbart när du ansluter till en motpart som håller en dynamisk adress såsom en uppringd klient eller DHCP-klient.
+      <tuv xml:lang="sv"><seg>Tillåt fjärrmotparten att ändra sin IP-adress och/eller port, till exempel vid DHCP (detta är standard om --remote inte används). När --float anges tillsammans med --remote kan en OpenVPN-session först ansluta till en motpart på en känd adress. Om paket sedan kommer från en ny adress och klarar alla autentiseringstester tar den nya adressen över sessionen. Detta är användbart när du ansluter till en motpart med dynamisk adress, till exempel en uppringd användare eller DHCP-klient.
 
-I princip gör --float att OpenVPN accepterar autentiserade paket från alla adresser, inte bara den adress som angavs i flaggan --remote.
+Med --float accepterar OpenVPN autentiserade paket från vilken adress som helst, inte bara från adressen som angetts med --remote.
 
 konfig: float</seg></tuv>
     </tu>
@@ -109940,14 +109940,14 @@ konfig: float</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Specify the maximum number of routes the server is allowed to specify.
 config: max-routes &lt;n&gt;</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ange högsta antal rutter servern får specificera.
+      <tuv xml:lang="sv"><seg>Ange hur många rutter servern som mest får skicka.
 konfig: max-routes &lt;n&gt;</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in Cipher Block Chaining mode).
 config: cipher</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kryptera paket med chifferalgoritm. Standard är BF-CBC (Blowfish i Cipher Block Chaining-läge).
+      <tuv xml:lang="sv"><seg>Kryptera paket med en chifferalgoritm. Standard är BF-CBC (Blowfish i Cipher Block Chaining-läge).
 konfig: cipher</seg></tuv>
     </tu>
     <tu>
@@ -109959,14 +109959,14 @@ konfig: cipher</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Set cipher key size to a custom value. If unspecified, it defaults to cipher-specific size.
 config: keysize &lt;n&gt;</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sätt chiffernyckel till ett anpassat värde. Om ospecificerat, är standard chifferspecifik storlek
+      <tuv xml:lang="sv"><seg>Ange en anpassad storlek på chiffernyckeln. Om den inte anges används chifferalgoritmens standardstorlek.
 konfig: keysize &lt;n&gt;</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Authenticate packets with HMAC using message digest algorithm. The default is SHA1.
 config: auth</seg></tuv>
-      <tuv xml:lang="sv"><seg>Autentisera paket med HMAC tillsammans med message digest-algoritm. Standard är SHA1.
+      <tuv xml:lang="sv"><seg>Autentisera paket med HMAC och en hashalgoritm. Standardalgoritmen är SHA1.
 konfig: auth</seg></tuv>
     </tu>
     <tu>
@@ -109995,7 +109995,7 @@ konfig: data-ciphers-fallback</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Restrict the allowed ciphers to be negotiated to the ciphers in cipher-list. cipher-list is a colon-separated list of ciphers like AES-256-GCM:AES-128-GCM.
 config: data-ciphers</seg></tuv>
-      <tuv xml:lang="sv"><seg>Begränsa de tillåtna chiffren att förhandla till chiffren i cipher-list. cipher-list är en kolonseparerad lista över chiffer som AES-256-GCM:AES-128-GCM.
+      <tuv xml:lang="sv"><seg>Begränsa vilka chiffer som får förhandlas till dem som anges i chifferlistan. Chifferlistan är kolonseparerad, till exempel AES-256-GCM:AES-128-GCM.
 konfig: data-ciphers</seg></tuv>
     </tu>
     <tu>
@@ -110023,7 +110023,7 @@ konfig: ncp-disable</seg></tuv>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Check peer certificate against the specified file in PEM format. A CRL (certificate revocation list) is used when a particular key is compromised but when the overall PKI is still intact.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kontrollera motpartscertifikat mot den specificerade filen i PEM-format. En CRL (certificate revocation list) används när en specifik nyckel är komprometterad men när PKI fortfarande är intakt.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kontrollera motpartscertifikatet mot den angivna filen i PEM-format. En certifikatspärrlista (CRL) används när en viss nyckel har komprometterats men resten av PKI:n fortfarande är intakt.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
@@ -110033,12 +110033,12 @@ konfig: ncp-disable</seg></tuv>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Check peer certificate by looking at files in the specified directory. The directory must contain files named as revoked serial numbers (the files may be empty, the contents are never read).</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kontrollera motpartscertifikat genom att titta på filer i den angivna katalogen. Katalogen måste innehålla filer namngivna som indragna serienummer (filerna kan vara tomma, innehållet läses aldrig).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kontrollera motpartscertifikatet mot filerna i den angivna katalogen. Katalogen måste innehålla filer med återkallade serienummer som filnamn (filerna kan vara tomma; innehållet läses aldrig).</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>_Subject Match</seg></tuv>
-      <tuv xml:lang="sv"><seg>Matc_ha följande</seg></tuv>
+      <tuv xml:lang="sv"><seg>Matchning av certifikatets _subjekt</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
@@ -110046,15 +110046,15 @@ konfig: ncp-disable</seg></tuv>
 
 config: verify-x509-name subject-or-name [mode]
 config (legacy mode): tls-remote subject-or-name</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ämne eller vanligt namn att verifiera servercertifikatsinformationen mot.
+      <tuv xml:lang="sv"><seg>Certifikatets subjekt eller Common Name (CN) att jämföra servercertifikatet med.
 
-konfig: verify-x509-name ämne-eller-namn [läge]
-konfig (föråldrat läge): tls-remote ämne-eller-namn</seg></tuv>
+konfig: verify-x509-name subject-or-name [mode]
+konfig (föråldrat läge): tls-remote subject-or-name</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Server Cert_ificate Check</seg></tuv>
-      <tuv xml:lang="sv"><seg>Servercert_ifikatkontroll</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kontroll av _servercertifikat</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
@@ -110068,59 +110068,59 @@ The legacy option tls-remote is deprecated and removed from OpenVPN 2.4 and newe
 
 config: verify-x509-name subject-or-name [mode]
 config (legacy mode): tls-remote subject-or-name</seg></tuv>
-      <tuv xml:lang="sv"><seg>Verifiera servercertifikatsinformation.
+      <tuv xml:lang="sv"><seg>Verifiera servercertifikatet.
 
-När aktiverad kommer anslutningen endast att lyckas om servercertifikatet matchar några förväntade egenskaper.
-Matchning kan antingen tillämpas på hela certifikatet (alla fält),
-eller bara vanligt namn (CN-fältet).
+När alternativet är aktiverat lyckas anslutningen bara om servercertifikatet uppfyller de förväntade egenskaperna.
+Matchningen kan gälla hela certifikatets subjekt (alla fält)
+eller bara Common Name (CN-fältet).
 
-Flaggan tls-remote är föråldrat och borttagen från OpenVPN 2.4 och nyare. Använd den inte.
+Det äldre alternativet tls-remote är föråldrat och borttaget i OpenVPN 2.4 och senare. Använd det inte.
 
-konfig: verify-x509-name ämne-eller-namn [läge]
-konfig (föråldrat läge): tls-remote ämne-eller-namn</seg></tuv>
+konfig: verify-x509-name subject-or-name [mode]
+konfig (föråldrat läge): tls-remote subject-or-name</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Verify peer (server) certificate _usage signature</seg></tuv>
-      <tuv xml:lang="sv"><seg>_Verifiera certifikatanvändningssignatur för motpart (server)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Verifiera nyckelanvändningen i servercertifikatet för _motparten</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Require that peer certificate was signed with an explicit key usage and extended key usage based on RFC3280 TLS rules.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Begär att motpartscertifikatet var signerat med en explicit nyckelanvändning och en utökad nyckelanvändning baserad på regler för RFC3280 TLS.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kräv att motpartscertifikatet har uttrycklig nyckelanvändning och utökad nyckelanvändning enligt RFC 3280:s TLS-regler.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Remote peer certificate _TLS type</seg></tuv>
-      <tuv xml:lang="sv"><seg>Avlägsen _TLS-typ för motpartscertifikat</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fjärrmotpartens _TLS-certifikattyp</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Require that peer certificate was signed with an explicit key usage and extended key usage based on RFC3280 TLS rules.
 config: remote-cert-tls client|server</seg></tuv>
-      <tuv xml:lang="sv"><seg>Begär att motpartscertifikatet var signerat med en explicit nyckelanvändning och en utökad nyckel baserade på RFC3280 TLS-regler.
+      <tuv xml:lang="sv"><seg>Kräv att motpartscertifikatet har en uttrycklig nyckelanvändning och en utökad nyckelanvändning enligt RFC 3280:s TLS-regler.
 konfig: remote-cert-tls client|server</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>_Verify peer (server) certificate nsCertType designation</seg></tuv>
-      <tuv xml:lang="sv"><seg>_Verifiera nsCertType-angivning för certifikat för motpart (server)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Verifiera nsCertType-angivelsen i _motpartens certifikat</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Require that peer certificate was signed with an explicit nsCertType designation.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Begär att motpartscertifikatet var signerat med en explicit nsCertType-angivning.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kräv att motpartscertifikatet har en uttrycklig nsCertType-angivelse.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>_Remote peer certificate nsCert designation</seg></tuv>
-      <tuv xml:lang="sv"><seg>nsCert-angivning fö_r avlägset motpartscertifikat</seg></tuv>
+      <tuv xml:lang="sv"><seg>nsCert-klassificering för _fjärrmotpartens certifikat</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Require that peer certificate was signed with an explicit nsCertType designation.
 config: ns-cert-type client|server</seg></tuv>
-      <tuv xml:lang="sv"><seg>Begär att motpartscertifikatet var signerat med en explicit nsCertType-angivning.
+      <tuv xml:lang="sv"><seg>Kräv en uttrycklig nsCertType-angivelse i motpartscertifikatet.
 konfig: ns-cert-type client|server</seg></tuv>
     </tu>
     <tu>
@@ -110132,7 +110132,7 @@ konfig: ns-cert-type client|server</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Add an additional layer of HMAC authentication on top of the TLS control channel to protect against DoS attacks. In case of TLS-Crypt mode, the control channel is also encrypted.
 config: tls-auth &lt;file&gt; [direction] | tls-crypt &lt;file&gt;</seg></tuv>
-      <tuv xml:lang="sv"><seg>Lägg till ett ytterligare lager med HMAC-autentisering ovanpå TLS-kontrollkanalen som skydd mot DoS-attacker. Vad gäller TLS-Crypt-läge så krypteras också kontrollkanalen.
+      <tuv xml:lang="sv"><seg>Lägg till ett lager av HMAC-autentisering ovanpå TLS-kontrollkanalen som skydd mot DoS-attacker. I TLS-Crypt-läge krypteras även kontrollkanalen.
 konfig: tls-auth &lt;fil&gt; [riktning] | tls-crypt &lt;fil&gt;</seg></tuv>
     </tu>
     <tu>
@@ -110152,7 +110152,7 @@ konfig: tls-auth &lt;fil&gt; [riktning]</seg></tuv>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Add an additional layer of encryption or HMAC authentication.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Lägg till ett ytterligare lager av kryptering eller HMAC-autentisering.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lägg till ytterligare ett lager av kryptering eller HMAC-autentisering.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
@@ -110163,7 +110163,7 @@ konfig: tls-auth &lt;fil&gt; [riktning]</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Specify a file containing one or more PEM certs (concatenated together) that complete the local certificate chain.
 config: extra-certs &lt;file&gt;</seg></tuv>
-      <tuv xml:lang="sv"><seg>Specificera en fil innehållandes en eller flera PEM-certifikat (konkatenerade tillsammans) för att färdigställa den lokala certifikatskedjan.
+      <tuv xml:lang="sv"><seg>Ange en fil med ett eller flera sammanfogade PEM-certifikat som kompletterar den lokala certifikatskedjan.
 konfig: extra-certs &lt;fil&gt;</seg></tuv>
     </tu>
     <tu>
@@ -110219,7 +110219,7 @@ konfig: extra-certs &lt;fil&gt;</seg></tuv>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>If set and version is not recognized, we will only accept the highest TLS version supported by the local SSL implementation.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Om satt och versionen inte känns igen kommer vi bara acceptera den högsta TLS-versionen som stöds av den lokala SSL-implementationen.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om alternativet är aktiverat och versionen inte känns igen accepteras bara den högsta TLS-version som den lokala SSL-implementationen stöder.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
@@ -110230,7 +110230,7 @@ konfig: extra-certs &lt;fil&gt;</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Proxy type: HTTP or Socks.
 config: http-proxy or socks-proxy</seg></tuv>
-      <tuv xml:lang="sv"><seg>Proxytyp: HTTP eller Socks.
+      <tuv xml:lang="sv"><seg>Proxytyp: HTTP eller SOCKS.
 konfig: http-proxy eller socks-proxy</seg></tuv>
     </tu>
     <tu>
@@ -110259,7 +110259,7 @@ konfig: http-proxy eller socks-proxy</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Connect to remote host through a proxy with this port.
 config: http-proxy or socks-proxy</seg></tuv>
-      <tuv xml:lang="sv"><seg>Anslut till fjärrvärd genom en proxy med denna port.
+      <tuv xml:lang="sv"><seg>Anslut till fjärrvärden via en proxy med den här porten.
 konfig: http-proxy eller socks-proxy</seg></tuv>
     </tu>
     <tu>
@@ -110271,7 +110271,7 @@ konfig: http-proxy eller socks-proxy</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.
 config: http-proxy-retry or socks-proxy-retry</seg></tuv>
-      <tuv xml:lang="sv"><seg>Prova igen oändligt antal gånger vid proxyfel. Det simulerar en SIGUSR1-återställning.
+      <tuv xml:lang="sv"><seg>Försök igen utan tidsgräns när proxyfel uppstår. Det simulerar en SIGUSR1-återställning.
 konfig: http-proxy-retry eller socks-proxy-retry</seg></tuv>
     </tu>
     <tu>
@@ -110287,12 +110287,12 @@ konfig: http-proxy-retry eller socks-proxy-retry</seg></tuv>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>HTTP/Socks proxy username passed to OpenVPN when prompted for it.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Användarnamn för HTTP/Socks-proxy skickas till OpenVPN när det efterfrågas.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Användarnamn för HTTP/SOCKS-proxyn skickas till OpenVPN när det efterfrågas.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>HTTP/Socks proxy password passed to OpenVPN when prompted for it.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Lösenord för HTTP/Socks-proxy skickas till OpenVPN när det efterfrågas.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lösenord för HTTP/SOCKS-proxyn skickas till OpenVPN när det efterfrågas.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
@@ -110307,12 +110307,12 @@ konfig: http-proxy-retry eller socks-proxy-retry</seg></tuv>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Path mtu _discovery</seg></tuv>
-      <tuv xml:lang="sv"><seg>Path mtu _discovery</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sökvägs-MTU-u_pptäckt</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Connect _timeout</seg></tuv>
-      <tuv xml:lang="sv"><seg>Anslutnings_tidsgräns överskriden</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anslutnings_tidsgräns</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
@@ -110335,7 +110335,7 @@ konfig: connect-timeout &lt;n&gt; | server-poll-timeout &lt;n&gt;</seg></tuv>
       <prop type="project">gnome:NetworkManager-openvpn</prop>
       <tuv xml:lang="en"><seg>Push additional information about the client to server.
 config: push-peer-info</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sänd ytterligare information om klienten till servern.
+      <tuv xml:lang="sv"><seg>Skicka ytterligare information om klienten till servern.
 konfig: push-peer-info</seg></tuv>
     </tu>
     <tu>

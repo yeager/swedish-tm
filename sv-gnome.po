@@ -75624,8 +75624,9 @@ msgid "CPU usage"
 msgstr "Processoranvändning"
 
 #. from gnome:GIMP
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Misc"
-msgstr "Diverse"
+msgstr "Övrigt"
 
 #. from gnome:GIMP
 msgid "Miscellaneous information"
@@ -80203,8 +80204,9 @@ msgid "The advanced options dialog"
 msgstr "Dialogen för avancerade alternativ"
 
 #. from gnome:NetworkManager-fortisslvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "The NetworkManager Developers"
-msgstr "Utvecklarna av Nätverkshanteraren"
+msgstr "Utvecklarna av NetworkManager"
 
 #. from gnome:NetworkManager-fortisslvpn
 #. from gnome:reviewed/network-manager-iodine/master
@@ -80469,8 +80471,9 @@ msgid "User _name"
 msgstr "Användar_namn"
 
 #. from gnome:NetworkManager-fortisslvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "_Gateway"
-msgstr "_Gateway"
+msgstr "_Fjärrgateway"
 
 #. from gnome:NetworkManager-fortisslvpn
 #. from gnome:reviewed/networkmanager-libreswan/main
@@ -87339,12 +87342,16 @@ msgid "OpenVPN client"
 msgstr "OpenVPN-klient"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Client for OpenVPN virtual private networks"
-msgstr "Klient för OpenVPN virtuella privata nätverk"
+msgstr "Klient för virtuella privata nätverk med OpenVPN"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Support for configuring OpenVPN virtual private network connections."
-msgstr "Stöd för att konfigurera OpenVPN virtuella privata nätverksanslutningar."
+msgstr ""
+"Stöd för att konfigurera OpenVPN-anslutningar till virtuella privata "
+"nätverk."
 
 #. from gnome:NetworkManager-openvpn
 msgid "OpenVPN is a popular and flexible free-software VPN solution."
@@ -87613,8 +87620,13 @@ msgid "Maybe"
 msgstr "Kanske"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Remote gateway(s), with optional port and protocol (e.g. ovpn.corp.com:1234:tcp). You can specify multiple hosts for redundancy (use commas or spaces as delimiters).\nconfig: remote"
-msgstr "Fjärrgateway med valfri port och protokoll (till exempel ovpn.corp.com:1234:tcp). Du kan ange flera värdar för redundans (använd komma eller blanksteg som avgränsare).\nkonfig: remote"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Remote gateway(s), with optional port and protocol (e.g. ovpn.corp.com:1234:tcp). You can specify multiple hosts for redundancy (use commas or spaces as delimiters).\n"
+"config: remote"
+msgstr ""
+"Fjärrgateway (en eller flera), med valfri port och protokoll (till exempel ovpn.corp.com:1234:tcp). Du kan ange flera värdar för redundans och avgränsa dem med kommatecken eller mellanslag.\n"
+"konfig: remote"
 
 #. from gnome:NetworkManager-openvpn
 msgid "CA"
@@ -87625,8 +87637,13 @@ msgid "Password passed to OpenVPN when prompted for it.\nconfig: auth-user-pass"
 msgstr "Lösenord skickas till OpenVPN när det efterfrågas.\nkonfig: auth-user-pass"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Username passed to OpenVPN when prompted for it. If omitted, use the name of the system user that activates the connection.\nconfig: auth-user-pass"
-msgstr "Användarnamn skickas till OpenVPN när det efterfrågas. Om det utelämnas används namnet för systemanvändaren som aktiverar anslutningen.\nkonfig: auth-user-pass"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Username passed to OpenVPN when prompted for it. If omitted, use the name of the system user that activates the connection.\n"
+"config: auth-user-pass"
+msgstr ""
+"Användarnamnet skickas till OpenVPN när det efterfrågas. Om du inte anger ett användarnamn används namnet på systemanvändaren som aktiverar anslutningen.\n"
+"konfig: auth-user-pass"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Remote IP Address"
@@ -87645,8 +87662,13 @@ msgid "Static Key"
 msgstr "Statisk nyckel"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Pre-shared file for Static Key encryption mode (non-TLS).\nconfig: static <file>"
-msgstr "Förutdelad fil för krypteringsläge med statisk nyckel (icke-TLS).\nkonfig: static <fil>"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Pre-shared file for Static Key encryption mode (non-TLS).\n"
+"config: static <file>"
+msgstr ""
+"Fil med fördelad nyckel för krypteringsläget med statisk nyckel (utan TLS).\n"
+"konfig: static <fil>"
 
 #. from gnome:NetworkManager-openvpn
 msgid "IP address of the remote VPN endpoint.\nconfig: ifconfig <l> <rn>"
@@ -87657,8 +87679,15 @@ msgid "IP address of the local VPN endpoint.\nconfig: ifconfig <l> <rn>"
 msgstr "IP-adress för den lokala VPN-ändpunkten.\nkonfig: ifconfig <l> <rn>"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Direction for Static Key encryption mode (non-TLS).\nIf key direction is used, it must be the opposite of that used on the VPN peer. For example, if the peer uses “1”, this connection must use “0”. If you are unsure what value to use, contact your system administrator.\nconfig: static <file> [direction]"
-msgstr "Riktning för krypteringsläge med statisk nyckel (icke-TLS).\nOm nyckelriktning används så måste den vara motsatsen till den som används på VPN-motparten. Om exempelvis motparten använder ”1” måste denna anslutning vara ”0”. Om du är osäker vilket värde du ska använda kan du kontakta din systemadministratör.\nkonfig: static <fil> [riktning]"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Direction for Static Key encryption mode (non-TLS).\n"
+"If key direction is used, it must be the opposite of that used on the VPN peer. For example, if the peer uses “1”, this connection must use “0”. If you are unsure what value to use, contact your system administrator.\n"
+"config: static <file> [direction]"
+msgstr ""
+"Riktning för krypteringsläget med statisk nyckel (utan TLS).\n"
+"Om en nyckelriktning används måste den vara motsatt den som används av VPN-motparten. Om motparten till exempel använder ”1” måste den här anslutningen använda ”0”. Kontakta systemadministratören om du är osäker på vilket värde du ska använda.\n"
+"konfig: static <fil> [riktning]"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Select an authentication mode."
@@ -87677,24 +87706,36 @@ msgid "OpenVPN Advanced Options"
 msgstr "Avancerade alternativ för OpenVPN"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Use custom gateway p_ort"
-msgstr "Använd anpassad gatewayp_ort"
+msgstr "Använd en anpassad gatewayp_ort"
 
 #. from gnome:NetworkManager-openvpn
-msgid "TCP/UDP port number for peer. (Default value when there is no port for gateway).\nconfig: port"
-msgstr "TCP/UDP-portnummer för motpart. (Standardvärde för när det inte finns en port för gateway).\nkonfig: port"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"TCP/UDP port number for peer. (Default value when there is no port for gateway).\n"
+"config: port"
+msgstr ""
+"TCP/UDP-portnummer för motparten. (Standardvärde när ingen port har angetts för gatewayen.)\n"
+"konfig: port"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Use custom _renegotiation interval"
 msgstr "Använd anpassat intervall för _omförhandling"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Renegotiate data channel key after the specified number of seconds.\nconfig: reneg-sec"
-msgstr "Omförhandla nyckel för datakanal efter angivet antal sekunder.\nkonfig: reneg-sec"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Renegotiate data channel key after the specified number of seconds.\n"
+"config: reneg-sec"
+msgstr ""
+"Omförhandla nyckeln för datakanalen efter angivet antal sekunder.\n"
+"konfig: reneg-sec"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "_Data compression"
-msgstr "Data_komprimering"
+msgstr "_Datakomprimering"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Use fast LZO compression.\nconfig: comp-lzo"
@@ -87709,132 +87750,231 @@ msgid "Use a _TCP connection"
 msgstr "Använd en _TCP-anslutning"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Use TCP for communicating with remote host.\n(This is a default setting only used when no protocol is specified for the gateway.)\nconfig: proto tcp-client | udp"
-msgstr "Använd TCP för kommunikation med fjärrvärd.\n(Standardinställning som endast används när inget protokoll är angivet för gateway.)\nkonfig: proto tcp-client | udp"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Use TCP for communicating with remote host.\n"
+"(This is a default setting only used when no protocol is specified for the gateway.)\n"
+"config: proto tcp-client | udp"
+msgstr ""
+"Använd TCP för kommunikation med fjärrvärden.\n"
+"(Används som standard bara när gatewayen saknar angivet protokoll.)\n"
+"konfig: proto tcp-client | udp"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Set _virtual device type"
 msgstr "Sätt virtuell _enhetstyp"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Explicitly set virtual device type and name (TUN/TAP)."
-msgstr "Sätt explicit virtuell enhetstyp och namn (TUN/TAP)."
+msgstr "Ange uttryckligen typ och namn på den virtuella enheten (TUN/TAP)."
 
 #. from gnome:NetworkManager-openvpn
-msgid "Explicitly set virtual device type (TUN/TAP).\nconfig: dev-type tun | tap"
-msgstr "Sätt explicit virtuell enhetstyp (TUN/TAP).\nkonfig: dev-type tun | tap"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Explicitly set virtual device type (TUN/TAP).\n"
+"config: dev-type tun | tap"
+msgstr ""
+"Ange uttryckligen typ av virtuell enhet (TUN/TAP).\n"
+"konfig: dev-type tun | tap"
 
 #. from gnome:NetworkManager-openvpn
 msgid " and _name"
 msgstr " och _namn"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Use custom name for TUN/TAP virtual device (instead of default “tun” or “tap”).\nconfig: dev <name>"
-msgstr "Använd anpassat namn för virtuell TUN/TAP-enhet (istället för standard ”tun” eller ”tap”).\nkonfig: dev <namn>"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Use custom name for TUN/TAP virtual device (instead of default “tun” or “tap”).\n"
+"config: dev <name>"
+msgstr ""
+"Använd ett anpassat namn på den virtuella TUN/TAP-enheten i stället för standardnamnet ”tun” eller ”tap”.\n"
+"konfig: dev <namn>"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Use custom tunnel Maximum Transmission _Unit (MTU)"
-msgstr "Använd anpassad Maximum Transmission Unit (MTU) för _tunneln"
+msgstr "Använd anpassad maximal överföringsenhet (MTU) för _tunneln"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Take the TUN device MTU to be the specified value and derive the link MTU from it.\nconfig: tun-mtu"
-msgstr "Sätt TUN-enhetens MTU till det specificerade värdet och härled länk-MTU från det.\nkonfig: tun-mtu"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Take the TUN device MTU to be the specified value and derive the link MTU from it.\n"
+"config: tun-mtu"
+msgstr ""
+"Sätt TUN-enhetens MTU till det angivna värdet och härled länkens MTU från det.\n"
+"konfig: tun-mtu"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Use custom UDP _fragment size"
 msgstr "Använd anpassad storlek på UDP-_fragment"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Enable internal datagram fragmentation with this maximum size.\nconfig: fragment"
-msgstr "Aktivera intern datagramfragmentering med denna maximala storlek.\nkonfig: fragment"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Enable internal datagram fragmentation with this maximum size.\n"
+"config: fragment"
+msgstr ""
+"Aktivera intern datagramfragmentering med den här maximala storleken.\n"
+"konfig: fragment"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
-msgstr "Begränsa TCP Maximum _Segment Size (MSS) för tunneln"
+msgstr "Begränsa TCP:s maximala _segmentstorlek (MSS) för tunneln"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Restrict tunnel TCP MSS.\nconfig: mssfix"
-msgstr "Begränsa tunnel TCP MSS.\nkonfig: mssfix"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Restrict tunnel TCP MSS.\n"
+"config: mssfix"
+msgstr ""
+"Begränsa TCP-MSS för tunneln.\n"
+"konfig: mssfix"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Rando_mize remote hosts"
 msgstr "Slump_a fjärrvärdar"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Randomize the order of gateways list (remote) as a kind of basic load-balancing measure.\nconfig: remote-random"
-msgstr "Gör sorteringen för listan över (fjärr)gateways slumpmässiga som en typ av grundläggande lastbalanseringsåtgärd.\nkonfig: remote-random"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Randomize the order of gateways list (remote) as a kind of basic load-balancing measure.\n"
+"config: remote-random"
+msgstr ""
+"Slumpa ordningen på fjärrvärdarna som en enkel form av lastbalansering.\n"
+"konfig: remote-random"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Allo_w Pull FQDN"
-msgstr "_Tillåt dragning av FQDN"
+msgstr "_Tillåt hämtning av FQDN"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Allow client to pull DNS names from server\nconfig: allow-pull-fqdn"
-msgstr "Tillåt klient att dra DNS-namn från server\nkonfig: allow-pull-fqdn"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Allow client to pull DNS names from server\n"
+"config: allow-pull-fqdn"
+msgstr ""
+"Tillåt klienten att hämta DNS-namn från servern\n"
+"konfig: allow-pull-fqdn"
 
 #. from gnome:NetworkManager-openvpn
 msgid "_Prefix remote DNS name with random string"
 msgstr "Sätt slum_pmässig sträng som prefix till fjärr-DNS-namn"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Adds a random string to remote DNS name to avoid DNS caching.\nconfig: remote-random-hostname"
-msgstr "Lägger till en slumpmässig sträng till fjärr-DNS-namn för att undvika DNS-cachning.\nkonfig: remote-random-hostname"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Adds a random string to remote DNS name to avoid DNS caching.\n"
+"config: remote-random-hostname"
+msgstr ""
+"Lägger till en slumpmässig sträng framför fjärrvärdens DNS-namn för att undvika DNS-cachelagring.\n"
+"konfig: remote-random-hostname"
 
 #. from gnome:NetworkManager-openvpn
 msgid "_IPv6 tun link"
 msgstr "_IPv6-tun-länk"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Build a tun link capable of forwarding IPv6 traffic\nconfig: tun-ipv6"
-msgstr "Bygg en tun-länk kapabel att vidarebefordra IPv6-trafik\nkonfig: tun-ipv6"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Build a tun link capable of forwarding IPv6 traffic\n"
+"config: tun-ipv6"
+msgstr ""
+"Skapa en tun-länk som kan vidarebefordra IPv6-trafik\n"
+"konfig: tun-ipv6"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Specify pin_g interval"
-msgstr "Ange pin_g-intervall"
+msgstr "Ange pin_gintervall"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Ping remote over the TCP/UDP control channel if no packets have been sent for at least n seconds.\nconfig: ping <n>"
-msgstr "Skicka ping till mottagaren över TCP/UDP-kontrollkanalen om inga paket har skickats under minst de senaste n sekunderna.\nkonfig: ping <n>"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Ping remote over the TCP/UDP control channel if no packets have been sent for at least n seconds.\n"
+"config: ping <n>"
+msgstr ""
+"Skicka ping till fjärrmotparten via TCP/UDP-kontrollkanalen om inga paket har skickats på minst n sekunder.\n"
+"konfig: ping <n>"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Specify _exit or restart ping"
-msgstr "Ange _exit eller starta om ping"
+msgstr "Ange _avslut eller omstart vid utebliven ping"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Exit or restart after n seconds pass without reception of a ping or other packet from remote.\nconfig: ping-exit | ping-restart <n>"
-msgstr "Avsluta eller starta om efter att n sekunder passerat utan att ha tagit emot en ping eller ett annat paket från fjärr.\nkonfig: ping-exit | ping-restart <n>"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Exit or restart after n seconds pass without reception of a ping or other packet from remote.\n"
+"config: ping-exit | ping-restart <n>"
+msgstr ""
+"Avsluta eller starta om efter n sekunder utan att ta emot ping eller andra paket från fjärrmotparten.\n"
+"konfig: ping-exit | ping-restart <n>"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Accept authenticated packets from any address (F_loat)"
 msgstr "Acceptera autentiserade paket från alla adresser (F_loat)"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Allow remote peer to change its IP address and/or port number, such as due to DHCP (this is the default if --remote is not used). --float when specified with --remote allows an OpenVPN session to initially connect to a peer at a known address, however if packets arrive from a new address and pass all authentication tests, the new address will take control of the session. This is useful when you are connecting to a peer which holds a dynamic address such as a dial-in user or DHCP client.\n\nEssentially, --float tells OpenVPN to accept authenticated packets from any address, not only the address which was specified in the --remote option.\n\nconfig: float"
-msgstr "Tillåt fjärrmotpart att ändra dess IP-adress och/eller portnummer, som till exempel beroende på DHCP (standard om inte --remote används). Då --float anges med --remote möjliggörs för en OpenVPN-session att initialt ansluta till en motpart på en känd adress, men om paket inkommer från en ny adress och klarar alla autentiseringstester kommer den nya adressen att ta kontroll över sessionen. Detta är användbart när du ansluter till en motpart som håller en dynamisk adress såsom en uppringd klient eller DHCP-klient.\n\nI princip gör --float att OpenVPN accepterar autentiserade paket från alla adresser, inte bara den adress som angavs i flaggan --remote.\n\nkonfig: float"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Allow remote peer to change its IP address and/or port number, such as due to DHCP (this is the default if --remote is not used). --float when specified with --remote allows an OpenVPN session to initially connect to a peer at a known address, however if packets arrive from a new address and pass all authentication tests, the new address will take control of the session. This is useful when you are connecting to a peer which holds a dynamic address such as a dial-in user or DHCP client.\n"
+"\n"
+"Essentially, --float tells OpenVPN to accept authenticated packets from any address, not only the address which was specified in the --remote option.\n"
+"\n"
+"config: float"
+msgstr ""
+"Tillåt fjärrmotparten att ändra sin IP-adress och/eller port, till exempel vid DHCP (detta är standard om --remote inte används). När --float anges tillsammans med --remote kan en OpenVPN-session först ansluta till en motpart på en känd adress. Om paket sedan kommer från en ny adress och klarar alla autentiseringstester tar den nya adressen över sessionen. Detta är användbart när du ansluter till en motpart med dynamisk adress, till exempel en uppringd användare eller DHCP-klient.\n"
+"\n"
+"Med --float accepterar OpenVPN autentiserade paket från vilken adress som helst, inte bara från adressen som angetts med --remote.\n"
+"\n"
+"konfig: float"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Specify ma_x routes"
 msgstr "An_ge högsta antal rutter"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Specify the maximum number of routes the server is allowed to specify.\nconfig: max-routes <n>"
-msgstr "Ange högsta antal rutter servern får specificera.\nkonfig: max-routes <n>"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Specify the maximum number of routes the server is allowed to specify.\n"
+"config: max-routes <n>"
+msgstr ""
+"Ange hur många rutter servern som mest får skicka.\n"
+"konfig: max-routes <n>"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in Cipher Block Chaining mode).\nconfig: cipher"
-msgstr "Kryptera paket med chifferalgoritm. Standard är BF-CBC (Blowfish i Cipher Block Chaining-läge).\nkonfig: cipher"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in Cipher Block Chaining mode).\n"
+"config: cipher"
+msgstr ""
+"Kryptera paket med en chifferalgoritm. Standard är BF-CBC (Blowfish i Cipher Block Chaining-läge).\n"
+"konfig: cipher"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Use custom _size of cipher key"
 msgstr "Använd anpassad _storlek på chiffernyckel"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Set cipher key size to a custom value. If unspecified, it defaults to cipher-specific size.\nconfig: keysize <n>"
-msgstr "Sätt chiffernyckel till ett anpassat värde. Om ospecificerat, är standard chifferspecifik storlek\nkonfig: keysize <n>"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Set cipher key size to a custom value. If unspecified, it defaults to cipher-specific size.\n"
+"config: keysize <n>"
+msgstr ""
+"Ange en anpassad storlek på chiffernyckeln. Om den inte anges används chifferalgoritmens standardstorlek.\n"
+"konfig: keysize <n>"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Authenticate packets with HMAC using message digest algorithm. The default is SHA1.\nconfig: auth"
-msgstr "Autentisera paket med HMAC tillsammans med message digest-algoritm. Standard är SHA1.\nkonfig: auth"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Authenticate packets with HMAC using message digest algorithm. The default is SHA1.\n"
+"config: auth"
+msgstr ""
+"Autentisera paket med HMAC och en hashalgoritm. Standardalgoritmen är SHA1.\n"
+"konfig: auth"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Ci_pher"
@@ -87853,8 +87993,13 @@ msgid "Configure a cipher that is used to fall back to if we could not determine
 msgstr "Konfigurera ett chiffer som används som reserv om vi inte kunde avgöra vilket chiffer motparten är redo att använda.\nkonfig: data-ciphers-fallback"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Restrict the allowed ciphers to be negotiated to the ciphers in cipher-list. cipher-list is a colon-separated list of ciphers like AES-256-GCM:AES-128-GCM.\nconfig: data-ciphers"
-msgstr "Begränsa de tillåtna chiffren att förhandla till chiffren i cipher-list. cipher-list är en kolonseparerad lista över chiffer som AES-256-GCM:AES-128-GCM.\nkonfig: data-ciphers"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Restrict the allowed ciphers to be negotiated to the ciphers in cipher-list. cipher-list is a colon-separated list of ciphers like AES-256-GCM:AES-128-GCM.\n"
+"config: data-ciphers"
+msgstr ""
+"Begränsa vilka chiffer som får förhandlas till dem som anges i chifferlistan. Chifferlistan är kolonseparerad, till exempel AES-256-GCM:AES-128-GCM.\n"
+"konfig: data-ciphers"
 
 #. from gnome:NetworkManager-openvpn
 msgid "_HMAC Authentication"
@@ -87873,72 +88018,145 @@ msgid "Verify CRL from _file"
 msgstr "Verifiera CRL från _fil"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Check peer certificate against the specified file in PEM format. A CRL (certificate revocation list) is used when a particular key is compromised but when the overall PKI is still intact."
-msgstr "Kontrollera motpartscertifikat mot den specificerade filen i PEM-format. En CRL (certificate revocation list) används när en specifik nyckel är komprometterad men när PKI fortfarande är intakt."
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Check peer certificate against the specified file in PEM format. A CRL "
+"(certificate revocation list) is used when a particular key is compromised "
+"but when the overall PKI is still intact."
+msgstr ""
+"Kontrollera motpartscertifikatet mot den angivna filen i PEM-format. En "
+"certifikatspärrlista (CRL) används när en viss nyckel har komprometterats "
+"men resten av PKI:n fortfarande är intakt."
 
 #. from gnome:NetworkManager-openvpn
 msgid "Verify CRL from _directory"
 msgstr "Verifiera CRL från _katalog"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Check peer certificate by looking at files in the specified directory. The directory must contain files named as revoked serial numbers (the files may be empty, the contents are never read)."
-msgstr "Kontrollera motpartscertifikat genom att titta på filer i den angivna katalogen. Katalogen måste innehålla filer namngivna som indragna serienummer (filerna kan vara tomma, innehållet läses aldrig)."
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Check peer certificate by looking at files in the specified directory. The "
+"directory must contain files named as revoked serial numbers (the files may "
+"be empty, the contents are never read)."
+msgstr ""
+"Kontrollera motpartscertifikatet mot filerna i den angivna katalogen. "
+"Katalogen måste innehålla filer med återkallade serienummer som filnamn "
+"(filerna kan vara tomma; innehållet läses aldrig)."
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "_Subject Match"
-msgstr "Matc_ha följande"
+msgstr "Matchning av certifikatets _subjekt"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Subject or Common Name to verify server certificate information against.\n\nconfig: verify-x509-name subject-or-name [mode]\nconfig (legacy mode): tls-remote subject-or-name"
-msgstr "Ämne eller vanligt namn att verifiera servercertifikatsinformationen mot.\n\nkonfig: verify-x509-name ämne-eller-namn [läge]\nkonfig (föråldrat läge): tls-remote ämne-eller-namn"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Subject or Common Name to verify server certificate information against.\n"
+"\n"
+"config: verify-x509-name subject-or-name [mode]\n"
+"config (legacy mode): tls-remote subject-or-name"
+msgstr ""
+"Certifikatets subjekt eller Common Name (CN) att jämföra servercertifikatet med.\n"
+"\n"
+"konfig: verify-x509-name subject-or-name [mode]\n"
+"konfig (föråldrat läge): tls-remote subject-or-name"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Server Cert_ificate Check"
-msgstr "Servercert_ifikatkontroll"
+msgstr "Kontroll av _servercertifikat"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Verify server certificate identification.\n\nWhen enabled, connection will only succeed if the server certificate matches some expected properties.\nMatching can either apply to the whole certificate subject (all the fields),\nor just the Common Name (CN field).\n\nThe legacy option tls-remote is deprecated and removed from OpenVPN 2.4 and newer. Do not use it anymore.\n\nconfig: verify-x509-name subject-or-name [mode]\nconfig (legacy mode): tls-remote subject-or-name"
-msgstr "Verifiera servercertifikatsinformation.\n\nNär aktiverad kommer anslutningen endast att lyckas om servercertifikatet matchar några förväntade egenskaper.\nMatchning kan antingen tillämpas på hela certifikatet (alla fält),\neller bara vanligt namn (CN-fältet).\n\nFlaggan tls-remote är föråldrat och borttagen från OpenVPN 2.4 och nyare. Använd den inte.\n\nkonfig: verify-x509-name ämne-eller-namn [läge]\nkonfig (föråldrat läge): tls-remote ämne-eller-namn"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Verify server certificate identification.\n"
+"\n"
+"When enabled, connection will only succeed if the server certificate matches some expected properties.\n"
+"Matching can either apply to the whole certificate subject (all the fields),\n"
+"or just the Common Name (CN field).\n"
+"\n"
+"The legacy option tls-remote is deprecated and removed from OpenVPN 2.4 and newer. Do not use it anymore.\n"
+"\n"
+"config: verify-x509-name subject-or-name [mode]\n"
+"config (legacy mode): tls-remote subject-or-name"
+msgstr ""
+"Verifiera servercertifikatet.\n"
+"\n"
+"När alternativet är aktiverat lyckas anslutningen bara om servercertifikatet uppfyller de förväntade egenskaperna.\n"
+"Matchningen kan gälla hela certifikatets subjekt (alla fält)\n"
+"eller bara Common Name (CN-fältet).\n"
+"\n"
+"Det äldre alternativet tls-remote är föråldrat och borttaget i OpenVPN 2.4 och senare. Använd det inte.\n"
+"\n"
+"konfig: verify-x509-name subject-or-name [mode]\n"
+"konfig (föråldrat läge): tls-remote subject-or-name"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Verify peer (server) certificate _usage signature"
-msgstr "_Verifiera certifikatanvändningssignatur för motpart (server)"
+msgstr "Verifiera nyckelanvändningen i servercertifikatet för _motparten"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Require that peer certificate was signed with an explicit key usage and extended key usage based on RFC3280 TLS rules."
-msgstr "Begär att motpartscertifikatet var signerat med en explicit nyckelanvändning och en utökad nyckelanvändning baserad på regler för RFC3280 TLS."
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Require that peer certificate was signed with an explicit key usage and "
+"extended key usage based on RFC3280 TLS rules."
+msgstr ""
+"Kräv att motpartscertifikatet har uttrycklig nyckelanvändning och utökad "
+"nyckelanvändning enligt RFC 3280:s TLS-regler."
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Remote peer certificate _TLS type"
-msgstr "Avlägsen _TLS-typ för motpartscertifikat"
+msgstr "Fjärrmotpartens _TLS-certifikattyp"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Require that peer certificate was signed with an explicit key usage and extended key usage based on RFC3280 TLS rules.\nconfig: remote-cert-tls client|server"
-msgstr "Begär att motpartscertifikatet var signerat med en explicit nyckelanvändning och en utökad nyckel baserade på RFC3280 TLS-regler.\nkonfig: remote-cert-tls client|server"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Require that peer certificate was signed with an explicit key usage and extended key usage based on RFC3280 TLS rules.\n"
+"config: remote-cert-tls client|server"
+msgstr ""
+"Kräv att motpartscertifikatet har en uttrycklig nyckelanvändning och en utökad nyckelanvändning enligt RFC 3280:s TLS-regler.\n"
+"konfig: remote-cert-tls client|server"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "_Verify peer (server) certificate nsCertType designation"
-msgstr "_Verifiera nsCertType-angivning för certifikat för motpart (server)"
+msgstr "Verifiera nsCertType-angivelsen i _motpartens certifikat"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Require that peer certificate was signed with an explicit nsCertType designation."
-msgstr "Begär att motpartscertifikatet var signerat med en explicit nsCertType-angivning."
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Require that peer certificate was signed with an explicit nsCertType "
+"designation."
+msgstr "Kräv att motpartscertifikatet har en uttrycklig nsCertType-angivelse."
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "_Remote peer certificate nsCert designation"
-msgstr "nsCert-angivning fö_r avlägset motpartscertifikat"
+msgstr "nsCert-klassificering för _fjärrmotpartens certifikat"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Require that peer certificate was signed with an explicit nsCertType designation.\nconfig: ns-cert-type client|server"
-msgstr "Begär att motpartscertifikatet var signerat med en explicit nsCertType-angivning.\nkonfig: ns-cert-type client|server"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Require that peer certificate was signed with an explicit nsCertType designation.\n"
+"config: ns-cert-type client|server"
+msgstr ""
+"Kräv en uttrycklig nsCertType-angivelse i motpartscertifikatet.\n"
+"konfig: ns-cert-type client|server"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Key _Direction"
 msgstr "Nyckel_riktning"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Add an additional layer of HMAC authentication on top of the TLS control channel to protect against DoS attacks. In case of TLS-Crypt mode, the control channel is also encrypted.\nconfig: tls-auth <file> [direction] | tls-crypt <file>"
-msgstr "Lägg till ett ytterligare lager med HMAC-autentisering ovanpå TLS-kontrollkanalen som skydd mot DoS-attacker. Vad gäller TLS-Crypt-läge så krypteras också kontrollkanalen.\nkonfig: tls-auth <fil> [riktning] | tls-crypt <fil>"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Add an additional layer of HMAC authentication on top of the TLS control channel to protect against DoS attacks. In case of TLS-Crypt mode, the control channel is also encrypted.\n"
+"config: tls-auth <file> [direction] | tls-crypt <file>"
+msgstr ""
+"Lägg till ett lager av HMAC-autentisering ovanpå TLS-kontrollkanalen som skydd mot DoS-attacker. I TLS-Crypt-läge krypteras även kontrollkanalen.\n"
+"konfig: tls-auth <fil> [riktning] | tls-crypt <fil>"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Direction parameter for static key mode.\nIf key direction is used, it must be the opposite of that used on the VPN peer. For example, if the peer uses “1”, this connection must use “0”. If you are unsure what value to use, contact your system administrator.\nconfig: tls-auth <file> [direction]"
@@ -87949,16 +88167,23 @@ msgid "Key _File"
 msgstr "Nyckel_fil"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Add an additional layer of encryption or HMAC authentication."
-msgstr "Lägg till ett ytterligare lager av kryptering eller HMAC-autentisering."
+msgstr ""
+"Lägg till ytterligare ett lager av kryptering eller HMAC-autentisering."
 
 #. from gnome:NetworkManager-openvpn
 msgid "_Extra Certificates"
 msgstr "_Extracertifikat"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Specify a file containing one or more PEM certs (concatenated together) that complete the local certificate chain.\nconfig: extra-certs <file>"
-msgstr "Specificera en fil innehållandes en eller flera PEM-certifikat (konkatenerade tillsammans) för att färdigställa den lokala certifikatskedjan.\nkonfig: extra-certs <fil>"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Specify a file containing one or more PEM certs (concatenated together) that complete the local certificate chain.\n"
+"config: extra-certs <file>"
+msgstr ""
+"Ange en fil med ett eller flera sammanfogade PEM-certifikat som kompletterar den lokala certifikatskedjan.\n"
+"konfig: extra-certs <fil>"
 
 #. from gnome:NetworkManager-openvpn
 msgid "TLS ci_pher string"
@@ -88001,16 +88226,26 @@ msgid "_or highest"
 msgstr "_eller högsta"
 
 #. from gnome:NetworkManager-openvpn
-msgid "If set and version is not recognized, we will only accept the highest TLS version supported by the local SSL implementation."
-msgstr "Om satt och versionen inte känns igen kommer vi bara acceptera den högsta TLS-versionen som stöds av den lokala SSL-implementationen."
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"If set and version is not recognized, we will only accept the highest TLS "
+"version supported by the local SSL implementation."
+msgstr ""
+"Om alternativet är aktiverat och versionen inte känns igen accepteras bara "
+"den högsta TLS-version som den lokala SSL-implementationen stöder."
 
 #. from gnome:NetworkManager-openvpn
 msgid "TLS Authentication"
 msgstr "TLS-autentisering"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Proxy type: HTTP or Socks.\nconfig: http-proxy or socks-proxy"
-msgstr "Proxytyp: HTTP eller Socks.\nkonfig: http-proxy eller socks-proxy"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Proxy type: HTTP or Socks.\n"
+"config: http-proxy or socks-proxy"
+msgstr ""
+"Proxytyp: HTTP eller SOCKS.\n"
+"konfig: http-proxy eller socks-proxy"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Proxy _Type"
@@ -88029,16 +88264,26 @@ msgid "Connect to remote host through a proxy with this address.\nconfig: http-p
 msgstr "Anslut till fjärrvärd genom en proxy med denna adress.\nkonfig: http-proxy eller socks-proxy"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Connect to remote host through a proxy with this port.\nconfig: http-proxy or socks-proxy"
-msgstr "Anslut till fjärrvärd genom en proxy med denna port.\nkonfig: http-proxy eller socks-proxy"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Connect to remote host through a proxy with this port.\n"
+"config: http-proxy or socks-proxy"
+msgstr ""
+"Anslut till fjärrvärden via en proxy med den här porten.\n"
+"konfig: http-proxy eller socks-proxy"
 
 #. from gnome:NetworkManager-openvpn
 msgid "_Retry indefinitely when errors occur"
 msgstr "_Försök oändligt antal gånger när fel uppstår"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\nconfig: http-proxy-retry or socks-proxy-retry"
-msgstr "Prova igen oändligt antal gånger vid proxyfel. Det simulerar en SIGUSR1-återställning.\nkonfig: http-proxy-retry eller socks-proxy-retry"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+"config: http-proxy-retry or socks-proxy-retry"
+msgstr ""
+"Försök igen utan tidsgräns när proxyfel uppstår. Det simulerar en SIGUSR1-återställning.\n"
+"konfig: http-proxy-retry eller socks-proxy-retry"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Proxy _Username"
@@ -88049,12 +88294,16 @@ msgid "Proxy Passwor_d"
 msgstr "Lösenor_d för proxy"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "HTTP/Socks proxy username passed to OpenVPN when prompted for it."
-msgstr "Användarnamn för HTTP/Socks-proxy skickas till OpenVPN när det efterfrågas."
+msgstr ""
+"Användarnamn för HTTP/SOCKS-proxyn skickas till OpenVPN när det efterfrågas."
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "HTTP/Socks proxy password passed to OpenVPN when prompted for it."
-msgstr "Lösenord för HTTP/Socks-proxy skickas till OpenVPN när det efterfrågas."
+msgstr ""
+"Lösenord för HTTP/SOCKS-proxyn skickas till OpenVPN när det efterfrågas."
 
 #. from gnome:NetworkManager-openvpn
 msgid "_Show password"
@@ -88065,12 +88314,14 @@ msgid "Proxies"
 msgstr "Proxyservrar"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Path mtu _discovery"
-msgstr "Path mtu _discovery"
+msgstr "Sökvägs-MTU-u_pptäckt"
 
 #. from gnome:NetworkManager-openvpn
+#. from gnome:reviewed/NetworkManager-openvpn/main
 msgid "Connect _timeout"
-msgstr "Anslutnings_tidsgräns överskriden"
+msgstr "Anslutnings_tidsgräns"
 
 #. from gnome:NetworkManager-openvpn
 msgid "The timeout in seconds before trying the next server. This timeout includes proxy and TCP connect timeouts.\nconfig: connect-timeout <n> | server-poll-timeout <n>"
@@ -88085,8 +88336,13 @@ msgid "_Push peer info"
 msgstr "_Sänd motpartsinfo"
 
 #. from gnome:NetworkManager-openvpn
-msgid "Push additional information about the client to server.\nconfig: push-peer-info"
-msgstr "Sänd ytterligare information om klienten till servern.\nkonfig: push-peer-info"
+#. from gnome:reviewed/NetworkManager-openvpn/main
+msgid ""
+"Push additional information about the client to server.\n"
+"config: push-peer-info"
+msgstr ""
+"Skicka ytterligare information om klienten till servern.\n"
+"konfig: push-peer-info"
 
 #. from gnome:NetworkManager-openvpn
 msgid "Choose an OpenVPN static key…"
