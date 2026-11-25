@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T081024Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T081411Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -596889,6 +596889,31 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The output will be of the input variables and the output variables that were variables tab of the Simulation window . For the input variables, the output will be the statistics of the random variable used in modeling the input variables. For the output variables, the statistics will be of the output variable. These statistics, in particular the standard deviation and confidence interval, should be examined to ensure the simulation was at a precision adequate for the purpose. Some notes on how to use these statistics for refining the simulation design can be found in &lt;xref linkend="sect-advanced-analysis-simulation-iterations"/&gt;.</seg></tuv>
       <tuv xml:lang="sv"><seg>Rapporten innehåller variablerna för indata och utdata som har angetts på fliken Variabler i simuleringsfönstret. För variablerna för indata visas statistiken för de slumpvariabler som användes för att modellera indata. För variablerna för utdata visas statistik för själva utdata. Granska särskilt standardavvikelsen och konfidensintervallet för att bedöma om simuleringen har tillräcklig precision. Råd om hur statistiken kan användas för att förfina simuleringen finns i &lt;xref linkend="sect-advanced-analysis-simulation-iterations"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Take the sample variance &lt;inlineequation&gt; &lt;_:alt-1/&gt; &lt;_:mathphrase-2/&gt; &lt;/inlineequation&gt; from the simulation output spreadsheet and determine the sample standard deviation &lt;inlineequation&gt; &lt;_:alt-3/&gt; &lt;_:mathphrase-4/&gt; &lt;/inlineequation&gt; (see &lt;xref linkend="fig-analysis-simulation-report-screen"/&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hämta stickprovsvariansen &lt;inlineequation&gt; &lt;_:alt-1/&gt; &lt;_:mathphrase-2/&gt; &lt;/inlineequation&gt; från simuleringsrapportens kalkylblad och beräkna stickprovsstandardavvikelsen &lt;inlineequation&gt; &lt;_:alt-3/&gt; &lt;_:mathphrase-4/&gt; &lt;/inlineequation&gt; (se &lt;xref linkend="fig-analysis-simulation-report-screen"/&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>R is greater than equal to z of alpha divided by 2, times standard deviation, divided by epsilon. Quantity squared.</seg></tuv>
+      <tuv xml:lang="sv"><seg>R är större än eller lika med z för alfa delat med två, multiplicerat med standardavvikelsen och dividerat med epsilon, allt i kvadrat.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Taking the variance of the table, and setting &lt;inlineequation&gt; &lt;_:alt-1/&gt; &lt;_:mathphrase-2/&gt; &lt;/inlineequation&gt; and &lt;inlineequation&gt; &lt;_:alt-3/&gt; &lt;_:mathphrase-4/&gt; &lt;/inlineequation&gt;, lookup &lt;inlineequation&gt; &lt;_:alt-5/&gt; &lt;_:mathphrase-6/&gt; &lt;/inlineequation&gt; from a standard normal table. &lt;inlineequation&gt; &lt;_:alt-7/&gt; &lt;_:mathphrase-8/&gt; &lt;/inlineequation&gt; so we have</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utifrån tabellens varians, och med &lt;inlineequation&gt; &lt;_:alt-1/&gt; &lt;_:mathphrase-2/&gt; &lt;/inlineequation&gt; samt &lt;inlineequation&gt; &lt;_:alt-3/&gt; &lt;_:mathphrase-4/&gt; &lt;/inlineequation&gt;, slår vi upp &lt;inlineequation&gt; &lt;_:alt-5/&gt; &lt;_:mathphrase-6/&gt; &lt;/inlineequation&gt; i en tabell över standardnormalfördelningen. &lt;inlineequation&gt; &lt;_:alt-7/&gt; &lt;_:mathphrase-8/&gt; &lt;/inlineequation&gt; Därmed får vi</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Therefore, the minimum number of iterations is 3857. The simulation can then be re-run with 3857 iterations to create a 95% c.i for profit where &lt;inlineequation&gt; &lt;_:alt-1/&gt; &lt;_:mathphrase-2/&gt; &lt;/inlineequation&gt; In this example with 3857 iterations, we get the following Simulation Report table:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Därför behövs minst 3 857 iterationer. Kör simuleringen igen med 3 857 iterationer för att få ett 95 % konfidensintervall för vinsten, där &lt;inlineequation&gt; &lt;_:alt-1/&gt; &lt;_:mathphrase-2/&gt; &lt;/inlineequation&gt; gäller. Med 3 857 iterationer får vi följande tabell i Simulationsrapporten:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>As expected, the 95% Confidence interval for Profit is less than 0.05. For the newsvendor example, the next step would be to look at the confidence intervals of the profit for all values of purchase quantity, and verify that this confidence interval is adequate for the decision to be made.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Som väntat är det 95 % konfidensintervallet för vinsten mindre än 0,05. Nästa steg i exemplet med tidningsförsäljning är att granska konfidensintervallen för vinsten vid alla inköpsmängder och kontrollera att intervallet ger tillräcklig precision för beslutet.</seg></tuv>
     </tu>
   </body>
 </tmx>
