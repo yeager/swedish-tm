@@ -192,3 +192,13 @@ Batch 181:
 - **ASCII-kodad / TeX-kommentarer / Oleo-projektet** — valid technical compounds containing fixed format/project names.
 - **Book1.tex / Book1.pdf / HTML / Hypertext Markup Language / Markup / table** — literal example filenames, canonical language/format names, and the HTML `<table>` element.
 - **GNU Oleo / VisiCalc / JWorkbook / Applixware / Mozilla** — product and project names preserved from the source.
+
+Batch 182:
+
+- **LaTeX / TeX / LaTeX-makron** — typesetting language and technical macro name.
+- **\\usepackage, \\def, \\input, \\documentclass, \\begin, \\end, \\gnumeric* macros, longtable, lscape, UCS, inputenc, hhline, multirow, array, color, calc, ifthen** — literal code examples; preserved exactly.
+- **MPS / .mps / ASCII-kodat / International Business Machines Corporation** — file format, extension, encoding and company name.
+- **MIPLIB / Argonne National Laboratory / Bruce A. Murtagh / J. L. Nazareth / Murtagh / Nazareth** — project, institution and author names.
+- **NAME / ROWS / COLUMNS / RHS / RANGES / BOUNDS / ENDATA / Field / Columns / type / bound / value / row / name / range** — MPS syntax and column labels in the verbatim template.
+- **Lotus 1-2-3 / Lotus SmartSuite / SpreadsheetML / ZIP** — product and format names. `l10n-lint`'s two dash warnings for Lotus 1-2-3 are retained as required by the product name.
+- `l10n-lint` also reports one repeated `RHS` and one numeric-range dash warning in the exact MPS syntax block; both are part of the required sample and remain unchanged.
