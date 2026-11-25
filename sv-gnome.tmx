@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T135717Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T140133Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -603659,6 +603659,106 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>This area presents a number of icons which change depending on the plot type that has been selected. Certain icons represent plot sub-types, for example, distinguishing plots with columns that are side by side from plots with stacked columns. Other icons represent different plot styles, for example distinguishing line plots in which each data point is labeled with a graphical symbol from line plots where data points do not have any symbol. The highlight box around one icon indicates which icon is currently chosen.</seg></tuv>
       <tuv xml:lang="sv"><seg>Ikonerna här varierar med vald diagramtyp. Vissa visar undertyper, exempelvis kolumndiagram med grupperade respektive staplade kolumner. Andra visar diagramstilar, exempelvis om datapunkterna i ett linjediagram markeras med symboler eller inte. Ramen runt en ikon visar vilken stil som är vald.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This screenshot shows a worksheet with a table of data with two series, each with three lists of numeric values. The screenshot also shows a bubble plot made from these two series.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmbilden visar ett kalkylblad med en datatabell med två serier, var och en med tre listor med talvärden. Den visar också ett bubbeldiagram som skapats utifrån serierna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Each series in a bubble plot can include four main components and four optional error components. The series may have a name, a single text value which will identify the series in the graph guru and in any legend attached to the chart. The series must have two lists of quantitative values, a list of X values and a list of Y values, which must have an equal number of elements. The series must also have a list, with the same number of elements, whose values will determine the size of the circles drawn at each point. The series may have lists of error components for the X values or the Y values and for positive or negative errors.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Varje serie i ett bubbeldiagram kan ha fyra grundkomponenter och fyra valfria felkomponenter. Serien kan ha ett namn, alltså ett textvärde som identifierar den i Diagramguiden och i diagrammets förklaring. Den måste ha två lika långa listor med talvärden: en med X-värden och en med Y-värden. Den måste också ha en lika lång lista med värden som anger storleken på cirklarna vid punkterna. Serien kan dessutom ha listor med positiva och negativa felvärden för X- eller Y-värdena.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The data in each bubble series</seg></tuv>
+      <tuv xml:lang="sv"><seg>Data i dataserierna för bubbeldiagram</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A single textual element labeling the data series.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett textvärde som namnger dataserien.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A list of numeric values, which will place the values along the horizontal axis.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En lista med talvärden som placerar punkterna längs den vågräta axeln.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A second list of numeric values, which will place the values along the vertical axis.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En andra lista med talvärden som placerar punkterna längs den lodräta axeln.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A series of numeric values, which will determine the size of each circle drawn at the points.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En lista med talvärden som anger storleken på cirkeln vid varje punkt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>X Error (+)</seg></tuv>
+      <tuv xml:lang="sv"><seg>X-fel (+)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A list of numeric values with as many elements as there were in the 'X' list. These values can be in the same units as the numeric values in the 'X' list, can be proportions or can be proportions multiplied by one hundred.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En lista med lika många talvärden som X-listan. Värdena kan ha samma enhet som X-värdena, anges som andelar eller som andelar multiplicerade med 100.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>X Error (-)</seg></tuv>
+      <tuv xml:lang="sv"><seg>X-fel (−)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A list of numeric values with as many elements as there were in the 'X' list. These values can be in the same units as the numeric values in the 'Value' list, can be proportions or can be proportions multiplied by one hundred.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En lista med lika många talvärden som X-listan. Värdena kan ha samma enhet som värdena i listan Värde, anges som andelar eller som andelar multiplicerade med 100.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Y Error (+)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Y-fel (+)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>A list of numeric values with as many elements as there were in the 'Y' list, and therefore in the 'X' list. These values can be in the same units as the numeric values in the 'Y' list, can be proportions or can be proportions multiplied by one hundred.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En lista med lika många talvärden som Y-listan och därmed X-listan. Värdena kan ha samma enhet som Y-värdena, anges som andelar eller som andelar multiplicerade med 100.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Y Error (-)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Y-fel (−)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Bubble plots have a single icon for the plot style.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bubbeldiagram har bara en ikon för diagramstilen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The icon for bubble plots</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ikonen för bubbeldiagram</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/chart_bubble_1_1.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt; The icon for a bubble plot. &lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;inlinemediaobject&gt; &lt;imageobject&gt; &lt;imagedata fileref="figures/chart_bubble_1_1.png"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Ikonen för ett bubbeldiagram.&lt;/phrase&gt; &lt;/textobject&gt; &lt;/inlinemediaobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The icon for a bubble plot.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ikonen för ett bubbeldiagram.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Colored XY Plots</seg></tuv>
+      <tuv xml:lang="sv"><seg>Färgade diagram av typen XY</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Work in Progress</seg></tuv>
+      <tuv xml:lang="sv"><seg>Pågående arbete</seg></tuv>
     </tu>
   </body>
 </tmx>
