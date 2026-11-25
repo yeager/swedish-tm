@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T090912Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T091223Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -598084,6 +598084,66 @@ z/o/n/e/r</seg></tuv>
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-smoothing-ex7.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output of the additive Holt-Winters method.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
       <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-smoothing-ex7.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Utdata från additiv exponentiell utjämning enligt Holt–Winters.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Multiplicative Holt-Winters Method</seg></tuv>
+      <tuv xml:lang="sv"><seg>Multiplikativ metod enligt Holt–Winters</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The multiplicative Holt-Winters method of exponential smoothing is appropriate when a time series with a linear trend has a multiplicative seasonal pattern for which the level, the growth rate and the seasonal pattern may be changing. A multiplicative seasonal pattern is a pattern in which the seasonal variation can be explained by the multiplication of a seasonal constant (although we allow for this constant to change slowly.)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Multiplikativ exponentiell utjämning enligt Holt–Winters passar när en tidsserie med linjär trend har ett multiplikativt säsongsmönster där nivån, tillväxttakten och säsongsmönstret kan förändras. I ett multiplikativt säsongsmönster förklaras säsongsvariationen genom att multiplicera med en säsongskonstant (som får förändras långsamt.)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;parameter&gt;y&lt;subscript&gt;t&lt;/subscript&gt;&lt;/parameter&gt; is the true value at time &lt;parameter&gt;t&lt;/parameter&gt;, &lt;parameter&gt;l&lt;subscript&gt;t&lt;/subscript&gt;&lt;/parameter&gt; is the estimated level at time &lt;parameter&gt;t&lt;/parameter&gt;, &lt;parameter&gt;b&lt;subscript&gt;t &lt;/subscript&gt;&lt;/parameter&gt; is the estimated growth rate at time &lt;parameter&gt;t&lt;/parameter&gt; and &lt;parameter&gt;s&lt;subscript&gt;t &lt;/subscript&gt;&lt;/parameter&gt; is the estimated seasonal adjustment for time &lt;parameter&gt;t&lt;/parameter&gt;. We use the three smoothing equations given in &lt;xref linkend="exp-smoothing-tool-formula-m-holt-winters"/&gt; to update our estimates. α is the value given as &lt;quote&gt;&lt;guilabel&gt;Damping factor&lt;/guilabel&gt;&lt;/quote&gt;, γ is the value given as &lt;quote&gt;&lt;guilabel&gt;Growth damping factor&lt;/guilabel&gt;&lt;/quote&gt; and δ is the value given as &lt;quote&gt;&lt;guilabel&gt;Seasonal damping factor&lt;/guilabel&gt;&lt;/quote&gt;. &lt;parameter&gt;L&lt;/parameter&gt; is the value given as &lt;quote&gt;&lt;guilabel&gt;Seasonal period&lt;/guilabel&gt;&lt;/quote&gt;. If your data consist of monthly values, then &lt;parameter&gt;L&lt;/parameter&gt; should be 12, if it consist of quarterly values then &lt;parameter&gt;L&lt;/parameter&gt; should be 4.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;parameter&gt;y&lt;subscript&gt;t&lt;/subscript&gt;&lt;/parameter&gt; är det verkliga värdet vid tidpunkt &lt;parameter&gt;t&lt;/parameter&gt;, &lt;parameter&gt;l&lt;subscript&gt;t&lt;/subscript&gt;&lt;/parameter&gt; den uppskattade nivån vid tidpunkt &lt;parameter&gt;t&lt;/parameter&gt;, &lt;parameter&gt;b&lt;subscript&gt;t &lt;/subscript&gt;&lt;/parameter&gt; den uppskattade tillväxttakten vid tidpunkt &lt;parameter&gt;t&lt;/parameter&gt; och &lt;parameter&gt;s&lt;subscript&gt;t &lt;/subscript&gt;&lt;/parameter&gt; den uppskattade säsongsjusteringen vid tidpunkt &lt;parameter&gt;t&lt;/parameter&gt;. Uppskattningarna uppdateras med de tre utjämningsekvationerna i &lt;xref linkend="exp-smoothing-tool-formula-m-holt-winters"/&gt;. α är värdet i fältet &lt;quote&gt;&lt;guilabel&gt;Dämpningsfaktor&lt;/guilabel&gt;&lt;/quote&gt;, γ värdet i &lt;quote&gt;&lt;guilabel&gt;Tillväxtdämpningsfaktor&lt;/guilabel&gt;&lt;/quote&gt; och δ värdet i &lt;quote&gt;&lt;guilabel&gt;Säsongsdämpningsfaktor&lt;/guilabel&gt;&lt;/quote&gt;. &lt;parameter&gt;L&lt;/parameter&gt; är värdet i &lt;quote&gt;&lt;guilabel&gt;Säsongsperiod&lt;/guilabel&gt;&lt;/quote&gt;. För månadsdata ska &lt;parameter&gt;L&lt;/parameter&gt; vara 12 och för kvartalsdata ska &lt;parameter&gt;L&lt;/parameter&gt; vara 4.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>This tool obtains initial (time 0) estimates for the level and growth rate by performing a linear regression using the data values of the first 4 seasonal periods. It obtains estimates for the seasonal adjustments by averaging the appropriate seasonal differences from values predicted by linear regression alone during the first 4 seasonal periods.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Verktyget uppskattar den ursprungliga nivån och tillväxttakten (vid tidpunkt 0) genom linjär regression på datavärdena från de första 4 säsongsperioderna. Säsongsjusteringarna uppskattas som medelvärdet av de relevanta säsongsskillnaderna mellan dessa perioder och värdena som förutsagts med enbart linjär regression.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Exponential Smoothing Formulae Of The Multiplicative Holt-Winters Method</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formler för multiplikativ exponentiell utjämning enligt Holt–Winters</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-exp-smoothing-m-holt-winters-formula.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;The formulae used in the multiplicative Holt-Winters Method&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-exp-smoothing-m-holt-winters-formula.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Formlerna för multiplikativ exponentiell utjämning enligt Holt–Winters&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To have the standard errors output as well, check the &lt;quote&gt;&lt;guilabel&gt;Standard error&lt;/guilabel&gt;&lt;/quote&gt; check box. The formula used is given in &lt;xref linkend="exp-smoothing-tool-formula-m-holt-winters-stderr"/&gt;. The denominator can be adjusted by selecting the appropriate radio button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markera kryssrutan &lt;quote&gt;&lt;guilabel&gt;Standardfel&lt;/guilabel&gt;&lt;/quote&gt; om standardfelen också ska visas. Formeln finns i &lt;xref linkend="exp-smoothing-tool-formula-m-holt-winters-stderr"/&gt;. Du kan ändra nämnaren med motsvarande alternativknapp.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Standard Error Formula Of The Multiplicative Holt-Winters Method</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formel för standardfel vid multiplikativ utjämning enligt Holt–Winters</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-exp-smoothing-m-holt-winters-stderr.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;The formula used to calculate the standard error in the multiplicative Holt-Winters Method &lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-exp-smoothing-m-holt-winters-stderr.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Formeln för att beräkna standardfelet vid multiplikativ utjämning enligt Holt–Winters&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;xref linkend="smoothing-example-8"/&gt; shows the example output for the multiplicative Holt-Winters method, assuming 4 seasons. Cell C7 contains the estimated level at time 0, D7 the estimated growth rate at time 0, and E4 to E7 the initial seasonal adjustments for each of the 4 seasons preceding our data time period. If you requested to have formulæ rather than values entered into the sheet, then changing any of these estimates, the values for α in A2, for γ in B2 and/or for δ in C2 will result in an immediate change to the estimated values.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;xref linkend="smoothing-example-8"/&gt; visar exempelresultatet för metoden enligt Holt–Winters med 4 säsonger. Cell C7 innehåller den uppskattade nivån vid tidpunkt 0, D7 den uppskattade tillväxttakten vid tidpunkt 0 och E4–E7 de ursprungliga säsongsjusteringarna för de fyra säsongerna före dataperioden. Om du valde att verktyget skulle skriva in formler i stället för värden ändras de uppskattade värdena direkt när du ändrar någon av dessa uppskattningar, α i A2, γ i B2 eller δ i C2.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Exponential Smoothing Tool Output (Multiplicative Holt-Winters)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utdata från verktyget för exponentiell utjämning (multiplikativ Holt–Winters)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-smoothing-ex8.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;An image of the output of the multiplicative Holt-Winters method.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;imageobject&gt; &lt;imagedata fileref="figures/analysistools-smoothing-ex8.png" format="PNG"/&gt; &lt;/imageobject&gt; &lt;textobject&gt; &lt;phrase&gt;Utdata från multiplikativ exponentiell utjämning enligt Holt–Winters.&lt;/phrase&gt; &lt;/textobject&gt;</seg></tuv>
     </tu>
   </body>
 </tmx>
