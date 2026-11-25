@@ -178,3 +178,10 @@ Batch 179:
 - **Gnumeric-filformatet / Gnumeric-version** — valid compounds containing the product name.
 - **application/*, x-*, vnd.*, dbase, dbf, zz-* / none** — MIME strings and the table's exact no-value sentinel; retained verbatim.
 - **EXPERIMENTAL SAX based XML / SAX / based** — exact plugin label and XML parser terminology; preserved as named in the interface.
+
+Batch 180:
+
+- **.as / .dif / ASCII / XSD / CSV / TSV / JWorkbook / VisiCalc / Applix / Applixware / Gnumeric / Vistasource / Vim / Emacs / zcat / gunzip** — file extensions, formats, projects, products, editors, and command names.
+- **Book1.gnumeric / Book1.text / Book1.text.gz** — literal filenames in the shell examples.
+- **Gnumeric-kärnan / Applixware-kalkylprogrammet / Java-språket / CSV- / TSV-filer** — valid compounds or technical labels; Hunspell splits at markup and acronym boundaries.
+- **Data Interchange Format / JWorkbook / XML** — canonical format and project names.

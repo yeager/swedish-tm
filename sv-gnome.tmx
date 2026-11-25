@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T151205Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T151623Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -606053,6 +606053,181 @@ LC_ALL=fr_FR gnumeric &amp;amp;
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>Gnumeric Version</seg></tuv>
       <tuv xml:lang="sv"><seg>Gnumeric-version</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; automatically recognizes the version of the file format of any file saved since this format is contained in the file header. The table below is for information purposes only. &lt;_:table-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; känner automatiskt igen den sparade filens formatversion eftersom versionsinformationen finns i filhuvudet. Tabellen nedan är endast avsedd som information. &lt;_:table-1/&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>An outdated PDF document discussing the &lt;application&gt;Gnumeric&lt;/application&gt; file format which should provide a useful starting point was developed by the JWorkbook project. The file can be downloaded from &lt;literal&gt;&lt;ulink type="http" url="http://www.jfree.org/jworkbook/download/gnumeric-xml.pdf"&gt; http://www.jfree.org/jworkbook/download/gnumeric-xml.pdf&lt;/ulink&gt;&lt;/literal&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>JWorkbook-projektet tog fram ett äldre PDF-dokument om &lt;application&gt;Gnumeric&lt;/application&gt;-formatet som kan vara en bra utgångspunkt. Filen kan hämtas från &lt;literal&gt;&lt;ulink type="http" url="http://www.jfree.org/jworkbook/download/gnumeric-xml.pdf"&gt; http://www.jfree.org/jworkbook/download/gnumeric-xml.pdf&lt;/ulink&gt;&lt;/literal&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;Further Processing&lt;/emphasis&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;Vidare bearbetning&lt;/emphasis&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>
+zcat Book1.gnumeric &amp;gt; Book1.text
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>
+zcat Book1.gnumeric &amp;gt; Book1.text
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>
+cp Book1.gnumeric Book1.text.gz
+gunzip Book1.text.gz
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>
+cp Book1.gnumeric Book1.text.gz
+gunzip Book1.text.gz
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Direct manipulation of &lt;application&gt;Gnumeric&lt;/application&gt; files is possible by transforming the files to text files and then using standard text file tools like document editors. In order to read the contents a &lt;application&gt;Gnumeric&lt;/application&gt; file must first be decompressed and can then be opened. In GNU systems, the &lt;application&gt;Gnumeric&lt;/application&gt; default file "Book1.gnumeric" can be uncompressed as follows: &lt;_:screen-1/&gt; alternatively, the file can be renamed and then uncompressed with the following pair of commands: &lt;_:screen-2/&gt; both possibilities yield the file "Book1.text" which is an ASCII text file. This file can be opened in any editor, like &lt;application&gt;Vim&lt;/application&gt; or &lt;application&gt;Emacs&lt;/application&gt;, or pager, like &lt;application&gt;Less&lt;/application&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan hantera &lt;application&gt;Gnumeric&lt;/application&gt;-filer direkt genom att omvandla dem till textfiler och sedan använda vanliga textverktyg, till exempel textredigerare. Om du vill läsa innehållet måste du först packa upp en &lt;application&gt;Gnumeric&lt;/application&gt;-fil. På GNU-system kan standardfilen &lt;application&gt;Gnumeric&lt;/application&gt; ”Book1.gnumeric” packas upp så här: &lt;_:screen-1/&gt; Du kan också byta namn på filen och sedan packa upp den med följande kommandon: &lt;_:screen-2/&gt; Båda metoderna ger filen ”Book1.text”, en ASCII-textfil. Den kan öppnas i valfri redigerare, till exempel &lt;application&gt;Vim&lt;/application&gt; eller &lt;application&gt;Emacs&lt;/application&gt;, eller i en textvisare som &lt;application&gt;Less&lt;/application&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>XML manipulation tools can be used to transform &lt;application&gt;Gnumeric&lt;/application&gt; files and access the data they contain, since the file format is XML. The file can be validated by an XML Schema Definition (XSD) . These are available via the Internet at &lt;uri&gt;http://git.gnome.org/cgit/gnumeric/plain/gnumeric.xsd&lt;/uri&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan använda XML-verktyg för att omvandla &lt;application&gt;Gnumeric&lt;/application&gt;-filer och komma åt deras data eftersom filformatet bygger på XML. Validera filen med en XML Schema Definition (XSD). Schemat finns på &lt;uri&gt;http://git.gnome.org/cgit/gnumeric/plain/gnumeric.xsd&lt;/uri&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Java&lt;trademark/&gt; Language can be used to create, access, or manipulate &lt;application&gt;Gnumeric&lt;/application&gt; format files using the &lt;application&gt;JWorkbook&lt;/application&gt; project library. See the project's &lt;ulink type="http" url="http://http://www.jfree.org/jworkbook/index.html"&gt; website&lt;/ulink&gt; for details.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan använda Java&lt;trademark/&gt;-språket för att skapa, läsa och ändra filer i &lt;application&gt;Gnumeric&lt;/application&gt;-format med projektbiblioteket &lt;application&gt;JWorkbook&lt;/application&gt;. Mer information finns på projektets &lt;ulink type="http" url="http://http://www.jfree.org/jworkbook/index.html"&gt;webbplats&lt;/ulink&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The C# language, through the &lt;application&gt;mono&lt;/application&gt; implementation can also be used to manipulate &lt;application&gt;Gnumeric&lt;/application&gt; format files.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan även hantera &lt;application&gt;Gnumeric&lt;/application&gt;-filer med C# via implementationen &lt;application&gt;mono&lt;/application&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Applix File Format</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formatet Applix</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Applix file format is used by the &lt;application&gt;Applixware&lt;/application&gt; group of applications which include a spreadsheet component. The &lt;application&gt;Applixware&lt;/application&gt; spreadsheet is made by &lt;ulink type="http" url="http://www.vistasource.com"&gt;Vistasource&lt;/ulink&gt; and claims to be a 'real-time', event driven software system.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filformatet Applix används av programsviten &lt;application&gt;Applixware&lt;/application&gt;, som innehåller ett kalkylprogram. Kalkylprogrammet &lt;application&gt;Applixware&lt;/application&gt; utvecklas av &lt;ulink type="http" url="http://www.vistasource.com"&gt;Vistasource&lt;/ulink&gt; och beskrivs som ett realtidsbaserat, händelsestyrt system.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; can read some files produced by the &lt;application&gt;Applixware&lt;/application&gt; spreadsheet.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; kan läsa vissa filer som skapats med kalkylprogrammet &lt;application&gt;Applixware&lt;/application&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Applix File Format</seg></tuv>
+      <tuv xml:lang="sv"><seg>Formatet Applix</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>.as</seg></tuv>
+      <tuv xml:lang="sv"><seg>.as</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The &lt;application&gt;Applixware&lt;/application&gt; Spreadsheet</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;application&gt;Applixware&lt;/application&gt;-kalkylprogrammet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;Import / Export:&lt;/emphasis&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;Importera / exportera:&lt;/emphasis&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Import only</seg></tuv>
+      <tuv xml:lang="sv"><seg>Endast import</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Saving &lt;application&gt;Applixware&lt;/application&gt; files has recently been disabled due to lack of developer interest. Instead of directly saving a file in the &lt;application&gt;Applix&lt;/application&gt; format, files can be exported to &lt;application&gt;Applixware&lt;/application&gt; can be performed using the &lt;link linkend="file-format-excel-binary-new"&gt;Excel&lt;/link&gt; file format.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte längre att spara filer i formatet &lt;application&gt;Applixware&lt;/application&gt; eftersom utvecklarna inte underhåller funktionen. Du kan i stället exportera filer i formatet &lt;application&gt;Applix&lt;/application&gt; till &lt;application&gt;Applixware&lt;/application&gt; med Excelfilformatet &lt;link linkend="file-format-excel-binary-new"&gt;Excel&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Supported by the Applix plugin.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stöds av insticksmodulen Applix.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Comma/Tab/Semicolon Separated Value (CSV/TSV) File Formats</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filformat för kommaseparerade eller tabbseparerade värden (CSV/TSV)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Comma Separated Value (CSV) and Tab Separated Value (TSV) file formats are a common structuring strategy for text format files. In these files, each line in the file represents a row of data and, within each line of the file, the different data fields are separated from one another using a separator character, often a comma, semicolon or tab. &lt;application&gt;Gnumeric&lt;/application&gt; handles CSV and TSV files through the text importer and exporter but these formats are given their own definitions in this document because they are considered very common formats.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filformaten CSV (kommaseparerade värden) och TSV (tabbseparerade värden) är vanliga sätt att strukturera textfiler. Varje rad motsvarar en datarad, och fälten i raden skiljs åt med ett avgränsningstecken, oftast kommatecken, semikolon eller tabulatortecken. &lt;application&gt;Gnumeric&lt;/application&gt; hanterar CSV- och TSV-filer med textimportören och textexportören. Formaten beskrivs ändå separat här eftersom de är så vanliga.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; will automatically open CSV and TSV format files separating each row into columns based on the presence of appropriate separator characters in the file. If the automatic import leads to any errors, these can generally be corrected by using the "Text Import (configurable)" file format instead. Selecting that file format will launch the &lt;interface&gt;Text Import&lt;/interface&gt; druid which allows the user to import CSV and TSV format files while specifying in greater detail the settings of the import configuration parameters. See the section on &lt;link linkend="sect-file-textImport"&gt;importing text files&lt;/link&gt; or the section on &lt;link linkend="sect-file-textExport"&gt;exporting text files&lt;/link&gt; for an explanation of how to open or save CSV and TSV files through the &lt;interface&gt;Text Import&lt;/interface&gt; druid.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;application&gt;Gnumeric&lt;/application&gt; öppnar CSV- och TSV-filer automatiskt och delar upp varje rad i kolumner utifrån avgränsningstecknen. Om importen ger fel kan de oftast rättas genom att välja filformatet ”Textimport (konfigurerbar)” i stället. Då öppnas guiden &lt;interface&gt;Textimport&lt;/interface&gt;, där du kan ange fler importinställningar för CSV- och TSV-filer. Avsnitten om &lt;link linkend="sect-file-textImport"&gt;import av textfiler&lt;/link&gt; och &lt;link linkend="sect-file-textExport"&gt;export av textfiler&lt;/link&gt; beskriver hur du öppnar och sparar CSV- och TSV-filer med guiden &lt;interface&gt;Textimport&lt;/interface&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Comma/Semicolon/Tab Separated Value, CSV/TSV</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommaseparerade, semikolonseparerade och tabbseparerade värden (CSV/TSV)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Many</seg></tuv>
+      <tuv xml:lang="sv"><seg>Många</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The CSV file format is only useful for the exchange of cell data and cannot be used for sheet objects like graphical plots. This file format cannot save the formatting of cell contents, backgrounds or borders.</seg></tuv>
+      <tuv xml:lang="sv"><seg>CSV-formatet lämpar sig bara för att utbyta celldata. Det kan inte användas för bladobjekt som diagram och kan inte spara cellinnehållens formatering, bakgrunder eller kantlinjer.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Supported by the core &lt;application&gt;Gnumeric&lt;/application&gt; program.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stöds av &lt;application&gt;Gnumeric&lt;/application&gt;-kärnan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>CSV files are simple text files where each row of the text file represents one row in the spreadsheet and where the cells within a row are separated from each other by a comma.</seg></tuv>
+      <tuv xml:lang="sv"><seg>CSV-filer är enkla textfiler där varje rad motsvarar en rad i kalkylbladet och cellerna skiljs åt med kommatecken.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>CSV files can be processed using any tool which operates on text files. The CSV format is also common as a format which can be opened by applications.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan bearbeta CSV-filer med alla verktyg som hanterar textfiler. Formatet är också vanligt bland program som kan öppna filer.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="italic"&gt;See the section on &lt;/emphasis&gt; &lt;link linkend="file-format-text"&gt;Text Formats&lt;/link&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="italic"&gt;Se avsnittet om &lt;/emphasis&gt; &lt;link linkend="file-format-text"&gt;textformat&lt;/link&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Data Interchange Format (DIF) File Format</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filformatet Data Interchange Format (DIF)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The Data Interchange Format (DIF) file format is a text based format encoded in ASCII with a header, for integrity checking, and a body. The format was originally developed by Software Arts in order to transfer data from &lt;application&gt;VisiCalc&lt;/application&gt;, the first spreadsheet.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Data Interchange Format (DIF) är ett textbaserat ASCII-format med ett huvud för integritetskontroll och en brödtext. Software Arts tog ursprungligen fram formatet för att överföra data från &lt;application&gt;VisiCalc&lt;/application&gt;, det första kalkylprogrammet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Data Interchange Format</seg></tuv>
+      <tuv xml:lang="sv"><seg>Datautbytesformat</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>.dif</seg></tuv>
+      <tuv xml:lang="sv"><seg>.dif</seg></tuv>
     </tu>
   </body>
 </tmx>

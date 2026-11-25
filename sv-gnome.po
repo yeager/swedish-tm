@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 117836
+# Entries: 117869
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -574644,3 +574644,298 @@ msgstr "XML-formatversion"
 #. from gnome:reviewed/gnumeric/master/help
 msgid "Gnumeric Version"
 msgstr "Gnumeric-version"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<application>Gnumeric</application> automatically recognizes the version of "
+"the file format of any file saved since this format is contained in the file"
+" header. The table below is for information purposes only. <_:table-1/>"
+msgstr ""
+"<application>Gnumeric</application> känner automatiskt igen den sparade "
+"filens formatversion eftersom versionsinformationen finns i filhuvudet. "
+"Tabellen nedan är endast avsedd som information. <_:table-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"An outdated PDF document discussing the <application>Gnumeric</application> "
+"file format which should provide a useful starting point was developed by "
+"the JWorkbook project. The file can be downloaded from <literal><ulink "
+"type=\"http\" url=\"http://www.jfree.org/jworkbook/download/gnumeric-"
+"xml.pdf\"> http://www.jfree.org/jworkbook/download/gnumeric-"
+"xml.pdf</ulink></literal>."
+msgstr ""
+"JWorkbook-projektet tog fram ett äldre PDF-dokument om "
+"<application>Gnumeric</application>-formatet som kan vara en bra "
+"utgångspunkt. Filen kan hämtas från <literal><ulink type=\"http\" "
+"url=\"http://www.jfree.org/jworkbook/download/gnumeric-xml.pdf\"> "
+"http://www.jfree.org/jworkbook/download/gnumeric-xml.pdf</ulink></literal>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<emphasis role=\"bold\">Further Processing</emphasis>"
+msgstr "<emphasis role=\"bold\">Vidare bearbetning</emphasis>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"\n"
+"zcat Book1.gnumeric &gt; Book1.text\n"
+msgstr ""
+"\n"
+"zcat Book1.gnumeric &gt; Book1.text\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"\n"
+"cp Book1.gnumeric Book1.text.gz\n"
+"gunzip Book1.text.gz\n"
+msgstr ""
+"\n"
+"cp Book1.gnumeric Book1.text.gz\n"
+"gunzip Book1.text.gz\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Direct manipulation of <application>Gnumeric</application> files is possible"
+" by transforming the files to text files and then using standard text file "
+"tools like document editors. In order to read the contents a "
+"<application>Gnumeric</application> file must first be decompressed and can "
+"then be opened. In GNU systems, the <application>Gnumeric</application> "
+"default file \"Book1.gnumeric\" can be uncompressed as follows: "
+"<_:screen-1/> alternatively, the file can be renamed and then uncompressed "
+"with the following pair of commands: <_:screen-2/> both possibilities yield "
+"the file \"Book1.text\" which is an ASCII text file. This file can be opened"
+" in any editor, like <application>Vim</application> or "
+"<application>Emacs</application>, or pager, like "
+"<application>Less</application>."
+msgstr ""
+"Du kan hantera <application>Gnumeric</application>-filer direkt genom att "
+"omvandla dem till textfiler och sedan använda vanliga textverktyg, till "
+"exempel textredigerare. Om du vill läsa innehållet måste du först packa upp "
+"en <application>Gnumeric</application>-fil. På GNU-system kan standardfilen "
+"<application>Gnumeric</application> ”Book1.gnumeric” packas upp så här: "
+"<_:screen-1/> Du kan också byta namn på filen och sedan packa upp den med "
+"följande kommandon: <_:screen-2/> Båda metoderna ger filen ”Book1.text”, en "
+"ASCII-textfil. Den kan öppnas i valfri redigerare, till exempel "
+"<application>Vim</application> eller <application>Emacs</application>, eller"
+" i en textvisare som <application>Less</application>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"XML manipulation tools can be used to transform "
+"<application>Gnumeric</application> files and access the data they contain, "
+"since the file format is XML. The file can be validated by an XML Schema "
+"Definition (XSD) . These are available via the Internet at "
+"<uri>http://git.gnome.org/cgit/gnumeric/plain/gnumeric.xsd</uri>."
+msgstr ""
+"Du kan använda XML-verktyg för att omvandla "
+"<application>Gnumeric</application>-filer och komma åt deras data eftersom "
+"filformatet bygger på XML. Validera filen med en XML Schema Definition "
+"(XSD). Schemat finns på "
+"<uri>http://git.gnome.org/cgit/gnumeric/plain/gnumeric.xsd</uri>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The Java<trademark/> Language can be used to create, access, or manipulate "
+"<application>Gnumeric</application> format files using the "
+"<application>JWorkbook</application> project library. See the project's "
+"<ulink type=\"http\" "
+"url=\"http://http://www.jfree.org/jworkbook/index.html\"> website</ulink> "
+"for details."
+msgstr ""
+"Du kan använda Java<trademark/>-språket för att skapa, läsa och ändra filer "
+"i <application>Gnumeric</application>-format med projektbiblioteket "
+"<application>JWorkbook</application>. Mer information finns på projektets "
+"<ulink type=\"http\" "
+"url=\"http://http://www.jfree.org/jworkbook/index.html\">webbplats</ulink>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The C# language, through the <application>mono</application> implementation "
+"can also be used to manipulate <application>Gnumeric</application> format "
+"files."
+msgstr ""
+"Du kan även hantera <application>Gnumeric</application>-filer med C# via "
+"implementationen <application>mono</application>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Applix File Format"
+msgstr "Formatet Applix"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The Applix file format is used by the <application>Applixware</application> "
+"group of applications which include a spreadsheet component. The "
+"<application>Applixware</application> spreadsheet is made by <ulink "
+"type=\"http\" url=\"http://www.vistasource.com\">Vistasource</ulink> and "
+"claims to be a 'real-time', event driven software system."
+msgstr ""
+"Filformatet Applix används av programsviten "
+"<application>Applixware</application>, som innehåller ett kalkylprogram. "
+"Kalkylprogrammet <application>Applixware</application> utvecklas av <ulink "
+"type=\"http\" url=\"http://www.vistasource.com\">Vistasource</ulink> och "
+"beskrivs som ett realtidsbaserat, händelsestyrt system."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<application>Gnumeric</application> can read some files produced by the "
+"<application>Applixware</application> spreadsheet."
+msgstr ""
+"<application>Gnumeric</application> kan läsa vissa filer som skapats med "
+"kalkylprogrammet <application>Applixware</application>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "The Applix File Format"
+msgstr "Formatet Applix"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ".as"
+msgstr ".as"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "The <application>Applixware</application> Spreadsheet"
+msgstr "<application>Applixware</application>-kalkylprogrammet"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "<emphasis role=\"bold\">Import / Export:</emphasis>"
+msgstr "<emphasis role=\"bold\">Importera / exportera:</emphasis>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Import only"
+msgstr "Endast import"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"Saving <application>Applixware</application> files has recently been "
+"disabled due to lack of developer interest. Instead of directly saving a "
+"file in the <application>Applix</application> format, files can be exported "
+"to <application>Applixware</application> can be performed using the <link "
+"linkend=\"file-format-excel-binary-new\">Excel</link> file format."
+msgstr ""
+"Det går inte längre att spara filer i formatet "
+"<application>Applixware</application> eftersom utvecklarna inte underhåller "
+"funktionen. Du kan i stället exportera filer i formatet "
+"<application>Applix</application> till <application>Applixware</application>"
+" med Excelfilformatet <link linkend=\"file-format-excel-binary-"
+"new\">Excel</link>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Supported by the Applix plugin."
+msgstr "Stöds av insticksmodulen Applix."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Comma/Tab/Semicolon Separated Value (CSV/TSV) File Formats"
+msgstr "Filformat för kommaseparerade eller tabbseparerade värden (CSV/TSV)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The Comma Separated Value (CSV) and Tab Separated Value (TSV) file formats "
+"are a common structuring strategy for text format files. In these files, "
+"each line in the file represents a row of data and, within each line of the "
+"file, the different data fields are separated from one another using a "
+"separator character, often a comma, semicolon or tab. "
+"<application>Gnumeric</application> handles CSV and TSV files through the "
+"text importer and exporter but these formats are given their own definitions"
+" in this document because they are considered very common formats."
+msgstr ""
+"Filformaten CSV (kommaseparerade värden) och TSV (tabbseparerade värden) är "
+"vanliga sätt att strukturera textfiler. Varje rad motsvarar en datarad, och "
+"fälten i raden skiljs åt med ett avgränsningstecken, oftast kommatecken, "
+"semikolon eller tabulatortecken. <application>Gnumeric</application> "
+"hanterar CSV- och TSV-filer med textimportören och textexportören. Formaten "
+"beskrivs ändå separat här eftersom de är så vanliga."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<application>Gnumeric</application> will automatically open CSV and TSV "
+"format files separating each row into columns based on the presence of "
+"appropriate separator characters in the file. If the automatic import leads "
+"to any errors, these can generally be corrected by using the \"Text Import "
+"(configurable)\" file format instead. Selecting that file format will launch"
+" the <interface>Text Import</interface> druid which allows the user to "
+"import CSV and TSV format files while specifying in greater detail the "
+"settings of the import configuration parameters. See the section on <link "
+"linkend=\"sect-file-textImport\">importing text files</link> or the section "
+"on <link linkend=\"sect-file-textExport\">exporting text files</link> for an"
+" explanation of how to open or save CSV and TSV files through the "
+"<interface>Text Import</interface> druid."
+msgstr ""
+"<application>Gnumeric</application> öppnar CSV- och TSV-filer automatiskt "
+"och delar upp varje rad i kolumner utifrån avgränsningstecknen. Om importen "
+"ger fel kan de oftast rättas genom att välja filformatet ”Textimport "
+"(konfigurerbar)” i stället. Då öppnas guiden "
+"<interface>Textimport</interface>, där du kan ange fler importinställningar "
+"för CSV- och TSV-filer. Avsnitten om <link linkend=\"sect-file-"
+"textImport\">import av textfiler</link> och <link linkend=\"sect-file-"
+"textExport\">export av textfiler</link> beskriver hur du öppnar och sparar "
+"CSV- och TSV-filer med guiden <interface>Textimport</interface>."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Comma/Semicolon/Tab Separated Value, CSV/TSV"
+msgstr ""
+"Kommaseparerade, semikolonseparerade och tabbseparerade värden (CSV/TSV)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Many"
+msgstr "Många"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The CSV file format is only useful for the exchange of cell data and cannot "
+"be used for sheet objects like graphical plots. This file format cannot save"
+" the formatting of cell contents, backgrounds or borders."
+msgstr ""
+"CSV-formatet lämpar sig bara för att utbyta celldata. Det kan inte användas "
+"för bladobjekt som diagram och kan inte spara cellinnehållens formatering, "
+"bakgrunder eller kantlinjer."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Supported by the core <application>Gnumeric</application> program."
+msgstr "Stöds av <application>Gnumeric</application>-kärnan."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"CSV files are simple text files where each row of the text file represents "
+"one row in the spreadsheet and where the cells within a row are separated "
+"from each other by a comma."
+msgstr ""
+"CSV-filer är enkla textfiler där varje rad motsvarar en rad i kalkylbladet "
+"och cellerna skiljs åt med kommatecken."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"CSV files can be processed using any tool which operates on text files. The "
+"CSV format is also common as a format which can be opened by applications."
+msgstr ""
+"Du kan bearbeta CSV-filer med alla verktyg som hanterar textfiler. Formatet "
+"är också vanligt bland program som kan öppna filer."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"<emphasis role=\"italic\">See the section on </emphasis> <link "
+"linkend=\"file-format-text\">Text Formats</link>"
+msgstr ""
+"<emphasis role=\"italic\">Se avsnittet om </emphasis> <link linkend=\"file-"
+"format-text\">textformat</link>"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Data Interchange Format (DIF) File Format"
+msgstr "Filformatet Data Interchange Format (DIF)"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ""
+"The Data Interchange Format (DIF) file format is a text based format encoded"
+" in ASCII with a header, for integrity checking, and a body. The format was "
+"originally developed by Software Arts in order to transfer data from "
+"<application>VisiCalc</application>, the first spreadsheet."
+msgstr ""
+"Data Interchange Format (DIF) är ett textbaserat ASCII-format med ett huvud "
+"för integritetskontroll och en brödtext. Software Arts tog ursprungligen "
+"fram formatet för att överföra data från "
+"<application>VisiCalc</application>, det första kalkylprogrammet."
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid "Data Interchange Format"
+msgstr "Datautbytesformat"
+
+#. from gnome:reviewed/gnumeric/master/help
+msgid ".dif"
+msgstr ".dif"
