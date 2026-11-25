@@ -40,3 +40,8 @@ Additional statistical terms in batch 93:
 Additional statistical compounds in batch 94:
 
 - **tvåfaktors-ANOVA / 2-faktors-ANOVA** — standard compound for two-factor analysis of variance; Hunspell splits the hyphenated form.
+
+Additional help compounds in batch 95:
+
+- **kontingenstabell** — standard Swedish statistical term for a contingency table.
+- **cirkeldiagram / stapeldiagram / kolumndiagram** — established Swedish chart names; Hunspell splits these compounds when adjacent markup is stripped.
