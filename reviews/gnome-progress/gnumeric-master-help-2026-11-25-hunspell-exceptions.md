@@ -185,3 +185,10 @@ Batch 180:
 - **Book1.gnumeric / Book1.text / Book1.text.gz** — literal filenames in the shell examples.
 - **Gnumeric-kärnan / Applixware-kalkylprogrammet / Java-språket / CSV- / TSV-filer** — valid compounds or technical labels; Hunspell splits at markup and acronym boundaries.
 - **Data Interchange Format / JWorkbook / XML** — canonical format and project names.
+
+Batch 181:
+
+- **2ε / TeX / LaTeX / longtable / pdflatex / Device Independent / DVI / PostScript / PDF** — language, processor, environment and output-format names.
+- **ASCII-kodad / TeX-kommentarer / Oleo-projektet** — valid technical compounds containing fixed format/project names.
+- **Book1.tex / Book1.pdf / HTML / Hypertext Markup Language / Markup / table** — literal example filenames, canonical language/format names, and the HTML `<table>` element.
+- **GNU Oleo / VisiCalc / JWorkbook / Applixware / Mozilla** — product and project names preserved from the source.
