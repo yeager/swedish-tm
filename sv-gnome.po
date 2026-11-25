@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 123858
+# Entries: 123904
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -286529,9 +286529,10 @@ msgstr "QR-kod sparad"
 #. from gnome:reviewed/telegnome/master
 #. from gnome:reviewed/gnome-2048/master
 #. from gnome:reviewed/malcontent/main
+#. from gnome:reviewed/sysprof/master
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>"
+msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2016"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "link:trail"
@@ -616775,3 +616776,352 @@ msgstr ""
 "<gui>Lämplighet för program</gui> automatiskt när barnet blir äldre. Se "
 "regelbundet över inställningen <gui>Lämplighet för program</gui> för varje "
 "användare."
+
+#. from gnome:reviewed/sysprof/master
+msgctxt "link:trail"
+msgid "Sysprof"
+msgstr "Sysprof"
+
+#. from gnome:reviewed/sysprof/master
+msgctxt "link"
+msgid "Sysprof"
+msgstr "Sysprof"
+
+#. from gnome:reviewed/sysprof/master
+msgctxt "text"
+msgid "Sysprof"
+msgstr "Sysprof"
+
+#. from gnome:reviewed/sysprof/master
+msgid "<_:media-1/> Sysprof"
+msgstr "<_:media-1/> Sysprof"
+
+#. from gnome:reviewed/sysprof/master
+msgid "Profiling"
+msgstr "Profilering"
+
+#. from gnome:reviewed/sysprof/master
+msgid "Frequently Asked Questions"
+msgstr "Vanliga frågor"
+
+#. from gnome:reviewed/sysprof/master
+msgid "2016"
+msgstr "2016"
+
+#. from gnome:reviewed/sysprof/master
+msgid "Welcome to <app>Sysprof</app>!"
+msgstr "Välkommen till <app>Sysprof</app>!"
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"<app>Sysprof</app> is a system profiler for Linux that targets the GNOME "
+"desktop."
+msgstr ""
+"<app>Sysprof</app> är en systemprofilerare för Linux, avsedd för GNOME-"
+"skrivbordet."
+
+#. from gnome:reviewed/sysprof/master
+msgid "Differences between tracing and sampling"
+msgstr "Skillnader mellan spårning och stickprov"
+
+#. from gnome:reviewed/sysprof/master
+msgid "What is a Profiler?"
+msgstr "Vad är en profilerare?"
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"A profiler is an application that records information about an application "
+"or system while it runs. That information can be explored to gain insight "
+"into how the application could be changed to perform better."
+msgstr ""
+"En profilerare samlar in information om ett program eller system medan det "
+"körs. Du kan analysera informationen för att förstå hur programmets "
+"prestanda kan förbättras."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"Two common categories of software profilers exist, commonly referred to as "
+"either tracing or sampling profilers. What is meant by tracing profiler is "
+"that every function call executed by the program is known to the profiler. A"
+" sampling profiler works by inspecting the state of the program on a regular"
+" frequency and therefore does not see every function call executed by the "
+"program."
+msgstr ""
+"Profilerare delas ofta in i två huvudtyper: spårningsprofilerare och "
+"stickprovsprofilerare. En spårningsprofilerare känner till varje "
+"funktionsanrop som programmet gör. En stickprovsprofilerare undersöker "
+"programmets tillstånd med jämna mellanrum och ser därför inte alla "
+"funktionsanrop."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"Both tracing and sampling profilers have their advantages. A notable "
+"advantage of a sampling profiler is that the overhead is much less than that"
+" of a tracing profiler, making it easier to use for software that requires "
+"interactivity."
+msgstr ""
+"Både spårnings- och stickprovsprofilerare har sina fördelar. "
+"Stickprovsprofilering belastar systemet betydligt mindre än "
+"spårningsprofilering och passar därför bättre för program som kräver "
+"interaktivitet."
+
+#. from gnome:reviewed/sysprof/master
+msgid "<app>Sysprof</app> is a sampling profiler."
+msgstr "<app>Sysprof</app> är en stickprovsprofilerare."
+
+#. from gnome:reviewed/sysprof/master
+msgid "How to profile your system"
+msgstr "Så profilerar du systemet"
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"When <app>Sysprof</app> profiles your system, it records stack information "
+"for all applications executing, including the Linux kernel. This can "
+"sometimes be confusing if you only want to look at a single process. If your"
+" application does not interact much with the host system, you may have more "
+"success by using <app>Sysprof</app> to <link href=\"profiling#new-process-"
+"profiling\">spawn a new process</link>."
+msgstr ""
+"När <app>Sysprof</app> profilerar systemet samlar det in anropsstackar för "
+"alla program som körs, även Linux-kärnan. Det kan vara förvirrande om du "
+"bara vill undersöka en enskild process. Om programmet inte har mycket "
+"kontakt med värdsystemet kan det fungera bättre att använda "
+"<app>Sysprof</app> för att <link href=\"profiling#new-process-"
+"profiling\">starta en ny process</link>."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"To profile your entire system, ensure the target button is set to <em>All "
+"Processes</em> and click <em>Record</em>."
+msgstr ""
+"Kontrollera att målknappen visar <em>Alla processer</em> och klicka på "
+"<em>Spela in</em> för att profilera hela systemet."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"At this point, you may be asked to <em>authorize</em> access to profile the "
+"system. This is required as the Linux kernel's perf implementation requires "
+"root to perform whole-system profiling."
+msgstr ""
+"Du kan behöva <em>godkänna</em> åtkomst för att profilera hela systemet. Det"
+" krävs eftersom Linux-kärnans implementation av perf behöver root-behörighet"
+" för systemprofilering."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"During the profiling session, you will see the number of seconds the profile"
+" has been active. Clicking the <em>Record</em> button again will stop the "
+"profiling session. Afterwhich, the callgraph will be displayed."
+msgstr ""
+"Under profileringen visas hur många sekunder den har pågått. Klicka på "
+"<em>Spela in</em> igen för att stoppa den. Därefter visas anropsgrafen."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"If you find that the <app>sysprof</app> application is showing up in your "
+"profiling callgraph, you might consider recording the profiling session with"
+" <cmd>sysprof-cli</cmd>. This is a command line program that will capture "
+"your profiling session to disk to be viewed at a later time."
+msgstr ""
+"Om programmet <app>Sysprof</app> syns i anropsgrafen kan du i stället spela "
+"in sessionen med kommandoradsverktyget <cmd>sysprof-cli</cmd>. Då sparas "
+"inspelningen på disk så att du kan visa den senare."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"See <link href=\"profiling#interpreting-results\">interpreting "
+"results</link> for more guidance."
+msgstr ""
+"Se <link href=\"profiling#interpreting-results\">tolka resultaten</link> för"
+" mer vägledning."
+
+#. from gnome:reviewed/sysprof/master
+msgid "Profile a new process"
+msgstr "Profilera en ny process"
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"Often times, you may need to spawn a new process to profile. First, select "
+"the <em>Application</em> button next at the top of the recording window. "
+"Fill in your command and working directory, and optionally specify any "
+"environment variables you need. Your process will be started when recording "
+"begins."
+msgstr ""
+"Ibland behöver du starta en ny process för att profilera den. Välj först "
+"knappen <em>Program</em> högst upp i inspelningsfönstret. Ange kommandot och"
+" arbetskatalogen. Du kan också ange de miljövariabler som behövs. Processen "
+"startar när inspelningen börjar."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"If you are spawning a process that requires access to your current display, "
+"such as a GTK+ application, you will want to make sure <em>Inherit current "
+"environment</em> is set."
+msgstr ""
+"Om du startar en process som behöver åtkomst till den aktuella skärmen, till"
+" exempel ett GTK+-program, ska du se till att <em>Ärv aktuell miljö</em> är "
+"aktiverat."
+
+#. from gnome:reviewed/sysprof/master
+msgid "Profiling with the sysprof-cli command line tool"
+msgstr "Profilera med kommandoradsverktyget sysprof-cli"
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"For minimal overhead, you might consider using the <cmd>sysprof-cli</cmd> "
+"command line tool. When run without any arguments, it will record your "
+"entire system and save the output to <file>capture.syscap</file>. This file "
+"can be opened with the <app>Sysprof</app> application to view the callgraph."
+msgstr ""
+"Om du vill minimera prestandapåverkan kan du använda kommandoradsverktyget "
+"<cmd>sysprof-cli</cmd>. Om du kör det utan argument spelas hela systemet in "
+"och utdata sparas i <file>capture.syscap</file>. Du kan öppna filen i "
+"<app>Sysprof</app> för att visa anropsgrafen."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"If you would like to spawn a new process, use <cmd>sysprof-cli -- "
+"'command'</cmd> to specify a command to be launched. The command will "
+"inherit the current environment."
+msgstr ""
+"Om du vill starta en ny process använder du <cmd>sysprof-cli -- "
+"'kommando'</cmd> för att ange vad som ska startas. Kommandot ärver den "
+"aktuella miljön."
+
+#. from gnome:reviewed/sysprof/master
+msgid "Interpreting results"
+msgstr "Tolka resultaten"
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"The profiling results in <app>Sysprof</app> are split into three sections. "
+"On the top left is a list of all the functions profiled. They are sorted by "
+"how often they were called during the recording."
+msgstr ""
+"Profileringsresultaten i <app>Sysprof</app> är indelade i tre avsnitt. "
+"Överst till vänster finns en lista över alla profilerade funktioner, "
+"sorterade efter hur ofta de anropades under inspelningen."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"It is important to note that the amount of time spent in each function is "
+"not captured. That would require a tracing profiler to accurately record. "
+"The percentage is calculated by determining how often that function showed "
+"up in the current stacktrace when a sample was recorded."
+msgstr ""
+"Sysprof mäter inte hur lång tid varje funktion tar. För att mäta det korrekt"
+" krävs en spårningsprofilerare. Procenttalet beräknas utifrån hur ofta "
+"funktionen förekommer i det aktuella stackspåret när ett stickprov tas."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"After selecting a function from the functions list, all of the recorded "
+"callers of that function will be displayed on the bottom left. They are also"
+" sorted by the percentage of samples that included that function in the "
+"stacktrace."
+msgstr ""
+"När du väljer en funktion i funktionslistan visas alla funktioner som "
+"anropade den längst ned till vänster. De sorteras också efter hur stor andel"
+" av stickproven som innehöll funktionen i stackspåret."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"On the right, are all of the decendants of a selected function. You can "
+"select a function either from the functions list, or the callers list."
+msgstr ""
+"Till höger visas alla funktioner som den valda funktionen anropar. Du kan "
+"välja en funktion antingen i funktionslistan eller i listan över anropare."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"If you see <em>- - Context Switch - -</em> in your results, that means that "
+"the application transitioned into or from the Linux kernel. There can be "
+"many reasons for this such as a <em>syscall</em> or <em>signal</em>."
+msgstr ""
+"Om du ser <em>- - Context Switch - -</em> i resultaten betyder det att "
+"programmet växlade till eller från Linux-kärnan. Det kan bero på flera "
+"saker, till exempel ett <em>systemanrop</em> eller en <em>signal</em>."
+
+#. from gnome:reviewed/sysprof/master
+msgid "What does heap mean?"
+msgstr "Vad betyder heap?"
+
+#. from gnome:reviewed/sysprof/master
+msgid "What does \"In file [heap]\" mean?"
+msgstr "Vad betyder ”In file [heap]”?"
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"This means that sysprof believes a function was called from somewhere in the"
+" program's heap (where <code>malloc</code> allocates memory) rather than the"
+" code section (where executable code normally lives.) There are several "
+"possible explanations."
+msgstr ""
+"Det betyder att Sysprof tror att en funktion anropades från någonstans i "
+"programmets heap (där <code>malloc</code> allokerar minne) i stället för "
+"från kodsektionen (där körbar kod normalt finns). Det finns flera möjliga "
+"förklaringar."
+
+#. from gnome:reviewed/sysprof/master
+msgid "JIT (Just in Time) compilers"
+msgstr "JIT-kompilatorer (kompilering vid körning)"
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"Languages like Java can generate executable code while a program is running "
+"and store it in the heap. Sysprof is accurately reporting the situation in "
+"this case."
+msgstr ""
+"Språk som Java kan generera körbar kod medan programmet körs och lagra den i"
+" heapen. I sådana fall visar Sysprof situationen korrekt."
+
+#. from gnome:reviewed/sysprof/master
+msgid "Optimizing compilers"
+msgstr "Optimerande kompilatorer"
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"C and C++ compilers can optimize away information needed to determine a "
+"function's caller, so it is mistaken for [heap]. You can still tell how "
+"often each function is called by the program, but not always from where."
+msgstr ""
+"C- och C++-kompilatorer kan optimera bort informationen som behövs för att "
+"avgöra vilken funktion som anropade en annan. Då kan anropet felaktigt visas"
+" som [heap]. Du kan fortfarande se hur ofta varje funktion anropas, men inte"
+" alltid varifrån anropet kommer."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"For gcc, the flag <code>-fno-omit-frame-pointer</code> will prevent this "
+"optimization. The flag is not always needed, for example on x86_64 machines "
+"it is only needed with -O3 optimization."
+msgstr ""
+"För GCC förhindrar flaggan <code>-fno-omit-frame-pointer</code> den här "
+"optimeringen. Flaggan behövs inte alltid. På x86_64 behövs den till exempel "
+"bara med optimeringsflaggan -O3."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"To get the most detailed and accurate call tree from un-optimized code, use "
+"these flags: <code>-ggdb -fno-omit-frame-pointer -O0</code>"
+msgstr ""
+"För att få ett så detaljerat och korrekt anropsträd som möjligt från icke-"
+"optimerad kod använder du följande flaggor: <code>-ggdb -fno-omit-frame-"
+"pointer -O0</code>"
+
+#. from gnome:reviewed/sysprof/master
+msgid "Creative Commons Attribution-ShareAlike 4.0 International"
+msgstr "Creative Commons Erkännande-DelaLika 4.0 Internationell"
+
+#. from gnome:reviewed/sysprof/master
+msgid "This work is licensed under a <_:link-1/> license."
+msgstr "Detta verk omfattas av licensen <_:link-1/>."
+
+#. from gnome:reviewed/sysprof/master
+msgid ""
+"As a special exception, the copyright holders give you permission to copy, "
+"modify, and distribute the example code contained in this documentation "
+"under the terms of your choosing, without restriction."
+msgstr ""
+"Som ett särskilt undantag får du kopiera, ändra och distribuera exempelkoden"
+" i den här dokumentationen enligt valfria villkor, utan begränsningar."
