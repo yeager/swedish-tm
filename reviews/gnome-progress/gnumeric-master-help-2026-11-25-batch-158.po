@@ -1,0 +1,224 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1665
+msgid "Column Plots"
+msgstr "Kolumndiagram"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1670
+msgid ""
+"Column plots present the numeric values of categorical data with the data "
+"values of each series represented as a vertical column. Sequential data "
+"values are considered to belong to different categories and are plotted "
+"along the horizontal axis at equally spaced intervals. The data values from "
+"different series are assigned to these categories based on the position of "
+"the value in the series, for example, the second data value taken from each "
+"series all share one category. The data values are plotted along the "
+"vertical (Y) axis as columns of different heights and positions depending on"
+" the numeric content of the data value and the particular sub-type chosen "
+"for the column plot."
+msgstr ""
+"Kolumndiagram visar talvärden för kategoridata som lodräta kolumner, en för "
+"varje värde i dataserien. Värdena i följd tillhör olika kategorier och "
+"placeras med jämna mellanrum längs den vågräta axeln. Värden från olika "
+"serier kopplas till kategorierna utifrån sin position i serien. Det andra "
+"värdet från varje serie hamnar till exempel i samma kategori. Värdena visas "
+"som kolumner av olika höjd längs den lodräta (Y-)axeln. Höjd och placering "
+"beror på värdet och den valda undertypen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1685
+msgid ""
+"Column plot sub-types provide three options for relating the values from "
+"different data series. The first sub-type plots each series independently in"
+" adjacent bars, each of which is tied to the horizontal axis and has its "
+"height determined by the numeric content of the data value. The second sub-"
+"type plots each series as a vertically stacked set of columns with the "
+"vertical height of each element determined by the numeric content of the "
+"data value and the position of the column determined by the position of the "
+"element in the data series. For example, if the first series starts with "
+"values <literal>{3.9, 4.2, ...}</literal>, the second series with values "
+"<literal>{1.2, 3.5, ...}</literal>, and the third series with values "
+"<literal>{3.1, 1.9, ...}</literal>, then the third column will be plotted "
+"ranging from 7.7 to 9.6, since <literal>7.7=4.2+3.5</literal> and "
+"<literal>9.6=4.2+3.5+1.9</literal>. The third sub-type plots each series as "
+"a vertically stacked set of columns scaled to the total all the numeric "
+"values in that category. Using the example above, the three columns would "
+"range from 0 to 0.4375, from 0.4375 to 0.8020, and from 0.8020 to 1 "
+"respectively because the intervals are the proportional contribution of each"
+" data value to the total, i.e. <literal>0.4375=4.2/(4.2+3.5+1.9)</literal> "
+"for the first, <literal>0.3645...=3.5/(4.2+3.5+1.9)</literal> for the "
+"second, and <literal>0.1979...=1.9/(4.2+3.5+1.9)</literal> for the third. By"
+" default, these numbers are presented as percentages on the vertical (Y) "
+"axis."
+msgstr ""
+"Undertyperna för kolumndiagram erbjuder tre sätt att visa värden från olika "
+"dataserier. Den första visar varje serie för sig i grupperade kolumner "
+"bredvid varandra. Kolumnerna utgår från den vågräta axeln och höjden "
+"motsvarar respektive värde. Den andra staplar seriernas kolumner ovanpå "
+"varandra. Höjden på varje del motsvarar värdet, och kolumnens position "
+"bestäms av värdets position i dataserien. Om den första serien börjar med "
+"värdena <literal>{3.9, 4.2, ...}</literal>, den andra med <literal>{1.2, "
+"3.5, ...}</literal> och den tredje med <literal>{3.1, 1.9, ...}</literal>, "
+"sträcker sig den tredje kolumnen till exempel från 7.7 till 9.6, eftersom "
+"<literal>7.7=4.2+3.5</literal> och <literal>9.6=4.2+3.5+1.9</literal>. Den "
+"tredje undertypen staplar också seriernas kolumner, men skalar dem efter "
+"summan av alla värden i kategorin. Med exemplet ovan sträcker sig kolumnerna"
+" från 0 till 0.4375, från 0.4375 till 0.8020 respektive från 0.8020 till 1. "
+"Intervallen motsvarar varje värdes andel av summan: "
+"<literal>0.4375=4.2/(4.2+3.5+1.9)</literal> för den första serien, "
+"<literal>0.3645...=3.5/(4.2+3.5+1.9)</literal> för den andra och "
+"<literal>0.1979...=1.9/(4.2+3.5+1.9)</literal> för den tredje. Som standard "
+"visas värdena som procent längs den lodräta (Y-)axeln."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1719
+msgid "Column plots do not have any pre-defined styles."
+msgstr "Kolumndiagram har inga fördefinierade stilar."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1725
+msgid "An example of column plots"
+msgstr "Exempel på kolumndiagram"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1733
+msgid ""
+"A screenshot of a table of data and three column plots made using those "
+"data."
+msgstr ""
+"En skärmbild av en datatabell och tre kolumndiagram som bygger på tabellens "
+"värden."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1739
+msgid ""
+"This screenshot shows a table of data and three column plots. The data "
+"consist of three series organized by row and starting with the words "
+"\"Widgets\", \"Gadgets\", and \"Lumpets\". Each of these series has values "
+"in five categories. The three graphs illustrate the three sub-types of "
+"column plots, with the series plotted independently in the left plot, "
+"stacked in the middle plot, and proportionately stacked in the right plot."
+msgstr ""
+"Skärmbilden visar en datatabell och tre kolumndiagram. Data består av tre "
+"serier, en per rad, med etiketterna ”Widgets”, ”Gadgets” och ”Lumpets”. "
+"Varje serie innehåller värden för fem kategorier. Diagrammen visar de tre "
+"undertyperna: serierna visas var för sig i det vänstra diagrammet, staplas i"
+" det mittersta och staplas proportionellt i det högra."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1756
+msgid ""
+"Each series in column plots can include three main elements and two error "
+"elements, although only the value element is necessary. The series can have "
+"a 'Name' element, which is a single text entry used to identify the series, "
+"must have a 'Values' element, which is a sequence of numeric values, and may"
+" have a 'Label' element, which is a sequence of text entries used to "
+"identify the categories. All of these elements can be defined as references "
+"to a region of the worksheet, as literally defined entries, or as formula "
+"expressions which result in the correct type. The 'Label' element is shared "
+"by all of the series. The legend added to a column plot identifies the "
+"different series, by default using the entries of the 'Name' element of each"
+" series. The two error elements include a list for errors in the positive "
+"direction and one for errors in the negative direction."
+msgstr ""
+"Varje serie i ett kolumndiagram kan innehålla tre huvudkomponenter och två "
+"felkomponenter, men värdekomponenten är den enda som krävs. Serien kan ha "
+"komponenten ”Namn”, ett enda textvärde som identifierar serien. Den måste ha"
+" komponenten ”Värden”, en följd av talvärden, och kan ha komponenten "
+"”Etikett”, en följd av textvärden som anger kategorierna. Komponenterna kan "
+"definieras som referenser till ett område i kalkylbladet, som uttryckliga "
+"värden eller som formler som ger rätt typ av värde. Alla serier delar på "
+"komponenten ”Etikett”. Förklaringen till ett kolumndiagram visar de olika "
+"serierna och använder som standard värdena i varje series komponent ”Namn”. "
+"De två felkomponenterna innehåller var sin lista med positiva respektive "
+"negativa felvärden."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1774
+msgid "The data in each column plot series"
+msgstr "Data i varje serie i ett kolumndiagram"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1787
+msgid ""
+"A single textual element labeling the data series. These will be used in the"
+" legend which may be displayed with the column plot."
+msgstr ""
+"Ett textvärde som namnger dataserien. Det visas i förklaringen som kan "
+"läggas till diagrammet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1799
+msgid ""
+"A series of textual elements labeling each value. Generally, this series "
+"will have as many entries as there were in the \"Value\" series. These "
+"entries are shared by all the series in the column plot."
+msgstr ""
+"En serie textvärden som namnger varje värde. Vanligtvis har serien lika "
+"många poster som värdeserien. Alla dataserier i kolumndiagrammet delar dessa"
+" etiketter."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1825
+msgid ""
+"Column plots provide three icons to choose between three plot sub-types."
+msgstr "Kolumndiagram har tre ikoner för val av undertyp."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1833
+msgid "Column plot sub-type and style options."
+msgstr "Alternativ för undertyp och stil i kolumndiagram."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1836
+msgid ""
+"<inlinemediaobject> <imageobject> <imagedata "
+"fileref=\"figures/chart_column_1_1.png\"/> </imageobject> <textobject> "
+"<phrase> The icon for pie plot of style with joint slices. </phrase> "
+"</textobject> </inlinemediaobject>"
+msgstr ""
+"<inlinemediaobject> <imageobject> <imagedata "
+"fileref=\"figures/chart_column_1_1.png\"/> </imageobject> <textobject> "
+"<phrase>Ikon för kolumndiagram med grupperade kolumner.</phrase> "
+"</textobject> </inlinemediaobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1856
+msgid ""
+"<inlinemediaobject> <imageobject> <imagedata "
+"fileref=\"figures/chart_column_1_2.png\"/> </imageobject> <textobject> "
+"<phrase> The icon for pie plot of style with joint slices. </phrase> "
+"</textobject> </inlinemediaobject>"
+msgstr ""
+"<inlinemediaobject> <imageobject> <imagedata "
+"fileref=\"figures/chart_column_1_2.png\"/> </imageobject> <textobject> "
+"<phrase>Ikon för kolumndiagram med staplade kolumner.</phrase> </textobject>"
+" </inlinemediaobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1876
+msgid ""
+"<inlinemediaobject> <imageobject> <imagedata "
+"fileref=\"figures/chart_column_1_3.png\"/> </imageobject> <textobject> "
+"<phrase> The icon for pie plot of style with joint slices. </phrase> "
+"</textobject> </inlinemediaobject>"
+msgstr ""
+"<inlinemediaobject> <imageobject> <imagedata "
+"fileref=\"figures/chart_column_1_3.png\"/> </imageobject> <textobject> "
+"<phrase>Ikon för kolumndiagram med proportionellt staplade "
+"kolumner.</phrase> </textobject> </inlinemediaobject>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:1849 C/gnumeric.xml:1869 C/gnumeric.xml:1889
+msgid "The icon for pie plot of style with joint slices."
+msgstr "Ikon för kolumndiagram."

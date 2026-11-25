@@ -97,3 +97,7 @@ Batch 145 technical names:
 Batch 146 sample value:
 
 - **Dodji** — personal name in the source example value `Zoe, Sally, Dodji`, retained exactly.
+
+Batch 158 example labels:
+
+- **Gadgets**, **Lumpets** — sample category labels visible in the source screenshot; retained so the caption matches the image.
