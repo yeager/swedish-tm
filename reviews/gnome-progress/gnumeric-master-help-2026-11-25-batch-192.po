@@ -1,0 +1,461 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Gnumeric help\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2
+msgid "Converting Files"
+msgstr "Konvertera filer"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:4
+msgid ""
+"<application>Gnumeric</application> can convert files automatically without "
+"needing user intervention. This allows a large number of files to be "
+"converted using a script. <application>Gnumeric</application> is distributed"
+" along with a program called <application>ssconvert</application> which is "
+"the program used to convert files automatically. All of the file formats "
+"supported by <application>Gnumeric</application> can be used except for the "
+"PostScript and PDF file formats which operate through the printing system."
+msgstr ""
+"<application>Gnumeric</application> kan konvertera filer automatiskt utan "
+"att du behöver göra något. Då kan du konvertera många filer med ett skript. "
+"Tillsammans med <application>Gnumeric</application> distribueras programmet "
+"<application>ssconvert</application>, som används för automatisk "
+"filkonvertering. Du kan använda alla filformat som stöds av "
+"<application>Gnumeric</application>, utom PostScript och PDF som hanteras "
+"via utskriftssystemet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:14
+msgid ""
+"This application is used, from the command line by specifying, any desired "
+"options, an input file and an output file. For example, <_:screen-1/> would "
+"convert an <application>Excel</application> format file to a "
+"<application>Gnumeric</application> format file."
+msgstr ""
+"Du använder programmet från kommandoraden genom att ange eventuella flaggor,"
+" en indatafil och en utdatafil. Exemplet <_:screen-1/> konverterar en fil i "
+"<application>Excel</application>-format till "
+"<application>Gnumeric</application>-format."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:27
+msgid ""
+"The available import and export file formats which ssconvert can read can be"
+" listed using <_:screen-1/> or <_:screen-2/> respectively."
+msgstr ""
+"Du kan visa vilka filformat ssconvert kan läsa respektive skriva med "
+"<_:screen-1/> eller <_:screen-2/>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:43
+msgid ""
+"Like other GNU command line applications, "
+"<application>ssconvert</application> includes a manual page. This page can "
+"be accessed by typing: <_:screen-1/> which will open the manual page. This "
+"page can be navigated by typing the space bar or using the <keysym>Page "
+"Up</keysym> and <keysym>Page Down</keysym> buttons. The "
+"<application>man</application> program can be dismissed by typing the "
+"<keysym>q</keysym> key."
+msgstr ""
+"Precis som andra kommandoradsprogram från GNU har "
+"<application>ssconvert</application> en manualsida. Visa den med kommandot "
+"<_:screen-1/>. Du kan bläddra på sidan med blanksteg eller tangenterna "
+"<keysym>Page Up</keysym> och <keysym>Page Down</keysym>. Avsluta programmet "
+"<application>man</application> genom att trycka på <keysym>q</keysym>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:2
+msgid "Printing to a Printer or a File."
+msgstr "Skriv ut på skrivare eller till fil."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:4
+msgid ""
+"The <interface>Print dialog</interface> includes the most important options "
+"related to printing. More detailed options related to printing can be set in"
+" the <interface>Page Setup dialog</interface>, detailed in <xref "
+"linkend=\"sect-printing-setup\"/>. Press the <guibutton>Print</guibutton> to"
+" print out the workbook. Press the <guibutton>Print Preview</guibutton> "
+"button to display the <interface>Print Preview</interface>."
+msgstr ""
+"Dialogrutan <interface>Skriv ut</interface> innehåller de viktigaste "
+"utskriftsalternativen. Fler inställningar finns i dialogrutan "
+"<interface>Sidinställningar</interface>, som beskrivs i <xref "
+"linkend=\"sect-printing-setup\"/>. Klicka på <guibutton>Skriv ut</guibutton>"
+" för att skriva ut arbetsboken. Klicka på "
+"<guibutton>Förhandsgranska</guibutton> för att visa "
+"<interface>Förhandsgranskning</interface>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:15
+msgid ""
+"The number of tabs and the content of some of the tabs of the "
+"<interface>Print dialog</interface> depends on the printer model you use. "
+"Some of the described tabs or options may not be available with your "
+"printer, especially when printing to a file."
+msgstr ""
+"Antalet flikar och innehållet på vissa flikar i dialogrutan <interface>Skriv"
+" ut</interface> beror på skrivarmodellen. En del flikar och alternativ "
+"kanske inte är tillgängliga för din skrivare, särskilt när du skriver ut "
+"till en fil."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:24
+msgid "Print General"
+msgstr "Allmänt"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:26
+msgid "<interface>Print Dialog Printer Tab</interface>"
+msgstr "<interface>Fliken Skrivare i dialogrutan Skriv ut</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:35
+msgid ""
+"Select the preferred <interface>printer</interface> in the upper half of the"
+" tab. Your default printer is already highlighted when you open the "
+"<interface>Printer dialog</interface>. Optionally select the "
+"<guilabel>number of copies</guilabel> and a <guilabel>page range</guilabel> "
+"in the lower half of the dialog. Click on <guibutton>Print</guibutton> to "
+"send the document to your printing system."
+msgstr ""
+"Välj önskad <interface>skrivare</interface> i den övre delen av fliken. "
+"Standardskrivaren är redan markerad när du öppnar dialogrutan "
+"<interface>Skrivare</interface>. Välj vid behov <guilabel>antal "
+"kopior</guilabel> och ett <guilabel>sidintervall</guilabel> i den nedre "
+"delen av dialogrutan. Klicka på <guibutton>Skriv ut</guibutton> för att "
+"skicka dokumentet till utskriftssystemet."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:44
+msgid ""
+"When printing to a file you may want to change the <guilabel>output "
+"name</guilabel> and <guilabel>folder</guilabel> before printing. You can "
+"choose between saving a <keycap>PostScript</keycap> or a "
+"<keycap>PDF</keycap> file."
+msgstr ""
+"Om du skriver ut till en fil kan du ändra <guilabel>utdatafilens "
+"namn</guilabel> och <guilabel>mapp</guilabel> innan du skriver ut. Du kan "
+"spara som <keycap>PostScript</keycap>- eller <keycap>PDF</keycap>-fil."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:54
+msgid "<interface>Print Dialog Page Setup Tab</interface>"
+msgstr "<interface>Fliken Sidinställningar i dialogrutan Skriv ut</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:71
+msgid ""
+"The preview in the lower part of the tab gives you a small hint of how your "
+"printed document will look like."
+msgstr ""
+"Förhandsgranskningen längst ned på fliken ger en fingervisning om hur det "
+"utskrivna dokumentet kommer att se ut."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:63
+msgid ""
+"In the <guimenuitem>Page Setup</guimenuitem> tab you can choose several "
+"options concerning the layout or the paper. Choose how many sheets shall "
+"appear on one piece of paper, about two-sided printing, limit the printed "
+"pages by even or odd page numbers or the scale in the layout section. Select"
+" the <guilabel>paper type</guilabel> (e.g. preprinted) and the paper source "
+"and output tray in the paper section. <_:tip-1/>"
+msgstr ""
+"På fliken <guimenuitem>Sidinställningar</guimenuitem> kan du välja "
+"alternativ för sidlayout och papper. Ange hur många sidor från kalkylbladet "
+"som ska placeras på ett pappersark, om du vill skriva ut dubbelsidigt, om "
+"bara jämna eller udda sidor ska skrivas ut samt skalan i avsnittet för "
+"layout. Välj <guilabel>papperstyp</guilabel> (till exempel förtryckt "
+"papper), papperskälla och utmatningsfack i pappersavsnittet. <_:tip-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:80
+msgid "Print Range"
+msgstr "Utskriftsintervall"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:82
+msgid "<interface>Print Dialog Range Tab</interface>"
+msgstr "<interface>Fliken Intervall i dialogrutan Skriv ut</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:91
+msgid ""
+"The <guimenuitem>Print Range</guimenuitem> tab gives you the opportunity to "
+"limit the <guilabel>range</guilabel> of the printed workbook. You may choose"
+" between printing the whole workbook, only the selected or not the selected "
+"area or a defined range of worksheets."
+msgstr ""
+"På fliken <guimenuitem>Utskriftsintervall</guimenuitem> kan du begränsa "
+"<guilabel>intervallet</guilabel> för utskrift av arbetsboken. Du kan skriva "
+"ut hela arbetsboken, enbart det markerade området, allt utom det markerade "
+"området eller ett angivet intervall av kalkylblad."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:100
+msgid "Print Job"
+msgstr "Utskriftsjobb"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:102
+msgid "<interface>Print Dialog Job Tab</interface>"
+msgstr "<interface>Fliken Utskriftsjobb i dialogrutan Skriv ut</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:119
+msgid ""
+"Some options may be unavailable due to user restrictions. Ask your local "
+"administrator for further details."
+msgstr ""
+"Vissa alternativ kan vara otillgängliga på grund av användarbehörigheter. "
+"Kontakta den lokala administratören för mer information."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:111
+msgid ""
+"In the <guimenuitem>Job</guimenuitem> tab you may change the "
+"<guilabel>priority </guilabel> or add <guilabel>billing "
+"information</guilabel> to the print job. Also you can choose to add a "
+"<guilabel>cover page</guilabel> in front or after the printed worksheets. "
+"Finally you can decide whether your job should be printed right now or at a "
+"defined point in time. <_:important-1/>"
+msgstr ""
+"På fliken <guimenuitem>Utskriftsjobb</guimenuitem> kan du ändra jobbets "
+"<guilabel>prioritet </guilabel> eller lägga till "
+"<guilabel>faktureringsinformation</guilabel>. Du kan också lägga till ett "
+"<guilabel>försättsblad</guilabel> före eller efter de utskrivna "
+"kalkylbladen. Slutligen kan du välja om utskriften ska starta genast eller "
+"vid en viss tidpunkt. <_:important-1/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:130
+msgid "<interface>Print Dialog Image Quality Tab</interface>"
+msgstr "<interface>Fliken Bildkvalitet i dialogrutan Skriv ut</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:139
+msgid ""
+"In the <guimenuitem>Image Quality</guimenuitem> tab you can select the "
+"<guilabel>resolution</guilabel> of the printed document depending on your "
+"printer. No more, no less."
+msgstr ""
+"På fliken <guimenuitem>Bildkvalitet</guimenuitem> kan du välja "
+"utskriftsdokumentets <guilabel>upplösning</guilabel>, beroende på skrivaren."
+" Varken mer eller mindre."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:149
+msgid "<interface>Print Dialog Finishing Tab</interface>"
+msgstr "<interface>Fliken Efterbehandling i dialogrutan Skriv ut</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:158
+msgid ""
+"The <guimenuitem>Finishing</guimenuitem> tab lets decide whether you want a "
+"blank <guilabel>separation sheet</guilabel> after every page, after the "
+"whole job or no separation sheet at all."
+msgstr ""
+"På fliken <guimenuitem>Efterbehandling</guimenuitem> väljer du om ett tomt "
+"<guilabel>mellanlägg</guilabel> ska infogas efter varje sida, efter hela "
+"utskriftsjobbet eller inte alls."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:168
+msgid "<interface>Print Dialog Advanced Tab</interface>"
+msgstr "<interface>Fliken Avancerat i dialogrutan Skriv ut</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:177
+msgid ""
+"In the <guimenuitem>Advanced</guimenuitem> tab you can change several "
+"options depending on the printer model you use."
+msgstr ""
+"På fliken <guimenuitem>Avancerat</guimenuitem> kan du ändra flera "
+"inställningar som beror på skrivarmodellen."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:187
+msgid "Page Setup."
+msgstr "Sidinställningar."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:188
+msgid ""
+"The <interface>Page Setup Dialog</interface> can be used to configure "
+"various options related to printing out a workbook. Click on <menuchoice> "
+"<guimenu>File Menu</guimenu> <guimenuitem>Page Setup</guimenuitem> "
+"</menuchoice> to activate the <interface>Page Setup</interface>."
+msgstr ""
+"<interface>Utskriftsinställningsdialogen</interface> används för att "
+"konfigurera olika utskriftsalternativ för arbetsboken. Klicka på "
+"<menuchoice> <guimenu>Arkiv</guimenu> "
+"<guimenuitem>Sidinställningar</guimenuitem> </menuchoice> för att öppna "
+"<interface>Sidinställningar</interface>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:197
+msgid ""
+"Remember that at any time you can click on the <guibutton>Print "
+"preview</guibutton> button to see what your document looks like with your "
+"selected options. See the <xref linkend=\"sect-printing-preview\"/>"
+msgstr ""
+"Du kan när som helst klicka på <guibutton>Förhandsgranska</guibutton> för "
+"att se hur dokumentet ser ut med de valda inställningarna. Se <xref "
+"linkend=\"sect-printing-preview\"/>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:205
+msgid ""
+"Normally the specified settings apply only to the current sheet. Select "
+"another sheet at the bottom of the <interface>Page Setup Dialog</interface> "
+"or select <guilabel>Apply to all sheets of this workbook</guilabel>. You can"
+" also save your adjustments by activating the <guilabel>save as default "
+"settings</guilabel> flag."
+msgstr ""
+"Inställningarna gäller vanligtvis bara det aktuella kalkylbladet. Välj ett "
+"annat blad längst ned i dialogrutan <interface>Sidinställningar</interface> "
+"eller välj <guilabel>Använd på alla kalkylblad i arbetsboken</guilabel>. Du "
+"kan också spara ändringarna som standardinställningar genom att markera "
+"<guilabel>Spara som standardinställningar</guilabel>."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:216
+msgid "Page Setup Dialog - Page"
+msgstr "Dialogrutan Sidinställningar – Sida"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:220
+msgid "<interface>Print Setup Page Tab</interface>"
+msgstr ""
+"<interface>Fliken Sida i dialogrutan Utskriftsinställningar</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:233
+msgid "<interface>Print Setup Paper Type dialog</interface>"
+msgstr ""
+"<interface>Dialogrutan Papperstyp i utskriftsinställningarna</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:229
+msgid ""
+"Change the paper type by clicking the <guibutton>Change Paper "
+"Type</guibutton> button. <_:figure-1/> Select the preferred printer or "
+"choose Any Printer to see the formats supported by all printers. Pick a "
+"<guilabel>paper size</guilabel> and <guilabel>page orientation</guilabel> "
+"(portrait, landscape or reverse) to suit the best layout for your document."
+msgstr ""
+"Ändra papperstyp genom att klicka på <guibutton>Ändra "
+"papperstyp</guibutton>. <_:figure-1/> Välj önskad skrivare eller valfri "
+"skrivare om du vill se format som stöds av alla skrivare. Välj den "
+"<guilabel>pappersstorlek</guilabel> och <guilabel>sidorientering</guilabel> "
+"(stående, liggande eller omvänd) som passar dokumentets layout bäst."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:247
+msgid ""
+"Specify the required <guilabel>margins</guilabel> of the page. Nothing will "
+"be printed inside these margins, not even page numbers. The margins will be "
+"measured in the same units (millimetres, points or inches) as the paper "
+"size. Change the <guilabel>unit</guilabel> in the paper and layout section "
+"to best fit your needs. You may also specify whether the page is centered "
+"<guilabel> horizontally</guilabel> and/or <guilabel>vertically</guilabel> on"
+" the printable part of the page."
+msgstr ""
+"Ange sidans <guilabel>marginaler</guilabel>. Ingenting skrivs ut innanför "
+"marginalerna, inte ens sidnummer. Marginalerna mäts i samma enheter "
+"(millimeter, punkter eller tum) som pappersstorleken. Ändra "
+"<guilabel>enhet</guilabel> i avsnittet för papper och layout så att den "
+"passar dina behov. Du kan också ange om sidan ska centreras <guilabel> "
+"vågrätt</guilabel> och/eller <guilabel>lodrätt</guilabel> på den utskrivbara"
+" delen av pappret."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:259
+msgid "Page Setup Dialog - Scale"
+msgstr "Sidinställningar – Skala"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:262
+msgid "<interface>Print Setup Scale Tab</interface>"
+msgstr "<interface>Fliken Skala i utskriftsinställningarna</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:271
+msgid ""
+"Select the scale applied while printing. You can choose between <guilabel>no"
+" scaling</guilabel>, a <guilabel>fixed scaling</guilabel> or "
+"<guilabel>automatic scaling</guilabel> to fit the workbook to a defined "
+"number of paper sheets."
+msgstr ""
+"Välj skalan för utskriften. Du kan välja <guilabel>ingen "
+"skalning</guilabel>, <guilabel>fast skalning</guilabel> eller "
+"<guilabel>automatisk skalning</guilabel> för att anpassa arbetsboken till "
+"ett angivet antal pappersark."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:280
+msgid "Page Setup Dialog - Headers and Footers"
+msgstr "Sidinställningar – Sidhuvud och sidfot"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:283
+msgid "<interface>Print Setup Headers and Footers Tab</interface>"
+msgstr ""
+"<interface>Fliken Sidhuvud och sidfot i utskriftsinställningarna</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:292
+msgid ""
+"Select a predefined format for either the header or the footer. You can "
+"define an header or a footer by clicking the "
+"<guibutton>Configure</guibutton> button next to the according drop-down "
+"field."
+msgstr ""
+"Välj ett förinställt format för sidhuvudet eller sidfoten. Du kan definiera "
+"ett sidhuvud eller en sidfot genom att klicka på "
+"<guibutton>Konfigurera</guibutton> bredvid motsvarande listruta."
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:299
+msgid ""
+"<interface>Print Setup Headers and Footers Configure Dialog</interface>"
+msgstr ""
+"<interface>Dialogrutan Konfigurera sidhuvud och sidfot i "
+"utskriftsinställningarna</interface>"
+
+#. from gnome:reviewed/gnumeric/master/help
+#: C/gnumeric.xml:308
+msgid ""
+"Headers and footers are divided into left, center and right area. Select the"
+" area you want to change. Insert a user-defined text or just select one or "
+"several of the given options. When selecting <guibutton>time</guibutton> "
+"and/or <guibutton>date</guibutton> you may choose the format by clicking on "
+"the arrow next to the symbol and click on the preferred option. Beside the "
+"according <guibutton>page</guibutton> number, the number of total "
+"<guibutton> pages</guibutton> and the name of the according worksheet, you "
+"may also insert the <guibutton>file</guibutton> name and/or "
+"<guibutton>path</guibutton>. Finally you can select a defined "
+"<guibutton>cell</guibutton> to appear in the header/footer. Additionally "
+"there are a number of special <keycap>opcodes</keycap> for common options. "
+"These are:"
+msgstr ""
+"Sidhuvuden och sidfötter delas in i tre områden: vänster, mitten och höger. "
+"Välj det område du vill ändra. Skriv in egen text eller välj ett eller flera"
+" av alternativen. När du väljer <guibutton>tid</guibutton> och/eller "
+"<guibutton>datum</guibutton> kan du välja format genom att klicka på pilen "
+"bredvid symbolen och sedan välja ett alternativ. Förutom "
+"<guibutton>sidnummer</guibutton>, det totala antalet "
+"<guibutton>sidor</guibutton> och namnet på kalkylbladet kan du infoga "
+"<guibutton>filnamn</guibutton> och/eller <guibutton>sökväg</guibutton>. Du "
+"kan även visa en angiven <guibutton>cell</guibutton> i sidhuvudet eller "
+"sidfoten. Dessutom finns särskilda <keycap>opcodes</keycap> för vanliga "
+"alternativ:"

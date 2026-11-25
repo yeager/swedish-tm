@@ -257,3 +257,11 @@ Batch 190:
 - **escape-sekvenser** — technical compound for escape sequences used to represent unknown characters.
 - **kalkylbladsval** — compound heading for the worksheet selection area.
 - **talformat / talformaten** — spreadsheet number-format terminology; Hunspell does not recognize these compounds in the extracted text.
+
+Batch 192:
+
+- **Gnumeric / ssconvert / PostScript** — application, command and file-format names.
+- **-format / -format.** — command-line option text retained from the adjacent conversion example.
+- **Page Up** — keyboard key label in the manual-page instructions.
+- **opcodes** — technical term for the special codes inserted in headers and footers.
+- **sidorientering** — compound for page orientation.
