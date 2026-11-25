@@ -82,3 +82,8 @@ Batch 133 identifiers flagged by Hunspell:
 Batch 136 technical terms:
 
 - **CSV/TSV** — standard file-format abbreviations retained in the Gnumeric text import option labels.
+
+
+Batch 140:
+
+- **Insticksmodulhanteraren** — established Swedish UI name used in the GNOME TM for Plugin Manager; retained consistently although Hunspell does not recognize the compound.
