@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T164149Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261125T164416Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -610303,6 +610303,111 @@ en användare
       <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
       <tuv xml:lang="en"><seg>The uses of the &lt;interface&gt;File Save&lt;/interface&gt; dialog in its expanded form is explained below.</seg></tuv>
       <tuv xml:lang="sv"><seg>Nedan beskrivs hur den utfällda dialogrutan &lt;interface&gt;Spara fil&lt;/interface&gt; används.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Changing the currently selected folder.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Byta vald mapp.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In order to save a file in a folder other than that provided by default, it is necessary to change the default folder. The note below explains briefly the notion of folders and the procedure further down explains how to change folders.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du vill spara filen i en annan mapp än standardmappen måste du byta mapp. Kommentaren nedan förklarar kort hur mappar fungerar, och instruktionerna längre fram visar hur du byter mapp.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In GNU and UNIX systems, all of the files are stored in folders organized in a single, unified filesystem tree with a folder named '&lt;filename&gt;/&lt;/filename&gt;' at the absolute root of the tree. Every file is accessible from this absolute root folder and, by default, this folder is provided as the choice named &lt;filename&gt;Filesystem&lt;/filename&gt; with an icon of a disk drive in area &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt; in the &lt;interface&gt;File Save&lt;/interface&gt; dialog.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I GNU- och Unix-system lagras alla filer i mappar i ett gemensamt filsystemträd. Trädets absoluta rot är en mapp som heter ”&lt;filename&gt;/&lt;/filename&gt;”. Alla filer nås från den här rotmappen. Som standard visas den som ”&lt;filename&gt;Filesystem&lt;/filename&gt;” med en hårddiskikon i område &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt; i dialogrutan &lt;interface&gt;Spara fil&lt;/interface&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Navigating the directory tree from the single root folder would quickly become burdensome and the &lt;interface&gt;File Save&lt;/interface&gt; dialog provides several other starting points in area &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt;. These will be called, in this documentation, the 'relative root' folders since each of these will act as the root of the branching structure of sub-folders the relative root folder contains. Two relative root folders which are commonly provided are the 'Home' and 'Desktop' folders for the current user.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det skulle snabbt bli omständligt att navigera i katalogträdet från en enda rotmapp. Därför visar dialogrutan &lt;interface&gt;Spara fil&lt;/interface&gt; flera andra startpunkter i område &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt;. I den här dokumentationen kallas de ”relativa rötter”, eftersom var och en fungerar som rot för sina egna undermappar. Vanliga relativa rötter är användarens mappar ”Hem” och ”Skrivbord”.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>In a complex computer system, the absolute root folder may be hidden from the user and only 'relative roots' will be present. These should jointly provide some way to access all the areas where the user can save files.</seg></tuv>
+      <tuv xml:lang="sv"><seg>På komplexa datorsystem kan den absoluta rotmappen vara dold för användaren, så att bara ”relativa rötter” visas. Tillsammans bör de ge åtkomst till alla platser där användaren kan spara filer.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The 'relative roots' are also necessary when several file systems are available to the user. This will be the case when filesystem on other machines are accessible over a network or when &lt;application&gt;Gnumeric&lt;/application&gt; is running on operating systems whose filesystems are not unified, such as the proprietary operating systems sold by Microsoft in which each disk drive has its own root named, for example, &lt;filename&gt;C:\&lt;/filename&gt; or &lt;filename&gt;D:\&lt;/filename&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>”Relativa rötter” behövs också när användaren har tillgång till flera filsystem. Det gäller till exempel när filsystem på andra datorer nås via nätverket eller när &lt;application&gt;Gnumeric&lt;/application&gt; körs på operativsystem med separata filsystem, som Microsofts operativsystem där varje diskenhet har en egen rot, till exempel &lt;filename&gt;C:\&lt;/filename&gt; eller &lt;filename&gt;D:\&lt;/filename&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Additional 'relative root' folders can be added as 'bookmark folders' by the users themselves. These bookmark folders can be used to access quickly folders which are commonly used. The bookmark folders are listed, in area &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt;, under the thin horizontal separator line. The creation and deletion of these bookmark folders is explained below, in &lt;xref linkend="sect-file-save-dialog-bookmarks"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Användaren kan lägga till fler ”relativa rötter” som ”bokmärkesmappar”. De ger snabb åtkomst till mappar som används ofta. Bokmärkesmapparna visas i område &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt;, under den tunna vågräta avdelaren. Hur du skapar och tar bort dem beskrivs längre fram i &lt;xref linkend="sect-file-save-dialog-bookmarks"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Changing folders involves selecting a 'relative root' folder, then navigating into the appropriate sub-folder. When the &lt;guibutton&gt;Save&lt;/guibutton&gt; button is pressed, the file will be saved in the folder listed as the right most button in area &lt;emphasis role="bold"&gt;G&lt;/emphasis&gt; of &lt;xref linkend="fig-file-save-dialog-expanded-components"/&gt; which also means that the file will be saved alongside the folders and files listed in area &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Byt mapp genom att välja en ”relativ rot” och sedan navigera till önskad undermapp. När du klickar på &lt;guibutton&gt;Spara&lt;/guibutton&gt; sparas filen i mappen på knappen längst till höger i område &lt;emphasis role="bold"&gt;G&lt;/emphasis&gt; i &lt;xref linkend="fig-file-save-dialog-expanded-components"/&gt;. Det är också mappen vars innehåll visas i område &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The procedure to change the currently selected folder.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Så byter du den valda mappen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>To select a new folder, one of the 'relative root' folders which contains the desired folder must first be selected and then the hierarchy must be navigated to find the desired folder. As explained below, a user can move around the hierarchy using as many changes as they need to choose the folder in which to save their &lt;application&gt;Gnumeric&lt;/application&gt; file.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Börja med att välja en ”relativ rot” som innehåller den önskade mappen. Navigera sedan i hierarkin tills du hittar den. Du kan gå fram och tillbaka så många gånger som behövs för att välja mappen där &lt;application&gt;Gnumeric&lt;/application&gt;-filen ska sparas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Select a 'relative-root' folder in area &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj en ”relativ rot” i område &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The first step in choosing a new folder requires selecting, in area &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt;, a 'relative root' folder which contains the desired folder. The new 'relative root' folder is chosen by placing the mouse pointer over the folder name and double clicking (click twice rapidly without moving the mouse) with the primary mouse button. This will change the leftmost button in area &lt;emphasis role="bold"&gt;G&lt;/emphasis&gt; and change the folders and files listed in area &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Börja med att välja den ”relativa rot” som innehåller den önskade mappen i område &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt;. Dubbelklicka på mappnamnet med primär musknapp (två snabba klick utan att flytta pekaren). Då ändras knappen längst till vänster i område &lt;emphasis role="bold"&gt;G&lt;/emphasis&gt;, och mapparna och filerna i område &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt; uppdateras.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Navigate the filesystem to reach the desired folder using area &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Navigera i filsystemet till önskad mapp med område &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The next step involves descending the folder tree to reach the desired folder. This requires double clicking the sub-folder of the 'relative root' folder which contains the desired folder and continuing through the whole hierarchy until the desired folder is reached. After each double click, the selected folder is added as the right most button in area &lt;emphasis role="bold"&gt;G&lt;/emphasis&gt; and the contents of the selected folder are shown in area &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt;. Once the desired folder is reached, it must be opened in the same way, so that its contents are listed in area &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt; and the file can then be saved into this folder by clicking on the &lt;guibutton&gt;Save&lt;/guibutton&gt; button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Navigera nedåt i mappträdet till önskad mapp. Dubbelklicka på den undermapp till den ”relativa roten” som innehåller mappen du söker och fortsätt sedan genom hierarkin. Efter varje dubbelklick läggs den valda mappen till som knappen längst till höger i område &lt;emphasis role="bold"&gt;G&lt;/emphasis&gt;, och dess innehåll visas i område &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt;. När du har hittat mappen öppnar du den på samma sätt. Då visas innehållet i område &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt;, och du kan spara filen där genom att klicka på &lt;guibutton&gt;Spara&lt;/guibutton&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Navigating back up the folder tree using area &lt;emphasis role="bold"&gt;G&lt;/emphasis&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Navigera uppåt i mappträdet med område &lt;emphasis role="bold"&gt;G&lt;/emphasis&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>If the sub-folder selected in area &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt; does not contain the branch of the folder tree leading to the desired folder, the buttons in area &lt;emphasis role="bold"&gt;G&lt;/emphasis&gt; can be used to jump further up the folder tree but only as far as the 'relative root' folder selected in area &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt;. Area &lt;emphasis role="bold"&gt;G&lt;/emphasis&gt; provides a list of buttons with the names of all the folders between the 'relative root' listed in area &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt; and the currently selected folder. By clicking on one of these buttons, that is by placing the mouse pointer over the button and clicking with the primary mouse button, the folder listed on the button will be opened in area &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt; so that the selection process can restart from this branch.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om undermappen som visas i område &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt; inte leder till den önskade mappen kan du använda knapparna i område &lt;emphasis role="bold"&gt;G&lt;/emphasis&gt; för att gå uppåt i trädet, men inte längre än till den ”relativa rot” som valdes i område &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt;. Område &lt;emphasis role="bold"&gt;G&lt;/emphasis&gt; visar knappar med namnen på alla mappar mellan den relativa roten i område &lt;emphasis role="bold"&gt;F&lt;/emphasis&gt; och den valda mappen. Klicka på en knapp med primär musknapp för att öppna mappen i område &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt;. Därifrån kan du fortsätta välja en annan mapp.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>The process of exploration of the folder tree can continue as long as the user wishes. If the user desires it is also possible to create new folders as is explained next.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan fortsätta att utforska mappträdet så länge du vill. Du kan också skapa nya mappar, vilket beskrivs härnäst.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Adding a folder.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lägga till en mapp.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>Often the user wishes to save the &lt;application&gt;Gnumeric&lt;/application&gt; workbook by creating a file in a folder which does not yet exist. A new folder can be added to the folder tree by clicking on the &lt;guibutton&gt;Create Folder&lt;/guibutton&gt; button, which is labeled as area &lt;emphasis role="bold"&gt;H&lt;/emphasis&gt; of &lt;xref linkend="fig-file-save-dialog-expanded-components"/&gt;. The button can be clicked by placing the mouse pointer over the button and pressing the primary mouse button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du vill spara arbetsboken i programmet &lt;application&gt;Gnumeric&lt;/application&gt; i en mapp som ännu inte finns kan du skapa den direkt i mappträdet. Klicka på knappen &lt;guibutton&gt;Skapa mapp&lt;/guibutton&gt; i område &lt;emphasis role="bold"&gt;H&lt;/emphasis&gt; i &lt;xref linkend="fig-file-save-dialog-expanded-components"/&gt;. Klicka på knappen med primär musknapp.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>When the &lt;guibutton&gt;Create Folder&lt;/guibutton&gt; button is pressed, a folder will be added at the top of the list in area &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt;, with its name, &lt;filename&gt;Type name of new folder&lt;/filename&gt; already selected so that the user can simply start typing to give the folder a desired name. Once the name has been entered on the keyboard, typing the &lt;keysym&gt;Return&lt;/keysym&gt; key (or the &lt;keysym&gt;Enter&lt;/keysym&gt; key, depending on the keyboard) will change the folder name and open that folder. Area &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt; will therefore be empty since the newly created folder has no contents.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När du klickar på &lt;guibutton&gt;Skapa mapp&lt;/guibutton&gt; läggs en mapp till högst upp i listan i område &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt;. Namnet &lt;filename&gt;Type name of new folder&lt;/filename&gt; är markerat, så du kan börja skriva det nya namnet direkt. Tryck sedan på &lt;keysym&gt;Retur&lt;/keysym&gt; eller &lt;keysym&gt;Enter&lt;/keysym&gt;, beroende på tangentbordet, för att byta namn på och öppna mappen. Område &lt;emphasis role="bold"&gt;I&lt;/emphasis&gt; blir då tomt eftersom den nya mappen inte innehåller några filer.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gnumeric/master/help</prop>
+      <tuv xml:lang="en"><seg>There is no way to delete folders once they have been created, just as there is no way for &lt;application&gt;Gnumeric&lt;/application&gt; to delete files it has created. Folders created by mistake must be deleted using a file browser such as &lt;application&gt;Nautilus&lt;/application&gt; or using command line programs such as &lt;application&gt;rm&lt;/application&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ta bort mappar som har skapats, på samma sätt som &lt;application&gt;Gnumeric&lt;/application&gt; inte kan ta bort filer som programmet har skapat. Om du har skapat en mapp av misstag måste du ta bort den med en filhanterare, till exempel &lt;application&gt;Nautilus&lt;/application&gt;, eller med ett kommandoradsprogram som &lt;application&gt;rm&lt;/application&gt;.</seg></tuv>
     </tu>
   </body>
 </tmx>
