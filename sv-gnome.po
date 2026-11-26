@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 129073
+# Entries: 129122
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -5482,7 +5482,7 @@ msgstr "Videoegenskaper"
 #. from gnome:reviewed/gnome-calculator/main
 #. from gnome:reviewed/d-spy/gnome-50
 msgid "Duration"
-msgstr "Varaktighet"
+msgstr "Längd"
 
 #. from gnome:nautilus
 msgid "Container"
@@ -8549,7 +8549,7 @@ msgstr ""
 "Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "\n"
 "Skicka synpunkter på översättningen till\n"
-"<tp-sv@listor.tp-sv.se>."
+"<tp-sv@listor.tp-sv.se>"
 
 #. from gnome:nautilus
 msgid "Parent folder"
@@ -14179,6 +14179,7 @@ msgstr "Kryss"
 #. from gnome:reviewed/help.gnome.org/master
 #. from gnome:reviewed/four-in-a-row/master
 #. from gnome:reviewed/highscore/main
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
 msgid "Circle"
 msgstr "Cirkel"
 
@@ -29288,7 +29289,7 @@ msgstr "Tillhandahåll PUK-koden för SIM-kortet %s"
 #. from gnome:reviewed/gnome-session/gnome-50
 #. from gnome:reviewed/gnome-session/main
 msgid "This session logs you into GNOME"
-msgstr "Den här sessionen loggar in dig i GNOME"
+msgstr "Denna session loggar in dig i GNOME"
 
 #. from gnome:gnome-session
 msgid "GNOME on Wayland"
@@ -29302,7 +29303,7 @@ msgstr "GNOME med Xorg"
 #. from gnome:reviewed/gnome-session/gnome-50
 #. from gnome:reviewed/gnome-session/main
 msgid "Logout prompt"
-msgstr "Fråga före utloggning"
+msgstr "Utloggningsfråga"
 
 #. from gnome:gnome-session
 #. from gnome:reviewed/gnome-session/main
@@ -29310,14 +29311,13 @@ msgstr "Fråga före utloggning"
 msgid ""
 "If enabled, gnome-session will prompt the user before ending a session."
 msgstr ""
-"Om detta är aktiverat frågar gnome-session användaren innan sessionen "
-"avslutas."
+"Om aktiverad frågar gnome-session användaren innan en session avslutas."
 
 #. from gnome:gnome-session
 #. from gnome:reviewed/gnome-session/gnome-50
 #. from gnome:reviewed/gnome-session/main
 msgid "Show the fallback warning"
-msgstr "Visa varning om reservsessionen"
+msgstr "Visa fallback-varning"
 
 #. from gnome:gnome-session
 #. from gnome:reviewed/gnome-session/gnome-50
@@ -29326,8 +29326,9 @@ msgid ""
 "If enabled, gnome-session will display a warning dialog after login if the "
 "session was automatically fallen back."
 msgstr ""
-"Om detta är aktiverat visas en varningsdialog efter inloggningen när en "
-"reservsession har startats automatiskt."
+"Om aktiverad kommer gnome-session att visa en varningsdialog efter "
+"inloggning om sessionen automatiskt föll tillbaka till att använda gnome-"
+"fallback."
 
 #. from gnome:gnome-session
 msgid "Not responding"
@@ -29341,7 +29342,7 @@ msgstr "_Logga ut"
 #. from gnome:reviewed/gnome-session/main
 #. from gnome:reviewed/gnome-session/gnome-50
 msgid "Session to use"
-msgstr "Session som ska användas"
+msgstr "Sessionen som ska användas"
 
 #. from gnome:gnome-session
 msgid "SESSION_NAME"
@@ -29363,7 +29364,7 @@ msgstr "Denna flagga ignoreras"
 #. from gnome:reviewed/gnome-session/main
 #. from gnome:reviewed/gnome-session/gnome-50
 msgid "Don't re-exec into a login shell"
-msgstr "Starta inte om processen i ett inloggningsskal"
+msgstr "Kör inte om som ett inloggningsskal"
 
 #. from gnome:gnome-session
 msgid " — the GNOME session manager"
@@ -29380,14 +29381,14 @@ msgid ""
 "Start gnome-session-shutdown.target when receiving EOF or a single byte on "
 "stdin"
 msgstr ""
-"Starta gnome-session-shutdown.target när EOF eller en enstaka byte tas emot "
-"på standardindata"
+"Starta gnome-session-shutdown.target när EOF eller en ensam byte tas emot på"
+" standardindata"
 
 #. from gnome:gnome-session
 #. from gnome:reviewed/gnome-session/main
 #. from gnome:reviewed/gnome-session/gnome-50
 msgid "Signal initialization done to gnome-session"
-msgstr "Meddela gnome-session att initieringen är klar"
+msgstr "Signalera till gnome-session att initieringen är klar"
 
 #. from gnome:gnome-session
 msgid "Restart dbus.service if it is running"
@@ -29400,8 +29401,8 @@ msgid ""
 "Run from ExecStopPost to start gnome-session-shutdown.target on service "
 "failure"
 msgstr ""
-"Körs från ExecStopPost för att starta gnome-session-shutdown.target när "
-"tjänsten misslyckas"
+"Kör från ExecStopPost för att starta gnome-session-shutdown.target när en "
+"tjänst misslyckas"
 
 #. from gnome:gnome-session
 msgid "Program needs exactly one parameter"
@@ -29411,13 +29412,13 @@ msgstr "Programmet behöver exakt en parameter"
 #. from gnome:reviewed/gnome-session/gnome-50
 #. from gnome:reviewed/gnome-session/main
 msgid "Unknown inhibit argument: %s"
-msgstr "Okänt blockeringsargument: %s"
+msgstr "Okänt förhindrandeargument: %s"
 
 #. from gnome:gnome-session
 #. from gnome:reviewed/gnome-session/main
 #. from gnome:reviewed/gnome-session/gnome-50
 msgid "Failed to execute %s: %m\n"
-msgstr "Kunde inte exekvera %s: %m\n"
+msgstr "Kunde inte köra %s: %m\n"
 
 #. from gnome:gnome-session
 msgid "Show program version"
@@ -29427,17 +29428,18 @@ msgstr "Visa programversion"
 #. from gnome:reviewed/gnome-session/gnome-50
 #. from gnome:reviewed/gnome-session/main
 msgid "The application id to use when inhibiting (optional)"
-msgstr "Program-ID som ska användas för blockeringen (valfritt)"
+msgstr "Program-ID att använda vid förhindrande (valfritt)"
 
 #. from gnome:gnome-session
 #. from gnome:reviewed/gnome-session/gnome-50
 #. from gnome:reviewed/gnome-session/main
 msgid "The reason for inhibiting (optional)"
-msgstr "Orsak till blockeringen (valfritt)"
+msgstr "Orsaken för förhindrande (valfritt)"
 
 #. from gnome:gnome-session
 #. from gnome:reviewed/flatpak/main
 #. from gnome:reviewed/gnome-session/main
+#. from gnome:reviewed/gnome-session/gnome-50
 msgid "REASON"
 msgstr "ORSAK"
 
@@ -29445,25 +29447,25 @@ msgstr "ORSAK"
 #. from gnome:reviewed/gnome-session/gnome-50
 #. from gnome:reviewed/gnome-session/main
 msgid "Add action to inhibit (repeatable)"
-msgstr "Lägg till en åtgärd som ska blockeras (kan anges flera gånger)"
+msgstr "Lägg till åtgärd att hindra (upprepningsbar)"
 
 #. from gnome:gnome-session
 #. from gnome:reviewed/gnome-session/gnome-50
 #. from gnome:reviewed/gnome-session/main
 msgid "Do not launch COMMAND and wait forever instead"
-msgstr "Starta inte KOMMANDO; vänta i stället utan tidsgräns"
+msgstr "Kör inte KOMMANDO och vänta för alltid i stället"
 
 #. from gnome:gnome-session
 #. from gnome:reviewed/gnome-session/gnome-50
 #. from gnome:reviewed/gnome-session/main
 msgid "List the existing inhibitions, and exit"
-msgstr "Lista befintliga blockeringar och avsluta"
+msgstr "Lista befintliga förhindranden och avsluta"
 
 #. from gnome:gnome-session
 #. from gnome:reviewed/gnome-session/main
 #. from gnome:reviewed/gnome-session/gnome-50
 msgid "Execute COMMAND while inhibiting some session functionality."
-msgstr "Kör KOMMANDO samtidigt som vissa sessionsfunktioner blockeras."
+msgstr "Kör KOMMANDO medan vissa sessionsfunktioner hindras."
 
 #. from gnome:gnome-session
 #. from gnome:reviewed/gnome-session/gnome-50
@@ -29472,8 +29474,8 @@ msgid ""
 "Valid ACTION values are: logout, switch-user, suspend, idle, and automount.\n"
 "If no --inhibit options are specified, idle is assumed."
 msgstr ""
-"Giltiga värden för ÅTGÄRD är: logout, switch-user, suspend, idle och automount.\n"
-"Om du inte anger något --inhibit-alternativ används idle."
+"Giltiga värden på ÅTGÄRD är: logout, switch-user, suspend, idle och automount.\n"
+"Om ingen --inhibit-flagga anges så antas idle."
 
 #. from gnome:gnome-session
 msgid "Neither COMMAND nor --inhibit-only were specified."
@@ -29483,13 +29485,13 @@ msgstr "Varken KOMMANDO eller --inhibit-only angavs."
 #. from gnome:reviewed/gnome-session/main
 #. from gnome:reviewed/gnome-session/gnome-50
 msgid "Ignoring any existing inhibitors"
-msgstr "Ignorera alla befintliga blockeringar"
+msgstr "Ignorera befintliga blockeringar"
 
 #. from gnome:gnome-session
 #. from gnome:reviewed/gnome-session/gnome-50
 #. from gnome:reviewed/gnome-session/main
 msgid "Don’t prompt for user confirmation"
-msgstr "Begär inte bekräftelse från användaren"
+msgstr "Fråga inte efter användarbekräftelse"
 
 #. from gnome:gnome-session
 msgid "Could not connect to the session manager"
@@ -29499,7 +29501,7 @@ msgstr "Kunde inte ansluta till sessionshanteraren"
 #. from gnome:reviewed/gnome-session/main
 #. from gnome:reviewed/gnome-session/gnome-50
 msgid "Program called with conflicting options"
-msgstr "Programmet anropades med oförenliga flaggor"
+msgstr "Programmet anropades med motstridiga flaggor"
 
 #. from gnome:gvfs
 msgid "Operation not supported, files on different mounts"
@@ -36219,7 +36221,7 @@ msgstr "64-bitars teckenlöst heltal"
 #. from gnome:reviewed/gnumeric/master
 #. from gnome:reviewed/ashpd/main
 msgid "Boolean"
-msgstr "Booleska värden"
+msgstr "Boolesk variabel"
 
 #. from gnome:editor-master.sv
 msgid "boolean"
@@ -41524,6 +41526,7 @@ msgstr "URI"
 #. from gnome:reviewed/goffice/master
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master
 msgid "Offset"
 msgstr "Förskjutning"
 
@@ -46761,7 +46764,7 @@ msgstr "Rulla i diagrammet"
 #. from gnome:Dia
 #. from gnome:reviewed/gimp/master
 msgid "Box"
-msgstr "Låda"
+msgstr "Ruta"
 
 #. from gnome:Dia
 msgid "Ellipse"
@@ -57491,7 +57494,7 @@ msgstr "Öppnande av ”%s” misslyckades:\n\n%s"
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp/master
 msgid "Can't show file in file manager: %s"
-msgstr "Kan inte visa filen i filhanterare: %s"
+msgstr "Kan inte visa fil i filhanterare: %s"
 
 #. from gnome:GIMP
 msgid "Start _GtkInspector"
@@ -58437,7 +58440,7 @@ msgstr "Å_ngra %s"
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp/master
 msgid "_Redo %s"
-msgstr "_Upprepa %s"
+msgstr "_Gör om %s"
 
 #. from gnome:GIMP
 msgid "Clear Undo History"
@@ -61613,7 +61616,7 @@ msgstr "Öppna textfil (UTF-8)"
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp/master
 msgid "Could not open '%s' for reading: %s"
-msgstr "Kunde inte öppna ”%s” för att läsa: %s"
+msgstr "Kunde inte öppna ”%s” för läsning: %s"
 
 #. from gnome:GIMP
 msgid "Paste un_formatted text"
@@ -63048,7 +63051,7 @@ msgstr "Systemfärger"
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp/master
 msgid "Could not open '%s' for writing: %s"
-msgstr "Kunde inte öppna '%s' för skrivning: %s"
+msgstr "Kunde inte öppna ”%s” för skrivning: %s"
 
 #. from gnome:GIMP
 msgid "Error parsing '%%s': line longer than %s characters."
@@ -65836,7 +65839,7 @@ msgstr "Överför alfa till mask"
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp/master
 msgid "Apply Layer Masks"
-msgstr "Applicera lagermasker"
+msgstr "Tillämpa lagermasker"
 
 #. from gnome:GIMP
 msgid "Delete Layer Masks"
@@ -67933,7 +67936,7 @@ msgstr "Åsid_osätt ikonstorlekar som satts av temat"
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp/master
 msgid "Huge"
-msgstr "Mycket stor"
+msgstr "Jättestor"
 
 #. from gnome:GIMP
 msgid "Font Scaling"
@@ -68204,7 +68207,7 @@ msgstr "Välj standardmapp för import av banor"
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp/master
 msgid "Merge imported paths"
-msgstr "Slå ihop importerade banor"
+msgstr "Sammanfoga importerade banor"
 
 #. from gnome:GIMP
 msgid "Scale imported paths"
@@ -69036,6 +69039,8 @@ msgid "_Next Tip"
 msgstr "_Nästa tips"
 
 #. from gnome:GIMP
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+#. from gnome:reviewed/gimp/master
 msgid "Learn more"
 msgstr "Läs mer"
 
@@ -71553,7 +71558,7 @@ msgstr "Avståndsmått"
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp/master
 msgid "Procedure '%s' returned no return values"
-msgstr "Proceduren ”%s” returnerade inga svarsvärden"
+msgstr "Proceduren ”%s” returnerade inga returvärden"
 
 #. from gnome:GIMP
 msgid "Procedure '%s' returned a wrong value type for return value '%s' (#%d). Expected %s, got %s."
@@ -72702,7 +72707,7 @@ msgstr "Använd sammanfogat färgvärde från alla sammansatta synliga lager"
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp/master
 msgid "Sample average"
-msgstr "Medelvärde för sampel"
+msgstr "Samplingsmedel"
 
 #. from gnome:GIMP
 msgid "Use averaged color value from nearby pixels"
@@ -73055,7 +73060,7 @@ msgstr "Antisudda  (%s)"
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/evolution/master
 msgid "_Preview"
-msgstr "_Förhandsvisa"
+msgstr "_Förhandsvisning"
 
 #. from gnome:GIMP
 msgid "Split _view"
@@ -75016,7 +75021,7 @@ msgstr "Tillämpa effekt periodiskt"
 #. from gnome:reviewed/gnome-power-manager/master
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 msgid "Rate"
-msgstr "Rate"
+msgstr "Effektnivå"
 
 #. from gnome:GIMP
 msgid "Periodic stroke rate"
@@ -75691,12 +75696,12 @@ msgstr "Angiven DLL hittades inte."
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp/master
 msgid "There is no application associated with the given file name extension."
-msgstr "Det finns inget program associerat med den angivna filändelsen."
+msgstr "Det finns inget program associerat med det angivna filnamnstillägget."
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp/master
 msgid "There was not enough memory to complete the operation."
-msgstr "Det fanns för lite minne för att slutföra operationen."
+msgstr "Det fanns inte tillräckligt minne för att slutföra operationen."
 
 #. from gnome:GIMP
 msgid "A sharing violation occurred."
@@ -91375,7 +91380,7 @@ msgstr "FELSÖKNING"
 #. from gnome:reviewed/gnome-calculator/main
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 msgid "Basic"
-msgstr "Grundläggande"
+msgstr "Enkel"
 
 #. from gnome:accerciser
 msgid "Tests fundamental GUI application accessibility"
@@ -110267,7 +110272,7 @@ msgstr "Elektromagnetism"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Light Speed"
-msgstr "Ljusets hastighet"
+msgstr "Ljushastigheten"
 
 #. from gnome:calculator-main.sv
 msgid "Elementary Charge"
@@ -110277,19 +110282,19 @@ msgstr "Elementarladdningen"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Impedance of Vacuum"
-msgstr "Vakuumimpedansen"
+msgstr "Vågimpedansen i vakuum"
 
 #. from gnome:calculator-main.sv
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Permeability of Vacuum"
-msgstr "Vakuumpermeabiliteten"
+msgstr "Magnetiska konstanten"
 
 #. from gnome:calculator-main.sv
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Permittivity of Vacuum"
-msgstr "Vakuumpermittiviteten"
+msgstr "Elektriska konstanten"
 
 #. from gnome:calculator-main.sv
 #. from gnome:reviewed/gnome-calculator/main
@@ -110324,7 +110329,7 @@ msgstr "Boltzmanns konstant"
 #. from gnome:reviewed/gnome-calculator/main
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 msgid "Atomic Mass Unit"
-msgstr "Atommassenhet"
+msgstr "Atomär massenhet"
 
 #. from gnome:calculator-main.sv
 msgid "Molar Gas Constant"
@@ -110338,7 +110343,7 @@ msgstr "Stefan-Boltzmanns konstant"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Avogadro’s Number"
-msgstr "Avogadros konstant"
+msgstr "Avogadros tal"
 
 #. from gnome:calculator-main.sv
 msgid "Gravitation"
@@ -110352,7 +110357,7 @@ msgstr "Gravitationskonstanten"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Earth Acceleration"
-msgstr "Tyngdacceleration"
+msgstr "Jordaccelerationen"
 
 #. from gnome:calculator-main.sv
 msgid "Error: the number of periods must be positive"
@@ -110478,6 +110483,7 @@ msgstr "Summan av kvadrater"
 #. from gnome:reviewed/gnome-calculator/main
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/sysprof/master
+#. from gnome:reviewed/GNOME Calculator Hjälp/main
 msgid "Average"
 msgstr "Medelvärde"
 
@@ -110513,7 +110519,7 @@ msgstr "Populationsvarians"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Sundry"
-msgstr "Övrigt"
+msgstr "Diverse"
 
 #. from gnome:calculator-main.sv
 msgid "Logarithm"
@@ -112001,7 +112007,7 @@ msgstr "Variabelnamn kan endast innehålla siffror, bokstäver och understreck"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Financial"
-msgstr "Finansiellt"
+msgstr "Finansiell"
 
 #. from gnome:calculator-main.sv
 msgid "Conversion"
@@ -112159,7 +112165,7 @@ msgstr "_Uppdatera kurser"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Ctrm"
-msgstr "Ctrm"
+msgstr "Sampr"
 
 #. from gnome:calculator-main.sv
 msgid "Compounding Term"
@@ -112169,7 +112175,7 @@ msgstr "Sammansatt period"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Ddb"
-msgstr "Ddb"
+msgstr "Ddav"
 
 #. from gnome:calculator-main.sv
 msgid "Double Declining Depreciation"
@@ -112187,7 +112193,7 @@ msgstr "Framtida värde"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Gpm"
-msgstr "Gpm"
+msgstr "Bvm"
 
 #. from gnome:calculator-main.sv
 msgid "Gross Profit Margin"
@@ -112197,7 +112203,7 @@ msgstr "Bruttovinstmarginal"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Pmt"
-msgstr "Pmt"
+msgstr "Bet"
 
 #. from gnome:calculator-main.sv
 msgid "Periodic Payment"
@@ -112207,7 +112213,7 @@ msgstr "Periodisk betalning"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Pv"
-msgstr "Pv"
+msgstr "Nv"
 
 #. from gnome:calculator-main.sv
 msgid "Present Value"
@@ -112221,7 +112227,7 @@ msgstr "Periodisk räntesats"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Sln"
-msgstr "Sln"
+msgstr "Rkl"
 
 #. from gnome:calculator-main.sv
 msgid "Straight Line Depreciation"
@@ -112231,7 +112237,7 @@ msgstr "Linjär avskrivning"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Syd"
-msgstr "Syd"
+msgstr "Dgrav"
 
 #. from gnome:calculator-main.sv
 msgid "Sum of the Years Digits Depreciation"
@@ -112241,7 +112247,7 @@ msgstr "Degressiv avskrivning"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 #. from gnome:reviewed/gnome-calculator/main
 msgid "Term"
-msgstr "Term"
+msgstr "Period"
 
 #. from gnome:calculator-main.sv
 msgid "Financial Term"
@@ -116908,7 +116914,7 @@ msgstr "Idrottsvetenskap"
 #. from gnome:reviewed/gnumeric/master
 #. from gnome:reviewed/chronojump/master
 msgid "Engineering"
-msgstr "Ingenjörsfunktioner"
+msgstr "Tekniska"
 
 #. from gnome:chronojump
 msgid "Electronics"
@@ -170108,7 +170114,7 @@ msgstr "Generera förhandsgranskning i EPS-fil (med ps2epsi)"
 #. from gnome:genius
 #. from gnome:reviewed/gnumeric/master
 msgid "Solver"
-msgstr "Problemlösare"
+msgstr "Lösare"
 
 #. from gnome:genius
 msgid "Clea_r solutions"
@@ -186089,7 +186095,7 @@ msgstr ""
 #. from gnome:gnome-keyring
 #. from gnome:reviewed/oo7/main
 msgid "The original password was incorrect"
-msgstr "Det ursprungliga lösenordet var felaktigt"
+msgstr "Det gamla lösenordet var felaktigt"
 
 #. from gnome:gnome-keyring
 msgid "Change Keyring Password"
@@ -195288,7 +195294,7 @@ msgstr "Flera grundläggande verktyg för primtal, pi, phi och sigma. De innehå
 #. from gnome:gnumeric
 #. from gnome:reviewed/gnumeric/master
 msgid "Bitwise Operations"
-msgstr "Bitvisa operationer"
+msgstr "Bitoperationer"
 
 #. from gnome:gnumeric
 msgid "Statistical Functions From R"
@@ -200293,7 +200299,7 @@ msgstr "Cellmarkörer"
 #. from gnome:gnumeric
 #. from gnome:reviewed/gnumeric/master
 msgid "Advanced Filter"
-msgstr "Avancerat filter"
+msgstr "Avancerade filter"
 
 #. from gnome:gnumeric
 msgid "_List range:"
@@ -201473,7 +201479,7 @@ msgstr "Förstoring"
 #. from gnome:gnumeric
 #. from gnome:reviewed/gnumeric/master
 msgid "Sheets"
-msgstr "Kalkylblad"
+msgstr "Blad"
 
 #. from gnome:gnumeric
 msgid "<b>Information</b>"
@@ -202234,17 +202240,17 @@ msgstr "Anderson-Darling-test"
 #. from gnome:gnumeric
 #. from gnome:reviewed/gnumeric/master
 msgid "Cramér-von Mises Test"
-msgstr "Cramér-von Mises-testet"
+msgstr "Cramér-von Mises-test"
 
 #. from gnome:gnumeric
 #. from gnome:reviewed/gnumeric/master
 msgid "Lilliefors (Kolmogorov-Smirnov) Test"
-msgstr "Lilliefors-testet (Kolmogorov-Smirnov)"
+msgstr "Lilliefors (Kolmogorov-Smirnov)-Test"
 
 #. from gnome:gnumeric
 #. from gnome:reviewed/gnumeric/master
 msgid "Shapiro-Francia Test"
-msgstr "Shapiro-Francia-testet"
+msgstr "Shapiro-Francia-test"
 
 #. from gnome:gnumeric
 msgid "Create Normal Probability Plot"
@@ -287111,10 +287117,7 @@ msgstr "QR-kod sparad"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 msgctxt "_"
 msgid "translator-credits"
-msgstr ""
-"Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2009\n"
-"Sebastian Rasmussen <sebras@gmail.com>, 2015\n"
-"Anders Jonsson <anders.jonsson@gmail.com>, 2017, 2018, 2020, 2021, 2023, 2025"
+msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2022"
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "link:trail"
@@ -287494,7 +287497,7 @@ msgstr "Creative Commons Erkännande-DelaLika 3.0 Unported"
 #. from gnome:reviewed/malcontent/main
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 msgid "This work is licensed under a <_:link-1/>."
-msgstr "Detta verk är licensierat under licensen <_:link-1/>."
+msgstr "Verket omfattas av licensen <_:link-1/>."
 
 #. from gnome:reviewed/gucharmap/unicode-11
 msgid "Character Map Manual"
@@ -510533,7 +510536,7 @@ msgid ""
 "Elasticity is expressed as the rate of change of the option value, per 100% "
 "volatility."
 msgstr ""
-"Elasticitet uttrycks som ändringshastigheten för optionsvärdet per 100 % "
+"Elasticitet uttrycks som ändringshastigheten för optionsvärdet, per 100% "
 "volatilitet."
 
 #. from gnome:reviewed/gnumeric/master
@@ -515915,7 +515918,7 @@ msgstr ""
 
 #. from gnome:reviewed/gnumeric/master
 msgid "This function is not Excel compatible. Use SUMPRODUCT instead."
-msgstr "Denna funktion är inte Excel-kompatibel. Använd SUMPRODUCT istället."
+msgstr "Denna funktion är inte Excel-kompatibel. Använd SUMPRODUCT i stället."
 
 #. from gnome:reviewed/gnumeric/master
 msgid "EIGEN:eigenvalues and eigenvectors of the symmetric @{matrix}"
@@ -652128,3 +652131,251 @@ msgstr "Nᴀ"
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
 msgid "g"
 msgstr "g"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "App is translated"
+msgstr "Programmet är översatt"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "App specific content © The respective app contributors"
+msgstr "Programspecifikt innehåll © Bidragsgivarna till respektive program"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "App supports mobile devices"
+msgstr "Programmet stöder mobila enheter"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid ""
+"Apps featured in this curated overview are all built with the GNOME "
+"philosophy in mind. They are easy to understand and simple to use, feature a"
+" consistent and polished design and provide a noticeable attention to "
+"details. Naturally, they are [free software](https://fsfe.org/freesoftware/)"
+" and have committed to being part of a [welcoming and friendly "
+"community](https://conduct.gnome.org/). These apps will perfectly integrate "
+"with your [GNOME Desktop](https://www.gnome.org/)."
+msgstr ""
+"Programmen i den här handplockade översikten har utvecklats med GNOME:s "
+"filosofi som utgångspunkt. De är lätta att förstå och använda, har en "
+"enhetlig och genomarbetad design och lägger stor vikt vid detaljerna. De är "
+"förstås [fri programvara](https://fsfe.org/freesoftware/) och har åtagit sig"
+" att vara en del av en [välkomnande och vänlig "
+"gemenskap](https://conduct.gnome.org/). Programmen fungerar sömlöst med "
+"[GNOME-skrivbordet](https://www.gnome.org/)."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid ""
+"Apps supported on GNOME mobile devices are marked with the mobile icon."
+msgstr ""
+"Program som fungerar på mobila GNOME-enheter är märkta med mobilikonen."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Circle Apps"
+msgstr "Circle-program"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Close Language Selection"
+msgstr "Stäng språkval"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Contribute your ideas or report issues on the app’s issue tracker."
+msgstr ""
+"Dela dina idéer eller rapportera problem i programmets ärendehanterare."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Discover the best Apps for GNOME"
+msgstr "Upptäck de bästa programmen för GNOME"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid ""
+"Discover the best applications in the GNOME ecosystem and learn how to get "
+"involved."
+msgstr ""
+"Upptäck de bästa programmen i GNOME-ekosystemet och lär dig hur du kan "
+"engagera dig."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Donate money"
+msgstr "Skänk pengar"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Donate to the GNOME Foundation to support this project."
+msgstr "Donera till GNOME Foundation för att stödja projektet."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Explore the interface"
+msgstr "Utforska gränssnittet"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid ""
+"GNOME Circle contains applications extending the GNOME ecosystem. It "
+"champions the great additional software that is available for the GNOME "
+"platform. [Learn more about GNOME Circle.](https://circle.gnome.org/)"
+msgstr ""
+"GNOME Circle samlar program som utökar GNOME-ekosystemet och lyfter fram den"
+" utmärkta tilläggsprogramvara som finns för GNOME-plattformen. [Läs mer om "
+"GNOME Circle.](https://circle.gnome.org/)"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid ""
+"GNOME Core apps cover ordinary tasks on the GNOME desktop. They are usually "
+"pre-installed on your GNOME system."
+msgstr ""
+"GNOMEs kärnprogram hjälper dig med vardagliga uppgifter på skrivbordet. De "
+"är oftast förinstallerade på GNOME-systemet."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid ""
+"GNOME Development tools help develop and design new apps and make it easy to"
+" contribute to existing ones."
+msgstr ""
+"GNOMEs utvecklingsverktyg hjälper dig att utveckla och utforma nya program "
+"och gör det lättare att bidra till befintliga."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Get in touch"
+msgstr "Kontakta oss"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Get involved"
+msgstr "Engagera dig"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Get the app"
+msgstr "Hämta programmet"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Get to know us"
+msgstr "Lär känna oss"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "GitHub account"
+msgstr "GitHub-konto"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Give feedback"
+msgstr "Lämna synpunkter"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Help translate this app into your language."
+msgstr "Hjälp till att översätta det här programmet till ditt språk."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Help translating"
+msgstr "Hjälp till att översätta"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Install the latest version from Flathub."
+msgstr "Installera den senaste versionen från Flathub."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Just chat with the app's community or get help when you are stuck."
+msgstr "Chatta med programmets gemenskap eller be om hjälp om du kör fast."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Latest version { version_name } released on { date }."
+msgstr "Senaste versionen { version_name } släpptes den { date }."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Learn how you can contact the project."
+msgstr "Lär dig hur du kan kontakta projektet."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Learn how you can contribute to this app."
+msgstr "Lär dig hur du kan bidra till detta program."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Learn how you can donate to the developers of this project."
+msgstr "Lär dig hur du kan stödja projektets utvecklare ekonomiskt."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Maintainer"
+msgstr "Underhållsansvarig"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Newest Release"
+msgstr "Senaste utgåvan"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Only a small part of this app is available in your language."
+msgstr "Bara en liten del av det här programmet finns på ditt språk."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Page Software"
+msgstr "Sidans programvara"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Page generated"
+msgstr "Sidan genererades"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Partially translated"
+msgstr "Delvis översatt"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Project homepage"
+msgstr "Projektets webbplats"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Some parts of this app are available in your language."
+msgstr "Vissa delar av det här programmet är tillgängliga på ditt språk."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Sparsely translated"
+msgstr "Sparsamt översatt"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Switch Language"
+msgstr "Växla språk"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "This app is available in your language."
+msgstr "Det här programmet finns på ditt språk."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "This app is not available in your language."
+msgstr "Det här programmet finns inte på ditt språk."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "This website is available in many languages"
+msgstr "Webbplatsen finns på många språk"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Visit the dedicated homepage for this project."
+msgstr "Besök projektets egen webbplats."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "Visit the online help page for this app."
+msgstr "Besök programmets hjälpsida."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid ""
+"[Disability Pride "
+"Month](https://en.wikipedia.org/wiki/Disability_Pride_Month), displaying two"
+" [disability flags](https://en.wikipedia.org/wiki/Disability_flag) and an "
+"[autistic flag](https://en.wikipedia.org/wiki/Autistic_Pride_Day)."
+msgstr ""
+"[Månaden för "
+"funktionsnedsättningsstolthet](https://en.wikipedia.org/wiki/Disability_Pride_Month),"
+" med två "
+"[funktionsrättsflaggor](https://en.wikipedia.org/wiki/Disability_flag) och "
+"en [autismflagga](https://en.wikipedia.org/wiki/Autistic_Pride_Day)."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid ""
+"[Queer Pride Month](https://en.wikipedia.org/wiki/Pride_Month), displaying "
+"the [intersex](https://en.wikipedia.org/wiki/Intersex_flag), "
+"[trans](https://en.wikipedia.org/wiki/Transgender_flag), and "
+"[rainbow](https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT)), flags."
+msgstr ""
+"[Månaden för queer pride](https://en.wikipedia.org/wiki/Pride_Month), med "
+"[intersexflaggan](https://en.wikipedia.org/wiki/Intersex_flag), "
+"[transflaggan](https://en.wikipedia.org/wiki/Transgender_flag) och "
+"[regnbågsflaggan](https://en.wikipedia.org/wiki/Rainbow_flag_(LGBT))."
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "{} account"
+msgstr "{}-konto"
+
+#. from gnome:reviewed/apps.for.gnome — Apps for GNOME/main
+msgid "© The “Apps for GNOME” contributors"
+msgstr "© Bidragsgivarna till ”Apps for GNOME”"
