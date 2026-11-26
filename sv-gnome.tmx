@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261126T074910Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261126T075820Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -85628,7 +85628,7 @@ att deformera bilden</seg></tuv>
     <tu>
       <prop type="project">gnome:GIMP</prop>
       <tuv xml:lang="en"><seg>Semi-Flatten</seg></tuv>
-      <tuv xml:lang="sv"><seg>Semiutplatta</seg></tuv>
+      <tuv xml:lang="sv"><seg>Halvutplattning</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:GIMP</prop>
@@ -494236,12 +494236,12 @@ och skapar en katalog ”%s”, så kan du spara dina egna GFlare i den kataloge
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Move Area to Front</seg></tuv>
-      <tuv xml:lang="sv"><seg>Flytta område till främst</seg></tuv>
+      <tuv xml:lang="sv"><seg>Flytta området längst fram</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Move Area to Bottom</seg></tuv>
-      <tuv xml:lang="sv"><seg>Flytta område till botten</seg></tuv>
+      <tuv xml:lang="sv"><seg>Flytta området längst bak</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -494491,7 +494491,7 @@ och skapar en katalog ”%s”, så kan du spara dina egna GFlare i den kataloge
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Mappings</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kopplingar</seg></tuv>
+      <tuv xml:lang="sv"><seg>Avbildningar</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -667508,6 +667508,121 @@ present voltage:         11400 mV
       <prop type="project">gnome:reviewed/gnome-applets/master</prop>
       <tuv xml:lang="en"><seg>Assuming the path is &lt;filename&gt;/apps/panel/applets/applet_1&lt;/filename&gt;. In &lt;filename&gt;/apps/panel/applets/applet_1/prefs&lt;/filename&gt; add a &lt;guimenuitem&gt;New Key...&lt;/guimenuitem&gt; called &lt;guilabel&gt;no_hal&lt;/guilabel&gt; and set it to the boolean value of true. This will disable the usage of HAL (see &lt;xref linkend="battstat-troubleshooting-backends"/&gt; to learn how to check this).</seg></tuv>
       <tuv xml:lang="sv"><seg>Om sökvägen är &lt;filename&gt;/apps/panel/applets/applet_1&lt;/filename&gt; lägger du till en &lt;guimenuitem&gt;Ny nyckel...&lt;/guimenuitem&gt; med namnet &lt;guilabel&gt;no_hal&lt;/guilabel&gt; i &lt;filename&gt;/apps/panel/applets/applet_1/prefs&lt;/filename&gt; och anger det booleska värdet true. Då inaktiveras HAL. Se &lt;xref linkend="battstat-troubleshooting-backends"/&gt; om hur du kontrollerar detta.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>This filter is found in the main menu under &lt;menuchoice&gt;&lt;guimenu&gt;Filters&lt;/guimenu&gt;&lt;guisubmenu&gt;Web&lt;/guisubmenu&gt;&lt;guimenuitem&gt;Semi-Flatten&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du hittar filtret i huvudmenyn under &lt;menuchoice&gt;&lt;guimenu&gt;Filter&lt;/guimenu&gt;&lt;guisubmenu&gt;Webb&lt;/guisubmenu&gt;&lt;guimenuitem&gt;Halvutplattning&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>&lt;quote&gt;Semi-Flatten&lt;/quote&gt; filter options dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan med filteralternativ för &lt;quote&gt;Halvutplattning&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>This allows you to change the color that is used by this filter to fill in semi transparent areas. You can click the color bar to select a color, or use the color picker to pick a color from your image.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här kan du ändra färgen som filtret använder för att fylla halvgenomskinliga områden. Klicka på färgraden för att välja en färg eller använd färgväljaren för att hämta en färg från bilden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Full transparency is kept. Semi-transparent pixels are colored with pink according to their transparency (Alpha value). This image will well merge into the pink background of the new page.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Helt genomskinliga bildpunkter förblir genomskinliga. Halvgenomskinliga bildpunkter färgas rosa i proportion till sin genomskinlighet (alfavärde). Bilden smälter därmed väl in mot den nya sidans rosa bakgrund.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Image Map</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bildkarta</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>In Web sensitive images are frequently used to get some effects when defined areas are enabled by the pointer. Obviously the most used effect is a dynamic link to another web page when one of the sensitive areas is clicked on. This &lt;quote&gt;filter&lt;/quote&gt; allows you to design easily sensitive areas within an image. Applications for website design have this as a standard function. In &lt;acronym&gt;GIMP&lt;/acronym&gt;, you can do this in a similar way.</seg></tuv>
+      <tuv xml:lang="sv"><seg>På webben används ofta känsliga bilder för att skapa effekter när pekaren aktiverar fördefinierade områden. Den vanligaste effekten är en dynamisk länk till en annan webbsida när du klickar på ett sådant område. Med det här &lt;quote&gt;filtret&lt;/quote&gt; kan du enkelt skapa känsliga områden i en bild. Webbdesignprogram har ofta detta som en standardfunktion, och i &lt;acronym&gt;GIMP&lt;/acronym&gt; fungerar det på ett liknande sätt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>This is a complex tool which is not completely described here (it works about like Web page makers offering this function). However we want to describe here some of the most current handlings. If you want, you can find a more complete description in Grokking the GIMP with the link &lt;xref linkend="bibliography-online-grokking-gimp-imagemap"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det här är ett avancerat verktyg som inte beskrivs fullständigt här; det fungerar ungefär som motsvarande funktioner i verktyg för att skapa webbsidor. Här beskriver vi några vanliga arbetsmoment. En mer fullständig beskrivning finns i boken Grokking the GIMP, via länken &lt;xref linkend="bibliography-online-grokking-gimp-imagemap"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>This filter is found in the main menu under &lt;menuchoice&gt;&lt;guimenu&gt;Filters&lt;/guimenu&gt;&lt;guisubmenu&gt;Web&lt;/guisubmenu&gt;&lt;guimenuitem&gt;Image Map…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du hittar filtret i huvudmenyn under &lt;menuchoice&gt;&lt;guimenu&gt;Filter&lt;/guimenu&gt;&lt;guisubmenu&gt;Webb&lt;/guisubmenu&gt;&lt;guimenuitem&gt;Bildkarta…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Image Map filter options</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filteralternativ för bildkarta</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Image map window</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bildkartfönster</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>The menu bar is similar to the main menu, only a few menus or menu entries are different:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Menyraden liknar huvudmenyn, men några menyer och menyalternativ skiljer sig åt:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Editing an image map area</seg></tuv>
+      <tuv xml:lang="sv"><seg>Redigera ett bildkartsområde</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Source…</seg></tuv>
+      <tuv xml:lang="sv"><seg>Källa…</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Edit Map Info…</seg></tuv>
+      <tuv xml:lang="sv"><seg>Redigera kartinformation…</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Editing the image map data</seg></tuv>
+      <tuv xml:lang="sv"><seg>Redigera bildkartans data</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Grid Settings…</seg></tuv>
+      <tuv xml:lang="sv"><seg>Rutnätsinställningar…</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Use GIMP Guides…</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd GIMP-stödlinjer…</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Create Guides…</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skapa stödlinjer…</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Instead of creating geometrical shapes to select the active areas you may use an array of rectangles, each representing an active area, by clicking on the &lt;quote&gt;Create guides&lt;/quote&gt;. In the menu popping up you set the width and height of the rectangles, the space between them, the number of rows and columns, and the upper and left startpoint for the array. All measures are in pixels. If you are not satisfied with the result you may adjust each rectangle by moving the red squares as usual.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I stället för att rita geometriska former för de aktiva områdena kan du skapa en uppsättning rektanglar, där varje rektangel motsvarar ett aktivt område. Klicka på &lt;quote&gt;Skapa stödlinjer&lt;/quote&gt; och ange rektanglarnas bredd och höjd, avståndet mellan dem, antal rader och kolumner samt uppsättningens övre och vänstra startpunkt. Alla mått anges i bildpunkter. Om resultatet inte blir bra kan du justera rektanglarna genom att flytta de röda fyrkanterna.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Here you can move an area entry to the bottom or top of the area list.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här kan du flytta en områdespost längst ned eller längst upp i områdeslistan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>In the main area of the image map window, on the left side, you will find your working area where you can draw all the shapes areas you want with the relevant tools.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Till vänster i bildkartfönstrets huvuddel finns arbetsytan. Där kan du rita önskade former med tillhörande verktyg.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Beside the working area there are vertically displayed icons, one for pointing, three for calling tools to generate various shape areas, one to edit zone properties, and finally one to erase a selected zone; you can call these functions from the Mappings menu too.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bredvid arbetsytan visas ikoner lodrätt: en pekare, tre verktyg för att skapa områden med olika former, ett verktyg för att redigera områdets egenskaper och ett för att ta bort markerade områden. Funktionerna finns även i menyn Avbildningar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master</prop>
+      <tuv xml:lang="en"><seg>Beside the display is an icon vertical set; its use is obvious but a help pop-up gives you some information about each function.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Till höger om visningsområdet finns en lodrät uppsättning ikoner. De är självförklarande, men en hjälpruta visar information om varje funktion.</seg></tuv>
     </tu>
   </body>
 </tmx>

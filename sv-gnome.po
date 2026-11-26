@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 129849
+# Entries: 129872
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -61250,6 +61250,7 @@ msgstr "Banfärgtagg: Sätt till violett"
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/gimp-help — GIMP User Manual/gimp-help-3-0
 #. from gnome:reviewed/gnome-color-manager/master
+#. from gnome:reviewed/gimp-help/master
 msgid "Gray"
 msgstr "Grå"
 
@@ -65274,6 +65275,7 @@ msgid "Rasterize filters"
 msgstr "Rastrera filter"
 
 #. from gnome:GIMP
+#. from gnome:reviewed/gimp-help/master
 msgid "Merge filter"
 msgstr "Sammanfoga filter"
 
@@ -70821,7 +70823,7 @@ msgstr "Färgreduktionsnivåer"
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/gimp-help/master
 msgid "Semi-Flatten"
-msgstr "Semiutplatta"
+msgstr "Halvutplattning"
 
 #. from gnome:GIMP
 msgid "Replace partial transparency with a color"
@@ -70832,6 +70834,7 @@ msgid "The color"
 msgstr "Färgen"
 
 #. from gnome:GIMP
+#. from gnome:reviewed/gimp-help/master
 msgid "Clipping"
 msgstr "Klippning"
 
@@ -437214,12 +437217,14 @@ msgid "Couldn't read file:"
 msgstr "Kunde inte läsa in fil:"
 
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/gimp-help/master
 msgid "Move Area to Front"
-msgstr "Flytta område till främst"
+msgstr "Flytta området längst fram"
 
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/gimp-help/master
 msgid "Move Area to Bottom"
-msgstr "Flytta område till botten"
+msgstr "Flytta området längst bak"
 
 #. from gnome:reviewed/gimp/master
 msgid "Select Existing Area"
@@ -437418,8 +437423,9 @@ msgid "1:8"
 msgstr "1:8"
 
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/gimp-help/master
 msgid "Mappings"
-msgstr "Kopplingar"
+msgstr "Avbildningar"
 
 #. from gnome:reviewed/gimp/master
 msgid "Edit Map Info..."
@@ -657347,3 +657353,176 @@ msgstr ""
 "<filename>/apps/panel/applets/applet_1/prefs</filename> och anger det "
 "booleska värdet true. Då inaktiveras HAL. Se <xref linkend=\"battstat-"
 "troubleshooting-backends\"/> om hur du kontrollerar detta."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Web</guisubmenu><guimenuitem>Semi-"
+"Flatten</guimenuitem></menuchoice>."
+msgstr ""
+"Du hittar filtret i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Webb</guisubmenu><guimenuitem>Halvutplattning</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "<quote>Semi-Flatten</quote> filter options dialog"
+msgstr "Dialogrutan med filteralternativ för <quote>Halvutplattning</quote>"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This allows you to change the color that is used by this filter to fill in "
+"semi transparent areas. You can click the color bar to select a color, or "
+"use the color picker to pick a color from your image."
+msgstr ""
+"Här kan du ändra färgen som filtret använder för att fylla halvgenomskinliga"
+" områden. Klicka på färgraden för att välja en färg eller använd "
+"färgväljaren för att hämta en färg från bilden."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"Full transparency is kept. Semi-transparent pixels are colored with pink "
+"according to their transparency (Alpha value). This image will well merge "
+"into the pink background of the new page."
+msgstr ""
+"Helt genomskinliga bildpunkter förblir genomskinliga. Halvgenomskinliga "
+"bildpunkter färgas rosa i proportion till sin genomskinlighet (alfavärde). "
+"Bilden smälter därmed väl in mot den nya sidans rosa bakgrund."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Image Map"
+msgstr "Bildkarta"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"In Web sensitive images are frequently used to get some effects when defined"
+" areas are enabled by the pointer. Obviously the most used effect is a "
+"dynamic link to another web page when one of the sensitive areas is clicked "
+"on. This <quote>filter</quote> allows you to design easily sensitive areas "
+"within an image. Applications for website design have this as a standard "
+"function. In <acronym>GIMP</acronym>, you can do this in a similar way."
+msgstr ""
+"På webben används ofta känsliga bilder för att skapa effekter när pekaren "
+"aktiverar fördefinierade områden. Den vanligaste effekten är en dynamisk "
+"länk till en annan webbsida när du klickar på ett sådant område. Med det här"
+" <quote>filtret</quote> kan du enkelt skapa känsliga områden i en bild. "
+"Webbdesignprogram har ofta detta som en standardfunktion, och i "
+"<acronym>GIMP</acronym> fungerar det på ett liknande sätt."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This is a complex tool which is not completely described here (it works "
+"about like Web page makers offering this function). However we want to "
+"describe here some of the most current handlings. If you want, you can find "
+"a more complete description in Grokking the GIMP with the link <xref "
+"linkend=\"bibliography-online-grokking-gimp-imagemap\"/>."
+msgstr ""
+"Det här är ett avancerat verktyg som inte beskrivs fullständigt här; det "
+"fungerar ungefär som motsvarande funktioner i verktyg för att skapa "
+"webbsidor. Här beskriver vi några vanliga arbetsmoment. En mer fullständig "
+"beskrivning finns i boken Grokking the GIMP, via länken <xref "
+"linkend=\"bibliography-online-grokking-gimp-imagemap\"/>."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Web</guisubmenu><guimenuitem>Image"
+" Map…</guimenuitem></menuchoice>."
+msgstr ""
+"Du hittar filtret i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Webb</guisubmenu><guimenuitem>Bildkarta…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Image Map filter options"
+msgstr "Filteralternativ för bildkarta"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Image map window"
+msgstr "Bildkartfönster"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"The menu bar is similar to the main menu, only a few menus or menu entries "
+"are different:"
+msgstr ""
+"Menyraden liknar huvudmenyn, men några menyer och menyalternativ skiljer sig"
+" åt:"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Editing an image map area"
+msgstr "Redigera ett bildkartsområde"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Source…"
+msgstr "Källa…"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Edit Map Info…"
+msgstr "Redigera kartinformation…"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Editing the image map data"
+msgstr "Redigera bildkartans data"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Grid Settings…"
+msgstr "Rutnätsinställningar…"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Use GIMP Guides…"
+msgstr "Använd GIMP-stödlinjer…"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Create Guides…"
+msgstr "Skapa stödlinjer…"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"Instead of creating geometrical shapes to select the active areas you may "
+"use an array of rectangles, each representing an active area, by clicking on"
+" the <quote>Create guides</quote>. In the menu popping up you set the width "
+"and height of the rectangles, the space between them, the number of rows and"
+" columns, and the upper and left startpoint for the array. All measures are "
+"in pixels. If you are not satisfied with the result you may adjust each "
+"rectangle by moving the red squares as usual."
+msgstr ""
+"I stället för att rita geometriska former för de aktiva områdena kan du "
+"skapa en uppsättning rektanglar, där varje rektangel motsvarar ett aktivt "
+"område. Klicka på <quote>Skapa stödlinjer</quote> och ange rektanglarnas "
+"bredd och höjd, avståndet mellan dem, antal rader och kolumner samt "
+"uppsättningens övre och vänstra startpunkt. Alla mått anges i bildpunkter. "
+"Om resultatet inte blir bra kan du justera rektanglarna genom att flytta de "
+"röda fyrkanterna."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Here you can move an area entry to the bottom or top of the area list."
+msgstr ""
+"Här kan du flytta en områdespost längst ned eller längst upp i "
+"områdeslistan."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"In the main area of the image map window, on the left side, you will find "
+"your working area where you can draw all the shapes areas you want with the "
+"relevant tools."
+msgstr ""
+"Till vänster i bildkartfönstrets huvuddel finns arbetsytan. Där kan du rita "
+"önskade former med tillhörande verktyg."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"Beside the working area there are vertically displayed icons, one for "
+"pointing, three for calling tools to generate various shape areas, one to "
+"edit zone properties, and finally one to erase a selected zone; you can call"
+" these functions from the Mappings menu too."
+msgstr ""
+"Bredvid arbetsytan visas ikoner lodrätt: en pekare, tre verktyg för att "
+"skapa områden med olika former, ett verktyg för att redigera områdets "
+"egenskaper och ett för att ta bort markerade områden. Funktionerna finns "
+"även i menyn Avbildningar."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"Beside the display is an icon vertical set; its use is obvious but a help "
+"pop-up gives you some information about each function."
+msgstr ""
+"Till höger om visningsområdet finns en lodrät uppsättning ikoner. De är "
+"självförklarande, men en hjälpruta visar information om varje funktion."
