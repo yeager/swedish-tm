@@ -251,6 +251,7 @@ msgstr "Kapning stöds inte på basströmmen"
 #. from gnome:glib
 #. from gnome:reviewed/grilo/master
 #. from gnome:reviewed/libsoup/master
+#. from gnome:reviewed/vte/master
 msgid "Operation was cancelled"
 msgstr "Åtgärden avbröts"
 
@@ -2730,7 +2731,7 @@ msgstr "Ogiltig GSeekType angavs"
 #. from gnome:reviewed/glib/main
 #. from gnome:reviewed/libgdata/main
 msgid "Invalid seek request"
-msgstr "Ogiltig ”seek”-förfrågan"
+msgstr "Ogiltig begäran om positionering"
 
 #. from gnome:glib
 msgid "Cannot truncate GMemoryInputStream"
@@ -186314,6 +186315,7 @@ msgstr "Välj ett lösenord för den nya nyckelringen"
 
 #. from gnome:gnome-keyring
 #. from gnome:reviewed/oo7/main
+#. from gnome:reviewed/gnome-keyring/main
 msgid "New Keyring Password"
 msgstr "Lösenord för den nya nyckelringen"
 
@@ -246005,8 +246007,9 @@ msgid "Network stream unexpectedly closed"
 msgstr "Nätverksström stängdes oväntat"
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "Failed to completely cache the resource"
-msgstr "Misslyckades med att helt mellanlagra resursen"
+msgstr "Det gick inte att cachelagra hela resursen"
 
 #. from gnome:libsoup
 msgid "Output buffer is too small"
@@ -246029,12 +246032,14 @@ msgid "Could not parse HTTP response"
 msgstr "Kunde inte tolka HTTP-svar"
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "Unrecognized HTTP response encoding"
-msgstr "Okänd kodning på HTTP-svar"
+msgstr "Okänd teckenkodning i HTTP-svaret"
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "Header too big"
-msgstr "Huvudet är för stort"
+msgstr "HTTP-huvudet är för stort"
 
 #. from gnome:libsoup
 msgid "Can’t create a TLS server without a TLS certificate"
@@ -246045,16 +246050,19 @@ msgid "Could not listen on address %s, port %d: "
 msgstr "Kan inte lyssna på adress %s, port %d: "
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "Could not import existing socket: "
-msgstr "Kan inte importera befintligt uttag (socket): "
+msgstr "Kan inte importera befintlig socket: "
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "Can’t import unconnected socket"
-msgstr "Kan inte importera ett icke anslutet uttag (socket)"
+msgstr "Kan inte importera en oansluten socket"
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "Location header is missing or empty in response headers"
-msgstr "Location-huvud saknas eller är tomt i svarshuvuden"
+msgstr "Location-huvudet saknas eller är tomt i svarshuvudena"
 
 #. from gnome:libsoup
 msgid "Invalid URI “%s” in Location response header"
@@ -246073,8 +246081,9 @@ msgid "The server did not accept the WebSocket handshake."
 msgstr "Servern accepterade inte WebSocket-handskakningen."
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "No public-suffix list available."
-msgstr "Ingen public-suffix-lista tillgänglig."
+msgstr "Ingen lista över publika suffix är tillgänglig."
 
 #. from gnome:libsoup
 msgid "Hostname is an IP address"
@@ -246085,12 +246094,14 @@ msgid "Hostname has no base domain"
 msgstr "Värdnamnet har ingen basdomän"
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "Not enough domains"
-msgstr "Inte tillräckligt många domäner"
+msgstr "För få domäner"
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "Server requested unsupported extension"
-msgstr "Servern begärde tillägg som ej stöds"
+msgstr "Servern begärde ett tillägg som inte stöds"
 
 #. from gnome:libsoup
 msgid "Incorrect WebSocket “%s” header"
@@ -246109,32 +246120,38 @@ msgid "Server returned a duplicated parameter in “%s” WebSocket extension he
 msgstr "Servern returnerade en duplicerad parameter i ”%s”-WebSocket-tilläggshuvud"
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "WebSocket handshake expected"
-msgstr "WebSocket-handskakning förväntad"
+msgstr "WebSocket-handskakning förväntades"
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "Unsupported WebSocket version"
-msgstr "WebSocket-version stöds ej"
+msgstr "WebSocket-versionen stöds inte"
 
 #. from gnome:libsoup
 msgid "Invalid WebSocket key"
 msgstr "Ogiltig WebSocket-nyckel"
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "Unsupported WebSocket subprotocol"
-msgstr "WebSocket-underprotokoll stöds ej"
+msgstr "WebSocket-underprotokollet stöds inte"
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "Server rejected WebSocket handshake"
-msgstr "Servern avböjde WebSocket-handskakning"
+msgstr "Servern avvisade WebSocket-handskakningen"
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "Server ignored WebSocket handshake"
-msgstr "Servern ignorerade WebSocket-handskakning"
+msgstr "Servern ignorerade WebSocket-handskakningen"
 
 #. from gnome:libsoup
+#. from gnome:reviewed/libsoup/master
 msgid "Server requested unsupported protocol"
-msgstr "Servern begärde protokoll som ej stöds"
+msgstr "Servern begärde ett protokoll som inte stöds"
 
 #. from gnome:libspelling
 msgid "Add to Dictionary"
@@ -291995,11 +292012,11 @@ msgstr "Öka uppspelningshastigheten"
 
 #. from gnome:reviewed/libsoup/master
 msgid "Invalid chunk size"
-msgstr "Ogiltig chunkstorlek"
+msgstr "Ogiltig blockstorlek"
 
 #. from gnome:reviewed/libsoup/master
 msgid "Too large chunk"
-msgstr "För stor chunk"
+msgstr "Datablocket är för stort"
 
 #. from gnome:reviewed/libsoup/master
 msgid "WebSocket message is too large to send"
