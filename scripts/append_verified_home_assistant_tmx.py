@@ -50,7 +50,16 @@ def append(canonical: Path, manifest: Path, *, write: bool) -> int:
     body = root.find("body")
     if root.tag != "tmx" or body is None:
         raise ValueError("expected TMX with body")
-    existing_ids = {item.get("tuid"): item for item in body.findall("tu")}
+    existing_ids = {}
+    for item in body.findall("tu"):
+        tuid = item.get("tuid")
+        if tuid in existing_ids:
+            # Preserve the first record position while replacing its content
+            # with the most recently reviewed unit.
+            index = list(body).index(existing_ids[tuid])
+            body.remove(existing_ids[tuid])
+            body.insert(index, item)
+        existing_ids[tuid] = item
     existing_keys = {item.findtext("prop[@type='source']"): item for item in body.findall("tu")}
     entries = json.loads(manifest.read_text(encoding="utf-8"))
     if not isinstance(entries, list):
@@ -92,6 +101,22 @@ def append(canonical: Path, manifest: Path, *, write: bool) -> int:
         index = data.rfind(marker)
         if index < 0:
             raise ValueError("missing closing TMX body")
+        # Normalize duplicate translation IDs discovered in historical data.
+        dedup = {}
+        for item in body.findall("tu"):
+            dedup[item.get("tuid")] = item
+        if len(dedup) != len(body.findall("tu")):
+            seen = set()
+            for item in list(body.findall("tu")):
+                tuid = item.get("tuid")
+                if tuid in seen:
+                    body.remove(item)
+                else:
+                    seen.add(tuid)
+            data = ET.tostring(root, encoding="utf-8", xml_declaration=True)
+            index = data.rfind(marker)
+            if index < 0:
+                raise ValueError("missing closing TMX body")
         if rendered:
             data = data[:index] + ("\n" + "\n".join(rendered) + "\n").encode() + data[index:]
         canonical.write_bytes(data)
