@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 130162
+# Entries: 130233
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -72049,6 +72049,7 @@ msgstr "Källintervall"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp/master
 msgid "Destination Range"
 msgstr "Målintervall"
 
@@ -386499,7 +386500,7 @@ msgstr "Färg till alfa"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "<placeholder-1/> command options"
-msgstr "Alternativ för kommandot <placeholder-1/>"
+msgstr "Kommandoalternativ för <placeholder-1/>"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid ""
@@ -409725,6 +409726,7 @@ msgstr ""
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/gimp-help/master
 msgid "Decompose"
 msgstr "Uppdela"
 
@@ -659679,3 +659681,569 @@ msgid ""
 msgstr ""
 "Med kryssrutorna kan du undanta en eller flera komponenter från ändringar. "
 "Komponenter som markeras här påverkas inte av filtret."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Example for the <quote>Recompose</quote> command"
+msgstr "Exempel på kommandot <quote>Återuppbygg</quote>"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This command reconstructs an image from its RGB, HSV, etc. components "
+"directly, unlike the <link linkend=\"plug-in-compose\">Compose</link> "
+"command which uses a dialog."
+msgstr ""
+"Det här kommandot återskapar en bild direkt från dess RGB-, HSV- och andra "
+"komponenter, till skillnad från kommandot <link linkend=\"plug-in-"
+"compose\">Komponera</link>, som använder en dialogruta."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Components</guisubmenu><guimenuitem>Recompose</guimenuitem></menuchoice>."
+" This command is active after using Decompose."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</guisubmenu><guimenuitem>Återuppbygg</guimenuitem></menuchoice>."
+" Kommandot aktiveras när du har använt Uppdela."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Mono-mixer"
+msgstr "Monomixer"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Mono-mixer applied"
+msgstr "Monomixern har tillämpats"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Command <quote>Mono-mixer</quote> applied with default options."
+msgstr ""
+"Kommandot <quote>Monomixer</quote> har tillämpats med standardalternativen."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Components</guisubmenu><guimenuitem>Mono"
+" Mixer…</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</guisubmenu><guimenuitem>Monomixer…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "<quote>Mono Mixer</quote> command options"
+msgstr "Alternativ för kommandot <quote>Monomixer</quote>"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Preserve luminosity"
+msgstr "Bevara luminans"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"The mixing can result in an image where some of the colors are too light. "
+"This option lessens the luminosity of the color channels while keeping a "
+"good visual ratio between them. So, you can change the relative weight of "
+"the colors without changing the overall luminosity."
+msgstr ""
+"Blandningen kan göra vissa färger i bilden för ljusa. Det här alternativet "
+"minskar färgkanalernas luminans men bevarar ett bra visuellt förhållande "
+"mellan dem. På så sätt kan du ändra färgernas relativa vikt utan att ändra "
+"bildens övergripande luminans."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Red Channel Multiplier"
+msgstr "Multiplikator för röd kanal"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Green Channel Multiplier"
+msgstr "Multiplikator för grön kanal"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Blue Channel Multiplier"
+msgstr "Multiplikator för blå kanal"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"Coefficient applied to each channel. Values range from -5.000 to 5.000. As "
+"default values are equal in the three channels, image is grayed out."
+msgstr ""
+"Koefficient som tillämpas på varje kanal. Värdena sträcker sig från -5,000 "
+"till 5,000. Standardvärdena är lika för de tre kanalerna, vilket gör att "
+"bilden visas i gråskala."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Using Mono Mixer"
+msgstr "Använda monomixern"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"When this filter is opened, the image preview turns to grayscale, but the "
+"image is still a RGB image with three channels, until the OK button is "
+"pressed."
+msgstr ""
+"När filtret öppnas blir bildförhandsvisningen gråskalig, men bilden är "
+"fortfarande en RGB-bild med tre kanaler tills du klickar på OK."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Red: 100% Green: 50% Blue: 0%. Preserve Luminosity unchecked."
+msgstr "Röd: 100 % Grön: 50 % Blå: 0 %. Bevara luminans är avmarkerat."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"Here is how the <guilabel>Preserve Luminosity</guilabel> works in the "
+"monochrome mode: <quote>For example, suppose the sliders were Red:75%, "
+"Green:75%, Blue:0%. With <guilabel>Preserve Luminosity</guilabel> disabled, "
+"the resulting picture would be at 75%+75%+0% =150%, very bright indeed. A "
+"pixel with a value of, say, R,G,B=127,100,80 would map to "
+"127*0.75+100*0.75+80*0=170 for each channel. With <guilabel>Preserve "
+"Luminosity</guilabel> enabled, the sliders will be scaled so they always add"
+" up to 100%. In this example, that scale value is 1/(75%+75%+0%) or 0.667. "
+"So the pixel values would be about 113. The Preserve Luminosity option just "
+"assures that the scale values from the sliders always adds up to 100%. Of "
+"course, strange things happen when any of the sliders have large negative "
+"values.</quote> (from the plug-in author himself)."
+msgstr ""
+"Så här fungerar <guilabel>Bevara luminans</guilabel> i monokromt läge: "
+"<quote>Anta att reglagen är inställda på röd: 75 %, grön: 75 % och blå: 0 %."
+" Om <guilabel>Bevara luminans</guilabel> är avmarkerat blir resultatet 75 % "
+"+ 75 % + 0 % = 150 %, alltså mycket ljust. En bildpunkt med värdena "
+"R,G,B=127,100,80 får då värdet 127 × 0,75 + 100 × 0,75 + 80 × 0 = 170 för "
+"varje kanal. Om <guilabel>Bevara luminans</guilabel> är markerat skalas "
+"reglagen så att summan alltid blir 100 %. I det här exemplet är skalfaktorn "
+"1/(75 % + 75 % + 0 %), alltså 0,667. Bildpunktsvärdena blir då ungefär 113. "
+"Alternativet Bevara luminans ser bara till att reglagens skalvärden alltid "
+"summerar till 100 %. Stora negativa reglagevärden kan förstås ge märkliga "
+"resultat.</quote> (från insticksprogrammets upphovsperson)."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"<emphasis>Which channel should you modify?</emphasis> This depends on what "
+"you want to do. In principle, the Red channel suits contrast modifications "
+"well. The Green channel is well adapted to details changes and the Blue "
+"channel to noise, grain changes. You can use the <link linkend=\"plug-in-"
+"decompose\">Decompose</link> command."
+msgstr ""
+"<emphasis>Vilken kanal ska du ändra?</emphasis> Det beror på vad du vill "
+"göra. Den röda kanalen passar i regel bra för kontraständringar. Den gröna "
+"lämpar sig för detaljändringar och den blå för ändringar av brus och "
+"kornighet. Du kan använda kommandot <link linkend=\"plug-in-"
+"decompose\">Uppdela</link>."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Extract Component applied"
+msgstr "Extrahera komponent har tillämpats"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Command <quote>Extract Component</quote> applied with default options."
+msgstr ""
+"Kommandot <quote>Extrahera komponent</quote> har tillämpats med "
+"standardalternativen."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This command allows you to extract one specific color component from the "
+"current layer. This will be represented as a grayscale layer. It is similar "
+"to <link linkend=\"plug-in-decompose\">Decompose</link>, except that it "
+"extracts only one component and the effect is performed on the current layer"
+" instead of creating a new image."
+msgstr ""
+"Med det här kommandot extraherar du en enskild färgkomponent från det "
+"aktuella lagret. Komponenten visas som ett gråskalelager. Kommandot liknar "
+"<link linkend=\"plug-in-decompose\">Uppdela</link>, men extraherar bara en "
+"komponent och arbetar på det aktuella lagret i stället för att skapa en ny "
+"bild."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Components</guisubmenu><guimenuitem>Extract"
+" Component…</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</guisubmenu><guimenuitem>Extrahera"
+" komponent…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "<quote>Extract Component</quote> command options"
+msgstr "Alternativ för kommandot <quote>Extrahera komponent</quote>"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"Component to extract. Default is RGB Red: all layer pixels that have the red"
+" component in their color will be extracted to create gray pixels; gray "
+"pixel value is that of the red channel (e.g a 153;70;17 RGB pixel will give "
+"a 153;153;153 gray pixel)."
+msgstr ""
+"Komponenten som ska extraheras. Standardvärdet är rött i RGB: alla "
+"bildpunkter i lagret extraheras och blir grå bildpunkter med samma värde som"
+" den röda kanalen. En RGB-bildpunkt med värdet 153;70;17 blir till exempel "
+"en grå bildpunkt med värdet 153;153;153."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Invert component"
+msgstr "Invertera komponent"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Invert all pixel values of the extracted component."
+msgstr "Invertera alla bildpunktsvärden i den extraherade komponenten."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Linear output"
+msgstr "Linjär utdata"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Use linear output instead of gamma corrected."
+msgstr "Använd linjär utdata i stället för gammakorrigerad utdata."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Decomposition to layers (RGB)"
+msgstr "Uppdelning till lager (RGB)"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This command separates the channels (RGB, HSV, CMYK, etc.) of an image into "
+"separated images or layers."
+msgstr ""
+"Det här kommandot delar upp bildens kanaler (RGB, HSV, CMYK och så vidare) i"
+" separata bilder eller lager."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Components</guisubmenu><guimenuitem>Decompose…</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</guisubmenu><guimenuitem>Uppdela…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "<quote>Decompose</quote> command options"
+msgstr "Alternativ för kommandot <quote>Uppdela</quote>"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"If the RGB option is chosen, a gray level image is created with three layers"
+" (Red, Green and Blue), and two channels (Gray and Alpha)."
+msgstr ""
+"Om alternativet RGB väljs skapas en gråskalebild med tre lager (rött, grönt "
+"och blått) och två kanaler (grått och alfa)."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This function is interesting when using the Threshold tool. You can also "
+"perform operations like cutting, pasting or moving selections in a single "
+"RGB channel. You can use an extracted grayscale layer as a selection or mask"
+" by saving it in a channel (select the whole or a part of the layer, then "
+"<menuchoice><guimenu>Select</guimenu><guimenuitem>Save to "
+"Channel</guimenuitem></menuchoice> )."
+msgstr ""
+"Funktionen är användbar tillsammans med tröskelverktyget. Du kan också "
+"klippa ut, klistra in eller flytta markeringar i en enskild RGB-kanal. Spara"
+" ett extraherat gråskalelager i en kanal om du vill använda det som "
+"markering eller mask (markera hela eller delar av lagret och välj sedan "
+"<menuchoice><guimenu>Markera</guimenu><guimenuitem>Spara till "
+"kanal</guimenuitem></menuchoice>)."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"If the RGBA option is chosen, an image is created similar to the RGB "
+"Decomposing with an additional Alpha layer filled with the transparency "
+"values of the source image. Fully transparent pixels are black and fully "
+"opaque pixels are white."
+msgstr ""
+"Om alternativet RGBA väljs skapas en bild som liknar RGB-uppdelningen, men "
+"med ett extra alfalager som innehåller källbildens genomskinlighetsvärden. "
+"Helt genomskinliga bildpunkter är svarta och helt ogenomskinliga bildpunkter"
+" är vita."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This option extracts the image transparency stored in the Alpha channel in "
+"the <link linkend=\"gimp-channel-dialog\">Channels Dialog</link> in a "
+"separate image. The fully transparent pixels are Black the fully opaque "
+"pixels are white. The graytones are smooth transitions of the transparency "
+"in the source image."
+msgstr ""
+"Det här alternativet extraherar bildens genomskinlighet, som lagras i "
+"alfakanalen i <link linkend=\"gimp-channel-dialog\">kanaldialogrutan</link>,"
+" till en separat bild. Helt genomskinliga bildpunkter blir svarta och helt "
+"ogenomskinliga blir vita. Gråtonerna visar mjuka övergångar i källbildens "
+"genomskinlighet."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This option decomposes image into three grayscale layers, one for Hue, one "
+"for Saturation and another for Value."
+msgstr ""
+"Det här alternativet delar upp bilden i tre gråskalelager: ett för nyans, "
+"ett för mättnad och ett för intensitet."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"Although <guilabel>Hue</guilabel> is grayscale, it does represent hues. In "
+"the color wheel, white and black are starting and arrival points and are "
+"superimposed. They represent Red color at top of the wheel. Gray "
+"intermediate levels are corresponding to intermediate hues on the wheel: "
+"dark gray to orange, mid gray to green and light gray to magenta."
+msgstr ""
+"Även om <guilabel>Nyans</guilabel> visas i gråskala representerar den "
+"färgnyanser. I färghjulet är vitt och svart överlagrade start- och "
+"slutpunkter som motsvarar rött högst upp i hjulet. Mellangrå nivåer "
+"motsvarar nyanser däremellan: mörkgrått motsvarar orange, mellangrått grönt "
+"och ljusgrått magenta."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This option decomposes an image into four grayscale layers, one for Yellow, "
+"one for Magenta, one for Cyan, and one for Black."
+msgstr ""
+"Det här alternativet delar upp bilden i fyra gråskalelager: ett för gult, "
+"ett för magenta, ett för cyan och ett för svart."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This option can be useful to transfer an image into printing software with "
+"CMYK capabilities."
+msgstr ""
+"Det här alternativet kan vara användbart när du överför en bild till ett "
+"utskriftsprogram med stöd för CMYK."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This option decomposes image into three grayscale layers, layer "
+"<quote>L</quote> for Luminance, layer <quote>A</quote> for colors between "
+"green and red, layer <quote>B</quote> for colors between blue and yellow."
+msgstr ""
+"Det här alternativet delar upp bilden i tre gråskalelager: <quote>L</quote> "
+"för luminans, <quote>A</quote> för färger mellan grönt och rött och "
+"<quote>B</quote> för färger mellan blått och gult."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This option decomposes image into three grayscale layers, layer "
+"<quote>L</quote> for Luminance, layer <quote>C</quote> for Chroma, and layer"
+" <quote>H</quote> for Hue."
+msgstr ""
+"Det här alternativet delar upp bilden i tre gråskalelager: <quote>L</quote> "
+"för luminans, <quote>C</quote> för krominans och <quote>H</quote> för nyans."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "The LCH Decomposing is a color model of the Luminance-Color family."
+msgstr "LCH-uppdelningen tillhör färgmodellerna i familjen luminans–färg."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"In <acronym>GIMP</acronym> there are four YCbCr decompositions with "
+"different values. Each option decomposes an image in three grayscale layers,"
+" a layer for Luminance and the other two layers for blueness and redness."
+msgstr ""
+"<acronym>GIMP</acronym> har fyra YCbCr-uppdelningar med olika värden. Varje "
+"alternativ delar upp bilden i tre gråskalelager: ett för luminans och två "
+"för blå- respektive rödinformation."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"The YCbCr color model, also called YUV, is now used for digital video "
+"(initially for PAL analog video). It's based on the idea that the human eye "
+"is most sensitive to luminosity, next to colors. The YCbCr Decomposing uses "
+"a transformation matrix and the different options are different values "
+"recommended by ITU (International Telecommunication Union) applied to the "
+"matrix."
+msgstr ""
+"Färgmodellen YCbCr, även kallad YUV, används i digital video och användes "
+"ursprungligen för analog PAL-video. Den bygger på att människans öga är "
+"känsligare för luminans än för färg. YCbCr-uppdelningen använder en "
+"omvandlingsmatris. De olika alternativen anger värden som ITU (International"
+" Telecommunication Union) rekommenderar för matrisen."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Decompose to layers"
+msgstr "Dela upp i lager"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"If this option is checked, a new grayscale image is created, with each layer"
+" representing one of the channels of the selected mode. If this option is "
+"unchecked, every channel is represented in its own image and clearly named "
+"in the name bar."
+msgstr ""
+"Om alternativet är markerat skapas en ny gråskalebild där varje lager "
+"motsvarar en kanal i det valda läget. Om det inte är markerat skapas en "
+"separat bild för varje kanal, med kanalens namn i namnlisten."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Crop marks"
+msgstr "Beskärningsmarkörer"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Cyan component"
+msgstr "Cyan-komponent"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Black component"
+msgstr "Svart komponent"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "(Magenta and Yellow components omitted.)"
+msgstr "(Magenta- och gulkomponenterna utelämnade.)"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Example for the <quote>Compose</quote> command"
+msgstr "Exempel på kommandot <quote>Komponera</quote>"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This command constructs an image from several grayscale images or layers, "
+"for instance from extracted RGB or HSV components. You can also build an "
+"image from grayscale images or layers created independently."
+msgstr ""
+"Det här kommandot skapar en bild från flera gråskalebilder eller lager, till"
+" exempel från extraherade RGB- eller HSV-komponenter. Du kan också skapa en "
+"bild från gråskalebilder eller lager som har skapats oberoende av varandra."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Components</guisubmenu><guimenuitem>Compose…</guimenuitem></menuchoice>."
+" It is enabled if your image is grayscale."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</guisubmenu><guimenuitem>Komponera…</guimenuitem></menuchoice>."
+" Det är aktiverat när bilden är i gråskala."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "<quote>Compose</quote> command options"
+msgstr "Alternativ för kommandot <quote>Komponera</quote>"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"Here you can select the color space to be used: RGB, HSV, etc. The available"
+" options are described in the <link linkend=\"plug-in-"
+"decompose\">Decompose</link> command."
+msgstr ""
+"Här väljer du vilken färgrymd som ska användas: till exempel RGB eller HSV. "
+"De tillgängliga alternativen beskrivs under kommandot <link linkend=\"plug-"
+"in-decompose\">Uppdela</link>."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"Allows you to select which layer or image will be used for each channel. You"
+" may use this option, for example, to exchange color channels:"
+msgstr ""
+"Låter dig välja vilket lager eller vilken bild som ska användas för varje "
+"kanal. Du kan till exempel använda alternativet för att byta plats på "
+"färgkanaler:"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"Composed image after using Channel Representation to switch red and green "
+"channels"
+msgstr ""
+"Sammansatt bild efter att röd och grön kanal har bytt plats med "
+"Kanalrepresentationer"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"If you use different settings in Compose than when you used Decompose, for "
+"instance an image decomposed to <link linkend=\"glossary-rgb\">RGB</link> "
+"then re-composed to <link linkend=\"glossary-lab\">LAB</link>, you will get "
+"interesting color effects. Test it!"
+msgstr ""
+"Om du använder andra inställningar för Komponera än för Uppdela, till "
+"exempel delar upp en bild i <link linkend=\"glossary-rgb\">RGB</link> och "
+"sedan sätter ihop den i <link linkend=\"glossary-lab\">LAB</link>, kan du få"
+" intressanta färgeffekter. Prova!"
+
+#. from gnome:reviewed/gimp-help/master
+msgid "Example for the <quote>Channel Mixer</quote> filter"
+msgstr "Exempel på filtret <quote>Kanalblandare</quote>"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"This command combines values of the RGB channels. It works with images with "
+"or without an alpha channel."
+msgstr ""
+"Det här kommandot kombinerar värdena i RGB-kanalerna. Det fungerar med "
+"bilder både med och utan alfakanal."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Components</guisubmenu><guimenuitem>Channel"
+" Mixer…</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</guisubmenu><guimenuitem>Kanalblandare…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help/master
+msgid "<quote>Channel Mixer</quote> command options"
+msgstr "Alternativ för kommandot <quote>Kanalblandare</quote>"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"Each of these has three sliders, which set the contribution of the red, "
+"green and blue input channels in the output channel. The sliders go from -2 "
+"to 2. They represent the multiplication factor of the input channel that "
+"will be attributed to the output channel."
+msgstr ""
+"Varje utdatakanal har tre skjutreglage som anger hur mycket indatakanalerna "
+"rött, grönt och blått bidrar. Reglagen går från -2 till 2 och anger "
+"multiplikationsfaktorn för varje indatakanal i utdatakanalen."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"Each of the output channels is based on the values you set for the three RGB"
+" input channels. By default each output channel is based for 100% on the "
+"corresponding input channel. This is the one set to 1.0, and the others are "
+"set to 0.0. You can change each of the sliders from -2 to +2."
+msgstr ""
+"Varje utdatakanal utgår från värdena du anger för de tre RGB-"
+"indatakanalerna. Som standard baseras varje utdatakanal till 100 % på "
+"motsvarande indatakanal: den har värdet 1,0 och de andra värdet 0,0. Du kan "
+"ställa in varje reglage från -2 till +2."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"The three RGB input sliders let you give a percentage to every channel. For "
+"every pixel in the image, the sum of the calculated values for every channel"
+" from these percentages will be given to the output channel. Here is an "
+"example:"
+msgstr ""
+"Med de tre RGB-indataskjutreglagen anger du en procentandel för varje kanal."
+" För varje bildpunkt summeras de beräknade kanalvärdena och resultatet "
+"används som utdatakanal. Här är ett exempel:"
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"RGB values of the pixels in red, green, blue, gray squares are displayed. "
+"The black rectangle is special, because black (0;0;0) is not affected by the"
+" command (0 multiplied by any percentage always gives 0). The result can't "
+"exceed 255 nor be negative."
+msgstr ""
+"RGB-värdena för bildpunkterna i de röda, gröna, blå och grå rutorna visas. "
+"Den svarta rektangeln är speciell eftersom svart (0;0;0) inte påverkas av "
+"kommandot: 0 multiplicerat med en procentandel blir alltid 0. Resultatet kan"
+" varken överstiga 255 eller bli negativt."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"In the red square, the pixel values are 230;10;10. Relative values are "
+"1;0.5;0. The calculation result is 230*1 + 10*0.5 + 10*0 =235. The same "
+"reasoning is valid for the green and the blue squares."
+msgstr ""
+"I den röda rutan är bildpunktsvärdena 230;10;10 och de relativa värdena är "
+"1;0,5;0. Beräkningen blir 230 × 1 + 10 × 0,5 + 10 × 0 = 235. Samma beräkning"
+" gäller för de gröna och blå rutorna."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"In the gray square, which contains red color, the calculation result is "
+"above 255. It is set to 255. A negative value would be set to 0."
+msgstr ""
+"I den grå rutan, som innehåller rött, blir beräkningsresultatet större än "
+"255 och begränsas till 255. Ett negativt värde begränsas till 0."
+
+#. from gnome:reviewed/gimp-help/master
+msgid ""
+"The values attributed to the Red Output channel are lower, preventing a too "
+"bright image."
+msgstr ""
+"Värdena som tilldelas den röda utdatakanalen är lägre, vilket förhindrar att"
+" bilden blir för ljus."
