@@ -22,8 +22,8 @@ för rad.
 
 ## English reference
 
-**755 828 unique English–Swedish translation pairs** in 16 ecosystem exports
-(874 599 entries before deduplicating across ecosystems). These counts describe
+**755 856 unique English–Swedish translation pairs** in 16 ecosystem exports
+(874 639 entries before deduplicating across ecosystems). These counts describe
 the files currently shipped in this repository, including the latest reviewed
 GNOME and Translation Project updates.
 
@@ -35,7 +35,7 @@ terminology correction and a complete latest-POT review of the glossary. `Bucket
 entries across five current master and gimp-help-3-0 catalogs (15 unique source
 strings). The Loupe Help review added 66 GNOME TM entries; the 78-string catalog
 also includes 11 unchanged image references and existing pairs. The exported
-GNOME TM now contains 130 307 entries and passes the repository validator. The latest
+GNOME TM now contains 130 347 entries and passes the repository validator. The latest
 GIMP Help glossary added 253 completed translations and corrected four existing
 pairs; all 342 translatable entries are present, with 18 unused image metadata
 markers intentionally left blank. The latest GIMP plug-in catalog completed 149
@@ -45,8 +45,8 @@ remain blank in its archive. The GIMP Help `menus~colors~components` review adde
 111 translations and updated 13 fuzzy entries against the latest POT; 26 unused
 image metadata entries remain blank. The GIMP Help `menus~file` review filled
 171 previously empty translations, cleared 29 fuzzy entries and synchronized
-seven image references against the latest POT. The refreshed GNOME TM validates with
-130 307 entries (755 755 unique pairs across all exports).
+seven image references against the latest POT. The 58-string Disk Mounter Help review corrected 25 existing Swedish translations. The refreshed GNOME TM validates with
+130 347 entries (755 856 unique pairs across all exports).
 
 ## Translation Project review update, 2026-09-23
 
