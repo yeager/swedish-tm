@@ -22,20 +22,23 @@ för rad.
 
 ## English reference
 
-**754 305 unique English–Swedish translation pairs** in 16 ecosystem exports
-(872 999 entries before deduplicating across ecosystems). These counts describe
+**755 458 unique English–Swedish translation pairs** in 16 ecosystem exports
+(874 225 entries before deduplicating across ecosystems). These counts describe
 the files currently shipped in this repository, including the latest reviewed
 GNOME and Translation Project updates.
 
 ## GNOME terminology update, 2026-11-26
 
 The GNOME TM was refreshed from the reviewed archive after a focused GIMP Help
-terminology correction. `Bucket Fill` uses **Fyll** as the UI label and
+terminology correction and a complete latest-POT review of the glossary. `Bucket Fill` uses **Fyll** as the UI label and
 **fyllnadsverktyg** in Swedish prose. The terminology correction covers 29
 entries across five current master and gimp-help-3-0 catalogs (15 unique source
 strings). The Loupe Help review added 66 GNOME TM entries; the 78-string catalog
 also includes 11 unchanged image references and existing pairs. The exported
-GNOME TM contains 128 707 entries and passes the repository validator.
+GNOME TM contains 129 933 entries and passes the repository validator. The latest
+GIMP Help glossary added 253 completed translations and corrected four existing
+pairs; all 342 translatable entries are present, with 18 unused image metadata
+markers intentionally left blank in the reviewed catalog.
 
 ## Translation Project review update, 2026-09-23
 
@@ -59,7 +62,7 @@ gettext validity, XML safety, format agreement and statistics consistency.
 
 | Ecosystem | Pairs in export | TMX | PO compendium |
 |-----------|------------------:|-----|---------------|
-| GNOME | 128 707 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
+| GNOME | 129 933 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
 | KDE | 35 507 | [sv-kde.tmx](sv-kde.tmx) | [sv-kde.po](sv-kde.po) |
 | Mozilla | 19 293 | [sv-mozilla.tmx](sv-mozilla.tmx) | [sv-mozilla.po](sv-mozilla.po) |
 | Ubuntu | 50 525 | [sv-ubuntu.tmx](sv-ubuntu.tmx) | [sv-ubuntu.po](sv-ubuntu.po) |
