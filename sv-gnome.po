@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 128523
+# Entries: 128524
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -9583,6 +9583,7 @@ msgstr "Ny _flik"
 #. from gnome:reviewed/shortwave/main
 #. from gnome:reviewed/warp/main
 #. from gnome:reviewed/gnome-contacts/main
+#. from gnome:reviewed/addwater/main
 msgid "_Preferences"
 msgstr "I_nställningar"
 
@@ -39204,6 +39205,7 @@ msgstr "Fyll i data automatiskt"
 
 #. from gnome:ny-main.sv
 #. from gnome:reviewed/gnome-contacts/main
+#. from gnome:reviewed/epiphany/main
 msgid "Personal"
 msgstr "Personlig"
 
@@ -39233,6 +39235,7 @@ msgstr "E-post"
 
 #. from gnome:ny-main.sv
 #. from gnome:reviewed/gnome-contacts/main
+#. from gnome:reviewed/epiphany/main
 msgid "Street"
 msgstr "Gatuadress"
 
@@ -70631,8 +70634,9 @@ msgstr "Inga mönster finns tillgängliga för detta verktyg."
 #. from gnome:reviewed/libgedit-gtksourceview/main
 #. from gnome:reviewed/boatswain/main
 #. from gnome:reviewed/gimp-help/master
+#. from gnome:reviewed/libgsf/master
 msgid "Source"
-msgstr "Källkod"
+msgstr "Källa"
 
 #. from gnome:GIMP
 msgid "Convolve"
@@ -78174,8 +78178,9 @@ msgstr "Återkalla alla nålade TLS-servercertifikat"
 
 #. from gnome:Geary
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/libgsf/master
 msgid "Display program version"
-msgstr "Visa programversionsnummer"
+msgstr "Visa programversion"
 
 #. from gnome:Geary
 msgid "Geary version"
@@ -112964,8 +112969,9 @@ msgstr "Bästa RFD"
 #. from gnome:chronojump
 #. from gnome:reviewed/gnumeric/master
 #. from gnome:reviewed/chronojump/master
+#. from gnome:reviewed/libgsf/master
 msgid "Raw"
-msgstr "Rad"
+msgstr "Rå"
 
 #. from gnome:chronojump
 msgid "Unfiltered"
@@ -131242,8 +131248,9 @@ msgid "Error parsing regular expression"
 msgstr "Fel vid tolkning av reguljärt uttryck"
 
 #. from gnome:evolution-data-server
+#. from gnome:reviewed/libgsf/master
 msgid "Insufficient memory"
-msgstr "För lite minne"
+msgstr "Otillräckligt minne"
 
 #. from gnome:evolution-data-server
 msgid "Invalid contact field “%d” specified in summary"
@@ -183170,6 +183177,7 @@ msgstr "Visa endast ikonerna"
 
 #. from gnome:gnome-commander
 #. from gnome:reviewed/gnome-contacts/main
+#. from gnome:reviewed/gnome-commander/main
 msgid "Alias"
 msgstr "Alias"
 
@@ -203878,12 +203886,13 @@ msgstr "[FIL …]"
 #. from gnome:gnumeric
 #. from gnome:reviewed/rhythmbox/master
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/libgsf/master
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
 "%s\n"
-"Kör ”%s --help” för att se en komplett lista över tillgängliga kommandoradsflaggor.\n"
+"Kör \"%s --help\" för att se en fullständig lista över tillgängliga kommandoradsflaggor.\n"
 
 #. from gnome:gnumeric
 msgid "An array must have at least 1 element"
@@ -243238,16 +243247,23 @@ msgid "Could not find 'expiry' node"
 msgstr "Kunde inte hitta ”expiry”-nod"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Not enough memory to copy %s bytes of data"
-msgstr "Det finns inte tillräckligt minne för att kopiera %s byte data"
+msgstr "Det finns inte tillräckligt med minne för att kopiera %s byte data"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "The clip_data is in %s, but it is smaller than at least %s bytes"
-msgstr "clip_data är i %s, men det är mindre än %s byte"
+msgstr "Variabeln clip_data finns i %s, men är mindre än %s byte"
 
 #. from gnome:libgsf
-msgid "The clip_data is in Windows clipboard format, but it is smaller than the required 4 bytes."
-msgstr "clip_data är i Windows-urklippsformat, men det är mindre än kravet på 4 byte."
+#. from gnome:reviewed/libgsf/master
+msgid ""
+"The clip_data is in Windows clipboard format, but it is smaller than the "
+"required 4 bytes."
+msgstr ""
+"Variabeln clip_data innehåller data i Windows-urklippsformat, men är kortare"
+" än de nödvändiga 4 byten."
 
 #. from gnome:libgsf
 msgid "Windows Metafile format"
@@ -243286,20 +243302,23 @@ msgid "Problems reading directory"
 msgstr "Misslyckades med att läsa katalog"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Failed to access child"
-msgstr "Misslyckades med åtkomst av barn"
+msgstr "Det gick inte att komma åt underposten"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "failure reading block"
-msgstr "felaktig läsning av block"
+msgstr "Fel vid läsning av block"
 
 #. from gnome:libgsf
 msgid "Can't find the VBA directory stream"
 msgstr "Kan inte hitta VBA-katalogström"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "vba project header problem"
-msgstr "problem med vba-projekthuvud"
+msgstr "Problem med VBA-projekthuvudet"
 
 #. from gnome:libgsf
 msgid "No VBA signature"
@@ -243318,16 +243337,18 @@ msgid "Invalid tar header"
 msgstr "Ogiltigt tar-huvud"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Invalid longname header"
-msgstr "Ogiltigt huvud med långt namn"
+msgstr "Ogiltigt huvud för långt filnamn"
 
 #. from gnome:libgsf
 msgid "Failed to read longname"
 msgstr "Misslyckades med att läsa långt namn"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Seek failed"
-msgstr "Sökning misslyckades"
+msgstr "Fel vid positionering"
 
 #. from gnome:libgsf
 msgid "Truncated archive"
@@ -243346,16 +243367,19 @@ msgid "Broken zip file structure"
 msgstr "Trasig struktur för zip-fil"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Error seeking to zip header"
-msgstr "Fel vid sökning till zip-huvud"
+msgstr "Kunde inte flytta läspositionen till ZIP-huvudet"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Error reading zip header"
-msgstr "Fel vid läsning av zip-huvud"
+msgstr "Fel vid läsning av ZIP-huvudet"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Error incorrect zip header"
-msgstr "Felaktigt zip-huvud"
+msgstr "Fel: felaktigt ZIP-huvud"
 
 #. from gnome:libgsf
 msgid "problem uncompressing stream"
@@ -243366,16 +243390,18 @@ msgid "Compression Level"
 msgstr "Komprimeringsgrad"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "The level of compression used, zero meaning none"
-msgstr "Nivån av komprimering som använts, noll betyder ingen"
+msgstr "Komprimeringsnivån, där 0 innebär ingen komprimering"
 
 #. from gnome:libgsf
 msgid "Zip64"
 msgstr "Zip64"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Whether zip64 is being used"
-msgstr "Huruvida zip64 används"
+msgstr "Om ZIP64 används"
 
 #. from gnome:libgsf
 msgid "BZ2 support not enabled"
@@ -243422,20 +243448,23 @@ msgid "An optional GDateTime representing the time the input was last changed"
 msgstr "En valfri GDateTime som representerar tiden när indata senast ändrades"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "The parent GsfInfile"
-msgstr "Överordnad GstInfile"
+msgstr "Överordnad GsfInfile"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Duplicate size mismatch"
-msgstr "Duplicerad storlek stämmer inte"
+msgstr "Kopiornas storlekar stämmer inte överens"
 
 #. from gnome:libgsf
 msgid "Unable to initialize zlib"
 msgstr "Kunde inte initiera zlib"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Failed to rewind source"
-msgstr "Misslyckades med att spola tillbaka källa"
+msgstr "Misslyckades med att spola tillbaka källan"
 
 #. from gnome:libgsf
 msgid "Invalid gzip header"
@@ -243486,12 +243515,15 @@ msgid "mmap not supported"
 msgstr "mmap stöds inte"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Pretty print"
-msgstr "Snygg utskrift"
+msgstr "Läsbar formatering"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Should the output auto-indent elements to make reading easier?"
-msgstr "Ska utdata autoindentera element för att göra det lättare att läsa?"
+msgstr ""
+"Ska element i utdata automatiskt få indrag så att de blir lättare att läsa?"
 
 #. from gnome:libgsf
 msgid "Sink"
@@ -243534,24 +243566,31 @@ msgid "ODF version"
 msgstr "ODF-version"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "The ODF version this object is targeting as an integer like 100"
-msgstr "ODF-versionen som är målet för detta objekt som ett heltal så som 100"
+msgstr ""
+"ODF-versionen som objektet riktar sig mot, uttryckt som ett heltal, till "
+"exempel 100"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Unable to find part id='%s' for '%s'"
-msgstr "Kunde inte hitta delen id=\"%s\" för \"%s\""
+msgstr "Kunde inte hitta delen med id='%s' för '%s'"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Unable to find part with type='%s' for '%s'"
-msgstr "Kunde inte hitta delen med type=\"%s\" för \"%s\""
+msgstr "Kunde inte hitta en del med type='%s' för '%s'"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Missing id for part in '%s'"
-msgstr "Saknar id för delen i \"%s\""
+msgstr "Delen i '%s' saknar id"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Part '%s' in '%s' from '%s' is corrupt!"
-msgstr "Delen \"%s\" i \"%s\" från \"%s\" är skadad!"
+msgstr "Delen '%s' i '%s' från '%s' är skadad!"
 
 #. from gnome:libgsf
 msgid "The GsfOutput that stores the Open Package content"
@@ -243566,8 +243605,9 @@ msgid "Is Directory"
 msgstr "Är en katalog"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Can the outfile have children"
-msgstr "Kan utdatafilen ha barn"
+msgstr "Kan utdatafilen innehålla underposter"
 
 #. from gnome:libgsf
 msgid "Small block size"
@@ -243594,20 +243634,27 @@ msgid "Entry Name"
 msgstr "Postnamn"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "The filename of this member in the archive without path"
-msgstr "Filnamnet för denna medlem i tar-arkivet utan sökväg"
+msgstr "Filnamnet på filen i arkivet, utan sökväg"
 
 #. from gnome:libgsf
 msgid "Deflate Level"
 msgstr "Komprimeringsnivå"
 
 #. from gnome:libgsf
-msgid "The level of deflate compression used, zero meaning none and -1 meaning the zlib default"
-msgstr "Nivån av komprimering som använts, noll betyder ingen och -1 innebär zlibs standardvärde"
+#. from gnome:reviewed/libgsf/master
+msgid ""
+"The level of deflate compression used, zero meaning none and -1 meaning the "
+"zlib default"
+msgstr ""
+"Nivån på deflate-komprimeringen, där 0 innebär ingen komprimering och -1 "
+"innebär zlibs standardvärde"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Whether to use zip64 format, -1 meaning automatic"
-msgstr "Huruvida zip64-formatet ska användas, -1 innebär automatiskt"
+msgstr "Om ZIP64-format ska användas, där -1 innebär automatiskt val"
 
 #. from gnome:libgsf
 msgid "Unable to initialize BZ2 library"
@@ -243646,12 +243693,14 @@ msgid "Where the formatted output is written"
 msgstr "Var formaterade utdata skrivs"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "Quote"
-msgstr "Citat"
+msgstr "Citattecken"
 
 #. from gnome:libgsf
+#. from gnome:reviewed/libgsf/master
 msgid "The string used for quoting fields"
-msgstr "Strängen som används för att citera fält"
+msgstr "Strängen som omger fält som avgränsas med citattecken"
 
 #. from gnome:libgsf
 msgid "Quoting Mode"
@@ -648625,3 +648674,7 @@ msgstr "Lagrar om fönstret är maximerat."
 #. from gnome:reviewed/gnome-contacts/main
 msgid "Is the window fullscreen"
 msgstr "Om fönstret är i helskärmsläge"
+
+#. from gnome:reviewed/libgsf/master
+msgid "Read error"
+msgstr "Läsfel"
