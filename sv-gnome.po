@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 128626
+# Entries: 128629
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -61,8 +61,9 @@ msgid "[COMMAND]"
 msgstr "[KOMMANDO]"
 
 #. from gnome:glib
+#. from gnome:reviewed/zenity/master
 msgid "Print version"
-msgstr "Skriv ut version"
+msgstr "Skriv ut versionsnummer"
 
 #. from gnome:glib
 msgid "Print version information and exit"
@@ -5355,8 +5356,9 @@ msgstr "Du kan stoppa denna åtgärd genom att klicka på avbryt."
 #. from gnome:reviewed/epiphany/main
 #. from gnome:reviewed/NetworkManager-openvpn/main
 #. from gnome:reviewed/gnome-firmware/master
+#. from gnome:reviewed/zenity/master
 msgid "_Cancel"
-msgstr "_Avbryt"
+msgstr "A_vbryt"
 
 #. from gnome:nautilus
 msgid "%s %s %s"
@@ -15164,8 +15166,9 @@ msgstr "Sidnumret i dokumentet att visa."
 #. from gnome:reviewed/papers/gnome-48
 #. from gnome:reviewed/gnome-tetravex/master
 #. from gnome:reviewed/calls/main
+#. from gnome:reviewed/zenity/master
 msgid "NUMBER"
-msgstr "ANTAL"
+msgstr "NUMMER"
 
 #. from gnome:evince
 msgid "Named destination to display."
@@ -25983,6 +25986,7 @@ msgstr "Använd skjutreglaget för att justera storleken på all text i använda
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/www-gnome-org/main
+#. from gnome:reviewed/gimp/master
 msgid "A"
 msgstr "En"
 
@@ -278731,12 +278735,18 @@ msgid "Display dialog boxes from shell scripts"
 msgstr "Visa dialogrutor från skalskript"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Invalid date provided. Falling back to today's date.\n"
-msgstr "Ogiltigt datum tillhandahållet. Faller tillbaka på dagens datum.\n"
+msgstr "Ogiltigt datum angavs. Använder dagens datum i stället.\n"
 
 #. from gnome:zenity
-msgid "Warning: the --extra-button option for --file-selection is deprecated and will be removed in a future version of zenity. Ignoring.\n"
-msgstr "Varning: flaggan --extra-button för --file-selection är föråldrad och kommer tas bort i en framtida version av zenity. Ignorerar.\n"
+#. from gnome:reviewed/zenity/master
+msgid ""
+"Warning: the --extra-button option for --file-selection is deprecated and "
+"will be removed in a future version of zenity. Ignoring.\n"
+msgstr ""
+"Varning: flaggan --extra-button för --file-selection är utfasad och tas bort"
+" i en framtida version av Zenity. Ignorerar flaggan.\n"
 
 #. from gnome:zenity
 msgid "You must specify a dialog type. See 'zenity --help' for details\n"
@@ -278747,8 +278757,9 @@ msgid "Could not parse message\n"
 msgstr "Kunde inte tolka meddelande\n"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Could not parse command from stdin\n"
-msgstr "Kunde inte tolka kommando från standard in\n"
+msgstr "Det gick inte att tolka kommandot från stdin\n"
 
 #. from gnome:zenity
 msgid "Set the dialog title"
@@ -278791,8 +278802,9 @@ msgid "Add an extra button"
 msgstr "Lägg till en extra knapp"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Set the modal hint"
-msgstr "Ställ in modalt tips"
+msgstr "Gör dialogrutan modal"
 
 #. from gnome:zenity
 msgid "DEPRECATED; does nothing"
@@ -278803,16 +278815,18 @@ msgid "WINDOW"
 msgstr "FÖNSTER"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "DEPRECATED; use `--icon`"
-msgstr "FÖRÅLDRAD; använd ”--icon”"
+msgstr "UTFASAD; använd `--icon`"
 
 #. from gnome:zenity
 msgid "ICON-NAME"
 msgstr "IKONNAMN"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Display calendar dialog"
-msgstr "Visa kalenderdialog"
+msgstr "Visa en kalenderdialogruta"
 
 #. from gnome:zenity
 msgid "Set the dialog text"
@@ -278847,8 +278861,9 @@ msgid "Set the format for the returned date"
 msgstr "Ställ in formatet på det returnerade datumet"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Display text entry dialog"
-msgstr "Visa textinmatningsdialog"
+msgstr "Visa en textinmatningsdialogruta"
 
 #. from gnome:zenity
 msgid "Set the entry text"
@@ -278859,8 +278874,9 @@ msgid "Hide the entry text"
 msgstr "Dölj fälttexten"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Display error dialog"
-msgstr "Visa feldialog"
+msgstr "Visa en feldialogruta"
 
 #. from gnome:zenity
 msgid "Set the icon name"
@@ -278875,16 +278891,23 @@ msgid "Do not enable Pango markup"
 msgstr "Aktivera inte Pango-markup"
 
 #. from gnome:zenity
-msgid "Enable ellipsizing in the dialog text. This fixes the high window size with long texts"
-msgstr "Aktivera elliptisering i dialogrutetexten. Detta fixar den höga fönsterstorleken med långa texter"
+#. from gnome:reviewed/zenity/master
+msgid ""
+"Enable ellipsizing in the dialog text. This fixes the high window size with "
+"long texts"
+msgstr ""
+"Visa en ellips när dialogtexten kortas ned. Det hindrar fönstret från att "
+"bli för högt när texten är lång"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Display info dialog"
-msgstr "Visa informationsdialog"
+msgstr "Visa en informationsdialogruta"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Display file selection dialog"
-msgstr "Visa filväljardialog"
+msgstr "Visa en filväljardialogruta"
 
 #. from gnome:zenity
 msgid "Set the filename"
@@ -278895,16 +278918,18 @@ msgid "Allow multiple files to be selected"
 msgstr "Tillåt att flera filer väljs"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Activate directory-only selection"
-msgstr "Aktivera markering av endast kataloger"
+msgstr "Tillåt att endast mappar väljs"
 
 #. from gnome:zenity
 msgid "Activate save mode"
 msgstr "Aktivera sparläge"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Set output separator character"
-msgstr "Ställ in åtskiljartecken för utdata"
+msgstr "Ange avgränsartecken för utdata"
 
 #. from gnome:zenity
 msgid "SEPARATOR"
@@ -278919,8 +278944,9 @@ msgid "NAME | PATTERN1 PATTERN2 ..."
 msgstr "NAMN | MÖNSTER1 MÖNSTER2 ..."
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Display list dialog"
-msgstr "Visa listdialog"
+msgstr "Visa en listdialogruta"
 
 #. from gnome:zenity
 msgid "Set the column header"
@@ -278991,20 +279017,24 @@ msgid "Pulsate progress bar"
 msgstr "Pulsera förloppsindikatorn"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Dismiss the dialog when 100% has been reached"
-msgstr "Stäng dialogfönstret då 100% har nåtts"
+msgstr "Stäng dialogrutan när förloppet når 100 %"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Kill parent process if Cancel button is pressed"
-msgstr "Döda föräldraprocessen om avbrytsknappen trycks"
+msgstr "Avsluta den överordnade processen om knappen Avbryt trycks ned"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Hide Cancel button"
-msgstr "Dölj avbrytsknapp"
+msgstr "Dölj knappen Avbryt"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Estimate when progress will reach 100%"
-msgstr "Beräkna när förloppet kommer att nå 100%"
+msgstr "Beräkna när förloppet når 100 %"
 
 #. from gnome:zenity
 msgid "Display question dialog"
@@ -279019,16 +279049,18 @@ msgid "Suppress OK and Cancel buttons"
 msgstr "Visa inte knapparna OK och Avbryt"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Display text information dialog"
-msgstr "Visa textinformationsdialog"
+msgstr "Visa en textinformationsdialogruta"
 
 #. from gnome:zenity
 msgid "Set the text font"
 msgstr "Ställ in texttypsnittet"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Enable an I read and agree checkbox"
-msgstr "Aktivera en \"Jag har läst och godkänner\"-kryssruta"
+msgstr "Visa kryssrutan ”Jag har läst och godkänner”"
 
 #. from gnome:zenity
 msgid "Enable HTML support"
@@ -279039,20 +279071,25 @@ msgid "Do not enable user interaction with the WebView. Only works if you use --
 msgstr "Aktivera inte användarinteraktion med WebView. Fungerar endast om du använder flaggan --html"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Set an URL instead of a file. Only works if you use --html option"
-msgstr "Ange en URL istället för en fil. Fungerar endast om du använder flaggan --html"
+msgstr "Ange en URL i stället för en fil. Fungerar bara med flaggan --html"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Auto scroll the text to the end. Only when text is captured from stdin"
-msgstr "Rulla texten automatiskt till slutet. Bara när text matas från standard in"
+msgstr ""
+"Rulla texten automatiskt till slutet. Gäller bara när text läses från stdin"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Display warning dialog"
-msgstr "Visa varningsdialog"
+msgstr "Visa en varningsdialogruta"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Display scale dialog"
-msgstr "Visa skaldialog"
+msgstr "Visa en dialogruta med skjutreglage"
 
 #. from gnome:zenity
 msgid "Set initial value"
@@ -279071,52 +279108,61 @@ msgid "Set step size"
 msgstr "Ställ in stegstorlek"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Print partial values"
-msgstr "Skriv ut partiella värden"
+msgstr "Skriv ut värden löpande"
 
 #. from gnome:zenity
 msgid "Hide value"
 msgstr "Dölj värde"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Display forms dialog"
-msgstr "Visa formulärdialog"
+msgstr "Visa en formulärdialogruta"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Add a new Entry in forms dialog"
-msgstr "Lägg till en ny post i formulärdialog"
+msgstr "Lägg till ett fält i formuläret"
 
 #. from gnome:zenity
 msgid "Field name"
 msgstr "Fältnamn"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Add a new Password Entry in forms dialog"
-msgstr "Lägg till en ny lösenordsinmatning i formulärdialog"
+msgstr "Lägg till ett lösenordsfält i formuläret"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Add a new multi-line entry in forms dialog (Since: 4.2)"
-msgstr "Lägg till en ny flerradsinmatning i formulärdialog (sedan: 4.2)"
+msgstr "Lägg till ett flerradsfält i formuläret (från version 4.2)"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Add a new Calendar in forms dialog"
-msgstr "Lägg till en ny kalender i formulärdialog"
+msgstr "Lägg till en kalender i formuläret"
 
 #. from gnome:zenity
 msgid "Calendar field name"
 msgstr "Namn på kalenderfält"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Add a new List in forms dialog"
-msgstr "Lägg till en ny lista i formulärdialog"
+msgstr "Lägg till en lista i formuläret"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "List field and header name"
-msgstr "Lista fält- och rubriknamn"
+msgstr "Namn på listfält och kolumnrubrik"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "List of values for List"
-msgstr "Lista med värden för lista"
+msgstr "Värden för listan"
 
 #. from gnome:zenity
 msgid "List of values separated by |"
@@ -279127,32 +279173,39 @@ msgid "List of values for columns"
 msgstr "Lista med värden för kolumner"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Add a new combo box in forms dialog"
-msgstr "Lägg till en ny listbox i formulärdialog"
+msgstr "Lägg till en kombinationsruta i formuläret"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Combo box field name"
-msgstr "Fältnamn på listbox"
+msgstr "Fältnamn för kombinationsrutan"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "List of values for combo box"
-msgstr "Lista med värden för listbox"
+msgstr "Lista med värden för kombinationsrutan"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Show the columns header"
-msgstr "Visa kolumnhuvudet"
+msgstr "Visa kolumnrubrikerna"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Display password dialog"
-msgstr "Visa lösenordsdialog"
+msgstr "Visa en lösenordsdialogruta"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Display the username option"
-msgstr "Visa flagga för användarnamnet"
+msgstr "Visa alternativet för användarnamn"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Display color selection dialog"
-msgstr "Visa färgväljardialog"
+msgstr "Visa en färgväljardialogruta"
 
 #. from gnome:zenity
 msgid "Set the color"
@@ -279163,28 +279216,54 @@ msgid "Show the palette"
 msgstr "Visa paletten"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "About zenity"
-msgstr "Om zenity"
+msgstr "Om Zenity"
 
 #. from gnome:zenity
-msgid "Warning: --icon-name is deprecated and will be removed in a future version of zenity; Treating as --icon.\n"
-msgstr "Varning: --icon-name är föråldrad och kommer tas bort i en framtida version av zenity, behandlar som --icon.\n"
+#. from gnome:reviewed/zenity/master
+msgid ""
+"Warning: --icon-name is deprecated and will be removed in a future version "
+"of zenity; Treating as --icon.\n"
+msgstr ""
+"Varning: --icon-name är utfasad och tas bort i en framtida version av "
+"Zenity. Använder --icon i stället.\n"
 
 #. from gnome:zenity
-msgid "Warning: --window-icon is deprecated and will be removed in a future version of zenity; Treating as --icon.\n"
-msgstr "Varning: --window-icon är föråldrad och kommer tas bort i en framtida version av zenity, behandlar som --icon.\n"
+#. from gnome:reviewed/zenity/master
+msgid ""
+"Warning: --window-icon is deprecated and will be removed in a future version"
+" of zenity; Treating as --icon.\n"
+msgstr ""
+"Varning: --window-icon är utfasad och tas bort i en framtida version av "
+"Zenity. Använder --icon i stället.\n"
 
 #. from gnome:zenity
-msgid "Warning: --confirm-overwrite is deprecated and will be removed in a future version of zenity. Ignoring.\n"
-msgstr "Varning: --confirm-overwrite är föråldrad och kommer tas bort i en framtida version av zenity. Ignorerar.\n"
+#. from gnome:reviewed/zenity/master
+msgid ""
+"Warning: --confirm-overwrite is deprecated and will be removed in a future "
+"version of zenity. Ignoring.\n"
+msgstr ""
+"Varning: --confirm-overwrite är utfasad och tas bort i en framtida version "
+"av Zenity. Ignorerar flaggan.\n"
 
 #. from gnome:zenity
-msgid "Warning: --attach is deprecated and will be removed in a future version of zenity. Ignoring.\n"
-msgstr "Varning: --attach är föråldrad och kommer tas bort i en framtida version av zenity. Ignorerar.\n"
+#. from gnome:reviewed/zenity/master
+msgid ""
+"Warning: --attach is deprecated and will be removed in a future version of "
+"zenity. Ignoring.\n"
+msgstr ""
+"Varning: --attach är utfasad och tas bort i en framtida version av Zenity. "
+"Ignorerar flaggan.\n"
 
 #. from gnome:zenity
-msgid "Warning: --hint is deprecated and will be removed in a future version of zenity. Ignoring.\n"
-msgstr "Varning: --hint är föråldrad och kommer tas bort i en framtida version av zenity. Ignorerar.\n"
+#. from gnome:reviewed/zenity/master
+msgid ""
+"Warning: --hint is deprecated and will be removed in a future version of "
+"zenity. Ignoring.\n"
+msgstr ""
+"Varning: --hint är utfasad och tas bort i en framtida version av Zenity. "
+"Ignorerar flaggan.\n"
 
 #. from gnome:zenity
 msgid "General options"
@@ -279283,12 +279362,14 @@ msgid "Show scale options"
 msgstr "Visa skalflaggor"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Text information options"
-msgstr "Textinformationsflaggor"
+msgstr "Flaggor för textinformation"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Show text information options"
-msgstr "Visa textinformationsflaggor"
+msgstr "Visa flaggor för textinformation"
 
 #. from gnome:zenity
 msgid "Color selection options"
@@ -279299,20 +279380,24 @@ msgid "Show color selection options"
 msgstr "Visa flaggor för färgväljare"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Password dialog options"
-msgstr "Flaggor för lösenordsdialog"
+msgstr "Flaggor för lösenordsdialogrutan"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Show password dialog options"
-msgstr "Visa flaggor för lösenordsdialog"
+msgstr "Visa flaggor för lösenordsdialogrutan"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Forms dialog options"
-msgstr "Flaggor för formulärdialog"
+msgstr "Flaggor för formulärdialogrutan"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Show forms dialog options"
-msgstr "Visa flaggor för formulärdialog"
+msgstr "Visa flaggor för formulärdialogrutan"
 
 #. from gnome:zenity
 msgid "Miscellaneous options"
@@ -279323,8 +279408,12 @@ msgid "Show miscellaneous options"
 msgstr "Visa diverse flaggor"
 
 #. from gnome:zenity
-msgid "This option is not available. Please see --help for all possible usages.\n"
-msgstr "Denna flagga är inte tillgänglig. Se --help för alla möjliga\nanvändningsfall.\n"
+#. from gnome:reviewed/zenity/master
+msgid ""
+"This option is not available. Please see --help for all possible usages.\n"
+msgstr ""
+"Den här flaggan är inte tillgänglig. Se --help för information om hur den "
+"kan användas.\n"
 
 #. from gnome:zenity
 msgid "--%s is not supported for this dialog\n"
@@ -279339,8 +279428,9 @@ msgid "Type your username and password"
 msgstr "Ange ditt användarnamn och lösenord"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Time remaining: %lu:%02lu:%02lu"
-msgstr "Kvarstående tid: %lu:%02lu:%02lu"
+msgstr "Återstående tid: %lu:%02lu:%02lu"
 
 #. from gnome:zenity
 msgid "Combining the options --auto-close and --percentage=100 is not supported.\n"
@@ -279351,28 +279441,43 @@ msgid "Maximum value must be greater than minimum value.\n"
 msgstr "Maximalt värde måste vara större än minimalt värde.\n"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Value out of range.\n"
-msgstr "Värde utanför intervall.\n"
+msgstr "Värdet ligger utanför intervallet.\n"
 
 #. from gnome:zenity
-msgid "Warning: --mid-search is deprecated and will be removed in a future version of zenity. Ignoring.\n"
-msgstr "Varning: --mid-search är föråldrad och kommer tas bort i en framtida version av zenity. Ignorerar.\n"
+#. from gnome:reviewed/zenity/master
+msgid ""
+"Warning: --mid-search is deprecated and will be removed in a future version "
+"of zenity. Ignoring.\n"
+msgstr ""
+"Varning: --mid-search är utfasad och tas bort i en framtida version av "
+"Zenity. Ignorerar flaggan.\n"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "No column titles specified for List dialog.\n"
-msgstr "Inga kolumntitlar angavs för listdialogfönstret.\n"
+msgstr "Kolumnrubriker saknas för listdialogen.\n"
 
 #. from gnome:zenity
-msgid "Insufficient columns specified for List dialog (at least 2 are required for --checklist or --radiolist).\n"
-msgstr "För få kolumner angivna för listdialog (åtminstone två krävs för --checklist eller --radiolist).\n"
+#. from gnome:reviewed/zenity/master
+msgid ""
+"Insufficient columns specified for List dialog (at least 2 are required for "
+"--checklist or --radiolist).\n"
+msgstr ""
+"För få kolumner har angetts för listdialogen (minst två krävs med "
+"--checklist eller --radiolist).\n"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "You should use only one List dialog type.\n"
-msgstr "Du bör endast använda en listdialogtyp.\n"
+msgstr "Du kan bara använda en typ av listdialog.\n"
 
 #. from gnome:zenity
+#. from gnome:reviewed/zenity/master
 msgid "Icon filename %s not found; trying theme icon."
-msgstr "Ikonfilnamnet %s hittades inte, försöker med temaikon."
+msgstr ""
+"Ikonfilen %s hittades inte. Försöker använda en ikon från temat i stället."
 
 #. from gnome:zenity
 msgid "Adjust the scale value"
@@ -649198,3 +649303,19 @@ msgstr "Du är välkommen att gå med oss."
 #. from gnome:reviewed/www-gnome-org/main
 msgid "Our Mission"
 msgstr "Vårt uppdrag"
+
+#. from gnome:reviewed/zenity/master
+msgid "Set the application identifier (Since: 4.4)"
+msgstr "Ange programmets ID (från version 4.4)"
+
+#. from gnome:reviewed/zenity/master
+msgid "Set the dialog text (Since: 4.4)"
+msgstr "Ange dialogtexten (från version 4.4)"
+
+#. from gnome:reviewed/zenity/master
+msgid ""
+"Warning: the application ID passed to --app-id is not valid. Falling back to"
+" the default generic ID.\n"
+msgstr ""
+"Varning: program-ID:t som angavs med --app-id är ogiltigt. Använder det "
+"generiska standard-ID:t i stället.\n"
