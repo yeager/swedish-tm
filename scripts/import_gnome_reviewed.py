@@ -16,7 +16,7 @@ import polib
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_WORKSPACE = ROOT.parents[1]
+DEFAULT_WORKSPACE = ROOT.parents[0]
 ARCHIVE = Path(os.environ.get(
     "GNOME_REVIEW_ARCHIVE", DEFAULT_WORKSPACE / "translations" / "GNOME-granskning"
 )).resolve()
