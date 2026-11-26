@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261126T065115Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261126T071218Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -327872,22 +327872,22 @@ Organization: Din organisation
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Allow to configure gnome-remote-desktop's system daemon settings</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tillåt konfiguration av systemdemoninställningar för gnome-remote-desktop</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillåt att konfigurera inställningarna för systemtjänsten gnome-remote-desktop</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Authentication is required to configure gnome-remote-desktop's system daemon settings</seg></tuv>
-      <tuv xml:lang="sv"><seg>Autentisering krävs för att konfigurera systemdemoninställningar för gnome-remote-desktop</seg></tuv>
+      <tuv xml:lang="sv"><seg>Autentisering krävs för att konfigurera inställningarna för systemtjänsten gnome-remote-desktop</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Allow to enable and disable gnome-remote-desktop's system daemon</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tillåt aktivering och inaktivering av systemdemonen för gnome-remote-desktop</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillåt att aktivera och inaktivera systemtjänsten gnome-remote-desktop</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Authentication is required to enable or disable gnome-remote-desktop's system daemon</seg></tuv>
-      <tuv xml:lang="sv"><seg>Autentisering krävs för att aktivera eller inaktivera systemdemonen för gnome-remote-desktop</seg></tuv>
+      <tuv xml:lang="sv"><seg>Autentisering krävs för att aktivera eller inaktivera systemtjänsten gnome-remote-desktop</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
@@ -327932,28 +327932,28 @@ Organization: Din organisation
                                                    to a different port
 
 </seg></tuv>
-      <tuv xml:lang="sv"><seg>  rdp                                          - RDP-underkommandon:
-    set-port                                   - Ställ in port som servern binds till
-    enable                                     - Aktivera RDP-bakänden
-    disable                                    - Inaktivera RDP-bakänden
-    set-auth-methods &lt;lista-över-metoder&gt;      - Ställ in kommaseparerad lista
-                                                 över tillåtna autentiserings-
-                                                 metoder (credentials, kerberos)
-    set-tls-cert &lt;sökväg-till-cert&gt;            - Ställ in sökväg till TLS-certifikat
-    set-tls-key &lt;sökväg-till-nyckel&gt;           - Ställ in sökväg till TLS-nyckel
-    set-kerberos-keytab &lt;sökväg-till-nkltab&gt;   - Ställ in sökväg till en Kerberos-nyckeltabell
-    set-credentials [&lt;anvnamn&gt; [&lt;lösenord&gt;]]   - Ställ in uppgifter för
-                                                 användarnamn och lösenord
-    clear-credentials                          - Rensa uppgifter för
-                                                 användarnamn och lösenord
-    enable-view-only                           - Inaktivera fjärrkontroll av
-                                                 inmatningsenheter
-    disable-view-only                          - Aktivera fjärrkontroll av
-                                                 inmatningsenheter
-    enable-port-negotiation                    - Om ej tillgänglig, lyssna på
-                                                 en annan port
-    disable-port-negotiation                   - Om ej tillgänglig, lyssna
-                                                 inte på en annan port
+      <tuv xml:lang="sv"><seg>  rdp - RDP-underkommandon:
+    set-port - Ange vilken port servern ska lyssna på
+    enable - Aktivera RDP-bakänden
+    disable - Inaktivera RDP-bakänden
+    set-auth-methods &lt;metodlista&gt; - Ange en kommaseparerad lista med
+                                      tillåtna autentiseringsmetoder
+                                      (credentials, kerberos)
+    set-tls-cert &lt;sökväg-till-certifikat&gt; - Ange sökvägen till TLS-certifikatet
+    set-tls-key &lt;sökväg-till-nyckel&gt; - Ange sökvägen till TLS-nyckeln
+    set-kerberos-keytab &lt;sökväg-till-nyckeltabell&gt; - Ange sökvägen till en Kerberos-nyckeltabell
+    set-credentials [&lt;användarnamn&gt; [&lt;lösenord&gt;]] - Ange användarnamn och
+                                                       lösenord
+    clear-credentials - Rensa användarnamn och
+                        lösenord
+    enable-view-only - Inaktivera fjärrstyrning av
+                       inmatningsenheter
+    disable-view-only - Aktivera fjärrstyrning av
+                        inmatningsenheter
+    enable-port-negotiation - Om porten är upptagen,
+                              lyssna på en annan port
+    disable-port-negotiation - Lyssna inte på en annan port
+                               om porten är upptagen
 
 </seg></tuv>
     </tu>
@@ -327976,21 +327976,21 @@ Organization: Din organisation
                                                to a different port
 
 </seg></tuv>
-      <tuv xml:lang="sv"><seg>  vnc                                        - VNC-underkommandon:
-    set-port                                 - Ställ in port som servern binds till
-    enable                                   - Aktivera VNC-bakänden
-    disable                                  - Inaktivera VNC-bakänden
-    set-password [&lt;lösenord&gt;]                - Ställ in VNC-lösenordet
-    clear-password                           - Rensa VNC-lösenordet
-    set-auth-method password|prompt          - Ställ in auktoriseringsmetod
-    enable-view-only                         - Inaktivera fjärrkontroll av
-                                               inmatningsenheter
-    disable-view-only                        - Aktivera fjärrkontroll av
-                                               inmatningsenheter
-    enable-port-negotiation                  - Om ej tillgänglig, lyssna på
-                                               en annan port
-    disable-port-negotiation                 - Om ej tillgänglig, lyssna
-                                               inte på en annan port
+      <tuv xml:lang="sv"><seg>  vnc - VNC-underkommandon:
+    set-port - Ange vilken port servern ska lyssna på
+    enable - Aktivera VNC-bakänden
+    disable - Inaktivera VNC-bakänden
+    set-password [&lt;lösenord&gt;] - Ange VNC-lösenordet
+    clear-password - Rensa VNC-lösenordet
+    set-auth-method password|prompt - Ange autentiseringsmetod
+    enable-view-only - Inaktivera fjärrstyrning av
+                       inmatningsenheter
+    disable-view-only - Aktivera fjärrstyrning av
+                        inmatningsenheter
+    enable-port-negotiation - Om porten är upptagen,
+                              lyssna på en annan port
+    disable-port-negotiation - Lyssna inte på en annan port
+                               om porten är upptagen
 
 </seg></tuv>
     </tu>
@@ -328005,14 +328005,14 @@ Options:
                                                for remote login
   --help                                     - Print this help text
 </seg></tuv>
-      <tuv xml:lang="sv"><seg>  status [--show-credentials]                - Visa aktuell status
+      <tuv xml:lang="sv"><seg>  status [--show-credentials] - Visa aktuell status
 
 Flaggor:
-  --headless                                 - Konfigurera huvudlös demon
-                                               som kör i en användarsession
-  --system                                   - Konfigurera systemdemon
-                                               för fjärrinloggning
-  --help                                     - Skriv ut denna hjälptext
+  --headless - Konfigurera en bildskärmslös systemtjänst som
+               kör i en användarsession
+  --system - Konfigurera systemtjänsten för
+           fjärrinloggning
+  --help - Visa den här hjälptexten
 </seg></tuv>
     </tu>
     <tu>
@@ -328023,24 +328023,24 @@ Flaggor:
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Continue With Insecure Connection?</seg></tuv>
-      <tuv xml:lang="sv"><seg>Fortsätt med osäker anslutning?</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fortsätta med osäker anslutning?</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>This Remote Desktop connection is insecure. To secure this connection, enable RDSTLS Security in your client by saving the connection settings in your client as an RDP file and set “use redirection server name:i:1” in it.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Denna fjärrskrivbordsanslutning är osäker. För att säkra denna anslutning, aktivera RDSTLS-säkerhet i din klient genom att spara anslutningsinställningarna i din klient som en RDP-fil och ställ in ”use redirection server name:i:1” i den.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anslutningen till fjärrskrivbordet är osäker. Aktivera RDSTLS-säkerhet i klienten genom att spara anslutningsinställningarna som en RDP-fil och ange ”use redirection server name:i:1” i filen.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Desktop Sharing port changed</seg></tuv>
-      <tuv xml:lang="sv"><seg>Port för skrivbordsdelning ändrades</seg></tuv>
+      <tuv xml:lang="sv"><seg>Porten för skrivbordsdelning har ändrats</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>The Desktop Sharing port has changed from &lt;b&gt;%i&lt;/b&gt; to &lt;b&gt;%i&lt;/b&gt;.
 This is because the Remote Sessions service has been activated and it has a higher priority to use port &lt;b&gt;%i&lt;/b&gt;.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Skrivbordsdelningsporten har ändrats från &lt;b&gt;%i&lt;/b&gt; till &lt;b&gt;%i&lt;/b&gt;.
-Detta är för att fjärrsessionstjänsten har aktiverats och har högre prioritet att använda port &lt;b&gt;%i&lt;/b&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Porten för skrivbordsdelning har ändrats från &lt;b&gt;%i&lt;/b&gt; till &lt;b&gt;%i&lt;/b&gt;.
+Det beror på att tjänsten Fjärrsessioner har aktiverats och har företräde till porten &lt;b&gt;%i&lt;/b&gt;.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
@@ -328050,7 +328050,7 @@ Detta är för att fjärrsessionstjänsten har aktiverats och har högre priorit
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>A user on the computer '%s' is trying to remotely view or control your desktop.</seg></tuv>
-      <tuv xml:lang="sv"><seg>En användare på datorn ”%s” försöker att fjärrvisa eller styra ditt skrivbord.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En användare på datorn ”%s” försöker visa eller styra ditt skrivbord via fjärranslutning.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
@@ -328060,32 +328060,32 @@ Detta är för att fjärrsessionstjänsten har aktiverats och har högre priorit
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>The port used by the RDP server</seg></tuv>
-      <tuv xml:lang="sv"><seg>Porten som används av RDP-servern</seg></tuv>
+      <tuv xml:lang="sv"><seg>Porten som RDP-servern använder</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>The RDP client will connect to this port to use this RDP server.</seg></tuv>
-      <tuv xml:lang="sv"><seg>RDP-klienten kommer att ansluta till denna port för att använda denna RDP-server.</seg></tuv>
+      <tuv xml:lang="sv"><seg>RDP-klienten ansluter till den här porten för att använda RDP-servern.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Search a different RDP port if the configured one is used</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sök en annan RDP-port om den konfigurerade används</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sök efter en annan RDP-port om den inställda porten används</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>When negotiate-port is set to 'true' the RDP server will attempt to listen to the first available of the next 10 ports starting from the configured one.</seg></tuv>
-      <tuv xml:lang="sv"><seg>När negotiate-port är satt till ”true” (sant) kommer RDP-servern försöka lyssna på den först tillgängliga av nästa 10 portar med start på den konfigurerade.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När inställningen negotiate-port är ”true” försöker RDP-servern lyssna på den första lediga porten bland de tio portarna från och med den inställda porten.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Whether the RDP backend is enabled or not</seg></tuv>
-      <tuv xml:lang="sv"><seg>Huruvida RDP-bakänden är aktiverad eller inte</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om RDP-bakänden är aktiverad</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>If set to 'true' the RDP backend will be initialized.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Om inställd till ”true” (sant) kommer RDP-bakänden att initieras.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om värdet är ”true” initieras RDP-bakänden.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
@@ -328095,22 +328095,22 @@ Detta är för att fjärrsessionstjänsten har aktiverats och har högre priorit
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>The screenshare mode specifies, whether the RDP backend mirrors the primary screen, or whether a virtual monitor is created. For the initial resolution of the virtual monitor, the RDP backend uses either the client core data ([MS-RDPBCGR] 2.2.1.3.2) or the client monitor data ([MS-RDPBCGR] 2.2.1.3.6), depending on what is available. When using a remote desktop session with a virtual monitor, clients can resize the resolution of the virtual monitor during a session with the Display Update Virtual Channel Extension ([MS-RDPEDISP]). Allowed screenshare modes include: * mirror-primary - Record the primary monitor of the current user session. * extend - Create a new virtual monitor and use it for the remote desktop session. The resolution of this virtual monitor is derived from the monitor configuration, submitted by the remote desktop client.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Skärmdelningsläget anger huruvida RDP-bakänden speglar den primära skärmen, eller huruvida en virtuell skärm skapas. För den initiala upplösningen för den virtuella skärmen använder RDP-bakänden antingen klientens kärndata ([MS-RDPBCGR] 2.2.1.3.2) eller klientens skärmdata ([MS-RDPBCGR] 2.2.1.3.6), beroende på vad som är tillgängligt. Då en fjärrskrivbordssession används med en virtuell skärm kan klienter ändra storleken på den virtuella skärmen under en session med Display Update Virtual Channel Extension ([MS-RDPEDISP]). Tillåtna skärmdelningslägen inkluderar: * mirror-primary - Spela in den primära skärmen för den aktuella användarsessionen. * extend - Skapa en ny virtuell skärm och använd den för fjärrskrivbordssessionen. Upplösningen för denna virtuella skärm härleds från skärmkonfigurationen som tillhandahålls av fjärrskrivbordsklienten.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Läget för skärmdelning anger om RDP-bakänden speglar den primära skärmen eller om en virtuell bildskärm skapas. För den virtuella bildskärmens ursprungliga upplösning använder RDP-bakänden antingen klientens grunddata ([MS-RDPBCGR] 2.2.1.3.2) eller klientens bildskärmsdata ([MS-RDPBCGR] 2.2.1.3.6), beroende på vilka data som är tillgängliga. Under en fjärrskrivbordssession med en virtuell bildskärm kan klienten ändra dess upplösning med tillägget Display Update Virtual Channel Extension ([MS-RDPEDISP]). Tillåtna skärmdelningslägen är: * mirror-primary – fånga den primära bildskärmen i den aktuella användarsessionen. * extend – skapa en ny virtuell bildskärm och använda den i fjärrskrivbordssessionen. Upplösningen hämtas från den skärmkonfiguration som fjärrskrivbordsklienten skickar.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Path to the certificate file</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sökväg till certifikatfil</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sökväg till certifikatfilen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>In order to be able to use RDP with TLS Security, both the private key file and the certificate file need to be provided to the RDP server.</seg></tuv>
-      <tuv xml:lang="sv"><seg>För att kunna använda RDP med TLS-säkerhet måste både den privata nyckelfilen och certifikatfilen tillhandahållas till RDP-servern.</seg></tuv>
+      <tuv xml:lang="sv"><seg>För att använda RDP med TLS-säkerhet måste både filen med den privata nyckeln och certifikatfilen anges för RDP-servern.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Path to the private key file</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sökväg till privat nyckelfil</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sökväg till filen med den privata nyckeln</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
@@ -328120,7 +328120,7 @@ Detta är för att fjärrsessionstjänsten har aktiverats och har högre priorit
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>When view-only is true, remote RDP connections cannot manipulate input devices (e.g. mouse and keyboard).</seg></tuv>
-      <tuv xml:lang="sv"><seg>När view-only är true (sant) kan fjärr-RDP-anslutningar inte manipulera inmatningsenheter (t.ex. mus och tangentbord).</seg></tuv>
+      <tuv xml:lang="sv"><seg>När view-only är ”true” kan fjärranslutna RDP-klienter inte använda inmatningsenheter (till exempel mus och tangentbord).</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
@@ -328130,62 +328130,62 @@ Detta är för att fjärrsessionstjänsten har aktiverats och har högre priorit
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Allowed authentication methods. Multiple may be selected to allow different authentication mechanisms. At least one authentication method must be selected.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tillåtna autentiseringsmetoder. Flera kan väljas för att tillåta olika autentiseringsmekanismer. Minst en autentiseringsmetod måste väljas.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillåtna autentiseringsmetoder. Välj flera för att tillåta olika autentiseringssätt. Minst en autentiseringsmetod måste väljas.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>A path to a Kerberos keytab file</seg></tuv>
-      <tuv xml:lang="sv"><seg>En sökväg till en Kerberos-nyckeltabellfil</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sökväg till en Kerberos-nyckeltabell</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>When 'kerberos' is enabled as an authentication method, the TERMSRV Kerberos service principal in this keytab file will be used for authentication.</seg></tuv>
-      <tuv xml:lang="sv"><seg>När ”kerberos” är aktiverad som en autentiseringsmetod kommer Kerberos TERMSRV-tjänsteprincipal i denna nyckeltabellfil användas för autentisering.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När ”kerberos” används som autentiseringsmetod används TERMSRV-tjänstehuvudnamnet i Kerberos-nyckeltabellen för autentisering.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>The port used by the VNC server</seg></tuv>
-      <tuv xml:lang="sv"><seg>Porten som används av VNC-servern</seg></tuv>
+      <tuv xml:lang="sv"><seg>Porten som VNC-servern använder</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>The VNC client will connect to this port to use this VNC server.</seg></tuv>
-      <tuv xml:lang="sv"><seg>VNC-klienten kommer att ansluta till denna port för att använda denna VNC-server.</seg></tuv>
+      <tuv xml:lang="sv"><seg>VNC-klienten ansluter till den här porten för att använda VNC-servern.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Search a different VNC port if the configured one is used</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sök en annan VNC-port om den konfigurerade används</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sök efter en annan VNC-port om den inställda porten används</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>When negotiate-port is set to 'true' the VNC server will attempt to listen to the first available of the next 10 ports starting from the configured one.</seg></tuv>
-      <tuv xml:lang="sv"><seg>När negotiate-port är satt till ”true” (sant) kommer VNC-servern försöka lyssna på den först tillgängliga av nästa 10 portar med start på den konfigurerade.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När inställningen negotiate-port är ”true” försöker VNC-servern lyssna på den första lediga porten bland de tio portarna från och med den inställda porten.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Whether the VNC backend is enabled or not</seg></tuv>
-      <tuv xml:lang="sv"><seg>Huruvida VNC-bakänden är aktiverad eller inte</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om VNC-bakänden är aktiverad</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>If set to 'true' the VNC backend will be initialized.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Om inställd till ”true” (sant) kommer VNC-bakänden att initieras.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om värdet är ”true” initieras VNC-bakänden.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>When view-only is true, remote VNC connections cannot manipulate input devices (e.g. mouse and keyboard).</seg></tuv>
-      <tuv xml:lang="sv"><seg>När view-only är true (sant) kan fjärr-VNC-anslutningar inte manipulera inmatningsenheter (t.ex. mus och tangentbord).</seg></tuv>
+      <tuv xml:lang="sv"><seg>När view-only är ”true” kan fjärranslutna VNC-klienter inte använda inmatningsenheter (till exempel mus och tangentbord).</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>Method used to authenticate VNC connections</seg></tuv>
-      <tuv xml:lang="sv"><seg>Metod som används för att autentisera VNC-anslutningar</seg></tuv>
+      <tuv xml:lang="sv"><seg>Autentiseringsmetod för VNC-anslutningar</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>The VNC authentication method describes how a remote connection is authenticated. It can currently be done in two different ways: * prompt - by prompting the user for each new connection, requiring a person with physical access to the workstation to explicitly approve the new connection. * password - by requiring the remote client to provide a known password</seg></tuv>
-      <tuv xml:lang="sv"><seg>VNC-autentiseringsmetoden beskriver hur en fjärranslutning autentiseras. Det kan för närvarande göras på två olika sätt: * prompt - genom att fråga användaren om varje ny anslutning, vilket kräver att en person med fysisk åtkomst till arbetsstationen uttryckligen godkänner den nya anslutningen. * password - genom att kräva att fjärrklienten anger ett känt lösenord</seg></tuv>
+      <tuv xml:lang="sv"><seg>VNC-autentiseringsmetoden beskriver hur en fjärranslutning autentiseras. Det finns för närvarande två sätt: * prompt – fråga användaren vid varje ny anslutning. Då måste någon med fysisk åtkomst till datorn uttryckligen godkänna anslutningen. * password – kräv att fjärrklienten anger ett känt lösenord</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
@@ -328195,7 +328195,7 @@ Detta är för att fjärrsessionstjänsten har aktiverats och har högre priorit
     <tu>
       <prop type="project">gnome:remote-desktop-main.sv</prop>
       <tuv xml:lang="en"><seg>The screenshare mode specifies, whether the VNC backend mirrors the primary screen, or whether a virtual monitor is created. For the initial resolution of the virtual monitor, the VNC backend uses a default size of 1920x1080 pixels. When using a remote desktop session with a virtual monitor, clients can resize the resolution of the virtual monitor during a session with the setDesktopSize PDU. Allowed screenshare modes include: * mirror-primary - Record the primary monitor of the current user session. * extend - Create a new virtual monitor and use it for the remote desktop session. The initial monitor resolution of this virtual monitor is set to 1920x1080 pixels. Clients can override the initial resolution with subsequent monitor configuration updates.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Skärmdelningsläget anger huruvida VNC-bakänden speglar den primära skärmen, eller huruvida en virtuell skärm skapas. För den initiala upplösningen för den virtuella skärmen använder VNC-bakänden en standardstorlek på 1920×1080 bildpunkter. Då en fjärrskrivbordssession används med en virtuell skärm kan klienter ändra storleken på den virtuella skärmen under en session med PDU:n setDesktopSize. Tillåtna skärmdelningslägen inkluderar: * mirror-primary - Spela in den primära skärmen för den aktuella användarsessionen. * extend - Skapa en ny virtuell skärm och använd den för fjärrskrivbordssessionen. Den initiala upplösningen för denna virtuella skärm är satt till 1920×1080 bildpunkter. Klienter kan åsidosätta den initiala upplösningen med efterföljande skärmkonfigurationsuppdateringar.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Läget för skärmdelning anger om VNC-bakänden speglar den primära skärmen eller om en virtuell bildskärm skapas. VNC-bakänden använder standardupplösningen 1920x1080 bildpunkter för den virtuella bildskärmen. Under en fjärrskrivbordssession med en virtuell bildskärm kan klienten ändra dess upplösning med PDU:n setDesktopSize. Tillåtna skärmdelningslägen är: * mirror-primary – fånga den primära bildskärmen i den aktuella användarsessionen. * extend – skapa en ny virtuell bildskärm och använda den i fjärrskrivbordssessionen. Den virtuella bildskärmens ursprungliga upplösning är 1920x1080 bildpunkter. Klienten kan ändra den ursprungliga upplösningen med senare uppdateringar av bildskärmskonfigurationen.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:rhythmbox</prop>
