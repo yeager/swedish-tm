@@ -63,3 +63,30 @@ def test_rejects_missing_provenance(tmp_path):
         assert "saved-and-read-back" in str(error)
     else:
         raise AssertionError("invalid status was accepted")
+
+
+def test_percent_spacing_is_not_mistaken_for_printf_placeholder():
+    assert validator.runtime_placeholders("Probability 50% means on.") == []
+    assert validator.runtime_placeholders("Sannolikhet 50 % innebär på.") == []
+
+
+def test_recognizes_runtime_placeholders():
+    assert validator.runtime_placeholders("{name} %1$s %02d %%") == [
+        "%%",
+        "%02d",
+        "%1$s",
+        "{name}",
+    ]
+
+
+def test_validation_rejects_mismatched_runtime_placeholder(tmp_path):
+    path = tmp_path / "sample.tmx"
+    write_tmx(path)
+    contents = path.read_text(encoding="utf-8").replace("<seg>Testa</seg>", "<seg>{name}</seg>")
+    path.write_text(contents, encoding="utf-8")
+    try:
+        validator.validate(path)
+    except ValueError as error:
+        assert "runtime-placeholder mismatch" in str(error)
+    else:
+        raise AssertionError("mismatched runtime placeholder was accepted")

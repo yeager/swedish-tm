@@ -14,8 +14,26 @@ from __future__ import annotations
 import argparse
 from collections import Counter
 from pathlib import Path
+import re
 import sys
 from xml.etree import ElementTree as ET
+
+
+# Do not treat ordinary localized percentages such as ``50 % means`` or
+# ``50 % innebär`` as printf placeholders. In Swedish text the required space
+# after the percent sign would otherwise consume the first letter of the next
+# word as a fake conversion specifier. Real placeholders are adjacent to ``%``
+# and use a recognized conversion type.
+RUNTIME_PLACEHOLDER = re.compile(
+    r"\{[^{}]+\}|%%|%(?:\d+\$)?[-+#0]*(?:\d+|\*)?(?:\.(?:\d+|\*))?"
+    r"(?:hh|h|ll|l|j|z|t|L)?[diouxXfFeEgGaAcspn]"
+)
+KEY_REFERENCE = re.compile(r"\[%key:[^%]+%\]")
+
+
+def runtime_placeholders(value: str) -> list[str]:
+    """Extract runtime formatting placeholders, excluding source key aliases."""
+    return sorted(RUNTIME_PLACEHOLDER.findall(KEY_REFERENCE.sub("", value)))
 
 
 def validate(path: Path, *, require_lokalise_ids: bool = False) -> Counter:
@@ -60,6 +78,16 @@ def validate(path: Path, *, require_lokalise_ids: bool = False) -> Counter:
             raise ValueError(f"{tuid}: expected one en and one sv segment")
         if any(item.find("seg") is None for item in variants):
             raise ValueError(f"{tuid}: missing segment")
+        translations = {
+            item.get("{http://www.w3.org/XML/1998/namespace}lang"): "".join(
+                item.find("seg").itertext()
+            )
+            for item in variants
+        }
+        if not KEY_REFERENCE.search(translations["en"]) and runtime_placeholders(
+            translations["en"]
+        ) != runtime_placeholders(translations["sv"]):
+            raise ValueError(f"{tuid}: runtime-placeholder mismatch")
         if tuid.startswith("lokalise:"):
             if not tuid.removeprefix("lokalise:").isdigit():
                 raise ValueError(f"{tuid}: invalid Lokalise translation ID")
