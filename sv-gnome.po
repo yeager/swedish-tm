@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 130076
+# Entries: 130162
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -72048,8 +72048,9 @@ msgid "Source Range"
 msgstr "Källintervall"
 
 #. from gnome:GIMP
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Destination Range"
-msgstr "Destinationsintervall"
+msgstr "Målintervall"
 
 #. from gnome:GIMP
 msgid "Gray Handling"
@@ -118074,6 +118075,7 @@ msgstr "intervalltider"
 #. from gnome:reviewed/chronojump/master
 #. from gnome:reviewed/sysprof/master
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Sample"
 msgstr "Sampling"
 
@@ -164943,8 +164945,9 @@ msgid "Remove from selection"
 msgstr "Ta bort från urval"
 
 #. from gnome:gThumb
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Show selection"
-msgstr "Visa urval"
+msgstr "Visa markering"
 
 #. from gnome:gThumb
 msgid "Remove from Selection"
@@ -371831,7 +371834,7 @@ msgstr "Exempel på filtret <quote>Spyrogimp</quote>"
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/gimp-help/master
 msgid "Filter applied"
-msgstr "Filter tillämpat"
+msgstr "Tillämpat filter"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid ""
@@ -376829,7 +376832,7 @@ msgid ""
 "taken in account: original intensity will be preserved."
 msgstr ""
 "Om alternativet är markerat används inte intensitetsinställningarna för "
-"innivåer: den ursprungliga intensiteten bevaras."
+"indatanivåer: den ursprungliga intensiteten bevaras."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid ""
@@ -377533,7 +377536,7 @@ msgstr ""
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/chronojump/master
 msgid "Sliders"
-msgstr "Reglage"
+msgstr "Skjutreglage"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid ""
@@ -659057,3 +659060,622 @@ msgstr "Metadataimport: för många kolumner för taggen '%s'"
 #. from gnome:reviewed/gimp/master
 msgid "Too many rows for tag %s: limiting export to %d rows"
 msgstr "För många rader för taggen %s: exporten begränsas till %d rader"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Choose the palette you want to use from this list and then click the "
+"<guibutton>Close</guibutton> button in that dialog, followed by the "
+"<guibutton>OK</guibutton> button in the <quote>Set Colormap</quote> dialog "
+"to replace the image colormap."
+msgstr ""
+"Välj paletten du vill använda i listan. Klicka sedan på "
+"<guibutton>Stäng</guibutton> i dialogrutan och därefter på "
+"<guibutton>OK</guibutton> i dialogrutan <quote>Ange färgkarta</quote> för "
+"att ersätta bildens färgkarta."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "If your image is not indexed, this command is disabled."
+msgstr "Om bilden inte är indexerad är kommandot inaktiverat."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Set"
+" Colormap…</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Ange"
+" färgkarta…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Sample"
+" Colorize…</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Färglägg"
+" med prov…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<guilabel>The sample</guilabel> can be the whole preview, or a selection of "
+"this preview. With the drop list, you can select another sample-image among "
+"the names of images present on your screen when you called the filter. If "
+"you choose <guilabel>From Gradient</guilabel> (or <guilabel>From Inverse "
+"Gradient</guilabel>), the selected gradient in Gradient Dialog (or its "
+"inverse) will be the sample. It will be displayed into the gradient bar "
+"below the sample preview. The sampling preview is grayed out and two cursors"
+" allow you to select the gradient range that will be applied to the image or"
+" selection."
+msgstr ""
+"<guilabel>Provet</guilabel> kan vara hela förhandsvisningen eller en "
+"markering i den. I listrutan kan du välja en annan provbild bland bilderna "
+"som fanns på skärmen när du anropade filtret. Om du väljer <guilabel>Från "
+"toning</guilabel> eller <guilabel>Från omvänd toning</guilabel> används den "
+"valda toningen i toningsdialogrutan, eller dess omvända variant, som prov. "
+"Den visas i toningsraden under provförhandsvisningen. Provförhandsvisningen "
+"är nedtonad och med de två markörerna kan du välja vilket toningsintervall "
+"som ska tillämpas på bilden eller markeringen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<guilabel>Destination</guilabel> is, by default, the source image. The drop "
+"list displays the list of images present on your screen when you evoked the "
+"filter and allow you to select another destination image. If there is a "
+"selection in this image, it will be grayscale, else the whole preview will "
+"be grayscale."
+msgstr ""
+"<guilabel>Mål</guilabel> är som standard källbilden. Listrutan visar "
+"bilderna som fanns på skärmen när du anropade filtret och låter dig välja en"
+" annan målbild. Om bilden innehåller en markering visas den i gråskala; "
+"annars visas hela förhandsvisningen i gråskala."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Show color"
+msgstr "Visa färg"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "This option toggles between colors and grayscale."
+msgstr "Det här alternativet växlar mellan färg och gråskala."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Input levels"
+msgstr "Indatanivåer"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Output levels"
+msgstr "Utdatanivåer"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Hold intensity"
+msgstr "Behåll intensitet"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Original intensity"
+msgstr "Ursprunglig intensitet"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"When you click on this button, the gradient bar below the sample preview "
+"displays colors of the sample. If your sample holds few colors, transitions "
+"may be abrupt. Check <guilabel>Smooth samples</guilabel> option to improve "
+"them."
+msgstr ""
+"När du klickar på knappen visar toningsraden under provförhandsvisningen "
+"provets färger. Om provet innehåller få färger kan övergångarna bli abrupta."
+" Markera alternativet <guilabel>Jämna ut prov</guilabel> för att förbättra "
+"dem."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<guilabel>Use subcolors</guilabel> is more difficult to understand. Let's "
+"say first that in a grayscale image there is information only for Value "
+"(luminosity, more or less light). In a RGB image, each pixel has information"
+" for the three colors and Value. So, pixels with different color may have "
+"the same Value. If this option is checked, colors will be mixed and applied "
+"to Destination pixels having that Value. If it is unchecked, then the "
+"dominating color will be applied."
+msgstr ""
+"<guilabel>Använd underfärger</guilabel> är lite svårare att förstå. En "
+"gråskalebild innehåller bara information om intensiteten, det vill säga hur "
+"ljust eller mörkt det är. I en RGB-bild innehåller varje bildpunkt "
+"information om rött, grönt och blått samt intensiteten. Bildpunkter med "
+"olika färger kan alltså ha samma intensitet. Om alternativet är markerat "
+"blandas färgerna och tillämpas på målbildpunkter med den intensiteten. "
+"Annars används den dominerande färgen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This command allows you to re-organize colors in the palette of "
+"<emphasis>indexed</emphasis> images. It doesn't modify the image. You can't "
+"add or remove colors; for that, see <link linkend=\"gimp-indexed-palette-"
+"dialog\">The Indexed Palette Dialog</link>."
+msgstr ""
+"Med det här kommandot kan du ordna om färgerna i paletten för "
+"<emphasis>indexerade</emphasis> bilder. Bilden ändras inte. Du kan inte "
+"lägga till eller ta bort färger; se <link linkend=\"gimp-indexed-palette-"
+"dialog\">dialogrutan för indexerad palett</link>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Rearrange"
+" Colormap…</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Ordna"
+" om färgkarta…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"You can also access it from the <link linkend=\"gimp-indexed-palette-"
+"dialog\">Colormap Dialog</link> using the right-click context menu "
+"<menuchoice><guimenuitem>Rearrange Colormap…</guimenuitem></menuchoice>."
+msgstr ""
+"Du kan också komma åt kommandot från <link linkend=\"gimp-indexed-palette-"
+"dialog\">dialogrutan för färgkartan</link> via snabbmenyn som öppnas med "
+"högerklick: <menuchoice><guimenuitem>Ordna om "
+"färgkarta…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"You can drag and drop colors using the mouse to rearrange the colormap. You "
+"can sort colors based on Hue, Saturation and Value by using the buttons. You"
+" can also reverse or reset the order of the colors."
+msgstr ""
+"Du kan dra och släppa färger med musen för att ordna om färgkartan. Med "
+"knapparna kan du sortera färgerna efter nyans, mättnad eller intensitet. Du "
+"kan också vända på färgernas ordning eller återställa den."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Another way to sort a colormap is by using the <link linkend=\"gimp-palette-"
+"sort\">Sort Palette…</link> context menu command available in the <link "
+"linkend=\"gimp-palette-dialog\">Palettes Dialog</link>."
+msgstr ""
+"Du kan också sortera färgkartan med kommandot <link linkend=\"gimp-palette-"
+"sort\">Sortera palett…</link> på snabbmenyn i <link linkend=\"gimp-palette-"
+"dialog\">palettdialogrutan</link>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This plug-in recolors the image using colors from the active palette that "
+"you choose in the <link linkend=\"gimp-palette-dialog\">Palettes "
+"dialog</link>."
+msgstr ""
+"Det här insticksprogrammet färglägger om bilden med färger från den aktiva "
+"paletten, som du väljer i <link linkend=\"gimp-palette-"
+"dialog\">palettdialogrutan</link>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"It maps the contents of the specified drawable (layer, selection, etc.) with"
+" the active palette. It calculates luminosity of each pixel and replaces the"
+" pixel by the palette sample at the corresponding index. A complete black "
+"pixel becomes the lowest palette entry, and complete white becomes the "
+"highest. Works on both Grayscale and RGB images with or without alpha "
+"channel."
+msgstr ""
+"Innehållet i det angivna objektet (lager, markering och så vidare) avbildas "
+"med den aktiva paletten. Ljusstyrkan för varje bildpunkt beräknas och "
+"bildpunkten ersätts med färgen på motsvarande plats i paletten. En helt "
+"svart bildpunkt får palettens lägsta färg och en helt vit får den högsta. "
+"Filtret fungerar på gråskale- och RGB-bilder, med eller utan alfakanal."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Palette"
+" Map</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Palettkarta</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Gradient"
+" Map</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Toningskarta</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<quote>Rotate Colors</quote> filter example"
+msgstr "Exempel på filtret <quote>Rotera färger</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Filter <quote>Rotate Colors</quote> applied; the blue color of the sky is "
+"within the source range and gets converted to the orange color in the "
+"destination range"
+msgstr ""
+"Filtret <quote>Rotera färger</quote> har tillämpats; himlens blå färg ligger"
+" i källintervallet och omvandlas till målintervallets orange färg"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Colormap Rotation lets you exchange one color range (the Source Range) to "
+"another range (the Destination Range)."
+msgstr ""
+"Med färgkarterotation kan du byta ett färgintervall (källintervall) mot ett "
+"annat (målintervall)."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Rotate"
+" Colors…</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Rotera"
+" färger…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "The <quote>Rotate Colors</quote> Dialog"
+msgstr "Dialogrutan <quote>Rotera färger</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Both source and destination range have a color wheel range selection circle."
+" You can drag both arrow handles to the color location you want. They "
+"correspond to the <guilabel>From</guilabel> and <guilabel>To</guilabel> "
+"sliders listed below."
+msgstr ""
+"Både käll- och målintervallet har en markör på färghjulet. Dra i markörernas"
+" pilar för att placera dem vid önskad färg. De motsvarar skjutreglagen "
+"<guilabel>Från</guilabel> och <guilabel>Till</guilabel> nedan."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The angle of the starting position of the color range on the color wheel."
+msgstr "Vinkeln för färgintervallets startposition på färghjulet."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The angle of the ending position of the color range on the color wheel."
+msgstr "Vinkeln för färgintervallets slutposition på färghjulet."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"When checked the range from start to end is computed clockwise, else "
+"counter-clockwise (default)."
+msgstr ""
+"När alternativet är markerat beräknas intervallet från start till slut "
+"medurs; annars beräknas det moturs (standard)."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This button inverts the <guilabel>From</guilabel> and "
+"<guilabel>To</guilabel> values."
+msgstr ""
+"Den här knappen inverterar värdena för <guilabel>Från</guilabel> och "
+"<guilabel>Till</guilabel>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "This button selects all colors to be inside the range."
+msgstr "Med den här knappen väljer du ett intervall som omfattar alla färger."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"In this section, you can specify how to treat gray. By default, gray is not "
+"considered as a color and is not taken in account by the rotation. Here, you"
+" can convert slightly saturated colors into gray and you can also convert "
+"gray into a color depending on the settings below."
+msgstr ""
+"I det här avsnittet anger du hur grått ska hanteras. Som standard räknas "
+"grått inte som en färg och påverkas därför inte av rotationen. Här kan du "
+"omvandla svagt mättade färger till grått och även göra grått till en färg "
+"utifrån inställningarna nedan."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The small circle in the color wheel adjusts the Hue and Saturation that will"
+" be used to select the color that represents gray. They correspond to the "
+"<guilabel>Hue</guilabel> and <guilabel>Saturation</guilabel> sliders listed "
+"below."
+msgstr ""
+"Den lilla cirkeln på färghjulet justerar nyans och mättnad som används för "
+"att välja färgen som representerar grått. Den motsvarar skjutreglagen "
+"<guilabel>Nyans</guilabel> och <guilabel>Mättnad</guilabel> nedan."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Gray threshold"
+msgstr "Gråtröskel"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This slider selects which colors will be treated as gray. Colors with a "
+"Saturation less than this value will be converted to the selected \"gray\" "
+"color."
+msgstr ""
+"Det här skjutreglaget väljer vilka färger som ska behandlas som grå. Färger "
+"med lägre mättnad än det angivna värdet omvandlas till den valda grå färgen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Gray mode"
+msgstr "Gråläge"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<guilabel>Treat as this</guilabel> causes gray colors inside the source "
+"range to be treated as if they had this Hue and saturation. The color will "
+"be rotated according to the source and destination ranges."
+msgstr ""
+"Med <guilabel>Behandla som</guilabel> behandlas grå färger i källintervallet"
+" som om de hade den angivna nyansen och mättnaden. Färgen roteras sedan "
+"enligt käll- och målintervallen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"<guilabel>Change to this</guilabel> will change gray colors to the selected "
+"Hue and Saturation without any rotation."
+msgstr ""
+"<guilabel>Ändra till</guilabel> ändrar grå färger till den valda nyansen och"
+" mättnaden utan att rotera dem."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Examples using Gray Handling"
+msgstr "Exempel på gråhantering"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Using the same example as at the top of this page, but now with the "
+"following gray handling settings used: Gray threshold 0.340, Hue 220.0, "
+"Saturation 0.75."
+msgstr ""
+"Samma exempel som högst upp på sidan, men med följande inställningar för "
+"gråhantering: gråtröskel 0,340, nyans 220,0 och mättnad 0,75."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"If you want gray instead of a different color, you should leave Hue and "
+"Saturation at 0."
+msgstr ""
+"Om du vill få grått i stället för en annan färg ska nyans och mättnad stå på"
+" 0."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<quote>Rotate Colors</quote> filter examples for gray handling"
+msgstr ""
+"Exempel på hantering av grått med filtret <quote>Rotera färger</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Gray mode set to <guilabel>Treat as this</guilabel>: any color with a "
+"Saturation below 0.34 will be converted to orange because the selected blue "
+"Hue, Saturation in the source range rotates to orange in the destination "
+"range."
+msgstr ""
+"<guilabel>Behandla som</guilabel> i gråläget: alla färger med en mättnad "
+"under 0,34 omvandlas till orange eftersom kombinationen av blå nyans och "
+"mättnad i källintervallet roteras till orange i målintervallet."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Gray mode set to <guilabel>Change to this</guilabel>: the rotation is now "
+"ignored and the color is picked directly based on the chosen Hue and "
+"Saturation."
+msgstr ""
+"<guilabel>Ändra till</guilabel> i gråläget: rotationen ignoreras och färgen "
+"väljs direkt utifrån angiven nyans och mättnad."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Saturation and Hue set to 0 turns anything below the threshold to gray."
+msgstr ""
+"Om mättnad och nyans är 0 omvandlas allt under tröskelvärdet till grått."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<quote>Color Exchange</quote> filter example"
+msgstr "Exempel på filtret <quote>Färgbyte</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"Filter applied with <guilabel>From color</guilabel> RGB (122, 149, 199), "
+"<guilabel>To color</guilabel> RGB (255, 0, 0), <guilabel>Red "
+"threshold</guilabel> 0.106, <guilabel>Green threshold</guilabel> 0.100, "
+"<guilabel>Blue threshold</guilabel> 0.190."
+msgstr ""
+"Filtret har tillämpats med <guilabel>Från färg</guilabel> RGB (122, 149, "
+"199), <guilabel>Till färg</guilabel> RGB (255, 0, 0), <guilabel>röd "
+"tröskel</guilabel> 0,106, <guilabel>grön tröskel</guilabel> 0,100 och "
+"<guilabel>blå tröskel</guilabel> 0,190."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Color"
+" Exchange…</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Färgbyte…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "The <quote>Color Exchange</quote> Dialog"
+msgstr "Dialogrutan <quote>Färgbyte</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This is the color you want to replace. To choose a color you can either use "
+"the color button to open the Color Picker dialog, or you can use the Color "
+"Picker tool to pick a color from your image."
+msgstr ""
+"Det här är färgen som ska ersättas. Välj en färg genom att klicka på "
+"färgknappen för att öppna färgväljaren eller använd färgväljarverktyget för "
+"att hämta en färg från bilden."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This is the new color you want to use. To choose a color you can either use "
+"the color button to open the Color Picker dialog, or you can use the Color "
+"Picker tool to pick a color from your image."
+msgstr ""
+"Det här är den nya färgen som ska användas. Välj en färg genom att klicka på"
+" färgknappen för att öppna färgväljaren eller använd färgväljarverktyget för"
+" att hämta en färg från bilden."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Red Threshold"
+msgstr "Röd tröskel"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Green Threshold"
+msgstr "Grön tröskel"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Blue Threshold"
+msgstr "Blå tröskel"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"These sliders allow you to set how sensitive the red, green and blue "
+"components are to differences from the <guilabel>From color</guilabel>. The "
+"higher the threshold, the more pixels will be affected."
+msgstr ""
+"Med skjutreglagen anger du hur känsliga de röda, gröna och blå komponenterna"
+" ska vara för avvikelser i förhållande till <guilabel>Från färg</guilabel>. "
+"Ju högre tröskelvärde, desto fler bildpunkter påverkas."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "<quote>Alien Map</quote> filter example"
+msgstr "Exempel på filtret <quote>Alien Map</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Filter applied with default settings"
+msgstr "Filtret har tillämpats med standardinställningarna"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"This filter heavily distorts image colors by applying trigonometric "
+"functions to map color values."
+msgstr ""
+"Det här filtret förvränger bildens färger kraftigt genom att använda "
+"trigonometriska funktioner för att avbilda färgvärden."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Alien"
+" Map…</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt kommandot från huvudmenyn via "
+"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Alien"
+" Map…</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "The <quote>Alien Map</quote> Dialog"
+msgstr "Dialogrutan <quote>Alien Map</quote>"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"The <link linkend=\"glossary-colormodel\">color model</link> used for the "
+"transformation: choices are <guilabel>RGB</guilabel> (default) and "
+"<guilabel>HSL</guilabel> (<link linkend=\"glossary-hsl\">Hue, Saturation and"
+" Lightness</link>)."
+msgstr ""
+"<link linkend=\"glossary-colormodel\">Färgmodellen</link> som används vid "
+"omvandlingen: välj mellan <guilabel>RGB</guilabel> (standard) och "
+"<guilabel>HSL</guilabel> (<link linkend=\"glossary-hsl\">nyans, mättnad och "
+"ljushet</link>)."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "The chosen Color Model changes the next settings."
+msgstr "Den valda färgmodellen påverkar följande inställningar."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Red frequency"
+msgstr "Röd frekvens"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Green frequency"
+msgstr "Grön frekvens"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Blue frequency"
+msgstr "Blå frekvens"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Hue frequency"
+msgstr "Nyansfrekvens"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Saturation frequency"
+msgstr "Mättnadsfrekvens"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Lightness frequency"
+msgstr "Ljushetsfrekvens"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"These sliders determine the frequency multiplier for each component in the "
+"color transformation."
+msgstr ""
+"Med skjutreglagen anger du frekvensmultiplikatorn för varje komponent i "
+"färgomvandlingen."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Red phase shift"
+msgstr "Röd fasförskjutning"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Green phase shift"
+msgstr "Grön fasförskjutning"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Blue phase shift"
+msgstr "Blå fasförskjutning"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Hue phase shift"
+msgstr "Nyansens fasförskjutning"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Saturation phase shift"
+msgstr "Mättnadens fasförskjutning"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Lightness phase shift"
+msgstr "Ljushetens fasförskjutning"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"These sliders and angle selectors determine how much of a phase shift from "
+"one component to another will be done for the chosen input component."
+msgstr ""
+"Med skjutreglagen och vinkelväljarna anger du hur stor fasförskjutning som "
+"ska göras från en komponent till en annan för den valda indatakomponenten."
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Keep red component"
+msgstr "Behåll den röda komponenten"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Keep green component"
+msgstr "Behåll den gröna komponenten"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Keep blue component"
+msgstr "Behåll den blå komponenten"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Keep hue component"
+msgstr "Behåll nyanskomponenten"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Keep saturation component"
+msgstr "Behåll mättnadskomponenten"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid "Keep lightness component"
+msgstr "Behåll ljushetskomponenten"
+
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
+msgid ""
+"These checkboxes allow you disable one or more of the components from being "
+"changed. Any component checked here will not be changed by the filter."
+msgstr ""
+"Med kryssrutorna kan du undanta en eller flera komponenter från ändringar. "
+"Komponenter som markeras här påverkas inte av filtret."
