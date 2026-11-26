@@ -22,20 +22,21 @@ för rad.
 
 ## English reference
 
-**756 024 unique English–Swedish translation pairs** in 16 ecosystem exports
-(874 869 entries before deduplicating across ecosystems). These counts describe
+**755 897 unique English–Swedish translation pairs** in 16 ecosystem exports
+(875 071 entries before deduplicating across ecosystems). These counts describe
 the files currently shipped in this repository, including the latest reviewed
 GNOME and Translation Project updates.
 
 ## GNOME terminology update, 2026-11-26
 
-The GNOME TM was refreshed from the reviewed archive after a focused GIMP Help
-terminology correction and a complete latest-POT review of the glossary. `Bucket Fill` uses **Fyll** as the UI label and
+The GNOME TM was refreshed from the reviewed archive after the Console and GDM
+gnome-50 reviews, which corrected 22 existing pairs, and a focused GIMP Help
+terminology correction and latest-POT glossary review. `Bucket Fill` uses **Fyll** as the UI label and
 **fyllnadsverktyg** in Swedish prose. The terminology correction covers 29
 entries across five current master and gimp-help-3-0 catalogs (15 unique source
 strings). The Loupe Help review added 66 GNOME TM entries; the 78-string catalog
-also includes 11 unchanged image references and existing pairs. The exported
-GNOME TM now contains 130 411 entries and passes the repository validator. The latest
+also includes 11 unchanged image references and existing pairs. The exported GNOME TM now contains 130 779 entries and passes the repository
+validator. The latest
 GIMP Help glossary added 253 completed translations and corrected four existing
 pairs; all 342 translatable entries are present, with 18 unused image metadata
 markers intentionally left blank. The latest GIMP plug-in catalog completed 149
@@ -46,7 +47,7 @@ remain blank in its archive. The GIMP Help `menus~colors~components` review adde
 image metadata entries remain blank. The GIMP Help `menus~file` review filled
 171 previously empty translations, cleared 29 fuzzy entries and synchronized
 seven image references against the latest POT. The 58-string Disk Mounter Help review corrected 25 existing Swedish translations. The 82-string CPU Frequency Scaling Monitor Help review corrected 47 existing strings and updated the GNOME-specific frequency-governor terminology. The complete latest-POT reviews of GNOME Applets `accessx-status` and `charpick` corrected 20 and 32 existing translations respectively; the terminology list was extended for the Character Palette. The 73-string Netspeed help review corrected 25 existing strings and updated network and traffic terminology. The 32-string phodav catalog added nine translations, corrected sixteen existing strings, resolved five fuzzy entries, and translated the SIZE, CERT and KEY metavariables. The latest-POT libipuz review added eight translations and corrected six existing direction labels. The d-spy catalog added seven translations and corrected seven existing strings, including D-Bus property operations. Sushi completed the last untranslated GNOME-project string, and its preview terminology was standardized. Metronome’s rhythm instructions and tempo keywords were reviewed and the missing contributor credit was filled. The Decoder catalog translated its missing folder action and standardized the Swedish app name **Avkodare** and QR-code terminology. The oo7 catalog corrected the old/new keyring-password prompts and resolved both fuzzy translations. The libsoup catalog corrected the stale “Invalid chunk size” translation and completed two missing messages. WirePlumber’s latest POT was reviewed; audio-stream terminology was corrected and the read-only Damned Lies / merge-request requirement recorded. The one p11-kit fuzzy string was translated; Damned Lies is also read-only for that module. The GNOME Help site catalog added twelve translations and corrected sixteen existing strings, and its vocabulary was added to the GNOME TM. Polkit’s fuzzy “Action ID” error was corrected and the read-only Damned Lies status documented. Showtime’s two fuzzy playback-speed entries were fixed, and Swedish wording for codecs, timestamps and volume controls was improved. The refreshed GNOME TM validates with
-130 577 entries (756 024 unique pairs across all exports).
+130 779 entries (755 897 unique pairs across all exports).
 
 ## Translation Project review update, 2026-09-23
 
@@ -70,7 +71,7 @@ gettext validity, XML safety, format agreement and statistics consistency.
 
 | Ecosystem | Pairs in export | TMX | PO compendium |
 |-----------|------------------:|-----|---------------|
-| GNOME | 130 577 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
+| GNOME | 130 779 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
 | KDE | 35 507 | [sv-kde.tmx](sv-kde.tmx) | [sv-kde.po](sv-kde.po) |
 | Mozilla | 19 293 | [sv-mozilla.tmx](sv-mozilla.tmx) | [sv-mozilla.po](sv-mozilla.po) |
 | Ubuntu | 50 525 | [sv-ubuntu.tmx](sv-ubuntu.tmx) | [sv-ubuntu.po](sv-ubuntu.po) |
