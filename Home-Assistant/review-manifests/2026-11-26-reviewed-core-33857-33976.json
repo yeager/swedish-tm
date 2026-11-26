@@ -1,0 +1,416 @@
+[
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::state_topic",
+    "key_id": "625227533",
+    "translation_id": "5485828863",
+    "en": "The MQTT topic subscribed to receive {platform} state values. [Learn more.]({url}#state_topic)",
+    "sv": "Det MQTT-ämne som Home Assistant prenumererar på för att ta emot tillståndsvärden för {platform}. [Läs mer.]({url}#state_topic)",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::value_template",
+    "key_id": "625227534",
+    "translation_id": "5485828926",
+    "en": "Defines a [template]({value_templating_url}) to extract the {platform} entity value. [Learn more.]({url}#value_template)",
+    "sv": "Definierar en [mall]({value_templating_url}) för att extrahera entitetsvärdet för {platform}. [Läs mer.]({url}#value_template)",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::mqtt::selector::platform::options::sensor",
+    "key_id": "625227594",
+    "translation_id": "5485832706",
+    "en": "Sensor",
+    "sv": "Sensor",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::jewish_calendar::selector::nusach::options::adot_mizrah",
+    "key_id": "625235960",
+    "translation_id": "5485851487",
+    "en": "Adot Mizrah",
+    "sv": "Adot Mizrah",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::jewish_calendar::selector::nusach::options::ashkenaz",
+    "key_id": "625235961",
+    "translation_id": "5485851550",
+    "en": "Ashkenaz",
+    "sv": "Ashkenaz",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::jewish_calendar::selector::nusach::options::italian",
+    "key_id": "625235962",
+    "translation_id": "5485851613",
+    "en": "Italian",
+    "sv": "Italiensk",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::jewish_calendar::selector::nusach::options::sfarad",
+    "key_id": "625235963",
+    "translation_id": "5485851676",
+    "en": "Sfarad",
+    "sv": "Sfarad",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::jewish_calendar::services::count_omer::description",
+    "key_id": "625235964",
+    "translation_id": "5485851739",
+    "en": "Returns the phrase for counting the Omer on a given date.",
+    "sv": "Returnerar frasen för Omer-räkningen på ett visst datum.",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::jewish_calendar::services::count_omer::fields::date::description",
+    "key_id": "625235965",
+    "translation_id": "5485851802",
+    "en": "Date to count the Omer for.",
+    "sv": "Datum för Omer-räkningen.",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::jewish_calendar::services::count_omer::fields::date::name",
+    "key_id": "625235966",
+    "translation_id": "5485851865",
+    "en": "Date",
+    "sv": "Datum",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::jewish_calendar::services::count_omer::fields::language::description",
+    "key_id": "625235967",
+    "translation_id": "5485851928",
+    "en": "Language to count the Omer in.",
+    "sv": "Språk för Omer-räkningen.",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::jewish_calendar::services::count_omer::fields::language::name",
+    "key_id": "625235968",
+    "translation_id": "5485851991",
+    "en": "Language",
+    "sv": "Språk",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::jewish_calendar::services::count_omer::fields::nusach::description",
+    "key_id": "625235969",
+    "translation_id": "5485852054",
+    "en": "Nusach to count the Omer in.",
+    "sv": "Tradition (nusach) för Omer-räkningen.",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::jewish_calendar::services::count_omer::fields::nusach::name",
+    "key_id": "625235970",
+    "translation_id": "5485852117",
+    "en": "Nusach",
+    "sv": "Tradition (nusach)",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::jewish_calendar::services::count_omer::name",
+    "key_id": "625235971",
+    "translation_id": "5485852180",
+    "en": "Count the Omer",
+    "sv": "Räkna Omer",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::abort::already_configured",
+    "key_id": "625242682",
+    "translation_id": "5485896742",
+    "en": "Device is already configured",
+    "sv": "Enheten är redan konfigurerad",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::error::cannot_connect",
+    "key_id": "625242683",
+    "translation_id": "5485896805",
+    "en": "Failed to connect",
+    "sv": "Det gick inte att ansluta",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::error::invalid_auth",
+    "key_id": "625242684",
+    "translation_id": "5485896868",
+    "en": "Invalid authentication",
+    "sv": "Ogiltig autentisering",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::error::unknown",
+    "key_id": "625242685",
+    "translation_id": "5485896931",
+    "en": "Unexpected error",
+    "sv": "Oväntat fel",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::step::auth::data::installer_code",
+    "key_id": "625242686",
+    "translation_id": "5485896994",
+    "en": "Installer code",
+    "sv": "Installatörskod",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::step::auth::data::password",
+    "key_id": "625242687",
+    "translation_id": "5485897057",
+    "en": "Password",
+    "sv": "Lösenord",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::step::auth::data::user_code",
+    "key_id": "625242688",
+    "translation_id": "5485897120",
+    "en": "User code",
+    "sv": "Användarkod",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::step::auth::data_description::installer_code",
+    "key_id": "625242689",
+    "translation_id": "5485897183",
+    "en": "The installer code from your panel",
+    "sv": "Installatörskoden från din panel",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::step::auth::data_description::password",
+    "key_id": "625242690",
+    "translation_id": "5485897246",
+    "en": "The Mode 2 automation code from your panel",
+    "sv": "Automationskoden för Mode 2 från din larmcentral.",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::step::auth::data_description::user_code",
+    "key_id": "625242691",
+    "translation_id": "5485897309",
+    "en": "The user code from your panel",
+    "sv": "Användarkoden från din panel",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::step::user::data::host",
+    "key_id": "625242692",
+    "translation_id": "5485897372",
+    "en": "Host",
+    "sv": "Värd",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::step::user::data::port",
+    "key_id": "625242693",
+    "translation_id": "5485897435",
+    "en": "Port",
+    "sv": "Port",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::step::user::data_description::host",
+    "key_id": "625242694",
+    "translation_id": "5485897498",
+    "en": "The hostname or IP address of your Bosch alarm panel",
+    "sv": "Värdnamnet eller IP-adressen för din Bosch larmpanel",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::bosch_alarm::config::step::user::data_description::port",
+    "key_id": "625242695",
+    "translation_id": "5485897561",
+    "en": "The port used to connect to your Bosch alarm panel. This is usually 7700",
+    "sv": "Porten som används för att ansluta till din Bosch larmpanel. Detta är vanligtvis 7700",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::openai_conversation::selector::search_context_size::options::high",
+    "key_id": "625256332",
+    "translation_id": "5486008898",
+    "en": "High",
+    "sv": "Hög",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::openai_conversation::selector::search_context_size::options::low",
+    "key_id": "625256333",
+    "translation_id": "5486008961",
+    "en": "Low",
+    "sv": "Låg",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::openai_conversation::selector::search_context_size::options::medium",
+    "key_id": "625256334",
+    "translation_id": "5486009024",
+    "en": "Medium",
+    "sv": "Medel",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::home_connect::entity::number::alarm_clock::name",
+    "key_id": "625262259",
+    "translation_id": "5486041049",
+    "en": "Alarm clock",
+    "sv": "Väckarklocka",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::home_connect::issues::deprecated_time_alarm_clock::fix_flow::step::confirm::description",
+    "key_id": "625262260",
+    "translation_id": "5486041112",
+    "en": "The alarm clock entity `{entity_id}` is deprecated because it's being moved to the `number` platform.\n\nPlease use the new `number` entity.",
+    "sv": "Entiteten för väckarklockan `{entity_id}` är utfasad eftersom den flyttas till plattformen `number`.\n\nAnvänd den nya `number`-entiteten i stället.",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::home_connect::issues::deprecated_time_alarm_clock::fix_flow::step::confirm::title",
+    "key_id": "625262261",
+    "translation_id": "5486041175",
+    "en": "Deprecated alarm clock entity",
+    "sv": "Utfasad entitet för väckarklocka",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::home_connect::issues::deprecated_time_alarm_clock::title",
+    "key_id": "625262262",
+    "translation_id": "5486041238",
+    "en": "Deprecated alarm clock entity",
+    "sv": "Utfasad entitet för väckarklocka",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::home_connect::issues::deprecated_time_alarm_clock_in_automations_scripts::fix_flow::step::confirm::description",
+    "key_id": "625262263",
+    "translation_id": "5486041301",
+    "en": "The alarm clock entity `{entity_id}`, which is deprecated because it's being moved to the `number` platform, is used in the following automations or scripts:\n{items}\n\nPlease, fix this issue by updating your automations or scripts to use the new `number` entity.",
+    "sv": "Entiteten för väckarklockan `{entity_id}`, som är utfasad eftersom den flyttas till plattformen `number`, används i följande automatiseringar eller skript:\n{items}\n\nÅtgärda problemet genom att uppdatera dina automatiseringar eller skript så att de använder den nya `number`-entiteten i stället.",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::home_connect::issues::deprecated_time_alarm_clock_in_automations_scripts::fix_flow::step::confirm::title",
+    "key_id": "625262264",
+    "translation_id": "5486041364",
+    "en": "Deprecated alarm clock entity detected in some automations or scripts",
+    "sv": "En utfasad entitet för väckarklocka har upptäckts i vissa automatiseringar eller skript",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::home_connect::issues::deprecated_time_alarm_clock_in_automations_scripts::title",
+    "key_id": "625262265",
+    "translation_id": "5486041427",
+    "en": "Deprecated alarm clock entity detected in some automations or scripts",
+    "sv": "En utfasad entitet för väckarklocka har upptäckts i vissa automatiseringar eller skript",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::device::sections::mqtt_settings::data::qos",
+    "key_id": "625283411",
+    "translation_id": "5486277985",
+    "en": "QoS",
+    "sv": "QoS",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::device::sections::mqtt_settings::data_description::qos",
+    "key_id": "625283412",
+    "translation_id": "5486278048",
+    "en": "The Quality of Service value the device's entities should use.",
+    "sv": "Det QoS-värde som enhetens entiteter ska använda.",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::device::sections::mqtt_settings::name",
+    "key_id": "625283413",
+    "translation_id": "5486278111",
+    "en": "MQTT settings",
+    "sv": "MQTT-inställningar",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::data::optimistic",
+    "key_id": "625420733",
+    "translation_id": "5487345588",
+    "en": "Optimistic",
+    "sv": "Optimistisk",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::optimistic",
+    "key_id": "625420734",
+    "translation_id": "5487345651",
+    "en": "Flag that defines if the {platform} entity works in optimistic mode. [Learn more.]({url}#optimistic)",
+    "sv": "Flagga som anger om {platform}-entiteten arbetar i optimistiskt läge. [Läs mer.]({url}#optimistic)",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::mqtt::selector::platform::options::switch",
+    "key_id": "625420737",
+    "translation_id": "5487345840",
+    "en": "Switch",
+    "sv": "Brytare",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  },
+  {
+    "key": "component::smartthings::entity::button::reset_water_filter::name",
+    "key_id": "625702729",
+    "translation_id": "5487656079",
+    "en": "Reset water filter",
+    "sv": "Återställ vattenfilter",
+    "verification_method": "Lokalise API live readback; current Core source and live references checked",
+    "verified_date": "2026-11-26"
+  }
+]
