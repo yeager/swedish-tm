@@ -27,6 +27,14 @@ för rad.
 the files currently shipped in this repository, including the latest reviewed
 GNOME and Translation Project updates.
 
+## GNOME terminology update, 2026-11-26
+
+The GNOME TM was refreshed from the reviewed archive after a focused GIMP Help
+terminology correction. `Bucket Fill` uses **Fyll** as the UI label and
+**fyllnadsverktyg** in Swedish prose. The terminology correction covers 29 entries across five current master and
+gimp-help-3-0 catalogs (15 unique source strings). The exported GNOME
+TM contains 128 641 entries and passes the repository validator.
+
 ## Translation Project review update, 2026-09-23
 
 The Translation Project export now contains 117 723 active, context-free singular
