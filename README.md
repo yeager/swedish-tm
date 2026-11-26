@@ -22,8 +22,8 @@ för rad.
 
 ## English reference
 
-**755 458 unique English–Swedish translation pairs** in 16 ecosystem exports
-(874 225 entries before deduplicating across ecosystems). These counts describe
+**755 599 unique English–Swedish translation pairs** in 16 ecosystem exports
+(874 368 entries before deduplicating across ecosystems). These counts describe
 the files currently shipped in this repository, including the latest reviewed
 GNOME and Translation Project updates.
 
@@ -35,10 +35,11 @@ terminology correction and a complete latest-POT review of the glossary. `Bucket
 entries across five current master and gimp-help-3-0 catalogs (15 unique source
 strings). The Loupe Help review added 66 GNOME TM entries; the 78-string catalog
 also includes 11 unchanged image references and existing pairs. The exported
-GNOME TM contains 129 933 entries and passes the repository validator. The latest
+GNOME TM contains 130 076 entries and passes the repository validator. The latest
 GIMP Help glossary added 253 completed translations and corrected four existing
 pairs; all 342 translatable entries are present, with 18 unused image metadata
-markers intentionally left blank in the reviewed catalog.
+markers intentionally left blank. The latest GIMP plug-in catalog completed 149
+fuzzy or empty translations and corrected six existing pairs.
 
 ## Translation Project review update, 2026-09-23
 
@@ -62,7 +63,7 @@ gettext validity, XML safety, format agreement and statistics consistency.
 
 | Ecosystem | Pairs in export | TMX | PO compendium |
 |-----------|------------------:|-----|---------------|
-| GNOME | 129 933 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
+| GNOME | 130 076 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
 | KDE | 35 507 | [sv-kde.tmx](sv-kde.tmx) | [sv-kde.po](sv-kde.po) |
 | Mozilla | 19 293 | [sv-mozilla.tmx](sv-mozilla.tmx) | [sv-mozilla.po](sv-mozilla.po) |
 | Ubuntu | 50 525 | [sv-ubuntu.tmx](sv-ubuntu.tmx) | [sv-ubuntu.po](sv-ubuntu.po) |
