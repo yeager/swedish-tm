@@ -22,8 +22,8 @@ för rad.
 
 ## English reference
 
-**756 020 unique English–Swedish translation pairs** in 16 ecosystem exports
-(874 867 entries before deduplicating across ecosystems). These counts describe
+**756 024 unique English–Swedish translation pairs** in 16 ecosystem exports
+(874 869 entries before deduplicating across ecosystems). These counts describe
 the files currently shipped in this repository, including the latest reviewed
 GNOME and Translation Project updates.
 
@@ -45,8 +45,8 @@ remain blank in its archive. The GIMP Help `menus~colors~components` review adde
 111 translations and updated 13 fuzzy entries against the latest POT; 26 unused
 image metadata entries remain blank. The GIMP Help `menus~file` review filled
 171 previously empty translations, cleared 29 fuzzy entries and synchronized
-seven image references against the latest POT. The 58-string Disk Mounter Help review corrected 25 existing Swedish translations. The 82-string CPU Frequency Scaling Monitor Help review corrected 47 existing strings and updated the GNOME-specific frequency-governor terminology. The complete latest-POT reviews of GNOME Applets `accessx-status` and `charpick` corrected 20 and 32 existing translations respectively; the terminology list was extended for the Character Palette. The 73-string Netspeed help review corrected 25 existing strings and updated network and traffic terminology. The 32-string phodav catalog added nine translations, corrected sixteen existing strings, resolved five fuzzy entries, and translated the SIZE, CERT and KEY metavariables. The latest-POT libipuz review added eight translations and corrected six existing direction labels. The d-spy catalog added seven translations and corrected seven existing strings, including D-Bus property operations. Sushi completed the last untranslated GNOME-project string, and its preview terminology was standardized. Metronome’s rhythm instructions and tempo keywords were reviewed and the missing contributor credit was filled. The Decoder catalog translated its missing folder action and standardized the Swedish app name **Avkodare** and QR-code terminology. The oo7 catalog corrected the old/new keyring-password prompts and resolved both fuzzy translations. The libsoup catalog corrected the stale “Invalid chunk size” translation and completed two missing messages. WirePlumber’s latest POT was reviewed; audio-stream terminology was corrected and the read-only Damned Lies / merge-request requirement recorded. The one p11-kit fuzzy string was translated; Damned Lies is also read-only for that module. The refreshed GNOME TM validates with
-130 575 entries (756 020 unique pairs across all exports).
+seven image references against the latest POT. The 58-string Disk Mounter Help review corrected 25 existing Swedish translations. The 82-string CPU Frequency Scaling Monitor Help review corrected 47 existing strings and updated the GNOME-specific frequency-governor terminology. The complete latest-POT reviews of GNOME Applets `accessx-status` and `charpick` corrected 20 and 32 existing translations respectively; the terminology list was extended for the Character Palette. The 73-string Netspeed help review corrected 25 existing strings and updated network and traffic terminology. The 32-string phodav catalog added nine translations, corrected sixteen existing strings, resolved five fuzzy entries, and translated the SIZE, CERT and KEY metavariables. The latest-POT libipuz review added eight translations and corrected six existing direction labels. The d-spy catalog added seven translations and corrected seven existing strings, including D-Bus property operations. Sushi completed the last untranslated GNOME-project string, and its preview terminology was standardized. Metronome’s rhythm instructions and tempo keywords were reviewed and the missing contributor credit was filled. The Decoder catalog translated its missing folder action and standardized the Swedish app name **Avkodare** and QR-code terminology. The oo7 catalog corrected the old/new keyring-password prompts and resolved both fuzzy translations. The libsoup catalog corrected the stale “Invalid chunk size” translation and completed two missing messages. WirePlumber’s latest POT was reviewed; audio-stream terminology was corrected and the read-only Damned Lies / merge-request requirement recorded. The one p11-kit fuzzy string was translated; Damned Lies is also read-only for that module. The GNOME Help site catalog added twelve translations and corrected sixteen existing strings, and its vocabulary was added to the GNOME TM. The refreshed GNOME TM validates with
+130 577 entries (756 024 unique pairs across all exports).
 
 ## Translation Project review update, 2026-09-23
 
@@ -70,7 +70,7 @@ gettext validity, XML safety, format agreement and statistics consistency.
 
 | Ecosystem | Pairs in export | TMX | PO compendium |
 |-----------|------------------:|-----|---------------|
-| GNOME | 130 575 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
+| GNOME | 130 577 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
 | KDE | 35 507 | [sv-kde.tmx](sv-kde.tmx) | [sv-kde.po](sv-kde.po) |
 | Mozilla | 19 293 | [sv-mozilla.tmx](sv-mozilla.tmx) | [sv-mozilla.po](sv-mozilla.po) |
 | Ubuntu | 50 525 | [sv-ubuntu.tmx](sv-ubuntu.tmx) | [sv-ubuntu.po](sv-ubuntu.po) |
