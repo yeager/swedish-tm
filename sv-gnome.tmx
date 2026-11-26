@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261126T095244Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261126T095651Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -327378,7 +327378,7 @@ Organization: Din organisation
     <tu>
       <prop type="project">gnome:phodav</prop>
       <tuv xml:lang="en"><seg>Print program version</seg></tuv>
-      <tuv xml:lang="sv"><seg>Skriv ut programmets version</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visa programversionen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:phodav</prop>
@@ -327388,32 +327388,32 @@ Organization: Din organisation
     <tu>
       <prop type="project">gnome:phodav</prop>
       <tuv xml:lang="en"><seg>Port to listen to</seg></tuv>
-      <tuv xml:lang="sv"><seg>Port att lyssna på</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lyssningsport</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:phodav</prop>
       <tuv xml:lang="en"><seg>Listen on loopback only</seg></tuv>
-      <tuv xml:lang="sv"><seg>Lyssna endast på loopback</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lyssna endast på loopback-gränssnittet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:phodav</prop>
       <tuv xml:lang="en"><seg>Listen on all interfaces</seg></tuv>
-      <tuv xml:lang="sv"><seg>Lyssna på alla gränssnitt</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lyssna på alla nätverksgränssnitt</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:phodav</prop>
       <tuv xml:lang="en"><seg>Path to export</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sökväg som ska exporteras</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sökväg för export</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:phodav</prop>
       <tuv xml:lang="en"><seg>Path to htdigest file</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sökväg till htdigest-fil</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sökväg till htdigest-filen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:phodav</prop>
       <tuv xml:lang="en"><seg>DIGEST realm</seg></tuv>
-      <tuv xml:lang="sv"><seg>DIGEST-domän</seg></tuv>
+      <tuv xml:lang="sv"><seg>DIGEST-autentiseringsområde</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:phodav</prop>
@@ -327423,7 +327423,7 @@ Organization: Din organisation
     <tu>
       <prop type="project">gnome:phodav</prop>
       <tuv xml:lang="en"><seg>Skip mDNS service announcement</seg></tuv>
-      <tuv xml:lang="sv"><seg>Hoppa över mDNS-tjänstmeddelande</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hoppa över mDNS-tjänsteannonsering</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:phodav</prop>
@@ -327439,7 +327439,7 @@ Organization: Din organisation
       <prop type="project">gnome:phodav</prop>
       <tuv xml:lang="en"><seg>Option parsing failed: %s
 </seg></tuv>
-      <tuv xml:lang="sv"><seg>Tolkning av flaggor misslyckades: %s
+      <tuv xml:lang="sv"><seg>Det gick inte att tolka flaggorna: %s
 </seg></tuv>
     </tu>
     <tu>
@@ -327453,7 +327453,7 @@ Organization: Din organisation
       <prop type="project">gnome:phodav</prop>
       <tuv xml:lang="en"><seg>--local and --public are mutually exclusive
 </seg></tuv>
-      <tuv xml:lang="sv"><seg>--local och --public kan inte användas samtidigt
+      <tuv xml:lang="sv"><seg>--local och --public är ömsesidigt uteslutande
 </seg></tuv>
     </tu>
     <tu>
@@ -415505,23 +415505,23 @@ Förmodligen är detta ett fel i ALSA-drivrutinen ”%s”. Vänligen rapportera
       <prop type="project">gnome:reviewed/phodav/master</prop>
       <tuv xml:lang="en"><seg>--tls-cert contains no private key, pass it with --tls-key
 </seg></tuv>
-      <tuv xml:lang="sv"><seg>--tls-cert innehåller ingen privat nyckel; ange den med --tls-key
+      <tuv xml:lang="sv"><seg>Ange privatnyckeln med --tls-key: --tls-cert innehåller ingen privat nyckel
 </seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/phodav/master</prop>
       <tuv xml:lang="en"><seg>Unix socket to listen on</seg></tuv>
-      <tuv xml:lang="sv"><seg>Unix-socket att lyssna på</seg></tuv>
+      <tuv xml:lang="sv"><seg>Unix-domänsocket att lyssna på</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/phodav/master</prop>
       <tuv xml:lang="en"><seg>Refuse uploads over SIZE bytes (0 for no limit)</seg></tuv>
-      <tuv xml:lang="sv"><seg>Avvisa uppladdningar större än SIZE byte (0 för ingen gräns)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Neka uppladdningar större än STORLEK byte (0 betyder ingen gräns)</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/phodav/master</prop>
       <tuv xml:lang="en"><seg>Serve HTTPS, with the TLS certificate in CERT (which must include the private key, unless --tls-key is given)</seg></tuv>
-      <tuv xml:lang="sv"><seg>Använd HTTPS med TLS-certifikatet i CERTIFIKAT (som måste innehålla den privata nyckeln om inte --tls-key anges)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Servera HTTPS med TLS-certifikatet i CERTIFIKAT (som måste innehålla den privata nyckeln, om inte --tls-key anges)</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/phodav/master</prop>
@@ -415536,7 +415536,7 @@ Förmodligen är detta ett fel i ALSA-drivrutinen ”%s”. Vänligen rapportera
     <tu>
       <prop type="project">gnome:reviewed/phodav/master</prop>
       <tuv xml:lang="en"><seg>KEY</seg></tuv>
-      <tuv xml:lang="sv"><seg>NYCKEL</seg></tuv>
+      <tuv xml:lang="sv"><seg>PRIVATNYCKEL</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/phodav/master</prop>
@@ -415577,7 +415577,7 @@ Förmodligen är detta ett fel i ALSA-drivrutinen ”%s”. Vänligen rapportera
       <prop type="project">gnome:reviewed/phodav/master</prop>
       <tuv xml:lang="en"><seg>Failed to load the certificate: %s
 </seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte läsa in certifikatet: %s
+      <tuv xml:lang="sv"><seg>Det gick inte att läsa in certifikatet: %s
 </seg></tuv>
     </tu>
     <tu>

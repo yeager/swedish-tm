@@ -262662,7 +262662,7 @@ msgstr "ingen_e-post"
 #. from gnome:reviewed/phodav/master
 #. from gnome:reviewed/gcab/master
 msgid "Print program version"
-msgstr "Skriv ut programmets version"
+msgstr "Visa programversionen"
 
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
@@ -262671,31 +262671,34 @@ msgid "Be verbose"
 msgstr "Visa utförlig information"
 
 #. from gnome:phodav
+#. from gnome:reviewed/phodav/master
 msgid "Port to listen to"
-msgstr "Port att lyssna på"
+msgstr "Lyssningsport"
 
 #. from gnome:phodav
+#. from gnome:reviewed/phodav/master
 msgid "Listen on loopback only"
-msgstr "Lyssna endast på loopback"
+msgstr "Lyssna endast på loopback-gränssnittet"
 
 #. from gnome:phodav
+#. from gnome:reviewed/phodav/master
 msgid "Listen on all interfaces"
-msgstr "Lyssna på alla gränssnitt"
+msgstr "Lyssna på alla nätverksgränssnitt"
 
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "Path to export"
-msgstr "Sökväg som ska exporteras"
+msgstr "Sökväg för export"
 
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "Path to htdigest file"
-msgstr "Sökväg till htdigest-fil"
+msgstr "Sökväg till htdigest-filen"
 
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "DIGEST realm"
-msgstr "DIGEST-domän"
+msgstr "DIGEST-autentiseringsområde"
 
 #. from gnome:phodav
 msgid "Read-only access"
@@ -262704,7 +262707,7 @@ msgstr "Skrivskyddad åtkomst"
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "Skip mDNS service announcement"
-msgstr "Hoppa över mDNS-tjänstmeddelande"
+msgstr "Hoppa över mDNS-tjänsteannonsering"
 
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
@@ -262718,7 +262721,7 @@ msgstr "Rapportera fel till <%s>"
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "Option parsing failed: %s\n"
-msgstr "Tolkning av flaggor misslyckades: %s\n"
+msgstr "Det gick inte att tolka flaggorna: %s\n"
 
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
@@ -262728,7 +262731,7 @@ msgstr "Extra argument som inte stöds: %s …\n"
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
 msgid "--local and --public are mutually exclusive\n"
-msgstr "--local och --public kan inte användas samtidigt\n"
+msgstr "--local och --public är ömsesidigt uteslutande\n"
 
 #. from gnome:phodav
 #. from gnome:reviewed/phodav/master
@@ -340130,23 +340133,25 @@ msgstr "Filer och mappar"
 
 #. from gnome:reviewed/phodav/master
 msgid "--tls-cert contains no private key, pass it with --tls-key\n"
-msgstr "--tls-cert innehåller ingen privat nyckel; ange den med --tls-key\n"
+msgstr ""
+"Ange privatnyckeln med --tls-key: --tls-cert innehåller ingen privat "
+"nyckel\n"
 
 #. from gnome:reviewed/phodav/master
 msgid "Unix socket to listen on"
-msgstr "Unix-socket att lyssna på"
+msgstr "Unix-domänsocket att lyssna på"
 
 #. from gnome:reviewed/phodav/master
 msgid "Refuse uploads over SIZE bytes (0 for no limit)"
-msgstr "Avvisa uppladdningar större än SIZE byte (0 för ingen gräns)"
+msgstr "Neka uppladdningar större än STORLEK byte (0 betyder ingen gräns)"
 
 #. from gnome:reviewed/phodav/master
 msgid ""
 "Serve HTTPS, with the TLS certificate in CERT (which must include the "
 "private key, unless --tls-key is given)"
 msgstr ""
-"Använd HTTPS med TLS-certifikatet i CERTIFIKAT (som måste innehålla den "
-"privata nyckeln om inte --tls-key anges)"
+"Servera HTTPS med TLS-certifikatet i CERTIFIKAT (som måste innehålla den "
+"privata nyckeln, om inte --tls-key anges)"
 
 #. from gnome:reviewed/phodav/master
 msgid "CERT"
@@ -340158,7 +340163,7 @@ msgstr "Sökväg till TLS-privatnyckeln när den inte finns i certifikatfilen"
 
 #. from gnome:reviewed/phodav/master
 msgid "KEY"
-msgstr "NYCKEL"
+msgstr "PRIVATNYCKEL"
 
 #. from gnome:reviewed/phodav/master
 msgid "--socket and --local are mutually exclusive\n"
@@ -340182,7 +340187,7 @@ msgstr "--tls-key kräver --tls-cert\n"
 
 #. from gnome:reviewed/phodav/master
 msgid "Failed to load the certificate: %s\n"
-msgstr "Kunde inte läsa in certifikatet: %s\n"
+msgstr "Det gick inte att läsa in certifikatet: %s\n"
 
 #. from gnome:reviewed/gitte/main
 msgid "Gitte"
