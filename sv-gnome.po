@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 129511
+# Entries: 129552
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -7665,8 +7665,9 @@ msgstr "Öppnar ”%s”."
 #. from gnome:reviewed/webkit/main
 #. from gnome:reviewed/highscore/main
 #. from gnome:reviewed/gnome-firmware/master
+#. from gnome:reviewed/gnome-font-viewer/main
 msgid "_Close"
-msgstr "S_täng"
+msgstr "_Stäng"
 
 #. from gnome:nautilus
 msgid "Con_nect"
@@ -8544,9 +8545,12 @@ msgstr "Följande kommando kan användas, men endast för feltestning:"
 #. from gnome:reviewed/endeavour/main
 #. from gnome:reviewed/gnome-terminal/gnome-50
 #. from gnome:reviewed/d-spy/gnome-50
+#. from gnome:reviewed/gnome-font-viewer/main
 msgid "translator-credits"
 msgstr ""
 "Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Josef Andersson <l10nl18nsweja@gmail.com>\n"
+"Luna Jernberg <droidbittin@gmail.com>\n"
 "\n"
 "Skicka synpunkter på översättningen till\n"
 "<tp-sv@listor.tp-sv.se>."
@@ -41383,8 +41387,9 @@ msgstr "Installera en dokumentationsbunt"
 #. from gnome:reviewed/packagekit/main
 #. from gnome:reviewed/bazaar/main
 #. from gnome:reviewed/highscore/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgid "Installed"
-msgstr "Installerade"
+msgstr "Installerat"
 
 #. from gnome:y-main.sv
 #. from gnome:reviewed/gnome-software/main
@@ -105127,6 +105132,7 @@ msgstr "När översiktskartan ska visas."
 
 #. from gnome:builder-main.sv
 #. from gnome:reviewed/gedit-plugins/gnome-50
+#. from gnome:reviewed/gnome-text-editor/main
 msgid "Draw Spaces"
 msgstr "Visa blanktecken"
 
@@ -160947,12 +160953,25 @@ msgid "View fonts on your system"
 msgstr "Visa typsnitt på ditt system"
 
 #. from gnome:font-viewer-main.sv
-msgid "Fonts shows you the fonts installed on your computer for your use as thumbnails. Selecting any thumbnails shows the full view of how the font would look under various sizes."
-msgstr "Typsnitt visar dig de för dig tillgängliga installerade typsnitten på din dator som miniatyrbilder. Att välja en miniatyrbild visar en full överblick över hur typsnittet skulle se ut i olika storlekar."
+#. from gnome:reviewed/gnome-font-viewer/main
+msgid ""
+"Fonts shows you the fonts installed on your computer for your use as "
+"thumbnails. Selecting any thumbnails shows the full view of how the font "
+"would look under various sizes."
+msgstr ""
+"Typsnitt visar installerade typsnitt som miniatyrbilder. Markera en "
+"miniatyrbild för att se hur typsnittet ser ut i olika storlekar."
 
 #. from gnome:font-viewer-main.sv
-msgid "Fonts also supports installing new font files downloaded in the .ttf and other formats. Fonts may be installed only for your use or made available to all users on the computer."
-msgstr "Typsnitt stöder också installation av nya typsnittsfiler hämtade i formatet .ttf och andra format. Typsnitt kan installeras endast för dig eller göras tillgängliga för alla användare på datorn."
+#. from gnome:reviewed/gnome-font-viewer/main
+msgid ""
+"Fonts also supports installing new font files downloaded in the .ttf and "
+"other formats. Fonts may be installed only for your use or made available to"
+" all users on the computer."
+msgstr ""
+"Du kan också installera nya typsnittsfiler i .ttf-format och andra format. "
+"Typsnitt kan installeras bara för dig eller göras tillgängliga för alla "
+"användare på datorn."
 
 #. from gnome:font-viewer-main.sv
 msgid "Text to thumbnail (default: Aa)"
@@ -160967,8 +160986,9 @@ msgstr "Storlek på miniatyrbild (standard: 128)"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/gnome-taquin/master
 #. from gnome:reviewed/four-in-a-row/master
+#. from gnome:reviewed/gnome-font-viewer/main
 msgid "SIZE"
-msgstr "SIZE"
+msgstr "STORLEK"
 
 #. from gnome:font-viewer-main.sv
 msgid "FONT-FILE OUTPUT-FILE"
@@ -160991,8 +161011,9 @@ msgid "Designer"
 msgstr "Designer"
 
 #. from gnome:font-viewer-main.sv
+#. from gnome:reviewed/gnome-font-viewer/main
 msgid "Glyph Count"
-msgstr "Glyfantal"
+msgstr "Antal glyfer"
 
 #. from gnome:font-viewer-main.sv
 msgid "Color Glyphs"
@@ -303815,9 +303836,10 @@ msgid "Include debug information"
 msgstr "Inkludera felsökningsinformation"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Access All Alternates"
-msgstr "Gör alla alternativ åtkomliga"
+msgstr "Gör alla alternativa glyfer tillgängliga"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -303860,9 +303882,10 @@ msgid "Below-base Substitutions"
 msgstr "Ersättningar nedanför baslinjen"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Contextual Alternates"
-msgstr "Kontextuella ersättare"
+msgstr "Kontextuella glyfvarianter"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -303900,9 +303923,10 @@ msgid "Capital Spacing"
 msgstr "Versalavstånd"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Contextual Swash"
-msgstr "Kontextuellt släng"
+msgstr "Kontextuella sirliga glyfer"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -303910,14 +303934,16 @@ msgid "Cursive Positioning"
 msgstr "Kursiv positionering"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Petite Capitals From Capitals"
-msgstr "Nätta kapitäler från versaler"
+msgstr "Petita kapitäler från versaler"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Small Capitals From Capitals"
-msgstr "Kapitäler från versaler"
+msgstr "Små kapitäler från versaler"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -303945,9 +303971,10 @@ msgid "Expert Forms"
 msgstr "Expertformer"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Final Glyph on Line Alternates"
-msgstr "Avslutande glyf på rad får alternativ form"
+msgstr "Alternativa glyfer i radslut"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -303965,9 +303992,10 @@ msgid "Terminal Forms"
 msgstr "Terminalformer"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Flattened accent forms"
-msgstr "Platta accentformer"
+msgstr "Plattade accentformer"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -303975,9 +304003,10 @@ msgid "Fractions"
 msgstr "Bråkdelar"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Full Widths"
-msgstr "Fullständiga bredder"
+msgstr "Fullbreddsformer"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304020,14 +304049,16 @@ msgid "Hojo Kanji Forms"
 msgstr "Hojo-kanjiformer"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Half Widths"
-msgstr "Halvbreda"
+msgstr "Halvbreddsformer"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Initial Forms"
-msgstr "Grundformer"
+msgstr "Inledande former"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304085,9 +304116,10 @@ msgid "Leading Jamo Forms"
 msgstr "Inledande jamoformer"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Lining Figures"
-msgstr "Versala siffror"
+msgstr "Versalhöga siffror"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304095,9 +304127,10 @@ msgid "Localized Forms"
 msgstr "Lokaliserade former"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Left-to-right alternates"
-msgstr "Vänster-till-höger-alternativ"
+msgstr "Vänster-till-höger-varianter"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304135,9 +304168,10 @@ msgid "Mark Positioning via Substitution"
 msgstr "Positionering av diakritiska tecken via ersättning"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Alternate Annotation Forms"
-msgstr "Alternativa noteringsformer"
+msgstr "Alternativa annoteringsformer"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304180,9 +304214,10 @@ msgid "Proportional Alternate Widths"
 msgstr "Proportionella alternativa bredder"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Petite Capitals"
-msgstr "Nätta kapitäler"
+msgstr "Petita kapitäler"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304225,14 +304260,16 @@ msgid "Quarter Widths"
 msgstr "Fjärdedelsbredder"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Randomize"
-msgstr "Gör slumpmässig"
+msgstr "Slumpa"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Required Contextual Alternates"
-msgstr "Obligatoriska alternativ"
+msgstr "Obligatoriska kontextuella glyfvarianter"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304255,9 +304292,10 @@ msgid "Right Bounds"
 msgstr "Högergränser"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Right-to-left alternates"
-msgstr "Höger-till-vänsteralternativ"
+msgstr "Höger-till-vänster-varianter"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304280,9 +304318,10 @@ msgid "Stylistic Alternates"
 msgstr "Stilistiska alternativ"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Scientific Inferiors"
-msgstr "Vetenskapligt indexläge"
+msgstr "Nedsänkta siffror för vetenskaplig notation"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304290,9 +304329,10 @@ msgid "Optical size"
 msgstr "Optisk storlek"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Small Capitals"
-msgstr "Kapitäler"
+msgstr "Små kapitäler"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304310,19 +304350,22 @@ msgid "Stretching Glyph Decomposition"
 msgstr "Utdragen glyfuppdelning"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Subscript"
-msgstr "Indexläge"
+msgstr "Nedsänkta tecken"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Superscript"
-msgstr "Exponentläge"
+msgstr "Upphöjda tecken"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Swash"
-msgstr "Släng"
+msgstr "Sirliga glyfer"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304410,9 +304453,10 @@ msgid "Vertical Alternates for Rotation"
 msgstr "Vertikala alternativ för rotation"
 
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Slashed Zero"
-msgstr "Nolla med streck genom"
+msgstr "Nolla med snedstreck"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "paper size"
@@ -654929,3 +654973,207 @@ msgstr ""
 "Dubbelklicka på ett förslag i listan för att infoga det, eller tryck på "
 "<keyseq><key>Alt</key><key>Siffra</key></keyseq>, där <key>Siffra</key> är "
 "siffran som visas bredvid ordet."
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgid "Font Search"
+msgstr "Typsnittssökning"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid ", "
+msgstr ", "
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 1"
+msgstr "Teckenvariant 1"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 2"
+msgstr "Teckenvariant 2"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 3"
+msgstr "Teckenvariant 3"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 4"
+msgstr "Teckenvariant 4"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 5"
+msgstr "Teckenvariant 5"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 6"
+msgstr "Teckenvariant 6"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 7"
+msgstr "Teckenvariant 7"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 8"
+msgstr "Teckenvariant 8"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 9"
+msgstr "Teckenvariant 9"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 10"
+msgstr "Teckenvariant 10"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 11"
+msgstr "Teckenvariant 11"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 12"
+msgstr "Teckenvariant 12"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 13"
+msgstr "Teckenvariant 13"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 14"
+msgstr "Teckenvariant 14"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 15"
+msgstr "Teckenvariant 15"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 16"
+msgstr "Teckenvariant 16"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 17"
+msgstr "Teckenvariant 17"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 18"
+msgstr "Teckenvariant 18"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Character Variation 19"
+msgstr "Teckenvariant 19"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 1"
+msgstr "Stilistisk uppsättning 1"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 2"
+msgstr "Stilistisk uppsättning 2"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 3"
+msgstr "Stilistisk uppsättning 3"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 4"
+msgstr "Stilistisk uppsättning 4"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 5"
+msgstr "Stilistisk uppsättning 5"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 6"
+msgstr "Stilistisk uppsättning 6"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 7"
+msgstr "Stilistisk uppsättning 7"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 8"
+msgstr "Stilistisk uppsättning 8"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 9"
+msgstr "Stilistisk uppsättning 9"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 10"
+msgstr "Stilistisk uppsättning 10"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 11"
+msgstr "Stilistisk uppsättning 11"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 12"
+msgstr "Stilistisk uppsättning 12"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 13"
+msgstr "Stilistisk uppsättning 13"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 14"
+msgstr "Stilistisk uppsättning 14"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 15"
+msgstr "Stilistisk uppsättning 15"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 16"
+msgstr "Stilistisk uppsättning 16"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 17"
+msgstr "Stilistisk uppsättning 17"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 18"
+msgstr "Stilistisk uppsättning 18"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 19"
+msgstr "Stilistisk uppsättning 19"
+
+#. from gnome:reviewed/gnome-font-viewer/main
+msgctxt "OpenType layout"
+msgid "Stylistic Set 20"
+msgstr "Stilistisk uppsättning 20"
