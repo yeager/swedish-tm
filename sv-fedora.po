@@ -1,6 +1,6 @@
 # Swedish Translation Memory — FEDORA
 # Exported from TR Intelligence 2026-03-28
-# Entries: 14237
+# Entries: 14570
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56954,3 +56954,1720 @@ msgstr "Kontakt"
 msgid "Further information at https://docs.fedoraproject.org/en-US/legal/trademarks/[Fedora's trademark guidlines]."
 msgstr "Mer information finns på https://docs.fedoraproject.org/en-US/legal/trademarks/[Fedora's trademark guidlines]."
 
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"\n"
+"%1$s mode [options] [extra file] [< def.xml]\n"
+"\n"
+"  Modes:\n"
+"    -a | --add                     load profile\n"
+"    -c | --create                  create profile from template\n"
+"    -D | --delete                  unload profile and delete generated rules\n"
+"    -r | --replace                 reload profile\n"
+"    -R | --remove                  unload profile\n"
+"  Options:\n"
+"    -d | --dryrun                  dry run\n"
+"    -u | --uuid libvirt-<uuid>     AppArmor profile name\n"
+"    -h | --help                    this help\n"
+"  Extra File:\n"
+"    -f | --add-file <file>         add file to a profile generated from XML\n"
+"    -F | --append-file <file>      append file to an existing profile\n"
+"\n"
+msgstr ""
+"\n"
+"%1$s läge [alternativ] [extra fil] [< def.xml]\n"
+"\n"
+"  Lägen:\n"
+"    -a | --add                     läs in profil\n"
+"    -c | --create                  skapa profil från mall\n"
+"    -D | --delete                  läs ur profil och ta bort genererade regler\n"
+"    -r | --replace                 läs in profil på nytt\n"
+"    -R | --remove                  läs ur profil\n"
+"  Alternativ:\n"
+"    -d | --dryrun                  torrkörning\n"
+"    -u | --uuid libvirt-<uuid>     AppArmor-profilnamn\n"
+"    -h | --help                    visa denna hjälp\n"
+"  Extra fil:\n"
+"    -f | --add-file <fil>          lägg till fil i en profil som genereras från XML\n"
+"    -F | --append-file <fil>       lägg till fil i en befintlig profil\n"
+"\n"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "%1$ld host nodes specified but Cloud Hypervisor only supports 1"
+msgstr "%1$ld värdnoder angivna, men Cloud Hypervisor stöder bara 1"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"%1$s: backup_port_max: port must be between the minimal port %2$d and 65535"
+msgstr ""
+"%1$s: backup_port_max: porten måste ligga mellan den lägsta porten %2$d och "
+"65535"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "%1$s: backup_port_min: port must be greater than 0"
+msgstr "%1$s: backup_port_min: porten måste vara större än 0"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"%1$s: expected an unsigned integer or a size string for '%2$s' parameter"
+msgstr ""
+"%1$s: parametern '%2$s' måste vara ett osignerat heltal eller en "
+"storlekssträng"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'%1$s' does not support 'backup' feature"
+msgstr "'%1$s' stöder inte funktionen 'backup'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'%1$s' does not support 'fsync' feature"
+msgstr "'%1$s' stöder inte funktionen 'fsync'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"'--migrate-disks-target-zero' requires one of '--copy-storage-all', '--copy-"
+"storage-inc'"
+msgstr ""
+"'--migrate-disks-target-zero' kräver antingen '--copy-storage-all' eller '--"
+"copy-storage-inc'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"'accel' must be enabled for iommu model '%1$s' when setting ats, ril, "
+"ssidsize, oas, or cmdqv"
+msgstr ""
+"'accel' måste vara aktiverat för IOMMU-modellen '%1$s' när ats, ril, "
+"ssidsize, oas eller cmdqv anges"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'accept-read-only-dev' option is not supported by this QEMU"
+msgstr ""
+"Alternativet 'accept-read-only-dev' stöds inte av den här QEMU-versionen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'ats' is not supported for network <driver>"
+msgstr "'ats' stöds inte för nätverksdrivrutinen <driver>"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'ats' is not supported for network port <driver>"
+msgstr "'ats' stöds inte för nätverksportens drivrutin <driver>"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'aw_bits' must be within [32,64]"
+msgstr "'aw_bits' måste ligga inom intervallet [32,64]"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'backup' feature is not supported by this backend"
+msgstr "Funktionen 'backup' stöds inte av den här bakänden"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'driver-name' missing in reply of guest-get-devices"
+msgstr "'driver-name' saknas i svaret från guest-get-devices"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'fsync' feature is not supported by this backend"
+msgstr "Funktionen 'fsync' stöds inte av den här bakänden"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'fua' option is available only for virtio disks"
+msgstr "Alternativet 'fua' är bara tillgängligt för virtio-diskar"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'fua' property isn't supported by this QEMU binary"
+msgstr "Egenskapen 'fua' stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'groupname' parameter string must have non-zero length"
+msgstr "Parametern 'groupname' får inte vara en tom sträng"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'iommufd' is not supported by host kernel"
+msgstr "'iommufd' stöds inte av värdkärnan"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'iommufd' is not supported by this version of qemu"
+msgstr "'iommufd' stöds inte av den här versionen av QEMU"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "'mode' and 'size' can't be specified at the same time for 'granule'"
+msgstr "'mode' och 'size' kan inte anges samtidigt för 'granule'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"<route> elements of an interface using the passt backend must be default "
+"routes, with only a gateway specified"
+msgstr ""
+"<route>-element för ett gränssnitt som använder bakänden passt måste vara "
+"standardrutter och bara ha en angiven gateway"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "AES256CBC decryption invalid keylen=%1$zu"
+msgstr "AES256CBC-dekryptering: ogiltig nyckellängd=%1$zu"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"ATS control for VFIO PCI devices is not supported by this version of qemu"
+msgstr ""
+"ATS-styrning för VFIO PCI-enheter stöds inte av den här versionen av QEMU"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"All <route> elements of an interface using the passt backend must be default"
+" routes, with an IPv4 or IPv6 gateway specified"
+msgstr ""
+"Alla <route>-element för ett gränssnitt som använder bakänden passt måste "
+"vara standardrutter med en IPv4- eller IPv6-gateway angiven"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Bhyve ISA controller can only have index '0'"
+msgstr "Bhyve ISA-styrenheten kan bara ha indexet '0'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Bhyve virtio-serial controller supports up to 16 ports"
+msgstr "Bhyves virtio-serial-styrenhet stöder högst 16 portar"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Cannot connect to QEMU guest agent for %1$s"
+msgstr "Det går inte att ansluta till QEMU-gästagenten för %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Cannot convert ipv4 address to byte array '%1$s'"
+msgstr "Det går inte att konvertera IPv4-adressen '%1$s' till en bytevektor"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Cannot convert ipv4 mask to int '%1$s'"
+msgstr "Det går inte att konvertera IPv4-nätmasken '%1$s' till ett heltal"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Cannot get VM's UUID without supplying a VM UUID key"
+msgstr ""
+"Det går inte att hämta den virtuella maskinens UUID utan att ange en UUID-"
+"nyckel"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Cannot get mon_features from resctrl PERF_PKG_MON"
+msgstr "Det går inte att hämta mon_features från resctrl PERF_PKG_MON"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Cannot have both <nvram> and <varstore>"
+msgstr "Det går inte att ange både <nvram> och <varstore>"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Cannot match USB device on bus/device and bus/port at once."
+msgstr ""
+"Det går inte att matcha USB-enheten med buss/enhet och buss/port samtidigt."
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Cannot match USB device on vendor/product, bus/device, and bus/port at once."
+msgstr ""
+"Det går inte att matcha USB-enheten med tillverkare/produkt, buss/enhet och "
+"buss/port samtidigt."
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Cannot parse MAC address '%1$s'"
+msgstr "Det går inte att tolka MAC-adressen '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Cannot parse ipv4 address '%1$s' in"
+msgstr "Det går inte att tolka IPv4-adressen '%1$s' i"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Cannot parse resctrl monitor value '%1$s' from '%2$s/%3$s/%4$s'"
+msgstr ""
+"Det går inte att tolka resctrl-övervakningsvärdet '%1$s' från "
+"'%2$s/%3$s/%4$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Cannot set resource limits: RACCT/RCTL is either not supported or not "
+"enabled"
+msgstr ""
+"Det går inte att ange resursgränser: RACCT/RCTL stöds inte eller är inte "
+"aktiverat"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Cannot undefine domain with NVRAM/varstore"
+msgstr "Det går inte att avdefiniera en domän med NVRAM/varstore"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Commas (',') are not allowed in UNIX socket paths"
+msgstr "Kommatecken (',') är inte tillåtna i UNIX-sökvägar för uttag"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Commas (',') are not allowed in channel names"
+msgstr "Kommatecken (',') är inte tillåtna i kanalnamn"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Could not create log directory '%1$s'"
+msgstr "Det gick inte att skapa loggkatalogen '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Could not extract SettingData from response for '%1$s'"
+msgstr "Det gick inte att extrahera SettingData från svaret för '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Could not find Job ID in async method response"
+msgstr "Det gick inte att hitta jobb-ID:t i svaret från den asynkrona metoden"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Could not find MaxInternalSize in VHD SettingData for '%1$s'"
+msgstr "Det gick inte att hitta MaxInternalSize i VHD SettingData för '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Could not find SOAP Body in response"
+msgstr "Det gick inte att hitta SOAP Body i svaret"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Could not find _OUTPUT node in method response"
+msgstr "Det gick inte att hitta noden _OUTPUT i metodsvaret"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Could not find output parameter '%1$s' in response"
+msgstr "Det gick inte att hitta utdataparametern '%1$s' i svaret"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Could not find physical disk with drive number %1$u"
+msgstr "Det gick inte att hitta någon fysisk disk med enhetsnummer %1$u"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Could not get ReturnValue from method response"
+msgstr "Det gick inte att hämta ReturnValue från metodsvaret"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Could not get access to ACL tech driver"
+msgstr "Det gick inte att komma åt ACL-teknikdrivrutinen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Could not look up security setting data with virtual system instance ID "
+"'%1$s'"
+msgstr ""
+"Det gick inte att slå upp säkerhetsinställningarna med instans-ID:t '%1$s' "
+"för det virtuella systemet"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Could not open swtpm logfile %1$s"
+msgstr "Det gick inte att öppna swtpm-loggfilen %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Could not parse VHD SettingData XML for '%1$s'"
+msgstr "Det gick inte att tolka XML för VHD SettingData för '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Could not query file size for '%1$s'"
+msgstr "Det gick inte att hämta filstorleken för '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Did not find matching USB device: vid:%1$04x, pid:%2$04x, bus:%3$u, "
+"device:%4$u, port:%5$s"
+msgstr ""
+"Hittade ingen matchande USB-enhet: vid:%1$04x, pid:%2$04x, buss:%3$u, "
+"enhet:%4$u, port:%5$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Disk lease '%1$s' is not owned by domain with UUID '%2$s'"
+msgstr "Disklåset '%1$s' ägs inte av domänen med UUID '%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Domain '%1$s' already exists, editing existing domains is not supported yet"
+msgstr ""
+"Domänen '%1$s' finns redan; det går inte att redigera befintliga domäner "
+"ännu"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Domain has no interfaces"
+msgstr "Domänen saknar gränssnitt"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Duplicate whole-process monitor of the same resource type"
+msgstr "Dubblett av helprocessövervakning för samma resurstyp"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Empty reply from guest. Maybe KVP service is not running?"
+msgstr "Tomt svar från gästen. Kanske kör inte KVP-tjänsten?"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Encrypted secret size '%1$zu' is invalid"
+msgstr "Den krypterade hemlighetens storlek '%1$zu' är ogiltig"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Encryption key length must be '%1$d' '%2$s'"
+msgstr "Krypteringsnyckelns längd måste vara '%1$d' '%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Failed to create a new virDomainDef"
+msgstr "Det gick inte att skapa en ny virDomainDef"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Failed to create varstore dir %1$s"
+msgstr "Det gick inte att skapa katalogen för varstore: %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Failed to create vnc state dir %1$s"
+msgstr "Det gick inte att skapa katalogen för VNC-tillstånd: %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Failed to parse MaxInternalSize '%1$s' for '%2$s'"
+msgstr "Det gick inte att tolka MaxInternalSize '%1$s' för '%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Failed to parse storage"
+msgstr "Det gick inte att tolka lagringen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Failed to remove NVRAM/varstore: %1$s"
+msgstr "Det gick inte att ta bort NVRAM/varstore: %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Failed to set LVB for lease %1$s"
+msgstr "Det gick inte att ange LVB för låset %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Failed to set LVB for lease %1$s: %2$s"
+msgstr "Det gick inte att ange LVB för låset %1$s: %2$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Failure to mask address %1$s & %2$d"
+msgstr "Det gick inte att maskera adressen %1$s & %2$d"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Field '%1$s' value '%2$s' must not contain line breaks"
+msgstr "Värdet '%2$s' för fältet '%1$s' får inte innehålla radbrytningar"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Finished after guest reboot request"
+msgstr "Slutfördes efter omstartsbegäran från gästen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Firmware type '%1$s' does not support variable storage (NVRAM/varstore)"
+msgstr ""
+"Den fasta programvarutypen '%1$s' stöder inte variabel lagring "
+"(NVRAM/varstore)"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"IOMMU device: Setting 'pciBus' for '%1$s' is not supported with this QEMU "
+"binary"
+msgstr ""
+"IOMMU-enhet: Det går inte att ange 'pciBus' för '%1$s' med den här QEMU-"
+"binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "IOMMUFD is not supported on this platform"
+msgstr "IOMMUFD stöds inte på den här plattformen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Installed bhyve binary does not support NUMA configuration"
+msgstr "Den installerade bhyve-binären stöder inte NUMA-konfiguration"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Installed bhyve binary does not support TPM devices"
+msgstr "Den installerade bhyve-binären stöder inte TPM-enheter"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Interface '%1$s' doesn't have any statistics"
+msgstr "Gränssnittet '%1$s' har ingen statistik"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Interface '%1$s' not found: %2$s"
+msgstr "Gränssnittet '%1$s' hittades inte: %2$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Interface announcement sent for domain '%1$s'"
+msgstr "Gränssnittsmeddelande skickat för domänen '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Invalid attempt to set network interface guest-side IP address info, not "
+"supported for this interface type/backend"
+msgstr ""
+"Det går inte att ange IP-adressuppgifter för nätverksgränssnittet från "
+"gästsidan; detta stöds inte för den här gränssnittstypen eller bakänden"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Invalid attempt to set network interface guest-side IP route, not supported "
+"for this interface type/backend"
+msgstr ""
+"Det går inte att ange en nätverksrutt för gränssnittet från gästsidan; detta"
+" stöds inte för den här gränssnittstypen eller bakänden"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Invalid drive number '%1$s' for physical disk"
+msgstr "Ogiltigt enhetsnummer '%1$s' för fysisk disk"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Invalid encryption key for the secret"
+msgstr "Ogiltig krypteringsnyckel för hemligheten"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Invalid encryption key for the secret: %1$s"
+msgstr "Ogiltig krypteringsnyckel för hemligheten: %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Invalid file type for disk source %1$s"
+msgstr "Ogiltig filtyp för diskens källa %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Invalid format of cgroup.events file"
+msgstr "Ogiltigt format på filen cgroup.events"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "NUMA configuration is only supported when booting using UEFI"
+msgstr "NUMA-konfiguration stöds bara vid start med UEFI"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "NUMA domain id %1$zu: empty cpusets are not allowed"
+msgstr "NUMA-domän-ID %1$zu: tomma CPU-uppsättningar är inte tillåtna"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "NVRAM slices are not supported with format '%1$s'"
+msgstr "NVRAM-delar stöds inte med formatet '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"No matching fields for USB device found. Vendor/product, bus/device, or "
+"bus/port required."
+msgstr ""
+"Hittade inga matchande fält för USB-enheten. Tillverkare/produkt, buss/enhet"
+" eller buss/port krävs."
+
+#. from fedora:libvirt-libvirt-sv
+msgid "No virtual function index found for '%1$s'"
+msgstr "Hittade inget funktionsindex för '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Number of page sizes (%1$u) does not match the number of page counts (%2$u)"
+msgstr ""
+"Antalet sidstorlekar (%1$u) stämmer inte med antalet sidräkningar (%2$u)"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Only 'external' TPM device backend is supported"
+msgstr "Endast TPM-enhetens bakände 'external' stöds"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Only 'hard_limit' memory tuning parameter is supported by bhyve"
+msgstr "Bhyve stöder bara minnesjusteringsparametern 'hard_limit'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Only one file descriptor needs to be associated with iommufd"
+msgstr "Endast en filbeskrivare behöver kopplas till iommufd"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Only one of NVRAM/varstore can be used"
+msgstr "Endast en av NVRAM och varstore kan användas"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Only up to 8 NUMA domains are supported"
+msgstr "Högst 8 NUMA-domäner stöds"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Opening UNIX sockets is not supported on Win32 platform"
+msgstr "Det går inte att öppna UNIX-uttag på Win32-plattformen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Per device I/O tuning is not supported"
+msgstr "Finjustering av I/O per enhet stöds inte"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Query parameter 'legacy_uuid' has unexpected value '%1$s' (should be 0 or 1)"
+msgstr ""
+"Frågeparametern 'legacy_uuid' har det oväntade värdet '%1$s' (ska vara 0 "
+"eller 1)"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Remote URI '%1$s' is not permitted to include a transport"
+msgstr "Fjärr-URI:n '%1$s' får inte innehålla en transport"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Rule contains unsupported ipset flags"
+msgstr "Regeln innehåller ipset-flaggor som inte stöds"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Serial number may not contain ',' character"
+msgstr "Serienumret får inte innehålla tecknet ','"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Setting 'fdgroup' when 'iommufd' is disabled is not supported."
+msgstr "Det går inte att ange 'fdgroup' när 'iommufd' är inaktiverat."
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Setting physical block size without logical block size is not supported"
+msgstr "Det går inte att ange fysisk blockstorlek utan logisk blockstorlek"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "TPM backend is not supported"
+msgstr "TPM-bakänden stöds inte"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "TPM model '%1$s' is not supported by bhyve"
+msgstr "TPM-modellen '%1$s' stöds inte av bhyve"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Target disk 'fua' property %1$s does not match source %2$s"
+msgstr "Egenskapen 'fua' för måldisken %1$s stämmer inte med källan %2$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target disk reservations 'migration' property %1$s does not match source "
+"%2$s"
+msgstr ""
+"Egenskapen 'migration' för måldiskens reservationer %1$s stämmer inte med "
+"källan %2$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'accel' value '%1$d' does not match source '%2$d'"
+msgstr ""
+"Värdet '%1$d' för måldomänens IOMMU-enhet 'accel' stämmer inte med källan "
+"'%2$d'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'ats' value '%1$d' does not match source '%2$d'"
+msgstr ""
+"Värdet '%1$d' för måldomänens IOMMU-enhet 'ats' stämmer inte med källan "
+"'%2$d'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'aw_bits' value '%1$u' does not match source "
+"'%2$u'"
+msgstr ""
+"Värdet '%1$u' för måldomänens IOMMU-enhet 'aw_bits' stämmer inte med källan "
+"'%2$u'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'caching_mode' '%1$s' does not match source "
+"'%2$s'"
+msgstr ""
+"Måldomänens IOMMU-enhet 'caching_mode' '%1$s' stämmer inte med källan '%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'cmdqv' value '%1$d' does not match source '%2$d'"
+msgstr ""
+"Värdet '%1$d' för måldomänens IOMMU-enhet 'cmdqv' stämmer inte med källan "
+"'%2$d'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'dma_translation' '%1$s' does not match source "
+"'%2$s'"
+msgstr ""
+"Måldomänens IOMMU-enhet 'dma_translation' '%1$s' stämmer inte med källan "
+"'%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'eim' value '%1$s' does not match source '%2$s'"
+msgstr ""
+"Värdet '%1$s' för måldomänens IOMMU-enhet 'eim' stämmer inte med källan "
+"'%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Target domain IOMMU device 'fsts' '%1$s' does not match source '%2$s'"
+msgstr "Måldomänens IOMMU-enhet 'fsts' '%1$s' stämmer inte med källan '%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'granule' '%1$s' does not match source '%2$s'"
+msgstr ""
+"Måldomänens IOMMU-enhet 'granule' '%1$s' stämmer inte med källan '%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'intremap' value '%1$s' does not match source "
+"'%2$s'"
+msgstr ""
+"Värdet '%1$s' för måldomänens IOMMU-enhet 'intremap' stämmer inte med källan"
+" '%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'iotlb' value '%1$s' does not match source '%2$s'"
+msgstr ""
+"Värdet '%1$s' för måldomänens IOMMU-enhet 'iotlb' stämmer inte med källan "
+"'%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'oas' value '%1$d' does not match source '%2$d'"
+msgstr ""
+"Värdet '%1$d' för måldomänens IOMMU-enhet 'oas' stämmer inte med källan "
+"'%2$d'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'pasid_bits' '%1$u' does not match source '%2$u'"
+msgstr ""
+"Måldomänens IOMMU-enhet 'pasid_bits' '%1$u' stämmer inte med källan '%2$u'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'passthrough' '%1$s' does not match source '%2$s'"
+msgstr ""
+"Måldomänens IOMMU-enhet 'passthrough' '%1$s' stämmer inte med källan '%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'pciBus' value '%1$d' does not match source "
+"'%2$d'"
+msgstr ""
+"Värdet '%1$d' för måldomänens IOMMU-enhet 'pciBus' stämmer inte med källan "
+"'%2$d'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'ril' value '%1$d' does not match source '%2$d'"
+msgstr ""
+"Värdet '%1$d' för måldomänens IOMMU-enhet 'ril' stämmer inte med källan "
+"'%2$d'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'scalable_mode' '%1$s' does not match source "
+"'%2$s'"
+msgstr ""
+"Måldomänens IOMMU-enhet 'scalable_mode' '%1$s' stämmer inte med källan "
+"'%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Target domain IOMMU device 'ssidsize' value '%1$d' does not match source "
+"'%2$d'"
+msgstr ""
+"Värdet '%1$d' för måldomänens IOMMU-enhet 'ssidsize' stämmer inte med källan"
+" '%2$d'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Target domain IOMMU device 'svm' '%1$s' does not match source '%2$s'"
+msgstr "Måldomänens IOMMU-enhet 'svm' '%1$s' stämmer inte med källan '%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Target domain IOMMU device 'xtsup' '%1$s' does not match source '%2$s'"
+msgstr "Måldomänens IOMMU-enhet 'xtsup' '%1$s' stämmer inte med källan '%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "The 'sparsify' mode of disk '%1$s' can be used only for full backup"
+msgstr ""
+"Läget 'sparsify' för disken '%1$s' kan bara användas vid fullständig "
+"säkerhetskopiering"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "The 'weight' I/O tuning setting does not make sense with '*'"
+msgstr ""
+"I/O-justeringsinställningen 'weight' är inte meningsfull tillsammans med '*'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The CA certificate %1$s must be accessible to all users. As root run: chown "
+"root:root %2$s; chmod 0644 %3$s"
+msgstr ""
+"CA-certifikatet %1$s måste vara tillgängligt för alla användare. Kör som "
+"root: chown root:root %2$s; chmod 0644 %3$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The CA certificate %1$s must not be accessible to other users. As this user,"
+" run: chown %2$d:%3$d %4$s; chmod 0600 %5$s"
+msgstr ""
+"CA-certifikatet %1$s får inte vara tillgängligt för andra användare. Kör som"
+" den här användaren: chown %2$d:%3$d %4$s; chmod 0600 %5$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The PKI base dir %1$s must not be accessible to other users. Run: chown "
+"%2$d:%3$d %4$s; chmod 0700 %5$s"
+msgstr ""
+"PKI-baskatalogen %1$s får inte vara tillgänglig för andra användare. Kör: "
+"chown %2$d:%3$d %4$s; chmod 0700 %5$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The client cert %1$s must be accessible to all users. As root run: chown "
+"root:root %2$s; chmod 0644 %3$s"
+msgstr ""
+"Klientcertifikatet %1$s måste vara tillgängligt för alla användare. Kör som "
+"root: chown root:root %2$s; chmod 0644 %3$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The client cert %1$s must be restricted to this user. As this user, run: "
+"chown %2$d:%3$d %4$s; chmod 0600 %5$s"
+msgstr ""
+"Klientcertifikatet %1$s måste vara begränsat till den här användaren. Kör "
+"som den här användaren: chown %2$d:%3$d %4$s; chmod 0600 %5$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The client key %1$s must be accessible to all users. As root run: chown "
+"root:root %2$s; chmod 0644 %3$s"
+msgstr ""
+"Klientnyckeln %1$s måste vara tillgänglig för alla användare. Kör som root: "
+"chown root:root %2$s; chmod 0644 %3$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The client key %1$s must be not be accessible to other users. As this user, "
+"run: chown %2$d:%3$d %4$s; chmod 0600 %5$s"
+msgstr ""
+"Klientnyckeln %1$s får inte vara tillgänglig för andra användare. Kör som "
+"den här användaren: chown %2$d:%3$d %4$s; chmod 0600 %5$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The server cert %1$s must be accessible to all users. As root run: chown "
+"root:root %2$s; chmod 0644 %3$s"
+msgstr ""
+"Servercertifikatet %1$s måste vara tillgängligt för alla användare. Kör som "
+"root: chown root:root %2$s; chmod 0644 %3$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The server cert %1$s must be restricted to this user. As this user, run: "
+"chown %2$d:%3$d %4$s; chmod 0600 %5$s"
+msgstr ""
+"Servercertifikatet %1$s måste vara begränsat till den här användaren. Kör "
+"som den här användaren: chown %2$d:%3$d %4$s; chmod 0600 %5$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The server key %1$s must be not be accessible to other users. As this user, "
+"run: chown %2$d:%3$d %4$s; chmod 0600 %5$s"
+msgstr ""
+"Servernyckeln %1$s får inte vara tillgänglig för andra användare. Kör som "
+"den här användaren: chown %2$d:%3$d %4$s; chmod 0600 %5$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The server key %1$s must not be accessible to unprivileged users. As root "
+"run: chown root:root %2$s; chmod 0600 %3$s"
+msgstr ""
+"Servernyckeln %1$s får inte vara tillgänglig för obehöriga användare. Kör "
+"som root: chown root:root %2$s; chmod 0600 %3$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The system CA dir %1$s must be accessible to all users. As root, run: chown "
+"root:root; chmod 0755 %2$s"
+msgstr ""
+"Systemets CA-katalog %1$s måste vara tillgänglig för alla användare. Kör som"
+" root: chown root:root; chmod 0755 %2$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The system PKI dir %1$s must be accessible to all users. As root, run: chown"
+" root:root; chmod 0755 %2$s"
+msgstr ""
+"Systemets PKI-katalog %1$s måste vara tillgänglig för alla användare. Kör "
+"som root: chown root:root; chmod 0755 %2$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The system cert dir %1$s must be accessible to all users. As root, run: "
+"chown root:root; chmod 0755 %2$s"
+msgstr ""
+"Systemets certifikatkatalog %1$s måste vara tillgänglig för alla användare. "
+"Kör som root: chown root:root; chmod 0755 %2$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"The system key dir %1$s must be accessible to all users. As root, run: chown"
+" root:root; chmod 0755 %2$s"
+msgstr ""
+"Systemets nyckelkatalog %1$s måste vara tillgänglig för alla användare. Kör "
+"som root: chown root:root; chmod 0755 %2$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "The uefi-vars device is not supported by this QEMU binary"
+msgstr "Enheten uefi-vars stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"USB device vid:%1$04x, pid:%2$04x, bus:%3$u, device:%4$u, port:%5$s is "
+"present on the host but its device node '%6$s' is not accessible in the "
+"current mount namespace"
+msgstr ""
+"USB-enheten vid:%1$04x, pid:%2$04x, buss:%3$u, enhet:%4$u, port:%5$s finns "
+"på värden, men enhetsnoden '%6$s' är inte tillgänglig i den aktuella "
+"monteringsnamnrymden"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unable to fetch all requested information"
+msgstr "Det gick inte att hämta all begärd information"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Unable to fetch all requested information. Data Exchange service (KVP) "
+"encountered a non-recoverable error"
+msgstr ""
+"Det gick inte att hämta all begärd information. Data Exchange-tjänsten (KVP)"
+" stötte på ett oåterställbart fel"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Unable to fetch all requested information. Data Exchange service (KVP) is "
+"degraded"
+msgstr ""
+"Det gick inte att hämta all begärd information. Data Exchange-tjänsten (KVP)"
+" är nedsatt"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Unable to fetch all requested information. Data Exchange service (KVP) is "
+"not running"
+msgstr ""
+"Det gick inte att hämta all begärd information. Data Exchange-tjänsten (KVP)"
+" körs inte"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unable to get bridge %1$s flag"
+msgstr "Det gick inte att hämta flaggan för bryggan %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unable to get bridge %1$s flags"
+msgstr "Det gick inte att hämta flaggorna för bryggan %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unable to get bridge %1$s port %2$s flags"
+msgstr "Det gick inte att hämta flaggorna för porten %2$s på bryggan %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unable to get info for disk '%1$s'"
+msgstr "Det gick inte att hämta information om disken '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unable to get resource allocation settings data"
+msgstr "Det gick inte att hämta data om resursallokeringsinställningarna"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unable to get storage allocation settings data"
+msgstr "Det gick inte att hämta data om lagringsallokeringsinställningarna"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unable to parse bhyvectl output: %1$s"
+msgstr "Det gick inte att tolka bhyvectls utdata: %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unable to parse integer from size '%1$s'"
+msgstr "Det gick inte att tolka ett heltal från storleken '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unable to read qemu-vnc pidfile '%1$s'"
+msgstr "Det gick inte att läsa qemu-vnc-pidfilen '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unable to set VLAN for bridge %1$s port %2$s"
+msgstr "Det gick inte att ange VLAN för porten %2$s på bryggan %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unable to set bridge %1$s flag"
+msgstr "Det gick inte att ange flaggan för bryggan %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unable to set bridge %1$s port %2$s flags"
+msgstr "Det gick inte att ange flaggorna för porten %2$s på bryggan %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Unable to set tap device %1$s (maybe existing device was created with "
+"multi_queue flag but device XML lacks 'queues' greater than one)"
+msgstr ""
+"Det gick inte att ange TAP-enheten %1$s (kanske skapades den befintliga "
+"enheten med flaggan multi_queue, men enhetens XML saknar 'queues' med ett "
+"värde större än ett)"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unexpected action %1$d"
+msgstr "Oväntad åtgärd %1$d"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unexpected return code %1$d in method response"
+msgstr "Oväntad returkod %1$d i metodsvaret"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unexpected rule protocol '%1$d', priority '%2$d'"
+msgstr "Oväntat regelprotokoll '%1$d', prioritet '%2$d'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unknown state of freezer controller: %1$s"
+msgstr "Okänt tillstånd för freezer-styrenheten: %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unknown value of freezer controller: %1$llu"
+msgstr "Okänt värde för freezer-styrenheten: %1$llu"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unknown value of freezer controller: %1$s"
+msgstr "Okänt värde för freezer-styrenheten: %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Unsupported disk type %1$d for disk '%2$s'"
+msgstr "Disktypen %1$d stöds inte för disken '%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"VFIO PCI device assignment without 'iommufd' is not compatible with 'intel' "
+"IOMMU with 'fsts'"
+msgstr ""
+"Tilldelning av VFIO PCI-enhet utan 'iommufd' är inte kompatibel med "
+"'intel'-IOMMU och 'fsts'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "VLAN tag %1$u is not supported on this platform"
+msgstr "VLAN-taggen %1$u stöds inte på den här plattformen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "VMware driver only supports TPM 2.0 with the CRB model"
+msgstr "VMware-drivrutinen stöder bara TPM 2.0 med CRB-modellen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "VMware only supports a single TPM device"
+msgstr "VMware stöder bara en enda TPM-enhet"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Variable storage (NVRAM/varstore) is not permitted when loader is read/write"
+msgstr ""
+"Variabel lagring (NVRAM/varstore) är inte tillåten när laddaren är läsbar "
+"och skrivbar"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"Variable storage (NVRAM/varstore) is not permitted when loader is stateless"
+msgstr ""
+"Variabel lagring (NVRAM/varstore) är inte tillåten när laddaren är "
+"tillståndslös"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Whole-process and explicit monitors cannot be mixed"
+msgstr "Helprocessövervakning och explicita övervakare kan inte blandas"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "Whole-process and per-vcpu resctrl allocations cannot be mixed"
+msgstr ""
+"Helprocessallokeringar och resctrl-allokeringar per vCPU kan inte blandas"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "array element missing in guest-get-devices return value"
+msgstr "Arrayelement saknas i returvärdet från guest-get-devices"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "asynchronous mode is unsupported with VIR_DOMAIN_VCPU_GUEST"
+msgstr "Asynkront läge stöds inte med VIR_DOMAIN_VCPU_GUEST"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "at line %1$d: %2$s"
+msgstr "vid rad %1$d: %2$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "bhyve does not support monitor mode, cannot run unprivileged"
+msgstr "bhyve stöder inte övervakarläge och kan inte köras utan privilegier"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "bhyve does not support more than one entry to Type 2 in SMBIOS table"
+msgstr "bhyve stöder inte fler än en post av typ 2 i SMBIOS-tabellen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "bhyve driver does not support 'on_crash' actions other than 'destroy'"
+msgstr ""
+"bhyve-drivrutinen stöder inte åtgärder för 'on_crash' utöver 'destroy'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"bhyve driver supports only 'restart' and 'destroy' actions for "
+"'on_reboot'/'on_poweroff'"
+msgstr ""
+"bhyve-drivrutinen stöder bara åtgärderna 'restart' och 'destroy' för "
+"'on_reboot'/'on_poweroff'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "bhyve only supports a single TPM device"
+msgstr "bhyve stöder bara en enda TPM-enhet"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "bhyvectl does not support querying the VM PID, cannot run unprivileged"
+msgstr ""
+"bhyvectl stöder inte frågor om VM-processens PID och kan inte köras utan "
+"privilegier"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"block resize to full capacity supported only with 'raw' or local block-based"
+" disks"
+msgstr ""
+"Ändring av blockstorleken till full kapacitet stöds bara för 'raw'-diskar "
+"eller lokala blockbaserade diskar"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "block size is greater than bhyve's maximum of %1$d"
+msgstr "Blockstorleken överstiger bhyves maxvärde på %1$d"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "blockio is not supported with device='lun'"
+msgstr "blockio stöds inte med device='lun'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "boot order '%1$u' is greater than bhyve's maximum of %2$d"
+msgstr "Startordningen '%1$u' överstiger bhyves maxvärde %2$d"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "cannot change backend type of network interface"
+msgstr "Det går inte att ändra nätverksgränssnittets bakändstyp"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "cannot find VFIO device for PCI device %1$s"
+msgstr "Det går inte att hitta någon VFIO-enhet för PCI-enheten %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "cannot modify network device portForward settings"
+msgstr ""
+"Det går inte att ändra inställningarna för portvidarebefordran på "
+"nätverksenheten"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "cannot obtain CPU core count"
+msgstr "Det går inte att hämta antalet processorkärnor"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "cannot obtain CPU threads per core"
+msgstr "Det går inte att hämta antalet processtrådar per kärna"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "cannot obtain NUMA domain count"
+msgstr "Det går inte att hämta antalet NUMA-domäner"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "cannot open IOMMUFD device"
+msgstr "Det går inte att öppna IOMMUFD-enheten"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "cannot open VFIO device %1$s"
+msgstr "Det går inte att öppna VFIO-enheten %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "cannot parse guest intrinsic exchange data"
+msgstr "Det går inte att tolka gästens interna utbytesdata"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "cannot prevent shrink on SD devices"
+msgstr "Det går inte att förhindra minskning på SD-enheter"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "client tried invalid SASL step request"
+msgstr "Klienten begärde ett ogiltigt SASL-steg"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"comma separated list of disks to be migrated with assumption that target "
+"image is zeroed"
+msgstr ""
+"kommaseparerad lista över diskar som ska migreras, med antagandet att "
+"målavbildningen är nollställd"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "could not find a usable nwfilter driver"
+msgstr "Det gick inte att hitta någon användbar nwfilter-drivrutin"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "decrypted data has invalid padding"
+msgstr "Dekrypterade data har ogiltig utfyllnad"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "decrypted data has zero length"
+msgstr "Dekrypterade data har längden noll"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "disk '%1$s' has no source path"
+msgstr "Disken '%1$s' saknar en källsökväg"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "dnsmasq hostname '%1$s' contains forbidden whitespace"
+msgstr "dnsmasq-värdnamnet '%1$s' innehåller otillåtna blanksteg"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"ensure that the new size is larger than actual capacity (prevent shrink)"
+msgstr ""
+"säkerställ att den nya storleken är större än den faktiska kapaciteten "
+"(förhindra minskning)"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"event 'channel-lifecycle' for domain '%1$s': channel name: '%2$s' state: "
+"'%3$s' reason: '%4$s'\n"
+msgstr ""
+"händelsen 'channel-lifecycle' för domänen '%1$s': kanalnamn: '%2$s' status: "
+"'%3$s' orsak: '%4$s'\n"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "event 'vcpu-removed' for domain '%1$s': vcpu %2$u\n"
+msgstr "händelsen 'vcpu-removed' för domänen '%1$s': vCPU %2$u\n"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "expand 'host-model' CPU to also show features enabled by the CPU model"
+msgstr ""
+"utöka processormodellen 'host-model' så att även funktioner som aktiverats "
+"av CPU-modellen visas"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "failed to append FD to list"
+msgstr "Det gick inte att lägga till filbeskrivaren i listan"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "failed to decrypt the data: '%1$s'"
+msgstr "Det gick inte att dekryptera data: '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "failed to determine current size of '%1$s'"
+msgstr "Det gick inte att fastställa den aktuella storleken på '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "failed to get ARP table via sysctl"
+msgstr "Det gick inte att hämta ARP-tabellen via sysctl"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "failed to resolve links in PCI device %1$s sysfs path '%2$s'"
+msgstr ""
+"Det gick inte att följa länkarna i sökvägen '%2$s' till PCI-enheten %1$s i "
+"sysfs"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "failed to set memory accounting for iommufd"
+msgstr "Det gick inte att aktivera minnesredovisning för iommufd"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "filter binding has no firewall backend name"
+msgstr "Filterkopplingen saknar namn på brandväggsbackend"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "found both device id and port in usb address (ambiguous setting)"
+msgstr ""
+"Både enhets-ID och port har angetts i USB-adressen (tvetydig inställning)"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "guest intrinsic exchange data"
+msgstr "gästens interna utbytesdata"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "hyperv does not support external memory snapshots"
+msgstr "Hyper-V stöder inte externa minnesögonblicksbilder"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "hyperv does not support per-disk snapshot configuration"
+msgstr "Hyper-V stöder inte konfiguration av ögonblicksbilder per disk"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"include all supported CPU features in 'host-model' mode, not only those "
+"enabled by default"
+msgstr ""
+"ta med alla processorfunktioner som stöds i läget 'host-model', inte bara de"
+" som är aktiverade som standard"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "increment added to delay (milliseconds) after each announcement"
+msgstr "ökning av fördröjningen (millisekunder) efter varje meddelande"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "initial delay before first announcement (milliseconds)"
+msgstr "inledande fördröjning före det första meddelandet (millisekunder)"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "invalid line break in DNS %1$s record %2$s attribute"
+msgstr "ogiltig radbrytning i attributet %2$s i DNS-posten %1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "invalid save image header: cookie offset exceeds data length"
+msgstr ""
+"Ogiltigt huvud i sparad avbildning: cookie-förskjutningen överskrider "
+"datalängden"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu model '%1$s' 'fsts' requires 'scalable_mode' to be 'on'"
+msgstr "IOMMU-modellen '%1$s': 'fsts' kräver att 'scalable_mode' är 'on'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu model '%1$s' 'pasid_bits' requires 'scalable_mode' to be 'on'"
+msgstr ""
+"IOMMU-modellen '%1$s': 'pasid_bits' kräver att 'scalable_mode' är 'on'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu model '%1$s' 'svm' requires 'fsts' to be 'on'"
+msgstr "IOMMU-modellen '%1$s': 'svm' kräver att 'fsts' är 'on'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu model '%1$s' 'svm' requires 'iotlb' to be 'on'"
+msgstr "IOMMU-modellen '%1$s': 'svm' kräver att 'iotlb' är 'on'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu model '%1$s' 'svm' requires 'pasid_bits' to be configured (> 0)"
+msgstr ""
+"IOMMU-modellen '%1$s': 'svm' kräver att 'pasid_bits' är konfigurerat (> 0)"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu: 'accel' is not supported with this QEMU binary"
+msgstr "IOMMU: 'accel' stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu: 'aw_bits' is not supported with this QEMU binary"
+msgstr "IOMMU: 'aw_bits' stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu: 'caching_mode' is not supported with this QEMU binary"
+msgstr "IOMMU: 'caching_mode' stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu: 'cmdqv' is not supported with this QEMU binary"
+msgstr "IOMMU: 'cmdqv' stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu: 'eim' is not supported with this QEMU binary"
+msgstr "IOMMU: 'eim' stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu: 'fsts' is not supported with this QEMU binary"
+msgstr "IOMMU: 'fsts' stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu: 'intremap' is not supported with this QEMU binary"
+msgstr "IOMMU: 'intremap' stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu: 'iotlb' is not supported with this QEMU binary"
+msgstr "IOMMU: 'iotlb' stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu: 'pasid_bits' exceeds maximum allowed value 20 in QEMU binary"
+msgstr ""
+"IOMMU: 'pasid_bits' överskrider det högsta tillåtna värdet 20 i QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu: 'pasid_bits' is not supported with this QEMU binary"
+msgstr "IOMMU: 'pasid_bits' stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu: 'scalable_mode' is not supported with this QEMU binary"
+msgstr "IOMMU: 'scalable_mode' stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu: 'svm' is not supported with this QEMU binary"
+msgstr "IOMMU: 'svm' stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "iommu: page 'granule' is not supported with this QEMU binary"
+msgstr "IOMMU: sidstorleken 'granule' stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"iommu: unsupported 'granule' size. Supported values are 4, 8, 16 and 64 KiB"
+msgstr ""
+"IOMMU: storleken 'granule' stöds inte. Tillåtna värden är 4, 8, 16 och 64 "
+"KiB"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"iommu: updating 'dma_translation' is not supported with this QEMU binary"
+msgstr ""
+"IOMMU: det går inte att uppdatera 'dma_translation' med den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "keep NVRAM/varstore file"
+msgstr "behåll NVRAM/varstore-filen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "loader is not specified and the default loader (%1$s) not found"
+msgstr "ingen laddare har angetts och standardladdaren (%1$s) hittades inte"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "malformed 'driver-date' in reply of guest-get-devices"
+msgstr "felaktigt 'driver-date' i svaret från guest-get-devices"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "maximum delay between announcements (milliseconds)"
+msgstr "högsta tillåtna fördröjning mellan meddelanden (millisekunder)"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "memory parameters are not supported in unprivileged mode"
+msgstr "minnesparametrar stöds inte i läge utan privilegier"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "missing 'bin' elements for 'latency-histogram'"
+msgstr "saknar 'bin'-element för 'latency-histogram'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "missing 'type' in reply of guest-get-devices"
+msgstr "'type' saknas i svaret från guest-get-devices"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "missing or malformed 'device-id' in reply of guest-get-devices"
+msgstr "'device-id' saknas eller är felaktigt i svaret från guest-get-devices"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "missing or malformed 'vendor-id' in reply of guest-get-devices"
+msgstr "'vendor-id' saknas eller är felaktigt i svaret från guest-get-devices"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"more than %1$d vCPUs require either IOAPIC in QEMU or an iommu device with "
+"EIM or XTSup mode enabled"
+msgstr ""
+"fler än %1$d vCPU:er kräver antingen IOAPIC i QEMU eller en IOMMU-enhet med "
+"EIM- eller XTSup-läge aktiverat"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "native tagged VLAN mode is not supported on this platform"
+msgstr "Inbyggt VLAN-läge med taggar stöds inte på den här plattformen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "npages * cellcount > REMOTE_NODE_MAX_CELLS (%1$u)"
+msgstr "npages * cellcount > REMOTE_NODE_MAX_CELLS (%1$u)"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "offset slices are not supported with NVRAM"
+msgstr "Förskjutningssegment stöds inte med NVRAM"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "only UEFI boot is supported in unprivileged mode"
+msgstr "Endast UEFI-start stöds i läge utan privilegier"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "only one 'iommufd' element is supported"
+msgstr "Endast ett 'iommufd'-element stöds"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"only one IPv4 default route can be specified for an interface using the "
+"passt backend"
+msgstr ""
+"Endast en IPv4-standardrutt kan anges för ett gränssnitt som använder "
+"bakänden passt"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"only one IPv6 default route can be specified for an interface using the "
+"passt backend"
+msgstr ""
+"Endast en IPv6-standardrutt kan anges för ett gränssnitt som använder "
+"bakänden passt"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "only one latency-histogram of a given type is supported"
+msgstr "Endast ett latency-histogram av en viss typ stöds"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"path '%1$s' can't be opened directly (without the use of helper proces) "
+"which is incompatible with 'sparse' save image"
+msgstr ""
+"Sökvägen '%1$s' kan inte öppnas direkt (utan en hjälpprocess), vilket är "
+"oförenligt med en sparad avbildning i läget 'sparse'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "persistent reservation migration not supported by this qemu"
+msgstr ""
+"Migrering av beständig reservation stöds inte av den här QEMU-versionen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"persistent reservation migration supported only with 'lun' disks on 'scsi' "
+"bus"
+msgstr ""
+"Migrering av beständig reservation stöds bara för 'lun'-diskar på en "
+"'scsi'-buss"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "poll weight %1$u is out of range [0, 63]"
+msgstr "pollningsvikten %1$u ligger utanför intervallet [0, 63]"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "poll-weight is not supported by this QEMU binary"
+msgstr "poll-weight stöds inte av den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "poll-weight value %1$u is out of range [0, 63]"
+msgstr "värdet för poll-weight %1$u ligger utanför intervallet [0, 63]"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "post-copy migration already stopped"
+msgstr "Migreringen efter kopiering har redan stoppats"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "qemu agent didn't return an array of devices"
+msgstr "QEMU-agenten returnerade inte en array med enheter"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"qemu-vnc died and reported:\n"
+"%1$s"
+msgstr ""
+"qemu-vnc avslutades och rapporterade:\n"
+"%1$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "re-initialize NVRAM/varstore from its pristine template"
+msgstr "Initiera NVRAM/varstore på nytt från dess rena mall"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "remove NVRAM/varstore file"
+msgstr "ta bort NVRAM/varstore-filen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "report devices information"
+msgstr "rapportera enhetsinformation"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "requested nwfilter_driver '%1$s' is not available"
+msgstr "Den begärda nwfilter-drivrutinen '%1$s' är inte tillgänglig"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "resize of '%1$s' would shrink it from '%2$llu' to '%3$llu' bytes"
+msgstr ""
+"Storleksändringen av '%1$s' skulle minska den från %2$llu till %3$llu byte"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "resource limits are not supported in unprivileged mode"
+msgstr "Resursgränser stöds inte i läge utan privilegier"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "return after firing vcpu unplug request"
+msgstr "återvänd efter att en begäran om urkoppling av vCPU har skickats"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "return after firing vcpu unplug request(s)"
+msgstr ""
+"återvänd efter att en eller flera begäranden om urkoppling av vCPU har "
+"skickats"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "set the adaptive polling weight factor"
+msgstr "ange den adaptiva faktorn för pollningsvikten"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "setting the 'speed' property on a '%1$s' device is not supported"
+msgstr "Det går inte att ange egenskapen 'speed' på enheten '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"setting the 'speed' property on a '%1$s' device is not supported by this "
+"QEMU binary"
+msgstr ""
+"Det går inte att ange egenskapen 'speed' på enheten '%1$s' med den här QEMU-"
+"binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "setting the 'width' property on a '%1$s' device is not supported"
+msgstr "Det går inte att ange egenskapen 'width' på enheten '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"setting the 'width' property on a '%1$s' device is not supported by this "
+"QEMU binary"
+msgstr ""
+"Det går inte att ange egenskapen 'width' på enheten '%1$s' med den här QEMU-"
+"binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "slices are not supported with non-block NVRAM"
+msgstr "Delar stöds inte med NVRAM som inte är blockbaserat"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "smartcard database path contains invalid characters"
+msgstr "Sökvägen till smartkortdatabasen innehåller ogiltiga tecken"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"source for disk '%1$s' (%2$s) doesn't exist or is not a regular file; "
+"refusing to generate external snapshot name"
+msgstr ""
+"Källan för disken '%1$s' (%2$s) finns inte eller är inte en vanlig fil; "
+"vägrar att skapa ett namn för en extern ögonblicksbild"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"the '%1$s' virtio video device doesn't match the selected vhostuser backend"
+msgstr ""
+"Den virtuella videoenheten '%1$s' av typen virtio passar inte den valda "
+"vhostuser-bakänden"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"the '%1$s' virtio video device frontend can be only used as primary video "
+"device"
+msgstr ""
+"Frontänden för den virtuella videoenheten '%1$s' av typen virtio kan bara "
+"användas som primär videoenhet"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"the '%1$s' virtio video device frontend can be only with enabled 3d "
+"acceleration"
+msgstr ""
+"Frontänden för den virtuella videoenheten '%1$s' av typen virtio kan bara "
+"användas när 3D-acceleration är aktiverad"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "the current memory value too large: %1$llu"
+msgstr "Det aktuella minnesvärdet är för stort: %1$llu"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"the destination image is already zeroed; hypervisor may skip pre-zeroing"
+msgstr ""
+"Målavbildningen är redan nollställd; hypervisorn kan hoppa över "
+"förnollställningen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "the maximum memory value too large: %1$llu"
+msgstr "Det högsta minnesvärdet är för stort: %1$llu"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"the number of IP addresses (%1$zu) does not match the number of subnets "
+"(%2$d)"
+msgstr "Antalet IP-adresser (%1$zu) stämmer inte med antalet subnät (%2$d)"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"the values of 'start' attribute of a 'latency-histogram' 'bin' configuration"
+" must be sorted and non-overlapping"
+msgstr ""
+"Värdena för attributet 'start' i konfigurationen av 'bin' för 'latency-"
+"histogram' måste vara sorterade och får inte överlappa"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "this QEMU binary lacks any suitable 'virtio' video device frontend"
+msgstr ""
+"Den här QEMU-binären saknar en lämplig frontände för en 'virtio'-videoenhet"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "this QEMU doesn't support the '%1$s' virtio video device frontend"
+msgstr ""
+"Den här QEMU-versionen stöder inte frontänden '%1$s' för virtio-videoenheten"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "this qemu doesn't support 'VIR_DOMAIN_BLOCK_COPY_TARGET_ZEROED'"
+msgstr ""
+"Den här QEMU-versionen stöder inte 'VIR_DOMAIN_BLOCK_COPY_TARGET_ZEROED'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "total number of announcements"
+msgstr "totalt antal meddelanden"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"trigger a live domain to announce one or more virtual interfaces to their "
+"attached networks"
+msgstr ""
+"utlös en domän i drift så att den meddelar sina virtuella gränssnitt till de"
+" anslutna nätverken"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "trigger domain to announce virtual interface to network"
+msgstr ""
+"utlös en domän så att den meddelar sitt virtuella gränssnitt till nätverket"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "unable to change socket config on '%1$s' network type"
+msgstr "Det går inte att ändra uttagskonfigurationen för nätverkstypen '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "unable to change vlan on '%1$s' network type"
+msgstr "Det går inte att ändra VLAN för nätverkstypen '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "unexpected state of SASL session"
+msgstr "Oväntat tillstånd för SASL-sessionen"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "unexpected subnet mask '%1$s'"
+msgstr "Oväntad nätmask '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "unknown IP address family of '%1$s'"
+msgstr "Okänd IP-adressfamilj för '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "unknown latency_histogram type '%1$s'"
+msgstr "Okänd typ av latency_histogram: '%1$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "unknown type ('%1$d') of parameter '%2$s'"
+msgstr "Okänd typ ('%1$d') för parametern '%2$s'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"unrecognized nwfilter_driver = '%1$s' set in nwfilter driver config file "
+"%2$s"
+msgstr ""
+"Okänd nwfilter_driver = '%1$s' angiven i konfigurationsfilen för nwfilter-"
+"drivrutinen %2$s"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "unsupported nwfilter driver PF"
+msgstr "nwfilter-drivrutinen PF stöds inte"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "usb address needs either device id or port"
+msgstr "USB-adressen måste ha antingen ett enhets-ID eller en port"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"use of 'VIR_MIGRATE_PARAM_MIGRATE_DISKS_TARGET_ZERO' is not supported by "
+"this QEMU"
+msgstr ""
+"Den här QEMU-versionen stöder inte "
+"'VIR_MIGRATE_PARAM_MIGRATE_DISKS_TARGET_ZERO'"
+
+#. from fedora:libvirt-libvirt-sv
+msgid ""
+"use of 'VIR_MIGRATE_PARAM_MIGRATE_DISKS_TARGET_ZERO' requires use of "
+"'VIR_MIGRATE_NON_SHARED_DISK' or 'VIR_MIGRATE_NON_SHARED_INC' flag"
+msgstr ""
+"'VIR_MIGRATE_PARAM_MIGRATE_DISKS_TARGET_ZERO' kräver att flaggan "
+"'VIR_MIGRATE_NON_SHARED_DISK' eller 'VIR_MIGRATE_NON_SHARED_INC' används"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "vTPM requires EFI firmware"
+msgstr "vTPM kräver EFI-firmware"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "vTPM requires virtual hardware version 14 or higher"
+msgstr "vTPM kräver virtuell maskinvaruversion 14 eller senare"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "virGetUserHomeDirectoryByUID is not available"
+msgstr "virGetUserHomeDirectoryByUID är inte tillgänglig"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "virtualization option is not available with this QEMU binary"
+msgstr ""
+"Virtualiseringsalternativet är inte tillgängligt med den här QEMU-binären"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "volume is missing key"
+msgstr "Volymen saknar en nyckel"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "volume is missing name"
+msgstr "Volymen saknar ett namn"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "volume is missing target path"
+msgstr "Volymen saknar en målsökväg"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "volume with key '%1$s' already exist"
+msgstr "En volym med nyckeln '%1$s' finns redan"
+
+#. from fedora:libvirt-libvirt-sv
+msgid "volume with target path '%1$s' already exist"
+msgstr "En volym med målsökvägen '%1$s' finns redan"

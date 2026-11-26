@@ -72379,5 +72379,1710 @@ newMAC: %4$s
       <tuv xml:lang="en"><seg>Further information at https://docs.fedoraproject.org/en-US/legal/trademarks/[Fedora's trademark guidlines].</seg></tuv>
       <tuv xml:lang="sv"><seg>Mer information finns på https://docs.fedoraproject.org/en-US/legal/trademarks/[Fedora's trademark guidlines].</seg></tuv>
     </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>
+%1$s mode [options] [extra file] [&lt; def.xml]
+
+  Modes:
+    -a | --add                     load profile
+    -c | --create                  create profile from template
+    -D | --delete                  unload profile and delete generated rules
+    -r | --replace                 reload profile
+    -R | --remove                  unload profile
+  Options:
+    -d | --dryrun                  dry run
+    -u | --uuid libvirt-&lt;uuid&gt;     AppArmor profile name
+    -h | --help                    this help
+  Extra File:
+    -f | --add-file &lt;file&gt;         add file to a profile generated from XML
+    -F | --append-file &lt;file&gt;      append file to an existing profile
+
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>
+%1$s läge [alternativ] [extra fil] [&lt; def.xml]
+
+  Lägen:
+    -a | --add                     läs in profil
+    -c | --create                  skapa profil från mall
+    -D | --delete                  läs ur profil och ta bort genererade regler
+    -r | --replace                 läs in profil på nytt
+    -R | --remove                  läs ur profil
+  Alternativ:
+    -d | --dryrun                  torrkörning
+    -u | --uuid libvirt-&lt;uuid&gt;     AppArmor-profilnamn
+    -h | --help                    visa denna hjälp
+  Extra fil:
+    -f | --add-file &lt;fil&gt;          lägg till fil i en profil som genereras från XML
+    -F | --append-file &lt;fil&gt;       lägg till fil i en befintlig profil
+
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>%1$ld host nodes specified but Cloud Hypervisor only supports 1</seg></tuv>
+      <tuv xml:lang="sv"><seg>%1$ld värdnoder angivna, men Cloud Hypervisor stöder bara 1</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>%1$s: backup_port_max: port must be between the minimal port %2$d and 65535</seg></tuv>
+      <tuv xml:lang="sv"><seg>%1$s: backup_port_max: porten måste ligga mellan den lägsta porten %2$d och 65535</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>%1$s: backup_port_min: port must be greater than 0</seg></tuv>
+      <tuv xml:lang="sv"><seg>%1$s: backup_port_min: porten måste vara större än 0</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>%1$s: expected an unsigned integer or a size string for '%2$s' parameter</seg></tuv>
+      <tuv xml:lang="sv"><seg>%1$s: parametern '%2$s' måste vara ett osignerat heltal eller en storlekssträng</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'%1$s' does not support 'backup' feature</seg></tuv>
+      <tuv xml:lang="sv"><seg>'%1$s' stöder inte funktionen 'backup'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'%1$s' does not support 'fsync' feature</seg></tuv>
+      <tuv xml:lang="sv"><seg>'%1$s' stöder inte funktionen 'fsync'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'--migrate-disks-target-zero' requires one of '--copy-storage-all', '--copy-storage-inc'</seg></tuv>
+      <tuv xml:lang="sv"><seg>'--migrate-disks-target-zero' kräver antingen '--copy-storage-all' eller '--copy-storage-inc'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'accel' must be enabled for iommu model '%1$s' when setting ats, ril, ssidsize, oas, or cmdqv</seg></tuv>
+      <tuv xml:lang="sv"><seg>'accel' måste vara aktiverat för IOMMU-modellen '%1$s' när ats, ril, ssidsize, oas eller cmdqv anges</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'accept-read-only-dev' option is not supported by this QEMU</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativet 'accept-read-only-dev' stöds inte av den här QEMU-versionen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'ats' is not supported for network &lt;driver&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>'ats' stöds inte för nätverksdrivrutinen &lt;driver&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'ats' is not supported for network port &lt;driver&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>'ats' stöds inte för nätverksportens drivrutin &lt;driver&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'aw_bits' must be within [32,64]</seg></tuv>
+      <tuv xml:lang="sv"><seg>'aw_bits' måste ligga inom intervallet [32,64]</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'backup' feature is not supported by this backend</seg></tuv>
+      <tuv xml:lang="sv"><seg>Funktionen 'backup' stöds inte av den här bakänden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'driver-name' missing in reply of guest-get-devices</seg></tuv>
+      <tuv xml:lang="sv"><seg>'driver-name' saknas i svaret från guest-get-devices</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'fsync' feature is not supported by this backend</seg></tuv>
+      <tuv xml:lang="sv"><seg>Funktionen 'fsync' stöds inte av den här bakänden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'fua' option is available only for virtio disks</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativet 'fua' är bara tillgängligt för virtio-diskar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'fua' property isn't supported by this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskapen 'fua' stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'groupname' parameter string must have non-zero length</seg></tuv>
+      <tuv xml:lang="sv"><seg>Parametern 'groupname' får inte vara en tom sträng</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'iommufd' is not supported by host kernel</seg></tuv>
+      <tuv xml:lang="sv"><seg>'iommufd' stöds inte av värdkärnan</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'iommufd' is not supported by this version of qemu</seg></tuv>
+      <tuv xml:lang="sv"><seg>'iommufd' stöds inte av den här versionen av QEMU</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>'mode' and 'size' can't be specified at the same time for 'granule'</seg></tuv>
+      <tuv xml:lang="sv"><seg>'mode' och 'size' kan inte anges samtidigt för 'granule'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>&lt;route&gt; elements of an interface using the passt backend must be default routes, with only a gateway specified</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;route&gt;-element för ett gränssnitt som använder bakänden passt måste vara standardrutter och bara ha en angiven gateway</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>AES256CBC decryption invalid keylen=%1$zu</seg></tuv>
+      <tuv xml:lang="sv"><seg>AES256CBC-dekryptering: ogiltig nyckellängd=%1$zu</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>ATS control for VFIO PCI devices is not supported by this version of qemu</seg></tuv>
+      <tuv xml:lang="sv"><seg>ATS-styrning för VFIO PCI-enheter stöds inte av den här versionen av QEMU</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>All &lt;route&gt; elements of an interface using the passt backend must be default routes, with an IPv4 or IPv6 gateway specified</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alla &lt;route&gt;-element för ett gränssnitt som använder bakänden passt måste vara standardrutter med en IPv4- eller IPv6-gateway angiven</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Bhyve ISA controller can only have index '0'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bhyve ISA-styrenheten kan bara ha indexet '0'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Bhyve virtio-serial controller supports up to 16 ports</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bhyves virtio-serial-styrenhet stöder högst 16 portar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Cannot connect to QEMU guest agent for %1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ansluta till QEMU-gästagenten för %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Cannot convert ipv4 address to byte array '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att konvertera IPv4-adressen '%1$s' till en bytevektor</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Cannot convert ipv4 mask to int '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att konvertera IPv4-nätmasken '%1$s' till ett heltal</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Cannot get VM's UUID without supplying a VM UUID key</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att hämta den virtuella maskinens UUID utan att ange en UUID-nyckel</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Cannot get mon_features from resctrl PERF_PKG_MON</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att hämta mon_features från resctrl PERF_PKG_MON</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Cannot have both &lt;nvram&gt; and &lt;varstore&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ange både &lt;nvram&gt; och &lt;varstore&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Cannot match USB device on bus/device and bus/port at once.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att matcha USB-enheten med buss/enhet och buss/port samtidigt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Cannot match USB device on vendor/product, bus/device, and bus/port at once.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att matcha USB-enheten med tillverkare/produkt, buss/enhet och buss/port samtidigt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Cannot parse MAC address '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att tolka MAC-adressen '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Cannot parse ipv4 address '%1$s' in</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att tolka IPv4-adressen '%1$s' i</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Cannot parse resctrl monitor value '%1$s' from '%2$s/%3$s/%4$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att tolka resctrl-övervakningsvärdet '%1$s' från '%2$s/%3$s/%4$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Cannot set resource limits: RACCT/RCTL is either not supported or not enabled</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ange resursgränser: RACCT/RCTL stöds inte eller är inte aktiverat</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Cannot undefine domain with NVRAM/varstore</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att avdefiniera en domän med NVRAM/varstore</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Commas (',') are not allowed in UNIX socket paths</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommatecken (',') är inte tillåtna i UNIX-sökvägar för uttag</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Commas (',') are not allowed in channel names</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommatecken (',') är inte tillåtna i kanalnamn</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not create log directory '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att skapa loggkatalogen '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not extract SettingData from response for '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att extrahera SettingData från svaret för '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not find Job ID in async method response</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hitta jobb-ID:t i svaret från den asynkrona metoden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not find MaxInternalSize in VHD SettingData for '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hitta MaxInternalSize i VHD SettingData för '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not find SOAP Body in response</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hitta SOAP Body i svaret</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not find _OUTPUT node in method response</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hitta noden _OUTPUT i metodsvaret</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not find output parameter '%1$s' in response</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hitta utdataparametern '%1$s' i svaret</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not find physical disk with drive number %1$u</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hitta någon fysisk disk med enhetsnummer %1$u</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not get ReturnValue from method response</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta ReturnValue från metodsvaret</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not get access to ACL tech driver</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att komma åt ACL-teknikdrivrutinen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not look up security setting data with virtual system instance ID '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att slå upp säkerhetsinställningarna med instans-ID:t '%1$s' för det virtuella systemet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not open swtpm logfile %1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att öppna swtpm-loggfilen %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not parse VHD SettingData XML for '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att tolka XML för VHD SettingData för '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Could not query file size for '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta filstorleken för '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Did not find matching USB device: vid:%1$04x, pid:%2$04x, bus:%3$u, device:%4$u, port:%5$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hittade ingen matchande USB-enhet: vid:%1$04x, pid:%2$04x, buss:%3$u, enhet:%4$u, port:%5$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Disk lease '%1$s' is not owned by domain with UUID '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Disklåset '%1$s' ägs inte av domänen med UUID '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Domain '%1$s' already exists, editing existing domains is not supported yet</seg></tuv>
+      <tuv xml:lang="sv"><seg>Domänen '%1$s' finns redan; det går inte att redigera befintliga domäner ännu</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Domain has no interfaces</seg></tuv>
+      <tuv xml:lang="sv"><seg>Domänen saknar gränssnitt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Duplicate whole-process monitor of the same resource type</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dubblett av helprocessövervakning för samma resurstyp</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Empty reply from guest. Maybe KVP service is not running?</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tomt svar från gästen. Kanske kör inte KVP-tjänsten?</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Encrypted secret size '%1$zu' is invalid</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den krypterade hemlighetens storlek '%1$zu' är ogiltig</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Encryption key length must be '%1$d' '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Krypteringsnyckelns längd måste vara '%1$d' '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Failed to create a new virDomainDef</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att skapa en ny virDomainDef</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Failed to create varstore dir %1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att skapa katalogen för varstore: %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Failed to create vnc state dir %1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att skapa katalogen för VNC-tillstånd: %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Failed to parse MaxInternalSize '%1$s' for '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att tolka MaxInternalSize '%1$s' för '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Failed to parse storage</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att tolka lagringen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Failed to remove NVRAM/varstore: %1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att ta bort NVRAM/varstore: %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Failed to set LVB for lease %1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att ange LVB för låset %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Failed to set LVB for lease %1$s: %2$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att ange LVB för låset %1$s: %2$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Failure to mask address %1$s &amp; %2$d</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att maskera adressen %1$s &amp; %2$d</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Field '%1$s' value '%2$s' must not contain line breaks</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet '%2$s' för fältet '%1$s' får inte innehålla radbrytningar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Finished after guest reboot request</seg></tuv>
+      <tuv xml:lang="sv"><seg>Slutfördes efter omstartsbegäran från gästen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Firmware type '%1$s' does not support variable storage (NVRAM/varstore)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den fasta programvarutypen '%1$s' stöder inte variabel lagring (NVRAM/varstore)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>IOMMU device: Setting 'pciBus' for '%1$s' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU-enhet: Det går inte att ange 'pciBus' för '%1$s' med den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>IOMMUFD is not supported on this platform</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMUFD stöds inte på den här plattformen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Installed bhyve binary does not support NUMA configuration</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den installerade bhyve-binären stöder inte NUMA-konfiguration</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Installed bhyve binary does not support TPM devices</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den installerade bhyve-binären stöder inte TPM-enheter</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Interface '%1$s' doesn't have any statistics</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gränssnittet '%1$s' har ingen statistik</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Interface '%1$s' not found: %2$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gränssnittet '%1$s' hittades inte: %2$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Interface announcement sent for domain '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gränssnittsmeddelande skickat för domänen '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Invalid attempt to set network interface guest-side IP address info, not supported for this interface type/backend</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ange IP-adressuppgifter för nätverksgränssnittet från gästsidan; detta stöds inte för den här gränssnittstypen eller bakänden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Invalid attempt to set network interface guest-side IP route, not supported for this interface type/backend</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ange en nätverksrutt för gränssnittet från gästsidan; detta stöds inte för den här gränssnittstypen eller bakänden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Invalid drive number '%1$s' for physical disk</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ogiltigt enhetsnummer '%1$s' för fysisk disk</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Invalid encryption key for the secret</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ogiltig krypteringsnyckel för hemligheten</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Invalid encryption key for the secret: %1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ogiltig krypteringsnyckel för hemligheten: %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Invalid file type for disk source %1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ogiltig filtyp för diskens källa %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Invalid format of cgroup.events file</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ogiltigt format på filen cgroup.events</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>NUMA configuration is only supported when booting using UEFI</seg></tuv>
+      <tuv xml:lang="sv"><seg>NUMA-konfiguration stöds bara vid start med UEFI</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>NUMA domain id %1$zu: empty cpusets are not allowed</seg></tuv>
+      <tuv xml:lang="sv"><seg>NUMA-domän-ID %1$zu: tomma CPU-uppsättningar är inte tillåtna</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>NVRAM slices are not supported with format '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>NVRAM-delar stöds inte med formatet '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>No matching fields for USB device found. Vendor/product, bus/device, or bus/port required.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hittade inga matchande fält för USB-enheten. Tillverkare/produkt, buss/enhet eller buss/port krävs.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>No virtual function index found for '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hittade inget funktionsindex för '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Number of page sizes (%1$u) does not match the number of page counts (%2$u)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Antalet sidstorlekar (%1$u) stämmer inte med antalet sidräkningar (%2$u)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Only 'external' TPM device backend is supported</seg></tuv>
+      <tuv xml:lang="sv"><seg>Endast TPM-enhetens bakände 'external' stöds</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Only 'hard_limit' memory tuning parameter is supported by bhyve</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bhyve stöder bara minnesjusteringsparametern 'hard_limit'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Only one file descriptor needs to be associated with iommufd</seg></tuv>
+      <tuv xml:lang="sv"><seg>Endast en filbeskrivare behöver kopplas till iommufd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Only one of NVRAM/varstore can be used</seg></tuv>
+      <tuv xml:lang="sv"><seg>Endast en av NVRAM och varstore kan användas</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Only up to 8 NUMA domains are supported</seg></tuv>
+      <tuv xml:lang="sv"><seg>Högst 8 NUMA-domäner stöds</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Opening UNIX sockets is not supported on Win32 platform</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att öppna UNIX-uttag på Win32-plattformen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Per device I/O tuning is not supported</seg></tuv>
+      <tuv xml:lang="sv"><seg>Finjustering av I/O per enhet stöds inte</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Query parameter 'legacy_uuid' has unexpected value '%1$s' (should be 0 or 1)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Frågeparametern 'legacy_uuid' har det oväntade värdet '%1$s' (ska vara 0 eller 1)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Remote URI '%1$s' is not permitted to include a transport</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fjärr-URI:n '%1$s' får inte innehålla en transport</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Rule contains unsupported ipset flags</seg></tuv>
+      <tuv xml:lang="sv"><seg>Regeln innehåller ipset-flaggor som inte stöds</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Serial number may not contain ',' character</seg></tuv>
+      <tuv xml:lang="sv"><seg>Serienumret får inte innehålla tecknet ','</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Setting 'fdgroup' when 'iommufd' is disabled is not supported.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ange 'fdgroup' när 'iommufd' är inaktiverat.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Setting physical block size without logical block size is not supported</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ange fysisk blockstorlek utan logisk blockstorlek</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>TPM backend is not supported</seg></tuv>
+      <tuv xml:lang="sv"><seg>TPM-bakänden stöds inte</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>TPM model '%1$s' is not supported by bhyve</seg></tuv>
+      <tuv xml:lang="sv"><seg>TPM-modellen '%1$s' stöds inte av bhyve</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target disk 'fua' property %1$s does not match source %2$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskapen 'fua' för måldisken %1$s stämmer inte med källan %2$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target disk reservations 'migration' property %1$s does not match source %2$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Egenskapen 'migration' för måldiskens reservationer %1$s stämmer inte med källan %2$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'accel' value '%1$d' does not match source '%2$d'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet '%1$d' för måldomänens IOMMU-enhet 'accel' stämmer inte med källan '%2$d'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'ats' value '%1$d' does not match source '%2$d'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet '%1$d' för måldomänens IOMMU-enhet 'ats' stämmer inte med källan '%2$d'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'aw_bits' value '%1$u' does not match source '%2$u'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet '%1$u' för måldomänens IOMMU-enhet 'aw_bits' stämmer inte med källan '%2$u'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'caching_mode' '%1$s' does not match source '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Måldomänens IOMMU-enhet 'caching_mode' '%1$s' stämmer inte med källan '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'cmdqv' value '%1$d' does not match source '%2$d'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet '%1$d' för måldomänens IOMMU-enhet 'cmdqv' stämmer inte med källan '%2$d'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'dma_translation' '%1$s' does not match source '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Måldomänens IOMMU-enhet 'dma_translation' '%1$s' stämmer inte med källan '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'eim' value '%1$s' does not match source '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet '%1$s' för måldomänens IOMMU-enhet 'eim' stämmer inte med källan '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'fsts' '%1$s' does not match source '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Måldomänens IOMMU-enhet 'fsts' '%1$s' stämmer inte med källan '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'granule' '%1$s' does not match source '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Måldomänens IOMMU-enhet 'granule' '%1$s' stämmer inte med källan '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'intremap' value '%1$s' does not match source '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet '%1$s' för måldomänens IOMMU-enhet 'intremap' stämmer inte med källan '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'iotlb' value '%1$s' does not match source '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet '%1$s' för måldomänens IOMMU-enhet 'iotlb' stämmer inte med källan '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'oas' value '%1$d' does not match source '%2$d'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet '%1$d' för måldomänens IOMMU-enhet 'oas' stämmer inte med källan '%2$d'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'pasid_bits' '%1$u' does not match source '%2$u'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Måldomänens IOMMU-enhet 'pasid_bits' '%1$u' stämmer inte med källan '%2$u'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'passthrough' '%1$s' does not match source '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Måldomänens IOMMU-enhet 'passthrough' '%1$s' stämmer inte med källan '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'pciBus' value '%1$d' does not match source '%2$d'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet '%1$d' för måldomänens IOMMU-enhet 'pciBus' stämmer inte med källan '%2$d'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'ril' value '%1$d' does not match source '%2$d'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet '%1$d' för måldomänens IOMMU-enhet 'ril' stämmer inte med källan '%2$d'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'scalable_mode' '%1$s' does not match source '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Måldomänens IOMMU-enhet 'scalable_mode' '%1$s' stämmer inte med källan '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'ssidsize' value '%1$d' does not match source '%2$d'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdet '%1$d' för måldomänens IOMMU-enhet 'ssidsize' stämmer inte med källan '%2$d'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'svm' '%1$s' does not match source '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Måldomänens IOMMU-enhet 'svm' '%1$s' stämmer inte med källan '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Target domain IOMMU device 'xtsup' '%1$s' does not match source '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Måldomänens IOMMU-enhet 'xtsup' '%1$s' stämmer inte med källan '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The 'sparsify' mode of disk '%1$s' can be used only for full backup</seg></tuv>
+      <tuv xml:lang="sv"><seg>Läget 'sparsify' för disken '%1$s' kan bara användas vid fullständig säkerhetskopiering</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The 'weight' I/O tuning setting does not make sense with '*'</seg></tuv>
+      <tuv xml:lang="sv"><seg>I/O-justeringsinställningen 'weight' är inte meningsfull tillsammans med '*'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The CA certificate %1$s must be accessible to all users. As root run: chown root:root %2$s; chmod 0644 %3$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>CA-certifikatet %1$s måste vara tillgängligt för alla användare. Kör som root: chown root:root %2$s; chmod 0644 %3$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The CA certificate %1$s must not be accessible to other users. As this user, run: chown %2$d:%3$d %4$s; chmod 0600 %5$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>CA-certifikatet %1$s får inte vara tillgängligt för andra användare. Kör som den här användaren: chown %2$d:%3$d %4$s; chmod 0600 %5$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The PKI base dir %1$s must not be accessible to other users. Run: chown %2$d:%3$d %4$s; chmod 0700 %5$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>PKI-baskatalogen %1$s får inte vara tillgänglig för andra användare. Kör: chown %2$d:%3$d %4$s; chmod 0700 %5$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The client cert %1$s must be accessible to all users. As root run: chown root:root %2$s; chmod 0644 %3$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klientcertifikatet %1$s måste vara tillgängligt för alla användare. Kör som root: chown root:root %2$s; chmod 0644 %3$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The client cert %1$s must be restricted to this user. As this user, run: chown %2$d:%3$d %4$s; chmod 0600 %5$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klientcertifikatet %1$s måste vara begränsat till den här användaren. Kör som den här användaren: chown %2$d:%3$d %4$s; chmod 0600 %5$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The client key %1$s must be accessible to all users. As root run: chown root:root %2$s; chmod 0644 %3$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klientnyckeln %1$s måste vara tillgänglig för alla användare. Kör som root: chown root:root %2$s; chmod 0644 %3$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The client key %1$s must be not be accessible to other users. As this user, run: chown %2$d:%3$d %4$s; chmod 0600 %5$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klientnyckeln %1$s får inte vara tillgänglig för andra användare. Kör som den här användaren: chown %2$d:%3$d %4$s; chmod 0600 %5$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The server cert %1$s must be accessible to all users. As root run: chown root:root %2$s; chmod 0644 %3$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Servercertifikatet %1$s måste vara tillgängligt för alla användare. Kör som root: chown root:root %2$s; chmod 0644 %3$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The server cert %1$s must be restricted to this user. As this user, run: chown %2$d:%3$d %4$s; chmod 0600 %5$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Servercertifikatet %1$s måste vara begränsat till den här användaren. Kör som den här användaren: chown %2$d:%3$d %4$s; chmod 0600 %5$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The server key %1$s must be not be accessible to other users. As this user, run: chown %2$d:%3$d %4$s; chmod 0600 %5$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Servernyckeln %1$s får inte vara tillgänglig för andra användare. Kör som den här användaren: chown %2$d:%3$d %4$s; chmod 0600 %5$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The server key %1$s must not be accessible to unprivileged users. As root run: chown root:root %2$s; chmod 0600 %3$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Servernyckeln %1$s får inte vara tillgänglig för obehöriga användare. Kör som root: chown root:root %2$s; chmod 0600 %3$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The system CA dir %1$s must be accessible to all users. As root, run: chown root:root; chmod 0755 %2$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Systemets CA-katalog %1$s måste vara tillgänglig för alla användare. Kör som root: chown root:root; chmod 0755 %2$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The system PKI dir %1$s must be accessible to all users. As root, run: chown root:root; chmod 0755 %2$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Systemets PKI-katalog %1$s måste vara tillgänglig för alla användare. Kör som root: chown root:root; chmod 0755 %2$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The system cert dir %1$s must be accessible to all users. As root, run: chown root:root; chmod 0755 %2$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Systemets certifikatkatalog %1$s måste vara tillgänglig för alla användare. Kör som root: chown root:root; chmod 0755 %2$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The system key dir %1$s must be accessible to all users. As root, run: chown root:root; chmod 0755 %2$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Systemets nyckelkatalog %1$s måste vara tillgänglig för alla användare. Kör som root: chown root:root; chmod 0755 %2$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>The uefi-vars device is not supported by this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>Enheten uefi-vars stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>USB device vid:%1$04x, pid:%2$04x, bus:%3$u, device:%4$u, port:%5$s is present on the host but its device node '%6$s' is not accessible in the current mount namespace</seg></tuv>
+      <tuv xml:lang="sv"><seg>USB-enheten vid:%1$04x, pid:%2$04x, buss:%3$u, enhet:%4$u, port:%5$s finns på värden, men enhetsnoden '%6$s' är inte tillgänglig i den aktuella monteringsnamnrymden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to fetch all requested information</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta all begärd information</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to fetch all requested information. Data Exchange service (KVP) encountered a non-recoverable error</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta all begärd information. Data Exchange-tjänsten (KVP) stötte på ett oåterställbart fel</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to fetch all requested information. Data Exchange service (KVP) is degraded</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta all begärd information. Data Exchange-tjänsten (KVP) är nedsatt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to fetch all requested information. Data Exchange service (KVP) is not running</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta all begärd information. Data Exchange-tjänsten (KVP) körs inte</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to get bridge %1$s flag</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta flaggan för bryggan %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to get bridge %1$s flags</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta flaggorna för bryggan %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to get bridge %1$s port %2$s flags</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta flaggorna för porten %2$s på bryggan %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to get info for disk '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta information om disken '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to get resource allocation settings data</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta data om resursallokeringsinställningarna</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to get storage allocation settings data</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta data om lagringsallokeringsinställningarna</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to parse bhyvectl output: %1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att tolka bhyvectls utdata: %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to parse integer from size '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att tolka ett heltal från storleken '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to read qemu-vnc pidfile '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att läsa qemu-vnc-pidfilen '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to set VLAN for bridge %1$s port %2$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att ange VLAN för porten %2$s på bryggan %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to set bridge %1$s flag</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att ange flaggan för bryggan %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to set bridge %1$s port %2$s flags</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att ange flaggorna för porten %2$s på bryggan %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unable to set tap device %1$s (maybe existing device was created with multi_queue flag but device XML lacks 'queues' greater than one)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att ange TAP-enheten %1$s (kanske skapades den befintliga enheten med flaggan multi_queue, men enhetens XML saknar 'queues' med ett värde större än ett)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unexpected action %1$d</seg></tuv>
+      <tuv xml:lang="sv"><seg>Oväntad åtgärd %1$d</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unexpected return code %1$d in method response</seg></tuv>
+      <tuv xml:lang="sv"><seg>Oväntad returkod %1$d i metodsvaret</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unexpected rule protocol '%1$d', priority '%2$d'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Oväntat regelprotokoll '%1$d', prioritet '%2$d'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unknown state of freezer controller: %1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Okänt tillstånd för freezer-styrenheten: %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unknown value of freezer controller: %1$llu</seg></tuv>
+      <tuv xml:lang="sv"><seg>Okänt värde för freezer-styrenheten: %1$llu</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unknown value of freezer controller: %1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Okänt värde för freezer-styrenheten: %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Unsupported disk type %1$d for disk '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Disktypen %1$d stöds inte för disken '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>VFIO PCI device assignment without 'iommufd' is not compatible with 'intel' IOMMU with 'fsts'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tilldelning av VFIO PCI-enhet utan 'iommufd' är inte kompatibel med 'intel'-IOMMU och 'fsts'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>VLAN tag %1$u is not supported on this platform</seg></tuv>
+      <tuv xml:lang="sv"><seg>VLAN-taggen %1$u stöds inte på den här plattformen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>VMware driver only supports TPM 2.0 with the CRB model</seg></tuv>
+      <tuv xml:lang="sv"><seg>VMware-drivrutinen stöder bara TPM 2.0 med CRB-modellen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>VMware only supports a single TPM device</seg></tuv>
+      <tuv xml:lang="sv"><seg>VMware stöder bara en enda TPM-enhet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Variable storage (NVRAM/varstore) is not permitted when loader is read/write</seg></tuv>
+      <tuv xml:lang="sv"><seg>Variabel lagring (NVRAM/varstore) är inte tillåten när laddaren är läsbar och skrivbar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Variable storage (NVRAM/varstore) is not permitted when loader is stateless</seg></tuv>
+      <tuv xml:lang="sv"><seg>Variabel lagring (NVRAM/varstore) är inte tillåten när laddaren är tillståndslös</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Whole-process and explicit monitors cannot be mixed</seg></tuv>
+      <tuv xml:lang="sv"><seg>Helprocessövervakning och explicita övervakare kan inte blandas</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>Whole-process and per-vcpu resctrl allocations cannot be mixed</seg></tuv>
+      <tuv xml:lang="sv"><seg>Helprocessallokeringar och resctrl-allokeringar per vCPU kan inte blandas</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>array element missing in guest-get-devices return value</seg></tuv>
+      <tuv xml:lang="sv"><seg>Arrayelement saknas i returvärdet från guest-get-devices</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>asynchronous mode is unsupported with VIR_DOMAIN_VCPU_GUEST</seg></tuv>
+      <tuv xml:lang="sv"><seg>Asynkront läge stöds inte med VIR_DOMAIN_VCPU_GUEST</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>at line %1$d: %2$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>vid rad %1$d: %2$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>bhyve does not support monitor mode, cannot run unprivileged</seg></tuv>
+      <tuv xml:lang="sv"><seg>bhyve stöder inte övervakarläge och kan inte köras utan privilegier</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>bhyve does not support more than one entry to Type 2 in SMBIOS table</seg></tuv>
+      <tuv xml:lang="sv"><seg>bhyve stöder inte fler än en post av typ 2 i SMBIOS-tabellen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>bhyve driver does not support 'on_crash' actions other than 'destroy'</seg></tuv>
+      <tuv xml:lang="sv"><seg>bhyve-drivrutinen stöder inte åtgärder för 'on_crash' utöver 'destroy'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>bhyve driver supports only 'restart' and 'destroy' actions for 'on_reboot'/'on_poweroff'</seg></tuv>
+      <tuv xml:lang="sv"><seg>bhyve-drivrutinen stöder bara åtgärderna 'restart' och 'destroy' för 'on_reboot'/'on_poweroff'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>bhyve only supports a single TPM device</seg></tuv>
+      <tuv xml:lang="sv"><seg>bhyve stöder bara en enda TPM-enhet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>bhyvectl does not support querying the VM PID, cannot run unprivileged</seg></tuv>
+      <tuv xml:lang="sv"><seg>bhyvectl stöder inte frågor om VM-processens PID och kan inte köras utan privilegier</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>block resize to full capacity supported only with 'raw' or local block-based disks</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ändring av blockstorleken till full kapacitet stöds bara för 'raw'-diskar eller lokala blockbaserade diskar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>block size is greater than bhyve's maximum of %1$d</seg></tuv>
+      <tuv xml:lang="sv"><seg>Blockstorleken överstiger bhyves maxvärde på %1$d</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>blockio is not supported with device='lun'</seg></tuv>
+      <tuv xml:lang="sv"><seg>blockio stöds inte med device='lun'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>boot order '%1$u' is greater than bhyve's maximum of %2$d</seg></tuv>
+      <tuv xml:lang="sv"><seg>Startordningen '%1$u' överstiger bhyves maxvärde %2$d</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>cannot change backend type of network interface</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ändra nätverksgränssnittets bakändstyp</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>cannot find VFIO device for PCI device %1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att hitta någon VFIO-enhet för PCI-enheten %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>cannot modify network device portForward settings</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ändra inställningarna för portvidarebefordran på nätverksenheten</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>cannot obtain CPU core count</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att hämta antalet processorkärnor</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>cannot obtain CPU threads per core</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att hämta antalet processtrådar per kärna</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>cannot obtain NUMA domain count</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att hämta antalet NUMA-domäner</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>cannot open IOMMUFD device</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att öppna IOMMUFD-enheten</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>cannot open VFIO device %1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att öppna VFIO-enheten %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>cannot parse guest intrinsic exchange data</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att tolka gästens interna utbytesdata</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>cannot prevent shrink on SD devices</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att förhindra minskning på SD-enheter</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>client tried invalid SASL step request</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klienten begärde ett ogiltigt SASL-steg</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>comma separated list of disks to be migrated with assumption that target image is zeroed</seg></tuv>
+      <tuv xml:lang="sv"><seg>kommaseparerad lista över diskar som ska migreras, med antagandet att målavbildningen är nollställd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>could not find a usable nwfilter driver</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hitta någon användbar nwfilter-drivrutin</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>decrypted data has invalid padding</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dekrypterade data har ogiltig utfyllnad</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>decrypted data has zero length</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dekrypterade data har längden noll</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>disk '%1$s' has no source path</seg></tuv>
+      <tuv xml:lang="sv"><seg>Disken '%1$s' saknar en källsökväg</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>dnsmasq hostname '%1$s' contains forbidden whitespace</seg></tuv>
+      <tuv xml:lang="sv"><seg>dnsmasq-värdnamnet '%1$s' innehåller otillåtna blanksteg</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>ensure that the new size is larger than actual capacity (prevent shrink)</seg></tuv>
+      <tuv xml:lang="sv"><seg>säkerställ att den nya storleken är större än den faktiska kapaciteten (förhindra minskning)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>event 'channel-lifecycle' for domain '%1$s': channel name: '%2$s' state: '%3$s' reason: '%4$s'
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>händelsen 'channel-lifecycle' för domänen '%1$s': kanalnamn: '%2$s' status: '%3$s' orsak: '%4$s'
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>event 'vcpu-removed' for domain '%1$s': vcpu %2$u
+</seg></tuv>
+      <tuv xml:lang="sv"><seg>händelsen 'vcpu-removed' för domänen '%1$s': vCPU %2$u
+</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>expand 'host-model' CPU to also show features enabled by the CPU model</seg></tuv>
+      <tuv xml:lang="sv"><seg>utöka processormodellen 'host-model' så att även funktioner som aktiverats av CPU-modellen visas</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>failed to append FD to list</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att lägga till filbeskrivaren i listan</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>failed to decrypt the data: '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att dekryptera data: '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>failed to determine current size of '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att fastställa den aktuella storleken på '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>failed to get ARP table via sysctl</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta ARP-tabellen via sysctl</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>failed to resolve links in PCI device %1$s sysfs path '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att följa länkarna i sökvägen '%2$s' till PCI-enheten %1$s i sysfs</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>failed to set memory accounting for iommufd</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att aktivera minnesredovisning för iommufd</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>filter binding has no firewall backend name</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filterkopplingen saknar namn på brandväggsbackend</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>found both device id and port in usb address (ambiguous setting)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Både enhets-ID och port har angetts i USB-adressen (tvetydig inställning)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>guest intrinsic exchange data</seg></tuv>
+      <tuv xml:lang="sv"><seg>gästens interna utbytesdata</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>hyperv does not support external memory snapshots</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hyper-V stöder inte externa minnesögonblicksbilder</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>hyperv does not support per-disk snapshot configuration</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hyper-V stöder inte konfiguration av ögonblicksbilder per disk</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>include all supported CPU features in 'host-model' mode, not only those enabled by default</seg></tuv>
+      <tuv xml:lang="sv"><seg>ta med alla processorfunktioner som stöds i läget 'host-model', inte bara de som är aktiverade som standard</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>increment added to delay (milliseconds) after each announcement</seg></tuv>
+      <tuv xml:lang="sv"><seg>ökning av fördröjningen (millisekunder) efter varje meddelande</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>initial delay before first announcement (milliseconds)</seg></tuv>
+      <tuv xml:lang="sv"><seg>inledande fördröjning före det första meddelandet (millisekunder)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>invalid line break in DNS %1$s record %2$s attribute</seg></tuv>
+      <tuv xml:lang="sv"><seg>ogiltig radbrytning i attributet %2$s i DNS-posten %1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>invalid save image header: cookie offset exceeds data length</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ogiltigt huvud i sparad avbildning: cookie-förskjutningen överskrider datalängden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu model '%1$s' 'fsts' requires 'scalable_mode' to be 'on'</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU-modellen '%1$s': 'fsts' kräver att 'scalable_mode' är 'on'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu model '%1$s' 'pasid_bits' requires 'scalable_mode' to be 'on'</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU-modellen '%1$s': 'pasid_bits' kräver att 'scalable_mode' är 'on'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu model '%1$s' 'svm' requires 'fsts' to be 'on'</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU-modellen '%1$s': 'svm' kräver att 'fsts' är 'on'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu model '%1$s' 'svm' requires 'iotlb' to be 'on'</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU-modellen '%1$s': 'svm' kräver att 'iotlb' är 'on'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu model '%1$s' 'svm' requires 'pasid_bits' to be configured (&gt; 0)</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU-modellen '%1$s': 'svm' kräver att 'pasid_bits' är konfigurerat (&gt; 0)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: 'accel' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: 'accel' stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: 'aw_bits' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: 'aw_bits' stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: 'caching_mode' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: 'caching_mode' stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: 'cmdqv' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: 'cmdqv' stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: 'eim' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: 'eim' stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: 'fsts' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: 'fsts' stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: 'intremap' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: 'intremap' stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: 'iotlb' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: 'iotlb' stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: 'pasid_bits' exceeds maximum allowed value 20 in QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: 'pasid_bits' överskrider det högsta tillåtna värdet 20 i QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: 'pasid_bits' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: 'pasid_bits' stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: 'scalable_mode' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: 'scalable_mode' stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: 'svm' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: 'svm' stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: page 'granule' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: sidstorleken 'granule' stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: unsupported 'granule' size. Supported values are 4, 8, 16 and 64 KiB</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: storleken 'granule' stöds inte. Tillåtna värden är 4, 8, 16 och 64 KiB</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>iommu: updating 'dma_translation' is not supported with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>IOMMU: det går inte att uppdatera 'dma_translation' med den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>keep NVRAM/varstore file</seg></tuv>
+      <tuv xml:lang="sv"><seg>behåll NVRAM/varstore-filen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>loader is not specified and the default loader (%1$s) not found</seg></tuv>
+      <tuv xml:lang="sv"><seg>ingen laddare har angetts och standardladdaren (%1$s) hittades inte</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>malformed 'driver-date' in reply of guest-get-devices</seg></tuv>
+      <tuv xml:lang="sv"><seg>felaktigt 'driver-date' i svaret från guest-get-devices</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>maximum delay between announcements (milliseconds)</seg></tuv>
+      <tuv xml:lang="sv"><seg>högsta tillåtna fördröjning mellan meddelanden (millisekunder)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>memory parameters are not supported in unprivileged mode</seg></tuv>
+      <tuv xml:lang="sv"><seg>minnesparametrar stöds inte i läge utan privilegier</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>missing 'bin' elements for 'latency-histogram'</seg></tuv>
+      <tuv xml:lang="sv"><seg>saknar 'bin'-element för 'latency-histogram'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>missing 'type' in reply of guest-get-devices</seg></tuv>
+      <tuv xml:lang="sv"><seg>'type' saknas i svaret från guest-get-devices</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>missing or malformed 'device-id' in reply of guest-get-devices</seg></tuv>
+      <tuv xml:lang="sv"><seg>'device-id' saknas eller är felaktigt i svaret från guest-get-devices</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>missing or malformed 'vendor-id' in reply of guest-get-devices</seg></tuv>
+      <tuv xml:lang="sv"><seg>'vendor-id' saknas eller är felaktigt i svaret från guest-get-devices</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>more than %1$d vCPUs require either IOAPIC in QEMU or an iommu device with EIM or XTSup mode enabled</seg></tuv>
+      <tuv xml:lang="sv"><seg>fler än %1$d vCPU:er kräver antingen IOAPIC i QEMU eller en IOMMU-enhet med EIM- eller XTSup-läge aktiverat</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>native tagged VLAN mode is not supported on this platform</seg></tuv>
+      <tuv xml:lang="sv"><seg>Inbyggt VLAN-läge med taggar stöds inte på den här plattformen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>npages * cellcount &gt; REMOTE_NODE_MAX_CELLS (%1$u)</seg></tuv>
+      <tuv xml:lang="sv"><seg>npages * cellcount &gt; REMOTE_NODE_MAX_CELLS (%1$u)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>offset slices are not supported with NVRAM</seg></tuv>
+      <tuv xml:lang="sv"><seg>Förskjutningssegment stöds inte med NVRAM</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>only UEFI boot is supported in unprivileged mode</seg></tuv>
+      <tuv xml:lang="sv"><seg>Endast UEFI-start stöds i läge utan privilegier</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>only one 'iommufd' element is supported</seg></tuv>
+      <tuv xml:lang="sv"><seg>Endast ett 'iommufd'-element stöds</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>only one IPv4 default route can be specified for an interface using the passt backend</seg></tuv>
+      <tuv xml:lang="sv"><seg>Endast en IPv4-standardrutt kan anges för ett gränssnitt som använder bakänden passt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>only one IPv6 default route can be specified for an interface using the passt backend</seg></tuv>
+      <tuv xml:lang="sv"><seg>Endast en IPv6-standardrutt kan anges för ett gränssnitt som använder bakänden passt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>only one latency-histogram of a given type is supported</seg></tuv>
+      <tuv xml:lang="sv"><seg>Endast ett latency-histogram av en viss typ stöds</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>path '%1$s' can't be opened directly (without the use of helper proces) which is incompatible with 'sparse' save image</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sökvägen '%1$s' kan inte öppnas direkt (utan en hjälpprocess), vilket är oförenligt med en sparad avbildning i läget 'sparse'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>persistent reservation migration not supported by this qemu</seg></tuv>
+      <tuv xml:lang="sv"><seg>Migrering av beständig reservation stöds inte av den här QEMU-versionen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>persistent reservation migration supported only with 'lun' disks on 'scsi' bus</seg></tuv>
+      <tuv xml:lang="sv"><seg>Migrering av beständig reservation stöds bara för 'lun'-diskar på en 'scsi'-buss</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>poll weight %1$u is out of range [0, 63]</seg></tuv>
+      <tuv xml:lang="sv"><seg>pollningsvikten %1$u ligger utanför intervallet [0, 63]</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>poll-weight is not supported by this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>poll-weight stöds inte av den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>poll-weight value %1$u is out of range [0, 63]</seg></tuv>
+      <tuv xml:lang="sv"><seg>värdet för poll-weight %1$u ligger utanför intervallet [0, 63]</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>post-copy migration already stopped</seg></tuv>
+      <tuv xml:lang="sv"><seg>Migreringen efter kopiering har redan stoppats</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>qemu agent didn't return an array of devices</seg></tuv>
+      <tuv xml:lang="sv"><seg>QEMU-agenten returnerade inte en array med enheter</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>qemu-vnc died and reported:
+%1$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>qemu-vnc avslutades och rapporterade:
+%1$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>re-initialize NVRAM/varstore from its pristine template</seg></tuv>
+      <tuv xml:lang="sv"><seg>Initiera NVRAM/varstore på nytt från dess rena mall</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>remove NVRAM/varstore file</seg></tuv>
+      <tuv xml:lang="sv"><seg>ta bort NVRAM/varstore-filen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>report devices information</seg></tuv>
+      <tuv xml:lang="sv"><seg>rapportera enhetsinformation</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>requested nwfilter_driver '%1$s' is not available</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den begärda nwfilter-drivrutinen '%1$s' är inte tillgänglig</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>resize of '%1$s' would shrink it from '%2$llu' to '%3$llu' bytes</seg></tuv>
+      <tuv xml:lang="sv"><seg>Storleksändringen av '%1$s' skulle minska den från %2$llu till %3$llu byte</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>resource limits are not supported in unprivileged mode</seg></tuv>
+      <tuv xml:lang="sv"><seg>Resursgränser stöds inte i läge utan privilegier</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>return after firing vcpu unplug request</seg></tuv>
+      <tuv xml:lang="sv"><seg>återvänd efter att en begäran om urkoppling av vCPU har skickats</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>return after firing vcpu unplug request(s)</seg></tuv>
+      <tuv xml:lang="sv"><seg>återvänd efter att en eller flera begäranden om urkoppling av vCPU har skickats</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>set the adaptive polling weight factor</seg></tuv>
+      <tuv xml:lang="sv"><seg>ange den adaptiva faktorn för pollningsvikten</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>setting the 'speed' property on a '%1$s' device is not supported</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ange egenskapen 'speed' på enheten '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>setting the 'speed' property on a '%1$s' device is not supported by this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ange egenskapen 'speed' på enheten '%1$s' med den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>setting the 'width' property on a '%1$s' device is not supported</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ange egenskapen 'width' på enheten '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>setting the 'width' property on a '%1$s' device is not supported by this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ange egenskapen 'width' på enheten '%1$s' med den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>slices are not supported with non-block NVRAM</seg></tuv>
+      <tuv xml:lang="sv"><seg>Delar stöds inte med NVRAM som inte är blockbaserat</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>smartcard database path contains invalid characters</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sökvägen till smartkortdatabasen innehåller ogiltiga tecken</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>source for disk '%1$s' (%2$s) doesn't exist or is not a regular file; refusing to generate external snapshot name</seg></tuv>
+      <tuv xml:lang="sv"><seg>Källan för disken '%1$s' (%2$s) finns inte eller är inte en vanlig fil; vägrar att skapa ett namn för en extern ögonblicksbild</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>the '%1$s' virtio video device doesn't match the selected vhostuser backend</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den virtuella videoenheten '%1$s' av typen virtio passar inte den valda vhostuser-bakänden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>the '%1$s' virtio video device frontend can be only used as primary video device</seg></tuv>
+      <tuv xml:lang="sv"><seg>Frontänden för den virtuella videoenheten '%1$s' av typen virtio kan bara användas som primär videoenhet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>the '%1$s' virtio video device frontend can be only with enabled 3d acceleration</seg></tuv>
+      <tuv xml:lang="sv"><seg>Frontänden för den virtuella videoenheten '%1$s' av typen virtio kan bara användas när 3D-acceleration är aktiverad</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>the current memory value too large: %1$llu</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det aktuella minnesvärdet är för stort: %1$llu</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>the destination image is already zeroed; hypervisor may skip pre-zeroing</seg></tuv>
+      <tuv xml:lang="sv"><seg>Målavbildningen är redan nollställd; hypervisorn kan hoppa över förnollställningen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>the maximum memory value too large: %1$llu</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det högsta minnesvärdet är för stort: %1$llu</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>the number of IP addresses (%1$zu) does not match the number of subnets (%2$d)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Antalet IP-adresser (%1$zu) stämmer inte med antalet subnät (%2$d)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>the values of 'start' attribute of a 'latency-histogram' 'bin' configuration must be sorted and non-overlapping</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdena för attributet 'start' i konfigurationen av 'bin' för 'latency-histogram' måste vara sorterade och får inte överlappa</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>this QEMU binary lacks any suitable 'virtio' video device frontend</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den här QEMU-binären saknar en lämplig frontände för en 'virtio'-videoenhet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>this QEMU doesn't support the '%1$s' virtio video device frontend</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den här QEMU-versionen stöder inte frontänden '%1$s' för virtio-videoenheten</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>this qemu doesn't support 'VIR_DOMAIN_BLOCK_COPY_TARGET_ZEROED'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den här QEMU-versionen stöder inte 'VIR_DOMAIN_BLOCK_COPY_TARGET_ZEROED'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>total number of announcements</seg></tuv>
+      <tuv xml:lang="sv"><seg>totalt antal meddelanden</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>trigger a live domain to announce one or more virtual interfaces to their attached networks</seg></tuv>
+      <tuv xml:lang="sv"><seg>utlös en domän i drift så att den meddelar sina virtuella gränssnitt till de anslutna nätverken</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>trigger domain to announce virtual interface to network</seg></tuv>
+      <tuv xml:lang="sv"><seg>utlös en domän så att den meddelar sitt virtuella gränssnitt till nätverket</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>unable to change socket config on '%1$s' network type</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ändra uttagskonfigurationen för nätverkstypen '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>unable to change vlan on '%1$s' network type</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det går inte att ändra VLAN för nätverkstypen '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>unexpected state of SASL session</seg></tuv>
+      <tuv xml:lang="sv"><seg>Oväntat tillstånd för SASL-sessionen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>unexpected subnet mask '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Oväntad nätmask '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>unknown IP address family of '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Okänd IP-adressfamilj för '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>unknown latency_histogram type '%1$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Okänd typ av latency_histogram: '%1$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>unknown type ('%1$d') of parameter '%2$s'</seg></tuv>
+      <tuv xml:lang="sv"><seg>Okänd typ ('%1$d') för parametern '%2$s'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>unrecognized nwfilter_driver = '%1$s' set in nwfilter driver config file %2$s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Okänd nwfilter_driver = '%1$s' angiven i konfigurationsfilen för nwfilter-drivrutinen %2$s</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>unsupported nwfilter driver PF</seg></tuv>
+      <tuv xml:lang="sv"><seg>nwfilter-drivrutinen PF stöds inte</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>usb address needs either device id or port</seg></tuv>
+      <tuv xml:lang="sv"><seg>USB-adressen måste ha antingen ett enhets-ID eller en port</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>use of 'VIR_MIGRATE_PARAM_MIGRATE_DISKS_TARGET_ZERO' is not supported by this QEMU</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den här QEMU-versionen stöder inte 'VIR_MIGRATE_PARAM_MIGRATE_DISKS_TARGET_ZERO'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>use of 'VIR_MIGRATE_PARAM_MIGRATE_DISKS_TARGET_ZERO' requires use of 'VIR_MIGRATE_NON_SHARED_DISK' or 'VIR_MIGRATE_NON_SHARED_INC' flag</seg></tuv>
+      <tuv xml:lang="sv"><seg>'VIR_MIGRATE_PARAM_MIGRATE_DISKS_TARGET_ZERO' kräver att flaggan 'VIR_MIGRATE_NON_SHARED_DISK' eller 'VIR_MIGRATE_NON_SHARED_INC' används</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>vTPM requires EFI firmware</seg></tuv>
+      <tuv xml:lang="sv"><seg>vTPM kräver EFI-firmware</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>vTPM requires virtual hardware version 14 or higher</seg></tuv>
+      <tuv xml:lang="sv"><seg>vTPM kräver virtuell maskinvaruversion 14 eller senare</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>virGetUserHomeDirectoryByUID is not available</seg></tuv>
+      <tuv xml:lang="sv"><seg>virGetUserHomeDirectoryByUID är inte tillgänglig</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>virtualization option is not available with this QEMU binary</seg></tuv>
+      <tuv xml:lang="sv"><seg>Virtualiseringsalternativet är inte tillgängligt med den här QEMU-binären</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>volume is missing key</seg></tuv>
+      <tuv xml:lang="sv"><seg>Volymen saknar en nyckel</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>volume is missing name</seg></tuv>
+      <tuv xml:lang="sv"><seg>Volymen saknar ett namn</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>volume is missing target path</seg></tuv>
+      <tuv xml:lang="sv"><seg>Volymen saknar en målsökväg</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>volume with key '%1$s' already exist</seg></tuv>
+      <tuv xml:lang="sv"><seg>En volym med nyckeln '%1$s' finns redan</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">fedora:libvirt-libvirt-sv</prop>
+      <tuv xml:lang="en"><seg>volume with target path '%1$s' already exist</seg></tuv>
+      <tuv xml:lang="sv"><seg>En volym med målsökvägen '%1$s' finns redan</seg></tuv>
+    </tu>
   </body>
 </tmx>
