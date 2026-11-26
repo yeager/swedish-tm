@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 129175
+# Entries: 129251
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -16359,6 +16359,7 @@ msgstr "Gå till nästa flikgrupp"
 
 #. from gnome:gedit
 #. from gnome:reviewed/giara/master
+#. from gnome:reviewed/bazaar/main
 msgid "Editing"
 msgstr "Redigerar"
 
@@ -122025,8 +122026,9 @@ msgid "{0} at average of jumps using {1} applied to {2} on {3}"
 msgstr "{0} vid medel av hopp med {1} tillämpad till {2} på {3}"
 
 #. from gnome:chronojump
+#. from gnome:reviewed/enter-tex/main
 msgid "Index"
-msgstr "Index"
+msgstr "Sakregister"
 
 #. from gnome:chronojump
 msgid "{0} in Rj Evolution applied to {1} on {2}{3}"
@@ -278560,8 +278562,9 @@ msgstr "F:"
 #. from gnome:yelp-xsl
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/gnome-commander/main
+#. from gnome:reviewed/enter-tex/main
 msgid "Bibliography"
-msgstr "Bibliografi"
+msgstr "Referenslista"
 
 #. from gnome:yelp-xsl
 msgid "Bug"
@@ -287121,12 +287124,14 @@ msgstr "QR-kod sparad"
 #. from gnome:reviewed/loupe/main
 #. from gnome:reviewed/Warp Hjälp/main
 #. from gnome:reviewed/GNOME Calculator Hjälp/main
+#. from gnome:reviewed/enter-tex/main
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2009\n"
-"Sebastian Rasmussen <sebras@gmail.com>, 2015\n"
-"Anders Jonsson <anders.jonsson@gmail.com>, 2017, 2018, 2020, 2021, 2023, 2025"
+"Josef Andersson <josef.andersson@fripost.org>, 2016\n"
+"\n"
+"Skicka synpunkter på översättningen till\n"
+"<tp-sv@listor.tp-sv.se>."
 
 #. from gnome:reviewed/gnome-text-editor/main
 msgctxt "link:trail"
@@ -287606,6 +287611,8 @@ msgstr "<primary>Teckentabell</primary>"
 
 #. from gnome:reviewed/gucharmap/unicode-11
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/enter-tex/main
+#. from gnome:reviewed/gnumeric/master/help
 msgid "Introduction"
 msgstr "Introduktion"
 
@@ -652604,3 +652611,528 @@ msgstr "Sluta följa"
 #. from gnome:reviewed/giara/master
 msgid "Follow"
 msgstr "Följ"
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Build Tools"
+msgstr "Byggverktyg"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"The purpose of the build tools is to generate a document in the PDF, DVI or "
+"PS format."
+msgstr ""
+"Syftet med byggverktygen är att generera ett dokument i PDF-, DVI- eller PS-"
+"format."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"Several different tools can be used for a document compilation. There are "
+"some low-level commands, and one higher-level tool: Latexmk."
+msgstr ""
+"Flera olika verktyg kan användas för dokumentkompilering. Det finns några "
+"lågnivåkommandon och ett högnivåverktyg: Latexmk."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Low-level commands"
+msgstr "Lågnivåkommandon"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"Compiling a LaTeX document can involve to execute several low-level "
+"commands, in a certain order and a certain number of times. Here is an "
+"example:"
+msgstr ""
+"Att kompilera ett LaTeX-dokument kan innebära att flera lågnivåkommandon "
+"körs i en viss ordning och ett visst antal gånger. Här är ett exempel:"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"Using a higher-level tool such as Latexmk simplify a lot all this process, "
+"since only one command is required. Indeed, Latexmk can detect how many "
+"times the <cmd>latex</cmd> or <cmd>pdflatex</cmd> command must be called, "
+"and whether <cmd>bibtex</cmd> or <cmd>makeindex</cmd> is required. By "
+"default, <app>Enter TeX</app> uses Latexmk."
+msgstr ""
+"Ett verktyg på högre nivå, som Latexmk, förenklar hela processen avsevärt "
+"eftersom det bara behövs ett kommando. Latexmk kan avgöra hur många gånger "
+"kommandot <cmd>latex</cmd> eller <cmd>pdflatex</cmd> behöver köras och om "
+"<cmd>bibtex</cmd> eller <cmd>makeindex</cmd> behövs. Som standard använder "
+"<app>Enter TeX</app> Latexmk."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Execute a Build Tool"
+msgstr "Kör ett byggverktyg"
+
+#. from gnome:reviewed/enter-tex/main
+msgid "There are several means to execute a build tool:"
+msgstr "Det finns flera sätt att köra ett byggverktyg:"
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Open the <gui style=\"menu\">Build</gui> menu."
+msgstr "Öppna menyn <gui style=\"menu\">Bygg</gui>."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Use the buttons in the main toolbar."
+msgstr "Använd knapparna i huvudverktygsfältet."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Use the shortcut: <key>F2</key> → <key>F11</key>."
+msgstr "Använd genvägen: <key>F2</key> → <key>F11</key>."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"The build tool is executed on the currently opened file. If the file belongs"
+" to a <link xref=\"projects\">project</link>, it is executed on the "
+"project's main file."
+msgstr ""
+"Byggverktyget körs på den öppna filen. Om filen tillhör ett <link "
+"xref=\"projects\">projekt</link> körs verktyget med projektets huvudfil."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Hidden Build Tools"
+msgstr "Dolda byggverktyg"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"By default, a lot of build tools are hidden, so they can't be executed. To "
+"view the full list of build tools, activate or configure them, read the "
+"<link xref=\"#general_configuration\"/> section."
+msgstr ""
+"Många byggverktyg är dolda som standard och kan därför inte köras. Läs "
+"avsnittet <link xref=\"#general_configuration\"/> om hur du visar hela "
+"listan och aktiverar eller konfigurerar verktygen."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "General Configuration"
+msgstr "Allmän konfiguration"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"To configure the build tools, go to: <guiseq> <gui "
+"style=\"menu\">Build</gui> <gui style=\"menu\">Manage Build Tools</gui> "
+"</guiseq>"
+msgstr ""
+"Konfigurera byggverktygen via: <guiseq> <gui style=\"menu\">Bygg</gui> <gui "
+"style=\"menu\">Hantera byggverktyg</gui> </guiseq>"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"You will see the list of all the default build tools, and a second list with"
+" your personal build tools. There are check buttons to enable or disable "
+"them. When a build tool is disabled, it's not possible to execute it. You "
+"can perform some actions, like moving a tool up or down, open its "
+"properties, delete or copy it, create a new one, etc."
+msgstr ""
+"Du ser en lista över standardverktygen och en annan lista över dina egna "
+"byggverktyg. Kryssrutorna används för att aktivera och inaktivera verktygen."
+" Ett inaktiverat byggverktyg kan inte köras. Du kan bland annat flytta "
+"verktyg uppåt eller nedåt, öppna deras egenskaper, ta bort eller kopiera dem"
+" och skapa nya."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Double-click on a build tool will open its properties."
+msgstr "Dubbelklicka på ett byggverktyg för att öppna dess egenskaper."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Jobs of a Build Tool"
+msgstr "Jobb i ett byggverktyg"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"In the properties of a build tool, the tricky part is to configure the jobs."
+" A build tool can execute several jobs. Each job contains two pieces of "
+"information:"
+msgstr ""
+"Det svåraste när du ställer in ett byggverktyg är att konfigurera jobben. "
+"Ett byggverktyg kan köra flera jobb. Varje jobb innehåller två delar:"
+
+#. from gnome:reviewed/enter-tex/main
+msgid "The command, which can use placeholders."
+msgstr "Kommandot som kan använda platshållare."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "The post processor (see <link xref=\"#post-processors\"/>)."
+msgstr "Efterbehandlaren (se <link xref=\"#post-processors\"/>)."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"When an error occurs during a job's execution, the execution of the build "
+"tool is aborted, so the next jobs are not launched."
+msgstr ""
+"Om ett fel uppstår när ett jobb körs avbryts byggverktyget, och "
+"efterföljande jobb startas inte."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Post Processors"
+msgstr "Efterbehandlare"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"The purpose of a post processor is to filter the command output and extract "
+"the useful information. Four post processors are available:"
+msgstr ""
+"Syftet med en efterbehandlare är att filtrera kommandots utdata och ta fram "
+"den användbara informationen. Fyra efterbehandlare finns:"
+
+#. from gnome:reviewed/enter-tex/main
+msgid "The output is simply not displayed."
+msgstr "Utmatningen visas inte."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "All the output is displayed, without filter."
+msgstr "Alla utdata visas utan filtrering."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"Filter the output of the <cmd>latex</cmd> or <cmd>pdflatex</cmd> commands. "
+"There can be three types of errors: critical errors, warnings, or bad boxes."
+" There are also some other useful information: the size of the document, the"
+" number of pages, and the number of errors."
+msgstr ""
+"Filtrera utdata från kommandona <cmd>latex</cmd> eller <cmd>pdflatex</cmd>. "
+"Det kan förekomma tre typer av problem: kritiska fel, varningar samt för "
+"stora eller för små textrutor. Dessutom visas annan användbar information: "
+"dokumentets storlek, antal sidor och antal fel."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"Used for the <cmd>latexmk</cmd> command. Internally, this post processor "
+"uses other ones: <em>latex</em> and <em>all-output</em>."
+msgstr ""
+"Används för kommandot <cmd>latexmk</cmd>. Den här efterbehandlaren använder "
+"i sin tur de andra efterbehandlarna: <em>latex</em> och <em>all-output</em>."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Completion of LaTeX commands"
+msgstr "Komplettering av LaTeX-kommandon"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"The purpose is to facilitate the writing of LaTeX commands, by showing "
+"proposals."
+msgstr ""
+"Syftet är att underlätta skrivandet av LaTeX-kommandon genom att visa "
+"förslag."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Interactive completion"
+msgstr "Interaktiv komplettering"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"By default, when a LaTeX command is typed, proposals will be shown after two"
+" characters. This can be configured in the preferences dialog: <guiseq> <gui"
+" style=\"menu\">Edit</gui> <gui style=\"menu\">Preferences</gui> <gui "
+"style=\"tab\">Other</gui> </guiseq>"
+msgstr ""
+"Som standard visas förslag när du har skrivit två tecken i ett LaTeX-"
+"kommando. Du kan ändra detta i inställningsdialogen: <guiseq> <gui "
+"style=\"menu\">Redigera</gui> <gui style=\"menu\">Inställningar</gui> <gui "
+"style=\"tab\">Övriga</gui> </guiseq>"
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Manual completion"
+msgstr "Manuell komplettering"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"At any time, press <keyseq> <key>Ctrl</key> <key>Space</key> </keyseq> to "
+"show proposals."
+msgstr ""
+"Tryck när som helst på <keyseq> <key>Ctrl</key> <key>Blanksteg</key> "
+"</keyseq> för att visa förslag."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Enter TeX Help"
+msgstr "Hjälp för Enter TeX"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"When a LaTeX document is split into several *.tex files, creating a project "
+"is useful."
+msgstr ""
+"Det är praktiskt att skapa ett projekt när ett LaTeX-dokument är uppdelat på"
+" flera *.tex-filer."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Manage projects"
+msgstr "Hantera projekt"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"All actions related to projects are located in the <gui "
+"style=\"menu\">Projects</gui> menu. A project contains only two pieces of "
+"information:"
+msgstr ""
+"Alla projektåtgärder finns i menyn <gui style=\"menu\">Projekt</gui>. Ett "
+"projekt innehåller bara två uppgifter:"
+
+#. from gnome:reviewed/enter-tex/main
+msgid "The directory where the project is located."
+msgstr "Katalogen där projektet finns."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "The main *.tex file."
+msgstr "Huvudfilen (*.tex)."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"As a consequence, a directory can contain only one project, which is quite "
+"logical."
+msgstr "Därför kan en katalog bara innehålla ett projekt, vilket är logiskt."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Usefulness of projects"
+msgstr "Nyttan med projekt"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"A <link xref=\"build_tools\">build tool</link> is executed on the project's "
+"main file."
+msgstr ""
+"Ett <link xref=\"build_tools\">byggverktyg</link> körs med projektets "
+"huvudfil."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"<link xref=\"synctex#from_tex_to_pdf\">Jumping from a .tex file to the "
+"PDF</link> works for a secondary .tex file belonging to a project."
+msgstr ""
+"<link xref=\"synctex#from_tex_to_pdf\">Hopp från en .tex-fil till PDF-"
+"filen</link> fungerar för en sekundär .tex-fil som tillhör ett projekt."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Spell-Checking"
+msgstr "Stavningskontroll"
+
+#. from gnome:reviewed/enter-tex/main
+msgid "The purpose is to correct spelling mistakes easily."
+msgstr "Syftet är att enkelt rätta felstavningar."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Use the spell-checking"
+msgstr "Använd stavningskontrollen"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"The default spell-checking settings can be changed in the preferences "
+"dialog: <guiseq> <gui style=\"menu\">Edit</gui> <gui "
+"style=\"menu\">Preferences</gui> <gui style=\"tab\">Other</gui> </guiseq>"
+msgstr ""
+"Du kan ändra standardinställningarna för stavningskontrollen i "
+"inställningsdialogen: <guiseq> <gui style=\"menu\">Redigera</gui> <gui "
+"style=\"menu\">Inställningar</gui> <gui style=\"tab\">Övriga</gui> </guiseq>"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"The settings can also be changed on a file-by-file basis via the <gui "
+"style=\"menu\">Tools</gui> menu."
+msgstr ""
+"Du kan också ändra inställningarna för varje fil via menyn <gui "
+"style=\"menu\">Verktyg</gui>."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"If you activate the <gui style=\"menu\">Highlight Misspelled Words</gui> "
+"option, the misspelled words will be underlined in red in the document. A "
+"right click on a misspelled word will show proposals."
+msgstr ""
+"Om du aktiverar <gui style=\"menu\">Markera felstavade ord</gui> markeras "
+"felstavade ord med röd understrykning i dokumentet. Högerklicka på ett "
+"felstavat ord för att visa förslag."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Dictionaries"
+msgstr "Ordlistor"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"<link href=\"https://gitlab.gnome.org/GNOME/gspell\">gspell</link> is used "
+"for the spell-checking in <app>Enter TeX</app>. gspell uses <link "
+"href=\"https://rrthomas.github.io/enchant/\">Enchant</link>, which in turn "
+"supports several backends such as Hunspell or Aspell for the dictionaries. "
+"The Aspell backend doesn't work well with gspell, Hunspell is preferred. If "
+"dictionaries for both Aspell and Hunspell are installed for the same "
+"language, by default Enchant prefers the Hunspell one."
+msgstr ""
+"<link href=\"https://gitlab.gnome.org/GNOME/gspell\">gspell</link> används "
+"för stavningskontroll i <app>Enter TeX</app>. gspell använder <link "
+"href=\"https://rrthomas.github.io/enchant/\">Enchant</link>, som stöder "
+"flera bakändar för ordlistor, till exempel Hunspell och Aspell. Aspells "
+"bakände fungerar inte så bra med gspell, så Hunspell rekommenderas. Om det "
+"finns ordlistor för både Aspell och Hunspell för samma språk väljer Enchant "
+"som standard Hunspell-ordlistan."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"If your language is not listed in <app>Enter TeX</app>, install a dictionary"
+" for one of the supported Enchant backends (for most languages the best "
+"choice is to install an Hunspell dictionary)."
+msgstr ""
+"Om ditt språk inte finns i <app>Enter TeX</app> installerar du en ordlista "
+"för någon av Enchants bakändar (för de flesta språk är en Hunspell-ordlista "
+"bäst)."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Document's Structure"
+msgstr "Dokumentets struktur"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"The list of chapters, sections, sub-sections and other things like tables, "
+"figures, … of a document, to easily navigate in it."
+msgstr ""
+"En lista över dokumentets kapitel, avsnitt, underavsnitt och andra delar, "
+"till exempel tabeller och figurer, som gör det enklare att navigera i "
+"dokumentet."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Display the structure"
+msgstr "Visa strukturen"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"The structure can be displayed in the side panel. If the side panel is "
+"hidden, go to <guiseq> <gui style=\"menu\">View</gui> <gui "
+"style=\"menu\">Side panel</gui> </guiseq>."
+msgstr ""
+"Strukturen kan visas i sidopanelen. Om sidopanelen är dold, gå till <guiseq>"
+" <gui style=\"menu\">Visa</gui> <gui style=\"menu\">Sidopanel</gui> "
+"</guiseq>."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"The structure's content is not automatically updated. That's why there is a "
+"refresh button. If text is inserted in the document, the position of an item"
+" (e.g. a section) remains correct, as far as the item is still there, and is"
+" not modified."
+msgstr ""
+"Dokumentets struktur uppdateras inte automatiskt, därför finns det en "
+"uppdateringsknapp. Om du infogar text i dokumentet behåller ett objekt (till"
+" exempel ett avsnitt) sin position, så länge objektet finns kvar och inte "
+"har ändrats."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"Some actions such as \"cut\", \"copy\" or \"comment\" can be performed on a "
+"structure's item. Either by a right click, or via the <gui "
+"style=\"menu\">Structure</gui> menu."
+msgstr ""
+"Du kan klippa ut, kopiera eller kommentera ett objekt i strukturen genom att"
+" högerklicka på det eller använda menyn <gui style=\"menu\">Struktur</gui>."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "TODOs and FIXMEs"
+msgstr "TODO- och FIXME-kommentarer"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"It can be useful to add TODOs and FIXMEs comments in the document. They will"
+" be displayed in the structure. Example:"
+msgstr ""
+"Det kan vara praktiskt att lägga till TODO- och FIXME-kommentarer i "
+"dokumentet. De visas i strukturen. Exempel:"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"\n"
+"%TODO a remaining task\n"
+"%FIXME something is broken"
+msgstr ""
+"\n"
+"%TODO en återstående uppgift\n"
+"%FIXME något är trasigt"
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Jumping Between .tex and PDF"
+msgstr "Hoppa mellan .tex och PDF"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"Jumping between the document's *.tex files and the resulting PDF output, "
+"opened with the <app>Evince</app> document viewer."
+msgstr ""
+"Gå mellan dokumentets *.tex-filer och den resulterande PDF-filen, som öppnas"
+" i dokumentvisaren <app>Evince</app>."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"For more information, read the <link "
+"href=\"help:evince#synctex\"><app>Evince</app> documentation</link>."
+msgstr ""
+"Mer information finns i <link "
+"href=\"help:evince#synctex\"><app>Evince</app>-dokumentationen</link>."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Jumping from .tex to PDF"
+msgstr "Hoppa från .tex till PDF"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"From a certain position in the .tex source file, jump to the corresponding "
+"position in the PDF file. Also called “forward search”."
+msgstr ""
+"Gå från en viss position i .tex-källfilen till motsvarande position i PDF-"
+"filen. Detta kallas även ”framåtsökning”."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "There are different ways to do this action:"
+msgstr "Det finns flera sätt att göra detta:"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"In the menu: <guiseq> <gui style=\"menu\">Search</gui> <gui "
+"style=\"menu\">Jump to PDF</gui> </guiseq>"
+msgstr ""
+"I menyn: <guiseq> <gui style=\"menu\">Sök</gui> <gui style=\"menu\">Hoppa "
+"till PDF</gui> </guiseq>"
+
+#. from gnome:reviewed/enter-tex/main
+msgid "By pressing <keyseq> <key>Ctrl</key> <key>left click</key> </keyseq>"
+msgstr ""
+"Genom att trycka på <keyseq> <key>Ctrl</key> <key>vänsterklick</key> "
+"</keyseq>"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"If a document is split into several .tex files, create a <link "
+"xref=\"projects\">project</link>. Unlike what is explained in the <link "
+"href=\"help:evince/synctex-search#forward-search\"><app>Evince</app> "
+"documentation</link>, there is no need to mention the main file with a LaTeX"
+" comment in each secondary .tex file."
+msgstr ""
+"Om dokumentet är uppdelat på flera .tex-filer skapar du ett <link "
+"xref=\"projects\">projekt</link>. Till skillnad från vad som står i <link "
+"href=\"help:evince/synctex-search#forward-"
+"search\"><app>Evince</app>-dokumentationen</link> behöver du inte ange "
+"huvudfilen med en LaTeX-kommentar i varje underordnad .tex-fil."
+
+#. from gnome:reviewed/enter-tex/main
+msgid "Jumping from PDF to .tex"
+msgstr "Hoppa från PDF till .tex"
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"From a certain position in the PDF file, jump to the corresponding position "
+"in the .tex source file. Also called “backward search”."
+msgstr ""
+"Gå från en viss position i PDF-filen till motsvarande position i .tex-"
+"källfilen. Detta kallas även ”bakåtsökning”."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"In <app>Evince</app>, press <keyseq> <key>Ctrl</key> <key>left click</key> "
+"</keyseq>, and the corresponding position in the .tex file will be opened in"
+" <app>Enter TeX</app>."
+msgstr ""
+"I <app>Evince</app> trycker du på <keyseq> <key>Ctrl</key> "
+"<key>vänsterklick</key> </keyseq> för att öppna motsvarande position i .tex-"
+"filen i <app>Enter TeX</app>."
+
+#. from gnome:reviewed/enter-tex/main
+msgid ""
+"<app>Evince</app> has to be launched by <app>Enter TeX</app>. Else, jumping "
+"from the PDF to the .tex file will not work."
+msgstr ""
+"<app>Evince</app> måste startas från <app>Enter TeX</app>. Annars fungerar "
+"det inte att gå från PDF-filen till .tex-filen."

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261126T053040Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261126T053648Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -151710,7 +151710,7 @@ exempelvis: ”test.csv”</seg></tuv>
     <tu>
       <prop type="project">gnome:chronojump</prop>
       <tuv xml:lang="en"><seg>Index</seg></tuv>
-      <tuv xml:lang="sv"><seg>Index</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sakregister</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:chronojump</prop>
@@ -347458,7 +347458,7 @@ Exempel:
     <tu>
       <prop type="project">gnome:yelp-xsl</prop>
       <tuv xml:lang="en"><seg>Bibliography</seg></tuv>
-      <tuv xml:lang="sv"><seg>Bibliografi</seg></tuv>
+      <tuv xml:lang="sv"><seg>Referenslista</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:yelp-xsl</prop>
@@ -358186,9 +358186,10 @@ Rapportera fel till: %s
     <tu>
       <prop type="project">gnome:reviewed/gnome-text-editor/main</prop>
       <tuv xml:lang="en"><seg>translator-credits</seg></tuv>
-      <tuv xml:lang="sv"><seg>Daniel Nylander &lt;po@danielnylander.se&gt;, 2006, 2007, 2009
-Sebastian Rasmussen &lt;sebras@gmail.com&gt;, 2015
-Anders Jonsson &lt;anders.jonsson@gmail.com&gt;, 2017, 2018, 2020, 2021, 2023, 2025</seg></tuv>
+      <tuv xml:lang="sv"><seg>Josef Andersson &lt;josef.andersson@fripost.org&gt;, 2016
+
+Skicka synpunkter på översättningen till
+&lt;tp-sv@listor.tp-sv.se&gt;.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gnome-text-editor/main</prop>
@@ -664089,6 +664090,390 @@ Miniatyrbilder kommer i stället att lagras i mappen för temporärfiler (%s).</
       <prop type="project">gnome:reviewed/giara/master</prop>
       <tuv xml:lang="en"><seg>Follow</seg></tuv>
       <tuv xml:lang="sv"><seg>Följ</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Build Tools</seg></tuv>
+      <tuv xml:lang="sv"><seg>Byggverktyg</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The purpose of the build tools is to generate a document in the PDF, DVI or PS format.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Syftet med byggverktygen är att generera ett dokument i PDF-, DVI- eller PS-format.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Several different tools can be used for a document compilation. There are some low-level commands, and one higher-level tool: Latexmk.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Flera olika verktyg kan användas för dokumentkompilering. Det finns några lågnivåkommandon och ett högnivåverktyg: Latexmk.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Low-level commands</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lågnivåkommandon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Compiling a LaTeX document can involve to execute several low-level commands, in a certain order and a certain number of times. Here is an example:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Att kompilera ett LaTeX-dokument kan innebära att flera lågnivåkommandon körs i en viss ordning och ett visst antal gånger. Här är ett exempel:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Using a higher-level tool such as Latexmk simplify a lot all this process, since only one command is required. Indeed, Latexmk can detect how many times the &lt;cmd&gt;latex&lt;/cmd&gt; or &lt;cmd&gt;pdflatex&lt;/cmd&gt; command must be called, and whether &lt;cmd&gt;bibtex&lt;/cmd&gt; or &lt;cmd&gt;makeindex&lt;/cmd&gt; is required. By default, &lt;app&gt;Enter TeX&lt;/app&gt; uses Latexmk.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett verktyg på högre nivå, som Latexmk, förenklar hela processen avsevärt eftersom det bara behövs ett kommando. Latexmk kan avgöra hur många gånger kommandot &lt;cmd&gt;latex&lt;/cmd&gt; eller &lt;cmd&gt;pdflatex&lt;/cmd&gt; behöver köras och om &lt;cmd&gt;bibtex&lt;/cmd&gt; eller &lt;cmd&gt;makeindex&lt;/cmd&gt; behövs. Som standard använder &lt;app&gt;Enter TeX&lt;/app&gt; Latexmk.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Execute a Build Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kör ett byggverktyg</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>There are several means to execute a build tool:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det finns flera sätt att köra ett byggverktyg:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Open the &lt;gui style="menu"&gt;Build&lt;/gui&gt; menu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Öppna menyn &lt;gui style="menu"&gt;Bygg&lt;/gui&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Use the buttons in the main toolbar.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd knapparna i huvudverktygsfältet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Use the shortcut: &lt;key&gt;F2&lt;/key&gt; → &lt;key&gt;F11&lt;/key&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd genvägen: &lt;key&gt;F2&lt;/key&gt; → &lt;key&gt;F11&lt;/key&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The build tool is executed on the currently opened file. If the file belongs to a &lt;link xref="projects"&gt;project&lt;/link&gt;, it is executed on the project's main file.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Byggverktyget körs på den öppna filen. Om filen tillhör ett &lt;link xref="projects"&gt;projekt&lt;/link&gt; körs verktyget med projektets huvudfil.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Hidden Build Tools</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dolda byggverktyg</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>By default, a lot of build tools are hidden, so they can't be executed. To view the full list of build tools, activate or configure them, read the &lt;link xref="#general_configuration"/&gt; section.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Många byggverktyg är dolda som standard och kan därför inte köras. Läs avsnittet &lt;link xref="#general_configuration"/&gt; om hur du visar hela listan och aktiverar eller konfigurerar verktygen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>General Configuration</seg></tuv>
+      <tuv xml:lang="sv"><seg>Allmän konfiguration</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>To configure the build tools, go to: &lt;guiseq&gt; &lt;gui style="menu"&gt;Build&lt;/gui&gt; &lt;gui style="menu"&gt;Manage Build Tools&lt;/gui&gt; &lt;/guiseq&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Konfigurera byggverktygen via: &lt;guiseq&gt; &lt;gui style="menu"&gt;Bygg&lt;/gui&gt; &lt;gui style="menu"&gt;Hantera byggverktyg&lt;/gui&gt; &lt;/guiseq&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>You will see the list of all the default build tools, and a second list with your personal build tools. There are check buttons to enable or disable them. When a build tool is disabled, it's not possible to execute it. You can perform some actions, like moving a tool up or down, open its properties, delete or copy it, create a new one, etc.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du ser en lista över standardverktygen och en annan lista över dina egna byggverktyg. Kryssrutorna används för att aktivera och inaktivera verktygen. Ett inaktiverat byggverktyg kan inte köras. Du kan bland annat flytta verktyg uppåt eller nedåt, öppna deras egenskaper, ta bort eller kopiera dem och skapa nya.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Double-click on a build tool will open its properties.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dubbelklicka på ett byggverktyg för att öppna dess egenskaper.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Jobs of a Build Tool</seg></tuv>
+      <tuv xml:lang="sv"><seg>Jobb i ett byggverktyg</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>In the properties of a build tool, the tricky part is to configure the jobs. A build tool can execute several jobs. Each job contains two pieces of information:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det svåraste när du ställer in ett byggverktyg är att konfigurera jobben. Ett byggverktyg kan köra flera jobb. Varje jobb innehåller två delar:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The command, which can use placeholders.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandot som kan använda platshållare.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The post processor (see &lt;link xref="#post-processors"/&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Efterbehandlaren (se &lt;link xref="#post-processors"/&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>When an error occurs during a job's execution, the execution of the build tool is aborted, so the next jobs are not launched.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om ett fel uppstår när ett jobb körs avbryts byggverktyget, och efterföljande jobb startas inte.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Post Processors</seg></tuv>
+      <tuv xml:lang="sv"><seg>Efterbehandlare</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The purpose of a post processor is to filter the command output and extract the useful information. Four post processors are available:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Syftet med en efterbehandlare är att filtrera kommandots utdata och ta fram den användbara informationen. Fyra efterbehandlare finns:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The output is simply not displayed.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utmatningen visas inte.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>All the output is displayed, without filter.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alla utdata visas utan filtrering.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Filter the output of the &lt;cmd&gt;latex&lt;/cmd&gt; or &lt;cmd&gt;pdflatex&lt;/cmd&gt; commands. There can be three types of errors: critical errors, warnings, or bad boxes. There are also some other useful information: the size of the document, the number of pages, and the number of errors.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filtrera utdata från kommandona &lt;cmd&gt;latex&lt;/cmd&gt; eller &lt;cmd&gt;pdflatex&lt;/cmd&gt;. Det kan förekomma tre typer av problem: kritiska fel, varningar samt för stora eller för små textrutor. Dessutom visas annan användbar information: dokumentets storlek, antal sidor och antal fel.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Used for the &lt;cmd&gt;latexmk&lt;/cmd&gt; command. Internally, this post processor uses other ones: &lt;em&gt;latex&lt;/em&gt; and &lt;em&gt;all-output&lt;/em&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Används för kommandot &lt;cmd&gt;latexmk&lt;/cmd&gt;. Den här efterbehandlaren använder i sin tur de andra efterbehandlarna: &lt;em&gt;latex&lt;/em&gt; och &lt;em&gt;all-output&lt;/em&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Completion of LaTeX commands</seg></tuv>
+      <tuv xml:lang="sv"><seg>Komplettering av LaTeX-kommandon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The purpose is to facilitate the writing of LaTeX commands, by showing proposals.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Syftet är att underlätta skrivandet av LaTeX-kommandon genom att visa förslag.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Interactive completion</seg></tuv>
+      <tuv xml:lang="sv"><seg>Interaktiv komplettering</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>By default, when a LaTeX command is typed, proposals will be shown after two characters. This can be configured in the preferences dialog: &lt;guiseq&gt; &lt;gui style="menu"&gt;Edit&lt;/gui&gt; &lt;gui style="menu"&gt;Preferences&lt;/gui&gt; &lt;gui style="tab"&gt;Other&lt;/gui&gt; &lt;/guiseq&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Som standard visas förslag när du har skrivit två tecken i ett LaTeX-kommando. Du kan ändra detta i inställningsdialogen: &lt;guiseq&gt; &lt;gui style="menu"&gt;Redigera&lt;/gui&gt; &lt;gui style="menu"&gt;Inställningar&lt;/gui&gt; &lt;gui style="tab"&gt;Övriga&lt;/gui&gt; &lt;/guiseq&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Manual completion</seg></tuv>
+      <tuv xml:lang="sv"><seg>Manuell komplettering</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>At any time, press &lt;keyseq&gt; &lt;key&gt;Ctrl&lt;/key&gt; &lt;key&gt;Space&lt;/key&gt; &lt;/keyseq&gt; to show proposals.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tryck när som helst på &lt;keyseq&gt; &lt;key&gt;Ctrl&lt;/key&gt; &lt;key&gt;Blanksteg&lt;/key&gt; &lt;/keyseq&gt; för att visa förslag.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Enter TeX Help</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hjälp för Enter TeX</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>When a LaTeX document is split into several *.tex files, creating a project is useful.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det är praktiskt att skapa ett projekt när ett LaTeX-dokument är uppdelat på flera *.tex-filer.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Manage projects</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hantera projekt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>All actions related to projects are located in the &lt;gui style="menu"&gt;Projects&lt;/gui&gt; menu. A project contains only two pieces of information:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alla projektåtgärder finns i menyn &lt;gui style="menu"&gt;Projekt&lt;/gui&gt;. Ett projekt innehåller bara två uppgifter:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The directory where the project is located.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Katalogen där projektet finns.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The main *.tex file.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Huvudfilen (*.tex).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>As a consequence, a directory can contain only one project, which is quite logical.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Därför kan en katalog bara innehålla ett projekt, vilket är logiskt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Usefulness of projects</seg></tuv>
+      <tuv xml:lang="sv"><seg>Nyttan med projekt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>A &lt;link xref="build_tools"&gt;build tool&lt;/link&gt; is executed on the project's main file.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett &lt;link xref="build_tools"&gt;byggverktyg&lt;/link&gt; körs med projektets huvudfil.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>&lt;link xref="synctex#from_tex_to_pdf"&gt;Jumping from a .tex file to the PDF&lt;/link&gt; works for a secondary .tex file belonging to a project.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;link xref="synctex#from_tex_to_pdf"&gt;Hopp från en .tex-fil till PDF-filen&lt;/link&gt; fungerar för en sekundär .tex-fil som tillhör ett projekt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Spell-Checking</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stavningskontroll</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The purpose is to correct spelling mistakes easily.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Syftet är att enkelt rätta felstavningar.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Use the spell-checking</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd stavningskontrollen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The default spell-checking settings can be changed in the preferences dialog: &lt;guiseq&gt; &lt;gui style="menu"&gt;Edit&lt;/gui&gt; &lt;gui style="menu"&gt;Preferences&lt;/gui&gt; &lt;gui style="tab"&gt;Other&lt;/gui&gt; &lt;/guiseq&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan ändra standardinställningarna för stavningskontrollen i inställningsdialogen: &lt;guiseq&gt; &lt;gui style="menu"&gt;Redigera&lt;/gui&gt; &lt;gui style="menu"&gt;Inställningar&lt;/gui&gt; &lt;gui style="tab"&gt;Övriga&lt;/gui&gt; &lt;/guiseq&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The settings can also be changed on a file-by-file basis via the &lt;gui style="menu"&gt;Tools&lt;/gui&gt; menu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också ändra inställningarna för varje fil via menyn &lt;gui style="menu"&gt;Verktyg&lt;/gui&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>If you activate the &lt;gui style="menu"&gt;Highlight Misspelled Words&lt;/gui&gt; option, the misspelled words will be underlined in red in the document. A right click on a misspelled word will show proposals.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du aktiverar &lt;gui style="menu"&gt;Markera felstavade ord&lt;/gui&gt; markeras felstavade ord med röd understrykning i dokumentet. Högerklicka på ett felstavat ord för att visa förslag.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Dictionaries</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ordlistor</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>&lt;link href="https://gitlab.gnome.org/GNOME/gspell"&gt;gspell&lt;/link&gt; is used for the spell-checking in &lt;app&gt;Enter TeX&lt;/app&gt;. gspell uses &lt;link href="https://rrthomas.github.io/enchant/"&gt;Enchant&lt;/link&gt;, which in turn supports several backends such as Hunspell or Aspell for the dictionaries. The Aspell backend doesn't work well with gspell, Hunspell is preferred. If dictionaries for both Aspell and Hunspell are installed for the same language, by default Enchant prefers the Hunspell one.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;link href="https://gitlab.gnome.org/GNOME/gspell"&gt;gspell&lt;/link&gt; används för stavningskontroll i &lt;app&gt;Enter TeX&lt;/app&gt;. gspell använder &lt;link href="https://rrthomas.github.io/enchant/"&gt;Enchant&lt;/link&gt;, som stöder flera bakändar för ordlistor, till exempel Hunspell och Aspell. Aspells bakände fungerar inte så bra med gspell, så Hunspell rekommenderas. Om det finns ordlistor för både Aspell och Hunspell för samma språk väljer Enchant som standard Hunspell-ordlistan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>If your language is not listed in &lt;app&gt;Enter TeX&lt;/app&gt;, install a dictionary for one of the supported Enchant backends (for most languages the best choice is to install an Hunspell dictionary).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om ditt språk inte finns i &lt;app&gt;Enter TeX&lt;/app&gt; installerar du en ordlista för någon av Enchants bakändar (för de flesta språk är en Hunspell-ordlista bäst).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Document's Structure</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dokumentets struktur</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The list of chapters, sections, sub-sections and other things like tables, figures, … of a document, to easily navigate in it.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En lista över dokumentets kapitel, avsnitt, underavsnitt och andra delar, till exempel tabeller och figurer, som gör det enklare att navigera i dokumentet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Display the structure</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visa strukturen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The structure can be displayed in the side panel. If the side panel is hidden, go to &lt;guiseq&gt; &lt;gui style="menu"&gt;View&lt;/gui&gt; &lt;gui style="menu"&gt;Side panel&lt;/gui&gt; &lt;/guiseq&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Strukturen kan visas i sidopanelen. Om sidopanelen är dold, gå till &lt;guiseq&gt; &lt;gui style="menu"&gt;Visa&lt;/gui&gt; &lt;gui style="menu"&gt;Sidopanel&lt;/gui&gt; &lt;/guiseq&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>The structure's content is not automatically updated. That's why there is a refresh button. If text is inserted in the document, the position of an item (e.g. a section) remains correct, as far as the item is still there, and is not modified.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dokumentets struktur uppdateras inte automatiskt, därför finns det en uppdateringsknapp. Om du infogar text i dokumentet behåller ett objekt (till exempel ett avsnitt) sin position, så länge objektet finns kvar och inte har ändrats.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Some actions such as "cut", "copy" or "comment" can be performed on a structure's item. Either by a right click, or via the &lt;gui style="menu"&gt;Structure&lt;/gui&gt; menu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan klippa ut, kopiera eller kommentera ett objekt i strukturen genom att högerklicka på det eller använda menyn &lt;gui style="menu"&gt;Struktur&lt;/gui&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>TODOs and FIXMEs</seg></tuv>
+      <tuv xml:lang="sv"><seg>TODO- och FIXME-kommentarer</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>It can be useful to add TODOs and FIXMEs comments in the document. They will be displayed in the structure. Example:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det kan vara praktiskt att lägga till TODO- och FIXME-kommentarer i dokumentet. De visas i strukturen. Exempel:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>
+%TODO a remaining task
+%FIXME something is broken</seg></tuv>
+      <tuv xml:lang="sv"><seg>
+%TODO en återstående uppgift
+%FIXME något är trasigt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Jumping Between .tex and PDF</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hoppa mellan .tex och PDF</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Jumping between the document's *.tex files and the resulting PDF output, opened with the &lt;app&gt;Evince&lt;/app&gt; document viewer.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gå mellan dokumentets *.tex-filer och den resulterande PDF-filen, som öppnas i dokumentvisaren &lt;app&gt;Evince&lt;/app&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>For more information, read the &lt;link href="help:evince#synctex"&gt;&lt;app&gt;Evince&lt;/app&gt; documentation&lt;/link&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Mer information finns i &lt;link href="help:evince#synctex"&gt;&lt;app&gt;Evince&lt;/app&gt;-dokumentationen&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Jumping from .tex to PDF</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hoppa från .tex till PDF</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>From a certain position in the .tex source file, jump to the corresponding position in the PDF file. Also called “forward search”.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gå från en viss position i .tex-källfilen till motsvarande position i PDF-filen. Detta kallas även ”framåtsökning”.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>There are different ways to do this action:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det finns flera sätt att göra detta:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>In the menu: &lt;guiseq&gt; &lt;gui style="menu"&gt;Search&lt;/gui&gt; &lt;gui style="menu"&gt;Jump to PDF&lt;/gui&gt; &lt;/guiseq&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>I menyn: &lt;guiseq&gt; &lt;gui style="menu"&gt;Sök&lt;/gui&gt; &lt;gui style="menu"&gt;Hoppa till PDF&lt;/gui&gt; &lt;/guiseq&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>By pressing &lt;keyseq&gt; &lt;key&gt;Ctrl&lt;/key&gt; &lt;key&gt;left click&lt;/key&gt; &lt;/keyseq&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Genom att trycka på &lt;keyseq&gt; &lt;key&gt;Ctrl&lt;/key&gt; &lt;key&gt;vänsterklick&lt;/key&gt; &lt;/keyseq&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>If a document is split into several .tex files, create a &lt;link xref="projects"&gt;project&lt;/link&gt;. Unlike what is explained in the &lt;link href="help:evince/synctex-search#forward-search"&gt;&lt;app&gt;Evince&lt;/app&gt; documentation&lt;/link&gt;, there is no need to mention the main file with a LaTeX comment in each secondary .tex file.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om dokumentet är uppdelat på flera .tex-filer skapar du ett &lt;link xref="projects"&gt;projekt&lt;/link&gt;. Till skillnad från vad som står i &lt;link href="help:evince/synctex-search#forward-search"&gt;&lt;app&gt;Evince&lt;/app&gt;-dokumentationen&lt;/link&gt; behöver du inte ange huvudfilen med en LaTeX-kommentar i varje underordnad .tex-fil.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>Jumping from PDF to .tex</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hoppa från PDF till .tex</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>From a certain position in the PDF file, jump to the corresponding position in the .tex source file. Also called “backward search”.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gå från en viss position i PDF-filen till motsvarande position i .tex-källfilen. Detta kallas även ”bakåtsökning”.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>In &lt;app&gt;Evince&lt;/app&gt;, press &lt;keyseq&gt; &lt;key&gt;Ctrl&lt;/key&gt; &lt;key&gt;left click&lt;/key&gt; &lt;/keyseq&gt;, and the corresponding position in the .tex file will be opened in &lt;app&gt;Enter TeX&lt;/app&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I &lt;app&gt;Evince&lt;/app&gt; trycker du på &lt;keyseq&gt; &lt;key&gt;Ctrl&lt;/key&gt; &lt;key&gt;vänsterklick&lt;/key&gt; &lt;/keyseq&gt; för att öppna motsvarande position i .tex-filen i &lt;app&gt;Enter TeX&lt;/app&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/enter-tex/main</prop>
+      <tuv xml:lang="en"><seg>&lt;app&gt;Evince&lt;/app&gt; has to be launched by &lt;app&gt;Enter TeX&lt;/app&gt;. Else, jumping from the PDF to the .tex file will not work.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;app&gt;Evince&lt;/app&gt; måste startas från &lt;app&gt;Enter TeX&lt;/app&gt;. Annars fungerar det inte att gå från PDF-filen till .tex-filen.</seg></tuv>
     </tu>
   </body>
 </tmx>
