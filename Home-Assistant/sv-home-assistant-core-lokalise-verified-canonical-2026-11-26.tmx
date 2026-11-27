@@ -16220,62 +16220,10 @@ Om begränsningen är avsiktlig kan du ignorera det här meddelandet.</seg></tuv
     <tu tuid="lokalise:6449487938"><prop type="source">component::pooldose::entity::sensor::orp_type_dosing::name</prop><prop type="lokalise-key-id">701475670</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; reference aliases checked against live targets</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>ORP dosing type</seg></tuv><tuv xml:lang="sv"><seg>ORP-doseringstyp</seg></tuv></tu>
     <tu tuid="lokalise:7005957085"><prop type="source">component::pooldose::entity::sensor::ofa_orp_time::name</prop><prop type="lokalise-key-id">752126899</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Home Assistant Core source checked</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>ORP overfeed alert time</seg></tuv><tuv xml:lang="sv"><seg>Larmtid för ORP-överdosering</seg></tuv></tu>
     <tu tuid="lokalise:7005957149"><prop type="source">component::pooldose::entity::sensor::ofa_ph_time::name</prop><prop type="lokalise-key-id">752126900</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Home Assistant Core source checked</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>pH overfeed alert time</seg></tuv><tuv xml:lang="sv"><seg>Larmtid för pH-överdosering</seg></tuv></tu>
-    <tu tuid="lokalise:8034864301">
-      <prop type="source">component::pooldose::entity::number::flow_delay_timer::name</prop>
-      <prop type="lokalise-key-id">822808369</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API exact-key/source read before write and live readback after row review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Flow delay timer</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Fördröjning efter flödesavkänning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8034864429">
-      <prop type="source">component::pooldose::entity::number::time_off_cl_dosing::name</prop>
-      <prop type="lokalise-key-id">822808371</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API exact-key/source read before write and live readback after row review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Chlorine dosing off-time</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Paustid mellan klordoseringscykler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8034864493">
-      <prop type="source">component::pooldose::entity::number::time_off_orp_dosing::name</prop>
-      <prop type="lokalise-key-id">822808372</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API exact-key/source read before write and live readback after row review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>ORP dosing off-time</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Paustid mellan ORP-doseringscykler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8034864557">
-      <prop type="source">component::pooldose::entity::number::time_off_ph_dosing::name</prop>
-      <prop type="lokalise-key-id">822808373</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API exact-key/source read before write and live readback after row review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>pH dosing off-time</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Paustid mellan pH-doseringscykler</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8034864301"><prop type="source">component::pooldose::entity::number::flow_delay_timer::name</prop><prop type="lokalise-key-id">822808369</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Flow delay timer</seg></tuv><tuv xml:lang="sv"><seg>Fördröjning efter flödesavkänning</seg></tuv></tu>
+    <tu tuid="lokalise:8034864429"><prop type="source">component::pooldose::entity::number::time_off_cl_dosing::name</prop><prop type="lokalise-key-id">822808371</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Chlorine dosing off-time</seg></tuv><tuv xml:lang="sv"><seg>Paustid mellan klordoseringscykler</seg></tuv></tu>
+    <tu tuid="lokalise:8034864493"><prop type="source">component::pooldose::entity::number::time_off_orp_dosing::name</prop><prop type="lokalise-key-id">822808372</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>ORP dosing off-time</seg></tuv><tuv xml:lang="sv"><seg>Paustid mellan ORP-doseringscykler</seg></tuv></tu>
+    <tu tuid="lokalise:8034864557"><prop type="source">component::pooldose::entity::number::time_off_ph_dosing::name</prop><prop type="lokalise-key-id">822808373</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>pH dosing off-time</seg></tuv><tuv xml:lang="sv"><seg>Paustid mellan pH-doseringscykler</seg></tuv></tu>
     <tu tuid="lokalise:8016674789">
       <prop type="source">component::air_quality::selector::trigger_behavior::options::any</prop>
       <prop type="lokalise-key-id">821343508</prop>
@@ -16296,48 +16244,9 @@ Om begränsningen är avsiktlig kan du ignorera det här meddelandet.</seg></tuv
     <tu tuid="lokalise:7215600021"><prop type="source">component::pooldose::entity::number::ofa_orp_upper::name</prop><prop type="lokalise-key-id">766455725</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>ORP overfeed alarm upper limit</seg></tuv><tuv xml:lang="sv"><seg>Övre gräns för larm vid ORP-överdosering</seg></tuv></tu>
     <tu tuid="lokalise:7215600085"><prop type="source">component::pooldose::entity::number::ofa_ph_lower::name</prop><prop type="lokalise-key-id">766455726</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>pH overfeed alarm lower limit</seg></tuv><tuv xml:lang="sv"><seg>Nedre gräns för larm vid pH-överdosering</seg></tuv></tu>
     <tu tuid="lokalise:7215600149"><prop type="source">component::pooldose::entity::number::ofa_ph_upper::name</prop><prop type="lokalise-key-id">766455727</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>pH overfeed alarm upper limit</seg></tuv><tuv xml:lang="sv"><seg>Övre gräns för larm vid pH-överdosering</seg></tuv></tu>
-    <tu tuid="lokalise:8034863789">
-      <prop type="source">component::pooldose::entity::binary_sensor::alarm_ofa_cl_alternative::name</prop>
-      <prop type="lokalise-key-id">822808361</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API exact-key/source read before write and live readback after row review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Chlorine overfeed alternative</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Alternativt larm om kloröverdosering</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8034863853">
-      <prop type="source">component::pooldose::entity::binary_sensor::alarm_ofa_orp_alternative::name</prop>
-      <prop type="lokalise-key-id">822808362</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API exact-key/source read before write and live readback after row review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>ORP overfeed alternative</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Alternativt larm om ORP-överdosering</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8034863917">
-      <prop type="source">component::pooldose::entity::binary_sensor::alarm_ofa_ph_alternative::name</prop>
-      <prop type="lokalise-key-id">822808363</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API exact-key/source read before write and live readback after row review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>pH overfeed alternative</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Alternativt larm om pH-överdosering</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8034863789"><prop type="source">component::pooldose::entity::binary_sensor::alarm_ofa_cl_alternative::name</prop><prop type="lokalise-key-id">822808361</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Chlorine overfeed alternative</seg></tuv><tuv xml:lang="sv"><seg>Alternativt larm om kloröverdosering</seg></tuv></tu>
+    <tu tuid="lokalise:8034863853"><prop type="source">component::pooldose::entity::binary_sensor::alarm_ofa_orp_alternative::name</prop><prop type="lokalise-key-id">822808362</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>ORP overfeed alternative</seg></tuv><tuv xml:lang="sv"><seg>Alternativt larm om ORP-överdosering</seg></tuv></tu>
+    <tu tuid="lokalise:8034863917"><prop type="source">component::pooldose::entity::binary_sensor::alarm_ofa_ph_alternative::name</prop><prop type="lokalise-key-id">822808363</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>pH overfeed alternative</seg></tuv><tuv xml:lang="sv"><seg>Alternativt larm om pH-överdosering</seg></tuv></tu>
     <tu tuid="lokalise:8033558879">
       <prop type="source">component::air_quality::common::condition_behavior_description</prop>
       <prop type="lokalise-key-id">822627539</prop>
@@ -21897,34 +21806,8 @@ Uppdatera dina automatiseringar och skript för att använda `Home Assistant Cor
         <seg>Skicka ett tomt kommando till CoolMaster-enheten innan du ger något egentligt kommando. Detta krävs för seriemodeller.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8036438277">
-      <prop type="source">component::counter::triggers::maximum_reached::name</prop>
-      <prop type="lokalise-key-id">822965612</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>Counter reached maximum</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Räknaren har nått maximivärdet</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036438533">
-      <prop type="source">component::counter::triggers::minimum_reached::name</prop>
-      <prop type="lokalise-key-id">822965616</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>Counter reached minimum</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Räknaren har nått minimivärdet</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8036438277"><prop type="source">component::counter::triggers::maximum_reached::name</prop><prop type="lokalise-key-id">822965612</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Counter reached maximum</seg></tuv><tuv xml:lang="sv"><seg>Räknaren har nått maximivärdet</seg></tuv></tu>
+    <tu tuid="lokalise:8036438533"><prop type="source">component::counter::triggers::minimum_reached::name</prop><prop type="lokalise-key-id">822965616</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Counter reached minimum</seg></tuv><tuv xml:lang="sv"><seg>Räknaren har nått minimivärdet</seg></tuv></tu>
     <tu tuid="lokalise:8235771340">
       <prop type="source">component::counter::common::trigger_for_name</prop>
       <prop type="lokalise-key-id">834982932</prop>
@@ -220219,62 +220102,10 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vilket beteende hos de valda räknarna som ska utlösa automatiseringen.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8035965802">
-      <prop type="source">component::transmission::entity::sensor::total_ratio::name</prop>
-      <prop type="lokalise-key-id">822909196</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; API PUT/GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total ratio</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Total delningskvot</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8035965610">
-      <prop type="source">component::transmission::entity::sensor::session_ratio::name</prop>
-      <prop type="lokalise-key-id">822909193</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; API PUT/GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Session ratio</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Delningskvot för sessionen</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8035965674">
-      <prop type="source">component::transmission::entity::sensor::session_upload::name</prop>
-      <prop type="lokalise-key-id">822909194</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; API PUT/GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Session upload</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Uppladdad datamängd under sessionen</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8035965546">
-      <prop type="source">component::transmission::entity::sensor::session_download::name</prop>
-      <prop type="lokalise-key-id">822909192</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; API PUT/GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Session download</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Nedladdad datamängd under sessionen</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8035965802"><prop type="source">component::transmission::entity::sensor::total_ratio::name</prop><prop type="lokalise-key-id">822909196</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total ratio</seg></tuv><tuv xml:lang="sv"><seg>Total delningskvot</seg></tuv></tu>
+    <tu tuid="lokalise:8035965610"><prop type="source">component::transmission::entity::sensor::session_ratio::name</prop><prop type="lokalise-key-id">822909193</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Session ratio</seg></tuv><tuv xml:lang="sv"><seg>Delningskvot för sessionen</seg></tuv></tu>
+    <tu tuid="lokalise:8035965674"><prop type="source">component::transmission::entity::sensor::session_upload::name</prop><prop type="lokalise-key-id">822909194</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Session upload</seg></tuv><tuv xml:lang="sv"><seg>Uppladdad datamängd under sessionen</seg></tuv></tu>
+    <tu tuid="lokalise:8035965546"><prop type="source">component::transmission::entity::sensor::session_download::name</prop><prop type="lokalise-key-id">822909192</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Session download</seg></tuv><tuv xml:lang="sv"><seg>Nedladdad datamängd under sessionen</seg></tuv></tu>
     <tu tuid="lokalise:7215651929"><prop type="source">component::knx::config_panel::entities::create::datetime::description</prop><prop type="lokalise-key-id">766464097</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>The KNX datetime platform is used as an interface to date and time objects.</seg></tuv><tuv xml:lang="sv"><seg>KNX-plattformen för datum och tid används som gränssnitt till datum- och tidsobjekt.</seg></tuv></tu>
     <tu tuid="lokalise:7344017684"><prop type="source">component::knx::selector::sensor_device_class::options::current</prop><prop type="lokalise-key-id">775466970</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; earlier report confirms historical key; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Current</seg></tuv><tuv xml:lang="sv"><seg>Ström</seg></tuv></tu>
     <tu tuid="lokalise:6678240540"><prop type="source">component::route_b_smart_meter::entity::sensor::instantaneous_current_t_phase::name</prop><prop type="lokalise-key-id">716720795</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; Home Assistant Core source checked</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Instantaneous current T phase</seg></tuv><tuv xml:lang="sv"><seg>Momentan ström i T-fasen</seg></tuv></tu>
@@ -220319,62 +220150,10 @@ Kontrollera att YAML-konfigurationen är korrekt och starta om Home Assistant f�
         <seg>Vilket beteende hos de valda entiteterna som ska utlösa automatiseringen.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8035044387">
-      <prop type="source">component::humidifier::conditions::is_target_humidity::description</prop>
-      <prop type="lokalise-key-id">822828934</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API exact-key/source read before write and live readback after row review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Tests the target humidity of one or more humidifiers.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Kontrollerar målfuktigheten för en eller flera luftfuktare.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8033807413">
-      <prop type="source">component::illuminance::conditions::is_value::description</prop>
-      <prop type="lokalise-key-id">822661330</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API exact-key/source read before write and live readback after row review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Tests the illuminance of one or more entities.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Kontrollerar belysningsstyrkan hos en eller flera entiteter.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8033807157">
-      <prop type="source">component::illuminance::conditions::is_not_detected::description</prop>
-      <prop type="lokalise-key-id">822661326</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API exact-key/source read before write and live readback after row review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Tests if one or more light sensors are not detecting light.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Kontrollerar om en eller flera ljussensorer inte upptäcker ljus.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8033806901">
-      <prop type="source">component::illuminance::conditions::is_detected::description</prop>
-      <prop type="lokalise-key-id">822661322</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API exact-key/source read before write and live readback after row review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Tests if one or more light sensors are detecting light.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Kontrollerar om en eller flera ljussensorer upptäcker ljus.</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8035044387"><prop type="source">component::humidifier::conditions::is_target_humidity::description</prop><prop type="lokalise-key-id">822828934</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests the target humidity of one or more humidifiers.</seg></tuv><tuv xml:lang="sv"><seg>Kontrollerar målfuktigheten för en eller flera luftfuktare.</seg></tuv></tu>
+    <tu tuid="lokalise:8033807413"><prop type="source">component::illuminance::conditions::is_value::description</prop><prop type="lokalise-key-id">822661330</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests the illuminance of one or more entities.</seg></tuv><tuv xml:lang="sv"><seg>Kontrollerar belysningsstyrkan hos en eller flera entiteter.</seg></tuv></tu>
+    <tu tuid="lokalise:8033807157"><prop type="source">component::illuminance::conditions::is_not_detected::description</prop><prop type="lokalise-key-id">822661326</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests if one or more light sensors are not detecting light.</seg></tuv><tuv xml:lang="sv"><seg>Kontrollerar om en eller flera ljussensorer inte upptäcker ljus.</seg></tuv></tu>
+    <tu tuid="lokalise:8033806901"><prop type="source">component::illuminance::conditions::is_detected::description</prop><prop type="lokalise-key-id">822661322</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests if one or more light sensors are detecting light.</seg></tuv><tuv xml:lang="sv"><seg>Kontrollerar om en eller flera ljussensorer upptäcker ljus.</seg></tuv></tu>
     <tu tuid="lokalise:8033806773">
       <prop type="source">component::illuminance::common::condition_behavior_description</prop>
       <prop type="lokalise-key-id">822661320</prop>
@@ -302397,5 +302176,62 @@ Kontrollera värdloggarna (**Host logs**) för att ta reda på varför NTP-servr
 <tu tuid="lokalise:8033567647"><prop type="source">component::air_quality::conditions::is_voc_ratio_value::name</prop><prop type="lokalise-key-id">822627676</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Volatile organic compounds ratio value</seg></tuv><tuv xml:lang="sv"><seg>VOC-kvot</seg></tuv></tu>
 <tu tuid="lokalise:8033567711"><prop type="source">component::air_quality::conditions::is_voc_value::description</prop><prop type="lokalise-key-id">822627677</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests the volatile organic compounds level of one or more entities.</seg></tuv><tuv xml:lang="sv"><seg>Testar nivån av flyktiga organiska föreningar (VOC) hos en eller flera entiteter.</seg></tuv></tu>
 <tu tuid="lokalise:8033567967"><prop type="source">component::air_quality::conditions::is_voc_value::fields::behavior::name</prop><prop type="lokalise-key-id">822627681</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
+
+<tu tuid="lokalise:8033568287"><prop type="source">component::air_quality::conditions::is_voc_value::name</prop><prop type="lokalise-key-id">822627686</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Volatile organic compounds value</seg></tuv><tuv xml:lang="sv"><seg>Värde för flyktiga organiska föreningar (VOC)</seg></tuv></tu>
+<tu tuid="lokalise:8033806837"><prop type="source">component::illuminance::common::condition_behavior_name</prop><prop type="lokalise-key-id">822661321</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
+<tu tuid="lokalise:8033807029"><prop type="source">component::illuminance::conditions::is_detected::fields::behavior::name</prop><prop type="lokalise-key-id">822661324</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
+<tu tuid="lokalise:8033807093"><prop type="source">component::illuminance::conditions::is_detected::name</prop><prop type="lokalise-key-id">822661325</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Light level is detected</seg></tuv><tuv xml:lang="sv"><seg>Ljusnivå detekteras</seg></tuv></tu>
+<tu tuid="lokalise:8033807285"><prop type="source">component::illuminance::conditions::is_not_detected::fields::behavior::name</prop><prop type="lokalise-key-id">822661328</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
+<tu tuid="lokalise:8033807349"><prop type="source">component::illuminance::conditions::is_not_detected::name</prop><prop type="lokalise-key-id">822661329</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Light level is not detected</seg></tuv><tuv xml:lang="sv"><seg>Ljusnivå detekteras inte</seg></tuv></tu>
+<tu tuid="lokalise:8033807669"><prop type="source">component::illuminance::conditions::is_value::fields::behavior::name</prop><prop type="lokalise-key-id">822661334</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
+<tu tuid="lokalise:8033807861"><prop type="source">component::illuminance::conditions::is_value::name</prop><prop type="lokalise-key-id">822661337</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Illuminance</seg></tuv><tuv xml:lang="sv"><seg>Belysningsstyrka</seg></tuv></tu>
+<tu tuid="lokalise:8034863597"><prop type="source">component::pooldose::entity::binary_sensor::alarm_cl_too_high::name</prop><prop type="lokalise-key-id">822808358</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Chlorine too high</seg></tuv><tuv xml:lang="sv"><seg>För hög klorhalt</seg></tuv></tu>
+<tu tuid="lokalise:8034863661"><prop type="source">component::pooldose::entity::binary_sensor::alarm_cl_too_high_orp::name</prop><prop type="lokalise-key-id">822808359</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Chlorine too high (ORP)</seg></tuv><tuv xml:lang="sv"><seg>För hög klorhalt (ORP)</seg></tuv></tu>
+<tu tuid="lokalise:8034863725"><prop type="source">component::pooldose::entity::binary_sensor::alarm_cl_too_low_orp::name</prop><prop type="lokalise-key-id">822808360</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Chlorine too low (ORP)</seg></tuv><tuv xml:lang="sv"><seg>För låg klorhalt (ORP)</seg></tuv></tu>
+<tu tuid="lokalise:8034863981"><prop type="source">component::pooldose::entity::binary_sensor::alarm_ph_too_high::name</prop><prop type="lokalise-key-id">822808364</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>pH too high</seg></tuv><tuv xml:lang="sv"><seg>För högt pH-värde</seg></tuv></tu>
+<tu tuid="lokalise:8034864045"><prop type="source">component::pooldose::entity::binary_sensor::alarm_ph_too_low::name</prop><prop type="lokalise-key-id">822808365</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>pH too low</seg></tuv><tuv xml:lang="sv"><seg>För lågt pH-värde</seg></tuv></tu>
+<tu tuid="lokalise:8034864109"><prop type="source">component::pooldose::entity::binary_sensor::alarm_system_standby::name</prop><prop type="lokalise-key-id">822808366</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>System standby</seg></tuv><tuv xml:lang="sv"><seg>System i viloläge</seg></tuv></tu>
+<tu tuid="lokalise:8034864173"><prop type="source">component::pooldose::entity::binary_sensor::alarm_water_too_cold::name</prop><prop type="lokalise-key-id">822808367</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Water too cold</seg></tuv><tuv xml:lang="sv"><seg>Vatten för kallt</seg></tuv></tu>
+<tu tuid="lokalise:8034864237"><prop type="source">component::pooldose::entity::binary_sensor::alarm_water_too_hot::name</prop><prop type="lokalise-key-id">822808368</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Water too hot</seg></tuv><tuv xml:lang="sv"><seg>Vatten för varmt</seg></tuv></tu>
+<tu tuid="lokalise:8034864365"><prop type="source">component::pooldose::entity::number::power_on_delay_timer::name</prop><prop type="lokalise-key-id">822808370</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Power-on delay timer</seg></tuv><tuv xml:lang="sv"><seg>Fördröjningstimer vid uppstart</seg></tuv></tu>
+<tu tuid="lokalise:8034864621"><prop type="source">component::pooldose::entity::sensor::device_config::name</prop><prop type="lokalise-key-id">822808374</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Device configuration</seg></tuv><tuv xml:lang="sv"><seg>Enhetskonfiguration</seg></tuv></tu>
+<tu tuid="lokalise:8034864685"><prop type="source">component::pooldose::entity::sensor::device_config::state::ph_orp</prop><prop type="lokalise-key-id">822808375</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>pH/ORP</seg></tuv><tuv xml:lang="sv"><seg>pH/ORP</seg></tuv></tu>
+<tu tuid="lokalise:8034864749"><prop type="source">component::pooldose::entity::sensor::device_config::state::ph_orp_chlorine</prop><prop type="lokalise-key-id">822808376</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>pH/ORP/Chlorine</seg></tuv><tuv xml:lang="sv"><seg>pH/ORP/Klor</seg></tuv></tu>
+<tu tuid="lokalise:8034864813"><prop type="source">component::pooldose::entity::sensor::peristaltic_cl_dosing::state::cycle</prop><prop type="lokalise-key-id">822808377</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Cycle</seg></tuv><tuv xml:lang="sv"><seg>Cykel</seg></tuv></tu>
+<tu tuid="lokalise:8034864877"><prop type="source">component::pooldose::entity::sensor::temperature_unit::name</prop><prop type="lokalise-key-id">822808378</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Temperature unit</seg></tuv><tuv xml:lang="sv"><seg>Temperaturenhet</seg></tuv></tu>
+<tu tuid="lokalise:8034864941"><prop type="source">component::pooldose::entity::sensor::temperature_unit::state::celsius</prop><prop type="lokalise-key-id">822808379</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Celsius</seg></tuv><tuv xml:lang="sv"><seg>Celsius</seg></tuv></tu>
+<tu tuid="lokalise:8034865005"><prop type="source">component::pooldose::entity::sensor::temperature_unit::state::fahrenheit</prop><prop type="lokalise-key-id">822808380</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Fahrenheit</seg></tuv><tuv xml:lang="sv"><seg>Fahrenheit</seg></tuv></tu>
+<tu tuid="lokalise:8035044643"><prop type="source">component::humidifier::conditions::is_target_humidity::fields::behavior::name</prop><prop type="lokalise-key-id">822828938</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
+<tu tuid="lokalise:8035044835"><prop type="source">component::humidifier::conditions::is_target_humidity::name</prop><prop type="lokalise-key-id">822828941</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Humidifier target humidity</seg></tuv><tuv xml:lang="sv"><seg>Luftfuktarens målfuktighet</seg></tuv></tu>
+<tu tuid="lokalise:8035044963"><prop type="source">component::moisture::common::trigger_behavior_name</prop><prop type="lokalise-key-id">822828943</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8035045603"><prop type="source">component::moisture::title</prop><prop type="lokalise-key-id">822828953</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Moisture</seg></tuv><tuv xml:lang="sv"><seg>Fukt</seg></tuv></tu>
+<tu tuid="lokalise:8035045667"><prop type="source">component::moisture::triggers::changed::description</prop><prop type="lokalise-key-id">822828954</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more moisture content values change.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när ett eller flera fukthaltsvärden förändras.</seg></tuv></tu>
+<tu tuid="lokalise:8035045987"><prop type="source">component::moisture::triggers::changed::name</prop><prop type="lokalise-key-id">822828959</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Moisture content changed</seg></tuv><tuv xml:lang="sv"><seg>Fukthalten förändrades</seg></tuv></tu>
+<tu tuid="lokalise:8035046051"><prop type="source">component::moisture::triggers::cleared::description</prop><prop type="lokalise-key-id">822828960</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more moisture sensors stop detecting moisture.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera fuktsensorer slutar detektera fukt.</seg></tuv></tu>
+<tu tuid="lokalise:8035046179"><prop type="source">component::moisture::triggers::cleared::fields::behavior::name</prop><prop type="lokalise-key-id">822828962</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8035046243"><prop type="source">component::moisture::triggers::cleared::name</prop><prop type="lokalise-key-id">822828963</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Moisture cleared</seg></tuv><tuv xml:lang="sv"><seg>Ingen fukt upptäcks</seg></tuv></tu>
+<tu tuid="lokalise:8035046307"><prop type="source">component::moisture::triggers::crossed_threshold::description</prop><prop type="lokalise-key-id">822828964</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more moisture content values cross a threshold.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när ett eller flera fukthaltsvärden passerar ett tröskelvärde.</seg></tuv></tu>
+<tu tuid="lokalise:8035046435"><prop type="source">component::moisture::triggers::crossed_threshold::fields::behavior::name</prop><prop type="lokalise-key-id">822828966</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8035046883"><prop type="source">component::moisture::triggers::crossed_threshold::name</prop><prop type="lokalise-key-id">822828973</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Moisture content crossed threshold</seg></tuv><tuv xml:lang="sv"><seg>Fukthalten har passerat tröskelvärdet</seg></tuv></tu>
+<tu tuid="lokalise:8035046947"><prop type="source">component::moisture::triggers::detected::description</prop><prop type="lokalise-key-id">822828974</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more moisture sensors start detecting moisture.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera fuktsensorer börjar detektera fukt.</seg></tuv></tu>
+<tu tuid="lokalise:8035047075"><prop type="source">component::moisture::triggers::detected::fields::behavior::name</prop><prop type="lokalise-key-id">822828976</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8035047139"><prop type="source">component::moisture::triggers::detected::name</prop><prop type="lokalise-key-id">822828977</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Moisture detected</seg></tuv><tuv xml:lang="sv"><seg>Fukt upptäckt</seg></tuv></tu>
+<tu tuid="lokalise:8035909217"><prop type="source">component::casper_glow::entity::button::pause::name</prop><prop type="lokalise-key-id">822904994</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Pause dimming</seg></tuv><tuv xml:lang="sv"><seg>Pausa dimningen</seg></tuv></tu>
+<tu tuid="lokalise:8035909281"><prop type="source">component::casper_glow::entity::button::resume::name</prop><prop type="lokalise-key-id">822904995</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Resume dimming</seg></tuv><tuv xml:lang="sv"><seg>Återuppta dimningen</seg></tuv></tu>
+<tu tuid="lokalise:8035909345"><prop type="source">component::proxmoxve::entity::button::snapshot_create::name</prop><prop type="lokalise-key-id">822904996</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Create snapshot</seg></tuv><tuv xml:lang="sv"><seg>Skapa ögonblicksbild</seg></tuv></tu>
+<tu tuid="lokalise:8035910529"><prop type="source">component::proxmoxve::entity::binary_sensor::node_backup_status::name</prop><prop type="lokalise-key-id">822905233</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Backup status</seg></tuv><tuv xml:lang="sv"><seg>Status för säkerhetskopiering</seg></tuv></tu>
+<tu tuid="lokalise:8035910593"><prop type="source">component::proxmoxve::entity::sensor::node_backup_duration::name</prop><prop type="lokalise-key-id">822905234</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Backup duration</seg></tuv><tuv xml:lang="sv"><seg>Säkerhetskopieringens längd</seg></tuv></tu>
+<tu tuid="lokalise:8035910657"><prop type="source">component::proxmoxve::entity::sensor::node_backup_last_backup::name</prop><prop type="lokalise-key-id">822905235</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Last backup</seg></tuv><tuv xml:lang="sv"><seg>Senaste säkerhetskopiering</seg></tuv></tu>
+<tu tuid="lokalise:8035965738"><prop type="source">component::transmission::entity::sensor::total_download::name</prop><prop type="lokalise-key-id">822909195</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total download</seg></tuv><tuv xml:lang="sv"><seg>Totalt nedladdat</seg></tuv></tu>
+<tu tuid="lokalise:8035965866"><prop type="source">component::transmission::entity::sensor::total_upload::name</prop><prop type="lokalise-key-id">822909197</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total upload</seg></tuv><tuv xml:lang="sv"><seg>Totalt uppladdat</seg></tuv></tu>
+<tu tuid="lokalise:8036437573"><prop type="source">component::counter::common::trigger_behavior_name</prop><prop type="lokalise-key-id">822965601</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8036437829"><prop type="source">component::counter::triggers::decremented::description</prop><prop type="lokalise-key-id">822965605</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more counters decrement.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera räknare minskar.</seg></tuv></tu>
+<tu tuid="lokalise:8036437893"><prop type="source">component::counter::triggers::decremented::name</prop><prop type="lokalise-key-id">822965606</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Counter decremented</seg></tuv><tuv xml:lang="sv"><seg>Räknare minskar</seg></tuv></tu>
+<tu tuid="lokalise:8036437957"><prop type="source">component::counter::triggers::incremented::description</prop><prop type="lokalise-key-id">822965607</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more counters increment.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera räknare ökar.</seg></tuv></tu>
+<tu tuid="lokalise:8036438021"><prop type="source">component::counter::triggers::incremented::name</prop><prop type="lokalise-key-id">822965608</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Counter incremented</seg></tuv><tuv xml:lang="sv"><seg>Räknare ökar</seg></tuv></tu>
+<tu tuid="lokalise:8036438085"><prop type="source">component::counter::triggers::maximum_reached::description</prop><prop type="lokalise-key-id">822965609</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more counters reach their maximum value.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera räknare når sitt högsta värde.</seg></tuv></tu>
+<tu tuid="lokalise:8036438213"><prop type="source">component::counter::triggers::maximum_reached::fields::behavior::name</prop><prop type="lokalise-key-id">822965611</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8036438341"><prop type="source">component::counter::triggers::minimum_reached::description</prop><prop type="lokalise-key-id">822965613</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more counters reach their minimum value.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera räknare når sitt lägsta värde.</seg></tuv></tu>
+<tu tuid="lokalise:8036438469"><prop type="source">component::counter::triggers::minimum_reached::fields::behavior::name</prop><prop type="lokalise-key-id">822965615</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
 </body>
 </tmx>
