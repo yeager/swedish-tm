@@ -17572,20 +17572,7 @@ Kontrollera att anslutningen till {integration_title} fungerar och starta om Hom
     </tu>
     <tu tuid="lokalise:8016677029"><prop type="source">component::air_quality::triggers::co_cleared::name</prop><prop type="lokalise-key-id">821343543</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Carbon monoxide cleared</seg></tuv><tuv xml:lang="sv"><seg>Kolmonoxid upptäcks inte längre</seg></tuv></tu>
     <tu tuid="lokalise:8016678309"><prop type="source">component::air_quality::triggers::gas_cleared::name</prop><prop type="lokalise-key-id">821343563</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Gas cleared</seg></tuv><tuv xml:lang="sv"><seg>Gas upptäcks inte längre</seg></tuv></tu>
-    <tu tuid="lokalise:8016687781">
-      <prop type="source">component::air_quality::triggers::smoke_cleared::name</prop>
-      <prop type="lokalise-key-id">821343711</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API readback after exact key/source review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Smoke cleared</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Rök upptäcks inte längre</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8016687781"><prop type="source">component::air_quality::triggers::smoke_cleared::name</prop><prop type="lokalise-key-id">821343711</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Smoke cleared</seg></tuv><tuv xml:lang="sv"><seg>Rök upptäcks inte längre</seg></tuv></tu>
     <tu tuid="lokalise:8033559775">
       <prop type="source">component::air_quality::conditions::is_co_cleared::description</prop>
       <prop type="lokalise-key-id">822627553</prop>
@@ -17670,20 +17657,7 @@ Kontrollera att anslutningen till {integration_title} fungerar och starta om Hom
         <seg>Ingen rök upptäcks</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8016688037">
-      <prop type="source">component::air_quality::triggers::smoke_detected::name</prop>
-      <prop type="lokalise-key-id">821343715</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API readback after exact key/source review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Smoke detected</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Rök upptäckt</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8016688037"><prop type="source">component::air_quality::triggers::smoke_detected::name</prop><prop type="lokalise-key-id">821343715</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Smoke detected</seg></tuv><tuv xml:lang="sv"><seg>Rök upptäckt</seg></tuv></tu>
     <tu tuid="lokalise:8033566367">
       <prop type="source">component::air_quality::conditions::is_smoke_detected::name</prop>
       <prop type="lokalise-key-id">822627656</prop>
@@ -221275,48 +221249,9 @@ Kontrollera att YAML-konfigurationen är korrekt och starta om Home Assistant f�
         <seg>Batterinivån är inte låg</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8016822025">
-      <prop type="source">component::battery::conditions::is_not_low::description</prop>
-      <prop type="lokalise-key-id">821350698</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API readback after exact key/source review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Tests if one or more batteries are not low.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Kontrollerar om batterinivån för ett eller flera batterier inte är låg.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8016821705">
-      <prop type="source">component::battery::conditions::is_low::name</prop>
-      <prop type="lokalise-key-id">821350693</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API readback after exact key/source review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Battery is low</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Batterinivån är låg</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8016821513">
-      <prop type="source">component::battery::conditions::is_low::description</prop>
-      <prop type="lokalise-key-id">821350690</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API readback after exact key/source review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Tests if one or more batteries are low.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Kontrollerar om batterinivån för ett eller flera batterier är låg.</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8016822025"><prop type="source">component::battery::conditions::is_not_low::description</prop><prop type="lokalise-key-id">821350698</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests if one or more batteries are not low.</seg></tuv><tuv xml:lang="sv"><seg>Kontrollerar om batterinivån för ett eller flera batterier inte är låg.</seg></tuv></tu>
+    <tu tuid="lokalise:8016821705"><prop type="source">component::battery::conditions::is_low::name</prop><prop type="lokalise-key-id">821350693</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Battery is low</seg></tuv><tuv xml:lang="sv"><seg>Batterinivån är låg</seg></tuv></tu>
+    <tu tuid="lokalise:8016821513"><prop type="source">component::battery::conditions::is_low::description</prop><prop type="lokalise-key-id">821350690</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests if one or more batteries are low.</seg></tuv><tuv xml:lang="sv"><seg>Kontrollerar om batterinivån för ett eller flera batterier är låg.</seg></tuv></tu>
     <tu tuid="lokalise:8016821129">
       <prop type="source">component::battery::common::condition_behavior_description</prop>
       <prop type="lokalise-key-id">821350684</prop>
@@ -221345,62 +221280,10 @@ Kontrollera att YAML-konfigurationen är korrekt och starta om Home Assistant f�
         <seg>Vilket beteende som ska kontrolleras för de valda texterna.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8016687589">
-      <prop type="source">component::air_quality::triggers::smoke_cleared::description</prop>
-      <prop type="lokalise-key-id">821343708</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API readback after exact key/source review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Triggers when one or more smoke sensors stop detecting smoke.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlöses när en eller flera röksensorer inte längre upptäcker rök.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8016686501">
-      <prop type="source">component::air_quality::triggers::pm25_crossed_threshold::name</prop>
-      <prop type="lokalise-key-id">821343691</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API readback after exact key/source review</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>PM2.5 level crossed threshold</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>PM2.5-nivån har passerat tröskelvärdet</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8016685925">
-      <prop type="source">component::air_quality::triggers::pm25_crossed_threshold::description</prop>
-      <prop type="lokalise-key-id">821343682</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API readback after exact key/source review</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Triggers when one or more PM2.5 levels cross a threshold.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlöses när en eller flera PM2.5-nivåer passerar ett tröskelvärde.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8016685861">
-      <prop type="source">component::air_quality::triggers::pm25_changed::name</prop>
-      <prop type="lokalise-key-id">821343681</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API readback after exact key/source review</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>PM2.5 level changed</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>PM2.5-nivån förändrades</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8016687589"><prop type="source">component::air_quality::triggers::smoke_cleared::description</prop><prop type="lokalise-key-id">821343708</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more smoke sensors stop detecting smoke.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera röksensorer inte längre upptäcker rök.</seg></tuv></tu>
+    <tu tuid="lokalise:8016686501"><prop type="source">component::air_quality::triggers::pm25_crossed_threshold::name</prop><prop type="lokalise-key-id">821343691</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>PM2.5 level crossed threshold</seg></tuv><tuv xml:lang="sv"><seg>PM2.5-nivån har passerat tröskelvärdet</seg></tuv></tu>
+    <tu tuid="lokalise:8016685925"><prop type="source">component::air_quality::triggers::pm25_crossed_threshold::description</prop><prop type="lokalise-key-id">821343682</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more PM2.5 levels cross a threshold.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera PM2.5-nivåer passerar ett tröskelvärde.</seg></tuv></tu>
+    <tu tuid="lokalise:8016685861"><prop type="source">component::air_quality::triggers::pm25_changed::name</prop><prop type="lokalise-key-id">821343681</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>PM2.5 level changed</seg></tuv><tuv xml:lang="sv"><seg>PM2.5-nivån förändrades</seg></tuv></tu>
     <tu tuid="lokalise:8016685733">
       <prop type="source">component::air_quality::triggers::pm25_changed::fields::below::description</prop>
       <prop type="lokalise-key-id">821343679</prop>
@@ -302826,5 +302709,44 @@ Kontrollera värdloggarna (**Host logs**) för att ta reda på varför NTP-servr
 <tu tuid="lokalise:8016684901"><prop type="source">component::air_quality::triggers::pm1_crossed_threshold::description</prop><prop type="lokalise-key-id">821343666</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more PM1 levels cross a threshold.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera PM1-nivåer passerar ett tröskelvärde.</seg></tuv></tu>
 <tu tuid="lokalise:8016685029"><prop type="source">component::air_quality::triggers::pm1_crossed_threshold::fields::behavior::name</prop><prop type="lokalise-key-id">821343668</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
 <tu tuid="lokalise:8016685477"><prop type="source">component::air_quality::triggers::pm1_crossed_threshold::name</prop><prop type="lokalise-key-id">821343675</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>PM1 level crossed threshold</seg></tuv><tuv xml:lang="sv"><seg>PM1-nivån har passerat tröskelvärdet</seg></tuv></tu>
+
+<tu tuid="lokalise:8016686053"><prop type="source">component::air_quality::triggers::pm25_crossed_threshold::fields::behavior::name</prop><prop type="lokalise-key-id">821343684</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8016686565"><prop type="source">component::air_quality::triggers::pm4_changed::description</prop><prop type="lokalise-key-id">821343692</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more PM4 levels change.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera PM4-nivåer förändras.</seg></tuv></tu>
+<tu tuid="lokalise:8016686885"><prop type="source">component::air_quality::triggers::pm4_changed::name</prop><prop type="lokalise-key-id">821343697</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>PM4 level changed</seg></tuv><tuv xml:lang="sv"><seg>PM4-nivån förändrades</seg></tuv></tu>
+<tu tuid="lokalise:8016686949"><prop type="source">component::air_quality::triggers::pm4_crossed_threshold::description</prop><prop type="lokalise-key-id">821343698</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more PM4 levels cross a threshold.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera PM4-nivåer passerar ett tröskelvärde.</seg></tuv></tu>
+<tu tuid="lokalise:8016687077"><prop type="source">component::air_quality::triggers::pm4_crossed_threshold::fields::behavior::name</prop><prop type="lokalise-key-id">821343700</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8016687525"><prop type="source">component::air_quality::triggers::pm4_crossed_threshold::name</prop><prop type="lokalise-key-id">821343707</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>PM4 level crossed threshold</seg></tuv><tuv xml:lang="sv"><seg>PM4-nivån har passerat tröskelvärdet</seg></tuv></tu>
+<tu tuid="lokalise:8016687717"><prop type="source">component::air_quality::triggers::smoke_cleared::fields::behavior::name</prop><prop type="lokalise-key-id">821343710</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8016687845"><prop type="source">component::air_quality::triggers::smoke_detected::description</prop><prop type="lokalise-key-id">821343712</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more smoke sensors start detecting smoke.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera röksensorer börjar detektera rök.</seg></tuv></tu>
+<tu tuid="lokalise:8016687973"><prop type="source">component::air_quality::triggers::smoke_detected::fields::behavior::name</prop><prop type="lokalise-key-id">821343714</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8016688101"><prop type="source">component::air_quality::triggers::so2_changed::description</prop><prop type="lokalise-key-id">821343716</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more sulphur dioxide levels change.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera svaveldioxidnivåer förändras.</seg></tuv></tu>
+<tu tuid="lokalise:8016688549"><prop type="source">component::air_quality::triggers::so2_changed::name</prop><prop type="lokalise-key-id">821343723</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Sulphur dioxide level changed</seg></tuv><tuv xml:lang="sv"><seg>Svaveldioxidnivån förändrades</seg></tuv></tu>
+<tu tuid="lokalise:8016688613"><prop type="source">component::air_quality::triggers::so2_crossed_threshold::description</prop><prop type="lokalise-key-id">821343724</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more sulphur dioxide levels cross a threshold.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera svaveldioxidnivåer passerar ett tröskelvärde.</seg></tuv></tu>
+<tu tuid="lokalise:8016688741"><prop type="source">component::air_quality::triggers::so2_crossed_threshold::fields::behavior::name</prop><prop type="lokalise-key-id">821343726</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8016689317"><prop type="source">component::air_quality::triggers::so2_crossed_threshold::name</prop><prop type="lokalise-key-id">821343735</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Sulphur dioxide level crossed threshold</seg></tuv><tuv xml:lang="sv"><seg>Svaveldioxidnivån har passerat tröskelvärdet</seg></tuv></tu>
+<tu tuid="lokalise:8016689381"><prop type="source">component::air_quality::triggers::voc_changed::description</prop><prop type="lokalise-key-id">821343736</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more volatile organic compound levels change.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera VOC-nivåer förändras.</seg></tuv></tu>
+<tu tuid="lokalise:8016689829"><prop type="source">component::air_quality::triggers::voc_changed::name</prop><prop type="lokalise-key-id">821343743</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Volatile organic compounds level changed</seg></tuv><tuv xml:lang="sv"><seg>Nivån av flyktiga organiska föreningar (VOC) förändrades</seg></tuv></tu>
+<tu tuid="lokalise:8016689893"><prop type="source">component::air_quality::triggers::voc_crossed_threshold::description</prop><prop type="lokalise-key-id">821343744</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more volatile organic compounds levels cross a threshold.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera VOC-nivåer passerar ett tröskelvärde.</seg></tuv></tu>
+<tu tuid="lokalise:8016690021"><prop type="source">component::air_quality::triggers::voc_crossed_threshold::fields::behavior::name</prop><prop type="lokalise-key-id">821343746</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8016690597"><prop type="source">component::air_quality::triggers::voc_crossed_threshold::name</prop><prop type="lokalise-key-id">821343755</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Volatile organic compounds level crossed threshold</seg></tuv><tuv xml:lang="sv"><seg>Nivån av flyktiga organiska föreningar (VOC) har passerat tröskelvärdet</seg></tuv></tu>
+<tu tuid="lokalise:8016690661"><prop type="source">component::air_quality::triggers::voc_ratio_changed::description</prop><prop type="lokalise-key-id">821343756</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more volatile organic compound ratios change.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera VOC-kvoter förändras.</seg></tuv></tu>
+<tu tuid="lokalise:8016691109"><prop type="source">component::air_quality::triggers::voc_ratio_changed::name</prop><prop type="lokalise-key-id">821343763</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Volatile organic compounds ratio changed</seg></tuv><tuv xml:lang="sv"><seg>Kvoten av flyktiga organiska föreningar (VOC) förändrades</seg></tuv></tu>
+<tu tuid="lokalise:8016691173"><prop type="source">component::air_quality::triggers::voc_ratio_crossed_threshold::description</prop><prop type="lokalise-key-id">821343764</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more volatile organic compounds ratios cross a threshold.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera VOC-kvoter passerar ett tröskelvärde.</seg></tuv></tu>
+<tu tuid="lokalise:8016691301"><prop type="source">component::air_quality::triggers::voc_ratio_crossed_threshold::fields::behavior::name</prop><prop type="lokalise-key-id">821343766</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8016691877"><prop type="source">component::air_quality::triggers::voc_ratio_crossed_threshold::name</prop><prop type="lokalise-key-id">821343775</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Volatile organic compounds ratio crossed threshold</seg></tuv><tuv xml:lang="sv"><seg>Kvoten av flyktiga organiska föreningar (VOC) har passerat tröskelvärdet</seg></tuv></tu>
+<tu tuid="lokalise:8016805874"><prop type="source">component::text::common::condition_behavior_name</prop><prop type="lokalise-key-id">821348746</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
+<tu tuid="lokalise:8016805938"><prop type="source">component::text::conditions::is_equal_to::description</prop><prop type="lokalise-key-id">821348747</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests if one or more texts are equal to a specified value.</seg></tuv><tuv xml:lang="sv"><seg>Testar om en eller flera texter är lika med ett angivet värde.</seg></tuv></tu>
+<tu tuid="lokalise:8016806066"><prop type="source">component::text::conditions::is_equal_to::fields::behavior::name</prop><prop type="lokalise-key-id">821348749</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
+<tu tuid="lokalise:8016806130"><prop type="source">component::text::conditions::is_equal_to::fields::value::description</prop><prop type="lokalise-key-id">821348750</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>The value to compare the text to.</seg></tuv><tuv xml:lang="sv"><seg>Det värde som texten ska jämföras med.</seg></tuv></tu>
+<tu tuid="lokalise:8016806194"><prop type="source">component::text::conditions::is_equal_to::fields::value::name</prop><prop type="lokalise-key-id">821348751</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Value</seg></tuv><tuv xml:lang="sv"><seg>Värde</seg></tuv></tu>
+<tu tuid="lokalise:8016806258"><prop type="source">component::text::conditions::is_equal_to::name</prop><prop type="lokalise-key-id">821348752</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Text is equal to</seg></tuv><tuv xml:lang="sv"><seg>Text är lika med</seg></tuv></tu>
+<tu tuid="lokalise:8016821193"><prop type="source">component::battery::common::condition_behavior_name</prop><prop type="lokalise-key-id">821350685</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
+<tu tuid="lokalise:8016821257"><prop type="source">component::battery::conditions::is_charging::description</prop><prop type="lokalise-key-id">821350686</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests if one or more batteries are charging.</seg></tuv><tuv xml:lang="sv"><seg>Testar om ett eller flera batterier laddas.</seg></tuv></tu>
+<tu tuid="lokalise:8016821385"><prop type="source">component::battery::conditions::is_charging::fields::behavior::name</prop><prop type="lokalise-key-id">821350688</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
+<tu tuid="lokalise:8016821449"><prop type="source">component::battery::conditions::is_charging::name</prop><prop type="lokalise-key-id">821350689</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Battery is charging</seg></tuv><tuv xml:lang="sv"><seg>Batteriet laddas</seg></tuv></tu>
+<tu tuid="lokalise:8016821641"><prop type="source">component::battery::conditions::is_low::fields::behavior::name</prop><prop type="lokalise-key-id">821350692</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
+<tu tuid="lokalise:8016821769"><prop type="source">component::battery::conditions::is_not_charging::description</prop><prop type="lokalise-key-id">821350694</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests if one or more batteries are not charging.</seg></tuv><tuv xml:lang="sv"><seg>Testar om ett eller flera batterier inte laddas.</seg></tuv></tu>
+<tu tuid="lokalise:8016821897"><prop type="source">component::battery::conditions::is_not_charging::fields::behavior::name</prop><prop type="lokalise-key-id">821350696</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
+<tu tuid="lokalise:8016821961"><prop type="source">component::battery::conditions::is_not_charging::name</prop><prop type="lokalise-key-id">821350697</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Battery is not charging</seg></tuv><tuv xml:lang="sv"><seg>Batteriet laddas inte</seg></tuv></tu>
 </body>
 </tmx>
