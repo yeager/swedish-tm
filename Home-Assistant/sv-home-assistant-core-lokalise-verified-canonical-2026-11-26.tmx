@@ -26540,20 +26540,7 @@ Uppdatera dem så att de använder den nya valenheten. Inaktivera sedan `{entity
         <seg>Vilket beteende hos de valda varmvattenberedarna som ska utlösa automatiseringen.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8037415034">
-      <prop type="source">component::water_heater::triggers::operation_mode_changed::fields::operation_mode::description</prop>
-      <prop type="lokalise-key-id">823059394</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>The operation modes to trigger on.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>De driftlägen som ska utlösa automatiseringen.</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8037415034"><prop type="source">component::water_heater::triggers::operation_mode_changed::fields::operation_mode::description</prop><prop type="lokalise-key-id">823059394</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>The operation modes to trigger on.</seg></tuv><tuv xml:lang="sv"><seg>Välj vilka driftlägen som ska utlösa automatiseringen.</seg></tuv></tu>
     <tu tuid="lokalise:8235777740">
       <prop type="source">component::water_heater::common::trigger_for_name</prop>
       <prop type="lokalise-key-id">834983032</prop>
@@ -213827,34 +213814,8 @@ Observera att `{replacement_entity_id}` är aktiverad när dörren eller fönstr
         <seg>Testar om en eller flera ventiler är öppna.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8051432705">
-      <prop type="source">component::valve::conditions::is_closed::name</prop>
-      <prop type="lokalise-key-id">823976278</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Valve is closed</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ventil är stängd</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8051432641">
-      <prop type="source">component::valve::conditions::is_closed::fields::behavior::name</prop>
-      <prop type="lokalise-key-id">823976277</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Condition passes if</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Villkoret uppfylls om</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8051432705"><prop type="source">component::valve::conditions::is_closed::name</prop><prop type="lokalise-key-id">823976278</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Valve is closed</seg></tuv><tuv xml:lang="sv"><seg>Ventilen är stängd</seg></tuv></tu>
+    <tu tuid="lokalise:8051432641"><prop type="source">component::valve::conditions::is_closed::fields::behavior::name</prop><prop type="lokalise-key-id">823976277</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
     <tu tuid="lokalise:8051432577">
       <prop type="source">component::valve::conditions::is_closed::fields::behavior::description</prop>
       <prop type="lokalise-key-id">823976276</prop>
@@ -213869,20 +213830,7 @@ Observera att `{replacement_entity_id}` är aktiverad när dörren eller fönstr
         <seg>Om villkoret ska uppfyllas när någon eller alla valda entiteter uppfyller kriterierna.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8051432513">
-      <prop type="source">component::valve::conditions::is_closed::description</prop>
-      <prop type="lokalise-key-id">823976275</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Tests if one or more valves are closed.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Testar om en eller flera ventiler är stängda.</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8051432513"><prop type="source">component::valve::conditions::is_closed::description</prop><prop type="lokalise-key-id">823976275</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests if one or more valves are closed.</seg></tuv><tuv xml:lang="sv"><seg>Testar om en eller flera ventiler är stängda.</seg></tuv></tu>
     <tu tuid="lokalise:8047223850">
       <prop type="source">component::mcp::exceptions::oauth2_implementation_unavailable::message</prop>
       <prop type="lokalise-key-id">823816812</prop>
@@ -213939,84 +213887,19 @@ Observera att `{replacement_entity_id}` är aktiverad när dörren eller fönstr
         <seg>OAuth2-implementation kan ej nås, försöker igen</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8045920067">
-      <prop type="source">component::tplink_lte::issues::integration_removed::title</prop>
-      <prop type="lokalise-key-id">823722805</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>The TP-Link LTE integration has been removed</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>TP-Link LTE-integrationen har tagits bort</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045920003">
-      <prop type="source">component::tplink_lte::issues::integration_removed::description</prop>
-      <prop type="lokalise-key-id">823722804</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>The TP-Link LTE integration has been removed from Home Assistant.
+    <tu tuid="lokalise:8045920067"><prop type="source">component::tplink_lte::issues::integration_removed::title</prop><prop type="lokalise-key-id">823722805</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>The TP-Link LTE integration has been removed</seg></tuv><tuv xml:lang="sv"><seg>TP-Link LTE-integrationen har tagits bort</seg></tuv></tu>
+    <tu tuid="lokalise:8045920003"><prop type="source">component::tplink_lte::issues::integration_removed::description</prop><prop type="lokalise-key-id">823722804</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>The TP-Link LTE integration has been removed from Home Assistant.
 
 The integration has not been working since Home Assistant 2023.6.0, has no maintainer, and its underlying library depends on a package with a [critical security vulnerability]({ghsa_url}).
 
-To resolve this issue, remove the `tplink_lte` configuration from your `configuration.yaml` file and restart Home Assistant.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>TP-Link LTE-integrationen har tagits bort från Home Assistant.
+To resolve this issue, remove the `tplink_lte` configuration from your `configuration.yaml` file and restart Home Assistant.</seg></tuv><tuv xml:lang="sv"><seg>TP-Link LTE-integrationen har tagits bort från Home Assistant.
 
-Integrationen har inte fungerat sedan Home Assistant 2023.6.0, har ingen underhållare och dess underliggande bibliotek är beroende av ett paket med en [kritisk säkerhetsbrist]({ghsa_url}).
+Integrationen har inte fungerat sedan Home Assistant 2023.6.0 och saknar underhållare. Den använder dessutom ett underliggande bibliotek som är beroende av ett paket med en [kritisk säkerhetssårbarhet]({ghsa_url}).
 
-För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `configuration.yaml`-fil och starta om Home Assistant.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045919699">
-      <prop type="source">component::matter::entity::sensor::radon_concentration::name</prop>
-      <prop type="lokalise-key-id">823722783</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Radon concentration</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Radonkoncentration</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045815072">
-      <prop type="source">component::light::conditions::is_brightness::name</prop>
-      <prop type="lokalise-key-id">823708784</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Light brightness</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ljusstyrka</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045815008">
-      <prop type="source">component::light::conditions::is_brightness::fields::threshold::name</prop>
-      <prop type="lokalise-key-id">823708783</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+Ta bort `tplink_lte`-konfigurationen från din `configuration.yaml`-fil och starta om Home Assistant för att lösa problemet.</seg></tuv></tu>
+    <tu tuid="lokalise:8045919699"><prop type="source">component::matter::entity::sensor::radon_concentration::name</prop><prop type="lokalise-key-id">823722783</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Radon concentration</seg></tuv><tuv xml:lang="sv"><seg>Radonkoncentration</seg></tuv></tu>
+    <tu tuid="lokalise:8045815072"><prop type="source">component::light::conditions::is_brightness::name</prop><prop type="lokalise-key-id">823708784</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Light brightness</seg></tuv><tuv xml:lang="sv"><seg>Ljusstyrka</seg></tuv></tu>
+    <tu tuid="lokalise:8045815008"><prop type="source">component::light::conditions::is_brightness::fields::threshold::name</prop><prop type="lokalise-key-id">823708783</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8045814944">
       <prop type="source">component::light::conditions::is_brightness::fields::threshold::description</prop>
       <prop type="lokalise-key-id">823708782</prop>
@@ -214031,20 +213914,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vad man ska testa för och tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8045814880">
-      <prop type="source">component::light::conditions::is_brightness::fields::behavior::name</prop>
-      <prop type="lokalise-key-id">823708781</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Condition passes if</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Villkoret uppfylls om</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8045814880"><prop type="source">component::light::conditions::is_brightness::fields::behavior::name</prop><prop type="lokalise-key-id">823708781</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
     <tu tuid="lokalise:8045814816">
       <prop type="source">component::light::conditions::is_brightness::fields::behavior::description</prop>
       <prop type="lokalise-key-id">823708780</prop>
@@ -214059,34 +213929,8 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Hur tillståndet ska matcha valda lampor.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8045814752">
-      <prop type="source">component::light::conditions::is_brightness::description</prop>
-      <prop type="lokalise-key-id">823708779</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Tests the brightness of one or more lights.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Testar ljusstyrkan hos en eller flera lampor.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045814688">
-      <prop type="source">component::light::common::condition_threshold_name</prop>
-      <prop type="lokalise-key-id">823708778</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8045814752"><prop type="source">component::light::conditions::is_brightness::description</prop><prop type="lokalise-key-id">823708779</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests the brightness of one or more lights.</seg></tuv><tuv xml:lang="sv"><seg>Testar ljusstyrkan hos en eller flera lampor.</seg></tuv></tu>
+    <tu tuid="lokalise:8045814688"><prop type="source">component::light::common::condition_threshold_name</prop><prop type="lokalise-key-id">823708778</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8045814624">
       <prop type="source">component::light::common::condition_threshold_description</prop>
       <prop type="lokalise-key-id">823708777</prop>
@@ -214115,62 +213959,10 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Den konfigurerade Proxmox VE-användaren har inte behörighet att skapa ögonblicksbilder av virtuella maskiner och containrar. Ge användaren behörigheten ”VM.Snapshot” och försök igen.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8045725137">
-      <prop type="source">component::humidifier::conditions::is_mode::name</prop>
-      <prop type="lokalise-key-id">823693805</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Humidifier is in mode</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Luftfuktaren är i läge</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045725073">
-      <prop type="source">component::humidifier::conditions::is_mode::fields::mode::name</prop>
-      <prop type="lokalise-key-id">823693804</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Mode</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Läge</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045725009">
-      <prop type="source">component::humidifier::conditions::is_mode::fields::mode::description</prop>
-      <prop type="lokalise-key-id">823693803</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>The operation modes to check for.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>De driftlägen som ska kontrolleras.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045724945">
-      <prop type="source">component::humidifier::conditions::is_mode::fields::behavior::name</prop>
-      <prop type="lokalise-key-id">823693802</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Condition passes if</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Villkoret uppfylls om</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8045725137"><prop type="source">component::humidifier::conditions::is_mode::name</prop><prop type="lokalise-key-id">823693805</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Humidifier is in mode</seg></tuv><tuv xml:lang="sv"><seg>Luftfuktaren är i läge</seg></tuv></tu>
+    <tu tuid="lokalise:8045725073"><prop type="source">component::humidifier::conditions::is_mode::fields::mode::name</prop><prop type="lokalise-key-id">823693804</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Mode</seg></tuv><tuv xml:lang="sv"><seg>Läge</seg></tuv></tu>
+    <tu tuid="lokalise:8045725009"><prop type="source">component::humidifier::conditions::is_mode::fields::mode::description</prop><prop type="lokalise-key-id">823693803</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>The operation modes to check for.</seg></tuv><tuv xml:lang="sv"><seg>De driftlägen som ska kontrolleras.</seg></tuv></tu>
+    <tu tuid="lokalise:8045724945"><prop type="source">component::humidifier::conditions::is_mode::fields::behavior::name</prop><prop type="lokalise-key-id">823693802</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
     <tu tuid="lokalise:8045724881">
       <prop type="source">component::humidifier::conditions::is_mode::fields::behavior::description</prop>
       <prop type="lokalise-key-id">823693801</prop>
@@ -214185,76 +213977,11 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Hur tillståndet ska matcha valda luftfuktare.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8045724817">
-      <prop type="source">component::humidifier::conditions::is_mode::description</prop>
-      <prop type="lokalise-key-id">823693800</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Tests if one or more humidifiers are set to a specific mode.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Testar om en eller flera luftfuktare är inställda på ett specifikt läge.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045312773">
-      <prop type="source">component::climate::conditions::is_hvac_mode::name</prop>
-      <prop type="lokalise-key-id">823645063</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Thermostat HVAC mode</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Termostat HVAC-läge</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045312709">
-      <prop type="source">component::climate::conditions::is_hvac_mode::fields::hvac_mode::name</prop>
-      <prop type="lokalise-key-id">823645062</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Modes</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Lägen</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045312645">
-      <prop type="source">component::climate::conditions::is_hvac_mode::fields::hvac_mode::description</prop>
-      <prop type="lokalise-key-id">823645061</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>The HVAC modes to test for.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>De HVAC-lägen som ska testas.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045312581">
-      <prop type="source">component::climate::conditions::is_hvac_mode::fields::behavior::name</prop>
-      <prop type="lokalise-key-id">823645060</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Condition passes if</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Villkoret uppfylls om</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8045724817"><prop type="source">component::humidifier::conditions::is_mode::description</prop><prop type="lokalise-key-id">823693800</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests if one or more humidifiers are set to a specific mode.</seg></tuv><tuv xml:lang="sv"><seg>Testar om en eller flera luftfuktare är inställda på ett specifikt läge.</seg></tuv></tu>
+    <tu tuid="lokalise:8045312773"><prop type="source">component::climate::conditions::is_hvac_mode::name</prop><prop type="lokalise-key-id">823645063</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Thermostat HVAC mode</seg></tuv><tuv xml:lang="sv"><seg>Termostat HVAC-läge</seg></tuv></tu>
+    <tu tuid="lokalise:8045312709"><prop type="source">component::climate::conditions::is_hvac_mode::fields::hvac_mode::name</prop><prop type="lokalise-key-id">823645062</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Modes</seg></tuv><tuv xml:lang="sv"><seg>Lägen</seg></tuv></tu>
+    <tu tuid="lokalise:8045312645"><prop type="source">component::climate::conditions::is_hvac_mode::fields::hvac_mode::description</prop><prop type="lokalise-key-id">823645061</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>The HVAC modes to test for.</seg></tuv><tuv xml:lang="sv"><seg>De HVAC-lägen som ska testas.</seg></tuv></tu>
+    <tu tuid="lokalise:8045312581"><prop type="source">component::climate::conditions::is_hvac_mode::fields::behavior::name</prop><prop type="lokalise-key-id">823645060</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Condition passes if</seg></tuv><tuv xml:lang="sv"><seg>Villkoret uppfylls om</seg></tuv></tu>
     <tu tuid="lokalise:8045312517">
       <prop type="source">component::climate::conditions::is_hvac_mode::fields::behavior::description</prop>
       <prop type="lokalise-key-id">823645059</prop>
@@ -214269,160 +213996,17 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Hur tillståndet ska matcha valda klimatkontrollenheter.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8045312453">
-      <prop type="source">component::climate::conditions::is_hvac_mode::description</prop>
-      <prop type="lokalise-key-id">823645058</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Tests if one or more thermostats are set to a specific HVAC mode.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Testar om en eller flera termostater är inställda på ett specifikt HVAC-läge.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045044529">
-      <prop type="source">component::telegram_bot::selector::media::fields::verify_ssl</prop>
-      <prop type="lokalise-key-id">823599080</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Verify SSL</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Verifiera SSL</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045044465">
-      <prop type="source">component::telegram_bot::selector::media::fields::username</prop>
-      <prop type="lokalise-key-id">823599079</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Username</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Användarnamn</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045044401">
-      <prop type="source">component::telegram_bot::selector::media::fields::url</prop>
-      <prop type="lokalise-key-id">823599078</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>URL</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>URL</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045044337">
-      <prop type="source">component::telegram_bot::selector::media::fields::password</prop>
-      <prop type="lokalise-key-id">823599077</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Password</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Lösenord</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045044273">
-      <prop type="source">component::telegram_bot::selector::media::fields::media_type</prop>
-      <prop type="lokalise-key-id">823599076</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Media type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Mediatyp</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045044209">
-      <prop type="source">component::telegram_bot::selector::media::fields::file</prop>
-      <prop type="lokalise-key-id">823599075</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>File</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Fil</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045044145">
-      <prop type="source">component::telegram_bot::selector::media::fields::caption</prop>
-      <prop type="lokalise-key-id">823599074</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Caption</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Bildtext</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8045044081">
-      <prop type="source">component::telegram_bot::selector::media::fields::authentication</prop>
-      <prop type="lokalise-key-id">823599073</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Authentication</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Autentisering</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8042586465">
-      <prop type="source">component::battery::triggers::stopped_charging::name</prop>
-      <prop type="lokalise-key-id">823405935</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Battery stopped charging</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Batteri slutar ladda</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8042586401">
-      <prop type="source">component::battery::triggers::stopped_charging::fields::behavior::name</prop>
-      <prop type="lokalise-key-id">823405934</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Trigger when</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlös när</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8045312453"><prop type="source">component::climate::conditions::is_hvac_mode::description</prop><prop type="lokalise-key-id">823645058</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Tests if one or more thermostats are set to a specific HVAC mode.</seg></tuv><tuv xml:lang="sv"><seg>Testar om en eller flera termostater är inställda på ett specifikt HVAC-läge.</seg></tuv></tu>
+    <tu tuid="lokalise:8045044529"><prop type="source">component::telegram_bot::selector::media::fields::verify_ssl</prop><prop type="lokalise-key-id">823599080</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Verify SSL</seg></tuv><tuv xml:lang="sv"><seg>Verifiera SSL</seg></tuv></tu>
+    <tu tuid="lokalise:8045044465"><prop type="source">component::telegram_bot::selector::media::fields::username</prop><prop type="lokalise-key-id">823599079</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Username</seg></tuv><tuv xml:lang="sv"><seg>Användarnamn</seg></tuv></tu>
+    <tu tuid="lokalise:8045044401"><prop type="source">component::telegram_bot::selector::media::fields::url</prop><prop type="lokalise-key-id">823599078</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>URL</seg></tuv><tuv xml:lang="sv"><seg>URL</seg></tuv></tu>
+    <tu tuid="lokalise:8045044337"><prop type="source">component::telegram_bot::selector::media::fields::password</prop><prop type="lokalise-key-id">823599077</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Password</seg></tuv><tuv xml:lang="sv"><seg>Lösenord</seg></tuv></tu>
+    <tu tuid="lokalise:8045044273"><prop type="source">component::telegram_bot::selector::media::fields::media_type</prop><prop type="lokalise-key-id">823599076</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Media type</seg></tuv><tuv xml:lang="sv"><seg>Mediatyp</seg></tuv></tu>
+    <tu tuid="lokalise:8045044209"><prop type="source">component::telegram_bot::selector::media::fields::file</prop><prop type="lokalise-key-id">823599075</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>File</seg></tuv><tuv xml:lang="sv"><seg>Fil</seg></tuv></tu>
+    <tu tuid="lokalise:8045044145"><prop type="source">component::telegram_bot::selector::media::fields::caption</prop><prop type="lokalise-key-id">823599074</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Caption</seg></tuv><tuv xml:lang="sv"><seg>Bildtext</seg></tuv></tu>
+    <tu tuid="lokalise:8045044081"><prop type="source">component::telegram_bot::selector::media::fields::authentication</prop><prop type="lokalise-key-id">823599073</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Authentication</seg></tuv><tuv xml:lang="sv"><seg>Autentisering</seg></tuv></tu>
+    <tu tuid="lokalise:8042586465"><prop type="source">component::battery::triggers::stopped_charging::name</prop><prop type="lokalise-key-id">823405935</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Battery stopped charging</seg></tuv><tuv xml:lang="sv"><seg>Batteriet slutar laddas</seg></tuv></tu>
+    <tu tuid="lokalise:8042586401"><prop type="source">component::battery::triggers::stopped_charging::fields::behavior::name</prop><prop type="lokalise-key-id">823405934</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
     <tu tuid="lokalise:8042586337">
       <prop type="source">component::battery::triggers::stopped_charging::fields::behavior::description</prop>
       <prop type="lokalise-key-id">823405933</prop>
@@ -214437,48 +214021,9 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Det beteende som ska trigga för valda batterier.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8042586273">
-      <prop type="source">component::battery::triggers::stopped_charging::description</prop>
-      <prop type="lokalise-key-id">823405932</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Triggers when one or more batteries stop charging.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlöses när ett eller flera batterier slutar att ladda.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8042586209">
-      <prop type="source">component::battery::triggers::started_charging::name</prop>
-      <prop type="lokalise-key-id">823405931</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Battery started charging</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Batteri börjar ladda</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8042586145">
-      <prop type="source">component::battery::triggers::started_charging::fields::behavior::name</prop>
-      <prop type="lokalise-key-id">823405930</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Trigger when</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlös när</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8042586273"><prop type="source">component::battery::triggers::stopped_charging::description</prop><prop type="lokalise-key-id">823405932</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more batteries stop charging.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när ett eller flera batterier slutar ladda.</seg></tuv></tu>
+    <tu tuid="lokalise:8042586209"><prop type="source">component::battery::triggers::started_charging::name</prop><prop type="lokalise-key-id">823405931</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Battery started charging</seg></tuv><tuv xml:lang="sv"><seg>Batteriet börjar laddas</seg></tuv></tu>
+    <tu tuid="lokalise:8042586145"><prop type="source">component::battery::triggers::started_charging::fields::behavior::name</prop><prop type="lokalise-key-id">823405930</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
     <tu tuid="lokalise:8042586081">
       <prop type="source">component::battery::triggers::started_charging::fields::behavior::description</prop>
       <prop type="lokalise-key-id">823405929</prop>
@@ -214493,20 +214038,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Det beteende som ska trigga för valda batterier.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8042586017">
-      <prop type="source">component::battery::triggers::started_charging::description</prop>
-      <prop type="lokalise-key-id">823405928</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Triggers when one or more batteries start charging.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlöses när ett eller flera batterier börjar att ladda.</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8042586017"><prop type="source">component::battery::triggers::started_charging::description</prop><prop type="lokalise-key-id">823405928</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more batteries start charging.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när ett eller flera batterier börjar ladda.</seg></tuv></tu>
     <tu tuid="lokalise:8042585953">
       <prop type="source">component::battery::triggers::not_low::name</prop>
       <prop type="lokalise-key-id">823405927</prop>
@@ -214619,34 +214151,8 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Utlöses när ett eller flera batterier blir låga.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8042585441">
-      <prop type="source">component::battery::triggers::level_crossed_threshold::name</prop>
-      <prop type="lokalise-key-id">823405919</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Battery level crossed threshold</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Batterinivån har passerat tröskelvärdet</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8042585377">
-      <prop type="source">component::battery::triggers::level_crossed_threshold::fields::threshold::name</prop>
-      <prop type="lokalise-key-id">823405918</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8042585441"><prop type="source">component::battery::triggers::level_crossed_threshold::name</prop><prop type="lokalise-key-id">823405919</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Battery level crossed threshold</seg></tuv><tuv xml:lang="sv"><seg>Batterinivån har passerat tröskelvärdet</seg></tuv></tu>
+    <tu tuid="lokalise:8042585377"><prop type="source">component::battery::triggers::level_crossed_threshold::fields::threshold::name</prop><prop type="lokalise-key-id">823405918</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8042585313">
       <prop type="source">component::battery::triggers::level_crossed_threshold::fields::threshold::description</prop>
       <prop type="lokalise-key-id">823405917</prop>
@@ -214661,20 +214167,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vilken tröskelövergång som ska utlösa samt tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8042585249">
-      <prop type="source">component::battery::triggers::level_crossed_threshold::fields::behavior::name</prop>
-      <prop type="lokalise-key-id">823405916</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Trigger when</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlös när</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8042585249"><prop type="source">component::battery::triggers::level_crossed_threshold::fields::behavior::name</prop><prop type="lokalise-key-id">823405916</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
     <tu tuid="lokalise:8042585185">
       <prop type="source">component::battery::triggers::level_crossed_threshold::fields::behavior::description</prop>
       <prop type="lokalise-key-id">823405915</prop>
@@ -214689,48 +214182,9 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Det beteende som ska trigga för valda batterier.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8042585121">
-      <prop type="source">component::battery::triggers::level_crossed_threshold::description</prop>
-      <prop type="lokalise-key-id">823405914</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Triggers when the battery level of one or more batteries crosses a threshold.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlöses när batterinivån för ett eller flera batterier passerar ett tröskelvärde.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8042585057">
-      <prop type="source">component::battery::triggers::level_changed::name</prop>
-      <prop type="lokalise-key-id">823405913</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Battery level changed</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Batterinivå ändras</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8042584993">
-      <prop type="source">component::battery::triggers::level_changed::fields::threshold::name</prop>
-      <prop type="lokalise-key-id">823405912</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8042585121"><prop type="source">component::battery::triggers::level_crossed_threshold::description</prop><prop type="lokalise-key-id">823405914</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when the battery level of one or more batteries crosses a threshold.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när batterinivån för ett eller flera batterier passerar ett tröskelvärde.</seg></tuv></tu>
+    <tu tuid="lokalise:8042585057"><prop type="source">component::battery::triggers::level_changed::name</prop><prop type="lokalise-key-id">823405913</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Battery level changed</seg></tuv><tuv xml:lang="sv"><seg>Batterinivån ändras</seg></tuv></tu>
+    <tu tuid="lokalise:8042584993"><prop type="source">component::battery::triggers::level_changed::fields::threshold::name</prop><prop type="lokalise-key-id">823405912</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8042584929">
       <prop type="source">component::battery::triggers::level_changed::fields::threshold::description</prop>
       <prop type="lokalise-key-id">823405911</prop>
@@ -214745,20 +214199,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vilka ändringar som ska utlösa samt tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8042584865">
-      <prop type="source">component::battery::triggers::level_changed::description</prop>
-      <prop type="lokalise-key-id">823405910</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Triggers when the battery level of one or more batteries changes.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlöses när batterinivån för ett eller flera batterier förändras.</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8042584865"><prop type="source">component::battery::triggers::level_changed::description</prop><prop type="lokalise-key-id">823405910</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when the battery level of one or more batteries changes.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när batterinivån för ett eller flera batterier ändras.</seg></tuv></tu>
     <tu tuid="lokalise:8042584801">
       <prop type="source">component::battery::selector::trigger_behavior::options::last</prop>
       <prop type="lokalise-key-id">823405909</prop>
@@ -214801,20 +214242,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Något</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8042584609">
-      <prop type="source">component::battery::common::trigger_threshold_name</prop>
-      <prop type="lokalise-key-id">823405906</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8042584609"><prop type="source">component::battery::common::trigger_threshold_name</prop><prop type="lokalise-key-id">823405906</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8042584545">
       <prop type="source">component::battery::common::trigger_threshold_crossed_description</prop>
       <prop type="lokalise-key-id">823405905</prop>
@@ -214843,20 +214271,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vilka ändringar som ska utlösa samt tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8042584417">
-      <prop type="source">component::battery::common::trigger_behavior_name</prop>
-      <prop type="lokalise-key-id">823405903</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Trigger when</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlös när</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8042584417"><prop type="source">component::battery::common::trigger_behavior_name</prop><prop type="lokalise-key-id">823405903</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
     <tu tuid="lokalise:8042584353">
       <prop type="source">component::battery::common::trigger_behavior_description</prop>
       <prop type="lokalise-key-id">823405902</prop>
@@ -214871,62 +214286,10 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Det beteende som ska trigga för valda batterier.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8040138358">
-      <prop type="source">component::humidifier::triggers::mode_changed::name</prop>
-      <prop type="lokalise-key-id">823247160</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Humidifier mode changed</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Luftfuktarens läge har ändrats</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8040138294">
-      <prop type="source">component::humidifier::triggers::mode_changed::fields::mode::name</prop>
-      <prop type="lokalise-key-id">823247159</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Mode</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Läge</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8040138230">
-      <prop type="source">component::humidifier::triggers::mode_changed::fields::mode::description</prop>
-      <prop type="lokalise-key-id">823247158</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>The operation modes to trigger on.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>De driftlägen att utlösa på.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8040138166">
-      <prop type="source">component::humidifier::triggers::mode_changed::fields::behavior::name</prop>
-      <prop type="lokalise-key-id">823247157</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Trigger when</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlös när</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8040138358"><prop type="source">component::humidifier::triggers::mode_changed::name</prop><prop type="lokalise-key-id">823247160</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Humidifier mode changed</seg></tuv><tuv xml:lang="sv"><seg>Luftfuktarens läge har ändrats</seg></tuv></tu>
+    <tu tuid="lokalise:8040138294"><prop type="source">component::humidifier::triggers::mode_changed::fields::mode::name</prop><prop type="lokalise-key-id">823247159</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Mode</seg></tuv><tuv xml:lang="sv"><seg>Läge</seg></tuv></tu>
+    <tu tuid="lokalise:8040138230"><prop type="source">component::humidifier::triggers::mode_changed::fields::mode::description</prop><prop type="lokalise-key-id">823247158</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>The operation modes to trigger on.</seg></tuv><tuv xml:lang="sv"><seg>Välj vilka driftlägen som ska utlösa automatiseringen.</seg></tuv></tu>
+    <tu tuid="lokalise:8040138166"><prop type="source">component::humidifier::triggers::mode_changed::fields::behavior::name</prop><prop type="lokalise-key-id">823247157</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
     <tu tuid="lokalise:8040138102">
       <prop type="source">component::humidifier::triggers::mode_changed::fields::behavior::description</prop>
       <prop type="lokalise-key-id">823247156</prop>
@@ -214941,118 +214304,14 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Det beteende som ska trigga för valda luftfuktare.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8040138038">
-      <prop type="source">component::humidifier::triggers::mode_changed::description</prop>
-      <prop type="lokalise-key-id">823247155</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Triggers when the operation mode of one or more humidifiers changes.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlöses när driftläget för en eller flera luftfuktare förändras.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8037415162">
-      <prop type="source">component::water_heater::triggers::operation_mode_changed::name</prop>
-      <prop type="lokalise-key-id">823059396</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Water heater operation mode changed</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Driftläge för varmvattenberedare har ändrats</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8037415098">
-      <prop type="source">component::water_heater::triggers::operation_mode_changed::fields::operation_mode::name</prop>
-      <prop type="lokalise-key-id">823059395</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Operation mode</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Driftläge</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8037414970">
-      <prop type="source">component::water_heater::triggers::operation_mode_changed::fields::behavior::name</prop>
-      <prop type="lokalise-key-id">823059393</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Trigger when</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlös när</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8037414842">
-      <prop type="source">component::water_heater::triggers::operation_mode_changed::description</prop>
-      <prop type="lokalise-key-id">823059391</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Triggers when the operation mode of one or more water heaters changes to a specific mode.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utlöses när driftläget för en eller flera varmvattenberedare ändras till ett specifikt läge.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8037337982">
-      <prop type="source">component::water_heater::conditions::is_target_temperature::fields::threshold::name</prop>
-      <prop type="lokalise-key-id">823053419</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8037337854">
-      <prop type="source">component::water_heater::common::condition_threshold_name</prop>
-      <prop type="lokalise-key-id">823053417</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8037337726">
-      <prop type="source">component::temperature::conditions::is_value::fields::threshold::name</prop>
-      <prop type="lokalise-key-id">823053415</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8040138038"><prop type="source">component::humidifier::triggers::mode_changed::description</prop><prop type="lokalise-key-id">823247155</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when the operation mode of one or more humidifiers changes.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när driftläget för en eller flera luftfuktare ändras.</seg></tuv></tu>
+    <tu tuid="lokalise:8037415162"><prop type="source">component::water_heater::triggers::operation_mode_changed::name</prop><prop type="lokalise-key-id">823059396</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Water heater operation mode changed</seg></tuv><tuv xml:lang="sv"><seg>Varmvattenberedarens driftläge har ändrats</seg></tuv></tu>
+    <tu tuid="lokalise:8037415098"><prop type="source">component::water_heater::triggers::operation_mode_changed::fields::operation_mode::name</prop><prop type="lokalise-key-id">823059395</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Operation mode</seg></tuv><tuv xml:lang="sv"><seg>Driftläge</seg></tuv></tu>
+    <tu tuid="lokalise:8037414970"><prop type="source">component::water_heater::triggers::operation_mode_changed::fields::behavior::name</prop><prop type="lokalise-key-id">823059393</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+    <tu tuid="lokalise:8037414842"><prop type="source">component::water_heater::triggers::operation_mode_changed::description</prop><prop type="lokalise-key-id">823059391</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when the operation mode of one or more water heaters changes to a specific mode.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när driftläget för en eller flera varmvattenberedare ändras till ett visst läge.</seg></tuv></tu>
+    <tu tuid="lokalise:8037337982"><prop type="source">component::water_heater::conditions::is_target_temperature::fields::threshold::name</prop><prop type="lokalise-key-id">823053419</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
+    <tu tuid="lokalise:8037337854"><prop type="source">component::water_heater::common::condition_threshold_name</prop><prop type="lokalise-key-id">823053417</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
+    <tu tuid="lokalise:8037337726"><prop type="source">component::temperature::conditions::is_value::fields::threshold::name</prop><prop type="lokalise-key-id">823053415</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8037337662">
       <prop type="source">component::temperature::conditions::is_value::fields::threshold::description</prop>
       <prop type="lokalise-key-id">823053414</prop>
@@ -215067,20 +214326,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vad man ska testa för och tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8037337598">
-      <prop type="source">component::temperature::common::condition_threshold_name</prop>
-      <prop type="lokalise-key-id">823053413</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8037337598"><prop type="source">component::temperature::common::condition_threshold_name</prop><prop type="lokalise-key-id">823053413</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8037337534">
       <prop type="source">component::temperature::common::condition_threshold_description</prop>
       <prop type="lokalise-key-id">823053412</prop>
@@ -215095,20 +214341,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vad man ska testa för och tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8037337470">
-      <prop type="source">component::power::conditions::is_value::fields::threshold::name</prop>
-      <prop type="lokalise-key-id">823053411</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8037337470"><prop type="source">component::power::conditions::is_value::fields::threshold::name</prop><prop type="lokalise-key-id">823053411</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8037337406">
       <prop type="source">component::power::conditions::is_value::fields::threshold::description</prop>
       <prop type="lokalise-key-id">823053410</prop>
@@ -215123,20 +214356,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vad man ska testa för och tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8037337342">
-      <prop type="source">component::power::common::condition_threshold_name</prop>
-      <prop type="lokalise-key-id">823053409</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8037337342"><prop type="source">component::power::common::condition_threshold_name</prop><prop type="lokalise-key-id">823053409</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8037337278">
       <prop type="source">component::power::common::condition_threshold_description</prop>
       <prop type="lokalise-key-id">823053408</prop>
@@ -215151,20 +214371,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vad man ska testa för och tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8037337214">
-      <prop type="source">component::moisture::conditions::is_value::fields::threshold::name</prop>
-      <prop type="lokalise-key-id">823053407</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8037337214"><prop type="source">component::moisture::conditions::is_value::fields::threshold::name</prop><prop type="lokalise-key-id">823053407</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8037337150">
       <prop type="source">component::moisture::conditions::is_value::fields::threshold::description</prop>
       <prop type="lokalise-key-id">823053406</prop>
@@ -215179,20 +214386,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vad man ska testa för och tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8037337086">
-      <prop type="source">component::moisture::common::condition_threshold_name</prop>
-      <prop type="lokalise-key-id">823053405</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8037337086"><prop type="source">component::moisture::common::condition_threshold_name</prop><prop type="lokalise-key-id">823053405</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8037337022">
       <prop type="source">component::moisture::common::condition_threshold_description</prop>
       <prop type="lokalise-key-id">823053404</prop>
@@ -215207,20 +214401,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vad man ska testa för och tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8037336958">
-      <prop type="source">component::illuminance::conditions::is_value::fields::threshold::name</prop>
-      <prop type="lokalise-key-id">823053403</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8037336958"><prop type="source">component::illuminance::conditions::is_value::fields::threshold::name</prop><prop type="lokalise-key-id">823053403</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8037336894">
       <prop type="source">component::illuminance::conditions::is_value::fields::threshold::description</prop>
       <prop type="lokalise-key-id">823053402</prop>
@@ -215235,20 +214416,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vad man ska testa för och tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8037336830">
-      <prop type="source">component::illuminance::common::condition_threshold_name</prop>
-      <prop type="lokalise-key-id">823053401</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8037336830"><prop type="source">component::illuminance::common::condition_threshold_name</prop><prop type="lokalise-key-id">823053401</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8037336766">
       <prop type="source">component::illuminance::common::condition_threshold_description</prop>
       <prop type="lokalise-key-id">823053400</prop>
@@ -215263,20 +214431,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vad man ska testa för och tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8037336702">
-      <prop type="source">component::humidity::conditions::is_value::fields::threshold::name</prop>
-      <prop type="lokalise-key-id">823053399</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8037336702"><prop type="source">component::humidity::conditions::is_value::fields::threshold::name</prop><prop type="lokalise-key-id">823053399</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8037336638">
       <prop type="source">component::humidity::conditions::is_value::fields::threshold::description</prop>
       <prop type="lokalise-key-id">823053398</prop>
@@ -215291,20 +214446,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vad man ska testa för och tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8037336574">
-      <prop type="source">component::humidity::common::condition_threshold_name</prop>
-      <prop type="lokalise-key-id">823053397</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8037336574"><prop type="source">component::humidity::common::condition_threshold_name</prop><prop type="lokalise-key-id">823053397</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8037336510">
       <prop type="source">component::humidity::common::condition_threshold_description</prop>
       <prop type="lokalise-key-id">823053396</prop>
@@ -215319,20 +214461,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vad man ska testa för och tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8037336446">
-      <prop type="source">component::humidifier::conditions::is_target_humidity::fields::threshold::name</prop>
-      <prop type="lokalise-key-id">823053395</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8037336446"><prop type="source">component::humidifier::conditions::is_target_humidity::fields::threshold::name</prop><prop type="lokalise-key-id">823053395</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8037336382">
       <prop type="source">component::humidifier::conditions::is_target_humidity::fields::threshold::description</prop>
       <prop type="lokalise-key-id">823053394</prop>
@@ -215347,20 +214476,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vad man ska testa för och tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8037336318">
-      <prop type="source">component::humidifier::common::condition_threshold_name</prop>
-      <prop type="lokalise-key-id">823053393</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8037336318"><prop type="source">component::humidifier::common::condition_threshold_name</prop><prop type="lokalise-key-id">823053393</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8037336254">
       <prop type="source">component::humidifier::common::condition_threshold_description</prop>
       <prop type="lokalise-key-id">823053392</prop>
@@ -215431,20 +214547,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Vad man ska testa för och tröskelvärden.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8037335934">
-      <prop type="source">component::climate::common::condition_threshold_name</prop>
-      <prop type="lokalise-key-id">823053387</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Threshold type</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8037335934"><prop type="source">component::climate::common::condition_threshold_name</prop><prop type="lokalise-key-id">823053387</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Threshold type</seg></tuv><tuv xml:lang="sv"><seg>Tröskelvärdestyp</seg></tuv></tu>
     <tu tuid="lokalise:8037335870">
       <prop type="source">component::climate::common::condition_threshold_description</prop>
       <prop type="lokalise-key-id">823053386</prop>
