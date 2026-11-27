@@ -45,6 +45,32 @@ def unit(entry: dict[str, str]) -> str:
     )
 
 
+def replacement_with_existing_layout(rendered_unit: bytes, original_unit: bytes) -> bytes:
+    """Keep an existing TMX unit's multiline layout when replacing its data."""
+    match = re.search(rb"\n([ \t]+)<prop\b", original_unit)
+    if match is None:
+        return rendered_unit
+    child_indent = match.group(1)
+    close_match = re.search(rb"\n([ \t]+)</tu>$", original_unit)
+    close_indent = close_match.group(1) if close_match else b""
+    segment_match = re.search(rb"\n([ \t]+)<seg\b", original_unit)
+    segment_indent = segment_match.group(1) if segment_match else child_indent + b"  "
+
+    value = rendered_unit
+    value = value.replace(b"><prop", b">\n" + child_indent + b"<prop", 1)
+    value = value.replace(b"</prop><prop", b"</prop>\n" + child_indent + b"<prop")
+    value = value.replace(b"</prop><tuv", b"</prop>\n" + child_indent + b"<tuv")
+    value = re.sub(
+        rb'(<tuv xml:lang="[^"]+">)<seg>',
+        lambda m: m.group(1) + b"\n" + segment_indent + b"<seg>",
+        value,
+    )
+    value = value.replace(b"</seg></tuv>", b"</seg>\n" + child_indent + b"</tuv>")
+    value = value.replace(b"</tuv><tuv", b"</tuv>\n" + child_indent + b"<tuv")
+    value = value.replace(b"</tuv></tu>", b"</tuv>\n" + close_indent + b"</tu>")
+    return value
+
+
 def append(canonical: Path, manifest: Path, *, write: bool) -> int:
     root = ET.parse(canonical).getroot()
     body = root.find("body")
@@ -94,7 +120,13 @@ def append(canonical: Path, manifest: Path, *, write: bool) -> int:
         data = canonical.read_bytes()
         for tuid, rendered_unit in replacements:
             pattern = rb'<tu tuid="' + re.escape(tuid.encode()) + rb'">.*?</tu>'
-            data, count = re.subn(pattern, rendered_unit.encode(), data, count=1, flags=re.DOTALL)
+            match = re.search(pattern, data, flags=re.DOTALL)
+            if match is None:
+                count = 0
+            else:
+                original_unit = match.group(0)
+                formatted_unit = replacement_with_existing_layout(rendered_unit.encode(), original_unit)
+                data, count = re.subn(pattern, formatted_unit, data, count=1, flags=re.DOTALL)
             if count != 1:
                 raise ValueError(f"could not replace canonical entry: {tuid}")
         marker = b"</body>"
