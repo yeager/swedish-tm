@@ -25,6 +25,7 @@ INDEX = ARCHIVE / "index.json"
 TM_PO = ROOT / "sv-gnome.po"
 TM_TMX = ROOT / "sv-gnome.tmx"
 MANIFEST = ROOT / "gnome-reviewed-manifest.json"
+CONTEXT_OVERRIDES = ROOT / "gnome-context-overrides.json"
 
 
 def digest(path: Path) -> str:
@@ -50,6 +51,10 @@ def write_tmx(po: polib.POFile) -> None:
             continue
         lines.extend((
             '    <tu>', f'      <prop type="project">{escape(project_name(entry))}</prop>',
+        ))
+        if entry.msgctxt:
+            lines.append(f'      <prop type="context">{escape(entry.msgctxt)}</prop>')
+        lines.extend((
             f'      <tuv xml:lang="en"><seg>{escape(entry.msgid)}</seg></tuv>',
             f'      <tuv xml:lang="sv"><seg>{escape(entry.msgstr)}</seg></tuv>', '    </tu>',
         ))
@@ -128,6 +133,13 @@ def main() -> None:
     review_index = [review for review in all_reviews
                     if review.get("status") in eligible_statuses
                     and review.get("branch") in eligible_branches]
+    context_overrides = {}
+    if CONTEXT_OVERRIDES.exists():
+        overrides = json.loads(CONTEXT_OVERRIDES.read_text(encoding="utf-8"))
+        context_overrides = {
+            (item["module"], item["branch"], item["msgid"]): item["msgctxt"]
+            for item in overrides
+        }
     for review in review_index:
         if not review.get("reviewed"):
             raise ValueError(f"completed review has no reviewed catalog: {review.get('module')}/{review.get('branch')}")
@@ -154,10 +166,13 @@ def main() -> None:
             if not entry.msgstr:
                 continue
             singular += 1
-            key = (entry.msgctxt, entry.msgid)
+            msgctxt = context_overrides.get(
+                (review["module"], review["branch"], entry.msgid), entry.msgctxt
+            )
+            key = (msgctxt, entry.msgid)
             target = existing.get(key)
             if target is None:
-                target = polib.POEntry(msgid=entry.msgid, msgstr=entry.msgstr, msgctxt=entry.msgctxt,
+                target = polib.POEntry(msgid=entry.msgid, msgstr=entry.msgstr, msgctxt=msgctxt,
                                        comment=f"from gnome:reviewed/{review['module']}/{review['branch']}")
                 tm.append(target)
                 existing[key] = target
@@ -238,7 +253,7 @@ def main() -> None:
         "progress_import_results": progress_results,
         "added_singular_pairs": added, "updated_reviewed_pairs": updated,
         "plural_pairs_not_in_context_free_compendium": skipped_plural,
-        "note": "Plural pairs remain in their reviewed PO archives. sv-gnome.po stores singular entries and available message contexts; TMX retains project provenance but does not store message context.",
+        "note": "Plural pairs remain in their reviewed PO archives. Context overrides keep ambiguous project-specific terms separate in sv-gnome.po; TMX stores project provenance and gettext context metadata.",
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"added={added} updated={updated} plural_skipped={skipped_plural} sources={len(sources)} "
           f"progress_added={progress_added} progress_updated={progress_updated}")

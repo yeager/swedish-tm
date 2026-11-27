@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T10:48:22.189476+00:00",
+  "generated_at": "2026-11-27T11:34:59.993410+00:00",
   "sources": [
     {
       "module": "accerciser",
@@ -3123,12 +3123,21 @@
       "sha256": "f8e2bc5811047bf1ed3479c5d4420e285cf669c223bea3c6eb5f4e76907cb79a",
       "singular_pairs": 203,
       "plural_pairs_not_in_compendium": 0
+    },
+    {
+      "module": "eartag",
+      "branch": "main",
+      "kind": "Gränssnitt",
+      "path": "translations/GNOME-granskning/eartag/main/po/eartag.main.sv.reviewed.po",
+      "sha256": "328f8168bc89f6ce27df3f58ed625e5d15f9fdc09b5c21860393c80721e767fa",
+      "singular_pairs": 199,
+      "plural_pairs_not_in_compendium": 12
     }
   ],
   "selection": {
-    "completed_current_branches": 347,
+    "completed_current_branches": 348,
     "all_index_records": 431,
-    "excluded_status_or_branch": 84
+    "excluded_status_or_branch": 83
   },
   "incremental_sources": [
     {
@@ -7895,8 +7904,8 @@
       "entries_already_matching": 8
     }
   ],
-  "added_singular_pairs": 0,
-  "updated_reviewed_pairs": 3628,
-  "plural_pairs_not_in_context_free_compendium": 670,
-  "note": "Plural pairs remain in their reviewed PO archives. sv-gnome.po stores singular entries and available message contexts; TMX retains project provenance but does not store message context."
+  "added_singular_pairs": 150,
+  "updated_reviewed_pairs": 3632,
+  "plural_pairs_not_in_context_free_compendium": 682,
+  "note": "Plural pairs remain in their reviewed PO archives. Context overrides keep ambiguous project-specific terms separate in sv-gnome.po; TMX stores project provenance and gettext context metadata."
 }
