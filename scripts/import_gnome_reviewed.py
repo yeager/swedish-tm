@@ -124,7 +124,7 @@ def main() -> None:
         return
     all_reviews = json.loads(INDEX.read_text(encoding="utf-8"))["reviews"]
     eligible_statuses = {"Klar lokalt", "Klar och inskickad", "Klar utan ändringar"}
-    eligible_branches = {"main", "master", "gnome-50"}
+    eligible_branches = {"main", "master", "gnome-51"}
     review_index = [review for review in all_reviews
                     if review.get("status") in eligible_statuses
                     and review.get("branch") in eligible_branches]
@@ -145,7 +145,7 @@ def main() -> None:
         po = polib.pofile(str(path), encoding="utf-8")
         singular = plural = 0
         for entry in po:
-            if entry.obsolete or entry.fuzzy or not entry.msgid:
+            if entry.obsolete or entry.fuzzy or not entry.msgid or entry.msgid.startswith("@@image:"):
                 continue
             if entry.msgid_plural:
                 plural += 1
@@ -180,7 +180,7 @@ def main() -> None:
         origin = f"from gnome:reviewed/{audit['module']}/{audit['branch']}/{audit['component']}"
         batch_added = batch_updated = batch_matched = 0
         for entry in batch:
-            if entry.obsolete or entry.fuzzy or not entry.msgid or entry.msgid_plural or not entry.msgstr:
+            if entry.obsolete or entry.fuzzy or not entry.msgid or entry.msgid_plural or not entry.msgstr or entry.msgid.startswith("@@image:"):
                 continue
             key = (entry.msgctxt, entry.msgid)
             target = existing.get(key)
