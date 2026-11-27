@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261127T152003Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261127T153255Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -231703,7 +231703,7 @@ Med:
     <tu>
       <prop type="project">gnome:gnome-initial-setup</prop>
       <tuv xml:lang="en"><seg>Setup</seg></tuv>
-      <tuv xml:lang="sv"><seg>Konfigurera</seg></tuv>
+      <tuv xml:lang="sv"><seg>Konfiguration</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:gnome-initial-setup</prop>
@@ -414086,7 +414086,7 @@ Administratörsgruppen för Förbannade lögner</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/damned-lies/main</prop>
       <tuv xml:lang="en"><seg>Repository</seg></tuv>
-      <tuv xml:lang="sv"><seg>Arkiv</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lagringsplats</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/damned-lies/main</prop>
@@ -687001,6 +687001,474 @@ Välj den användare du vill använda i listan nedan.</seg></tuv>
       <prop type="project">gnome:reviewed/health/master</prop>
       <tuv xml:lang="en"><seg>Couldn’t sync Google Fit data due to error: {}</seg></tuv>
       <tuv xml:lang="sv"><seg>Kunde inte synkronisera Google Fit-data på grund av fel: {}</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Keep your data safe.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Håll dina data säkra.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Welcome to &lt;app&gt;Pika Backup&lt;/app&gt;. Choose a topic to get started.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välkommen till &lt;app&gt;Pika Backup&lt;/app&gt;. Välj ett ämne för att starta.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Recovery</seg></tuv>
+      <tuv xml:lang="sv"><seg>Återställning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Configure commands to run before and after backups</seg></tuv>
+      <tuv xml:lang="sv"><seg>Konfigurera kommandon som körs före och efter säkerhetskopior</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Shell Commands</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skalkommandon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>It is possible to run shell commands before and after backups. To configure them, open &lt;guiseq&gt;&lt;gui&gt;Menu&lt;/gui&gt;&lt;gui&gt;Backup Preferences&lt;/gui&gt;&lt;/guiseq&gt;. Use the start button to try out the command without running a backup.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det är möjligt att köra skalkommandon före och efter säkerhetskopior. För att konfigurera dem öppnar du &lt;guiseq&gt;&lt;gui&gt;Meny&lt;/gui&gt;&lt;gui&gt;Inställningar för säkerhetskopiering&lt;/gui&gt;&lt;/guiseq&gt;. Använd startknappen för att testa kommandot utan att köra en säkerhetskopia.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>The &lt;em&gt;pre-backup&lt;/em&gt; shell command will be executed right before starting the backup. It can be used to perform database dumps, create file system snapshots and much more.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skalkommandot &lt;em&gt;före säkerhetskopiering&lt;/em&gt; körs precis innan säkerhetskopian skapas. Det kan användas för att dumpa databaser, skapa ögonblicksbilder av filsystem och mycket mer.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>The &lt;em&gt;post-backup&lt;/em&gt; shell command is executed after the &lt;cmd&gt;borg create&lt;/cmd&gt; invocation, but before old archives are being deleted. This can be used to tear down the actions done by the &lt;em&gt;pre-backup&lt;/em&gt; command, or run actions like sending a notification based on the outcome of the backup.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skalkommandot &lt;em&gt;efter säkerhetskopiering&lt;/em&gt; körs efter anropet till &lt;cmd&gt;borg create&lt;/cmd&gt;, men innan gamla arkiv tas bort. Det kan användas för att återställa det som kommandot &lt;em&gt;före säkerhetskopiering&lt;/em&gt; gjorde eller för att utföra åtgärder som att skicka en avisering beroende på resultatet av säkerhetskopieringen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Both commands are being executed through a &lt;cmd&gt;bash&lt;/cmd&gt; shell and have context about the backup available as environment variables. The working directory is the user home directory. The &lt;em&gt;post-backup&lt;/em&gt; command also has information about the success or failure of the backup and includes backup statistics. See the tooltip in preferences for available environment variables.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Båda kommandona körs i ett &lt;cmd&gt;bash&lt;/cmd&gt;-skal och får information om säkerhetskopian via miljövariabler. Arbetskatalogen är användarens hemkatalog. Kommandot &lt;em&gt;efter säkerhetskopiering&lt;/em&gt; får även information om säkerhetskopieringen lyckades eller misslyckades och innehåller statistik om den. Se inforutan i inställningarna för en lista över tillgängliga miljövariabler.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Exiting with a non-zero exit code will abort any further backup operations with an error. The standard error output will be visible in the &lt;gui&gt;Backup Info&lt;/gui&gt; window on the &lt;gui&gt;Backup&lt;/gui&gt; tab.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om kommandot avslutas med en annan avslutningskod än noll avbryts alla återstående säkerhetskopieringsåtgärder och ett fel visas. Standardfelutdata visas i fönstret &lt;gui&gt;Information om säkerhetskopiering&lt;/gui&gt; på fliken &lt;gui&gt;Säkerhetskopia&lt;/gui&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>You can run multiple commands by separating them with a &lt;code&gt;;&lt;/code&gt; character. It is recommended to store more complex scripts in a separate file, for example in the home directory.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan köra flera kommandon genom att skilja dem åt med tecknet &lt;code&gt;;&lt;/code&gt;. Vi rekommenderar att du sparar mer omfattande skript i en separat fil, till exempel i hemkatalogen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Run backups automatically on a schedule</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kör säkerhetskopior automatiskt enligt ett schema</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Scheduled Backups</seg></tuv>
+      <tuv xml:lang="sv"><seg>Schemalagda säkerhetskopior</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>The schedule tab is used to configure the automatic creation of backups.</seg></tuv>
+      <tuv xml:lang="sv"><seg>På fliken för schemaläggning ställer du in automatiska säkerhetskopior.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Once enabled a schedule can be chosen between &lt;em&gt;Hourly&lt;/em&gt;, &lt;em&gt;Daily&lt;/em&gt;, &lt;em&gt;Weekly&lt;/em&gt; and &lt;em&gt;Monthly&lt;/em&gt; backups. The status display at the top will always indicate the next time a backup is scheduled to be run.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När schemaläggningen är aktiverad kan du välja mellan säkerhetskopiering &lt;em&gt;varje timme&lt;/em&gt;, &lt;em&gt;varje dag&lt;/em&gt;, &lt;em&gt;varje vecka&lt;/em&gt; och &lt;em&gt;varje månad&lt;/em&gt;. Statusraden högst upp visar när nästa säkerhetskopia ska köras.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>When the appropriate time has elapsed a backup will automatically start in the background. When using an external drive, you will be prompted to insert it if it's not available at the time. The backup will then start as soon as the drive is connected.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När den valda tiden infaller startar säkerhetskopieringen automatiskt i bakgrunden. Om en extern enhet inte är ansluten då ombeds du ansluta den. Säkerhetskopieringen startar så snart enheten är tillgänglig.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Scheduled backups use a lightweight background process called the &lt;em&gt;Monitor&lt;/em&gt;. The &lt;em&gt;Monitor&lt;/em&gt; process runs in the background when &lt;app&gt;Pika Backup&lt;/app&gt; is closed and regularly checks if the conditions are met to start a backup.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Schemalagda säkerhetskopior använder en resurssnål bakgrundsprocess som kallas &lt;em&gt;Övervakaren&lt;/em&gt;. Processen &lt;em&gt;Övervakaren&lt;/em&gt; körs i bakgrunden när &lt;app&gt;Pika Backup&lt;/app&gt; är stängt och kontrollerar regelbundet om villkoren för att starta en säkerhetskopia är uppfyllda.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Cleanup old Archives</seg></tuv>
+      <tuv xml:lang="sv"><seg>Rensa gamla arkiv</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>The schedule can also be configured to automatically remove old archives. Once enabled, choose the desired preset / customize the amount of backups that should be kept. Then press &lt;gui type="button"&gt;Save Configuration&lt;/gui&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också ställa in att gamla arkiv tas bort automatiskt. När funktionen är aktiverad väljer du en förinställning eller anger hur många säkerhetskopior som ska behållas. Välj sedan &lt;gui type="button"&gt;Spara konfiguration&lt;/gui&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>&lt;gui&gt;Keep Hourly&lt;/gui&gt;, &lt;gui&gt;Keep Daily&lt;/gui&gt; and &lt;gui&gt;Keep Weekly&lt;/gui&gt; can only be configured to a minimum of at least &lt;em&gt;one&lt;/em&gt; backup. This is due to a technical limitation of the removal algorithm.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Värdena för &lt;gui&gt;Behåll varje timme&lt;/gui&gt;, &lt;gui&gt;Behåll varje dag&lt;/gui&gt; och &lt;gui&gt;Behåll varje vecka&lt;/gui&gt; kan inte vara lägre än &lt;em&gt;en&lt;/em&gt; säkerhetskopia. Det beror på en teknisk begränsning i borttagningsalgoritmen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; uses the &lt;app&gt;xdg-desktop-portal&lt;/app&gt; &lt;app&gt;Background Portal&lt;/app&gt; to configure the &lt;em&gt;Monitor&lt;/em&gt; process to run in the background. Some distributions misconfigure &lt;app&gt;xdg-desktop-portal&lt;/app&gt; or don't enable the &lt;em&gt;Background Portal&lt;/em&gt;. This will then cause an error when enabling scheduled backups. We have tested the following distributions for correct behavior regarding background portals in their stock configuration:</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; använder &lt;app&gt;Bakgrundsportal&lt;/app&gt; i &lt;app&gt;xdg-desktop-portal&lt;/app&gt; för att köra processen &lt;em&gt;Övervakaren&lt;/em&gt; i bakgrunden. Vissa distributioner har felaktiga inställningar för &lt;app&gt;xdg-desktop-portal&lt;/app&gt; eller aktiverar inte &lt;em&gt;Bakgrundsportal&lt;/em&gt;. Då uppstår ett fel när schemalagda säkerhetskopior aktiveras. Vi har testat att följande distributioner hanterar bakgrundsportaler korrekt med sina standardinställningar:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>If you encounter issues with enabling scheduled backups and you are using a different distribution, please report an issue in your distribution issue tracker.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du får problem med att aktivera schemalagda säkerhetskopior i en annan distribution kan du rapportera felet i distributionens ärendehanteringssystem.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>&lt;app&gt;GNOME Shell&lt;/app&gt; will display &lt;app&gt;Pika Backup&lt;/app&gt; as a running background app whenever scheduled backups are configured. This doesn't mean the entire app is running in the background but only the &lt;em&gt;Monitor&lt;/em&gt; process which only uses very few resources.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;app&gt;GNOME Shell&lt;/app&gt; visar &lt;app&gt;Pika Backup&lt;/app&gt; som en bakgrundsapp när schemalagda säkerhetskopior är inställda. Det betyder inte att hela appen körs i bakgrunden, utan bara processen &lt;em&gt;Övervakaren&lt;/em&gt;, som använder mycket få resurser.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Definition of terms</seg></tuv>
+      <tuv xml:lang="sv"><seg>Definition av termer</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>These terms are commonly used in this documentation and within the app.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dessa termer används ofta i denna dokumentation och i programmet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>BorgBackup</seg></tuv>
+      <tuv xml:lang="sv"><seg>BorgBackup</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>&lt;app&gt;BorgBackup&lt;/app&gt; is the underlying program that is used to create backups. &lt;app&gt;Pika Backup&lt;/app&gt; repositories can also be accessed with the BorgBackup commandline utility. See &lt;link href="https://borgbackup.readthedocs.io"&gt;BorgBackup documentation&lt;/link&gt; for more information about how to use the &lt;cmd&gt;borg&lt;/cmd&gt; command line utility.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;app&gt;BorgBackup&lt;/app&gt; är programmet som används för att skapa säkerhetskopior. Lagringsplatser för &lt;app&gt;Pika Backup&lt;/app&gt; kan också nås med BorgBackups kommandoradsverktyg. Läs &lt;link href="https://borgbackup.readthedocs.io"&gt;BorgBackups dokumentation&lt;/link&gt; om du vill veta mer om hur du använder kommandot &lt;cmd&gt;borg&lt;/cmd&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Backup repositories are directories on a disk or on a remote location that contain backup data. They store one or more &lt;link xref="#archive"&gt;archives&lt;/link&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lagringsplatser för säkerhetskopior är kataloger på en disk eller en fjärrplats som innehåller säkerhetskopierade data. De rymmer ett eller flera &lt;link xref="#archive"&gt;arkiv&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Every backup will create one archive. They store a singular snapshot of the files at the time the backup was created. To restore data from a particular archive, see &lt;link xref="index#recovery"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Varje säkerhetskopia skapar ett arkiv som innehåller en ögonblicksbild av filerna vid den tidpunkt då säkerhetskopian skapades. Läs &lt;link xref="index#recovery"/&gt; om du vill återställa data från ett visst arkiv.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Deduplication</seg></tuv>
+      <tuv xml:lang="sv"><seg>Deduplicering</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; stores backup &lt;link xref="#archive"&gt;archives&lt;/link&gt; in a way that only new and changed data from the last backup use up more disk space. The term &lt;em&gt;deduplication&lt;/em&gt; is used to refer to this functionality.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; lagrar &lt;link xref="#archive"&gt;arkiv&lt;/link&gt; så att bara nya eller ändrade data tar upp mer diskutrymme vid nästa säkerhetskopiering. Den här funktionen kallas &lt;em&gt;deduplicering&lt;/em&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>The amount of new space used for the last backup can be seen in the &lt;gui&gt;Backup Info&lt;/gui&gt; window that can be accessed via the &lt;gui style="tab"&gt;Backup&lt;/gui&gt; tab.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hur mycket nytt diskutrymme den senaste säkerhetskopian tog kan du se i fönstret &lt;gui&gt;Information om säkerhetskopiering&lt;/gui&gt;, som du öppnar via fliken &lt;gui style="tab"&gt;Säkerhetskopia&lt;/gui&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Backup &lt;link xref="#archive"&gt;archives&lt;/link&gt; created with &lt;app&gt;Pika Backup&lt;/app&gt; are compressed with the &lt;em&gt;zstd&lt;/em&gt; algorithm on &lt;em&gt;level 3&lt;/em&gt;. This was chosen as a compromise between performance and resulting backup size.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;link xref="#archive"&gt;Arkiv&lt;/link&gt; som skapas med &lt;app&gt;Pika Backup&lt;/app&gt; komprimeras med algoritmen &lt;em&gt;zstd&lt;/em&gt; på &lt;em&gt;nivå 3&lt;/em&gt;. Den nivån ger en avvägning mellan prestanda och säkerhetskopians storlek.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Backup repositories created with &lt;app&gt;Pika Backup&lt;/app&gt; can be encrypted. This will make it impossible for anyone to read the contents of the backup without knowing or guessing the encryption &lt;em&gt;password&lt;/em&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lagringsplatser som skapas med &lt;app&gt;Pika Backup&lt;/app&gt; kan krypteras. Då kan ingen läsa innehållet i säkerhetskopian utan att känna till eller gissa sig till &lt;em&gt;lösenordet&lt;/em&gt; för krypteringen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>While it is important to choose a strong encryption password for sensitive data, losing the password also means losing access to all data. It is equally important to choose a password that is not easily forgotten or stored in a safe place.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj ett starkt krypteringslösenord för känsliga data. Om du tappar bort lösenordet förlorar du också åtkomsten till alla data. Välj därför ett lösenord som du kommer ihåg och förvara det på ett säkert ställe.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>The encryption algorithm used for new &lt;link type="repository"&gt;repositories&lt;/link&gt; is &lt;em&gt;AES-CTR-256&lt;/em&gt;. The authentication algorithm is either &lt;em&gt;HMAC-SHA256&lt;/em&gt; or &lt;em&gt;BLAKE2b-256&lt;/em&gt; depending on whether SHA256 is hardware-accelerated on the system.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Krypteringsalgoritmen som används för nya &lt;link type="repository"&gt;lagringsplatser&lt;/link&gt; är &lt;em&gt;AES-CTR-256&lt;/em&gt;. Autentiseringsalgoritmen är antingen &lt;em&gt;HMAC-SHA256&lt;/em&gt; eller &lt;em&gt;BLAKE2b-256&lt;/em&gt; beroende på om SHA256 är hårdvaruaccelererat på systemet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>The encryption password can be changed via &lt;guiseq&gt;&lt;gui&gt;Menu&lt;/gui&gt;&lt;gui&gt;Backup Preferences&lt;/gui&gt;&lt;gui&gt;Change Encryption Password&lt;/gui&gt;&lt;/guiseq&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Krypteringslösenordet kan ändras via &lt;guiseq&gt;&lt;gui&gt;Meny&lt;/gui&gt;&lt;gui&gt;Inställningar för säkerhetskopiering&lt;/gui&gt;&lt;gui&gt;Ändra krypteringslösenord&lt;/gui&gt;&lt;/guiseq&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Introduction to &lt;app&gt;Pika Backup&lt;/app&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Introduktion till &lt;app&gt;Pika Backup&lt;/app&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; is designed to save your personal data. Plug in your USB drive and let the Pika do the rest for you.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; är till för att skydda dina personliga data. Anslut din USB-enhet och låt Pika sköta resten.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Create backups &lt;link xref="setup-drive"&gt;locally&lt;/link&gt;, on &lt;link xref="setup-gvfs"&gt;network shares&lt;/link&gt; and &lt;link xref="setup-remote"&gt;remotely&lt;/link&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skapa säkerhetskopior &lt;link xref="setup-drive"&gt;lokalt&lt;/link&gt;, på &lt;link xref="setup-gvfs"&gt;nätverksutdelningar&lt;/link&gt; och &lt;link xref="setup-remote"&gt;på distans&lt;/link&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Set a schedule for regular backups</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ställ in ett schema för regelbundna säkerhetskopior</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Save time and disk space because Pika Backup &lt;link xref="general-glossary#deduplication"&gt;does not need&lt;/link&gt; to copy known data again</seg></tuv>
+      <tuv xml:lang="sv"><seg>Spara tid och diskutrymme eftersom Pika Backup &lt;link xref="general-glossary#deduplication"&gt;inte behöver&lt;/link&gt; kopiera data som redan har säkerhetskopierats</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>&lt;link xref="general-glossary#encryption"&gt;Encrypt&lt;/link&gt; your backups</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;link xref="general-glossary#encryption"&gt;Kryptera&lt;/link&gt; dina säkerhetskopior</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>List created &lt;link xref="general-glossary#archive"&gt;archives&lt;/link&gt; and browse through their contents</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visa skapade &lt;link xref="general-glossary#archive"&gt;arkiv&lt;/link&gt; och bläddra bland innehållet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>&lt;link xref="recovery-pika"&gt;Recover&lt;/link&gt; files or folders via your file browser</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;link xref="recovery-pika"&gt;Återställ&lt;/link&gt; filer eller mappar i filhanteraren</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; does not support complete system recovery. It is powered by the well-tested &lt;app&gt;BorgBackup&lt;/app&gt; software.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; stöder inte fullständig återställning av systemet. Programmet bygger på den vältestade programvaran &lt;app&gt;BorgBackup&lt;/app&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Setup local backup on removable drive</seg></tuv>
+      <tuv xml:lang="sv"><seg>Konfigurera lokal säkerhetskopiering på en flyttbar enhet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Removable Drive</seg></tuv>
+      <tuv xml:lang="sv"><seg>Flyttbar enhet</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>To configure a backup on a removable drive follow these steps.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Följ dessa steg för att konfigurera en säkerhetskopia på en flyttbar enhet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Insert the removable drive</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anslut den flyttbara enheten</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Ensure the drive is visible and accessible via &lt;app&gt;GNOME Files&lt;/app&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kontrollera att enheten syns och går att komma åt i &lt;app&gt;GNOME Filer&lt;/app&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Select the &lt;gui&gt;Setup Backup&lt;/gui&gt; button</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj knappen &lt;gui&gt;Konfigurera säkerhetskopia&lt;/gui&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <prop type="context">_</prop>
+      <tuv xml:lang="en"><seg>external ref='media/setup-button.svg' md5='69724ae8049e2c4b3deb734e4a740fbf'</seg></tuv>
+      <tuv xml:lang="sv"><seg>external ref='media/setup-button.svg' md5='69724ae8049e2c4b3deb734e4a740fbf'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>In the &lt;gui&gt;Create new Repository&lt;/gui&gt; section, choose the drive or &lt;gui&gt;Location on Disk&lt;/gui&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj enheten eller &lt;gui&gt;Plats på disk&lt;/gui&gt; i avsnittet &lt;gui&gt;Skapa ny lagringsplats&lt;/gui&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Ensure the &lt;gui&gt;Repository Base Folder&lt;/gui&gt; has your removable drive selected. If not, press the &lt;gui style="button"&gt;Select Folder…&lt;/gui&gt; button</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kontrollera att den flyttbara enheten är vald som &lt;gui&gt;Basmapp för lagringsplats&lt;/gui&gt;. Om inte väljer du knappen &lt;gui style="button"&gt;Välj mapp…&lt;/gui&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>The new backup &lt;link xref="general-glossary#repository"&gt;repository&lt;/link&gt; will be created in a folder with the specified &lt;gui&gt;Repository Name&lt;/gui&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den nya &lt;link xref="general-glossary#repository"&gt;lagringsplatsen&lt;/link&gt; för säkerhetskopian skapas i en mapp med namnet som angetts i &lt;gui&gt;Lagringsplatsnamn&lt;/gui&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Press &lt;gui style="button"&gt;Continue&lt;/gui&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj &lt;gui style="button"&gt;Fortsätt&lt;/gui&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Choose the desired &lt;link xref="general-glossary#encryption"&gt;encryption&lt;/link&gt; settings</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj de önskade inställningarna för &lt;link xref="general-glossary#encryption"&gt;kryptering&lt;/link&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Press &lt;gui style="button"&gt;Create&lt;/gui&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj &lt;gui style="button"&gt;Skapa&lt;/gui&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Configure the &lt;gui&gt;Files to Back Up&lt;/gui&gt; and &lt;gui&gt;Exclude from Backup&lt;/gui&gt; sections</seg></tuv>
+      <tuv xml:lang="sv"><seg>Konfigurera avsnitten &lt;gui&gt;Filer att säkerhetskopiera&lt;/gui&gt; och &lt;gui&gt;Undanta från säkerhetskopiering&lt;/gui&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Press &lt;gui style="button"&gt;Back Up Now&lt;/gui&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj &lt;gui style="button"&gt;Säkerhetskopiera nu&lt;/gui&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>A common problem with removable drives are missing file system permissions to create files and folders. Make sure the drive is configured in a way that &lt;app&gt;Pika Backup&lt;/app&gt; can write to it.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett vanligt problem med flyttbara enheter är att filsystemsrättigheter saknas för att skapa filer och mappar. Kontrollera att enheten är konfigurerad så att &lt;app&gt;Pika Backup&lt;/app&gt; kan skriva till den.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Setup remote backup on a network share</seg></tuv>
+      <tuv xml:lang="sv"><seg>Konfigurera säkerhetskopiering till en nätverksresurs</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Network Share</seg></tuv>
+      <tuv xml:lang="sv"><seg>Nätverksresurs</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; supports backing up on network shares.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; stöder säkerhetskopiering till nätverksresurser.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Connect to the network share using &lt;app&gt;GNOME Files&lt;/app&gt;. See &lt;link href="help:gnome-help/nautilus-connect"&gt;GNOME Files&lt;/link&gt; help pages for reference.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Anslut till nätverksresursen med &lt;app&gt;GNOME Filer&lt;/app&gt;. Läs hjälpen för &lt;link href="help:gnome-help/nautilus-connect"&gt;GNOME Filer&lt;/link&gt; om du vill veta mer.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Select the &lt;gui&gt;Setup Backup&lt;/gui&gt; button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj knappen &lt;gui&gt;Konfigurera säkerhetskopia&lt;/gui&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>In the &lt;gui&gt;Create new Repository&lt;/gui&gt; section, choose the network share.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj nätverksutdelningen i avsnittet &lt;gui&gt;Skapa ny lagringsplats&lt;/gui&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Ensure the &lt;gui&gt;Repository Base Folder&lt;/gui&gt; has the network share selected. The &lt;gui style="button"&gt;Select Folder…&lt;/gui&gt; button can be used to select a sub-folder on the network share.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kontrollera att nätverksresursen är vald som &lt;gui&gt;Basmapp för lagringsplats&lt;/gui&gt;. Använd knappen &lt;gui style="button"&gt;Välj mapp…&lt;/gui&gt; för att välja en undermapp på nätverksresursen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Setup backups to remote servers and online services</seg></tuv>
+      <tuv xml:lang="sv"><seg>Konfigurera säkerhetskopiering till fjärrservrar och nättjänster</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Remote and Online Backups</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fjärr- och nätsäkerhetskopior</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; supports backing up to remote servers and online services with &lt;app&gt;BorgBackup&lt;/app&gt;, &lt;cmd&gt;ssh&lt;/cmd&gt; or &lt;cmd&gt;sftp&lt;/cmd&gt; support. Services with &lt;app&gt;BorgBackup&lt;/app&gt; support are recommended for performance reasons.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; stöder säkerhetskopiering till fjärrservrar och nättjänster med stöd för &lt;app&gt;BorgBackup&lt;/app&gt;, &lt;cmd&gt;ssh&lt;/cmd&gt; eller &lt;cmd&gt;sftp&lt;/cmd&gt;. Tjänster med stöd för &lt;app&gt;BorgBackup&lt;/app&gt; rekommenderas av prestandaskäl.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>In the &lt;gui&gt;Create new Repository&lt;/gui&gt; section, choose &lt;gui&gt;Remote Location&lt;/gui&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj &lt;gui&gt;Fjärrplats&lt;/gui&gt; i avsnittet &lt;gui&gt;Skapa ny lagringsplats&lt;/gui&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Enter the repository URL. This is usually provided by the online backup service if it has explicit &lt;app&gt;BorgBackup&lt;/app&gt; support. The &lt;gui&gt;Examples&lt;/gui&gt; section in the dialog has an overview of the syntax.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange lagringsplatsens URL. Om nättjänsten uttryckligen stöder &lt;app&gt;BorgBackup&lt;/app&gt; får du vanligtvis URL:en därifrån. Avsnittet &lt;gui&gt;Exempel&lt;/gui&gt; i dialogrutan visar syntaxen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Copy files from a backup archive to your computer</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kopiera filer från ett säkerhetskopieringsarkiv till datorn</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Recover files</seg></tuv>
+      <tuv xml:lang="sv"><seg>Återställ filer</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>You can browse and view files and folders in a backup archive using a file browser like &lt;app&gt;GNOME Files&lt;/app&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan bläddra bland och visa filer och mappar i ett säkerhetskopieringsarkiv med en filhanterare som &lt;app&gt;GNOME Filer&lt;/app&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>If you have multiple backups, you have to select the corresponding backup in the overview first.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du har flera säkerhetskopior väljer du först den aktuella i översikten.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Select the &lt;gui&gt;Archives&lt;/gui&gt; tab.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj fliken &lt;gui&gt;Arkiv&lt;/gui&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <prop type="context">_</prop>
+      <tuv xml:lang="en"><seg>external ref='media/archives-button.svg' md5='280ff4d8724a7e141be03c2cba579fb4'</seg></tuv>
+      <tuv xml:lang="sv"><seg>external ref='media/archives-button.svg' md5='280ff4d8724a7e141be03c2cba579fb4'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Select the archive with the date and time from which you want to recover the files. If the corresponding archive is not listed, use the refresh button to update the list of archives.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj det arkiv med datum och tid som innehåller filerna du vill återställa. Om arkivet inte visas uppdaterar du listan med uppdateringsknappen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Use the &lt;gui&gt;Browse Saved Files&lt;/gui&gt; option and wait until the file browser opens.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj &lt;gui&gt;Bläddra bland sparade filer&lt;/gui&gt; och vänta tills filhanteraren öppnas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Make use of the &lt;link href="help:gnome-help/files"&gt;GNOME Files&lt;/link&gt; features to find the corresponding files and view them or to copy them to your computer.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd funktionerna i &lt;link href="help:gnome-help/files"&gt;GNOME Filer&lt;/link&gt; för att hitta och visa filerna eller kopiera dem till datorn.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <prop type="context">_</prop>
+      <tuv xml:lang="en"><seg>external ref='media/eject-symbolic.svg' md5='6e47085bb625da128aca17b9bc929b93'</seg></tuv>
+      <tuv xml:lang="sv"><seg>external ref='media/eject-symbolic.svg' md5='6e47085bb625da128aca17b9bc929b93'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Close &lt;app&gt;Pika Backup&lt;/app&gt; or &lt;em&gt;eject&lt;/em&gt; the backup archive via the &lt;media type="image" src="media/eject-symbolic.svg"/&gt; &lt;gui style="button"&gt;eject&lt;/gui&gt; button</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stäng &lt;app&gt;Pika Backup&lt;/app&gt; eller &lt;em&gt;mata ut&lt;/em&gt; säkerhetskopian med knappen &lt;media type="image" src="media/eject-symbolic.svg"/&gt; &lt;gui style="button"&gt;Mata ut&lt;/gui&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>&lt;app&gt;GNOME Files&lt;/app&gt; will not preserve permissions when copying from the backup archive. To restore files with correct permissions, use &lt;cmd&gt;cp -a&lt;/cmd&gt; on the commandline.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;app&gt;GNOME Filer&lt;/app&gt; bevarar inte rättigheterna när du kopierar från säkerhetskopieringsarkivet. Använd &lt;cmd&gt;cp -a&lt;/cmd&gt; i terminalen för att återställa filerna med rättigheter.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Recover data using other apps</seg></tuv>
+      <tuv xml:lang="sv"><seg>Återställ data med andra program</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Access Files without Pika Backup</seg></tuv>
+      <tuv xml:lang="sv"><seg>Komma åt filer utan Pika Backup</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; stores files in a format that can only be read by &lt;app&gt;BorgBackup&lt;/app&gt; compatible apps. The recommended way to access files from your backup is to install &lt;app&gt;Pika Backup&lt;/app&gt;, configure the backup, and follow the &lt;link xref="recovery-pika"/&gt; instructions.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;app&gt;Pika Backup&lt;/app&gt; lagrar filer i ett format som bara kan läsas av program som är kompatibla med &lt;app&gt;BorgBackup&lt;/app&gt;. Det rekommenderade sättet att komma åt filerna i säkerhetskopian är att installera &lt;app&gt;Pika Backup&lt;/app&gt;, konfigurera säkerhetskopian och följa instruktionerna i &lt;link xref="recovery-pika"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>However, if &lt;app&gt;Pika Backup&lt;/app&gt; is not available, alternative software can be used that works on a variety of operating systems.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om &lt;app&gt;Pika Backup&lt;/app&gt; inte finns tillgängligt kan du använda alternativ programvara som fungerar på flera operativsystem.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>Alternative Apps</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativa program</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>The &lt;link href="https://vorta.borgbase.com/install/"&gt;Vorta&lt;/link&gt; application provides complete access to all your stored files via a graphical user interface.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med programmet &lt;link href="https://vorta.borgbase.com/install/"&gt;Vorta&lt;/link&gt; får du full tillgång till alla sparade filer i ett grafiskt gränssnitt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/pika-backup/main</prop>
+      <tuv xml:lang="en"><seg>For people familiar with command-line interfaces, &lt;link href="https://borgbackup.readthedocs.io/en/stable/installation.html"&gt;BorgBackup&lt;/link&gt; provides a lot of options to access all stored files.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du är van vid kommandoraden har &lt;link href="https://borgbackup.readthedocs.io/en/stable/installation.html"&gt;BorgBackup&lt;/link&gt; många alternativ för att komma åt alla sparade filer.</seg></tuv>
     </tu>
   </body>
 </tmx>
