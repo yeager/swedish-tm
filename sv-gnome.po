@@ -1,6 +1,6 @@
 # Swedish Translation Memory — GNOME
 # Exported from TR Intelligence 2026-03-28
-# Entries: 132084
+# Entries: 132236
 msgid ""
 msgstr ""
 "Project-Id-Version: Swedish GNOME Translation Memory\n"
@@ -5364,6 +5364,7 @@ msgstr "Du kan stoppa denna åtgärd genom att klicka på avbryt."
 #. from gnome:reviewed/gnome-contacts/main
 #. from gnome:reviewed/polari/main
 #. from gnome:reviewed/evolution-rss/master
+#. from gnome:reviewed/accerciser/master
 msgid "_Cancel"
 msgstr "_Avbryt"
 
@@ -16607,6 +16608,7 @@ msgstr "A_vsluta"
 #. from gnome:reviewed/frogr/master
 #. from gnome:reviewed/gnome-terminal/gnome-50
 #. from gnome:reviewed/evolution-rss/master
+#. from gnome:reviewed/accerciser/master
 msgid "_Edit"
 msgstr "_Redigera"
 
@@ -27268,6 +27270,7 @@ msgstr "Ingen nätverkstjänst"
 
 #. from gnome:gnome-control-center
 #. from gnome:reviewed/evolution-rss/master
+#. from gnome:reviewed/gnome-control-center/main
 msgid "Network timeout"
 msgstr "Tidsgräns för nätverksanslutning"
 
@@ -29649,8 +29652,9 @@ msgstr "Fel vid hämtning av monteringsinformation: %s"
 
 #. from gnome:gvfs
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/evolution-mapi/master
 msgid "Permission denied"
-msgstr "Åtkomst nekad"
+msgstr "Åtkomst nekas"
 
 #. from gnome:gvfs
 msgid "Invalid file info format"
@@ -32634,8 +32638,9 @@ msgid "Parent location"
 msgstr "Överordnad plats"
 
 #. from gnome:file-roller
+#. from gnome:reviewed/evolution-mapi/master
 msgid "_Location:"
-msgstr "Pla_ts:"
+msgstr "_Plats:"
 
 #. from gnome:file-roller
 msgid "Could not delete the old archive."
@@ -130945,8 +130950,9 @@ msgid "Failed to move message cache file"
 msgstr "Det gick inte att flytta cache-filen"
 
 #. from gnome:evolution-activesync
+#. from gnome:reviewed/evolution-mapi/master
 msgid "Could not load summary for %s"
-msgstr "Kunde inte läsa in sammanfattning för %s"
+msgstr "Det gick inte att läsa in sammanfattningen för %s"
 
 #. from gnome:evolution-activesync
 msgid "Writing message to mail store not possible in ActiveSync"
@@ -130961,12 +130967,14 @@ msgid "Checking for new mail"
 msgstr "Söker efter ny e-post"
 
 #. from gnome:evolution-activesync
+#. from gnome:reviewed/evolution-mapi/master
 msgid "C_heck for new messages in all folders"
-msgstr "S_ök efter nya meddelanden i alla mappar"
+msgstr "L_eta efter nya meddelanden i alla mappar"
 
 #. from gnome:evolution-activesync
+#. from gnome:reviewed/evolution-mapi/master
 msgid "_Apply filters to new messages in Inbox on this server"
-msgstr "_Använd filter på nya meddelanden i inkorgen på denna server"
+msgstr "_Tillämpa filter på nya meddelanden i Inkorg på den här servern"
 
 #. from gnome:evolution-activesync
 #. from gnome:reviewed/evolution-activesync/master
@@ -133520,8 +133528,9 @@ msgid "This option will connect to the server using an anonymous login."
 msgstr "Detta alternativ kommer att ansluta till servern genom att använda anonym inloggning."
 
 #. from gnome:evolution-data-server
+#. from gnome:reviewed/evolution-mapi/master
 msgid "Authentication failed."
-msgstr "Autentisering misslyckades."
+msgstr "Autentiseringen misslyckades."
 
 #. from gnome:evolution-data-server
 msgid "Invalid email address trace information:\n%s"
@@ -133636,8 +133645,15 @@ msgid "Could not get session bus:"
 msgstr "Kunde inte erhålla sessionsbuss:"
 
 #. from gnome:evolution-data-server
-msgid "Cannot ask for Kerberos ticket. Obtain the ticket manually, like on command line with “kinit” or open “Online Accounts” in “Settings” and add the Kerberos account there. Reported error was: %s"
-msgstr "Kan inte efterfråga en Kerberos-biljett. Erhåll biljetten manuellt, som på kommandoraden med ”kinit” eller öppna ”Nätkonton” i ”Inställningar” och lägg till Kerberos-kontot där. Det rapporterade felet var: %s"
+#. from gnome:reviewed/evolution-mapi/master
+msgid ""
+"Cannot ask for Kerberos ticket. Obtain the ticket manually, like on command "
+"line with “kinit” or open “Online Accounts” in “Settings” and add the "
+"Kerberos account there. Reported error was: %s"
+msgstr ""
+"Det går inte att hämta en Kerberos-biljett. Hämta den manuellt med kommandot"
+" ”kinit” eller öppna ”Nätkonton” i ”Inställningar” och lägg till Kerberos-"
+"kontot där. Felmeddelande: %s"
 
 #. from gnome:evolution-data-server
 msgid "Unsupported security layer."
@@ -134869,16 +134885,18 @@ msgid "Apply _filters to new messages in all folders"
 msgstr "Tillämpa _filtren för nya meddelanden i alla mappar"
 
 #. from gnome:evolution-data-server
+#. from gnome:reviewed/evolution-mapi/master
 msgid "Check new messages for _Junk contents"
-msgstr "Kontrollera om nya meddelanden är s_kräppost"
+msgstr "Kontrollera om nya meddelanden innehåller _skräppost"
 
 #. from gnome:evolution-data-server
 msgid "Only check for Junk messages in the In_box folder"
 msgstr "Kontrollera endast om det finns skräppostmeddelanden i I_nkorgsmappen"
 
 #. from gnome:evolution-data-server
+#. from gnome:reviewed/evolution-mapi/master
 msgid "Synchroni_ze remote mail locally in all folders"
-msgstr "S_ynkronisera fjärrpost lokalt i alla mappar"
+msgstr "Synkronise_ra fjärrpost lokalt i alla mappar"
 
 #. from gnome:evolution-data-server
 msgid "Numbe_r of concurrent connections to use"
@@ -134989,8 +135007,9 @@ msgid "Cannot authenticate without a username"
 msgstr "Kan inte autentisera utan ett användarnamn"
 
 #. from gnome:evolution-data-server
+#. from gnome:reviewed/evolution-mapi/master
 msgid "Authentication password not available"
-msgstr "Lösenord för autentisering finns inte tillgängligt"
+msgstr "Autentiseringslösenordet är inte tillgängligt"
 
 #. from gnome:evolution-data-server
 msgid "Failed to authenticate"
@@ -135352,8 +135371,9 @@ msgid "Folder %s already exists"
 msgstr "Mappen %s finns redan"
 
 #. from gnome:evolution-data-server
+#. from gnome:reviewed/evolution-mapi/master
 msgid "Cannot create folder “%s”: %s"
-msgstr "Kan inte skapa mapp ”%s”: %s"
+msgstr "Kan inte skapa mappen ”%s”: %s"
 
 #. from gnome:evolution-data-server
 msgid "Cannot get folder “%s”: %s"
@@ -135596,8 +135616,9 @@ msgid "Internal error: UID in invalid format: %s"
 msgstr "Internt fel: UID är i ogiltigt format: %s"
 
 #. from gnome:evolution-data-server
+#. from gnome:reviewed/evolution-mapi/master
 msgid "Cannot get message %s: %s"
-msgstr "Kan inte hämta meddelande %s: %s"
+msgstr "Kan inte hämta meddelandet %s: %s"
 
 #. from gnome:evolution-data-server
 msgid "Cannot get message %s: "
@@ -137535,8 +137556,9 @@ msgid "_User mail:"
 msgstr "_Användar-e-post:"
 
 #. from gnome:evolution-data-server
+#. from gnome:reviewed/evolution-mapi/master
 msgid "Memos"
-msgstr "Memon"
+msgstr "Anteckningar"
 
 #. from gnome:evolution-data-server
 msgid "Tasks"
@@ -138286,12 +138308,14 @@ msgid "Password expired."
 msgstr "Lösenord utgånget."
 
 #. from gnome:evolution-ews
+#. from gnome:reviewed/evolution-mapi/master
 msgid "Cannot add folder, unsupported folder type"
-msgstr "Kan inte lägga till mapp, mapptyp stöds ej"
+msgstr "Det går inte att lägga till mappen eftersom mappens typ inte stöds"
 
 #. from gnome:evolution-ews
+#. from gnome:reviewed/evolution-mapi/master
 msgid "Cannot add folder, master source not found"
-msgstr "Kan inte lägga till mapp, huvudkälla inte funnen"
+msgstr "Det går inte att lägga till mappen eftersom huvudkällan inte hittades"
 
 #. from gnome:evolution-ews
 msgid "Cannot add folder, folder already exists as “%s”"
@@ -138454,8 +138478,9 @@ msgid "Folder ID:"
 msgstr "Mapp-ID:"
 
 #. from gnome:evolution-ews
+#. from gnome:reviewed/evolution-mapi/master
 msgid "Permi_ssion level:"
-msgstr "Rättig_hetsnivå:"
+msgstr "Rättighetsn_ivå:"
 
 #. from gnome:evolution-ews
 msgid "Free/Busy time"
@@ -138549,8 +138574,13 @@ msgid "Availability"
 msgstr "Tillgänglighet"
 
 #. from gnome:evolution-ews
-msgid "Folder “%s” not found. Either it does not exist or you do not have permission to access it."
-msgstr "Mappen ”%s” hittade inte. Antingen så finns den inte eller så har du inte åtkomsträttigheter till den."
+#. from gnome:reviewed/evolution-mapi/master
+msgid ""
+"Folder “%s” not found. Either it does not exist or you do not have "
+"permission to access it."
+msgstr ""
+"Mappen ”%s” hittades inte. Antingen finns den inte eller så saknar du "
+"behörighet att komma åt den."
 
 #. from gnome:evolution-ews
 msgid "Cannot add folder, cannot determine folder’s type"
@@ -138561,20 +138591,24 @@ msgid "Free/Busy as Calendar"
 msgstr "Tillgänglig/Upptagen som kalender"
 
 #. from gnome:evolution-ews
+#. from gnome:reviewed/evolution-mapi/master
 msgid "Testing availability of folder “%s” of user “%s”, please wait…"
-msgstr "Kontrollerar tillgänglighet för mapp ”%s” för användare ”%s”, vänta…"
+msgstr ""
+"Kontrollerar om mappen ”%s” för användaren ”%s” är tillgänglig, vänta…"
 
 #. from gnome:evolution-ews
 msgid "Cannot search for user when the account is offline"
 msgstr "Kan inte söka användare när kontot är frånkopplat"
 
 #. from gnome:evolution-ews
+#. from gnome:reviewed/evolution-mapi/master
 msgid "_User:"
-msgstr "_Användare:"
+msgstr "A_nvändare:"
 
 #. from gnome:evolution-ews
+#. from gnome:reviewed/evolution-mapi/master
 msgid "C_hoose…"
-msgstr "_Välj…"
+msgstr "Vä_lj…"
 
 #. from gnome:evolution-ews
 msgid "Include _subfolders"
@@ -138787,8 +138821,9 @@ msgid "Folder _Sizes"
 msgstr "Mapp_storlekar"
 
 #. from gnome:evolution-ews
+#. from gnome:reviewed/evolution-mapi/master
 msgid "View the size of all Exchange folders"
-msgstr "Visa storleken för alla Exchange-mappar"
+msgstr "Visa storleken på alla Exchange-mappar"
 
 #. from gnome:evolution-ews
 msgid "_Reset Synchronization Tags"
@@ -186635,6 +186670,7 @@ msgstr "Välkommen till %s!"
 
 #. from gnome:gnome-initial-setup
 #. from gnome:reviewed/evolution-rss/master
+#. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Setup"
 msgstr "Konfigurera"
 
@@ -266122,6 +266158,7 @@ msgstr "_Ta bort avsnitt och fil"
 
 #. from gnome:rhythmbox
 #. from gnome:reviewed/evolution-rss/master
+#. from gnome:reviewed/rhythmbox/master
 msgid "Feed"
 msgstr "Flöde"
 
@@ -291581,6 +291618,7 @@ msgstr "Om ett anpassat kommando ska användas"
 
 #. from gnome:reviewed/ptyxis/gnome-46
 #. from gnome:reviewed/evolution-rss/master
+#. from gnome:reviewed/ptyxis/main
 msgid "Use Proxy"
 msgstr "Använd proxyserver"
 
@@ -673634,3 +673672,679 @@ msgstr "Ta bort artiklar som inte längre finns i flödet"
 #. from gnome:reviewed/evolution-rss/master
 msgid "Always delete unread articles"
 msgstr "Ta alltid bort olästa artiklar"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "For accessing Microsoft Exchange 2007/OpenChange servers via MAPI"
+msgstr "För åtkomst till Microsoft Exchange 2007/OpenChange-servrar med MAPI"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Failed to fetch GAL entries"
+msgstr "Det gick inte att hämta poster från den globala adresslistan (GAL)"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Failed to transfer contacts from a server"
+msgstr "Det gick inte att överföra kontakter från servern"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Failed to list items from a server"
+msgstr "Det gick inte att lista objekt från servern"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Failed to modify item on a server"
+msgstr "Det gick inte att ändra objekt på servern"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Failed to create item on a server"
+msgstr "Det gick inte att skapa objekt på servern"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Failed to remove item from a server"
+msgstr "Det gick inte att ta bort objekt från servern"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Failed to transfer objects from a server"
+msgstr "Det gick inte att överföra objekt från servern"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid ""
+"Support for modifying single instances of a recurring appointment is not yet"
+" implemented. No change was made to the appointment on the server."
+msgstr ""
+"Stöd för att ändra en enskild förekomst av ett återkommande möte har inte "
+"implementerats ännu. Mötet på servern har inte ändrats."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Failed to get Free/Busy data"
+msgstr "Det gick inte att hämta ledig/upptagen-information"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Downloading messages in folder “%s”"
+msgstr "Hämtar meddelanden i mappen ”%s”"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "This message is not available in offline mode."
+msgstr "Detta meddelande är inte tillgängligt i frånkopplat läge."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Fetching items failed: %s"
+msgstr "Det gick inte att hämta objekten: %s"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Fetching items failed"
+msgstr "Det gick inte att hämta objekten"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot append message to folder “%s”"
+msgstr "Kan inte lägga till meddelandet i mappen ”%s”"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Offline."
+msgstr "Frånkopplad."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Failed to empty Trash: %s"
+msgstr "Misslyckades med att tömma papperskorgen: %s"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Failed to empty Trash"
+msgstr "Misslyckades med att tömma papperskorgen"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Could not get message: %s"
+msgstr "Kunde inte hämta meddelandet: %s"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Could not get message"
+msgstr "Kunde inte hämta meddelandet"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Receive quota"
+msgstr "Mottagningskvot"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Send quota"
+msgstr "Sändningskvot"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "No quota information available"
+msgstr "Ingen kvotinformation tillgänglig"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Lis_ten for server change notifications"
+msgstr "_Lyssna efter aviseringar om ändringar på servern"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Only check for Junk messag_es in the Inbox folder"
+msgstr "Kontrollera endast om det finns skräppost i _Inkorgsmappen"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid ""
+"This option will connect to the OpenChange server using a plaintext "
+"password."
+msgstr ""
+"Det här alternativet ansluter till OpenChange-servern med ett lösenord i "
+"klartext."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "This option will connect to the server using kerberos key."
+msgstr "Det här alternativet ansluter till servern med en Kerberos-nyckel."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot find folder in a local cache"
+msgstr "Det går inte att hitta mappen i den lokala cachen"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Folder list is not available in offline mode"
+msgstr "Mapplistan är inte tillgänglig i frånkopplat läge"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "No public folder found"
+msgstr "Ingen publik mapp hittades"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "No folder found"
+msgstr "Ingen mapp hittades"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Connecting to “%s”"
+msgstr "Ansluter till ”%s”"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot create MAPI folders in offline mode"
+msgstr "Kan inte skapa MAPI-mappar i frånkopplat läge"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot create new folder “%s”"
+msgstr "Kan inte skapa nya mappen ”%s”"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "MAPI folders can be created only within mailbox of the logged in user"
+msgstr "MAPI-mappar kan bara skapas i den inloggade användarens brevlåda"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot find folder “%s”"
+msgstr "Kan inte hitta mappen ”%s”"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot create folder “%s”"
+msgstr "Kan inte skapa mappen ”%s”"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot delete MAPI folders in offline mode"
+msgstr "Kan inte ta bort MAPI-mappar i frånkopplat läge"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot remove folder “%s”: %s"
+msgstr "Kan inte ta bort mappen ”%s”: %s"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot remove folder “%s”"
+msgstr "Kan inte ta bort mappen ”%s”"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot rename MAPI folders in offline mode"
+msgstr "Kan inte byta namn på MAPI-mappar i frånkopplat läge"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot rename MAPI folder “%s”. Folder does not exist"
+msgstr "Kan inte byta namn på MAPI-mappen ”%s”. Mappen finns inte"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot rename MAPI default folder “%s” to “%s”"
+msgstr "Kan inte byta namn på MAPI-standardmappen ”%s” till ”%s”"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot rename MAPI folder “%s” to “%s”"
+msgstr "Kan inte byta namn på MAPI-mappen ”%s” till ”%s”"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot rename MAPI folder “%s” to “%s”: %s"
+msgstr "Kan inte byta namn på MAPI-mappen ”%s” till ”%s”: %s"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot subscribe MAPI folders in offline mode"
+msgstr "Kan inte prenumerera på MAPI-mappar i frånkopplat läge"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Folder “%s” not found"
+msgstr "Mappen ”%s” hittades inte"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot unsubscribe MAPI folders in offline mode"
+msgstr "Kan inte sluta prenumerera på MAPI-mappar i frånkopplat läge"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Exchange MAPI server %s"
+msgstr "Exchange MAPI-server %s"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Exchange MAPI service for %s on %s"
+msgstr "Exchange MAPI-tjänst för %s på %s"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot connect to MAPI store in offline mode"
+msgstr "Kan inte ansluta till MAPI-lagring i frånkopplat läge"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Mailbox “%s” is full, no new messages will be received or sent."
+msgstr ""
+"Brevlådan ”%s” är full, inga nya meddelanden kommer att tas emot eller "
+"skickas."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid ""
+"Mailbox “%s” is near its size limit, message send will be disabled soon."
+msgstr ""
+"Brevlådan ”%s” närmar sig storleksgränsen. Det går snart inte att skicka "
+"meddelanden."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Mailbox “%s” is full, no new messages will be received."
+msgstr "Brevlådan ”%s” är full, inga nya meddelanden kommer att tas emot."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Mailbox “%s” is near its size limit."
+msgstr "Brevlådan ”%s” är nära sin storleksbegränsning."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot add folder “%s”, failed to add to store’s summary"
+msgstr "Det gick inte att lägga till mappen ”%s” i lagringens sammanfattning"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "gssapi_error"
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Foreign folders"
+msgstr "Främmande mappar"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Could not send message."
+msgstr "Kunde inte skicka meddelande."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Could not send message: %s"
+msgstr "Kunde inte skicka meddelandet: %s"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot connect, no credentials provided"
+msgstr ""
+"Det går inte att ansluta eftersom inga inloggningsuppgifter har angetts"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Data source “%s” does not represent a MAPI folder"
+msgstr "Datakälla ”%s” representerar inte en MAPI-mapp"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Allow _partial search results"
+msgstr "Tillåt _partiella sökresultat"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Select username"
+msgstr "Välj användarnamn"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid ""
+"There are more users with similar user name on a server.\n"
+"Please select that you would like to use from the below list."
+msgstr ""
+"Det finns flera användare med liknande användarnamn på servern.\n"
+"Välj den användare du vill använda i listan nedan."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Authentication finished successfully."
+msgstr "Autentiseringen lyckades."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot authenticate MAPI accounts in offline mode"
+msgstr "Kan inte autentisera MAPI-konton i frånkopplat läge"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid ""
+"Server, username and domain name cannot be empty. Please fill them with "
+"correct values."
+msgstr ""
+"Server, användarnamn och domännamn får inte lämnas tomma. Ange giltiga "
+"värden."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid ""
+"Realm name cannot be empty when kerberos is selected. Please fill them with "
+"correct values."
+msgstr ""
+"Kerberos-sfären (realm) får inte lämnas tom när Kerberos har valts. Ange ett"
+" giltigt värde."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Connecting to the server, please wait…"
+msgstr "Ansluter till servern, vänta…"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "_Use secure connection"
+msgstr "A_nvänd säker anslutning"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "_Kerberos authentication"
+msgstr "_Kerberos-autentisering"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "_Realm name:"
+msgstr "_Domännamn:"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "MAPI Settings"
+msgstr "Inställningar för MAPI"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Folder _Size"
+msgstr "Mapp_storlek"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Folder Size"
+msgstr "Mappstorlek"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Subscribe to folder of other MAPI user…"
+msgstr "Prenumerera på mapp för annan MAPI-användare…"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Folder size…"
+msgstr "Mappstorlek…"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Edit MAPI folder permissions"
+msgstr "Redigera rättigheter för MAPI-mapp"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Edit MAPI calendar permissions"
+msgstr "Redigera rättigheter för MAPI-kalender"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Edit MAPI tasks permissions"
+msgstr "Redigera rättigheter för MAPI-uppgifter"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Edit MAPI memos permissions"
+msgstr "Redigera rättigheter för MAPI-anteckningar"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Edit MAPI contacts permissions"
+msgstr "Redigera rättigheter för MAPI-kontakter"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Personal Folders"
+msgstr "Personliga mappar"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Searching remote MAPI folder structure, please wait…"
+msgstr "Söker igenom den fjärranslutna MAPI-mappstrukturen, vänta…"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Lis_ten for server notifications"
+msgstr "_Lyssna efter serveraviseringar"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot create MAPI calendar in offline mode"
+msgstr "Kan inte skapa MAPI-kalender i frånkopplat läge"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot create MAPI task list in offline mode"
+msgstr "Kan inte skapa MAPI-uppgiftslista i frånkopplat läge"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot create MAPI memo list in offline mode"
+msgstr ""
+"Det går inte att skapa en lista med MAPI-anteckningar i frånkopplat läge"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot create MAPI address book in offline mode"
+msgstr "Kan inte skapa MAPI-adressbok i frånkopplat läge"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot create MAPI source in offline mode"
+msgstr "Kan inte skapa MAPI-källa i frånkopplat läge"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "PermissionsLevel"
+msgid "None"
+msgstr "Ingen"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "PermissionsLevel"
+msgid "Owner"
+msgstr "Ägare"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "PermissionsLevel"
+msgid "Publishing Editor"
+msgstr "Publicerande redigerare"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "PermissionsLevel"
+msgid "Editor"
+msgstr "Redigerare"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "PermissionsLevel"
+msgid "Publishing Author"
+msgstr "Publicerande författare"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "PermissionsLevel"
+msgid "Author"
+msgstr "Författare"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "PermissionsLevel"
+msgid "Nonediting Author"
+msgstr "Författare utan redigeringsbehörighet"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "PermissionsLevel"
+msgid "Reviewer"
+msgstr "Granskare"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "PermissionsLevel"
+msgid "Contributor"
+msgstr "Bidragsgivare"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "PermissionsLevel"
+msgid "Custom"
+msgstr "Anpassad"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "User"
+msgid "Anonymous"
+msgstr "Anonym"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "User"
+msgid "Default"
+msgstr "Standard"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "User"
+msgid "Unknown"
+msgstr "Okänd"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Edit MAPI folder permissions…"
+msgstr "Redigera rättigheter för MAPI-mapp…"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Read"
+msgstr "Läs"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "None"
+msgstr "Ingen"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Full Details"
+msgstr "Fullständiga detaljer"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Simple Free/Busy"
+msgstr "Enkel ledig/upptagen-information"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Detailed Free/Busy"
+msgstr "Detaljerad ledig/upptagen-information"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Write"
+msgstr "Skriv"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Create items"
+msgstr "Skapa objekt"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Create subfolders"
+msgstr "Skapa undermappar"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Edit own"
+msgstr "Redigera egna"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Edit all"
+msgstr "Redigera alla"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Delete items"
+msgstr "Ta bort objekt"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Own"
+msgstr "Egna"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "All"
+msgstr "Alla"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Other"
+msgstr "Andra"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Folder owner"
+msgstr "Mappägare"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Folder contact"
+msgstr "Mappkontakt"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "Permissions"
+msgid "Folder visible"
+msgstr "Mappsynlighet"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Choose MAPI user…"
+msgstr "Välj MAPI-användare…"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "ForeignFolder"
+msgid "Mailbox — %s"
+msgstr "Brevlåda – %s"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot add folder, failed to add to store’s summary"
+msgstr ""
+"Kan inte lägga till mapp, misslyckades att lägga till i lagringens "
+"sammandrag"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "ForeignFolder"
+msgid "%s — %s"
+msgstr "%s – %s"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "MeetingResp"
+msgid "Accepted:"
+msgstr "Accepterat:"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "MeetingResp"
+msgid "Tentative:"
+msgstr "Preliminärt:"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "MeetingResp"
+msgid "Declined:"
+msgstr "Avböjt:"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Failed to login into the server"
+msgstr "Misslyckades med att logga in på servern"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Cannot create more sessions, session limit was reached"
+msgstr "Kan inte skapa fler sessioner, sessionsgränsen har uppnåtts"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Unable to abort"
+msgstr "Kan inte avbryta"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Network error"
+msgstr "Nätverksfel"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Disk error"
+msgstr "Diskfel"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Password change required"
+msgstr "Lösenordsändring krävs"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Password expired"
+msgstr "Lösenordet har gått ut"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Invalid workstation account"
+msgstr "Ogiltigt arbetsstationskonto"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Invalid access time"
+msgstr "Ogiltig åtkomsttid"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "End of session"
+msgstr "Slut på sessionen"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "MAPI is not initialized or connected"
+msgstr "MAPI är inte initierad eller ansluten"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Mailbox quota exceeded"
+msgstr "Brevlådekvot överskreds"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "MAPI error %s (0x%x) occurred"
+msgstr "MAPI-fel %s (0x%x) inträffade"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgctxt "EXCHANGEMAPI_ERROR"
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Server “%s” cannot be reached"
+msgstr "Server ”%s” kan inte nås"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Folder name “%s” is not a known default folder name, nor folder ID."
+msgstr "Mappnamn ”%s” är varken ett känt standardmappnamn eller mapp-ID."
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Failed to open store for user “%s”"
+msgstr "Misslyckades med att öppna lagring för användare ”%s”"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Folder of user “%s” not found"
+msgstr "Mappen för användare ”%s” hittades inte"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "Recipient “%s” is ambiguous"
+msgstr "Mottagaren ”%s” är tvetydig"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid ""
+"Search result exceeded allowed size limit. Use more specific search term, "
+"please"
+msgstr "Sökresultatet är för stort. Ange en mer specifik sökterm"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "All Public Folders"
+msgstr "Alla publika mappar"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "User name “%s” is ambiguous"
+msgstr "Användarnamn ”%s” är tvetydigt"
+
+#. from gnome:reviewed/evolution-mapi/master
+msgid "User name “%s” not found"
+msgstr "Användarnamn ”%s” hittades inte"
