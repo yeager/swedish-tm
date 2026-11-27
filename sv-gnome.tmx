@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261127T223859Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261127T230835Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -11659,7 +11659,7 @@ Skicka synpunkter på översättningen till
     <tu>
       <prop type="project">gnome:nautilus</prop>
       <tuv xml:lang="en"><seg>Select All</seg></tuv>
-      <tuv xml:lang="sv"><seg>Markera alla</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markera allt</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:nautilus</prop>
@@ -60378,7 +60378,7 @@ Bilden exporterades inte till CGM.</seg></tuv>
     <tu>
       <prop type="project">gnome:Dia</prop>
       <tuv xml:lang="en"><seg>Grow</seg></tuv>
-      <tuv xml:lang="sv"><seg>Utöka</seg></tuv>
+      <tuv xml:lang="sv"><seg>Förstora</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:Dia</prop>
@@ -74292,7 +74292,7 @@ vill dela segmenten i markeringen i.</seg></tuv>
     <tu>
       <prop type="project">gnome:GIMP</prop>
       <tuv xml:lang="en"><seg>Feather selection by</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ludda markering med</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ludda markeringen med</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:GIMP</prop>
@@ -74307,7 +74307,7 @@ vill dela segmenten i markeringen i.</seg></tuv>
     <tu>
       <prop type="project">gnome:GIMP</prop>
       <tuv xml:lang="en"><seg>Shrink selection by</seg></tuv>
-      <tuv xml:lang="sv"><seg>Krymp markering med</seg></tuv>
+      <tuv xml:lang="sv"><seg>Förminska markeringen med</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:GIMP</prop>
@@ -74322,7 +74322,7 @@ vill dela segmenten i markeringen i.</seg></tuv>
     <tu>
       <prop type="project">gnome:GIMP</prop>
       <tuv xml:lang="en"><seg>Border selection by</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kantmarkering med</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skapa markeringskant med</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:GIMP</prop>
@@ -77384,7 +77384,7 @@ Klicka OK och ha så skoj när GIMP kraschar…</seg></tuv>
     <tu>
       <prop type="project">gnome:GIMP</prop>
       <tuv xml:lang="en"><seg>Smooth</seg></tuv>
-      <tuv xml:lang="sv"><seg>Mjuk</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utjämning</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:GIMP</prop>
@@ -86597,7 +86597,7 @@ att deformera bilden</seg></tuv>
     <tu>
       <prop type="project">gnome:GIMP</prop>
       <tuv xml:lang="en"><seg>Feather</seg></tuv>
-      <tuv xml:lang="sv"><seg>Fjäder</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ludda</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:GIMP</prop>
@@ -215207,7 +215207,7 @@ Vill du bidra?</seg></tuv>
     <tu>
       <prop type="project">gnome:gimp-data-extras</prop>
       <tuv xml:lang="en"><seg>Spread</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sprid</seg></tuv>
+      <tuv xml:lang="sv"><seg>Spridning</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:gimp-data-extras</prop>
@@ -247699,7 +247699,7 @@ för variabel 2.</seg></tuv>
     <tu>
       <prop type="project">gnome:gnumeric</prop>
       <tuv xml:lang="en"><seg>Border</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ram</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kant</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:gnumeric</prop>
@@ -357782,7 +357782,7 @@ Försök minska &lt;tt&gt;Upplösning&lt;/tt&gt; eller &lt;tt&gt;Sidstorlek&lt;/
       <tuv xml:lang="en"><seg>Report bugs to: %s
 %s home page: &lt;%s&gt;</seg></tuv>
       <tuv xml:lang="sv"><seg>Rapportera fel till: %s
-%s hemsida: &lt;%s&gt;</seg></tuv>
+Webbplats för %s: &lt;%s&gt;</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/polkit/main</prop>
@@ -357814,24 +357814,24 @@ Report bugs to: %s
 %s home page: &lt;%s&gt;
 </seg></tuv>
       <tuv xml:lang="sv"><seg>Användning:
-  pkcheck [FLAGGA...]
+  pkcheck [FLAGGA…]
 
-Hjälpalternativ:
-  -h, --help                         Visa hjälpalternativ
+Hjälpflaggor:
+  -h, --help                         Visa hjälpflaggor
 
-Programalternativ:
-  -a, --action-id=ÅTGÄRD             Kontrollera behörighet att utföra ÅTGÄRD
-  -u, --allow-user-interaction       Interagera med användaren om det behövs
-  -d, --details=NYCKEL VÄRDE          Lägg till (NYCKEL, VÄRDE) i åtgärdsinformationen
-  --enable-internal-agent            Använd en intern autentiseringsagent om det behövs
+Programflaggor:
+  -a, --action-id=ÅTGÄRD             Kontrollera auktorisering för att utföra ÅTGÄRD
+  -u, --allow-user-interaction       Interagera med användaren om nödvändigt
+  -d, --details=NYCKEL VÄRDE           Lägg till (NYCKEL, VÄRDE) till information om åtgärden
+  --enable-internal-agent            Använd en intern autentiseringsagent om nödvändigt
   --list-temp                        Lista tillfälliga auktoriseringar för aktuell session
-  -p, --process=PID[,STARTTID,UID]    Kontrollera behörighet för den angivna processen
+  -p, --process=PID[,STARTTID,UID] Kontrollera auktorisering för angiven process
   --revoke-temp                      Återkalla alla tillfälliga auktoriseringar för aktuell session
-  -s, --system-bus-name=BUSSNAMN     Kontrollera behörighet för ägaren av BUSSNAMN
+  -s, --system-bus-name=BUSSNAMN     Kontrollera auktorisering för ägare av BUSSNAMN
   --version                          Visa version
 
 Rapportera fel till: %s
-%s hemsida: &lt;%s&gt;
+Webbplats för %s: &lt;%s&gt;
 </seg></tuv>
     </tu>
     <tu>
@@ -357866,7 +357866,7 @@ Rapportera fel till: %s
       <prop type="project">gnome:reviewed/polkit/main</prop>
       <tuv xml:lang="en"><seg>%s: Action ID not specified
 </seg></tuv>
-      <tuv xml:lang="sv"><seg>%s: Åtgärds-ID ej angivet
+      <tuv xml:lang="sv"><seg>%s: Åtgärds-ID har inte angetts
 </seg></tuv>
     </tu>
     <tu>
@@ -357887,7 +357887,7 @@ Rapportera fel till: %s
     <tu>
       <prop type="project">gnome:reviewed/polkit/main</prop>
       <tuv xml:lang="en"><seg>Close FD when the agent is registered</seg></tuv>
-      <tuv xml:lang="sv"><seg>Stäng FD när agenten har registrerats</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stäng FD då agenten registrerats</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/polkit/main</prop>
@@ -357920,7 +357920,7 @@ Rapportera fel till: %s
       <prop type="project">gnome:reviewed/polkit/main</prop>
       <tuv xml:lang="en"><seg>%s: Invalid process specifier `%s'
 </seg></tuv>
-      <tuv xml:lang="sv"><seg>%s: Ogiltig processangivelse ”%s”
+      <tuv xml:lang="sv"><seg>%s: Ogiltig processbeskrivare ”%s”
 </seg></tuv>
     </tu>
     <tu>
@@ -457509,7 +457509,7 @@ background-image: -webkit-gradient(linear, left top, left bottom,
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Send by Email</seg></tuv>
-      <tuv xml:lang="sv"><seg>Skicka via e-post</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skicka med e-post</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -457629,7 +457629,7 @@ background-image: -webkit-gradient(linear, left top, left bottom,
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Reload the image</seg></tuv>
-      <tuv xml:lang="sv"><seg>Läs in bilden på nytt</seg></tuv>
+      <tuv xml:lang="sv"><seg>Läs in bilden igen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -458249,7 +458249,7 @@ background-image: -webkit-gradient(linear, left top, left bottom,
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Take a screenshot of a single window</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ta en skärmbild av ett enstaka fönster</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ta en skärmbild av ett fönster</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -458274,7 +458274,7 @@ background-image: -webkit-gradient(linear, left top, left bottom,
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Select a region to grab</seg></tuv>
-      <tuv xml:lang="sv"><seg>Välj en region att fånga</seg></tuv>
+      <tuv xml:lang="sv"><seg>Välj ett område att fånga</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -466734,7 +466734,7 @@ background-image: -webkit-gradient(linear, left top, left bottom,
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>The &lt;guimenuitem&gt;Shrink&lt;/guimenuitem&gt; command reduces the size of the selected area by moving each point on the edge of the selection a certain distance further away from the nearest edge of the image (toward the center of the selection). Feathering is preserved, but the shape of the feathering may be altered at the corners or at points of sharp curvature.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kommandot &lt;guimenuitem&gt;Förminska&lt;/guimenuitem&gt; minskar den markerade ytan genom att flytta varje punkt längs markeringens kant ett visst avstånd bort från bildens närmaste kant (mot markeringens centrum). Fjädring bevaras, men formen på fjädringen kan ändras vid hörn eller punkter med kraftig krökning.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandot &lt;guimenuitem&gt;Förminska&lt;/guimenuitem&gt; minskar den markerade ytan genom att flytta varje punkt längs markeringens kant ett visst avstånd bort från bildens närmaste kant (mot markeringens centrum). Luddning bevaras, men formen på luddningen kan ändras vid hörn eller punkter med kraftig krökning.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -466769,17 +466769,17 @@ background-image: -webkit-gradient(linear, left top, left bottom,
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Sharpen</seg></tuv>
-      <tuv xml:lang="sv"><seg>Skärpa</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gör skarpare</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Remove the feathering of border selection</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ta bort markeringens fjädring</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ta bort markeringens luddning</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>The &lt;guimenuitem&gt;Sharpen&lt;/guimenuitem&gt; command reduces the amount of blur or fuzziness around the edge of a selection. It reverses the effect of the &lt;link linkend="gimp-selection-feather"&gt;Feather Selection&lt;/link&gt; command. The new edge of the selection follows the dotted line of the edge of the old selection. Anti-aliasing is also removed.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kommandot &lt;guimenuitem&gt;Gör skarpare&lt;/guimenuitem&gt; minskar mängden oskärpa kring kanten av en markering. Det upphäver effekten av kommandot &lt;link linkend="gimp-selection-feather"&gt;Fjädra markering&lt;/link&gt;. Markeringens nya kant följer den prickade linjen för den gamla markeringens kant. Kantutjämning tas också bort.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandot &lt;guimenuitem&gt;Gör skarpare&lt;/guimenuitem&gt; minskar mängden oskärpa kring kanten av en markering. Det upphäver effekten av kommandot &lt;link linkend="gimp-selection-feather"&gt;Ludda markering&lt;/link&gt;. Markeringens nya kant följer den prickade linjen för den gamla markeringens kant. Kantutjämning tas också bort.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -466924,7 +466924,7 @@ background-image: -webkit-gradient(linear, left top, left bottom,
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>The &lt;guimenuitem&gt;Grow&lt;/guimenuitem&gt; command increases the size of a selection in the current image. It works in a similar way to the &lt;link linkend="gimp-selection-shrink"&gt;Shrink&lt;/link&gt; command, which reduces the size of a selection.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kommandot &lt;guimenuitem&gt;Utöka&lt;/guimenuitem&gt; ökar storleken på en markering i den aktuella bilden. Det fungerar på liknande sätt som kommandot &lt;link linkend="gimp-selection-shrink"&gt;Förminska&lt;/link&gt;, som minskar storleken på en markering.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandot &lt;guimenuitem&gt;Förstora&lt;/guimenuitem&gt; ökar storleken på en markering i den aktuella bilden. Det fungerar ungefär som kommandot &lt;link linkend="gimp-selection-shrink"&gt;Förminska&lt;/link&gt;, som minskar markeringens storlek.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -466939,7 +466939,7 @@ background-image: -webkit-gradient(linear, left top, left bottom,
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>You can enter the amount by which to increase the selection in the text box. The default unit of measurement is pixels, but you can choose a different unit by using the drop-down menu.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ange hur mycket markeringen ska utökas i textrutan. Standardenheten är bildpunkter, men du kan välja en annan enhet i rullgardinsmenyn.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange hur mycket markeringen ska förstoras i textrutan. Standardenheten är bildpunkter, men du kan välja en annan måttenhet i rullgardinsmenyn.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -466949,12 +466949,12 @@ background-image: -webkit-gradient(linear, left top, left bottom,
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>When you grow a rectangular selection, the resulting selection has rounded corners. The reason for this is shown in the image below:</seg></tuv>
-      <tuv xml:lang="sv"><seg>När du utökar en rektangulär markering får den resulterande markeringen avrundade hörn. Orsaken visas i bilden nedan:</seg></tuv>
+      <tuv xml:lang="sv"><seg>När du förstorar en rektangulär markering blir hörnen på den nya markeringen rundade. Bilden nedan visar varför:</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Why growing a rectangular selection results in rounded corners</seg></tuv>
-      <tuv xml:lang="sv"><seg>Varför en utökad rektangulär markering får avrundade hörn</seg></tuv>
+      <tuv xml:lang="sv"><seg>Därför får en rektangulär markering rundade hörn när den förstoras</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -467109,12 +467109,12 @@ background-image: -webkit-gradient(linear, left top, left bottom,
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Feather selection edges</seg></tuv>
-      <tuv xml:lang="sv"><seg>Fjädra markeringskanter</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ludda markeringskanter</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>The &lt;guimenuitem&gt;Feather&lt;/guimenuitem&gt; command feathers the edges of the selection. This creates a smooth transition between the selection and its surroundings. You normally feather selection borders with the &lt;quote&gt;Feather Edges&lt;/quote&gt; option of the selection tools, but you may feather them again with this command.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kommandot &lt;guimenuitem&gt;Fjädra&lt;/guimenuitem&gt; fjädrar markeringens kanter. Detta skapar en mjuk övergång mellan markeringen och omgivningen. Vanligen fjädar du markeringskanter med alternativet &lt;quote&gt;Fjädra kanter&lt;/quote&gt; i markeringsverktygen, men du kan fjädra dem på nytt med detta kommando.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandot &lt;guimenuitem&gt;Ludda&lt;/guimenuitem&gt; luddar markeringens kanter. Detta skapar en mjuk övergång mellan markeringen och omgivningen. Vanligen luddar du markeringskanter med alternativet &lt;quote&gt;Ludda kanter&lt;/quote&gt; i markeringsverktygen, men du kan ludda dem på nytt med detta kommando.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -467129,7 +467129,7 @@ background-image: -webkit-gradient(linear, left top, left bottom,
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Enter the width of the selection border feathering. The default units are pixels, but you can also choose other units with the drop-down menu.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ange bredden på markeringens kantfjädring. Standardenheten är bildpunkter, men du kan också välja andra enheter i rullgardinsmenyn.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ange bredden på markeringens kantluddning. Standardenheten är bildpunkter, men du kan också välja andra enheter i rullgardinsmenyn.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -467184,7 +467184,7 @@ background-image: -webkit-gradient(linear, left top, left bottom,
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Granularity</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kornighet</seg></tuv>
+      <tuv xml:lang="sv"><seg>Detaljgrad</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -499437,12 +499437,12 @@ och skapar en katalog ”%s”, så kan du spara dina egna GFlare i den kataloge
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Move Area to Front</seg></tuv>
-      <tuv xml:lang="sv"><seg>Flytta område till främst</seg></tuv>
+      <tuv xml:lang="sv"><seg>Flytta området längst fram</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Move Area to Bottom</seg></tuv>
-      <tuv xml:lang="sv"><seg>Flytta område till botten</seg></tuv>
+      <tuv xml:lang="sv"><seg>Flytta området längst bak</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -499692,7 +499692,7 @@ och skapar en katalog ”%s”, så kan du spara dina egna GFlare i den kataloge
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Mappings</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kopplingar</seg></tuv>
+      <tuv xml:lang="sv"><seg>Avbildningar</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -501052,7 +501052,7 @@ Ta bort all text för att ta bort aktuellt värde.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Number of points to consider when determining if a point is a corner or not.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Antal punkter som tas hänsyn till när det bestäms om en punkt är ett hörn eller ej.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Antal punkter som tas hänsyn till när det bestäms om en punkt är ett hörn eller inte.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -501082,7 +501082,7 @@ Ta bort all text för att ta bort aktuellt värde.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>A second number of adjacent points to consider when filtering.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ett andra antal närliggande punkter som tas hänsyn till vid filtrering.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett andra antal intilliggande punkter att ta hänsyn till vid filtrering.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -501112,7 +501112,7 @@ Ta bort all text för att ta bort aktuellt värde.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>To produce the new point, use the old point plus this times the neighbors.</seg></tuv>
-      <tuv xml:lang="sv"><seg>För att generera en ny punkt, använd den gamla punkten samt detta multiplicerat med grannarna.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den nya punkten beräknas som den gamla punkten plus detta värde multiplicerat med grannpunkterna.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -501162,7 +501162,7 @@ Ta bort all text för att ta bort aktuellt värde.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>How many pixels (on the average) a spline can diverge from the line determined by its endpoints before it is changed to a straight line.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Hur många bildpunkter (i genomsnitt) en spline kan avvika från linjen som bestäms av dess ändpunkter innan den görs om till en rak linje.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hur många bildpunkter en spline i genomsnitt får avvika från linjen genom sina ändpunkter innan den görs om till en rak linje.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -501192,7 +501192,7 @@ Ta bort all text för att ta bort aktuellt värde.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Percentage of the curve away from the worst point to look for a better place to subdivide.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Procent av kurvan bort från den sämsta punkten att leta efter en bättre plats att dela upp på.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hur långt längs kurvan, uttryckt i procent från den sämsta punkten, sökningen efter en bättre delningspunkt ska gå.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -501202,7 +501202,7 @@ Ta bort all text för att ta bort aktuellt värde.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Number of points to consider when deciding whether a given point is a better place to subdivide.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Antal punkter som tas hänsyn till när det bestäms huruvida en given punkt är en bättre plats att dela upp på.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Antal punkter att ta hänsyn till när du avgör om en viss punkt är en bättre plats att dela kurvan.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -501212,7 +501212,7 @@ Ta bort all text för att ta bort aktuellt värde.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>How many pixels a point can diverge from a straight line and still be considered a better place to subdivide.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Hur många bildpunkter en punkt kan avvika från en rak linje och fortfarande anses vara en bättre plats att dela upp på.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hur många bildpunkter en punkt får avvika från en rak linje för att fortfarande räknas som en bättre plats att dela kurvan.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -501222,7 +501222,7 @@ Ta bort all text för att ta bort aktuellt värde.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Number of points to look at on either side of a point when computing the approximation to the tangent at that point.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Antal punkter på varje sida om en punkt som tas hänsyn till när en uppskattning av tangenten beräknas vid den punkten.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Antal punkter på vardera sidan om en punkt som används för att uppskatta tangenten i den punkten.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -540378,12 +540378,12 @@ Det kommer återgå till nmtui då det är klart.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Always show microphone for Bluetooth headsets, and switch to headset mode when recording</seg></tuv>
-      <tuv xml:lang="sv"><seg>Visa alltid mikrofon för Bluetooth-headsets, och växla till headset-läge vid inspelning</seg></tuv>
+      <tuv xml:lang="sv"><seg>Visa alltid mikrofonen för Bluetooth-headset och växla till headsetläge vid inspelning</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Auto-switch to headset profile</seg></tuv>
-      <tuv xml:lang="sv"><seg>Växla automatiskt till headset-profil</seg></tuv>
+      <tuv xml:lang="sv"><seg>Växla automatiskt till headsetprofil</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
@@ -540423,7 +540423,7 @@ Det kommer återgå till nmtui då det är klart.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Default sink volume</seg></tuv>
-      <tuv xml:lang="sv"><seg>Standardvolym för utgångar</seg></tuv>
+      <tuv xml:lang="sv"><seg>Standardvolym för ljudutgångar</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
@@ -540433,27 +540433,27 @@ Det kommer återgå till nmtui då det är klart.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Default source volume</seg></tuv>
-      <tuv xml:lang="sv"><seg>Standardkällvolym</seg></tuv>
+      <tuv xml:lang="sv"><seg>Standardvolym för ljudkällor</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Automatically mute all audio devices when active wired headphones/speakers are disconnected to prevent unintended sound output</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tysta automatiskt alla ljudenheter då aktiva trådbundna hörlurar/högtalare kopplas från för att förhindra oavsiktlig ljudutmatning</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stäng automatiskt av ljudet på alla ljudenheter när anslutna trådbundna hörlurar eller högtalare kopplas från, så att oönskat ljud inte spelas upp</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Auto-mute on wired audio disconnect</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tysta automatiskt vid frånkoppling av trådbundet ljud</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stäng av ljudet automatiskt när trådbundna ljudenheter kopplas från</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Automatically mute all audio devices when active Bluetooth headphones/speakers are disconnected to prevent unintended sound output</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tysta automatiskt alla ljudenheter då aktiva Bluetooth-hörlurar/högtalare kopplas från för att förhindra oavsiktlig ljudutmatning</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stäng automatiskt av ljudet på alla ljudenheter när anslutna Bluetooth-hörlurar eller högtalare kopplas från, så att oönskat ljud inte spelas upp</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Auto-mute on Bluetooth audio disconnect</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tysta automatiskt vid frånkoppling av Bluetooth-ljud</seg></tuv>
+      <tuv xml:lang="sv"><seg>Stäng av ljudet automatiskt när Bluetooth-ljudenheter kopplas från</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
@@ -540468,7 +540468,7 @@ Det kommer återgå till nmtui då det är klart.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Streams connected to the default device follow when default changes</seg></tuv>
-      <tuv xml:lang="sv"><seg>Strömmar anslutna till standardenheten följer när standardvärdet ändras</seg></tuv>
+      <tuv xml:lang="sv"><seg>Strömmar som är anslutna till standardenheten följer med när standardenheten ändras</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
@@ -540488,12 +540488,12 @@ Det kommer återgå till nmtui då det är klart.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>The volume level to apply when ducking (= reducing volume for a higher priority stream to be audible) in the role-based linking policy</seg></tuv>
-      <tuv xml:lang="sv"><seg>Volymnivån att tillämpa vid duckande (=reducera volymen så en högre prioriterad ström ska vara hörbar) i den rollbaserade länkpolicyn</seg></tuv>
+      <tuv xml:lang="sv"><seg>Volymnivån som ska användas vid automatisk volymsänkning (= när volymen sänks så att en ström med högre prioritet hörs) i den rollbaserade länkningspolicyn</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Ducking level</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ducknivå</seg></tuv>
+      <tuv xml:lang="sv"><seg>Nivå för volymsänkning</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
@@ -540553,7 +540553,7 @@ Det kommer återgå till nmtui då det är klart.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Remember and restore default audio/video input/output devices</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kom ihåg och återställ ljud/videoenheter att använda som ingångar/utgångar som standard</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kom ihåg och återställ standardenheter för ljud- och videoingångar och -utgångar</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
@@ -540568,17 +540568,17 @@ Det kommer återgå till nmtui då det är klart.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Default capture volume</seg></tuv>
-      <tuv xml:lang="sv"><seg>Standardinspelningsvolym</seg></tuv>
+      <tuv xml:lang="sv"><seg>Standardvolym för inspelningsströmmar</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Default media.role to assign on streams that do not specify it</seg></tuv>
-      <tuv xml:lang="sv"><seg>Standardvärdet för media.role som ska tilldelas strömmar som inte anger det</seg></tuv>
+      <tuv xml:lang="sv"><seg>Standardvärde för media.role för strömmar som inte anger någon roll</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Default media role</seg></tuv>
-      <tuv xml:lang="sv"><seg>Standardmediaroll</seg></tuv>
+      <tuv xml:lang="sv"><seg>Standardroll för media</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
@@ -540588,7 +540588,7 @@ Det kommer återgå till nmtui då det är klart.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Default playback volume</seg></tuv>
-      <tuv xml:lang="sv"><seg>Standarduppspelningsvolym</seg></tuv>
+      <tuv xml:lang="sv"><seg>Standardvolym för uppspelningsströmmar</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
@@ -566662,32 +566662,32 @@ Strängen @{ersättning} kan inkludera bakåtreferenser som \1, \2 eller $1, $2.
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>How long to wait, in milliseconds, before restoring the previous profile when recording stops</seg></tuv>
-      <tuv xml:lang="sv"><seg>Hur länge man ska vänta, i millisekunder, innan den föregående profilen återställs när inspelningen avslutas</seg></tuv>
+      <tuv xml:lang="sv"><seg>Väntetid i millisekunder innan den föregående profilen återställs när inspelningen stoppas</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Auto-switch restore timeout</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tidsgräns för återställning vid automatisk växling</seg></tuv>
+      <tuv xml:lang="sv"><seg>Väntetid för återställning efter automatiskt lägesbyte</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>How long to wait, in milliseconds, before switching to headset mode when recording starts</seg></tuv>
-      <tuv xml:lang="sv"><seg>Hur länge man ska vänta, i millisekunder, innan växling till headsetläge sker när inspelningen påbörjas</seg></tuv>
+      <tuv xml:lang="sv"><seg>Väntetid i millisekunder innan headsetläget aktiveras när inspelningen startar</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Auto-switch timeout</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tidsgräns för automatisk växling</seg></tuv>
+      <tuv xml:lang="sv"><seg>Väntetid för automatiskt lägesbyte</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Prefer better quality or better latency when auto-selecting profiles (only 'quality' or 'latency' values are accepted)</seg></tuv>
-      <tuv xml:lang="sv"><seg>Föredra bättre kvalitet eller lägre latens vid automatiskt profilval (endast värdena ”quality” och ”latency” godtas)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Prioritera hög ljudkvalitet eller låg fördröjning när profiler väljs automatiskt (endast värdena 'quality' och 'latency' godtas)</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Bluetooth profile preference</seg></tuv>
-      <tuv xml:lang="sv"><seg>Bluetooth-profilinställning</seg></tuv>
+      <tuv xml:lang="sv"><seg>Prioritering av Bluetooth-profiler</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
@@ -566702,17 +566702,17 @@ Strängen @{ersättning} kan inkludera bakåtreferenser som \1, \2 eller $1, $2.
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Enable control ports on audio streams</seg></tuv>
-      <tuv xml:lang="sv"><seg>Aktivera styrportar på ljudströmmar</seg></tuv>
+      <tuv xml:lang="sv"><seg>Aktivera kontrollportar för ljudströmmar</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Enable monitor ports on audio streams</seg></tuv>
-      <tuv xml:lang="sv"><seg>Aktivera övervakningsportar på ljudströmmar</seg></tuv>
+      <tuv xml:lang="sv"><seg>Aktivera övervakningsportar för ljudströmmar</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/WirePlumber/master</prop>
       <tuv xml:lang="en"><seg>Configure all audio device sink streams in MONO</seg></tuv>
-      <tuv xml:lang="sv"><seg>Konfigurera alla ljudenheters utgångsströmmar som MONO</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ställ in alla ljudutgångsströmmar för ljudenheter på mono</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/realmd/master</prop>
@@ -652392,7 +652392,7 @@ Intervallstart, Värde, Röd, Grön, Blå
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
       <tuv xml:lang="en"><seg>Soft-proofing rendering intent</seg></tuv>
-      <tuv xml:lang="sv"><seg>Korrektursimulera renderingsåtergivning</seg></tuv>
+      <tuv xml:lang="sv"><seg>Återgivningsmetod för korrekturgranskning</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp/master</prop>
@@ -680548,7 +680548,7 @@ Installera någon av dem för att läsa in RAW-filer.</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>If there is no selection, this menu entry is disabled.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Menyalternativet är inaktiverat om det inte finns någon markering.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om det inte finns någon markering är detta menyobjekt inaktiverat.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -693284,6 +693284,736 @@ Om du inte har begärt länken kan du bortse från det här meddelandet.
       <prop type="context">_</prop>
       <tuv xml:lang="en"><seg>external ref='media/search-recent.png' md5='8ddac07e5fb592e68c6208171a52d52f'</seg></tuv>
       <tuv xml:lang="sv"><seg>external ref='media/search-recent.png' md5='8ddac07e5fb592e68c6208171a52d52f'</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/squeekboard/main</prop>
+      <tuv xml:lang="en"><seg>Squeekboard</seg></tuv>
+      <tuv xml:lang="sv"><seg>Squeekboard</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/squeekboard/main</prop>
+      <tuv xml:lang="en"><seg>On Screen Keyboard</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skärmtangentbord</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/squeekboard/main</prop>
+      <tuv xml:lang="en"><seg>An on screen virtual keyboard</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett virtuellt skärmtangentbord</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;guimenuitem&gt;To Path&lt;/guimenuitem&gt; command converts a selection into a path. The image does not seem to change, but you can see the new path in the &lt;link linkend="gimp-path-dialog"&gt;Paths Dialog&lt;/link&gt;. By using the &lt;link linkend="gimp-tool-path"&gt;Path tool&lt;/link&gt; in the Toolbox, you can precisely adapt the outline of the selection. You can find further information regarding paths in the &lt;link linkend="gimp-path-dialog"&gt;Paths Dialog&lt;/link&gt; section.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandot &lt;guimenuitem&gt;Till bana&lt;/guimenuitem&gt; omvandlar en markering till en bana. Bilden verkar oförändrad, men den nya banan visas i &lt;link linkend="gimp-path-dialog"&gt;dialogrutan Banor&lt;/link&gt;. Med &lt;link linkend="gimp-tool-path"&gt;banverktyget&lt;/link&gt; i verktygslådan kan du finjustera markeringens kontur. Mer information om banor finns i avsnittet &lt;link linkend="gimp-path-dialog"&gt;Banor&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;To Path&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Till bana&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can also access this command from the &lt;link linkend="gimp-path-dialog"&gt;Paths Dialog&lt;/link&gt; which offers a lot of &lt;link linkend="advanced-settings-for-selection-to-path"&gt;Advanced Options&lt;/link&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också öppna kommandot från &lt;link linkend="gimp-path-dialog"&gt;dialogrutan Banor&lt;/link&gt;, där det finns många &lt;link linkend="advanced-settings-for-selection-to-path"&gt;avancerade alternativ&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;guimenuitem&gt;Save to Channel&lt;/guimenuitem&gt; command saves the selection as a channel. The channel can then be used as a channel selection mask. You can find more information about them in the &lt;link linkend="gimp-channel-dialog"&gt;Channels Dialog&lt;/link&gt; section.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandot &lt;guimenuitem&gt;Spara till kanal&lt;/guimenuitem&gt; sparar markeringen som en kanal. Kanalen kan sedan användas som en mask för kanalmarkeringar. Mer information finns i avsnittet &lt;link linkend="gimp-channel-dialog"&gt;Dialogrutan Kanaler&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Save to Channel&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Spara till kanal&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Shrink…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Förminska…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Description of the &lt;quote&gt;Shrink&lt;/quote&gt; dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>Beskrivning av dialogrutan &lt;quote&gt;Förminska&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;Shrink Selection&lt;/quote&gt; dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan &lt;quote&gt;Krymp markering&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>This option is only of interest if the selection runs along the edge of the image. If it does and this option is not checked, then the selection shrinks away from the edge of the image. If this option is checked, the selection continues to extend to the image border. See &lt;xref linkend="selection-outside"/&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det här alternativet är bara relevant om markeringen följer bildens kant. Om alternativet inte är markerat krymper markeringen bort från kanten. Om du markerar det fortsätter markeringen ända till bildkanten. Se &lt;xref linkend="selection-outside"/&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Please do not confuse this command with the &lt;link linkend="gimp-filter-unsharp-mask"&gt;Sharpen (Unsharp Mask)&lt;/link&gt; filter.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Blanda inte ihop kommandot med filtret &lt;link linkend="gimp-filter-unsharp-mask"&gt;Gör skarpare (Oskarp mask)&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Sharpen&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Gör skarpare&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Selection Editor&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Markeringsredigerare&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Description of the &lt;quote&gt;Selection Editor&lt;/quote&gt; dialog window</seg></tuv>
+      <tuv xml:lang="sv"><seg>Beskrivning av dialogrutan &lt;quote&gt;Markeringsredigerare&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;Selection Editor&lt;/quote&gt; dialog window</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan &lt;quote&gt;Markeringsredigerare&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;placeholder-1/&gt; The &lt;link linkend="gimp-selection-all"&gt;Select All&lt;/link&gt; button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;placeholder-1/&gt; Knappen &lt;link linkend="gimp-selection-all"&gt;Markera allt&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;placeholder-1/&gt; The &lt;link linkend="gimp-selection-none"&gt;Select None&lt;/link&gt; button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;placeholder-1/&gt; Knappen &lt;link linkend="gimp-selection-none"&gt;Markera inget&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;placeholder-1/&gt; The &lt;link linkend="gimp-selection-invert"&gt;Select Invert&lt;/link&gt; button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;placeholder-1/&gt; Knappen &lt;link linkend="gimp-selection-invert"&gt;Invertera markering&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;placeholder-1/&gt; The &lt;link linkend="gimp-selection-to-channel"&gt;Save to Channel&lt;/link&gt; button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;placeholder-1/&gt; Knappen &lt;link linkend="gimp-selection-to-channel"&gt;Spara till kanal&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;placeholder-1/&gt; The &lt;link linkend="selection-to-path"&gt;To Path&lt;/link&gt; button. If you hold the &lt;keycap&gt;Shift&lt;/keycap&gt; key while clicking on this button, the &lt;link linkend="advanced-settings-for-selection-to-path"&gt;Advanced Settings&lt;/link&gt; dialog is displayed. Please see the next section for details about these options.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;placeholder-1/&gt; Knappen &lt;link linkend="selection-to-path"&gt;Till bana&lt;/link&gt;. Om du håller ner &lt;keycap&gt;Skift&lt;/keycap&gt;-tangenten medan du klickar på denna knapp visas dialogrutan &lt;link linkend="advanced-settings-for-selection-to-path"&gt;Avancerade inställningar&lt;/link&gt;. Se nästa avsnitt för detaljer om dessa alternativ.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;placeholder-1/&gt; The &lt;link linkend="gimp-selection-stroke"&gt;Stroke Selection&lt;/link&gt; button.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;placeholder-1/&gt; Knappen &lt;link linkend="gimp-selection-stroke"&gt;Stryk längs markering&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Example of clicking in the &lt;quote&gt;Selection Editor&lt;/quote&gt; display window</seg></tuv>
+      <tuv xml:lang="sv"><seg>Exempel på klick i &lt;quote&gt;markeringsredigerarens&lt;/quote&gt; visningsfönster</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Selection Editor window after clicking.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markeringsredigeraren efter ett klick.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Image with the resulting selection applied.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bilden med den nya markeringen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;Selection to Path Advanced Settings&lt;/quote&gt; dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan &lt;quote&gt;Avancerade inställningar för Markering till bana&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;Advanced Settings&lt;/quote&gt; dialog window</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan &lt;quote&gt;Avancerade inställningar&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;Selection to Path Advanced Settings&lt;/quote&gt; dialog, that you get by &lt;keycap&gt;Shift&lt;/keycap&gt; clicking on the &lt;guibutton&gt;Selection to Path&lt;/guibutton&gt; button, contains a number of options, most of which you can set with a slider bar. There is also one check box. These options are mostly used by advanced users. They are:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan &lt;quote&gt;Avancerade inställningar för Markering till bana&lt;/quote&gt; öppnas när du håller ned &lt;keycap&gt;Skift&lt;/keycap&gt; och klickar på knappen &lt;guibutton&gt;Markering till bana&lt;/guibutton&gt;. Den innehåller flera alternativ, varav de flesta ställs in med skjutreglage. Det finns också en kryssruta. Alternativen är främst avsedda för avancerade användare:</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Align Threshold</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tröskelvärde för justering</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>If two endpoints are closer than this value, they are made to be equal.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om två ändpunkter är närmare än detta värde kommer de att göras lika.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Corner Always Threshold</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tröskelvärde för alltid hörn</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>If the angle defined by a point and its predecessors and successors is smaller than this, it is a corner, even if it is within &lt;guilabel&gt;Corner Surround&lt;/guilabel&gt; pixels of a point with a smaller angle.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om vinkeln som bildas av en punkt och dess föregångare och efterföljare är mindre än detta värde räknas punkten som ett hörn, även om den ligger inom &lt;guilabel&gt;Hörnomgivning&lt;/guilabel&gt; bildpunkter från en punkt med mindre vinkel.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Corner Surround</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hörnomgivning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Corner Threshold</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tröskelvärde för hörn</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>If a point, its predecessors, and its successors define an angle smaller than this, it is a corner.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om en punkt, dess föregångare och efterföljare definierar en vinkel mindre än detta, så är den ett hörn.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Error Threshold</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tröskelvärde för fel</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;quote&gt;Spline&lt;/quote&gt; is a mathematical term for a function which defines a curve by using a series of control points, such as a Bézier curve. &lt;placeholder-1/&gt; See &lt;ulink url="https://en.wikipedia.org/wiki/Spline_(mathematics)"&gt;Wikipedia&lt;/ulink&gt; for more information.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;quote&gt;Spline&lt;/quote&gt; är en matematisk term för en funktion som definierar en kurva genom att använda en serie kontrollpunkter, såsom en Bézierkurva. &lt;placeholder-1/&gt; Se &lt;ulink url="https://en.wikipedia.org/wiki/Spline_(mathematics)"&gt;Wikipedia&lt;/ulink&gt; för mer information.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Amount of error at which a fitted spline&lt;placeholder-1/&gt; is unacceptable. If any pixel is further away than this from the fitted curve, the algorithm tries again.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Storleken på felet vid vilket en inpassad spline&lt;placeholder-1/&gt; är oacceptabel. Om någon bildpunkt är längre bort än detta från den inpassade kurvan så försöker algoritmen igen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Filter Alternative Surround</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativ filteromgivning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Filter Epsilon</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filter epsilon</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>If the angles between the vectors produced by &lt;guilabel&gt;Filter Surround&lt;/guilabel&gt; and &lt;guilabel&gt;Filter Alternative Surround&lt;/guilabel&gt; points differ by more than this, use the one from &lt;guilabel&gt;Filter Alternative Surround&lt;/guilabel&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om vinklarna mellan vektorerna från punkterna &lt;guilabel&gt;Filteromgivning&lt;/guilabel&gt; och &lt;guilabel&gt;Alternativ filteromgivning&lt;/guilabel&gt; skiljer sig mer än detta värde, används vektorn från &lt;guilabel&gt;Alternativ filteromgivning&lt;/guilabel&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Filter Iteration Count</seg></tuv>
+      <tuv xml:lang="sv"><seg>Antal iterationer för filter</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The number of times to smooth the original data points. Increasing this number dramatically, to 50 or so, can produce vastly better results. But if any points that &lt;quote&gt;should&lt;/quote&gt; be corners aren't found, the curve goes wild around that point.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Antalet gånger som de ursprungliga datapunkterna ska jämnas ut. Om du ökar värdet kraftigt, till omkring 50, kan resultatet bli mycket bättre. Men om algoritmen inte hittar punkter som &lt;quote&gt;bör&lt;/quote&gt; vara hörn kan kurvan spåra ur runt den punkten.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Filter Percent</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filterprocent</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Filter Secondary Surround</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sekundär filteromgivning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Number of adjacent points to consider if &lt;guilabel&gt;Filter Surround&lt;/guilabel&gt; points defines a straight line.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Antal intilliggande punkter att ta hänsyn till om punkterna i &lt;guilabel&gt;Filteromgivning&lt;/guilabel&gt; bildar en rak linje.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Filter Surround</seg></tuv>
+      <tuv xml:lang="sv"><seg>Filteromgivning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Keep Knees</seg></tuv>
+      <tuv xml:lang="sv"><seg>Behåll knän</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>This check box says whether or not to remove &lt;quote&gt;knee&lt;/quote&gt; points after finding the outline.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med den här kryssrutan väljer du om &lt;quote&gt;knä&lt;/quote&gt;-punkter ska tas bort när konturen har hittats.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Line Reversion Threshold</seg></tuv>
+      <tuv xml:lang="sv"><seg>Gränsvärde för återgång till rak linje</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>If a spline is closer to a straight line than this value, it remains a straight line, even if it would otherwise be changed back to a curve. This is weighted by the square of the curve length, to make shorter curves more likely to be reverted.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om en spline ligger närmare en rak linje än det här värdet förblir den rak, även om den annars skulle göras om till en kurva. Värdet viktas med kurvans längd i kvadrat, så att kortare kurvor oftare återgår till en rak linje.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Line Threshold</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tröskelvärde för linje</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Reparametrize Improvement</seg></tuv>
+      <tuv xml:lang="sv"><seg>Förbättring vid omparametrisering</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>If reparameterization doesn't improve the fit by this much percent, the algorithm stops doing it.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om omparametrisering inte förbättrar anpassningen så här många procent slutar algoritmen göra det.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Reparametrize Threshold</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tröskelvärde för omparametrisering</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Amount of error at which it is pointless to reparameterize. This happens, for example, when the algorithm is trying to fit the outline of the outside of an &lt;quote&gt;O&lt;/quote&gt; with a single spline. The initial fit is not good enough for the Newton-Raphson iteration to improve it. It may be that it would be better to detect the cases where the algorithm didn't find any corners.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Vid den här felmängden är det meningslöst att omparametrisera. Det kan till exempel hända när algoritmen försöker passa in en enda spline längs utsidan av ett &lt;quote&gt;O&lt;/quote&gt;. Den första anpassningen är då inte tillräckligt bra för att Newton-Raphson-iterationerna ska förbättra den. Det kan vara bättre att hitta de fall där algoritmen inte hittar några hörn.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Subdivide Search</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sökning efter delningspunkt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Subdivide Surround</seg></tuv>
+      <tuv xml:lang="sv"><seg>Omgivande punkter för delning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Subdivide Threshold</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tröskelvärde för uppdelning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Tangent Surround</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tangentens omgivning</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Example of using Rounded rectangle on a selection</seg></tuv>
+      <tuv xml:lang="sv"><seg>Exempel på hur kommandot Rundad rektangel används på en markering</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>After &lt;quote&gt;Rounded rectangle&lt;/quote&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Efter &lt;quote&gt;Rundad rektangel&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Rounded Rectangle…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Rundad rektangel…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Description of the &lt;quote&gt;Rounded Rectangle&lt;/quote&gt; Dialog Window</seg></tuv>
+      <tuv xml:lang="sv"><seg>Beskrivning av dialogrutan &lt;quote&gt;Rundad rektangel&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;Rounded Rectangle&lt;/quote&gt; dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan &lt;quote&gt;Rundad rektangel&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>This command removes the holes of a selection. Holes are unselected or partially selected areas in the selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det här kommandot tar bort hålen i en markering. Hål är omarkerade eller delvis markerade områden inuti markeringen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Remove Holes&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Ta bort hål&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Example for Remove Holes</seg></tuv>
+      <tuv xml:lang="sv"><seg>Exempel på kommandot Ta bort hål</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>A selection and the Selection Editor</seg></tuv>
+      <tuv xml:lang="sv"><seg>En markering och markeringsredigeraren</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Selection using the Fuzzy Select tool.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markering med verktyget Luddig markering.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The Selection Editor shows several holes.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markeringsredigeraren visar flera hål.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Remove Holes applied and the Selection Editor</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markeringsredigeraren efter att Ta bort hål har tillämpats</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Remove Holes applied.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandot Ta bort hål har tillämpats.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Holes disappeared.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Hålen är borta.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>This command has the same action as clicking on the small button in the bottom left corner of the image. See &lt;link linkend="gimp-quick-mask"&gt;Quick Mask&lt;/link&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandot fungerar på samma sätt som när du klickar på den lilla knappen längst ned till vänster i bilden. Se &lt;link linkend="gimp-quick-mask"&gt;Snabbmask&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Toggle Quick Mask&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Växla snabbmask&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can also use the keyboard shortcut &lt;keycombo&gt;&lt;keycap&gt;Shift&lt;/keycap&gt;&lt;keycap&gt;Q&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också använda tangentbordsgenvägen &lt;keycombo&gt;&lt;keycap&gt;Skift&lt;/keycap&gt;&lt;keycap&gt;Q&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;None&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Inget&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can also access this command from the bottom bar of the &lt;link linkend="gimp-selection-dialog"&gt;Selection Editor&lt;/link&gt;, or through the &lt;link linkend="tab-menus"&gt;Tab menu&lt;/link&gt; in the &lt;guisubmenu&gt;Selection Editor Menu&lt;/guisubmenu&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också öppna kommandot från den nedersta raden i &lt;link linkend="gimp-selection-dialog"&gt;markeringsredigeraren&lt;/link&gt; eller från &lt;link linkend="tab-menus"&gt;flikmenyn&lt;/link&gt; i &lt;guisubmenu&gt;markeringsredigerarens meny&lt;/guisubmenu&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Do not confuse this command with the &lt;link linkend="gimp-filter-invert-perceptual"&gt;Invert colors&lt;/link&gt; command.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Blanda inte ihop detta kommando med kommandot &lt;link linkend="gimp-filter-invert-perceptual"&gt;Invertera färger&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Invert&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Invertera&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can also use the keyboard shortcut &lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;I&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också använda tangentbordsgenvägen &lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;I&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>In this section, you will find help for commands in the &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;/menuchoice&gt; menu.</seg></tuv>
+      <tuv xml:lang="sv"><seg>I det här avsnittet finns hjälp om kommandona i menyn &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The Contents of the &lt;quote&gt;Select&lt;/quote&gt; Menu</seg></tuv>
+      <tuv xml:lang="sv"><seg>Innehållet i &lt;quote&gt;Markera&lt;/quote&gt;-menyn</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Grow…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan öppna kommandot från huvudmenyn via &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Förstora&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Description of the &lt;quote&gt;Grow Selection&lt;/quote&gt; dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>Beskrivning av dialogrutan &lt;quote&gt;Väx markering&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;Grow Selection&lt;/quote&gt; dialog window</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan &lt;quote&gt;Väx markering&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Selection From Paths</seg></tuv>
+      <tuv xml:lang="sv"><seg>Markering från banor</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Create a selection from Paths</seg></tuv>
+      <tuv xml:lang="sv"><seg>Skapa en markering från banor</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;guimenuitem&gt;Selection From Paths&lt;/guimenuitem&gt; command transforms the selected paths into a selection. If a path is not closed, the command connects the two end points with a straight line. The original path is unchanged.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandot &lt;guimenuitem&gt;Markering från banor&lt;/guimenuitem&gt; omvandlar de valda banorna till en markering. Om en bana inte är sluten drar kommandot en rak linje mellan ändpunkterna. Den ursprungliga banan ändras inte.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Selection From Paths&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Markering från banor&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>In addition, you can click on the &lt;guibutton&gt;Path to Selection&lt;/guibutton&gt; button &lt;placeholder-1/&gt; in the Paths dialog to access the command.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också öppna kommandot genom att klicka på knappen &lt;guibutton&gt;Bana till markering&lt;/guibutton&gt; &lt;placeholder-1/&gt; i dialogrutan Banor.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Cut and Float</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klipp ut och gör flytande</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Copy and Float</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kopiera och gör flytande</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;guimenuitem&gt;Float&lt;/guimenuitem&gt; submenu consists of commands to convert a selection into a &lt;quote&gt;floating selection&lt;/quote&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Undermenyn &lt;guimenuitem&gt;Flytande&lt;/guimenuitem&gt; innehåller kommandon som omvandlar en markering till en &lt;quote&gt;flytande markering&lt;/quote&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>A floating selection (sometimes called a &lt;quote&gt;floating layer&lt;/quote&gt;) is a type of temporary layer which is similar in function to a normal layer, except that before you can resume working on any other layers in the image, a floating selection must be &lt;emphasis&gt;anchored&lt;/emphasis&gt;. That is, you have to attach it to a normal (non-floating) layer, usually the original layer (the one which was active previously), or turn it into a new layer.</seg></tuv>
+      <tuv xml:lang="sv"><seg>En flytande markering (ibland kallad ett &lt;quote&gt;flytande lager&lt;/quote&gt;) är ett tillfälligt lager som fungerar ungefär som ett vanligt lager. Innan du kan arbeta vidare med andra lager i bilden måste den flytande markeringen &lt;emphasis&gt;förankras&lt;/emphasis&gt;. Det gör du genom att fästa den vid ett vanligt lager, oftast ursprungslagret (det som var aktivt tidigare), eller omvandla den till ett nytt lager.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this submenu from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Float&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt denna undermeny från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Flytande&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Contents of the &lt;quote&gt;Float&lt;/quote&gt; submenu</seg></tuv>
+      <tuv xml:lang="sv"><seg>Innehållet i undermenyn &lt;quote&gt;Flytande&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;Float&lt;/quote&gt; submenu commands are described below.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandona i undermenyn &lt;quote&gt;Flytande&lt;/quote&gt; beskrivs nedan.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;Cut and Float&lt;/quote&gt; command cuts the image selection from the layer and converts it into a floating selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandot &lt;quote&gt;Klipp ut och gör flytande&lt;/quote&gt; klipper ut markeringen från lagret och omvandlar den till en flytande markering.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guisubmenu&gt;Float&lt;/guisubmenu&gt;&lt;guimenuitem&gt;Cut and Float&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guisubmenu&gt;Flytande&lt;/guisubmenu&gt;&lt;guimenuitem&gt;Klipp ut och gör flytande&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can also use the keyboard shortcut &lt;keycombo&gt;&lt;keycap&gt;Shift&lt;/keycap&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;L&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också använda tangentbordsgenvägen &lt;keycombo&gt;&lt;keycap&gt;Skift&lt;/keycap&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;L&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;Copy and Float&lt;/quote&gt; command copies the image selection from the layer and converts it into a floating selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandot &lt;quote&gt;Kopiera och gör flytande&lt;/quote&gt; kopierar markeringen från lagret och omvandlar den till en flytande markering.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guisubmenu&gt;Float&lt;/guisubmenu&gt;&lt;guimenuitem&gt;Copy and Float&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guisubmenu&gt;Flytande&lt;/guisubmenu&gt;&lt;guimenuitem&gt;Kopiera och gör flytande&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;paste&lt;/quote&gt; operations &lt;link linkend="gimp-buffer-paste"&gt;Paste Buffer&lt;/link&gt;, &lt;link linkend="gimp-buffer-paste-in-place"&gt;Paste Buffer In Place&lt;/link&gt;, &lt;link linkend="gimp-buffer-paste-into"&gt;Paste Buffer Into The Selection&lt;/link&gt;, &lt;link linkend="gimp-buffer-paste-into-in-place"&gt;Paste Buffer Into The Selection In Place&lt;/link&gt;, &lt;link linkend="gimp-edit-paste-float"&gt;Paste as Floating Data&lt;/link&gt; or &lt;link linkend="gimp-edit-paste-float-in-place"&gt;Paste as Floating Data In Place&lt;/link&gt; or &lt;link linkend="gimp-edit-paste-into"&gt;Paste as Floating Data Into Selection&lt;/link&gt; or &lt;link linkend="gimp-edit-paste-into-in-place"&gt;Paste as Floating Data Into Selection In Place&lt;/link&gt;, also create a floating selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandona för att &lt;quote&gt;klistra in&lt;/quote&gt; skapar också en flytande markering: &lt;link linkend="gimp-buffer-paste"&gt;Klistra in buffert&lt;/link&gt;, &lt;link linkend="gimp-buffer-paste-in-place"&gt;Klistra in buffert på plats&lt;/link&gt;, &lt;link linkend="gimp-buffer-paste-into"&gt;Klistra in buffert i markeringen&lt;/link&gt;, &lt;link linkend="gimp-buffer-paste-into-in-place"&gt;Klistra in buffert i markeringen på plats&lt;/link&gt;, &lt;link linkend="gimp-edit-paste-float"&gt;Klistra in som flytande data&lt;/link&gt;, &lt;link linkend="gimp-edit-paste-float-in-place"&gt;Klistra in som flytande data på plats&lt;/link&gt;, &lt;link linkend="gimp-edit-paste-into"&gt;Klistra in som flytande data i markeringen&lt;/link&gt; samt &lt;link linkend="gimp-edit-paste-into-in-place"&gt;Klistra in som flytande data i markeringen på plats&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>In addition, all the Transform tools: &lt;link linkend="gimp-tool-unified-transform"&gt;Unified Transform&lt;/link&gt;, &lt;link linkend="gimp-tool-rotate"&gt;Rotate&lt;/link&gt;, &lt;link linkend="gimp-tool-scale"&gt;Scale&lt;/link&gt;, &lt;link linkend="gimp-tool-shear"&gt;Shear&lt;/link&gt;, &lt;link linkend="gimp-tool-flip"&gt;Flip&lt;/link&gt;, &lt;link linkend="gimp-tool-perspective"&gt;Perspective&lt;/link&gt;, &lt;link linkend="gimp-tool-transform-3d"&gt;3D Transform&lt;/link&gt;, and &lt;link linkend="gimp-tool-handle-transform"&gt;Handle Transform&lt;/link&gt;, create a floating selection when they are used on a selection, rather than a layer. When the &lt;guilabel&gt;Transform&lt;/guilabel&gt; mode is &lt;emphasis&gt;Layer&lt;/emphasis&gt; and a selection already exists, these tools transform the selection and create a floating selection with the result. If a selection does not exist, they transform the current layer and do not create a floating selection. (If the &lt;guilabel&gt;Transform&lt;/guilabel&gt; mode is &lt;emphasis&gt;Selection&lt;/emphasis&gt;, they also do not create a floating selection.)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dessutom skapar alla transformverktyg en flytande markering när de används på en markering i stället för på ett lager: &lt;link linkend="gimp-tool-unified-transform"&gt;Enhetlig transform&lt;/link&gt;, &lt;link linkend="gimp-tool-rotate"&gt;Rotera&lt;/link&gt;, &lt;link linkend="gimp-tool-scale"&gt;Skala&lt;/link&gt;, &lt;link linkend="gimp-tool-shear"&gt;Skeva&lt;/link&gt;, &lt;link linkend="gimp-tool-flip"&gt;Vänd&lt;/link&gt;, &lt;link linkend="gimp-tool-perspective"&gt;Perspektiv&lt;/link&gt;, &lt;link linkend="gimp-tool-transform-3d"&gt;3D-transformering&lt;/link&gt; och &lt;link linkend="gimp-tool-handle-transform"&gt;Handtagstransformering&lt;/link&gt;. Om läget &lt;guilabel&gt;Transformera&lt;/guilabel&gt; är &lt;emphasis&gt;Lager&lt;/emphasis&gt; och det redan finns en markering omvandlar verktygen markeringen och skapar en flytande markering av resultatet. Om det inte finns någon markering omvandlas det aktuella lagret utan att en flytande markering skapas. (Det skapas inte heller någon flytande markering om läget &lt;guilabel&gt;Transformera&lt;/guilabel&gt; är &lt;emphasis&gt;Markering&lt;/emphasis&gt;.)</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>By click-and-dragging a selection while pressing the &lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;Alt&lt;/keycap&gt;&lt;/keycombo&gt;, or &lt;keycombo&gt;&lt;keycap&gt;Shift&lt;/keycap&gt;&lt;keycap&gt;Alt&lt;/keycap&gt;&lt;/keycombo&gt; keys (see &lt;xref linkend="gimp-using-selections-moving"/&gt;) you also automatically create a floating selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du skapar också en flytande markering automatiskt om du klickar och drar i en markering medan du håller ned &lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;Alt&lt;/keycap&gt;&lt;/keycombo&gt; eller &lt;keycombo&gt;&lt;keycap&gt;Skift&lt;/keycap&gt;&lt;keycap&gt;Alt&lt;/keycap&gt;&lt;/keycombo&gt; (se &lt;xref linkend="gimp-using-selections-moving"/&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Use the &lt;link linkend="gimp-layer-anchor"&gt;Anchor layer&lt;/link&gt; command (&lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;H&lt;/keycap&gt;&lt;/keycombo&gt;).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd kommandot &lt;link linkend="gimp-layer-anchor"&gt;Förankra lager&lt;/link&gt; (&lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;H&lt;/keycap&gt;&lt;/keycombo&gt;).</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>By clicking on the anchor button &lt;placeholder-1/&gt; of the &lt;link linkend="gimp-layer-dialog"&gt;Layers Dialog&lt;/link&gt;, that appears when the floating selection is created, instead of the default Merge layers icon.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klicka på förankringsknappen &lt;placeholder-1/&gt; i &lt;link linkend="gimp-layer-dialog"&gt;dialogrutan Lager&lt;/link&gt;, som visas när den flytande markeringen skapas. Använd den i stället för standardikonen Sammanfoga lager.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Use the &lt;link linkend="gimp-layer-new"&gt;To New Layer&lt;/link&gt; command ( &lt;keycombo&gt;&lt;keycap&gt;Shift&lt;/keycap&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;N&lt;/keycap&gt;&lt;/keycombo&gt;) to turn the floating selection into a newly created layer.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Använd kommandot &lt;link linkend="gimp-layer-new"&gt;Till nytt lager&lt;/link&gt; ( &lt;keycombo&gt;&lt;keycap&gt;Skift&lt;/keycap&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;N&lt;/keycap&gt;&lt;/keycombo&gt;) för att omvandla den flytande markeringen till ett nytt lager.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Feather…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Ludd…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Description of the &lt;quote&gt;Feather Selection&lt;/quote&gt; dialog window</seg></tuv>
+      <tuv xml:lang="sv"><seg>Beskrivning av dialogrutan &lt;quote&gt;Ludda markering&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;Feather Selection&lt;/quote&gt; dialog</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan &lt;quote&gt;Ludda markering&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>If the selection is on border of the image (or goes beyond the border), this option acts as if the selected area continued outside the image.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om markeringen ligger längs bildens kant eller går utanför den fungerar alternativet som om det markerade området fortsatte utanför bilden.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Original. Selection on border.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ursprunglig bild med markering längs kanten.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Option checked. The right border is not feathered.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativet är markerat. Den högra kanten luddas inte.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Option unchecked</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativet avmarkerat</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Example of using Distort on a selection</seg></tuv>
+      <tuv xml:lang="sv"><seg>Exempel på hur Förvräng används på en markering</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>After &lt;quote&gt;Distort&lt;/quote&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Efter &lt;quote&gt;Förvräng&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Distort…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Förvräng…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>If the active selection has a regular shape (e.g. rectangle or ellipse selection), this option controls if the new outline is more inside the original selection or more outside the original selection.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om markeringen har en regelbunden form (till exempel en rektangel eller ellips) avgör alternativet om den nya konturen hamnar längre innanför eller utanför den ursprungliga markeringen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>A higher &lt;quote&gt;Smooth&lt;/quote&gt; decreases the deformation.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Ett högre värde på &lt;quote&gt;Jämna ut&lt;/quote&gt; minskar deformationen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Smooth horizontally</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utjämna horisontellt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Smooth vertically</seg></tuv>
+      <tuv xml:lang="sv"><seg>Utjämna vertikalt</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Deactivating &lt;guilabel&gt;Smooth horizontally&lt;/guilabel&gt; or &lt;guilabel&gt;Smooth vertically&lt;/guilabel&gt; increases the deformation.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om du inaktiverar &lt;guilabel&gt;Jämna ut horisontellt&lt;/guilabel&gt; eller &lt;guilabel&gt;Jämna ut vertikalt&lt;/guilabel&gt; ökar deformationen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;guimenuitem&gt;By Color&lt;/guimenuitem&gt; command is an alternate way of accessing the &lt;quote&gt;Select By Color&lt;/quote&gt; tool, one of the basic selection tools. You can find more information about using this tool in &lt;link linkend="gimp-tool-by-color-select"&gt;Select By Color&lt;/link&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kommandot &lt;guimenuitem&gt;Efter färg&lt;/guimenuitem&gt; är ett annat sätt att öppna verktyget &lt;quote&gt;Markera efter färg&lt;/quote&gt;, ett av de grundläggande markeringsverktygen. Mer information om hur du använder verktyget finns under &lt;link linkend="gimp-tool-by-color-select"&gt;Markera efter färg&lt;/link&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;By Color&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Efter färg&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can also use the keyboard shortcut &lt;keycombo&gt;&lt;keycap&gt;Shift&lt;/keycap&gt;&lt;keycap&gt;O&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också använda tangentbordsgenvägen &lt;keycombo&gt;&lt;keycap&gt;Skift&lt;/keycap&gt;&lt;keycap&gt;O&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;Border…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Kant…&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The image must have an alpha channel.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Bilden måste ha en alfakanal.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The original image must be created with the &lt;guilabel&gt;Antialiasing&lt;/guilabel&gt; option checked in the selection tool that is used.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den ursprungliga markeringen måste ha skapats med alternativet &lt;guilabel&gt;Kantutjämning&lt;/guilabel&gt; markerat i markeringsverktyget.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Two conditions must be respected to use this command: &lt;placeholder-1/&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Två villkor måste vara uppfyllda för att du ska kunna använda kommandot: &lt;placeholder-1/&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Description of the &lt;quote&gt;Border&lt;/quote&gt; dialog window</seg></tuv>
+      <tuv xml:lang="sv"><seg>Beskrivning av dialogrutan &lt;quote&gt;Kant&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>The &lt;quote&gt;Border&lt;/quote&gt; dialog window</seg></tuv>
+      <tuv xml:lang="sv"><seg>Dialogrutan &lt;quote&gt;Kant&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Border Style</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kantstil</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;Hard&lt;/emphasis&gt;: this option does not keep anti-aliasing. This can be useful in some cases.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;Hård&lt;/emphasis&gt;: Det här alternativet bevarar inte kantutjämningen, men kan vara användbart i vissa fall.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;Smooth&lt;/emphasis&gt;: this option keeps anti-aliasing. Note that &lt;quote&gt;Smooth&lt;/quote&gt; does not create any anti-aliasing. That's why anti-aliasing must be added when creating the original selection. This option is the best one.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;Mjuk&lt;/emphasis&gt;: Det här alternativet bevarar kantutjämningen. Observera att &lt;quote&gt;Mjuk&lt;/quote&gt; inte skapar någon kantutjämning. Därför måste kantutjämning läggas till när den ursprungliga markeringen skapas. Det här är det bästa alternativet.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;emphasis role="bold"&gt;Feathered&lt;/emphasis&gt;: this option does the same things as &lt;quote&gt;Hard&lt;/quote&gt;, but instead of the resulting border being fully selected, it fades outwards. The result is not very good; if you want a feathered border, it's better to use one of the other modes, and then feather the result. It exists for historical reasons.</seg></tuv>
+      <tuv xml:lang="sv"><seg>&lt;emphasis role="bold"&gt;Luddad&lt;/emphasis&gt;: Det här alternativet fungerar som &lt;quote&gt;Hård&lt;/quote&gt;, men den färdiga kanten tonas ut i stället för att vara helt markerad. Resultatet blir inte särskilt bra. Om du vill ha en luddad kant är det bättre att välja ett annat läge och sedan ludda resultatet. Alternativet finns kvar av historiska skäl.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Border Style Comparison</seg></tuv>
+      <tuv xml:lang="sv"><seg>Jämförelse av kantstilar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;quote&gt;Hard&lt;/quote&gt; option. Selection editor, zoom 800%</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativet &lt;quote&gt;Hård&lt;/quote&gt;. Markeringsredigeraren med 800 % zoom</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;quote&gt;Smooth&lt;/quote&gt; option. Selection editor, zoom 800%</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativet &lt;quote&gt;Mjuk&lt;/quote&gt;. Markeringsredigeraren med 800 % zoom</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>&lt;quote&gt;Feathered&lt;/quote&gt; option. Selection editor, zoom 800%</seg></tuv>
+      <tuv xml:lang="sv"><seg>Alternativet &lt;quote&gt;Luddad&lt;/quote&gt;. Markeringsredigeraren med 800 % zoom</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>Select border with and without &lt;quote&gt;Selected areas continue outside the image&lt;/quote&gt;</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kantmarkering med respektive utan alternativet &lt;quote&gt;Markerade områden fortsätter utanför bilden&lt;/quote&gt;</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can access this command from the main menu through &lt;menuchoice&gt;&lt;guimenu&gt;Select&lt;/guimenu&gt;&lt;guimenuitem&gt;All&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan komma åt detta kommando från huvudmenyn genom &lt;menuchoice&gt;&lt;guimenu&gt;Markera&lt;/guimenu&gt;&lt;guimenuitem&gt;Allt&lt;/guimenuitem&gt;&lt;/menuchoice&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
+      <tuv xml:lang="en"><seg>You can also use the keyboard shortcut &lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;A&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan också använda tangentbordsgenvägen &lt;keycombo&gt;&lt;keycap&gt;Ctrl&lt;/keycap&gt;&lt;keycap&gt;A&lt;/keycap&gt;&lt;/keycombo&gt;.</seg></tuv>
     </tu>
   </body>
 </tmx>

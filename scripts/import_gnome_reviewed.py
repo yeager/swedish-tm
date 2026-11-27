@@ -128,7 +128,11 @@ def main() -> None:
         write_tmx(polib.pofile(str(TM_PO), encoding="utf-8"))
         return
     all_reviews = json.loads(INDEX.read_text(encoding="utf-8"))["reviews"]
-    eligible_statuses = {"Klar lokalt", "Klar och inskickad", "Klar utan ändringar"}
+    # A complete local review remains valid TM material even if the upstream
+    # workflow is externally blocked (for example, by a reservation or team
+    # membership). Submission status and review eligibility are independent.
+    eligible_statuses = {"Klar lokalt", "Klar och inskickad", "Klar utan ändringar",
+                         "Externt blockerad"}
     eligible_branches = {"main", "master", "gnome-51"}
     review_index = [review for review in all_reviews
                     if review.get("status") in eligible_statuses
