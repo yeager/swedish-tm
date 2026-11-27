@@ -6508,19 +6508,9 @@ Can't parse entities? Format your message according to the [formatting options](
 Går det inte att tolka entiteterna? Formatera ditt meddelande enligt [formateringsalternativen]({formatting_options_url}).</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:2808662275">
-      <prop type="source">component::telegram_bot::services::send_message::fields::parse_mode::description</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-20</prop>
-      <tuv xml:lang="en">
-        <seg>Parser for the message text.
-See [formatting options]({formatting_options_url}) for more details.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tolkare för meddelandetexten.
-Se [formateringsalternativ]({formatting_options_url}) för mer information.</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:2808662275"><prop type="source">component::telegram_bot::services::send_message::fields::parse_mode::description</prop><prop type="lokalise-key-id">349219505</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback; shared Home Assistant Core source key checked across all aliases</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Parser for the message text.
+See [formatting options]({formatting_options_url}) for more details.</seg></tuv><tuv xml:lang="sv"><seg>Tolkningsläge för meddelandetexten.
+Se [formateringsalternativen]({formatting_options_url}) för mer information.</seg></tuv></tu>
     <tu tuid="lokalise:2808662335">
       <prop type="source">component::telegram_bot::services::send_message::fields::parse_mode::name</prop>
       <prop type="status">saved-and-read-back</prop>
@@ -21121,399 +21111,35 @@ Uppdatera dina automatiseringar och skript för att använda `Home Assistant Cor
         <seg>partier</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8036767003">
-      <prop type="source">component::chess_com::entity::sensor::chess960_daily_draw::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002266</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036767131">
-      <prop type="source">component::chess_com::entity::sensor::chess960_daily_lost::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002268</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036767323">
-      <prop type="source">component::chess_com::entity::sensor::chess960_daily_won::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002271</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036767451">
-      <prop type="source">component::chess_com::entity::sensor::chess_blitz_draw::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002273</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036767579">
-      <prop type="source">component::chess_com::entity::sensor::chess_blitz_lost::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002275</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036767771">
-      <prop type="source">component::chess_com::entity::sensor::chess_blitz_won::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002278</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036767899">
-      <prop type="source">component::chess_com::entity::sensor::chess_bullet_draw::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002280</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768027">
-      <prop type="source">component::chess_com::entity::sensor::chess_bullet_lost::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002282</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768219">
-      <prop type="source">component::chess_com::entity::sensor::chess_bullet_won::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002285</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768347">
-      <prop type="source">component::chess_com::entity::sensor::chess_daily_draw::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002287</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768475">
-      <prop type="source">component::chess_com::entity::sensor::chess_daily_lost::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002289</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768603">
-      <prop type="source">component::chess_com::entity::sensor::chess_daily_won::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002291</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API readback of current reference target</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768731">
-      <prop type="source">component::chess_com::entity::sensor::chess_rapid_draw::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002293</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768859">
-      <prop type="source">component::chess_com::entity::sensor::chess_rapid_lost::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002295</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036769051">
-      <prop type="source">component::chess_com::entity::sensor::chess_rapid_won::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002298</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>games</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>partier</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8036767003"><prop type="source">component::chess_com::entity::sensor::chess960_daily_draw::unit_of_measurement</prop><prop type="lokalise-key-id">823002266</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036767131"><prop type="source">component::chess_com::entity::sensor::chess960_daily_lost::unit_of_measurement</prop><prop type="lokalise-key-id">823002268</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036767323"><prop type="source">component::chess_com::entity::sensor::chess960_daily_won::unit_of_measurement</prop><prop type="lokalise-key-id">823002271</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036767451"><prop type="source">component::chess_com::entity::sensor::chess_blitz_draw::unit_of_measurement</prop><prop type="lokalise-key-id">823002273</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036767579"><prop type="source">component::chess_com::entity::sensor::chess_blitz_lost::unit_of_measurement</prop><prop type="lokalise-key-id">823002275</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036767771"><prop type="source">component::chess_com::entity::sensor::chess_blitz_won::unit_of_measurement</prop><prop type="lokalise-key-id">823002278</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036767899"><prop type="source">component::chess_com::entity::sensor::chess_bullet_draw::unit_of_measurement</prop><prop type="lokalise-key-id">823002280</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036768027"><prop type="source">component::chess_com::entity::sensor::chess_bullet_lost::unit_of_measurement</prop><prop type="lokalise-key-id">823002282</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036768219"><prop type="source">component::chess_com::entity::sensor::chess_bullet_won::unit_of_measurement</prop><prop type="lokalise-key-id">823002285</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036768347"><prop type="source">component::chess_com::entity::sensor::chess_daily_draw::unit_of_measurement</prop><prop type="lokalise-key-id">823002287</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036768475"><prop type="source">component::chess_com::entity::sensor::chess_daily_lost::unit_of_measurement</prop><prop type="lokalise-key-id">823002289</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036768603"><prop type="source">component::chess_com::entity::sensor::chess_daily_won::unit_of_measurement</prop><prop type="lokalise-key-id">823002291</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036768731"><prop type="source">component::chess_com::entity::sensor::chess_rapid_draw::unit_of_measurement</prop><prop type="lokalise-key-id">823002293</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036768859"><prop type="source">component::chess_com::entity::sensor::chess_rapid_lost::unit_of_measurement</prop><prop type="lokalise-key-id">823002295</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
+    <tu tuid="lokalise:8036769051"><prop type="source">component::chess_com::entity::sensor::chess_rapid_won::unit_of_measurement</prop><prop type="lokalise-key-id">823002298</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>games</seg></tuv><tuv xml:lang="sv"><seg>partier</seg></tuv></tu>
     <tu tuid="lokalise:7877248099"><prop type="source">component::chess_com::entity::sensor::chess_daily_rating::name</prop><prop type="lokalise-key-id">812146554</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Daily chess rating</seg></tuv><tuv xml:lang="sv"><seg>Rating för dagligt schack</seg></tuv></tu>
-    <tu tuid="lokalise:8036767835">
-      <prop type="source">component::chess_com::entity::sensor::chess_bullet_draw::name</prop>
-      <prop type="lokalise-key-id">823002279</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; live text verified</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total bullet chess games drawn</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Totalt antal oavgjorda bulletpartier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036767963">
-      <prop type="source">component::chess_com::entity::sensor::chess_bullet_lost::name</prop>
-      <prop type="lokalise-key-id">823002281</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; live text verified</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total bullet chess games lost</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Totalt antal förlorade bulletpartier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768155">
-      <prop type="source">component::chess_com::entity::sensor::chess_bullet_won::name</prop>
-      <prop type="lokalise-key-id">823002284</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; live text verified</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total bullet chess games won</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Totalt antal vunna bulletpartier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768283">
-      <prop type="source">component::chess_com::entity::sensor::chess_daily_draw::name</prop>
-      <prop type="lokalise-key-id">823002286</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; live text verified</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total daily chess games drawn</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Totalt antal oavgjorda dagsschackpartier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768411">
-      <prop type="source">component::chess_com::entity::sensor::chess_daily_lost::name</prop>
-      <prop type="lokalise-key-id">823002288</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; live text verified</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total daily chess games lost</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Totalt antal förlorade dagsschackpartier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768539">
-      <prop type="source">component::chess_com::entity::sensor::chess_daily_won::name</prop>
-      <prop type="lokalise-key-id">823002290</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; live text verified</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total daily chess games won</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Totalt antal vunna dagsschackpartier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768667">
-      <prop type="source">component::chess_com::entity::sensor::chess_rapid_draw::name</prop>
-      <prop type="lokalise-key-id">823002292</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; live text verified</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total rapid chess games drawn</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Totalt antal oavgjorda snabbschackpartier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768795">
-      <prop type="source">component::chess_com::entity::sensor::chess_rapid_lost::name</prop>
-      <prop type="lokalise-key-id">823002294</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; live text verified</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total rapid chess games lost</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Totalt antal förlorade snabbschackpartier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036768987">
-      <prop type="source">component::chess_com::entity::sensor::chess_rapid_won::name</prop>
-      <prop type="lokalise-key-id">823002297</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; live text verified</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total rapid chess games won</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Totalt antal vunna snabbschackpartier</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036766939">
-      <prop type="source">component::chess_com::entity::sensor::chess960_daily_draw::name</prop>
-      <prop type="lokalise-key-id">823002265</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; API PUT/GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total daily Chess960 games drawn</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Totalt antal oavgjorda partier i dagsschack med Chess960</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036767067">
-      <prop type="source">component::chess_com::entity::sensor::chess960_daily_lost::name</prop>
-      <prop type="lokalise-key-id">823002267</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; API PUT/GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total daily Chess960 games lost</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Totalt antal förlorade partier i dagsschack med Chess960</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036767259">
-      <prop type="source">component::chess_com::entity::sensor::chess960_daily_won::name</prop>
-      <prop type="lokalise-key-id">823002270</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; API PUT/GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total daily Chess960 games won</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Totalt antal vunna partier i dagsschack med Chess960</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036767195">
-      <prop type="source">component::chess_com::entity::sensor::chess960_daily_rating::name</prop>
-      <prop type="lokalise-key-id">823002269</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; live text verified</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Daily Chess960 rating</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Rating i dagsschack med Chess960</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8036767835"><prop type="source">component::chess_com::entity::sensor::chess_bullet_draw::name</prop><prop type="lokalise-key-id">823002279</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total bullet chess games drawn</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal oavgjorda partier i bulletschack</seg></tuv></tu>
+    <tu tuid="lokalise:8036767963"><prop type="source">component::chess_com::entity::sensor::chess_bullet_lost::name</prop><prop type="lokalise-key-id">823002281</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total bullet chess games lost</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal förlorade partier i bulletschack</seg></tuv></tu>
+    <tu tuid="lokalise:8036768155"><prop type="source">component::chess_com::entity::sensor::chess_bullet_won::name</prop><prop type="lokalise-key-id">823002284</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total bullet chess games won</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal vunna partier i bulletschack</seg></tuv></tu>
+    <tu tuid="lokalise:8036768283"><prop type="source">component::chess_com::entity::sensor::chess_daily_draw::name</prop><prop type="lokalise-key-id">823002286</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total daily chess games drawn</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal oavgjorda schackpartier i dag</seg></tuv></tu>
+    <tu tuid="lokalise:8036768411"><prop type="source">component::chess_com::entity::sensor::chess_daily_lost::name</prop><prop type="lokalise-key-id">823002288</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total daily chess games lost</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal förlorade schackpartier i dag</seg></tuv></tu>
+    <tu tuid="lokalise:8036768539"><prop type="source">component::chess_com::entity::sensor::chess_daily_won::name</prop><prop type="lokalise-key-id">823002290</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total daily chess games won</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal vunna schackpartier i dag</seg></tuv></tu>
+    <tu tuid="lokalise:8036768667"><prop type="source">component::chess_com::entity::sensor::chess_rapid_draw::name</prop><prop type="lokalise-key-id">823002292</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total rapid chess games drawn</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal oavgjorda snabbschackpartier</seg></tuv></tu>
+    <tu tuid="lokalise:8036768795"><prop type="source">component::chess_com::entity::sensor::chess_rapid_lost::name</prop><prop type="lokalise-key-id">823002294</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total rapid chess games lost</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal förlorade snabbschackpartier</seg></tuv></tu>
+    <tu tuid="lokalise:8036768987"><prop type="source">component::chess_com::entity::sensor::chess_rapid_won::name</prop><prop type="lokalise-key-id">823002297</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total rapid chess games won</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal vunna snabbschackpartier</seg></tuv></tu>
+    <tu tuid="lokalise:8036766939"><prop type="source">component::chess_com::entity::sensor::chess960_daily_draw::name</prop><prop type="lokalise-key-id">823002265</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total daily Chess960 games drawn</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal oavgjorda partier i Chess960 i dag</seg></tuv></tu>
+    <tu tuid="lokalise:8036767067"><prop type="source">component::chess_com::entity::sensor::chess960_daily_lost::name</prop><prop type="lokalise-key-id">823002267</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total daily Chess960 games lost</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal förlorade partier i Chess960 i dag</seg></tuv></tu>
+    <tu tuid="lokalise:8036767259"><prop type="source">component::chess_com::entity::sensor::chess960_daily_won::name</prop><prop type="lokalise-key-id">823002270</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total daily Chess960 games won</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal vunna partier i Chess960 i dag</seg></tuv></tu>
+    <tu tuid="lokalise:8036767195"><prop type="source">component::chess_com::entity::sensor::chess960_daily_rating::name</prop><prop type="lokalise-key-id">823002269</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Daily Chess960 rating</seg></tuv><tuv xml:lang="sv"><seg>Rating i Chess960 i dag</seg></tuv></tu>
     <tu tuid="lokalise:10098724784">
       <prop type="source">component::chirpstack::config::error::invalid_auth</prop>
       <prop type="lokalise-key-id">960882982</prop>
@@ -188707,22 +188333,9 @@ Ange API-token för att slutföra installationen.</seg>
         <seg>Tolkningsläge</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8216441791">
-      <prop type="source">component::telegram_bot::services::send_message_draft::fields::parse_mode::description</prop>
-      <prop type="lokalise-key-id">833955519</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Parser for the message text.
-See [formatting options]({formatting_options_url}) for more details.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tolkare för meddelandetexten.
-Se [formateringsalternativ]({formatting_options_url}) för mer information.</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8216441791"><prop type="source">component::telegram_bot::services::send_message_draft::fields::parse_mode::description</prop><prop type="lokalise-key-id">833955519</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback; shared Home Assistant Core source key checked across all aliases</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Parser for the message text.
+See [formatting options]({formatting_options_url}) for more details.</seg></tuv><tuv xml:lang="sv"><seg>Tolkningsläge för meddelandetexten.
+Se [formateringsalternativen]({formatting_options_url}) för mer information.</seg></tuv></tu>
     <tu tuid="lokalise:8216441727">
       <prop type="source">component::telegram_bot::services::send_message_draft::fields::message_thread_id::name</prop>
       <prop type="lokalise-key-id">833955518</prop>
@@ -219136,678 +218749,54 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Sci-fi</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8036788693">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::royaumont</prop>
-      <prop type="lokalise-key-id">823003300</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Church in Royaumont</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Kyrka i Royaumont</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036788629">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::roxy_theatre</prop>
-      <prop type="lokalise-key-id">823003299</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>The Roxy Theatre</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Roxy-teatern</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036788565">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::roleplaying_game</prop>
-      <prop type="lokalise-key-id">823003298</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Roleplaying game</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Rollspel</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036788501">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::recital_opera</prop>
-      <prop type="lokalise-key-id">823003297</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API text PUT and GET readback on 2026-11-24; HA Core source/reference context checked.</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Recital/opera</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Solokonsert/opera</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036788437">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::pavilion</prop>
-      <prop type="lokalise-key-id">823003296</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Pavilion</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Paviljong</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036788373">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::off</prop>
-      <prop type="lokalise-key-id">823003295</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Off</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Av</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036788309">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::my_surround</prop>
-      <prop type="lokalise-key-id">823003294</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>My surround</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Min surround</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036788245">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::music_video</prop>
-      <prop type="lokalise-key-id">823003293</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Music video</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Musikvideo</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036788181">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::music</prop>
-      <prop type="lokalise-key-id">823003292</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Music</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Musik</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036788117">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::munich_b</prop>
-      <prop type="lokalise-key-id">823003291</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Hall in Munich B</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Hall i München B</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036788053">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::munich_a</prop>
-      <prop type="lokalise-key-id">823003290</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Hall in Munich A</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Hall i München A</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787989">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::munich</prop>
-      <prop type="lokalise-key-id">823003289</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Hall in Munich</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Hall i München</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787925">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::movie</prop>
-      <prop type="lokalise-key-id">823003288</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Movie</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Film</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787861">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::mono_movie</prop>
-      <prop type="lokalise-key-id">823003287</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Mono movie</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Film mono</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787797">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::jazz_club</prop>
-      <prop type="lokalise-key-id">823003286</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Jazz club</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Jazzklubb</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787733">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::game</prop>
-      <prop type="lokalise-key-id">823003285</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Game</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Spel</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787669">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::freiburg</prop>
-      <prop type="lokalise-key-id">823003284</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Church in Freiburg</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Kyrka i Freiburg</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787605">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::frankfurt</prop>
-      <prop type="lokalise-key-id">823003283</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Hall in Frankfurt</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Hall i Frankfurt</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787541">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::enhanced</prop>
-      <prop type="lokalise-key-id">823003282</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Enhanced</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Förbättrad</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787477">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::drama</prop>
-      <prop type="lokalise-key-id">823003281</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Drama</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Drama</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787413">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::disco</prop>
-      <prop type="lokalise-key-id">823003280</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Disco</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Disco</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787349">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::concert</prop>
-      <prop type="lokalise-key-id">823003279</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Live concert</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Livekonsert</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787285">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::chamber</prop>
-      <prop type="lokalise-key-id">823003278</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Chamber</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Kammare</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787221">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::cellar_club</prop>
-      <prop type="lokalise-key-id">823003277</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Cellar club</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Källarklubb</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787157">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::bottom_line</prop>
-      <prop type="lokalise-key-id">823003276</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API text PUT and GET readback on 2026-11-24; HA Core source/reference context checked.</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>The Bottom Line</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>The Bottom Line</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787093">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::arena</prop>
-      <prop type="lokalise-key-id">823003275</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Arena</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Arena</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036787029">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::amsterdam</prop>
-      <prop type="lokalise-key-id">823003274</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Hall in Amsterdam</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Hall i Amsterdam</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036786965">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::all_ch_stereo</prop>
-      <prop type="lokalise-key-id">823003273</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API text PUT and GET readback on 2026-11-24; HA Core source/reference context checked.</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>All ch stereo</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Stereo i alla kanaler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036786901">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::adventure</prop>
-      <prop type="lokalise-key-id">823003272</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Adventure</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Äventyr</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036786837">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::action_game</prop>
-      <prop type="lokalise-key-id">823003271</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Action game</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Actionspel</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036786773">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::9ch_stereo</prop>
-      <prop type="lokalise-key-id">823003270</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API text PUT and GET readback on 2026-11-24; HA Core source/reference context checked.</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>9ch stereo</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Stereo med 9 kanaler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036786709">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::7ch_stereo</prop>
-      <prop type="lokalise-key-id">823003269</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API text PUT and GET readback on 2026-11-24; HA Core source/reference context checked.</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>7ch stereo</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Stereo med 7 kanaler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036786645">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::5ch_stereo</prop>
-      <prop type="lokalise-key-id">823003268</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API text PUT and GET readback on 2026-11-24; HA Core source/reference context checked.</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>5ch stereo</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Stereo med 5 kanaler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036786581">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::2ch_stereo</prop>
-      <prop type="lokalise-key-id">823003267</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API text PUT and GET readback on 2026-11-24; HA Core source/reference context checked.</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>2ch stereo</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Stereo med 2 kanaler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036786517">
-      <prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::11ch_stereo</prop>
-      <prop type="lokalise-key-id">823003266</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API text PUT and GET readback on 2026-11-24; HA Core source/reference context checked.</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>11ch stereo</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Stereo med 11 kanaler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036784115">
-      <prop type="source">component::smartthings::entity::switch::empty_dustbin::name</prop>
-      <prop type="lokalise-key-id">823002960</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Empty dustbin</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Töm dammbehållare</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036784051">
-      <prop type="source">component::smartthings::entity::sensor::stick_cleaner_operating_state::state::uv_paused</prop>
-      <prop type="lokalise-key-id">823002959</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>UV paused</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>UV pausad</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036783987">
-      <prop type="source">component::smartthings::entity::sensor::stick_cleaner_operating_state::state::uv_cleaning</prop>
-      <prop type="lokalise-key-id">823002958</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>UV cleaning</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>UV-rengöring</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036783923">
-      <prop type="source">component::smartthings::entity::sensor::stick_cleaner_operating_state::state::using_vacuum</prop>
-      <prop type="lokalise-key-id">823002957</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API text PUT and GET readback on 2026-11-24; HA Core source/reference context checked.</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Using vacuum</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Dammsuger</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036783859">
-      <prop type="source">component::smartthings::entity::sensor::stick_cleaner_operating_state::state::ready</prop>
-      <prop type="lokalise-key-id">823002956</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Ready</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Redo</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036783795">
-      <prop type="source">component::smartthings::entity::sensor::stick_cleaner_operating_state::state::emptying_dustbin</prop>
-      <prop type="lokalise-key-id">823002955</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Emptying dustbin</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tömmer dammbehållare</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036783731">
-      <prop type="source">component::smartthings::entity::sensor::stick_cleaner_dustbin_last_emptied::name</prop>
-      <prop type="lokalise-key-id">823002954</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Last emptied</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Senast tömd</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036783667">
-      <prop type="source">component::smartthings::entity::sensor::stick_cleaner_dust_bag_usage::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">823002953</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>cycles</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>cykler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036783603">
-      <prop type="source">component::smartthings::entity::sensor::stick_cleaner_dust_bag_usage::name</prop>
-      <prop type="lokalise-key-id">823002952</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API text PUT and GET readback on 2026-11-24; HA Core source/reference context checked.</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Dust bag cycles</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Dammpåsens användningscykler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036783539">
-      <prop type="source">component::smartthings::entity::binary_sensor::stick_cleaner_dust_bag::name</prop>
-      <prop type="lokalise-key-id">823002951</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Dust bag full</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Dammsugarpåse full</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036783475">
-      <prop type="source">component::pooldose::entity::binary_sensor::power_on_delay_status::name</prop>
-      <prop type="lokalise-key-id">823002950</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Power-on delay</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Fördröjning vid uppstart</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036783411">
-      <prop type="source">component::pooldose::entity::binary_sensor::flow_delay_status::name</prop>
-      <prop type="lokalise-key-id">823002949</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Flow delay</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Flödesfördröjning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8036783347">
-      <prop type="source">component::pooldose::entity::binary_sensor::circulation_pump_status::name</prop>
-      <prop type="lokalise-key-id">823002948</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Circulation pump</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Cirkulationspump</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8036788693"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::royaumont</prop><prop type="lokalise-key-id">823003300</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Church in Royaumont</seg></tuv><tuv xml:lang="sv"><seg>Kyrka i Royaumont</seg></tuv></tu>
+    <tu tuid="lokalise:8036788629"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::roxy_theatre</prop><prop type="lokalise-key-id">823003299</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>The Roxy Theatre</seg></tuv><tuv xml:lang="sv"><seg>Roxy-teatern</seg></tuv></tu>
+    <tu tuid="lokalise:8036788565"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::roleplaying_game</prop><prop type="lokalise-key-id">823003298</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Roleplaying game</seg></tuv><tuv xml:lang="sv"><seg>Rollspel</seg></tuv></tu>
+    <tu tuid="lokalise:8036788501"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::recital_opera</prop><prop type="lokalise-key-id">823003297</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Recital/opera</seg></tuv><tuv xml:lang="sv"><seg>Solokonsert/opera</seg></tuv></tu>
+    <tu tuid="lokalise:8036788437"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::pavilion</prop><prop type="lokalise-key-id">823003296</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Pavilion</seg></tuv><tuv xml:lang="sv"><seg>Paviljong</seg></tuv></tu>
+    <tu tuid="lokalise:8036788373"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::off</prop><prop type="lokalise-key-id">823003295</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Off</seg></tuv><tuv xml:lang="sv"><seg>Av</seg></tuv></tu>
+    <tu tuid="lokalise:8036788309"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::my_surround</prop><prop type="lokalise-key-id">823003294</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>My surround</seg></tuv><tuv xml:lang="sv"><seg>Min surround</seg></tuv></tu>
+    <tu tuid="lokalise:8036788245"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::music_video</prop><prop type="lokalise-key-id">823003293</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Music video</seg></tuv><tuv xml:lang="sv"><seg>Musikvideo</seg></tuv></tu>
+    <tu tuid="lokalise:8036788181"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::music</prop><prop type="lokalise-key-id">823003292</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Music</seg></tuv><tuv xml:lang="sv"><seg>Musik</seg></tuv></tu>
+    <tu tuid="lokalise:8036788117"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::munich_b</prop><prop type="lokalise-key-id">823003291</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Munich B</seg></tuv><tuv xml:lang="sv"><seg>Hall i München B</seg></tuv></tu>
+    <tu tuid="lokalise:8036788053"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::munich_a</prop><prop type="lokalise-key-id">823003290</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Munich A</seg></tuv><tuv xml:lang="sv"><seg>Hall i München A</seg></tuv></tu>
+    <tu tuid="lokalise:8036787989"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::munich</prop><prop type="lokalise-key-id">823003289</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Munich</seg></tuv><tuv xml:lang="sv"><seg>Hall i München</seg></tuv></tu>
+    <tu tuid="lokalise:8036787925"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::movie</prop><prop type="lokalise-key-id">823003288</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Movie</seg></tuv><tuv xml:lang="sv"><seg>Film</seg></tuv></tu>
+    <tu tuid="lokalise:8036787861"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::mono_movie</prop><prop type="lokalise-key-id">823003287</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Mono movie</seg></tuv><tuv xml:lang="sv"><seg>Film mono</seg></tuv></tu>
+    <tu tuid="lokalise:8036787797"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::jazz_club</prop><prop type="lokalise-key-id">823003286</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Jazz club</seg></tuv><tuv xml:lang="sv"><seg>Jazzklubb</seg></tuv></tu>
+    <tu tuid="lokalise:8036787733"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::game</prop><prop type="lokalise-key-id">823003285</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Game</seg></tuv><tuv xml:lang="sv"><seg>Spel</seg></tuv></tu>
+    <tu tuid="lokalise:8036787669"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::freiburg</prop><prop type="lokalise-key-id">823003284</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Church in Freiburg</seg></tuv><tuv xml:lang="sv"><seg>Kyrka i Freiburg</seg></tuv></tu>
+    <tu tuid="lokalise:8036787605"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::frankfurt</prop><prop type="lokalise-key-id">823003283</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Frankfurt</seg></tuv><tuv xml:lang="sv"><seg>Hall i Frankfurt</seg></tuv></tu>
+    <tu tuid="lokalise:8036787541"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::enhanced</prop><prop type="lokalise-key-id">823003282</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Enhanced</seg></tuv><tuv xml:lang="sv"><seg>Förbättrad</seg></tuv></tu>
+    <tu tuid="lokalise:8036787477"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::drama</prop><prop type="lokalise-key-id">823003281</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Drama</seg></tuv><tuv xml:lang="sv"><seg>Drama</seg></tuv></tu>
+    <tu tuid="lokalise:8036787413"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::disco</prop><prop type="lokalise-key-id">823003280</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Disco</seg></tuv><tuv xml:lang="sv"><seg>Disco</seg></tuv></tu>
+    <tu tuid="lokalise:8036787349"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::concert</prop><prop type="lokalise-key-id">823003279</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Live concert</seg></tuv><tuv xml:lang="sv"><seg>Livekonsert</seg></tuv></tu>
+    <tu tuid="lokalise:8036787285"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::chamber</prop><prop type="lokalise-key-id">823003278</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Chamber</seg></tuv><tuv xml:lang="sv"><seg>Kammare</seg></tuv></tu>
+    <tu tuid="lokalise:8036787221"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::cellar_club</prop><prop type="lokalise-key-id">823003277</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Cellar club</seg></tuv><tuv xml:lang="sv"><seg>Källarklubb</seg></tuv></tu>
+    <tu tuid="lokalise:8036787157"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::bottom_line</prop><prop type="lokalise-key-id">823003276</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>The Bottom Line</seg></tuv><tuv xml:lang="sv"><seg>The Bottom Line</seg></tuv></tu>
+    <tu tuid="lokalise:8036787093"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::arena</prop><prop type="lokalise-key-id">823003275</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Arena</seg></tuv><tuv xml:lang="sv"><seg>Arena</seg></tuv></tu>
+    <tu tuid="lokalise:8036787029"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::amsterdam</prop><prop type="lokalise-key-id">823003274</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Amsterdam</seg></tuv><tuv xml:lang="sv"><seg>Hall i Amsterdam</seg></tuv></tu>
+    <tu tuid="lokalise:8036786965"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::all_ch_stereo</prop><prop type="lokalise-key-id">823003273</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>All ch stereo</seg></tuv><tuv xml:lang="sv"><seg>Stereo i alla kanaler</seg></tuv></tu>
+    <tu tuid="lokalise:8036786901"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::adventure</prop><prop type="lokalise-key-id">823003272</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Adventure</seg></tuv><tuv xml:lang="sv"><seg>Äventyr</seg></tuv></tu>
+    <tu tuid="lokalise:8036786837"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::action_game</prop><prop type="lokalise-key-id">823003271</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Action game</seg></tuv><tuv xml:lang="sv"><seg>Actionspel</seg></tuv></tu>
+    <tu tuid="lokalise:8036786773"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::9ch_stereo</prop><prop type="lokalise-key-id">823003270</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>9ch stereo</seg></tuv><tuv xml:lang="sv"><seg>Stereo med 9 kanaler</seg></tuv></tu>
+    <tu tuid="lokalise:8036786709"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::7ch_stereo</prop><prop type="lokalise-key-id">823003269</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>7ch stereo</seg></tuv><tuv xml:lang="sv"><seg>Stereo med 7 kanaler</seg></tuv></tu>
+    <tu tuid="lokalise:8036786645"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::5ch_stereo</prop><prop type="lokalise-key-id">823003268</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>5ch stereo</seg></tuv><tuv xml:lang="sv"><seg>Stereo med 5 kanaler</seg></tuv></tu>
+    <tu tuid="lokalise:8036786581"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::2ch_stereo</prop><prop type="lokalise-key-id">823003267</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>2ch stereo</seg></tuv><tuv xml:lang="sv"><seg>Stereo med 2 kanaler</seg></tuv></tu>
+    <tu tuid="lokalise:8036786517"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::11ch_stereo</prop><prop type="lokalise-key-id">823003266</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>11ch stereo</seg></tuv><tuv xml:lang="sv"><seg>Stereo med 11 kanaler</seg></tuv></tu>
+    <tu tuid="lokalise:8036784115"><prop type="source">component::smartthings::entity::switch::empty_dustbin::name</prop><prop type="lokalise-key-id">823002960</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Empty dustbin</seg></tuv><tuv xml:lang="sv"><seg>Töm dammbehållare</seg></tuv></tu>
+    <tu tuid="lokalise:8036784051"><prop type="source">component::smartthings::entity::sensor::stick_cleaner_operating_state::state::uv_paused</prop><prop type="lokalise-key-id">823002959</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>UV paused</seg></tuv><tuv xml:lang="sv"><seg>UV pausad</seg></tuv></tu>
+    <tu tuid="lokalise:8036783987"><prop type="source">component::smartthings::entity::sensor::stick_cleaner_operating_state::state::uv_cleaning</prop><prop type="lokalise-key-id">823002958</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>UV cleaning</seg></tuv><tuv xml:lang="sv"><seg>UV-rengöring</seg></tuv></tu>
+    <tu tuid="lokalise:8036783923"><prop type="source">component::smartthings::entity::sensor::stick_cleaner_operating_state::state::using_vacuum</prop><prop type="lokalise-key-id">823002957</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Using vacuum</seg></tuv><tuv xml:lang="sv"><seg>Dammsuger</seg></tuv></tu>
+    <tu tuid="lokalise:8036783859"><prop type="source">component::smartthings::entity::sensor::stick_cleaner_operating_state::state::ready</prop><prop type="lokalise-key-id">823002956</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Ready</seg></tuv><tuv xml:lang="sv"><seg>Redo</seg></tuv></tu>
+    <tu tuid="lokalise:8036783795"><prop type="source">component::smartthings::entity::sensor::stick_cleaner_operating_state::state::emptying_dustbin</prop><prop type="lokalise-key-id">823002955</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Emptying dustbin</seg></tuv><tuv xml:lang="sv"><seg>Tömmer dammbehållare</seg></tuv></tu>
+    <tu tuid="lokalise:8036783731"><prop type="source">component::smartthings::entity::sensor::stick_cleaner_dustbin_last_emptied::name</prop><prop type="lokalise-key-id">823002954</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Last emptied</seg></tuv><tuv xml:lang="sv"><seg>Senast tömd</seg></tuv></tu>
+    <tu tuid="lokalise:8036783667"><prop type="source">component::smartthings::entity::sensor::stick_cleaner_dust_bag_usage::unit_of_measurement</prop><prop type="lokalise-key-id">823002953</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>cycles</seg></tuv><tuv xml:lang="sv"><seg>cykler</seg></tuv></tu>
+    <tu tuid="lokalise:8036783603"><prop type="source">component::smartthings::entity::sensor::stick_cleaner_dust_bag_usage::name</prop><prop type="lokalise-key-id">823002952</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Dust bag cycles</seg></tuv><tuv xml:lang="sv"><seg>Dammpåsens användningscykler</seg></tuv></tu>
+    <tu tuid="lokalise:8036783539"><prop type="source">component::smartthings::entity::binary_sensor::stick_cleaner_dust_bag::name</prop><prop type="lokalise-key-id">823002951</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Dust bag full</seg></tuv><tuv xml:lang="sv"><seg>Dammsugarpåsen är full</seg></tuv></tu>
+    <tu tuid="lokalise:8036783475"><prop type="source">component::pooldose::entity::binary_sensor::power_on_delay_status::name</prop><prop type="lokalise-key-id">823002950</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Power-on delay</seg></tuv><tuv xml:lang="sv"><seg>Fördröjning vid uppstart</seg></tuv></tu>
+    <tu tuid="lokalise:8036783411"><prop type="source">component::pooldose::entity::binary_sensor::flow_delay_status::name</prop><prop type="lokalise-key-id">823002949</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Flow delay</seg></tuv><tuv xml:lang="sv"><seg>Flödesfördröjning</seg></tuv></tu>
+    <tu tuid="lokalise:8036783347"><prop type="source">component::pooldose::entity::binary_sensor::circulation_pump_status::name</prop><prop type="lokalise-key-id">823002948</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Circulation pump</seg></tuv><tuv xml:lang="sv"><seg>Cirkulationspump</seg></tuv></tu>
     <tu tuid="lokalise:8036770395">
       <prop type="source">component::telegram_bot::services::send_media_group::sections::advanced::name</prop>
       <prop type="lokalise-key-id">823002319</prop>
@@ -219822,20 +218811,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Avancerat</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8036770331">
-      <prop type="source">component::telegram_bot::services::send_media_group::name</prop>
-      <prop type="lokalise-key-id">823002318</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Full Lokalise API export and row review against current HA Core source/references.</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Send media group</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Skicka mediegrupp</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8036770331"><prop type="source">component::telegram_bot::services::send_media_group::name</prop><prop type="lokalise-key-id">823002318</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Send media group</seg></tuv><tuv xml:lang="sv"><seg>Skicka mediegrupp</seg></tuv></tu>
     <tu tuid="lokalise:10433737143">
       <prop type="source">component::tuya::entity::binary_sensor::arrear_outage::name</prop>
       <prop type="lokalise-key-id">986810225</prop>
@@ -220074,20 +219050,7 @@ För att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `con
         <seg>Värmepumpens modell. Den avgör vilka värden integreringen kan läsa av och ställa in.</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8036769307">
-      <prop type="source">component::telegram_bot::services::send_media_group::fields::config_entry_id::description</prop>
-      <prop type="lokalise-key-id">823002302</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API GET; current HA source context; API PUT/GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>The config entry representing the Telegram bot to send the media group.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Konfigurationsposten för Telegram-boten som ska skicka mediegruppen.</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8036769307"><prop type="source">component::telegram_bot::services::send_media_group::fields::config_entry_id::description</prop><prop type="lokalise-key-id">823002302</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>The config entry representing the Telegram bot to send the media group.</seg></tuv><tuv xml:lang="sv"><seg>Konfigurationsposten för Telegram-boten som ska skicka mediegruppen.</seg></tuv></tu>
     <tu tuid="lokalise:8036437509">
       <prop type="source">component::counter::common::trigger_behavior_description</prop>
       <prop type="lokalise-key-id">822965600</prop>
@@ -302233,5 +301196,63 @@ Kontrollera värdloggarna (**Host logs**) för att ta reda på varför NTP-servr
 <tu tuid="lokalise:8036438213"><prop type="source">component::counter::triggers::maximum_reached::fields::behavior::name</prop><prop type="lokalise-key-id">822965611</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
 <tu tuid="lokalise:8036438341"><prop type="source">component::counter::triggers::minimum_reached::description</prop><prop type="lokalise-key-id">822965613</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more counters reach their minimum value.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera räknare når sitt lägsta värde.</seg></tuv></tu>
 <tu tuid="lokalise:8036438469"><prop type="source">component::counter::triggers::minimum_reached::fields::behavior::name</prop><prop type="lokalise-key-id">822965615</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+
+<tu tuid="lokalise:8036438597"><prop type="source">component::counter::triggers::reset::description</prop><prop type="lokalise-key-id">822965617</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Triggers when one or more counters are reset.</seg></tuv><tuv xml:lang="sv"><seg>Utlöses när en eller flera räknare nollställs.</seg></tuv></tu>
+<tu tuid="lokalise:8036438725"><prop type="source">component::counter::triggers::reset::fields::behavior::name</prop><prop type="lokalise-key-id">822965619</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Trigger when</seg></tuv><tuv xml:lang="sv"><seg>Utlös när</seg></tuv></tu>
+<tu tuid="lokalise:8036438789"><prop type="source">component::counter::triggers::reset::name</prop><prop type="lokalise-key-id">822965620</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Counter reset</seg></tuv><tuv xml:lang="sv"><seg>Återställning av räknare</seg></tuv></tu>
+<tu tuid="lokalise:8036675162"><prop type="source">component::proxmoxve::entity::binary_sensor::storage_active::name</prop><prop type="lokalise-key-id">822991255</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Storage active</seg></tuv><tuv xml:lang="sv"><seg>Lagring aktiv</seg></tuv></tu>
+<tu tuid="lokalise:8036675226"><prop type="source">component::proxmoxve::entity::binary_sensor::storage_active::state::off</prop><prop type="lokalise-key-id">822991256</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Inactive</seg></tuv><tuv xml:lang="sv"><seg>Inaktiv</seg></tuv></tu>
+<tu tuid="lokalise:8036675290"><prop type="source">component::proxmoxve::entity::binary_sensor::storage_active::state::on</prop><prop type="lokalise-key-id">822991257</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Active</seg></tuv><tuv xml:lang="sv"><seg>Aktiv</seg></tuv></tu>
+<tu tuid="lokalise:8036675354"><prop type="source">component::proxmoxve::entity::binary_sensor::storage_enabled::name</prop><prop type="lokalise-key-id">822991258</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Storage enabled</seg></tuv><tuv xml:lang="sv"><seg>Lagring aktiverad</seg></tuv></tu>
+<tu tuid="lokalise:8036675418"><prop type="source">component::proxmoxve::entity::binary_sensor::storage_enabled::state::off</prop><prop type="lokalise-key-id">822991259</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Disabled</seg></tuv><tuv xml:lang="sv"><seg>Inaktiverad</seg></tuv></tu>
+<tu tuid="lokalise:8036675482"><prop type="source">component::proxmoxve::entity::binary_sensor::storage_enabled::state::on</prop><prop type="lokalise-key-id">822991260</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Enabled</seg></tuv><tuv xml:lang="sv"><seg>Aktiverad</seg></tuv></tu>
+<tu tuid="lokalise:8036675546"><prop type="source">component::proxmoxve::entity::binary_sensor::storage_shared::name</prop><prop type="lokalise-key-id">822991261</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Storage shared</seg></tuv><tuv xml:lang="sv"><seg>Lagring delad</seg></tuv></tu>
+<tu tuid="lokalise:8036675610"><prop type="source">component::proxmoxve::entity::binary_sensor::storage_shared::state::off</prop><prop type="lokalise-key-id">822991262</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Not shared</seg></tuv><tuv xml:lang="sv"><seg>Inte delad</seg></tuv></tu>
+<tu tuid="lokalise:8036675674"><prop type="source">component::proxmoxve::entity::binary_sensor::storage_shared::state::on</prop><prop type="lokalise-key-id">822991263</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Shared</seg></tuv><tuv xml:lang="sv"><seg>Delad</seg></tuv></tu>
+<tu tuid="lokalise:8036675738"><prop type="source">component::proxmoxve::entity::sensor::storage_available::name</prop><prop type="lokalise-key-id">822991264</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Available storage</seg></tuv><tuv xml:lang="sv"><seg>Tillgänglig lagring</seg></tuv></tu>
+<tu tuid="lokalise:8036675802"><prop type="source">component::proxmoxve::entity::sensor::storage_total::name</prop><prop type="lokalise-key-id">822991265</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total storage</seg></tuv><tuv xml:lang="sv"><seg>Total lagring</seg></tuv></tu>
+<tu tuid="lokalise:8036675866"><prop type="source">component::proxmoxve::entity::sensor::storage_used::name</prop><prop type="lokalise-key-id">822991266</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Used storage</seg></tuv><tuv xml:lang="sv"><seg>Använt lagringsutrymme</seg></tuv></tu>
+<tu tuid="lokalise:8036675930"><prop type="source">component::proxmoxve::entity::sensor::storage_used_percentage::name</prop><prop type="lokalise-key-id">822991267</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Storage usage percentage</seg></tuv><tuv xml:lang="sv"><seg>Lagringsutnyttjande i procent</seg></tuv></tu>
+<tu tuid="lokalise:8036767387"><prop type="source">component::chess_com::entity::sensor::chess_blitz_draw::name</prop><prop type="lokalise-key-id">823002272</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total blitz chess games drawn</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal oavgjorda blixtschackpartier</seg></tuv></tu>
+<tu tuid="lokalise:8036767515"><prop type="source">component::chess_com::entity::sensor::chess_blitz_lost::name</prop><prop type="lokalise-key-id">823002274</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total blitz chess games lost</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal förlorade blixtschackpartier</seg></tuv></tu>
+<tu tuid="lokalise:8036767643"><prop type="source">component::chess_com::entity::sensor::chess_blitz_rating::name</prop><prop type="lokalise-key-id">823002276</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Blitz chess rating</seg></tuv><tuv xml:lang="sv"><seg>Rating i blixtschack</seg></tuv></tu>
+<tu tuid="lokalise:8036767707"><prop type="source">component::chess_com::entity::sensor::chess_blitz_won::name</prop><prop type="lokalise-key-id">823002277</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total blitz chess games won</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal vunna blixtschackpartier</seg></tuv></tu>
+<tu tuid="lokalise:8036768091"><prop type="source">component::chess_com::entity::sensor::chess_bullet_rating::name</prop><prop type="lokalise-key-id">823002283</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Bullet chess rating</seg></tuv><tuv xml:lang="sv"><seg>Rating i bulletschack</seg></tuv></tu>
+<tu tuid="lokalise:8036768923"><prop type="source">component::chess_com::entity::sensor::chess_rapid_rating::name</prop><prop type="lokalise-key-id">823002296</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Rapid chess rating</seg></tuv><tuv xml:lang="sv"><seg>Rating i snabbschack</seg></tuv></tu>
+<tu tuid="lokalise:8036769115"><prop type="source">component::telegram_bot::services::send_media_group::description</prop><prop type="lokalise-key-id">823002299</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Sends a group of photos, videos, documents or audios as an album. Documents and audio files can only be grouped in an album with messages of the same type.</seg></tuv><tuv xml:lang="sv"><seg>Skickar en samling bilder, videor, dokument eller ljudfiler som ett album. Dokument och ljudfiler kan endast samlas i ett album tillsammans med meddelanden av samma typ.</seg></tuv></tu>
+<tu tuid="lokalise:8036769179"><prop type="source">component::telegram_bot::services::send_media_group::fields::chat_id::description</prop><prop type="lokalise-key-id">823002300</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>An array of pre-authorized chat IDs to send the notification to. If not present, first allowed chat ID is the default.</seg></tuv><tuv xml:lang="sv"><seg>En lista med förhandsgodkända chatt-ID:n att skicka aviseringar till. Om ingen lista anges används det första tillåtna chatt-ID:t som standard.</seg></tuv></tu>
+<tu tuid="lokalise:8036769243"><prop type="source">component::telegram_bot::services::send_media_group::fields::chat_id::name</prop><prop type="lokalise-key-id">823002301</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Chat ID</seg></tuv><tuv xml:lang="sv"><seg>Chatt-ID</seg></tuv></tu>
+<tu tuid="lokalise:8036769371"><prop type="source">component::telegram_bot::services::send_media_group::fields::config_entry_id::name</prop><prop type="lokalise-key-id">823002303</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Config entry ID</seg></tuv><tuv xml:lang="sv"><seg>ID för konfigurationspost</seg></tuv></tu>
+<tu tuid="lokalise:8036769435"><prop type="source">component::telegram_bot::services::send_media_group::fields::disable_notification::description</prop><prop type="lokalise-key-id">823002304</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Sends the message silently. iOS users and Web users will not receive a notification, Android users will receive a notification with no sound.</seg></tuv><tuv xml:lang="sv"><seg>Skickar meddelandet tyst. iOS-användare och webbanvändare får ingen avisering, medan Android-användare får en avisering utan ljud.</seg></tuv></tu>
+<tu tuid="lokalise:8036769499"><prop type="source">component::telegram_bot::services::send_media_group::fields::disable_notification::name</prop><prop type="lokalise-key-id">823002305</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Disable notification</seg></tuv><tuv xml:lang="sv"><seg>Inaktivera avisering</seg></tuv></tu>
+<tu tuid="lokalise:8036769563"><prop type="source">component::telegram_bot::services::send_media_group::fields::entity_id::description</prop><prop type="lokalise-key-id">823002306</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Notification targets.</seg></tuv><tuv xml:lang="sv"><seg>Aviseringsmål.</seg></tuv></tu>
+<tu tuid="lokalise:8036769627"><prop type="source">component::telegram_bot::services::send_media_group::fields::entity_id::name</prop><prop type="lokalise-key-id">823002307</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Notify target</seg></tuv><tuv xml:lang="sv"><seg>Aviseringsmål</seg></tuv></tu>
+<tu tuid="lokalise:8036769691"><prop type="source">component::telegram_bot::services::send_media_group::fields::media::description</prop><prop type="lokalise-key-id">823002308</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>A list of media to be sent.</seg></tuv><tuv xml:lang="sv"><seg>En lista över media som ska skickas.</seg></tuv></tu>
+<tu tuid="lokalise:8036769755"><prop type="source">component::telegram_bot::services::send_media_group::fields::media::name</prop><prop type="lokalise-key-id">823002309</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Media</seg></tuv><tuv xml:lang="sv"><seg>Media</seg></tuv></tu>
+<tu tuid="lokalise:8036769819"><prop type="source">component::telegram_bot::services::send_media_group::fields::message_thread_id::description</prop><prop type="lokalise-key-id">823002310</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Unique identifier for the target message thread (topic) of the forum; for forum supergroups only.</seg></tuv><tuv xml:lang="sv"><seg>Unik identifierare för forumets målmeddelandetråd (ämne); Endast för forumets supergrupper.</seg></tuv></tu>
+<tu tuid="lokalise:8036769883"><prop type="source">component::telegram_bot::services::send_media_group::fields::message_thread_id::name</prop><prop type="lokalise-key-id">823002311</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Message thread ID</seg></tuv><tuv xml:lang="sv"><seg>Meddelandetråds-ID</seg></tuv></tu>
+<tu tuid="lokalise:8036769947"><prop type="source">component::telegram_bot::services::send_media_group::fields::parse_mode::description</prop><prop type="lokalise-key-id">823002312</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Parser for the message text.
+See [formatting options]({formatting_options_url}) for more details.</seg></tuv><tuv xml:lang="sv"><seg>Tolkningsläge för meddelandetexten.
+Se [formateringsalternativen]({formatting_options_url}) för mer information.</seg></tuv></tu>
+<tu tuid="lokalise:8036770011"><prop type="source">component::telegram_bot::services::send_media_group::fields::parse_mode::name</prop><prop type="lokalise-key-id">823002313</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Parse mode</seg></tuv><tuv xml:lang="sv"><seg>Tolkningsläge</seg></tuv></tu>
+<tu tuid="lokalise:8036770075"><prop type="source">component::telegram_bot::services::send_media_group::fields::protect_content::description</prop><prop type="lokalise-key-id">823002314</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Protects the contents of the sent message from forwarding and saving.</seg></tuv><tuv xml:lang="sv"><seg>Skyddar innehållet i det skickade meddelandet mot vidarebefordran och lagring.</seg></tuv></tu>
+<tu tuid="lokalise:8036770139"><prop type="source">component::telegram_bot::services::send_media_group::fields::protect_content::name</prop><prop type="lokalise-key-id">823002315</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Protect content</seg></tuv><tuv xml:lang="sv"><seg>Skydda innehåll</seg></tuv></tu>
+<tu tuid="lokalise:8036770203"><prop type="source">component::telegram_bot::services::send_media_group::fields::reply_to_message_id::description</prop><prop type="lokalise-key-id">823002316</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Mark the message as a reply to a previous message.</seg></tuv><tuv xml:lang="sv"><seg>Markera meddelandet som ett svar på ett tidigare meddelande.</seg></tuv></tu>
+<tu tuid="lokalise:8036770267"><prop type="source">component::telegram_bot::services::send_media_group::fields::reply_to_message_id::name</prop><prop type="lokalise-key-id">823002317</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Reply to message ID</seg></tuv><tuv xml:lang="sv"><seg>Svara på meddelande-ID</seg></tuv></tu>
+<tu tuid="lokalise:2808656155"><prop type="source">component::telegram_bot::services::edit_message::fields::parse_mode::description</prop><prop type="lokalise-key-id">349219403</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback; shared Home Assistant Core source key checked across all aliases</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Parser for the message text.
+See [formatting options]({formatting_options_url}) for more details.</seg></tuv><tuv xml:lang="sv"><seg>Tolkningsläge för meddelandetexten.
+Se [formateringsalternativen]({formatting_options_url}) för mer information.</seg></tuv></tu>
+<tu tuid="lokalise:2808657715"><prop type="source">component::telegram_bot::services::send_animation::fields::parse_mode::description</prop><prop type="lokalise-key-id">349219429</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback; shared Home Assistant Core source key checked across all aliases</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Parser for the message text.
+See [formatting options]({formatting_options_url}) for more details.</seg></tuv><tuv xml:lang="sv"><seg>Tolkningsläge för meddelandetexten.
+Se [formateringsalternativen]({formatting_options_url}) för mer information.</seg></tuv></tu>
+<tu tuid="lokalise:2808659515"><prop type="source">component::telegram_bot::services::send_document::fields::parse_mode::description</prop><prop type="lokalise-key-id">349219459</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback; shared Home Assistant Core source key checked across all aliases</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Parser for the message text.
+See [formatting options]({formatting_options_url}) for more details.</seg></tuv><tuv xml:lang="sv"><seg>Tolkningsläge för meddelandetexten.
+Se [formateringsalternativen]({formatting_options_url}) för mer information.</seg></tuv></tu>
+<tu tuid="lokalise:2808663715"><prop type="source">component::telegram_bot::services::send_photo::fields::parse_mode::description</prop><prop type="lokalise-key-id">349219529</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback; shared Home Assistant Core source key checked across all aliases</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Parser for the message text.
+See [formatting options]({formatting_options_url}) for more details.</seg></tuv><tuv xml:lang="sv"><seg>Tolkningsläge för meddelandetexten.
+Se [formateringsalternativen]({formatting_options_url}) för mer information.</seg></tuv></tu>
+<tu tuid="lokalise:2808668275"><prop type="source">component::telegram_bot::services::send_video::fields::parse_mode::description</prop><prop type="lokalise-key-id">349219605</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API readback; shared Home Assistant Core source key checked across all aliases</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Parser for the message text.
+See [formatting options]({formatting_options_url}) for more details.</seg></tuv><tuv xml:lang="sv"><seg>Tolkningsläge för meddelandetexten.
+Se [formateringsalternativen]({formatting_options_url}) för mer information.</seg></tuv></tu>
 </body>
 </tmx>
