@@ -269,7 +269,7 @@ msgstr "Ofullständig flerbytesekvens i inmatning"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/glib/main
 msgid "Not enough space in destination"
-msgstr "Inte tillräckligt med utrymme i målet"
+msgstr "För lite utrymme i målet"
 
 #. from gnome:glib
 #. from gnome:reviewed/gtk/main
@@ -1994,13 +1994,13 @@ msgstr "Lista innehållet i kataloger i ett trädliknande format."
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/glib/main
 msgid "Element <%s> not allowed inside <%s>"
-msgstr "Elementet <%s> tillåts inte inuti <%s>"
+msgstr "Elementet <%s> är inte tillåtet inuti <%s>"
 
 #. from gnome:glib
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/glib/main
 msgid "Element <%s> not allowed at toplevel"
-msgstr "Elementet <%s> tillåts inte på toppnivå"
+msgstr "Elementet <%s> är inte tillåtet i toppnivå"
 
 #. from gnome:glib
 msgid "File %s appears multiple times in the resource"
@@ -2350,7 +2350,7 @@ msgstr "Elementet <default> krävs i <key>"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/glib/main
 msgid "Text may not appear inside <%s>"
-msgstr "Text får inte vara inuti <%s>"
+msgstr "Text får inte finnas inuti <%s>"
 
 #. from gnome:glib
 msgid "Warning: undefined reference to <schema id='%s'/>"
@@ -2930,6 +2930,7 @@ msgstr "  SÖKVÄG    En (eventuell) resurssökväg (kan vara partiell)\n"
 #. from gnome:glib
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/flatpak/main
+#. from gnome:reviewed/video-trimmer/main
 msgid "PATH"
 msgstr "SÖKVÄG"
 
@@ -5426,6 +5427,7 @@ msgstr "Bithastighet för video"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/identity/main
+#. from gnome:reviewed/gtk/main
 msgid "Frame Rate"
 msgstr "Bildhastighet"
 
@@ -5890,7 +5892,7 @@ msgstr "Filens detaljerade typ."
 #. from gnome:reviewed/gnome-commander/main
 #. from gnome:reviewed/gtk/main
 msgid "Accessed"
-msgstr "Använd"
+msgstr "Åtkommen"
 
 #. from gnome:nautilus
 msgid "The date the file was accessed."
@@ -6307,8 +6309,9 @@ msgstr "Bild"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/Endeavour/main
+#. from gnome:reviewed/gtk/main
 msgid "Archive"
-msgstr "Arkivera"
+msgstr "Arkiv"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/gtk/main
@@ -7398,7 +7401,7 @@ msgstr "_Starta"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/nautilus/main
 msgid "_Connect"
-msgstr "A_nslut"
+msgstr "Ans_lut"
 
 #. from gnome:nautilus
 msgid "_Start Multi-disk Drive"
@@ -7416,13 +7419,13 @@ msgstr "Stoppa enhet"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/nautilus/main
 msgid "_Safely Remove Drive"
-msgstr "S_äker borttagning av enhet"
+msgstr "_Säker borttagning av enhet"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/nautilus/main
 msgid "_Disconnect"
-msgstr "Koppla _från"
+msgstr "_Koppla från"
 
 #. from gnome:nautilus
 msgid "_Stop Multi-disk Drive"
@@ -7529,7 +7532,7 @@ msgstr "_Papperskorgsinställningar"
 #. from gnome:reviewed/gnome-text-editor/main
 #. from gnome:reviewed/gtk/main
 msgid "Clear Entry"
-msgstr "Töm sökfält"
+msgstr "Töm sökruta"
 
 #. from gnome:nautilus
 msgid "Go to Location"
@@ -7636,7 +7639,7 @@ msgstr "Det finns inget program installerat för ”%s”-filer. Vill du söka e
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/nautilus/main
 msgid "Unable to access location"
-msgstr "Kunde inte komma åt platsen"
+msgstr "Kunde inte komma åt plats"
 
 #. from gnome:nautilus
 msgid "Unable to start location"
@@ -7679,6 +7682,8 @@ msgstr "Öppnar ”%s”."
 #. from gnome:reviewed/gnome-firmware/master
 #. from gnome:reviewed/gnome-font-viewer/main
 #. from gnome:reviewed/accerciser/master
+#. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gupnp-tools/master
 msgid "_Close"
 msgstr "S_täng"
 
@@ -7694,7 +7699,7 @@ msgstr "A_vbryt"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/nautilus/main
 msgid "Unable to get remote server location"
-msgstr "Kunde inte erhålla plats för fjärrserver"
+msgstr "Kunde inte hämta fjärrserverns plats"
 
 #. from gnome:nautilus
 msgid "AppleTalk"
@@ -7894,6 +7899,7 @@ msgstr "Administratörsrot"
 #. from gnome:reviewed/rhythmbox/master
 #. from gnome:reviewed/gnome-control-center/main
 #. from gnome:reviewed/gnome-software/main
+#. from gnome:reviewed/libgedit-tepl/main
 msgid "_Open"
 msgstr "Ö_ppna"
 
@@ -8017,6 +8023,7 @@ msgstr "Anpassad ikon borttagen"
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/gnome-maps/main
 #. from gnome:reviewed/gnome-contacts/main
+#. from gnome:reviewed/highscore/main
 msgid "_Undo"
 msgstr "Å_ngra"
 
@@ -8236,8 +8243,9 @@ msgid "Error unlocking “%s”"
 msgstr "Fel vid upplåsning av ”%s”"
 
 #. from gnome:nautilus
+#. from gnome:reviewed/gtk/main
 msgid "This name is already taken"
-msgstr "Detta namn används redan"
+msgstr "Namnet används redan"
 
 #. from gnome:nautilus
 msgid "_Rename"
@@ -8248,15 +8256,16 @@ msgid "Unable to stop “%s”"
 msgstr "Kunde inte stoppa ”%s”"
 
 #. from gnome:nautilus
+#. from gnome:reviewed/gtk/main
 msgid "Unable to poll “%s” for media changes"
-msgstr "Kunde inte läsa av ”%s” efter mediabyten"
+msgstr "Kunde inte kontrollera om mediet i ”%s” har ändrats"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/gnome-commander/main
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/nautilus/main
 msgid "Open in New _Tab"
-msgstr "Öppna i ny fli_k"
+msgstr "Öppna i ny _flik"
 
 #. from gnome:nautilus
 msgid "Open in New _Window"
@@ -8288,13 +8297,13 @@ msgstr "_Avmontera"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/nautilus/main
 msgid "_Eject"
-msgstr "Mata _ut"
+msgstr "_Mata ut"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/nautilus/main
 msgid "_Detect Media"
-msgstr "_Upptäck media"
+msgstr "_Sök efter media"
 
 #. from gnome:nautilus
 msgid "_Power On"
@@ -8304,13 +8313,13 @@ msgstr "_Slå på"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/nautilus/main
 msgid "_Connect Drive"
-msgstr "A_nslut enhet"
+msgstr "A_nslut disk"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/nautilus/main
 msgid "_Start Multi-disk Device"
-msgstr "_Starta flerdiskenhet"
+msgstr "_Starta multidiskenhet"
 
 #. from gnome:nautilus
 msgid "_Unlock Device"
@@ -8333,13 +8342,13 @@ msgstr "_Stopp"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/nautilus/main
 msgid "_Disconnect Drive"
-msgstr "_Koppla från enhet"
+msgstr "_Koppla från disk"
 
 #. from gnome:nautilus
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/nautilus/main
 msgid "_Stop Multi-disk Device"
-msgstr "_Stoppa flerdiskenhet"
+msgstr "_Stoppa multidiskenhet"
 
 #. from gnome:nautilus
 msgid "_Lock Device"
@@ -8860,7 +8869,7 @@ msgstr "_Ta bort stjärnmärkning för mapp"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/nautilus/main
 msgid "_Copy Location"
-msgstr "_Kopiera plats"
+msgstr "Kopiera _plats"
 
 #. from gnome:nautilus
 msgid "_Open in File Manager"
@@ -9274,6 +9283,7 @@ msgstr "Ange lösenord…"
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/network-manager-iodine/master
 #. from gnome:reviewed/highscore/main
+#. from gnome:reviewed/gtk/main
 msgid "General"
 msgstr "Allmänt"
 
@@ -9735,6 +9745,7 @@ msgstr "Skapa mapp"
 #. from gnome:reviewed/graphs/main
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/moserial/master
+#. from gnome:reviewed/gtk/main
 msgid "Cut"
 msgstr "Klipp ut"
 
@@ -12710,6 +12721,7 @@ msgstr "Skriv inte ut felmeddelanden"
 #. from gnome:reviewed/bustle/main
 #. from gnome:reviewed/LocalSearch/main
 #. from gnome:reviewed/gimp-help/master
+#. from gnome:reviewed/gtk/main
 msgid "Path"
 msgstr "Sökväg"
 
@@ -14645,7 +14657,7 @@ msgstr "_Lösenord:"
 #. from gnome:reviewed/gitg/master
 #. from gnome:reviewed/gtk/main
 msgid "Forget password _immediately"
-msgstr "Glöm lösenord _omedelbart"
+msgstr "Glöm lösenordet _omedelbart"
 
 #. from gnome:evince
 msgid "Remember password until you _log out"
@@ -14656,7 +14668,7 @@ msgstr "Kom ihåg lösenordet tills du _loggar ut"
 #. from gnome:reviewed/papers/gnome-48
 #. from gnome:reviewed/gtk/main
 msgid "Remember _forever"
-msgstr "Kom ihåg _för alltid"
+msgstr "Kom ihåg lösenordet _för alltid"
 
 #. from gnome:evince
 msgid "Fonts"
@@ -15233,6 +15245,7 @@ msgstr "Sidnumret i dokumentet att visa."
 #. from gnome:reviewed/gnome-tetravex/master
 #. from gnome:reviewed/calls/main
 #. from gnome:reviewed/zenity/master
+#. from gnome:reviewed/tali/master
 msgid "NUMBER"
 msgstr "NUMMER"
 
@@ -21253,7 +21266,7 @@ msgstr "Sök kortkommandon"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/gnome-control-center/main
 msgid "Search Shortcuts"
-msgstr "Sök kortkommandon"
+msgstr "Sök genvägar"
 
 #. from gnome:gnome-control-center
 msgid "Activities _Overview Shortcut"
@@ -23573,7 +23586,7 @@ msgstr "Välj automatiskt"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/gnome-control-center/main
 msgid "Printer Default"
-msgstr "Skrivarens standardinställning"
+msgstr "Skrivarens standard"
 
 #. from gnome:gnome-control-center
 msgid "Embed GhostScript fonts only"
@@ -31986,13 +31999,13 @@ msgstr "_Höger:"
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/gtk/main
 msgid "_Top:"
-msgstr "_Ovansida:"
+msgstr "Över_st:"
 
 #. from gnome:eog
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/gtk/main
 msgid "_Bottom:"
-msgstr "_Undersida:"
+msgstr "_Nederst:"
 
 #. from gnome:eog
 #. from gnome:reviewed/gimp/master
@@ -32633,8 +32646,10 @@ msgid "A file named “%s” already exists.  Do you want to replace it?"
 msgstr "En fil med namnet ”%s” finns redan.  Vill du ersätta den?"
 
 #. from gnome:file-roller
-msgid "The file already exists in “%s”.  Replacing it will overwrite its contents."
-msgstr "Filen finns redan i ”%s”. Att ersätta den kommer att skriva över dess innehåll."
+#. from gnome:reviewed/gtk/main
+msgid ""
+"The file already exists in “%s”.  Replacing it will overwrite its contents."
+msgstr "Filen finns redan i ”%s”. Om du ersätter den skrivs innehållet över."
 
 #. from gnome:file-roller
 msgid "All archives"
@@ -33348,6 +33363,7 @@ msgstr "_Typsnitt"
 #. from gnome:reviewed/meld/main
 #. from gnome:reviewed/evolution/master
 #. from gnome:reviewed/ghex/master
+#. from gnome:reviewed/libadwaita/main
 msgid "Display"
 msgstr "Visa"
 
@@ -36770,8 +36786,9 @@ msgid "Muted"
 msgstr "Tystad"
 
 #. from gnome:ls-main.sv
+#. from gnome:reviewed/gtk/main
 msgid "Full Volume"
-msgstr "Full volym"
+msgstr "Maximal volym"
 
 #. from gnome:ls-main.sv
 msgid "%d %%"
@@ -38897,6 +38914,7 @@ msgstr "Lägg till _länk till bokmärken"
 #. from gnome:reviewed/gnome-firmware/master
 #. from gnome:reviewed/crosswords/main
 #. from gnome:reviewed/loupe/main
+#. from gnome:reviewed/gtk/main
 msgid "_Back"
 msgstr "_Bakåt"
 
@@ -39279,6 +39297,7 @@ msgstr "Serif"
 #. from gnome:reviewed/palette/master
 #. from gnome:reviewed/gnome-maps/main
 #. from gnome:reviewed/meld/main
+#. from gnome:reviewed/gtk/main
 msgid "Light"
 msgstr "Ljus"
 
@@ -75486,6 +75505,7 @@ msgstr "Bildruta %d"
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/libpanel/main
 #. from gnome:reviewed/gnumeric/master
+#. from gnome:reviewed/gtk/main
 msgid "Frame"
 msgstr "Ram"
 
@@ -89779,6 +89799,7 @@ msgstr "Poppa upp anteckning vid rullning av dokumentet"
 #. from gnome:reviewed/graphs/main
 #. from gnome:reviewed/gnome-calendar/main
 #. from gnome:reviewed/libadwaita/main
+#. from gnome:reviewed/gtk/main
 msgid "Toggle Sidebar"
 msgstr "Växla sidopanel"
 
@@ -149264,7 +149285,7 @@ msgstr "Misslyckades med att ansluta"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/evolution/master
 msgid "_Finish"
-msgstr "_Färdigställ"
+msgstr "_Slutför"
 
 #. from gnome:evolution
 msgid "_Look Up"
@@ -176446,7 +176467,7 @@ msgstr "Föregående försök att autentisera har misslyckats, ange ditt använd
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/gitg/master
 msgid "Remember password until you _logout"
-msgstr "Kom ihåg lösenord tills du _loggar ut"
+msgstr "Kom ihåg lösenordet tills du _loggar ut"
 
 #. from gnome:gitg
 msgid "Parents"
@@ -243688,6 +243709,7 @@ msgstr "Profilbild för %s"
 
 #. from gnome:libadwaita
 #. from gnome:reviewed/libadwaita/main
+#. from gnome:reviewed/gtk/main
 msgid "No Preference"
 msgstr "Ingen inställning"
 
@@ -280884,16 +280906,19 @@ msgid "Not enough memory for image size %ux%u"
 msgstr "För lite minne för bildstorlek %u×%u"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Error reading png (%s)"
-msgstr "Fel vid läsning av png (%s)"
+msgstr "Fel vid läsning av PNG (%s)"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Unsupported depth %u in png image"
-msgstr "Djup %u stöds inte i png-bild"
+msgstr "Bitdjupet %u stöds inte i PNG-bilden"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Unsupported color type %u in png image"
-msgstr "Färgtyp %u stöds inte i png-bild"
+msgstr "Färgtypen %u stöds inte i PNG-bilden"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Image stride too large for image size %ux%u"
@@ -280908,32 +280933,42 @@ msgid "Reading data failed at row %d"
 msgstr "Läsning av data misslyckades på rad %d"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Failed to decode contents with mime-type of '%s'"
-msgstr "Misslyckades med att avkoda innehåll med mime-typen ”%s”"
+msgstr "Misslyckades med att avkoda innehåll av MIME-typen ”%s”"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Cannot claim clipboard ownership. OpenClipboard() timed out."
-msgstr "Kan inte hävda ägarskap för urklipp. Tidsgräns för OpenClipboard() överskreds."
+msgstr "Kan inte ta över urklippet. OpenClipboard() tog för lång tid."
 
 #. from gnome:gtk-gtk-4-22.sv
-msgid "Cannot claim clipboard ownership. Another process claimed it before us."
-msgstr "Kan inte hävda ägarskap för urklipp. En annan process hävdade det innan oss."
+#. from gnome:reviewed/gtk/main
+msgid ""
+"Cannot claim clipboard ownership. Another process claimed it before us."
+msgstr "Kan inte ta över urklippet. Ett annat program hann före."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Cannot claim clipboard ownership. OpenClipboard() failed: 0x%lx."
-msgstr "Kan inte hävda ägarskap för urklipp. OpenClipboard() misslyckades: 0x%lx."
+msgstr "Kan inte ta över urklippet. OpenClipboard() misslyckades: 0x%lx."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Cannot claim clipboard ownership. EmptyClipboard() failed: 0x%lx."
-msgstr "Kan inte hävda ägarskap för urklipp. EmptyClipboard() misslyckades: 0x%lx."
+msgstr "Kan inte ta över urklippet. EmptyClipboard() misslyckades: 0x%lx."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Cannot set clipboard data. OpenClipboard() timed out."
-msgstr "Kan inte ställa in urklippsdata. Tidsgräns för OpenClipboard() överskreds."
+msgstr "Kan inte ställa in urklippsdata. OpenClipboard() tog för lång tid."
 
 #. from gnome:gtk-gtk-4-22.sv
-msgid "Cannot set clipboard data. Another process claimed clipboard ownership."
-msgstr "Kan inte ställa in urklippsdata. En annan process hävdade ägarskap för urklipp innan oss."
+#. from gnome:reviewed/gtk/main
+msgid ""
+"Cannot set clipboard data. Another process claimed clipboard ownership."
+msgstr ""
+"Kan inte ställa in urklippsdata. Ett annat program hann ta över urklippet."
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Cannot set clipboard data. OpenClipboard() failed: 0x%lx."
@@ -281172,8 +281207,9 @@ msgid "Malformed data: URL"
 msgstr "Felformaterad data:-URL"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Could not unescape string"
-msgstr "Kunde inte ta bort kontrollsekvens från sträng"
+msgstr "Kunde inte avkoda escape-sekvensen i strängen"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Other app…"
@@ -281220,12 +281256,14 @@ msgid "New accelerator…"
 msgstr "Ny snabbtangent…"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Red %d%%, Green %d%%, Blue %d%%, Alpha %d%%"
-msgstr "Röd %d%%, Grön %d%%, Blå %d%%, Alfa %d%%"
+msgstr "Röd %d%%, grön %d%%, blå %d%%, alfa %d%%"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Red %d%%, Green %d%%, Blue %d%%"
-msgstr "Röd %d%%, Grön %d%%, Blå %d%%"
+msgstr "Röd %d%%, grön %d%%, blå %d%%"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Dialog is unlocked.\nClick to prevent further changes"
@@ -281404,8 +281442,9 @@ msgid "Next Year"
 msgstr "Nästa år"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "calendar:week_start:0"
-msgstr "calendar:week_start:1"
+msgstr "calendar:week_start:0"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "calendar:MY"
@@ -281572,8 +281611,9 @@ msgid "Customize"
 msgstr "Anpassa"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Margins from Printer…"
-msgstr "Marginaler från skrivare…"
+msgstr "Marginaler från skrivaren…"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Manage Custom Sizes"
@@ -281588,8 +281628,9 @@ msgid "Paper Margins"
 msgstr "Pappersmarginaler"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Context menu"
-msgstr "Snabbvalsmeny"
+msgstr "Snabbmeny"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Folder names should not begin with a space"
@@ -281640,8 +281681,9 @@ msgid "You need to choose a valid filename."
 msgstr "Du måste välja ett giltigt filnamn."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Cannot create a file under %s as it is not a folder"
-msgstr "Kan inte skapa en fil under %s eftersom det inte är en mapp"
+msgstr "Kan inte skapa en fil i %s eftersom det inte är en mapp"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Cannot create file as the filename is too long"
@@ -281680,16 +281722,18 @@ msgid "If you delete an item, it will be permanently lost."
 msgstr "Om du tar bort ett objekt är det borta för alltid."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "The file could not be renamed"
-msgstr "Filens namn kunde inte bytas"
+msgstr "Filnamnet kunde inte ändras"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Could not select file"
 msgstr "Kunde inte välja fil"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "_Visit File"
-msgstr "_Besök fil"
+msgstr "_Markera fil"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "_Open With File Manager"
@@ -281728,8 +281772,9 @@ msgid "You do not have access to the specified folder."
 msgstr "Du har inte åtkomst till den angivna mappen."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Could not send the search request"
-msgstr "Kunde inte skicka sökbegäran"
+msgstr "Kunde inte skicka sökförfrågan"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "T_ype"
@@ -281835,7 +281880,7 @@ msgstr "Volymtyp"
 #. from gnome:reviewed/decoder/master
 #. from gnome:reviewed/gtk/main
 msgid "_Hidden"
-msgstr "_Dolt"
+msgstr "_Dold"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "_Windows system"
@@ -281858,8 +281903,10 @@ msgid "_End Process"
 msgstr "A_vsluta process"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Cannot kill process with PID %d. Operation is not implemented."
-msgstr "Kan inte döda processen med PID %d. Åtgärden är inte implementerad."
+msgstr ""
+"Kan inte avsluta processen med PID %d. Åtgärden är inte implementerad."
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Terminal Pager"
@@ -281926,16 +281973,18 @@ msgid "Manually enter a location"
 msgstr "Ange manuellt en plats"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Open the trash"
-msgstr "Öppna Papperskorgen"
+msgstr "Öppna papperskorgen"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Mount and open “%s”"
 msgstr "Montera och öppna ”%s”"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Open the contents of the file system"
-msgstr "Öppna filsystemsinnehållet"
+msgstr "Öppna innehållet i filsystemet"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Other Locations"
@@ -282054,12 +282103,14 @@ msgid "Printer “%s” is out of developer."
 msgstr "Skrivaren ”%s” har slut på framkallningsmaterial."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Printer “%s” is low on at least one marker supply."
-msgstr "Skrivaren ”%s” har snart slut på minst en färgpenna."
+msgstr "Skrivaren ”%s” har snart slut på minst ett färgförbrukningsmaterial."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Printer “%s” is out of at least one marker supply."
-msgstr "Skrivaren ”%s” har slut på minst en färgpenna."
+msgstr "Skrivaren ”%s” har slut på minst ett färgförbrukningsmaterial."
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Printer “%s” is currently offline."
@@ -282126,36 +282177,44 @@ msgid "Tray %d"
 msgstr "Fack %d"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Left to right, top to bottom"
-msgstr "Vänster till höger, topp till botten"
+msgstr "Från vänster till höger, uppifrån och ned"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Left to right, bottom to top"
-msgstr "Vänster till höger, botten till topp"
+msgstr "Från vänster till höger, nedifrån och upp"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Right to left, top to bottom"
-msgstr "Höger till vänster, topp till botten"
+msgstr "Från höger till vänster, uppifrån och ned"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Right to left, bottom to top"
-msgstr "Höger till vänster, botten till topp"
+msgstr "Från höger till vänster, nedifrån och upp"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Top to bottom, left to right"
-msgstr "Topp till botten, vänster till höger"
+msgstr "Uppifrån och ned, från vänster till höger"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Top to bottom, right to left"
-msgstr "Topp till botten, höger till vänster"
+msgstr "Uppifrån och ned, från höger till vänster"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Bottom to top, left to right"
-msgstr "Botten till topp, vänster till höger"
+msgstr "Nedifrån och upp, från vänster till höger"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Bottom to top, right to left"
-msgstr "Botten till topp, höger till vänster"
+msgstr "Nedifrån och upp, från höger till vänster"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Job Priority"
@@ -282241,8 +282300,9 @@ msgid "Not available"
 msgstr "Inte tillgänglig"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "%s job #%d"
-msgstr "%s jobbnr %d"
+msgstr "%s, jobb nr %d"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Initial state"
@@ -282329,7 +282389,7 @@ msgstr "Ospecificerat fel"
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/crosswords/main
 msgid "Pre_view"
-msgstr "Förhands_visa"
+msgstr "_Förhandsgranska"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Getting printer information failed"
@@ -282352,16 +282412,19 @@ msgid "Right to left"
 msgstr "Höger till vänster"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Top to bottom"
-msgstr "Topp till botten"
+msgstr "Uppifrån och ned"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Bottom to top"
-msgstr "Botten till topp"
+msgstr "Nedifrån och upp"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Failed to create the read file descriptor"
-msgstr "Misslyckades med att skapa filhandtaget för läsning"
+msgstr "Kunde inte skapa en filbeskrivare för läsning"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "%.0f %%"
@@ -282444,8 +282507,9 @@ msgid "Parameter Type"
 msgstr "Parametertyp"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Hover to load"
-msgstr "Hovra för att läsa in"
+msgstr "Håll pekaren över för att läsa in"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "local"
@@ -282464,20 +282528,26 @@ msgid "Native"
 msgstr "Inhemsk"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "You can type here any CSS rule recognized by GTK."
-msgstr "Du kan skriva vilken CSS-regel som helst som känns igen av GTK här."
+msgstr "Här kan du skriva valfri CSS-regel som GTK känner igen."
 
 #. from gnome:gtk-gtk-4-22.sv
-msgid "You can temporarily disable this custom CSS by toggling the switch above."
-msgstr "Du kan tillfälligt inaktivera denna anpassade CSS genom att slå av brytaren ovanför."
+#. from gnome:reviewed/gtk/main
+msgid ""
+"You can temporarily disable this custom CSS by toggling the switch above."
+msgstr ""
+"Du kan tillfälligt inaktivera den anpassade CSS-koden genom att slå av "
+"brytaren ovan."
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Changes are applied instantly and globally, for the whole application."
 msgstr "Ändringar tillämpas omedelbart och globalt för hela programmet."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Saving CSS failed"
-msgstr "Sparandet av CSS:en misslyckades"
+msgstr "Det gick inte att spara CSS-koden"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Enable this custom CSS"
@@ -282488,8 +282558,9 @@ msgid "Save the current CSS"
 msgstr "Spara aktuell CSS"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Show deprecations"
-msgstr "Visa föråldranden"
+msgstr "Visa föråldrade funktioner"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Style Classes"
@@ -282504,8 +282575,9 @@ msgid "IM Context is hardcoded by GTK_IM_MODULE"
 msgstr "IM-kontext är hårdkodad med GTK_IM_MODULE"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Copy to clipboard as gitlab markdown"
-msgstr "Kopiera till urklipp som gitlab-markdown"
+msgstr "Kopiera till urklipp som GitLab Markdown"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "GTK Version"
@@ -282520,8 +282592,9 @@ msgid "GSK Renderer"
 msgstr "GSK-renderare"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Pango Fontmap"
-msgstr "Pango-typsnittskarta"
+msgstr "Pango-typsnittsmappning"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Media Backend"
@@ -282540,12 +282613,14 @@ msgid "Resource Path"
 msgstr "Resurssökväg"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "RGBA Visual"
-msgstr "RGBA-visuell"
+msgstr "RGBA-visual"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Composited"
-msgstr "Sammansatt"
+msgstr "Kompositerad"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Protocols"
@@ -282564,12 +282639,14 @@ msgid "GL Version"
 msgstr "GL-version"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "GL Backend Vendor"
-msgstr "GL-bakändesleverantör"
+msgstr "Leverantör för GL-bakänden"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "GL Backend Version"
-msgstr "GL-bakändesversion"
+msgstr "Version för GL-bakänden"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "GL Full Version"
@@ -282628,8 +282705,9 @@ msgid "Buildable ID"
 msgstr "Byggbart ID"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Mnemonic Label"
-msgstr "Minnesetikett"
+msgstr "Etikett med snabbtangent"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Request Mode"
@@ -282659,7 +282737,7 @@ msgstr "Tickåteranrop"
 #. from gnome:reviewed/gnome-commander/main
 #. from gnome:reviewed/gtk/main
 msgid "Frame Count"
-msgstr "Antal ramar"
+msgstr "Antal bildrutor"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Color state"
@@ -282734,8 +282812,9 @@ msgid "Defined At"
 msgstr "Definierad vid"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Saving RenderNode failed"
-msgstr "Sparande av RenderNode misslyckades"
+msgstr "Det gick inte att spara RenderNode"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Recording Options"
@@ -282836,8 +282915,9 @@ msgid "Less"
 msgstr "Lägre"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "System Reduced Motion"
-msgstr "Reducerad rörelse på system"
+msgstr "Systemets inställning för reducerad rörelse"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Reduced"
@@ -282876,8 +282956,13 @@ msgid "Show Graphic Updates"
 msgstr "Visa grafikuppdateringar"
 
 #. from gnome:gtk-gtk-4-22.sv
-msgid "Tints all the places where the current renderer uses Cairo instead of the GPU."
-msgstr "Tonar alla ställen där den aktuella renderaren använder Cairo i stället för GPU."
+#. from gnome:reviewed/gtk/main
+msgid ""
+"Tints all the places where the current renderer uses Cairo instead of the "
+"GPU."
+msgstr ""
+"Tona alla områden där den aktuella renderaren använder Cairo i stället för "
+"GPU:n."
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Show Cairo Rendering"
@@ -282912,8 +282997,9 @@ msgid "Show Focus"
 msgstr "Visa fokus"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Show Accessibility warnings"
-msgstr "Visa hjälpmedelsvarningar"
+msgstr "Visa tillgänglighetsvarningar"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Show Graphics Offload"
@@ -283760,8 +283846,9 @@ msgid "V"
 msgstr "I"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Remote location — only searching the current folder"
-msgstr "Fjärrplats — söker endast i aktuell mapp"
+msgstr "Fjärrplats – söker bara i aktuell mapp"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Search font name"
@@ -283774,12 +283861,14 @@ msgstr "Filtrera efter"
 #. from gnome:gtk-gtk-4-22.sv
 #. from gnome:reviewed/typography/master
 #. from gnome:reviewed/refine/main
+#. from gnome:reviewed/gtk/main
 msgid "Monospace"
 msgstr "Fast bredd"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Preview Font"
-msgstr "Förhandsvisningstypsnitt"
+msgstr "Förhandsvisa typsnitt"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "No Fonts Found"
@@ -283838,8 +283927,13 @@ msgid "Pag_es:"
 msgstr "Sid_or:"
 
 #. from gnome:gtk-gtk-4-22.sv
-msgid "Specify one or more page ranges,\n e.g. 1–3, 7, 11"
-msgstr "Ange en eller flera sidintervall,\n exempelvis 1-3, 7, 11"
+#. from gnome:reviewed/gtk/main
+msgid ""
+"Specify one or more page ranges,\n"
+" e.g. 1–3, 7, 11"
+msgstr ""
+"Ange ett eller flera sidintervall,\n"
+" exempelvis 1–3, 7, 11"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Copies"
@@ -283862,8 +283956,11 @@ msgid "Page ordering preview"
 msgstr "Förhandsgranskning av sidordning"
 
 #. from gnome:gtk-gtk-4-22.sv
-msgid "A visualization of the effect of the collate and reverse options on the page ordering"
-msgstr "En visualisering av effekterna för sorterings- och vändningsalternativen för sidordning"
+#. from gnome:reviewed/gtk/main
+msgid ""
+"A visualization of the effect of the collate and reverse options on the page"
+" ordering"
+msgstr "Visar hur alternativen Sortera och Omvänd påverkar sidordningen"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "T_wo-sided:"
@@ -283950,8 +284047,9 @@ msgid "Specify the time of print,\n e.g. 15∶30, 2∶35 pm, 14∶15∶20, 11∶
 msgstr "Ange tiden för utskrift,\n t.ex. 15∶30, 02∶35, 14∶15∶20, 11∶46∶30"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "On _hold"
-msgstr "_Pausad"
+msgstr "_Vilande"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Hold the job until it is explicitly released"
@@ -283990,8 +284088,35 @@ msgid "Can’t save file %s: %s\n"
 msgstr "Kan inte spara filen %s: %s\n"
 
 #. from gnome:gtk-gtk-4-22.sv
-msgid "Usage:\n  gtk4-builder-tool [COMMAND] [OPTION…] FILE\n\nPerform various tasks on GtkBuilder .ui files.\n\nCommands:\n  validate     Validate the file\n  simplify     Simplify the file\n  enumerate    List all named objects\n  preview      Preview the file\n  render       Take a screenshot of the file\n  screenshot   Take a screenshot of the file\n\n"
-msgstr "Användning:\n  gtk4-builder-tool [KOMMANDO] [FLAGGA…] FIL\n\nUtför olika uppgifter på GtkBuilders .ui-filer.\n\nKommandon:\n  validate     Validera filen\n  simplify     Förenkla filen\n  enumerate    Lista alla namngivna objekt\n  preview      Förhandsgranska filen\n  render       Ta en skärmbild av filen\n  screenshot   Ta en skärmbild av filen\n\n"
+#. from gnome:reviewed/gtk/main
+msgid ""
+"Usage:\n"
+"  gtk4-builder-tool [COMMAND] [OPTION…] FILE\n"
+"\n"
+"Perform various tasks on GtkBuilder .ui files.\n"
+"\n"
+"Commands:\n"
+"  validate     Validate the file\n"
+"  simplify     Simplify the file\n"
+"  enumerate    List all named objects\n"
+"  preview      Preview the file\n"
+"  render       Take a screenshot of the file\n"
+"  screenshot   Take a screenshot of the file\n"
+"\n"
+msgstr ""
+"Användning:\n"
+"  gtk4-builder-tool [KOMMANDO] [FLAGGA…] FIL\n"
+"\n"
+"Utför olika uppgifter med GtkBuilder-filer (.ui).\n"
+"\n"
+"Kommandon:\n"
+"  validate     Validera filen\n"
+"  simplify     Förenkla filen\n"
+"  enumerate    Lista alla namngivna objekt\n"
+"  preview      Förhandsgranska filen\n"
+"  render       Ta en skärmbild av filen\n"
+"  screenshot   Ta en skärmbild av filen\n"
+"\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Print all named objects."
@@ -284002,8 +284127,9 @@ msgid "No object with ID '%s' found\n"
 msgstr "Inget objekt med ID ”%s” hittades\n"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "No previewable object found\n"
-msgstr "Inget förhandsgranskningsbart objekt hittades\n"
+msgstr "Inget objekt kan förhandsgranskas\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Objects of type %s can't be previewed\n"
@@ -284018,8 +284144,9 @@ msgid "Use style from CSS file"
 msgstr "Använd stil från CSS-fil"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Could not initialize windowing system\n"
-msgstr "Kunde inte initiera fönstersystem\n"
+msgstr "Kunde inte initiera fönstersystemet\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Preview the file."
@@ -284030,8 +284157,9 @@ msgid "No .ui file specified\n"
 msgstr "Ingen .ui-fil angiven\n"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Can only preview a single .ui file\n"
-msgstr "Kan endast förhandsgranska en ensam .ui-fil\n"
+msgstr "Kan bara förhandsgranska en .ui-fil i taget\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "No object found\n"
@@ -284046,8 +284174,13 @@ msgid "Failed to take a screenshot\n"
 msgstr "Misslyckades med att ta en skärmbild\n"
 
 #. from gnome:gtk-gtk-4-22.sv
-msgid "File %s exists.\nUse --force to overwrite.\n"
-msgstr "Filen %s existerar.\nAnvänd --force för att skriva över.\n"
+#. from gnome:reviewed/gtk/main
+msgid ""
+"File %s exists.\n"
+"Use --force to overwrite.\n"
+msgstr ""
+"Filen %s finns redan.\n"
+"Använd --force för att skriva över den.\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Output written to %s.\n"
@@ -284062,8 +284195,9 @@ msgid "Screenshot only the named object"
 msgstr "Ta endast en skärmbild av det namngivna objektet"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Save as node file instead of png"
-msgstr "Spara som node-fil i stället för png"
+msgstr "Spara som en .node-fil i stället för en PNG-bild"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Overwrite existing file"
@@ -284074,8 +284208,9 @@ msgid "Render a .ui file to an image."
 msgstr "Rendera en .ui-fil till en bild."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Can only render a single .ui file to a single output file\n"
-msgstr "Kan endast rendera en ensam .ui-fil till en ensam utdatafil\n\n"
+msgstr "Det går bara att rendera en .ui-fil till en enda utdatafil\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "%s:%d: Couldn’t parse value for property '%s': %s\n"
@@ -284102,8 +284237,9 @@ msgid "%s only accepts three children"
 msgstr "%s accepterar endast tre barn"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "%s only accepts one center child"
-msgstr "%s accepterar endast ett centrerat barn"
+msgstr "%s accepterar bara ett barn i mitten"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Unable to create temporary file: %s\n"
@@ -284138,8 +284274,9 @@ msgid "Simplify the file."
 msgstr "Förenkla filen."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Can only simplify a single .ui file without --replace\n"
-msgstr "Kan endast förenkla en ensam .ui-fil utan --replace\n"
+msgstr "Kan bara förenkla en .ui-fil i taget utan --replace\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Failed to lookup template parent type %s\n"
@@ -284158,8 +284295,35 @@ msgid "Validate the file."
 msgstr "Validera filen."
 
 #. from gnome:gtk-gtk-4-22.sv
-msgid "Usage:\n  gtk4-image-tool [COMMAND] [OPTION…] FILE…\n\nPerform various tasks on images.\n\nCommands:\n  compare      Show differences between two images\n  convert      Convert the image to a different format or color state\n  info         Show general information about the image\n  relabel      Change the color state of the image without conversion\n  show         Show the image\n  play         Play an animation\n\n"
-msgstr "Användning:\n  gtk4-image-tool [KOMMANDO] [FLAGGA…] FIL\n\nUtför olika uppgifter på bilder.\n\nKommandon:\n  compare      Visa skillnader mellan två bilder\n  convert      Konvertera bilden till annat format eller färgtillstånd\n  info         Visa allmän information om bilden\n  relabel      Ändra bildens färgtillstånd utan konvertering\n  show         Visa bilden\n  play         Spela upp en animation\n\n"
+#. from gnome:reviewed/gtk/main
+msgid ""
+"Usage:\n"
+"  gtk4-image-tool [COMMAND] [OPTION…] FILE…\n"
+"\n"
+"Perform various tasks on images.\n"
+"\n"
+"Commands:\n"
+"  compare      Show differences between two images\n"
+"  convert      Convert the image to a different format or color state\n"
+"  info         Show general information about the image\n"
+"  relabel      Change the color state of the image without conversion\n"
+"  show         Show the image\n"
+"  play         Play an animation\n"
+"\n"
+msgstr ""
+"Användning:\n"
+"  gtk4-image-tool [KOMMANDO] [FLAGGA…] FILER…\n"
+"\n"
+"Utför olika uppgifter på bilder.\n"
+"\n"
+"Kommandon:\n"
+"  compare      Visa skillnader mellan två bilder\n"
+"  convert      Konvertera bilden till ett annat format eller färgtillstånd\n"
+"  info         Visa allmän information om bilden\n"
+"  relabel      Ändra bildens färgtillstånd utan konvertering\n"
+"  show         Visa bilden\n"
+"  play         Spela upp en animation\n"
+"\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Compare two images"
@@ -284214,8 +284378,9 @@ msgid "Convert the image to a different format or color state."
 msgstr "Konvertera bilden till ett annat format eller färgtillstånd."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Can only accept a single image file and output file\n"
-msgstr "Kan endast rendera en ensam bildfil och utdatafil\n"
+msgstr "Kan bara ta emot en bildfil och en utdatafil\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Not a memory format: %s\nPossible values:\n  %s\n"
@@ -284238,12 +284403,14 @@ msgid "Color state:"
 msgstr "Färgtillstånd:"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Provide information about the image."
-msgstr "Tillhandahåll information om bilden."
+msgstr "Visa information om bilden."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Can only accept a single image file\n"
-msgstr "Kan endast acceptera en ensam bildfil\n"
+msgstr "Kan bara ta emot en bildfil\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Don't add a titlebar"
@@ -284286,12 +284453,18 @@ msgid "Show one or more images."
 msgstr "Visa en eller flera bilder."
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "APPLICATION [URI…] — launch an APPLICATION"
-msgstr "PROGRAM [URI…] — starta ett PROGRAM"
+msgstr "PROGRAM [URI…] – starta ett PROGRAM"
 
 #. from gnome:gtk-gtk-4-22.sv
-msgid "Launch an application (specified by its desktop file name),\noptionally passing one or more URIs as arguments."
-msgstr "Starta ett program (angivet genom dess skrivbordsfilnamn),\nalternativt med en eller flera URI:er som argument."
+#. from gnome:reviewed/gtk/main
+msgid ""
+"Launch an application (specified by its desktop file name),\n"
+"optionally passing one or more URIs as arguments."
+msgstr ""
+"Starta ett program (som anges med dess skrivbordsfilnamn)\n"
+"och skicka eventuellt med en eller flera URI:er som argument."
 
 #. from gnome:gtk-gtk-4-22.sv
 #. from gnome:reviewed/json-glib/main
@@ -284304,8 +284477,10 @@ msgid "%s: missing application name"
 msgstr "%s: saknar programnamn"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Creating AppInfo from id not supported on non unix operating systems"
-msgstr "Skapar AppInfo från id som inte stöds på andra operativsystem än unix"
+msgstr ""
+"Det går inte att skapa AppInfo från ett ID på andra operativsystem än Unix"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "%s: no such application %s"
@@ -284372,24 +284547,28 @@ msgid "%d lines"
 msgstr "%d linjer"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "%d quadratics"
-msgstr "%d kvadratiska"
+msgstr "%d kvadratiska kurvor"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "%d cubics"
-msgstr "%d kubiska"
+msgstr "%d kubiska kurvor"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "%d conics"
-msgstr "%d koniska"
+msgstr "%d koniska kurvor"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Fill the path (the default)"
 msgstr "Fyll banan (standard)"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Stroke the path"
-msgstr "Stryk längs banan"
+msgstr "Rita banans kontur"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Show path points"
@@ -284420,28 +284599,32 @@ msgid "Intersection color"
 msgstr "Skärningspunktsfärg"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Zoom level (number)"
-msgstr "Zoomnivå (siffra)"
+msgstr "Zoomnivå (tal)"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "PATH…"
 msgstr "BANA…"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Fill rule (winding, even-odd)"
-msgstr "Fyllnadsregel (vindlande, jämn-udda)"
+msgstr "Fyllnadsregel (winding, even-odd)"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Line width (number)"
 msgstr "Linjebredd (tal)"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Line cap (butt, round, square)"
-msgstr "Linjeavrundning (avhuggen, rund, kvadrat)"
+msgstr "Linjeavslut (butt, round, square)"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Line join (miter, miter-clip, round, bevel, arcs)"
-msgstr "Linjeövergång (gering, gering-klipp, rund, fasning, bågar)"
+msgstr "Linjeskarv (miter, miter-clip, round, bevel, arcs)"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Miter limit (number)"
@@ -284452,16 +284635,18 @@ msgid "Dash pattern (comma-separated numbers)"
 msgstr "Streckningsmönster (kommaseparerade tal)"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Dash offset (number)"
-msgstr "Streckposition (tal)"
+msgstr "Streckförskjutning (tal)"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Could not initialize windowing system"
 msgstr "Kunde inte initiera fönstersystem"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Render the path to a png image."
-msgstr "Rendera banan till en png-bild."
+msgstr "Rendera banan till en PNG-bild."
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Options related to filling"
@@ -284484,24 +284669,28 @@ msgid "No path specified"
 msgstr "Ingen bana angavs"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Can only render a single path"
-msgstr "Kan endast rendera en ensam bana"
+msgstr "Kan bara rendera en bana i taget"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "fill rule"
 msgstr "fyllnadsregel"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "line cap"
-msgstr "linjeavrundning"
+msgstr "linjeavslut"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "line join"
-msgstr "linjeövergång"
+msgstr "linjeskarv"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Saving png to '%s' failed"
-msgstr "Sparandet av png till ”%s” misslyckades"
+msgstr "Det gick inte att spara PNG-bilden till ”%s”"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Output written to '%s'."
@@ -284544,12 +284733,14 @@ msgid "Can only show one or two paths"
 msgstr "Kan endast visa en eller två banor"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Failed to read from standard input: %s\n"
-msgstr "Misslyckades med att läsa från standard in: %s\n"
+msgstr "Det gick inte att läsa från standardindata: %s\n"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Error reading from standard input: %s\n"
-msgstr "Fel vid läsning från standard in: %s\n"
+msgstr "Fel vid läsning från standardindata: %s\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Failed to parse '%s' as path.\n"
@@ -284592,8 +284783,9 @@ msgid "RUNS"
 msgstr "KÖRNINGAR"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Don’t download result/wait for GPU to finish"
-msgstr "Hämta inte resultat/vänta på att GPU ska bli klar"
+msgstr "Hämta inte resultatet och vänta inte på att GPU:n ska bli klar"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Benchmark rendering of a .node file."
@@ -284692,8 +284884,9 @@ msgid "Opaque part:"
 msgstr "Ogenomskinlig del:"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Provide information about the render node."
-msgstr "Tillhandahåll information om renderingsnoden."
+msgstr "Visa information om renderingsnoden."
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "File %s exists.\nIf you want to overwrite, specify the filename.\n"
@@ -284724,12 +284917,14 @@ msgid "Can only render a single .node file to a single output file\n"
 msgstr "Kan endast rendera en ensam .node-fil till en ensam utdatafil\n"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Invalid rectangle given for bounds\n"
-msgstr "Ogiltig rektangel angiven för gränser\n"
+msgstr "Den angivna rektangeln för avgränsningen är ogiltig\n"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Put node into offload container"
-msgstr "Stoppa nod i avlastningsbehållare"
+msgstr "Placera noden i en avlastningsbehållare"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Show the render node."
@@ -284744,8 +284939,9 @@ msgid "Error at %s: %s\n"
 msgstr "Fel vid %s: %s\n"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Failed to load node file: %s\n"
-msgstr "Misslyckades med att läsa in nodfil: %s\n"
+msgstr "Det gick inte att läsa in .node-filen: %s\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "%s is not a texture node\n"
@@ -284756,8 +284952,9 @@ msgid "cicp must be 4 numbers, separated by /\n"
 msgstr "cicp måste vara 4 siffror, separerade med /\n"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Failed to write header\n"
-msgstr "Misslyckades med att skriva huvud\n"
+msgstr "Det gick inte att skriva filhuvudet\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Failed to write hash table\n"
@@ -284784,20 +284981,24 @@ msgid "The generated cache was invalid.\n"
 msgstr "Den genererade cachen var ogiltig.\n"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Could not rename %s to %s: %s, removing %s then.\n"
-msgstr "Kunde inte byta namn på %s till %s: %s, tar bort %s.\n"
+msgstr "Det gick inte att byta namn på %s till %s: %s. Tar därför bort %s.\n"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Could not rename %s to %s: %s\n"
-msgstr "Kunde inte byta namn på %s till %s: %s\n"
+msgstr "Det gick inte att byta namn på %s till %s: %s\n"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Could not rename %s back to %s: %s.\n"
-msgstr "Kunde inte byta namn på %s tillbaka till %s: %s.\n"
+msgstr "Det gick inte att byta namn på %s tillbaka till %s: %s.\n"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Cache file created successfully.\n"
-msgstr "Cachefil skapades.\n"
+msgstr "Cachefilen skapades.\n"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Overwrite an existing cache, even if up to date"
@@ -284820,8 +285021,9 @@ msgid "Output a C header file"
 msgstr "Skriv ut en C-headerfil"
 
 #. from gnome:gtk-gtk-4-22.sv
+#. from gnome:reviewed/gtk/main
 msgid "Turn off verbose output"
-msgstr "Stäng av informativ utskrift"
+msgstr "Inaktivera utförlig utdata"
 
 #. from gnome:gtk-gtk-4-22.sv
 msgid "Validate existing icon cache"
@@ -302773,7 +302975,7 @@ msgstr "Escape"
 #. from gnome:reviewed/gtk/main
 msgctxt "keyboard label"
 msgid "Multi_key"
-msgstr "Multi-tangent"
+msgstr "Compose-tangent"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "keyboard label"
@@ -303153,7 +303355,7 @@ msgstr "Anpassar färgen"
 #. from gnome:reviewed/gtk/main
 msgctxt "accessibility"
 msgid "Activates the expander"
-msgstr "Aktiverar expanderaren"
+msgstr "Aktiverar utfällningsknappen"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "accessibility"
@@ -304008,7 +304210,7 @@ msgstr "Spela upp"
 #. from gnome:reviewed/gtk/main
 msgctxt "Print job priority"
 msgid "Urgent"
-msgstr "Viktigt"
+msgstr "Brådskande"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "Print job priority"
@@ -304043,7 +304245,7 @@ msgstr "Kantlöst"
 #. from gnome:reviewed/gtk/main
 msgctxt "printing option"
 msgid "Two Sided"
-msgstr "Tvåsidigt"
+msgstr "Dubbelsidigt"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "printing option"
@@ -304068,7 +304270,7 @@ msgstr "Upplösning"
 #. from gnome:reviewed/gtk/main
 msgctxt "printing option"
 msgid "GhostScript pre-filtering"
-msgstr "GhostScript-förfiltrering"
+msgstr "Ghostscript-förfiltrering"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "printing option value"
@@ -304078,12 +304280,12 @@ msgstr "Ensidigt"
 #. from gnome:reviewed/gtk/main
 msgctxt "printing option value"
 msgid "Long Edge (Standard)"
-msgstr "Lång kant (Standard)"
+msgstr "Långsida (standard)"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "printing option value"
 msgid "Short Edge (Flip)"
-msgstr "Kort kant (Vänd)"
+msgstr "Kortsida (vänd)"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "printing option value"
@@ -304098,7 +304300,7 @@ msgstr "Skrivarens standard"
 #. from gnome:reviewed/gtk/main
 msgctxt "printing option value"
 msgid "Embed GhostScript fonts only"
-msgstr "Endast inbäddade GhostScript-typsnitt"
+msgstr "Bädda endast in Ghostscript-typsnitt"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "printing option value"
@@ -304128,12 +304330,12 @@ msgstr "Ensidigt"
 #. from gnome:reviewed/gtk/main
 msgctxt "sides"
 msgid "Long Edge (Standard)"
-msgstr "Lång kant (Standard)"
+msgstr "Långsida (standard)"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "sides"
 msgid "Short Edge (Flip)"
-msgstr "Kort kant (Vänd)"
+msgstr "Kortsida (vänd)"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "output-bin"
@@ -304168,7 +304370,7 @@ msgstr "Fack till höger"
 #. from gnome:reviewed/gtk/main
 msgctxt "output-bin"
 msgid "Center Bin"
-msgstr "Centerfack"
+msgstr "Mittfack"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "output-bin"
@@ -304178,12 +304380,12 @@ msgstr "Bakre fack"
 #. from gnome:reviewed/gtk/main
 msgctxt "output-bin"
 msgid "Face Up Bin"
-msgstr "Fack för uppåtvänd framsida"
+msgstr "Fack med utskriftssidan uppåt"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "output-bin"
 msgid "Face Down Bin"
-msgstr "Fack för nedåtvänd framsida"
+msgstr "Fack med utskriftssidan nedåt"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "output-bin"
@@ -304243,7 +304445,7 @@ msgstr "Topphemligt"
 #. from gnome:reviewed/gtk/main
 msgctxt "cover page"
 msgid "Unclassified"
-msgstr "Inte klassificerat"
+msgstr "Oklassificerat"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "printer option"
@@ -304507,7 +304709,7 @@ msgstr "lokalt"
 #. from gnome:reviewed/gtk/main
 msgctxt "clipboard"
 msgid "remote"
-msgstr "fjärran"
+msgstr "externt"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "event phase"
@@ -304522,7 +304724,7 @@ msgstr "Fångst"
 #. from gnome:reviewed/gtk/main
 msgctxt "event phase"
 msgid "Bubble"
-msgstr "Bubbla"
+msgstr "Bubbling"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "event phase"
@@ -304532,7 +304734,7 @@ msgstr "Mål"
 #. from gnome:reviewed/gtk/main
 msgctxt "propagation limit"
 msgid "Native"
-msgstr "Inhemsk"
+msgstr "Nativ"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "GL renderer"
@@ -304587,11 +304789,11 @@ msgstr "Höger-till-vänster (ärvd)"
 
 #. from gnome:reviewed/gtk/main
 msgid "Intrinsic Size"
-msgstr "Inneboende storlek"
+msgstr "Naturlig storlek"
 
 #. from gnome:reviewed/gtk/main
 msgid "Intrinsic Aspect Ratio"
-msgstr "Inneboende bildförhållande"
+msgstr "Naturligt bildförhållande"
 
 #. from gnome:reviewed/gtk/main
 msgid "GdkPaintable Flags"
@@ -304637,7 +304839,7 @@ msgstr "(inte skrivbar)"
 
 #. from gnome:reviewed/gtk/main
 msgid "<b>Start of Recording</b>"
-msgstr "<b>Start på inspelning</b>"
+msgstr "<b>Inspelningen börjar</b>"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "sizegroup mode"
@@ -304665,7 +304867,7 @@ msgstr "Inställd via GTK_THEME"
 
 #. from gnome:reviewed/gtk/main
 msgid "Set by Compositor"
-msgstr "Satt av kompositionshanterare"
+msgstr "Angivet av kompositionshanteraren"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "Font rendering"
@@ -304688,7 +304890,7 @@ msgstr "Inkludera felsökningsinformation"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Access All Alternates"
-msgstr "Gör alla alternativa glyfer tillgängliga"
+msgstr "Visa alla alternativa glyfer"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304708,7 +304910,7 @@ msgstr "Ersättningar ovanför baslinjen"
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Alternative Fractions"
-msgstr "Alternativa bråkdelar"
+msgstr "Alternativa bråk"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304734,7 +304936,7 @@ msgstr "Ersättningar nedanför baslinjen"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Contextual Alternates"
-msgstr "Kontextuella glyfvarianter"
+msgstr "Kontextuella alternativa glyfer"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304775,7 +304977,7 @@ msgstr "Versalavstånd"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Contextual Swash"
-msgstr "Kontextuella sirliga glyfer"
+msgstr "Kontextuella utsmyckningar"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304786,13 +304988,13 @@ msgstr "Kursiv positionering"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Petite Capitals From Capitals"
-msgstr "Petita kapitäler från versaler"
+msgstr "Petitkapitäler från versaler"
 
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Small Capitals From Capitals"
-msgstr "Små kapitäler från versaler"
+msgstr "Kapitäler från versaler"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304802,12 +305004,12 @@ msgstr "Avstånd"
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Discretionary Ligatures"
-msgstr "Diskretionära ligaturer"
+msgstr "Valfria ligaturer"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Denominators"
-msgstr "Nämnare"
+msgstr "Nämnarsiffror"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304823,28 +305025,28 @@ msgstr "Expertformer"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Final Glyph on Line Alternates"
-msgstr "Alternativa glyfer i radslut"
+msgstr "Alternativa former för sista glyfen på raden"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Terminal Forms #2"
-msgstr "Terminalformer #2"
+msgstr "Slutformer #2"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Terminal Forms #3"
-msgstr "Terminalformer #3"
+msgstr "Slutformer #3"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Terminal Forms"
-msgstr "Terminalformer"
+msgstr "Slutformer"
 
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Flattened accent forms"
-msgstr "Plattade accentformer"
+msgstr "Platta accentformer"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304855,7 +305057,7 @@ msgstr "Bråkdelar"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Full Widths"
-msgstr "Fullbreddsformer"
+msgstr "Fullbredder"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304870,7 +305072,7 @@ msgstr "Halantformer"
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Alternate Half Widths"
-msgstr "Alternativa halvbreddsformer"
+msgstr "Alternativa halvbredder"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304901,13 +305103,13 @@ msgstr "Hojo-kanjiformer"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Half Widths"
-msgstr "Halvbreddsformer"
+msgstr "Halvbredder"
 
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Initial Forms"
-msgstr "Inledande former"
+msgstr "Grundformer"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304968,7 +305170,7 @@ msgstr "Inledande jamoformer"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Lining Figures"
-msgstr "Versalhöga siffror"
+msgstr "Versala siffror"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -304979,7 +305181,7 @@ msgstr "Lokaliserade former"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Left-to-right alternates"
-msgstr "Vänster-till-höger-varianter"
+msgstr "Vänster-till-höger-alternativ"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -305009,7 +305211,7 @@ msgstr "Matematisk grekiska"
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Mark to Mark Positioning"
-msgstr "Positionering av diakritiska tecken efter diakritiska tecken"
+msgstr "Positionering av diakritiska tecken i förhållande till varandra"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -305020,7 +305222,7 @@ msgstr "Positionering av diakritiska tecken via ersättning"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Alternate Annotation Forms"
-msgstr "Alternativa annoteringsformer"
+msgstr "Alternativa noteringsformer"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -305035,7 +305237,7 @@ msgstr "Nuktaformer"
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Numerators"
-msgstr "Täljare"
+msgstr "Täljarsiffror"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -305066,7 +305268,7 @@ msgstr "Proportionella alternativa bredder"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Petite Capitals"
-msgstr "Petita kapitäler"
+msgstr "Petitkapitäler"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -305081,22 +305283,22 @@ msgstr "Proportionella siffror"
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Pre-Base Forms"
-msgstr "Före-baslinjeformer"
+msgstr "Former före baslinjen"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Pre-base Substitutions"
-msgstr "Före-baslinjeersättningar"
+msgstr "Ersättningar före baslinjen"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Post-base Forms"
-msgstr "Efter-baslinjeformer"
+msgstr "Former efter baslinjen"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Post-base Substitutions"
-msgstr "Efter-baslinjeersättningar"
+msgstr "Ersättningar efter baslinjen"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -305118,7 +305320,7 @@ msgstr "Slumpa"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Required Contextual Alternates"
-msgstr "Obligatoriska kontextuella glyfvarianter"
+msgstr "Obligatoriska kontextuella glyfer"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -305144,7 +305346,7 @@ msgstr "Högergränser"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Right-to-left alternates"
-msgstr "Höger-till-vänster-varianter"
+msgstr "Höger-till-vänsteralternativ"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -305154,7 +305356,7 @@ msgstr "Höger-till-vänster-speglade former"
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Ruby Notation Forms"
-msgstr "Ruby-notationsformer"
+msgstr "Former för Ruby-notation"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -305170,7 +305372,7 @@ msgstr "Stilistiska alternativ"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Scientific Inferiors"
-msgstr "Nedsänkta siffror för vetenskaplig notation"
+msgstr "Vetenskapliga nedsänkta siffror"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -305181,7 +305383,7 @@ msgstr "Optisk storlek"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Small Capitals"
-msgstr "Små kapitäler"
+msgstr "Kapitäler"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -305196,30 +305398,30 @@ msgstr "Matematiska stilalternativ"
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Stretching Glyph Decomposition"
-msgstr "Utdragen glyfuppdelning"
+msgstr "Uppdelning av utdragna glyfer"
 
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Subscript"
-msgstr "Nedsänkta tecken"
+msgstr "Nedsänkt"
 
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Superscript"
-msgstr "Upphöjda tecken"
+msgstr "Upphöjt"
 
 #. from gnome:reviewed/gtk/main
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Swash"
-msgstr "Sirliga glyfer"
+msgstr "Dekorativ form"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
 msgid "Titling"
-msgstr "Titelläge"
+msgstr "Titelversaler"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "OpenType layout"
@@ -305305,7 +305507,7 @@ msgstr "Vertikala alternativ för rotation"
 #. from gnome:reviewed/gnome-font-viewer/main
 msgctxt "OpenType layout"
 msgid "Slashed Zero"
-msgstr "Nolla med snedstreck"
+msgstr "Nolla med streck genom"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "paper size"
@@ -305945,17 +306147,17 @@ msgstr "f"
 #. from gnome:reviewed/gtk/main
 msgctxt "paper size"
 msgid "Fan-Fold European"
-msgstr "Fan-Fold Europeisk"
+msgstr "Europeiskt dragspelspapper"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "paper size"
 msgid "Fan-Fold US"
-msgstr "Fan-Fold US"
+msgstr "Amerikanskt dragspelspapper"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "paper size"
 msgid "Fan-Fold German Legal"
-msgstr "Fan-Fold Tysk Legal"
+msgstr "Dragspelspapper (tysk Legal-storlek)"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "paper size"
@@ -306025,7 +306227,7 @@ msgstr "US Letter Plus"
 #. from gnome:reviewed/gtk/main
 msgctxt "paper size"
 msgid "Monarch Envelope"
-msgstr "Monark-kuvert"
+msgstr "Monarch-kuvert"
 
 #. from gnome:reviewed/gtk/main
 msgctxt "paper size"
@@ -306299,11 +306501,11 @@ msgstr "Volym"
 
 #. from gnome:reviewed/gtk/main
 msgid "Don't talk"
-msgstr "Var tyst"
+msgstr "Skriv inte ut meddelanden"
 
 #. from gnome:reviewed/gtk/main
 msgid "Tolerance to allow in comparisons"
-msgstr "Tolerans för jämförelser"
+msgstr "Tolerans vid jämförelser"
 
 #. from gnome:reviewed/gtk/main
 msgid "Differences written to %s.\n"
@@ -306319,7 +306521,7 @@ msgstr "Använd FIL som användarstilmall"
 
 #. from gnome:reviewed/gtk/main
 msgid "Line join (miter, round, bevel)"
-msgstr "Linjeövergång (gering, rund, fasning)"
+msgstr "Linjeskarv (miter, round, bevel)"
 
 #. from gnome:reviewed/gtk/main
 msgid "list all filters and exit"
@@ -306327,7 +306529,7 @@ msgstr "lista alla filter och avsluta"
 
 #. from gnome:reviewed/gtk/main
 msgid "Filter a node file and print the result."
-msgstr "Filtrera en nodfil och skriv ut resultatet."
+msgstr "Filtrera en .node-fil och skriv ut resultatet."
 
 #. from gnome:reviewed/gtk/main
 msgid "<invalid>"
@@ -306339,7 +306541,7 @@ msgstr "Varning vid %s: %s\n"
 
 #. from gnome:reviewed/gtk/main
 msgid "Show where background blur would take effect"
-msgstr "Visa var bakgrundsoskärpan skulle få effekt"
+msgstr "Visa var bakgrundsoskärpan skulle tillämpas"
 
 #. from gnome:reviewed/gtk/main
 msgid "Replace copy/paste nodes with copies of nodes"
@@ -306347,11 +306549,11 @@ msgstr "Ersätt kopiera/klistra in-noder med kopior av noder"
 
 #. from gnome:reviewed/gtk/main
 msgid "Compare rendering to .node or .png files."
-msgstr "Jämför rendering med .node- eller .png-filer."
+msgstr "Jämför renderingen med .node- eller .png-filer."
 
 #. from gnome:reviewed/gtk/main
 msgid "Must specify a filename\n"
-msgstr "Måste ange ett filnamn\n"
+msgstr "Du måste ange ett filnamn\n"
 
 #. from gnome:reviewed/gtk/main
 msgid "Cut out a part of the node"
@@ -306363,7 +306565,7 @@ msgstr "Visa var två noder skiljer sig åt"
 
 #. from gnome:reviewed/gtk/main
 msgid "Failed to write %s: %s\n"
-msgstr "Misslyckades med att skriva %s: %s\n"
+msgstr "Det gick inte att skriva %s: %s\n"
 
 #. from gnome:reviewed/gtk/main
 msgid "Basename for extracted files"
@@ -306383,7 +306585,7 @@ msgstr "unika:"
 
 #. from gnome:reviewed/gtk/main
 msgid "NUM"
-msgstr "ANTAL"
+msgstr "TAL"
 
 #. from gnome:reviewed/gtk/main
 msgid "Load icons from filenames"
@@ -306391,11 +306593,11 @@ msgstr "Läs in ikoner från filnamn"
 
 #. from gnome:reviewed/gtk/main
 msgid "No filename specified\n"
-msgstr "Inget filnamn angivet\n"
+msgstr "Inget filnamn har angetts\n"
 
 #. from gnome:reviewed/gtk/main
 msgid "Failed to parse node pattern\n"
-msgstr "Misslyckades med att tolka nodmönstret\n"
+msgstr "Det gick inte att tolka nodmönstret\n"
 
 #. from gnome:reviewed/gtk/main
 msgid "Count the matches instead"
@@ -306411,11 +306613,11 @@ msgstr "Matcha mönster i renderingsnoden."
 
 #. from gnome:reviewed/gtk/main
 msgid "Can only accept a pattern\n"
-msgstr "Kan endast acceptera ett mönster\n"
+msgstr "Det går bara att ange ett mönster\n"
 
 #. from gnome:reviewed/gtk/main
 msgid "Use float bounds, not integers"
-msgstr "Använd flyttalsgränser, inte heltal"
+msgstr "Använd flyttal som gränser i stället för heltal"
 
 #. from gnome:reviewed/gtk/main
 msgid "Merge nodes using a flow layout"
