@@ -45,7 +45,7 @@ def verify(entry: dict, resource: dict) -> str | None:
     if entry["key"] not in set(names.values()):
         return f"live key name is {names!r}, not {entry['key']!r}"
     translations = resource.get("translations", [])
-    swedish = [item for item in translations if item.get("language_iso") == "sv"]
+    swedish = [item for item in translations if item.get("language_iso") in {"sv", "sv_SE"} and item.get("translation")]
     english = [item for item in translations if item.get("language_iso") == "en"]
     if len(swedish) != 1 or str(swedish[0].get("translation_id")) != str(entry["translation_id"]):
         return "live Swedish translation ID does not match manifest"
