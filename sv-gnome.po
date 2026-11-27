@@ -56234,8 +56234,9 @@ msgstr "Aktivera icke-ödesdiger signalhanterare för felsökning"
 #. from gnome:GIMP
 #. from gnome:reviewed/NetworkManager/main
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/gstreamer/main
 msgid "Make all warnings fatal"
-msgstr "Gör alla varningar ödesdigra"
+msgstr "Behandla alla varningar som allvarliga fel"
 
 #. from gnome:GIMP
 msgid "Output a gimprc file with default settings"
@@ -297554,8 +297555,8 @@ msgstr "Skriv ut tillgängliga felsökningskategorier och avsluta"
 msgid ""
 "Default debug level from 1 (only error) to 9 (anything) or 0 for no output"
 msgstr ""
-"Standardfelsökningsnivå från 1 (endast fel) till 9 (allting) eller 0 för "
-"ingen utmatning"
+"Standardnivå för felsökning, från 1 (endast fel) till 9 (allt) eller 0 "
+"(ingen utmatning)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "LEVEL"
@@ -297566,8 +297567,8 @@ msgid ""
 "Comma-separated list of category_name:level pairs to set specific levels for"
 " the individual categories. Example: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
 msgstr ""
-"Kommaseparerad lista med kategorinamn:nivå-par för att ställa in specifika "
-"nivåer för de enskilda kategorierna. Exempel: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
+"Kommaseparerade kategorinamn:nivå-par för att ange specifika nivåer för "
+"enskilda kategorier. Exempel: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "LIST"
@@ -297575,15 +297576,15 @@ msgstr "LISTA"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Disable colored debugging output"
-msgstr "Inaktivera färglagd felsökningsutmatning"
+msgstr "Inaktivera färgkodad felsökningsutmatning"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
 "Changes coloring mode of the debug log. Possible modes: off, on, disable, "
 "auto, unix"
 msgstr ""
-"Ändrar färgläggning av felsökningsutskrifter. Möjliga lägen: off, on, "
-"disable, auto, unix"
+"Ändrar färgläget för felsökningsloggen. Möjliga lägen: off, on, disable, "
+"auto, unix"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Disable debugging"
@@ -297602,8 +297603,8 @@ msgid ""
 "Comma-separated list of plugins to preload in addition to the list stored in"
 " environment variable GST_PLUGIN_PATH"
 msgstr ""
-"Kommaseparerad lista med insticksmoduler att förhandsinläsa utöver listan "
-"som lagras i miljövariabeln GST_PLUGIN_PATH"
+"Kommaseparerad lista över insticksmoduler som ska läsas in i förväg, utöver "
+"listan i miljövariabeln GST_PLUGIN_PATH"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "PLUGINS"
@@ -297624,19 +297625,19 @@ msgstr "Inaktivera start av en hjälpprocess vid avsökning av registret"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "GStreamer Options"
-msgstr "GStreamer-flaggor"
+msgstr "GStreamer-alternativ"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Show GStreamer Options"
-msgstr "Visa GStreamer-flaggor"
+msgstr "Visa GStreamer-alternativ"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Unknown option"
-msgstr "Okänt flagga"
+msgstr "Okänt alternativ"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "GStreamer encountered a general core library error."
-msgstr "GStreamer stötte på ett allmänt fel i kärnbibliotek."
+msgstr "GStreamer stötte på ett allmänt fel i kärnbiblioteket."
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
@@ -297647,7 +297648,7 @@ msgstr ""
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Internal GStreamer error: code not implemented."
-msgstr "Internt GStreamer-fel: koden inte implementerad."
+msgstr "Internt GStreamer-fel: koden har inte implementerats."
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
@@ -297659,7 +297660,7 @@ msgstr ""
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Internal GStreamer error: pad problem."
-msgstr "Internt GStreamer-fel: kontaktproblem."
+msgstr "Internt GStreamer-fel: pad-problem."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Internal GStreamer error: thread problem."
@@ -297679,7 +297680,7 @@ msgstr "Internt GStreamer-fel: spolningsproblem."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Internal GStreamer error: caps problem."
-msgstr "Internt GStreamer-fel: förmågeproblem."
+msgstr "Internt GStreamer-fel: caps-problem."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Internal GStreamer error: tag problem."
@@ -297759,7 +297760,7 @@ msgstr "Kunde inte skriva till resursen."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Could not perform seek on resource."
-msgstr "Kunde inte utföra spolning på resursen."
+msgstr "Kunde inte söka i resursen."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Could not synchronize on resource."
@@ -297767,7 +297768,7 @@ msgstr "Kunde inte synkronisera på resursen."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Could not get/set settings from/on resource."
-msgstr "Kunde inte hämta/ställa in inställningar från/på resursen."
+msgstr "Kunde inte hämta eller ställa in inställningar för resursen."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "No space left on the resource."
@@ -297775,7 +297776,7 @@ msgstr "Inget ledigt utrymme på resursen."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Not authorized to access resource."
-msgstr "Har ej befogenhet att använda resursen."
+msgstr "Behörighet saknas för att komma åt resursen."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "GStreamer encountered a general stream error."
@@ -297793,27 +297794,27 @@ msgstr "Kunde inte fastställa typen av ström."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "The stream is of a different type than handled by this element."
-msgstr "Strömmen är av en annan typ än den som hanteras av detta element."
+msgstr "Strömmen har en annan typ än det här elementet kan hantera."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "There is no codec present that can handle the stream's type."
-msgstr "Det finns ingen omkodare som kan hantera denna strömtyp."
+msgstr "Ingen kodek kan hantera strömtypen."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Could not decode stream."
-msgstr "Kunde inte avkoda ström."
+msgstr "Kunde inte avkoda strömmen."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Could not encode stream."
-msgstr "Kunde inte koda ström."
+msgstr "Kunde inte koda strömmen."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Could not demultiplex stream."
-msgstr "Kunde inte avmultiplexera ström."
+msgstr "Kunde inte demultiplexa strömmen."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Could not multiplex stream."
-msgstr "Kunde inte multiplexera ström."
+msgstr "Kunde inte multiplexa strömmen."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "The stream is in the wrong format."
@@ -297828,8 +297829,8 @@ msgid ""
 "The stream is encrypted and can't be decrypted because no suitable key has "
 "been supplied."
 msgstr ""
-"Strömmen är krypterad och kan inte dekrypteras därför att det inte finns en "
-"lämplig nyckel."
+"Strömmen är krypterad och kan inte dekrypteras eftersom ingen lämplig nyckel"
+" har angetts."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "No error message for domain %s."
@@ -297845,11 +297846,11 @@ msgstr "Vald klocka kan inte användas i rörledning."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "%s is not accessible"
-msgstr "Det går inte att komma åt %s"
+msgstr "Sökvägen ”%s” är inte åtkomlig"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "%s is not a path"
-msgstr "%s är ingen sökväg"
+msgstr "”%s” är inte en sökväg till en katalog"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Error writing registry cache to %s: %s"
@@ -297857,7 +297858,7 @@ msgstr "Fel vid skrivning av registercache till %s: %s"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "commonly used title"
-msgstr "vanligtvis använd titel"
+msgstr "vanligt förekommande titel"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "title sortname"
@@ -297865,7 +297866,7 @@ msgstr "sorteringsnamn för titel"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "commonly used title for sorting purposes"
-msgstr "vanligen använd titel för sorteringsändamål"
+msgstr "vanligen använd titel för sortering"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "artist"
@@ -297873,7 +297874,7 @@ msgstr "artist"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "person(s) responsible for the recording"
-msgstr "person(er) som ansvarar för inspelningen"
+msgstr "personer som ansvarar för inspelningen"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "artist sortname"
@@ -297881,7 +297882,7 @@ msgstr "sorteringsnamn för artist"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "person(s) responsible for the recording for sorting purposes"
-msgstr "person(er) som ansvarar för inspelningen för sorteringsändamål"
+msgstr "personer som ansvarar för inspelningen, för sortering"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "album"
@@ -297889,7 +297890,7 @@ msgstr "album"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "album containing this data"
-msgstr "album som innehåller dessa data"
+msgstr "album som innehåller materialet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "album sortname"
@@ -297897,7 +297898,7 @@ msgstr "sorteringsnamn för album"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "album containing this data for sorting purposes"
-msgstr "album som innehåller dessa data för sorteringsändamål"
+msgstr "album som innehåller materialet, för sortering"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "album artist"
@@ -297905,7 +297906,7 @@ msgstr "albumartist"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "The artist of the entire album, as it should be displayed"
-msgstr "Artisten för hela albumet, som det ska visas"
+msgstr "Artisten som ska visas för hela albumet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "album artist sortname"
@@ -297913,19 +297914,19 @@ msgstr "sorteringsnamn för albumartist"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "The artist of the entire album, as it should be sorted"
-msgstr "Artisten för hela albumet, som det ska sorteras"
+msgstr "Artisten för hela albumet, sorterad enligt artistnamnet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "date the data was created (as a GDate structure)"
-msgstr "datum då dessa data skapades (som en GDate-struktur)"
+msgstr "datum då materialet skapades (som en GDate-struktur)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "datetime"
-msgstr "datumtid"
+msgstr "datum och tid"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "date and time the data was created (as a GstDateTime structure)"
-msgstr "datum och tid då dessa data skapades (som en GstDateTime-struktur)"
+msgstr "datum och tid då materialet skapades (som en GstDateTime-struktur)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "genre"
@@ -297937,7 +297938,7 @@ msgstr "genre som dessa data tillhör"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "free text commenting the data"
-msgstr "fri text som kommenterar dessa data"
+msgstr "fritextkommentar om materialet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "extended comment"
@@ -297946,8 +297947,7 @@ msgstr "utökad kommentar"
 #. from gnome:reviewed/gstreamer/main
 msgid "free text commenting the data in key=value or key[en]=comment form"
 msgstr ""
-"fri text som kommenterar dessa data i formatet key=värde eller "
-"key[sv]=kommentar"
+"fritextkommentar om materialet i formatet key=value eller key[en]=comment"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "track number"
@@ -297955,15 +297955,15 @@ msgstr "spårnummer"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "track number inside a collection"
-msgstr "spårnummer inuti en samling"
+msgstr "spårnummer i den samling som spåret tillhör"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "track count"
-msgstr "spårantal"
+msgstr "antal spår"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "count of tracks inside collection this track belongs to"
-msgstr "antal spår inuti den samling som detta spår tillhör"
+msgstr "antal spår i den samling som spåret tillhör"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "disc number"
@@ -297971,15 +297971,15 @@ msgstr "skivnummer"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "disc number inside a collection"
-msgstr "skivnummer inuti en samling"
+msgstr "skivnummer i den samling som skivan tillhör"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "disc count"
-msgstr "skivantal"
+msgstr "antal skivor"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "count of discs inside collection this disc belongs to"
-msgstr "antal skivor inuti den samling som denna skiva tillhör"
+msgstr "antal skivor i den samling som skivan tillhör"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "location"
@@ -297990,8 +297990,7 @@ msgid ""
 "Origin of media as a URI (location, where the original of the file or stream"
 " is hosted)"
 msgstr ""
-"Ursprunget för mediet som en URI (plats där den ursprungliga filen eller "
-"strömmen finns)"
+"Mediets ursprung som URI (platsen där originalfilen eller -strömmen finns)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "homepage"
@@ -297999,7 +297998,7 @@ msgstr "webbsida"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Homepage for this media (i.e. artist or movie homepage)"
-msgstr "Webbsida för detta media (alltså webbsidan för artisten eller filmen)"
+msgstr "Webbsida för mediet (till exempel artistens eller filmens webbplats)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "description"
@@ -298007,7 +298006,7 @@ msgstr "beskrivning"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "short text describing the content of the data"
-msgstr "kort text som beskriver innehållet av dessa data"
+msgstr "kort text som beskriver innehållet i materialet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "version"
@@ -298019,7 +298018,7 @@ msgstr "version av dessa data"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "International Standard Recording Code - see http://www.ifpi.org/isrc/"
-msgstr "International Standard Recording Code - se http://www.ifpi.org/isrc/"
+msgstr "International Standard Recording Code – se http://www.ifpi.org/isrc/"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "organization"
@@ -298027,19 +298026,19 @@ msgstr "organisation"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "copyright"
-msgstr "copyright"
+msgstr "upphovsrätt"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "copyright notice of the data"
-msgstr "copyrightnotis för dessa data"
+msgstr "upphovsrättsnotis för materialet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "copyright uri"
-msgstr "copyright-uri"
+msgstr "upphovsrätts-URI"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "URI to the copyright notice of the data"
-msgstr "Uri till copyrightnotis för datat"
+msgstr "URI till upphovsrättsnotisen för materialet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "encoded by"
@@ -298063,23 +298062,23 @@ msgstr "licens"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "license of data"
-msgstr "licens för data"
+msgstr "licens för materialet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "license uri"
-msgstr "licens-uri"
+msgstr "licens-URI"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "URI to the license of the data"
-msgstr "Uri till licens för datat"
+msgstr "URI till licensen för materialet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "performer"
-msgstr "aktör"
+msgstr "artist"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "person(s) performing"
-msgstr "person(er) som agerar"
+msgstr "personer som framför verket"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "composer"
@@ -298087,15 +298086,15 @@ msgstr "kompositör"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "person(s) who composed the recording"
-msgstr "person(er) som komponerade inspelningen"
+msgstr "personer som komponerade inspelningen"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "conductor"
-msgstr "konduktör"
+msgstr "dirigent"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "conductor/performer refinement"
-msgstr "konduktör/artist förfining"
+msgstr "precisering av dirigent/artist"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "length in GStreamer time units (nanoseconds)"
@@ -298103,35 +298102,35 @@ msgstr "längd i GStreamer-tidsenheter (nanosekunder)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "codec"
-msgstr "komprimeringsmetod"
+msgstr "kodek"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "codec the data is stored in"
-msgstr "komprimeringsmetod som dessa data lagras med"
+msgstr "kodek som materialet lagras med"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "video codec"
-msgstr "videokomprimeringsmetod"
+msgstr "videokodek"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "codec the video data is stored in"
-msgstr "komprimeringsmetod som dessa videodata lagras med"
+msgstr "kodek som videomaterialet lagras med"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "audio codec"
-msgstr "ljudkomprimeringsmetod"
+msgstr "ljudkodek"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "codec the audio data is stored in"
-msgstr "komprimeringsmetod som dessa ljuddata lagras med"
+msgstr "kodek som ljudmaterialet lagras med"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "subtitle codec"
-msgstr "omkodare för undertext"
+msgstr "undertextkodek"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "codec the subtitle data is stored in"
-msgstr "omkodare som undertextdata lagrats med"
+msgstr "kodek som undertextmaterialet lagras med"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "container format"
@@ -298147,7 +298146,7 @@ msgstr "bitfrekvens"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "exact or average bitrate in bits/s"
-msgstr "exakt bitfrekvens eller genomsnittlig bitfrekvens i bitar/s"
+msgstr "exakt eller genomsnittlig bitfrekvens i bit/s"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "nominal bitrate"
@@ -298179,7 +298178,7 @@ msgstr "kodare"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "encoder used to encode this stream"
-msgstr "kodare som använts för att koda denna ström"
+msgstr "kodare som har använts för att koda strömmen"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "encoder version"
@@ -298187,7 +298186,7 @@ msgstr "kodarversion"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "version of the encoder used to encode this stream"
-msgstr "version av kodaren som använts för att koda denna ström"
+msgstr "version av kodaren som har använts för att koda strömmen"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "serial"
@@ -298195,35 +298194,35 @@ msgstr "serienummer"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "serial number of track"
-msgstr "serienummer för spår"
+msgstr "serienummer för spåret"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "replaygain track gain"
-msgstr "uppspelningsförstärkning spårförstärkning"
+msgstr "spårförstärkning (ReplayGain)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "track gain in dB"
-msgstr "spårförstärkning i dB"
+msgstr "spårets förstärkning i dB"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "r128 track gain"
-msgstr "r128 spårförstärkning"
+msgstr "spårförstärkning (R128)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "track gain in dB (r128)"
-msgstr "spårförstärkning i dB (r128)"
+msgstr "spårets förstärkning i dB (R128)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "replaygain track peak"
-msgstr "uppspelningsförstärkning spårtopp"
+msgstr "spårets toppnivå (ReplayGain)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "peak of the track"
-msgstr "toppen för spåret"
+msgstr "spårets toppnivå"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "replaygain album gain"
-msgstr "uppspelningsförstärkning albumförstärkning"
+msgstr "albumförstärkning (ReplayGain)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "album gain in dB"
@@ -298231,23 +298230,23 @@ msgstr "albumförstärkning i dB"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "r128 album gain"
-msgstr "r128 albumförstärkning"
+msgstr "albumförstärkning (R128)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "album gain in dB (r128)"
-msgstr "albumförstärkning i dB (r128)"
+msgstr "albumförstärkning i dB (R128)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "replaygain album peak"
-msgstr "uppspelningsförstärkning albumtopp"
+msgstr "albumets toppnivå (ReplayGain)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "peak of the album"
-msgstr "toppen för albumet"
+msgstr "albumets toppnivå"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "replaygain reference level"
-msgstr "referensnivå för uppspelningsförstärkning"
+msgstr "referensnivå för ReplayGain"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "reference level of track and album gain values"
@@ -298259,7 +298258,7 @@ msgstr "språkkod"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "language code for this stream, conforming to ISO-639-1 or ISO-639-2"
-msgstr "språkkod för denna ström, enligt ISO-639-1 eller ISO-639-2"
+msgstr "Språkkod för strömmen enligt ISO-639-1 eller ISO-639-2"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "language name"
@@ -298267,11 +298266,11 @@ msgstr "språknamn"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "freeform name of the language this stream is in"
-msgstr "namn på det språk som denna ström använder"
+msgstr "fritextnamn på språket i strömmen"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "image related to this stream"
-msgstr "bild relaterad till den här strömmen"
+msgstr "bild som hör till strömmen"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "preview image"
@@ -298279,11 +298278,11 @@ msgstr "förhandsvisningsbild"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "preview image related to this stream"
-msgstr "förhandsvisningsbild relaterad till den här strömmen"
+msgstr "förhandsvisningsbild för strömmen"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "file attached to this stream"
-msgstr "fil bifogad till den här strömmen"
+msgstr "fil som är bifogad till strömmen"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "beats per minute"
@@ -298303,19 +298302,17 @@ msgstr "kommaseparerade nyckelord som beskriver innehållet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "geo location name"
-msgstr "geografiskt platsnamn"
+msgstr "geografisk plats"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
 "human readable descriptive location of where the media has been recorded or "
 "produced"
-msgstr ""
-"mänskligt läslig beskrivande plats för var mediet har spelats in eller "
-"producerats"
+msgstr "läsbar beskrivning av platsen där mediet spelades in eller skapades"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "geo location latitude"
-msgstr "latitud för geografisk plats"
+msgstr "geografisk latitud"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
@@ -298323,13 +298320,12 @@ msgid ""
 "degrees according to WGS84 (zero at the equator, negative values for "
 "southern latitudes)"
 msgstr ""
-"latitud i grader för geografisk plats där mediet har spelats in eller "
-"producerats enligt WGS84 (noll för ekvatorn, negativa värden för sydliga "
-"latituder)"
+"latitud i grader för platsen där mediet spelades in eller skapades, enligt "
+"WGS84 (0 vid ekvatorn och negativa värden söder om ekvatorn)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "geo location longitude"
-msgstr "longitud för geografisk plats"
+msgstr "geografisk longitud"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
@@ -298337,71 +298333,69 @@ msgid ""
 "degrees according to WGS84 (zero at the prime meridian in Greenwich/UK,  "
 "negative values for western longitudes)"
 msgstr ""
-"longitud i grader för geografisk plats där mediet har spelats in eller "
-"producerats enligt WGS84 (noll för meridianlinjen i Greenwich, "
-"Storbritannien, negativa värden för västliga longituder)"
+"longitud i grader för platsen där mediet spelades in eller skapades, enligt "
+"WGS84 (0 vid nollmeridianen i Greenwich och negativa värden väster om den)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "geo location elevation"
-msgstr "höjd för geografisk plats"
+msgstr "geografisk höjd"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
 "geo elevation of where the media has been recorded or produced in meters "
 "according to WGS84 (zero is average sea level)"
 msgstr ""
-"höjd i meter för geografisk plats där mediet har spelats in eller "
-"producerats enligt WGS84 (noll för genomsnittlig havsnivå)"
+"höjd i meter för platsen där mediet spelades in eller skapades, enligt WGS84"
+" (0 motsvarar medelhavsnivå)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "geo location country"
-msgstr "land för geografisk plats"
+msgstr "land där mediet spelades in"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "country (english name) where the media has been recorded or produced"
-msgstr "land (engelskt namn) där mediet har spelats in eller producerats"
+msgstr "landets namn på engelska, där mediet spelades in eller skapades"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "geo location city"
-msgstr "stad för geografisk plats"
+msgstr "ort där mediet spelades in"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "city (english name) where the media has been recorded or produced"
-msgstr "stad (engelskt namn) där mediet har spelats in eller producerats"
+msgstr "ortens namn på engelska, där mediet spelades in eller skapades"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "geo location sublocation"
-msgstr "specifik plats för geografisk plats"
+msgstr "geografisk delplats"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
 "a location within a city where the media has been produced or created (e.g. "
 "the neighborhood)"
 msgstr ""
-"en plats inom en stad där mediet har producerats eller skapats (t.ex. "
-"närområde)"
+"plats i en stad där mediet spelades in eller skapades (till exempel en "
+"stadsdel)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "geo location horizontal error"
-msgstr "fel i horisontell geografisk plats"
+msgstr "osäkerhet i horisontell position"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "expected error of the horizontal positioning measures (in meters)"
-msgstr "förväntat fel i horisontell positioneringsmätning (i meter)"
+msgstr "förväntad osäkerhet i den horisontella positionsangivelsen (meter)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "geo location movement speed"
-msgstr "förflyttningshastighet för geografisk plats"
+msgstr "inspelningsenhetens rörelsehastighet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
 "movement speed of the capturing device while performing the capture in m/s"
-msgstr ""
-"förflyttningshastighet för fångstenheten när mediet skapas (i meter/s)"
+msgstr "inspelningsenhetens rörelsehastighet under inspelningen i m/s"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "geo location movement direction"
-msgstr "förflyttningsriktning för geografisk plats"
+msgstr "inspelningsenhetens rörelseriktning"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
@@ -298409,13 +298403,12 @@ msgid ""
 "media. It is represented as degrees in floating point representation, 0 "
 "means the geographic north, and increases clockwise"
 msgstr ""
-"indikerar riktningen som enheten förflyttas när mediet skapas. Det "
-"representeras som grader i flyttalsrepresentation, 0 betyder geografiskt "
-"nordlig riktning och ökar medsols"
+"anger inspelningsenhetens rörelseriktning. Värdet anges i grader som "
+"flyttal; 0 betyder geografiskt norr och värdet ökar medurs"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "geo location capture direction"
-msgstr "fångstriktning för geografisk plats"
+msgstr "inspelningsriktning"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
@@ -298423,28 +298416,27 @@ msgid ""
 "It is represented as degrees in floating point  representation, 0 means the "
 "geographic north, and increases clockwise"
 msgstr ""
-"indikerar riktningen som enheten pekar mot när mediet skapas. Det "
-"representeras som grader i flyttalsrepresentation, 0 betyder geografiskt "
-"nordlig riktning och ökar medsols"
+"anger riktningen som enheten pekar åt när den spelar in mediet. Värdet anges"
+" i grader som flyttal; 0 betyder geografiskt norr och värdet ökar medurs"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "show name"
-msgstr "visningsnamn"
+msgstr "programnamn"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Name of the tv/podcast/series show the media is from"
-msgstr "Namn på TV-program/poddsändning/serie som mediet kommer från"
+msgstr "Namn på tv-programmet, podden eller serien som mediet kommer från"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "show sortname"
-msgstr "visa sorteringsnamn"
+msgstr "sorteringsnamn för program"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
 "Name of the tv/podcast/series show the media is from, for sorting purposes"
 msgstr ""
-"Namn på TV-program/poddsändning/serie som mediet kommer från, för "
-"sorteringsändamål"
+"Namn på tv-programmet, podden eller serien som mediet kommer från, för "
+"sortering"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "episode number"
@@ -298452,7 +298444,7 @@ msgstr "avsnittsnummer"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "The episode number in the season the media is part of"
-msgstr "Avsnittsnumret i säsongen som mediet är en del av"
+msgstr "Avsnittsnummer i säsongen som mediet ingår i"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "season number"
@@ -298460,7 +298452,7 @@ msgstr "säsongsnummer"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "The season number of the show the media is part of"
-msgstr "Säsongsnumret för programmet som mediet är en del av"
+msgstr "Säsongsnummer för programmet som mediet ingår i"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "lyrics"
@@ -298468,7 +298460,7 @@ msgstr "låttexter"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "The lyrics of the media, commonly used for songs"
-msgstr "Låttexter för mediet, används oftast för låtar"
+msgstr "Låttext för mediet, vanligen en sångtext"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "composer sortname"
@@ -298476,15 +298468,15 @@ msgstr "sorteringsnamn för kompositör"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "person(s) who composed the recording, for sorting purposes"
-msgstr "person(er) som komponerade inspelningen, för sorteringsändamål"
+msgstr "personer som komponerade inspelningen, för sortering"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
 "Groups related media that spans multiple tracks, like the different pieces "
 "of a concerto. It is a higher level than a track, but lower than an album"
 msgstr ""
-"Grupprelaterade media som spänner över flera spår, såsom olika delar av en "
-"konsert. Det är en högre nivå än ett spår, men lägre än ett album"
+"Grupperar relaterat medieinnehåll över flera spår, till exempel satserna i "
+"ett konsertverk. Gruppen ligger över spårnivån men under albumnivån"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "user rating"
@@ -298495,8 +298487,8 @@ msgid ""
 "Rating attributed by a user. The higher the rank, the more the user likes "
 "this media"
 msgstr ""
-"Betyg angivit av en användare. Desto högre rankning, desto mer gillar "
-"användaren detta media"
+"Betyg som en användare har gett. Ju högre betyg, desto mer tycker användaren"
+" om mediet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "device manufacturer"
@@ -298504,7 +298496,7 @@ msgstr "enhetstillverkare"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Manufacturer of the device used to create this media"
-msgstr "Tillverkare av enheten som använts för att skapa detta media"
+msgstr "Tillverkare av enheten som användes för att skapa mediet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "device model"
@@ -298512,7 +298504,7 @@ msgstr "enhetsmodell"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Model of the device used to create this media"
-msgstr "Modell av enheten som använts för att skapa detta media"
+msgstr "Modell på enheten som användes för att skapa mediet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "application name"
@@ -298520,7 +298512,7 @@ msgstr "programnamn"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Application used to create the media"
-msgstr "Programmet som använts för att skapa detta media"
+msgstr "Program som användes för att skapa mediet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "application data"
@@ -298528,7 +298520,7 @@ msgstr "programdata"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Arbitrary application data to be serialized into the media"
-msgstr "Godtycklig programdata att serialisera inuti detta media"
+msgstr "Godtyckliga programdata som serialiseras in i mediet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "image orientation"
@@ -298544,7 +298536,7 @@ msgstr "utgivare"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Name of the label or publisher"
-msgstr "Namn på förlag eller utgivare"
+msgstr "Skivbolagets eller utgivarens namn"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "interpreted-by"
@@ -298553,39 +298545,39 @@ msgstr "tolkad av"
 #. from gnome:reviewed/gstreamer/main
 msgid ""
 "Information about the people behind a remix and similar interpretations"
-msgstr "Information om människorna bakom en remix eller liknande tolkning"
+msgstr "Information om personerna bakom en remix eller liknande tolkning"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "midi-base-note"
-msgstr "midi-bas-not"
+msgstr "MIDI-basnot"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Midi note number of the audio track."
-msgstr "Midi-not-nummer för ljudspåret."
+msgstr "MIDI-tonnummer för ljudspåret."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "private-data"
-msgstr "privat-data"
+msgstr "privata data"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Private data"
-msgstr "Privat data"
+msgstr "Privata data"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "container-specific-track-id"
-msgstr "container-specific-track-id"
+msgstr "behållarspecifikt spår-ID"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Container-specific Track ID"
-msgstr "Behållarspecifikt spår-ID"
+msgstr "Spår-ID som är specifikt för behållaren"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "No URI handler for the %s protocol found"
-msgstr "Ingen uri-hanterare hittades för %s-protokollet"
+msgstr "Ingen URI-hanterare hittades för protokollet %s"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "URI scheme '%s' not supported"
-msgstr "Uri-schema ”%s” saknar stöd"
+msgstr "URI-schemat ”%s” stöds inte"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "ERROR: from element %s: %s\n"
@@ -298602,16 +298594,16 @@ msgstr ""
 #. from gnome:reviewed/gstreamer/main
 msgid "property \"%s\" in element \"%s\" is not allowed when parsing untrusted input"
 msgstr ""
-"Egenskapen ”%s” i elementet ”%s” är inte tillåten vid tolkning av opålitliga"
-" indata"
+"egenskapen ”%s” i elementet ”%s” är inte tillåten när opålitliga indata "
+"tolkas"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "link has no source [sink=%s@%p]"
-msgstr "länk har ingen källa [utgång=%s@%p]"
+msgstr "länken saknar en source-pad [sink=%s@%p]"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "link has no sink [source=%s@%p]"
-msgstr "länk har ingen utgång [källa=%s@%p]"
+msgstr "länken saknar en sink-pad [source=%s@%p]"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "could not set property \"%s\" in element \"%s\" to \"%s\""
@@ -298639,12 +298631,13 @@ msgstr "inget ”%s”-element"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "element \"%s\" is not allowed when parsing untrusted input"
-msgstr "Elementet ”%s” är inte tillåtet vid tolkning av opålitliga indata"
+msgstr "elementet ”%s” är inte tillåtet vid tolkning av opålitliga indata"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "could not set property \"%s\" in child of element \"%s\" to \"%s\""
 msgstr ""
-"kunde inte ställa in egenskapen ”%s” i barn till elementet ”%s” till ”%s”"
+"Det gick inte att ställa in egenskapen ”%s” i ett underordnat element till "
+"”%s” med värdet ”%s”"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Delayed linking failed."
@@ -298652,40 +298645,39 @@ msgstr "Fördröjd länkning misslyckades."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "could not link %s to %s, %s can't handle caps %s"
-msgstr "kunde inte länka %s med %s, %s kan inte hantera förmågorna %s"
+msgstr "kunde inte länka %s till %s; %s kan inte hantera caps %s"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "could not link %s to %s, neither element can handle caps %s"
-msgstr ""
-"kunde inte länka %s med %s, ingetdera element kan hantera förmågorna %s"
+msgstr "kunde inte länka %s till %s; inget av elementen kan hantera caps %s"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "could not link %s to %s with caps %s"
-msgstr "kunde inte länka %s till %s med förmågorna %s"
+msgstr "kunde inte länka %s till %s med caps %s"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "could not link %s to %s"
-msgstr "kunde inte länka %s med %s"
+msgstr "kunde inte länka %s till %s"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "unexpected reference \"%s\" - ignoring"
-msgstr "oväntad referens ”%s” - ignorerar"
+msgstr "oväntad referens ”%s” – ignoreras"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "unexpected pad-reference \"%s\" - ignoring"
-msgstr "oväntad kontakt-referens ”%s” - ignorerar"
+msgstr "oväntad pad-referens ”%s” – ignoreras"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "could not parse caps \"%s\""
-msgstr "kunde inte tolka förmågorna ”%s”"
+msgstr "kunde inte tolka caps ”%s”"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "no sink element for URI \"%s\""
-msgstr "inget utgångselement för URI:n ”%s”"
+msgstr "inget sink-element hittades för URI:n ”%s”"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "no source element for URI \"%s\""
-msgstr "inget källelement för URI:n ”%s”"
+msgstr "inget source-element hittades för URI:n ”%s”"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "syntax error"
@@ -298693,31 +298685,31 @@ msgstr "syntaxfel"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "specified empty bin \"%s\", not allowed"
-msgstr "angav tom korg ”%s”, inte tillåtet"
+msgstr "den angivna bin-enheten ”%s” är tom, vilket inte är tillåtet"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "no bin \"%s\", unpacking elements"
-msgstr "ingen korg ”%s”, packar upp element"
+msgstr "ingen bin-enhet ”%s” hittades; packar upp elementen"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "empty pipeline not allowed"
-msgstr "tom rörledning är inte tillåtet"
+msgstr "en tom pipeline är inte tillåten"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
 "property \"%s\" cannot be set on a child that does not exist yet when "
 "parsing untrusted input"
 msgstr ""
-"Egenskapen ”%s” kan inte ställas in för ett underordnat objekt som ännu inte"
-" finns vid tolkning av opålitliga indata"
+"egenskapen ”%s” kan inte ställas in på ett underordnat element som ännu inte"
+" finns när opålitliga indata tolkas"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Pipeline construction is invalid, please add queues."
-msgstr "Rörledningskonstruktion ogiltig, lägg till köer."
+msgstr "Pipelinebygget är ogiltigt. Lägg till köer."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "A lot of buffers are being dropped."
-msgstr "Förkastar en stor mängd buffertar."
+msgstr "Många buffertar kastas bort."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Internal data flow problem."
@@ -298737,23 +298729,23 @@ msgstr "Misslyckades med att mappa buffert."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Filter caps"
-msgstr "Filtrera förmågor"
+msgstr "Filtrera caps"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
 "Restrict the possible allowed capabilities (NULL means ANY). Setting this "
 "property takes a reference to the supplied GstCaps object."
 msgstr ""
-"Begränsa de möjliga tillåtna förmågorna (NULL betyder ANY). Inställning av "
-"egenskapen tar en referens till det angivna GstCaps-objektet."
+"Begränsa vilka caps som tillåts (NULL betyder ANY). När den här egenskapen "
+"ställs in tas en referens till det angivna GstCaps-objektet."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Caps Change Mode"
-msgstr "Ändringsläge för förmågor"
+msgstr "Caps-ändringsläge"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Filter caps change behaviour"
-msgstr "Ändringsläge för filterförmågor"
+msgstr "Ändringsbeteende för caps-filtret"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "No Temp directory specified."
@@ -298805,11 +298797,11 @@ msgstr "”%s” är en katalog."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "File \"%s\" is a socket."
-msgstr "Filen ”%s” är ett uttag."
+msgstr "Filen ”%s” är en socket."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Failed after iterations as requested."
-msgstr "Misslyckades efter iterationer som begärt."
+msgstr "Misslyckades efter det begärda antalet iterationer."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "eos-after and error-after can't both be defined."
@@ -298841,7 +298833,7 @@ msgstr "Strömmen innehåller inte tillräckligt med data."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Stream contains no data."
-msgstr "Strömmen innehåller inget data."
+msgstr "Strömmen innehåller inga data."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "%sImplemented Interfaces%s:\n"
@@ -298869,7 +298861,7 @@ msgstr "villkorligt tillgänglig"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "sensitive when set from an untrusted pipeline description"
-msgstr "känslig när den ställs in från en opålitlig rörledningsbeskrivning"
+msgstr "Känslig när den anges i en opålitlig pipelinebeskrivning"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "can be set only at object construction time"
@@ -298920,8 +298912,8 @@ msgid ""
 "A slashes ('/') separated list of types of elements (also known as klass) to"
 " list. (unordered)"
 msgstr ""
-"En snedstreckseparerad lista (”/”) av typer av element (också känd som en "
-"klass) att lista. (oordnad)"
+"En snedstrecksseparerad lista över elementtyper (även kallade klass), "
+"osorterad"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Check if the specified element or plugin exists"
@@ -298932,14 +298924,12 @@ msgid ""
 "When checking if an element or plugin exists, also check that its version is"
 " at least the version specified"
 msgstr ""
-"När existensen av ett element eller insticksmodul kontrolleras, kontrollera "
-"även att dess version åtminstone är den angivna"
+"När du kontrollerar om ett element eller en insticksmodul finns, kontrollera"
+" också att versionen är minst den angivna"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Print supported URI schemes, with the elements that implement them"
-msgstr ""
-"Skriv ut uri-scheman som stöds, tillsammans med elementen som implementerar "
-"dem"
+msgstr "Skriv ut de URI-scheman som stöds och elementen som hanterar dem"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
@@ -298951,7 +298941,7 @@ msgstr ""
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Color output, even when not sending to a tty."
-msgstr "Färgutmatning, även då utmatning inte skickas till en tty."
+msgstr "Färgsätt utdata även när den inte skickas till en TTY."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Could not load plugin file: %s\n"
@@ -298959,7 +298949,7 @@ msgstr "Kunde inte läsa in fil för insticksmodul: %s\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "No such element or plugin '%s'\n"
-msgstr "Inget sådant element eller insticksmodul ”%s”\n"
+msgstr "Det finns inget element eller någon insticksmodul med namnet ”%s”\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Index statistics"
@@ -298979,47 +298969,47 @@ msgstr ""
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Setting pipeline to PLAYING ...\n"
-msgstr "Ställer in rörledningen till PLAYING...\n"
+msgstr "Ställer pipelinen i PLAYING-läge ...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "ERROR: pipeline doesn't want to play.\n"
-msgstr "FEL: rörledningen vill inte spela.\n"
+msgstr "FEL: pipelinen kan inte gå över till PLAYING-läget.\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Got message #%u from element \"%s\" (%s): "
-msgstr "Fick meddelande #%u från elementet ”%s” (%s): "
+msgstr "Tog emot meddelande #%u från elementet ”%s” (%s): "
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Got message #%u from pad \"%s:%s\" (%s): "
-msgstr "Fick meddelande #%u från kontakten (pad) ”%s:%s” (%s): "
+msgstr "Tog emot meddelande #%u från pad ”%s:%s” (%s): "
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Got message #%u from object \"%s\" (%s): "
-msgstr "Fick meddelande #%u från objektet ”%s” (%s): "
+msgstr "Tog emot meddelande #%u från objektet ”%s” (%s): "
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Got message #%u (%s): "
-msgstr "Fick meddelande #%u (%s): "
+msgstr "Tog emot meddelande #%u (%s): "
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Got EOS from element \"%s\".\n"
-msgstr "Fick EOS från element ”%s”.\n"
+msgstr "Tog emot EOS från elementet ”%s”.\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "EOS received - stopping pipeline...\n"
-msgstr "EOS togs emot - stoppar rörledning...\n"
+msgstr "EOS mottogs – stoppar pipelinen...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "FOUND TAG      : found by element \"%s\".\n"
-msgstr "HITTADE TAGG: hittat av elementet ”%s”.\n"
+msgstr "HITTADE TAGG   : hittad av elementet ”%s”.\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "FOUND TAG      : found by pad \"%s:%s\".\n"
-msgstr "HITTADE TAGG: hittat av kontakten ”%s:%s”.\n"
+msgstr "HITTADE TAGG   : hittad via pad ”%s:%s”.\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "FOUND TAG      : found by object \"%s\".\n"
-msgstr "HITTADE TAGG: hittat av objektet ”%s”.\n"
+msgstr "HITTADE TAGG   : hittad via objektet ”%s”.\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "FOUND TAG\n"
@@ -299051,15 +299041,15 @@ msgstr "VARNING: från elementet %s: %s\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Pipeline is PREROLLED ...\n"
-msgstr "Rörledningen har utfört PREROLL...\n"
+msgstr "Pipelinen har nått PREROLLED-läget ...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Prerolled, waiting for buffering to finish...\n"
-msgstr "Förinläst, väntar på att buffringen ska bli färdig...\n"
+msgstr "PREROLL klar, väntar på att buffringen ska bli klar...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Prerolled, waiting for progress to finish...\n"
-msgstr "Förinläst, väntar på att förloppet ska avslutas...\n"
+msgstr "PREROLL klar, väntar på att förloppet ska bli klart...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "buffering..."
@@ -299067,15 +299057,15 @@ msgstr "buffrar..."
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Done buffering, setting pipeline to PLAYING ...\n"
-msgstr "Färdig med buffringen, ställer in rörledningen till PLAYING...\n"
+msgstr "Buffringen är klar. Ställer pipelinen i PLAYING-läge ...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Buffering, setting pipeline to PAUSED ...\n"
-msgstr "Buffrar, ställer in rörledningen till PAUSED...\n"
+msgstr "Buffrar. Ställer pipelinen i PAUSED-läge ...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Redistribute latency...\n"
-msgstr "Fördröjning för vidaresändning...\n"
+msgstr "Omfördelar latensen...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Setting state to %s as requested by %s...\n"
@@ -299083,15 +299073,15 @@ msgstr "Ställer in tillståndet till %s enligt begäran från %s...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Interrupt: Stopping pipeline ...\n"
-msgstr "Avbrott: Stoppar rörledningen ...\n"
+msgstr "Avbrott: stoppar pipelinen ...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Interrupt while waiting for EOS - stopping pipeline...\n"
-msgstr "Avbrott medan EOS väntades på: Stoppar rörledningen...\n"
+msgstr "Avbrott under väntan på EOS – stoppar pipelinen...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "EOS on shutdown enabled -- Forcing EOS on the pipeline\n"
-msgstr "EOS vid avstängning aktiverad -- Tvingar EOS på rörledningen\n"
+msgstr "EOS vid avstängning är aktiverat – skickar EOS till pipelinen\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Waiting for EOS...\n"
@@ -299111,7 +299101,7 @@ msgstr "Fick kontext från elementet ”%s”: %s=%s\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "ERROR: pipeline doesn't want to preroll.\n"
-msgstr "FEL: rörledningen vill inte utföra preroll.\n"
+msgstr "FEL: pipelinen kan inte utföra PREROLL.\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "An error happened while waiting for EOS\n"
@@ -299119,11 +299109,11 @@ msgstr "Ett fel inträffade vid väntan på EOS\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Output tags (also known as metadata)"
-msgstr "Mata ut taggar (även känt som metadata)"
+msgstr "Skriv ut taggar (även kallade metadata)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Output TOC (chapters and editions)"
-msgstr "Skriv ut INNEHÅLL (kapitel och utgåvor)"
+msgstr "Skriv ut innehållsförteckningen (TOC: kapitel och utgåvor)"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Do not print any progress information"
@@ -299131,7 +299121,7 @@ msgstr "Skriv inte ut någon förloppsinformation"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Output messages"
-msgstr "Mata ut meddelanden"
+msgstr "Skriv ut meddelanden"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
@@ -299147,7 +299137,7 @@ msgstr "EGENSKAPSNAMN"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Set the name of the program"
-msgstr "Sätt namnet på programmet"
+msgstr "Ange programmets namn"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "PROGRAM-NAME"
@@ -299171,31 +299161,29 @@ msgid ""
 "the position will be printed when stdout is a TTY. To enable printing "
 "position when stdout is not a TTY, use \"force-position\" option"
 msgstr ""
-"Skriv inte ut aktuell position för rörledningen. Om denna flagga inte är "
-"angivet, kommer positionen att skrivas ut då standard ut är en TTY. För att "
-"aktivera utskrift av position när standard ut inte är en TTY använd ”force-"
-"position”-flaggan"
+"Skriv inte ut pipelinens aktuella position. Om alternativet inte anges visas"
+" positionen när standardutmatningen är en TTY. Om positionen ska visas även "
+"när standardutmatningen inte är en TTY, använd alternativet ”force-position”"
 
 #. from gnome:reviewed/gstreamer/main
 msgid ""
 "Allow printing current position of pipeline even if stdout is not a TTY. "
 "This option has no effect if the \"no-position\" option is specified"
 msgstr ""
-"Tillåt utskrift av aktuell position av rörledningen även om standard ut inte"
-" är en TTY. Denna flagga har ingen effekt om flaggan ”no-position” är "
-"angiven"
+"Tillåt utskrift av pipelinens aktuella position även om standardutmatningen "
+"inte är en TTY. Alternativet har ingen effekt om ”no-position” anges"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "ERROR: pipeline could not be constructed: %s.\n"
-msgstr "FEL: rörledningen kunde inte konstrueras: %s.\n"
+msgstr "FEL: pipelinen kunde inte skapas: %s.\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "ERROR: pipeline could not be constructed.\n"
-msgstr "FEL: rörledningen kunde inte konstrueras.\n"
+msgstr "FEL: pipelinen kunde inte skapas.\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "WARNING: erroneous pipeline: %s\n"
-msgstr "VARNING: felaktig rörledning: %s\n"
+msgstr "VARNING: ogiltig pipeline: %s\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "ERROR: the 'pipeline' element wasn't found.\n"
@@ -299203,19 +299191,19 @@ msgstr "FEL: ”pipeline”-elementet hittades inte.\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Setting pipeline to PAUSED ...\n"
-msgstr "Ställer in rörledningen till PAUSED...\n"
+msgstr "Ställer pipelinen i PAUSED-läge ...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Failed to set pipeline to PAUSED.\n"
-msgstr "Misslyckades med att sätta rörledningen till PAUSED.\n"
+msgstr "Kunde inte ställa pipelinen i PAUSED-läge.\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Pipeline is live and does not need PREROLL ...\n"
-msgstr "Rörledningen lever och behöver inte PREROLL ...\n"
+msgstr "Pipelinen är live och behöver inte PREROLL ...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Pipeline is PREROLLING ...\n"
-msgstr "Rörledningen utför PREROLL...\n"
+msgstr "Pipelinen är i PREROLLING-läget ...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Execution ended after %"
@@ -299227,7 +299215,7 @@ msgstr "Ställer in rörledningen till NULL...\n"
 
 #. from gnome:reviewed/gstreamer/main
 msgid "Freeing pipeline ...\n"
-msgstr "Frigör rörledning ...\n"
+msgstr "Frigör pipelinen ...\n"
 
 #. from gnome:reviewed/libipuz/main
 msgctxt "Direction"
