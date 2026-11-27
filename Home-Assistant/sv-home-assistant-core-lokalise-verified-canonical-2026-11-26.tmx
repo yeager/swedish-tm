@@ -32740,34 +32740,8 @@ Uppdatera ovanstående automatiseringar eller skript så de använder den nya va
     <tu tuid="lokalise:7114767272"><prop type="source">component::victron_ble::entity::sensor::charger_error::state::temperature_battery_high</prop><prop type="lokalise-key-id">759362347</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; HA Core source checked</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Battery temperature too high</seg></tuv><tuv xml:lang="sv"><seg>Batteritemperaturen är för hög</seg></tuv></tu>
     <tu tuid="lokalise:7114767336"><prop type="source">component::victron_ble::entity::sensor::charger_error::state::temperature_battery_low</prop><prop type="lokalise-key-id">759362348</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; HA Core source checked</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Battery temperature too low</seg></tuv><tuv xml:lang="sv"><seg>Batteritemperaturen är för låg</seg></tuv></tu>
     <tu tuid="lokalise:7114767400"><prop type="source">component::victron_ble::entity::sensor::charger_error::state::temperature_charger</prop><prop type="lokalise-key-id">759362349</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; HA Core source checked</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Charger temperature too high</seg></tuv><tuv xml:lang="sv"><seg>Laddartemperaturen är för hög</seg></tuv></tu>
-    <tu tuid="lokalise:8123037347">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::battery_voltage_too_high</prop>
-      <prop type="lokalise-key-id">828725920</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Battery voltage too high</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Batterispänningen är för hög</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037667">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::charger_temperature_too_high</prop>
-      <prop type="lokalise-key-id">828725925</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Charger temperature too high</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Laddartemperaturen är för hög</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8123037347"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::battery_voltage_too_high</prop><prop type="lokalise-key-id">828725920</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Battery voltage too high</seg></tuv><tuv xml:lang="sv"><seg>Batterispänningen är för hög</seg></tuv></tu>
+    <tu tuid="lokalise:8123037667"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::charger_temperature_too_high</prop><prop type="lokalise-key-id">828725925</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Charger temperature too high</seg></tuv><tuv xml:lang="sv"><seg>Laddartemperaturen är för hög</seg></tuv></tu>
     <tu tuid="lokalise:8123060387">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::battery_voltage_too_high</prop>
       <prop type="lokalise-key-id">828726280</prop>
@@ -180959,20 +180933,7 @@ Se till att du konfigurerar om mot samma enhet.</seg>
         <seg>Total PV-avkastning för användare</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8264149830">
-      <prop type="source">component::victron_gx::common::terminals_overheated</prop>
-      <prop type="lokalise-key-id">836505216</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Terminals overheated</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Terminaler överhettade</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8264149830"><prop type="source">component::victron_gx::common::terminals_overheated</prop><prop type="lokalise-key-id">836505216</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Terminals overheated</seg></tuv><tuv xml:lang="sv"><seg>Anslutningarna är överhettade</seg></tuv></tu>
     <tu tuid="lokalise:8264149766">
       <prop type="source">component::victron_gx::common::temperature</prop>
       <prop type="lokalise-key-id">836505215</prop>
@@ -180987,20 +180948,7 @@ Se till att du konfigurerar om mot samma enhet.</seg>
         <seg>Temperatur</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8264149702">
-      <prop type="source">component::victron_gx::common::synchronized_charging_config_issue</prop>
-      <prop type="lokalise-key-id">836505214</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Synchronized charging config issue</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Problem med konfiguration av synkroniserad laddning</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8264149702"><prop type="source">component::victron_gx::common::synchronized_charging_config_issue</prop><prop type="lokalise-key-id">836505214</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Synchronized charging config issue</seg></tuv><tuv xml:lang="sv"><seg>Problem med konfigurationen för synkroniserad laddning</seg></tuv></tu>
     <tu tuid="lokalise:8264149638">
       <prop type="source">component::victron_gx::common::sustain_alt</prop>
       <prop type="lokalise-key-id">836505213</prop>
@@ -181479,20 +181427,7 @@ Se till att du konfigurerar om mot samma enhet.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8264147398"><prop type="source">component::victron_gx::common::low_power</prop><prop type="lokalise-key-id">836505178</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; retroactive Victron shared-state correction</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Low power</seg></tuv><tuv xml:lang="sv"><seg>Låg effekt</seg></tuv></tu>
-    <tu tuid="lokalise:8264147334">
-      <prop type="source">component::victron_gx::common::lost_communication_with_device</prop>
-      <prop type="lokalise-key-id">836505177</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Lost communication with device</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Förlorade kommunikation med enheten</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8264147334"><prop type="source">component::victron_gx::common::lost_communication_with_device</prop><prop type="lokalise-key-id">836505177</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Lost communication with device</seg></tuv><tuv xml:lang="sv"><seg>Kommunikationen med enheten har brutits</seg></tuv></tu>
     <tu tuid="lokalise:8264147270"><prop type="source">component::victron_gx::common::inverting</prop><prop type="lokalise-key-id">836505176</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; retroactive Victron shared-state correction</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Inverting</seg></tuv><tuv xml:lang="sv"><seg>Växelriktning</seg></tuv></tu>
     <tu tuid="lokalise:8264147206">
       <prop type="source">component::victron_gx::common::inverter_only</prop>
@@ -181550,34 +181485,8 @@ Se till att du konfigurerar om mot samma enhet.</seg>
         <seg>Ingångsspänning</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8264146950">
-      <prop type="source">component::victron_gx::common::input_shutdown_reverse_current</prop>
-      <prop type="lokalise-key-id">836505171</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Input shutdown (reverse current)</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ingångsavstängning (omvänd ström)</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8264146886">
-      <prop type="source">component::victron_gx::common::input_shutdown_battery_voltage_too_high</prop>
-      <prop type="lokalise-key-id">836505170</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Input shutdown (battery voltage too high)</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ingångsavstängning (överspänning i batteri)</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8264146950"><prop type="source">component::victron_gx::common::input_shutdown_reverse_current</prop><prop type="lokalise-key-id">836505171</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Input shutdown (reverse current)</seg></tuv><tuv xml:lang="sv"><seg>Ingången stängdes av på grund av omvänt strömflöde</seg></tuv></tu>
+    <tu tuid="lokalise:8264146886"><prop type="source">component::victron_gx::common::input_shutdown_battery_voltage_too_high</prop><prop type="lokalise-key-id">836505170</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Input shutdown (battery voltage too high)</seg></tuv><tuv xml:lang="sv"><seg>Ingången stängdes av eftersom batterispänningen är för hög</seg></tuv></tu>
     <tu tuid="lokalise:8264146822">
       <prop type="source">component::victron_gx::common::input_power</prop>
       <prop type="lokalise-key-id">836505169</prop>
@@ -181677,20 +181586,7 @@ Se till att du konfigurerar om mot samma enhet.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8264146374"><prop type="source">component::victron_gx::common::float</prop><prop type="lokalise-key-id">836505162</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; retroactive Victron shared-state correction</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Float</seg></tuv><tuv xml:lang="sv"><seg>Underhållsladdning</seg></tuv></tu>
-    <tu tuid="lokalise:8264146310">
-      <prop type="source">component::victron_gx::common::factory_calibration_data_lost</prop>
-      <prop type="lokalise-key-id">836505161</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Factory calibration data lost</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Fabriksinställningarna har gått förlorade</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8264146310"><prop type="source">component::victron_gx::common::factory_calibration_data_lost</prop><prop type="lokalise-key-id">836505161</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Factory calibration data lost</seg></tuv><tuv xml:lang="sv"><seg>Fabrikens kalibreringsdata har gått förlorade</seg></tuv></tu>
     <tu tuid="lokalise:8264146246">
       <prop type="source">component::victron_gx::common::external_control</prop>
       <prop type="lokalise-key-id">836505160</prop>
@@ -181860,20 +181756,7 @@ Se till att du konfigurerar om mot samma enhet.</seg>
         <seg>Ström</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8264145414">
-      <prop type="source">component::victron_gx::common::converter_issue</prop>
-      <prop type="lokalise-key-id">836505147</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Converter issue</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Problem med konverterare</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8264145414"><prop type="source">component::victron_gx::common::converter_issue</prop><prop type="lokalise-key-id">836505147</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Converter issue</seg></tuv><tuv xml:lang="sv"><seg>Problem med omvandlaren</seg></tuv></tu>
     <tu tuid="lokalise:8264145350">
       <prop type="source">component::victron_gx::common::consumption_on_phase</prop>
       <prop type="lokalise-key-id">836505146</prop>
@@ -181902,20 +181785,7 @@ Se till att du konfigurerar om mot samma enhet.</seg>
         <seg>Förbrukning</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8264145158">
-      <prop type="source">component::victron_gx::common::charger_over_current</prop>
-      <prop type="lokalise-key-id">836505143</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Charger over current</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Laddare överström</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8264145158"><prop type="source">component::victron_gx::common::charger_over_current</prop><prop type="lokalise-key-id">836505143</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Charger over current</seg></tuv><tuv xml:lang="sv"><seg>Överström i laddaren</seg></tuv></tu>
     <tu tuid="lokalise:8264145094">
       <prop type="source">component::victron_gx::common::charger_only</prop>
       <prop type="lokalise-key-id">836505142</prop>
@@ -181930,76 +181800,11 @@ Se till att du konfigurerar om mot samma enhet.</seg>
         <seg>Endast laddare</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8264145030">
-      <prop type="source">component::victron_gx::common::charger_current_reversed</prop>
-      <prop type="lokalise-key-id">836505141</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Charger current reversed</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Laddström omvänd</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8264144966">
-      <prop type="source">component::victron_gx::common::bulk_time_limit_exceeded</prop>
-      <prop type="lokalise-key-id">836505140</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Bulk time limit exceeded</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsgränsen för bulköverföring har överskridits</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8264144902">
-      <prop type="source">component::victron_gx::common::bulk</prop>
-      <prop type="lokalise-key-id">836505139</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Bulk</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Bulk</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8264144838">
-      <prop type="source">component::victron_gx::common::bms_connection_lost</prop>
-      <prop type="lokalise-key-id">836505138</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>BMS connection lost</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>BMS-anslutningen förlorad</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8264144710">
-      <prop type="source">component::victron_gx::common::battery_safe</prop>
-      <prop type="lokalise-key-id">836505136</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Battery Safe</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Batteri säkert</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8264145030"><prop type="source">component::victron_gx::common::charger_current_reversed</prop><prop type="lokalise-key-id">836505141</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Charger current reversed</seg></tuv><tuv xml:lang="sv"><seg>Omvänt strömflöde genom laddaren</seg></tuv></tu>
+    <tu tuid="lokalise:8264144966"><prop type="source">component::victron_gx::common::bulk_time_limit_exceeded</prop><prop type="lokalise-key-id">836505140</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Bulk time limit exceeded</seg></tuv><tuv xml:lang="sv"><seg>Tidsgränsen för bulkladdning har överskridits</seg></tuv></tu>
+    <tu tuid="lokalise:8264144902"><prop type="source">component::victron_gx::common::bulk</prop><prop type="lokalise-key-id">836505139</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Bulk</seg></tuv><tuv xml:lang="sv"><seg>Bulkfas</seg></tuv></tu>
+    <tu tuid="lokalise:8264144838"><prop type="source">component::victron_gx::common::bms_connection_lost</prop><prop type="lokalise-key-id">836505138</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>BMS connection lost</seg></tuv><tuv xml:lang="sv"><seg>Anslutningen till BMS har brutits</seg></tuv></tu>
+    <tu tuid="lokalise:8264144710"><prop type="source">component::victron_gx::common::battery_safe</prop><prop type="lokalise-key-id">836505136</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Battery Safe</seg></tuv><tuv xml:lang="sv"><seg>Battery Safe</seg></tuv></tu>
     <tu tuid="lokalise:8264144646">
       <prop type="source">component::victron_gx::common::auto_equalize_recondition</prop>
       <prop type="lokalise-key-id">836505135</prop>
@@ -205353,902 +205158,70 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
         <seg>Extern styrning</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8123040995">
-      <prop type="source">component::victron_gx::entity::sensor::dcdc_state::state::equalize</prop>
-      <prop type="lokalise-key-id">828725977</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Equalize</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utjämna</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040931">
-      <prop type="source">component::victron_gx::entity::sensor::dcdc_state::state::discharging</prop>
-      <prop type="lokalise-key-id">828725976</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Discharging</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Laddar ur</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040867">
-      <prop type="source">component::victron_gx::entity::sensor::dcdc_state::state::bulk</prop>
-      <prop type="lokalise-key-id">828725975</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Bulk</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Bulk</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040803">
-      <prop type="source">component::victron_gx::entity::sensor::dcdc_state::state::battery_safe</prop>
-      <prop type="lokalise-key-id">828725974</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Battery Safe</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Batteri säkert</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040739">
-      <prop type="source">component::victron_gx::entity::sensor::dcdc_state::state::auto_equalize</prop>
-      <prop type="lokalise-key-id">828725973</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Auto equalize / recondition</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Automatisk utjämning/rekonditionering</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040675">
-      <prop type="source">component::victron_gx::entity::sensor::dcdc_state::state::absorption</prop>
-      <prop type="lokalise-key-id">828725972</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Absorption</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Absorption</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040611">
-      <prop type="source">component::victron_gx::entity::sensor::dcdc_state::name</prop>
-      <prop type="lokalise-key-id">828725971</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>State</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tillstånd</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040547">
-      <prop type="source">component::victron_gx::entity::sensor::dcdc_input_voltage::name</prop>
-      <prop type="lokalise-key-id">828725970</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Input voltage</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ingångsspänning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040483">
-      <prop type="source">component::victron_gx::entity::sensor::dcdc_input_power::name</prop>
-      <prop type="lokalise-key-id">828725969</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Input power</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ingångseffekt</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040419">
-      <prop type="source">component::victron_gx::entity::sensor::dcdc_input_current::name</prop>
-      <prop type="lokalise-key-id">828725968</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Input current</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ingångsström</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040355">
-      <prop type="source">component::victron_gx::entity::sensor::dcdc_dc_voltage::name</prop>
-      <prop type="lokalise-key-id">828725967</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>DC output voltage</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>DC-utgångsspänning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040291">
-      <prop type="source">component::victron_gx::entity::sensor::dcdc_dc_power::name</prop>
-      <prop type="lokalise-key-id">828725966</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>DC output power</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>DC-utgångseffekt</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040227">
-      <prop type="source">component::victron_gx::entity::sensor::dcdc_dc_current::name</prop>
-      <prop type="lokalise-key-id">828725965</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>DC output current</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>DC-utgångsström</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040163">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::sustain_alt</prop>
-      <prop type="lokalise-key-id">828725964</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Sustain alt</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Sustain alt</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040099">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::sustain</prop>
-      <prop type="lokalise-key-id">828725963</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Sustain</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Sustain</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123040035">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::storage</prop>
-      <prop type="lokalise-key-id">828725962</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Storage</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Lagring</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039971">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::starting_up</prop>
-      <prop type="lokalise-key-id">828725961</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Starting up</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Startar upp</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039907">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::scheduled_recharging</prop>
-      <prop type="lokalise-key-id">828725960</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Scheduled recharging</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Schemalagd uppladdning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039843">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::repeated_absorption</prop>
-      <prop type="lokalise-key-id">828725959</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Repeated absorption</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Upprepad absorption</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039779">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::recharging</prop>
-      <prop type="lokalise-key-id">828725958</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Recharging</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Uppladdar</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039715">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::power_supply</prop>
-      <prop type="lokalise-key-id">828725957</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Power supply</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Strömförsörjning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039651">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::power_assist</prop>
-      <prop type="lokalise-key-id">828725956</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Power Assist</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Power Assist</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039587">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::passthrough</prop>
-      <prop type="lokalise-key-id">828725955</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Passthrough</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Genomströmning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039523">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::off</prop>
-      <prop type="lokalise-key-id">828725954</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Off</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Av</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039459">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::low_power</prop>
-      <prop type="lokalise-key-id">828725953</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Low power</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Låg ström</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039395">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::inverting</prop>
-      <prop type="lokalise-key-id">828725952</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Inverting</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Växelriktar</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039331">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::float</prop>
-      <prop type="lokalise-key-id">828725951</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Float</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Flytande</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039267">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::fault</prop>
-      <prop type="lokalise-key-id">828725950</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Fault</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Fel</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039203">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::external_control</prop>
-      <prop type="lokalise-key-id">828725949</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>External control</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Extern styrning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039139">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::equalize</prop>
-      <prop type="lokalise-key-id">828725948</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Equalize</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Utjämna</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039075">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::discharging</prop>
-      <prop type="lokalise-key-id">828725947</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Discharging</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Laddar ur</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123039011">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::bulk</prop>
-      <prop type="lokalise-key-id">828725946</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Bulk</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Bulk</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038947">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::battery_safe</prop>
-      <prop type="lokalise-key-id">828725945</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Battery Safe</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Batteri säkert</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038883">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::auto_equalize</prop>
-      <prop type="lokalise-key-id">828725944</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Auto equalize / recondition</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Automatisk utjämning/rekonditionering</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038819">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::state::absorption</prop>
-      <prop type="lokalise-key-id">828725943</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Absorption</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Absorption</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038755">
-      <prop type="source">component::victron_gx::entity::sensor::charger_state::name</prop>
-      <prop type="lokalise-key-id">828725942</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>State</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tillstånd</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038691">
-      <prop type="source">component::victron_gx::entity::sensor::charger_nr_of_outputs::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">828725941</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>outputs</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>utgångar</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038627">
-      <prop type="source">component::victron_gx::entity::sensor::charger_nr_of_outputs::name</prop>
-      <prop type="lokalise-key-id">828725940</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Number of outputs</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Antal utgångar</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038563">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::user_settings_invalid</prop>
-      <prop type="lokalise-key-id">828725939</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>User settings invalid</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ogiltiga användarinställningar</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038499">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::terminals_overheated</prop>
-      <prop type="lokalise-key-id">828725938</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Terminals overheated</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Terminaler överhettade</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038435">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::synchronized_charging_config_issue</prop>
-      <prop type="lokalise-key-id">828725937</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Synchronized charging config issue</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Problem med konfiguration av synkroniserad laddning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038371">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::no_error</prop>
-      <prop type="lokalise-key-id">828725936</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>No error</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Inget fel</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038307">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::network_misconfigured</prop>
-      <prop type="lokalise-key-id">828725935</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Network misconfigured</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Nätverket är felkonfigurerat</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038243">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::lost_communication_with_device</prop>
-      <prop type="lokalise-key-id">828725934</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Lost communication with device</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Förlorade kommunikation med enheten</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038179">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::invalid_incompatible_firmware</prop>
-      <prop type="lokalise-key-id">828725933</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Invalid/incompatible firmware</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ogiltig/inkompatibel firmware</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038115">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::input_voltage_too_high</prop>
-      <prop type="lokalise-key-id">828725932</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Input voltage too high (solar panel)</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>För hög ingångsspänning (solpanel)</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123038051">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::input_shutdown_reverse_current</prop>
-      <prop type="lokalise-key-id">828725931</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Input shutdown (reverse current)</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ingångsavstängning (omvänd ström)</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037987">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::input_shutdown_battery_voltage_too_high</prop>
-      <prop type="lokalise-key-id">828725930</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Input shutdown (battery voltage too high)</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ingångsavstängning (överspänning i batteri)</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037923">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::input_current_too_high</prop>
-      <prop type="lokalise-key-id">828725929</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Input current too high (solar panel)</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>För hög ingångsström (solpanel)</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037859">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::factory_calibration_data_lost</prop>
-      <prop type="lokalise-key-id">828725928</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Factory calibration data lost</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Fabriksinställningarna har gått förlorade</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037795">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::current_sensor_issue</prop>
-      <prop type="lokalise-key-id">828725927</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Current sensor issue</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Problem med strömsensorn</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037731">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::converter_issue</prop>
-      <prop type="lokalise-key-id">828725926</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Converter issue</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Problem med konverterare</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037603">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::charger_over_current</prop>
-      <prop type="lokalise-key-id">828725924</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Charger over current</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Laddare överström</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037539">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::charger_current_reversed</prop>
-      <prop type="lokalise-key-id">828725923</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Charger current reversed</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Laddström omvänd</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037475">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::bulk_time_limit_exceeded</prop>
-      <prop type="lokalise-key-id">828725922</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Bulk time limit exceeded</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsgränsen för bulköverföring har överskridits</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037411">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::bms_connection_lost</prop>
-      <prop type="lokalise-key-id">828725921</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>BMS connection lost</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>BMS-anslutningen förlorad</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037283">
-      <prop type="source">component::victron_gx::entity::sensor::charger_error_code::name</prop>
-      <prop type="lokalise-key-id">828725919</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Error code</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Felkod</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037219">
-      <prop type="source">component::victron_gx::entity::sensor::charger_dc_voltage::name</prop>
-      <prop type="lokalise-key-id">828725918</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>DC output voltage</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>DC-utgång spänning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037155">
-      <prop type="source">component::victron_gx::entity::sensor::charger_dc_current::name</prop>
-      <prop type="lokalise-key-id">828725917</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>DC output current</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>DC-utgång ström</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037091">
-      <prop type="source">component::victron_gx::entity::sensor::charge_mode::name</prop>
-      <prop type="lokalise-key-id">828725916</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Charge mode</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Laddningsläge</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123037027">
-      <prop type="source">component::victron_gx::entity::sensor::battery_voltage::name</prop>
-      <prop type="lokalise-key-id">828725915</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>DC bus voltage</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>DC-busspänning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123036963">
-      <prop type="source">component::victron_gx::entity::sensor::battery_total_charge_cycles::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">828725914</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>cycles</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>cykler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123036899">
-      <prop type="source">component::victron_gx::entity::sensor::battery_total_charge_cycles::name</prop>
-      <prop type="lokalise-key-id">828725913</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Total charge cycles</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Totalt antal laddningscykler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123036835">
-      <prop type="source">component::victron_gx::entity::sensor::battery_time_to_go::name</prop>
-      <prop type="lokalise-key-id">828725912</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Time to go</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tid kvar</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8123040995"><prop type="source">component::victron_gx::entity::sensor::dcdc_state::state::equalize</prop><prop type="lokalise-key-id">828725977</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Equalize</seg></tuv><tuv xml:lang="sv"><seg>Utjämningsladdning</seg></tuv></tu>
+    <tu tuid="lokalise:8123040931"><prop type="source">component::victron_gx::entity::sensor::dcdc_state::state::discharging</prop><prop type="lokalise-key-id">828725976</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Discharging</seg></tuv><tuv xml:lang="sv"><seg>Laddar ur</seg></tuv></tu>
+    <tu tuid="lokalise:8123040867"><prop type="source">component::victron_gx::entity::sensor::dcdc_state::state::bulk</prop><prop type="lokalise-key-id">828725975</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Bulk</seg></tuv><tuv xml:lang="sv"><seg>Bulkfas</seg></tuv></tu>
+    <tu tuid="lokalise:8123040803"><prop type="source">component::victron_gx::entity::sensor::dcdc_state::state::battery_safe</prop><prop type="lokalise-key-id">828725974</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Battery Safe</seg></tuv><tuv xml:lang="sv"><seg>Battery Safe</seg></tuv></tu>
+    <tu tuid="lokalise:8123040739"><prop type="source">component::victron_gx::entity::sensor::dcdc_state::state::auto_equalize</prop><prop type="lokalise-key-id">828725973</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Auto equalize / recondition</seg></tuv><tuv xml:lang="sv"><seg>Automatisk utjämning/rekonditionering</seg></tuv></tu>
+    <tu tuid="lokalise:8123040675"><prop type="source">component::victron_gx::entity::sensor::dcdc_state::state::absorption</prop><prop type="lokalise-key-id">828725972</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Absorption</seg></tuv><tuv xml:lang="sv"><seg>Absorption</seg></tuv></tu>
+    <tu tuid="lokalise:8123040611"><prop type="source">component::victron_gx::entity::sensor::dcdc_state::name</prop><prop type="lokalise-key-id">828725971</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>State</seg></tuv><tuv xml:lang="sv"><seg>Tillstånd</seg></tuv></tu>
+    <tu tuid="lokalise:8123040547"><prop type="source">component::victron_gx::entity::sensor::dcdc_input_voltage::name</prop><prop type="lokalise-key-id">828725970</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Input voltage</seg></tuv><tuv xml:lang="sv"><seg>Ingångsspänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123040483"><prop type="source">component::victron_gx::entity::sensor::dcdc_input_power::name</prop><prop type="lokalise-key-id">828725969</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Input power</seg></tuv><tuv xml:lang="sv"><seg>Ingångseffekt</seg></tuv></tu>
+    <tu tuid="lokalise:8123040419"><prop type="source">component::victron_gx::entity::sensor::dcdc_input_current::name</prop><prop type="lokalise-key-id">828725968</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Input current</seg></tuv><tuv xml:lang="sv"><seg>Ingångsström</seg></tuv></tu>
+    <tu tuid="lokalise:8123040355"><prop type="source">component::victron_gx::entity::sensor::dcdc_dc_voltage::name</prop><prop type="lokalise-key-id">828725967</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>DC output voltage</seg></tuv><tuv xml:lang="sv"><seg>DC-utgångsspänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123040291"><prop type="source">component::victron_gx::entity::sensor::dcdc_dc_power::name</prop><prop type="lokalise-key-id">828725966</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>DC output power</seg></tuv><tuv xml:lang="sv"><seg>DC-utgångseffekt</seg></tuv></tu>
+    <tu tuid="lokalise:8123040227"><prop type="source">component::victron_gx::entity::sensor::dcdc_dc_current::name</prop><prop type="lokalise-key-id">828725965</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>DC output current</seg></tuv><tuv xml:lang="sv"><seg>DC-utgångsström</seg></tuv></tu>
+    <tu tuid="lokalise:8123040163"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::sustain_alt</prop><prop type="lokalise-key-id">828725964</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Sustain alt</seg></tuv><tuv xml:lang="sv"><seg>Sustain alt</seg></tuv></tu>
+    <tu tuid="lokalise:8123040099"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::sustain</prop><prop type="lokalise-key-id">828725963</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Sustain</seg></tuv><tuv xml:lang="sv"><seg>Sustain</seg></tuv></tu>
+    <tu tuid="lokalise:8123040035"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::storage</prop><prop type="lokalise-key-id">828725962</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Storage</seg></tuv><tuv xml:lang="sv"><seg>Lagring</seg></tuv></tu>
+    <tu tuid="lokalise:8123039971"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::starting_up</prop><prop type="lokalise-key-id">828725961</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Starting up</seg></tuv><tuv xml:lang="sv"><seg>Startar upp</seg></tuv></tu>
+    <tu tuid="lokalise:8123039907"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::scheduled_recharging</prop><prop type="lokalise-key-id">828725960</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Scheduled recharging</seg></tuv><tuv xml:lang="sv"><seg>Schemalagd uppladdning</seg></tuv></tu>
+    <tu tuid="lokalise:8123039843"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::repeated_absorption</prop><prop type="lokalise-key-id">828725959</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Repeated absorption</seg></tuv><tuv xml:lang="sv"><seg>Upprepad absorption</seg></tuv></tu>
+    <tu tuid="lokalise:8123039779"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::recharging</prop><prop type="lokalise-key-id">828725958</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Recharging</seg></tuv><tuv xml:lang="sv"><seg>Återladdar</seg></tuv></tu>
+    <tu tuid="lokalise:8123039715"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::power_supply</prop><prop type="lokalise-key-id">828725957</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Power supply</seg></tuv><tuv xml:lang="sv"><seg>Strömförsörjning</seg></tuv></tu>
+    <tu tuid="lokalise:8123039651"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::power_assist</prop><prop type="lokalise-key-id">828725956</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Power Assist</seg></tuv><tuv xml:lang="sv"><seg>Power Assist</seg></tuv></tu>
+    <tu tuid="lokalise:8123039587"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::passthrough</prop><prop type="lokalise-key-id">828725955</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Passthrough</seg></tuv><tuv xml:lang="sv"><seg>Genomströmning</seg></tuv></tu>
+    <tu tuid="lokalise:8123039523"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::off</prop><prop type="lokalise-key-id">828725954</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Off</seg></tuv><tuv xml:lang="sv"><seg>Av</seg></tuv></tu>
+    <tu tuid="lokalise:8123039459"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::low_power</prop><prop type="lokalise-key-id">828725953</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Low power</seg></tuv><tuv xml:lang="sv"><seg>Låg effekt</seg></tuv></tu>
+    <tu tuid="lokalise:8123039395"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::inverting</prop><prop type="lokalise-key-id">828725952</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Inverting</seg></tuv><tuv xml:lang="sv"><seg>Växelriktning</seg></tuv></tu>
+    <tu tuid="lokalise:8123039331"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::float</prop><prop type="lokalise-key-id">828725951</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Float</seg></tuv><tuv xml:lang="sv"><seg>Underhållsladdning</seg></tuv></tu>
+    <tu tuid="lokalise:8123039267"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::fault</prop><prop type="lokalise-key-id">828725950</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Fault</seg></tuv><tuv xml:lang="sv"><seg>Fel</seg></tuv></tu>
+    <tu tuid="lokalise:8123039203"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::external_control</prop><prop type="lokalise-key-id">828725949</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>External control</seg></tuv><tuv xml:lang="sv"><seg>Extern styrning</seg></tuv></tu>
+    <tu tuid="lokalise:8123039139"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::equalize</prop><prop type="lokalise-key-id">828725948</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Equalize</seg></tuv><tuv xml:lang="sv"><seg>Utjämningsladdning</seg></tuv></tu>
+    <tu tuid="lokalise:8123039075"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::discharging</prop><prop type="lokalise-key-id">828725947</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Discharging</seg></tuv><tuv xml:lang="sv"><seg>Laddar ur</seg></tuv></tu>
+    <tu tuid="lokalise:8123039011"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::bulk</prop><prop type="lokalise-key-id">828725946</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Bulk</seg></tuv><tuv xml:lang="sv"><seg>Bulkfas</seg></tuv></tu>
+    <tu tuid="lokalise:8123038947"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::battery_safe</prop><prop type="lokalise-key-id">828725945</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Battery Safe</seg></tuv><tuv xml:lang="sv"><seg>Battery Safe</seg></tuv></tu>
+    <tu tuid="lokalise:8123038883"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::auto_equalize</prop><prop type="lokalise-key-id">828725944</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Auto equalize / recondition</seg></tuv><tuv xml:lang="sv"><seg>Automatisk utjämning/rekonditionering</seg></tuv></tu>
+    <tu tuid="lokalise:8123038819"><prop type="source">component::victron_gx::entity::sensor::charger_state::state::absorption</prop><prop type="lokalise-key-id">828725943</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Absorption</seg></tuv><tuv xml:lang="sv"><seg>Absorption</seg></tuv></tu>
+    <tu tuid="lokalise:8123038755"><prop type="source">component::victron_gx::entity::sensor::charger_state::name</prop><prop type="lokalise-key-id">828725942</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>State</seg></tuv><tuv xml:lang="sv"><seg>Tillstånd</seg></tuv></tu>
+    <tu tuid="lokalise:8123038691"><prop type="source">component::victron_gx::entity::sensor::charger_nr_of_outputs::unit_of_measurement</prop><prop type="lokalise-key-id">828725941</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>outputs</seg></tuv><tuv xml:lang="sv"><seg>utgångar</seg></tuv></tu>
+    <tu tuid="lokalise:8123038627"><prop type="source">component::victron_gx::entity::sensor::charger_nr_of_outputs::name</prop><prop type="lokalise-key-id">828725940</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Number of outputs</seg></tuv><tuv xml:lang="sv"><seg>Antal utgångar</seg></tuv></tu>
+    <tu tuid="lokalise:8123038563"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::user_settings_invalid</prop><prop type="lokalise-key-id">828725939</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>User settings invalid</seg></tuv><tuv xml:lang="sv"><seg>Ogiltiga användarinställningar</seg></tuv></tu>
+    <tu tuid="lokalise:8123038499"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::terminals_overheated</prop><prop type="lokalise-key-id">828725938</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Terminals overheated</seg></tuv><tuv xml:lang="sv"><seg>Anslutningarna är överhettade</seg></tuv></tu>
+    <tu tuid="lokalise:8123038435"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::synchronized_charging_config_issue</prop><prop type="lokalise-key-id">828725937</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Synchronized charging config issue</seg></tuv><tuv xml:lang="sv"><seg>Problem med konfigurationen för synkroniserad laddning</seg></tuv></tu>
+    <tu tuid="lokalise:8123038371"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::no_error</prop><prop type="lokalise-key-id">828725936</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>No error</seg></tuv><tuv xml:lang="sv"><seg>Inget fel</seg></tuv></tu>
+    <tu tuid="lokalise:8123038307"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::network_misconfigured</prop><prop type="lokalise-key-id">828725935</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Network misconfigured</seg></tuv><tuv xml:lang="sv"><seg>Nätverket är felkonfigurerat</seg></tuv></tu>
+    <tu tuid="lokalise:8123038243"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::lost_communication_with_device</prop><prop type="lokalise-key-id">828725934</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Lost communication with device</seg></tuv><tuv xml:lang="sv"><seg>Kommunikationen med enheten har brutits</seg></tuv></tu>
+    <tu tuid="lokalise:8123038179"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::invalid_incompatible_firmware</prop><prop type="lokalise-key-id">828725933</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Invalid/incompatible firmware</seg></tuv><tuv xml:lang="sv"><seg>Ogiltig/inkompatibel firmware</seg></tuv></tu>
+    <tu tuid="lokalise:8123038115"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::input_voltage_too_high</prop><prop type="lokalise-key-id">828725932</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Input voltage too high (solar panel)</seg></tuv><tuv xml:lang="sv"><seg>För hög ingångsspänning (solpanel)</seg></tuv></tu>
+    <tu tuid="lokalise:8123038051"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::input_shutdown_reverse_current</prop><prop type="lokalise-key-id">828725931</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Input shutdown (reverse current)</seg></tuv><tuv xml:lang="sv"><seg>Ingången stängdes av på grund av omvänt strömflöde</seg></tuv></tu>
+    <tu tuid="lokalise:8123037987"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::input_shutdown_battery_voltage_too_high</prop><prop type="lokalise-key-id">828725930</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Input shutdown (battery voltage too high)</seg></tuv><tuv xml:lang="sv"><seg>Ingången stängdes av eftersom batterispänningen är för hög</seg></tuv></tu>
+    <tu tuid="lokalise:8123037923"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::input_current_too_high</prop><prop type="lokalise-key-id">828725929</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Input current too high (solar panel)</seg></tuv><tuv xml:lang="sv"><seg>För hög ingångsström (solpanel)</seg></tuv></tu>
+    <tu tuid="lokalise:8123037859"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::factory_calibration_data_lost</prop><prop type="lokalise-key-id">828725928</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Factory calibration data lost</seg></tuv><tuv xml:lang="sv"><seg>Fabrikens kalibreringsdata har gått förlorade</seg></tuv></tu>
+    <tu tuid="lokalise:8123037795"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::current_sensor_issue</prop><prop type="lokalise-key-id">828725927</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Current sensor issue</seg></tuv><tuv xml:lang="sv"><seg>Problem med strömsensorn</seg></tuv></tu>
+    <tu tuid="lokalise:8123037731"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::converter_issue</prop><prop type="lokalise-key-id">828725926</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Converter issue</seg></tuv><tuv xml:lang="sv"><seg>Problem med omvandlaren</seg></tuv></tu>
+    <tu tuid="lokalise:8123037603"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::charger_over_current</prop><prop type="lokalise-key-id">828725924</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Charger over current</seg></tuv><tuv xml:lang="sv"><seg>Överström i laddaren</seg></tuv></tu>
+    <tu tuid="lokalise:8123037539"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::charger_current_reversed</prop><prop type="lokalise-key-id">828725923</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Charger current reversed</seg></tuv><tuv xml:lang="sv"><seg>Omvänt strömflöde genom laddaren</seg></tuv></tu>
+    <tu tuid="lokalise:8123037475"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::bulk_time_limit_exceeded</prop><prop type="lokalise-key-id">828725922</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Bulk time limit exceeded</seg></tuv><tuv xml:lang="sv"><seg>Tidsgränsen för bulkladdning har överskridits</seg></tuv></tu>
+    <tu tuid="lokalise:8123037411"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::state::bms_connection_lost</prop><prop type="lokalise-key-id">828725921</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>BMS connection lost</seg></tuv><tuv xml:lang="sv"><seg>Anslutningen till BMS har brutits</seg></tuv></tu>
+    <tu tuid="lokalise:8123037283"><prop type="source">component::victron_gx::entity::sensor::charger_error_code::name</prop><prop type="lokalise-key-id">828725919</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Error code</seg></tuv><tuv xml:lang="sv"><seg>Felkod</seg></tuv></tu>
+    <tu tuid="lokalise:8123037219"><prop type="source">component::victron_gx::entity::sensor::charger_dc_voltage::name</prop><prop type="lokalise-key-id">828725918</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>DC output voltage</seg></tuv><tuv xml:lang="sv"><seg>DC-utgångsspänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123037155"><prop type="source">component::victron_gx::entity::sensor::charger_dc_current::name</prop><prop type="lokalise-key-id">828725917</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>DC output current</seg></tuv><tuv xml:lang="sv"><seg>DC-utgångsström</seg></tuv></tu>
+    <tu tuid="lokalise:8123037091"><prop type="source">component::victron_gx::entity::sensor::charge_mode::name</prop><prop type="lokalise-key-id">828725916</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Charge mode</seg></tuv><tuv xml:lang="sv"><seg>Laddningsläge</seg></tuv></tu>
+    <tu tuid="lokalise:8123037027"><prop type="source">component::victron_gx::entity::sensor::battery_voltage::name</prop><prop type="lokalise-key-id">828725915</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>DC bus voltage</seg></tuv><tuv xml:lang="sv"><seg>DC-busspänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123036963"><prop type="source">component::victron_gx::entity::sensor::battery_total_charge_cycles::unit_of_measurement</prop><prop type="lokalise-key-id">828725914</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>cycles</seg></tuv><tuv xml:lang="sv"><seg>cykler</seg></tuv></tu>
+    <tu tuid="lokalise:8123036899"><prop type="source">component::victron_gx::entity::sensor::battery_total_charge_cycles::name</prop><prop type="lokalise-key-id">828725913</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Total charge cycles</seg></tuv><tuv xml:lang="sv"><seg>Totalt antal laddningscykler</seg></tuv></tu>
+    <tu tuid="lokalise:8123036835"><prop type="source">component::victron_gx::entity::sensor::battery_time_to_go::name</prop><prop type="lokalise-key-id">828725912</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Time to go</seg></tuv><tuv xml:lang="sv"><seg>Tid kvar</seg></tuv></tu>
     <tu tuid="lokalise:8123036771">
       <prop type="source">component::victron_gx::entity::sensor::battery_time_since_last_full_charge::unit_of_measurement</prop>
       <prop type="lokalise-key-id">828725911</prop>
@@ -206263,34 +205236,8 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
         <seg>sekunder</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8123036707">
-      <prop type="source">component::victron_gx::entity::sensor::battery_time_since_last_full_charge::name</prop>
-      <prop type="lokalise-key-id">828725910</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Time since last full charge</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tid sedan senaste fulla laddning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123036643">
-      <prop type="source">component::victron_gx::entity::sensor::battery_temperature::name</prop>
-      <prop type="lokalise-key-id">828725909</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Temperature</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Temperatur</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8123036707"><prop type="source">component::victron_gx::entity::sensor::battery_time_since_last_full_charge::name</prop><prop type="lokalise-key-id">828725910</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Time since last full charge</seg></tuv><tuv xml:lang="sv"><seg>Tid sedan senaste fulla laddning</seg></tuv></tu>
+    <tu tuid="lokalise:8123036643"><prop type="source">component::victron_gx::entity::sensor::battery_temperature::name</prop><prop type="lokalise-key-id">828725909</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Temperature</seg></tuv><tuv xml:lang="sv"><seg>Temperatur</seg></tuv></tu>
     <tu tuid="lokalise:8123036579">
       <prop type="source">component::victron_gx::entity::sensor::battery_soh::unit_of_measurement</prop>
       <prop type="lokalise-key-id">828725908</prop>
@@ -206305,230 +205252,22 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
         <seg>%</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8123036515">
-      <prop type="source">component::victron_gx::entity::sensor::battery_soh::name</prop>
-      <prop type="lokalise-key-id">828725907</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>State of health</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Hälsotillstånd</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123036451">
-      <prop type="source">component::victron_gx::entity::sensor::battery_soc::name</prop>
-      <prop type="lokalise-key-id">828725906</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Charge</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Laddning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123036387">
-      <prop type="source">component::victron_gx::entity::sensor::battery_power::name</prop>
-      <prop type="lokalise-key-id">828725905</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Power</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Effekt</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123036323">
-      <prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_online::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">828725904</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>modules</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>moduler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123036259">
-      <prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_online::name</prop>
-      <prop type="lokalise-key-id">828725903</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Number of modules online</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Antal moduler online</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123036195">
-      <prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_offline::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">828725902</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>modules</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>moduler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123036131">
-      <prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_offline::name</prop>
-      <prop type="lokalise-key-id">828725901</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Number of modules offline</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Antal moduler offline</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123036067">
-      <prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_blocking_discharge::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">828725900</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>modules</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>moduler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123036003">
-      <prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_blocking_discharge::name</prop>
-      <prop type="lokalise-key-id">828725899</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Number of modules blocking discharge</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Antal moduler som blockerar urladdning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123035939">
-      <prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_blocking_charge::unit_of_measurement</prop>
-      <prop type="lokalise-key-id">828725898</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>modules</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>moduler</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123035875">
-      <prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_blocking_charge::name</prop>
-      <prop type="lokalise-key-id">828725897</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Number of modules blocking charge</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Antal moduler som blockerar laddning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123035811">
-      <prop type="source">component::victron_gx::entity::sensor::battery_minimum_voltage::name</prop>
-      <prop type="lokalise-key-id">828725896</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Minimum voltage</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Lägsta spänning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123035747">
-      <prop type="source">component::victron_gx::entity::sensor::battery_min_voltage_cell_id::name</prop>
-      <prop type="lokalise-key-id">828725895</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Minimum voltage cell ID</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Lägsta spänning cell-ID</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123035683">
-      <prop type="source">component::victron_gx::entity::sensor::battery_min_temperature_cell_id::name</prop>
-      <prop type="lokalise-key-id">828725894</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Minimum temperature cell ID</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Lägsta temperatur cell-ID</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123035619">
-      <prop type="source">component::victron_gx::entity::sensor::battery_min_cell_voltage::name</prop>
-      <prop type="lokalise-key-id">828725893</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Minimum cell voltage</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Lägsta cellspänning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123035555">
-      <prop type="source">component::victron_gx::entity::sensor::battery_min_cell_temperature::name</prop>
-      <prop type="lokalise-key-id">828725892</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Minimum cell temperature</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Lägsta celltemperatur</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8123036515"><prop type="source">component::victron_gx::entity::sensor::battery_soh::name</prop><prop type="lokalise-key-id">828725907</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>State of health</seg></tuv><tuv xml:lang="sv"><seg>Hälsotillstånd</seg></tuv></tu>
+    <tu tuid="lokalise:8123036451"><prop type="source">component::victron_gx::entity::sensor::battery_soc::name</prop><prop type="lokalise-key-id">828725906</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Charge</seg></tuv><tuv xml:lang="sv"><seg>Laddningsnivå</seg></tuv></tu>
+    <tu tuid="lokalise:8123036387"><prop type="source">component::victron_gx::entity::sensor::battery_power::name</prop><prop type="lokalise-key-id">828725905</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Power</seg></tuv><tuv xml:lang="sv"><seg>Effekt</seg></tuv></tu>
+    <tu tuid="lokalise:8123036323"><prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_online::unit_of_measurement</prop><prop type="lokalise-key-id">828725904</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>modules</seg></tuv><tuv xml:lang="sv"><seg>moduler</seg></tuv></tu>
+    <tu tuid="lokalise:8123036259"><prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_online::name</prop><prop type="lokalise-key-id">828725903</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Number of modules online</seg></tuv><tuv xml:lang="sv"><seg>Antal anslutna moduler</seg></tuv></tu>
+    <tu tuid="lokalise:8123036195"><prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_offline::unit_of_measurement</prop><prop type="lokalise-key-id">828725902</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>modules</seg></tuv><tuv xml:lang="sv"><seg>moduler</seg></tuv></tu>
+    <tu tuid="lokalise:8123036131"><prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_offline::name</prop><prop type="lokalise-key-id">828725901</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Number of modules offline</seg></tuv><tuv xml:lang="sv"><seg>Antal moduler som inte är anslutna</seg></tuv></tu>
+    <tu tuid="lokalise:8123036067"><prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_blocking_discharge::unit_of_measurement</prop><prop type="lokalise-key-id">828725900</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>modules</seg></tuv><tuv xml:lang="sv"><seg>moduler</seg></tuv></tu>
+    <tu tuid="lokalise:8123036003"><prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_blocking_discharge::name</prop><prop type="lokalise-key-id">828725899</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Number of modules blocking discharge</seg></tuv><tuv xml:lang="sv"><seg>Antal moduler som blockerar urladdning</seg></tuv></tu>
+    <tu tuid="lokalise:8123035939"><prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_blocking_charge::unit_of_measurement</prop><prop type="lokalise-key-id">828725898</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>modules</seg></tuv><tuv xml:lang="sv"><seg>moduler</seg></tuv></tu>
+    <tu tuid="lokalise:8123035875"><prop type="source">component::victron_gx::entity::sensor::battery_nr_modules_blocking_charge::name</prop><prop type="lokalise-key-id">828725897</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Number of modules blocking charge</seg></tuv><tuv xml:lang="sv"><seg>Antal moduler som blockerar laddning</seg></tuv></tu>
+    <tu tuid="lokalise:8123035811"><prop type="source">component::victron_gx::entity::sensor::battery_minimum_voltage::name</prop><prop type="lokalise-key-id">828725896</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Minimum voltage</seg></tuv><tuv xml:lang="sv"><seg>Lägsta spänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123035747"><prop type="source">component::victron_gx::entity::sensor::battery_min_voltage_cell_id::name</prop><prop type="lokalise-key-id">828725895</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Minimum voltage cell ID</seg></tuv><tuv xml:lang="sv"><seg>ID för cellen med lägst spänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123035683"><prop type="source">component::victron_gx::entity::sensor::battery_min_temperature_cell_id::name</prop><prop type="lokalise-key-id">828725894</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Minimum temperature cell ID</seg></tuv><tuv xml:lang="sv"><seg>ID för cellen med lägst temperatur</seg></tuv></tu>
+    <tu tuid="lokalise:8123035619"><prop type="source">component::victron_gx::entity::sensor::battery_min_cell_voltage::name</prop><prop type="lokalise-key-id">828725893</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Minimum cell voltage</seg></tuv><tuv xml:lang="sv"><seg>Lägsta cellspänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123035555"><prop type="source">component::victron_gx::entity::sensor::battery_min_cell_temperature::name</prop><prop type="lokalise-key-id">828725892</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Minimum cell temperature</seg></tuv><tuv xml:lang="sv"><seg>Lägsta celltemperatur</seg></tuv></tu>
     <tu tuid="lokalise:8123035491">
       <prop type="source">component::victron_gx::entity::sensor::battery_mid_voltage_deviation::unit_of_measurement</prop>
       <prop type="lokalise-key-id">828725891</prop>
@@ -206543,328 +205282,29 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
         <seg>%</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8123035427">
-      <prop type="source">component::victron_gx::entity::sensor::battery_mid_voltage_deviation::name</prop>
-      <prop type="lokalise-key-id">828725890</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>DC bus mid voltage deviation</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>DC-bussens mellanspänning, avvikelse</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123035363">
-      <prop type="source">component::victron_gx::entity::sensor::battery_mid_voltage::name</prop>
-      <prop type="lokalise-key-id">828725889</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>DC bus mid voltage</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>DC-bussens mellanspänning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123035299">
-      <prop type="source">component::victron_gx::entity::sensor::battery_maximum_voltage::name</prop>
-      <prop type="lokalise-key-id">828725888</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Maximum voltage</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Högsta spänning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123035235">
-      <prop type="source">component::victron_gx::entity::sensor::battery_max_voltage_cell_id::name</prop>
-      <prop type="lokalise-key-id">828725887</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Maximum voltage cell ID</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Högsta spänning cell-ID</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123035171">
-      <prop type="source">component::victron_gx::entity::sensor::battery_max_temperature_cell_id::name</prop>
-      <prop type="lokalise-key-id">828725886</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Maximum temperature cell ID</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Högsta temperatur cell-ID</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123035107">
-      <prop type="source">component::victron_gx::entity::sensor::battery_max_discharge_current::name</prop>
-      <prop type="lokalise-key-id">828725885</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Maximum allowed discharge current</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Högsta tillåtna urladdningsström</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123035043">
-      <prop type="source">component::victron_gx::entity::sensor::battery_max_charge_voltage::name</prop>
-      <prop type="lokalise-key-id">828725884</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Maximum allowed charging voltage</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Högsta tillåtna laddningsspänning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034979">
-      <prop type="source">component::victron_gx::entity::sensor::battery_max_charge_current::name</prop>
-      <prop type="lokalise-key-id">828725883</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Maximum allowed charge current</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Högsta tillåtna laddningsström</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034915">
-      <prop type="source">component::victron_gx::entity::sensor::battery_max_cell_voltage::name</prop>
-      <prop type="lokalise-key-id">828725882</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Maximum cell voltage</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Högsta cellspänning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034851">
-      <prop type="source">component::victron_gx::entity::sensor::battery_max_cell_temperature::name</prop>
-      <prop type="lokalise-key-id">828725881</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Maximum cell temperature</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Högsta celltemperatur</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034787">
-      <prop type="source">component::victron_gx::entity::sensor::battery_low_charge_temperature::state::warning</prop>
-      <prop type="lokalise-key-id">828725880</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Warning</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Varning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034723">
-      <prop type="source">component::victron_gx::entity::sensor::battery_low_charge_temperature::state::no_alarm</prop>
-      <prop type="lokalise-key-id">828725879</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>No alarm</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Inget larm</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034659">
-      <prop type="source">component::victron_gx::entity::sensor::battery_low_charge_temperature::state::alarm</prop>
-      <prop type="lokalise-key-id">828725878</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Alarm</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Larm</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034595">
-      <prop type="source">component::victron_gx::entity::sensor::battery_low_charge_temperature::name</prop>
-      <prop type="lokalise-key-id">828725877</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Low charge temperature</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Låg laddningstemperatur</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034531">
-      <prop type="source">component::victron_gx::entity::sensor::battery_low_cell_voltage::state::warning</prop>
-      <prop type="lokalise-key-id">828725876</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Warning</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Varning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034467">
-      <prop type="source">component::victron_gx::entity::sensor::battery_low_cell_voltage::state::no_alarm</prop>
-      <prop type="lokalise-key-id">828725875</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>No alarm</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Inget larm</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034403">
-      <prop type="source">component::victron_gx::entity::sensor::battery_low_cell_voltage::state::alarm</prop>
-      <prop type="lokalise-key-id">828725874</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Alarm</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Larm</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034339">
-      <prop type="source">component::victron_gx::entity::sensor::battery_low_cell_voltage::name</prop>
-      <prop type="lokalise-key-id">828725873</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Low cell voltage</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Låg cellspänning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034275">
-      <prop type="source">component::victron_gx::entity::sensor::battery_last_discharge::name</prop>
-      <prop type="lokalise-key-id">828725872</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Last discharge</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Senaste urladdning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034211">
-      <prop type="source">component::victron_gx::entity::sensor::battery_internal_failure::state::warning</prop>
-      <prop type="lokalise-key-id">828725871</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Warning</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Varning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034147">
-      <prop type="source">component::victron_gx::entity::sensor::battery_internal_failure::state::no_alarm</prop>
-      <prop type="lokalise-key-id">828725870</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>No alarm</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Inget larm</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034083">
-      <prop type="source">component::victron_gx::entity::sensor::battery_internal_failure::state::alarm</prop>
-      <prop type="lokalise-key-id">828725869</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Alarm</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Larm</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123034019">
-      <prop type="source">component::victron_gx::entity::sensor::battery_internal_failure::name</prop>
-      <prop type="lokalise-key-id">828725868</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Internal failure</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Internt fel</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8123035427"><prop type="source">component::victron_gx::entity::sensor::battery_mid_voltage_deviation::name</prop><prop type="lokalise-key-id">828725890</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>DC bus mid voltage deviation</seg></tuv><tuv xml:lang="sv"><seg>Avvikelse i DC-bussens mellanspänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123035363"><prop type="source">component::victron_gx::entity::sensor::battery_mid_voltage::name</prop><prop type="lokalise-key-id">828725889</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>DC bus mid voltage</seg></tuv><tuv xml:lang="sv"><seg>DC-bussens mellanspänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123035299"><prop type="source">component::victron_gx::entity::sensor::battery_maximum_voltage::name</prop><prop type="lokalise-key-id">828725888</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Maximum voltage</seg></tuv><tuv xml:lang="sv"><seg>Högsta spänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123035235"><prop type="source">component::victron_gx::entity::sensor::battery_max_voltage_cell_id::name</prop><prop type="lokalise-key-id">828725887</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Maximum voltage cell ID</seg></tuv><tuv xml:lang="sv"><seg>ID för cellen med högst spänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123035171"><prop type="source">component::victron_gx::entity::sensor::battery_max_temperature_cell_id::name</prop><prop type="lokalise-key-id">828725886</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Maximum temperature cell ID</seg></tuv><tuv xml:lang="sv"><seg>ID för cellen med högst temperatur</seg></tuv></tu>
+    <tu tuid="lokalise:8123035107"><prop type="source">component::victron_gx::entity::sensor::battery_max_discharge_current::name</prop><prop type="lokalise-key-id">828725885</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Maximum allowed discharge current</seg></tuv><tuv xml:lang="sv"><seg>Högsta tillåtna urladdningsström</seg></tuv></tu>
+    <tu tuid="lokalise:8123035043"><prop type="source">component::victron_gx::entity::sensor::battery_max_charge_voltage::name</prop><prop type="lokalise-key-id">828725884</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Maximum allowed charging voltage</seg></tuv><tuv xml:lang="sv"><seg>Högsta tillåtna laddningsspänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123034979"><prop type="source">component::victron_gx::entity::sensor::battery_max_charge_current::name</prop><prop type="lokalise-key-id">828725883</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Maximum allowed charge current</seg></tuv><tuv xml:lang="sv"><seg>Högsta tillåtna laddningsström</seg></tuv></tu>
+    <tu tuid="lokalise:8123034915"><prop type="source">component::victron_gx::entity::sensor::battery_max_cell_voltage::name</prop><prop type="lokalise-key-id">828725882</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Maximum cell voltage</seg></tuv><tuv xml:lang="sv"><seg>Högsta cellspänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123034851"><prop type="source">component::victron_gx::entity::sensor::battery_max_cell_temperature::name</prop><prop type="lokalise-key-id">828725881</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Maximum cell temperature</seg></tuv><tuv xml:lang="sv"><seg>Högsta celltemperatur</seg></tuv></tu>
+    <tu tuid="lokalise:8123034787"><prop type="source">component::victron_gx::entity::sensor::battery_low_charge_temperature::state::warning</prop><prop type="lokalise-key-id">828725880</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Warning</seg></tuv><tuv xml:lang="sv"><seg>Varning</seg></tuv></tu>
+    <tu tuid="lokalise:8123034723"><prop type="source">component::victron_gx::entity::sensor::battery_low_charge_temperature::state::no_alarm</prop><prop type="lokalise-key-id">828725879</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>No alarm</seg></tuv><tuv xml:lang="sv"><seg>Inget larm</seg></tuv></tu>
+    <tu tuid="lokalise:8123034659"><prop type="source">component::victron_gx::entity::sensor::battery_low_charge_temperature::state::alarm</prop><prop type="lokalise-key-id">828725878</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Alarm</seg></tuv><tuv xml:lang="sv"><seg>Larm</seg></tuv></tu>
+    <tu tuid="lokalise:8123034595"><prop type="source">component::victron_gx::entity::sensor::battery_low_charge_temperature::name</prop><prop type="lokalise-key-id">828725877</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Low charge temperature</seg></tuv><tuv xml:lang="sv"><seg>Låg laddningstemperatur</seg></tuv></tu>
+    <tu tuid="lokalise:8123034531"><prop type="source">component::victron_gx::entity::sensor::battery_low_cell_voltage::state::warning</prop><prop type="lokalise-key-id">828725876</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Warning</seg></tuv><tuv xml:lang="sv"><seg>Varning</seg></tuv></tu>
+    <tu tuid="lokalise:8123034467"><prop type="source">component::victron_gx::entity::sensor::battery_low_cell_voltage::state::no_alarm</prop><prop type="lokalise-key-id">828725875</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>No alarm</seg></tuv><tuv xml:lang="sv"><seg>Inget larm</seg></tuv></tu>
+    <tu tuid="lokalise:8123034403"><prop type="source">component::victron_gx::entity::sensor::battery_low_cell_voltage::state::alarm</prop><prop type="lokalise-key-id">828725874</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Alarm</seg></tuv><tuv xml:lang="sv"><seg>Larm</seg></tuv></tu>
+    <tu tuid="lokalise:8123034339"><prop type="source">component::victron_gx::entity::sensor::battery_low_cell_voltage::name</prop><prop type="lokalise-key-id">828725873</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Low cell voltage</seg></tuv><tuv xml:lang="sv"><seg>Låg cellspänning</seg></tuv></tu>
+    <tu tuid="lokalise:8123034275"><prop type="source">component::victron_gx::entity::sensor::battery_last_discharge::name</prop><prop type="lokalise-key-id">828725872</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Last discharge</seg></tuv><tuv xml:lang="sv"><seg>Senaste urladdningen</seg></tuv></tu>
+    <tu tuid="lokalise:8123034211"><prop type="source">component::victron_gx::entity::sensor::battery_internal_failure::state::warning</prop><prop type="lokalise-key-id">828725871</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Warning</seg></tuv><tuv xml:lang="sv"><seg>Varning</seg></tuv></tu>
+    <tu tuid="lokalise:8123034147"><prop type="source">component::victron_gx::entity::sensor::battery_internal_failure::state::no_alarm</prop><prop type="lokalise-key-id">828725870</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>No alarm</seg></tuv><tuv xml:lang="sv"><seg>Inget larm</seg></tuv></tu>
+    <tu tuid="lokalise:8123034083"><prop type="source">component::victron_gx::entity::sensor::battery_internal_failure::state::alarm</prop><prop type="lokalise-key-id">828725869</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Alarm</seg></tuv><tuv xml:lang="sv"><seg>Larm</seg></tuv></tu>
+    <tu tuid="lokalise:8123034019"><prop type="source">component::victron_gx::entity::sensor::battery_internal_failure::name</prop><prop type="lokalise-key-id">828725868</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Internal failure</seg></tuv><tuv xml:lang="sv"><seg>Internt fel</seg></tuv></tu>
     <tu tuid="lokalise:8123033955">
       <prop type="source">component::victron_gx::entity::sensor::battery_installed_capacity::unit_of_measurement</prop>
       <prop type="lokalise-key-id">828725867</prop>
@@ -206879,132 +205319,15 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
         <seg>Ah</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:8123033891">
-      <prop type="source">component::victron_gx::entity::sensor::battery_installed_capacity::name</prop>
-      <prop type="lokalise-key-id">828725866</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Installed capacity</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Installerad kapacitet</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123033827">
-      <prop type="source">component::victron_gx::entity::sensor::battery_high_discharge_current::state::warning</prop>
-      <prop type="lokalise-key-id">828725865</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Warning</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Varning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123033763">
-      <prop type="source">component::victron_gx::entity::sensor::battery_high_discharge_current::state::no_alarm</prop>
-      <prop type="lokalise-key-id">828725864</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>No alarm</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Inget larm</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123033699">
-      <prop type="source">component::victron_gx::entity::sensor::battery_high_discharge_current::state::alarm</prop>
-      <prop type="lokalise-key-id">828725863</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Alarm</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Larm</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123033635">
-      <prop type="source">component::victron_gx::entity::sensor::battery_high_discharge_current::name</prop>
-      <prop type="lokalise-key-id">828725862</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>High discharge current</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Hög urladdningsström</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123033571">
-      <prop type="source">component::victron_gx::entity::sensor::battery_high_charge_temperature::state::warning</prop>
-      <prop type="lokalise-key-id">828725861</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Warning</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Varning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123033507">
-      <prop type="source">component::victron_gx::entity::sensor::battery_high_charge_temperature::state::no_alarm</prop>
-      <prop type="lokalise-key-id">828725860</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>No alarm</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Inget larm</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123033443">
-      <prop type="source">component::victron_gx::entity::sensor::battery_high_charge_temperature::state::alarm</prop>
-      <prop type="lokalise-key-id">828725859</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>Alarm</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Larm</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:8123033379">
-      <prop type="source">component::victron_gx::entity::sensor::battery_high_charge_temperature::name</prop>
-      <prop type="lokalise-key-id">828725858</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
-      <tuv xml:lang="en">
-        <seg>High charge temperature</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Hög laddningstemperatur</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:8123033891"><prop type="source">component::victron_gx::entity::sensor::battery_installed_capacity::name</prop><prop type="lokalise-key-id">828725866</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Installed capacity</seg></tuv><tuv xml:lang="sv"><seg>Installerad kapacitet</seg></tuv></tu>
+    <tu tuid="lokalise:8123033827"><prop type="source">component::victron_gx::entity::sensor::battery_high_discharge_current::state::warning</prop><prop type="lokalise-key-id">828725865</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Warning</seg></tuv><tuv xml:lang="sv"><seg>Varning</seg></tuv></tu>
+    <tu tuid="lokalise:8123033763"><prop type="source">component::victron_gx::entity::sensor::battery_high_discharge_current::state::no_alarm</prop><prop type="lokalise-key-id">828725864</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>No alarm</seg></tuv><tuv xml:lang="sv"><seg>Inget larm</seg></tuv></tu>
+    <tu tuid="lokalise:8123033699"><prop type="source">component::victron_gx::entity::sensor::battery_high_discharge_current::state::alarm</prop><prop type="lokalise-key-id">828725863</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Alarm</seg></tuv><tuv xml:lang="sv"><seg>Larm</seg></tuv></tu>
+    <tu tuid="lokalise:8123033635"><prop type="source">component::victron_gx::entity::sensor::battery_high_discharge_current::name</prop><prop type="lokalise-key-id">828725862</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>High discharge current</seg></tuv><tuv xml:lang="sv"><seg>Hög urladdningsström</seg></tuv></tu>
+    <tu tuid="lokalise:8123033571"><prop type="source">component::victron_gx::entity::sensor::battery_high_charge_temperature::state::warning</prop><prop type="lokalise-key-id">828725861</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Warning</seg></tuv><tuv xml:lang="sv"><seg>Varning</seg></tuv></tu>
+    <tu tuid="lokalise:8123033507"><prop type="source">component::victron_gx::entity::sensor::battery_high_charge_temperature::state::no_alarm</prop><prop type="lokalise-key-id">828725860</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>No alarm</seg></tuv><tuv xml:lang="sv"><seg>Inget larm</seg></tuv></tu>
+    <tu tuid="lokalise:8123033443"><prop type="source">component::victron_gx::entity::sensor::battery_high_charge_temperature::state::alarm</prop><prop type="lokalise-key-id">828725859</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Alarm</seg></tuv><tuv xml:lang="sv"><seg>Larm</seg></tuv></tu>
+    <tu tuid="lokalise:8123033379"><prop type="source">component::victron_gx::entity::sensor::battery_high_charge_temperature::name</prop><prop type="lokalise-key-id">828725858</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + HA Core source/reference review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>High charge temperature</seg></tuv><tuv xml:lang="sv"><seg>Hög laddningstemperatur</seg></tuv></tu>
     <tu tuid="lokalise:8123033315"><prop type="source">component::victron_gx::entity::sensor::battery_high_charge_current::state::warning</prop><prop type="lokalise-key-id">828725857</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Warning</seg></tuv><tuv xml:lang="sv"><seg>Varning</seg></tuv></tu>
     <tu tuid="lokalise:8123033251"><prop type="source">component::victron_gx::entity::sensor::battery_high_charge_current::state::no_alarm</prop><prop type="lokalise-key-id">828725856</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>No alarm</seg></tuv><tuv xml:lang="sv"><seg>Inget larm</seg></tuv></tu>
     <tu tuid="lokalise:8123033187"><prop type="source">component::victron_gx::entity::sensor::battery_high_charge_current::state::alarm</prop><prop type="lokalise-key-id">828725855</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Alarm</seg></tuv><tuv xml:lang="sv"><seg>Larm</seg></tuv></tu>
@@ -207048,7 +205371,7 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
     <tu tuid="lokalise:8123032419"><prop type="source">component::victron_gx::entity::sensor::battery_cell_imbalance::state::no_alarm</prop><prop type="lokalise-key-id">828725843</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>No alarm</seg></tuv><tuv xml:lang="sv"><seg>Inget larm</seg></tuv></tu>
     <tu tuid="lokalise:8123032355"><prop type="source">component::victron_gx::entity::sensor::battery_cell_imbalance::state::alarm</prop><prop type="lokalise-key-id">828725842</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Alarm</seg></tuv><tuv xml:lang="sv"><seg>Larm</seg></tuv></tu>
     <tu tuid="lokalise:8123032291"><prop type="source">component::victron_gx::entity::sensor::battery_cell_imbalance::name</prop><prop type="lokalise-key-id">828725841</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Cell imbalance</seg></tuv><tuv xml:lang="sv"><seg>Obalans mellan celler</seg></tuv></tu>
-    <tu tuid="lokalise:8123032227"><prop type="source">component::victron_gx::entity::sensor::battery_cell_cell_id_voltage::name</prop><prop type="lokalise-key-id">828725840</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Cell {cell_id} voltage</seg></tuv><tuv xml:lang="sv"><seg>Spänning i cell {cell_id}</seg></tuv></tu>
+    <tu tuid="lokalise:8123032227"><prop type="source">component::victron_gx::entity::sensor::battery_cell_cell_id_voltage::name</prop><prop type="lokalise-key-id">828725840</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; prior documented review and Victron terminology review</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Cell {cell_id} voltage</seg></tuv><tuv xml:lang="sv"><seg>Spänning för cell {cell_id}</seg></tuv></tu>
     <tu tuid="lokalise:8123032163">
       <prop type="source">component::victron_gx::entity::sensor::battery_capacity::unit_of_measurement</prop>
       <prop type="lokalise-key-id">828725839</prop>
