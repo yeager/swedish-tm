@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261127T160941Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261127T161822Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -4178,7 +4178,7 @@ Använd ”gsettings help KOMMANDO” för detaljerad hjälp.
     <tu>
       <prop type="project">gnome:glib</prop>
       <tuv xml:lang="en"><seg>Socket I/O timed out</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tidsgräns för in/ut på uttaget överstegs</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tidsgränsen överskreds vid in-/utmatning via uttaget</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:glib</prop>
@@ -52396,7 +52396,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Proxy resolver internal error.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Internt fel i proxyuppslag.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Internt fel i proxylösaren.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
@@ -52406,17 +52406,17 @@ Fel: %s
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Cannot perform blocking operation during TLS handshake</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kan inte utföra blockerande åtgärd under TLS-handskakning</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kan inte utföra en blockerande åtgärd under TLS-handskakningen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Server required TLS certificate</seg></tuv>
-      <tuv xml:lang="sv"><seg>Servern krävde TLS-certifikat</seg></tuv>
+      <tuv xml:lang="sv"><seg>Servern krävde ett TLS-certifikat</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Handshake is not finished, no channel binding information yet</seg></tuv>
-      <tuv xml:lang="sv"><seg>Handskakningen är inte klar, ingen kanalbindningsinformation ännu</seg></tuv>
+      <tuv xml:lang="sv"><seg>Handskakningen är inte klar ännu, så kanalbindningsinformation saknas</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
@@ -52431,67 +52431,67 @@ Fel: %s
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Receive flags are not supported</seg></tuv>
-      <tuv xml:lang="sv"><seg>Mottagningsflaggor stöds inte</seg></tuv>
+      <tuv xml:lang="sv"><seg>Flaggor för mottagning stöds inte</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Send flags are not supported</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sändflaggor stöds inte</seg></tuv>
+      <tuv xml:lang="sv"><seg>Flaggor för sändning stöds inte</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Failed to import PKCS #12: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Misslyckades med att importera PKCS #12: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att importera PKCS #12: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Could not parse DER certificate: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte tolka DER-certifikat: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att tolka DER-certifikatet: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Could not parse PEM certificate: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte tolka PEM-certifikat: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att tolka PEM-certifikatet: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Could not parse DER private key: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte tolka privat DER-nyckel: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att tolka den privata nyckeln i DER-format: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Could not parse PEM private key: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte tolka privat PEM-nyckel: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att tolka den privata nyckeln i PEM-format: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Could not import PKCS #11 certificate URI: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte importera URI för PKCS #11-certifikat: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att importera certifikat-URI:n för PKCS #11: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>No certificate data provided</seg></tuv>
-      <tuv xml:lang="sv"><seg>Inga certifikatdata tillhandahölls</seg></tuv>
+      <tuv xml:lang="sv"><seg>Inga certifikatdata angavs</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Cannot verify peer identity of unexpected type %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kan inte verifiera motpartsidentitet av oväntad typ %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kan inte verifiera motpartsidentitet av den oväntade typen %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Could not create TLS connection:</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte skapa TLS-anslutning:</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att upprätta TLS-anslutningen:</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Could not create TLS connection: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte skapa TLS-anslutning: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att upprätta TLS-anslutningen: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Peer failed to perform TLS handshake: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Motparten misslyckades med att genomföra TLS-handskakning: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Motparten kunde inte utföra TLS-handskakningen: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
@@ -52501,22 +52501,22 @@ Fel: %s
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>TLS connection peer did not send a certificate</seg></tuv>
-      <tuv xml:lang="sv"><seg>TLS-anslutningens motpart sände inte ett certifikat</seg></tuv>
+      <tuv xml:lang="sv"><seg>Motparten i TLS-anslutningen skickade inget certifikat</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Peer sent fatal TLS alert: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Motparten sände ödesdiger TLS-varning: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Motparten skickade en kritisk TLS-varning: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Protocol version downgrade attack detected</seg></tuv>
-      <tuv xml:lang="sv"><seg>Protokollversionsnedgraderingsattack upptäcktes</seg></tuv>
+      <tuv xml:lang="sv"><seg>Attack med nedgradering av protokollversion upptäcktes</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>The operation timed out</seg></tuv>
-      <tuv xml:lang="sv"><seg>Åtgärdens tidsgräns överskreds</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tidsgränsen för åtgärden överskreds</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
@@ -52526,17 +52526,17 @@ Fel: %s
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Error performing TLS handshake</seg></tuv>
-      <tuv xml:lang="sv"><seg>Fel vid genomförande av TLS-handskakning</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fel vid TLS-handskakning</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Empty channel binding data indicates a bug in the TLS library implementation</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tomma kanalbindningsdata indikerar ett fel i TLS-bibliotekets implementation</seg></tuv>
+      <tuv xml:lang="sv"><seg>Avsaknad av kanalbindningsdata tyder på ett fel i TLS-bibliotekets implementation</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Channel binding type is not implemented in the TLS library</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kanalbindningstypen är inte implementerad i TLS-biblioteket</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kanalbindningstypen har inte implementerats i TLS-biblioteket</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
@@ -52546,67 +52546,67 @@ Fel: %s
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Requested channel binding type is not implemented</seg></tuv>
-      <tuv xml:lang="sv"><seg>Begärd kanalbindningstyp är inte implementerad</seg></tuv>
+      <tuv xml:lang="sv"><seg>Den begärda typen av kanalbindning har inte implementerats</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Error reading data from TLS socket</seg></tuv>
-      <tuv xml:lang="sv"><seg>Fel vid läsning av data från TLS-uttag</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fel vid läsning från TLS-uttaget</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Error writing data to TLS socket</seg></tuv>
-      <tuv xml:lang="sv"><seg>Fel vid skrivning av data till TLS-uttag</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fel vid skrivning till TLS-uttaget</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Error performing TLS close: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Fel vid genomförande av TLS-stängning: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fel när TLS-anslutningen skulle stängas: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Failed to allocate credentials: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Misslyckades med att allokera användaruppgifter: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att allokera autentiseringsuppgifterna: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Failed to load system trust store: GnuTLS was not configured with a system trust</seg></tuv>
-      <tuv xml:lang="sv"><seg>Misslyckades med att läsa in systemets trust store: GnuTLS konfigurerades inte med en system trust</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att läsa in systemets certifikatarkiv: GnuTLS har inte konfigurerats med systemets betrodda certifikat</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Failed to load system trust store: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Misslyckades med att läsa in systemets trust store: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att läsa in systemets certifikatarkiv: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>System trust contains zero trusted certificates; please investigate your GnuTLS configuration</seg></tuv>
-      <tuv xml:lang="sv"><seg>System trust innehåller noll betrodda certifikat, undersök din GnuTLS-konfiguration</seg></tuv>
+      <tuv xml:lang="sv"><seg>Systemets certifikatarkiv innehåller inga betrodda certifikat. Kontrollera GnuTLS-konfigurationen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Failed to initialize trust list: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Misslyckades med att initiera trust list: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att initiera den betrodda certifikatlistan: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Failed to populate trust list from %s: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Misslyckades med att fylla trust list från %s: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att fylla den betrodda certifikatlistan från %s: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Certificate has no private key</seg></tuv>
-      <tuv xml:lang="sv"><seg>Certifikatet har ingen privat nyckel</seg></tuv>
+      <tuv xml:lang="sv"><seg>Certifikatet saknar en privat nyckel</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Could not set TLS cipher list: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte ställa in TLS-chifferlista: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kunde inte ställa in TLS-chifferlistan: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Could not set MAX protocol to %d: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte ställa MAX-protokoll till %d: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kunde inte ange MAX-protokollet till %d: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
@@ -52616,12 +52616,12 @@ Fel: %s
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Unacceptable TLS certificate authority</seg></tuv>
-      <tuv xml:lang="sv"><seg>Ej acceptabel utfärdare av TLS-certifikat</seg></tuv>
+      <tuv xml:lang="sv"><seg>TLS-certifikatutfärdaren godtas inte</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Digest too big for RSA key</seg></tuv>
-      <tuv xml:lang="sv"><seg>Sammandrag för stort för RSA-nyckel</seg></tuv>
+      <tuv xml:lang="sv"><seg>Sammandraget är för stort för RSA-nyckeln</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
@@ -52631,7 +52631,7 @@ Fel: %s
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>%s: The connection is broken</seg></tuv>
-      <tuv xml:lang="sv"><seg>%s: Anslutningen är trasig</seg></tuv>
+      <tuv xml:lang="sv"><seg>%s: Anslutningen bröts</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
@@ -52646,22 +52646,22 @@ Fel: %s
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>X.509 Certificate is not available on the connection</seg></tuv>
-      <tuv xml:lang="sv"><seg>X.509-certifikat är inte tillgängligt på anslutningen</seg></tuv>
+      <tuv xml:lang="sv"><seg>X.509-certifikatet saknas i anslutningen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Unable to obtain certificate signature algorithm</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte erhålla signaturalgoritm för certifikat</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att hämta certifikatets signaturalgoritm</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Current X.509 certificate uses unknown or unsupported signature algorithm</seg></tuv>
-      <tuv xml:lang="sv"><seg>Aktuellt X.509-certifikat använder en signaturalgoritm som är okänd eller inte stöds</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det aktuella X.509-certifikatet använder en okänd eller ej stödd signaturalgoritm</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Failed to generate X.509 certificate digest</seg></tuv>
-      <tuv xml:lang="sv"><seg>Misslyckades med att generera X.509-certifikatsammandrag</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att beräkna X.509-certifikatets sammandrag</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
@@ -52671,12 +52671,12 @@ Fel: %s
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Unexpected error while exporting keying data</seg></tuv>
-      <tuv xml:lang="sv"><seg>Oväntat fel vid export av nycklingsdata</seg></tuv>
+      <tuv xml:lang="sv"><seg>Oväntat fel vid export av nyckelmaterial</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Error performing TLS close</seg></tuv>
-      <tuv xml:lang="sv"><seg>Fel vid genomförande av TLS-stängning</seg></tuv>
+      <tuv xml:lang="sv"><seg>Fel när TLS-anslutningen skulle stängas</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
@@ -52691,17 +52691,17 @@ Fel: %s
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Could not get root certificate store</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte erhålla rotcertifikatlagring</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kunde inte hämta rotcertifikatarkivet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Could not get CA certificate store</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte erhålla CA-certifikatlagring</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kunde inte hämta CA-certifikatarkivet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
       <tuv xml:lang="en"><seg>Could not create CA store</seg></tuv>
-      <tuv xml:lang="sv"><seg>Kunde inte skapa CA-lagring</seg></tuv>
+      <tuv xml:lang="sv"><seg>Kunde inte skapa CA-certifikatarkivet</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:etworking-master.sv</prop>
@@ -580851,12 +580851,12 @@ Du kan också installera anslutningsprogrammet manuellt. Se https://gnome.pages.
     <tu>
       <prop type="project">gnome:reviewed/glib-networking/master</prop>
       <tuv xml:lang="en"><seg>There was a problem clearing the chain certificates: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Det uppstod ett problem med att rensa kedjecertifikaten: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att ta bort certifikaten i kedjan: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/glib-networking/master</prop>
       <tuv xml:lang="en"><seg>There was a problem adding the chain certificate: %s</seg></tuv>
-      <tuv xml:lang="sv"><seg>Det uppstod ett problem med att lägga till kedjecertifikatet: %s</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det gick inte att lägga till certifikatet i kedjan: %s</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gnome-applets/master</prop>
