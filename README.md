@@ -222,3 +222,6 @@ GNOME Terminal `master/po` was re-reviewed against its current 506-entry POT on 
 WebKitGTK `main/po` was reviewed against its latest 517-entry POT on 2026-11-28. One fuzzy translation was corrected, 169 additional strings were improved, and all 517 entries are complete. WebKit’s reviewed entries are now in the GNOME TM; the updated TM validates with 137 111 GNOME entries and 762 750 unique pairs across all exports.
 
 Papers `main/po` was reviewed against its 493-entry POT on 2026-11-28. Three empty strings were translated, all 13 fuzzy entries were reviewed (12 corrected and one confirmed without a text change), and 95 other translations were corrected. The current TM validates with 137 111 entries and 762 750 unique pairs across all exports.
+## GNOME a11y terminology update, 2026-11-28
+
+The current GNOME Control Center search-keyword string was corrected in the TM: its 43 English keywords now align one-to-one with 43 Swedish values, and `Accessibility` in the assistive-technology sense uses `Hjälpmedel`. Other current candidates were checked against the latest POT: some matching entries were obsolete, GNOME Maps referred to physical access, and active GNOME Applets entries already used `hjälpmedel`. The correction updates an existing TM pair; overall entry and unique-pair totals are unchanged.
