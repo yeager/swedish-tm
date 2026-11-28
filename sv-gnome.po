@@ -230619,8 +230619,9 @@ msgstr ""
 #. from gnome:goffice
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/goffice/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Default interpolation"
-msgstr "Standardinterpolation"
+msgstr "Standardinterpolering"
 
 #. from gnome:goffice
 msgid "Default type of series line interpolation"
@@ -381037,20 +381038,22 @@ msgid "Tool Options Preferences"
 msgstr "Inställningar för verktygsalternativ"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "This page lets you customize several aspects of the behavior of tools."
-msgstr ""
-"På den här sidan kan du anpassa flera aspekter av verktygens beteende."
+msgstr "På den här sidan kan du anpassa flera delar av verktygens funktion."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Allow editing on non-visible layers"
-msgstr "Tillåt redigering på osynliga lager"
+msgstr "Tillåt redigering av osynliga lager"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "You can edit layers with disabled visibility (the eye icon in the layer "
 "dock)."
 msgstr ""
-"Du kan redigera lager med inaktiverad synlighet (ögonikonen i lagerdockan)."
+"Du kan redigera lager vars synlighet är avstängd (ögonikonen i lagerdockan)."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Save Tool Options On Exit"
@@ -381140,16 +381143,17 @@ msgid "Brush, Dynamics, Pattern, Gradient"
 msgstr "Pensel, dynamik, mönster, gradient"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "You can decide here whether changing the brush etc for one tool should cause"
 " the new item to be used for all tools, or whether each individual tool "
 "(pencil, paintbrush, airbrush, etc) should remember the item that was last "
 "used for it specifically."
 msgstr ""
-"Här kan du välja om en ändring av pensel med mera för ett verktyg ska göra "
-"att det nya objektet används för alla verktyg, eller om varje enskilt "
-"verktyg (penna, pensel, sprutpistol och så vidare) ska komma ihåg det objekt"
-" som senast användes specifikt för det."
+"Här kan du välja om ett byte av pensel och liknande för ett verktyg ska "
+"gälla för alla verktyg, eller om varje verktyg (penna, målarpensel, "
+"färgspruta och så vidare) ska komma ihåg det objekt som senast användes för "
+"just det verktyget."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Move tool"
@@ -724031,3 +724035,59 @@ msgid ""
 msgstr ""
 "Som standard grupperas verktygen. Du kan: <placeholder-1/> Ändringarna "
 "börjar gälla omedelbart."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid "Save tool options on exit"
+msgstr "Spara verktygsalternativ när GIMP avslutas"
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"When enabled, the Tool Options of all tools will be saved when closing "
+"<acronym>GIMP</acronym>."
+msgstr ""
+"När detta är aktiverat sparas alla verktygsalternativ när "
+"<acronym>GIMP</acronym> avslutas."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid "This immediately saves the current Tool Options of all tools."
+msgstr "Då sparas verktygsalternativen för alla verktyg direkt."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid "This resets the Tool Options of all tools to their default values."
+msgstr ""
+"Då återställs verktygsalternativen för alla verktyg till standardvärdena."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"When you scale something, each pixel in the result is calculated by <link "
+"linkend=\"glossary-interpolation\">interpolating</link> several pixels in "
+"the source. This option determines the default interpolation method: it can "
+"always be changed, though, in the Interpolation settings of the Transform "
+"Tool Options."
+msgstr ""
+"När du skalar något beräknas varje bildpunkt i resultatet genom att <link "
+"linkend=\"glossary-interpolation\">interpolera</link> flera bildpunkter i "
+"källbilden. Det här alternativet anger standardmetoden för interpolering: du"
+" kan dock alltid ändra den under Interpolering i verktygsalternativen för "
+"transformeringsverktygen."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"The available interpolation methods are described in detail in the <link "
+"linkend=\"gimp-tool-interpolation-methods\">Interpolation</link> "
+"documentation of the Transform tools."
+msgstr ""
+"De tillgängliga interpoleringsmetoderna beskrivs närmare i dokumentationen "
+"om <link linkend=\"gimp-tool-interpolation-methods\">interpolering</link> "
+"för transformeringsverktygen."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"By default, the <link linkend=\"gimp-tool-move\">Move Tool</link> does not "
+"change which layers or paths are selected. When you enable this setting, the"
+" layer or path you are moving is set as the active layer or path."
+msgstr ""
+"Som standard ändrar <link linkend=\"gimp-tool-"
+"move\">flyttningsverktyget</link> inte vilka lager eller banor som är "
+"markerade. Om du aktiverar den här inställningen blir lagret eller banan du "
+"flyttar aktiv."

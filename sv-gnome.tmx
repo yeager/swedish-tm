@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261128T122559Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261128T123614Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -262176,7 +262176,7 @@ Du borde starta om programmet nu.</seg></tuv>
     <tu>
       <prop type="project">gnome:goffice</prop>
       <tuv xml:lang="en"><seg>Default interpolation</seg></tuv>
-      <tuv xml:lang="sv"><seg>Standardinterpolation</seg></tuv>
+      <tuv xml:lang="sv"><seg>Standardinterpolering</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:goffice</prop>
@@ -434981,17 +434981,17 @@ att deformera bilden</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>This page lets you customize several aspects of the behavior of tools.</seg></tuv>
-      <tuv xml:lang="sv"><seg>På den här sidan kan du anpassa flera aspekter av verktygens beteende.</seg></tuv>
+      <tuv xml:lang="sv"><seg>På den här sidan kan du anpassa flera delar av verktygens funktion.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Allow editing on non-visible layers</seg></tuv>
-      <tuv xml:lang="sv"><seg>Tillåt redigering på osynliga lager</seg></tuv>
+      <tuv xml:lang="sv"><seg>Tillåt redigering av osynliga lager</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>You can edit layers with disabled visibility (the eye icon in the layer dock).</seg></tuv>
-      <tuv xml:lang="sv"><seg>Du kan redigera lager med inaktiverad synlighet (ögonikonen i lagerdockan).</seg></tuv>
+      <tuv xml:lang="sv"><seg>Du kan redigera lager vars synlighet är avstängd (ögonikonen i lagerdockan).</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -435071,7 +435071,7 @@ att deformera bilden</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>You can decide here whether changing the brush etc for one tool should cause the new item to be used for all tools, or whether each individual tool (pencil, paintbrush, airbrush, etc) should remember the item that was last used for it specifically.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Här kan du välja om en ändring av pensel med mera för ett verktyg ska göra att det nya objektet används för alla verktyg, eller om varje enskilt verktyg (penna, pensel, sprutpistol och så vidare) ska komma ihåg det objekt som senast användes specifikt för det.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här kan du välja om ett byte av pensel och liknande för ett verktyg ska gälla för alla verktyg, eller om varje verktyg (penna, målarpensel, färgspruta och så vidare) ska komma ihåg det objekt som senast användes för just det verktyget.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -708563,6 +708563,41 @@ Om du inte har begärt länken kan du bortse från det här meddelandet.
       <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
       <tuv xml:lang="en"><seg>By default, tools are grouped. You can: &lt;placeholder-1/&gt; Changes take effect immediately.</seg></tuv>
       <tuv xml:lang="sv"><seg>Som standard grupperas verktygen. Du kan: &lt;placeholder-1/&gt; Ändringarna börjar gälla omedelbart.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>Save tool options on exit</seg></tuv>
+      <tuv xml:lang="sv"><seg>Spara verktygsalternativ när GIMP avslutas</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>When enabled, the Tool Options of all tools will be saved when closing &lt;acronym&gt;GIMP&lt;/acronym&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När detta är aktiverat sparas alla verktygsalternativ när &lt;acronym&gt;GIMP&lt;/acronym&gt; avslutas.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>This immediately saves the current Tool Options of all tools.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Då sparas verktygsalternativen för alla verktyg direkt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>This resets the Tool Options of all tools to their default values.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Då återställs verktygsalternativen för alla verktyg till standardvärdena.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>When you scale something, each pixel in the result is calculated by &lt;link linkend="glossary-interpolation"&gt;interpolating&lt;/link&gt; several pixels in the source. This option determines the default interpolation method: it can always be changed, though, in the Interpolation settings of the Transform Tool Options.</seg></tuv>
+      <tuv xml:lang="sv"><seg>När du skalar något beräknas varje bildpunkt i resultatet genom att &lt;link linkend="glossary-interpolation"&gt;interpolera&lt;/link&gt; flera bildpunkter i källbilden. Det här alternativet anger standardmetoden för interpolering: du kan dock alltid ändra den under Interpolering i verktygsalternativen för transformeringsverktygen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>The available interpolation methods are described in detail in the &lt;link linkend="gimp-tool-interpolation-methods"&gt;Interpolation&lt;/link&gt; documentation of the Transform tools.</seg></tuv>
+      <tuv xml:lang="sv"><seg>De tillgängliga interpoleringsmetoderna beskrivs närmare i dokumentationen om &lt;link linkend="gimp-tool-interpolation-methods"&gt;interpolering&lt;/link&gt; för transformeringsverktygen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>By default, the &lt;link linkend="gimp-tool-move"&gt;Move Tool&lt;/link&gt; does not change which layers or paths are selected. When you enable this setting, the layer or path you are moving is set as the active layer or path.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Som standard ändrar &lt;link linkend="gimp-tool-move"&gt;flyttningsverktyget&lt;/link&gt; inte vilka lager eller banor som är markerade. Om du aktiverar den här inställningen blir lagret eller banan du flyttar aktiv.</seg></tuv>
     </tu>
   </body>
 </tmx>
