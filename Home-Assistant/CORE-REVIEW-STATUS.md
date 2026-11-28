@@ -1,13 +1,20 @@
 # Home Assistant Core – granskningsstatus
 
-Uppdaterad: 2026-11-27
+Senast uppdaterad: 2026-11-28
+Källrevision: `1d07105b760c73093145526a51758938e87cc658`
+Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-- Senast granskade intervallet: 68 057–68 176 (120/120).
-- Nästa position: 68 177.
-- Kvar enligt aktuell Lokalise-ordning: cirka 9 360 strängar.
-- Batchen: 10 värden ändrade i Lokalise; samtliga API-readback-verifierade.
-- Källstatus: 80 direkta matchningar, 40 referenser till 24 mål; alla referenser matchar. Platshållare 120/120; 0 pluralposter; 0 källfrånvarande nycklar.
-- HA TMX: 36 075 poster; validering godkänd.
-- Hunspell-sv: SmartyPlants, WiZ, Acmeda, Rejseplanen.dk och pollning tillagda; 19/19 tester godkända. Ingen release skapad i dag.
+## Senaste batch: 71 657–71 776
 
-Home Assistant Core-granskningen pågår.
+120 nycklar granskade: 75 direkta och 45 referenser till 28 mål. Alla referenser och platshållare kontrollerade; inga pluraler eller källsaknade nycklar. 13 översättningar sparades och lästes tillbaka via Lokalise API. `svlang skrivregler` och `svlang svengelska` passerade. TMX validerar med 37 765 enheter.
+
+Nästa position: **71 777**. **5 880** positioner återstår i aktuell nyckelinventering; granskningen pågår.
+
+## Öppna uppföljningar
+
+- ABRP `calibrated_ref_cons`: kontrollera leverantörens exakta expansion av `ref_cons` om API-dokumentation klargör termen.
+- Broadlink `Heating`: se föregående batchs referenskontext.
+- Victron `start`-status utan aktiv källa; Alexa äldre nyckel.
+- Govee `Marquee`-leverantörskontext; SOFAR-dubbla mjukstartsetiketter; Teslemetry saknad källtext.
+
+Rapport: `2026-11-28-reviewed-core-71657-71776.md`.
