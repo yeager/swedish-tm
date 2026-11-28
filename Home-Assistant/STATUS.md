@@ -2670,3 +2670,16 @@ Senaste granskade position: **76 336**. Nästa: **76 337**; **1 320 återstår**
 `svlang skrivregler --enable-interpunktion` och `svlang svengelska`: inga fynd. Hunspell-träffar granskades manuellt och gäller platshållare, produktnamn eller tekniska/kodade värden. TM-manifest: 135 ägar- och referensposter; en äldre Shelly-översättning ersattes. TMX verifierad: **41 122 poster**, och manifestets alla 135 EN/SV-par stämmer mot filen.
 
 Senaste granskade position: **76 456**. Nästa: **76 457**; **1 200 återstår** enligt aktuell Core-inventering. Den tidigare uppföljningen av Forecas `icing`-term kvarstår. Granskningen fortsätter.
+
+
+### Fortsättning 2026-11-28 · batch 76 457–76 576
+
+120 poster radgranskades mot Core-källrevision `1d07105b760c73093145526a51758938e87cc658`: 54 direkta källmatchningar och 66 referensägare mot 64 unika mål. Alla 66 referenser matchar; inga tomma strängar, platshållarmissar eller pluralnycklar återstår. Tidigare rapportspår hittades inte för detta nya intervall.
+
+52 strängar i intervallet ändrades och verifierades i Lokalise, inklusive komplettering av samtliga 18 ursprungligen tomma strängar. 14 kanoniska Electrolux-ugnsprogram uppdaterades; deras alias i övre ugnen följde referensändringen och kontrollerades genom API-läsning. Två redan granskade Electrolux-strängar uppdaterades retroaktivt för att bevara officiella produktnamnet Electrolux Group for Developers. Av totalt 82 verifierade poster skrevs 58 direkt och 24 alias matchade efter måländring.
+
+`svlang skrivregler --enable-interpunktion` och `svlang svengelska`: inga fynd. Hunspell-sv flaggade endast produktnamn, platshållare och kod-/API-termer. TM-manifestet innehåller 198 ägar-/målposter; två tidigare TM-värden uppdaterades. TMX validerad: **41 316 poster**, inklusive 231 legacy-nycklar; alla 198 manifestpar matchar filen.
+
+Öppen källuppföljning: Electrolux `CHIPS_AIRFRY` mappas till nyckeln `chips`, men engelska `strings.json`-texten är ”Hamburgers”. Den aktuella översättningen följer källtexten; källmappningen bör korrigeras. Forecas `icing`-term från tidigare batch är också fortsatt osäker eftersom API:t inte definierar undergruppen.
+
+Senaste granskade position: **76 576**. Nästa: **76 577**; **1 080 återstår** i aktuell inventering. Granskningen fortsätter.
