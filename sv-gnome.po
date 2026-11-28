@@ -38250,6 +38250,7 @@ msgstr "Server"
 #. from gnome:reviewed/gcr/main
 #. from gnome:reviewed/calls/main
 #. from gnome:reviewed/gnome-keyring/gnome-51
+#. from gnome:reviewed/calls/gnome-51
 msgid "User ID"
 msgstr "Användar-id"
 
@@ -72309,11 +72310,13 @@ msgstr "Mandala"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help/master/dialogs
+#. from gnome:reviewed/gimp/master
 msgid "Center abscissa"
 msgstr "Mittpunktens x-koordinat"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help/master/dialogs
+#. from gnome:reviewed/gimp/master
 msgid "Center ordinate"
 msgstr "Mittpunktens y-koordinat"
 
@@ -72408,6 +72411,7 @@ msgstr "X-skift mellan rader (bildpunkter)"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help/master/dialogs
+#. from gnome:reviewed/gimp/master
 msgid "Max strokes X"
 msgstr "Max antal penseldrag X"
 
@@ -72417,6 +72421,7 @@ msgstr "Maximalt antal streck på X-axeln"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help/master/dialogs
+#. from gnome:reviewed/gimp/master
 msgid "Max strokes Y"
 msgstr "Max antal penseldrag Y"
 
@@ -74076,6 +74081,7 @@ msgstr "Välj ett ikontema"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help/master/dialogs
+#. from gnome:reviewed/gimp/master
 msgid "Use symbolic icons if available"
 msgstr "Använd symboliska ikoner om de finns"
 
@@ -75255,6 +75261,7 @@ msgstr "Välkommen"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help/master/dialogs
+#. from gnome:reviewed/gimp/master
 msgid "Personalize"
 msgstr "Anpassa"
 
@@ -75264,6 +75271,7 @@ msgstr "Bidra"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help/master/dialogs
+#. from gnome:reviewed/bazaar/main
 msgid "Release Notes"
 msgstr "Versionsinformation"
 
@@ -75321,6 +75329,7 @@ msgstr "Språk för användargränssnitt (kräver omstart)"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help/master/dialogs
+#. from gnome:reviewed/gimp/master
 msgid "Additional Customizations"
 msgstr "Fler anpassningar"
 
@@ -364697,8 +364706,9 @@ msgstr "Lyckades arkivera"
 #. from gnome:reviewed/gitte/main
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/gimp-help/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Show in File Manager"
-msgstr "Visa i filhanterare"
+msgstr "Visa i filhanteraren"
 
 #. from gnome:reviewed/gitte/main
 msgid "Branch “{}” will be permanently deleted."
@@ -379317,6 +379327,7 @@ msgid "The Undo History dialog"
 msgstr "Dialogrutan Ångringshistorik"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "This dialog shows you a list of the actions you have most recently performed"
 " on an image, with a small sketch that attempts to illustrate the changes "
@@ -379325,11 +379336,11 @@ msgid ""
 "GIMP's Undo mechanism and how it works, see the section on <link "
 "linkend=\"gimp-concepts-undo\">Undoing</link>."
 msgstr ""
-"Den här dialogrutan visar en lista över de åtgärder du senast har utfört på "
-"en bild, med en liten skiss som försöker illustrera ändringen som var och en"
-" orsakade. Du kan återgå till valfri punkt i ångringshistoriken genom att "
-"klicka på rätt post i listan. Mer information om GIMP:s ångringsmekanism och"
-" hur den fungerar finns i avsnittet <link linkend=\"gimp-concepts-"
+"Dialogrutan visar vilka åtgärder du senast har utfört på en bild, "
+"tillsammans med en liten skiss som försöker visa resultatet av varje åtgärd."
+" Du kan återställa bilden till vilken punkt som helst i ångringshistoriken "
+"genom att klicka på motsvarande post i listan. Mer information om GIMP:s "
+"ångermekanism finns i avsnittet <link linkend=\"gimp-concepts-"
 "undo\">Ångra</link>."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
@@ -379337,16 +379348,18 @@ msgid "Activating the Dialog"
 msgstr "Aktivera dialogrutan"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "This dialog is a dockable dialog; see the section <xref linkend=\"gimp-"
 "concepts-docks\"/> for help on manipulating it."
 msgstr ""
-"Denna dialogruta är dockningsbar; se avsnittet <xref linkend=\"gimp-"
-"concepts-docks\"/> för hjälp om hur den hanteras."
+"Dialogrutan kan dockas. Läs avsnittet <xref linkend=\"gimp-concepts-"
+"docks\"/> om hur du hanterar dockningar."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "You can access it:"
-msgstr "Du kan öppna den:"
+msgstr "Du kommer åt den via:"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid ""
@@ -379375,30 +379388,34 @@ msgid "Using the Undo History dialog"
 msgstr "Använda dialogrutan Ångringshistorik"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "The most basic thing you can do is to select a point in the Undo History by "
 "clicking on it in the list. You can go back and forth between states in this"
 " way as much as you please, without losing any information or consuming any "
 "resources. In most cases, the changes are very fast."
 msgstr ""
-"Det enklaste du kan göra är att välja en punkt i ångringshistoriken genom "
-"att klicka på den i listan. Du kan växla fram och tillbaka mellan tillstånd "
-"hur mycket du vill utan att förlora information eller använda resurser. I de"
-" flesta fall går ändringarna mycket snabbt."
+"Det enklaste är att klicka på en punkt i ångringshistoriken. Du kan växla "
+"fram och tillbaka mellan tillstånden hur många gånger du vill utan att "
+"förlora information eller förbruka resurser. I de flesta fall går "
+"ändringarna mycket snabbt."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> opens a search "
 "field. See <xref linkend=\"gimp-dock-view-as-list\"/>"
 msgstr ""
-"<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> öppnar ett "
-"sökfält. Se <xref linkend=\"gimp-dock-view-as-list\"/>"
+"Öppna ett sökfält med "
+"<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo>. Se <xref "
+"linkend=\"gimp-dock-view-as-list\"/>."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "At the bottom of the dialog are three buttons:"
 msgstr "Längst ned i dialogrutan finns tre knappar:"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "This button has the same effect as choosing "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Undo</guimenuitem></menuchoice>"
@@ -379406,13 +379423,14 @@ msgid ""
 "<keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo>; it reverts the"
 " image to the next state back in the undo history."
 msgstr ""
-"Knappen har samma effekt som att välja "
+"Den här knappen gör samma sak som "
 "<menuchoice><guimenu>Redigera</guimenu><guimenuitem>Ångra</guimenuitem></menuchoice>"
-" på menyn eller trycka på "
-"<keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo>; den "
-"återställer bilden till föregående tillstånd i ångringshistoriken."
+" på menyn eller kortkommandot "
+"<keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo>. Bilden "
+"återställs då till föregående tillstånd i ångringshistoriken."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "This button has the same effect as choosing "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Redo</guimenuitem></menuchoice>"
@@ -379420,22 +379438,23 @@ msgid ""
 "<keycombo><keycap>Ctrl</keycap><keycap>Y</keycap></keycombo>; it advances "
 "the image to the next state forward in the Undo History."
 msgstr ""
-"Knappen har samma effekt som att välja "
+"Den här knappen gör samma sak som "
 "<menuchoice><guimenu>Redigera</guimenu><guimenuitem>Gör "
-"om</guimenuitem></menuchoice> på menyn eller trycka på "
-"<keycombo><keycap>Ctrl</keycap><keycap>Y</keycap></keycombo>; den flyttar "
-"bilden till nästa tillstånd i ångringshistoriken."
+"om</guimenuitem></menuchoice> på menyn eller kortkommandot "
+"<keycombo><keycap>Ctrl</keycap><keycap>Y</keycap></keycombo>. Bilden förs då"
+" framåt till nästa tillstånd i ångringshistoriken."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "This button removes all contents from the undo history except the current "
 "state. If you press it, you are asked to confirm that you really want to do "
 "this. The only reason for doing it would be if you are very constrained for "
 "memory."
 msgstr ""
-"Knappen tar bort allt innehåll från ångringshistoriken utom det aktuella "
-"tillståndet. När du trycker på den ombeds du bekräfta att du verkligen vill "
-"göra detta. Det enda skälet att göra det är om du har mycket ont om minne."
+"Den här knappen rensar ångringshistoriken och behåller bara det aktuella "
+"tillståndet. Du får bekräfta åtgärden innan den utförs. Rensa historiken om "
+"datorns minne är mycket begränsat."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid ""
@@ -379462,13 +379481,14 @@ msgid "Presets Dialog"
 msgstr "Dialogrutan Förinställningar"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "The Tool Presets Dialog shows a list of all saved tool presets. Clicking on "
 "a preset opens the corresponding tool with its saved presets."
 msgstr ""
-"Dialogrutan Verktygsförinställningar visar en lista över alla sparade "
-"verktygsförinställningar. När du klickar på en förinställning öppnas "
-"motsvarande verktyg med dess sparade inställningar."
+"Dialogrutan Verktygsförinställningar visar alla sparade "
+"verktygsförinställningar. Klicka på en förinställning för att öppna "
+"motsvarande verktyg med de sparade alternativen."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "The Tool Presets Dialog"
@@ -379505,22 +379525,23 @@ msgid "Using the Tool Presets Dialog"
 msgstr "Använda dialogrutan Verktygsförinställningar"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "This dialog comes with a list of predefined presets. Each of them has an "
 "icon representing the tool presets will be applied to and a name."
 msgstr ""
-"Dialogrutan innehåller en lista över fördefinierade förinställningar. Var "
-"och en har en ikon som representerar verktyget som förinställningen "
-"tillämpas på och ett namn."
+"Dialogrutan innehåller en lista med fördefinierade förinställningar. Varje "
+"förinställning har ett namn och en ikon som visar vilket verktyg den gäller."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "Presets can be tagged so that you can arrange presets display as you want. "
 "Please see <xref linkend=\"gimp-tagging\"/> for more information about "
 "tagging."
 msgstr ""
-"Förinställningar kan taggas så att du kan ordna visningen av dem som du "
-"vill. Se <xref linkend=\"gimp-tagging\"/> för mer information om taggning."
+"Du kan förse förinställningarna med taggar och ordna visningen efter "
+"önskemål. Mer information finns i <xref linkend=\"gimp-tagging\"/>."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Double-clicking on a preset icon opens the Tool Preset Editor."
@@ -379529,8 +379550,9 @@ msgstr ""
 "verktygsförinställningar."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Double-clicking on preset name allows you to edit this name."
-msgstr "Dubbelklicka på namnet på en förinställning för att redigera namnet."
+msgstr "Dubbelklicka på namnet för en förinställning om du vill ändra det."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid ""
@@ -379611,34 +379633,38 @@ msgid "At the bottom of the dialog appear four buttons: <placeholder-1/>"
 msgstr "Längst ned i dialogrutan visas fyra knappar: <placeholder-1/>"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "The Tool Presets Dialog Context Menu"
-msgstr "Snabbmenyn för dialogrutan Verktygsförinställningar"
+msgstr "Snabbmenyn i dialogrutan Verktygsförinställningar"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Duplicate Tool Preset"
 msgstr "Duplicera verktygsförinställning"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "<guilabel>Duplicate Tool Preset</guilabel>: this command is always disabled."
 " It is not necessary since, as we saw above, a duplicate is automatically "
 "created when you create a new preset from an existing preset."
 msgstr ""
 "<guilabel>Duplicera verktygsförinställning</guilabel>: kommandot är alltid "
-"inaktiverat. Det behövs inte, eftersom en dubblett automatiskt skapas när du"
-" skapar en ny förinställning från en befintlig, som vi såg ovan."
+"inaktiverat. Det behövs inte eftersom en kopia skapas automatiskt när du "
+"skapar en ny förinställning från en befintlig."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Copy Tool Preset Location"
-msgstr "Kopiera plats för verktygsförinställning"
+msgstr "Kopiera sökväg till verktygsförinställning"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "<guilabel>Copy Tool Preset Location</guilabel> allows you to copy the path "
 "of the selected tool preset to the clipboard."
 msgstr ""
-"<guilabel>Kopiera plats för verktygsförinställning</guilabel> låter dig "
-"kopiera sökvägen till den valda verktygsförinställningen till urklipp."
+"Med <guilabel>Kopiera sökväg till verktygsförinställning</guilabel> kopierar"
+" du sökvägen till den markerade verktygsförinställningen till urklipp."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid ""
@@ -379676,32 +379702,36 @@ msgstr ""
 "Verktygsförinställningar."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "a double-click on a preset icon in the Tool Presets Dialog."
 msgstr ""
-"dubbelklicka på en förinställningsikon i dialogrutan "
+"ett dubbelklick på en förinställningsikon i dialogrutan "
 "Verktygsförinställningar."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "a right-click on a preset in the Tool Presets Dialog to open a context menu "
 "and then click on the <guilabel>Edit Tool Preset</guilabel> command."
 msgstr ""
-"att högerklicka på en förinställning i dialogrutan Verktygsförinställningar "
-"för att öppna en snabbmeny och sedan klicka på kommandot <guilabel>Redigera "
+"ett högerklick på en förinställning i dialogrutan Verktygsförinställningar "
+"för att öppna snabbmenyn. Klicka sedan på kommandot <guilabel>Redigera "
 "verktygsförinställning</guilabel>."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "a click on the <guilabel>Save Tool Preset…</guilabel> button from the <link "
 "linkend=\"gimp-tool-options-dialog\">Tool Options Dialog</link>."
 msgstr ""
-"att klicka på knappen <guilabel>Spara verktygsförinställning…</guilabel> i "
+"ett klick på knappen <guilabel>Spara verktygsförinställning…</guilabel> i "
 "<link linkend=\"gimp-tool-options-dialog\">dialogrutan "
 "Verktygsalternativ</link>."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "You can access this dialog through: <placeholder-1/>"
-msgstr "Du kan öppna dialogrutan genom att: <placeholder-1/>"
+msgstr "Du kan öppna dialogrutan så här: <placeholder-1/>"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Using the Tool Preset Editor"
@@ -418961,8 +418991,9 @@ msgstr ""
 "precis som i listan över dynamikförinställningar."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "The button bar at the bottom offers the following functionality:"
-msgstr "Knappfältet längst ned erbjuder följande funktioner:"
+msgstr "Knappraden längst ned har följande funktioner:"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid ""
@@ -722966,3 +722997,104 @@ msgid ""
 msgstr ""
 "Om du fäller ut det här alternativet kan du välja ett komprimerat filformat "
 "för XCF-filen i listan."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"<placeholder-1/><guilabel>Edit this tool preset</guilabel>: clicking on this"
+" button opens the Tool Preset Editor for the selected preset. The Tool "
+"Preset Editor is described in <xref linkend=\"gimp-tool-preset-editor-"
+"dialog\"/>."
+msgstr ""
+"<placeholder-1/><guilabel>Redigera den här "
+"verktygsförinställningen</guilabel>: klicka på knappen för att öppna "
+"redigeraren för den markerade förinställningen. Mer information finns i "
+"<xref linkend=\"gimp-tool-preset-editor-dialog\"/>."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"<placeholder-1/><guilabel>Create a new tool preset</guilabel>: before "
+"clicking on this button, you can either select an existing preset, or select"
+" a tool in Toolbox, for example the Healing Tool which is not in the presets"
+" list. A new preset is created at the top of the dialog and the Tool Preset "
+"Editor is opened. Please see <xref linkend=\"gimp-tool-preset-editor-"
+"dialog\"/>."
+msgstr ""
+"<placeholder-1/><guilabel>Skapa en ny verktygsförinställning</guilabel>: "
+"innan du klickar på knappen kan du markera en befintlig förinställning eller"
+" välja ett verktyg i verktygslådan, till exempel Läkningsverktyget som inte "
+"finns i listan. En ny förinställning skapas högst upp i dialogrutan och "
+"redigeraren för verktygsförinställningar öppnas. Se <xref linkend=\"gimp-"
+"tool-preset-editor-dialog\"/>."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"<placeholder-1/><guilabel>Save the active tool options to this "
+"preset</guilabel>: this saves the current tool settings to the selected "
+"preset."
+msgstr ""
+"<placeholder-1/><guilabel>Spara de aktiva verktygsalternativen i den här "
+"förinställningen</guilabel>: sparar verktygets aktuella inställningar i den "
+"markerade förinställningen."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"<placeholder-1/><guilabel>Restore this tool preset</guilabel>: this restores"
+" the tool settings to the values saved in the selected preset."
+msgstr ""
+"<placeholder-1/><guilabel>Återställ den här "
+"verktygsförinställningen</guilabel>: återställer verktygsinställningarna "
+"till värdena i den markerade förinställningen."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"<placeholder-1/><guilabel>Delete this tool preset</guilabel>: this deletes "
+"the currently selected preset. Note that this button is disabled for the "
+"default presets that come with GIMP."
+msgstr ""
+"<placeholder-1/><guilabel>Ta bort den här "
+"verktygsförinställningen</guilabel>: tar bort den markerade "
+"förinställningen. Knappen är inaktiverad för standardförinställningarna som "
+"följer med GIMP."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"<placeholder-1/><guilabel>Refresh tool presets</guilabel>: If you have added"
+" a preset manually to the <guilabel>Tool Presets</guilabel> folder "
+"configured in the <link linkend=\"gimp-prefs-folders-tool-presets\">Folders "
+"Preferences</link>, you have to click on this button to include it in the "
+"presets list."
+msgstr ""
+"<placeholder-1/><guilabel>Uppdatera verktygsförinställningar</guilabel>: om "
+"du har lagt till en förinställning manuellt i mappen "
+"<guilabel>Verktygsförinställningar</guilabel> som anges under <link "
+"linkend=\"gimp-prefs-folders-tool-presets\">Mappinställningar</link> måste "
+"du klicka på knappen för att lägga till den i listan."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"The button bar at the bottom offers the following functionality: "
+"<placeholder-1/>"
+msgstr "Knappraden längst ned har följande funktioner: <placeholder-1/>"
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"Right-clicking on the Presets Dialog opens a context menu where you find "
+"some commands already described with buttons: Edit tool preset, New tool "
+"preset, Save tool options to preset, Restore tool preset, Refresh tool "
+"presets. Additional commands are: <placeholder-1/>"
+msgstr ""
+"Högerklicka i dialogrutan Verktygsförinställningar för att öppna en "
+"snabbmeny. Där finns kommandona Redigera verktygsförinställning, Ny "
+"verktygsförinställning, Spara verktygsalternativ i förinställning, Återställ"
+" verktygsförinställning och Uppdatera verktygsförinställningar, som också "
+"finns som knappar. Ytterligare kommandon är: <placeholder-1/>"
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"a click on the <placeholder-1/><guibutton>Edit this tool preset</guibutton> "
+"button in the button bar of the <link linkend=\"gimp-tool-preset-"
+"dialog\">Tool Presets Dialog</link>."
+msgstr ""
+"ett klick på knappen <placeholder-1/><guibutton>Redigera den här "
+"verktygsförinställningen</guibutton> i knappraden i <link linkend=\"gimp-"
+"tool-preset-dialog\">dialogrutan Verktygsförinställningar</link>."
