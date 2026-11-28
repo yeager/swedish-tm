@@ -2661,3 +2661,12 @@ Senaste position: **63 256** av 77 656. Nästa: **63 257**; **14 400 återstår*
 120 poster granskades mot den pinnade Core-källan (`1d07105b760c73093145526a51758938e87cc658`) och tidigare rapporter; granskningsspår hittades för 120/120. Källan matchade direkt för 104 poster; 16 referenser till 12 unika mål kontrollerades och matchar efter ändring. Fyra Lokalise-översättningar sparades och lästes tillbaka: UniFi `Schemaläge` (obefogad `{policy_name}` borttagen), BenQ:s infraröda entitetsbeskrivning synkroniserad med målet, Vicare-pumpens målvärde förtydligat och Forecas API-kvottext förbättrad. Platshållare kontrollerade; inga pluralformer i intervallet. svlang-skrivregler/interpunktion och svengelska: inga fynd. Hunspell-flaggor granskades manuellt och är namn/kod/platshållare. TM-manifestet omfattar 120 ägare och 8 extra referensmål; 5 tidigare TM-värden ersattes. TMX validerad: 41 007 poster.
 
 Senaste granskade position: **76 336**. Nästa: **76 337**; **1 320 återstår** enligt aktuell Core-inventering. Foreca-värdet `icing` från föregående batch är fortfarande en öppen uppföljning eftersom API:t inte definierar den exakta undergruppen. Granskningen fortsätter.
+
+
+### Fortsättning 2026-11-28 · batch 76 337–76 456
+
+120 poster radgranskades mot Core-källrevision `1d07105b760c73093145526a51758938e87cc658` och tidigare rapporter. 100 matchade källtext direkt och 20 var referenser till 16 unika mål; alla referenser matchar efter kontroll. Tidigare rapportspår fanns för 5/120 poster; samtliga övriga kontrollerades som nya källposter. 41 ändringar sparades och lästes tillbaka i Lokalise, varav 19 kompletterar tidigare tomma strängar. Noll tomma översättningar, platshållarfel eller pluralnycklar återstår i intervallet. Korrigeringarna omfattar Shellys ”Unexpected identifier”, Stookwijzers färgkoder, Forecas nederbördssensorer, Teslemetry, tre LiteLLM-referenser, sex Bosch-knappnamn, luftkvalitetsklassen Poor, zonernas närvarodetektering, ElectraSmart och Electrolux-tokenfält.
+
+`svlang skrivregler --enable-interpunktion` och `svlang svengelska`: inga fynd. Hunspell-träffar granskades manuellt och gäller platshållare, produktnamn eller tekniska/kodade värden. TM-manifest: 135 ägar- och referensposter; en äldre Shelly-översättning ersattes. TMX verifierad: **41 122 poster**, och manifestets alla 135 EN/SV-par stämmer mot filen.
+
+Senaste granskade position: **76 456**. Nästa: **76 457**; **1 200 återstår** enligt aktuell Core-inventering. Den tidigare uppföljningen av Forecas `icing`-term kvarstår. Granskningen fortsätter.
