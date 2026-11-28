@@ -225,3 +225,5 @@ Papers `main/po` was reviewed against its 493-entry POT on 2026-11-28. Three emp
 ## GNOME a11y terminology update, 2026-11-28
 
 The current GNOME Control Center search-keyword string was corrected in the TM: its 43 English keywords now align one-to-one with 43 Swedish values, and `Accessibility` in the assistive-technology sense uses `Hjälpmedel`. Other current candidates were checked against the latest POT: some matching entries were obsolete, GNOME Maps referred to physical access, and active GNOME Applets entries already used `hjälpmedel`. The correction updates an existing TM pair; overall entry and unique-pair totals are unchanged.
+
+GNOME Help dialogs batch 12 (2026-11-28) reviewed 39 fuzzy translations against the current POT: all 39 were corrected, with no new empty strings translated. These reviewed terms and strings were imported into the GNOME TM (16 new unique pairs and 23 existing pairs updated). The current repository validates with 137,127 GNOME PO entries, 881,752 entries across exports and 762,767 unique pairs.
