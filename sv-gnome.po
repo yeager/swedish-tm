@@ -74495,8 +74495,9 @@ msgstr "Fönsterhantering"
 #. from gnome:GIMP
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/gimp/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Window Manager Hints"
-msgstr "Antydan för fönsterhanterare"
+msgstr "Anvisningar till fönsterhanteraren"
 
 #. from gnome:GIMP
 msgid "Hint for _docks and toolbox:"
@@ -380879,6 +380880,7 @@ msgid "Window Management Preferences"
 msgstr "Inställningar för fönsterhantering"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "This page lets you customize the way windows are handled in GIMP. You should"
 " note that GIMP does not manipulate windows directly, instead it sends "
@@ -380889,75 +380891,84 @@ msgid ""
 "actually work as described. However, if you are using a modern, standards-"
 "compliant window manager, they ought to."
 msgstr ""
-"På den här sidan kan du anpassa hur fönster hanteras i GIMP. Observera att "
-"GIMP inte hanterar fönster direkt utan skickar begäranden till "
-"fönsterhanteraren, till exempel Windows om du kör Windows eller Mutter i en "
-"standardinstallation av GNOME på Linux. Eftersom det finns många "
-"fönsterhanterare och inte alla fungerar korrekt kan det inte garanteras att "
-"funktionerna som beskrivs här faktiskt fungerar som beskrivet. Med en modern"
-" fönsterhanterare som följer standarder bör de dock göra det."
+"På den här sidan kan du anpassa hur GIMP:s fönster hanteras. GIMP styr inte "
+"fönstren direkt utan skickar begäranden till fönsterhanteraren, till exempel"
+" till Windows om du kör GIMP i Windows eller till Mutter i en vanlig GNOME-"
+"miljö i Linux. Eftersom det finns många fönsterhanterare och alla inte "
+"fungerar korrekt kan vi inte garantera att de beskrivna funktionerna "
+"fungerar som de ska. Om du använder en modern fönsterhanterare som följer "
+"standarder bör de dock fungera."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Window type hints for the toolbox and the docks"
 msgstr "Fönstertypsangivelser för verktygslådan och dockorna"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "The choices you make here determine how the Toolbox, and the docks that hold"
 " dialogs, will be treated. You have three possibilities for them:"
 msgstr ""
-"Valen här avgör hur verktygslådan och dockorna som innehåller dialogrutor "
-"hanteras. Det finns tre alternativ:"
+"Valen här styr hur verktygslådan och dockorna med dialogrutor hanteras. Du "
+"kan välja mellan tre alternativ:"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "If you choose <guilabel>Normal Window</guilabel>, they will be treated like "
 "any other windows."
 msgstr ""
-"Om du väljer <guilabel>Normalt fönster</guilabel> hanteras de som vilka "
-"andra fönster som helst."
+"Om du väljer <guilabel>Vanligt fönster</guilabel> hanteras de som alla andra"
+" fönster."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "If you choose <guilabel>Utility Window</guilabel>, the reduce button in the "
 "title bar is absent and the docks will remain permanently on your screen."
 msgstr ""
-"Om du väljer <guilabel>Verktygsfönster</guilabel> saknas minimeringsknappen "
-"i namnlisten och dockorna stannar permanent på skärmen."
+"Om du väljer <guilabel>Verktygsfönster</guilabel> visas ingen "
+"minimeringsknapp i namnlisten, och dockorna ligger kvar på skärmen hela "
+"tiden."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Utility window title bar"
 msgstr "Namnlist för verktygsfönster"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Normal title bar"
-msgstr "Normal namnlist"
+msgstr "Vanlig namnlist"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "The title bar in a utility window"
 msgstr "Namnlisten i ett verktygsfönster"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "If you choose <guilabel>Keep above</guilabel>, they will be kept in front of"
 " every other window at all times."
 msgstr ""
-"Om du väljer <guilabel>Behåll överst</guilabel> hålls de alltid framför alla"
-" andra fönster."
+"Om du väljer <guilabel>Behåll ovanpå</guilabel> visas fönstren alltid "
+"framför alla andra fönster."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "Note that changes you make here will not take effect until the next time you"
 " start <acronym>GIMP</acronym>."
 msgstr ""
-"Observera att ändringar du gör här inte träder i kraft förrän nästa gång du "
-"startar <acronym>GIMP</acronym>."
+"Observera att ändringarna börjar gälla först nästa gång du startar "
+"<acronym>GIMP</acronym>."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Activate the focused image"
-msgstr "Aktivera bilden med fokus"
+msgstr "Aktivera den fokuserade bilden"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "Normally, when you focus an image window (usually indicated by a change in "
 "the color of the frame), it becomes the <quote>active image</quote> for "
@@ -380967,25 +380978,26 @@ msgid ""
 "may find that it is inconvenient for focused images to automatically become "
 "active, and may be happier if you uncheck this option."
 msgstr ""
-"När du normalt fokuserar ett bildfönster, vilket vanligen markeras genom att"
-" ramens färg ändras, blir det <quote>aktiv bild</quote> i GIMP och därmed "
-"målet för bildrelaterade åtgärder. En del föredrar dock att ställa in sin "
-"fönsterhanterare så att fönstret under muspekaren automatiskt får fokus. Då "
-"kan det vara opraktiskt att fokuserade bilder automatiskt blir aktiva; "
-"avmarkera i så fall alternativet."
+"När ett bildfönster får fokus (vanligen märks det genom att ramens färg "
+"ändras) blir det GIMP:s <quote>aktiva bild</quote> och därmed målet för alla"
+" bildrelaterade åtgärder. En del föredrar dock att ställa in "
+"fönsterhanteraren så att fönstret som pekaren förs in i automatiskt får "
+"fokus. Då kan det vara opraktiskt att bildfönstret automatiskt blir aktivt "
+"när det får fokus. Avmarkera i så fall det här alternativet."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Save window positions on exit"
 msgstr "Spara fönsterpositioner vid avslutning"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "If this option is checked, the next time you start GIMP, you will see the "
 "same set of dialog windows, in the same positions they occupied when you "
 "last exited."
 msgstr ""
-"Om alternativet är markerat visas nästa gång du startar GIMP samma "
-"uppsättning dialogfönster på de positioner de hade när du senast avslutade "
+"Om det här alternativet är markerat visas samma uppsättning dialogfönster "
+"nästa gång du startar GIMP, på samma platser som när du senast avslutade "
 "programmet."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
@@ -380993,29 +381005,32 @@ msgid "Save Window Positions Now"
 msgstr "Spara fönsterpositioner nu"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "This button is only useful if <quote>Save window positions on exit</quote> "
 "is unchecked. It allows you to set up your windows they way you like, click "
 "the button, and then have them come up in that arrangement each time you "
 "start GIMP."
 msgstr ""
-"Den här knappen är endast användbar om <quote>Spara fönsterpositioner vid "
-"avslutning</quote> är avmarkerat. Du kan ordna fönstren som du vill, klicka "
-"på knappen och sedan få samma arrangemang varje gång du startar GIMP."
+"Den här knappen är bara användbar om <quote>Spara fönsterpositioner vid "
+"avslutning</quote> inte är markerat. Ordna fönstren som du vill ha dem och "
+"klicka på knappen. Därefter visas fönstren i samma läge varje gång du "
+"startar GIMP."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Reset Saved Window Positions to Default Values"
 msgstr "Återställ sparade fönsterpositioner till standardvärden"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "If you decide that you are unhappy with the arrangement of windows you have "
 "saved, and would rather go back to the default arrangement than spend time "
 "moving them around, you can do so by pressing this button."
 msgstr ""
-"Om du inte är nöjd med det sparade fönsterarrangemanget och hellre vill gå "
-"tillbaka till standardarrangemanget än lägga tid på att flytta runt fönstren"
-" kan du göra det genom att trycka på den här knappen."
+"Om du inte är nöjd med den sparade fönsterlayouten kan du återställa "
+"standardlayouten med den här knappen, i stället för att flytta runt fönstren"
+" själv."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Tool Options Preferences"
@@ -723925,3 +723940,29 @@ msgid ""
 "Deactivate the Quick Mask using the left-bottom button in the image window."
 msgstr ""
 "Inaktivera snabbmasken med knappen längst ned till vänster i bildfönstret."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"The preferences dialog can be accessed from the main menu, through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt inställningsdialogrutan från huvudmenyn via "
+"<menuchoice><guimenu>Redigera</guimenu><guimenuitem>Inställningar</guimenuitem></menuchoice>."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid "Hint for docks and toolbox"
+msgstr "Anvisning för dockor och verktygslåda"
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid "Open windows on the same monitor they were open before"
+msgstr "Öppna fönster på samma bildskärm som tidigare"
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"When enabled, <acronym>GIMP</acronym> will try to restore windows on the "
+"same monitor they were used previously. When disabled, windows will appear "
+"on the currently used monitor."
+msgstr ""
+"När alternativet är aktiverat försöker <acronym>GIMP</acronym> återställa "
+"fönstren på samma bildskärm som de användes på tidigare. När det är "
+"inaktiverat visas fönstren på den bildskärm som används för närvarande."
