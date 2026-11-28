@@ -29,7 +29,7 @@ GNOME and Translation Project updates.
 
 ## GNOME terminology update, 2026-11-28
 
-The GNOME TM was refreshed from the reviewed archive after a full 72-string review of GNOME Music help on gnome-51. Thirty-one existing translations were corrected; no new translations were needed, and the catalog is complete and fuzzy-free. The review archive includes the original PO, latest POT, reviewed PO, diff and validation report. The refresh also incorporates the GIMP Help terminology correction and complete latest-POT review of the glossary. `Bucket Fill` uses **Fyll** as the UI label and
+The GNOME TM was refreshed from the reviewed archive after a full 72-string review of GNOME Music help on gnome-51. Thirty-one existing translations were corrected; no new translations were needed, and the catalog is complete and fuzzy-free. A 128-string review of the gnome-51 UI then corrected seven existing translations, reusing the recently reviewed 123-key `main` catalog and separately checking five branch-specific keys. The review archive includes the original PO, latest POT, reviewed PO, diff and validation report. The refresh also incorporates the GIMP Help terminology correction and complete latest-POT review of the glossary. `Bucket Fill` uses **Fyll** as the UI label and
 **fyllnadsverktyg** in Swedish prose. The terminology correction covers 29
 entries across five current master and gimp-help-3-0 catalogs (15 unique source
 strings). The Loupe Help review added 66 GNOME TM entries; the 78-string catalog
