@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T12:53:29.670462+00:00",
+  "generated_at": "2026-11-28T13:11:00.845034+00:00",
   "sources": [
     {
       "module": "accerciser",
@@ -89,15 +89,6 @@
       "path": "repo/GNOME-granskning/ashpd/main/demo-client/ashpd.main.demo-client.sv.reviewed.po",
       "sha256": "50a1978b98720724532b26fec1af1d4bb7cd141ca9432d0136ca9c24b106d92a",
       "singular_pairs": 38,
-      "plural_pairs_not_in_compendium": 0
-    },
-    {
-      "module": "at-spi2-core",
-      "branch": "gnome-51",
-      "kind": "Gränssnitt",
-      "path": "repo/GNOME-granskning/at-spi2-core/gnome-51/po/at-spi2-core.gnome-51.sv.reviewed.po",
-      "sha256": "7d26aa0be79307f45c4d065944c8b53897a09ba3a7a86e4b70c6180c92cb16ca",
-      "singular_pairs": 176,
       "plural_pairs_not_in_compendium": 0
     },
     {
@@ -1568,15 +1559,6 @@
       "plural_pairs_not_in_compendium": 6
     },
     {
-      "module": "gnome-control-center",
-      "branch": "main",
-      "kind": "Gränssnitt",
-      "path": "repo/GNOME-granskning/gnome-control-center/main/po/gnome-control-center.main.sv.reviewed.po",
-      "sha256": "7584a597e660f9bd8ab8bf14a159423d6eff7f7bfebe1a71541a9bea771da6db",
-      "singular_pairs": 2123,
-      "plural_pairs_not_in_compendium": 26
-    },
-    {
       "module": "gnome-desktop",
       "branch": "master",
       "kind": "Gränssnitt",
@@ -1719,15 +1701,6 @@
       "sha256": "c76010ff2be4f8440278cc21ed438bcb802b596e52f9758fd4e4561305d74f0b",
       "singular_pairs": 100,
       "plural_pairs_not_in_compendium": 0
-    },
-    {
-      "module": "gnome-maps",
-      "branch": "main",
-      "kind": "Gränssnitt",
-      "path": "repo/GNOME-granskning/gnome-maps/main/po/gnome-maps.main.sv.reviewed.po",
-      "sha256": "9e732c267283ba33c054f7b2bab05a541ff95f77117f4a73c3d34561f4615ac0",
-      "singular_pairs": 548,
-      "plural_pairs_not_in_compendium": 10
     },
     {
       "module": "gnome-menus",
@@ -2169,15 +2142,6 @@
       "sha256": "7ec7d4572b5a10c94f000d7bd686e0576d5754b561a870766c0a42613f9cbb55",
       "singular_pairs": 399,
       "plural_pairs_not_in_compendium": 4
-    },
-    {
-      "module": "gtk",
-      "branch": "main",
-      "kind": "Gränssnitt",
-      "path": "repo/GNOME-granskning/gtk/main/po/gtk.main.sv.reviewed.po",
-      "sha256": "38733a7d8cf998925aed267a2e8f8f2fd666d34e5af39b9c3c772aa1d088544c",
-      "singular_pairs": 1827,
-      "plural_pairs_not_in_compendium": 3
     },
     {
       "module": "gtk-doc",
@@ -3486,9 +3450,9 @@
     }
   ],
   "selection": {
-    "completed_current_branches": 387,
+    "completed_current_branches": 383,
     "all_index_records": 426,
-    "excluded_status_or_branch": 39
+    "excluded_status_or_branch": 43
   },
   "incremental_sources": [
     {
@@ -3672,6 +3636,32 @@
       "pot_sha256": "c5aec982c9e18537036ffab48274bd10e8991e844cda46c00e298bf506665d71",
       "reviewed_batch_file": "reviews/gnome-progress/gimp-help-master-dialogs-2026-11-28-batch-11.po",
       "reviewed_batch_sha256": "1781c75b50424cf54a8ef331a0526aef7dec7f32d740c323ec0d4d69c2cd14fd"
+    },
+    {
+      "module": "gnome-control-center",
+      "branch": "main",
+      "component": "po",
+      "path": "reviews/gnome-progress/gnome-control-center-main-a11y-terminology-2026-11-28.json",
+      "sha256": "464d3e00d64ad26729d44a971102bf80443ae9ee6e0f6d65909ccd1a2d0a032e",
+      "reviewed_pairs": 1,
+      "new_translations": 0,
+      "remaining_untranslated": 31,
+      "pot_sha256": "bc67e3677a3be684b9679f8808d34c703cfe1be1183377d6649ef201ceba5cbb",
+      "reviewed_batch_file": "reviews/gnome-progress/gnome-control-center-main-a11y-terminology-2026-11-28.po",
+      "reviewed_batch_sha256": "c90750e50de34c3c93197225446b79876fc2e12084c67222d1c70edcb5be749f"
+    },
+    {
+      "module": "gnome-maps",
+      "branch": "main",
+      "component": "po",
+      "path": "reviews/gnome-progress/gnome-maps-main-a11y-terminology-2026-11-28.json",
+      "sha256": "0b9c9eaea5b8d24217f64eacfecac3b232d10db15e020ff0b01cadb55ab713b5",
+      "reviewed_pairs": 1,
+      "new_translations": 0,
+      "remaining_untranslated": 26,
+      "pot_sha256": "65105a2be7e7ebacc6e52975c15c86ab5c422eecf0af68f068f48a079aea64b4",
+      "reviewed_batch_file": "reviews/gnome-progress/gnome-maps-main-a11y-terminology-2026-11-28.po",
+      "reviewed_batch_sha256": "dea3b27299aa6680b922e03dfac4b76a4786d28b2d2d3a8f047475a0c0ea062a"
     },
     {
       "module": "gnumeric",
@@ -6520,6 +6510,26 @@
       "entries_already_matching": 23
     },
     {
+      "module": "gnome-control-center",
+      "branch": "main",
+      "component": "po",
+      "batch": "reviews/gnome-progress/gnome-control-center-main-a11y-terminology-2026-11-28.po",
+      "sha256": "c90750e50de34c3c93197225446b79876fc2e12084c67222d1c70edcb5be749f",
+      "entries_added": 0,
+      "entries_updated": 1,
+      "entries_already_matching": 0
+    },
+    {
+      "module": "gnome-maps",
+      "branch": "main",
+      "component": "po",
+      "batch": "reviews/gnome-progress/gnome-maps-main-a11y-terminology-2026-11-28.po",
+      "sha256": "dea3b27299aa6680b922e03dfac4b76a4786d28b2d2d3a8f047475a0c0ea062a",
+      "entries_added": 0,
+      "entries_updated": 0,
+      "entries_already_matching": 1
+    },
+    {
       "module": "gnumeric",
       "branch": "master",
       "component": "help",
@@ -6706,8 +6716,8 @@
       "batch": "reviews/gnome-progress/gnumeric-master-help-2026-11-24-batch.po",
       "sha256": "e594f4592797ea73696554a657099c4e3510fc2e1e9805dac715f24cb0cc35ad",
       "entries_added": 0,
-      "entries_updated": 14,
-      "entries_already_matching": 88
+      "entries_updated": 13,
+      "entries_already_matching": 89
     },
     {
       "module": "gnumeric",
@@ -8601,7 +8611,7 @@
     }
   ],
   "added_singular_pairs": 0,
-  "updated_reviewed_pairs": 4651,
-  "plural_pairs_not_in_context_free_compendium": 818,
+  "updated_reviewed_pairs": 4367,
+  "plural_pairs_not_in_context_free_compendium": 779,
   "note": "Plural pairs remain in their reviewed PO archives. Context overrides keep ambiguous project-specific terms separate in sv-gnome.po; TMX stores project provenance and gettext context metadata."
 }
