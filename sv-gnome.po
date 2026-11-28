@@ -74280,8 +74280,9 @@ msgid "Select Theme"
 msgstr "Välj tema"
 
 #. from gnome:GIMP
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Color scheme variant (if available)"
-msgstr "Färgschemavariant (om tillgänglig)"
+msgstr "Färgvariant (om tillgänglig)"
 
 #. from gnome:GIMP
 msgid "_Override icon sizes set by the theme"
@@ -381670,20 +381671,22 @@ msgid "Using"
 msgstr "Användning"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "This page lets you customize the amount of system memory allocated for "
 "various purposes. It also allows you to set the size of thumbnail files that"
 " GIMP produces."
 msgstr ""
-"På den här sidan kan du anpassa mängden systemminne som tilldelas för olika "
-"ändamål. Här kan du också ange storleken på miniatyrbildsfiler som GIMP "
-"skapar."
+"På den här sidan kan du anpassa hur mycket systemminne som används för olika"
+" ändamål. Du kan också ange storleken på miniatyrbilderna som GIMP skapar."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Minimal number of undo levels"
-msgstr "Minsta antal ångringsnivåer"
+msgstr "Minsta antal ångringssteg"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "GIMP allows you to undo most actions by maintaining an <quote>Undo "
 "History</quote> for each image, for which a certain amount of memory is "
@@ -381692,34 +381695,36 @@ msgid ""
 "specified here. See <xref linkend=\"gimp-concepts-undo\"/> for more "
 "information about GIMP's Undo mechanism."
 msgstr ""
-"GIMP låter dig ångra de flesta åtgärder genom att behålla en "
-"<quote>ångringshistorik</quote> för varje bild, som tilldelas en viss mängd "
-"minne. Oavsett minnesanvändning tillåter GIMP alltid att ett minsta antal av"
-" de senaste åtgärderna ångras; det är antalet som anges här. Se <xref "
-"linkend=\"gimp-concepts-undo\"/> för mer information om GIMP:s "
-"ångringsmekanism."
+"GIMP sparar en <quote>Ångringshistorik</quote> för varje bild så att du kan "
+"ångra de flesta åtgärder. Historiken använder en viss mängd minne. Oavsett "
+"minnesanvändning kan du alltid ångra minst det antal senaste åtgärder som "
+"anges här: Läs mer om hur ångring fungerar i <xref linkend=\"gimp-concepts-"
+"undo\"/>."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Maximum undo memory"
-msgstr "Maximalt ångringsminne"
+msgstr "Maximalt minne för ångring"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "This is the amount of undo memory allocated for each image. If the Undo "
 "History size exceeds this, the oldest points are deleted, unless this would "
 "result in fewer points being present than the minimal number specified "
 "above."
 msgstr ""
-"Detta är mängden ångringsminne som tilldelas för varje bild. Om "
-"ångringshistoriken överskrider detta tas de äldsta punkterna bort, om det "
-"inte skulle innebära att färre punkter än det angivna minimiantalet "
-"återstår."
+"Här anger du hur mycket minne varje bild får använda för att ångra åtgärder."
+" Om historiken överskrider gränsen tas de äldsta stegen bort, så länge det "
+"inte innebär att antalet steg blir lägre än minimivärdet ovan."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Tile cache size"
-msgstr "Storlek på ruta-cache"
+msgstr "Storlek på blockcachen"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "This is the amount of system RAM allocated for GIMP image data. If GIMP "
 "requires more memory than this, it begins to swap to disk, which may in some"
@@ -381728,18 +381733,19 @@ msgid ""
 "linkend=\"gimp-using-setup-tile-cache\">How to Set Your Tile Cache</link> "
 "for more information."
 msgstr ""
-"Detta är mängden system-RAM som tilldelas GIMP:s bilddata. Om GIMP kräver "
-"mer minne än så börjar programmet växla till disk, vilket under vissa "
-"omständigheter kan ge en kraftig prestandaförsämring. Du får möjlighet att "
-"ange värdet när du installerar GIMP, men du kan ändra det här. Se <link "
-"linkend=\"gimp-using-setup-tile-cache\">Hur du anger din ruta-cache</link> "
-"för mer information."
+"Här anger du hur mycket arbetsminne som får användas för bilddata i GIMP. Om"
+" programmet behöver mer minne börjar det växla data till disk, vilket ibland"
+" kan göra det mycket långsammare. Du kan ändra värdet här även om du angav "
+"det när du installerade GIMP. Läs mer i <link linkend=\"gimp-using-setup-"
+"tile-cache\">Ställa in blockcachen</link>."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Maximum new image size"
-msgstr "Maximal storlek på ny bild"
+msgstr "Största storlek för nya bilder"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "This is not a hard constraint: if you try to create a new image larger than "
 "the specified size, you are asked to confirm that you really want to do it. "
@@ -381747,17 +381753,18 @@ msgid ""
 "you intend, which can either crash GIMP or cause it to respond verrrrrrrry "
 "slowwwwwwwwly."
 msgstr ""
-"Detta är ingen strikt begränsning: om du försöker skapa en ny bild som är "
-"större än den angivna storleken ombeds du bekräfta att du verkligen vill "
-"göra det. Detta förhindrar att du av misstag skapar bilder som är mycket "
-"större än avsett, vilket kan få GIMP att krascha eller svara vääääääldigt "
-"låååångsamt."
+"Det här är ingen absolut gräns: om du försöker skapa en bild som är större "
+"än den angivna storleken får du bekräfta att du verkligen vill fortsätta. "
+"Det förhindrar att du av misstag skapar en mycket större bild än tänkt, "
+"vilket kan få GIMP att krascha eller bli väldigt långsamt."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid "Swap compression"
-msgstr "Komprimering av växlingsutrymme"
+msgstr "Växlingskomprimering"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "This sets the compression method used for tile data stored in the swap. "
 "Compression can both reduce the swap size, and increase its speed, by "
@@ -381766,27 +381773,28 @@ msgid ""
 "<guilabel>best compression</guilabel>, or <guilabel>none</guilabel> to "
 "disable compression altogether."
 msgstr ""
-"Detta anger komprimeringsmetoden för rutdata som lagras i växlingsutrymmet. "
-"Komprimering kan både minska växlingsutrymmets storlek och öka hastigheten "
-"genom att minimera in- och utmatning. Värdena är <guilabel>bästa "
-"prestanda</guilabel> (standard), <guilabel>balanserad</guilabel> och "
-"<guilabel>bästa komprimering</guilabel>, eller <guilabel>ingen</guilabel> "
-"för att helt inaktivera komprimering."
+"Här väljer du komprimeringsmetod för blockdata som lagras i "
+"växlingsutrymmet. Komprimering minskar mängden data som behöver läsas och "
+"skrivas, vilket både kan spara utrymme och öka hastigheten. Välj "
+"<guilabel>Bästa prestanda</guilabel> (standard), "
+"<guilabel>Balanserad</guilabel>, <guilabel>Bästa komprimering</guilabel> "
+"eller <guilabel>Ingen</guilabel> för att stänga av komprimeringen."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 msgid "Number of threads to use"
 msgstr "Antal trådar att använda"
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
+#. from gnome:reviewed/gimp-help/master/dialogs
 msgid ""
 "Multi-threading allows making use of multiple cores for processing. Not all "
 "features make use of that for the moment. A point of interest is that multi-"
 "threading happens through GEGL processing, but also in GIMP core itself, for"
 " instance to separate painting from display."
 msgstr ""
-"Flertrådning gör det möjligt att använda flera kärnor för bearbetning. Alla "
-"funktioner använder inte detta ännu. Flertrådning sker både genom GEGL-"
-"bearbetning och i själva GIMP-kärnan, till exempel för att separera målning "
+"Flertrådsbearbetning gör att flera processorkärnor kan användas samtidigt. "
+"Än så länge utnyttjar inte alla funktioner detta. Flertrådsbearbetning sker "
+"både i GEGL och i själva GIMP-kärnan, till exempel för att skilja målning "
 "från visning."
 
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
@@ -726644,3 +726652,84 @@ msgid ""
 msgstr ""
 "Dialogrutan <quote>Samplingspunkter</quote> öppnas inte automatiskt när du "
 "skapar en samplingspunkt."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid "List of available Themes"
+msgstr "Lista över tillgängliga teman"
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"This list shows all themes known to <acronym>GIMP</acronym>. The highlighted"
+" theme is the one that is currently active. To see what another theme looks "
+"like, click on one of the themes in the list. It will update the interface "
+"using the chosen theme as a preview."
+msgstr ""
+"Här visas alla teman som är kända för <acronym>GIMP</acronym>. Det markerade"
+" temat är det som används. Klicka på ett annat tema för att förhandsgranska "
+"hur gränssnittet ser ut med det temat."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"This lists the color scheme variants known to the selected theme. The themes"
+" that come with <acronym>GIMP</acronym> have the following variants: "
+"<guilabel>Light Colors</guilabel>, <guilabel>Middle Gray</guilabel>, "
+"<guilabel>Dark Colors</guilabel> and <guilabel>System Colors</guilabel>."
+msgstr ""
+"Här visas de färgvarianter som finns för det valda temat. Temana som följer "
+"med <acronym>GIMP</acronym> har varianterna: <guilabel>Ljusa "
+"färger</guilabel>, <guilabel>Mellangrå</guilabel>, <guilabel>Mörka "
+"färger</guilabel> och <guilabel>Systemfärger</guilabel>."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"When <guilabel>System Colors</guilabel> is selected, <acronym>GIMP</acronym>"
+" will try to follow your OS theme preference regarding dark mode, if that "
+"setting is available on your system."
+msgstr ""
+"Om <guilabel>Systemfärger</guilabel> är valt försöker "
+"<acronym>GIMP</acronym> följa operativsystemets inställning för mörkt läge, "
+"om den finns."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid "Third-party themes may have other variants, or no variants at all."
+msgstr ""
+"Teman från tredje part kan ha andra färgvarianter eller sakna varianter "
+"helt."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid "Override icon sizes set by the theme"
+msgstr "Åsidosätt temats ikonstorlekar"
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"Each theme sets the sizes of icons used by <acronym>GIMP</acronym>. Enable "
+"this setting to override the size set by the theme, and then adjust the size"
+" slider below it, which can be set to values from <guilabel>Small</guilabel>"
+" to <guilabel>Huge</guilabel>."
+msgstr ""
+"Varje tema anger storleken på ikonerna i <acronym>GIMP</acronym>. Aktivera "
+"den här inställningen för att åsidosätta temats storlek. Justera sedan "
+"storleken med skjutreglaget nedanför, från <guilabel>Liten</guilabel> till "
+"<guilabel>Enorm</guilabel>."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid ""
+"This setting allows you to change the font sizes used in "
+"<acronym>GIMP</acronym>'s interface. It can be adjusted in the range from "
+"50% to 200%."
+msgstr ""
+"Med den här inställningen ändrar du teckenstorleken i "
+"<acronym>GIMP</acronym>s gränssnitt. Storleken kan ställas in från 50 % till"
+" 200 %."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid "Reload Current Theme"
+msgstr "Läs in aktuellt tema igen"
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid "Clicking this button reloads the current theme."
+msgstr "Klicka på den här knappen för att läsa in det aktuella temat igen."
+
+#. from gnome:reviewed/gimp-help/master/dialogs
+msgid "System Resources Preferences"
+msgstr "Inställningar för systemresurser"

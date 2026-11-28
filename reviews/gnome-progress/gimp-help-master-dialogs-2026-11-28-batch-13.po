@@ -1,0 +1,223 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp docs 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-27 23:28+0000\n"
+"PO-Revision-Date: 2026-11-28 16:11+0100\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language-Team: Swedish <sv@li.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/dialogs/prefs-theme.xml:42(term)
+msgid "List of available Themes"
+msgstr "Lista över tillgängliga teman"
+
+#: src/dialogs/prefs-theme.xml:44(para)
+msgid ""
+"This list shows all themes known to <acronym>GIMP</acronym>. The highlighted"
+" theme is the one that is currently active. To see what another theme looks "
+"like, click on one of the themes in the list. It will update the interface "
+"using the chosen theme as a preview."
+msgstr ""
+"Här visas alla teman som är kända för <acronym>GIMP</acronym>. Det markerade"
+" temat är det som används. Klicka på ett annat tema för att förhandsgranska "
+"hur gränssnittet ser ut med det temat."
+
+#: src/dialogs/prefs-theme.xml:54(term)
+msgid "Color scheme variant (if available)"
+msgstr "Färgvariant (om tillgänglig)"
+
+#: src/dialogs/prefs-theme.xml:56(para)
+msgid ""
+"This lists the color scheme variants known to the selected theme. The themes"
+" that come with <acronym>GIMP</acronym> have the following variants: "
+"<guilabel>Light Colors</guilabel>, <guilabel>Middle Gray</guilabel>, "
+"<guilabel>Dark Colors</guilabel> and <guilabel>System Colors</guilabel>."
+msgstr ""
+"Här visas de färgvarianter som finns för det valda temat. Temana som följer "
+"med <acronym>GIMP</acronym> har varianterna: <guilabel>Ljusa "
+"färger</guilabel>, <guilabel>Mellangrå</guilabel>, <guilabel>Mörka "
+"färger</guilabel> och <guilabel>Systemfärger</guilabel>."
+
+#: src/dialogs/prefs-theme.xml:64(para)
+msgid ""
+"When <guilabel>System Colors</guilabel> is selected, <acronym>GIMP</acronym>"
+" will try to follow your OS theme preference regarding dark mode, if that "
+"setting is available on your system."
+msgstr ""
+"Om <guilabel>Systemfärger</guilabel> är valt försöker "
+"<acronym>GIMP</acronym> följa operativsystemets inställning för mörkt läge, "
+"om den finns."
+
+#: src/dialogs/prefs-theme.xml:70(para)
+msgid "Third-party themes may have other variants, or no variants at all."
+msgstr ""
+"Teman från tredje part kan ha andra färgvarianter eller sakna varianter "
+"helt."
+
+#: src/dialogs/prefs-theme.xml:76(term)
+msgid "Override icon sizes set by the theme"
+msgstr "Åsidosätt temats ikonstorlekar"
+
+#: src/dialogs/prefs-theme.xml:78(para)
+msgid ""
+"Each theme sets the sizes of icons used by <acronym>GIMP</acronym>. Enable "
+"this setting to override the size set by the theme, and then adjust the size"
+" slider below it, which can be set to values from <guilabel>Small</guilabel>"
+" to <guilabel>Huge</guilabel>."
+msgstr ""
+"Varje tema anger storleken på ikonerna i <acronym>GIMP</acronym>. Aktivera "
+"den här inställningen för att åsidosätta temats storlek. Justera sedan "
+"storleken med skjutreglaget nedanför, från <guilabel>Liten</guilabel> till "
+"<guilabel>Enorm</guilabel>."
+
+#: src/dialogs/prefs-theme.xml:92(para)
+msgid ""
+"This setting allows you to change the font sizes used in "
+"<acronym>GIMP</acronym>'s interface. It can be adjusted in the range from "
+"50% to 200%."
+msgstr ""
+"Med den här inställningen ändrar du teckenstorleken i "
+"<acronym>GIMP</acronym>s gränssnitt. Storleken kan ställas in från 50 % till"
+" 200 %."
+
+#: src/dialogs/prefs-theme.xml:103(term)
+msgid "Reload Current Theme"
+msgstr "Läs in aktuellt tema igen"
+
+#: src/dialogs/prefs-theme.xml:105(para)
+msgid "Clicking this button reloads the current theme."
+msgstr "Klicka på den här knappen för att läsa in det aktuella temat igen."
+
+#: src/dialogs/prefs-system-resources.xml:8(title)
+#: src/dialogs/prefs-system-resources.xml:12(tertiary)
+#: src/dialogs/prefs-system-resources.xml:15(primary)
+msgid "System Resources"
+msgstr "Systemresurser"
+
+#: src/dialogs/prefs-system-resources.xml:19(title)
+msgid "System Resources Preferences"
+msgstr "Inställningar för systemresurser"
+
+#: src/dialogs/prefs-system-resources.xml:27(para)
+msgid ""
+"This page lets you customize the amount of system memory allocated for "
+"various purposes. It also allows you to set the size of thumbnail files that"
+" GIMP produces."
+msgstr ""
+"På den här sidan kan du anpassa hur mycket systemminne som används för olika"
+" ändamål. Du kan också ange storleken på miniatyrbilderna som GIMP skapar."
+
+#: src/dialogs/prefs-system-resources.xml:47(title)
+msgid "Resource Consumption"
+msgstr "Resursanvändning"
+
+#: src/dialogs/prefs-system-resources.xml:49(term)
+msgid "Minimal number of undo levels"
+msgstr "Minsta antal ångringssteg"
+
+#: src/dialogs/prefs-system-resources.xml:51(para)
+msgid ""
+"GIMP allows you to undo most actions by maintaining an <quote>Undo "
+"History</quote> for each image, for which a certain amount of memory is "
+"allocated. Regardless of memory usage, however, GIMP always permits some "
+"minimal number of the most recent actions to be undone: this is the number "
+"specified here. See <xref linkend=\"gimp-concepts-undo\"/> for more "
+"information about GIMP's Undo mechanism."
+msgstr ""
+"GIMP sparar en <quote>Ångringshistorik</quote> för varje bild så att du kan "
+"ångra de flesta åtgärder. Historiken använder en viss mängd minne. Oavsett "
+"minnesanvändning kan du alltid ångra minst det antal senaste åtgärder som "
+"anges här: Läs mer om hur ångring fungerar i <xref linkend=\"gimp-concepts-"
+"undo\"/>."
+
+#: src/dialogs/prefs-system-resources.xml:64(term)
+msgid "Maximum undo memory"
+msgstr "Maximalt minne för ångring"
+
+#: src/dialogs/prefs-system-resources.xml:66(para)
+msgid ""
+"This is the amount of undo memory allocated for each image. If the Undo "
+"History size exceeds this, the oldest points are deleted, unless this would "
+"result in fewer points being present than the minimal number specified "
+"above."
+msgstr ""
+"Här anger du hur mycket minne varje bild får använda för att ångra åtgärder."
+" Om historiken överskrider gränsen tas de äldsta stegen bort, så länge det "
+"inte innebär att antalet steg blir lägre än minimivärdet ovan."
+
+#: src/dialogs/prefs-system-resources.xml:75(term)
+msgid "Tile cache size"
+msgstr "Storlek på blockcachen"
+
+#: src/dialogs/prefs-system-resources.xml:77(para)
+msgid ""
+"This is the amount of system RAM allocated for GIMP image data. If GIMP "
+"requires more memory than this, it begins to swap to disk, which may in some"
+" circumstances cause a dramatic slowdown. You are given an opportunity to "
+"set this number when you install GIMP, but you can alter it here. See <link "
+"linkend=\"gimp-using-setup-tile-cache\">How to Set Your Tile Cache</link> "
+"for more information."
+msgstr ""
+"Här anger du hur mycket arbetsminne som får användas för bilddata i GIMP. Om"
+" programmet behöver mer minne börjar det växla data till disk, vilket ibland"
+" kan göra det mycket långsammare. Du kan ändra värdet här även om du angav "
+"det när du installerade GIMP. Läs mer i <link linkend=\"gimp-using-setup-"
+"tile-cache\">Ställa in blockcachen</link>."
+
+#: src/dialogs/prefs-system-resources.xml:89(term)
+msgid "Maximum new image size"
+msgstr "Största storlek för nya bilder"
+
+#: src/dialogs/prefs-system-resources.xml:91(para)
+msgid ""
+"This is not a hard constraint: if you try to create a new image larger than "
+"the specified size, you are asked to confirm that you really want to do it. "
+"This is to prevent you from accidentally creating images much larger than "
+"you intend, which can either crash GIMP or cause it to respond verrrrrrrry "
+"slowwwwwwwwly."
+msgstr ""
+"Det här är ingen absolut gräns: om du försöker skapa en bild som är större "
+"än den angivna storleken får du bekräfta att du verkligen vill fortsätta. "
+"Det förhindrar att du av misstag skapar en mycket större bild än tänkt, "
+"vilket kan få GIMP att krascha eller bli väldigt långsamt."
+
+#: src/dialogs/prefs-system-resources.xml:101(term)
+msgid "Swap compression"
+msgstr "Växlingskomprimering"
+
+#: src/dialogs/prefs-system-resources.xml:103(para)
+msgid ""
+"This sets the compression method used for tile data stored in the swap. "
+"Compression can both reduce the swap size, and increase its speed, by "
+"minimizing input and output. Values are <guilabel>best "
+"performance</guilabel> (the default), <guilabel>balanced</guilabel>, and "
+"<guilabel>best compression</guilabel>, or <guilabel>none</guilabel> to "
+"disable compression altogether."
+msgstr ""
+"Här väljer du komprimeringsmetod för blockdata som lagras i "
+"växlingsutrymmet. Komprimering minskar mängden data som behöver läsas och "
+"skrivas, vilket både kan spara utrymme och öka hastigheten. Välj "
+"<guilabel>Bästa prestanda</guilabel> (standard), "
+"<guilabel>Balanserad</guilabel>, <guilabel>Bästa komprimering</guilabel> "
+"eller <guilabel>Ingen</guilabel> för att stänga av komprimeringen."
+
+#: src/dialogs/prefs-system-resources.xml:115(term)
+msgid "Number of threads to use"
+msgstr "Antal trådar att använda"
+
+#: src/dialogs/prefs-system-resources.xml:117(para)
+msgid ""
+"Multi-threading allows making use of multiple cores for processing. Not all "
+"features make use of that for the moment. A point of interest is that multi-"
+"threading happens through GEGL processing, but also in GIMP core itself, for"
+" instance to separate painting from display."
+msgstr ""
+"Flertrådsbearbetning gör att flera processorkärnor kan användas samtidigt. "
+"Än så länge utnyttjar inte alla funktioner detta. Flertrådsbearbetning sker "
+"både i GEGL och i själva GIMP-kärnan, till exempel för att skilja målning "
+"från visning."

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261128T151237Z">
+  <header creationtool="GNOME local review" creationtoolversion="1.0" datatype="PlainText" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX" creationdate="20261128T152419Z">
     <note>Swedish GNOME Translation Memory</note>
   </header>
   <body>
@@ -82273,7 +82273,7 @@ incheckning %s</seg></tuv>
     <tu>
       <prop type="project">gnome:GIMP</prop>
       <tuv xml:lang="en"><seg>Color scheme variant (if available)</seg></tuv>
-      <tuv xml:lang="sv"><seg>Färgschemavariant (om tillgänglig)</seg></tuv>
+      <tuv xml:lang="sv"><seg>Färgvariant (om tillgänglig)</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:GIMP</prop>
@@ -435215,57 +435215,57 @@ att deformera bilden</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>This page lets you customize the amount of system memory allocated for various purposes. It also allows you to set the size of thumbnail files that GIMP produces.</seg></tuv>
-      <tuv xml:lang="sv"><seg>På den här sidan kan du anpassa mängden systemminne som tilldelas för olika ändamål. Här kan du också ange storleken på miniatyrbildsfiler som GIMP skapar.</seg></tuv>
+      <tuv xml:lang="sv"><seg>På den här sidan kan du anpassa hur mycket systemminne som används för olika ändamål. Du kan också ange storleken på miniatyrbilderna som GIMP skapar.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Minimal number of undo levels</seg></tuv>
-      <tuv xml:lang="sv"><seg>Minsta antal ångringsnivåer</seg></tuv>
+      <tuv xml:lang="sv"><seg>Minsta antal ångringssteg</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>GIMP allows you to undo most actions by maintaining an &lt;quote&gt;Undo History&lt;/quote&gt; for each image, for which a certain amount of memory is allocated. Regardless of memory usage, however, GIMP always permits some minimal number of the most recent actions to be undone: this is the number specified here. See &lt;xref linkend="gimp-concepts-undo"/&gt; for more information about GIMP's Undo mechanism.</seg></tuv>
-      <tuv xml:lang="sv"><seg>GIMP låter dig ångra de flesta åtgärder genom att behålla en &lt;quote&gt;ångringshistorik&lt;/quote&gt; för varje bild, som tilldelas en viss mängd minne. Oavsett minnesanvändning tillåter GIMP alltid att ett minsta antal av de senaste åtgärderna ångras; det är antalet som anges här. Se &lt;xref linkend="gimp-concepts-undo"/&gt; för mer information om GIMP:s ångringsmekanism.</seg></tuv>
+      <tuv xml:lang="sv"><seg>GIMP sparar en &lt;quote&gt;Ångringshistorik&lt;/quote&gt; för varje bild så att du kan ångra de flesta åtgärder. Historiken använder en viss mängd minne. Oavsett minnesanvändning kan du alltid ångra minst det antal senaste åtgärder som anges här: Läs mer om hur ångring fungerar i &lt;xref linkend="gimp-concepts-undo"/&gt;.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Maximum undo memory</seg></tuv>
-      <tuv xml:lang="sv"><seg>Maximalt ångringsminne</seg></tuv>
+      <tuv xml:lang="sv"><seg>Maximalt minne för ångring</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>This is the amount of undo memory allocated for each image. If the Undo History size exceeds this, the oldest points are deleted, unless this would result in fewer points being present than the minimal number specified above.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Detta är mängden ångringsminne som tilldelas för varje bild. Om ångringshistoriken överskrider detta tas de äldsta punkterna bort, om det inte skulle innebära att färre punkter än det angivna minimiantalet återstår.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här anger du hur mycket minne varje bild får använda för att ångra åtgärder. Om historiken överskrider gränsen tas de äldsta stegen bort, så länge det inte innebär att antalet steg blir lägre än minimivärdet ovan.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Tile cache size</seg></tuv>
-      <tuv xml:lang="sv"><seg>Storlek på ruta-cache</seg></tuv>
+      <tuv xml:lang="sv"><seg>Storlek på blockcachen</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>This is the amount of system RAM allocated for GIMP image data. If GIMP requires more memory than this, it begins to swap to disk, which may in some circumstances cause a dramatic slowdown. You are given an opportunity to set this number when you install GIMP, but you can alter it here. See &lt;link linkend="gimp-using-setup-tile-cache"&gt;How to Set Your Tile Cache&lt;/link&gt; for more information.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Detta är mängden system-RAM som tilldelas GIMP:s bilddata. Om GIMP kräver mer minne än så börjar programmet växla till disk, vilket under vissa omständigheter kan ge en kraftig prestandaförsämring. Du får möjlighet att ange värdet när du installerar GIMP, men du kan ändra det här. Se &lt;link linkend="gimp-using-setup-tile-cache"&gt;Hur du anger din ruta-cache&lt;/link&gt; för mer information.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här anger du hur mycket arbetsminne som får användas för bilddata i GIMP. Om programmet behöver mer minne börjar det växla data till disk, vilket ibland kan göra det mycket långsammare. Du kan ändra värdet här även om du angav det när du installerade GIMP. Läs mer i &lt;link linkend="gimp-using-setup-tile-cache"&gt;Ställa in blockcachen&lt;/link&gt;.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Maximum new image size</seg></tuv>
-      <tuv xml:lang="sv"><seg>Maximal storlek på ny bild</seg></tuv>
+      <tuv xml:lang="sv"><seg>Största storlek för nya bilder</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>This is not a hard constraint: if you try to create a new image larger than the specified size, you are asked to confirm that you really want to do it. This is to prevent you from accidentally creating images much larger than you intend, which can either crash GIMP or cause it to respond verrrrrrrry slowwwwwwwwly.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Detta är ingen strikt begränsning: om du försöker skapa en ny bild som är större än den angivna storleken ombeds du bekräfta att du verkligen vill göra det. Detta förhindrar att du av misstag skapar bilder som är mycket större än avsett, vilket kan få GIMP att krascha eller svara vääääääldigt låååångsamt.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Det här är ingen absolut gräns: om du försöker skapa en bild som är större än den angivna storleken får du bekräfta att du verkligen vill fortsätta. Det förhindrar att du av misstag skapar en mycket större bild än tänkt, vilket kan få GIMP att krascha eller bli väldigt långsamt.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Swap compression</seg></tuv>
-      <tuv xml:lang="sv"><seg>Komprimering av växlingsutrymme</seg></tuv>
+      <tuv xml:lang="sv"><seg>Växlingskomprimering</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>This sets the compression method used for tile data stored in the swap. Compression can both reduce the swap size, and increase its speed, by minimizing input and output. Values are &lt;guilabel&gt;best performance&lt;/guilabel&gt; (the default), &lt;guilabel&gt;balanced&lt;/guilabel&gt;, and &lt;guilabel&gt;best compression&lt;/guilabel&gt;, or &lt;guilabel&gt;none&lt;/guilabel&gt; to disable compression altogether.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Detta anger komprimeringsmetoden för rutdata som lagras i växlingsutrymmet. Komprimering kan både minska växlingsutrymmets storlek och öka hastigheten genom att minimera in- och utmatning. Värdena är &lt;guilabel&gt;bästa prestanda&lt;/guilabel&gt; (standard), &lt;guilabel&gt;balanserad&lt;/guilabel&gt; och &lt;guilabel&gt;bästa komprimering&lt;/guilabel&gt;, eller &lt;guilabel&gt;ingen&lt;/guilabel&gt; för att helt inaktivera komprimering.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här väljer du komprimeringsmetod för blockdata som lagras i växlingsutrymmet. Komprimering minskar mängden data som behöver läsas och skrivas, vilket både kan spara utrymme och öka hastigheten. Välj &lt;guilabel&gt;Bästa prestanda&lt;/guilabel&gt; (standard), &lt;guilabel&gt;Balanserad&lt;/guilabel&gt;, &lt;guilabel&gt;Bästa komprimering&lt;/guilabel&gt; eller &lt;guilabel&gt;Ingen&lt;/guilabel&gt; för att stänga av komprimeringen.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -435275,7 +435275,7 @@ att deformera bilden</seg></tuv>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
       <tuv xml:lang="en"><seg>Multi-threading allows making use of multiple cores for processing. Not all features make use of that for the moment. A point of interest is that multi-threading happens through GEGL processing, but also in GIMP core itself, for instance to separate painting from display.</seg></tuv>
-      <tuv xml:lang="sv"><seg>Flertrådning gör det möjligt att använda flera kärnor för bearbetning. Alla funktioner använder inte detta ännu. Flertrådning sker både genom GEGL-bearbetning och i själva GIMP-kärnan, till exempel för att separera målning från visning.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Flertrådsbearbetning gör att flera processorkärnor kan användas samtidigt. Än så länge utnyttjar inte alla funktioner detta. Flertrådsbearbetning sker både i GEGL och i själva GIMP-kärnan, till exempel för att skilja målning från visning.</seg></tuv>
     </tu>
     <tu>
       <prop type="project">gnome:reviewed/gimp-help — GIMP User Manual/master</prop>
@@ -711172,6 +711172,61 @@ Om du inte har begärt länken kan du bortse från det här meddelandet.
       <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
       <tuv xml:lang="en"><seg>The &lt;quote&gt;Sample Points&lt;/quote&gt; dialog does not automatically open when you create a sample point.</seg></tuv>
       <tuv xml:lang="sv"><seg>Dialogrutan &lt;quote&gt;Samplingspunkter&lt;/quote&gt; öppnas inte automatiskt när du skapar en samplingspunkt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>List of available Themes</seg></tuv>
+      <tuv xml:lang="sv"><seg>Lista över tillgängliga teman</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>This list shows all themes known to &lt;acronym&gt;GIMP&lt;/acronym&gt;. The highlighted theme is the one that is currently active. To see what another theme looks like, click on one of the themes in the list. It will update the interface using the chosen theme as a preview.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här visas alla teman som är kända för &lt;acronym&gt;GIMP&lt;/acronym&gt;. Det markerade temat är det som används. Klicka på ett annat tema för att förhandsgranska hur gränssnittet ser ut med det temat.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>This lists the color scheme variants known to the selected theme. The themes that come with &lt;acronym&gt;GIMP&lt;/acronym&gt; have the following variants: &lt;guilabel&gt;Light Colors&lt;/guilabel&gt;, &lt;guilabel&gt;Middle Gray&lt;/guilabel&gt;, &lt;guilabel&gt;Dark Colors&lt;/guilabel&gt; and &lt;guilabel&gt;System Colors&lt;/guilabel&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Här visas de färgvarianter som finns för det valda temat. Temana som följer med &lt;acronym&gt;GIMP&lt;/acronym&gt; har varianterna: &lt;guilabel&gt;Ljusa färger&lt;/guilabel&gt;, &lt;guilabel&gt;Mellangrå&lt;/guilabel&gt;, &lt;guilabel&gt;Mörka färger&lt;/guilabel&gt; och &lt;guilabel&gt;Systemfärger&lt;/guilabel&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>When &lt;guilabel&gt;System Colors&lt;/guilabel&gt; is selected, &lt;acronym&gt;GIMP&lt;/acronym&gt; will try to follow your OS theme preference regarding dark mode, if that setting is available on your system.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Om &lt;guilabel&gt;Systemfärger&lt;/guilabel&gt; är valt försöker &lt;acronym&gt;GIMP&lt;/acronym&gt; följa operativsystemets inställning för mörkt läge, om den finns.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>Third-party themes may have other variants, or no variants at all.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Teman från tredje part kan ha andra färgvarianter eller sakna varianter helt.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>Override icon sizes set by the theme</seg></tuv>
+      <tuv xml:lang="sv"><seg>Åsidosätt temats ikonstorlekar</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>Each theme sets the sizes of icons used by &lt;acronym&gt;GIMP&lt;/acronym&gt;. Enable this setting to override the size set by the theme, and then adjust the size slider below it, which can be set to values from &lt;guilabel&gt;Small&lt;/guilabel&gt; to &lt;guilabel&gt;Huge&lt;/guilabel&gt;.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Varje tema anger storleken på ikonerna i &lt;acronym&gt;GIMP&lt;/acronym&gt;. Aktivera den här inställningen för att åsidosätta temats storlek. Justera sedan storleken med skjutreglaget nedanför, från &lt;guilabel&gt;Liten&lt;/guilabel&gt; till &lt;guilabel&gt;Enorm&lt;/guilabel&gt;.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>This setting allows you to change the font sizes used in &lt;acronym&gt;GIMP&lt;/acronym&gt;'s interface. It can be adjusted in the range from 50% to 200%.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Med den här inställningen ändrar du teckenstorleken i &lt;acronym&gt;GIMP&lt;/acronym&gt;s gränssnitt. Storleken kan ställas in från 50 % till 200 %.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>Reload Current Theme</seg></tuv>
+      <tuv xml:lang="sv"><seg>Läs in aktuellt tema igen</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>Clicking this button reloads the current theme.</seg></tuv>
+      <tuv xml:lang="sv"><seg>Klicka på den här knappen för att läsa in det aktuella temat igen.</seg></tuv>
+    </tu>
+    <tu>
+      <prop type="project">gnome:reviewed/gimp-help/master/dialogs</prop>
+      <tuv xml:lang="en"><seg>System Resources Preferences</seg></tuv>
+      <tuv xml:lang="sv"><seg>Inställningar för systemresurser</seg></tuv>
     </tu>
   </body>
 </tmx>
