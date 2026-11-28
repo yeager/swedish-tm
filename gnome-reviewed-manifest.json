@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-28T12:36:14.872292+00:00",
+  "generated_at": "2026-11-28T12:53:29.670462+00:00",
   "sources": [
     {
       "module": "accerciser",
       "branch": "master",
       "kind": "Gränssnitt",
       "path": "repo/GNOME-granskning/accerciser/master/po/accerciser.master.sv.reviewed.po",
-      "sha256": "18340518674875197c835055083dc85d71bc32e6888854804576688f283e5453",
+      "sha256": "1ff37fb88bc48bfca83354e57a293c98390adb282693dd19ecdd3735401cd16d",
       "singular_pairs": 255,
       "plural_pairs_not_in_compendium": 0
     },
@@ -96,7 +96,7 @@
       "branch": "gnome-51",
       "kind": "Gränssnitt",
       "path": "repo/GNOME-granskning/at-spi2-core/gnome-51/po/at-spi2-core.gnome-51.sv.reviewed.po",
-      "sha256": "66a565941306b5cd735c3baa2692db563bb2c47dac021d98e3cb5fa8f22feadc",
+      "sha256": "7d26aa0be79307f45c4d065944c8b53897a09ba3a7a86e4b70c6180c92cb16ca",
       "singular_pairs": 176,
       "plural_pairs_not_in_compendium": 0
     },
@@ -105,7 +105,7 @@
       "branch": "main",
       "kind": "Gränssnitt",
       "path": "repo/GNOME-granskning/at-spi2-core/main/po/at-spi2-core.main.sv.reviewed.po",
-      "sha256": "399e769395ee026d48fef3f66871c47e159825cd59525992162c1e3f95f60f02",
+      "sha256": "9df7e02c8db2c49e4f75d2e8fee87b0b450255d39be990ccebffef07395569ae",
       "singular_pairs": 176,
       "plural_pairs_not_in_compendium": 0
     },
@@ -2175,7 +2175,7 @@
       "branch": "main",
       "kind": "Gränssnitt",
       "path": "repo/GNOME-granskning/gtk/main/po/gtk.main.sv.reviewed.po",
-      "sha256": "ab2e90e580e94211edbee8f1650e9a9bf4049c607be44a1fbb2c4af58d0962d6",
+      "sha256": "38733a7d8cf998925aed267a2e8f8f2fd666d34e5af39b9c3c772aa1d088544c",
       "singular_pairs": 1827,
       "plural_pairs_not_in_compendium": 3
     },
@@ -3491,6 +3491,45 @@
     "excluded_status_or_branch": 39
   },
   "incremental_sources": [
+    {
+      "module": "accerciser",
+      "branch": "master",
+      "component": "po",
+      "path": "reviews/gnome-progress/accerciser-master-a11y-terminology-2026-11-28.json",
+      "sha256": "af2386e2c0a59aad3f20eb88d22374d9c34dc9b1ef84bbf10318dd834d38f5a1",
+      "reviewed_pairs": 14,
+      "new_translations": 0,
+      "remaining_untranslated": 0,
+      "pot_sha256": "e668f020643836329c815b886ed09e588883eaf58daa339384abe72742062e8c",
+      "reviewed_batch_file": "reviews/gnome-progress/accerciser-master-a11y-terminology-2026-11-28.po",
+      "reviewed_batch_sha256": "2a67b245bc2d2590aae0ff11634c3ca61d547815c666cbc4331b6f5ea955ec7d"
+    },
+    {
+      "module": "at-spi2-core",
+      "branch": "gnome-51",
+      "component": "po",
+      "path": "reviews/gnome-progress/at-spi2-core-gnome-51-a11y-terminology-2026-11-28.json",
+      "sha256": "b79787266b3a3250d826b3cf5af18118a8524186061a831cb6f46ed1be85a480",
+      "reviewed_pairs": 23,
+      "new_translations": 0,
+      "remaining_untranslated": 0,
+      "pot_sha256": "a8233c69d5b0f3742f31ca181a21e4859b43dbfaf0e8a0bbaef964a9430ec834",
+      "reviewed_batch_file": "reviews/gnome-progress/at-spi2-core-gnome-51-a11y-terminology-2026-11-28.po",
+      "reviewed_batch_sha256": "cdad08cb47a002249e7e5cedf3f4195c9683212a15e487d1f860aef81042e0a7"
+    },
+    {
+      "module": "at-spi2-core",
+      "branch": "main",
+      "component": "po",
+      "path": "reviews/gnome-progress/at-spi2-core-main-a11y-terminology-2026-11-28.json",
+      "sha256": "debcc22f184189e68eb1ac5489fdd347637d92ed560c01a231ffa4f88beca21a",
+      "reviewed_pairs": 23,
+      "new_translations": 0,
+      "remaining_untranslated": 0,
+      "pot_sha256": "cbb214dadedd1c597a7a0c350af66d9d11ecb92724c8121ed3ab6bc752b5134c",
+      "reviewed_batch_file": "reviews/gnome-progress/at-spi2-core-main-a11y-terminology-2026-11-28.po",
+      "reviewed_batch_sha256": "1ba17d3e90d3078f5e76c0316013f31f55034e0692a0aa2c77aa8ccab797551b"
+    },
     {
       "module": "gimp-help",
       "branch": "master",
@@ -6324,9 +6363,52 @@
       "pot_sha256": "346f58c8dc45cf0fb6eeba59354aaa80c8811472bc94bbd11d97a1b31b89ad8e",
       "reviewed_batch_file": "reviews/gnome-progress/gnumeric-master-help-2026-11-25-batch-99.po",
       "reviewed_batch_sha256": "546c717d0e759729f8214eff140e8ed0fe358a01381c8f893dc81ba7698b1c6c"
+    },
+    {
+      "module": "gtk",
+      "branch": "main",
+      "component": "po",
+      "path": "reviews/gnome-progress/gtk-main-a11y-terminology-2026-11-28.json",
+      "sha256": "2e9733956170a2d357b2b11cacb28c46b8cde2d8d98e13a5c70a03e5405386cc",
+      "reviewed_pairs": 1,
+      "new_translations": 0,
+      "remaining_untranslated": 25,
+      "pot_sha256": "788a9d1775fbba5727a07fb91c43e6e791ec3f481e98ceb1cb4ecee763d68264",
+      "reviewed_batch_file": "reviews/gnome-progress/gtk-main-a11y-terminology-2026-11-28.po",
+      "reviewed_batch_sha256": "12b251acdf93953e91004136a153dc7548e370aad91bafd69b14e707e79a16e2"
     }
   ],
   "progress_import_results": [
+    {
+      "module": "accerciser",
+      "branch": "master",
+      "component": "po",
+      "batch": "reviews/gnome-progress/accerciser-master-a11y-terminology-2026-11-28.po",
+      "sha256": "2a67b245bc2d2590aae0ff11634c3ca61d547815c666cbc4331b6f5ea955ec7d",
+      "entries_added": 0,
+      "entries_updated": 0,
+      "entries_already_matching": 14
+    },
+    {
+      "module": "at-spi2-core",
+      "branch": "gnome-51",
+      "component": "po",
+      "batch": "reviews/gnome-progress/at-spi2-core-gnome-51-a11y-terminology-2026-11-28.po",
+      "sha256": "cdad08cb47a002249e7e5cedf3f4195c9683212a15e487d1f860aef81042e0a7",
+      "entries_added": 0,
+      "entries_updated": 0,
+      "entries_already_matching": 23
+    },
+    {
+      "module": "at-spi2-core",
+      "branch": "main",
+      "component": "po",
+      "batch": "reviews/gnome-progress/at-spi2-core-main-a11y-terminology-2026-11-28.po",
+      "sha256": "1ba17d3e90d3078f5e76c0316013f31f55034e0692a0aa2c77aa8ccab797551b",
+      "entries_added": 0,
+      "entries_updated": 0,
+      "entries_already_matching": 23
+    },
     {
       "module": "gimp-help",
       "branch": "master",
@@ -6433,9 +6515,9 @@
       "component": "dialogs",
       "batch": "reviews/gnome-progress/gimp-help-master-dialogs-2026-11-28-batch-11.po",
       "sha256": "1781c75b50424cf54a8ef331a0526aef7dec7f32d740c323ec0d4d69c2cd14fd",
-      "entries_added": 7,
-      "entries_updated": 5,
-      "entries_already_matching": 12
+      "entries_added": 0,
+      "entries_updated": 1,
+      "entries_already_matching": 23
     },
     {
       "module": "gnumeric",
@@ -8506,10 +8588,20 @@
       "entries_added": 0,
       "entries_updated": 0,
       "entries_already_matching": 8
+    },
+    {
+      "module": "gtk",
+      "branch": "main",
+      "component": "po",
+      "batch": "reviews/gnome-progress/gtk-main-a11y-terminology-2026-11-28.po",
+      "sha256": "12b251acdf93953e91004136a153dc7548e370aad91bafd69b14e707e79a16e2",
+      "entries_added": 0,
+      "entries_updated": 0,
+      "entries_already_matching": 1
     }
   ],
-  "added_singular_pairs": 7,
-  "updated_reviewed_pairs": 4616,
+  "added_singular_pairs": 0,
+  "updated_reviewed_pairs": 4651,
   "plural_pairs_not_in_context_free_compendium": 818,
   "note": "Plural pairs remain in their reviewed PO archives. Context overrides keep ambiguous project-specific terms separate in sv-gnome.po; TMX stores project provenance and gettext context metadata."
 }
