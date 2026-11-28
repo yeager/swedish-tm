@@ -230,3 +230,5 @@ GNOME Help dialogs batch 12 (2026-11-28) reviewed 39 fuzzy translations against 
 
 
 GNOME Help dialogs batch 13 (2026-11-28) translated 25 empty strings and corrected two fuzzy entries against the current POT. Placeholders and DocBook markup match; l10n-lint reports 0 errors and warnings. Hunspell exceptions (GEGL, ikonstorlekar) are documented. The progress TM import added 11 unique pairs and updated 13 existing pairs. Current totals: 137,138 GNOME PO entries, 881,763 entries across exports and 762,778 unique pairs.
+
+GNOME Help dialogs batch 14 (2026-11-28) translated seven empty strings about network access and thumbnail preferences against the current POT. Placeholder/markup check and l10n-lint passed with no warnings; Hunspell reported no unknown terms. The batch adds no new unique TM pairs; reviewed entries are recorded in the progress manifest. Totals remain 137,138 GNOME PO entries and 762,778 unique pairs.
