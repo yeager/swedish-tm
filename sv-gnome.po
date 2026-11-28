@@ -6392,7 +6392,7 @@ msgstr "--select måste användas med minst en URI."
 #. from gnome:reviewed/gnome-terminal/master
 #. from gnome:reviewed/nautilus/main
 msgid "There was an error displaying help"
-msgstr "Ett fel uppstod vid visning av hjälpen"
+msgstr "Det gick inte att visa hjälpen"
 
 #. from gnome:nautilus
 msgid ""
@@ -19064,8 +19064,9 @@ msgid "Use the command line"
 msgstr "Använd kommandoraden"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "shell;prompt;command;commandline;cmd;"
-msgstr "skal;shell;prompt;kommando;kommandorad;cmd;"
+msgstr "skal;kommandotolk;kommandoprompt;kommando;kommandorad;cmd;"
 
 #. from gnome:gnome-terminal
 msgid "Preferences"
@@ -19092,33 +19093,36 @@ msgid "GPL-3.0+"
 msgstr "GPL-3.0+"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "GNOME Terminal is a terminal emulator application for accessing a UNIX shell"
 " environment which can be used to run programs available on your system."
 msgstr ""
-"GNOME Terminal är en terminalemulator som gör det möjligt att använda en "
-"UNIX-skalmiljö vilken kan användas för att köra program tillgängliga på ditt"
-" system."
+"GNOME Terminal är en terminalemulator för UNIX-skal, där du kan köra program"
+" som finns på systemet."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "It supports several profiles, multiple tabs and implements several keyboard "
 "shortcuts."
 msgstr ""
-"Den stödjer multipla profiler, flera flikar och implementerar flertalet "
-"tangentbordsgenvägar."
+"Den har stöd för flera profiler och flikar samt flera tangentbordsgenvägar."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "console"
-msgstr "console"
+msgstr "konsol"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "keyboard"
-msgstr "keyboard"
+msgstr "tangentbord"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "pointing"
-msgstr "pointing"
+msgstr "pekdon"
 
 #. from gnome:gnome-terminal
 msgid ""
@@ -19177,12 +19181,13 @@ msgid "Open a terminal from Files"
 msgstr "Öppna en terminal från Filer"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Open Terminal is a plugin for the Files application that adds a menu item to"
 " the context menu to open a terminal in the currently browsed directory."
 msgstr ""
-"Öppna terminal är en insticksmodul för programmet Filer som lägger till ett "
-"menyobjekt i kontextmenyn för att öppna en terminal i den öppnade katalogen."
+"Öppna terminal är en insticksmodul för Filer som lägger till ett menyobjekt "
+"i snabbvalsmenyn för att öppna en terminal i den aktuella katalogen."
 
 #. from gnome:gnome-terminal
 msgid "gnome-terminal"
@@ -19205,72 +19210,80 @@ msgid "Default color of text in the terminal"
 msgstr "Standardfärg för texten i terminalfönstret"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Default color of text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
-"Standardfärg för texten i terminalfönstret som en färgspecifikation (kan "
-"vara hexadecimala siffror i HTML-stil, eller ett färgnamn som ”red”)."
+"Standardfärg för terminaltexten, angiven som en färgspecifikation (till "
+"exempel hexadecimala siffror i HTML-format eller ett färgnamn som ”red”)."
 
 #. from gnome:gnome-terminal
 msgid "Default color of terminal background"
 msgstr "Standardfärg för terminalbakgrund"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
-"Standardfärg för terminalbakgrunden som en färgspecifikation (kan vara "
-"hexadecimala siffror i HTML-stil, eller ett färgnamn som ”red”)."
+"Standardfärg för terminalbakgrunden, angiven som en färgspecifikation (till "
+"exempel hexadecimala siffror i HTML-format eller ett färgnamn som ”red”)."
 
 #. from gnome:gnome-terminal
 msgid "Default color of bold text in the terminal"
 msgstr "Standardfärg för fet text i terminalfönstret"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Default color of bold text in the terminal, as a color specification (can be"
 " HTML-style hex digits, or a color name such as “red”). This is ignored if "
 "bold-color-same-as-fg is true."
 msgstr ""
-"Standardfärg för fet text i terminalfönstret som en färgspecifikation (kan "
-"vara hexadecimala siffror i HTML-stil eller ett färgnamn som ”red”). Detta "
-"ignoreras om bold-color-same-as-fg är true (sant)."
+"Standardfärg för fet terminaltext, angiven som en färgspecifikation (till "
+"exempel hexadecimala siffror i HTML-format eller ett färgnamn som ”red”). "
+"Färgen används inte om bold-color-same-as-fg är true (sant)."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether bold text should use the same color as normal text"
-msgstr "Huruvida fet text ska använda samma färg som vanlig text"
+msgstr "Anger om fet text ska ha samma färg som vanlig text"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
-msgstr ""
-"Om true (sant) kommer fet text att renderas med samma färg som normal text."
+msgstr "Om true (sant) återges fet text med samma färg som vanlig text."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Scale factor for the cell height to increase line spacing. (Does not "
 "increase the font’s height.)"
 msgstr ""
-"Skalningsfaktor för cellhöjden för att öka radavstånd. (Ökar inte "
-"typsnittets höjd.)"
+"Skalningsfaktor för teckencellernas höjd som ökar radavståndet. (Typsnittets"
+" höjd påverkas inte.)"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Scale factor for the cell width to increase letter spacing. (Does not "
 "increase the font’s width.)"
 msgstr ""
-"Skalningsfaktor för cellbredden för att öka bokstavsavstånd. (Ökar inte "
-"typsnittets bredd.)"
+"Skalningsfaktor för teckencellernas bredd som ökar teckenavståndet. "
+"(Typsnittets bredd påverkas inte.)"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to use custom cursor colors"
-msgstr "Huruvida anpassade markörfärger ska användas"
+msgstr "Anger om anpassade markörfärger ska användas"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "If true, use the cursor colors from the profile."
-msgstr "Om true (sant), använd markörfärgerna från profilen."
+msgstr "Om true (sant) används profilens markörfärger."
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/gnome-commander/main
@@ -19279,50 +19292,57 @@ msgid "Cursor background color"
 msgstr "Bakgrundsfärg för markör"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Custom color of the background of the terminal’s cursor, as a color "
 "specification (can be HTML-style hex digits, or a color name such as “red”)."
 " This is ignored if cursor-colors-set is false."
 msgstr ""
-"Anpassad färg för bakgrunden till terminalens markör som en "
-"färgspecifikation (kan vara hexadecimala siffror i HTML-stil eller ett "
-"färgnamn som ”red”). Detta ignoreras om cursor-colors-set är false (falskt)."
+"Anpassad bakgrundsfärg för terminalmarkören, angiven som en "
+"färgspecifikation (till exempel hexadecimala siffror i HTML-format eller ett"
+" färgnamn som ”red”). Färgen används inte om cursor-colors-set är false "
+"(falskt)."
 
 #. from gnome:gnome-terminal
 msgid "Cursor foreground colour"
 msgstr "Förgrundsfärg för markör"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Custom color for the foreground of the text character at the terminal’s "
 "cursor position, as a color specification (can be HTML-style hex digits, or "
 "a color name such as “red”). This is ignored if cursor-colors-set is false."
 msgstr ""
-"Anpassad färg för tecknets förgrund på terminalens markörposition som en "
-"färgspecifikation (kan vara hexadecimala siffror i HTML-stil eller ett "
-"färgnamn som ”red”). Detta ignoreras om cursor-colors-set är false (falskt)."
+"Anpassad förgrundsfärg för tecknet vid terminalmarkören, angiven som en "
+"färgspecifikation (till exempel hexadecimala siffror i HTML-format eller ett"
+" färgnamn som ”red”). Färgen används inte om cursor-colors-set är false "
+"(falskt)."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to use custom highlight colors"
-msgstr "Huruvida anpassade färgmarkeringsfärger ska användas"
+msgstr "Anger om anpassade markeringsfärger ska användas"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "If true, use the highlight colors from the profile."
-msgstr "Om true (sant), använd färgmarkeringsfärgerna från profilen."
+msgstr "Om true (sant) används profilens markeringsfärger."
 
 #. from gnome:gnome-terminal
 msgid "Highlight background color"
 msgstr "Bakgrundsfärg för färgmarkering"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Custom color of the background of the terminal’s highlight, as a color "
 "specification (can be HTML-style hex digits, or a color name such as “red”)."
 " This is ignored if highlight-colors-set is false."
 msgstr ""
-"Anpassad färg för bakgrunden till terminalens färgmarkering som en "
-"färgspecifikation (kan vara hexadecimala siffror i HTML-stil eller ett "
-"färgnamn som ”red”). Detta ignoreras om highlight-colors-set är false "
+"Anpassad bakgrundsfärg för markeringen i terminalen, angiven som en "
+"färgspecifikation (till exempel hexadecimala siffror i HTML-format eller ett"
+" färgnamn som ”red”). Färgen används inte om highlight-colors-set är false "
 "(falskt)."
 
 #. from gnome:gnome-terminal
@@ -19330,56 +19350,66 @@ msgid "Highlight foreground colour"
 msgstr "Förgrundsfärg för färgmarkering"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Custom color for the foreground of the text character at the terminal’s "
 "highlight position, as a color specification (can be HTML-style hex digits, "
 "or a color name such as “red”). This is ignored if highlight-colors-set is "
 "false."
 msgstr ""
-"Anpassad färg för teckens förgrund på terminalens färgmarkeringsposition som"
-" en färgspecifikation (kan vara hexadecimala siffror i HTML-stil eller ett "
-"färgnamn som ”red”). Detta ignoreras om highlight-colors-set är false "
+"Anpassad förgrundsfärg för tecknet vid terminalens markör, angiven som en "
+"färgspecifikation (till exempel hexadecimala siffror i HTML-format eller ett"
+" färgnamn som ”red”). Färgen används inte om highlight-colors-set är false "
 "(falskt)."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to perform bidirectional text rendering"
-msgstr "Huruvida dubbelriktad textrendering ska utföras"
+msgstr "Anger om dubbelriktad textåtergivning ska användas"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "If true, perform bidirectional text rendering (“BiDi”)."
-msgstr "Om true (sant), utför dubbelriktad textrendering (”BiDi”)."
+msgstr "Om true (sant) används dubbelriktad textåtergivning (”BiDi”)."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to perform Arabic shaping"
-msgstr "Huruvida formning av arabisk text ska utföras"
+msgstr "Anger om arabisk textformning ska användas"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "If true, shape Arabic text."
-msgstr "Om true (sant), forma arabisk text."
+msgstr "Om true (sant) formas arabisk text."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to enable SIXEL images"
-msgstr "Huruvida SIXEL-bilder ska aktiveras"
+msgstr "Anger om SIXEL-bilder ska aktiveras"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "If true, SIXEL sequences are parsed and images are rendered."
-msgstr "Om true (sant) så tolkas SIXEL-sekvenser och bilder renderas."
+msgstr "Om true (sant) tolkas SIXEL-sekvenser och bilder återges."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether bold is also bright"
-msgstr "Huruvida fet text också är ljus"
+msgstr "Anger om fet text också ska vara ljus"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "If true, setting bold on the first 8 colors also switches to their bright "
 "variants."
 msgstr ""
-"Om true (sant) så växlas de första 8 färgerna till sina ljusa varianter om "
-"de sätts till fetstil."
+"Om true (sant) växlar de första åtta färgerna till ljusa varianter när de "
+"görs feta."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to ring the terminal bell"
-msgstr "Huruvida terminalljudet ska användas"
+msgstr "Anger om terminalens ljudsignal ska användas"
 
 #. from gnome:gnome-terminal
 msgid ""
@@ -19422,128 +19452,141 @@ msgid "Number of lines to keep in scrollback"
 msgstr "Antal rader som ska behållas i rullningshistoriken"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don’t fit in the scrollback are"
 " discarded. If scrollback_unlimited is true, this value is ignored."
 msgstr ""
-"Antal rader i rullningshistoriken som ska behållas. Du kan rulla bakåt i "
-"terminalfönstret med detta antal rader; rader som inte får plats i "
-"rullningshistoriken förkastas. Om scrollback_unlimited är true (sant) så "
-"ignoreras detta värde."
+"Antal rader som ska behållas i rullningshistoriken. Du kan rulla så många "
+"rader bakåt i terminalen; rader som inte ryms tas bort. Om "
+"scrollback_unlimited är true (sant) ignoreras det här värdet."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr ""
-"Huruvida ett obegränsat antal rader ska behållas i rullningshistoriken"
+"Anger om ett obegränsat antal rader ska behållas i rullningshistoriken"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "If true, scrollback lines will never be discarded. The scrollback history is"
 " stored on disk temporarily, so this may cause the system to run out of disk"
 " space if there is a lot of output to the terminal."
 msgstr ""
-"Om true (sant) kommer rader i rullningshistoriken aldrig att förkastas. "
-"Rullningshistoriken lagras temporärt på disk så detta kan orsaka att "
-"systemet får slut på diskutrymme om det är mycket utdata i terminalfönstret."
+"Om true (sant) tas rader i rullningshistoriken aldrig bort. Historiken "
+"lagras tillfälligt på disk, så den kan fylla disken om terminalen visar "
+"mycket utdata."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to scroll to the bottom when a key is pressed"
-msgstr "Huruvida det ska rullas till nedersta läget då en tangent trycks ned"
+msgstr "Anger om terminalen ska rulla längst ned när en tangent trycks ned"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr ""
-"Om true (sant) hoppar rullningslisten till nedersta läget då en tangent "
-"trycks ned."
+"Om true (sant) flyttas rullningslisten längst ned när en tangent trycks ned."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to scroll to the bottom when there’s new output"
-msgstr "Huruvida det ska rullas till nedersta läget då det finns nya utdata"
+msgstr "Anger om terminalen ska rulla längst ned när nya utdata visas"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
-"Om true (sant) kommer terminalfönstret att rulla till nedersta läget så fort"
-" det finns nya utdata."
+"Om true (sant) rullar terminalen längst ned så snart nya utdata visas."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "What to do with the terminal when the child command exits"
-msgstr "Vad som ska göras med terminalfönstret när barnkommandot avslutar"
+msgstr "Vad som ska hända med terminalen när barnkommandot avslutas"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Possible values are “close” to close the terminal, “restart” to restart the "
 "command, and “hold” to keep the terminal open with no command running "
 "inside."
 msgstr ""
-"Möjliga värden är ”close” för att stänga terminalfönstret, ”restart” för att"
-" starta om kommandot och ”hold” för att hålla terminalfönstret öppet utan "
-"något kommando körandes inuti."
+"Möjliga värden är ”close” för att stänga terminalen, ”restart” för att "
+"starta om kommandot och ”hold” för att lämna terminalen öppen utan ett "
+"körande kommando."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to launch the command in the terminal as a login shell"
-msgstr ""
-"Huruvida kommandot inuti terminalfönstret ska startas som inloggningsskal"
+msgstr "Anger om kommandot i terminalen ska köras som ett inloggningsskal"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell "
 "(argv[0] will have a hyphen in front of it)."
 msgstr ""
-"Om true (sant) kommer kommandot inuti terminalfönstret att startas som ett "
-"inloggningsskal (argv[0] kommer att ha ett bindestreck före)."
+"Om true (sant) körs kommandot i terminalen som ett inloggningsskal (ett "
+"bindestreck läggs före argv[0])."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to preserve the working directory when opening a new terminal"
-msgstr "Huruvida arbetskatalogen ska bevaras då en ny terminal öppnas"
+msgstr "Anger om arbetskatalogen ska bevaras när en ny terminal öppnas"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Controls when opening a new terminal from a previous one carries over the "
 "working directory of the opening terminal to the new one."
 msgstr ""
-"Styr när öppnande av en ny terminal från en befintlig överför "
-"arbetskatalogen från den öppnande terminalen till den nya."
+"Anger om den nya terminalen ska ärva arbetskatalogen från terminalen den "
+"öppnades från."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to run a custom command instead of the shell"
-msgstr "Huruvida ett eget kommando ska köras i stället för skalet"
+msgstr "Anger om ett anpassat kommando ska köras i stället för skalet"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
 msgstr ""
-"Om true (sant) kommer värdet för inställningen custom_command att användas i"
-" stället för att ett skal körs."
+"Om true (sant) används värdet för inställningen custom_command i stället för"
+" att starta ett skal."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to blink the cursor"
-msgstr "Huruvida markören ska blinka"
+msgstr "Anger om markören ska blinka"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings,"
 " or “on” or “off” to set the mode explicitly."
 msgstr ""
-"Möjliga värden är ”system” för att använda globala inställningar för "
-"markörblinkning, eller ”on” eller ”off” för att uttryckligen ställa in "
-"önskat läge."
+"Möjliga värden är ”system” för att använda systemets globala inställning för"
+" markörblinkning, eller ”on” och ”off” för att välja läge uttryckligen."
 
 #. from gnome:gnome-terminal
 msgid "The cursor appearance"
 msgstr "Markörens utseende"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Possible values are “always” or “never” allow blinking text, or only when "
 "the terminal is “focused” or “unfocused”."
 msgstr ""
-"Möjliga värden är att ”always” (alltid) eller ”never” (aldrig) tillåta "
-"blinkande text, eller endast när terminalen är ”focused” (fokuserad) or "
-"”unfocused” (ej fokuserad)."
+"Möjliga värden är ”always” eller ”never” för att tillåta blinkande text "
+"alltid respektive aldrig, eller endast när terminalen är ”focused” (har "
+"fokus) eller ”unfocused” (saknar fokus)."
 
 #. from gnome:gnome-terminal
 msgid "Custom command to use instead of the shell"
@@ -19572,29 +19615,34 @@ msgid "The code sequence the Delete key generates"
 msgstr "Kodsekvensen som Delete-tangenten genererar"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to use the colors from the theme for the terminal widget"
-msgstr "Huruvida färgerna från temat ska användas för terminalkomponenten"
+msgstr "Anger om terminalkomponenten ska använda temats färger"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/bijiben/master
 #. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to use the system monospace font"
-msgstr "Huruvida systemtypsnittet för fastbredd ska användas"
+msgstr "Anger om systemets typsnitt med fast breddsteg ska användas"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to rewrap the terminal contents on window resize"
-msgstr "Huruvida radbrytningar ska justeras när storleken på fönstret ändras"
+msgstr ""
+"Anger om terminalinnehållet ska radbrytas om när fönstrets storlek ändras"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Which encoding to use"
-msgstr "Vilken kodning som ska användas"
+msgstr "Vilken teckenkodning som ska användas"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Whether ambiguous-width characters are narrow or wide when using UTF-8 "
 "encoding"
 msgstr ""
-"Huruvida tvetydig-bredd bokstäver är smala eller breda vid användning av "
+"Anger om tecken med tvetydig bredd ska räknas som smala eller breda vid "
 "UTF-8-kodning"
 
 #. from gnome:gnome-terminal
@@ -19649,8 +19697,9 @@ msgid "Keyboard shortcut to select all text"
 msgstr "Tangentbordsgenväg för att markera all text"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to open the Preferences dialog"
-msgstr "Tangentbordsgenväg för att öppna inställningsdialogen"
+msgstr "Tangentbordsgenväg för att öppna inställningsdialogrutan"
 
 #. from gnome:gnome-terminal
 msgid "Keyboard shortcut to toggle full screen mode"
@@ -19665,29 +19714,35 @@ msgid "Keyboard shortcut to toggle the read-only state"
 msgstr "Tangentbordsgenväg för att växla skrivskyddsläget"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to reset the terminal"
-msgstr "Tangentbordsgenväg för att återställa terminalfönstret"
+msgstr "Tangentbordsgenväg för att återställa terminalen"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to reset and clear the terminal"
-msgstr "Tangentbordsgenväg för att återställa och tömma terminalfönstret"
+msgstr "Tangentbordsgenväg för att återställa och tömma terminalen"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to open the search dialog"
-msgstr "Tangentbordsgenväg för att öppna sökdialogen"
+msgstr "Tangentbordsgenväg för att öppna sökdialogrutan"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to find the next occurrence of the search term"
-msgstr "Tangentbordsgenväg för att söka efter nästa förekomst av sökfrasen"
+msgstr "Tangentbordsgenväg för att söka efter nästa förekomst av söktexten"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to find the previous occurrence of the search term"
 msgstr ""
-"Tangentbordsgenväg för att söka efter föregående förekomst av sökfrasen"
+"Tangentbordsgenväg för att söka efter föregående förekomst av söktexten"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to clear the find highlighting"
-msgstr "Tangentbordsgenväg för att rensa sökmarkeringen"
+msgstr "Tangentbordsgenväg för att ta bort sökmarkeringen"
 
 #. from gnome:gnome-terminal
 msgid "Keyboard shortcut to switch to the previous tab"
@@ -19698,20 +19753,24 @@ msgid "Keyboard shortcut to switch to the next tab"
 msgstr "Tangentbordsgenväg för att växla till nästa flik"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to move the current tab to the left"
-msgstr "Tangentbordsgenväg för att flytta aktuell flik till vänster"
+msgstr "Tangentbordsgenväg för att flytta den aktuella fliken åt vänster"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to move the current tab to the right"
-msgstr "Tangentbordsgenväg för att flytta aktuell flik till höger"
+msgstr "Tangentbordsgenväg för att flytta den aktuella fliken åt höger"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to detach current tab"
-msgstr "Tangentbordsgenväg för att koppla loss aktuell flik"
+msgstr "Tangentbordsgenväg för att koppla loss den aktuella fliken"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to switch to the numbered tab"
-msgstr "Tangentbordsgenväg för att växla till flik med angivet nummer"
+msgstr "Tangentbordsgenväg för att växla till fliken med det angivna numret"
 
 #. from gnome:gnome-terminal
 msgid "Keyboard shortcut to switch to the last tab"
@@ -19722,20 +19781,24 @@ msgid "Keyboard shortcut to launch help"
 msgstr "Tangentbordsgenväg för att starta hjälp"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to make font larger"
-msgstr "Tangentbordsgenväg för att göra typsnitt större"
+msgstr "Tangentbordsgenväg för att förstora texten"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to make font smaller"
-msgstr "Tangentbordsgenväg för att göra typsnitt mindre"
+msgstr "Tangentbordsgenväg för att förminska texten"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to make font normal-size"
-msgstr "Tangentbordsgenväg för att göra typsnitt till normal storlek"
+msgstr "Tangentbordsgenväg för att återställa texten till normal storlek"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Keyboard shortcut to show the primary menu"
-msgstr "Tangentbordsgenväg för att visa den primära menyn"
+msgstr "Tangentbordsgenväg för att visa huvudmenyn"
 
 #. from gnome:gnome-terminal
 msgid "Whether the menubar has access keys"
@@ -19752,50 +19815,59 @@ msgstr ""
 " därför möjligt att inaktivera dem."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether shortcuts are enabled"
-msgstr "Huruvida snabbtangenter är aktiverade"
+msgstr "Anger om snabbtangenter är aktiverade"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Whether shortcuts are enabled. They may interfere with some applications run"
 " inside the terminal so it’s possible to turn them off."
 msgstr ""
-"Huruvida snabbtangenter är aktiverade. De kan påverka vissa program som kör "
-"i terminalen, så det är möjligt att slå av dem."
+"Anger om snabbtangenter är aktiverade. De kan störa vissa program som körs i"
+" terminalen och kan därför inaktiveras."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
-msgstr "Huruvida GTK:s standardsnabbtangent för menyradsåtkomst är aktiverad"
+msgstr ""
+"Anger om GTK:s standardsnabbtangent för att öppna menyraden är aktiverad"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
 "standard menubar accelerator to be disabled."
 msgstr ""
-"Normalt kan du komma åt menyraden genom att trycka F10. Detta kan också "
-"anpassas via gtkrc (gtk-menu-bar-accel = \"whatever\"). Detta alternativ "
-"möjliggör att standardmenyradsgenvägen inaktiveras."
+"Vanligtvis öppnar F10 menyraden. Detta kan också anpassas via gtkrc (gtk-"
+"menu-bar-accel = \"whatever\"). Med det här alternativet kan "
+"standardsnabbtangenten för menyraden inaktiveras."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether the shell integration is enabled"
-msgstr "Huruvida skalets integration är aktiverad"
+msgstr "Anger om skalintegrationen är aktiverad"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to ask for confirmation before closing a terminal"
-msgstr "Huruvida bekräftelse ska efterfrågas då terminalfönster stängs"
+msgstr "Anger om en bekräftelse ska begäras innan en terminal stängs"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Additional info section items to appear in the context menu"
-msgstr "Ytterligare informationssektionsobjekt som ska visas i snabbvalsmenyn"
+msgstr "Ytterligare informationsavsnitt som ska visas i snabbvalsmenyn"
 
 #. from gnome:gnome-terminal
 msgid "Whether to show the menubar in new windows"
 msgstr "Huruvida menyraden ska visas i nya fönster"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Whether to open new terminals as windows or tabs"
-msgstr "Huruvida nya terminaler ska öppnas som fönster eller flikar"
+msgstr "Anger om nya terminaler ska öppnas i fönster eller flikar"
 
 #. from gnome:gnome-terminal
 msgid "When to show the tabs bar"
@@ -19806,15 +19878,15 @@ msgid "The position of the tab bar"
 msgstr "Tabulatorradens position"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Whether new tabs should open next to the current one or at the last position"
-msgstr ""
-"Huruvida nya flikar ska öppnas intill den aktuella eller på den senaste "
-"positionen"
+msgstr "Anger om nya flikar ska öppnas intill den aktuella fliken eller sist"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Always check whether GNOME Terminal is the default terminal"
-msgstr "Kontrollera alltid huruvida GNOME Terminal är standardterminalen"
+msgstr "Kontrollera alltid om GNOME Terminal är standardterminal"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
@@ -20266,28 +20338,34 @@ msgid "White on black"
 msgstr "Vitt på svart"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "GNOME light"
-msgstr "GNOME ljus"
+msgstr "GNOME (ljust)"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "GNOME dark"
-msgstr "GNOME mörk"
+msgstr "GNOME (mörkt)"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Tango light"
-msgstr "Tango ljus"
+msgstr "Tango (ljust)"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Tango dark"
-msgstr "Tango mörk"
+msgstr "Tango (mörkt)"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Solarized light"
-msgstr "Ljus Solarized"
+msgstr "Solarized (ljust)"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Solarized dark"
-msgstr "Mörk Solarized"
+msgstr "Solarized (mörkt)"
 
 #. from gnome:gnome-terminal
 msgid "Error parsing command: %s"
@@ -20325,10 +20403,14 @@ msgid "Korean"
 msgstr "Koreansk"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gtksourceview/master
 msgid "Chinese Simplified"
 msgstr "Förenklad kinesisk"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/goffice/master
 msgid "Western"
 msgstr "Västerländsk"
 
@@ -20371,6 +20453,8 @@ msgid "Arabic"
 msgstr "Arabisk"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gtksourceview/master
 msgid "Nordic"
 msgstr "Nordisk"
 
@@ -20382,6 +20466,8 @@ msgid "Baltic"
 msgstr "Baltisk"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gtksourceview/master
 msgid "Celtic"
 msgstr "Keltisk"
 
@@ -20393,6 +20479,8 @@ msgid "Romanian"
 msgstr "Rumänsk"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gtksourceview/master
 msgid "South European"
 msgstr "Sydeuropeisk"
 
@@ -20432,6 +20520,7 @@ msgstr "Kroatiska"
 #. from gnome:reviewed/gtksourceview/master
 #. from gnome:reviewed/evolution/master
 #. from gnome:reviewed/damned-lies/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Thai"
 msgstr "Thailändsk"
 
@@ -20480,8 +20569,9 @@ msgid "Find next occurrence"
 msgstr "Sök nästa förekomst"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Toggle search options"
-msgstr "Visa sökalternativ"
+msgstr "Växla sökalternativ"
 
 #. from gnome:gnome-terminal
 msgid "Match as _regular expression"
@@ -20524,13 +20614,13 @@ msgstr "Kopiera som HTML"
 #. from gnome:reviewed/gnome-commander/main
 #. from gnome:reviewed/gnome-terminal/master
 msgid "Find Next"
-msgstr "Sök n_ästa"
+msgstr "Sök nästa"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/gnome-commander/main
 #. from gnome:reviewed/gnome-terminal/master
 msgid "Find Previous"
-msgstr "Sök före_gående"
+msgstr "Sök föregående"
 
 #. from gnome:gnome-terminal
 msgid "Clear Highlight"
@@ -20626,7 +20716,7 @@ msgstr "Växla till flik %u"
 #. from gnome:reviewed/gnome-terminal/master
 #. from gnome:reviewed/gnome-control-center/main
 msgid "_Action"
-msgstr "Åt_gärd"
+msgstr "Å_tgärd"
 
 #. from gnome:gnome-terminal
 msgid "Shortcut _Key"
@@ -20686,7 +20776,7 @@ msgstr "_Avancerat"
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/gnome-terminal/master
 msgid "Reset and C_lear"
-msgstr "Återställ och t_öm"
+msgstr "Återställ och _töm"
 
 #. from gnome:gnome-terminal
 msgid "_1. 80×24"
@@ -20705,8 +20795,9 @@ msgid "_4. 132×43"
 msgstr "_4. 132×43"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "_Inspector"
-msgstr "_Inspekterare"
+msgstr "_Inspektör"
 
 #. from gnome:gnome-terminal
 #. from gnome:reviewed/telegnome/master
@@ -20735,7 +20826,7 @@ msgstr "S_täng flik"
 #. from gnome:reviewed/gnome-terminal/master
 #. from gnome:reviewed/evolution/master
 msgid "_Close Window"
-msgstr "Stän_g fönster"
+msgstr "S_täng fönster"
 
 #. from gnome:gnome-terminal
 msgid "Copy as _HTML"
@@ -20853,12 +20944,13 @@ msgstr ""
 "terminal."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Use “%s” to terminate the options and put the command line to execute after "
 "it."
 msgstr ""
-"Använd ”%s” för att visa att inga fler flaggor kommer och få kommandoraden "
-"att exekvera."
+"Använd ”%s” för att avsluta flaggorna och ange kommandoraden som ska köras "
+"efter det."
 
 #. from gnome:gnome-terminal
 msgid "Option “%s” is no longer supported in this version of gnome-terminal."
@@ -20869,16 +20961,18 @@ msgid "Argument to “%s” is not a valid command: %s"
 msgstr "Argumentet till ”%s” är inte ett giltigt kommando: %s"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Two roles given for one window"
-msgstr "Två roller angivna för ett fönster"
+msgstr "Två fönsterroller har angetts för samma fönster"
 
 #. from gnome:gnome-terminal
 msgid "“%s” option given twice for the same window\n"
 msgstr "Flaggan ”%s” angavs två gånger för samma fönster\n"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Cannot pass FD %d twice"
-msgstr "Kan inte skicka FD %d två gånger"
+msgstr "FD %d kan inte skickas två gånger"
 
 #. from gnome:gnome-terminal
 msgid "“%s” is not a valid zoom factor"
@@ -20901,23 +20995,28 @@ msgstr ""
 "kommandoraden"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Can only use --wait once"
-msgstr "Kan endast använda --wait en gång"
+msgstr "--wait kan bara användas en gång"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Not a valid terminal config file."
-msgstr "Inte en giltig terminalkonfigurationsfil."
+msgstr "Det här är inte en giltig terminalkonfigurationsfil."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Incompatible terminal config file version."
-msgstr "Inkompatibel version för terminalkonfigurationsfil."
+msgstr "Terminalkonfigurationsfilens version är inkompatibel."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Do not register with the activation nameserver, do not re-use an active "
 "terminal"
 msgstr ""
-"Registrera inte i aktiveringsnamnservern, återanvänd inte en aktiv terminal"
+"Registrera dig inte hos aktiveringsnamnservern och återanvänd inte en aktiv "
+"terminal"
 
 #. from gnome:gnome-terminal
 msgid "Load a terminal configuration file"
@@ -20932,16 +21031,19 @@ msgid "Show preferences window"
 msgstr "Visa inställningsfönster"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Print environment variables to interact with the terminal"
-msgstr "Skriv ut miljövariabler som interagerar med terminalen"
+msgstr "Skriv ut miljövariabler för kommunikation med terminalen"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Increase diagnostic verbosity"
-msgstr "Öka diagnostisk informationsnivå"
+msgstr "Visa fler diagnostikmeddelanden"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Suppress output"
-msgstr "Undertryck utmatning"
+msgstr "Visa inte utdata"
 
 #. from gnome:gnome-terminal
 msgid "Open a new window containing a tab with the default profile"
@@ -20964,8 +21066,9 @@ msgid "Maximize the window"
 msgstr "Maximera fönstret"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Full-screen the window"
-msgstr "Helskärm för fönstret"
+msgstr "Visa fönstret i helskärmsläge"
 
 #. from gnome:gnome-terminal
 msgid ""
@@ -20987,12 +21090,14 @@ msgid "ROLE"
 msgstr "ROLL"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Set the last specified tab as the active one in its window"
-msgstr "Ställ in den senast angivna fliken som den aktiva i dess fönster"
+msgstr "Gör den senast angivna fliken aktiv i sitt fönster"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Execute the argument to this option inside the terminal"
-msgstr "Kör argumentet till denna flagga inuti terminalen"
+msgstr "Kör argumentet till det här alternativet i terminalen"
 
 #. from gnome:gnome-terminal
 msgid "Use the given profile instead of the default profile"
@@ -21003,8 +21108,9 @@ msgid "PROFILE-NAME"
 msgstr "PROFILNAMN"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Set the initial terminal title"
-msgstr "Ställ in initial terminalstorlek"
+msgstr "Ange terminalens ursprungliga titel"
 
 #. from gnome:gnome-terminal
 msgid "TITLE"
@@ -21018,23 +21124,25 @@ msgstr "Ställ in arbetskatalogen"
 #. from gnome:reviewed/console/main
 #. from gnome:reviewed/gnome-terminal/master
 msgid "DIRNAME"
-msgstr "KATNAMN"
+msgstr "KATALOGNAMN"
 
 #. from gnome:gnome-terminal
 msgid "Wait until the child exits"
 msgstr "Vänta tills barnet avslutar"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Forward file descriptor"
-msgstr "Vidarebefordra filhandtag"
+msgstr "Vidarebefordra filbeskrivare"
 
 #. from gnome:gnome-terminal
 msgid "Set the terminal’s zoom factor (1.0 = normal size)"
 msgstr "Ställ in terminalens zoomfaktor (1,0 = normal storlek)"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "ZOOM"
-msgstr "ZOOM"
+msgstr "ZOOMFAKTOR"
 
 #. from gnome:gnome-terminal
 msgid "GNOME Terminal Emulator"
@@ -21057,28 +21165,32 @@ msgid "Show terminal options"
 msgstr "Visa terminalflaggor"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Window options; if used before the first --window or --tab argument, sets "
 "the default for all windows:"
 msgstr ""
-"Fönsterflaggor; om används innan första argumentet --window eller --tab, "
-"ställer in standarden för alla fönster:"
+"Fönsteralternativ. Om de anges före det första --window- eller --tab-"
+"argumentet gäller de som standard för alla fönster:"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Show per-window options"
-msgstr "Visa flaggor för per-fönster"
+msgstr "Visa alternativ för varje fönster"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "Terminal options; if used before the first --window or --tab argument, sets "
 "the default for all terminals:"
 msgstr ""
-"Terminalflaggor; om används innan första argumentet --window eller --tab, "
-"ställer in standarden för alla terminaler:"
+"Terminalalternativ. Om de anges före det första --window- eller --tab-"
+"argumentet gäller de som standard för alla terminaler:"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Show per-terminal options"
-msgstr "Visa flaggor för per-terminal"
+msgstr "Visa alternativ för varje terminal"
 
 #. from gnome:gnome-terminal
 msgid "Profile “%s”"
@@ -21137,28 +21249,32 @@ msgid "This is the default profile"
 msgstr "Detta är standardprofilen"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "No command supplied nor shell requested"
-msgstr "Inget kommando tillhandahölls, inte heller efterfrågades ett skal"
+msgstr "Varken kommando eller skal angavs"
 
 #. from gnome:gnome-terminal
 msgid "_Relaunch"
 msgstr "Sta_rta igen"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "There was an error creating the child process for this terminal"
-msgstr "Ett fel uppstod vid skapande av barnprocessen för denna terminal"
+msgstr "Det gick inte att skapa en barnprocess för den här terminalen"
 
 #. from gnome:gnome-terminal
 msgid "The child process exited normally with status %d."
 msgstr "Barnprocessen avslutades normalt med status %d."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "The child process was aborted by signal %d."
-msgstr "Barnprocessen terminerades av signal %d."
+msgstr "Barnprocessen avbröts av signal %d."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "The child process was aborted."
-msgstr "Barnprocessen terminerades."
+msgstr "Barnprocessen avbröts."
 
 #. from gnome:gnome-terminal
 msgid "Close tab"
@@ -21286,28 +21402,31 @@ msgid "Close this terminal?"
 msgstr "Stäng denna terminal?"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "There are still processes running in some terminals in this window. Closing "
 "the window will kill all of them."
 msgstr ""
-"Det finns fortfarande processer igång i några terminaler i detta fönster. "
-"Stängning av fönstret kommer att döda dem alla."
+"Det kör fortfarande processer i vissa terminaler i det här fönstret. Om du "
+"stänger fönstret avslutas alla dessa processer."
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "There is still a process running in this terminal. Closing the terminal will"
 " kill it."
 msgstr ""
-"Det finns fortfarande en process igång i denna terminal. Stängning av "
-"terminalen kommer att döda den."
+"Det kör fortfarande en process i den här terminalen. Om du stänger "
+"terminalen avslutas processen."
 
 #. from gnome:gnome-terminal
 msgid "C_lose Window"
 msgstr "Stän_g fönster"
 
 #. from gnome:gnome-terminal
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Failed to parse arguments: %s\n"
-msgstr "Misslyckades med att tolka argument: %s\n"
+msgstr "Kunde inte tolka argumenten: %s\n"
 
 #. from gnome:gnome-control-center
 msgid "Add Keyboard Shortcuts"
@@ -23323,6 +23442,7 @@ msgstr "Ställ in anpassat kortkommando"
 #. from gnome:reviewed/whisp/main
 #. from gnome:reviewed/ptyxis/main
 #. from gnome:reviewed/Whisp/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Set Shortcut"
 msgstr "Ställ in kortkommando"
 
@@ -43469,6 +43589,8 @@ msgstr "Serif"
 #. from gnome:reviewed/gnome-maps/main
 #. from gnome:reviewed/meld/main
 #. from gnome:reviewed/gtk/main
+#. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gnote/master
 msgid "Light"
 msgstr "Ljus"
 
@@ -43480,6 +43602,8 @@ msgstr "Ljus"
 #. from gnome:reviewed/gnome-maps/main
 #. from gnome:reviewed/highscore/main
 #. from gnome:reviewed/meld/main
+#. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/gnote/master
 msgid "Dark"
 msgstr "Mörk"
 
@@ -45627,6 +45751,7 @@ msgstr "Rulla automatiskt när du skriver in text"
 #. from gnome:y-main.sv
 #. from gnome:reviewed/ptyxis/main
 #. from gnome:reviewed/foundry/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Limit Scrollback"
 msgstr "Begränsa rullningshistorik"
 
@@ -68586,6 +68711,7 @@ msgstr "Photoshop-bild"
 
 #. from gnome:GIMP
 #. from gnome:reviewed/webkit/main
+#. from gnome:reviewed/gimp/master
 msgid "Portable Document Format"
 msgstr "Portabelt dokumentformat"
 
@@ -76614,8 +76740,9 @@ msgstr "Färgsuddning (f)"
 #. from gnome:reviewed/gimp/master
 #. from gnome:reviewed/gimp-help — GIMP User Manual/master
 #. from gnome:reviewed/gimp-help/master
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Overlay"
-msgstr "Överdrag"
+msgstr "Överlagrad"
 
 #. from gnome:GIMP
 msgid "LCh Hue"
@@ -92162,6 +92289,7 @@ msgstr "pågående"
 #. from gnome:NetworkManager-openconnect
 #. from gnome:reviewed/packagekit/main
 #. from gnome:reviewed/ptyxis/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "disabled"
 msgstr "inaktiverad"
 
@@ -107868,8 +107996,9 @@ msgid "Auto-complete"
 msgstr "Automatiskt komplettering"
 
 #. from gnome:balsa
+#. from gnome:reviewed/gnome-terminal/master
 msgid "_Set as default"
-msgstr "_Sätt som standard"
+msgstr "_Ange som standard"
 
 #. from gnome:balsa
 msgid "Miscellaneous spelling settings"
@@ -114717,10 +114846,14 @@ msgid "%u of %u"
 msgstr "%u av %u"
 
 #. from gnome:builder-main.sv
+#. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/ptyxis/main
 msgid "Enter new shortcut to change <b>%s</b>."
 msgstr "Ange ny genväg för att ändra <b>%s</b>."
 
 #. from gnome:builder-main.sv
+#. from gnome:reviewed/gnome-terminal/master
+#. from gnome:reviewed/ptyxis/main
 msgid "Press Escape to cancel or Backspace to disable."
 msgstr ""
 "Tryck på Escape-tangenten för att avbryta eller backsteg för att inaktivera."
@@ -211146,6 +211279,7 @@ msgstr "Huruvida text ska radbrytas."
 #. from gnome:reviewed/gnome-text-editor/main
 #. from gnome:reviewed/ptyxis/main
 #. from gnome:reviewed/bijiben/master
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Use System Font"
 msgstr "Använd systemets typsnitt"
 
@@ -318733,10 +318867,12 @@ msgid "Blur the background visible through transparent windows"
 msgstr "Gör bakgrunden som syns genom genomskinliga fönster suddig"
 
 #. from gnome:reviewed/ptyxis/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "List of punctuation characters that are treated as word characters"
 msgstr "Lista över skiljetecken som ska behandlas som tecken i ord"
 
 #. from gnome:reviewed/ptyxis/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid ""
 "By default, when doing word-wise selection, most punctuation breaks up word "
 "boundaries. This list of exceptions will instead be treated as part of the "
@@ -721843,6 +721979,7 @@ msgid "A list of UUID for every profile"
 msgstr "En lista med UUID för varje profil"
 
 #. from gnome:reviewed/ptyxis/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "New Tab Position"
 msgstr "Position för ny flik"
 
@@ -722253,6 +722390,7 @@ msgid "Whole _Words"
 msgstr "Hela _ord"
 
 #. from gnome:reviewed/ptyxis/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Use _Regular Expressions"
 msgstr "Använd _reguljära uttryck"
 
@@ -722352,6 +722490,7 @@ msgid "Backspace Key"
 msgstr "Backstegstangent"
 
 #. from gnome:reviewed/ptyxis/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Sequence to send for Backspace key"
 msgstr "Sekvens att skicka för backstegstangenten"
 
@@ -722412,6 +722551,7 @@ msgid "Show this preferences window"
 msgstr "Visa detta inställningsfönster"
 
 #. from gnome:reviewed/ptyxis/main
+#. from gnome:reviewed/gnome-terminal/master
 msgid "Escape Sequence"
 msgstr "Utrymningssekvens"
 
@@ -726075,3 +726215,283 @@ msgstr "Det gick inte att läsa in fjärrfilen."
 #. from gnome:reviewed/papers/main
 msgid "Failed to Reload Document."
 msgstr "Det gick inte att läsa in dokumentet igen."
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "https://gitlab.gnome.org/GNOME/gnome-terminal/-/wikis/home"
+msgstr "https://gitlab.gnome.org/GNOME/gnome-terminal/-/wikis/home"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "https://gitlab.gnome.org/GNOME/gnome-terminal/-/work_items"
+msgstr "https://gitlab.gnome.org/GNOME/gnome-terminal/-/work_items"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "https://gitlab.gnome.org/GNOME/gnome-terminal/-/wikis/FAQ"
+msgstr "https://gitlab.gnome.org/GNOME/gnome-terminal/-/wikis/FAQ"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "https://help.gnome.org/users/gnome-terminal/stable/"
+msgstr "https://help.gnome.org/users/gnome-terminal/stable/"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "https://l10n.gnome.org/module/gnome-terminal/"
+msgstr "https://l10n.gnome.org/module/gnome-terminal/"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "https://gitlab.gnome.org/GNOME/gnome-terminal"
+msgstr "https://gitlab.gnome.org/GNOME/gnome-terminal"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "GNOME Terminal Developers"
+msgstr "GNOME-terminalemulator"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Whether to enable kinetic scrolling"
+msgstr "Anger om tröghetsrullning ska aktiveras"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Whether to scroll to the bottom when text is inserted"
+msgstr "Anger om terminalen ska rulla längst ned när text klistras in"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid ""
+"If true, the terminal will scroll to the bottom when text is inserted by "
+"paste."
+msgstr "Om true (sant) rullar terminalen längst ned när text klistras in."
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Keyboard shortcut to move the current tab to the start"
+msgstr ""
+"Tangentbordsgenväg för att flytta den aktuella fliken längst till vänster"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Keyboard shortcut to move the current tab to the end"
+msgstr ""
+"Tangentbordsgenväg för att flytta den aktuella fliken längst till höger"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Keyboard shortcut to show the tabs overview"
+msgstr "Tangentbordsgenväg för att visa fliköversikten"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Whether windows should have rounded corners"
+msgstr "Anger om fönster ska ha rundade hörn"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Move Tab to the Start"
+msgstr "Flytta flik till vänster"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Move Tab to the End"
+msgstr "Flytta flik till vänster"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Show Tabs Overview"
+msgstr "Visa fliköversikten"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Search up to next result"
+msgstr "Sök framåt till nästa resultat"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Search down to next result"
+msgstr "Sök bakåt till nästa resultat"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "New Tab from Profile"
+msgstr "Ny flik från profil"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Reset _Zoom"
+msgstr "Återställ _zoom"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "_Pin Terminal"
+msgstr "_Fäst terminal"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "_Unpin Terminal"
+msgstr "_Lossa terminal"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Cannot specify more than one command to run"
+msgstr "Det går inte att ange mer än ett kommando att köra"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "_Reset to default"
+msgstr "Återställ till _standard"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Top only"
+msgstr "Endast upptill"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Open New Terminals"
+msgstr "Öppna nya terminaler"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "In Tab"
+msgstr "På en flik"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "In Window"
+msgstr "I ett fönster"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Accelerator Key (F10 by default)"
+msgstr "Snabbtangent (F10 som standard)"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "View and Customize Shortcuts"
+msgstr "Visa och anpassa snabbtangenter"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Ask to Remain Default"
+msgstr "Fråga om GNOME Terminal ska fortsätta vara standardterminal"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Allow Blinking Text"
+msgstr "Tillåt blinkande text"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Use Colors from Palette"
+msgstr "Använd färger från paletten"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Use Colors from Scheme"
+msgstr "Använd färger från färgschemat"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Override Default Color"
+msgstr "Åsidosätt standardfärg"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Choose Text Color"
+msgstr "Välj textfärg"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Choose Background Color"
+msgstr "Välj bakgrundsfärg"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Override Bold Color"
+msgstr "Åsidosätt färgen för fet text"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Choose Bold Text Color"
+msgstr "Välj färg för fet text"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Override Cursor Color"
+msgstr "Åsidosätt markörfärg"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Choose Cursor Foreground Color"
+msgstr "Välj markörens förgrundsfärg"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Choose Cursor Background Color"
+msgstr "Välj markörens bakgrundsfärg"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Override Highlight Color"
+msgstr "Åsidosätt markeringsfärg"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Choose Highlight Foreground Color"
+msgstr "Välj markeringens förgrundsfärg"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Choose Highlight Background Color"
+msgstr "Välj markeringens bakgrundsfärg"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Show Bold Text in Bright Colors"
+msgstr "Visa fet text i ljusa färger"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Blinking"
+msgstr "Blinkning"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Terminal Size"
+msgstr "Terminalstorlek"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Cell Width Scale"
+msgstr "Skala för cellbredd"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Increases the width of character cells"
+msgstr "Ökar teckencellernas bredd"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Cell Height Scale"
+msgstr "Skala för cellhöjd"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Increase the height of character cells"
+msgstr "Öka teckencellernas höjd"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Show scrollbar"
+msgstr "Visa rullningslist"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Kinetic scrolling"
+msgstr "Tröghetsrullning"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "When used on touchscreens"
+msgstr "Vid användning på pekskärmar"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Scroll on Paste"
+msgstr "Rulla vid inklistring"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Enable SIXEL images"
+msgstr "Aktivera SIXEL-bilder"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Terminal bell"
+msgstr "Terminalsignal"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Run command as a login shell"
+msgstr "Kör kommandot som inloggningsskal"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Preserve the working directory when opening a new terminal"
+msgstr "Anger om arbetskatalogen ska bevaras när en ny terminal öppnas"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "When command exits"
+msgstr "När kommandot avslutas"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Close terminal"
+msgstr "Stäng terminal"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Restart command"
+msgstr "Starta om kommandot"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Hold terminal"
+msgstr "Behåll terminalen öppen"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Enable Shortcuts"
+msgstr "Aktivera snabbtangenter"
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid ""
+"You should have received a copy of the GNU General Public License along with"
+" GNOME Terminal.  If not, see &lt;http://www.gnu.org/licenses/&gt;."
+msgstr ""
+"Du bör ha fått en kopia av GNU General Public License tillsammans med GNOME "
+"Terminal. Om inte, se &lt;http://www.gnu.org/licenses/&gt;."
+
+#. from gnome:reviewed/gnome-terminal/master
+msgid "Leave Full Screen"
+msgstr "Avsluta helskärmsläge"

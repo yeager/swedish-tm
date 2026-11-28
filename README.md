@@ -22,8 +22,8 @@ för rad.
 
 ## English reference
 
-**762 670 unique English–Swedish translation pairs** in 16 ecosystem exports
-(881 668 entries before deduplicating across ecosystems). These counts describe
+**762 750 unique English–Swedish translation pairs** in 16 ecosystem exports
+(881 736 entries before deduplicating across ecosystems). These counts describe
 the files currently shipped in this repository, including the latest reviewed
 GNOME and Translation Project updates.
 
@@ -34,7 +34,7 @@ The GNOME TM was refreshed from the reviewed archive after a full 72-string revi
 entries across five current master and gimp-help-3-0 catalogs (15 unique source
 strings). The Loupe Help review added 66 GNOME TM entries; the 78-string catalog
 also includes 11 unchanged image references and existing pairs. The exported
-GNOME TM now contains 137 043 entries and passes the repository validator. The latest
+GNOME TM now contains 137 111 entries and passes the repository validator. The latest
 GIMP Help glossary added 253 completed translations and corrected four existing
 pairs; all 342 translatable entries are present, with 18 unused image metadata
 markers intentionally left blank. The latest GIMP plug-in catalog completed 149
@@ -53,7 +53,7 @@ The refreshed TM also includes five post-upload Ptyxis corrections, including th
 GNOME Firmware, Ptyxis and GNOME Text Editor were uploaded and verified on Damned Lies on 2026-11-27. Rygel's previous version was uploaded on 2026-11-23; two later quality corrections remain local and are queued for submission.
 
 The refreshed GNOME TM validates with
-137 043 entries (762 670 unique pairs across all exports).
+137 111 entries (762 750 unique pairs across all exports).
 
 ## Translation Project review update, 2026-09-23
 
@@ -77,7 +77,7 @@ gettext validity, XML safety, format agreement and statistics consistency.
 
 | Ecosystem | Pairs in export | TMX | PO compendium |
 |-----------|------------------:|-----|---------------|
-| GNOME | 137 043 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
+| GNOME | 137 111 | [sv-gnome.tmx](sv-gnome.tmx) | [sv-gnome.po](sv-gnome.po) |
 | KDE | 35 507 | [sv-kde.tmx](sv-kde.tmx) | [sv-kde.po](sv-kde.po) |
 | Mozilla | 19 293 | [sv-mozilla.tmx](sv-mozilla.tmx) | [sv-mozilla.po](sv-mozilla.po) |
 | Ubuntu | 50 525 | [sv-ubuntu.tmx](sv-ubuntu.tmx) | [sv-ubuntu.po](sv-ubuntu.po) |
@@ -212,8 +212,10 @@ Project-specific reviewed data and context-preserving PO/TMX exports are documen
 
 Resources main/po was reviewed against the latest 395-entry POT on 2026-11-28: 1 new translation and 28 existing translations corrected. The resulting catalog is complete and fuzzy-free; its reviewed singular pairs are included in the GNOME TM. The latest import from 386 completed current-branch GNOME reviews applied 106 new and 4,477 updated pairs, including Papers main/po.
 
-The Quadrapassel `gnome-51` review covered all 103 current POT strings, corrected 48 existing translations and added six new unique pairs to the GNOME TM. The current TM validates with 137 043 entries and 762 670 unique pairs across all exports.
+The Quadrapassel `gnome-51` review covered all 103 current POT strings, corrected 48 existing translations and added six new unique pairs to the GNOME TM. The current TM validates with 137 111 entries and 762 750 unique pairs across all exports.
 
-WebKitGTK `main/po` was reviewed against its latest 517-entry POT on 2026-11-28. One fuzzy translation was corrected, 169 additional strings were improved, and all 517 entries are complete. WebKit’s reviewed entries are now in the GNOME TM; the updated TM validates with 137 043 GNOME entries and 762 670 unique pairs across all exports.
+GNOME Terminal `master/po` was re-reviewed against its current 506-entry POT on 2026-11-28. The stale local 2023 catalog was replaced: 34 strings were translated, 91 fuzzy entries reviewed (85 corrected and six confirmed), and 143 other existing translations corrected. All 506 entries are now complete and fuzzy-free. The current GNOME TM validates with 137 111 entries and 762 750 unique pairs across all exports.
 
-Papers `main/po` was reviewed against its 493-entry POT on 2026-11-28. Three empty strings were translated, all 13 fuzzy entries were reviewed (12 corrected and one confirmed without a text change), and 95 other translations were corrected. The current TM validates with 137 043 entries and 762 670 unique pairs across all exports.
+WebKitGTK `main/po` was reviewed against its latest 517-entry POT on 2026-11-28. One fuzzy translation was corrected, 169 additional strings were improved, and all 517 entries are complete. WebKit’s reviewed entries are now in the GNOME TM; the updated TM validates with 137 111 GNOME entries and 762 750 unique pairs across all exports.
+
+Papers `main/po` was reviewed against its 493-entry POT on 2026-11-28. Three empty strings were translated, all 13 fuzzy entries were reviewed (12 corrected and one confirmed without a text change), and 95 other translations were corrected. The current TM validates with 137 111 entries and 762 750 unique pairs across all exports.
