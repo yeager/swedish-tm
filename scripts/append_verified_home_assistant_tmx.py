@@ -19,7 +19,13 @@ from xml.etree import ElementTree as ET
 
 def unit(entry: dict[str, str]) -> str:
     required = {"key", "key_id", "translation_id", "en", "sv"}
-    optional = {"verification_method", "verified_date", "status", "source_revision"}
+    optional = {
+        "verification_method",
+        "verified_date",
+        "status",
+        "source_revision",
+        "previous_review",
+    }
     if not required.issubset(entry) or not set(entry).issubset(required | optional) or any(not entry[name] for name in required):
         raise ValueError("each entry must have non-empty key_id, key, translation_id, en and sv")
     # JSON producers may emit these numeric Lokalise identifiers as JSON
@@ -28,7 +34,7 @@ def unit(entry: dict[str, str]) -> str:
     key_id = str(entry["key_id"])
     if not translation_id.isdigit() or not key_id.isdigit():
         raise ValueError(f"{entry['key']}: IDs must be decimal")
-    properties = (
+    properties = [
         ("source", entry["key"]),
         ("lokalise-key-id", key_id),
         ("lokalise-project-id", "130246255a974bd3b5e8a1.51616605"),
@@ -36,7 +42,9 @@ def unit(entry: dict[str, str]) -> str:
         ("status", entry.get("status", "saved-and-read-back")),
         ("verified-date", entry.get("verified_date", "2026-11-20")),
         ("source-revision", entry.get("source_revision", "")),
-    )
+    ]
+    if entry.get("previous_review"):
+        properties.append(("review-history", entry["previous_review"]))
     props = "".join(f'<prop type="{name}">{escape(value)}</prop>' for name, value in properties)
     return (
         f'<tu tuid="lokalise:{translation_id}">{props}'
